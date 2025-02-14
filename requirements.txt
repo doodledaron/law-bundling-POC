@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+jinja2
+paddlepaddle
+paddleocr
+opencv-python
+numpy
+pdf2image
+setuptools
+python-multipart

@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.wheel
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written into a dist/ subdirectory.
+#  But we don't rely on it.
+*.manifest
+*.spec
+
+# IDE/editor
+.idea
+.project
+*.swp
+*~
+*.tmp
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+
+# PaddleOCR related (if any)
+__output__
+log.txt
