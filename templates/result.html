@@ -1,115 +1,236 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>OCR Result</title>
+    <title>Document Analysis Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
-            font-family: sans-serif;
-            background-color: #f0f8ff;
-            color: #000080;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
+        :root {
+            --primary-color: #1a73e8;
+            --secondary-color: #4285f4;
+            --background-color: #f8f9fa;
+            --text-color: #202124;
+            --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            --border-color: #e0e0e0;
+        }
+
+        * {
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+        }
+
         h1 {
-            color: #000080;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            text-align: center;
         }
+
         h2 {
-            color: #000080;
-            margin-top: 20px;
+            color: var(--primary-color);
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary-color);
         }
-        .content-box {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 4px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-            width: 80%;
-            text-align: left;
-            margin: 10px 0;
+
+        .field-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
         }
+
         .field-item {
-            margin-bottom: 15px;
-            padding: 10px;
-            border-bottom: 1px solid #e6e6fa;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background-color: #fff;
         }
+
         .field-label {
-            font-weight: bold;
-            color: #000080;
-            margin-right: 10px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            display: block;
         }
+
         .field-value {
-            color: #4a4a4a;
+            color: var(--text-color);
+            word-break: break-word;
         }
-        a {
-            color: #000080;
+
+        .confidence-score {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: #e8f0fe;
+            border-radius: 8px;
+        }
+
+        .score-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .score-explanation {
+            font-size: 0.9rem;
+            color: #5f6368;
+        }
+
+        .full-text {
+            white-space: pre-wrap;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .summary-box {
+            background-color: #e8f0fe;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
             text-decoration: none;
-            margin-top: 20px;
-            padding: 10px 20px;
-            border: 2px solid #000080;
             border-radius: 4px;
-            transition: all 0.3s ease;
+            margin-top: 1rem;
+            transition: background-color 0.2s;
         }
-        a:hover {
-            background-color: #000080;
-            color: #ffffff;
-            text-decoration: none;
+
+        .back-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .field-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .card {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>OCR Result</h1>
-    
-    <h2>Extracted Fields:</h2>
-    <div class="content-box">
-        <div class="field-item">
-            <span class="field-label">Company (Discloser):</span>
-            <span class="field-value">{{ company }}</span>
-        </div>
-        <div class="field-item">
-            <span class="field-label">Company Address:</span>
-            <span class="field-value">{{ company_address }}</span>
-        </div>
-        <div class="field-item">
-            <span class="field-label">Recipient:</span>
-            <span class="field-value">{{ recipient }}</span>
-        </div>
-        <div class="field-item">
-            <span class="field-label">Recipient Address:</span>
-            <span class="field-value">{{ recipient_address }}</span>
-        </div>
-        <div class="field-item">
-            <span class="field-label">Agreement Duration:</span>
-            <span class="field-value">{{ duration }}</span>
-        </div>
-        <div class="field-item">
-            <span class="field-label">Governing Law:</span>
-            <span class="field-value">{{ governing_law }}</span>
-        </div>
-        <div class="field-item">
-            <span class="field-label">Confidential Information:</span>
-            <span class="field-value">{{ confidential_info }}</span>
-        </div>
-        <div class="field-item">
-            <span class="field-label">Dates:</span>
-            <span class="field-value">
-                {% if dates %}
-                    {{ dates|join(", ") }}
-                {% else %}
-                    Not found
-                {% endif %}
-            </span>
-        </div>
-    </div>
+    <div class="container">
+        <h1>Document Analysis Results</h1>
 
-    <h2>Full Extracted Text:</h2>
-    <div class="content-box">
-        {{ full_text }}
-    </div>
+        <div class="card">
+            <h2>Key Information</h2>
+            <div class="field-grid">
+                <div class="field-item">
+                    <span class="field-label">Company (Discloser)</span>
+                    <span class="field-value">{{ company }}</span>
+                </div>
+                <div class="field-item">
+                    <span class="field-label">Company Address</span>
+                    <span class="field-value">{{ company_address }}</span>
+                </div>
+                <div class="field-item">
+                    <span class="field-label">Recipient</span>
+                    <span class="field-value">{{ recipient }}</span>
+                </div>
+                <div class="field-item">
+                    <span class="field-label">Recipient Address</span>
+                    <span class="field-value">{{ recipient_address }}</span>
+                </div>
+                <div class="field-item">
+                    <span class="field-label">Agreement Duration</span>
+                    <span class="field-value">{{ duration }}</span>
+                </div>
+                <div class="field-item">
+                    <span class="field-label">Governing Law</span>
+                    <span class="field-value">{{ governing_law }}</span>
+                </div>
+                <div class="field-item">
+                    <span class="field-label">Confidential Information</span>
+                    <span class="field-value">{{ confidential_info }}</span>
+                </div>
+                <div class="field-item">
+                    <span class="field-label">Dates</span>
+                    <span class="field-value">
+                        {% if dates %}
+                            {{ dates|join(", ") }}
+                        {% else %}
+                            Not found
+                        {% endif %}
+                    </span>
+                </div>
+            </div>
+        </div>
 
-    <a href="/">Upload another document</a>
+        <div class="card">
+            <h2>Document Summary</h2>
+            <div class="summary-box">
+                {{ summary }}
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>OCR Confidence</h2>
+            <div class="confidence-score">
+                <div class="score-value">{{ average_confidence_formatted }}</div>
+                <div class="score-explanation">
+                    The confidence score represents the OCR model's accuracy in extracting text from the document. 
+                    This score is calculated by averaging the confidence scores for each line of text.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Full Extracted Text</h2>
+            <div class="full-text">
+                {{ full_text }}
+            </div>
+        </div>
+
+        <a href="/" class="back-button">Upload Another Document</a>
+    </div>
 </body>
 </html>

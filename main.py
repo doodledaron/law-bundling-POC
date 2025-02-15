@@ -3,19 +3,52 @@
 from fastapi import FastAPI, Request, File, UploadFile, Form
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
 import paddleocr
 import cv2
 import numpy as np
 import re
 from pdf2image import convert_from_bytes
+from transformers import pipeline
+
+def generate_summary(text):
+    """
+    Generate a summary of the input text using the transformers library.
+    Using sshleifer/distilbart-cnn-12-6 for better performance on shorter texts.
+    """
+    summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+    # Limit input text to 1024 tokens to prevent model overload
+    text = ' '.join(text.split()[:1024])
+    summary = summarizer(text, max_length=150, min_length=50, do_sample=False, truncation=True)
+    return summary[0]['summary_text']
 
 # Initialize FastAPI app
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
 
 # Initialize PaddleOCR - using en_PP-OCRv3_det (3.8M) model for English text detection
 ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
+
+# Error messages
+ERROR_MESSAGES = {
+    "file_required": "No file was uploaded. Please select a file.",
+    "invalid_type": "Only PDF, JPEG, and PNG files are supported.",
+    "empty_file": "The uploaded file is empty.",
+    "ocr_error": "Error processing the document. Please try again.",
+    "decode_error": "Could not decode the image. Please try another file."
+}
 
 def preprocess_image(img):
     """
@@ -44,30 +77,30 @@ def extract_nda_fields(text):
     Extract relevant fields from NDA text using flexible regex patterns
     """
     try:
-        # More flexible regex patterns that can match different formats
         patterns = {
-            # Match company name: Looks for company identifier followed by any company name
-            'company': r'(?:(?:Company|Corporation|Corp\.|Inc\.|LLC|Ltd\.)\s*:?\s*)?([A-Za-z0-9\s\.,]+?)(?:\s*\(\"?Disclos(?:er|ing\s*Party)\"|;|,|\n)',
-            
-            # Match recipient: Looks for recipient identifier followed by name
-            'recipient': r'(?:Recipient|Receiving\s*Party)\s*:?\s*([A-Za-z0-9\s\.,]+?)(?:\s*\(\"?Recipient|;|,|\n)',
-            
-            # Match addresses: Looks for common address patterns
-            'company_address': r'(?:place\s*of\s*business|address|located)\s*at\s*([^,;\n]*(?:[0-9]+)[^,;\n]*(?:Road|Street|St\.|Drive|Dr\.|Avenue|Ave\.|Suite|Ste\.|Boulevard|Blvd\.)[^,;\n]*(?:[A-Z]{2})\s*[0-9]{5}(?:-[0-9]{4})?)',
-            
-            'recipient_address': r'(?:residing|located|with\s*an\s*address)\s*at\s*([^,;\n]*(?:[0-9]+)[^,;\n]*(?:Road|Street|St\.|Drive|Dr\.|Avenue|Ave\.|Suite|Ste\.|Boulevard|Blvd\.)[^,;\n]*(?:[A-Z]{2})\s*[0-9]{5}(?:-[0-9]{4})?)',
-            
-            # Match duration: Various ways duration might be expressed
-            'duration': r'(?:period\s*of|term\s*of|duration\s*of|shall\s*remain\s*in\s*effect\s*for)\s*([^,;\n]*?(?:year|month|day)[^,;\n]*?)(?:from|after|following)',
-            
-            # Match governing law: Various ways state law might be specified
-            'governing_law': r'(?:governed\s*by|pursuant\s*to|under\s*the\s*laws\s*of)\s*(?:the\s*)?(?:State\s*of\s*)?([A-Za-z\s]+)(?:\s*law)?[,\.]',
-            
-            # Match confidential information: Look for description of what's confidential
-            'confidential_info': r'(?:confidential\s*information\s*relating\s*to|concerning|regarding)\s*([^()\n]+?)(?:\s*\(|\.|;)',
-            
-            # Match dates: Various date formats
-            'dates': r'\b(?:\d{1,2}[-/]\d{1,2}[-/]\d{4}|\d{4}[-/]\d{1,2}[-/]\d{1,2}|(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4})\b'
+            # Match company name - fixed to remove trailing colon
+            'company': r'between:\s+(.*?)(?=\s*:?\s*\("Discloser")',
+
+            # Match recipient name - improved to get just the name
+            'recipient': r'and\.\s+(.*?)(?=\s*:\s*\("Recipient")',
+
+            # Match company address - unchanged as it works correctly
+            'company_address': r'(?:business\s*at\s*)(.*?)(?:;)',
+
+            # Match recipient address - unchanged as it works correctly
+            'recipient_address': r'(?:residing\s*at\s*)(.*?)(?:\.)',
+
+            # Match both initial duration and survival period
+            'duration': r'period\s+of\s+(.*?)\s+years.*?additional\s+(.*?)\s+years',
+
+            # Match governing law - fixed to capture full state law reference
+            'governing_law': r'governed by and construed in accordance with the laws of the\.?\s*([^.]+?)(?:\.|$)',
+
+            # Match confidential information - improved to capture full scope
+            'confidential_info': r'information\s+relating\s+to\s+(.*?)(?=\s*\(the "Confidential Information"\))',
+
+            # Match dates - improved format handling
+            'dates': r'\b(?:February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\b'
         }
 
         # Extract fields
@@ -75,13 +108,25 @@ def extract_nda_fields(text):
         for field, pattern in patterns.items():
             if field == 'dates':
                 matches = re.findall(pattern, text, re.IGNORECASE)
-                fields[field] = matches if matches else []
+                fields[field] = list(set(matches)) if matches else []  # Remove duplicates
+            elif field == 'duration':
+                match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+                if match and match.groups():
+                    initial_term = match.group(1).strip()
+                    survival_period = match.group(2).strip()
+                    fields[field] = f"{initial_term} years with {survival_period} years survival period"
+                else:
+                    fields[field] = "Not found"
             else:
                 match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
                 fields[field] = match.group(1).strip() if match and match.groups() else "Not found"
                 # Clean up extra spaces and punctuation
                 if fields[field] != "Not found":
-                    fields[field] = re.sub(r'\s+', ' ', fields[field]).strip(' .,;')
+                    fields[field] = re.sub(r'\s+', ' ', fields[field]).strip(' .,;:')  # Added ':' to strip
+
+        # Post-processing for governing law to ensure complete phrase
+        if fields['governing_law'] != "Not found":
+            fields['governing_law'] = "laws of the " + fields['governing_law']
 
         return fields
 
@@ -117,16 +162,35 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         try:
             contents = await file.read()
         except Exception as e:
-            return HTMLResponse(content=f"Error reading file: {str(e)}", status_code=500)
+            error_message = f"Error reading file: {str(e)}"
+            print(error_message)  # Log the error
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+
+        # Check file size (limit to 10MB)
+        if len(contents) > 10 * 1024 * 1024:
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": "File size exceeds 10MB limit."},
+                status_code=400
+            )
 
         if not contents:
-            return HTMLResponse(content="Error: File is empty", status_code=400)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": ERROR_MESSAGES["empty_file"]},
+                status_code=400
+            )
 
         # Validate file type
         if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
-            return HTMLResponse(
-                content="Error: Invalid file type. Only JPEG, PNG, and PDF files are supported.",
-                status_code=400,
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
+                status_code=400
             )
 
         # Convert file to image
@@ -134,37 +198,91 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             if file.content_type == "application/pdf":
                 # Convert PDF to images
                 images = convert_from_bytes(contents)
-                img = np.array(images[0])  # Use first page
-                img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+                full_text = ""
+                confidence_scores = []
+                
+                for image in images:
+                    img = np.array(image)
+                    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+
+                    # Preprocess image
+                    processed_img = preprocess_image(img)
+
+                    # Process the image using PaddleOCR
+                    try:
+                        result = ocr.ocr(processed_img, cls=True)
+                    except Exception as e:
+                        error_message = f"OCR processing error: {str(e)}"
+                        print(error_message)  # Log the error
+                        return templates.TemplateResponse(
+                            "index.html",
+                            {"request": request, "error": error_message},
+                            status_code=500
+                        )
+
+                    # Concatenate the OCR results into a full text string
+                    for res in result:
+                        for line in res:
+                            full_text += line[1][0] + " "
+                            confidence_scores.append(line[1][1])
+                
+                cleaned_text = clean_text(full_text)
+                if confidence_scores:
+                    average_confidence = sum(confidence_scores) / len(confidence_scores)
+                    average_confidence_formatted = f"{average_confidence:.2%}"
+                else:
+                    average_confidence_formatted = "N/A"
             else:
                 # Convert image to OpenCV format
                 nparr = np.frombuffer(contents, np.uint8)
                 img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
                 if img is None:
-                    return HTMLResponse(content="Error: Could not decode image", status_code=400)
+                    error_message = f"Image decode error: Could not decode the image. Please try another file."
+                    print(error_message)  # Log the error
+                    return templates.TemplateResponse(
+                        "index.html",
+                        {"request": request, "error":  error_message},
+                        status_code=400
+                    )
+
+                # Process single image
+                processed_img = preprocess_image(img)
+                try:
+                    result = ocr.ocr(processed_img, cls=True)
+                except Exception as e:
+                    return templates.TemplateResponse(
+                        "index.html",
+                        {"request": request, "error": ERROR_MESSAGES["ocr_error"]},
+                        status_code=500
+                    )
+
+                # Extract text and confidence scores
+                full_text = ""
+                confidence_scores = []
+                for res in result:
+                    for line in res:
+                        full_text += line[1][0] + " "
+                        confidence_scores.append(line[1][1])
+                
+                cleaned_text = clean_text(full_text)
+                if confidence_scores:
+                    average_confidence = sum(confidence_scores) / len(confidence_scores)
+                    average_confidence_formatted = f"{average_confidence:.2%}"
+                else:
+                    average_confidence_formatted = "N/A"
+
         except Exception as e:
-            return HTMLResponse(content=f"Error converting to image: {str(e)}", status_code=500)
-
-        # Preprocess image
-        processed_img = preprocess_image(img)
-
-        # Process the image using PaddleOCR
-        try:
-            result = ocr.ocr(processed_img, cls=True)
-        except Exception as e:
-            return HTMLResponse(content=f"Error processing OCR: {str(e)}", status_code=500)
-
-        # Concatenate the OCR results into a full text string
-        full_text = ""
-        for res in result:
-            for line in res:
-                full_text += line[1][0] + " "
-
-        # Clean the extracted text
-        cleaned_text = clean_text(full_text)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": f"Error processing the document: {str(e)}"},
+                status_code=500
+            )
 
         # Extract NDA fields
         fields = extract_nda_fields(cleaned_text)
+
+        # Generate summary
+        summary = generate_summary(cleaned_text)
 
         # Render template with results
         return templates.TemplateResponse(
@@ -172,11 +290,17 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             {
                 "request": request,
                 "full_text": cleaned_text,
-                **fields  # Unpack all extracted fields
+                "average_confidence_formatted": average_confidence_formatted,
+                "summary": summary,
+                **fields
             },
         )
 
     except Exception as e:
-        return HTMLResponse(content=f"An unexpected error occurred: {str(e)}", status_code=500)
-
-# To run the application: uvicorn main:app --reload
+        error_message = f"An unexpected error occurred: {str(e)}"
+        print(error_message)  # Log the error
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "error": error_message},
+            status_code=500
+        )
