@@ -1,0 +1,12 @@
+services:
+  # A Docker web service
+  - type: web
+    name: law-doc-ocr
+    runtime: docker
+    repo: https://github.com/yourusername/law-doc-ocr  # Replace with your GitHub repo URL
+    region: singapore
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 10000
