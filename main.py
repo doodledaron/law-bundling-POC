@@ -1,30 +1,41 @@
-# Install dependencies: pip install fastapi uvicorn jinja2 paddleocr opencv-python numpy pdf2image
-
-from fastapi import FastAPI, Request, File, UploadFile, Form
-from fastapi.responses import HTMLResponse
+"""
+FastAPI application for law document processing system.
+Handles HTTP endpoints and delegates processing to Celery tasks.
+"""
+from fastapi import FastAPI, Request, File, UploadFile, Form, HTTPException
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-import paddleocr
-import cv2
-import numpy as np
-import re
-from pdf2image import convert_from_bytes
-from transformers import pipeline
+import os
+import tempfile
+import uuid
+import json
+import redis
+from celery import Celery
 
-def generate_summary(text):
-    """
-    Generate a summary of the input text using the transformers library.
-    Using sshleifer/distilbart-cnn-12-6 for better performance on shorter texts.
-    """
-    summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
-    # Limit input text to 1024 tokens to prevent model overload
-    text = ' '.join(text.split()[:1024])
-    summary = summarizer(text, max_length=150, min_length=50, do_sample=False, truncation=True)
-    return summary[0]['summary_text']
+# Import tasks
+from tasks.document_tasks import process_document
+from tasks.utils import get_timestamp, update_job_status
+
+# Initialize Redis client
+redis_client = redis.Redis.from_url(
+    os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+)
+
+# Initialize Celery app
+celery_app = Celery(
+    'law_doc_processing',
+    broker=os.environ.get('REDIS_URL', 'redis://localhost:6379/0'),
+    backend=os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+)
 
 # Initialize FastAPI app
-app = FastAPI()
+app = FastAPI(
+    title="Law Document Processing API",
+    description="API for processing legal documents with OCR and information extraction",
+    version="1.0.0"
+)
 
 # Add CORS middleware
 app.add_middleware(
@@ -37,9 +48,7 @@ app.add_middleware(
 
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
-
-# Initialize PaddleOCR - using en_PP-OCRv3_det (3.8M) model for English text detection
-ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Error messages
 ERROR_MESSAGES = {
@@ -50,98 +59,10 @@ ERROR_MESSAGES = {
     "decode_error": "Could not decode the image. Please try another file."
 }
 
-def preprocess_image(img):
-    """
-    Preprocess the image for better OCR results
-    """
-    # Convert to grayscale
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    # Apply thresholding to get rid of the noise
-    _, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    # Denoise
-    denoised = cv2.fastNlMeansDenoising(thresh)
-    return denoised
-
-def clean_text(text):
-    """
-    Clean the extracted text for better regex matching
-    """
-    # Remove extra whitespace
-    text = ' '.join(text.split())
-    # Remove special characters that might interfere with regex
-    text = text.replace('\n', ' ').replace('\r', '')
-    return text
-
-def extract_nda_fields(text):
-    """
-    Extract relevant fields from NDA text using flexible regex patterns
-    """
-    try:
-        patterns = {
-            # Match company name - fixed to remove trailing colon
-            'company': r'between:\s+(.*?)(?=\s*:?\s*\("Discloser")',
-
-            # Match recipient name - improved to get just the name
-            'recipient': r'and\.\s+(.*?)(?=\s*:\s*\("Recipient")',
-
-            # Match company address - unchanged as it works correctly
-            'company_address': r'(?:business\s*at\s*)(.*?)(?:;)',
-
-            # Match recipient address - unchanged as it works correctly
-            'recipient_address': r'(?:residing\s*at\s*)(.*?)(?:\.)',
-
-            # Match both initial duration and survival period
-            'duration': r'period\s+of\s+(.*?)\s+years.*?additional\s+(.*?)\s+years',
-
-            # Match governing law - fixed to capture full state law reference
-            'governing_law': r'governed by and construed in accordance with the laws of the\.?\s*([^.]+?)(?:\.|$)',
-
-            # Match confidential information - improved to capture full scope
-            'confidential_info': r'information\s+relating\s+to\s+(.*?)(?=\s*\(the "Confidential Information"\))',
-
-            # Match dates - improved format handling
-            'dates': r'\b(?:February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\b'
-        }
-
-        # Extract fields
-        fields = {}
-        for field, pattern in patterns.items():
-            if field == 'dates':
-                matches = re.findall(pattern, text, re.IGNORECASE)
-                fields[field] = list(set(matches)) if matches else []  # Remove duplicates
-            elif field == 'duration':
-                match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-                if match and match.groups():
-                    initial_term = match.group(1).strip()
-                    survival_period = match.group(2).strip()
-                    fields[field] = f"{initial_term} years with {survival_period} years survival period"
-                else:
-                    fields[field] = "Not found"
-            else:
-                match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-                fields[field] = match.group(1).strip() if match and match.groups() else "Not found"
-                # Clean up extra spaces and punctuation
-                if fields[field] != "Not found":
-                    fields[field] = re.sub(r'\s+', ' ', fields[field]).strip(' .,;:')  # Added ':' to strip
-
-        # Post-processing for governing law to ensure complete phrase
-        if fields['governing_law'] != "Not found":
-            fields['governing_law'] = "laws of the " + fields['governing_law']
-
-        return fields
-
-    except Exception as e:
-        print(f"Error in pattern matching: {str(e)}")
-        return {
-            'company': "Not found",
-            'recipient': "Not found",
-            'company_address': "Not found",
-            'recipient_address': "Not found",
-            'duration': "Not found",
-            'governing_law': "Not found",
-            'confidential_info': "Not found",
-            'dates': []
-        }
+# Create necessary directories
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("results", exist_ok=True)
+os.makedirs("chunks", exist_ok=True)
 
 # Define root endpoint
 @app.get("/", response_class=HTMLResponse)
@@ -155,7 +76,7 @@ async def read_root(request: Request):
 @app.post("/upload", response_class=HTMLResponse)
 async def upload_file(request: Request, file: UploadFile = File(...)):
     """
-    Process uploaded file and extract NDA information
+    Process uploaded file by adding it to the processing queue
     """
     try:
         # Read file contents
@@ -171,12 +92,12 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             )
 
         # Check file size (limit to 10MB)
-        if len(contents) > 10 * 1024 * 1024:
-            return templates.TemplateResponse(
-                "index.html",
-                {"request": request, "error": "File size exceeds 10MB limit."},
-                status_code=400
-            )
+        # if len(contents) > 10 * 1024 * 1024:
+        #     return templates.TemplateResponse(
+        #         "index.html",
+        #         {"request": request, "error": "File size exceeds 10MB limit."},
+        #         status_code=400
+        #     )
 
         if not contents:
             return templates.TemplateResponse(
@@ -192,110 +113,60 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
                 {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
                 status_code=400
             )
-
-        # Convert file to image
-        try:
+        
+        # Generate job ID
+        job_id = str(uuid.uuid4())
+        
+        # Save file to disk
+        file_ext = os.path.splitext(file.filename)[1].lower()
+        if not file_ext:
+            # If no extension, infer from content type
             if file.content_type == "application/pdf":
-                # Convert PDF to images
-                images = convert_from_bytes(contents)
-                full_text = ""
-                confidence_scores = []
-                
-                for image in images:
-                    img = np.array(image)
-                    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+                file_ext = ".pdf"
+            elif file.content_type == "image/jpeg":
+                file_ext = ".jpg"
+            elif file.content_type == "image/png":
+                file_ext = ".png"
+        
+        upload_path = os.path.join("uploads", f"{job_id}{file_ext}")
+        with open(upload_path, "wb") as f:
+            f.write(contents)
+        
+        # Initialize job status in Redis
+        update_job_status(redis_client, job_id, {
+            'status': 'PENDING',
+            'filename': file.filename,
+            'created_at': get_timestamp(),
+            'message': 'Document uploaded, waiting for processing'
+        })
+        
+        # Submit job to Celery -> the stage where it will process the document
+        # - process_large_document : For PDFs or files > 5MB
+        #     - Chunks the document
+        #     - Processes chunks in parallel
+        #     - Merges results at the end
+        # - process_small_document : For smaller files
+        #     - Processes the entire document directly
+        #     - Extracts text, entities, and generates a summary
 
-                    # Preprocess image
-                    processed_img = preprocess_image(img)
-
-                    # Process the image using PaddleOCR
-                    try:
-                        result = ocr.ocr(processed_img, cls=True)
-                    except Exception as e:
-                        error_message = f"OCR processing error: {str(e)}"
-                        print(error_message)  # Log the error
-                        return templates.TemplateResponse(
-                            "index.html",
-                            {"request": request, "error": error_message},
-                            status_code=500
-                        )
-
-                    # Concatenate the OCR results into a full text string
-                    for res in result:
-                        for line in res:
-                            full_text += line[1][0] + " "
-                            confidence_scores.append(line[1][1])
-                
-                cleaned_text = clean_text(full_text)
-                if confidence_scores:
-                    average_confidence = sum(confidence_scores) / len(confidence_scores)
-                    average_confidence_formatted = f"{average_confidence:.2%}"
-                else:
-                    average_confidence_formatted = "N/A"
-            else:
-                # Convert image to OpenCV format
-                nparr = np.frombuffer(contents, np.uint8)
-                img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-                if img is None:
-                    error_message = f"Image decode error: Could not decode the image. Please try another file."
-                    print(error_message)  # Log the error
-                    return templates.TemplateResponse(
-                        "index.html",
-                        {"request": request, "error":  error_message},
-                        status_code=400
-                    )
-
-                # Process single image
-                processed_img = preprocess_image(img)
-                try:
-                    result = ocr.ocr(processed_img, cls=True)
-                except Exception as e:
-                    return templates.TemplateResponse(
-                        "index.html",
-                        {"request": request, "error": ERROR_MESSAGES["ocr_error"]},
-                        status_code=500
-                    )
-
-                # Extract text and confidence scores
-                full_text = ""
-                confidence_scores = []
-                for res in result:
-                    for line in res:
-                        full_text += line[1][0] + " "
-                        confidence_scores.append(line[1][1])
-                
-                cleaned_text = clean_text(full_text)
-                if confidence_scores:
-                    average_confidence = sum(confidence_scores) / len(confidence_scores)
-                    average_confidence_formatted = f"{average_confidence:.2%}"
-                else:
-                    average_confidence_formatted = "N/A"
-
-        except Exception as e:
-            return templates.TemplateResponse(
-                "index.html",
-                {"request": request, "error": f"Error processing the document: {str(e)}"},
-                status_code=500
-            )
-
-        # Extract NDA fields
-        fields = extract_nda_fields(cleaned_text)
-
-        # Generate summary
-        summary = generate_summary(cleaned_text)
-
-        # Render template with results
+        task = process_document.delay(job_id, upload_path, file.filename)
+        
+        # Update job status with task ID
+        update_job_status(redis_client, job_id, {
+            'task_id': task.id,
+            'updated_at': get_timestamp()
+        })
+        
+        # Render submission confirmation
         return templates.TemplateResponse(
-            "result.html",
+            "submitted.html",
             {
                 "request": request,
-                "full_text": cleaned_text,
-                "average_confidence_formatted": average_confidence_formatted,
-                "summary": summary,
-                **fields
-            },
+                "job_id": job_id,
+                "filename": file.filename
+            }
         )
-
+    
     except Exception as e:
         error_message = f"An unexpected error occurred: {str(e)}"
         print(error_message)  # Log the error
@@ -304,3 +175,120 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             {"request": request, "error": error_message},
             status_code=500
         )
+
+# Job status endpoint
+@app.get("/job/{job_id}", response_class=HTMLResponse)
+async def get_job_status(request: Request, job_id: str):
+    """
+    Get job status and results
+    """
+    try:
+        # Get job status from Redis
+        job_data = redis_client.get(f"job:{job_id}")
+        
+        if not job_data:
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": "Job not found"},
+                status_code=404
+            )
+        
+        job_status = json.loads(job_data)
+        
+        # For completed jobs, show results
+        if job_status.get('status') == 'COMPLETED' and 'results_path' in job_status:
+            try:
+                # Check if results file exists
+                if not os.path.exists(job_status['results_path']):
+                    raise FileNotFoundError(f"Results file not found: {job_status['results_path']}")
+                
+                # Read results from file
+                with open(job_status['results_path'], 'r') as f:
+                    results = json.load(f)
+                
+                # Render results template
+                return templates.TemplateResponse(
+                    "result.html",
+                    {
+                        "request": request,
+                        "full_text": results.get("extracted_text", ""),
+                        "average_confidence_formatted": results.get("average_confidence_formatted", "N/A"),
+                        "summary": results.get("summary", ""),
+                        **results.get("entities", {})
+                    }
+                )
+            except Exception as e:
+                job_status['error'] = f"Error retrieving results: {str(e)}"
+                print(f"Error retrieving results for job {job_id}: {str(e)}")
+        
+        # For in-progress or failed jobs, show status
+        return templates.TemplateResponse(
+            "status.html",
+            {
+                "request": request,
+                "job_id": job_id,
+                "status": job_status
+            }
+        )
+    
+    except Exception as e:
+        error_message = f"Error retrieving job status: {str(e)}"
+        print(error_message)  # Log the error
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "error": error_message},
+            status_code=500
+        )
+
+# API endpoint for status updates
+@app.get("/api/job/{job_id}")
+async def api_job_status(job_id: str):
+    """
+    Get job status as JSON for AJAX updates
+    """
+    try:
+        # Get job status from Redis
+        job_data = redis_client.get(f"job:{job_id}")
+        
+        if not job_data:
+            raise HTTPException(status_code=404, detail="Job not found")
+        
+        job_status = json.loads(job_data)
+        return job_status
+    
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error retrieving job status: {str(e)}")
+
+# Health check endpoint
+@app.get("/health")
+async def health_check():
+    """
+    Health check endpoint
+    """
+    # Check Redis connection
+    try:
+        redis_client.ping()
+        redis_status = "ok"
+    except Exception as e:
+        redis_status = f"error: {str(e)}"
+    
+    # Check Celery status
+    try:
+        i = celery_app.control.inspect()
+        active_workers = i.active()
+        celery_status = "ok" if active_workers else "no active workers"
+    except Exception as e:
+        celery_status = f"error: {str(e)}"
+    
+    return {
+        "status": "healthy" if redis_status == "ok" else "degraded",
+        "redis": redis_status,
+        "celery": celery_status,
+        "version": "1.0.0"
+    }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
