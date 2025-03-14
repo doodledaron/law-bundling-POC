@@ -1,44 +1,49 @@
 version: '3.8'
 
 services:
-  # Web API
+  # Web API service running FastAPI
   api:
-    build: .
+    build: .  # Build the container from the current directory
     container_name: law-api
-    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload  # Start FastAPI with auto-reload
     volumes:
-      - .:/app
+      - .:/app  # Mount the local directory into the container
     ports:
-      - "8000:8000"
+      - "8000:8000"  # Map port 8000 on the host to port 8000 in the container
     environment:
-      - PYTHONUNBUFFERED=1
-      - REDIS_URL=redis://redis:6379/0
+      - PYTHONUNBUFFERED=1  # Ensure logs are shown in real-time
+      - REDIS_URL=redis://redis:6379/0  # Redis connection URL
     depends_on:
-      - redis
-    restart: unless-stopped
+      - redis  # Ensure Redis is started before this service
+    restart: unless-stopped  # Restart the service unless it is manually stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]  # Check API health
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
 
-  # Redis - Message Broker and Result Backend
+  # Redis service acting as the message broker and result backend for Celery
   redis:
-    image: redis:6.2-alpine
+    image: redis:6.2-alpine  # Use lightweight Redis image
     container_name: law-redis
     ports:
-      - "6379:6379"
-    command: redis-server --save 60 1 --loglevel warning
+      - "6379:6379"  # Expose Redis port
+    command: redis-server --save 60 1 --loglevel warning  # Configure Redis persistence and logging
     volumes:
-      - redis-data:/data
+      - redis-data:/data  # Persist Redis data across restarts
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]  # Ensure Redis is running
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
-  # Celery Worker for Document Processing
+  # Celery worker for processing document-related tasks
   worker-documents:
     build: .
     container_name: law-worker-documents
-    command: celery -A celery_config worker -Q documents -l info
+    command: celery -A celery_config worker -Q documents -l info  # Run Celery worker on 'documents' queue
     volumes:
       - .:/app
     environment:
@@ -48,11 +53,11 @@ services:
       - redis
     restart: unless-stopped
 
-  # Celery Worker for OCR Processing
+  # Celery worker for OCR processing
   worker-ocr:
     build: .
     container_name: law-worker-ocr
-    command: celery -A celery_config worker -Q ocr -l info
+    command: celery -A celery_config worker -Q ocr -l info  # Run Celery worker on 'ocr' queue
     volumes:
       - .:/app
     environment:
@@ -62,11 +67,11 @@ services:
       - redis
     restart: unless-stopped
 
-  # Celery Worker for Extraction
+  # Celery worker for extraction tasks
   worker-extraction:
     build: .
     container_name: law-worker-extraction
-    command: celery -A celery_config worker -Q extraction -l info
+    command: celery -A celery_config worker -Q extraction -l info  # Run Celery worker on 'extraction' queue
     volumes:
       - .:/app
     environment:
@@ -76,11 +81,11 @@ services:
       - redis
     restart: unless-stopped
 
-  # Celery Beat for Scheduled Tasks
+  # Celery Beat service for scheduling tasks
   beat:
     build: .
     container_name: law-beat
-    command: celery -A celery_config beat -l info
+    command: celery -A celery_config beat -l info  # Start Celery Beat to schedule periodic tasks
     volumes:
       - .:/app
     environment:
@@ -90,20 +95,21 @@ services:
       - redis
     restart: unless-stopped
 
-  # Flower - Celery Monitoring (optional)
+  # Flower - Celery monitoring dashboard (optional)
   flower:
     build: .
     container_name: law-flower
-    command: celery -A celery_config flower --port=5555
+    command: celery -A celery_config flower --port=5555  # Run Flower on port 5555
     ports:
-      - "5555:5555"
+      - "5555:5555"  # Expose Flower dashboard
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
     depends_on:
       - redis
-      - worker-documents
+      - worker-documents  # Ensure at least one worker is running before starting Flower
     restart: unless-stopped
 
+# Define a volume to persist Redis data
 volumes:
   redis-data:

@@ -2,12 +2,22 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Install system dependencies for pdf2image and PyMuPDF
+# Install system dependencies for pdf2image, PyMuPDF, OpenCV, PaddleOCR, and SciPy
 RUN apt-get update && apt-get install -y \
     poppler-utils \
     libmupdf-dev \
     gcc \
     g++ \
+    libglib2.0-dev \
+    libsm6 \
+    libxrender1 \
+    libxext6 \
+    libgl1 \
+    ffmpeg \
+    wget \
+    libatlas-base-dev \
+    gfortran \
+    liblapack-dev \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
