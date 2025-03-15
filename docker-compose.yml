@@ -1,0 +1,72 @@
+version: '3.10'
+
+services:
+  # Redis service for Celery broker and result backend
+  redis:
+    build:
+      context: .
+      dockerfile: Dockerfile.redis
+    container_name: nda-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # FastAPI application
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    container_name: nda-web
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Celery worker
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    container_name: nda-worker
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - LOG_LEVEL=INFO
+    command: celery -A celery_worker worker --loglevel=info --concurrency=2
+
+  # Optional: Flower for monitoring Celery tasks
+  flower:
+    image: mher/flower:0.9.7
+    container_name: nda-flower
+    ports:
+      - "5555:5555"
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - FLOWER_PORT=5555
+    depends_on:
+      - redis
+      - worker
+
+volumes:
+  redis-data:
