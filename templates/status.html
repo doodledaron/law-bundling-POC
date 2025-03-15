@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Processing Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary-color: #1a73e8;
+            --secondary-color: #4285f4;
+            --background-color: #f8f9fa;
+            --text-color: #202124;
+            --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .status-box {
+            background-color: #e8f0fe;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .status-message {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .job-id {
+            font-family: monospace;
+            background-color: #f1f3f4;
+            padding: 0.5rem;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+
+        .spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--primary-color);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            margin: 2rem auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .button-group {
+            margin-top: 2rem;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 0 0.5rem;
+            transition: background-color 0.2s;
+        }
+
+        .button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        #refresh-countdown {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #5f6368;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Document Processing Status</h1>
+        
+        <div class="status-box">
+            <p class="status-message">
+                Your document is currently being processed.
+            </p>
+            <p>Current status: <strong>{{ status }}</strong></p>
+            <p>Job ID: <span class="job-id">{{ job_id }}</span></p>
+        </div>
+        
+        <div class="spinner"></div>
+        
+        <p>This page will automatically refresh to check the status.</p>
+        <p id="refresh-countdown">Refreshing in 10 seconds...</p>
+        
+        <div class="button-group">
+            <a href="/" class="button">Upload Another Document</a>
+            <a href="/status/{{ job_id }}" class="button" id="refresh-btn">Refresh Status</a>
+        </div>
+    </div>
+
+    <script>
+        // Auto-refresh the page every 10 seconds
+        let countDown = 10;
+        const countDownElement = document.getElementById('refresh-countdown');
+        
+        function updateCountdown() {
+            countDown -= 1;
+            countDownElement.textContent = `Refreshing in ${countDown} seconds...`;
+            
+            if (countDown <= 0) {
+                window.location.reload();
+            } else {
+                setTimeout(updateCountdown, 1000);
+            }
+        }
+        
+        // Start the countdown
+        setTimeout(updateCountdown, 1000);
+    </script>
+</body>
+</html>

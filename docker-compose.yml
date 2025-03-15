@@ -1,0 +1,49 @@
+version: '3'
+
+services:
+  # FastAPI web application
+  web:
+    build: .
+    ports:
+      - "10000:10000"
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    command: uvicorn main:app --host 0.0.0.0 --port 10000 --reload
+
+  # Redis for message broker and result backend
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # Celery worker for processing tasks
+  worker:
+    build: .
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    command: celery -A tasks.celery_app worker --loglevel=info
+
+  # Flower for monitoring Celery tasks
+  flower:
+    build: .
+    ports:
+      - "5555:5555"
+    depends_on:
+      - redis
+      - worker
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    command: celery -A tasks.celery_app flower --port=5555
+
+volumes:
+  redis_data:
