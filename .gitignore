@@ -45,3 +45,6 @@ Thumbs.db
 # PaddleOCR related (if any)
 __output__
 log.txt
+
+# logs
+logs/
