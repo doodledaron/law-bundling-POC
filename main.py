@@ -15,6 +15,8 @@ import logging
 import os
 import sys
 from datetime import datetime
+from yolo.document_layout import DocumentLayoutAnalyzer, DocumentRegion
+import json
 
 # ------ LOGGING CONFIGURATION ------
 # Ensure log directory exists
@@ -83,10 +85,27 @@ app.add_middleware(
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
 
-# Initialize PaddleOCR - using en_PP-OCRv3_det (3.8M) model for English text detection
-logger.info("Initializing PaddleOCR")
+# Initialize PaddleOCR
+logger.info("Initializing PaddleOCR...")
 ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
-logger.info("PaddleOCR initialized")
+
+# Initialize YOLOv8 document layout analyzer
+logger.info("Initializing YOLOv8 document layout analyzer...")
+
+# Check if we have a specialized legal document model
+legal_model_path = os.path.join('models', 'legal_layout_model.pt')
+if os.path.exists(legal_model_path):
+    logger.info(f"Using specialized legal document layout model: {legal_model_path}")
+    layout_analyzer = DocumentLayoutAnalyzer(model_path=legal_model_path, confidence_threshold=0.25)
+else:
+    logger.info("Specialized legal document model not found, using default model")
+    layout_analyzer = DocumentLayoutAnalyzer(confidence_threshold=0.25)
+
+# Mount static files directory
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Mount results directory for accessing processed documents
+app.mount("/results", StaticFiles(directory="results"), name="results")
 
 # Error messages
 ERROR_MESSAGES = {
@@ -438,3 +457,225 @@ async def log_requests(request: Request, call_next):
     for handler in logger.handlers + logging.root.handlers:
         handler.flush()
     return response
+
+@app.post("/region_ocr", response_class=HTMLResponse)
+async def region_ocr(request: Request, file: UploadFile = File(...)):
+    """
+    Process uploaded file using region-based OCR with YOLOv8
+    """
+    logger.info(f"Region-based OCR initiated for file: {file.filename} ({file.content_type})")
+    try:
+        # Read file contents
+        try:
+            contents = await file.read()
+            logger.info(f"File read successfully: {len(contents)} bytes")
+        except Exception as e:
+            error_message = f"Error reading file: {str(e)}"
+            logger.error(error_message, exc_info=True)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+
+        # Check file size (limit to 10MB)
+        if len(contents) > 10 * 1024 * 1024:
+            logger.warning(f"File size exceeds limit: {len(contents)} bytes")
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": "File size exceeds 10MB limit."},
+                status_code=400
+            )
+
+        if not contents:
+            logger.warning("Empty file uploaded")
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": ERROR_MESSAGES["empty_file"]},
+                status_code=400
+            )
+
+        # Validate file type
+        if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
+            logger.warning(f"Invalid file type: {file.content_type}")
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
+                status_code=400
+            )
+
+        # Create a unique ID for this document processing job
+        import uuid
+        job_id = str(uuid.uuid4())
+        results_dir = os.path.join("results", job_id)
+        os.makedirs(results_dir, exist_ok=True)
+        
+        document_map = {"pages": []}
+
+        # Process file based on type
+        try:
+            if file.content_type == "application/pdf":
+                logger.info("Processing PDF file with region detection")
+                # Use PyMuPDF to process PDF
+                import io
+                pdf_document = fitz.open(stream=contents, filetype="pdf")
+                logger.info(f"PDF loaded with {len(pdf_document)} pages")
+                
+                for page_num in range(len(pdf_document)):
+                    logger.info(f"Processing PDF page {page_num+1}/{len(pdf_document)}")
+                    page = pdf_document.load_page(page_num)
+                    
+                    # Render page to an image (PyMuPDF uses RGB format)
+                    pix = page.get_pixmap(alpha=False)
+                    img_data = pix.tobytes("png")
+                    
+                    # Convert to numpy array for OpenCV
+                    nparr = np.frombuffer(img_data, np.uint8)
+                    img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+                    
+                    if img is None:
+                        logger.warning(f"Failed to convert page {page_num+1} to image")
+                        continue
+
+                    # Step 1: Detect document regions using YOLOv8
+                    regions = layout_analyzer.detect_regions(img)
+                    logger.info(f"Detected {len(regions)} regions on page {page_num+1}")
+                    
+                    # Step 2: Get region images
+                    region_images = layout_analyzer.get_region_images(img, regions)
+                    
+                    # Step 3: Perform OCR on each region
+                    for i, region in enumerate(regions):
+                        region_img = region_images[i]
+                        
+                        # Skip tiny regions
+                        if region_img.shape[0] < 10 or region_img.shape[1] < 10:
+                            logger.warning(f"Skipping tiny region {i} on page {page_num+1}")
+                            continue
+                        
+                        # Process region using PaddleOCR
+                        try:
+                            result = ocr.ocr(region_img, cls=True)
+                            
+                            # Extract text from region
+                            region_text = ""
+                            for res in result:
+                                for line in res:
+                                    region_text += line[1][0] + " "
+                                    
+                            # Store OCR text in region
+                            regions[i].text = region_text.strip()
+                            logger.info(f"OCR completed for region {i} on page {page_num+1}")
+                            
+                        except Exception as e:
+                            logger.error(f"OCR error for region {i} on page {page_num+1}: {str(e)}", exc_info=True)
+                    
+                    # Step 4: Create visualization of regions
+                    vis_image = layout_analyzer.visualize_regions(img, regions)
+                    
+                    # Save visualization
+                    vis_path = os.path.join(results_dir, f"page_{page_num+1}_regions.jpg")
+                    cv2.imwrite(vis_path, vis_image)
+                    
+                    # Step 5: Generate document map for this page
+                    page_map = layout_analyzer.generate_document_map(regions)
+                    page_map["page_number"] = page_num + 1
+                    document_map["pages"].append(page_map)
+                
+                # Close PDF document
+                pdf_document.close()
+                
+            else:
+                logger.info(f"Processing image file with region detection: {file.content_type}")
+                # Convert image to OpenCV format
+                nparr = np.frombuffer(contents, np.uint8)
+                img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+                if img is None:
+                    error_message = "Image decode error: Could not decode the image. Please try another file."
+                    logger.error(error_message)
+                    return templates.TemplateResponse(
+                        "index.html",
+                        {"request": request, "error": error_message},
+                        status_code=400
+                    )
+
+                # Step 1: Detect document regions using YOLOv8
+                regions = layout_analyzer.detect_regions(img)
+                logger.info(f"Detected {len(regions)} regions in image")
+                
+                # Step 2: Get region images
+                region_images = layout_analyzer.get_region_images(img, regions)
+                
+                # Step 3: Perform OCR on each region
+                for i, region in enumerate(regions):
+                    region_img = region_images[i]
+                    
+                    # Skip tiny regions
+                    if region_img.shape[0] < 10 or region_img.shape[1] < 10:
+                        logger.warning(f"Skipping tiny region {i}")
+                        continue
+                    
+                    # Process region using PaddleOCR
+                    try:
+                        result = ocr.ocr(region_img, cls=True)
+                        
+                        # Extract text from region
+                        region_text = ""
+                        for res in result:
+                            for line in res:
+                                region_text += line[1][0] + " "
+                                
+                        # Store OCR text in region
+                        regions[i].text = region_text.strip()
+                        logger.info(f"OCR completed for region {i}")
+                        
+                    except Exception as e:
+                        logger.error(f"OCR error for region {i}: {str(e)}", exc_info=True)
+                
+                # Step 4: Create visualization of regions
+                vis_image = layout_analyzer.visualize_regions(img, regions)
+                
+                # Save visualization
+                vis_path = os.path.join(results_dir, "image_regions.jpg")
+                cv2.imwrite(vis_path, vis_image)
+                
+                # Step 5: Generate document map
+                page_map = layout_analyzer.generate_document_map(regions)
+                page_map["page_number"] = 1
+                document_map["pages"].append(page_map)
+            
+            # Save document map to JSON file
+            doc_map_path = os.path.join(results_dir, "document_map.json")
+            with open(doc_map_path, 'w') as f:
+                json.dump(document_map, f, indent=2)
+                
+            logger.info(f"Document map saved to {doc_map_path}")
+            
+            # Return template with visualization and document map
+            return templates.TemplateResponse(
+                "region_results.html",
+                {
+                    "request": request,
+                    "job_id": job_id,
+                    "document_map": document_map,
+                    "message": f"Document processed with {sum(len(p['regions']) for p in document_map['pages'])} regions detected",
+                }
+            )
+            
+        except Exception as e:
+            error_message = f"Error processing document: {str(e)}"
+            logger.error(error_message, exc_info=True)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+            
+    except Exception as e:
+        error_message = f"Unexpected error: {str(e)}"
+        logger.error(error_message, exc_info=True)
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "error": error_message},
+            status_code=500
+        )

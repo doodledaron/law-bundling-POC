@@ -1,161 +1,280 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Law Document Bundling</title>
     <style>
-        :root {
-            --primary-blue: #1a4f8b;
-            --secondary-blue: #2c7ac9;
-            --light-blue: #f5f9ff;
-            --text-color: #2c3e50;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      :root {
+        --primary-blue: #1a4f8b;
+        --secondary-blue: #2c7ac9;
+        --light-blue: #f5f9ff;
+        --text-color: #2c3e50;
+      }
 
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background-color: var(--light-blue);
-            color: var(--text-color);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            padding: 40px 20px;
-            line-height: 1.6;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            width: 100%;
-            max-width: 800px;
-        }
+      body {
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background-color: var(--light-blue);
+        color: var(--text-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 40px 20px;
+        line-height: 1.6;
+      }
 
-        h1 {
-            color: var(--primary-blue);
-            font-size: 2.5rem;
-            margin-bottom: 16px;
-            font-weight: 600;
-        }
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+        width: 100%;
+        max-width: 800px;
+      }
 
-        .description {
-            color: var(--text-color);
-            font-size: 1.1rem;
-            max-width: 600px;
-            margin: 0 auto;
-            opacity: 0.9;
-        }
+      h1 {
+        color: var(--primary-blue);
+        font-size: 2.5rem;
+        margin-bottom: 16px;
+        font-weight: 600;
+      }
 
-        .upload-container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            width: 100%;
-            max-width: 600px;
-            margin-top: 20px;
-        }
+      .description {
+        color: var(--text-color);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+        opacity: 0.9;
+      }
 
-        .file-input-container {
-            margin-bottom: 24px;
-        }
+      .upload-container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+      }
 
-        input[type="file"] {
-            width: 100%;
-            padding: 10px;
-            border: 2px dashed var(--secondary-blue);
-            border-radius: 6px;
-            background-color: var(--light-blue);
-            cursor: pointer;
-        }
+      .file-input-container {
+        margin-bottom: 24px;
+      }
 
-        input[type="file"]:hover {
-            border-color: var(--primary-blue);
-        }
+      input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border: 2px dashed var(--secondary-blue);
+        border-radius: 6px;
+        background-color: var(--light-blue);
+        cursor: pointer;
+      }
 
-        .submit-btn {
-            background-color: var(--primary-blue);
-            color: white;
-            padding: 14px 28px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: 500;
-            width: 100%;
-            transition: background-color 0.2s ease;
-        }
+      input[type="file"]:hover {
+        border-color: var(--primary-blue);
+      }
 
-        .submit-btn:hover {
-            background-color: var(--secondary-blue);
-        }
+      .submit-btn {
+        background-color: var(--primary-blue);
+        color: white;
+        padding: 14px 28px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+        width: 100%;
+        transition: background-color 0.2s ease;
+      }
 
-        /* Loading indicator styles */
-        #loading-indicator {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.2rem;
-        }
+      .submit-btn:hover {
+        background-color: var(--secondary-blue);
+      }
 
-        .spinner {
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid var(--primary-blue);
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 2s linear infinite;
-            margin-bottom: 10px;
-        }
+      /* Loading indicator styles */
+      #loading-indicator {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.2rem;
+      }
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+      .spinner {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid var(--primary-blue);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+        margin-bottom: 10px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
         }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .error-message {
+        color: #e74c3c;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #ffeaea;
+        border-radius: 6px;
+        width: 100%;
+      }
+
+      /* Tab styles */
+      .tabs {
+        display: flex;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .tab-btn {
+        background: none;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 1rem;
+        color: var(--text-color);
+        margin-right: 10px;
+        border-bottom: 3px solid transparent;
+      }
+
+      .tab-btn.active {
+        color: var(--primary-blue);
+        border-bottom: 3px solid var(--primary-blue);
+        font-weight: 600;
+      }
+
+      .tab-content {
+        display: none;
+      }
+
+      .tab-content.active {
+        display: block;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="loading-indicator">
-        <div class="spinner"></div>
-        <p id="loading-message">Processing document...</p>
+      <div class="spinner"></div>
+      <p id="loading-message">Processing document...</p>
     </div>
     <div class="header">
-        <h1>Law Document Bundling</h1>
-        <p class="description">
-            Upload your legal documents for efficient bundling and organization. Our system helps streamline the process of combining multiple law documents into a single, well-structured bundle.
-        </p>
+      <h1>Law Document Bundling</h1>
+      <p class="description">
+        Upload your legal documents for efficient bundling and organization. Our
+        system helps streamline the process of combining multiple law documents
+        into a single, well-structured bundle.
+      </p>
     </div>
-    
+
     <div class="upload-container">
-        <form action="/upload" method="post" enctype="multipart/form-data" onsubmit="showLoading('Processing document...');">
-            <div class="file-input-container">
-                <input type="file" name="file" id="file">
-            </div>
-            <button type="submit" class="submit-btn">Process Document</button>
+      <h2>Upload Document</h2>
+      <p>Upload your legal document (PDF, JPEG, or PNG) to process it.</p>
+
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('regular-ocr')">
+          Regular OCR
+        </button>
+        <button class="tab-btn" onclick="switchTab('region-ocr')">
+          Region-Based OCR
+        </button>
+      </div>
+
+      <div id="regular-ocr" class="tab-content active">
+        <p>Extract text from the document using standard OCR processing.</p>
+        <form
+          action="/upload"
+          method="post"
+          enctype="multipart/form-data"
+          onsubmit="showLoading('Processing document...');"
+        >
+          <div class="file-input-container">
+            <input
+              type="file"
+              name="file"
+              id="file"
+              accept=".pdf,.jpg,.jpeg,.png"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-btn">Process Document</button>
         </form>
+      </div>
+
+      <div id="region-ocr" class="tab-content">
+        <p>
+          Detect document regions (text, tables, headers, etc.) using YOLOv8 and
+          perform OCR on each region.
+        </p>
+        <form
+          action="/region_ocr"
+          method="post"
+          enctype="multipart/form-data"
+          onsubmit="showLoading('Processing document regions...');"
+        >
+          <div class="file-input-container">
+            <input
+              type="file"
+              name="file"
+              id="region-file"
+              accept=".pdf,.jpg,.jpeg,.png"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-btn">
+            Process with Region Detection
+          </button>
+        </form>
+      </div>
     </div>
 
     <script>
-        function showLoading(message) {
-            document.getElementById('loading-message').innerText = message;
-            document.getElementById('loading-indicator').style.display = 'flex';
-        }
+      function showLoading(message) {
+        document.getElementById("loading-message").innerText = message;
+        document.getElementById("loading-indicator").style.display = "flex";
+      }
 
-        function hideLoading() {
-            document.getElementById('loading-indicator').style.display = 'none';
-        }
+      function hideLoading() {
+        document.getElementById("loading-indicator").style.display = "none";
+      }
+
+      function switchTab(tabId) {
+        // Hide all tab contents
+        document.querySelectorAll(".tab-content").forEach((content) => {
+          content.classList.remove("active");
+        });
+
+        // Deactivate all tab buttons
+        document.querySelectorAll(".tab-btn").forEach((btn) => {
+          btn.classList.remove("active");
+        });
+
+        // Show selected tab content
+        document.getElementById(tabId).classList.add("active");
+
+        // Activate selected tab button
+        document
+          .querySelector(`.tab-btn[onclick="switchTab('${tabId}')"]`)
+          .classList.add("active");
+      }
     </script>
-</body>
+  </body>
 </html>

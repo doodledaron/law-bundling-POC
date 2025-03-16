@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Region-Based OCR Results</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .region-card {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .region-header {
+        background-color: #f8f9fa;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+      .region-body {
+        padding: 15px;
+      }
+      .region-text {
+        font-family: monospace;
+        white-space: pre-wrap;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      .visualization-container {
+        margin-bottom: 30px;
+      }
+      .visualization-img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+      }
+      .region-badge {
+        margin-right: 5px;
+      }
+      .page-navigation {
+        margin-bottom: 20px;
+      }
+      .page-btn {
+        margin-right: 5px;
+      }
+      .content-section {
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-4">Region-Based OCR Results</h1>
+
+      {% if message %}
+      <div class="alert alert-success">{{ message }}</div>
+      {% endif %}
+
+      <div class="content-section">
+        <h2>Document Map</h2>
+        <p>
+          The document has been processed with YOLOv8 to detect different
+          regions and perform OCR on each region.
+        </p>
+
+        <div class="page-navigation">
+          <div class="btn-group" role="group">
+            {% for page in document_map.pages %}
+            <button
+              type="button"
+              class="btn btn-outline-primary page-btn"
+              onclick="showPage({{ page.page_number }})"
+            >
+              Page {{ page.page_number }}
+            </button>
+            {% endfor %}
+          </div>
+        </div>
+
+        {% for page in document_map.pages %}
+        <div
+          id="page-{{ page.page_number }}"
+          class="page-content"
+          {%
+          if
+          not
+          loop.first
+          %}style="display: none;"
+          {%
+          endif
+          %}
+        >
+          <h3>Page {{ page.page_number }}</h3>
+
+          <div class="visualization-container">
+            <h4>Page Visualization</h4>
+            <img
+              src="/results/{{ job_id }}/page_{{ page.page_number }}_regions.jpg"
+              class="visualization-img"
+              alt="Page {{ page.page_number }} Regions"
+            />
+          </div>
+
+          <h4>Detected Regions ({{ page.regions|length }})</h4>
+          <div class="row">
+            {% for region in page.regions %}
+            <div class="col-md-6">
+              <div class="region-card">
+                <div class="region-header">
+                  <span class="badge bg-primary region-badge"
+                    >{{ region.type }}</span
+                  >
+                  <span class="badge bg-secondary region-badge"
+                    >Confidence: {{ "{:.2f}".format(region.confidence) }}</span
+                  >
+                  <span class="badge bg-info region-badge"
+                    >ID: {{ region.id }}</span
+                  >
+                </div>
+                <div class="region-body">
+                  <div class="mb-2">
+                    <strong>Bounding Box:</strong>
+                    <code>{{ region.bbox }}</code>
+                  </div>
+                  <div>
+                    <strong>Extracted Text:</strong>
+                    <div class="region-text mt-2">{{ region.text }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="content-section">
+        <h2>Document Map JSON</h2>
+        <p>
+          The document map is available as a JSON file for programmatic access:
+        </p>
+        <div class="mb-3">
+          <a
+            href="/results/{{ job_id }}/document_map.json"
+            class="btn btn-primary"
+            download
+            >Download Document Map JSON</a
+          >
+        </div>
+        <pre
+          class="bg-light p-3"
+        ><code>{{ document_map|tojson(indent=2) }}</code></pre>
+      </div>
+
+      <div class="mt-4">
+        <a href="/" class="btn btn-secondary">Back to Home</a>
+      </div>
+    </div>
+
+    <script>
+      function showPage(pageNumber) {
+        // Hide all pages
+        document.querySelectorAll(".page-content").forEach((page) => {
+          page.style.display = "none";
+        });
+
+        // Show selected page
+        document.getElementById("page-" + pageNumber).style.display = "block";
+
+        // Update active button
+        document.querySelectorAll(".page-btn").forEach((btn) => {
+          btn.classList.remove("active");
+        });
+
+        // Set active button
+        document
+          .querySelector(`.page-btn[onclick="showPage(${pageNumber})"]`)
+          .classList.add("active");
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
