@@ -68,10 +68,17 @@ console_handler = FlushingHandler(sys.stdout)
 console_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
 logger.addHandler(console_handler)
 
-# Initialize PaddleOCR
-logger.info("Initializing PaddleOCR")
-ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
-logger.info("PaddleOCR initialized")
+logger.info("Starting application initialization")
+
+# Initialize models
+try:
+    logger.info("Initializing document processing models")
+    ocr, summarizer = initialize_models()
+    logger.info("Models initialized successfully")
+except Exception as e:
+    logger.critical(f"Failed to initialize models: {str(e)}")
+    sys.exit(1)  # Exit if critical models can't be loaded
+
 
 # Configurable thresholds for chunking
 PAGE_THRESHOLD = 10  # Process PDFs with more than 10 pages in chunks
@@ -97,6 +104,51 @@ Main components for chunking
 - Workers process chunks in parallel, each handling a manageable portion
 - Aggregator combines results and performs unified analysis
 """
+
+def initialize_models():
+    """
+    Initialize all models used in the document processing pipeline.
+    This function loads models once at startup rather than repeatedly during processing.
+    
+    Returns:
+        tuple: Containing initialized models (ocr, summarizer)
+    """
+    logger.info("Starting initialization of models")
+    flush_logs()
+    
+    # Initialize models with error handling
+    ocr_model = None
+    summarizer_model = None
+    
+    # Initialize PaddleOCR
+    try:
+        logger.info("Initializing PaddleOCR model")
+        ocr_model = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
+        logger.info("PaddleOCR model initialized successfully")
+    except Exception as e:
+        logger.error(f"Failed to initialize PaddleOCR model: {str(e)}", exc_info=True)
+        flush_logs()
+        raise RuntimeError(f"Critical error: PaddleOCR initialization failed: {str(e)}")
+    
+    # Initialize T5 summarization model
+    try:
+        logger.info("Initializing T5 summarization model")
+        model_name = "t5-small"  # Make this configurable if needed
+        summarizer_model = pipeline("summarization", model=model_name)
+        logger.info(f"T5 summarization model ({model_name}) initialized successfully")
+    except Exception as e:
+        logger.error(f"Failed to initialize T5 model: {str(e)}", exc_info=True)
+        flush_logs()
+        # Continue even if summarizer fails as it's not critical for core functionality
+        logger.warning("Will continue without summarization capability")
+        summarizer_model = None
+    
+    flush_logs()
+    logger.info("Model initialization complete")
+    
+    return ocr_model, summarizer_model
+
+
 def should_chunk_pdf(pdf_document):
     """Determine if a PDF needs to be processed in chunks based on page count"""
     return len(pdf_document) > PAGE_THRESHOLD
@@ -202,16 +254,23 @@ def extract_nda_fields(text):
             'dates': []
         }
 
-def generate_summary(text):
+def generate_summary(text, summarizer):
     """
-    Generate a summary using a lightweight model.
+    Generate a summary using the pre-initialized model.
+    
+    Args:
+        text (str): Text to summarize
+        summarizer: Pre-initialized summarization model
+        
+    Returns:
+        str: Generated summary or error message
     """
-    model_name = "t5-small"
-    logger.info(f"Using summarization model: {model_name}")
-    flush_logs()
+    if summarizer is None:
+        logger.warning("Summary generation skipped - model not available")
+        flush_logs()
+        return "Summary generation not available"
     
     try:
-        summarizer = pipeline("summarization", model=model_name)
         # Limit input text to prevent model overload
         text = ' '.join(text.split()[:512])
         summary = summarizer(text, max_length=100, min_length=30, do_sample=False, truncation=True)
@@ -399,7 +458,7 @@ def process_document_task(file_content, file_content_type, file_name):
 
         # Generate summary
         logger.info("Generating text summary")
-        summary = generate_summary(cleaned_text)
+        summary = generate_summary(cleaned_text, summarizer)
         logger.info("Text summary generated")
         flush_logs()
 
@@ -556,7 +615,7 @@ def combine_chunks(job_id, total_chunks):
         
         # Extract fields and generate summary
         fields = extract_nda_fields(all_text)
-        summary = generate_summary(all_text)
+        summary = generate_summary(all_text, summarizer)
         
         # Create the final result
         result = {
