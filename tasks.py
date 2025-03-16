@@ -9,6 +9,10 @@ from celery import Celery
 import sys
 import os
 from logging.handlers import RotatingFileHandler
+import pickle
+from redis import Redis
+import uuid 
+
 
 # Configure Celery
 celery_app = Celery('tasks', broker='redis://redis:6379/0', backend='redis://redis:6379/0')
@@ -68,6 +72,35 @@ logger.addHandler(console_handler)
 logger.info("Initializing PaddleOCR")
 ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
 logger.info("PaddleOCR initialized")
+
+# Configurable thresholds for chunking
+PAGE_THRESHOLD = 10  # Process PDFs with more than 10 pages in chunks
+CHUNK_SIZE = 5       # Process 5 pages per chunk
+
+
+"""
+1. User uploads PDF → main.py
+2. If pages > PAGE_THRESHOLD:
+   → Split into chunks of CHUNK_SIZE pages
+   → Create separate task for each chunk
+   → Return job_id to user
+3. For each chunk:
+   → Process OCR independently
+   → Save intermediate results to Redis
+4. When all chunks complete:
+   → Combine text from all chunks
+   → Run single analysis on combined text
+   → Store final results
+
+Main components for chunking
+- Coordinator analyzes the document and creates the processing plan
+- Workers process chunks in parallel, each handling a manageable portion
+- Aggregator combines results and performs unified analysis
+"""
+def should_chunk_pdf(pdf_document):
+    """Determine if a PDF needs to be processed in chunks based on page count"""
+    return len(pdf_document) > PAGE_THRESHOLD
+
 
 def flush_logs():
     """Helper function to ensure logs are flushed"""
@@ -173,7 +206,7 @@ def generate_summary(text):
     """
     Generate a summary using a lightweight model.
     """
-    model_name = "facebook/bart-large-xsum"
+    model_name = "t5-small"
     logger.info(f"Using summarization model: {model_name}")
     flush_logs()
     
@@ -190,31 +223,90 @@ def generate_summary(text):
         flush_logs()
         return "Failed to generate summary"
 
+# Coordinator Component
 @celery_app.task(name="process_document")
 def process_document_task(file_content, file_content_type, file_name):
     """
-    Process a document and extract information
+    Process a document and extract information, using chunking for large PDFs
     """
     logger.info(f"Processing document: {file_name} ({file_content_type})")
     flush_logs()
     
     try:
-        # Convert file to image and process it
+        # Generate a job ID for tracking
+        job_id = str(uuid.uuid4())
+        redis_client = Redis(host='redis', port=6379, db=0)
+        
+        # For PDF files, check if chunking is needed
+        if file_content_type == "application/pdf":
+            pdf_document = pymupdf.open(stream=file_content, filetype="pdf")
+            total_pages = len(pdf_document)
+            logger.info(f"PDF has {total_pages} pages")
+            flush_logs()
+            
+            if should_chunk_pdf(pdf_document):
+                # Process large PDF in chunks
+                logger.info(f"PDF exceeds threshold of {PAGE_THRESHOLD} pages, processing in chunks")
+                
+                # Calculate the number of chunks needed
+                total_chunks = (total_pages + CHUNK_SIZE - 1) // CHUNK_SIZE  # Ceiling division
+                
+                # Mark the job as chunked
+                redis_client.set(f"status:{job_id}", "CHUNKED")
+                redis_client.set(f"total_chunks:{job_id}", str(total_chunks))
+                redis_client.set(f"completed_chunks:{job_id}", "0")
+                
+                # Create a task for each chunk
+                for chunk_idx in range(total_chunks):
+                    start_page = chunk_idx * CHUNK_SIZE
+                    end_page = min(start_page + CHUNK_SIZE, total_pages)
+                    
+                    # Initialize the chunk status
+                    redis_client.set(f"chunk_status:{job_id}:{chunk_idx}", "PENDING")
+                    
+                    # Create a task for this chunk
+                    process_pdf_chunk.delay(
+                        file_content=file_content,
+                        start_page=start_page,
+                        end_page=end_page,
+                        job_id=job_id,
+                        chunk_idx=chunk_idx,
+                        total_chunks=total_chunks
+                    )
+                    
+                    logger.info(f"Created task for chunk {chunk_idx+1}/{total_chunks} (pages {start_page+1}-{end_page})")
+                
+                pdf_document.close()
+                flush_logs()
+                
+                # Return the job ID for tracking
+                return {
+                    "job_id": job_id,
+                    "status": "CHUNKED",
+                    "total_chunks": total_chunks
+                }
+            
+            # For smaller PDFs, close and continue with normal processing
+            pdf_document.close()
+        
+        # For non-PDF files or small PDFs, process normally
+        logger.info(f"Processing document without chunking: {file_name}")
+        redis_client.set(f"status:{job_id}", "PROCESSING")
+        flush_logs()
+        
+        # Start regular processing
         if file_content_type == "application/pdf":
             logger.info("Processing PDF file")
-            flush_logs()
             
             # Use PyMuPDF to process PDF
             pdf_document = pymupdf.open(stream=file_content, filetype="pdf")
             logger.info(f"PDF loaded with {len(pdf_document)} pages")
-            flush_logs()
             
             full_text = ""
             confidence_scores = []
             
             for page_num in range(len(pdf_document)):
                 logger.info(f"Processing PDF page {page_num+1}/{len(pdf_document)}")
-                flush_logs()
                 
                 page = pdf_document.load_page(page_num)
                 
@@ -237,7 +329,6 @@ def process_document_task(file_content, file_content_type, file_name):
                 # Process the image using PaddleOCR
                 result = ocr.ocr(processed_img, cls=True)
                 logger.info(f"OCR completed for page {page_num+1}")
-                flush_logs()
 
                 # Concatenate the OCR results into a full text string
                 page_text = ""
@@ -261,11 +352,9 @@ def process_document_task(file_content, file_content_type, file_name):
             else:
                 average_confidence_formatted = "N/A"
                 logger.warning("No confidence scores available")
-            flush_logs()
             
         else:
             logger.info(f"Processing image file: {file_content_type}")
-            flush_logs()
             
             # Convert image to OpenCV format
             nparr = np.frombuffer(file_content, np.uint8)
@@ -280,7 +369,6 @@ def process_document_task(file_content, file_content_type, file_name):
             processed_img = preprocess_image(img)
             result = ocr.ocr(processed_img, cls=True)
             logger.info("OCR completed for image")
-            flush_logs()
 
             # Extract text and confidence scores
             full_text = ""
@@ -300,7 +388,8 @@ def process_document_task(file_content, file_content_type, file_name):
             else:
                 average_confidence_formatted = "N/A"
                 logger.warning("No confidence scores available")
-            flush_logs()
+        
+        flush_logs()
 
         # Extract NDA fields
         logger.info("Extracting NDA fields from text")
@@ -310,7 +399,7 @@ def process_document_task(file_content, file_content_type, file_name):
 
         # Generate summary
         logger.info("Generating text summary")
-        # summary = generate_summary(cleaned_text)
+        summary = generate_summary(cleaned_text)
         logger.info("Text summary generated")
         flush_logs()
 
@@ -318,15 +407,186 @@ def process_document_task(file_content, file_content_type, file_name):
         result = {
             "full_text": cleaned_text,
             "average_confidence_formatted": average_confidence_formatted,
-            "summary": 'summary',
+            "summary": summary,
             **fields
         }
 
+        # Store the result in Redis
+        redis_client.set(f"result:{job_id}", pickle.dumps(result))
+        redis_client.set(f"status:{job_id}", "SUCCESS")
+        
         logger.info(f"Document {file_name} processed successfully")
         flush_logs()
-        return result
+        
+        return {
+            "job_id": job_id,
+            "status": "SUCCESS"
+        }
 
     except Exception as e:
         logger.error(f"Error processing document {file_name}: {str(e)}", exc_info=True)
         flush_logs()
+        
+        # Mark the job as failed if job_id exists
+        if 'job_id' in locals():
+            redis_client = Redis(host='redis', port=6379, db=0)
+            redis_client.set(f"status:{job_id}", "FAILED")
+            redis_client.set(f"error:{job_id}", str(e))
+        
         raise
+
+# Worker Component
+@celery_app.task(name="process_pdf_chunk")
+def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, total_chunks):
+    """Process a specific chunk of pages from a PDF document"""
+    logger.info(f"Processing chunk {chunk_idx+1}/{total_chunks} (pages {start_page+1}-{end_page})")
+    flush_logs()
+    
+    try:
+        # Load the PDF
+        pdf_document = pymupdf.open(stream=file_content, filetype="pdf")
+        
+        # Process only the specified range of pages
+        full_text = ""
+        confidence_scores = []
+        
+        for page_num in range(start_page, end_page):
+            logger.info(f"Processing page {page_num+1} in chunk {chunk_idx+1}")
+            flush_logs()
+            
+            page = pdf_document.load_page(page_num)
+            
+            # Render page to an image
+            pix = page.get_pixmap(alpha=False)
+            img_data = pix.tobytes("png")
+            
+            # Convert to numpy array for OpenCV
+            nparr = np.frombuffer(img_data, np.uint8)
+            img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+            
+            if img is None:
+                logger.warning(f"Failed to convert page {page_num+1} to image")
+                flush_logs()
+                continue
+                
+            # Preprocess image
+            processed_img = preprocess_image(img)
+
+            # Process the image using PaddleOCR
+            result = ocr.ocr(processed_img, cls=True)
+            
+            # Extract text from the page
+            page_text = ""
+            for res in result:
+                for line in res:
+                    page_text += line[1][0] + " "
+                    confidence_scores.append(line[1][1])
+            
+            full_text += page_text
+        
+        # Clean the extracted text
+        cleaned_text = clean_text(full_text)
+        average_confidence = sum(confidence_scores) / len(confidence_scores) if confidence_scores else 0
+        
+        # Store the chunk result in Redis
+        redis_client = Redis(host='redis', port=6379, db=0)
+        chunk_result = {
+            "chunk_idx": chunk_idx,
+            "text": cleaned_text,
+            "confidence": average_confidence
+        }
+        redis_client.set(f"chunk:{job_id}:{chunk_idx}", pickle.dumps(chunk_result))
+        redis_client.set(f"chunk_status:{job_id}:{chunk_idx}", "COMPLETED")
+        
+        # Check if all chunks are completed
+        completed_chunks = 0
+        for i in range(total_chunks):
+            status = redis_client.get(f"chunk_status:{job_id}:{i}")
+            if status == b"COMPLETED":
+                completed_chunks += 1
+        
+        logger.info(f"Chunk {chunk_idx+1}/{total_chunks} completed. Progress: {completed_chunks}/{total_chunks}")
+        flush_logs()
+        
+        # If all chunks are completed, combine results
+        if completed_chunks == total_chunks:
+            combine_chunks.delay(job_id=job_id, total_chunks=total_chunks)
+        
+        return True
+        
+    except Exception as e:
+        logger.error(f"Error processing chunk {chunk_idx+1}: {str(e)}", exc_info=True)
+        flush_logs()
+        
+        # Mark this chunk as failed
+        redis_client = Redis(host='redis', port=6379, db=0)
+        redis_client.set(f"chunk_status:{job_id}:{chunk_idx}", "FAILED")
+        
+        raise
+
+# Aggregator Component
+@celery_app.task(name="combine_chunks")
+def combine_chunks(job_id, total_chunks):
+    """Combine results from all PDF chunks into a final result"""
+    logger.info(f"Combining results from {total_chunks} chunks for job {job_id}")
+    flush_logs()
+    
+    try:
+        redis_client = Redis(host='redis', port=6379, db=0)
+        
+        # Collect all chunk texts and confidence scores
+        all_text = ""
+        all_confidence_scores = []
+        
+        for i in range(total_chunks):
+            chunk_data = redis_client.get(f"chunk:{job_id}:{i}")
+            if not chunk_data:
+                logger.error(f"Missing data for chunk {i+1}")
+                continue
+                
+            chunk_result = pickle.loads(chunk_data)
+            all_text += chunk_result["text"] + " "
+            all_confidence_scores.append(chunk_result["confidence"])
+        
+        # Clean up the combined text
+        all_text = clean_text(all_text)
+        
+        # Calculate average confidence
+        average_confidence = sum(all_confidence_scores) / len(all_confidence_scores) if all_confidence_scores else 0
+        
+        # Extract fields and generate summary
+        fields = extract_nda_fields(all_text)
+        summary = generate_summary(all_text)
+        
+        # Create the final result
+        result = {
+            "full_text": all_text,
+            "average_confidence_formatted": f"{average_confidence:.2%}",
+            "summary": summary,
+            **fields
+        }
+        
+        # Store the final result
+        redis_client.set(f"result:{job_id}", pickle.dumps(result))
+        redis_client.set(f"status:{job_id}", "SUCCESS")
+        
+        logger.info(f"Successfully combined all chunks for job {job_id}")
+        flush_logs()
+        
+        # Clean up chunk data
+        for i in range(total_chunks):
+            redis_client.delete(f"chunk:{job_id}:{i}")
+            redis_client.delete(f"chunk_status:{job_id}:{i}")
+        
+        return result
+        
+    except Exception as e:
+        logger.error(f"Error combining chunks: {str(e)}", exc_info=True)
+        flush_logs()
+        
+        # Mark the job as failed
+        redis_client = Redis(host='redis', port=6379, db=0)
+        redis_client.set(f"status:{job_id}", "FAILED")
+
+        raise
+

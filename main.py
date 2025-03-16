@@ -168,11 +168,11 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
 @app.get("/status/{job_id}", response_class=HTMLResponse)
 async def check_status(request: Request, job_id: str):
     """
-    Check the status of a document processing job
+    Check the status of a document processing job, with support for chunked processing
     """
     logger.info(f"Checking status for job ID: {job_id}")
     
-    # Get the task ID from Redis
+    # Get the job status from Redis
     if not redis_client:
         logger.error("Redis connection not available")
         return templates.TemplateResponse(
@@ -181,9 +181,9 @@ async def check_status(request: Request, job_id: str):
             status_code=500
         )
     
-    task_id = redis_client.get(f"job:{job_id}")
+    status = redis_client.get(f"status:{job_id}")
     
-    if not task_id:
+    if not status:
         logger.warning(f"Job ID not found: {job_id}")
         return templates.TemplateResponse(
             "index.html",
@@ -191,17 +191,15 @@ async def check_status(request: Request, job_id: str):
             status_code=404
         )
     
-    # Check the task status
-    task = AsyncResult(task_id.decode('utf-8'), app=celery_app)
-    status = task.status
+    status = status.decode('utf-8')
     
-    # If the task is successful, redirect to the result page
+    # If the job is successful, redirect to the result page
     if status == 'SUCCESS':
         logger.info(f"Job completed successfully: {job_id}")
         return RedirectResponse(url=f"/result/{job_id}", status_code=303)
     
-    # If the task failed, show an error message
-    if status == 'FAILURE':
+    # If the job failed, show an error message
+    if status == 'FAILED':
         logger.error(f"Job failed: {job_id}")
         return templates.TemplateResponse(
             "index.html",
@@ -209,11 +207,44 @@ async def check_status(request: Request, job_id: str):
             status_code=500
         )
     
-    # If the task is still pending or running, show the status page
+    # If the job is being processed in chunks, show progress
+    if status == 'CHUNKED':
+        total_chunks = int(redis_client.get(f"total_chunks:{job_id}").decode('utf-8'))
+        
+        # Count completed chunks
+        completed_chunks = 0
+        for i in range(total_chunks):
+            chunk_status = redis_client.get(f"chunk_status:{job_id}:{i}")
+            if chunk_status and chunk_status.decode('utf-8') == 'COMPLETED':
+                completed_chunks += 1
+        
+        # Calculate progress percentage
+        progress = int((completed_chunks / total_chunks) * 100)
+        
+        # Update the completed chunks counter
+        redis_client.set(f"completed_chunks:{job_id}", str(completed_chunks))
+        
+        logger.info(f"Chunked job status: {completed_chunks}/{total_chunks} chunks completed ({progress}%)")
+        
+        # Show the status page with progress information
+        return templates.TemplateResponse(
+            "status.html",
+            {
+                "request": request, 
+                "job_id": job_id, 
+                "status": "PROCESSING", 
+                "is_chunked": True,
+                "total_chunks": total_chunks,
+                "completed_chunks": completed_chunks,
+                "progress": progress
+            }
+        )
+    
+    # For non-chunked jobs still in progress
     logger.info(f"Job status for {job_id}: {status}")
     return templates.TemplateResponse(
         "status.html",
-        {"request": request, "job_id": job_id, "status": status},
+        {"request": request, "job_id": job_id, "status": status, "is_chunked": False},
         status_code=200
     )
 
@@ -224,7 +255,7 @@ async def get_result(request: Request, job_id: str):
     """
     logger.info(f"Getting result for job ID: {job_id}")
     
-    # Get the task ID from Redis
+    # Get the job result from Redis
     if not redis_client:
         logger.error("Redis connection not available")
         return templates.TemplateResponse(
@@ -233,27 +264,27 @@ async def get_result(request: Request, job_id: str):
             status_code=500
         )
     
-    task_id = redis_client.get(f"job:{job_id}")
+    status = redis_client.get(f"status:{job_id}")
     
-    if not task_id:
-        logger.warning(f"Job ID not found: {job_id}")
+    if not status or status.decode('utf-8') != 'SUCCESS':
+        logger.warning(f"Job not completed or not found: {job_id}")
+        return RedirectResponse(url=f"/status/{job_id}", status_code=303)
+    
+    # Get the result data
+    result_data = redis_client.get(f"result:{job_id}")
+    
+    if not result_data:
+        logger.error(f"Result data not found for job: {job_id}")
         return templates.TemplateResponse(
             "index.html",
-            {"request": request, "error": "Job not found or expired."},
+            {"request": request, "error": "Result data not found."},
             status_code=404
         )
     
-    # Get the task result
-    task = AsyncResult(task_id.decode('utf-8'), app=celery_app)
+    # Deserialize the result
+    result = pickle.loads(result_data)
     
-    if task.status != 'SUCCESS':
-        logger.warning(f"Job not completed: {job_id} (status: {task.status})")
-        return RedirectResponse(url=f"/status/{job_id}", status_code=303)
-    
-    # Get the result
-    result = task.result
-    
-    # Render the result page with the extracted information
+    # Render the result page
     logger.info(f"Rendering result for job ID: {job_id}")
     return templates.TemplateResponse(
         "result.html",

@@ -10,6 +10,9 @@
             --background-color: #f8f9fa;
             --text-color: #202124;
             --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            --success-color: #34a853;
+            --warning-color: #fbbc05;
+            --error-color: #ea4335;
         }
 
         * {
@@ -105,6 +108,99 @@
             font-size: 0.9rem;
             color: #5f6368;
         }
+
+        /* Progress bar styles for chunked processing */
+        .progress-container {
+            margin: 1.5rem 0;
+        }
+
+        .progress {
+            height: 20px;
+            background-color: #f1f3f4;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 1rem 0;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: var(--primary-color);
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            transition: width 0.6s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .progress-text {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #5f6368;
+            margin-top: 0.5rem;
+        }
+
+        .progress-details {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: #5f6368;
+            margin-top: 0.25rem;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
+            margin-left: 0.5rem;
+        }
+
+        .status-badge.processing {
+            background-color: var(--primary-color);
+        }
+
+        .status-badge.chunked {
+            background-color: var(--secondary-color);
+        }
+
+        .status-badge.success {
+            background-color: var(--success-color);
+        }
+
+        .status-badge.failed {
+            background-color: var(--error-color);
+        }
+
+        .estimated-time {
+            font-size: 0.9rem;
+            color: #5f6368;
+            margin-top: 1rem;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            .button {
+                display: block;
+                margin: 0.5rem auto;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
@@ -113,16 +209,51 @@
         
         <div class="status-box">
             <p class="status-message">
-                Your document is currently being processed.
+                {% if status == "SUCCESS" %}
+                    Your document has been processed successfully!
+                {% elif status == "FAILED" %}
+                    We encountered an error while processing your document.
+                {% elif is_chunked %}
+                    Your large document is being processed in chunks.
+                {% else %}
+                    Your document is currently being processed.
+                {% endif %}
             </p>
-            <p>Current status: <strong>{{ status }}</strong></p>
+            
+            <p>Current status: 
+                <strong>{{ status }}</strong>
+                <span class="status-badge {{ status|lower }}">{{ status }}</span>
+            </p>
+            
             <p>Job ID: <span class="job-id">{{ job_id }}</span></p>
+
+            {% if is_chunked %}
+            <div class="progress-container">
+                <p>Processing large PDF in chunks:</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: {{ progress }}%">{{ progress }}%</div>
+                </div>
+                <div class="progress-details">
+                    <span>0%</span>
+                    <span>50%</span>
+                    <span>100%</span>
+                </div>
+                <p class="progress-text">Completed {{ completed_chunks }} of {{ total_chunks }} chunks</p>
+                <p class="estimated-time">
+                    {% if progress < 100 %}
+                        Estimated time remaining: ~{{ ((total_chunks - completed_chunks) * 2)|int }} minutes
+                    {% else %}
+                        Finalizing results...
+                    {% endif %}
+                </p>
+            </div>
+            {% else %}
+            <div class="spinner"></div>
+            {% endif %}
         </div>
         
-        <div class="spinner"></div>
-        
         <p>This page will automatically refresh to check the status.</p>
-        <p id="refresh-countdown">Refreshing in 10 seconds...</p>
+        <p id="refresh-countdown">Refreshing in <span id="countdown">10</span> seconds...</p>
         
         <div class="button-group">
             <a href="/" class="button">Upload Another Document</a>
@@ -131,23 +262,40 @@
     </div>
 
     <script>
-        // Auto-refresh the page every 10 seconds
         let countDown = 10;
-        const countDownElement = document.getElementById('refresh-countdown');
-        
+        const countDownElement = document.getElementById('countdown');
+    
         function updateCountdown() {
             countDown -= 1;
-            countDownElement.textContent = `Refreshing in ${countDown} seconds...`;
-            
+            countDownElement.textContent = countDown;
+    
             if (countDown <= 0) {
                 window.location.reload();
             } else {
                 setTimeout(updateCountdown, 1000);
             }
         }
-        
+    
         // Start the countdown
         setTimeout(updateCountdown, 1000);
+    
+        {% if is_chunked %}
+            // If processing in chunks, refresh slightly slower when progress is low
+            let adjustedRefreshTime = {{ 5 if progress > 50 else 8 }};
+            countDown = adjustedRefreshTime;
+        {% endif %}
+    
+        // Stop refreshing if processing is complete
+        {% if status == "SUCCESS" or status == "FAILED" %}
+            document.getElementById('refresh-countdown').style.display = 'none';
+    
+            {% if status == "SUCCESS" %}
+                setTimeout(function() {
+                    window.location.href = "/result/{{ job_id }}";
+                }, 3000);
+            {% endif %}
+        {% endif %}
     </script>
+    
 </body>
 </html>
