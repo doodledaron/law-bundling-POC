@@ -9,6 +9,7 @@ import sys
 from datetime import datetime
 import uuid
 import redis
+import pickle
 from celery.result import AsyncResult
 
 # Import the Celery task
@@ -140,8 +141,14 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         # Generate a unique ID for the job
         job_id = str(uuid.uuid4())
         
+        # Set initial status in Redis
+        if redis_client:
+            redis_client.set(f"status:{job_id}", "PENDING")
+            logger.info(f"Initial status set for job ID: {job_id}")
+        
         # Queue the document processing task
-        task = process_document_task.delay(contents, file.content_type, file.filename)
+        # Pass the job_id to the task to ensure consistency
+        task = process_document_task.delay(contents, file.content_type, file.filename, job_id)
         
         # Store the task ID in Redis with a 24-hour expiration
         if redis_client:
@@ -168,22 +175,12 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
 @app.get("/status/{job_id}", response_class=HTMLResponse)
 async def check_status(request: Request, job_id: str):
     """
-    Check the status of a document processing job, with support for chunked processing
+    Serve the static status page HTML - all status data will be fetched via API
     """
-    logger.info(f"Checking status for job ID: {job_id}")
+    logger.info(f"Status page requested for job ID: {job_id}")
     
-    # Get the job status from Redis
-    if not redis_client:
-        logger.error("Redis connection not available")
-        return templates.TemplateResponse(
-            "index.html",
-            {"request": request, "error": "Queue system not available."},
-            status_code=500
-        )
-    
-    status = redis_client.get(f"status:{job_id}")
-    
-    if not status:
+    # Basic validation that the job exists (to show a proper error page)
+    if redis_client and not redis_client.exists(f"job:{job_id}") and not redis_client.exists(f"status:{job_id}"):
         logger.warning(f"Job ID not found: {job_id}")
         return templates.TemplateResponse(
             "index.html",
@@ -191,23 +188,38 @@ async def check_status(request: Request, job_id: str):
             status_code=404
         )
     
+    # Serve the static status page
+    return templates.TemplateResponse("status.html", {"request": request})
+
+# Add this endpoint to your FastAPI app
+@app.get("/api/status/{job_id}")
+async def api_status(job_id: str):
+    """
+    Get job status as JSON for the frontend to consume
+    """
+    logger.info(f"API status check for job ID: {job_id}")
+    
+    # Get the job status from Redis
+    if not redis_client:
+        logger.error("Redis connection not available")
+        return {"error": "Queue system not available", "status": "ERROR"}
+    
+    status = redis_client.get(f"status:{job_id}")
+    
+    if not status:
+        logger.warning(f"Job ID not found: {job_id}")
+        return {"error": "Job not found or expired", "status": "NOT_FOUND"}
+    
     status = status.decode('utf-8')
     
-    # If the job is successful, redirect to the result page
-    if status == 'SUCCESS':
-        logger.info(f"Job completed successfully: {job_id}")
-        return RedirectResponse(url=f"/result/{job_id}", status_code=303)
+    # Basic response
+    response = {
+        "job_id": job_id,
+        "status": status,
+        "is_chunked": False,
+    }
     
-    # If the job failed, show an error message
-    if status == 'FAILED':
-        logger.error(f"Job failed: {job_id}")
-        return templates.TemplateResponse(
-            "index.html",
-            {"request": request, "error": "Document processing failed. Please try again."},
-            status_code=500
-        )
-    
-    # If the job is being processed in chunks, show progress
+    # If the job is being processed in chunks, add progress information
     if status == 'CHUNKED':
         total_chunks = int(redis_client.get(f"total_chunks:{job_id}").decode('utf-8'))
         
@@ -224,29 +236,18 @@ async def check_status(request: Request, job_id: str):
         # Update the completed chunks counter
         redis_client.set(f"completed_chunks:{job_id}", str(completed_chunks))
         
-        logger.info(f"Chunked job status: {completed_chunks}/{total_chunks} chunks completed ({progress}%)")
+        logger.info(f"Chunked job status API: {completed_chunks}/{total_chunks} chunks completed ({progress}%)")
         
-        # Show the status page with progress information
-        return templates.TemplateResponse(
-            "status.html",
-            {
-                "request": request, 
-                "job_id": job_id, 
-                "status": "PROCESSING", 
-                "is_chunked": True,
-                "total_chunks": total_chunks,
-                "completed_chunks": completed_chunks,
-                "progress": progress
-            }
-        )
+        # Add chunk information to response
+        response.update({
+            "is_chunked": True,
+            "total_chunks": total_chunks,
+            "completed_chunks": completed_chunks,
+            "progress": progress
+        })
     
-    # For non-chunked jobs still in progress
-    logger.info(f"Job status for {job_id}: {status}")
-    return templates.TemplateResponse(
-        "status.html",
-        {"request": request, "job_id": job_id, "status": status, "is_chunked": False},
-        status_code=200
-    )
+    return response
+
 
 @app.get("/result/{job_id}", response_class=HTMLResponse)
 async def get_result(request: Request, job_id: str):

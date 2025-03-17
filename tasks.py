@@ -290,7 +290,7 @@ def generate_summary(text, summarizer):
 
 # Coordinator Component
 @celery_app.task(name="process_document")
-def process_document_task(file_content, file_content_type, file_name):
+def process_document_task(file_content, file_content_type, file_name, job_id=None):
     """
     Process a document and extract information, using chunking for large PDFs
     """
@@ -298,8 +298,13 @@ def process_document_task(file_content, file_content_type, file_name):
     flush_logs()
     
     try:
-        # Generate a job ID for tracking
-        job_id = str(uuid.uuid4())
+        # Use the provided job_id or generate a new one
+        if job_id is None:
+            job_id = str(uuid.uuid4())
+            logger.info(f"Generated new job ID: {job_id}")
+        else:
+            logger.info(f"Using provided job ID: {job_id}")
+            
         redis_client = Redis(host='redis', port=6379, db=0)
         
         # For PDF files, check if chunking is needed
@@ -470,7 +475,7 @@ def process_document_task(file_content, file_content_type, file_name):
         logger.info("Text summary generated")
         flush_logs()
 
-        # Prepare result
+        # Prepare result - here's where you were missing the result definition
         result = {
             "full_text": cleaned_text,
             "average_confidence_formatted": average_confidence_formatted,
@@ -494,13 +499,13 @@ def process_document_task(file_content, file_content_type, file_name):
         logger.error(f"Error processing document {file_name}: {str(e)}", exc_info=True)
         flush_logs()
         
-        # Mark the job as failed if job_id exists
-        if 'job_id' in locals():
-            redis_client = Redis(host='redis', port=6379, db=0)
-            redis_client.set(f"status:{job_id}", "FAILED")
-            redis_client.set(f"error:{job_id}", str(e))
+        # Mark the job as failed
+        redis_client = Redis(host='redis', port=6379, db=0)
+        redis_client.set(f"status:{job_id}", "FAILED")
+        redis_client.set(f"error:{job_id}", str(e))
         
         raise
+
 
 # Worker Component
 @celery_app.task(name="process_pdf_chunk")

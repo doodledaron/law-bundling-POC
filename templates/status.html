@@ -112,6 +112,7 @@
         /* Progress bar styles for chunked processing */
         .progress-container {
             margin: 1.5rem 0;
+            display: none; /* Hidden by default, shown via JS when needed */
         }
 
         .progress {
@@ -135,6 +136,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 0%;
         }
 
         .progress-text {
@@ -208,48 +210,34 @@
         <h1>Document Processing Status</h1>
         
         <div class="status-box">
-            <p class="status-message">
-                {% if status == "SUCCESS" %}
-                    Your document has been processed successfully!
-                {% elif status == "FAILED" %}
-                    We encountered an error while processing your document.
-                {% elif is_chunked %}
-                    Your large document is being processed in chunks.
-                {% else %}
-                    Your document is currently being processed.
-                {% endif %}
+            <p class="status-message" id="statusMessage">
+                Your document is currently being processed.
             </p>
             
             <p>Current status: 
-                <strong>{{ status }}</strong>
-                <span class="status-badge {{ status|lower }}">{{ status }}</span>
+                <strong id="statusText">PROCESSING</strong>
+                <span class="status-badge processing" id="statusBadge">PROCESSING</span>
             </p>
             
-            <p>Job ID: <span class="job-id">{{ job_id }}</span></p>
+            <p>Job ID: <span class="job-id" id="jobIdDisplay"></span></p>
 
-            {% if is_chunked %}
-            <div class="progress-container">
+            <div class="progress-container" id="progressContainer">
                 <p>Processing large PDF in chunks:</p>
                 <div class="progress">
-                    <div class="progress-bar" style="width: {{ progress }}%">{{ progress }}%</div>
+                    <div class="progress-bar" id="progressBar">0%</div>
                 </div>
                 <div class="progress-details">
                     <span>0%</span>
                     <span>50%</span>
                     <span>100%</span>
                 </div>
-                <p class="progress-text">Completed {{ completed_chunks }} of {{ total_chunks }} chunks</p>
-                <p class="estimated-time">
-                    {% if progress < 100 %}
-                        Estimated time remaining: ~{{ ((total_chunks - completed_chunks) * 2)|int }} minutes
-                    {% else %}
-                        Finalizing results...
-                    {% endif %}
+                <p class="progress-text" id="progressText">Completed 0 of 0 chunks</p>
+                <p class="estimated-time" id="estimatedTime">
+                    Estimated time remaining: calculating...
                 </p>
             </div>
-            {% else %}
-            <div class="spinner"></div>
-            {% endif %}
+            
+            <div class="spinner" id="spinner"></div>
         </div>
         
         <p>This page will automatically refresh to check the status.</p>
@@ -257,45 +245,137 @@
         
         <div class="button-group">
             <a href="/" class="button">Upload Another Document</a>
-            <a href="/status/{{ job_id }}" class="button" id="refresh-btn">Refresh Status</a>
+            <a href="#" class="button" id="refresh-btn">Refresh Status</a>
         </div>
     </div>
 
     <script>
+        // Get job ID from URL path
+        const pathParts = window.location.pathname.split('/');
+        const jobId = pathParts[pathParts.length - 1];
+        
+        // Display job ID on the page
+        document.getElementById('jobIdDisplay').textContent = jobId;
+        
+        // Set up refresh button to reload page
+        document.getElementById('refresh-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            fetchStatus();
+        });
+        
+        // Function to fetch status from API
+        async function fetchStatus() {
+            try {
+                // Create a new API endpoint in your FastAPI app that returns JSON instead of HTML
+                const response = await fetch(`/api/status/${jobId}`);
+                const data = await response.json();
+                
+                updateStatusDisplay(data);
+            } catch (error) {
+                console.error('Error fetching status:', error);
+            }
+        }
+        
+        // Function to update the status display based on the fetched data
+        function updateStatusDisplay(data) {
+            const { status, is_chunked, total_chunks, completed_chunks, progress } = data;
+            
+            // Update status text and badge
+            const statusText = document.getElementById('statusText');
+            const statusBadge = document.getElementById('statusBadge');
+            const statusMessage = document.getElementById('statusMessage');
+            
+            statusText.textContent = status;
+            statusBadge.textContent = status;
+            
+            // Remove all existing classes and add the current status class
+            statusBadge.className = 'status-badge ' + status.toLowerCase();
+            
+            // Update status message
+            if (status === 'SUCCESS') {
+                statusMessage.textContent = 'Your document has been processed successfully!';
+                // Redirect to result page after 3 seconds
+                setTimeout(function() {
+                    window.location.href = `/result/${jobId}`;
+                }, 3000);
+            } else if (status === 'FAILED') {
+                statusMessage.textContent = 'We encountered an error while processing your document.';
+            } else if (is_chunked) {
+                statusMessage.textContent = 'Your large document is being processed in chunks.';
+            } else {
+                statusMessage.textContent = 'Your document is currently being processed.';
+            }
+            
+            // Handle chunked processing progress
+            const progressContainer = document.getElementById('progressContainer');
+            const spinner = document.getElementById('spinner');
+            
+            if (is_chunked) {
+                progressContainer.style.display = 'block';
+                spinner.style.display = 'none';
+                
+                const progressBar = document.getElementById('progressBar');
+                const progressText = document.getElementById('progressText');
+                const estimatedTime = document.getElementById('estimatedTime');
+                
+                progressBar.style.width = `${progress}%`;
+                progressBar.textContent = `${progress}%`;
+                progressText.textContent = `Completed ${completed_chunks} of ${total_chunks} chunks`;
+                
+                if (progress < 100) {
+                    const timeRemaining = ((total_chunks - completed_chunks) * 2);
+                    estimatedTime.textContent = `Estimated time remaining: ~${timeRemaining} minutes`;
+                } else {
+                    estimatedTime.textContent = 'Finalizing results...';
+                }
+            } else {
+                progressContainer.style.display = 'none';
+                
+                if (status === 'SUCCESS' || status === 'FAILED') {
+                    spinner.style.display = 'none';
+                } else {
+                    spinner.style.display = 'block';
+                }
+            }
+            
+            // Handle countdown and refresh
+            const refreshCountdown = document.getElementById('refresh-countdown');
+            
+            if (status === 'SUCCESS' || status === 'FAILED') {
+                refreshCountdown.style.display = 'none';
+            } else {
+                refreshCountdown.style.display = 'block';
+                
+                // Adjust refresh time based on progress for chunked jobs
+                if (is_chunked) {
+                    countDown = progress > 50 ? 5 : 8;
+                } else {
+                    countDown = 10;
+                }
+            }
+        }
+        
+        // Initialize countdown
         let countDown = 10;
         const countDownElement = document.getElementById('countdown');
-    
+        
         function updateCountdown() {
             countDown -= 1;
             countDownElement.textContent = countDown;
-    
+            
             if (countDown <= 0) {
-                window.location.reload();
-            } else {
-                setTimeout(updateCountdown, 1000);
+                fetchStatus();
+                countDown = 10;
             }
+            
+            setTimeout(updateCountdown, 1000);
         }
-    
+        
         // Start the countdown
         setTimeout(updateCountdown, 1000);
-    
-        {% if is_chunked %}
-            // If processing in chunks, refresh slightly slower when progress is low
-            let adjustedRefreshTime = {{ 5 if progress > 50 else 8 }};
-            countDown = adjustedRefreshTime;
-        {% endif %}
-    
-        // Stop refreshing if processing is complete
-        {% if status == "SUCCESS" or status == "FAILED" %}
-            document.getElementById('refresh-countdown').style.display = 'none';
-    
-            {% if status == "SUCCESS" %}
-                setTimeout(function() {
-                    window.location.href = "/result/{{ job_id }}";
-                }, 3000);
-            {% endif %}
-        {% endif %}
+        
+        // Initial fetch
+        fetchStatus();
     </script>
-    
 </body>
 </html>
