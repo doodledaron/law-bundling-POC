@@ -12,7 +12,11 @@ from logging.handlers import RotatingFileHandler
 import pickle
 from redis import Redis
 import uuid 
+import gc  # Add garbage collection module
 
+gc.enable()  # Ensure garbage collection is enabled
+# Set threshold for garbage collection to be more aggressive
+gc.set_threshold(700, 10, 5)  # Adjust these values based on your memory requirements
 
 # Configure Celery
 celery_app = Celery('tasks', broker='redis://redis:6379/0', backend='redis://redis:6379/0')
@@ -70,40 +74,18 @@ logger.addHandler(console_handler)
 
 logger.info("Starting application initialization")
 
-# Initialize models
-try:
-    logger.info("Initializing document processing models")
-    ocr, summarizer = initialize_models()
-    logger.info("Models initialized successfully")
-except Exception as e:
-    logger.critical(f"Failed to initialize models: {str(e)}")
-    sys.exit(1)  # Exit if critical models can't be loaded
-
-
 # Configurable thresholds for chunking
 PAGE_THRESHOLD = 10  # Process PDFs with more than 10 pages in chunks
 CHUNK_SIZE = 5       # Process 5 pages per chunk
 
 
-"""
-1. User uploads PDF → main.py
-2. If pages > PAGE_THRESHOLD:
-   → Split into chunks of CHUNK_SIZE pages
-   → Create separate task for each chunk
-   → Return job_id to user
-3. For each chunk:
-   → Process OCR independently
-   → Save intermediate results to Redis
-4. When all chunks complete:
-   → Combine text from all chunks
-   → Run single analysis on combined text
-   → Store final results
+def flush_logs():
+    """Helper function to ensure logs are flushed"""
+    for handler in logger.handlers + logging.root.handlers:
+        handler.flush()
+    sys.stdout.flush()
+    sys.stderr.flush()
 
-Main components for chunking
-- Coordinator analyzes the document and creates the processing plan
-- Workers process chunks in parallel, each handling a manageable portion
-- Aggregator combines results and performs unified analysis
-"""
 
 def initialize_models():
     """
@@ -149,17 +131,40 @@ def initialize_models():
     return ocr_model, summarizer_model
 
 
+# Initialize models
+try:
+    logger.info("Initializing document processing models")
+    ocr, summarizer = initialize_models()
+    logger.info("Models initialized successfully")
+except Exception as e:
+    logger.critical(f"Failed to initialize models: {str(e)}")
+    sys.exit(1)  # Exit if critical models can't be loaded
+
+
+"""
+1. User uploads PDF → main.py
+2. If pages > PAGE_THRESHOLD:
+   → Split into chunks of CHUNK_SIZE pages
+   → Create separate task for each chunk
+   → Return job_id to user
+3. For each chunk:
+   → Process OCR independently
+   → Save intermediate results to Redis
+4. When all chunks complete:
+   → Combine text from all chunks
+   → Run single analysis on combined text
+   → Store final results
+
+Main components for chunking
+- Coordinator analyzes the document and creates the processing plan
+- Workers process chunks in parallel, each handling a manageable portion
+- Aggregator combines results and performs unified analysis
+"""
+
 def should_chunk_pdf(pdf_document):
     """Determine if a PDF needs to be processed in chunks based on page count"""
     return len(pdf_document) > PAGE_THRESHOLD
 
-
-def flush_logs():
-    """Helper function to ensure logs are flushed"""
-    for handler in logger.handlers + logging.root.handlers:
-        handler.flush()
-    sys.stdout.flush()
-    sys.stderr.flush()
 
 def preprocess_image(img):
     """
@@ -336,6 +341,8 @@ def process_document_task(file_content, file_content_type, file_name):
                     logger.info(f"Created task for chunk {chunk_idx+1}/{total_chunks} (pages {start_page+1}-{end_page})")
                 
                 pdf_document.close()
+                # Force garbage collection after creating all chunk tasks
+                gc.collect()
                 flush_logs()
                 
                 # Return the job ID for tracking
@@ -542,6 +549,10 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
                     confidence_scores.append(line[1][1])
             
             full_text += page_text
+            
+            # Clean up memory after processing each page
+            del pix, img_data, nparr, img, processed_img, result
+            gc.collect()
         
         # Clean the extracted text
         cleaned_text = clean_text(full_text)
@@ -606,6 +617,11 @@ def combine_chunks(job_id, total_chunks):
             chunk_result = pickle.loads(chunk_data)
             all_text += chunk_result["text"] + " "
             all_confidence_scores.append(chunk_result["confidence"])
+            
+            # Clean up chunk data from memory after adding to all_text
+            del chunk_result, chunk_data
+            if i % 5 == 0:  # Run garbage collection every 5 chunks to avoid too frequent calls
+                gc.collect()
         
         # Clean up the combined text
         all_text = clean_text(all_text)
@@ -637,7 +653,11 @@ def combine_chunks(job_id, total_chunks):
             redis_client.delete(f"chunk:{job_id}:{i}")
             redis_client.delete(f"chunk_status:{job_id}:{i}")
         
-        return result
+        # Final garbage collection
+        del all_text, all_confidence_scores, fields, summary, result
+        gc.collect()
+        
+        return True
         
     except Exception as e:
         logger.error(f"Error combining chunks: {str(e)}", exc_info=True)
@@ -647,5 +667,6 @@ def combine_chunks(job_id, total_chunks):
         redis_client = Redis(host='redis', port=6379, db=0)
         redis_client.set(f"status:{job_id}", "FAILED")
 
+        # Clean up memory even in case of error
+        gc.collect()
         raise
-
