@@ -26,6 +26,7 @@ celery_app.conf.update(
     result_serializer='json',
     timezone='UTC',
     enable_utc=True,
+    broker_connection_retry_on_startup=True,  # Add this line
 )
 
 # Create a custom handler that flushes after each log
