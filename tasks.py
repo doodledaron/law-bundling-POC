@@ -378,7 +378,7 @@ def process_document_task(file_content, file_content_type, file_name):
                 page = pdf_document.load_page(page_num)
                 
                 # Render page to an image
-                pix = page.get_pixmap(alpha=False)
+                pix = page.get_pixmap(alpha=False, dpi=150)  # Lower DPI for memory savings
                 img_data = pix.tobytes("png")
                 
                 # Convert to numpy array for OpenCV
@@ -524,7 +524,7 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
             page = pdf_document.load_page(page_num)
             
             # Render page to an image
-            pix = page.get_pixmap(alpha=False)
+            pix = page.get_pixmap(alpha=False, dpi=150)  # Lower DPI for memory savings
             img_data = pix.tobytes("png")
             
             # Convert to numpy array for OpenCV
@@ -552,7 +552,7 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
             full_text += page_text
             
             # Clean up memory after processing each page
-            del pix, img_data, nparr, img, processed_img, result
+            del pix, img_data, nparr, img, processed_img, result, page
             gc.collect()
         
         # Clean the extracted text

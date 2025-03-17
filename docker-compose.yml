@@ -12,7 +12,14 @@ services:
       - redis
     environment:
       - REDIS_URL=redis://redis:6379/0
-    command: uvicorn main:app --host 0.0.0.0 --port 10000 --reload
+    # Disabled auto-reload to prevent high memory usage during directory scanning
+    # Auto-reload constantly scans the entire directory tree for file changes
+    # which can cause memory issues with large dependencies like sympy
+    command: uvicorn main:app --host 0.0.0.0 --port 10000 --reload=False
+    deploy:
+      resources:
+        limits:
+          memory: 2G  # Limit memory to prevent container from using too much system memory
 
   # Redis for message broker and result backend
   redis:
@@ -31,7 +38,14 @@ services:
       - redis
     environment:
       - REDIS_URL=redis://redis:6379/0
-    command: celery -A tasks.celery_app worker --loglevel=info
+    # Set concurrency to 1 to prevent multiple workers consuming too much memory
+    # Each worker process handles OCR and image processing which are memory-intensive
+    # Multiple concurrent processes can quickly exhaust available memory
+    command: celery -A tasks.celery_app worker --loglevel=info --concurrency=1
+    deploy:
+      resources:
+        limits:
+          memory: 4G  # Allocate more memory to the worker as it handles PDF processing
 
   # Flower for monitoring Celery tasks
   flower:
