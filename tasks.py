@@ -5,7 +5,7 @@ import pymupdf  # PyMuPDF
 import re
 import paddleocr
 from transformers import pipeline
-from celery import Celery
+from celery import Celery, signals  # Added signals import
 import sys
 import os
 from logging.handlers import RotatingFileHandler
@@ -27,6 +27,9 @@ celery_app.conf.update(
     timezone='UTC',
     enable_utc=True,
     broker_connection_retry_on_startup=True,  # Add this line
+    worker_max_tasks_per_child=10,     # Restart worker after 10 tasks
+    worker_max_memory_per_child=1024 * 1024 * 1024,  # 1GB memory limit
+    worker_concurrency=2,  # Limit to 2 concurrent tasks
 )
 
 # Create a custom handler that flushes after each log
@@ -79,6 +82,93 @@ logger.info("Starting application initialization")
 PAGE_THRESHOLD = 10  # Process PDFs with more than 10 pages in chunks
 CHUNK_SIZE = 5       # Process 5 pages per chunk
 
+
+def cleanup_memory(label=""):
+    """
+    Perform memory cleanup to reclaim resources
+    """
+    # Log memory before cleanup if psutil is available
+    try:
+        import psutil
+        process = psutil.Process()
+        memory_before = process.memory_info().rss / (1024 * 1024)
+        logger.info(f"{label} Memory before cleanup: {memory_before:.2f} MB")
+    except ImportError:
+        memory_before = 0
+        logger.info(f"{label} Memory cleanup started (psutil not available for measurements)")
+    
+    # Run multiple garbage collection cycles
+    collected = 0
+    for i in range(3):
+        collected += gc.collect()
+    
+    logger.info(f"{label} Memory cleanup collected {collected} objects")
+    
+    # Try to release memory to the OS (Linux/WSL2)
+    try:
+        import ctypes
+        libc = ctypes.CDLL('libc.so.6')
+        if hasattr(libc, 'malloc_trim'):
+            result = libc.malloc_trim(0)
+            if result > 0:
+                logger.info(f"{label} Successfully released memory to OS")
+    except Exception:
+        pass
+    
+    # Log memory after cleanup if psutil is available
+    try:
+        import psutil
+        process = psutil.Process()
+        memory_after = process.memory_info().rss / (1024 * 1024)
+        logger.info(f"{label} Memory after cleanup: {memory_after:.2f} MB")
+        if memory_before > 0:
+            logger.info(f"{label} Memory reduced by: {memory_before - memory_after:.2f} MB")
+    except ImportError:
+        pass
+    
+    flush_logs()
+
+
+def clean_variables(*variables):
+    """
+    Explicitly delete variables and run garbage collection.
+    
+    Args:
+        *variables: Variables to delete
+        
+    Example:
+        clean_variables(img_data, nparr, img, processed_img, result)
+    """
+    for var in variables:
+        if var is not None:
+            var_type = type(var).__name__
+            try:
+                # Try to get variable size (may not work for all types)
+                import sys
+                var_size = sys.getsizeof(var) / (1024 * 1024)
+                logger.debug(f"Deleting {var_type} object (approx. {var_size:.2f} MB)")
+            except:
+                logger.debug(f"Deleting {var_type} object")
+            
+            # Delete the variable
+            del var
+    
+    # Run quick garbage collection to reclaim memory
+    gc.collect(0)  # Quick collection of youngest generation only
+
+
+# Add signal handlers for better memory management
+@signals.task_prerun.connect
+def task_prerun_handler(task_id, task, *args, **kwargs):
+    """Run before each task to ensure clean memory environment"""
+    logger.info(f"Preparing to run task {task.name}[{task_id}]")
+    gc.collect()  # Light GC before task
+
+@signals.task_postrun.connect
+def task_postrun_handler(task_id, task, *args, retval=None, state=None, **kwargs):
+    """Clean up memory after each task"""
+    logger.info(f"Finished task {task.name}[{task_id}] with state {state}")
+    cleanup_memory(f"task_postrun:{task.name}")
 
 def flush_logs():
     """Helper function to ensure logs are flushed"""
@@ -347,8 +437,10 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
                     logger.info(f"Created task for chunk {chunk_idx+1}/{total_chunks} (pages {start_page+1}-{end_page})")
                 
                 pdf_document.close()
+                # Clean up file_content which can be very large
+                clean_variables(file_content, pdf_document)
                 # Force garbage collection after creating all chunk tasks
-                gc.collect()
+                cleanup_memory("after_creating_chunks")
                 flush_logs()
                 
                 # Return the job ID for tracking
@@ -411,10 +503,15 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
                 
                 logger.info(f"Extracted {len(page_text.split())} words from page {page_num+1}")
                 full_text += page_text
+                
+                # Clean up large objects after each page to prevent memory buildup
+                clean_variables(pix, img_data, nparr, img, processed_img, result, page)
+                
                 flush_logs()
             
             # Close the document
             pdf_document.close()
+            clean_variables(pdf_document)
             
             cleaned_text = clean_text(full_text)
             if confidence_scores:
@@ -460,7 +557,12 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
             else:
                 average_confidence_formatted = "N/A"
                 logger.warning("No confidence scores available")
+            
+            # Clean up large image data
+            clean_variables(nparr, img, processed_img, result)
         
+        # We don't need the original file content anymore, so clean it up
+        clean_variables(file_content)
         flush_logs()
 
         # Extract NDA fields
@@ -475,7 +577,7 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
         logger.info("Text summary generated")
         flush_logs()
 
-        # Prepare result - here's where you were missing the result definition
+        # Prepare result
         result = {
             "full_text": cleaned_text,
             "average_confidence_formatted": average_confidence_formatted,
@@ -488,6 +590,11 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
         redis_client.set(f"status:{job_id}", "SUCCESS")
         
         logger.info(f"Document {file_name} processed successfully")
+        
+        # Final cleanup
+        clean_variables(full_text, cleaned_text, confidence_scores, fields, summary, result)
+        cleanup_memory("after_document_processing")
+        
         flush_logs()
         
         return {
@@ -499,11 +606,21 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
         logger.error(f"Error processing document {file_name}: {str(e)}", exc_info=True)
         flush_logs()
         
-        # Mark the job as failed
-        redis_client = Redis(host='redis', port=6379, db=0)
-        redis_client.set(f"status:{job_id}", "FAILED")
-        redis_client.set(f"error:{job_id}", str(e))
+        try:
+            # Mark the job as failed
+            redis_client = Redis(host='redis', port=6379, db=0)
+            redis_client.set(f"status:{job_id}", "FAILED")
+            redis_client.set(f"error:{job_id}", str(e))
+        except Exception as redis_error:
+            logger.error(f"Error updating Redis status: {str(redis_error)}")
         
+        # Always clean up on error
+        try:
+            clean_variables(file_content)
+            cleanup_memory("error_cleanup")
+        except:
+            pass
+            
         raise
 
 
@@ -557,7 +674,7 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
             full_text += page_text
             
             # Clean up memory after processing each page
-            del pix, img_data, nparr, img, processed_img, result, page
+            clean_variables(pix, img_data, nparr, img, processed_img, result, page)
             gc.collect()
         
         # Clean the extracted text
@@ -578,8 +695,11 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
         completed_chunks = 0
         for i in range(total_chunks):
             status = redis_client.get(f"chunk_status:{job_id}:{i}")
-            if status == b"COMPLETED":
+            if status and status.decode('utf-8') == "COMPLETED":
                 completed_chunks += 1
+        
+        # Update the completed chunks counter
+        redis_client.set(f"completed_chunks:{job_id}", str(completed_chunks))
         
         logger.info(f"Chunk {chunk_idx+1}/{total_chunks} completed. Progress: {completed_chunks}/{total_chunks}")
         flush_logs()
@@ -588,6 +708,11 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
         if completed_chunks == total_chunks:
             combine_chunks.delay(job_id=job_id, total_chunks=total_chunks)
         
+        # Clean up before returning
+        pdf_document.close()
+        clean_variables(pdf_document, file_content, full_text, cleaned_text, confidence_scores, chunk_result)
+        cleanup_memory(f"after_chunk_{chunk_idx}")
+        
         return True
         
     except Exception as e:
@@ -595,10 +720,22 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
         flush_logs()
         
         # Mark this chunk as failed
-        redis_client = Redis(host='redis', port=6379, db=0)
-        redis_client.set(f"chunk_status:{job_id}:{chunk_idx}", "FAILED")
+        try:
+            redis_client = Redis(host='redis', port=6379, db=0)
+            redis_client.set(f"chunk_status:{job_id}:{chunk_idx}", "FAILED")
+        except:
+            pass
         
+        # Always clean up on error
+        try:
+            pdf_document.close()
+            clean_variables(pdf_document, file_content)
+            cleanup_memory("chunk_error_cleanup")
+        except:
+            pass
+            
         raise
+
 
 # Aggregator Component
 @celery_app.task(name="combine_chunks")
@@ -625,7 +762,7 @@ def combine_chunks(job_id, total_chunks):
             all_confidence_scores.append(chunk_result["confidence"])
             
             # Clean up chunk data from memory after adding to all_text
-            del chunk_result, chunk_data
+            clean_variables(chunk_result, chunk_data)
             if i % 5 == 0:  # Run garbage collection every 5 chunks to avoid too frequent calls
                 gc.collect()
         
@@ -638,8 +775,6 @@ def combine_chunks(job_id, total_chunks):
         # Extract fields and generate summary
         fields = extract_nda_fields(all_text)
         summary = generate_summary(all_text, summarizer)
-        
-        # Create the final result
         result = {
             "full_text": all_text,
             "average_confidence_formatted": f"{average_confidence:.2%}",
@@ -659,9 +794,9 @@ def combine_chunks(job_id, total_chunks):
             redis_client.delete(f"chunk:{job_id}:{i}")
             redis_client.delete(f"chunk_status:{job_id}:{i}")
         
-        # Final garbage collection
-        del all_text, all_confidence_scores, fields, summary, result
-        gc.collect()
+        # Final cleanup
+        clean_variables(all_text, all_confidence_scores, fields, summary, result)
+        cleanup_memory("after_combining_chunks")
         
         return True
         
@@ -670,9 +805,13 @@ def combine_chunks(job_id, total_chunks):
         flush_logs()
         
         # Mark the job as failed
-        redis_client = Redis(host='redis', port=6379, db=0)
-        redis_client.set(f"status:{job_id}", "FAILED")
+        try:
+            redis_client = Redis(host='redis', port=6379, db=0)
+            redis_client.set(f"status:{job_id}", "FAILED")
+            redis_client.set(f"error:{job_id}", str(e))
+        except:
+            pass
 
         # Clean up memory even in case of error
-        gc.collect()
+        cleanup_memory("combine_chunks_error")
         raise

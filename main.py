@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request, File, UploadFile, Form
+from fastapi import FastAPI, Request, File, UploadFile, Form, BackgroundTasks
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
@@ -10,7 +10,9 @@ from datetime import datetime
 import uuid
 import redis
 import pickle
+import gc
 from celery.result import AsyncResult
+from celery import Celery, signals
 
 # Import the Celery task
 from tasks import celery_app, process_document_task
@@ -50,7 +52,9 @@ logger.info(f"Logging to file: {log_filename}")
 # ------ END LOGGING CONFIGURATION ------
 
 # Initialize FastAPI app
-app = FastAPI()
+app = FastAPI(title="Document Processing API",
+              description="API for processing documents with memory optimization",
+              version="1.0.0")
 
 # Add CORS middleware
 app.add_middleware(
@@ -82,18 +86,46 @@ ERROR_MESSAGES = {
     "decode_error": "Could not decode the image. Please try another file."
 }
 
+# Memory cleanup helper function
+def background_memory_cleanup():
+    """Clean up memory in the background"""
+    # Run a full garbage collection
+    collected = gc.collect()
+    logger.info(f"Background memory cleanup collected {collected} objects")
+    
+    # Try to release memory to the OS
+    try:
+        import ctypes
+        libc = ctypes.CDLL('libc.so.6')
+        if hasattr(libc, 'malloc_trim'):
+            libc.malloc_trim(0)
+    except Exception:
+        pass
+    
+    # Log memory usage if psutil is available
+    try:
+        import psutil
+        process = psutil.Process()
+        memory_info = process.memory_info()
+        memory_mb = memory_info.rss / (1024 * 1024)
+        logger.info(f"Current memory usage after cleanup: {memory_mb:.2f} MB")
+    except ImportError:
+        pass
+
 # Define root endpoint
 @app.get("/", response_class=HTMLResponse)
-async def read_root(request: Request):
+async def read_root(request: Request, background_tasks: BackgroundTasks):
     """
     Render the main upload page
     """
     logger.info("Main page accessed")
+    # Schedule a background memory cleanup
+    background_tasks.add_task(background_memory_cleanup)
     return templates.TemplateResponse("index.html", {"request": request})
 
 # Define upload endpoint
 @app.post("/upload", response_class=HTMLResponse)
-async def upload_file(request: Request, file: UploadFile = File(...)):
+async def upload_file(request: Request, background_tasks: BackgroundTasks, file: UploadFile = File(...)):
     """
     Process uploaded file asynchronously and return job ID
     """
@@ -157,15 +189,23 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         
         logger.info(f"Document processing queued with task ID: {task.id}")
         
+        # Schedule background cleanup to free memory after upload processing
+        background_tasks.add_task(background_memory_cleanup)
+        
         # Redirect to the status page
         return RedirectResponse(url=f"/status/{job_id}", status_code=303)
 
     except Exception as e:
         error_message = f"An unexpected error occurred: {str(e)}"
         logger.error(error_message, exc_info=True)
+        
+        # Run garbage collection on error
+        gc.collect()
+        
         # Force flush logs
         for handler in logger.handlers + logging.root.handlers:
             handler.flush()
+            
         return templates.TemplateResponse(
             "index.html",
             {"request": request, "error": error_message},
@@ -173,7 +213,7 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         )
 
 @app.get("/status/{job_id}", response_class=HTMLResponse)
-async def check_status(request: Request, job_id: str):
+async def check_status(request: Request, job_id: str, background_tasks: BackgroundTasks):
     """
     Serve the static status page HTML - all status data will be fetched via API
     """
@@ -188,12 +228,15 @@ async def check_status(request: Request, job_id: str):
             status_code=404
         )
     
+    # Schedule a background cleanup task
+    background_tasks.add_task(background_memory_cleanup)
+    
     # Serve the static status page
     return templates.TemplateResponse("status.html", {"request": request})
 
 # Add this endpoint to your FastAPI app
 @app.get("/api/status/{job_id}")
-async def api_status(job_id: str):
+async def api_status(job_id: str, background_tasks: BackgroundTasks):
     """
     Get job status as JSON for the frontend to consume
     """
@@ -246,11 +289,14 @@ async def api_status(job_id: str):
             "progress": progress
         })
     
+    # Schedule a background cleanup task
+    background_tasks.add_task(background_memory_cleanup)
+    
     return response
 
 
 @app.get("/result/{job_id}", response_class=HTMLResponse)
-async def get_result(request: Request, job_id: str):
+async def get_result(request: Request, job_id: str, background_tasks: BackgroundTasks):
     """
     Get the result of a document processing job
     """
@@ -283,26 +329,132 @@ async def get_result(request: Request, job_id: str):
         )
     
     # Deserialize the result
-    result = pickle.loads(result_data)
+    try:
+        result = pickle.loads(result_data)
+        
+        # Schedule a background cleanup task after deserializing
+        background_tasks.add_task(background_memory_cleanup)
+        
+        # Render the result page
+        logger.info(f"Rendering result for job ID: {job_id}")
+        return templates.TemplateResponse(
+            "result.html",
+            {
+                "request": request,
+                **result
+            },
+            status_code=200
+        )
+    except Exception as e:
+        logger.error(f"Error deserializing result: {str(e)}")
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "error": f"Error processing result: {str(e)}"},
+            status_code=500
+        )
+
+# Health check endpoint
+@app.get("/health")
+async def health_check():
+    """
+    Health check endpoint for monitoring
+    """
+    # Check Redis connection
+    redis_status = "UP" if redis_client and redis_client.ping() else "DOWN"
     
-    # Render the result page
-    logger.info(f"Rendering result for job ID: {job_id}")
-    return templates.TemplateResponse(
-        "result.html",
-        {
-            "request": request,
-            **result
-        },
-        status_code=200
-    )
+    # Simple memory stats
+    memory_stats = {}
+    try:
+        import psutil
+        process = psutil.Process()
+        memory_stats = {
+            "rss_mb": process.memory_info().rss / (1024 * 1024),
+            "vms_mb": process.memory_info().vms / (1024 * 1024),
+        }
+    except ImportError:
+        memory_stats = {"error": "psutil not installed"}
+    
+    return {
+        "status": "healthy",
+        "redis": redis_status,
+        "memory": memory_stats
+    }
+
+# Admin endpoint for memory cleanup
+@app.get("/admin/cleanup-memory")
+async def admin_cleanup_memory():
+    """
+    Admin endpoint to manually trigger memory cleanup.
+    """
+    try:
+        # Get memory before
+        memory_before = 0
+        try:
+            import psutil
+            process = psutil.Process()
+            memory_before = process.memory_info().rss / (1024 * 1024)
+        except ImportError:
+            pass
+        
+        # Run cleanup
+        collected = gc.collect()
+        
+        # Try to release memory to OS
+        try:
+            import ctypes
+            libc = ctypes.CDLL('libc.so.6')
+            if hasattr(libc, 'malloc_trim'):
+                libc.malloc_trim(0)
+        except Exception:
+            pass
+            
+        # Get final memory
+        memory_final = 0
+        try:
+            import psutil
+            process = psutil.Process()
+            memory_final = process.memory_info().rss / (1024 * 1024)
+        except ImportError:
+            pass
+            
+        return {
+            "success": True,
+            "collected_objects": collected,
+            "memory_before_mb": round(memory_before, 2),
+            "memory_final_mb": round(memory_final, 2),
+            "memory_reduced_mb": round(memory_before - memory_final, 2),
+            "memory_reduced_percent": round(((memory_before - memory_final) / memory_before) * 100, 2) if memory_before > 0 else 0
+        }
+    except Exception as e:
+        logger.error(f"Error during manual memory cleanup: {str(e)}")
+        return {"success": False, "error": str(e)}
 
 # Debug handler for uvicorn to force flush logs after each request
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
+    """Middleware to log requests and handle memory cleanup"""
+    # Log request start
     logger.debug(f"Request: {request.method} {request.url.path}")
-    response = await call_next(request)
-    logger.debug(f"Response status: {response.status_code}")
-    # Force flush logs after each request
-    for handler in logger.handlers + logging.root.handlers:
-        handler.flush()
-    return response
+    
+    # Process the request
+    try:
+        response = await call_next(request)
+        logger.debug(f"Response status: {response.status_code}")
+        
+        # Run a light garbage collection after each request
+        # This prevents memory buildup but isn't as aggressive as the full cleanup
+        gc.collect(0)  # Only collect youngest generation
+        
+        return response
+    finally:
+        # Force flush logs after each request
+        for handler in logger.handlers + logging.root.handlers:
+            handler.flush()
+
+# Shutdown event handler
+@app.on_event("shutdown")
+def shutdown_event():
+    """Clean up resources when shutting down"""
+    logger.info("Application shutting down, cleaning up resources")
+    gc.collect()  # Run garbage collection on shutdown
+    logger.info("Shutdown cleanup complete")

@@ -12,26 +12,50 @@ services:
       - redis
     environment:
       - REDIS_URL=redis://redis:6379/0
+      - TZ=UTC
+      # Memory optimization environment variables
+      # These limit math libraries to use single threads, reducing memory usage
+      - OMP_NUM_THREADS=1
+      - OPENBLAS_NUM_THREADS=1
+      - MKL_NUM_THREADS=1
+      - VECLIB_MAXIMUM_THREADS=1
+      - NUMEXPR_NUM_THREADS=1
     # Disabled auto-reload to prevent high memory usage during directory scanning
     # Auto-reload constantly scans the entire directory tree for file changes
     # which can cause memory issues with large dependencies like sympy
-    command: uvicorn main:app --host 0.0.0.0 --port 10000
+    command: uvicorn main:app --host 0.0.0.0 --port 10000 --workers 1
     deploy:
       resources:
         limits:
           memory: 1.5G  # Limit memory to prevent container from using too much system memory
-
+          cpus: '1'
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+      
   # Redis for message broker and result backend
   redis:
-    image: redis:latest
+    image: redis:7-alpine  # Using alpine for smaller image size
     ports:
       - "6379:6379"
     volumes:
       - redis_data:/data
+    # Redis configuration for memory optimization
+    # Sets memory limit and policy for evicting keys when memory is full
+    command: redis-server --save 60 1 --loglevel warning --maxmemory 80mb --maxmemory-policy allkeys-lru
     deploy:
       resources:
         limits:
           memory: 100M  # Limit memory to prevent container from using too much system memory
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
   # Celery worker for processing tasks
   worker:
@@ -42,14 +66,36 @@ services:
       - redis
     environment:
       - REDIS_URL=redis://redis:6379/0
-    # Set concurrency to 1 to prevent multiple workers consuming too much memory
-    # Each worker process handles OCR and image processing which are memory-intensive
-    # Multiple concurrent processes can quickly exhaust available memory
-    command: celery -A tasks.celery_app worker --loglevel=info --concurrency=1
+      - TZ=UTC
+      # Memory optimization environment variables
+      - OMP_NUM_THREADS=1
+      - OPENBLAS_NUM_THREADS=1
+      - MKL_NUM_THREADS=1
+      - VECLIB_MAXIMUM_THREADS=1
+      - NUMEXPR_NUM_THREADS=1
+    # Worker configuration with memory optimizations:
+    # --max-tasks-per-child=10: Restart worker after processing 10 tasks to prevent memory leaks
+    # --concurrency=2: Use 2 worker processes for better throughput while maintaining memory control
+    # --without-gossip --without-mingle: Disable unnecessary inter-worker communication to save memory
+    command: >
+      celery -A tasks.celery_app worker 
+      --loglevel=info 
+      --max-tasks-per-child=10 
+      --concurrency=2
+      --without-gossip 
+      --without-mingle
     deploy:
       resources:
         limits:
-          memory: 6G  # Allocate more memory to the worker as it handles PDF processing
+          memory: 6.5G  # Allocate more memory to the worker as it handles PDF processing
+          cpus: '2'
+    restart: unless-stopped
+    # Set log rotation to prevent log files from consuming disk space
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
   # Flower for monitoring Celery tasks
   flower:
@@ -61,11 +107,13 @@ services:
       - worker
     environment:
       - REDIS_URL=redis://redis:6379/0
+      - TZ=UTC
     command: celery -A tasks.celery_app flower --port=5555
     deploy:
       resources:
         limits:
           memory: 1G
+    restart: unless-stopped
 
 volumes:
   redis_data:
