@@ -15,6 +15,8 @@ import logging
 import os
 import sys
 from datetime import datetime
+from models.layoutlm_processor import LayoutLMProcessor
+from models.legal_entity_extractor import LegalEntityExtractor
 
 # ------ LOGGING CONFIGURATION ------
 # Ensure log directory exists
@@ -87,6 +89,17 @@ templates = Jinja2Templates(directory="templates")
 logger.info("Initializing PaddleOCR")
 ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
 logger.info("PaddleOCR initialized")
+
+# Initialize LayoutLM processor and legal entity extractor
+try:
+    logger.info("Initializing LayoutLM processor")
+    layoutlm_processor = LayoutLMProcessor()
+    legal_entity_extractor = LegalEntityExtractor()
+    logger.info("LayoutLM processor and legal entity extractor initialized")
+except Exception as e:
+    logger.error(f"Error initializing LayoutLM processor: {str(e)}", exc_info=True)
+    layoutlm_processor = None
+    legal_entity_extractor = None
 
 # Error messages
 ERROR_MESSAGES = {
@@ -422,6 +435,115 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         # Force flush logs
         for handler in logger.handlers + logging.root.handlers:
             handler.flush()
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "error": error_message},
+            status_code=500
+        )
+
+# New endpoint for LayoutLM-based document processing
+@app.post("/process_with_layoutlm", response_class=HTMLResponse)
+async def process_with_layoutlm(request: Request, file: UploadFile = File(...)):
+    """
+    Process a document using LayoutLM for better layout-aware understanding.
+    """
+    logger.info(f"LayoutLM processing initiated for file: {file.filename} ({file.content_type})")
+
+    # Check if LayoutLM processor is initialized
+    if not layoutlm_processor or not legal_entity_extractor:
+        error_message = "LayoutLM processor is not available. Please check system configuration."
+        logger.error(error_message)
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "error": error_message},
+            status_code=500
+        )
+
+    try:
+        # Read file contents
+        try:
+            contents = await file.read()
+            logger.info(f"File read successfully: {len(contents)} bytes")
+        except Exception as e:
+            error_message = f"Error reading file: {str(e)}"
+            logger.error(error_message, exc_info=True)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+
+        # Check file size (limit to 10MB)
+        if len(contents) > 10 * 1024 * 1024:
+            logger.warning(f"File size exceeds limit: {len(contents)} bytes")
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": "File size exceeds the 10MB limit."},
+                status_code=400
+            )
+
+        # Validate file type
+        file_extension = file.filename.split('.')[-1].lower()
+        content_type = file.content_type.lower()
+        
+        if file_extension not in ['pdf', 'jpg', 'jpeg', 'png'] or not any(typ in content_type for typ in ['pdf', 'image']):
+            logger.warning(f"Invalid file type: {content_type}, extension: {file_extension}")
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
+                status_code=400
+            )
+
+        # Process the document using LayoutLM
+        try:
+            # Preprocess document
+            processed_pages = layoutlm_processor.preprocess_document(contents)
+            
+            # Visualize layout
+            visualization_results = layoutlm_processor.visualize_layout(processed_pages)
+            
+            # Extract entities using LayoutLM
+            layoutlm_results = layoutlm_processor.extract_entities(processed_pages)
+            
+            # Extract the full text
+            full_text = layoutlm_results.get("full_text", "")
+            
+            # Use legal entity extractor to get more detailed extractions
+            extractions = legal_entity_extractor.extract_from_text(full_text)
+            
+            # Generate summary
+            summary = generate_summary(full_text)
+            
+            # Combine all results
+            results = {
+                "filename": file.filename,
+                "file_type": content_type,
+                "processed_pages": len(processed_pages),
+                "extracted_text": full_text[:1000] + "..." if len(full_text) > 1000 else full_text,
+                "summary": summary,
+                "entities": extractions,
+                "visualizations": visualization_results
+            }
+            
+            logger.info(f"LayoutLM processing successful for {file.filename}")
+            return templates.TemplateResponse(
+                "layoutlm_results.html",
+                {"request": request, "results": results},
+                status_code=200
+            )
+            
+        except Exception as e:
+            error_message = f"Error processing document with LayoutLM: {str(e)}"
+            logger.error(error_message, exc_info=True)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+            
+    except Exception as e:
+        error_message = f"Unexpected error: {str(e)}"
+        logger.error(error_message, exc_info=True)
         return templates.TemplateResponse(
             "index.html",
             {"request": request, "error": error_message},
