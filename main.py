@@ -1,22 +1,30 @@
 # Install dependencies: pip install fastapi uvicorn jinja2 paddleocr opencv-python numpy pymupdf transformers
 
 from fastapi import FastAPI, Request, File, UploadFile, Form
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-import paddleocr
-import cv2
 import numpy as np
-import re
-import fitz  # PyMuPDF
-from transformers import pipeline
 import logging
 import os
 import sys
 from datetime import datetime
-from models.layoutlm_processor import LayoutLMProcessor
-from models.legal_entity_extractor import LegalEntityExtractor
+from pathlib import Path
+import traceback
+import uuid
+import shutil
+import base64
+from layoutlm.pipeline import DocumentProcessor
+from io import BytesIO
+
+# Try to import Summarizer, but make it optional
+try:
+    from models.summarizer import Summarizer
+    summarizer_available = True
+except ImportError:
+    summarizer_available = False
+    print("Warning: Summarizer module not available. Summaries will be disabled.")
 
 # ------ LOGGING CONFIGURATION ------
 # Ensure log directory exists
@@ -56,22 +64,8 @@ logger.info("===== Application starting up =====")
 logger.info(f"Logging to file: {log_filename}")
 # ------ END LOGGING CONFIGURATION ------
 
-def generate_summary(text):
-    """
-    Generate a summary using a lightweight model.
-    """
-    model_name = "facebook/bart-large-xsum"
-    logger.info("Generating summary of text")
-    logger.info(f"Using summarization model: {model_name}")
-    summarizer = pipeline("summarization", model=model_name)
-    # Limit input text to prevent model overload
-    text = ' '.join(text.split()[:512])  # Even shorter input for lightweight models
-    summary = summarizer(text, max_length=100, min_length=30, do_sample=False, truncation=True)
-    logger.info("Summary generation complete")
-    return summary[0]['summary_text']
-
 # Initialize FastAPI app
-app = FastAPI()
+app = FastAPI(title="Law Document Processing API", version="0.1.0")
 
 # Add CORS middleware
 app.add_middleware(
@@ -85,21 +79,22 @@ app.add_middleware(
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
 
-# Initialize PaddleOCR - using en_PP-OCRv3_det (3.8M) model for English text detection
-logger.info("Initializing PaddleOCR")
-ocr = paddleocr.PaddleOCR(use_angle_cls=True, lang="en")
-logger.info("PaddleOCR initialized")
-
-# Initialize LayoutLM processor and legal entity extractor
+# Initialize document processor
 try:
-    logger.info("Initializing LayoutLM processor")
-    layoutlm_processor = LayoutLMProcessor()
-    legal_entity_extractor = LegalEntityExtractor()
-    logger.info("LayoutLM processor and legal entity extractor initialized")
+    logger.info("Initializing Document Processor")
+    document_processor = DocumentProcessor()
+    logger.info("Document Processor initialized successfully")
 except Exception as e:
-    logger.error(f"Error initializing LayoutLM processor: {str(e)}", exc_info=True)
-    layoutlm_processor = None
-    legal_entity_extractor = None
+    logger.error(f"Error initializing Document Processor: {str(e)}", exc_info=True)
+    document_processor = None
+
+# Create directories for uploads and processed files if they don't exist
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("processed", exist_ok=True)
+os.makedirs("logs", exist_ok=True)
+
+# Mount static files
+app.mount("/processed", StaticFiles(directory="processed"), name="processed")
 
 # Error messages
 ERROR_MESSAGES = {
@@ -109,107 +104,6 @@ ERROR_MESSAGES = {
     "ocr_error": "Error processing the document. Please try again.",
     "decode_error": "Could not decode the image. Please try another file."
 }
-
-def preprocess_image(img):
-    """
-    Preprocess the image for better OCR results
-    """
-    # Convert to grayscale
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    # Apply thresholding to get rid of the noise
-    _, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    # Denoise
-    denoised = cv2.fastNlMeansDenoising(thresh)
-    return denoised
-
-def clean_text(text):
-    """
-    Clean the extracted text for better regex matching
-    """
-    # Remove extra whitespace
-    text = ' '.join(text.split())
-    # Remove special characters that might interfere with regex
-    text = text.replace('\n', ' ').replace('\r', '')
-    return text
-
-def extract_nda_fields(text):
-    """
-    Extract relevant fields from NDA text using flexible regex patterns
-    """
-    logger.info("Extracting NDA fields from text")
-    try:
-        patterns = {
-            # Match company name - fixed to remove trailing colon
-            'company': r'between:\s+(.*?)(?=\s*:?\s*\("Discloser")',
-
-            # Match recipient name - improved to get just the name
-            'recipient': r'and\.\s+(.*?)(?=\s*:\s*\("Recipient")',
-
-            # Match company address - unchanged as it works correctly
-            'company_address': r'(?:business\s*at\s*)(.*?)(?:;)',
-
-            # Match recipient address - unchanged as it works correctly
-            'recipient_address': r'(?:residing\s*at\s*)(.*?)(?:\.)',
-
-            # Match both initial duration and survival period
-            'duration': r'period\s+of\s+(.*?)\s+years.*?additional\s+(.*?)\s+years',
-
-            # Match governing law - fixed to capture full state law reference
-            'governing_law': r'governed by and construed in accordance with the laws of the\.?\s*([^.]+?)(?:\.|$)',
-
-            # Match confidential information - improved to capture full scope
-            'confidential_info': r'information\s+relating\s+to\s+(.*?)(?=\s*\(the "Confidential Information"\))',
-
-            # Match dates - improved format handling
-            'dates': r'\b(?:February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\b'
-        }
-
-        # Extract fields
-        fields = {}
-        for field, pattern in patterns.items():
-            if field == 'dates':
-                matches = re.findall(pattern, text, re.IGNORECASE)
-                fields[field] = list(set(matches)) if matches else []  # Remove duplicates
-                logger.debug(f"Found dates: {fields[field]}")
-            elif field == 'duration':
-                match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-                if match and match.groups():
-                    initial_term = match.group(1).strip()
-                    survival_period = match.group(2).strip()
-                    fields[field] = f"{initial_term} years with {survival_period} years survival period"
-                    logger.debug(f"Found duration: {fields[field]}")
-                else:
-                    fields[field] = "Not found"
-                    logger.debug(f"Duration not found")
-            else:
-                match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-                fields[field] = match.group(1).strip() if match and match.groups() else "Not found"
-                # Clean up extra spaces and punctuation
-                if fields[field] != "Not found":
-                    fields[field] = re.sub(r'\s+', ' ', fields[field]).strip(' .,;:')  # Added ':' to strip
-                    logger.debug(f"Found {field}: {fields[field]}")
-                else:
-                    logger.debug(f"{field} not found")
-
-        # Post-processing for governing law to ensure complete phrase
-        if fields['governing_law'] != "Not found":
-            fields['governing_law'] = "laws of the " + fields['governing_law']
-
-        logger.info(f"Field extraction complete. Found {sum(1 for v in fields.values() if v != 'Not found' and v)} fields")
-        return fields
-
-    except Exception as e:
-        logger.error(f"Error in pattern matching: {str(e)}", exc_info=True)
-        return {
-            'company': "Not found",
-            'recipient': "Not found",
-            'company_address': "Not found",
-            'recipient_address': "Not found",
-            'duration': "Not found",
-            'governing_law': "Not found",
-            'confidential_info': "Not found",
-            'dates': []
-        }
 
 @app.get("/test_logging")
 async def test_logging():
@@ -241,10 +135,20 @@ async def read_root(request: Request):
 @app.post("/upload", response_class=HTMLResponse)
 async def upload_file(request: Request, file: UploadFile = File(...)):
     """
-    Process uploaded file and extract NDA information
+    Process uploaded file and extract NDA information using new pipeline
     """
     logger.info(f"File upload initiated: {file.filename} ({file.content_type})")
     try:
+        # Validate document processor availability
+        if not document_processor:
+            error_message = "Document processor is not available. Please check system configuration."
+            logger.error(error_message)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+        
         # Read file contents
         try:
             contents = await file.read()
@@ -284,150 +188,72 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
                 status_code=400
             )
 
-        # Convert file to image
+        # Process document using the new pipeline
         try:
-            if file.content_type == "application/pdf":
-                logger.info("Processing PDF file")
-                # Use PyMuPDF to process PDF
-                import io
-                pdf_document = fitz.open(stream=contents, filetype="pdf")
-                logger.info(f"PDF loaded with {len(pdf_document)} pages")
-                
-                full_text = ""
-                confidence_scores = []
-                
-                for page_num in range(len(pdf_document)):
-                    logger.info(f"Processing PDF page {page_num+1}/{len(pdf_document)}")
-                    page = pdf_document.load_page(page_num)
-                    
-                    # Render page to an image (PyMuPDF uses RGB format)
-                    pix = page.get_pixmap(alpha=False)
-                    img_data = pix.tobytes("png")
-                    
-                    # Convert to numpy array for OpenCV
-                    nparr = np.frombuffer(img_data, np.uint8)
-                    img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-                    
-                    if img is None:
-                        logger.warning(f"Failed to convert page {page_num+1} to image")
-                        continue
-                        
-                    # Preprocess image
-                    processed_img = preprocess_image(img)
-
-                    # Process the image using PaddleOCR
-                    try:
-                        result = ocr.ocr(processed_img, cls=True)
-                        logger.info(f"OCR completed for page {page_num+1}")
-                    except Exception as e:
-                        error_message = f"OCR processing error: {str(e)}"
-                        logger.error(error_message, exc_info=True)
-                        return templates.TemplateResponse(
-                            "index.html",
-                            {"request": request, "error": error_message},
-                            status_code=500
-                        )
-
-                    # Concatenate the OCR results into a full text string
-                    page_text = ""
-                    for res in result:
-                        for line in res:
-                            page_text += line[1][0] + " "
-                            confidence_scores.append(line[1][1])
-                    
-                    logger.info(f"Extracted {len(page_text.split())} words from page {page_num+1}")
-                    full_text += page_text
-                
-                # Close the document
-                pdf_document.close()
-                
-                cleaned_text = clean_text(full_text)
-                if confidence_scores:
-                    average_confidence = sum(confidence_scores) / len(confidence_scores)
-                    average_confidence_formatted = f"{average_confidence:.2%}"
-                    logger.info(f"Average OCR confidence: {average_confidence_formatted}")
-                else:
-                    average_confidence_formatted = "N/A"
-                    logger.warning("No confidence scores available")
+            logger.info("Processing document using new pipeline")
+            processing_results = document_processor.process_document(contents)
+            
+            # Extract results for template
+            ocr_results = processing_results["ocr_results"]
+            extracted_info = processing_results["extracted_info"]
+            summary = processing_results["summary"]
+            
+            # Calculate average confidence score
+            confidence_scores = []
+            for page in ocr_results:
+                for result in page["results"]:
+                    confidence_scores.append(result["confidence"])
+            
+            if confidence_scores:
+                average_confidence = sum(confidence_scores) / len(confidence_scores)
+                average_confidence_formatted = f"{average_confidence:.2%}"
             else:
-                logger.info(f"Processing image file: {file.content_type}")
-                # Convert image to OpenCV format
-                nparr = np.frombuffer(contents, np.uint8)
-                img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-                if img is None:
-                    error_message = f"Image decode error: Could not decode the image. Please try another file."
-                    logger.error(error_message)
-                    return templates.TemplateResponse(
-                        "index.html",
-                        {"request": request, "error": error_message},
-                        status_code=400
-                    )
+                average_confidence_formatted = "N/A"
+            
+            # Get full text from extracted info
+            full_text = ""
+            if "sections" in extracted_info["contextual_info"]:
+                section_texts = [item["text"] for item in extracted_info["contextual_info"]["sections"]]
+                full_text = " ".join(section_texts)
+            
+            # Create field mapping for compatibility with template
+            fields = {
+                "company": ", ".join(extracted_info["parties"][:1]) if extracted_info["parties"] else "Not found",
+                "recipient": ", ".join(extracted_info["parties"][1:2]) if len(extracted_info["parties"]) > 1 else "Not found",
+                "company_address": ", ".join(extracted_info["addresses"][:1]) if extracted_info["addresses"] else "Not found",
+                "recipient_address": ", ".join(extracted_info["addresses"][1:2]) if len(extracted_info["addresses"]) > 1 else "Not found",
+                "duration": "Not found",  # This would need more specific extraction logic
+                "governing_law": "Not found",  # This would need more specific extraction logic
+                "confidential_info": "Not found",  # This would need more specific extraction logic
+                "dates": extracted_info["dates"] if extracted_info["dates"] else []
+            }
+            
+            # Force flush logs before returning
+            logger.info("Processing complete, preparing response")
+            for handler in logger.handlers + logging.root.handlers:
+                handler.flush()
 
-                # Process single image
-                processed_img = preprocess_image(img)
-                try:
-                    result = ocr.ocr(processed_img, cls=True)
-                    logger.info("OCR completed for image")
-                except Exception as e:
-                    logger.error(f"OCR processing error: {str(e)}", exc_info=True)
-                    return templates.TemplateResponse(
-                        "index.html",
-                        {"request": request, "error": ERROR_MESSAGES["ocr_error"]},
-                        status_code=500
-                    )
-
-                # Extract text and confidence scores
-                full_text = ""
-                confidence_scores = []
-                for res in result:
-                    for line in res:
-                        full_text += line[1][0] + " "
-                        confidence_scores.append(line[1][1])
-                
-                logger.info(f"Extracted {len(full_text.split())} words from image")
-                cleaned_text = clean_text(full_text)
-                if confidence_scores:
-                    average_confidence = sum(confidence_scores) / len(confidence_scores)
-                    average_confidence_formatted = f"{average_confidence:.2%}"
-                    logger.info(f"Average OCR confidence: {average_confidence_formatted}")
-                else:
-                    average_confidence_formatted = "N/A"
-                    logger.warning("No confidence scores available")
-
+            # Render template with results
+            logger.info("Rendering results template")
+            return templates.TemplateResponse(
+                "result.html",
+                {
+                    "request": request,
+                    "full_text": full_text,
+                    "average_confidence_formatted": average_confidence_formatted,
+                    "summary": summary,
+                    **fields
+                },
+            )
+            
         except Exception as e:
-            logger.error(f"Error processing document: {str(e)}", exc_info=True)
+            error_message = f"Error processing document: {str(e)}"
+            logger.error(error_message, exc_info=True)
             return templates.TemplateResponse(
                 "index.html",
-                {"request": request, "error": f"Error processing the document: {str(e)}"},
+                {"request": request, "error": error_message},
                 status_code=500
             )
-
-        # Extract NDA fields
-        logger.info("Extracting NDA fields from text")
-        fields = extract_nda_fields(cleaned_text)
-        logger.info(f"Extracted fields: {', '.join(fields.keys())}")
-
-        # Generate summary
-        summary = generate_summary(cleaned_text)
-        logger.info("Text summary generated")
-
-        # Force flush logs before returning
-        logger.info("Processing complete, preparing response")
-        for handler in logger.handlers + logging.root.handlers:
-            handler.flush()
-
-        # Render template with results
-        logger.info("Rendering results template")
-        return templates.TemplateResponse(
-            "result.html",
-            {
-                "request": request,
-                "full_text": cleaned_text,
-                "average_confidence_formatted": average_confidence_formatted,
-                "summary": summary,
-                **fields
-            },
-        )
 
     except Exception as e:
         error_message = f"An unexpected error occurred: {str(e)}"
@@ -441,17 +267,175 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             status_code=500
         )
 
-# New endpoint for LayoutLM-based document processing
+# Endpoint for processing with the new pipeline (same functionality as /upload but with JSON response)
+@app.post("/process-document/")
+async def process_document(
+    file: UploadFile = File(...),
+    extract_entities: bool = Form(True),
+    summarize: bool = Form(True),
+):
+    """
+    Process a legal document file (PDF, image) using the new pipeline.
+    
+    Args:
+        file: The document file to process
+        extract_entities: Whether to extract entities from the document
+        summarize: Whether to generate a summary of the document
+        
+    Returns:
+        JSON with processing results, including extracted entities and visualizations
+    """
+    logger.info(f"Received file: {file.filename}")
+    
+    try:
+        # Validate file
+        file_extension = os.path.splitext(file.filename)[1].lower()
+        supported_extensions = ['.pdf', '.jpg', '.jpeg', '.png']
+        
+        if file_extension not in supported_extensions:
+            logger.error(f"Unsupported file type: {file_extension}")
+            return JSONResponse(
+                status_code=400,
+                content={"error": f"Unsupported file type: {file_extension}. Supported types: {', '.join(supported_extensions)}"},
+            )
+        
+        # Check if document processor is available
+        if not document_processor:
+            return JSONResponse(
+                status_code=500,
+                content={"error": "Document processor is not available. Please check the system configuration."},
+            )
+        
+        # Generate unique ID for this processing job
+        job_id = str(uuid.uuid4())
+        
+        # Create directory for processed results
+        output_dir = os.path.join("processed", job_id)
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Save file to uploads directory
+        file_path = os.path.join("uploads", f"{job_id}{file_extension}")
+        with open(file_path, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+        logger.info(f"File saved to {file_path}")
+        
+        # Read file content
+        with open(file_path, "rb") as f:
+            file_content = f.read()
+        
+        # Process document with new pipeline
+        try:
+            logger.info("Processing document with new pipeline...")
+            processing_results = document_processor.process_document(file_content)
+            
+            # Extract key information from results
+            ocr_results = processing_results["ocr_results"]
+            layout_analysis = processing_results["layout_analysis"]
+            categorized_sections = processing_results["categorized_sections"]
+            extracted_info = processing_results["extracted_info"]
+            summary = processing_results["summary"] if summarize else None
+            
+            # Save visualizations to output directory
+            visualizations = []
+            try:
+                logger.info("Saving visualization images...")
+                for page_idx, page in enumerate(categorized_sections["pages"]):
+                    highlight_image = page["highlight_image"]
+                    image_path = os.path.join(output_dir, f"page_{page_idx+1}.png")
+                    highlight_image.save(image_path)
+                    
+                    # Convert image to base64 for response
+                    with open(image_path, "rb") as img_file:
+                        img_data = base64.b64encode(img_file.read()).decode('utf-8')
+                    
+                    # Get OCR text for this page
+                    page_ocr_text = []
+                    if page_idx < len(ocr_results):
+                        for result in ocr_results[page_idx]["results"]:
+                            # Add text with its position and confidence
+                            box = result["box"]
+                            page_ocr_text.append({
+                                "text": result["text"],
+                                "confidence": round(float(result["confidence"]), 2),
+                                "position": box[:2]  # Just take the top-left coordinate
+                            })
+                    
+                    visualizations.append({
+                        "page": page_idx+1,
+                        "url": f"/processed/{job_id}/page_{page_idx+1}.png",
+                        "image_base64": img_data,
+                        "ocr_text": page_ocr_text
+                    })
+                logger.info(f"Created {len(visualizations)} visualizations")
+            except Exception as e:
+                logger.error(f"Error creating visualizations: {str(e)}")
+                logger.error(traceback.format_exc())
+            
+            # Get formatted entities for response
+            formatted_entities = {}
+            for key, values in extracted_info.items():
+                if key != "metadata" and key != "contextual_info":
+                    formatted_entities[key] = values
+            
+            # Prepare full text from sections
+            full_text = ""
+            if "sections" in extracted_info["contextual_info"]:
+                section_texts = [item["text"] for item in extracted_info["contextual_info"]["sections"]]
+                full_text = " ".join(section_texts)
+            
+            # Prepare results
+            result = {
+                "job_id": job_id,
+                "filename": file.filename,
+                "text_length": len(full_text),
+                "processed_pages": len(ocr_results),
+                "summary": summary,
+                "entities": formatted_entities,
+                "visualizations": visualizations,
+                "metadata": extracted_info["metadata"]
+            }
+            
+            logger.info(f"Document processing complete for {file.filename}")
+            return JSONResponse(content=result)
+            
+        except Exception as e:
+            logger.error(f"Error processing document: {str(e)}")
+            logger.error(traceback.format_exc())
+            return JSONResponse(
+                status_code=500,
+                content={"error": f"Document processing failed: {str(e)}"},
+            )
+            
+    except Exception as e:
+        logger.error(f"Unexpected error: {str(e)}")
+        logger.error(traceback.format_exc())
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"An unexpected error occurred: {str(e)}"},
+        )
+
+# Debug handler for uvicorn to force flush logs after each request
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    logger.debug(f"Request: {request.method} {request.url.path}")
+    response = await call_next(request)
+    logger.debug(f"Response status: {response.status_code}")
+    # Force flush logs after each request
+    for handler in logger.handlers + logging.root.handlers:
+        handler.flush()
+    return response
+
+# Add back LayoutLM endpoint for backward compatibility
 @app.post("/process_with_layoutlm", response_class=HTMLResponse)
 async def process_with_layoutlm(request: Request, file: UploadFile = File(...)):
     """
-    Process a document using LayoutLM for better layout-aware understanding.
+    Process a document using the new DocumentProcessor pipeline for backward compatibility.
     """
     logger.info(f"LayoutLM processing initiated for file: {file.filename} ({file.content_type})")
 
-    # Check if LayoutLM processor is initialized
-    if not layoutlm_processor or not legal_entity_extractor:
-        error_message = "LayoutLM processor is not available. Please check system configuration."
+    # Check if document processor is available
+    if not document_processor:
+        error_message = "Document processor is not available. Please check system configuration."
         logger.error(error_message)
         return templates.TemplateResponse(
             "index.html",
@@ -494,38 +478,70 @@ async def process_with_layoutlm(request: Request, file: UploadFile = File(...)):
                 status_code=400
             )
 
-        # Process the document using LayoutLM
+        # Process the document using the new document processor
         try:
-            # Preprocess document
-            processed_pages = layoutlm_processor.preprocess_document(contents)
+            # Process document
+            logger.info("Processing document with new pipeline")
+            processing_results = document_processor.process_document(contents)
             
-            # Visualize layout
-            visualization_results = layoutlm_processor.visualize_layout(processed_pages)
+            # Extract key information
+            ocr_results = processing_results["ocr_results"]
+            layout_analysis = processing_results["layout_analysis"]
+            categorized_sections = processing_results["categorized_sections"]
+            extracted_info = processing_results["extracted_info"]
+            summary = processing_results["summary"]
             
-            # Extract entities using LayoutLM
-            layoutlm_results = layoutlm_processor.extract_entities(processed_pages)
+            # Prepare visualizations with OCR text
+            visualizations = []
+            for page_idx, page in enumerate(categorized_sections["pages"]):
+                # Convert highlight image to base64
+                buffer = BytesIO()
+                page["highlight_image"].save(buffer, format="PNG")
+                img_str = base64.b64encode(buffer.getvalue()).decode('utf-8')
+                
+                # Get OCR text for this page
+                page_ocr_text = []
+                if page_idx < len(ocr_results):
+                    for result in ocr_results[page_idx]["results"]:
+                        # Add text with its position and confidence
+                        box = result["box"]
+                        page_ocr_text.append({
+                            "text": result["text"],
+                            "confidence": f"{result['confidence']:.2%}",
+                            "position": f"({box[0]:.0f}, {box[1]:.0f})"
+                        })
+                
+                visualizations.append({
+                    "page": page_idx + 1,
+                    "image_base64": img_str,
+                    "ocr_text": page_ocr_text
+                })
             
-            # Extract the full text
-            full_text = layoutlm_results.get("full_text", "")
+            # Format entities for the template
+            formatted_entities = {}
+            for key, values in extracted_info.items():
+                if key != "metadata" and key != "contextual_info":
+                    formatted_entities[key] = values
             
-            # Use legal entity extractor to get more detailed extractions
-            extractions = legal_entity_extractor.extract_from_text(full_text)
-            
-            # Generate summary
-            summary = generate_summary(full_text)
+            # Get full text
+            full_text = ""
+            if "sections" in extracted_info["contextual_info"]:
+                section_texts = [item["text"] for item in extracted_info["contextual_info"]["sections"]]
+                full_text = " ".join(section_texts)
             
             # Combine all results
             results = {
                 "filename": file.filename,
                 "file_type": content_type,
-                "processed_pages": len(processed_pages),
+                "processed_pages": len(ocr_results),
                 "extracted_text": full_text[:1000] + "..." if len(full_text) > 1000 else full_text,
                 "summary": summary,
-                "entities": extractions,
-                "visualizations": visualization_results
+                "entities": formatted_entities,
+                "visualizations": visualizations
             }
             
-            logger.info(f"LayoutLM processing successful for {file.filename}")
+            logger.info(f"Document processing successful for {file.filename}")
+            
             return templates.TemplateResponse(
                 "layoutlm_results.html",
                 {"request": request, "results": results},
@@ -533,7 +549,7 @@ async def process_with_layoutlm(request: Request, file: UploadFile = File(...)):
             )
             
         except Exception as e:
-            error_message = f"Error processing document with LayoutLM: {str(e)}"
+            error_message = f"Error processing document: {str(e)}"
             logger.error(error_message, exc_info=True)
             return templates.TemplateResponse(
                 "index.html",
@@ -550,13 +566,6 @@ async def process_with_layoutlm(request: Request, file: UploadFile = File(...)):
             status_code=500
         )
 
-# Debug handler for uvicorn to force flush logs after each request
-@app.middleware("http")
-async def log_requests(request: Request, call_next):
-    logger.debug(f"Request: {request.method} {request.url.path}")
-    response = await call_next(request)
-    logger.debug(f"Response status: {response.status_code}")
-    # Force flush logs after each request
-    for handler in logger.handlers + logging.root.handlers:
-        handler.flush()
-    return response
+if __name__ == "__main__":
+    logger.info("Starting Law Document Processing API")
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
