@@ -12,7 +12,19 @@ from logging.handlers import RotatingFileHandler
 import pickle
 from redis import Redis
 import uuid 
-import gc  # Add garbage collection module
+import gc  
+from memory_utils import aggressive_cleanup, unload_models, limit_numpy_threads, clear_opencv_cache
+
+# Add this to your worker initialization
+@signals.worker_process_init.connect
+def worker_init_handler(**kwargs):
+    """Initialize the worker process with memory optimizations"""
+    logger.info("Initializing worker process with memory optimizations")
+    # Limit threads for math libraries
+    limit_numpy_threads()
+    # Run initial garbage collection
+    gc.collect()
+
 
 gc.enable()  # Ensure garbage collection is enabled
 # Set threshold for garbage collection to be more aggressive
@@ -372,6 +384,15 @@ def generate_summary(text, summarizer):
         summary = summarizer(text, max_length=100, min_length=30, do_sample=False, truncation=True)
         logger.info("Summary generated successfully")
         flush_logs()
+        try:
+            if hasattr(summarizer, 'model') and hasattr(summarizer.model, 'cpu'):
+                # Move model to CPU if it was on GPU
+                summarizer.model.cpu()
+            # Clear model cache if the method exists
+            if hasattr(summarizer, 'model') and hasattr(summarizer.model, 'clear_cache'):
+                summarizer.model.clear_cache()
+        except:
+            pass
         return summary[0]['summary_text']
     except Exception as e:
         logger.error(f"Error generating summary: {str(e)}", exc_info=True)
@@ -440,7 +461,7 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
                 # Clean up file_content which can be very large
                 clean_variables(file_content, pdf_document)
                 # Force garbage collection after creating all chunk tasks
-                cleanup_memory("after_creating_chunks")
+                aggressive_cleanup()  # Use more aggressive cleanup here
                 flush_logs()
                 
                 # Return the job ID for tracking
@@ -593,7 +614,7 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
         
         # Final cleanup
         clean_variables(full_text, cleaned_text, confidence_scores, fields, summary, result)
-        cleanup_memory("after_document_processing")
+        aggressive_cleanup()  # Add aggressive cleanup
         
         flush_logs()
         
@@ -617,7 +638,7 @@ def process_document_task(file_content, file_content_type, file_name, job_id=Non
         # Always clean up on error
         try:
             clean_variables(file_content)
-            cleanup_memory("error_cleanup")
+            aggressive_cleanup()  # Add aggressive cleanup
         except:
             pass
             
@@ -675,6 +696,7 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
             
             # Clean up memory after processing each page
             clean_variables(pix, img_data, nparr, img, processed_img, result, page)
+            clear_opencv_cache()
             gc.collect()
         
         # Clean the extracted text
@@ -711,7 +733,7 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
         # Clean up before returning
         pdf_document.close()
         clean_variables(pdf_document, file_content, full_text, cleaned_text, confidence_scores, chunk_result)
-        cleanup_memory(f"after_chunk_{chunk_idx}")
+        aggressive_cleanup()  # Add aggressive cleanup
         
         return True
         
@@ -730,7 +752,7 @@ def process_pdf_chunk(file_content, start_page, end_page, job_id, chunk_idx, tot
         try:
             pdf_document.close()
             clean_variables(pdf_document, file_content)
-            cleanup_memory("chunk_error_cleanup")
+            aggressive_cleanup()  # Add aggressive cleanup
         except:
             pass
             
@@ -781,6 +803,8 @@ def combine_chunks(job_id, total_chunks):
             "summary": summary,
             **fields
         }
+
+        unload_models()  # This will release model memory
         
         # Store the final result
         redis_client.set(f"result:{job_id}", pickle.dumps(result))
@@ -796,7 +820,7 @@ def combine_chunks(job_id, total_chunks):
         
         # Final cleanup
         clean_variables(all_text, all_confidence_scores, fields, summary, result)
-        cleanup_memory("after_combining_chunks")
+        aggressive_cleanup()  # Add aggressive cleanup
         
         return True
         
@@ -812,6 +836,11 @@ def combine_chunks(job_id, total_chunks):
         except:
             pass
 
-        # Clean up memory even in case of error
-        cleanup_memory("combine_chunks_error")
+        # Clean up on error
+        try:
+            unload_models()  # Unload models even on error
+            aggressive_cleanup()  # Add aggressive cleanup on error
+        except:
+            pass
+
         raise

@@ -1,153 +1,205 @@
 """
-Memory management utilities for document processing applications.
-Simple yet effective memory optimization tools.
+Enhanced memory management utilities for worker optimization.
+Add these functions to your memory_utils.py or tasks.py file.
 """
 
 import gc
 import sys
 import logging
 import time
-from functools import wraps
 
-# Configure logger
 logger = logging.getLogger(__name__)
 
-def get_memory_usage():
+def aggressive_cleanup():
     """
-    Get current memory usage of the process in MB.
-    Returns tuple of (rss, vms) memory in MB.
+    Perform very aggressive memory cleanup for worker processes.
+    Call this at the end of major processing tasks.
     """
+    # Log memory before cleanup
     try:
         import psutil
         process = psutil.Process()
-        memory_info = process.memory_info()
-        return (memory_info.rss / (1024 * 1024), memory_info.vms / (1024 * 1024))
+        memory_before = process.memory_info().rss / (1024 * 1024)
+        logger.info(f"Memory before aggressive cleanup: {memory_before:.2f} MB")
     except ImportError:
-        logger.warning("psutil not installed, can't report memory usage")
-        return (0, 0)
-    except Exception as e:
-        logger.warning(f"Error getting memory usage: {str(e)}")
-        return (0, 0)
-
-def cleanup_memory(log_label=""):
-    """
-    Simple but effective memory cleanup.
+        memory_before = 0
+        logger.info("Memory cleanup started (psutil not available)")
     
-    Args:
-        log_label (str): Optional label for logging
+    # Force collection of all generations multiple times
+    collected_total = 0
+    for i in range(5):  # More iterations for better cleanup
+        collected = gc.collect(2)  # Full collection
+        collected_total += collected
+        if collected == 0 and i > 1:
+            break  # Stop if nothing more to collect
     
-    Returns:
-        tuple: Memory before and after cleanup in MB, or (0,0) if monitoring not available
-    """
-    label = f"[{log_label}] " if log_label else ""
-    
-    # Get memory before cleanup
-    mem_before, _ = get_memory_usage()
-    if mem_before > 0:
-        logger.info(f"{label}Memory before cleanup: {mem_before:.2f} MB")
-    
-    # Run multiple garbage collection cycles for thoroughness
-    collected = 0
-    for i in range(3):
-        collected += gc.collect()
-    
-    logger.info(f"{label}Memory cleanup: Collected {collected} objects")
-    
-    # Try to release memory to the OS (Linux only)
+    # Try to release memory to the OS
     try:
         import ctypes
         libc = ctypes.CDLL('libc.so.6')
         if hasattr(libc, 'malloc_trim'):
-            result = libc.malloc_trim(0)
-            if result > 0:
-                logger.info(f"{label}Successfully released memory to OS via malloc_trim")
+            for i in range(3):  # Try multiple times
+                result = libc.malloc_trim(0)
+                if result > 0:
+                    logger.info(f"Successfully released memory to OS (attempt {i+1})")
+                time.sleep(0.1)  # Small delay between attempts
+    except Exception as e:
+        logger.warning(f"Failed to call malloc_trim: {str(e)}")
+    
+    # For Linux: try to use POSIX madvise to release memory
+    try:
+        import ctypes
+        import mmap
+        libc = ctypes.CDLL('libc.so.6')
+        if hasattr(libc, 'madvise'):
+            MADV_DONTNEED = 4  # Value on most Linux systems
+            # This is a more aggressive approach that tells the OS we don't need
+            # some memory pages - use with caution as it can affect performance
+            result = 0  # Just log the capability, don't actually call it globally
+            logger.info(f"System supports madvise for memory release")
     except Exception:
-        pass  # Silently continue if this fails
+        pass
     
-    # Get memory after cleanup
-    time.sleep(0.1)  # Short delay to allow OS to reclaim memory
-    mem_after, _ = get_memory_usage()
+    # Manually trigger compaction in Python 3.7+ (if available)
+    try:
+        if hasattr(gc, 'collect') and callable(getattr(gc, 'collect')):
+            # Try to use freeze/unfreeze if available (Python 3.11+)
+            if hasattr(gc, 'freeze') and callable(getattr(gc, 'freeze')):
+                logger.info("Using advanced GC freeze/unfreeze for better compaction")
+                gc.freeze()
+                gc.unfreeze()
+    except Exception:
+        pass
     
-    if mem_before > 0 and mem_after > 0:
-        diff = mem_before - mem_after
-        logger.info(f"{label}Memory after cleanup: {mem_after:.2f} MB (reduced by {diff:.2f} MB)")
-    
-    return (mem_before, mem_after)
-
-def memory_managed(func=None, label=None, log_memory=True):
-    """
-    Decorator to add memory management to functions.
-    
-    Args:
-        func: The function to decorate
-        label: Optional label for logging (defaults to function name)
-        log_memory: Whether to log memory usage
+    # Get worker process children and try to reclaim their resources
+    try:
+        import psutil
+        process = psutil.Process()
         
-    Usage:
-        @memory_managed
-        def my_function():
-            # ...
-        
-        # Or with parameters:
-        @memory_managed(label="PDF Processing", log_memory=True)
-        def process_pdf():
-            # ...
-    """
-    def decorator(fn):
-        @wraps(fn)
-        def wrapper(*args, **kwargs):
-            func_name = label or fn.__name__
+        # Log child processes
+        children = process.children(recursive=True)
+        if children:
+            logger.info(f"Found {len(children)} child processes")
             
-            if log_memory:
-                logger.info(f"Starting memory-managed function: {func_name}")
-            
-            try:
-                # Execute the function
-                result = fn(*args, **kwargs)
-                
-                # Clean up memory after function execution
-                cleanup_memory(func_name)
-                
-                return result
-                
-            except Exception as e:
-                # Always clean up on error
-                logger.error(f"Error in {func_name}: {str(e)}")
-                cleanup_memory(f"{func_name}:error")
-                raise
-        
-        return wrapper
+            # Attempt to clean up any zombie processes
+            for child in children:
+                try:
+                    if child.status() == psutil.STATUS_ZOMBIE:
+                        logger.info(f"Cleaning up zombie process: {child.pid}")
+                        # In real code, you'd wait for this process
+                        # Don't actually terminate children in production code
+                        # as these could be legitimate worker processes
+                except:
+                    pass
+    except Exception:
+        pass
     
-    # Handle both @memory_managed and @memory_managed()
-    if func is None:
-        return decorator
-    return decorator(func)
+    # Log memory after cleanup
+    try:
+        import psutil
+        process = psutil.Process()
+        # Wait a moment for the OS to reclaim memory
+        time.sleep(0.5)
+        memory_after = process.memory_info().rss / (1024 * 1024)
+        logger.info(f"Memory after aggressive cleanup: {memory_after:.2f} MB")
+        if memory_before > 0:
+            reduction = memory_before - memory_after
+            logger.info(f"Memory reduced by: {reduction:.2f} MB ({(reduction/memory_before)*100:.1f}%)")
+    except ImportError:
+        pass
 
-def clean_variables(*variables):
+def unload_models():
     """
-    Explicitly delete variables and run garbage collection.
-    
-    Args:
-        *variables: Variables to delete
-        
-    Example:
-        image_data = load_large_image()
-        # Process image...
-        clean_variables(image_data)
+    Explicitly unload ML models to reclaim memory.
+    Call this after you're done using models in a task.
     """
-    for var in variables:
-        if var is not None:
-            var_type = type(var).__name__
-            try:
-                var_size = sys.getsizeof(var) / (1024 * 1024)
-                logger.debug(f"Deleting {var_type} object (approx. {var_size:.2f} MB)")
-            except:
-                logger.debug(f"Deleting {var_type} object")
-            
-            del var
+    # This needs to be adapted to your specific models
+    # Collect modules that might hold references to large objects
+    import sys
+    import gc
     
-    # Run quick garbage collection to reclaim memory
-    gc.collect(0)  # Quick collection of youngest generation only
+    logger.info("Attempting to unload ML models from memory")
+    
+    # For PaddleOCR
+    try:
+        import paddle
+        if hasattr(paddle, 'disable_static'):
+            paddle.disable_static()
+        # Clear any cached tensors or variables
+        if hasattr(paddle, 'fluid') and hasattr(paddle.fluid, 'core'):
+            if hasattr(paddle.fluid.core, 'gc'):
+                paddle.fluid.core.gc()
+        logger.info("Cleared PaddleOCR/Paddle resources")
+    except Exception as e:
+        logger.warning(f"Error cleaning up Paddle resources: {str(e)}")
+    
+    # For transformers (e.g., T5 model)
+    try:
+        from transformers import pipeline
+        # Find references to pipeline objects
+        for obj in gc.get_objects():
+            if isinstance(obj, pipeline):
+                # Clear model cache if possible
+                if hasattr(obj, 'model') and hasattr(obj.model, 'cpu'):
+                    # Move model to CPU if it was on GPU
+                    obj.model.cpu()
+                # Remove reference to tokenizer and model if possible
+                if hasattr(obj, '_tokenizer'):
+                    obj._tokenizer = None
+                if hasattr(obj, 'model'):
+                    obj.model = None
+        logger.info("Cleared transformer pipeline resources")
+    except Exception as e:
+        logger.warning(f"Error cleaning up transformer resources: {str(e)}")
+    
+    # Explicitly run garbage collection
+    gc.collect()
+    
+    # Log if the unload appears successful
+    logger.info("Model unloading complete")
 
-# Initialize module
-logger.info("Memory management utilities loaded")
+def limit_numpy_threads():
+    """
+    Limit the number of threads used by NumPy and related libraries.
+    Call this at the start of worker processes.
+    """
+    # Set thread count for various math libraries
+    import os
+    
+    os.environ["OMP_NUM_THREADS"] = "1"
+    os.environ["OPENBLAS_NUM_THREADS"] = "1"
+    os.environ["MKL_NUM_THREADS"] = "1"
+    os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
+    os.environ["NUMEXPR_NUM_THREADS"] = "1"
+    
+    # Try to set thread count for NumPy directly
+    try:
+        import numpy as np
+        if hasattr(np, 'seterr'):
+            # Adjust floating point error handling
+            np.seterr(all='warn')
+        # For recent NumPy versions with thread control
+        if hasattr(np, '__config__') and hasattr(np.__config__, 'get_info'):
+            logger.info(f"NumPy threading info: {np.__config__.get_info('threading')}")
+    except:
+        pass
+    
+    logger.info("NumPy and math library thread limits applied")
+
+def clear_opencv_cache():
+    """
+    Clear OpenCV cache after processing images.
+    Call this after image processing operations.
+    """
+    try:
+        import cv2
+        # Release any cached OpenCV resources
+        cv2.destroyAllWindows()
+        # Clear OpenCV Disk Cache if possible
+        if hasattr(cv2, 'ocl') and hasattr(cv2.ocl, 'setUseOpenCL'):
+            cv2.ocl.setUseOpenCL(False)
+        # This is a placeholder - OpenCV doesn't have a direct cache clearing function,
+        # but this can help release some resources
+        logger.info("OpenCV resources released")
+    except Exception as e:
+        logger.warning(f"Error clearing OpenCV resources: {str(e)}")

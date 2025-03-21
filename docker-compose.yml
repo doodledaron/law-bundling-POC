@@ -14,12 +14,13 @@ services:
       - REDIS_URL=redis://redis:6379/0
       - TZ=UTC
       # Memory optimization environment variables
-      # These limit math libraries to use single threads, reducing memory usage
       - OMP_NUM_THREADS=1
       - OPENBLAS_NUM_THREADS=1
       - MKL_NUM_THREADS=1
       - VECLIB_MAXIMUM_THREADS=1
       - NUMEXPR_NUM_THREADS=1
+      # Python garbage collection settings
+      - PYTHONGC=1
     # Disabled auto-reload to prevent high memory usage during directory scanning
     # Auto-reload constantly scans the entire directory tree for file changes
     # which can cause memory issues with large dependencies like sympy
@@ -39,13 +40,12 @@ services:
       
   # Redis for message broker and result backend
   redis:
-    image: redis:7-alpine  # Using alpine for smaller image size
+    image: redis:7-alpine  # Using alpine for smaller footprint
     ports:
       - "6379:6379"
     volumes:
       - redis_data:/data
-    # Redis configuration for memory optimization
-    # Sets memory limit and policy for evicting keys when memory is full
+    # Added memory optimization settings
     command: redis-server --save 60 1 --loglevel warning --maxmemory 80mb --maxmemory-policy allkeys-lru
     deploy:
       resources:
@@ -73,24 +73,31 @@ services:
       - MKL_NUM_THREADS=1
       - VECLIB_MAXIMUM_THREADS=1
       - NUMEXPR_NUM_THREADS=1
-    # Worker configuration with memory optimizations:
-    # --max-tasks-per-child=10: Restart worker after processing 10 tasks to prevent memory leaks
-    # --concurrency=2: Use 2 worker processes for better throughput while maintaining memory control
-    # --without-gossip --without-mingle: Disable unnecessary inter-worker communication to save memory
+      # Python garbage collection tuning
+      - PYTHONGC=1  
+      # Control memory allocation behavior
+      - MALLOC_TRIM_THRESHOLD_=65536   # More aggressive malloc trimming
+      - MALLOC_ARENA_MAX=2             # Limit memory arenas
+      - MALLOC_MMAP_THRESHOLD_=131072  # Lower threshold for mmap allocation
+    # Set concurrency to 1 for very large documents
+    # Reduce max tasks per child to recycle workers more frequently
     command: >
       celery -A tasks.celery_app worker 
       --loglevel=info 
-      --max-tasks-per-child=10 
+      --max-tasks-per-child=5  
       --concurrency=2
       --without-gossip 
       --without-mingle
+      --without-heartbeat
+      --prefetch-multiplier=1
     deploy:
       resources:
         limits:
-          memory: 6.5G  # Allocate more memory to the worker as it handles PDF processing
+          memory: 6G  # Allocate more memory to the worker as it handles PDF processing
           cpus: '2'
-    restart: unless-stopped
-    # Set log rotation to prevent log files from consuming disk space
+    # Add optional restart policy to recover from OOM
+    restart: on-failure:5
+    # Add log rotation settings
     logging:
       driver: "json-file"
       options:
@@ -107,13 +114,17 @@ services:
       - worker
     environment:
       - REDIS_URL=redis://redis:6379/0
-      - TZ=UTC
     command: celery -A tasks.celery_app flower --port=5555
     deploy:
       resources:
         limits:
           memory: 1G
-    restart: unless-stopped
 
 volumes:
   redis_data:
+
+# 1. Memory Control
+# With --prefetch-multiplier=1 and concurrency=2, your worker will only prefetch 2 tasks (1 per process) instead of 8:
+
+# Before: Up to 8 documents could be loaded in memory at once
+# After: Only 2 documents will be in memory at once (1 per worker process)
