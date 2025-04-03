@@ -1,0 +1,1465 @@
+[
+  {
+    "text": "License and Development Agreement",
+    "bbox": [
+      937,
+      73,
+      1000,
+      84
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Table of Content",
+    "bbox": [
+      110,
+      106,
+      237,
+      118
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS",
+    "bbox": [
+      111,
+      122,
+      197,
+      135
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      123,
+      1000,
+      134
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      108,
+      139,
+      127,
+      153
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      158,
+      140,
+      240,
+      151
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      139,
+      1000,
+      151
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      110,
+      154,
+      125,
+      168
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Grant of License",
+    "bbox": [
+      157,
+      155,
+      279,
+      167
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      154,
+      1000,
+      167
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.1.",
+    "bbox": [
+      157,
+      171,
+      183,
+      183
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Grant of rights.",
+    "bbox": [
+      201,
+      170,
+      310,
+      182
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      170,
+      1000,
+      182
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.2.",
+    "bbox": [
+      157,
+      186,
+      183,
+      199
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Restrictions",
+    "bbox": [
+      201,
+      186,
+      293,
+      198
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      187,
+      1000,
+      198
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      110,
+      203,
+      125,
+      216
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "License Fees and Milestone Payments.",
+    "bbox": [
+      157,
+      202,
+      445,
+      215
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      202,
+      1000,
+      215
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.1.",
+    "bbox": [
+      158,
+      220,
+      181,
+      231
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Upfront Payment",
+    "bbox": [
+      201,
+      219,
+      331,
+      230
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      218,
+      1000,
+      231
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.2.",
+    "bbox": [
+      158,
+      234,
+      181,
+      247
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Milestone payments.",
+    "bbox": [
+      200,
+      235,
+      356,
+      247
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      234,
+      1000,
+      247
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.3.",
+    "bbox": [
+      157,
+      251,
+      181,
+      263
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Royalties",
+    "bbox": [
+      200,
+      250,
+      274,
+      264
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      251,
+      1000,
+      263
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.4.",
+    "bbox": [
+      157,
+      267,
+      181,
+      279
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Reports",
+    "bbox": [
+      201,
+      266,
+      262,
+      279
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      266,
+      1000,
+      278
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.5.",
+    "bbox": [
+      157,
+      282,
+      181,
+      295
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Records and Audits",
+    "bbox": [
+      202,
+      283,
+      352,
+      294
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      282,
+      1000,
+      295
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.6.",
+    "bbox": [
+      157,
+      299,
+      182,
+      311
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Payment Terms",
+    "bbox": [
+      201,
+      298,
+      316,
+      310
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      298,
+      1000,
+      311
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      111,
+      315,
+      125,
+      329
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Business Plan",
+    "bbox": [
+      157,
+      314,
+      262,
+      326
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      315,
+      1000,
+      326
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5I6I",
+    "bbox": [
+      110,
+      328,
+      125,
+      361
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Development Work",
+    "bbox": [
+      159,
+      331,
+      302,
+      342
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      331,
+      1000,
+      342
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Further Development Work",
+    "bbox": [
+      158,
+      347,
+      360,
+      358
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      346,
+      1000,
+      358
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      111,
+      362,
+      125,
+      377
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Brand Name and Trademarks",
+    "bbox": [
+      158,
+      363,
+      371,
+      374
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      362,
+      1000,
+      375
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      111,
+      378,
+      125,
+      392
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Labelling and Packaging",
+    "bbox": [
+      157,
+      378,
+      341,
+      391
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      378,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.",
+    "bbox": [
+      111,
+      394,
+      125,
+      407
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Regulatory Obligations and Procedures.",
+    "bbox": [
+      157,
+      394,
+      454,
+      407
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      393,
+      1000,
+      407
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.1.",
+    "bbox": [
+      157,
+      411,
+      182,
+      423
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Regulatory Obligations and Procedures in General",
+    "bbox": [
+      203,
+      411,
+      576,
+      422
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      410,
+      1000,
+      422
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.2.",
+    "bbox": [
+      157,
+      426,
+      181,
+      439
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Notifications",
+    "bbox": [
+      201,
+      426,
+      300,
+      438
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      426,
+      1000,
+      439
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.3.",
+    "bbox": [
+      157,
+      443,
+      182,
+      455
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Regulatory Obligations of Licensee.",
+    "bbox": [
+      201,
+      442,
+      468,
+      455
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      442,
+      1000,
+      454
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.4.",
+    "bbox": [
+      157,
+      458,
+      182,
+      471
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Regulatory Obligations of Licensor",
+    "bbox": [
+      201,
+      458,
+      467,
+      471
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      458,
+      1000,
+      470
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.5.",
+    "bbox": [
+      158,
+      475,
+      182,
+      485
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharmacovigilance",
+    "bbox": [
+      202,
+      475,
+      343,
+      486
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      474,
+      1000,
+      487
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.",
+    "bbox": [
+      113,
+      491,
+      133,
+      502
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Cooperation and Joint Project Steering Committee.",
+    "bbox": [
+      157,
+      490,
+      530,
+      502
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      490,
+      1000,
+      502
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.1.",
+    "bbox": [
+      158,
+      507,
+      195,
+      518
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Cooperation",
+    "bbox": [
+      200,
+      506,
+      294,
+      518
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      506,
+      1000,
+      518
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.2. ",
+    "bbox": [
+      158,
+      523,
+      206,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Transfer of Know-how.",
+    "bbox": [
+      199,
+      523,
+      370,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      522,
+      1000,
+      535
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.3. Joint Steering Committee",
+    "bbox": [
+      157,
+      538,
+      389,
+      551
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      538,
+      1000,
+      551
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.",
+    "bbox": [
+      114,
+      556,
+      131,
+      568
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Commercialization",
+    "bbox": [
+      158,
+      556,
+      291,
+      566
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      566
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.",
+    "bbox": [
+      112,
+      569,
+      132,
+      585
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Supply",
+    "bbox": [
+      157,
+      571,
+      211,
+      583
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      570,
+      1000,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13.",
+    "bbox": [
+      112,
+      585,
+      132,
+      601
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Property rights to Intellectual Property.",
+    "bbox": [
+      157,
+      586,
+      446,
+      599
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      585,
+      1000,
+      599
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14.",
+    "bbox": [
+      111,
+      601,
+      133,
+      615
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Prosecution of Infringements of Intellectual Property.",
+    "bbox": [
+      155,
+      601,
+      553,
+      616
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      601,
+      1000,
+      615
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14.1. Notice",
+    "bbox": [
+      158,
+      619,
+      252,
+      630
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      618,
+      1000,
+      631
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14.2. Action",
+    "bbox": [
+      156,
+      633,
+      255,
+      647
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      634,
+      1000,
+      646
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14.3. Information",
+    "bbox": [
+      157,
+      650,
+      289,
+      662
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      650,
+      1000,
+      662
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15.",
+    "bbox": [
+      111,
+      667,
+      132,
+      678
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Representations and Warranties",
+    "bbox": [
+      156,
+      665,
+      399,
+      679
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      666,
+      1000,
+      678
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15.1. Licensor Representations and Warranties.",
+    "bbox": [
+      157,
+      682,
+      512,
+      695
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      681,
+      1000,
+      695
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15.2. Licensee Representations and Warranties.",
+    "bbox": [
+      157,
+      698,
+      514,
+      710
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      697,
+      1000,
+      711
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15.3. Other Representations and Warranties.",
+    "bbox": [
+      157,
+      714,
+      489,
+      726
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      712,
+      1000,
+      727
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "16.",
+    "bbox": [
+      111,
+      730,
+      133,
+      743
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Liability and Limitations.",
+    "bbox": [
+      157,
+      731,
+      337,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      730,
+      1000,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17.",
+    "bbox": [
+      111,
+      746,
+      134,
+      759
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      744,
+      1000,
+      759
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Indemnities",
+    "bbox": [
+      158,
+      747,
+      244,
+      758
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17.1.",
+    "bbox": [
+      158,
+      763,
+      202,
+      774
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": " Indemnities by the Licensor",
+    "bbox": [
+      194,
+      762,
+      411,
+      774
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      761,
+      1000,
+      775
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17.2. I",
+    "bbox": [
+      158,
+      779,
+      206,
+      790
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Indemnities by the Licensee",
+    "bbox": [
+      197,
+      777,
+      414,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17.3. Third party claims",
+    "bbox": [
+      156,
+      794,
+      338,
+      807
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      793,
+      1000,
+      807
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "18.",
+    "bbox": [
+      111,
+      810,
+      133,
+      823
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Confidentiality",
+    "bbox": [
+      156,
+      809,
+      268,
+      822
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      808,
+      1000,
+      824
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "18.1. Confidentiality Obligations",
+    "bbox": [
+      158,
+      826,
+      405,
+      838
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      825,
+      1000,
+      839
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "18.2. Exceptions to Obligations",
+    "bbox": [
+      157,
+      842,
+      395,
+      855
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      840,
+      1000,
+      856
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "18.3. ",
+    "bbox": [
+      158,
+      859,
+      205,
+      870
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Survival of Confidentiality Obligations.",
+    "bbox": [
+      199,
+      857,
+      492,
+      871
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      858,
+      1000,
+      870
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "i",
+    "bbox": [
+      661,
+      891,
+      672,
+      901
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      134,
+      1000,
+      547,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

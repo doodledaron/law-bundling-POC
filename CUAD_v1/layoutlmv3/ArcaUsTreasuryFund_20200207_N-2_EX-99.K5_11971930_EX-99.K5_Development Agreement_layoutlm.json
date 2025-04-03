@@ -1,0 +1,3819 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Development\\ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.pdf",
+  "annotations": [
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ],
+          "confidence": 0.9897046685218811
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Blockchain Administrator",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "and ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\").",
+          "bbox": [
+            279.0,
+            682.0,
+            2463.0,
+            724.0
+          ],
+          "confidence": 0.9938166737556458
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Fund",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ],
+          "confidence": 0.9746816158294678
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "ARCA CAPITAL MANAGEMENT, LLC",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ],
+          "confidence": 0.9945822358131409
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "ARCA U.S. TREASURY FUND,",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ],
+          "confidence": 0.9746816158294678
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "[___], 2020",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "This Agreement (\"Agreement\") is made as of [], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\").",
+          "bbox": [
+            279.0,
+            621.0,
+            3021.0,
+            665.0
+          ],
+          "confidence": 0.9890012145042419
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Effective Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "This Agreement shall become effective as of the first date above written",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "(d) The Blockchain Administrator shall also, on behalf of the Fund, conduct relations with custodians, depositories, transfer agents.",
+          "bbox": [
+            531.0,
+            289.0,
+            3023.0,
+            336.0
+          ],
+          "confidence": 0.9958009719848633
+        },
+        {
+          "text": "dividend disbursing agents, other stockholder servicing agents, accountants, attorneys, underwriters, brokers and dealers, corporate fiduciaries,",
+          "bbox": [
+            279.0,
+            349.0,
+            3025.0,
+            393.0
+          ],
+          "confidence": 0.9982770085334778
+        },
+        {
+          "text": "insurers, banks and such other persons as the Blockchain Administrator shall deem to be necessary or desirable in connection with the issuance",
+          "bbox": [
+            279.0,
+            407.0,
+            3027.0,
+            444.0
+          ],
+          "confidence": 0.9900057315826416
+        },
+        {
+          "text": "and transfer of the Fund's ERC-1404 compatible digital security,.",
+          "bbox": [
+            277.0,
+            460.0,
+            1463.0,
+            503.0
+          ],
+          "confidence": 0.9855875968933105
+        },
+        {
+          "text": "(e) The Blockchain Administrator shall make reports to the Board of its performance of obligations hereunder and furnish advice and",
+          "bbox": [
+            529.0,
+            517.0,
+            3029.0,
+            559.0
+          ],
+          "confidence": 0.996606707572937
+        },
+        {
+          "text": "recommendations with respect to such other aspects of the business and affairs of the Fund as it shall determine to be desirable; provided that",
+          "bbox": [
+            275.0,
+            572.0,
+            3027.0,
+            616.0
+          ],
+          "confidence": 0.9913827180862427
+        },
+        {
+          "text": "nothing herein shall be construed to require the Blockchain Administrator to, and the Blockchain Administrator shall not, in its capacity as.",
+          "bbox": [
+            275.0,
+            627.0,
+            3027.0,
+            672.0
+          ],
+          "confidence": 0.9864616394042969
+        },
+        {
+          "text": "Blockchain Administrator pursuant to this Agreement, provide any advice or recommendation relating to the securities and other assets that the",
+          "bbox": [
+            279.0,
+            685.0,
+            3027.0,
+            729.0
+          ],
+          "confidence": 0.9984975457191467
+        },
+        {
+          "text": "Fund should purchase, retain or sell or any other investment advisory services to the Fund..",
+          "bbox": [
+            276.0,
+            742.0,
+            1983.0,
+            784.0
+          ],
+          "confidence": 0.9916699528694153
+        },
+        {
+          "text": "(f) The Blockchain Administrator shall for all purposes herein be deemed to be an independent contractor and shall, unless otherwise",
+          "bbox": [
+            529.0,
+            799.0,
+            3027.0,
+            841.0
+          ],
+          "confidence": 0.9987884163856506
+        },
+        {
+          "text": "expressly provided or authorized herein, have no authority to act for or represent the Fund in any way or otherwise be deemed an agent of the",
+          "bbox": [
+            281.0,
+            855.0,
+            3027.0,
+            897.0
+          ],
+          "confidence": 0.9988020062446594
+        },
+        {
+          "text": "Fund.",
+          "bbox": [
+            276.0,
+            910.0,
+            386.0,
+            948.0
+          ],
+          "confidence": 0.9987555742263794
+        },
+        {
+          "text": "(g) The Blockchain Administrator is hereby authorized to enter into agreements with other service providers pursuant to which the",
+          "bbox": [
+            529.0,
+            963.0,
+            3027.0,
+            1011.0
+          ],
+          "confidence": 0.9949714541435242
+        },
+        {
+          "text": "Blockchain Administrator may obtain the services of the service providers in fulfilling its responsibilities hereunder. The Blockchain Administrator.",
+          "bbox": [
+            277.0,
+            1021.0,
+            3029.0,
+            1064.0
+          ],
+          "confidence": 0.9972020387649536
+        },
+        {
+          "text": "shall ensure that any such service provider shall operate in conformity with the requirements of the Investment Company Act and other applicable",
+          "bbox": [
+            277.0,
+            1078.0,
+            3027.0,
+            1120.0
+          ],
+          "confidence": 0.9968727827072144
+        },
+        {
+          "text": "federal and state law and shall maintain books and records of the Fund (if any) in a manner substantially similar to Section 2 of this Agreement.",
+          "bbox": [
+            277.0,
+            1135.0,
+            2933.0,
+            1175.0
+          ],
+          "confidence": 0.994162917137146
+        },
+        {
+          "text": "2. Maintenance of Records.",
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ],
+          "confidence": 0.9646841287612915
+        },
+        {
+          "text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities",
+          "bbox": [
+            444.0,
+            1246.0,
+            3027.0,
+            1288.0
+          ],
+          "confidence": 0.9883983731269836
+        },
+        {
+          "text": "performed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the",
+          "bbox": [
+            277.0,
+            1299.0,
+            3027.0,
+            1347.0
+          ],
+          "confidence": 0.9986916184425354
+        },
+        {
+          "text": "Investment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator",
+          "bbox": [
+            279.0,
+            1360.0,
+            3030.0,
+            1402.0
+          ],
+          "confidence": 0.9982255101203918
+        },
+        {
+          "text": "agrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal",
+          "bbox": [
+            277.0,
+            1416.0,
+            3029.0,
+            1458.0
+          ],
+          "confidence": 0.9915915727615356
+        },
+        {
+          "text": "business hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain",
+          "bbox": [
+            277.0,
+            1471.0,
+            3029.0,
+            1513.0
+          ],
+          "confidence": 0.9942401051521301
+        },
+        {
+          "text": "Administrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be",
+          "bbox": [
+            281.0,
+            1528.0,
+            3027.0,
+            1570.0
+          ],
+          "confidence": 0.9933761954307556
+        },
+        {
+          "text": "preserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided",
+          "bbox": [
+            277.0,
+            1584.0,
+            3027.0,
+            1626.0
+          ],
+          "confidence": 0.9924129843711853
+        },
+        {
+          "text": "above. Records shall be surrendered in usable machine-readable form. The Blockchain Administrator shall have the right to retain copies of such",
+          "bbox": [
+            277.0,
+            1637.0,
+            3029.0,
+            1681.0
+          ],
+          "confidence": 0.9981696009635925
+        },
+        {
+          "text": "records subject to observance of its confidentiality obligations under this Agreement..",
+          "bbox": [
+            277.0,
+            1696.0,
+            1872.0,
+            1736.0
+          ],
+          "confidence": 0.9834744930267334
+        },
+        {
+          "text": "3. Confidentiality",
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ],
+          "confidence": 0.9732820987701416
+        },
+        {
+          "text": "The parties hereto agree that each shall treat confidentially the terms and conditions of this Agreement and all information provided by",
+          "bbox": [
+            446.0,
+            1807.0,
+            3025.0,
+            1849.0
+          ],
+          "confidence": 0.9944213628768921
+        },
+        {
+          "text": "each party to the other regarding its business and operations. All confidential information provided by a party hereto, including nonpublic personal",
+          "bbox": [
+            279.0,
+            1864.0,
+            3030.0,
+            1906.0
+          ],
+          "confidence": 0.9933609962463379
+        },
+        {
+          "text": "information (regulated pursuant to Regulation S-P), shall be used by any other party hereto solely for the purpose of rendering services pursuant to.",
+          "bbox": [
+            277.0,
+            1919.0,
+            3029.0,
+            1964.0
+          ],
+          "confidence": 0.9929113984107971
+        },
+        {
+          "text": "this Agreement and, except as may be required in carrying out this Agreement, shall not be disclosed to any third party, without the prior consent",
+          "bbox": [
+            279.0,
+            1977.0,
+            3030.0,
+            2019.0
+          ],
+          "confidence": 0.996081531047821
+        },
+        {
+          "text": "of such providing party. The foregoing shall not be applicable to any information that is publicly available when provided or thereafter becomes",
+          "bbox": [
+            277.0,
+            2030.0,
+            3029.0,
+            2076.0
+          ],
+          "confidence": 0.995224118232727
+        },
+        {
+          "text": "publicly available other than through a breach of this Agreement, or that is required to be disclosed by any regulatory authority, any authority or",
+          "bbox": [
+            279.0,
+            2087.0,
+            3029.0,
+            2133.0
+          ],
+          "confidence": 0.9952654242515564
+        },
+        {
+          "text": "legal counsel of the parties hereto, by judicial or administrative process or otherwise by applicable law or regulation..",
+          "bbox": [
+            277.0,
+            2145.0,
+            2440.0,
+            2187.0
+          ],
+          "confidence": 0.9898366332054138
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ],
+          "confidence": 0.9842551350593567
+        },
+        {
+          "text": "(a) In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the",
+          "bbox": [
+            529.0,
+            2255.0,
+            3023.0,
+            2297.0
+          ],
+          "confidence": 0.9904980659484863
+        },
+        {
+          "text": "Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be",
+          "bbox": [
+            277.0,
+            2310.0,
+            3027.0,
+            2355.0
+          ],
+          "confidence": 0.9885513782501221
+        },
+        {
+          "text": "accrued daily and paid monthly in arrears..",
+          "bbox": [
+            279.0,
+            2372.0,
+            1055.0,
+            2408.0
+          ],
+          "confidence": 0.9852709174156189
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1642.0,
+            2463.0,
+            1671.0,
+            2502.0
+          ],
+          "confidence": 0.9836940169334412
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1352.0,
+            4479.0
+          ],
+          "confidence": 0.9975520968437195
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "2. Maintenance of Records.",
+          "page": 1,
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ]
+        },
+        {
+          "text": "3. Confidentiality",
+          "page": 1,
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ]
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "page": 1,
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Expiration Date_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 99(k)(5)",
+          "bbox": [
+            2724.0,
+            285.0,
+            3027.0,
+            329.0
+          ],
+          "confidence": 0.9999087452888489
+        },
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ],
+          "confidence": 0.9897046685218811
+        },
+        {
+          "text": "BETWEEN",
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ],
+          "confidence": 0.999236524105072
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ],
+          "confidence": 0.9746816158294678
+        },
+        {
+          "text": "AND",
+          "bbox": [
+            1604.0,
+            506.0,
+            1706.0,
+            552.0
+          ],
+          "confidence": 0.998781681060791
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ],
+          "confidence": 0.9945822358131409
+        },
+        {
+          "text": "This Agreement (\"Agreement\") is made as of [], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\").",
+          "bbox": [
+            279.0,
+            621.0,
+            3021.0,
+            665.0
+          ],
+          "confidence": 0.9890012145042419
+        },
+        {
+          "text": "and ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\").",
+          "bbox": [
+            279.0,
+            682.0,
+            2463.0,
+            724.0
+          ],
+          "confidence": 0.9938166737556458
+        },
+        {
+          "text": "WHEREAS, the Fund is a closed-end management investment fund that has registered as an investment company under the Investment Company",
+          "bbox": [
+            279.0,
+            738.0,
+            3027.0,
+            788.0
+          ],
+          "confidence": 0.9981251955032349
+        },
+        {
+          "text": "Act of 1940, as amended (the \"Investment Company Act\") and that intends to operate as an interval fund pursuant to Rule 23c-3 under the",
+          "bbox": [
+            281.0,
+            799.0,
+            3029.0,
+            841.0
+          ],
+          "confidence": 0.9874135255813599
+        },
+        {
+          "text": "Investment Company Act;.",
+          "bbox": [
+            279.0,
+            859.0,
+            774.0,
+            901.0
+          ],
+          "confidence": 0.982032299041748
+        },
+        {
+          "text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital",
+          "bbox": [
+            279.0,
+            914.0,
+            3027.0,
+            956.0
+          ],
+          "confidence": 0.9954565167427063
+        },
+        {
+          "text": "securities and administration of the smart contracts underlying the Fund's digital securities in the manner and on the terms set forth herein;",
+          "bbox": [
+            277.0,
+            970.0,
+            2866.0,
+            1007.0
+          ],
+          "confidence": 0.9934982657432556
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator is willing to provide such services to the Fund on the terms and conditions set forth herein;.",
+          "bbox": [
+            279.0,
+            1025.0,
+            2775.0,
+            1067.0
+          ],
+          "confidence": 0.9886197447776794
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator will also serve as the Fund's investment adviser (the \"Adviser\") pursuant to an Investment Advisory",
+          "bbox": [
+            277.0,
+            1078.0,
+            3025.0,
+            1126.0
+          ],
+          "confidence": 0.9983124136924744
+        },
+        {
+          "text": "Agreement entered into by and between the Fund and the Adviser (as amended from time to time, the \"Advisory Agreement\"); and",
+          "bbox": [
+            277.0,
+            1138.0,
+            2726.0,
+            1186.0
+          ],
+          "confidence": 0.9947190880775452
+        },
+        {
+          "text": "WHEREAS, the Fund bears all costs and expenses incurred in its operation, administration and transactions which are not specifically assumed by",
+          "bbox": [
+            277.0,
+            1199.0,
+            3023.0,
+            1244.0
+          ],
+          "confidence": 0.9958629608154297
+        },
+        {
+          "text": "the Adviser pursuant to the Advisory Agreement or this Agreement..",
+          "bbox": [
+            277.0,
+            1255.0,
+            1561.0,
+            1299.0
+          ],
+          "confidence": 0.9920535087585449
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of the premises and the covenants hereinafter contained and for other good and valuable consideration, the",
+          "bbox": [
+            277.0,
+            1316.0,
+            3025.0,
+            1352.0
+          ],
+          "confidence": 0.9869516491889954
+        },
+        {
+          "text": "receipt and adequacy of which is hereby acknowledged, the Fund and the Blockchain Administrator hereby agree as follows:",
+          "bbox": [
+            276.0,
+            1369.0,
+            2603.0,
+            1413.0
+          ],
+          "confidence": 0.9965436458587646
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ],
+          "confidence": 0.9817531108856201
+        },
+        {
+          "text": "(a) The Fund hereby employs the Blockchain Administrator to act as the blockchain administrator of the Fund, and to furnish, or.",
+          "bbox": [
+            527.0,
+            1480.0,
+            3027.0,
+            1524.0
+          ],
+          "confidence": 0.9878109097480774
+        },
+        {
+          "text": "arrange for others to furnish, the services, personnel and facilities described below, subject to review by and the overall control of the Fund's Board",
+          "bbox": [
+            277.0,
+            1535.0,
+            3031.0,
+            1581.0
+          ],
+          "confidence": 0.997205913066864
+        },
+        {
+          "text": "of Trustees (the \"Board\"), for the period and on the terms and conditions set forth in this Agreement.",
+          "bbox": [
+            277.0,
+            1592.0,
+            2182.0,
+            1635.0
+          ],
+          "confidence": 0.9943906664848328
+        },
+        {
+          "text": "(b) The Blockchain Administrator hereby accepts such employment and agrees during such period to render, or arrange for the",
+          "bbox": [
+            531.0,
+            1654.0,
+            3027.0,
+            1696.0
+          ],
+          "confidence": 0.9963223934173584
+        },
+        {
+          "text": "rendering of, such services and to assume the obligations herein set forth subject to the reimbursement of costs and expenses provided for below.",
+          "bbox": [
+            279.0,
+            1710.0,
+            2996.0,
+            1752.0
+          ],
+          "confidence": 0.9982181787490845
+        },
+        {
+          "text": "(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative",
+          "bbox": [
+            527.0,
+            1763.0,
+            3029.0,
+            1809.0
+          ],
+          "confidence": 0.9928524494171143
+        },
+        {
+          "text": "services necessary for the issuance of the Fund's shares as ERC-1404 compatible digital securities (\"Shares\") and the on-going maintenance and",
+          "bbox": [
+            274.0,
+            1820.0,
+            3029.0,
+            1866.0
+          ],
+          "confidence": 0.991946816444397
+        },
+        {
+          "text": "administration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Administrator shall",
+          "bbox": [
+            277.0,
+            1878.0,
+            3029.0,
+            1924.0
+          ],
+          "confidence": 0.9903503060340881
+        },
+        {
+          "text": "provide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject to review by the",
+          "bbox": [
+            279.0,
+            1937.0,
+            3025.0,
+            1979.0
+          ],
+          "confidence": 0.991179347038269
+        },
+        {
+          "text": "Board, shall from time to time determine to be necessary or useful to perform its obligations under this Agreement.",
+          "bbox": [
+            277.0,
+            1994.0,
+            2396.0,
+            2034.0
+          ],
+          "confidence": 0.9929118752479553
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2089.0,
+            1671.0,
+            2127.0
+          ],
+          "confidence": 0.9953835606575012
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1354.0,
+            4479.0
+          ],
+          "confidence": 0.9974526166915894
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Expiration Date_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "(d) The Blockchain Administrator shall also, on behalf of the Fund, conduct relations with custodians, depositories, transfer agents.",
+          "bbox": [
+            531.0,
+            289.0,
+            3023.0,
+            336.0
+          ],
+          "confidence": 0.9958009719848633
+        },
+        {
+          "text": "dividend disbursing agents, other stockholder servicing agents, accountants, attorneys, underwriters, brokers and dealers, corporate fiduciaries,",
+          "bbox": [
+            279.0,
+            349.0,
+            3025.0,
+            393.0
+          ],
+          "confidence": 0.9982770085334778
+        },
+        {
+          "text": "insurers, banks and such other persons as the Blockchain Administrator shall deem to be necessary or desirable in connection with the issuance",
+          "bbox": [
+            279.0,
+            407.0,
+            3027.0,
+            444.0
+          ],
+          "confidence": 0.9900057315826416
+        },
+        {
+          "text": "and transfer of the Fund's ERC-1404 compatible digital security,.",
+          "bbox": [
+            277.0,
+            460.0,
+            1463.0,
+            503.0
+          ],
+          "confidence": 0.9855875968933105
+        },
+        {
+          "text": "(e) The Blockchain Administrator shall make reports to the Board of its performance of obligations hereunder and furnish advice and",
+          "bbox": [
+            529.0,
+            517.0,
+            3029.0,
+            559.0
+          ],
+          "confidence": 0.996606707572937
+        },
+        {
+          "text": "recommendations with respect to such other aspects of the business and affairs of the Fund as it shall determine to be desirable; provided that",
+          "bbox": [
+            275.0,
+            572.0,
+            3027.0,
+            616.0
+          ],
+          "confidence": 0.9913827180862427
+        },
+        {
+          "text": "nothing herein shall be construed to require the Blockchain Administrator to, and the Blockchain Administrator shall not, in its capacity as.",
+          "bbox": [
+            275.0,
+            627.0,
+            3027.0,
+            672.0
+          ],
+          "confidence": 0.9864616394042969
+        },
+        {
+          "text": "Blockchain Administrator pursuant to this Agreement, provide any advice or recommendation relating to the securities and other assets that the",
+          "bbox": [
+            279.0,
+            685.0,
+            3027.0,
+            729.0
+          ],
+          "confidence": 0.9984975457191467
+        },
+        {
+          "text": "Fund should purchase, retain or sell or any other investment advisory services to the Fund..",
+          "bbox": [
+            276.0,
+            742.0,
+            1983.0,
+            784.0
+          ],
+          "confidence": 0.9916699528694153
+        },
+        {
+          "text": "(f) The Blockchain Administrator shall for all purposes herein be deemed to be an independent contractor and shall, unless otherwise",
+          "bbox": [
+            529.0,
+            799.0,
+            3027.0,
+            841.0
+          ],
+          "confidence": 0.9987884163856506
+        },
+        {
+          "text": "expressly provided or authorized herein, have no authority to act for or represent the Fund in any way or otherwise be deemed an agent of the",
+          "bbox": [
+            281.0,
+            855.0,
+            3027.0,
+            897.0
+          ],
+          "confidence": 0.9988020062446594
+        },
+        {
+          "text": "Fund.",
+          "bbox": [
+            276.0,
+            910.0,
+            386.0,
+            948.0
+          ],
+          "confidence": 0.9987555742263794
+        },
+        {
+          "text": "(g) The Blockchain Administrator is hereby authorized to enter into agreements with other service providers pursuant to which the",
+          "bbox": [
+            529.0,
+            963.0,
+            3027.0,
+            1011.0
+          ],
+          "confidence": 0.9949714541435242
+        },
+        {
+          "text": "Blockchain Administrator may obtain the services of the service providers in fulfilling its responsibilities hereunder. The Blockchain Administrator.",
+          "bbox": [
+            277.0,
+            1021.0,
+            3029.0,
+            1064.0
+          ],
+          "confidence": 0.9972020387649536
+        },
+        {
+          "text": "shall ensure that any such service provider shall operate in conformity with the requirements of the Investment Company Act and other applicable",
+          "bbox": [
+            277.0,
+            1078.0,
+            3027.0,
+            1120.0
+          ],
+          "confidence": 0.9968727827072144
+        },
+        {
+          "text": "federal and state law and shall maintain books and records of the Fund (if any) in a manner substantially similar to Section 2 of this Agreement.",
+          "bbox": [
+            277.0,
+            1135.0,
+            2933.0,
+            1175.0
+          ],
+          "confidence": 0.994162917137146
+        },
+        {
+          "text": "2. Maintenance of Records.",
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ],
+          "confidence": 0.9646841287612915
+        },
+        {
+          "text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities",
+          "bbox": [
+            444.0,
+            1246.0,
+            3027.0,
+            1288.0
+          ],
+          "confidence": 0.9883983731269836
+        },
+        {
+          "text": "performed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the",
+          "bbox": [
+            277.0,
+            1299.0,
+            3027.0,
+            1347.0
+          ],
+          "confidence": 0.9986916184425354
+        },
+        {
+          "text": "Investment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator",
+          "bbox": [
+            279.0,
+            1360.0,
+            3030.0,
+            1402.0
+          ],
+          "confidence": 0.9982255101203918
+        },
+        {
+          "text": "agrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal",
+          "bbox": [
+            277.0,
+            1416.0,
+            3029.0,
+            1458.0
+          ],
+          "confidence": 0.9915915727615356
+        },
+        {
+          "text": "business hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain",
+          "bbox": [
+            277.0,
+            1471.0,
+            3029.0,
+            1513.0
+          ],
+          "confidence": 0.9942401051521301
+        },
+        {
+          "text": "Administrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be",
+          "bbox": [
+            281.0,
+            1528.0,
+            3027.0,
+            1570.0
+          ],
+          "confidence": 0.9933761954307556
+        },
+        {
+          "text": "preserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided",
+          "bbox": [
+            277.0,
+            1584.0,
+            3027.0,
+            1626.0
+          ],
+          "confidence": 0.9924129843711853
+        },
+        {
+          "text": "above. Records shall be surrendered in usable machine-readable form. The Blockchain Administrator shall have the right to retain copies of such",
+          "bbox": [
+            277.0,
+            1637.0,
+            3029.0,
+            1681.0
+          ],
+          "confidence": 0.9981696009635925
+        },
+        {
+          "text": "records subject to observance of its confidentiality obligations under this Agreement..",
+          "bbox": [
+            277.0,
+            1696.0,
+            1872.0,
+            1736.0
+          ],
+          "confidence": 0.9834744930267334
+        },
+        {
+          "text": "3. Confidentiality",
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ],
+          "confidence": 0.9732820987701416
+        },
+        {
+          "text": "The parties hereto agree that each shall treat confidentially the terms and conditions of this Agreement and all information provided by",
+          "bbox": [
+            446.0,
+            1807.0,
+            3025.0,
+            1849.0
+          ],
+          "confidence": 0.9944213628768921
+        },
+        {
+          "text": "each party to the other regarding its business and operations. All confidential information provided by a party hereto, including nonpublic personal",
+          "bbox": [
+            279.0,
+            1864.0,
+            3030.0,
+            1906.0
+          ],
+          "confidence": 0.9933609962463379
+        },
+        {
+          "text": "information (regulated pursuant to Regulation S-P), shall be used by any other party hereto solely for the purpose of rendering services pursuant to.",
+          "bbox": [
+            277.0,
+            1919.0,
+            3029.0,
+            1964.0
+          ],
+          "confidence": 0.9929113984107971
+        },
+        {
+          "text": "this Agreement and, except as may be required in carrying out this Agreement, shall not be disclosed to any third party, without the prior consent",
+          "bbox": [
+            279.0,
+            1977.0,
+            3030.0,
+            2019.0
+          ],
+          "confidence": 0.996081531047821
+        },
+        {
+          "text": "of such providing party. The foregoing shall not be applicable to any information that is publicly available when provided or thereafter becomes",
+          "bbox": [
+            277.0,
+            2030.0,
+            3029.0,
+            2076.0
+          ],
+          "confidence": 0.995224118232727
+        },
+        {
+          "text": "publicly available other than through a breach of this Agreement, or that is required to be disclosed by any regulatory authority, any authority or",
+          "bbox": [
+            279.0,
+            2087.0,
+            3029.0,
+            2133.0
+          ],
+          "confidence": 0.9952654242515564
+        },
+        {
+          "text": "legal counsel of the parties hereto, by judicial or administrative process or otherwise by applicable law or regulation..",
+          "bbox": [
+            277.0,
+            2145.0,
+            2440.0,
+            2187.0
+          ],
+          "confidence": 0.9898366332054138
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ],
+          "confidence": 0.9842551350593567
+        },
+        {
+          "text": "(a) In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the",
+          "bbox": [
+            529.0,
+            2255.0,
+            3023.0,
+            2297.0
+          ],
+          "confidence": 0.9904980659484863
+        },
+        {
+          "text": "Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be",
+          "bbox": [
+            277.0,
+            2310.0,
+            3027.0,
+            2355.0
+          ],
+          "confidence": 0.9885513782501221
+        },
+        {
+          "text": "accrued daily and paid monthly in arrears..",
+          "bbox": [
+            279.0,
+            2372.0,
+            1055.0,
+            2408.0
+          ],
+          "confidence": 0.9852709174156189
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1642.0,
+            2463.0,
+            1671.0,
+            2502.0
+          ],
+          "confidence": 0.9836940169334412
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1352.0,
+            4479.0
+          ],
+          "confidence": 0.9975520968437195
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "2. Maintenance of Records.",
+          "page": 1,
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ]
+        },
+        {
+          "text": "3. Confidentiality",
+          "page": 1,
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ]
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "page": 1,
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Renewal Term_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.",
+      "answer_text": "This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 99(k)(5)",
+          "bbox": [
+            2724.0,
+            285.0,
+            3027.0,
+            329.0
+          ],
+          "confidence": 0.9999087452888489
+        },
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ],
+          "confidence": 0.9897046685218811
+        },
+        {
+          "text": "BETWEEN",
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ],
+          "confidence": 0.999236524105072
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ],
+          "confidence": 0.9746816158294678
+        },
+        {
+          "text": "AND",
+          "bbox": [
+            1604.0,
+            506.0,
+            1706.0,
+            552.0
+          ],
+          "confidence": 0.998781681060791
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ],
+          "confidence": 0.9945822358131409
+        },
+        {
+          "text": "This Agreement (\"Agreement\") is made as of [], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\").",
+          "bbox": [
+            279.0,
+            621.0,
+            3021.0,
+            665.0
+          ],
+          "confidence": 0.9890012145042419
+        },
+        {
+          "text": "and ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\").",
+          "bbox": [
+            279.0,
+            682.0,
+            2463.0,
+            724.0
+          ],
+          "confidence": 0.9938166737556458
+        },
+        {
+          "text": "WHEREAS, the Fund is a closed-end management investment fund that has registered as an investment company under the Investment Company",
+          "bbox": [
+            279.0,
+            738.0,
+            3027.0,
+            788.0
+          ],
+          "confidence": 0.9981251955032349
+        },
+        {
+          "text": "Act of 1940, as amended (the \"Investment Company Act\") and that intends to operate as an interval fund pursuant to Rule 23c-3 under the",
+          "bbox": [
+            281.0,
+            799.0,
+            3029.0,
+            841.0
+          ],
+          "confidence": 0.9874135255813599
+        },
+        {
+          "text": "Investment Company Act;.",
+          "bbox": [
+            279.0,
+            859.0,
+            774.0,
+            901.0
+          ],
+          "confidence": 0.982032299041748
+        },
+        {
+          "text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital",
+          "bbox": [
+            279.0,
+            914.0,
+            3027.0,
+            956.0
+          ],
+          "confidence": 0.9954565167427063
+        },
+        {
+          "text": "securities and administration of the smart contracts underlying the Fund's digital securities in the manner and on the terms set forth herein;",
+          "bbox": [
+            277.0,
+            970.0,
+            2866.0,
+            1007.0
+          ],
+          "confidence": 0.9934982657432556
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator is willing to provide such services to the Fund on the terms and conditions set forth herein;.",
+          "bbox": [
+            279.0,
+            1025.0,
+            2775.0,
+            1067.0
+          ],
+          "confidence": 0.9886197447776794
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator will also serve as the Fund's investment adviser (the \"Adviser\") pursuant to an Investment Advisory",
+          "bbox": [
+            277.0,
+            1078.0,
+            3025.0,
+            1126.0
+          ],
+          "confidence": 0.9983124136924744
+        },
+        {
+          "text": "Agreement entered into by and between the Fund and the Adviser (as amended from time to time, the \"Advisory Agreement\"); and",
+          "bbox": [
+            277.0,
+            1138.0,
+            2726.0,
+            1186.0
+          ],
+          "confidence": 0.9947190880775452
+        },
+        {
+          "text": "WHEREAS, the Fund bears all costs and expenses incurred in its operation, administration and transactions which are not specifically assumed by",
+          "bbox": [
+            277.0,
+            1199.0,
+            3023.0,
+            1244.0
+          ],
+          "confidence": 0.9958629608154297
+        },
+        {
+          "text": "the Adviser pursuant to the Advisory Agreement or this Agreement..",
+          "bbox": [
+            277.0,
+            1255.0,
+            1561.0,
+            1299.0
+          ],
+          "confidence": 0.9920535087585449
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of the premises and the covenants hereinafter contained and for other good and valuable consideration, the",
+          "bbox": [
+            277.0,
+            1316.0,
+            3025.0,
+            1352.0
+          ],
+          "confidence": 0.9869516491889954
+        },
+        {
+          "text": "receipt and adequacy of which is hereby acknowledged, the Fund and the Blockchain Administrator hereby agree as follows:",
+          "bbox": [
+            276.0,
+            1369.0,
+            2603.0,
+            1413.0
+          ],
+          "confidence": 0.9965436458587646
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ],
+          "confidence": 0.9817531108856201
+        },
+        {
+          "text": "(a) The Fund hereby employs the Blockchain Administrator to act as the blockchain administrator of the Fund, and to furnish, or.",
+          "bbox": [
+            527.0,
+            1480.0,
+            3027.0,
+            1524.0
+          ],
+          "confidence": 0.9878109097480774
+        },
+        {
+          "text": "arrange for others to furnish, the services, personnel and facilities described below, subject to review by and the overall control of the Fund's Board",
+          "bbox": [
+            277.0,
+            1535.0,
+            3031.0,
+            1581.0
+          ],
+          "confidence": 0.997205913066864
+        },
+        {
+          "text": "of Trustees (the \"Board\"), for the period and on the terms and conditions set forth in this Agreement.",
+          "bbox": [
+            277.0,
+            1592.0,
+            2182.0,
+            1635.0
+          ],
+          "confidence": 0.9943906664848328
+        },
+        {
+          "text": "(b) The Blockchain Administrator hereby accepts such employment and agrees during such period to render, or arrange for the",
+          "bbox": [
+            531.0,
+            1654.0,
+            3027.0,
+            1696.0
+          ],
+          "confidence": 0.9963223934173584
+        },
+        {
+          "text": "rendering of, such services and to assume the obligations herein set forth subject to the reimbursement of costs and expenses provided for below.",
+          "bbox": [
+            279.0,
+            1710.0,
+            2996.0,
+            1752.0
+          ],
+          "confidence": 0.9982181787490845
+        },
+        {
+          "text": "(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative",
+          "bbox": [
+            527.0,
+            1763.0,
+            3029.0,
+            1809.0
+          ],
+          "confidence": 0.9928524494171143
+        },
+        {
+          "text": "services necessary for the issuance of the Fund's shares as ERC-1404 compatible digital securities (\"Shares\") and the on-going maintenance and",
+          "bbox": [
+            274.0,
+            1820.0,
+            3029.0,
+            1866.0
+          ],
+          "confidence": 0.991946816444397
+        },
+        {
+          "text": "administration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Administrator shall",
+          "bbox": [
+            277.0,
+            1878.0,
+            3029.0,
+            1924.0
+          ],
+          "confidence": 0.9903503060340881
+        },
+        {
+          "text": "provide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject to review by the",
+          "bbox": [
+            279.0,
+            1937.0,
+            3025.0,
+            1979.0
+          ],
+          "confidence": 0.991179347038269
+        },
+        {
+          "text": "Board, shall from time to time determine to be necessary or useful to perform its obligations under this Agreement.",
+          "bbox": [
+            277.0,
+            1994.0,
+            2396.0,
+            2034.0
+          ],
+          "confidence": 0.9929118752479553
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2089.0,
+            1671.0,
+            2127.0
+          ],
+          "confidence": 0.9953835606575012
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1354.0,
+            4479.0
+          ],
+          "confidence": 0.9974526166915894
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Renewal Term_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.",
+      "answer_text": "This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "(d) The Blockchain Administrator shall also, on behalf of the Fund, conduct relations with custodians, depositories, transfer agents.",
+          "bbox": [
+            531.0,
+            289.0,
+            3023.0,
+            336.0
+          ],
+          "confidence": 0.9958009719848633
+        },
+        {
+          "text": "dividend disbursing agents, other stockholder servicing agents, accountants, attorneys, underwriters, brokers and dealers, corporate fiduciaries,",
+          "bbox": [
+            279.0,
+            349.0,
+            3025.0,
+            393.0
+          ],
+          "confidence": 0.9982770085334778
+        },
+        {
+          "text": "insurers, banks and such other persons as the Blockchain Administrator shall deem to be necessary or desirable in connection with the issuance",
+          "bbox": [
+            279.0,
+            407.0,
+            3027.0,
+            444.0
+          ],
+          "confidence": 0.9900057315826416
+        },
+        {
+          "text": "and transfer of the Fund's ERC-1404 compatible digital security,.",
+          "bbox": [
+            277.0,
+            460.0,
+            1463.0,
+            503.0
+          ],
+          "confidence": 0.9855875968933105
+        },
+        {
+          "text": "(e) The Blockchain Administrator shall make reports to the Board of its performance of obligations hereunder and furnish advice and",
+          "bbox": [
+            529.0,
+            517.0,
+            3029.0,
+            559.0
+          ],
+          "confidence": 0.996606707572937
+        },
+        {
+          "text": "recommendations with respect to such other aspects of the business and affairs of the Fund as it shall determine to be desirable; provided that",
+          "bbox": [
+            275.0,
+            572.0,
+            3027.0,
+            616.0
+          ],
+          "confidence": 0.9913827180862427
+        },
+        {
+          "text": "nothing herein shall be construed to require the Blockchain Administrator to, and the Blockchain Administrator shall not, in its capacity as.",
+          "bbox": [
+            275.0,
+            627.0,
+            3027.0,
+            672.0
+          ],
+          "confidence": 0.9864616394042969
+        },
+        {
+          "text": "Blockchain Administrator pursuant to this Agreement, provide any advice or recommendation relating to the securities and other assets that the",
+          "bbox": [
+            279.0,
+            685.0,
+            3027.0,
+            729.0
+          ],
+          "confidence": 0.9984975457191467
+        },
+        {
+          "text": "Fund should purchase, retain or sell or any other investment advisory services to the Fund..",
+          "bbox": [
+            276.0,
+            742.0,
+            1983.0,
+            784.0
+          ],
+          "confidence": 0.9916699528694153
+        },
+        {
+          "text": "(f) The Blockchain Administrator shall for all purposes herein be deemed to be an independent contractor and shall, unless otherwise",
+          "bbox": [
+            529.0,
+            799.0,
+            3027.0,
+            841.0
+          ],
+          "confidence": 0.9987884163856506
+        },
+        {
+          "text": "expressly provided or authorized herein, have no authority to act for or represent the Fund in any way or otherwise be deemed an agent of the",
+          "bbox": [
+            281.0,
+            855.0,
+            3027.0,
+            897.0
+          ],
+          "confidence": 0.9988020062446594
+        },
+        {
+          "text": "Fund.",
+          "bbox": [
+            276.0,
+            910.0,
+            386.0,
+            948.0
+          ],
+          "confidence": 0.9987555742263794
+        },
+        {
+          "text": "(g) The Blockchain Administrator is hereby authorized to enter into agreements with other service providers pursuant to which the",
+          "bbox": [
+            529.0,
+            963.0,
+            3027.0,
+            1011.0
+          ],
+          "confidence": 0.9949714541435242
+        },
+        {
+          "text": "Blockchain Administrator may obtain the services of the service providers in fulfilling its responsibilities hereunder. The Blockchain Administrator.",
+          "bbox": [
+            277.0,
+            1021.0,
+            3029.0,
+            1064.0
+          ],
+          "confidence": 0.9972020387649536
+        },
+        {
+          "text": "shall ensure that any such service provider shall operate in conformity with the requirements of the Investment Company Act and other applicable",
+          "bbox": [
+            277.0,
+            1078.0,
+            3027.0,
+            1120.0
+          ],
+          "confidence": 0.9968727827072144
+        },
+        {
+          "text": "federal and state law and shall maintain books and records of the Fund (if any) in a manner substantially similar to Section 2 of this Agreement.",
+          "bbox": [
+            277.0,
+            1135.0,
+            2933.0,
+            1175.0
+          ],
+          "confidence": 0.994162917137146
+        },
+        {
+          "text": "2. Maintenance of Records.",
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ],
+          "confidence": 0.9646841287612915
+        },
+        {
+          "text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities",
+          "bbox": [
+            444.0,
+            1246.0,
+            3027.0,
+            1288.0
+          ],
+          "confidence": 0.9883983731269836
+        },
+        {
+          "text": "performed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the",
+          "bbox": [
+            277.0,
+            1299.0,
+            3027.0,
+            1347.0
+          ],
+          "confidence": 0.9986916184425354
+        },
+        {
+          "text": "Investment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator",
+          "bbox": [
+            279.0,
+            1360.0,
+            3030.0,
+            1402.0
+          ],
+          "confidence": 0.9982255101203918
+        },
+        {
+          "text": "agrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal",
+          "bbox": [
+            277.0,
+            1416.0,
+            3029.0,
+            1458.0
+          ],
+          "confidence": 0.9915915727615356
+        },
+        {
+          "text": "business hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain",
+          "bbox": [
+            277.0,
+            1471.0,
+            3029.0,
+            1513.0
+          ],
+          "confidence": 0.9942401051521301
+        },
+        {
+          "text": "Administrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be",
+          "bbox": [
+            281.0,
+            1528.0,
+            3027.0,
+            1570.0
+          ],
+          "confidence": 0.9933761954307556
+        },
+        {
+          "text": "preserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided",
+          "bbox": [
+            277.0,
+            1584.0,
+            3027.0,
+            1626.0
+          ],
+          "confidence": 0.9924129843711853
+        },
+        {
+          "text": "above. Records shall be surrendered in usable machine-readable form. The Blockchain Administrator shall have the right to retain copies of such",
+          "bbox": [
+            277.0,
+            1637.0,
+            3029.0,
+            1681.0
+          ],
+          "confidence": 0.9981696009635925
+        },
+        {
+          "text": "records subject to observance of its confidentiality obligations under this Agreement..",
+          "bbox": [
+            277.0,
+            1696.0,
+            1872.0,
+            1736.0
+          ],
+          "confidence": 0.9834744930267334
+        },
+        {
+          "text": "3. Confidentiality",
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ],
+          "confidence": 0.9732820987701416
+        },
+        {
+          "text": "The parties hereto agree that each shall treat confidentially the terms and conditions of this Agreement and all information provided by",
+          "bbox": [
+            446.0,
+            1807.0,
+            3025.0,
+            1849.0
+          ],
+          "confidence": 0.9944213628768921
+        },
+        {
+          "text": "each party to the other regarding its business and operations. All confidential information provided by a party hereto, including nonpublic personal",
+          "bbox": [
+            279.0,
+            1864.0,
+            3030.0,
+            1906.0
+          ],
+          "confidence": 0.9933609962463379
+        },
+        {
+          "text": "information (regulated pursuant to Regulation S-P), shall be used by any other party hereto solely for the purpose of rendering services pursuant to.",
+          "bbox": [
+            277.0,
+            1919.0,
+            3029.0,
+            1964.0
+          ],
+          "confidence": 0.9929113984107971
+        },
+        {
+          "text": "this Agreement and, except as may be required in carrying out this Agreement, shall not be disclosed to any third party, without the prior consent",
+          "bbox": [
+            279.0,
+            1977.0,
+            3030.0,
+            2019.0
+          ],
+          "confidence": 0.996081531047821
+        },
+        {
+          "text": "of such providing party. The foregoing shall not be applicable to any information that is publicly available when provided or thereafter becomes",
+          "bbox": [
+            277.0,
+            2030.0,
+            3029.0,
+            2076.0
+          ],
+          "confidence": 0.995224118232727
+        },
+        {
+          "text": "publicly available other than through a breach of this Agreement, or that is required to be disclosed by any regulatory authority, any authority or",
+          "bbox": [
+            279.0,
+            2087.0,
+            3029.0,
+            2133.0
+          ],
+          "confidence": 0.9952654242515564
+        },
+        {
+          "text": "legal counsel of the parties hereto, by judicial or administrative process or otherwise by applicable law or regulation..",
+          "bbox": [
+            277.0,
+            2145.0,
+            2440.0,
+            2187.0
+          ],
+          "confidence": 0.9898366332054138
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ],
+          "confidence": 0.9842551350593567
+        },
+        {
+          "text": "(a) In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the",
+          "bbox": [
+            529.0,
+            2255.0,
+            3023.0,
+            2297.0
+          ],
+          "confidence": 0.9904980659484863
+        },
+        {
+          "text": "Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be",
+          "bbox": [
+            277.0,
+            2310.0,
+            3027.0,
+            2355.0
+          ],
+          "confidence": 0.9885513782501221
+        },
+        {
+          "text": "accrued daily and paid monthly in arrears..",
+          "bbox": [
+            279.0,
+            2372.0,
+            1055.0,
+            2408.0
+          ],
+          "confidence": 0.9852709174156189
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1642.0,
+            2463.0,
+            1671.0,
+            2502.0
+          ],
+          "confidence": 0.9836940169334412
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1352.0,
+            4479.0
+          ],
+          "confidence": 0.9975520968437195
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "2. Maintenance of Records.",
+          "page": 1,
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ]
+        },
+        {
+          "text": "3. Confidentiality",
+          "page": 1,
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ]
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "page": 1,
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Governing Law_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This Agreement shall be construed in accordance with the laws of the State of New York applicable to contracts formed and to be performed entirely within the State of New York, without regard to conflict of laws principles, and in accordance with the applicable provisions of the Investment Fund Act.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 99(k)(5)",
+          "bbox": [
+            2724.0,
+            285.0,
+            3027.0,
+            329.0
+          ],
+          "confidence": 0.9999087452888489
+        },
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ],
+          "confidence": 0.9897046685218811
+        },
+        {
+          "text": "BETWEEN",
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ],
+          "confidence": 0.999236524105072
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ],
+          "confidence": 0.9746816158294678
+        },
+        {
+          "text": "AND",
+          "bbox": [
+            1604.0,
+            506.0,
+            1706.0,
+            552.0
+          ],
+          "confidence": 0.998781681060791
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ],
+          "confidence": 0.9945822358131409
+        },
+        {
+          "text": "This Agreement (\"Agreement\") is made as of [], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\").",
+          "bbox": [
+            279.0,
+            621.0,
+            3021.0,
+            665.0
+          ],
+          "confidence": 0.9890012145042419
+        },
+        {
+          "text": "and ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\").",
+          "bbox": [
+            279.0,
+            682.0,
+            2463.0,
+            724.0
+          ],
+          "confidence": 0.9938166737556458
+        },
+        {
+          "text": "WHEREAS, the Fund is a closed-end management investment fund that has registered as an investment company under the Investment Company",
+          "bbox": [
+            279.0,
+            738.0,
+            3027.0,
+            788.0
+          ],
+          "confidence": 0.9981251955032349
+        },
+        {
+          "text": "Act of 1940, as amended (the \"Investment Company Act\") and that intends to operate as an interval fund pursuant to Rule 23c-3 under the",
+          "bbox": [
+            281.0,
+            799.0,
+            3029.0,
+            841.0
+          ],
+          "confidence": 0.9874135255813599
+        },
+        {
+          "text": "Investment Company Act;.",
+          "bbox": [
+            279.0,
+            859.0,
+            774.0,
+            901.0
+          ],
+          "confidence": 0.982032299041748
+        },
+        {
+          "text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital",
+          "bbox": [
+            279.0,
+            914.0,
+            3027.0,
+            956.0
+          ],
+          "confidence": 0.9954565167427063
+        },
+        {
+          "text": "securities and administration of the smart contracts underlying the Fund's digital securities in the manner and on the terms set forth herein;",
+          "bbox": [
+            277.0,
+            970.0,
+            2866.0,
+            1007.0
+          ],
+          "confidence": 0.9934982657432556
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator is willing to provide such services to the Fund on the terms and conditions set forth herein;.",
+          "bbox": [
+            279.0,
+            1025.0,
+            2775.0,
+            1067.0
+          ],
+          "confidence": 0.9886197447776794
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator will also serve as the Fund's investment adviser (the \"Adviser\") pursuant to an Investment Advisory",
+          "bbox": [
+            277.0,
+            1078.0,
+            3025.0,
+            1126.0
+          ],
+          "confidence": 0.9983124136924744
+        },
+        {
+          "text": "Agreement entered into by and between the Fund and the Adviser (as amended from time to time, the \"Advisory Agreement\"); and",
+          "bbox": [
+            277.0,
+            1138.0,
+            2726.0,
+            1186.0
+          ],
+          "confidence": 0.9947190880775452
+        },
+        {
+          "text": "WHEREAS, the Fund bears all costs and expenses incurred in its operation, administration and transactions which are not specifically assumed by",
+          "bbox": [
+            277.0,
+            1199.0,
+            3023.0,
+            1244.0
+          ],
+          "confidence": 0.9958629608154297
+        },
+        {
+          "text": "the Adviser pursuant to the Advisory Agreement or this Agreement..",
+          "bbox": [
+            277.0,
+            1255.0,
+            1561.0,
+            1299.0
+          ],
+          "confidence": 0.9920535087585449
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of the premises and the covenants hereinafter contained and for other good and valuable consideration, the",
+          "bbox": [
+            277.0,
+            1316.0,
+            3025.0,
+            1352.0
+          ],
+          "confidence": 0.9869516491889954
+        },
+        {
+          "text": "receipt and adequacy of which is hereby acknowledged, the Fund and the Blockchain Administrator hereby agree as follows:",
+          "bbox": [
+            276.0,
+            1369.0,
+            2603.0,
+            1413.0
+          ],
+          "confidence": 0.9965436458587646
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ],
+          "confidence": 0.9817531108856201
+        },
+        {
+          "text": "(a) The Fund hereby employs the Blockchain Administrator to act as the blockchain administrator of the Fund, and to furnish, or.",
+          "bbox": [
+            527.0,
+            1480.0,
+            3027.0,
+            1524.0
+          ],
+          "confidence": 0.9878109097480774
+        },
+        {
+          "text": "arrange for others to furnish, the services, personnel and facilities described below, subject to review by and the overall control of the Fund's Board",
+          "bbox": [
+            277.0,
+            1535.0,
+            3031.0,
+            1581.0
+          ],
+          "confidence": 0.997205913066864
+        },
+        {
+          "text": "of Trustees (the \"Board\"), for the period and on the terms and conditions set forth in this Agreement.",
+          "bbox": [
+            277.0,
+            1592.0,
+            2182.0,
+            1635.0
+          ],
+          "confidence": 0.9943906664848328
+        },
+        {
+          "text": "(b) The Blockchain Administrator hereby accepts such employment and agrees during such period to render, or arrange for the",
+          "bbox": [
+            531.0,
+            1654.0,
+            3027.0,
+            1696.0
+          ],
+          "confidence": 0.9963223934173584
+        },
+        {
+          "text": "rendering of, such services and to assume the obligations herein set forth subject to the reimbursement of costs and expenses provided for below.",
+          "bbox": [
+            279.0,
+            1710.0,
+            2996.0,
+            1752.0
+          ],
+          "confidence": 0.9982181787490845
+        },
+        {
+          "text": "(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative",
+          "bbox": [
+            527.0,
+            1763.0,
+            3029.0,
+            1809.0
+          ],
+          "confidence": 0.9928524494171143
+        },
+        {
+          "text": "services necessary for the issuance of the Fund's shares as ERC-1404 compatible digital securities (\"Shares\") and the on-going maintenance and",
+          "bbox": [
+            274.0,
+            1820.0,
+            3029.0,
+            1866.0
+          ],
+          "confidence": 0.991946816444397
+        },
+        {
+          "text": "administration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Administrator shall",
+          "bbox": [
+            277.0,
+            1878.0,
+            3029.0,
+            1924.0
+          ],
+          "confidence": 0.9903503060340881
+        },
+        {
+          "text": "provide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject to review by the",
+          "bbox": [
+            279.0,
+            1937.0,
+            3025.0,
+            1979.0
+          ],
+          "confidence": 0.991179347038269
+        },
+        {
+          "text": "Board, shall from time to time determine to be necessary or useful to perform its obligations under this Agreement.",
+          "bbox": [
+            277.0,
+            1994.0,
+            2396.0,
+            2034.0
+          ],
+          "confidence": 0.9929118752479553
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2089.0,
+            1671.0,
+            2127.0
+          ],
+          "confidence": 0.9953835606575012
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1354.0,
+            4479.0
+          ],
+          "confidence": 0.9974526166915894
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Governing Law_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This Agreement shall be construed in accordance with the laws of the State of New York applicable to contracts formed and to be performed entirely within the State of New York, without regard to conflict of laws principles, and in accordance with the applicable provisions of the Investment Fund Act.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "(d) The Blockchain Administrator shall also, on behalf of the Fund, conduct relations with custodians, depositories, transfer agents.",
+          "bbox": [
+            531.0,
+            289.0,
+            3023.0,
+            336.0
+          ],
+          "confidence": 0.9958009719848633
+        },
+        {
+          "text": "dividend disbursing agents, other stockholder servicing agents, accountants, attorneys, underwriters, brokers and dealers, corporate fiduciaries,",
+          "bbox": [
+            279.0,
+            349.0,
+            3025.0,
+            393.0
+          ],
+          "confidence": 0.9982770085334778
+        },
+        {
+          "text": "insurers, banks and such other persons as the Blockchain Administrator shall deem to be necessary or desirable in connection with the issuance",
+          "bbox": [
+            279.0,
+            407.0,
+            3027.0,
+            444.0
+          ],
+          "confidence": 0.9900057315826416
+        },
+        {
+          "text": "and transfer of the Fund's ERC-1404 compatible digital security,.",
+          "bbox": [
+            277.0,
+            460.0,
+            1463.0,
+            503.0
+          ],
+          "confidence": 0.9855875968933105
+        },
+        {
+          "text": "(e) The Blockchain Administrator shall make reports to the Board of its performance of obligations hereunder and furnish advice and",
+          "bbox": [
+            529.0,
+            517.0,
+            3029.0,
+            559.0
+          ],
+          "confidence": 0.996606707572937
+        },
+        {
+          "text": "recommendations with respect to such other aspects of the business and affairs of the Fund as it shall determine to be desirable; provided that",
+          "bbox": [
+            275.0,
+            572.0,
+            3027.0,
+            616.0
+          ],
+          "confidence": 0.9913827180862427
+        },
+        {
+          "text": "nothing herein shall be construed to require the Blockchain Administrator to, and the Blockchain Administrator shall not, in its capacity as.",
+          "bbox": [
+            275.0,
+            627.0,
+            3027.0,
+            672.0
+          ],
+          "confidence": 0.9864616394042969
+        },
+        {
+          "text": "Blockchain Administrator pursuant to this Agreement, provide any advice or recommendation relating to the securities and other assets that the",
+          "bbox": [
+            279.0,
+            685.0,
+            3027.0,
+            729.0
+          ],
+          "confidence": 0.9984975457191467
+        },
+        {
+          "text": "Fund should purchase, retain or sell or any other investment advisory services to the Fund..",
+          "bbox": [
+            276.0,
+            742.0,
+            1983.0,
+            784.0
+          ],
+          "confidence": 0.9916699528694153
+        },
+        {
+          "text": "(f) The Blockchain Administrator shall for all purposes herein be deemed to be an independent contractor and shall, unless otherwise",
+          "bbox": [
+            529.0,
+            799.0,
+            3027.0,
+            841.0
+          ],
+          "confidence": 0.9987884163856506
+        },
+        {
+          "text": "expressly provided or authorized herein, have no authority to act for or represent the Fund in any way or otherwise be deemed an agent of the",
+          "bbox": [
+            281.0,
+            855.0,
+            3027.0,
+            897.0
+          ],
+          "confidence": 0.9988020062446594
+        },
+        {
+          "text": "Fund.",
+          "bbox": [
+            276.0,
+            910.0,
+            386.0,
+            948.0
+          ],
+          "confidence": 0.9987555742263794
+        },
+        {
+          "text": "(g) The Blockchain Administrator is hereby authorized to enter into agreements with other service providers pursuant to which the",
+          "bbox": [
+            529.0,
+            963.0,
+            3027.0,
+            1011.0
+          ],
+          "confidence": 0.9949714541435242
+        },
+        {
+          "text": "Blockchain Administrator may obtain the services of the service providers in fulfilling its responsibilities hereunder. The Blockchain Administrator.",
+          "bbox": [
+            277.0,
+            1021.0,
+            3029.0,
+            1064.0
+          ],
+          "confidence": 0.9972020387649536
+        },
+        {
+          "text": "shall ensure that any such service provider shall operate in conformity with the requirements of the Investment Company Act and other applicable",
+          "bbox": [
+            277.0,
+            1078.0,
+            3027.0,
+            1120.0
+          ],
+          "confidence": 0.9968727827072144
+        },
+        {
+          "text": "federal and state law and shall maintain books and records of the Fund (if any) in a manner substantially similar to Section 2 of this Agreement.",
+          "bbox": [
+            277.0,
+            1135.0,
+            2933.0,
+            1175.0
+          ],
+          "confidence": 0.994162917137146
+        },
+        {
+          "text": "2. Maintenance of Records.",
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ],
+          "confidence": 0.9646841287612915
+        },
+        {
+          "text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities",
+          "bbox": [
+            444.0,
+            1246.0,
+            3027.0,
+            1288.0
+          ],
+          "confidence": 0.9883983731269836
+        },
+        {
+          "text": "performed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the",
+          "bbox": [
+            277.0,
+            1299.0,
+            3027.0,
+            1347.0
+          ],
+          "confidence": 0.9986916184425354
+        },
+        {
+          "text": "Investment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator",
+          "bbox": [
+            279.0,
+            1360.0,
+            3030.0,
+            1402.0
+          ],
+          "confidence": 0.9982255101203918
+        },
+        {
+          "text": "agrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal",
+          "bbox": [
+            277.0,
+            1416.0,
+            3029.0,
+            1458.0
+          ],
+          "confidence": 0.9915915727615356
+        },
+        {
+          "text": "business hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain",
+          "bbox": [
+            277.0,
+            1471.0,
+            3029.0,
+            1513.0
+          ],
+          "confidence": 0.9942401051521301
+        },
+        {
+          "text": "Administrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be",
+          "bbox": [
+            281.0,
+            1528.0,
+            3027.0,
+            1570.0
+          ],
+          "confidence": 0.9933761954307556
+        },
+        {
+          "text": "preserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided",
+          "bbox": [
+            277.0,
+            1584.0,
+            3027.0,
+            1626.0
+          ],
+          "confidence": 0.9924129843711853
+        },
+        {
+          "text": "above. Records shall be surrendered in usable machine-readable form. The Blockchain Administrator shall have the right to retain copies of such",
+          "bbox": [
+            277.0,
+            1637.0,
+            3029.0,
+            1681.0
+          ],
+          "confidence": 0.9981696009635925
+        },
+        {
+          "text": "records subject to observance of its confidentiality obligations under this Agreement..",
+          "bbox": [
+            277.0,
+            1696.0,
+            1872.0,
+            1736.0
+          ],
+          "confidence": 0.9834744930267334
+        },
+        {
+          "text": "3. Confidentiality",
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ],
+          "confidence": 0.9732820987701416
+        },
+        {
+          "text": "The parties hereto agree that each shall treat confidentially the terms and conditions of this Agreement and all information provided by",
+          "bbox": [
+            446.0,
+            1807.0,
+            3025.0,
+            1849.0
+          ],
+          "confidence": 0.9944213628768921
+        },
+        {
+          "text": "each party to the other regarding its business and operations. All confidential information provided by a party hereto, including nonpublic personal",
+          "bbox": [
+            279.0,
+            1864.0,
+            3030.0,
+            1906.0
+          ],
+          "confidence": 0.9933609962463379
+        },
+        {
+          "text": "information (regulated pursuant to Regulation S-P), shall be used by any other party hereto solely for the purpose of rendering services pursuant to.",
+          "bbox": [
+            277.0,
+            1919.0,
+            3029.0,
+            1964.0
+          ],
+          "confidence": 0.9929113984107971
+        },
+        {
+          "text": "this Agreement and, except as may be required in carrying out this Agreement, shall not be disclosed to any third party, without the prior consent",
+          "bbox": [
+            279.0,
+            1977.0,
+            3030.0,
+            2019.0
+          ],
+          "confidence": 0.996081531047821
+        },
+        {
+          "text": "of such providing party. The foregoing shall not be applicable to any information that is publicly available when provided or thereafter becomes",
+          "bbox": [
+            277.0,
+            2030.0,
+            3029.0,
+            2076.0
+          ],
+          "confidence": 0.995224118232727
+        },
+        {
+          "text": "publicly available other than through a breach of this Agreement, or that is required to be disclosed by any regulatory authority, any authority or",
+          "bbox": [
+            279.0,
+            2087.0,
+            3029.0,
+            2133.0
+          ],
+          "confidence": 0.9952654242515564
+        },
+        {
+          "text": "legal counsel of the parties hereto, by judicial or administrative process or otherwise by applicable law or regulation..",
+          "bbox": [
+            277.0,
+            2145.0,
+            2440.0,
+            2187.0
+          ],
+          "confidence": 0.9898366332054138
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ],
+          "confidence": 0.9842551350593567
+        },
+        {
+          "text": "(a) In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the",
+          "bbox": [
+            529.0,
+            2255.0,
+            3023.0,
+            2297.0
+          ],
+          "confidence": 0.9904980659484863
+        },
+        {
+          "text": "Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be",
+          "bbox": [
+            277.0,
+            2310.0,
+            3027.0,
+            2355.0
+          ],
+          "confidence": 0.9885513782501221
+        },
+        {
+          "text": "accrued daily and paid monthly in arrears..",
+          "bbox": [
+            279.0,
+            2372.0,
+            1055.0,
+            2408.0
+          ],
+          "confidence": 0.9852709174156189
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1642.0,
+            2463.0,
+            1671.0,
+            2502.0
+          ],
+          "confidence": 0.9836940169334412
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1352.0,
+            4479.0
+          ],
+          "confidence": 0.9975520968437195
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "2. Maintenance of Records.",
+          "page": 1,
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ]
+        },
+        {
+          "text": "3. Confidentiality",
+          "page": 1,
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ]
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "page": 1,
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Anti-Assignment_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "answer_text": "This Agreement will automatically terminate in the event of its \"assignment\" (as such term is defined for purposes of Section 15(a) (4) of the Investment Fund Act).",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 99(k)(5)",
+          "bbox": [
+            2724.0,
+            285.0,
+            3027.0,
+            329.0
+          ],
+          "confidence": 0.9999087452888489
+        },
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ],
+          "confidence": 0.9897046685218811
+        },
+        {
+          "text": "BETWEEN",
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ],
+          "confidence": 0.999236524105072
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ],
+          "confidence": 0.9746816158294678
+        },
+        {
+          "text": "AND",
+          "bbox": [
+            1604.0,
+            506.0,
+            1706.0,
+            552.0
+          ],
+          "confidence": 0.998781681060791
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ],
+          "confidence": 0.9945822358131409
+        },
+        {
+          "text": "This Agreement (\"Agreement\") is made as of [], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\").",
+          "bbox": [
+            279.0,
+            621.0,
+            3021.0,
+            665.0
+          ],
+          "confidence": 0.9890012145042419
+        },
+        {
+          "text": "and ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\").",
+          "bbox": [
+            279.0,
+            682.0,
+            2463.0,
+            724.0
+          ],
+          "confidence": 0.9938166737556458
+        },
+        {
+          "text": "WHEREAS, the Fund is a closed-end management investment fund that has registered as an investment company under the Investment Company",
+          "bbox": [
+            279.0,
+            738.0,
+            3027.0,
+            788.0
+          ],
+          "confidence": 0.9981251955032349
+        },
+        {
+          "text": "Act of 1940, as amended (the \"Investment Company Act\") and that intends to operate as an interval fund pursuant to Rule 23c-3 under the",
+          "bbox": [
+            281.0,
+            799.0,
+            3029.0,
+            841.0
+          ],
+          "confidence": 0.9874135255813599
+        },
+        {
+          "text": "Investment Company Act;.",
+          "bbox": [
+            279.0,
+            859.0,
+            774.0,
+            901.0
+          ],
+          "confidence": 0.982032299041748
+        },
+        {
+          "text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital",
+          "bbox": [
+            279.0,
+            914.0,
+            3027.0,
+            956.0
+          ],
+          "confidence": 0.9954565167427063
+        },
+        {
+          "text": "securities and administration of the smart contracts underlying the Fund's digital securities in the manner and on the terms set forth herein;",
+          "bbox": [
+            277.0,
+            970.0,
+            2866.0,
+            1007.0
+          ],
+          "confidence": 0.9934982657432556
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator is willing to provide such services to the Fund on the terms and conditions set forth herein;.",
+          "bbox": [
+            279.0,
+            1025.0,
+            2775.0,
+            1067.0
+          ],
+          "confidence": 0.9886197447776794
+        },
+        {
+          "text": "WHEREAS, the Blockchain Administrator will also serve as the Fund's investment adviser (the \"Adviser\") pursuant to an Investment Advisory",
+          "bbox": [
+            277.0,
+            1078.0,
+            3025.0,
+            1126.0
+          ],
+          "confidence": 0.9983124136924744
+        },
+        {
+          "text": "Agreement entered into by and between the Fund and the Adviser (as amended from time to time, the \"Advisory Agreement\"); and",
+          "bbox": [
+            277.0,
+            1138.0,
+            2726.0,
+            1186.0
+          ],
+          "confidence": 0.9947190880775452
+        },
+        {
+          "text": "WHEREAS, the Fund bears all costs and expenses incurred in its operation, administration and transactions which are not specifically assumed by",
+          "bbox": [
+            277.0,
+            1199.0,
+            3023.0,
+            1244.0
+          ],
+          "confidence": 0.9958629608154297
+        },
+        {
+          "text": "the Adviser pursuant to the Advisory Agreement or this Agreement..",
+          "bbox": [
+            277.0,
+            1255.0,
+            1561.0,
+            1299.0
+          ],
+          "confidence": 0.9920535087585449
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of the premises and the covenants hereinafter contained and for other good and valuable consideration, the",
+          "bbox": [
+            277.0,
+            1316.0,
+            3025.0,
+            1352.0
+          ],
+          "confidence": 0.9869516491889954
+        },
+        {
+          "text": "receipt and adequacy of which is hereby acknowledged, the Fund and the Blockchain Administrator hereby agree as follows:",
+          "bbox": [
+            276.0,
+            1369.0,
+            2603.0,
+            1413.0
+          ],
+          "confidence": 0.9965436458587646
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ],
+          "confidence": 0.9817531108856201
+        },
+        {
+          "text": "(a) The Fund hereby employs the Blockchain Administrator to act as the blockchain administrator of the Fund, and to furnish, or.",
+          "bbox": [
+            527.0,
+            1480.0,
+            3027.0,
+            1524.0
+          ],
+          "confidence": 0.9878109097480774
+        },
+        {
+          "text": "arrange for others to furnish, the services, personnel and facilities described below, subject to review by and the overall control of the Fund's Board",
+          "bbox": [
+            277.0,
+            1535.0,
+            3031.0,
+            1581.0
+          ],
+          "confidence": 0.997205913066864
+        },
+        {
+          "text": "of Trustees (the \"Board\"), for the period and on the terms and conditions set forth in this Agreement.",
+          "bbox": [
+            277.0,
+            1592.0,
+            2182.0,
+            1635.0
+          ],
+          "confidence": 0.9943906664848328
+        },
+        {
+          "text": "(b) The Blockchain Administrator hereby accepts such employment and agrees during such period to render, or arrange for the",
+          "bbox": [
+            531.0,
+            1654.0,
+            3027.0,
+            1696.0
+          ],
+          "confidence": 0.9963223934173584
+        },
+        {
+          "text": "rendering of, such services and to assume the obligations herein set forth subject to the reimbursement of costs and expenses provided for below.",
+          "bbox": [
+            279.0,
+            1710.0,
+            2996.0,
+            1752.0
+          ],
+          "confidence": 0.9982181787490845
+        },
+        {
+          "text": "(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative",
+          "bbox": [
+            527.0,
+            1763.0,
+            3029.0,
+            1809.0
+          ],
+          "confidence": 0.9928524494171143
+        },
+        {
+          "text": "services necessary for the issuance of the Fund's shares as ERC-1404 compatible digital securities (\"Shares\") and the on-going maintenance and",
+          "bbox": [
+            274.0,
+            1820.0,
+            3029.0,
+            1866.0
+          ],
+          "confidence": 0.991946816444397
+        },
+        {
+          "text": "administration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Administrator shall",
+          "bbox": [
+            277.0,
+            1878.0,
+            3029.0,
+            1924.0
+          ],
+          "confidence": 0.9903503060340881
+        },
+        {
+          "text": "provide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject to review by the",
+          "bbox": [
+            279.0,
+            1937.0,
+            3025.0,
+            1979.0
+          ],
+          "confidence": 0.991179347038269
+        },
+        {
+          "text": "Board, shall from time to time determine to be necessary or useful to perform its obligations under this Agreement.",
+          "bbox": [
+            277.0,
+            1994.0,
+            2396.0,
+            2034.0
+          ],
+          "confidence": 0.9929118752479553
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2089.0,
+            1671.0,
+            2127.0
+          ],
+          "confidence": 0.9953835606575012
+        },
+        {
+          "text": "Source: ARCA U.S. TREASURY FUND, N-2, 2/7/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1354.0,
+            4479.0
+          ],
+          "confidence": 0.9974526166915894
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF BLOCKCHAIN ADMINISTRATION AND DEVELOPMENT AGREEMENT",
+          "page": 0,
+          "bbox": [
+            845.0,
+            342.0,
+            2461.0,
+            378.0
+          ]
+        },
+        {
+          "text": "BETWEEN",
+          "page": 0,
+          "bbox": [
+            1548.0,
+            398.0,
+            1760.0,
+            435.0
+          ]
+        },
+        {
+          "text": "ARCA U.S. TREASURY FUND",
+          "page": 0,
+          "bbox": [
+            1374.0,
+            457.0,
+            1936.0,
+            488.0
+          ]
+        },
+        {
+          "text": "ARCA CAPITAL MANAGEMENT, LLC",
+          "page": 0,
+          "bbox": [
+            1285.0,
+            566.0,
+            2026.0,
+            603.0
+          ]
+        },
+        {
+          "text": "1. Duties of the Blockchain Administrator.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1427.0,
+            1165.0,
+            1466.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement__Revenue/Profit Sharing_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "(a) In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the",
+          "bbox": [
+            529.0,
+            2255.0,
+            3023.0,
+            2297.0
+          ],
+          "confidence": 0.9904980659484863
+        },
+        {
+          "text": "Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be",
+          "bbox": [
+            277.0,
+            2310.0,
+            3027.0,
+            2355.0
+          ],
+          "confidence": 0.9885513782501221
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "2. Maintenance of Records.",
+          "page": 1,
+          "bbox": [
+            362.0,
+            1193.0,
+            866.0,
+            1230.0
+          ]
+        },
+        {
+          "text": "3. Confidentiality",
+          "page": 1,
+          "bbox": [
+            359.0,
+            1750.0,
+            691.0,
+            1793.0
+          ]
+        },
+        {
+          "text": "4. Compensation; Allocation of Costs and Expenses",
+          "page": 1,
+          "bbox": [
+            361.0,
+            2198.0,
+            1329.0,
+            2244.0
+          ]
+        }
+      ]
+    }
+  ]
+}

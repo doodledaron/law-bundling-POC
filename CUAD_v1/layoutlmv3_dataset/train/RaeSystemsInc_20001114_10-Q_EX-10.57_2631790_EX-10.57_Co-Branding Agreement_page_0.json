@@ -1,0 +1,4204 @@
+[
+  {
+    "text": "CO-BRANDING AGREEMENT",
+    "bbox": [
+      433,
+      81,
+      654,
+      90
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(FORM)",
+    "bbox": [
+      510,
+      96,
+      566,
+      107
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(\"SpinRecords.com\" or",
+    "bbox": [
+      507,
+      216,
+      750,
+      227
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"client\").",
+    "bbox": [
+      756,
+      215,
+      867,
+      228
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and Solutions Media,  Inc.,.",
+    "bbox": [
+      566,
+      185,
+      910,
+      198
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": " dba",
+    "bbox": [
+      905,
+      186,
+      945,
+      197
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "SpinRecords.com a Delaware Corporation, with offices at 11440 West Barnardo Ct.,",
+    "bbox": [
+      112,
+      202,
+      959,
+      212
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"NETTAXI\"),",
+    "bbox": [
+      412,
+      187,
+      571,
+      196
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CO-BRANDING AGREEMENT",
+    "bbox": [
+      433,
+      81,
+      654,
+      90
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(FORM)",
+    "bbox": [
+      510,
+      96,
+      566,
+      107
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Inc.,",
+    "bbox": [
+      110,
+      170,
+      167,
+      184
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      179,
+      172,
+      219,
+      182
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Campbell,   California 95008",
+    "bbox": [
+      111,
+      186,
+      418,
+      197
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(\"NETTAXI\"),",
+    "bbox": [
+      412,
+      187,
+      571,
+      196
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and Solutions Media,  Inc.,.",
+    "bbox": [
+      566,
+      185,
+      910,
+      198
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " dba",
+    "bbox": [
+      905,
+      186,
+      945,
+      197
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SpinRecords.com a Delaware Corporation, with offices at 11440 West Barnardo Ct.,",
+    "bbox": [
+      112,
+      202,
+      959,
+      212
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Suite 170, San Diego,",
+    "bbox": [
+      109,
+      215,
+      368,
+      228
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CA",
+    "bbox": [
+      384,
+      217,
+      415,
+      227
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "32127",
+    "bbox": [
+      416,
+      216,
+      488,
+      227
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(\"SpinRecords.com\" or",
+    "bbox": [
+      507,
+      216,
+      750,
+      227
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"client\").",
+    "bbox": [
+      756,
+      215,
+      867,
+      228
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      495,
+      246,
+      581,
+      257
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      162,
+      277,
+      184,
+      287
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NETTAXI  is  in",
+    "bbox": [
+      238,
+      275,
+      406,
+      286
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the business of providing entertainment, education,",
+    "bbox": [
+      418,
+      276,
+      960,
+      288
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      293,
+      145,
+      302
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "information",
+    "bbox": [
+      164,
+      293,
+      284,
+      302
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "services over the world wide web through its Internet web site.",
+    "bbox": [
+      302,
+      292,
+      963,
+      303
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "at",
+    "bbox": [
+      111,
+      308,
+      134,
+      318
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "http://www.NETTAXI.com.",
+    "bbox": [
+      152,
+      307,
+      397,
+      318
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      162,
+      337,
+      185,
+      348
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      240,
+      337,
+      402,
+      348
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "is",
+    "bbox": [
+      418,
+      336,
+      444,
+      348
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      462,
+      337,
+      488,
+      347
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " the business of providing entertainment and",
+    "bbox": [
+      500,
+      336,
+      964,
+      348
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "information",
+    "bbox": [
+      111,
+      351,
+      231,
+      363
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "services",
+    "bbox": [
+      248,
+      353,
+      335,
+      362
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "over",
+    "bbox": [
+      355,
+      354,
+      402,
+      363
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      418,
+      352,
+      456,
+      363
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "World wide web through its internet website at",
+    "bbox": [
+      472,
+      353,
+      964,
+      363
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "http://www.spinrecords.com.",
+    "bbox": [
+      111,
+      367,
+      396,
+      378
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      162,
+      397,
+      184,
+      408
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NETTAxI and SpinRecords.com desire co-brand their services under the.",
+    "bbox": [
+      239,
+      397,
+      964,
+      408
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "terms",
+    "bbox": [
+      111,
+      414,
+      164,
+      423
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      185,
+      413,
+      220,
+      423
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "conditions",
+    "bbox": [
+      239,
+      414,
+      346,
+      422
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "set",
+    "bbox": [
+      367,
+      414,
+      400,
+      422
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "forth.",
+    "bbox": [
+      420,
+      413,
+      484,
+      422
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " herein.",
+    "bbox": [
+      487,
+      412,
+      569,
+      423
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      496,
+      444,
+      591,
+      453
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NoW,",
+    "bbox": [
+      162,
+      473,
+      205,
+      484
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "THEREFORE,",
+    "bbox": [
+      228,
+      474,
+      337,
+      483
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " in consideration of the mutual promises contained herein,.",
+    "bbox": [
+      347,
+      472,
+      959,
+      483
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      111,
+      489,
+      143,
+      499
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "parties",
+    "bbox": [
+      162,
+      487,
+      241,
+      500
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "hereby.",
+    "bbox": [
+      258,
+      487,
+      331,
+      500
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "agree",
+    "bbox": [
+      344,
+      490,
+      402,
+      499
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "as follows:",
+    "bbox": [
+      417,
+      489,
+      537,
+      499
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      518,
+      129,
+      528
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      187,
+      519,
+      302,
+      528
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      163,
+      548,
+      197,
+      559
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Spinrecords.com Brand Features\" means the SpinRecords.com name and.",
+    "bbox": [
+      252,
+      548,
+      964,
+      559
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "logo",
+    "bbox": [
+      110,
+      562,
+      156,
+      576
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      174,
+      564,
+      212,
+      573
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "other.",
+    "bbox": [
+      226,
+      564,
+      291,
+      573
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "trademarks,",
+    "bbox": [
+      300,
+      563,
+      420,
+      574
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "trade",
+    "bbox": [
+      440,
+      564,
+      500,
+      573
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "names",
+    "bbox": [
+      512,
+      565,
+      583,
+      573
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and service names including but not",
+    "bbox": [
+      576,
+      563,
+      964,
+      574
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "limited",
+    "bbox": [
+      111,
+      578,
+      188,
+      589
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to those set forth on Exhibit A attached hereto and incorporated herein",
+    "bbox": [
+      206,
+      578,
+      964,
+      589
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "by",
+    "bbox": [
+      109,
+      608,
+      138,
+      620
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "reference",
+    "bbox": [
+      151,
+      610,
+      250,
+      619
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      270,
+      609,
+      306,
+      619
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "all",
+    "bbox": [
+      321,
+      609,
+      356,
+      619
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Intellectual",
+    "bbox": [
+      377,
+      609,
+      508,
+      619
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Property Rights",
+    "bbox": [
+      524,
+      609,
+      706,
+      621
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "related  thereto.",
+    "bbox": [
+      718,
+      610,
+      896,
+      619
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      113,
+      625,
+      272,
+      634
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Brand",
+    "bbox": [
+      290,
+      623,
+      347,
+      635
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "modifications",
+    "bbox": [
+      111,
+      640,
+      249,
+      648
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "thereto",
+    "bbox": [
+      270,
+      639,
+      347,
+      650
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      367,
+      640,
+      391,
+      649
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "thereof and any Intellectual Property rights related.",
+    "bbox": [
+      408,
+      639,
+      964,
+      650
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "thereto.",
+    "bbox": [
+      111,
+      654,
+      195,
+      665
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      162,
+      683,
+      197,
+      695
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"SpinRecords.com",
+    "bbox": [
+      251,
+      684,
+      423,
+      695
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Pages\"",
+    "bbox": [
+      441,
+      685,
+      508,
+      694
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "aebed paaeq-qne woe:dpnonnyundd de? dueee",
+    "bbox": [
+      524,
+      684,
+      962,
+      695
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "modified",
+    "bbox": [
+      110,
+      714,
+      197,
+      724
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "from time to time",
+    "bbox": [
+      216,
+      713,
+      441,
+      725
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      439,
+      715,
+      493,
+      724
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SpinRecords.com's sole discretion, currently",
+    "bbox": [
+      492,
+      713,
+      964,
+      726
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "located",
+    "bbox": [
+      110,
+      729,
+      188,
+      740
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "at",
+    "bbox": [
+      207,
+      731,
+      229,
+      739
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "http://www.spinrecords.com.",
+    "bbox": [
+      249,
+      730,
+      536,
+      740
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      163,
+      758,
+      197,
+      770
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Impressions\"",
+    "bbox": [
+      250,
+      758,
+      388,
+      770
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "means",
+    "bbox": [
+      408,
+      761,
+      464,
+      770
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the loading of all or part of a web page into",
+    "bbox": [
+      483,
+      759,
+      962,
+      770
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      111,
+      774,
+      144,
+      785
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "browser",
+    "bbox": [
+      162,
+      774,
+      241,
+      786
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      260,
+      775,
+      285,
+      785
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      298,
+      776,
+      316,
+      785
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "User.",
+    "bbox": [
+      333,
+      774,
+      388,
+      786
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.4",
+    "bbox": [
+      163,
+      804,
+      198,
+      815
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Intellectual",
+    "bbox": [
+      250,
+      804,
+      396,
+      816
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Property  Rights\"",
+    "bbox": [
+      405,
+      804,
+      614,
+      817
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " means",
+    "bbox": [
+      606,
+      806,
+      668,
+      815
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "all",
+    "bbox": [
+      685,
+      805,
+      721,
+      815
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "current",
+    "bbox": [
+      739,
+      806,
+      817,
+      815
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      833,
+      805,
+      874,
+      815
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "future",
+    "bbox": [
+      888,
+      806,
+      953,
+      815
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "worldwide trademark, patents and patent rights, utility models, copyrights, mask",
+    "bbox": [
+      110,
+      820,
+      964,
+      831
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "work",
+    "bbox": [
+      111,
+      836,
+      154,
+      845
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "rights,",
+    "bbox": [
+      173,
+      835,
+      250,
+      846
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "trade secrets, and all other intellectual property rights and the.",
+    "bbox": [
+      270,
+      835,
+      964,
+      847
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "related",
+    "bbox": [
+      111,
+      851,
+      187,
+      860
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "documentation",
+    "bbox": [
+      206,
+      851,
+      347,
+      860
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      366,
+      851,
+      392,
+      860
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "other tangible expression thereof.",
+    "bbox": [
+      407,
+      849,
+      804,
+      861
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      163,
+      879,
+      197,
+      891
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"NETTAXI",
+    "bbox": [
+      250,
+      879,
+      337,
+      891
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Brand",
+    "bbox": [
+      356,
+      881,
+      415,
+      890
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Features\"",
+    "bbox": [
+      415,
+      879,
+      531,
+      891
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "means the NETTAxI name and logo and any.",
+    "bbox": [
+      544,
+      878,
+      965,
+      893
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "other",
+    "bbox": [
+      112,
+      896,
+      168,
+      906
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "trademarks,",
+    "bbox": [
+      184,
+      895,
+      303,
+      906
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "trade",
+    "bbox": [
+      323,
+      895,
+      379,
+      905
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "names and service names of NETTAxI, including but not.",
+    "bbox": [
+      396,
+      896,
+      962,
+      905
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "limited",
+    "bbox": [
+      111,
+      910,
+      189,
+      921
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to those set forth on Exhibit B attached hereto and incorporated herein",
+    "bbox": [
+      202,
+      910,
+      964,
+      921
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "by reference and all Intellectual Property Rights related thereto. NETTAxI Brand",
+    "bbox": [
+      111,
+      941,
+      965,
+      951
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Features shall include any derivatives, improvements or modifications thereto or",
+    "bbox": [
+      110,
+      954,
+      966,
+      967
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "thereof",
+    "bbox": [
+      112,
+      971,
+      195,
+      980
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      205,
+      971,
+      242,
+      982
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "any",
+    "bbox": [
+      257,
+      971,
+      296,
+      982
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Intellectual",
+    "bbox": [
+      312,
+      972,
+      450,
+      981
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Property",
+    "bbox": [
+      459,
+      972,
+      551,
+      982
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " rights",
+    "bbox": [
+      562,
+      970,
+      637,
+      982
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "related",
+    "bbox": [
+      653,
+      972,
+      733,
+      981
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "thereto.",
+    "bbox": [
+      749,
+      971,
+      835,
+      981
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.6",
+    "bbox": [
+      163,
+      1000,
+      197,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"NETTAXI",
+    "bbox": [
+      249,
+      1000,
+      337,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Pages\"",
+    "bbox": [
+      354,
+      1000,
+      424,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "means",
+    "bbox": [
+      439,
+      1000,
+      495,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      515,
+      1000,
+      552,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NETTAXI's Web-based pages that",
+    "bbox": [
+      567,
+      1000,
+      922,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "incorporate",
+    "bbox": [
+      111,
+      1000,
+      229,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "certain",
+    "bbox": [
+      249,
+      1000,
+      326,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NETTAXI",
+    "bbox": [
+      345,
+      1000,
+      420,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "services,",
+    "bbox": [
+      439,
+      1000,
+      536,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "as the same may be updated or modified",
+    "bbox": [
+      558,
+      1000,
+      964,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "from",
+    "bbox": [
+      112,
+      1000,
+      158,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " time",
+    "bbox": [
+      165,
+      1000,
+      218,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to",
+    "bbox": [
+      234,
+      1000,
+      264,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "time",
+    "bbox": [
+      282,
+      1000,
+      324,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      345,
+      1000,
+      371,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NETTAXI's",
+    "bbox": [
+      385,
+      1000,
+      487,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "sole",
+    "bbox": [
+      503,
+      1000,
+      554,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "discretion,",
+    "bbox": [
+      568,
+      1000,
+      685,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "currently  located",
+    "bbox": [
+      708,
+      1000,
+      905,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "at",
+    "bbox": [
+      916,
+      1000,
+      944,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "http://www.NETTAXI.com.",
+    "bbox": [
+      111,
+      1000,
+      354,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.7",
+    "bbox": [
+      163,
+      1000,
+      197,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Statement of work\" means the Statement of Work attached hereto as.",
+    "bbox": [
+      248,
+      1000,
+      965,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit",
+    "bbox": [
+      110,
+      1000,
+      187,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      204,
+      1000,
+      220,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      239,
+      1000,
+      274,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "incorporated",
+    "bbox": [
+      290,
+      1000,
+      426,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " herein.",
+    "bbox": [
+      419,
+      1000,
+      515,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "by.",
+    "bbox": [
+      512,
+      1000,
+      557,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "reference.",
+    "bbox": [
+      554,
+      1000,
+      676,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.8",
+    "bbox": [
+      163,
+      1000,
+      197,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"User\"",
+    "bbox": [
+      248,
+      1000,
+      315,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "means",
+    "bbox": [
+      333,
+      1000,
+      389,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      408,
+      1000,
+      422,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "person using a software browser to view the World",
+    "bbox": [
+      439,
+      1000,
+      965,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Wide",
+    "bbox": [
+      110,
+      1000,
+      154,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Web.",
+    "bbox": [
+      173,
+      1000,
+      216,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      110,
+      1000,
+      130,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CO-BRANDING,",
+    "bbox": [
+      186,
+      1000,
+      312,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "MARKETING",
+    "bbox": [
+      334,
+      1000,
+      431,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "AND",
+    "bbox": [
+      451,
+      1000,
+      485,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "PROMOTION",
+    "bbox": [
+      506,
+      1000,
+      602,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      162,
+      1000,
+      197,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The",
+    "bbox": [
+      247,
+      1000,
+      284,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      304,
+      1000,
+      464,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Pages.",
+    "bbox": [
+      484,
+      1000,
+      559,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      568,
+      1000,
+      731,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "shall",
+    "bbox": [
+      751,
+      1000,
+      806,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "brand",
+    "bbox": [
+      824,
+      1000,
+      881,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      898,
+      1000,
+      933,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: RAE SYSTEMS INC, 10-Q, 11/14/2000",
+    "bbox": [
+      111,
+      1000,
+      476,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CO-BRANDING AGREEMENT",
+    "bbox": [
+      433,
+      81,
+      654,
+      90
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(FORM)",
+    "bbox": [
+      510,
+      96,
+      566,
+      107
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Inc.,",
+    "bbox": [
+      110,
+      170,
+      167,
+      184
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      179,
+      172,
+      219,
+      182
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Campbell,   California 95008",
+    "bbox": [
+      111,
+      186,
+      418,
+      197
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(\"NETTAXI\"),",
+    "bbox": [
+      412,
+      187,
+      571,
+      196
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and Solutions Media,  Inc.,.",
+    "bbox": [
+      566,
+      185,
+      910,
+      198
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " dba",
+    "bbox": [
+      905,
+      186,
+      945,
+      197
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SpinRecords.com a Delaware Corporation, with offices at 11440 West Barnardo Ct.,",
+    "bbox": [
+      112,
+      202,
+      959,
+      212
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Suite 170, San Diego,",
+    "bbox": [
+      109,
+      215,
+      368,
+      228
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CA",
+    "bbox": [
+      384,
+      217,
+      415,
+      227
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "32127",
+    "bbox": [
+      416,
+      216,
+      488,
+      227
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(\"SpinRecords.com\" or",
+    "bbox": [
+      507,
+      216,
+      750,
+      227
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"client\").",
+    "bbox": [
+      756,
+      215,
+      867,
+      228
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      495,
+      246,
+      581,
+      257
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      162,
+      277,
+      184,
+      287
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NETTAXI  is  in",
+    "bbox": [
+      238,
+      275,
+      406,
+      286
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the business of providing entertainment, education,",
+    "bbox": [
+      418,
+      276,
+      960,
+      288
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      293,
+      145,
+      302
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "information",
+    "bbox": [
+      164,
+      293,
+      284,
+      302
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services over the world wide web through its Internet web site.",
+    "bbox": [
+      302,
+      292,
+      963,
+      303
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "at",
+    "bbox": [
+      111,
+      308,
+      134,
+      318
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "http://www.NETTAXI.com.",
+    "bbox": [
+      152,
+      307,
+      397,
+      318
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      162,
+      337,
+      185,
+      348
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      240,
+      337,
+      402,
+      348
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "is",
+    "bbox": [
+      418,
+      336,
+      444,
+      348
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      462,
+      337,
+      488,
+      347
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " the business of providing entertainment and",
+    "bbox": [
+      500,
+      336,
+      964,
+      348
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "information",
+    "bbox": [
+      111,
+      351,
+      231,
+      363
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services",
+    "bbox": [
+      248,
+      353,
+      335,
+      362
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "over",
+    "bbox": [
+      355,
+      354,
+      402,
+      363
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      418,
+      352,
+      456,
+      363
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "World wide web through its internet website at",
+    "bbox": [
+      472,
+      353,
+      964,
+      363
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "http://www.spinrecords.com.",
+    "bbox": [
+      111,
+      367,
+      396,
+      378
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      162,
+      397,
+      184,
+      408
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NETTAxI and SpinRecords.com desire co-brand their services under the.",
+    "bbox": [
+      239,
+      397,
+      964,
+      408
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "terms",
+    "bbox": [
+      111,
+      414,
+      164,
+      423
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      185,
+      413,
+      220,
+      423
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "conditions",
+    "bbox": [
+      239,
+      414,
+      346,
+      422
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "set",
+    "bbox": [
+      367,
+      414,
+      400,
+      422
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "forth.",
+    "bbox": [
+      420,
+      413,
+      484,
+      422
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " herein.",
+    "bbox": [
+      487,
+      412,
+      569,
+      423
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      496,
+      444,
+      591,
+      453
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NoW,",
+    "bbox": [
+      162,
+      473,
+      205,
+      484
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "THEREFORE,",
+    "bbox": [
+      228,
+      474,
+      337,
+      483
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " in consideration of the mutual promises contained herein,.",
+    "bbox": [
+      347,
+      472,
+      959,
+      483
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      111,
+      489,
+      143,
+      499
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "parties",
+    "bbox": [
+      162,
+      487,
+      241,
+      500
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "hereby.",
+    "bbox": [
+      258,
+      487,
+      331,
+      500
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "agree",
+    "bbox": [
+      344,
+      490,
+      402,
+      499
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "as follows:",
+    "bbox": [
+      417,
+      489,
+      537,
+      499
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      518,
+      129,
+      528
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      187,
+      519,
+      302,
+      528
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      163,
+      548,
+      197,
+      559
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Spinrecords.com Brand Features\" means the SpinRecords.com name and.",
+    "bbox": [
+      252,
+      548,
+      964,
+      559
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "logo",
+    "bbox": [
+      110,
+      562,
+      156,
+      576
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      174,
+      564,
+      212,
+      573
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "other.",
+    "bbox": [
+      226,
+      564,
+      291,
+      573
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "trademarks,",
+    "bbox": [
+      300,
+      563,
+      420,
+      574
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "trade",
+    "bbox": [
+      440,
+      564,
+      500,
+      573
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "names",
+    "bbox": [
+      512,
+      565,
+      583,
+      573
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and service names including but not",
+    "bbox": [
+      576,
+      563,
+      964,
+      574
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "limited",
+    "bbox": [
+      111,
+      578,
+      188,
+      589
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "to those set forth on Exhibit A attached hereto and incorporated herein",
+    "bbox": [
+      206,
+      578,
+      964,
+      589
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "by",
+    "bbox": [
+      109,
+      608,
+      138,
+      620
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "reference",
+    "bbox": [
+      151,
+      610,
+      250,
+      619
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      270,
+      609,
+      306,
+      619
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "all",
+    "bbox": [
+      321,
+      609,
+      356,
+      619
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Intellectual",
+    "bbox": [
+      377,
+      609,
+      508,
+      619
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Property Rights",
+    "bbox": [
+      524,
+      609,
+      706,
+      621
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "related  thereto.",
+    "bbox": [
+      718,
+      610,
+      896,
+      619
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      113,
+      625,
+      272,
+      634
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Brand",
+    "bbox": [
+      290,
+      623,
+      347,
+      635
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "modifications",
+    "bbox": [
+      111,
+      640,
+      249,
+      648
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "thereto",
+    "bbox": [
+      270,
+      639,
+      347,
+      650
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      367,
+      640,
+      391,
+      649
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "thereof and any Intellectual Property rights related.",
+    "bbox": [
+      408,
+      639,
+      964,
+      650
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "thereto.",
+    "bbox": [
+      111,
+      654,
+      195,
+      665
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      162,
+      683,
+      197,
+      695
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"SpinRecords.com",
+    "bbox": [
+      251,
+      684,
+      423,
+      695
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Pages\"",
+    "bbox": [
+      441,
+      685,
+      508,
+      694
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "aebed paaeq-qne woe:dpnonnyundd de? dueee",
+    "bbox": [
+      524,
+      684,
+      962,
+      695
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "modified",
+    "bbox": [
+      110,
+      714,
+      197,
+      724
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "from time to time",
+    "bbox": [
+      216,
+      713,
+      441,
+      725
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      439,
+      715,
+      493,
+      724
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SpinRecords.com's sole discretion, currently",
+    "bbox": [
+      492,
+      713,
+      964,
+      726
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "located",
+    "bbox": [
+      110,
+      729,
+      188,
+      740
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "at",
+    "bbox": [
+      207,
+      731,
+      229,
+      739
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "http://www.spinrecords.com.",
+    "bbox": [
+      249,
+      730,
+      536,
+      740
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      163,
+      758,
+      197,
+      770
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Impressions\"",
+    "bbox": [
+      250,
+      758,
+      388,
+      770
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "means",
+    "bbox": [
+      408,
+      761,
+      464,
+      770
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the loading of all or part of a web page into",
+    "bbox": [
+      483,
+      759,
+      962,
+      770
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      111,
+      774,
+      144,
+      785
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "browser",
+    "bbox": [
+      162,
+      774,
+      241,
+      786
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      260,
+      775,
+      285,
+      785
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      298,
+      776,
+      316,
+      785
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "User.",
+    "bbox": [
+      333,
+      774,
+      388,
+      786
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.4",
+    "bbox": [
+      163,
+      804,
+      198,
+      815
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Intellectual",
+    "bbox": [
+      250,
+      804,
+      396,
+      816
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Property  Rights\"",
+    "bbox": [
+      405,
+      804,
+      614,
+      817
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " means",
+    "bbox": [
+      606,
+      806,
+      668,
+      815
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "all",
+    "bbox": [
+      685,
+      805,
+      721,
+      815
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "current",
+    "bbox": [
+      739,
+      806,
+      817,
+      815
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      833,
+      805,
+      874,
+      815
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "future",
+    "bbox": [
+      888,
+      806,
+      953,
+      815
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "worldwide trademark, patents and patent rights, utility models, copyrights, mask",
+    "bbox": [
+      110,
+      820,
+      964,
+      831
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "work",
+    "bbox": [
+      111,
+      836,
+      154,
+      845
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "rights,",
+    "bbox": [
+      173,
+      835,
+      250,
+      846
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "trade secrets, and all other intellectual property rights and the.",
+    "bbox": [
+      270,
+      835,
+      964,
+      847
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "related",
+    "bbox": [
+      111,
+      851,
+      187,
+      860
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "documentation",
+    "bbox": [
+      206,
+      851,
+      347,
+      860
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      366,
+      851,
+      392,
+      860
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "other tangible expression thereof.",
+    "bbox": [
+      407,
+      849,
+      804,
+      861
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      163,
+      879,
+      197,
+      891
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"NETTAXI",
+    "bbox": [
+      250,
+      879,
+      337,
+      891
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Brand",
+    "bbox": [
+      356,
+      881,
+      415,
+      890
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Features\"",
+    "bbox": [
+      415,
+      879,
+      531,
+      891
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "means the NETTAxI name and logo and any.",
+    "bbox": [
+      544,
+      878,
+      965,
+      893
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "other",
+    "bbox": [
+      112,
+      896,
+      168,
+      906
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "trademarks,",
+    "bbox": [
+      184,
+      895,
+      303,
+      906
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "trade",
+    "bbox": [
+      323,
+      895,
+      379,
+      905
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "names and service names of NETTAxI, including but not.",
+    "bbox": [
+      396,
+      896,
+      962,
+      905
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "limited",
+    "bbox": [
+      111,
+      910,
+      189,
+      921
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "to those set forth on Exhibit B attached hereto and incorporated herein",
+    "bbox": [
+      202,
+      910,
+      964,
+      921
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "by reference and all Intellectual Property Rights related thereto. NETTAxI Brand",
+    "bbox": [
+      111,
+      941,
+      965,
+      951
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Features shall include any derivatives, improvements or modifications thereto or",
+    "bbox": [
+      110,
+      954,
+      966,
+      967
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "thereof",
+    "bbox": [
+      112,
+      971,
+      195,
+      980
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      205,
+      971,
+      242,
+      982
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "any",
+    "bbox": [
+      257,
+      971,
+      296,
+      982
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Intellectual",
+    "bbox": [
+      312,
+      972,
+      450,
+      981
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Property",
+    "bbox": [
+      459,
+      972,
+      551,
+      982
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " rights",
+    "bbox": [
+      562,
+      970,
+      637,
+      982
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "related",
+    "bbox": [
+      653,
+      972,
+      733,
+      981
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "thereto.",
+    "bbox": [
+      749,
+      971,
+      835,
+      981
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.6",
+    "bbox": [
+      163,
+      1000,
+      197,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"NETTAXI",
+    "bbox": [
+      249,
+      1000,
+      337,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Pages\"",
+    "bbox": [
+      354,
+      1000,
+      424,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "means",
+    "bbox": [
+      439,
+      1000,
+      495,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      515,
+      1000,
+      552,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NETTAXI's Web-based pages that",
+    "bbox": [
+      567,
+      1000,
+      922,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "incorporate",
+    "bbox": [
+      111,
+      1000,
+      229,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "certain",
+    "bbox": [
+      249,
+      1000,
+      326,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NETTAXI",
+    "bbox": [
+      345,
+      1000,
+      420,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services,",
+    "bbox": [
+      439,
+      1000,
+      536,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "as the same may be updated or modified",
+    "bbox": [
+      558,
+      1000,
+      964,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "from",
+    "bbox": [
+      112,
+      1000,
+      158,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " time",
+    "bbox": [
+      165,
+      1000,
+      218,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "to",
+    "bbox": [
+      234,
+      1000,
+      264,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "time",
+    "bbox": [
+      282,
+      1000,
+      324,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      345,
+      1000,
+      371,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NETTAXI's",
+    "bbox": [
+      385,
+      1000,
+      487,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "sole",
+    "bbox": [
+      503,
+      1000,
+      554,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "discretion,",
+    "bbox": [
+      568,
+      1000,
+      685,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "currently  located",
+    "bbox": [
+      708,
+      1000,
+      905,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "at",
+    "bbox": [
+      916,
+      1000,
+      944,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "http://www.NETTAXI.com.",
+    "bbox": [
+      111,
+      1000,
+      354,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.7",
+    "bbox": [
+      163,
+      1000,
+      197,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Statement of work\" means the Statement of Work attached hereto as.",
+    "bbox": [
+      248,
+      1000,
+      965,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Exhibit",
+    "bbox": [
+      110,
+      1000,
+      187,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      204,
+      1000,
+      220,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      239,
+      1000,
+      274,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "incorporated",
+    "bbox": [
+      290,
+      1000,
+      426,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": " herein.",
+    "bbox": [
+      419,
+      1000,
+      515,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "by.",
+    "bbox": [
+      512,
+      1000,
+      557,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "reference.",
+    "bbox": [
+      554,
+      1000,
+      676,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.8",
+    "bbox": [
+      163,
+      1000,
+      197,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"User\"",
+    "bbox": [
+      248,
+      1000,
+      315,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "means",
+    "bbox": [
+      333,
+      1000,
+      389,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      408,
+      1000,
+      422,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "person using a software browser to view the World",
+    "bbox": [
+      439,
+      1000,
+      965,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Wide",
+    "bbox": [
+      110,
+      1000,
+      154,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Web.",
+    "bbox": [
+      173,
+      1000,
+      216,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      110,
+      1000,
+      130,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CO-BRANDING,",
+    "bbox": [
+      186,
+      1000,
+      312,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "MARKETING",
+    "bbox": [
+      334,
+      1000,
+      431,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "AND",
+    "bbox": [
+      451,
+      1000,
+      485,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "PROMOTION",
+    "bbox": [
+      506,
+      1000,
+      602,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      162,
+      1000,
+      197,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "The",
+    "bbox": [
+      247,
+      1000,
+      284,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      304,
+      1000,
+      464,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Pages.",
+    "bbox": [
+      484,
+      1000,
+      559,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SpinRecords.com",
+    "bbox": [
+      568,
+      1000,
+      731,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "shall",
+    "bbox": [
+      751,
+      1000,
+      806,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "brand",
+    "bbox": [
+      824,
+      1000,
+      881,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      898,
+      1000,
+      933,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: RAE SYSTEMS INC, 10-Q, 11/14/2000",
+    "bbox": [
+      111,
+      1000,
+      476,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  }
+]

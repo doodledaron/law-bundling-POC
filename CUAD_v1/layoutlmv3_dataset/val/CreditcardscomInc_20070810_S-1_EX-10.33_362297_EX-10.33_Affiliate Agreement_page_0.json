@@ -1,0 +1,1234 @@
+[
+  {
+    "text": "CHASE AFFILIATE AGREEMENT",
+    "bbox": [
+      113,
+      181,
+      373,
+      191
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+    "bbox": [
+      113,
+      214,
+      1000,
+      224
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+    "bbox": [
+      113,
+      214,
+      1000,
+      224
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Last Updated: April 6, 2007",
+    "bbox": [
+      110,
+      132,
+      314,
+      145
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Exhibit 10.33",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Last Updated: April 6, 2007",
+    "bbox": [
+      110,
+      132,
+      314,
+      145
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "CHASE AFFILIATE AGREEMENT",
+    "bbox": [
+      113,
+      181,
+      373,
+      191
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+    "bbox": [
+      113,
+      214,
+      1000,
+      224
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+    "bbox": [
+      112,
+      228,
+      1000,
+      241
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+    "bbox": [
+      113,
+      245,
+      1000,
+      257
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+    "bbox": [
+      110,
+      292,
+      1000,
+      303
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+    "bbox": [
+      110,
+      308,
+      1000,
+      319
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+    "bbox": [
+      111,
+      324,
+      1000,
+      335
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+    "bbox": [
+      113,
+      341,
+      1000,
+      351
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+    "bbox": [
+      111,
+      356,
+      914,
+      368
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+    "bbox": [
+      110,
+      388,
+      852,
+      400
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+    "bbox": [
+      112,
+      420,
+      539,
+      432
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+    "bbox": [
+      110,
+      451,
+      1000,
+      465
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+    "bbox": [
+      111,
+      484,
+      739,
+      497
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+    "bbox": [
+      110,
+      516,
+      656,
+      529
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+    "bbox": [
+      111,
+      548,
+      1000,
+      561
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+    "bbox": [
+      111,
+      565,
+      1000,
+      577
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+    "bbox": [
+      111,
+      581,
+      1000,
+      593
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Content\"'):",
+    "bbox": [
+      111,
+      596,
+      192,
+      609
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+    "bbox": [
+      111,
+      631,
+      1000,
+      644
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ethically or otherwise objectionable.",
+    "bbox": [
+      112,
+      648,
+      379,
+      660
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": ": Promote illegal activities, including gambling",
+    "bbox": [
+      112,
+      683,
+      458,
+      696
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+    "bbox": [
+      112,
+      719,
+      650,
+      732
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": ": Promotes or depicts violence or hate speech.",
+    "bbox": [
+      112,
+      755,
+      456,
+      768
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+    "bbox": [
+      111,
+      791,
+      867,
+      804
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+    "bbox": [
+      133,
+      1000,
+      534,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.33",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Last Updated: April 6, 2007",
+    "bbox": [
+      110,
+      132,
+      314,
+      145
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "CHASE AFFILIATE AGREEMENT",
+    "bbox": [
+      113,
+      181,
+      373,
+      191
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+    "bbox": [
+      113,
+      214,
+      1000,
+      224
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+    "bbox": [
+      112,
+      228,
+      1000,
+      241
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+    "bbox": [
+      113,
+      245,
+      1000,
+      257
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+    "bbox": [
+      110,
+      292,
+      1000,
+      303
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+    "bbox": [
+      110,
+      308,
+      1000,
+      319
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+    "bbox": [
+      111,
+      324,
+      1000,
+      335
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+    "bbox": [
+      113,
+      341,
+      1000,
+      351
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+    "bbox": [
+      111,
+      356,
+      914,
+      368
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+    "bbox": [
+      110,
+      388,
+      852,
+      400
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+    "bbox": [
+      112,
+      420,
+      539,
+      432
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+    "bbox": [
+      110,
+      451,
+      1000,
+      465
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+    "bbox": [
+      111,
+      484,
+      739,
+      497
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+    "bbox": [
+      110,
+      516,
+      656,
+      529
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+    "bbox": [
+      111,
+      548,
+      1000,
+      561
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+    "bbox": [
+      111,
+      565,
+      1000,
+      577
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+    "bbox": [
+      111,
+      581,
+      1000,
+      593
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Content\"'):",
+    "bbox": [
+      111,
+      596,
+      192,
+      609
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+    "bbox": [
+      111,
+      631,
+      1000,
+      644
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ethically or otherwise objectionable.",
+    "bbox": [
+      112,
+      648,
+      379,
+      660
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": ": Promote illegal activities, including gambling",
+    "bbox": [
+      112,
+      683,
+      458,
+      696
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+    "bbox": [
+      112,
+      719,
+      650,
+      732
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": ": Promotes or depicts violence or hate speech.",
+    "bbox": [
+      112,
+      755,
+      456,
+      768
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+    "bbox": [
+      111,
+      791,
+      867,
+      804
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+    "bbox": [
+      133,
+      1000,
+      534,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.33",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Last Updated: April 6, 2007",
+    "bbox": [
+      110,
+      132,
+      314,
+      145
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CHASE AFFILIATE AGREEMENT",
+    "bbox": [
+      113,
+      181,
+      373,
+      191
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+    "bbox": [
+      113,
+      214,
+      1000,
+      224
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+    "bbox": [
+      112,
+      228,
+      1000,
+      241
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+    "bbox": [
+      113,
+      245,
+      1000,
+      257
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+    "bbox": [
+      110,
+      292,
+      1000,
+      303
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+    "bbox": [
+      110,
+      308,
+      1000,
+      319
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+    "bbox": [
+      111,
+      324,
+      1000,
+      335
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+    "bbox": [
+      113,
+      341,
+      1000,
+      351
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+    "bbox": [
+      111,
+      356,
+      914,
+      368
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+    "bbox": [
+      110,
+      388,
+      852,
+      400
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+    "bbox": [
+      112,
+      420,
+      539,
+      432
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+    "bbox": [
+      110,
+      451,
+      1000,
+      465
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+    "bbox": [
+      111,
+      484,
+      739,
+      497
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+    "bbox": [
+      110,
+      516,
+      656,
+      529
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+    "bbox": [
+      111,
+      548,
+      1000,
+      561
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+    "bbox": [
+      111,
+      565,
+      1000,
+      577
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+    "bbox": [
+      111,
+      581,
+      1000,
+      593
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Content\"'):",
+    "bbox": [
+      111,
+      596,
+      192,
+      609
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+    "bbox": [
+      111,
+      631,
+      1000,
+      644
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ethically or otherwise objectionable.",
+    "bbox": [
+      112,
+      648,
+      379,
+      660
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": ": Promote illegal activities, including gambling",
+    "bbox": [
+      112,
+      683,
+      458,
+      696
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+    "bbox": [
+      112,
+      719,
+      650,
+      732
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": ": Promotes or depicts violence or hate speech.",
+    "bbox": [
+      112,
+      755,
+      456,
+      768
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+    "bbox": [
+      111,
+      791,
+      867,
+      804
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+    "bbox": [
+      133,
+      1000,
+      534,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 10.33",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Last Updated: April 6, 2007",
+    "bbox": [
+      110,
+      132,
+      314,
+      145
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CHASE AFFILIATE AGREEMENT",
+    "bbox": [
+      113,
+      181,
+      373,
+      191
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+    "bbox": [
+      113,
+      214,
+      1000,
+      224
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+    "bbox": [
+      112,
+      228,
+      1000,
+      241
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+    "bbox": [
+      113,
+      245,
+      1000,
+      257
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+    "bbox": [
+      110,
+      292,
+      1000,
+      303
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+    "bbox": [
+      110,
+      308,
+      1000,
+      319
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+    "bbox": [
+      111,
+      324,
+      1000,
+      335
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+    "bbox": [
+      113,
+      341,
+      1000,
+      351
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+    "bbox": [
+      111,
+      356,
+      914,
+      368
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+    "bbox": [
+      110,
+      388,
+      852,
+      400
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+    "bbox": [
+      112,
+      420,
+      539,
+      432
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+    "bbox": [
+      110,
+      451,
+      1000,
+      465
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+    "bbox": [
+      111,
+      484,
+      739,
+      497
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+    "bbox": [
+      110,
+      516,
+      656,
+      529
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+    "bbox": [
+      111,
+      548,
+      1000,
+      561
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+    "bbox": [
+      111,
+      565,
+      1000,
+      577
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+    "bbox": [
+      111,
+      581,
+      1000,
+      593
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Content\"'):",
+    "bbox": [
+      111,
+      596,
+      192,
+      609
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+    "bbox": [
+      111,
+      631,
+      1000,
+      644
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ethically or otherwise objectionable.",
+    "bbox": [
+      112,
+      648,
+      379,
+      660
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": ": Promote illegal activities, including gambling",
+    "bbox": [
+      112,
+      683,
+      458,
+      696
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+    "bbox": [
+      112,
+      719,
+      650,
+      732
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": ": Promotes or depicts violence or hate speech.",
+    "bbox": [
+      112,
+      755,
+      456,
+      768
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+    "bbox": [
+      111,
+      791,
+      867,
+      804
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+    "bbox": [
+      133,
+      1000,
+      534,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-04-02T21:49:56.819402",
+  "documents": {
+    "total": 50,
+    "processed": 50,
+    "successful": 49,
+    "skipped": 0,
+    "success_rate": 0.98
+  },
+  "annotations": {
+    "total": 2009,
+    "matched": 2543,
+    "success_rate": 1.2658038825286213
+  },
+  "timing": {
+    "total_seconds": 12767.063066959381,
+    "average_per_document": 255.3412613391876
+  },
+  "settings": {
+    "dpi": 400,
+    "match_threshold": 0.6,
+    "limit": 50
+  }
+}

@@ -1,0 +1,5567 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Affiliate_Agreements\\SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement.pdf",
+  "annotations": [
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "Affiliate Program / Premium Affiliate Management General Terms and Conditions",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Software Publishers",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "element 5 GmbH, Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries (together hereafter, \"element 5\")",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Web site owners (hereafter, \"Affiliates\")",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "who wish to make use of the additional service provided by element 5 (hereafter, \"Affiliate Management\"",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "The term of this Agreement will begin upon acceptance of Affiliate's Program application and will end when terminated by either party of this Agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Expiration Date_3",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Agreement is entered into for an unlimited period of time.",
+      "page_number": 3,
+      "words": [
+        {
+          "text": "Publisher's Product under this Agreement and end user uses the automatic",
+          "bbox": [
+            283.0,
+            259.0,
+            2295.0,
+            296.0
+          ],
+          "confidence": 0.9913256168365479
+        },
+        {
+          "text": "ordering system that carries out the registration and payment processing,",
+          "bbox": [
+            279.0,
+            314.0,
+            2316.0,
+            358.0
+          ],
+          "confidence": 0.9939731955528259
+        },
+        {
+          "text": "so that the Affiliate's link is deemed to be directly causative for the",
+          "bbox": [
+            279.0,
+            369.0,
+            2267.0,
+            413.0
+          ],
+          "confidence": 0.9857602119445801
+        },
+        {
+          "text": "End User's payment, proving that all requirements are irrevocably met",
+          "bbox": [
+            277.0,
+            484.0,
+            2213.0,
+            526.0
+          ],
+          "confidence": 0.9844375848770142
+        },
+        {
+          "text": "(\"agreements arising in a qualified manner\"). Affiliate is only eligible to",
+          "bbox": [
+            290.0,
+            543.0,
+            2378.0,
+            579.0
+          ],
+          "confidence": 0.9932173490524292
+        },
+        {
+          "text": "of this Agreement and fees earned up to the date termination will remain",
+          "bbox": [
+            279.0,
+            651.0,
+            2295.0,
+            691.0
+          ],
+          "confidence": 0.9850414991378784
+        },
+        {
+          "text": "payable only if the related orders are not cancelled or returned.",
+          "bbox": [
+            277.0,
+            705.0,
+            2101.0,
+            751.0
+          ],
+          "confidence": 0.9815749526023865
+        },
+        {
+          "text": "(2) Insofar as the referred end user accepts cookies when clicking on",
+          "bbox": [
+            286.0,
+            764.0,
+            2217.0,
+            806.0
+          ],
+          "confidence": 0.997811496257782
+        },
+        {
+          "text": "arise within the lifespan (of max. 180 days) of the cookie(s) used and/ or",
+          "bbox": [
+            281.0,
+            877.0,
+            2351.0,
+            914.0
+          ],
+          "confidence": 0.9816396832466125
+        },
+        {
+          "text": "possibly within the lifespan of a special action of the Software Publisher",
+          "bbox": [
+            275.0,
+            926.0,
+            2353.0,
+            976.0
+          ],
+          "confidence": 0.9916158318519592
+        },
+        {
+          "text": "via integrated link.",
+          "bbox": [
+            281.0,
+            990.0,
+            832.0,
+            1027.0
+          ],
+          "confidence": 0.9982730746269226
+        },
+        {
+          "text": "(3) element 5 shall record and compute on a monthly basis the amount of",
+          "bbox": [
+            286.0,
+            1043.0,
+            2271.0,
+            1085.0
+          ],
+          "confidence": 0.9705358147621155
+        },
+        {
+          "text": "said Advertising Cost Compensation for the Affiliate.",
+          "bbox": [
+            279.0,
+            1098.0,
+            1764.0,
+            1142.0
+          ],
+          "confidence": 0.9982280135154724
+        },
+        {
+          "text": "(4) The computation basis for determining the value of the Advertising Cost",
+          "bbox": [
+            288.0,
+            1159.0,
+            2380.0,
+            1195.0
+          ],
+          "confidence": 0.9977768063545227
+        },
+        {
+          "text": "'aaxeg bugpnnoue) angod sanes saoae eag Aq paaegnngen dt uodaeauedee?",
+          "bbox": [
+            277.0,
+            1212.0,
+            2209.0,
+            1255.0
+          ],
+          "confidence": 0.5110954642295837
+        },
+        {
+          "text": "shipping and handling, etc.) actually invoiced to the referred end user.",
+          "bbox": [
+            281.0,
+            1268.0,
+            2293.0,
+            1310.0
+          ],
+          "confidence": 0.9936148524284363
+        },
+        {
+          "text": "The percentage of the respective Advertising Cost Compensation shall be",
+          "bbox": [
+            279.0,
+            1325.0,
+            2269.0,
+            1365.0
+          ],
+          "confidence": 0.9995490312576294
+        },
+        {
+          "text": "stipulated by the Software Publisher, but shall not exceed 50% of the.",
+          "bbox": [
+            281.0,
+            1380.0,
+            2213.0,
+            1420.0
+          ],
+          "confidence": 0.9686248898506165
+        },
+        {
+          "text": "effective gross sales price of the software.",
+          "bbox": [
+            279.0,
+            1438.0,
+            1517.0,
+            1480.0
+          ],
+          "confidence": 0.9995415210723877
+        },
+        {
+          "text": "(5) The Advertising Cost Compensation shall not be paid if and insofar as",
+          "bbox": [
+            286.0,
+            1493.0,
+            2325.0,
+            1535.0
+          ],
+          "confidence": 0.9876012802124023
+        },
+        {
+          "text": "it is determined that the end user will not meet its payment obligations or.",
+          "bbox": [
+            277.0,
+            1546.0,
+            2382.0,
+            1592.0
+          ],
+          "confidence": 0.9695228934288025
+        },
+        {
+          "text": "will meet them only partially, or if for any other reason the invoice to",
+          "bbox": [
+            277.0,
+            1604.0,
+            2300.0,
+            1646.0
+          ],
+          "confidence": 0.9822709560394287
+        },
+        {
+          "text": "the end user was cancelled (e.g. in cases where a charge back of a credit",
+          "bbox": [
+            279.0,
+            1661.0,
+            2324.0,
+            1701.0
+          ],
+          "confidence": 0.9871305823326111
+        },
+        {
+          "text": "card charge, a debit advice or other return or refund of the software",
+          "bbox": [
+            279.0,
+            1714.0,
+            2213.0,
+            1760.0
+          ],
+          "confidence": 0.9823408126831055
+        },
+        {
+          "text": "by element 5, it can be offset or invoiced to Affiliate at element 5's own",
+          "bbox": [
+            275.0,
+            1825.0,
+            2354.0,
+            1873.0
+          ],
+          "confidence": 0.9791285395622253
+        },
+        {
+          "text": "discretion.",
+          "bbox": [
+            281.0,
+            1888.0,
+            587.0,
+            1924.0
+          ],
+          "confidence": 0.9997007250785828
+        },
+        {
+          "text": "insofar as the sum due exceeds a value of 100 EuR / 100 usD. If this is not",
+          "bbox": [
+            283.0,
+            1997.0,
+            2378.0,
+            2034.0
+          ],
+          "confidence": 0.9634189009666443
+        },
+        {
+          "text": "the case, the sum due can be retained until a total value of at least 100",
+          "bbox": [
+            279.0,
+            2054.0,
+            2324.0,
+            2096.0
+          ],
+          "confidence": 0.9875703454017639
+        },
+        {
+          "text": "EUR / 10o usd is reached, at the latest, upon termination of the",
+          "bbox": [
+            274.0,
+            2107.0,
+            2075.0,
+            2153.0
+          ],
+          "confidence": 0.9559176564216614
+        },
+        {
+          "text": "Affiliate's participation in the Program.",
+          "bbox": [
+            277.0,
+            2165.0,
+            1421.0,
+            2207.0
+          ],
+          "confidence": 0.9994372129440308
+        },
+        {
+          "text": "oo (Aguo dn) agaodag anannd 'andauenn anam Aq pee aq uen auaeAed aae (L)",
+          "bbox": [
+            285.0,
+            2222.0,
+            2325.0,
+            2266.0
+          ],
+          "confidence": 0.5138307213783264
+        },
+        {
+          "text": "check, as chosen by the Affiliate.",
+          "bbox": [
+            281.0,
+            2279.0,
+            1229.0,
+            2315.0
+          ],
+          "confidence": 0.9882194399833679
+        },
+        {
+          "text": "(8) The invoicing is deemed to be approved if the Affiliate does not object",
+          "bbox": [
+            288.0,
+            2337.0,
+            2376.0,
+            2374.0
+          ],
+          "confidence": 0.9862885475158691
+        },
+        {
+          "text": "III. Affiliate Management for Software Publishers",
+          "bbox": [
+            277.0,
+            2467.0,
+            1653.0,
+            2509.0
+          ],
+          "confidence": 0.9766355156898499
+        },
+        {
+          "text": "S 1 Participation by the Software Publisher",
+          "bbox": [
+            276.0,
+            2549.0,
+            1486.0,
+            2591.0
+          ],
+          "confidence": 0.9710695743560791
+        },
+        {
+          "text": "(l) Software Publisher's participation in Affiliate Management indicates",
+          "bbox": [
+            288.0,
+            2631.0,
+            2295.0,
+            2668.0
+          ],
+          "confidence": 0.9820826053619385
+        },
+        {
+          "text": "and that the Software Publisher shall integrate the Affiliate Program into",
+          "bbox": [
+            279.0,
+            2741.0,
+            2351.0,
+            2778.0
+          ],
+          "confidence": 0.9862272143363953
+        },
+        {
+          "text": "the web site using a corresponding link.",
+          "bbox": [
+            281.0,
+            2798.0,
+            1396.0,
+            2838.0
+          ],
+          "confidence": 0.982917308807373
+        },
+        {
+          "text": "(2) To generate revenue through this Program by means of sales referred by",
+          "bbox": [
+            285.0,
+            2852.0,
+            2353.0,
+            2896.0
+          ],
+          "confidence": 0.9889227151870728
+        },
+        {
+          "text": "the Affiliate, the Affiliate, after completion of registration, must be.",
+          "bbox": [
+            283.0,
+            2913.0,
+            2269.0,
+            2949.0
+          ],
+          "confidence": 0.9817041754722595
+        },
+        {
+          "text": "activated by the Software Publisher in the Control Panel. The Software",
+          "bbox": [
+            279.0,
+            2966.0,
+            2238.0,
+            3006.0
+          ],
+          "confidence": 0.9914085268974304
+        },
+        {
+          "text": "Publisher will be informed of the Affiliate's",
+          "bbox": [
+            283.0,
+            3026.0,
+            1537.0,
+            3057.0
+          ],
+          "confidence": 0.9890009760856628
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.9836772084236145
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "The term of this Agreement will begin upon acceptance of Affiliate's Program application and will end when terminated by either party of this Agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Governing Law_7",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "Even in case of agreements with foreign (non-German) Software Publishers and Affiliates, the law of the Federal Republic of Germany applies.",
+      "page_number": 7,
+      "words": [
+        {
+          "text": "Affiliate is only eligible to earn the Advertising Cost Compensation on.",
+          "bbox": [
+            277.0,
+            261.0,
+            2267.0,
+            298.0
+          ],
+          "confidence": 0.9872127175331116
+        },
+        {
+          "text": "sales of Software Publishers Products occurring during the term of this",
+          "bbox": [
+            279.0,
+            314.0,
+            2266.0,
+            355.0
+          ],
+          "confidence": 0.9876094460487366
+        },
+        {
+          "text": "Agreement and fees earned up to the date termination will remain payable.",
+          "bbox": [
+            275.0,
+            369.0,
+            2298.0,
+            413.0
+          ],
+          "confidence": 0.9912017583847046
+        },
+        {
+          "text": "only if the related orders are not cancelled or returned. If the.",
+          "bbox": [
+            279.0,
+            426.0,
+            2074.0,
+            470.0
+          ],
+          "confidence": 0.9850547313690186
+        },
+        {
+          "text": "Advertising Cost Compensation was previously paid by element 5, it can be",
+          "bbox": [
+            275.0,
+            481.0,
+            2325.0,
+            526.0
+          ],
+          "confidence": 0.9941630959510803
+        },
+        {
+          "text": "offset or invoiced to Affiliate at element 5's own discretion..",
+          "bbox": [
+            277.0,
+            537.0,
+            2016.0,
+            581.0
+          ],
+          "confidence": 0.9862105250358582
+        },
+        {
+          "text": "S 9 Final provisions.",
+          "bbox": [
+            272.0,
+            614.0,
+            837.0,
+            656.0
+          ],
+          "confidence": 0.9614819288253784
+        },
+        {
+          "text": "(1) Force majeure",
+          "bbox": [
+            286.0,
+            696.0,
+            754.0,
+            738.0
+          ],
+          "confidence": 0.993764340877533
+        },
+        {
+          "text": "If a party is unable to fulfill its obligations under the agreement for",
+          "bbox": [
+            279.0,
+            753.0,
+            2271.0,
+            795.0
+          ],
+          "confidence": 0.9969968199729919
+        },
+        {
+          "text": "reason of force majeure, it shall immediately inform the other party",
+          "bbox": [
+            277.0,
+            806.0,
+            2188.0,
+            853.0
+          ],
+          "confidence": 0.9949437379837036
+        },
+        {
+          "text": "ae duonnenado newnou aenann on namod ant ut bunynnaan op pue Joanay]",
+          "bbox": [
+            281.0,
+            866.0,
+            2215.0,
+            908.0
+          ],
+          "confidence": 0.5523553490638733
+        },
+        {
+          "text": "quickly as possible. In such case, the affected party shall not be deemed",
+          "bbox": [
+            279.0,
+            917.0,
+            2327.0,
+            965.0
+          ],
+          "confidence": 0.9861210584640503
+        },
+        {
+          "text": "to be in breach of contract and cannot be held liable..",
+          "bbox": [
+            283.0,
+            979.0,
+            1789.0,
+            1016.0
+          ],
+          "confidence": 0.9841161370277405
+        },
+        {
+          "text": "(2) Provision for written form.",
+          "bbox": [
+            288.0,
+            1036.0,
+            1124.0,
+            1073.0
+          ],
+          "confidence": 0.9718605279922485
+        },
+        {
+          "text": "confirmed them in writing. The same applies to the warranting of.",
+          "bbox": [
+            277.0,
+            1142.0,
+            2075.0,
+            1188.0
+          ],
+          "confidence": 0.9881191253662109
+        },
+        {
+          "text": "properties.",
+          "bbox": [
+            279.0,
+            1200.0,
+            580.0,
+            1245.0
+          ],
+          "confidence": 0.9997487664222717
+        },
+        {
+          "text": "(3) Severability clause",
+          "bbox": [
+            285.0,
+            1261.0,
+            924.0,
+            1297.0
+          ],
+          "confidence": 0.9955543279647827
+        },
+        {
+          "text": "If any provision of this agreement is or becomes invalid, the validity of.",
+          "bbox": [
+            277.0,
+            1314.0,
+            2325.0,
+            1356.0
+          ],
+          "confidence": 0.9783300161361694
+        },
+        {
+          "text": "the remaining provisions shall not be affected. Insofar as a provision is",
+          "bbox": [
+            277.0,
+            1367.0,
+            2327.0,
+            1413.0
+          ],
+          "confidence": 0.9988322854042053
+        },
+        {
+          "text": "invalid, the parties will agree on a new provision which comes as close as",
+          "bbox": [
+            281.0,
+            1429.0,
+            2354.0,
+            1466.0
+          ],
+          "confidence": 0.9890009760856628
+        },
+        {
+          "text": "possible to the intent of the invalid provision and which is legally valid.",
+          "bbox": [
+            274.0,
+            1480.0,
+            2376.0,
+            1526.0
+          ],
+          "confidence": 0.9948753118515015
+        },
+        {
+          "text": "Republic of Germany applies. The place of jurisdiction for all claims",
+          "bbox": [
+            279.0,
+            1652.0,
+            2213.0,
+            1694.0
+          ],
+          "confidence": 0.9871094226837158
+        },
+        {
+          "text": "arising in connection with this business relationship is Cologne, Germany.",
+          "bbox": [
+            277.0,
+            1705.0,
+            2347.0,
+            1752.0
+          ],
+          "confidence": 0.9887344837188721
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            275.0,
+            4446.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.9962607622146606
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Termination For Convenience_3",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "Either party may cancel this Agreement at any time, with or without supplying a reason, through written notification or by making suitable settings in the respective Control Panel.",
+      "page_number": 3,
+      "words": [
+        {
+          "text": "Publisher's Product under this Agreement and end user uses the automatic",
+          "bbox": [
+            283.0,
+            259.0,
+            2295.0,
+            296.0
+          ],
+          "confidence": 0.9913256168365479
+        },
+        {
+          "text": "ordering system that carries out the registration and payment processing,",
+          "bbox": [
+            279.0,
+            314.0,
+            2316.0,
+            358.0
+          ],
+          "confidence": 0.9939731955528259
+        },
+        {
+          "text": "so that the Affiliate's link is deemed to be directly causative for the",
+          "bbox": [
+            279.0,
+            369.0,
+            2267.0,
+            413.0
+          ],
+          "confidence": 0.9857602119445801
+        },
+        {
+          "text": "End User's payment, proving that all requirements are irrevocably met",
+          "bbox": [
+            277.0,
+            484.0,
+            2213.0,
+            526.0
+          ],
+          "confidence": 0.9844375848770142
+        },
+        {
+          "text": "(\"agreements arising in a qualified manner\"). Affiliate is only eligible to",
+          "bbox": [
+            290.0,
+            543.0,
+            2378.0,
+            579.0
+          ],
+          "confidence": 0.9932173490524292
+        },
+        {
+          "text": "of this Agreement and fees earned up to the date termination will remain",
+          "bbox": [
+            279.0,
+            651.0,
+            2295.0,
+            691.0
+          ],
+          "confidence": 0.9850414991378784
+        },
+        {
+          "text": "payable only if the related orders are not cancelled or returned.",
+          "bbox": [
+            277.0,
+            705.0,
+            2101.0,
+            751.0
+          ],
+          "confidence": 0.9815749526023865
+        },
+        {
+          "text": "(2) Insofar as the referred end user accepts cookies when clicking on",
+          "bbox": [
+            286.0,
+            764.0,
+            2217.0,
+            806.0
+          ],
+          "confidence": 0.997811496257782
+        },
+        {
+          "text": "arise within the lifespan (of max. 180 days) of the cookie(s) used and/ or",
+          "bbox": [
+            281.0,
+            877.0,
+            2351.0,
+            914.0
+          ],
+          "confidence": 0.9816396832466125
+        },
+        {
+          "text": "possibly within the lifespan of a special action of the Software Publisher",
+          "bbox": [
+            275.0,
+            926.0,
+            2353.0,
+            976.0
+          ],
+          "confidence": 0.9916158318519592
+        },
+        {
+          "text": "via integrated link.",
+          "bbox": [
+            281.0,
+            990.0,
+            832.0,
+            1027.0
+          ],
+          "confidence": 0.9982730746269226
+        },
+        {
+          "text": "(3) element 5 shall record and compute on a monthly basis the amount of",
+          "bbox": [
+            286.0,
+            1043.0,
+            2271.0,
+            1085.0
+          ],
+          "confidence": 0.9705358147621155
+        },
+        {
+          "text": "said Advertising Cost Compensation for the Affiliate.",
+          "bbox": [
+            279.0,
+            1098.0,
+            1764.0,
+            1142.0
+          ],
+          "confidence": 0.9982280135154724
+        },
+        {
+          "text": "(4) The computation basis for determining the value of the Advertising Cost",
+          "bbox": [
+            288.0,
+            1159.0,
+            2380.0,
+            1195.0
+          ],
+          "confidence": 0.9977768063545227
+        },
+        {
+          "text": "'aaxeg bugpnnoue) angod sanes saoae eag Aq paaegnngen dt uodaeauedee?",
+          "bbox": [
+            277.0,
+            1212.0,
+            2209.0,
+            1255.0
+          ],
+          "confidence": 0.5110954642295837
+        },
+        {
+          "text": "shipping and handling, etc.) actually invoiced to the referred end user.",
+          "bbox": [
+            281.0,
+            1268.0,
+            2293.0,
+            1310.0
+          ],
+          "confidence": 0.9936148524284363
+        },
+        {
+          "text": "The percentage of the respective Advertising Cost Compensation shall be",
+          "bbox": [
+            279.0,
+            1325.0,
+            2269.0,
+            1365.0
+          ],
+          "confidence": 0.9995490312576294
+        },
+        {
+          "text": "stipulated by the Software Publisher, but shall not exceed 50% of the.",
+          "bbox": [
+            281.0,
+            1380.0,
+            2213.0,
+            1420.0
+          ],
+          "confidence": 0.9686248898506165
+        },
+        {
+          "text": "effective gross sales price of the software.",
+          "bbox": [
+            279.0,
+            1438.0,
+            1517.0,
+            1480.0
+          ],
+          "confidence": 0.9995415210723877
+        },
+        {
+          "text": "(5) The Advertising Cost Compensation shall not be paid if and insofar as",
+          "bbox": [
+            286.0,
+            1493.0,
+            2325.0,
+            1535.0
+          ],
+          "confidence": 0.9876012802124023
+        },
+        {
+          "text": "it is determined that the end user will not meet its payment obligations or.",
+          "bbox": [
+            277.0,
+            1546.0,
+            2382.0,
+            1592.0
+          ],
+          "confidence": 0.9695228934288025
+        },
+        {
+          "text": "will meet them only partially, or if for any other reason the invoice to",
+          "bbox": [
+            277.0,
+            1604.0,
+            2300.0,
+            1646.0
+          ],
+          "confidence": 0.9822709560394287
+        },
+        {
+          "text": "the end user was cancelled (e.g. in cases where a charge back of a credit",
+          "bbox": [
+            279.0,
+            1661.0,
+            2324.0,
+            1701.0
+          ],
+          "confidence": 0.9871305823326111
+        },
+        {
+          "text": "card charge, a debit advice or other return or refund of the software",
+          "bbox": [
+            279.0,
+            1714.0,
+            2213.0,
+            1760.0
+          ],
+          "confidence": 0.9823408126831055
+        },
+        {
+          "text": "by element 5, it can be offset or invoiced to Affiliate at element 5's own",
+          "bbox": [
+            275.0,
+            1825.0,
+            2354.0,
+            1873.0
+          ],
+          "confidence": 0.9791285395622253
+        },
+        {
+          "text": "discretion.",
+          "bbox": [
+            281.0,
+            1888.0,
+            587.0,
+            1924.0
+          ],
+          "confidence": 0.9997007250785828
+        },
+        {
+          "text": "insofar as the sum due exceeds a value of 100 EuR / 100 usD. If this is not",
+          "bbox": [
+            283.0,
+            1997.0,
+            2378.0,
+            2034.0
+          ],
+          "confidence": 0.9634189009666443
+        },
+        {
+          "text": "the case, the sum due can be retained until a total value of at least 100",
+          "bbox": [
+            279.0,
+            2054.0,
+            2324.0,
+            2096.0
+          ],
+          "confidence": 0.9875703454017639
+        },
+        {
+          "text": "EUR / 10o usd is reached, at the latest, upon termination of the",
+          "bbox": [
+            274.0,
+            2107.0,
+            2075.0,
+            2153.0
+          ],
+          "confidence": 0.9559176564216614
+        },
+        {
+          "text": "Affiliate's participation in the Program.",
+          "bbox": [
+            277.0,
+            2165.0,
+            1421.0,
+            2207.0
+          ],
+          "confidence": 0.9994372129440308
+        },
+        {
+          "text": "oo (Aguo dn) agaodag anannd 'andauenn anam Aq pee aq uen auaeAed aae (L)",
+          "bbox": [
+            285.0,
+            2222.0,
+            2325.0,
+            2266.0
+          ],
+          "confidence": 0.5138307213783264
+        },
+        {
+          "text": "check, as chosen by the Affiliate.",
+          "bbox": [
+            281.0,
+            2279.0,
+            1229.0,
+            2315.0
+          ],
+          "confidence": 0.9882194399833679
+        },
+        {
+          "text": "(8) The invoicing is deemed to be approved if the Affiliate does not object",
+          "bbox": [
+            288.0,
+            2337.0,
+            2376.0,
+            2374.0
+          ],
+          "confidence": 0.9862885475158691
+        },
+        {
+          "text": "III. Affiliate Management for Software Publishers",
+          "bbox": [
+            277.0,
+            2467.0,
+            1653.0,
+            2509.0
+          ],
+          "confidence": 0.9766355156898499
+        },
+        {
+          "text": "S 1 Participation by the Software Publisher",
+          "bbox": [
+            276.0,
+            2549.0,
+            1486.0,
+            2591.0
+          ],
+          "confidence": 0.9710695743560791
+        },
+        {
+          "text": "(l) Software Publisher's participation in Affiliate Management indicates",
+          "bbox": [
+            288.0,
+            2631.0,
+            2295.0,
+            2668.0
+          ],
+          "confidence": 0.9820826053619385
+        },
+        {
+          "text": "and that the Software Publisher shall integrate the Affiliate Program into",
+          "bbox": [
+            279.0,
+            2741.0,
+            2351.0,
+            2778.0
+          ],
+          "confidence": 0.9862272143363953
+        },
+        {
+          "text": "the web site using a corresponding link.",
+          "bbox": [
+            281.0,
+            2798.0,
+            1396.0,
+            2838.0
+          ],
+          "confidence": 0.982917308807373
+        },
+        {
+          "text": "(2) To generate revenue through this Program by means of sales referred by",
+          "bbox": [
+            285.0,
+            2852.0,
+            2353.0,
+            2896.0
+          ],
+          "confidence": 0.9889227151870728
+        },
+        {
+          "text": "the Affiliate, the Affiliate, after completion of registration, must be.",
+          "bbox": [
+            283.0,
+            2913.0,
+            2269.0,
+            2949.0
+          ],
+          "confidence": 0.9817041754722595
+        },
+        {
+          "text": "activated by the Software Publisher in the Control Panel. The Software",
+          "bbox": [
+            279.0,
+            2966.0,
+            2238.0,
+            3006.0
+          ],
+          "confidence": 0.9914085268974304
+        },
+        {
+          "text": "Publisher will be informed of the Affiliate's",
+          "bbox": [
+            283.0,
+            3026.0,
+            1537.0,
+            3057.0
+          ],
+          "confidence": 0.9890009760856628
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.9836772084236145
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Termination For Convenience_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "The Software Publisher and element 5 are authorized to revoke the license granted to the Affiliate at any time by written notice.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Revenue/Profit Sharing_2",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "The percentage of the respective Advertising Cost Compensation shall be stipulated by the Software Publisher, but shall not exceed 50% of the effective gross sales price of the software.",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "Generator is located in the secure area of element 5's web site in the",
+          "bbox": [
+            279.0,
+            259.0,
+            2237.0,
+            296.0
+          ],
+          "confidence": 0.9777660965919495
+        },
+        {
+          "text": "individualized affiliate user ID by means of which any sales can be",
+          "bbox": [
+            281.0,
+            371.0,
+            2157.0,
+            411.0
+          ],
+          "confidence": 0.9825322031974792
+        },
+        {
+          "text": "attributed to the Affiliate. Proper technical integration of the link is",
+          "bbox": [
+            279.0,
+            429.0,
+            2296.0,
+            466.0
+          ],
+          "confidence": 0.9869019985198975
+        },
+        {
+          "text": "the responsibility of the Affiliate. If the links do not function, no",
+          "bbox": [
+            279.0,
+            482.0,
+            2218.0,
+            524.0
+          ],
+          "confidence": 0.986860990524292
+        },
+        {
+          "text": "Advertising Cost Compensation will be paid..",
+          "bbox": [
+            279.0,
+            543.0,
+            1486.0,
+            579.0
+          ],
+          "confidence": 0.9943732619285583
+        },
+        {
+          "text": "(2) The Affiliate shall indicate on its web site that (i) the Affiliate is",
+          "bbox": [
+            288.0,
+            596.0,
+            2349.0,
+            632.0
+          ],
+          "confidence": 0.9909446239471436
+        },
+        {
+          "text": "acting as an independent partner of the respective Software Publisher by",
+          "bbox": [
+            281.0,
+            652.0,
+            2298.0,
+            694.0
+          ],
+          "confidence": 0.9930644631385803
+        },
+        {
+          "text": "participation in the Affiliate Program provided by element 5 and (ii) The",
+          "bbox": [
+            277.0,
+            705.0,
+            2325.0,
+            751.0
+          ],
+          "confidence": 0.9855000972747803
+        },
+        {
+          "text": "Software Publisher is the seller of the product and the payment process is",
+          "bbox": [
+            281.0,
+            764.0,
+            2354.0,
+            806.0
+          ],
+          "confidence": 0.9996109008789062
+        },
+        {
+          "text": "administered by element 5.",
+          "bbox": [
+            281.0,
+            819.0,
+            1008.0,
+            859.0
+          ],
+          "confidence": 0.9865869283676147
+        },
+        {
+          "text": "(3) The Affiliate shall produce a brief description for each activated",
+          "bbox": [
+            286.0,
+            875.0,
+            2242.0,
+            916.0
+          ],
+          "confidence": 0.9956746697425842
+        },
+        {
+          "text": "product on its Web site. The Affiliate is responsible for the content, the",
+          "bbox": [
+            275.0,
+            930.0,
+            2353.0,
+            974.0
+          ],
+          "confidence": 0.9938121438026428
+        },
+        {
+          "text": "style and the layout of this information. The Software Publisher can",
+          "bbox": [
+            281.0,
+            987.0,
+            2190.0,
+            1031.0
+          ],
+          "confidence": 0.9859578609466553
+        },
+        {
+          "text": "use in describing the product, which the Affiliate shall use for the",
+          "bbox": [
+            276.0,
+            1100.0,
+            2188.0,
+            1142.0
+          ],
+          "confidence": 0.9802109003067017
+        },
+        {
+          "text": "purpose of advertising the Products under the Agreement and links according",
+          "bbox": [
+            275.0,
+            1155.0,
+            2380.0,
+            1201.0
+          ],
+          "confidence": 0.988140344619751
+        },
+        {
+          "text": "to the instructions of the Software Publisher. The Affiliate should be",
+          "bbox": [
+            281.0,
+            1213.0,
+            2242.0,
+            1250.0
+          ],
+          "confidence": 0.9885889291763306
+        },
+        {
+          "text": "TI :aag? Aue ae dbueye Aew Aadnnqenneae pue aannad ahnpoad ayg geyn aneme",
+          "bbox": [
+            277.0,
+            1266.0,
+            2325.0,
+            1312.0
+          ],
+          "confidence": 0.5256092548370361
+        },
+        {
+          "text": "is not recommended that the price be listed on the web site of the",
+          "bbox": [
+            279.0,
+            1325.0,
+            2130.0,
+            1363.0
+          ],
+          "confidence": 0.9826377034187317
+        },
+        {
+          "text": "Affiliate. Maintenance of these product prices is possible only on the Web",
+          "bbox": [
+            276.0,
+            1380.0,
+            2351.0,
+            1422.0
+          ],
+          "confidence": 0.9764282703399658
+        },
+        {
+          "text": "sites of the Software Publisher and the Publisher's corresponding site",
+          "bbox": [
+            279.0,
+            1433.0,
+            2242.0,
+            1480.0
+          ],
+          "confidence": 0.9911622405052185
+        },
+        {
+          "text": "operated by element 5.",
+          "bbox": [
+            281.0,
+            1493.0,
+            892.0,
+            1535.0
+          ],
+          "confidence": 0.9939188361167908
+        },
+        {
+          "text": "S 5 Order Processing",
+          "bbox": [
+            275.0,
+            1570.0,
+            837.0,
+            1612.0
+          ],
+          "confidence": 0.9947174787521362
+        },
+        {
+          "text": "referred end user according to the terms and conditions of the underlying",
+          "bbox": [
+            281.0,
+            1703.0,
+            2325.0,
+            1749.0
+          ],
+          "confidence": 0.9952489733695984
+        },
+        {
+          "text": "element 5 shall provide the order forms for the order processing on its web.",
+          "bbox": [
+            281.0,
+            1822.0,
+            2378.0,
+            1858.0
+          ],
+          "confidence": 0.9806880950927734
+        },
+        {
+          "text": "server; receive payments from the referred end users and forward these",
+          "bbox": [
+            279.0,
+            1875.0,
+            2240.0,
+            1917.0
+          ],
+          "confidence": 0.9980217814445496
+        },
+        {
+          "text": "and relevant value added tax (vAT) to the Software Publisher; handle.",
+          "bbox": [
+            283.0,
+            1992.0,
+            2182.0,
+            2023.0
+          ],
+          "confidence": 0.9725064039230347
+        },
+        {
+          "text": "refunds and returns according to the provisions of the underlying share-it!",
+          "bbox": [
+            281.0,
+            2043.0,
+            2378.0,
+            2085.0
+          ],
+          "confidence": 0.9977130889892578
+        },
+        {
+          "text": "administration of the order. The Software Publisher shall provide technical",
+          "bbox": [
+            281.0,
+            2158.0,
+            2376.0,
+            2195.0
+          ],
+          "confidence": 0.9921405911445618
+        },
+        {
+          "text": "end-user service.",
+          "bbox": [
+            283.0,
+            2217.0,
+            747.0,
+            2248.0
+          ],
+          "confidence": 0.9997233152389526
+        },
+        {
+          "text": "(2) element 5 reserves the right to reject queries and orders which do not",
+          "bbox": [
+            286.0,
+            2268.0,
+            2353.0,
+            2310.0
+          ],
+          "confidence": 0.9950853586196899
+        },
+        {
+          "text": "meet its requirements; including, in particular, orders by referred end",
+          "bbox": [
+            276.0,
+            2324.0,
+            2273.0,
+            2366.0
+          ],
+          "confidence": 0.9942187666893005
+        },
+        {
+          "text": "users who do not meet credit requirements, who do not authorize direct",
+          "bbox": [
+            277.0,
+            2383.0,
+            2238.0,
+            2419.0
+          ],
+          "confidence": 0.9796701669692993
+        },
+        {
+          "text": "debiting from their bank account, or who do not present a valid credit",
+          "bbox": [
+            281.0,
+            2440.0,
+            2238.0,
+            2476.0
+          ],
+          "confidence": 0.9971615672111511
+        },
+        {
+          "text": "card.",
+          "bbox": [
+            281.0,
+            2496.0,
+            415.0,
+            2529.0
+          ],
+          "confidence": 0.977444052696228
+        },
+        {
+          "text": "(3) An agreement by the Software Publisher with the referred end user does",
+          "bbox": [
+            281.0,
+            2544.0,
+            2349.0,
+            2591.0
+          ],
+          "confidence": 0.9869856834411621
+        },
+        {
+          "text": "not exist until either a written or electronic order confirmation arrives",
+          "bbox": [
+            279.0,
+            2609.0,
+            2320.0,
+            2641.0
+          ],
+          "confidence": 0.9833658337593079
+        },
+        {
+          "text": "from element 5 in the name of the Software Publisher or when element 5",
+          "bbox": [
+            283.0,
+            2662.0,
+            2240.0,
+            2699.0
+          ],
+          "confidence": 0.9725261330604553
+        },
+        {
+          "text": "begins to fulfill the agreement in the name of the Software Publisher.",
+          "bbox": [
+            277.0,
+            2719.0,
+            2233.0,
+            2756.0
+          ],
+          "confidence": 0.9890894293785095
+        },
+        {
+          "text": "Typographical, printing and computation errors on the web site of the",
+          "bbox": [
+            279.0,
+            2770.0,
+            2211.0,
+            2816.0
+          ],
+          "confidence": 0.9767040014266968
+        },
+        {
+          "text": "Affiliate shall be charged to said Affiliate..",
+          "bbox": [
+            275.0,
+            2829.0,
+            1537.0,
+            2869.0
+          ],
+          "confidence": 0.9782721400260925
+        },
+        {
+          "text": "S 6 Advertising Cost Compensation.",
+          "bbox": [
+            276.0,
+            2905.0,
+            1205.0,
+            2948.0
+          ],
+          "confidence": 0.983925998210907
+        },
+        {
+          "text": "(1) element 5 will pay Affiliate its advertising costs (including Vat, if",
+          "bbox": [
+            286.0,
+            2988.0,
+            2325.0,
+            3030.0
+          ],
+          "confidence": 0.9905508160591125
+        },
+        {
+          "text": "any, on presentation of a valid vAt invoice) if an end user arrives via the",
+          "bbox": [
+            275.0,
+            3039.0,
+            2380.0,
+            3088.0
+          ],
+          "confidence": 0.9858421087265015
+        },
+        {
+          "text": "link integrated in Affiliate's Web site at the order page hosted by element",
+          "bbox": [
+            279.0,
+            3099.0,
+            2378.0,
+            3139.0
+          ],
+          "confidence": 0.9812430739402771
+        },
+        {
+          "text": "5 for the respective Software",
+          "bbox": [
+            277.0,
+            3154.0,
+            1091.0,
+            3196.0
+          ],
+          "confidence": 0.9926391839981079
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.9841791987419128
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Revenue/Profit Sharing_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "For each sale administered by element 5 of the Software under this Agreement, element 5 shall receive an additional service fee of 2% of the gross sales price (including taxes, shipping and handling, etc.) as well as the Advertising Cost Compensation defined in II. § 6 (4) and in addition to VAT or sales tax (where applicable).",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Revenue/Profit Sharing_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "For each sale administered by element 5 of the Software under this Agreement, element 5 shall receive an additional service fee of 2% of the gross sales price (including taxes, shipping and handling, etc.) as well as the Advertising Cost Compensation defined in II. § 6 (4) and in addition to VAT or sales tax (where applicable).",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "II. Affiliate Program",
+          "bbox": [
+            279.0,
+            256.0,
+            868.0,
+            298.0
+          ],
+          "confidence": 0.9956179261207581
+        },
+        {
+          "text": "S l Affiliate Participation",
+          "bbox": [
+            277.0,
+            338.0,
+            1033.0,
+            375.0
+          ],
+          "confidence": 0.9695630669593811
+        },
+        {
+          "text": "Participation of an individual Affiliate in the Program is dependent on",
+          "bbox": [
+            279.0,
+            415.0,
+            2269.0,
+            457.0
+          ],
+          "confidence": 0.9949325919151306
+        },
+        {
+          "text": "activation by the Software Publisher. Once the Affiliate has registered,",
+          "bbox": [
+            279.0,
+            471.0,
+            2287.0,
+            513.0
+          ],
+          "confidence": 0.9899387359619141
+        },
+        {
+          "text": "element 5 will send an e-mail to Software Publisher with a request to",
+          "bbox": [
+            279.0,
+            528.0,
+            2213.0,
+            568.0
+          ],
+          "confidence": 0.9913108944892883
+        },
+        {
+          "text": "and is bound by these General Terms and Conditions..",
+          "bbox": [
+            277.0,
+            696.0,
+            1704.0,
+            738.0
+          ],
+          "confidence": 0.9846166372299194
+        },
+        {
+          "text": "S 2 Products under the Agreement.",
+          "bbox": [
+            275.0,
+            777.0,
+            1173.0,
+            817.0
+          ],
+          "confidence": 0.9893553853034973
+        },
+        {
+          "text": "(1) The Products under the Agreement are software products designated by",
+          "bbox": [
+            286.0,
+            852.0,
+            2296.0,
+            897.0
+          ],
+          "confidence": 0.9911110401153564
+        },
+        {
+          "text": "the respective Software Publisher for this purpose and which can be",
+          "bbox": [
+            281.0,
+            910.0,
+            2160.0,
+            952.0
+          ],
+          "confidence": 0.9877669811248779
+        },
+        {
+          "text": "selected by the Affiliate from a product catalog in the Affiliate Control",
+          "bbox": [
+            281.0,
+            967.0,
+            2325.0,
+            1009.0
+          ],
+          "confidence": 0.9995113015174866
+        },
+        {
+          "text": "Panel.",
+          "bbox": [
+            283.0,
+            1025.0,
+            444.0,
+            1058.0
+          ],
+          "confidence": 0.9983565211296082
+        },
+        {
+          "text": "(2) Following initial activation of a product under the agreement, the",
+          "bbox": [
+            285.0,
+            1078.0,
+            2240.0,
+            1120.0
+          ],
+          "confidence": 0.980927050113678
+        },
+        {
+          "text": "(including those from other Software Publishers), found in the Affiliate's",
+          "bbox": [
+            285.0,
+            1188.0,
+            2354.0,
+            1233.0
+          ],
+          "confidence": 0.9893447160720825
+        },
+        {
+          "text": "Control Panel, and offer them on the Affiliate's web site under these",
+          "bbox": [
+            279.0,
+            1250.0,
+            2213.0,
+            1286.0
+          ],
+          "confidence": 0.9739413261413574
+        },
+        {
+          "text": "is dependent on the Software Publisher activating the Affiliate for the",
+          "bbox": [
+            283.0,
+            1361.0,
+            2267.0,
+            1398.0
+          ],
+          "confidence": 0.9828268885612488
+        },
+        {
+          "text": "respective software.",
+          "bbox": [
+            279.0,
+            1416.0,
+            832.0,
+            1456.0
+          ],
+          "confidence": 0.9760318994522095
+        },
+        {
+          "text": "S 3 Control Panel",
+          "bbox": [
+            275.0,
+            1495.0,
+            752.0,
+            1535.0
+          ],
+          "confidence": 0.981804370880127
+        },
+        {
+          "text": "participation in the Program, the Affiliate will be sent a user ID and a",
+          "bbox": [
+            275.0,
+            1628.0,
+            2300.0,
+            1678.0
+          ],
+          "confidence": 0.9770840406417847
+        },
+        {
+          "text": "a secure online connection, to a secure area on element 5's web server so",
+          "bbox": [
+            274.0,
+            1802.0,
+            2327.0,
+            1842.0
+          ],
+          "confidence": 0.9801403880119324
+        },
+        {
+          "text": "Affiliate has referred, as well as change other settings.",
+          "bbox": [
+            275.0,
+            1910.0,
+            1876.0,
+            1957.0
+          ],
+          "confidence": 0.9840902090072632
+        },
+        {
+          "text": "(2) When using the user ID and password, the Affiliate shall observe the",
+          "bbox": [
+            286.0,
+            1970.0,
+            2298.0,
+            2012.0
+          ],
+          "confidence": 0.9815853834152222
+        },
+        {
+          "text": "following obligations and precautions: (i) Only the Affiliate may use the",
+          "bbox": [
+            281.0,
+            2027.0,
+            2325.0,
+            2069.0
+          ],
+          "confidence": 0.9972405433654785
+        },
+        {
+          "text": "user ID and password. (ii) The password shall be kept strictly.",
+          "bbox": [
+            275.0,
+            2078.0,
+            2019.0,
+            2127.0
+          ],
+          "confidence": 0.9760403037071228
+        },
+        {
+          "text": "confidential. The Affiliate shall take due care to ensure that no",
+          "bbox": [
+            279.0,
+            2138.0,
+            2103.0,
+            2178.0
+          ],
+          "confidence": 0.9938070178031921
+        },
+        {
+          "text": "unauthorized parties learn the password. (iii) If the Affiliate loses its",
+          "bbox": [
+            275.0,
+            2193.0,
+            2325.0,
+            2237.0
+          ],
+          "confidence": 0.9931854009628296
+        },
+        {
+          "text": "password or if there is a possibility that an unauthorized party has.",
+          "bbox": [
+            276.0,
+            2248.0,
+            2184.0,
+            2291.0
+          ],
+          "confidence": 0.9784282445907593
+        },
+        {
+          "text": "learned the user ID and password, the Affiliate shall immediately report",
+          "bbox": [
+            279.0,
+            2306.0,
+            2296.0,
+            2348.0
+          ],
+          "confidence": 0.9929888248443604
+        },
+        {
+          "text": "Control Panel. All actions carried out with the user ID and password will",
+          "bbox": [
+            277.0,
+            2418.0,
+            2322.0,
+            2460.0
+          ],
+          "confidence": 0.9867850542068481
+        },
+        {
+          "text": "be attributed to the Affiliate..",
+          "bbox": [
+            274.0,
+            2474.0,
+            1140.0,
+            2513.0
+          ],
+          "confidence": 0.9877994060516357
+        },
+        {
+          "text": "S 4 Integration of the Link",
+          "bbox": [
+            274.0,
+            2549.0,
+            1037.0,
+            2595.0
+          ],
+          "confidence": 0.9706013202667236
+        },
+        {
+          "text": "(1) The Affiliate shall integrate the product under the agreement using the",
+          "bbox": [
+            288.0,
+            2633.0,
+            2376.0,
+            2670.0
+          ],
+          "confidence": 0.9904496073722839
+        },
+        {
+          "text": "appropriate link on its Web site; the link points to the order form.",
+          "bbox": [
+            277.0,
+            2684.0,
+            2161.0,
+            2734.0
+          ],
+          "confidence": 0.9813225865364075
+        },
+        {
+          "text": "respective product under the agreement. The Link.",
+          "bbox": [
+            279.0,
+            2801.0,
+            1628.0,
+            2842.0
+          ],
+          "confidence": 0.9758926630020142
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            275.0,
+            4446.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.9959125518798828
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Revenue/Profit Sharing_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "The Advertising Cost Compensation depends on the actual sales generated by end users referred via the electronic advertisement (the Affiliate's link).",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        }
+      ]
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Revenue/Profit Sharing_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "Instead of fixed compensation, the Affiliate receives result- dependent Advertising Cost Compensation (also known in the element 5 Control Panel as \"Commission\") in exchange for publishing the advertisements.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Revenue/Profit Sharing_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "Instead of fixed compensation, the Affiliate receives result- dependent Advertising Cost Compensation (also known in the element 5 Control Panel as \"Commission\") in exchange for publishing the advertisements.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "II. Affiliate Program",
+          "bbox": [
+            279.0,
+            256.0,
+            868.0,
+            298.0
+          ],
+          "confidence": 0.9956179261207581
+        },
+        {
+          "text": "S l Affiliate Participation",
+          "bbox": [
+            277.0,
+            338.0,
+            1033.0,
+            375.0
+          ],
+          "confidence": 0.9695630669593811
+        },
+        {
+          "text": "Participation of an individual Affiliate in the Program is dependent on",
+          "bbox": [
+            279.0,
+            415.0,
+            2269.0,
+            457.0
+          ],
+          "confidence": 0.9949325919151306
+        },
+        {
+          "text": "activation by the Software Publisher. Once the Affiliate has registered,",
+          "bbox": [
+            279.0,
+            471.0,
+            2287.0,
+            513.0
+          ],
+          "confidence": 0.9899387359619141
+        },
+        {
+          "text": "element 5 will send an e-mail to Software Publisher with a request to",
+          "bbox": [
+            279.0,
+            528.0,
+            2213.0,
+            568.0
+          ],
+          "confidence": 0.9913108944892883
+        },
+        {
+          "text": "and is bound by these General Terms and Conditions..",
+          "bbox": [
+            277.0,
+            696.0,
+            1704.0,
+            738.0
+          ],
+          "confidence": 0.9846166372299194
+        },
+        {
+          "text": "S 2 Products under the Agreement.",
+          "bbox": [
+            275.0,
+            777.0,
+            1173.0,
+            817.0
+          ],
+          "confidence": 0.9893553853034973
+        },
+        {
+          "text": "(1) The Products under the Agreement are software products designated by",
+          "bbox": [
+            286.0,
+            852.0,
+            2296.0,
+            897.0
+          ],
+          "confidence": 0.9911110401153564
+        },
+        {
+          "text": "the respective Software Publisher for this purpose and which can be",
+          "bbox": [
+            281.0,
+            910.0,
+            2160.0,
+            952.0
+          ],
+          "confidence": 0.9877669811248779
+        },
+        {
+          "text": "selected by the Affiliate from a product catalog in the Affiliate Control",
+          "bbox": [
+            281.0,
+            967.0,
+            2325.0,
+            1009.0
+          ],
+          "confidence": 0.9995113015174866
+        },
+        {
+          "text": "Panel.",
+          "bbox": [
+            283.0,
+            1025.0,
+            444.0,
+            1058.0
+          ],
+          "confidence": 0.9983565211296082
+        },
+        {
+          "text": "(2) Following initial activation of a product under the agreement, the",
+          "bbox": [
+            285.0,
+            1078.0,
+            2240.0,
+            1120.0
+          ],
+          "confidence": 0.980927050113678
+        },
+        {
+          "text": "(including those from other Software Publishers), found in the Affiliate's",
+          "bbox": [
+            285.0,
+            1188.0,
+            2354.0,
+            1233.0
+          ],
+          "confidence": 0.9893447160720825
+        },
+        {
+          "text": "Control Panel, and offer them on the Affiliate's web site under these",
+          "bbox": [
+            279.0,
+            1250.0,
+            2213.0,
+            1286.0
+          ],
+          "confidence": 0.9739413261413574
+        },
+        {
+          "text": "is dependent on the Software Publisher activating the Affiliate for the",
+          "bbox": [
+            283.0,
+            1361.0,
+            2267.0,
+            1398.0
+          ],
+          "confidence": 0.9828268885612488
+        },
+        {
+          "text": "respective software.",
+          "bbox": [
+            279.0,
+            1416.0,
+            832.0,
+            1456.0
+          ],
+          "confidence": 0.9760318994522095
+        },
+        {
+          "text": "S 3 Control Panel",
+          "bbox": [
+            275.0,
+            1495.0,
+            752.0,
+            1535.0
+          ],
+          "confidence": 0.981804370880127
+        },
+        {
+          "text": "participation in the Program, the Affiliate will be sent a user ID and a",
+          "bbox": [
+            275.0,
+            1628.0,
+            2300.0,
+            1678.0
+          ],
+          "confidence": 0.9770840406417847
+        },
+        {
+          "text": "a secure online connection, to a secure area on element 5's web server so",
+          "bbox": [
+            274.0,
+            1802.0,
+            2327.0,
+            1842.0
+          ],
+          "confidence": 0.9801403880119324
+        },
+        {
+          "text": "Affiliate has referred, as well as change other settings.",
+          "bbox": [
+            275.0,
+            1910.0,
+            1876.0,
+            1957.0
+          ],
+          "confidence": 0.9840902090072632
+        },
+        {
+          "text": "(2) When using the user ID and password, the Affiliate shall observe the",
+          "bbox": [
+            286.0,
+            1970.0,
+            2298.0,
+            2012.0
+          ],
+          "confidence": 0.9815853834152222
+        },
+        {
+          "text": "following obligations and precautions: (i) Only the Affiliate may use the",
+          "bbox": [
+            281.0,
+            2027.0,
+            2325.0,
+            2069.0
+          ],
+          "confidence": 0.9972405433654785
+        },
+        {
+          "text": "user ID and password. (ii) The password shall be kept strictly.",
+          "bbox": [
+            275.0,
+            2078.0,
+            2019.0,
+            2127.0
+          ],
+          "confidence": 0.9760403037071228
+        },
+        {
+          "text": "confidential. The Affiliate shall take due care to ensure that no",
+          "bbox": [
+            279.0,
+            2138.0,
+            2103.0,
+            2178.0
+          ],
+          "confidence": 0.9938070178031921
+        },
+        {
+          "text": "unauthorized parties learn the password. (iii) If the Affiliate loses its",
+          "bbox": [
+            275.0,
+            2193.0,
+            2325.0,
+            2237.0
+          ],
+          "confidence": 0.9931854009628296
+        },
+        {
+          "text": "password or if there is a possibility that an unauthorized party has.",
+          "bbox": [
+            276.0,
+            2248.0,
+            2184.0,
+            2291.0
+          ],
+          "confidence": 0.9784282445907593
+        },
+        {
+          "text": "learned the user ID and password, the Affiliate shall immediately report",
+          "bbox": [
+            279.0,
+            2306.0,
+            2296.0,
+            2348.0
+          ],
+          "confidence": 0.9929888248443604
+        },
+        {
+          "text": "Control Panel. All actions carried out with the user ID and password will",
+          "bbox": [
+            277.0,
+            2418.0,
+            2322.0,
+            2460.0
+          ],
+          "confidence": 0.9867850542068481
+        },
+        {
+          "text": "be attributed to the Affiliate..",
+          "bbox": [
+            274.0,
+            2474.0,
+            1140.0,
+            2513.0
+          ],
+          "confidence": 0.9877994060516357
+        },
+        {
+          "text": "S 4 Integration of the Link",
+          "bbox": [
+            274.0,
+            2549.0,
+            1037.0,
+            2595.0
+          ],
+          "confidence": 0.9706013202667236
+        },
+        {
+          "text": "(1) The Affiliate shall integrate the product under the agreement using the",
+          "bbox": [
+            288.0,
+            2633.0,
+            2376.0,
+            2670.0
+          ],
+          "confidence": 0.9904496073722839
+        },
+        {
+          "text": "appropriate link on its Web site; the link points to the order form.",
+          "bbox": [
+            277.0,
+            2684.0,
+            2161.0,
+            2734.0
+          ],
+          "confidence": 0.9813225865364075
+        },
+        {
+          "text": "respective product under the agreement. The Link.",
+          "bbox": [
+            279.0,
+            2801.0,
+            1628.0,
+            2842.0
+          ],
+          "confidence": 0.9758926630020142
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            275.0,
+            4446.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.9959125518798828
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__License Grant_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "Upon activation of the Affiliate, the Software Publisher grants the Affiliate a non-exclusive, revocable right to use provided advertising material, notices and all further presentations (insofar as available - also known hereafter as \"Material\") only for the purpose of designating its Web site as a \"partner Web site\" and presenting the designated advertising Material.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__License Grant_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "Upon activation of the Affiliate, the Software Publisher grants the Affiliate a non-exclusive, revocable right to use provided advertising material, notices and all further presentations (insofar as available - also known hereafter as \"Material\") only for the purpose of designating its Web site as a \"partner Web site\" and presenting the designated advertising Material.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "II. Affiliate Program",
+          "bbox": [
+            279.0,
+            256.0,
+            868.0,
+            298.0
+          ],
+          "confidence": 0.9956179261207581
+        },
+        {
+          "text": "S l Affiliate Participation",
+          "bbox": [
+            277.0,
+            338.0,
+            1033.0,
+            375.0
+          ],
+          "confidence": 0.9695630669593811
+        },
+        {
+          "text": "Participation of an individual Affiliate in the Program is dependent on",
+          "bbox": [
+            279.0,
+            415.0,
+            2269.0,
+            457.0
+          ],
+          "confidence": 0.9949325919151306
+        },
+        {
+          "text": "activation by the Software Publisher. Once the Affiliate has registered,",
+          "bbox": [
+            279.0,
+            471.0,
+            2287.0,
+            513.0
+          ],
+          "confidence": 0.9899387359619141
+        },
+        {
+          "text": "element 5 will send an e-mail to Software Publisher with a request to",
+          "bbox": [
+            279.0,
+            528.0,
+            2213.0,
+            568.0
+          ],
+          "confidence": 0.9913108944892883
+        },
+        {
+          "text": "and is bound by these General Terms and Conditions..",
+          "bbox": [
+            277.0,
+            696.0,
+            1704.0,
+            738.0
+          ],
+          "confidence": 0.9846166372299194
+        },
+        {
+          "text": "S 2 Products under the Agreement.",
+          "bbox": [
+            275.0,
+            777.0,
+            1173.0,
+            817.0
+          ],
+          "confidence": 0.9893553853034973
+        },
+        {
+          "text": "(1) The Products under the Agreement are software products designated by",
+          "bbox": [
+            286.0,
+            852.0,
+            2296.0,
+            897.0
+          ],
+          "confidence": 0.9911110401153564
+        },
+        {
+          "text": "the respective Software Publisher for this purpose and which can be",
+          "bbox": [
+            281.0,
+            910.0,
+            2160.0,
+            952.0
+          ],
+          "confidence": 0.9877669811248779
+        },
+        {
+          "text": "selected by the Affiliate from a product catalog in the Affiliate Control",
+          "bbox": [
+            281.0,
+            967.0,
+            2325.0,
+            1009.0
+          ],
+          "confidence": 0.9995113015174866
+        },
+        {
+          "text": "Panel.",
+          "bbox": [
+            283.0,
+            1025.0,
+            444.0,
+            1058.0
+          ],
+          "confidence": 0.9983565211296082
+        },
+        {
+          "text": "(2) Following initial activation of a product under the agreement, the",
+          "bbox": [
+            285.0,
+            1078.0,
+            2240.0,
+            1120.0
+          ],
+          "confidence": 0.980927050113678
+        },
+        {
+          "text": "(including those from other Software Publishers), found in the Affiliate's",
+          "bbox": [
+            285.0,
+            1188.0,
+            2354.0,
+            1233.0
+          ],
+          "confidence": 0.9893447160720825
+        },
+        {
+          "text": "Control Panel, and offer them on the Affiliate's web site under these",
+          "bbox": [
+            279.0,
+            1250.0,
+            2213.0,
+            1286.0
+          ],
+          "confidence": 0.9739413261413574
+        },
+        {
+          "text": "is dependent on the Software Publisher activating the Affiliate for the",
+          "bbox": [
+            283.0,
+            1361.0,
+            2267.0,
+            1398.0
+          ],
+          "confidence": 0.9828268885612488
+        },
+        {
+          "text": "respective software.",
+          "bbox": [
+            279.0,
+            1416.0,
+            832.0,
+            1456.0
+          ],
+          "confidence": 0.9760318994522095
+        },
+        {
+          "text": "S 3 Control Panel",
+          "bbox": [
+            275.0,
+            1495.0,
+            752.0,
+            1535.0
+          ],
+          "confidence": 0.981804370880127
+        },
+        {
+          "text": "participation in the Program, the Affiliate will be sent a user ID and a",
+          "bbox": [
+            275.0,
+            1628.0,
+            2300.0,
+            1678.0
+          ],
+          "confidence": 0.9770840406417847
+        },
+        {
+          "text": "a secure online connection, to a secure area on element 5's web server so",
+          "bbox": [
+            274.0,
+            1802.0,
+            2327.0,
+            1842.0
+          ],
+          "confidence": 0.9801403880119324
+        },
+        {
+          "text": "Affiliate has referred, as well as change other settings.",
+          "bbox": [
+            275.0,
+            1910.0,
+            1876.0,
+            1957.0
+          ],
+          "confidence": 0.9840902090072632
+        },
+        {
+          "text": "(2) When using the user ID and password, the Affiliate shall observe the",
+          "bbox": [
+            286.0,
+            1970.0,
+            2298.0,
+            2012.0
+          ],
+          "confidence": 0.9815853834152222
+        },
+        {
+          "text": "following obligations and precautions: (i) Only the Affiliate may use the",
+          "bbox": [
+            281.0,
+            2027.0,
+            2325.0,
+            2069.0
+          ],
+          "confidence": 0.9972405433654785
+        },
+        {
+          "text": "user ID and password. (ii) The password shall be kept strictly.",
+          "bbox": [
+            275.0,
+            2078.0,
+            2019.0,
+            2127.0
+          ],
+          "confidence": 0.9760403037071228
+        },
+        {
+          "text": "confidential. The Affiliate shall take due care to ensure that no",
+          "bbox": [
+            279.0,
+            2138.0,
+            2103.0,
+            2178.0
+          ],
+          "confidence": 0.9938070178031921
+        },
+        {
+          "text": "unauthorized parties learn the password. (iii) If the Affiliate loses its",
+          "bbox": [
+            275.0,
+            2193.0,
+            2325.0,
+            2237.0
+          ],
+          "confidence": 0.9931854009628296
+        },
+        {
+          "text": "password or if there is a possibility that an unauthorized party has.",
+          "bbox": [
+            276.0,
+            2248.0,
+            2184.0,
+            2291.0
+          ],
+          "confidence": 0.9784282445907593
+        },
+        {
+          "text": "learned the user ID and password, the Affiliate shall immediately report",
+          "bbox": [
+            279.0,
+            2306.0,
+            2296.0,
+            2348.0
+          ],
+          "confidence": 0.9929888248443604
+        },
+        {
+          "text": "Control Panel. All actions carried out with the user ID and password will",
+          "bbox": [
+            277.0,
+            2418.0,
+            2322.0,
+            2460.0
+          ],
+          "confidence": 0.9867850542068481
+        },
+        {
+          "text": "be attributed to the Affiliate..",
+          "bbox": [
+            274.0,
+            2474.0,
+            1140.0,
+            2513.0
+          ],
+          "confidence": 0.9877994060516357
+        },
+        {
+          "text": "S 4 Integration of the Link",
+          "bbox": [
+            274.0,
+            2549.0,
+            1037.0,
+            2595.0
+          ],
+          "confidence": 0.9706013202667236
+        },
+        {
+          "text": "(1) The Affiliate shall integrate the product under the agreement using the",
+          "bbox": [
+            288.0,
+            2633.0,
+            2376.0,
+            2670.0
+          ],
+          "confidence": 0.9904496073722839
+        },
+        {
+          "text": "appropriate link on its Web site; the link points to the order form.",
+          "bbox": [
+            277.0,
+            2684.0,
+            2161.0,
+            2734.0
+          ],
+          "confidence": 0.9813225865364075
+        },
+        {
+          "text": "respective product under the agreement. The Link.",
+          "bbox": [
+            279.0,
+            2801.0,
+            1628.0,
+            2842.0
+          ],
+          "confidence": 0.9758926630020142
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            275.0,
+            4446.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.9959125518798828
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2
+    },
+    {
+      "id": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement__Cap On Liability_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "answer_text": "This includes in particular the liability exclusion for lost profit, the loss of data or interruption to or errors in the operation of the Web site of the Affiliate.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.8",
+          "bbox": [
+            2045.0,
+            287.0,
+            2380.0,
+            323.0
+          ],
+          "confidence": 0.9967350363731384
+        },
+        {
+          "text": "Affiliate Program / Premium Affiliate Management General.",
+          "bbox": [
+            275.0,
+            336.0,
+            2242.0,
+            387.0
+          ],
+          "confidence": 0.9822485446929932
+        },
+        {
+          "text": "Terms and Conditions",
+          "bbox": [
+            277.0,
+            406.0,
+            979.0,
+            448.0
+          ],
+          "confidence": 0.999058723449707
+        },
+        {
+          "text": "The following General Terms and Conditions are intended for (i) web site",
+          "bbox": [
+            279.0,
+            493.0,
+            2295.0,
+            530.0
+          ],
+          "confidence": 0.9795377254486084
+        },
+        {
+          "text": "the Affiliate Program provided by element 5 (governed by II. and IV. in",
+          "bbox": [
+            281.0,
+            609.0,
+            2273.0,
+            645.0
+          ],
+          "confidence": 0.980105996131897
+        },
+        {
+          "text": "these General Terms and Conditions) on the basis of these General Terms and",
+          "bbox": [
+            283.0,
+            663.0,
+            2383.0,
+            700.0
+          ],
+          "confidence": 0.9835959076881409
+        },
+        {
+          "text": "software products as downloads using the services of element 5 Gmbh,",
+          "bbox": [
+            283.0,
+            777.0,
+            2179.0,
+            813.0
+          ],
+          "confidence": 0.9928607940673828
+        },
+        {
+          "text": "Vogelsanger Strasse 78, 50823 Cologne, Germany and its subsidiaries",
+          "bbox": [
+            279.0,
+            830.0,
+            2157.0,
+            872.0
+          ],
+          "confidence": 0.9779098033905029
+        },
+        {
+          "text": "additional service provided by element 5 (hereafter, \"Affiliate",
+          "bbox": [
+            279.0,
+            943.0,
+            2045.0,
+            985.0
+          ],
+          "confidence": 0.9946566820144653
+        },
+        {
+          "text": "Conditions) for integration of the Affiliate Program provided by element 5.",
+          "bbox": [
+            277.0,
+            1053.0,
+            2373.0,
+            1096.0
+          ],
+          "confidence": 0.9913564920425415
+        },
+        {
+          "text": "I. Object of the Affiliate Program/ Affiliate Management Program for",
+          "bbox": [
+            277.0,
+            1131.0,
+            2184.0,
+            1171.0
+          ],
+          "confidence": 0.9883967041969299
+        },
+        {
+          "text": "Software Publishers",
+          "bbox": [
+            281.0,
+            1190.0,
+            810.0,
+            1226.0
+          ],
+          "confidence": 0.9992343783378601
+        },
+        {
+          "text": "The object of the Affiliate Program provided by element 5 (hereafter,.",
+          "bbox": [
+            277.0,
+            1264.0,
+            2209.0,
+            1312.0
+          ],
+          "confidence": 0.9794264435768127
+        },
+        {
+          "text": "\"Program\") is to publish electronic advertisements on the web site of the",
+          "bbox": [
+            281.0,
+            1325.0,
+            2325.0,
+            1367.0
+          ],
+          "confidence": 0.9928709864616394
+        },
+        {
+          "text": "Affiliate for selected software products offered by element 5 Software",
+          "bbox": [
+            275.0,
+            1380.0,
+            2244.0,
+            1420.0
+          ],
+          "confidence": 0.9969671964645386
+        },
+        {
+          "text": "Publishers. Instead of fixed compensation, the Affiliate receives result-",
+          "bbox": [
+            279.0,
+            1436.0,
+            2322.0,
+            1478.0
+          ],
+          "confidence": 0.9916343092918396
+        },
+        {
+          "text": "Control Panel as \"Commission\") in exchange for publishing the",
+          "bbox": [
+            277.0,
+            1548.0,
+            1988.0,
+            1588.0
+          ],
+          "confidence": 0.9957732558250427
+        },
+        {
+          "text": "advertisements. The Advertising Cost Compensation depends on the actual",
+          "bbox": [
+            277.0,
+            1603.0,
+            2269.0,
+            1646.0
+          ],
+          "confidence": 0.9879474639892578
+        },
+        {
+          "text": "sales generated by end users referred via the electronic advertisement (the",
+          "bbox": [
+            281.0,
+            1661.0,
+            2380.0,
+            1701.0
+          ],
+          "confidence": 0.9938532710075378
+        },
+        {
+          "text": "Affiliate's link).",
+          "bbox": [
+            277.0,
+            1720.0,
+            776.0,
+            1756.0
+          ],
+          "confidence": 0.9988998770713806
+        },
+        {
+          "text": "Within the context of sales processed from this Program, element 5 acts (to",
+          "bbox": [
+            279.0,
+            1798.0,
+            2380.0,
+            1840.0
+          ],
+          "confidence": 0.9876229763031006
+        },
+        {
+          "text": "the end user) as a service provider for Software Publisher and handles the.",
+          "bbox": [
+            283.0,
+            1857.0,
+            2353.0,
+            1893.0
+          ],
+          "confidence": 0.9899809956550598
+        },
+        {
+          "text": "sales process by proxy of Software Publisher in accordance with underlying",
+          "bbox": [
+            281.0,
+            1911.0,
+            2353.0,
+            1953.0
+          ],
+          "confidence": 0.9959762096405029
+        },
+        {
+          "text": "share-it! Developer Agreement. element 5 receives an additional service fee",
+          "bbox": [
+            281.0,
+            1964.0,
+            2380.0,
+            2006.0
+          ],
+          "confidence": 0.997452974319458
+        },
+        {
+          "text": "Under the terms of this Affiliate Management, \"Software Publisher's Control",
+          "bbox": [
+            279.0,
+            2100.0,
+            2378.0,
+            2142.0
+          ],
+          "confidence": 0.9848306179046631
+        },
+        {
+          "text": "and End User data through a secure online connection and change Software",
+          "bbox": [
+            281.0,
+            2273.0,
+            2295.0,
+            2304.0
+          ],
+          "confidence": 0.9946388602256775
+        },
+        {
+          "text": "Publisher related settings, e.g. the commission of the Affiliate and.",
+          "bbox": [
+            277.0,
+            2321.0,
+            2190.0,
+            2366.0
+          ],
+          "confidence": 0.9662193655967712
+        },
+        {
+          "text": "activation and deactivation of the Affiliate..",
+          "bbox": [
+            279.0,
+            2381.0,
+            1539.0,
+            2418.0
+          ],
+          "confidence": 0.977988600730896
+        },
+        {
+          "text": "interface on element 5's web servers that allows the Affiliate to (i) gain",
+          "bbox": [
+            279.0,
+            2516.0,
+            2349.0,
+            2556.0
+          ],
+          "confidence": 0.9897407293319702
+        },
+        {
+          "text": "Affiliate related settings, e.g. input or alteration of personal data,",
+          "bbox": [
+            276.0,
+            2630.0,
+            2233.0,
+            2673.0
+          ],
+          "confidence": 0.992551326751709
+        },
+        {
+          "text": "definition of default style within the context of the given technical",
+          "bbox": [
+            281.0,
+            2688.0,
+            2211.0,
+            2725.0
+          ],
+          "confidence": 0.9867755174636841
+        },
+        {
+          "text": "limitations, and requests for new partnerships with Software Publishers or",
+          "bbox": [
+            277.0,
+            2739.0,
+            2356.0,
+            2785.0
+          ],
+          "confidence": 0.982589840888977
+        },
+        {
+          "text": "termination of existing partnerships..",
+          "bbox": [
+            279.0,
+            2798.0,
+            1309.0,
+            2838.0
+          ],
+          "confidence": 0.9860388040542603
+        },
+        {
+          "text": "Source: SOUTHERN STAR ENERGY INC., SB-2/A, 12/2/2005",
+          "bbox": [
+            277.0,
+            4450.0,
+            1448.0,
+            4486.0
+          ],
+          "confidence": 0.984302818775177
+        }
+      ]
+    }
+  ]
+}

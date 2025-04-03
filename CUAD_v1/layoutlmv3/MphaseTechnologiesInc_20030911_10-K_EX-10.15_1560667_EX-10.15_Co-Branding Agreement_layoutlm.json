@@ -1,0 +1,3741 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Co_Branding\\MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+  "annotations": [
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "CO-BRANDING AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ],
+          "confidence": 0.9961764216423035
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "(each individually, \"a Party\" and, collectively, \"the Parties\"}.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Norwalk, Connecticut O68545 (\"mPhase\") (each individually, \"a Party\" and,",
+          "bbox": [
+            274.0,
+            789.0,
+            2320.0,
+            835.0
+          ],
+          "confidence": 0.9898900985717773
+        },
+        {
+          "text": "collectively, \"the Parties\"}..",
+          "bbox": [
+            277.0,
+            844.0,
+            1089.0,
+            890.0
+          ],
+          "confidence": 0.9835113286972046
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "mPhase",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Lucent Technologies Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ],
+          "confidence": 0.9961764216423035
+        },
+        {
+          "text": "Technologies Inc., a Delaware corporation having a principal place of business",
+          "bbox": [
+            283.0,
+            627.0,
+            2463.0,
+            663.0
+          ],
+          "confidence": 0.9875529408454895
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Lucent",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "mPhase Technologies Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        },
+        {
+          "text": "Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue,",
+          "bbox": [
+            279.0,
+            736.0,
+            2456.0,
+            780.0
+          ],
+          "confidence": 0.9939753413200378
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Agreement Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "21st day of January 2003",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "parties. Nothing contained in this paragraph shall be construed to",
+          "bbox": [
+            527.0,
+            256.0,
+            2382.0,
+            302.0
+          ],
+          "confidence": 0.9975888729095459
+        },
+        {
+          "text": "require Lucent to enforce any rights against third parties or to",
+          "bbox": [
+            533.0,
+            316.0,
+            2327.0,
+            358.0
+          ],
+          "confidence": 0.9963233470916748
+        },
+        {
+          "text": "restrict Lucent's rights to license or consent to such third parties'",
+          "bbox": [
+            531.0,
+            373.0,
+            2456.0,
+            409.0
+          ],
+          "confidence": 0.9894432425498962
+        },
+        {
+          "text": "11.",
+          "bbox": [
+            276.0,
+            537.0,
+            359.0,
+            579.0
+          ],
+          "confidence": 0.9970027804374695
+        },
+        {
+          "text": "The Term of this Agreement will commence on the date above, and shall",
+          "bbox": [
+            531.0,
+            541.0,
+            2460.0,
+            577.0
+          ],
+          "confidence": 0.9966249465942383
+        },
+        {
+          "text": "continue for a term of one (l) year. mPhase shall have the right to",
+          "bbox": [
+            533.0,
+            596.0,
+            2411.0,
+            638.0
+          ],
+          "confidence": 0.9906064867973328
+        },
+        {
+          "text": "annually renew this agreement for a period of one year upon each annual",
+          "bbox": [
+            529.0,
+            649.0,
+            2519.0,
+            694.0
+          ],
+          "confidence": 0.9958724975585938
+        },
+        {
+          "text": "expiration with the written consent of Lucent, which written consent",
+          "bbox": [
+            535.0,
+            711.0,
+            2436.0,
+            747.0
+          ],
+          "confidence": 0.9993109703063965
+        },
+        {
+          "text": "shall not be unreasonably withheld. Either party wishing to terminate",
+          "bbox": [
+            533.0,
+            764.0,
+            2463.0,
+            806.0
+          ],
+          "confidence": 0.9864704012870789
+        },
+        {
+          "text": "the Agreement must give written notice to the other party at least",
+          "bbox": [
+            531.0,
+            819.0,
+            2382.0,
+            863.0
+          ],
+          "confidence": 0.9842764139175415
+        },
+        {
+          "text": "thirty (30) days prior to the desired date of termination.",
+          "bbox": [
+            533.0,
+            875.0,
+            2151.0,
+            916.0
+          ],
+          "confidence": 0.9925227761268616
+        },
+        {
+          "text": "12.",
+          "bbox": [
+            276.0,
+            985.0,
+            357.0,
+            1027.0
+          ],
+          "confidence": 0.9999229907989502
+        },
+        {
+          "text": "of the Lucent Co-Branding Logo, provided, however, that mPhase shall.",
+          "bbox": [
+            527.0,
+            1042.0,
+            2436.0,
+            1087.0
+          ],
+          "confidence": 0.9853996634483337
+        },
+        {
+          "text": "poos spoon Aue uong obot buopueng-oy yons aaounn on uonoebnoqo ou aaey",
+          "bbox": [
+            526.0,
+            1098.0,
+            2494.0,
+            1142.0
+          ],
+          "confidence": 0.6139937043190002
+        },
+        {
+          "text": "prior to the date of such termination.",
+          "bbox": [
+            529.0,
+            1155.0,
+            1590.0,
+            1197.0
+          ],
+          "confidence": 0.988990068435669
+        },
+        {
+          "text": "13.",
+          "bbox": [
+            276.0,
+            1434.0,
+            359.0,
+            1476.0
+          ],
+          "confidence": 0.9999712109565735
+        },
+        {
+          "text": "Neither Party shall be liable to the other for special, incidental, or",
+          "bbox": [
+            527.0,
+            1436.0,
+            2496.0,
+            1478.0
+          ],
+          "confidence": 0.9875613451004028
+        },
+        {
+          "text": "dan do padrape uaeq dey Aoned yond dt ueae 'sabeeep dedeuenbasue?",
+          "bbox": [
+            529.0,
+            1493.0,
+            2356.0,
+            1535.0
+          ],
+          "confidence": 0.5207576751708984
+        },
+        {
+          "text": "possibility of such damages.",
+          "bbox": [
+            526.0,
+            1548.0,
+            1320.0,
+            1593.0
+          ],
+          "confidence": 0.9998908042907715
+        },
+        {
+          "text": "14.",
+          "bbox": [
+            276.0,
+            1659.0,
+            357.0,
+            1701.0
+          ],
+          "confidence": 0.9999203681945801
+        },
+        {
+          "text": "This Agreement shall not be assigned by mPhase without the prior",
+          "bbox": [
+            533.0,
+            1665.0,
+            2322.0,
+            1701.0
+          ],
+          "confidence": 0.9984661340713501
+        },
+        {
+          "text": "written consent of Lucent.",
+          "bbox": [
+            531.0,
+            1720.0,
+            1256.0,
+            1756.0
+          ],
+          "confidence": 0.9997057318687439
+        },
+        {
+          "text": "15.",
+          "bbox": [
+            276.0,
+            1827.0,
+            359.0,
+            1869.0
+          ],
+          "confidence": 0.9999602437019348
+        },
+        {
+          "text": "The validity, construction and performance of this Agreement shall be",
+          "bbox": [
+            529.0,
+            1827.0,
+            2463.0,
+            1873.0
+          ],
+          "confidence": 0.9877930879592896
+        },
+        {
+          "text": "governed by the laws of the State of New York..",
+          "bbox": [
+            533.0,
+            1882.0,
+            1816.0,
+            1928.0
+          ],
+          "confidence": 0.9947665333747864
+        },
+        {
+          "text": "16.",
+          "bbox": [
+            271.0,
+            1989.0,
+            361.0,
+            2042.0
+          ],
+          "confidence": 0.9999143481254578
+        },
+        {
+          "text": "This Agreement, including the Schedules and Addenda hereto, constitutes.",
+          "bbox": [
+            533.0,
+            2001.0,
+            2518.0,
+            2037.0
+          ],
+          "confidence": 0.9831766486167908
+        },
+        {
+          "text": "hereof and supersedes all proposals, oral or written, all negotiations,",
+          "bbox": [
+            526.0,
+            2107.0,
+            2512.0,
+            2154.0
+          ],
+          "confidence": 0.9950103759765625
+        },
+        {
+          "text": "conversations, and/or discussions between the Parties relating to this",
+          "bbox": [
+            527.0,
+            2165.0,
+            2494.0,
+            2209.0
+          ],
+          "confidence": 0.9996697306632996
+        },
+        {
+          "text": "Agreement and all past courses of dealing or industry customs..",
+          "bbox": [
+            529.0,
+            2222.0,
+            2269.0,
+            2264.0
+          ],
+          "confidence": 0.9843481183052063
+        },
+        {
+          "text": "IN wITNEss whEREoF, the Parties by their duly authorized representatives, have",
+          "bbox": [
+            281.0,
+            2337.0,
+            2463.0,
+            2374.0
+          ],
+          "confidence": 0.9588136672973633
+        },
+        {
+          "text": "Lucent Technologies Inc.",
+          "bbox": [
+            277.0,
+            2558.0,
+            941.0,
+            2599.0
+          ],
+          "confidence": 0.9780173301696777
+        },
+        {
+          "text": "mPhase, Inc.",
+          "bbox": [
+            1457.0,
+            2562.0,
+            1787.0,
+            2598.0
+          ],
+          "confidence": 0.9977166056632996
+        },
+        {
+          "text": "By:",
+          "bbox": [
+            276.0,
+            2673.0,
+            362.0,
+            2714.0
+          ],
+          "confidence": 0.999673068523407
+        },
+        {
+          "text": "/s/ D. Laurence Padilla",
+          "bbox": [
+            415.0,
+            2670.0,
+            1060.0,
+            2710.0
+          ],
+          "confidence": 0.9858275055885315
+        },
+        {
+          "text": "By:",
+          "bbox": [
+            1451.0,
+            2669.0,
+            1552.0,
+            2716.0
+          ],
+          "confidence": 0.998282253742218
+        },
+        {
+          "text": "/s/ Ron Durando.",
+          "bbox": [
+            1590.0,
+            2672.0,
+            2014.0,
+            2710.0
+          ],
+          "confidence": 0.9836374521255493
+        },
+        {
+          "text": "D. Laurence Padilla.",
+          "bbox": [
+            419.0,
+            2785.0,
+            948.0,
+            2821.0
+          ],
+          "confidence": 0.9603883624076843
+        },
+        {
+          "text": "Ron Durando",
+          "bbox": [
+            1595.0,
+            2785.0,
+            1903.0,
+            2821.0
+          ],
+          "confidence": 0.9615882635116577
+        },
+        {
+          "text": "President -",
+          "bbox": [
+            422.0,
+            2843.0,
+            721.0,
+            2874.0
+          ],
+          "confidence": 0.9888914227485657
+        },
+        {
+          "text": "Chief Executive Officer",
+          "bbox": [
+            1600.0,
+            2843.0,
+            2237.0,
+            2874.0
+          ],
+          "confidence": 0.9841291308403015
+        },
+        {
+          "text": "Intellectual Property Business",
+          "bbox": [
+            417.0,
+            2896.0,
+            1256.0,
+            2937.0
+          ],
+          "confidence": 0.9986258745193481
+        },
+        {
+          "text": "Date:",
+          "bbox": [
+            279.0,
+            3010.0,
+            473.0,
+            3046.0
+          ],
+          "confidence": 0.9928909540176392
+        },
+        {
+          "text": "1/28/03",
+          "bbox": [
+            466.0,
+            3008.0,
+            667.0,
+            3046.0
+          ],
+          "confidence": 0.9990272521972656
+        },
+        {
+          "text": "Date:",
+          "bbox": [
+            1459.0,
+            3011.0,
+            1600.0,
+            3044.0
+          ],
+          "confidence": 0.998759388923645
+        },
+        {
+          "text": "01/21/03",
+          "bbox": [
+            1653.0,
+            3008.0,
+            1874.0,
+            3046.0
+          ],
+          "confidence": 0.9994519352912903
+        },
+        {
+          "text": "Schedule A",
+          "bbox": [
+            1262.0,
+            3457.0,
+            1542.0,
+            3494.0
+          ],
+          "confidence": 0.9829204678535461
+        },
+        {
+          "text": "Technology",
+          "bbox": [
+            1145.0,
+            3731.0,
+            1429.0,
+            3785.0
+          ],
+          "confidence": 0.9997809529304504
+        },
+        {
+          "text": "By",
+          "bbox": [
+            1138.0,
+            3788.0,
+            1211.0,
+            3843.0
+          ],
+          "confidence": 0.9990500211715698
+        },
+        {
+          "text": "[graphic]",
+          "bbox": [
+            1294.0,
+            3907.0,
+            1535.0,
+            3951.0
+          ],
+          "confidence": 0.9993189573287964
+        },
+        {
+          "text": "Lucent Technologies.",
+          "bbox": [
+            1122.0,
+            3965.0,
+            1648.0,
+            4002.0
+          ],
+          "confidence": 0.9816370010375977
+        },
+        {
+          "text": "Source: MPHASE TECHNOLOGIES INC, 10-K, 9/11/2003",
+          "bbox": [
+            275.0,
+            4446.0,
+            1370.0,
+            4486.0
+          ],
+          "confidence": 0.9865215420722961
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "The Term of this Agreement will commence on the date above, and shall          continue for a term of one (1) year",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.15",
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ],
+          "confidence": 0.988447904586792
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ],
+          "confidence": 0.9961764216423035
+        },
+        {
+          "text": "Technologies Inc., a Delaware corporation having a principal place of business",
+          "bbox": [
+            283.0,
+            627.0,
+            2463.0,
+            663.0
+          ],
+          "confidence": 0.9875529408454895
+        },
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        },
+        {
+          "text": "Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue,",
+          "bbox": [
+            279.0,
+            736.0,
+            2456.0,
+            780.0
+          ],
+          "confidence": 0.9939753413200378
+        },
+        {
+          "text": "Norwalk, Connecticut O68545 (\"mPhase\") (each individually, \"a Party\" and,",
+          "bbox": [
+            274.0,
+            789.0,
+            2320.0,
+            835.0
+          ],
+          "confidence": 0.9898900985717773
+        },
+        {
+          "text": "collectively, \"the Parties\"}..",
+          "bbox": [
+            277.0,
+            844.0,
+            1089.0,
+            890.0
+          ],
+          "confidence": 0.9835113286972046
+        },
+        {
+          "text": "WhEREAs, mPhase wishes to use the Lucent Technologies name and Logo and the.",
+          "bbox": [
+            279.0,
+            963.0,
+            2378.0,
+            1000.0
+          ],
+          "confidence": 0.9819630980491638
+        },
+        {
+          "text": "packaging and in printed marketing materials (\"Approved Uses\") in connection",
+          "bbox": [
+            275.0,
+            1069.0,
+            2409.0,
+            1117.0
+          ],
+          "confidence": 0.9961495399475098
+        },
+        {
+          "text": "with its multi-access product (the \"Goods\") and Lucent wishes to permit mPhase",
+          "bbox": [
+            279.0,
+            1127.0,
+            2463.0,
+            1170.0
+          ],
+          "confidence": 0.9955557584762573
+        },
+        {
+          "text": "to do so.",
+          "bbox": [
+            279.0,
+            1182.0,
+            529.0,
+            1225.0
+          ],
+          "confidence": 0.9999181032180786
+        },
+        {
+          "text": "Now ThEREFoRE, the Parties, for good and valuable consideration, the receipt and",
+          "bbox": [
+            277.0,
+            1297.0,
+            2518.0,
+            1334.0
+          ],
+          "confidence": 0.9719322919845581
+        },
+        {
+          "text": "sufficiency of which are hereby acknowledged, agree as follows:",
+          "bbox": [
+            281.0,
+            1352.0,
+            2046.0,
+            1394.0
+          ],
+          "confidence": 0.9891600012779236
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            277.0,
+            1466.0,
+            324.0,
+            1502.0
+          ],
+          "confidence": 0.998641848564148
+        },
+        {
+          "text": "Sty? Jo y apnpayds uo umoys obot yoexa ay? Apuo Agdde Aew nseyae",
+          "bbox": [
+            527.0,
+            1466.0,
+            2324.0,
+            1508.0
+          ],
+          "confidence": 0.7599636316299438
+        },
+        {
+          "text": "Goods.",
+          "bbox": [
+            529.0,
+            1577.0,
+            696.0,
+            1615.0
+          ],
+          "confidence": 0.9992884993553162
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            274.0,
+            1687.0,
+            330.0,
+            1730.0
+          ],
+          "confidence": 0.9997860193252563
+        },
+        {
+          "text": "mPhase agrees to abide by the guidelines appearing on Schedule B of",
+          "bbox": [
+            526.0,
+            1687.0,
+            2411.0,
+            1731.0
+          ],
+          "confidence": 0.9964214563369751
+        },
+        {
+          "text": "this Agreement specifying the dimensions, requirements and",
+          "bbox": [
+            533.0,
+            1743.0,
+            2161.0,
+            1787.0
+          ],
+          "confidence": 0.9983786940574646
+        },
+        {
+          "text": "dq Aeu saunnapdnb dsay? ney? spuenanapun dseyae :obot bunpueng-o?",
+          "bbox": [
+            527.0,
+            1857.0,
+            2354.0,
+            1900.0
+          ],
+          "confidence": 0.5843396186828613
+        },
+        {
+          "text": "Tam de daaepdn asoae Aq apdqe oo saaabe pue aue? oo aue? uone paaepdn",
+          "bbox": [
+            529.0,
+            1911.0,
+            2492.0,
+            1957.0
+          ],
+          "confidence": 0.5914430618286133
+        },
+        {
+          "text": "as the quidelines provided herein.",
+          "bbox": [
+            533.0,
+            1975.0,
+            1479.0,
+            2006.0
+          ],
+          "confidence": 0.9772467613220215
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            277.0,
+            2081.0,
+            330.0,
+            2120.0
+          ],
+          "confidence": 0.999845027923584
+        },
+        {
+          "text": "mark shown on Schedule A or the marks and names LucENT, LucENT",
+          "bbox": [
+            529.0,
+            2195.0,
+            2269.0,
+            2231.0
+          ],
+          "confidence": 0.9724555015563965
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN, LuCent may upon written",
+          "bbox": [
+            529.0,
+            2251.0,
+            2494.0,
+            2293.0
+          ],
+          "confidence": 0.9775048494338989
+        },
+        {
+          "text": "notification to mPhase, terminate this Agreement.",
+          "bbox": [
+            529.0,
+            2308.0,
+            1900.0,
+            2344.0
+          ],
+          "confidence": 0.9897158741950989
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            279.0,
+            2418.0,
+            328.0,
+            2456.0
+          ],
+          "confidence": 0.9996452331542969
+        },
+        {
+          "text": "mPhase agrees that it acquires no rights to the Lucent Co-Branding Logo",
+          "bbox": [
+            526.0,
+            2418.0,
+            2521.0,
+            2461.0
+          ],
+          "confidence": 0.9996035695075989
+        },
+        {
+          "text": "nor to the marks LUCENT, LUCENT TECHNOLOGIES or LUCENT INNOVATION RING",
+          "bbox": [
+            526.0,
+            2472.0,
+            2494.0,
+            2516.0
+          ],
+          "confidence": 0.9837826490402222
+        },
+        {
+          "text": "Aq obot bugpueag-oy quaant ay? Jo asn Aue leya pue asn sat Aq 'Nsisad",
+          "bbox": [
+            529.0,
+            2529.0,
+            2465.0,
+            2577.0
+          ],
+          "confidence": 0.7214436531066895
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            277.0,
+            2699.0,
+            326.0,
+            2736.0
+          ],
+          "confidence": 0.9996107220649719
+        },
+        {
+          "text": "mPhase agrees not to adopt any designation which is confusingly similan",
+          "bbox": [
+            527.0,
+            2699.0,
+            2519.0,
+            2741.0
+          ],
+          "confidence": 0.9791131615638733
+        },
+        {
+          "text": "to the Lucent Co-Branding Logo or Lucent's marks LucENT, LucENT.",
+          "bbox": [
+            529.0,
+            2757.0,
+            2300.0,
+            2794.0
+          ],
+          "confidence": 0.9586364030838013
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN. Any attempt to do so",
+          "bbox": [
+            529.0,
+            2810.0,
+            2405.0,
+            2853.0
+          ],
+          "confidence": 0.9844139218330383
+        },
+        {
+          "text": "shall be a breach of this Agreement and Lucent may terminate this",
+          "bbox": [
+            535.0,
+            2871.0,
+            2353.0,
+            2907.0
+          ],
+          "confidence": 0.9889964461326599
+        },
+        {
+          "text": "Agreement without notice in the event of such a breach.",
+          "bbox": [
+            529.0,
+            2924.0,
+            2068.0,
+            2964.0
+          ],
+          "confidence": 0.9949379563331604
+        },
+        {
+          "text": "6.",
+          "bbox": [
+            274.0,
+            3143.0,
+            332.0,
+            3190.0
+          ],
+          "confidence": 0.9964065551757812
+        },
+        {
+          "text": "This Agreement shall terminate in the event of a significant change in.",
+          "bbox": [
+            535.0,
+            3150.0,
+            2490.0,
+            3187.0
+          ],
+          "confidence": 0.9846266508102417
+        },
+        {
+          "text": "subject of any bankruptcy proceedings..",
+          "bbox": [
+            535.0,
+            3262.0,
+            1595.0,
+            3306.0
+          ],
+          "confidence": 0.9848042130470276
+        },
+        {
+          "text": "7",
+          "bbox": [
+            279.0,
+            3375.0,
+            317.0,
+            3404.0
+          ],
+          "confidence": 0.9614723920822144
+        },
+        {
+          "text": "mPhase agrees to maintain the quality of its Goods associated with the",
+          "bbox": [
+            526.0,
+            3426.0,
+            2494.0,
+            3472.0
+          ],
+          "confidence": 0.9720927476882935
+        },
+        {
+          "text": "quality of their Goods..",
+          "bbox": [
+            533.0,
+            3539.0,
+            1176.0,
+            3584.0
+          ],
+          "confidence": 0.9786459803581238
+        },
+        {
+          "text": "8.",
+          "bbox": [
+            279.0,
+            3653.0,
+            332.0,
+            3691.0
+          ],
+          "confidence": 0.9998865723609924
+        },
+        {
+          "text": "If Lucent determines that mPhase's Goods are no longer maintained at.",
+          "bbox": [
+            533.0,
+            3655.0,
+            2434.0,
+            3691.0
+          ],
+          "confidence": 0.9915180206298828
+        },
+        {
+          "text": "the current level of quality, Lucent shall so notify mPhase, in",
+          "bbox": [
+            531.0,
+            3710.0,
+            2298.0,
+            3752.0
+          ],
+          "confidence": 0.9877910017967224
+        },
+        {
+          "text": "9.",
+          "bbox": [
+            279.0,
+            3876.0,
+            328.0,
+            3916.0
+          ],
+          "confidence": 0.9996653199195862
+        },
+        {
+          "text": "approved pursuant to the procedure set forth in Schedule B continue to",
+          "bbox": [
+            529.0,
+            3987.0,
+            2494.0,
+            4035.0
+          ],
+          "confidence": 0.9802238345146179
+        },
+        {
+          "text": "be in compliance with the terms of this Agreement.",
+          "bbox": [
+            527.0,
+            4046.0,
+            1927.0,
+            4086.0
+          ],
+          "confidence": 0.9838761687278748
+        },
+        {
+          "text": "10.",
+          "bbox": [
+            276.0,
+            4155.0,
+            359.0,
+            4197.0
+          ],
+          "confidence": 0.9998547434806824
+        },
+        {
+          "text": "dyn oo aan pnhgnoynneun Aue oo aneme saeenaq aseyae neye nueae dyn uI",
+          "bbox": [
+            531.0,
+            4159.0,
+            2461.0,
+            4201.0
+          ],
+          "confidence": 0.5199352502822876
+        },
+        {
+          "text": "Lucent Co-Branding Logo or other Lucent marks by third parties, mPhase.",
+          "bbox": [
+            529.0,
+            4218.0,
+            2489.0,
+            4254.0
+          ],
+          "confidence": 0.993131697177887
+        },
+        {
+          "text": "agrees to promptly notify Lucent and to cooperate fully, at Lucent's",
+          "bbox": [
+            531.0,
+            4272.0,
+            2434.0,
+            4313.0
+          ],
+          "confidence": 0.9997552037239075
+        },
+        {
+          "text": "expense, in any enforcement of Lucent's rights against such third",
+          "bbox": [
+            531.0,
+            4325.0,
+            2354.0,
+            4367.0
+          ],
+          "confidence": 0.9925361275672913
+        },
+        {
+          "text": "Source: MPHASE TECHNOLOGIES INC, 10-K, 9/11/2003",
+          "bbox": [
+            276.0,
+            4448.0,
+            1368.0,
+            4484.0
+          ],
+          "confidence": 0.9939214587211609
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Renewal Term_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.",
+      "answer_text": "mPhase shall have the right to          annually renew this agreement for a period of one year upon each annual          expiration with the written consent of Lucent, which written consent          shall not be unreasonably withheld.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "continue for a term of one (l) year. mPhase shall have the right to",
+          "bbox": [
+            533.0,
+            596.0,
+            2411.0,
+            638.0
+          ],
+          "confidence": 0.9906064867973328
+        },
+        {
+          "text": "annually renew this agreement for a period of one year upon each annual",
+          "bbox": [
+            529.0,
+            649.0,
+            2519.0,
+            694.0
+          ],
+          "confidence": 0.9958724975585938
+        },
+        {
+          "text": "expiration with the written consent of Lucent, which written consent",
+          "bbox": [
+            535.0,
+            711.0,
+            2436.0,
+            747.0
+          ],
+          "confidence": 0.9993109703063965
+        },
+        {
+          "text": "shall not be unreasonably withheld. Either party wishing to terminate",
+          "bbox": [
+            533.0,
+            764.0,
+            2463.0,
+            806.0
+          ],
+          "confidence": 0.9864704012870789
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Governing Law_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "The validity, construction and performance of this Agreement shall be          governed by the laws of the State of New York.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.15",
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ],
+          "confidence": 0.988447904586792
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ],
+          "confidence": 0.9961764216423035
+        },
+        {
+          "text": "Technologies Inc., a Delaware corporation having a principal place of business",
+          "bbox": [
+            283.0,
+            627.0,
+            2463.0,
+            663.0
+          ],
+          "confidence": 0.9875529408454895
+        },
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        },
+        {
+          "text": "Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue,",
+          "bbox": [
+            279.0,
+            736.0,
+            2456.0,
+            780.0
+          ],
+          "confidence": 0.9939753413200378
+        },
+        {
+          "text": "Norwalk, Connecticut O68545 (\"mPhase\") (each individually, \"a Party\" and,",
+          "bbox": [
+            274.0,
+            789.0,
+            2320.0,
+            835.0
+          ],
+          "confidence": 0.9898900985717773
+        },
+        {
+          "text": "collectively, \"the Parties\"}..",
+          "bbox": [
+            277.0,
+            844.0,
+            1089.0,
+            890.0
+          ],
+          "confidence": 0.9835113286972046
+        },
+        {
+          "text": "WhEREAs, mPhase wishes to use the Lucent Technologies name and Logo and the.",
+          "bbox": [
+            279.0,
+            963.0,
+            2378.0,
+            1000.0
+          ],
+          "confidence": 0.9819630980491638
+        },
+        {
+          "text": "packaging and in printed marketing materials (\"Approved Uses\") in connection",
+          "bbox": [
+            275.0,
+            1069.0,
+            2409.0,
+            1117.0
+          ],
+          "confidence": 0.9961495399475098
+        },
+        {
+          "text": "with its multi-access product (the \"Goods\") and Lucent wishes to permit mPhase",
+          "bbox": [
+            279.0,
+            1127.0,
+            2463.0,
+            1170.0
+          ],
+          "confidence": 0.9955557584762573
+        },
+        {
+          "text": "to do so.",
+          "bbox": [
+            279.0,
+            1182.0,
+            529.0,
+            1225.0
+          ],
+          "confidence": 0.9999181032180786
+        },
+        {
+          "text": "Now ThEREFoRE, the Parties, for good and valuable consideration, the receipt and",
+          "bbox": [
+            277.0,
+            1297.0,
+            2518.0,
+            1334.0
+          ],
+          "confidence": 0.9719322919845581
+        },
+        {
+          "text": "sufficiency of which are hereby acknowledged, agree as follows:",
+          "bbox": [
+            281.0,
+            1352.0,
+            2046.0,
+            1394.0
+          ],
+          "confidence": 0.9891600012779236
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            277.0,
+            1466.0,
+            324.0,
+            1502.0
+          ],
+          "confidence": 0.998641848564148
+        },
+        {
+          "text": "Sty? Jo y apnpayds uo umoys obot yoexa ay? Apuo Agdde Aew nseyae",
+          "bbox": [
+            527.0,
+            1466.0,
+            2324.0,
+            1508.0
+          ],
+          "confidence": 0.7599636316299438
+        },
+        {
+          "text": "Goods.",
+          "bbox": [
+            529.0,
+            1577.0,
+            696.0,
+            1615.0
+          ],
+          "confidence": 0.9992884993553162
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            274.0,
+            1687.0,
+            330.0,
+            1730.0
+          ],
+          "confidence": 0.9997860193252563
+        },
+        {
+          "text": "mPhase agrees to abide by the guidelines appearing on Schedule B of",
+          "bbox": [
+            526.0,
+            1687.0,
+            2411.0,
+            1731.0
+          ],
+          "confidence": 0.9964214563369751
+        },
+        {
+          "text": "this Agreement specifying the dimensions, requirements and",
+          "bbox": [
+            533.0,
+            1743.0,
+            2161.0,
+            1787.0
+          ],
+          "confidence": 0.9983786940574646
+        },
+        {
+          "text": "dq Aeu saunnapdnb dsay? ney? spuenanapun dseyae :obot bunpueng-o?",
+          "bbox": [
+            527.0,
+            1857.0,
+            2354.0,
+            1900.0
+          ],
+          "confidence": 0.5843396186828613
+        },
+        {
+          "text": "Tam de daaepdn asoae Aq apdqe oo saaabe pue aue? oo aue? uone paaepdn",
+          "bbox": [
+            529.0,
+            1911.0,
+            2492.0,
+            1957.0
+          ],
+          "confidence": 0.5914430618286133
+        },
+        {
+          "text": "as the quidelines provided herein.",
+          "bbox": [
+            533.0,
+            1975.0,
+            1479.0,
+            2006.0
+          ],
+          "confidence": 0.9772467613220215
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            277.0,
+            2081.0,
+            330.0,
+            2120.0
+          ],
+          "confidence": 0.999845027923584
+        },
+        {
+          "text": "mark shown on Schedule A or the marks and names LucENT, LucENT",
+          "bbox": [
+            529.0,
+            2195.0,
+            2269.0,
+            2231.0
+          ],
+          "confidence": 0.9724555015563965
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN, LuCent may upon written",
+          "bbox": [
+            529.0,
+            2251.0,
+            2494.0,
+            2293.0
+          ],
+          "confidence": 0.9775048494338989
+        },
+        {
+          "text": "notification to mPhase, terminate this Agreement.",
+          "bbox": [
+            529.0,
+            2308.0,
+            1900.0,
+            2344.0
+          ],
+          "confidence": 0.9897158741950989
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            279.0,
+            2418.0,
+            328.0,
+            2456.0
+          ],
+          "confidence": 0.9996452331542969
+        },
+        {
+          "text": "mPhase agrees that it acquires no rights to the Lucent Co-Branding Logo",
+          "bbox": [
+            526.0,
+            2418.0,
+            2521.0,
+            2461.0
+          ],
+          "confidence": 0.9996035695075989
+        },
+        {
+          "text": "nor to the marks LUCENT, LUCENT TECHNOLOGIES or LUCENT INNOVATION RING",
+          "bbox": [
+            526.0,
+            2472.0,
+            2494.0,
+            2516.0
+          ],
+          "confidence": 0.9837826490402222
+        },
+        {
+          "text": "Aq obot bugpueag-oy quaant ay? Jo asn Aue leya pue asn sat Aq 'Nsisad",
+          "bbox": [
+            529.0,
+            2529.0,
+            2465.0,
+            2577.0
+          ],
+          "confidence": 0.7214436531066895
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            277.0,
+            2699.0,
+            326.0,
+            2736.0
+          ],
+          "confidence": 0.9996107220649719
+        },
+        {
+          "text": "mPhase agrees not to adopt any designation which is confusingly similan",
+          "bbox": [
+            527.0,
+            2699.0,
+            2519.0,
+            2741.0
+          ],
+          "confidence": 0.9791131615638733
+        },
+        {
+          "text": "to the Lucent Co-Branding Logo or Lucent's marks LucENT, LucENT.",
+          "bbox": [
+            529.0,
+            2757.0,
+            2300.0,
+            2794.0
+          ],
+          "confidence": 0.9586364030838013
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN. Any attempt to do so",
+          "bbox": [
+            529.0,
+            2810.0,
+            2405.0,
+            2853.0
+          ],
+          "confidence": 0.9844139218330383
+        },
+        {
+          "text": "shall be a breach of this Agreement and Lucent may terminate this",
+          "bbox": [
+            535.0,
+            2871.0,
+            2353.0,
+            2907.0
+          ],
+          "confidence": 0.9889964461326599
+        },
+        {
+          "text": "Agreement without notice in the event of such a breach.",
+          "bbox": [
+            529.0,
+            2924.0,
+            2068.0,
+            2964.0
+          ],
+          "confidence": 0.9949379563331604
+        },
+        {
+          "text": "6.",
+          "bbox": [
+            274.0,
+            3143.0,
+            332.0,
+            3190.0
+          ],
+          "confidence": 0.9964065551757812
+        },
+        {
+          "text": "This Agreement shall terminate in the event of a significant change in.",
+          "bbox": [
+            535.0,
+            3150.0,
+            2490.0,
+            3187.0
+          ],
+          "confidence": 0.9846266508102417
+        },
+        {
+          "text": "subject of any bankruptcy proceedings..",
+          "bbox": [
+            535.0,
+            3262.0,
+            1595.0,
+            3306.0
+          ],
+          "confidence": 0.9848042130470276
+        },
+        {
+          "text": "7",
+          "bbox": [
+            279.0,
+            3375.0,
+            317.0,
+            3404.0
+          ],
+          "confidence": 0.9614723920822144
+        },
+        {
+          "text": "mPhase agrees to maintain the quality of its Goods associated with the",
+          "bbox": [
+            526.0,
+            3426.0,
+            2494.0,
+            3472.0
+          ],
+          "confidence": 0.9720927476882935
+        },
+        {
+          "text": "quality of their Goods..",
+          "bbox": [
+            533.0,
+            3539.0,
+            1176.0,
+            3584.0
+          ],
+          "confidence": 0.9786459803581238
+        },
+        {
+          "text": "8.",
+          "bbox": [
+            279.0,
+            3653.0,
+            332.0,
+            3691.0
+          ],
+          "confidence": 0.9998865723609924
+        },
+        {
+          "text": "If Lucent determines that mPhase's Goods are no longer maintained at.",
+          "bbox": [
+            533.0,
+            3655.0,
+            2434.0,
+            3691.0
+          ],
+          "confidence": 0.9915180206298828
+        },
+        {
+          "text": "the current level of quality, Lucent shall so notify mPhase, in",
+          "bbox": [
+            531.0,
+            3710.0,
+            2298.0,
+            3752.0
+          ],
+          "confidence": 0.9877910017967224
+        },
+        {
+          "text": "9.",
+          "bbox": [
+            279.0,
+            3876.0,
+            328.0,
+            3916.0
+          ],
+          "confidence": 0.9996653199195862
+        },
+        {
+          "text": "approved pursuant to the procedure set forth in Schedule B continue to",
+          "bbox": [
+            529.0,
+            3987.0,
+            2494.0,
+            4035.0
+          ],
+          "confidence": 0.9802238345146179
+        },
+        {
+          "text": "be in compliance with the terms of this Agreement.",
+          "bbox": [
+            527.0,
+            4046.0,
+            1927.0,
+            4086.0
+          ],
+          "confidence": 0.9838761687278748
+        },
+        {
+          "text": "10.",
+          "bbox": [
+            276.0,
+            4155.0,
+            359.0,
+            4197.0
+          ],
+          "confidence": 0.9998547434806824
+        },
+        {
+          "text": "dyn oo aan pnhgnoynneun Aue oo aneme saeenaq aseyae neye nueae dyn uI",
+          "bbox": [
+            531.0,
+            4159.0,
+            2461.0,
+            4201.0
+          ],
+          "confidence": 0.5199352502822876
+        },
+        {
+          "text": "Lucent Co-Branding Logo or other Lucent marks by third parties, mPhase.",
+          "bbox": [
+            529.0,
+            4218.0,
+            2489.0,
+            4254.0
+          ],
+          "confidence": 0.993131697177887
+        },
+        {
+          "text": "agrees to promptly notify Lucent and to cooperate fully, at Lucent's",
+          "bbox": [
+            531.0,
+            4272.0,
+            2434.0,
+            4313.0
+          ],
+          "confidence": 0.9997552037239075
+        },
+        {
+          "text": "expense, in any enforcement of Lucent's rights against such third",
+          "bbox": [
+            531.0,
+            4325.0,
+            2354.0,
+            4367.0
+          ],
+          "confidence": 0.9925361275672913
+        },
+        {
+          "text": "Source: MPHASE TECHNOLOGIES INC, 10-K, 9/11/2003",
+          "bbox": [
+            276.0,
+            4448.0,
+            1368.0,
+            4484.0
+          ],
+          "confidence": 0.9939214587211609
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Termination For Convenience_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "Either party wishing to terminate          the Agreement must give written notice to the other party at least          thirty (30) days prior to the desired date of termination.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "shall not be unreasonably withheld. Either party wishing to terminate",
+          "bbox": [
+            533.0,
+            764.0,
+            2463.0,
+            806.0
+          ],
+          "confidence": 0.9864704012870789
+        },
+        {
+          "text": "the Agreement must give written notice to the other party at least",
+          "bbox": [
+            531.0,
+            819.0,
+            2382.0,
+            863.0
+          ],
+          "confidence": 0.9842764139175415
+        },
+        {
+          "text": "thirty (30) days prior to the desired date of termination.",
+          "bbox": [
+            533.0,
+            875.0,
+            2151.0,
+            916.0
+          ],
+          "confidence": 0.9925227761268616
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Change Of Control_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law?",
+      "answer_text": "This Agreement shall terminate in the event of a significant change in          the management or ownership of mPhase or in the event mPhase is the          subject of any bankruptcy proceedings.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.15",
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ],
+          "confidence": 0.988447904586792
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ],
+          "confidence": 0.9961764216423035
+        },
+        {
+          "text": "Technologies Inc., a Delaware corporation having a principal place of business",
+          "bbox": [
+            283.0,
+            627.0,
+            2463.0,
+            663.0
+          ],
+          "confidence": 0.9875529408454895
+        },
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        },
+        {
+          "text": "Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue,",
+          "bbox": [
+            279.0,
+            736.0,
+            2456.0,
+            780.0
+          ],
+          "confidence": 0.9939753413200378
+        },
+        {
+          "text": "Norwalk, Connecticut O68545 (\"mPhase\") (each individually, \"a Party\" and,",
+          "bbox": [
+            274.0,
+            789.0,
+            2320.0,
+            835.0
+          ],
+          "confidence": 0.9898900985717773
+        },
+        {
+          "text": "collectively, \"the Parties\"}..",
+          "bbox": [
+            277.0,
+            844.0,
+            1089.0,
+            890.0
+          ],
+          "confidence": 0.9835113286972046
+        },
+        {
+          "text": "WhEREAs, mPhase wishes to use the Lucent Technologies name and Logo and the.",
+          "bbox": [
+            279.0,
+            963.0,
+            2378.0,
+            1000.0
+          ],
+          "confidence": 0.9819630980491638
+        },
+        {
+          "text": "packaging and in printed marketing materials (\"Approved Uses\") in connection",
+          "bbox": [
+            275.0,
+            1069.0,
+            2409.0,
+            1117.0
+          ],
+          "confidence": 0.9961495399475098
+        },
+        {
+          "text": "with its multi-access product (the \"Goods\") and Lucent wishes to permit mPhase",
+          "bbox": [
+            279.0,
+            1127.0,
+            2463.0,
+            1170.0
+          ],
+          "confidence": 0.9955557584762573
+        },
+        {
+          "text": "to do so.",
+          "bbox": [
+            279.0,
+            1182.0,
+            529.0,
+            1225.0
+          ],
+          "confidence": 0.9999181032180786
+        },
+        {
+          "text": "Now ThEREFoRE, the Parties, for good and valuable consideration, the receipt and",
+          "bbox": [
+            277.0,
+            1297.0,
+            2518.0,
+            1334.0
+          ],
+          "confidence": 0.9719322919845581
+        },
+        {
+          "text": "sufficiency of which are hereby acknowledged, agree as follows:",
+          "bbox": [
+            281.0,
+            1352.0,
+            2046.0,
+            1394.0
+          ],
+          "confidence": 0.9891600012779236
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            277.0,
+            1466.0,
+            324.0,
+            1502.0
+          ],
+          "confidence": 0.998641848564148
+        },
+        {
+          "text": "Sty? Jo y apnpayds uo umoys obot yoexa ay? Apuo Agdde Aew nseyae",
+          "bbox": [
+            527.0,
+            1466.0,
+            2324.0,
+            1508.0
+          ],
+          "confidence": 0.7599636316299438
+        },
+        {
+          "text": "Goods.",
+          "bbox": [
+            529.0,
+            1577.0,
+            696.0,
+            1615.0
+          ],
+          "confidence": 0.9992884993553162
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            274.0,
+            1687.0,
+            330.0,
+            1730.0
+          ],
+          "confidence": 0.9997860193252563
+        },
+        {
+          "text": "mPhase agrees to abide by the guidelines appearing on Schedule B of",
+          "bbox": [
+            526.0,
+            1687.0,
+            2411.0,
+            1731.0
+          ],
+          "confidence": 0.9964214563369751
+        },
+        {
+          "text": "this Agreement specifying the dimensions, requirements and",
+          "bbox": [
+            533.0,
+            1743.0,
+            2161.0,
+            1787.0
+          ],
+          "confidence": 0.9983786940574646
+        },
+        {
+          "text": "dq Aeu saunnapdnb dsay? ney? spuenanapun dseyae :obot bunpueng-o?",
+          "bbox": [
+            527.0,
+            1857.0,
+            2354.0,
+            1900.0
+          ],
+          "confidence": 0.5843396186828613
+        },
+        {
+          "text": "Tam de daaepdn asoae Aq apdqe oo saaabe pue aue? oo aue? uone paaepdn",
+          "bbox": [
+            529.0,
+            1911.0,
+            2492.0,
+            1957.0
+          ],
+          "confidence": 0.5914430618286133
+        },
+        {
+          "text": "as the quidelines provided herein.",
+          "bbox": [
+            533.0,
+            1975.0,
+            1479.0,
+            2006.0
+          ],
+          "confidence": 0.9772467613220215
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            277.0,
+            2081.0,
+            330.0,
+            2120.0
+          ],
+          "confidence": 0.999845027923584
+        },
+        {
+          "text": "mark shown on Schedule A or the marks and names LucENT, LucENT",
+          "bbox": [
+            529.0,
+            2195.0,
+            2269.0,
+            2231.0
+          ],
+          "confidence": 0.9724555015563965
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN, LuCent may upon written",
+          "bbox": [
+            529.0,
+            2251.0,
+            2494.0,
+            2293.0
+          ],
+          "confidence": 0.9775048494338989
+        },
+        {
+          "text": "notification to mPhase, terminate this Agreement.",
+          "bbox": [
+            529.0,
+            2308.0,
+            1900.0,
+            2344.0
+          ],
+          "confidence": 0.9897158741950989
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            279.0,
+            2418.0,
+            328.0,
+            2456.0
+          ],
+          "confidence": 0.9996452331542969
+        },
+        {
+          "text": "mPhase agrees that it acquires no rights to the Lucent Co-Branding Logo",
+          "bbox": [
+            526.0,
+            2418.0,
+            2521.0,
+            2461.0
+          ],
+          "confidence": 0.9996035695075989
+        },
+        {
+          "text": "nor to the marks LUCENT, LUCENT TECHNOLOGIES or LUCENT INNOVATION RING",
+          "bbox": [
+            526.0,
+            2472.0,
+            2494.0,
+            2516.0
+          ],
+          "confidence": 0.9837826490402222
+        },
+        {
+          "text": "Aq obot bugpueag-oy quaant ay? Jo asn Aue leya pue asn sat Aq 'Nsisad",
+          "bbox": [
+            529.0,
+            2529.0,
+            2465.0,
+            2577.0
+          ],
+          "confidence": 0.7214436531066895
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            277.0,
+            2699.0,
+            326.0,
+            2736.0
+          ],
+          "confidence": 0.9996107220649719
+        },
+        {
+          "text": "mPhase agrees not to adopt any designation which is confusingly similan",
+          "bbox": [
+            527.0,
+            2699.0,
+            2519.0,
+            2741.0
+          ],
+          "confidence": 0.9791131615638733
+        },
+        {
+          "text": "to the Lucent Co-Branding Logo or Lucent's marks LucENT, LucENT.",
+          "bbox": [
+            529.0,
+            2757.0,
+            2300.0,
+            2794.0
+          ],
+          "confidence": 0.9586364030838013
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN. Any attempt to do so",
+          "bbox": [
+            529.0,
+            2810.0,
+            2405.0,
+            2853.0
+          ],
+          "confidence": 0.9844139218330383
+        },
+        {
+          "text": "shall be a breach of this Agreement and Lucent may terminate this",
+          "bbox": [
+            535.0,
+            2871.0,
+            2353.0,
+            2907.0
+          ],
+          "confidence": 0.9889964461326599
+        },
+        {
+          "text": "Agreement without notice in the event of such a breach.",
+          "bbox": [
+            529.0,
+            2924.0,
+            2068.0,
+            2964.0
+          ],
+          "confidence": 0.9949379563331604
+        },
+        {
+          "text": "6.",
+          "bbox": [
+            274.0,
+            3143.0,
+            332.0,
+            3190.0
+          ],
+          "confidence": 0.9964065551757812
+        },
+        {
+          "text": "This Agreement shall terminate in the event of a significant change in.",
+          "bbox": [
+            535.0,
+            3150.0,
+            2490.0,
+            3187.0
+          ],
+          "confidence": 0.9846266508102417
+        },
+        {
+          "text": "subject of any bankruptcy proceedings..",
+          "bbox": [
+            535.0,
+            3262.0,
+            1595.0,
+            3306.0
+          ],
+          "confidence": 0.9848042130470276
+        },
+        {
+          "text": "7",
+          "bbox": [
+            279.0,
+            3375.0,
+            317.0,
+            3404.0
+          ],
+          "confidence": 0.9614723920822144
+        },
+        {
+          "text": "mPhase agrees to maintain the quality of its Goods associated with the",
+          "bbox": [
+            526.0,
+            3426.0,
+            2494.0,
+            3472.0
+          ],
+          "confidence": 0.9720927476882935
+        },
+        {
+          "text": "quality of their Goods..",
+          "bbox": [
+            533.0,
+            3539.0,
+            1176.0,
+            3584.0
+          ],
+          "confidence": 0.9786459803581238
+        },
+        {
+          "text": "8.",
+          "bbox": [
+            279.0,
+            3653.0,
+            332.0,
+            3691.0
+          ],
+          "confidence": 0.9998865723609924
+        },
+        {
+          "text": "If Lucent determines that mPhase's Goods are no longer maintained at.",
+          "bbox": [
+            533.0,
+            3655.0,
+            2434.0,
+            3691.0
+          ],
+          "confidence": 0.9915180206298828
+        },
+        {
+          "text": "the current level of quality, Lucent shall so notify mPhase, in",
+          "bbox": [
+            531.0,
+            3710.0,
+            2298.0,
+            3752.0
+          ],
+          "confidence": 0.9877910017967224
+        },
+        {
+          "text": "9.",
+          "bbox": [
+            279.0,
+            3876.0,
+            328.0,
+            3916.0
+          ],
+          "confidence": 0.9996653199195862
+        },
+        {
+          "text": "approved pursuant to the procedure set forth in Schedule B continue to",
+          "bbox": [
+            529.0,
+            3987.0,
+            2494.0,
+            4035.0
+          ],
+          "confidence": 0.9802238345146179
+        },
+        {
+          "text": "be in compliance with the terms of this Agreement.",
+          "bbox": [
+            527.0,
+            4046.0,
+            1927.0,
+            4086.0
+          ],
+          "confidence": 0.9838761687278748
+        },
+        {
+          "text": "10.",
+          "bbox": [
+            276.0,
+            4155.0,
+            359.0,
+            4197.0
+          ],
+          "confidence": 0.9998547434806824
+        },
+        {
+          "text": "dyn oo aan pnhgnoynneun Aue oo aneme saeenaq aseyae neye nueae dyn uI",
+          "bbox": [
+            531.0,
+            4159.0,
+            2461.0,
+            4201.0
+          ],
+          "confidence": 0.5199352502822876
+        },
+        {
+          "text": "Lucent Co-Branding Logo or other Lucent marks by third parties, mPhase.",
+          "bbox": [
+            529.0,
+            4218.0,
+            2489.0,
+            4254.0
+          ],
+          "confidence": 0.993131697177887
+        },
+        {
+          "text": "agrees to promptly notify Lucent and to cooperate fully, at Lucent's",
+          "bbox": [
+            531.0,
+            4272.0,
+            2434.0,
+            4313.0
+          ],
+          "confidence": 0.9997552037239075
+        },
+        {
+          "text": "expense, in any enforcement of Lucent's rights against such third",
+          "bbox": [
+            531.0,
+            4325.0,
+            2354.0,
+            4367.0
+          ],
+          "confidence": 0.9925361275672913
+        },
+        {
+          "text": "Source: MPHASE TECHNOLOGIES INC, 10-K, 9/11/2003",
+          "bbox": [
+            276.0,
+            4448.0,
+            1368.0,
+            4484.0
+          ],
+          "confidence": 0.9939214587211609
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Anti-Assignment_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "answer_text": "This Agreement shall not be assigned by mPhase without the prior          written consent of Lucent.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.15",
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ],
+          "confidence": 0.988447904586792
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ],
+          "confidence": 0.9961764216423035
+        },
+        {
+          "text": "Technologies Inc., a Delaware corporation having a principal place of business",
+          "bbox": [
+            283.0,
+            627.0,
+            2463.0,
+            663.0
+          ],
+          "confidence": 0.9875529408454895
+        },
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        },
+        {
+          "text": "Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue,",
+          "bbox": [
+            279.0,
+            736.0,
+            2456.0,
+            780.0
+          ],
+          "confidence": 0.9939753413200378
+        },
+        {
+          "text": "Norwalk, Connecticut O68545 (\"mPhase\") (each individually, \"a Party\" and,",
+          "bbox": [
+            274.0,
+            789.0,
+            2320.0,
+            835.0
+          ],
+          "confidence": 0.9898900985717773
+        },
+        {
+          "text": "collectively, \"the Parties\"}..",
+          "bbox": [
+            277.0,
+            844.0,
+            1089.0,
+            890.0
+          ],
+          "confidence": 0.9835113286972046
+        },
+        {
+          "text": "WhEREAs, mPhase wishes to use the Lucent Technologies name and Logo and the.",
+          "bbox": [
+            279.0,
+            963.0,
+            2378.0,
+            1000.0
+          ],
+          "confidence": 0.9819630980491638
+        },
+        {
+          "text": "packaging and in printed marketing materials (\"Approved Uses\") in connection",
+          "bbox": [
+            275.0,
+            1069.0,
+            2409.0,
+            1117.0
+          ],
+          "confidence": 0.9961495399475098
+        },
+        {
+          "text": "with its multi-access product (the \"Goods\") and Lucent wishes to permit mPhase",
+          "bbox": [
+            279.0,
+            1127.0,
+            2463.0,
+            1170.0
+          ],
+          "confidence": 0.9955557584762573
+        },
+        {
+          "text": "to do so.",
+          "bbox": [
+            279.0,
+            1182.0,
+            529.0,
+            1225.0
+          ],
+          "confidence": 0.9999181032180786
+        },
+        {
+          "text": "Now ThEREFoRE, the Parties, for good and valuable consideration, the receipt and",
+          "bbox": [
+            277.0,
+            1297.0,
+            2518.0,
+            1334.0
+          ],
+          "confidence": 0.9719322919845581
+        },
+        {
+          "text": "sufficiency of which are hereby acknowledged, agree as follows:",
+          "bbox": [
+            281.0,
+            1352.0,
+            2046.0,
+            1394.0
+          ],
+          "confidence": 0.9891600012779236
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            277.0,
+            1466.0,
+            324.0,
+            1502.0
+          ],
+          "confidence": 0.998641848564148
+        },
+        {
+          "text": "Sty? Jo y apnpayds uo umoys obot yoexa ay? Apuo Agdde Aew nseyae",
+          "bbox": [
+            527.0,
+            1466.0,
+            2324.0,
+            1508.0
+          ],
+          "confidence": 0.7599636316299438
+        },
+        {
+          "text": "Goods.",
+          "bbox": [
+            529.0,
+            1577.0,
+            696.0,
+            1615.0
+          ],
+          "confidence": 0.9992884993553162
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            274.0,
+            1687.0,
+            330.0,
+            1730.0
+          ],
+          "confidence": 0.9997860193252563
+        },
+        {
+          "text": "mPhase agrees to abide by the guidelines appearing on Schedule B of",
+          "bbox": [
+            526.0,
+            1687.0,
+            2411.0,
+            1731.0
+          ],
+          "confidence": 0.9964214563369751
+        },
+        {
+          "text": "this Agreement specifying the dimensions, requirements and",
+          "bbox": [
+            533.0,
+            1743.0,
+            2161.0,
+            1787.0
+          ],
+          "confidence": 0.9983786940574646
+        },
+        {
+          "text": "dq Aeu saunnapdnb dsay? ney? spuenanapun dseyae :obot bunpueng-o?",
+          "bbox": [
+            527.0,
+            1857.0,
+            2354.0,
+            1900.0
+          ],
+          "confidence": 0.5843396186828613
+        },
+        {
+          "text": "Tam de daaepdn asoae Aq apdqe oo saaabe pue aue? oo aue? uone paaepdn",
+          "bbox": [
+            529.0,
+            1911.0,
+            2492.0,
+            1957.0
+          ],
+          "confidence": 0.5914430618286133
+        },
+        {
+          "text": "as the quidelines provided herein.",
+          "bbox": [
+            533.0,
+            1975.0,
+            1479.0,
+            2006.0
+          ],
+          "confidence": 0.9772467613220215
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            277.0,
+            2081.0,
+            330.0,
+            2120.0
+          ],
+          "confidence": 0.999845027923584
+        },
+        {
+          "text": "mark shown on Schedule A or the marks and names LucENT, LucENT",
+          "bbox": [
+            529.0,
+            2195.0,
+            2269.0,
+            2231.0
+          ],
+          "confidence": 0.9724555015563965
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN, LuCent may upon written",
+          "bbox": [
+            529.0,
+            2251.0,
+            2494.0,
+            2293.0
+          ],
+          "confidence": 0.9775048494338989
+        },
+        {
+          "text": "notification to mPhase, terminate this Agreement.",
+          "bbox": [
+            529.0,
+            2308.0,
+            1900.0,
+            2344.0
+          ],
+          "confidence": 0.9897158741950989
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            279.0,
+            2418.0,
+            328.0,
+            2456.0
+          ],
+          "confidence": 0.9996452331542969
+        },
+        {
+          "text": "mPhase agrees that it acquires no rights to the Lucent Co-Branding Logo",
+          "bbox": [
+            526.0,
+            2418.0,
+            2521.0,
+            2461.0
+          ],
+          "confidence": 0.9996035695075989
+        },
+        {
+          "text": "nor to the marks LUCENT, LUCENT TECHNOLOGIES or LUCENT INNOVATION RING",
+          "bbox": [
+            526.0,
+            2472.0,
+            2494.0,
+            2516.0
+          ],
+          "confidence": 0.9837826490402222
+        },
+        {
+          "text": "Aq obot bugpueag-oy quaant ay? Jo asn Aue leya pue asn sat Aq 'Nsisad",
+          "bbox": [
+            529.0,
+            2529.0,
+            2465.0,
+            2577.0
+          ],
+          "confidence": 0.7214436531066895
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            277.0,
+            2699.0,
+            326.0,
+            2736.0
+          ],
+          "confidence": 0.9996107220649719
+        },
+        {
+          "text": "mPhase agrees not to adopt any designation which is confusingly similan",
+          "bbox": [
+            527.0,
+            2699.0,
+            2519.0,
+            2741.0
+          ],
+          "confidence": 0.9791131615638733
+        },
+        {
+          "text": "to the Lucent Co-Branding Logo or Lucent's marks LucENT, LucENT.",
+          "bbox": [
+            529.0,
+            2757.0,
+            2300.0,
+            2794.0
+          ],
+          "confidence": 0.9586364030838013
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN. Any attempt to do so",
+          "bbox": [
+            529.0,
+            2810.0,
+            2405.0,
+            2853.0
+          ],
+          "confidence": 0.9844139218330383
+        },
+        {
+          "text": "shall be a breach of this Agreement and Lucent may terminate this",
+          "bbox": [
+            535.0,
+            2871.0,
+            2353.0,
+            2907.0
+          ],
+          "confidence": 0.9889964461326599
+        },
+        {
+          "text": "Agreement without notice in the event of such a breach.",
+          "bbox": [
+            529.0,
+            2924.0,
+            2068.0,
+            2964.0
+          ],
+          "confidence": 0.9949379563331604
+        },
+        {
+          "text": "6.",
+          "bbox": [
+            274.0,
+            3143.0,
+            332.0,
+            3190.0
+          ],
+          "confidence": 0.9964065551757812
+        },
+        {
+          "text": "This Agreement shall terminate in the event of a significant change in.",
+          "bbox": [
+            535.0,
+            3150.0,
+            2490.0,
+            3187.0
+          ],
+          "confidence": 0.9846266508102417
+        },
+        {
+          "text": "subject of any bankruptcy proceedings..",
+          "bbox": [
+            535.0,
+            3262.0,
+            1595.0,
+            3306.0
+          ],
+          "confidence": 0.9848042130470276
+        },
+        {
+          "text": "7",
+          "bbox": [
+            279.0,
+            3375.0,
+            317.0,
+            3404.0
+          ],
+          "confidence": 0.9614723920822144
+        },
+        {
+          "text": "mPhase agrees to maintain the quality of its Goods associated with the",
+          "bbox": [
+            526.0,
+            3426.0,
+            2494.0,
+            3472.0
+          ],
+          "confidence": 0.9720927476882935
+        },
+        {
+          "text": "quality of their Goods..",
+          "bbox": [
+            533.0,
+            3539.0,
+            1176.0,
+            3584.0
+          ],
+          "confidence": 0.9786459803581238
+        },
+        {
+          "text": "8.",
+          "bbox": [
+            279.0,
+            3653.0,
+            332.0,
+            3691.0
+          ],
+          "confidence": 0.9998865723609924
+        },
+        {
+          "text": "If Lucent determines that mPhase's Goods are no longer maintained at.",
+          "bbox": [
+            533.0,
+            3655.0,
+            2434.0,
+            3691.0
+          ],
+          "confidence": 0.9915180206298828
+        },
+        {
+          "text": "the current level of quality, Lucent shall so notify mPhase, in",
+          "bbox": [
+            531.0,
+            3710.0,
+            2298.0,
+            3752.0
+          ],
+          "confidence": 0.9877910017967224
+        },
+        {
+          "text": "9.",
+          "bbox": [
+            279.0,
+            3876.0,
+            328.0,
+            3916.0
+          ],
+          "confidence": 0.9996653199195862
+        },
+        {
+          "text": "approved pursuant to the procedure set forth in Schedule B continue to",
+          "bbox": [
+            529.0,
+            3987.0,
+            2494.0,
+            4035.0
+          ],
+          "confidence": 0.9802238345146179
+        },
+        {
+          "text": "be in compliance with the terms of this Agreement.",
+          "bbox": [
+            527.0,
+            4046.0,
+            1927.0,
+            4086.0
+          ],
+          "confidence": 0.9838761687278748
+        },
+        {
+          "text": "10.",
+          "bbox": [
+            276.0,
+            4155.0,
+            359.0,
+            4197.0
+          ],
+          "confidence": 0.9998547434806824
+        },
+        {
+          "text": "dyn oo aan pnhgnoynneun Aue oo aneme saeenaq aseyae neye nueae dyn uI",
+          "bbox": [
+            531.0,
+            4159.0,
+            2461.0,
+            4201.0
+          ],
+          "confidence": 0.5199352502822876
+        },
+        {
+          "text": "Lucent Co-Branding Logo or other Lucent marks by third parties, mPhase.",
+          "bbox": [
+            529.0,
+            4218.0,
+            2489.0,
+            4254.0
+          ],
+          "confidence": 0.993131697177887
+        },
+        {
+          "text": "agrees to promptly notify Lucent and to cooperate fully, at Lucent's",
+          "bbox": [
+            531.0,
+            4272.0,
+            2434.0,
+            4313.0
+          ],
+          "confidence": 0.9997552037239075
+        },
+        {
+          "text": "expense, in any enforcement of Lucent's rights against such third",
+          "bbox": [
+            531.0,
+            4325.0,
+            2354.0,
+            4367.0
+          ],
+          "confidence": 0.9925361275672913
+        },
+        {
+          "text": "Source: MPHASE TECHNOLOGIES INC, 10-K, 9/11/2003",
+          "bbox": [
+            276.0,
+            4448.0,
+            1368.0,
+            4484.0
+          ],
+          "confidence": 0.9939214587211609
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement__Cap On Liability_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "answer_text": "Neither Party shall be liable to the other for special, incidental, or          consequential damages, even if such Party has been advised of the          possibility of such damages.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.15",
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ],
+          "confidence": 0.988447904586792
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ],
+          "confidence": 0.9961764216423035
+        },
+        {
+          "text": "Technologies Inc., a Delaware corporation having a principal place of business",
+          "bbox": [
+            283.0,
+            627.0,
+            2463.0,
+            663.0
+          ],
+          "confidence": 0.9875529408454895
+        },
+        {
+          "text": "at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase",
+          "bbox": [
+            279.0,
+            680.0,
+            2382.0,
+            722.0
+          ],
+          "confidence": 0.974802553653717
+        },
+        {
+          "text": "Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue,",
+          "bbox": [
+            279.0,
+            736.0,
+            2456.0,
+            780.0
+          ],
+          "confidence": 0.9939753413200378
+        },
+        {
+          "text": "Norwalk, Connecticut O68545 (\"mPhase\") (each individually, \"a Party\" and,",
+          "bbox": [
+            274.0,
+            789.0,
+            2320.0,
+            835.0
+          ],
+          "confidence": 0.9898900985717773
+        },
+        {
+          "text": "collectively, \"the Parties\"}..",
+          "bbox": [
+            277.0,
+            844.0,
+            1089.0,
+            890.0
+          ],
+          "confidence": 0.9835113286972046
+        },
+        {
+          "text": "WhEREAs, mPhase wishes to use the Lucent Technologies name and Logo and the.",
+          "bbox": [
+            279.0,
+            963.0,
+            2378.0,
+            1000.0
+          ],
+          "confidence": 0.9819630980491638
+        },
+        {
+          "text": "packaging and in printed marketing materials (\"Approved Uses\") in connection",
+          "bbox": [
+            275.0,
+            1069.0,
+            2409.0,
+            1117.0
+          ],
+          "confidence": 0.9961495399475098
+        },
+        {
+          "text": "with its multi-access product (the \"Goods\") and Lucent wishes to permit mPhase",
+          "bbox": [
+            279.0,
+            1127.0,
+            2463.0,
+            1170.0
+          ],
+          "confidence": 0.9955557584762573
+        },
+        {
+          "text": "to do so.",
+          "bbox": [
+            279.0,
+            1182.0,
+            529.0,
+            1225.0
+          ],
+          "confidence": 0.9999181032180786
+        },
+        {
+          "text": "Now ThEREFoRE, the Parties, for good and valuable consideration, the receipt and",
+          "bbox": [
+            277.0,
+            1297.0,
+            2518.0,
+            1334.0
+          ],
+          "confidence": 0.9719322919845581
+        },
+        {
+          "text": "sufficiency of which are hereby acknowledged, agree as follows:",
+          "bbox": [
+            281.0,
+            1352.0,
+            2046.0,
+            1394.0
+          ],
+          "confidence": 0.9891600012779236
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            277.0,
+            1466.0,
+            324.0,
+            1502.0
+          ],
+          "confidence": 0.998641848564148
+        },
+        {
+          "text": "Sty? Jo y apnpayds uo umoys obot yoexa ay? Apuo Agdde Aew nseyae",
+          "bbox": [
+            527.0,
+            1466.0,
+            2324.0,
+            1508.0
+          ],
+          "confidence": 0.7599636316299438
+        },
+        {
+          "text": "Goods.",
+          "bbox": [
+            529.0,
+            1577.0,
+            696.0,
+            1615.0
+          ],
+          "confidence": 0.9992884993553162
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            274.0,
+            1687.0,
+            330.0,
+            1730.0
+          ],
+          "confidence": 0.9997860193252563
+        },
+        {
+          "text": "mPhase agrees to abide by the guidelines appearing on Schedule B of",
+          "bbox": [
+            526.0,
+            1687.0,
+            2411.0,
+            1731.0
+          ],
+          "confidence": 0.9964214563369751
+        },
+        {
+          "text": "this Agreement specifying the dimensions, requirements and",
+          "bbox": [
+            533.0,
+            1743.0,
+            2161.0,
+            1787.0
+          ],
+          "confidence": 0.9983786940574646
+        },
+        {
+          "text": "dq Aeu saunnapdnb dsay? ney? spuenanapun dseyae :obot bunpueng-o?",
+          "bbox": [
+            527.0,
+            1857.0,
+            2354.0,
+            1900.0
+          ],
+          "confidence": 0.5843396186828613
+        },
+        {
+          "text": "Tam de daaepdn asoae Aq apdqe oo saaabe pue aue? oo aue? uone paaepdn",
+          "bbox": [
+            529.0,
+            1911.0,
+            2492.0,
+            1957.0
+          ],
+          "confidence": 0.5914430618286133
+        },
+        {
+          "text": "as the quidelines provided herein.",
+          "bbox": [
+            533.0,
+            1975.0,
+            1479.0,
+            2006.0
+          ],
+          "confidence": 0.9772467613220215
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            277.0,
+            2081.0,
+            330.0,
+            2120.0
+          ],
+          "confidence": 0.999845027923584
+        },
+        {
+          "text": "mark shown on Schedule A or the marks and names LucENT, LucENT",
+          "bbox": [
+            529.0,
+            2195.0,
+            2269.0,
+            2231.0
+          ],
+          "confidence": 0.9724555015563965
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN, LuCent may upon written",
+          "bbox": [
+            529.0,
+            2251.0,
+            2494.0,
+            2293.0
+          ],
+          "confidence": 0.9775048494338989
+        },
+        {
+          "text": "notification to mPhase, terminate this Agreement.",
+          "bbox": [
+            529.0,
+            2308.0,
+            1900.0,
+            2344.0
+          ],
+          "confidence": 0.9897158741950989
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            279.0,
+            2418.0,
+            328.0,
+            2456.0
+          ],
+          "confidence": 0.9996452331542969
+        },
+        {
+          "text": "mPhase agrees that it acquires no rights to the Lucent Co-Branding Logo",
+          "bbox": [
+            526.0,
+            2418.0,
+            2521.0,
+            2461.0
+          ],
+          "confidence": 0.9996035695075989
+        },
+        {
+          "text": "nor to the marks LUCENT, LUCENT TECHNOLOGIES or LUCENT INNOVATION RING",
+          "bbox": [
+            526.0,
+            2472.0,
+            2494.0,
+            2516.0
+          ],
+          "confidence": 0.9837826490402222
+        },
+        {
+          "text": "Aq obot bugpueag-oy quaant ay? Jo asn Aue leya pue asn sat Aq 'Nsisad",
+          "bbox": [
+            529.0,
+            2529.0,
+            2465.0,
+            2577.0
+          ],
+          "confidence": 0.7214436531066895
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            277.0,
+            2699.0,
+            326.0,
+            2736.0
+          ],
+          "confidence": 0.9996107220649719
+        },
+        {
+          "text": "mPhase agrees not to adopt any designation which is confusingly similan",
+          "bbox": [
+            527.0,
+            2699.0,
+            2519.0,
+            2741.0
+          ],
+          "confidence": 0.9791131615638733
+        },
+        {
+          "text": "to the Lucent Co-Branding Logo or Lucent's marks LucENT, LucENT.",
+          "bbox": [
+            529.0,
+            2757.0,
+            2300.0,
+            2794.0
+          ],
+          "confidence": 0.9586364030838013
+        },
+        {
+          "text": "TECHNOLOGIES or LUCENT INNOVATION RING DESIGN. Any attempt to do so",
+          "bbox": [
+            529.0,
+            2810.0,
+            2405.0,
+            2853.0
+          ],
+          "confidence": 0.9844139218330383
+        },
+        {
+          "text": "shall be a breach of this Agreement and Lucent may terminate this",
+          "bbox": [
+            535.0,
+            2871.0,
+            2353.0,
+            2907.0
+          ],
+          "confidence": 0.9889964461326599
+        },
+        {
+          "text": "Agreement without notice in the event of such a breach.",
+          "bbox": [
+            529.0,
+            2924.0,
+            2068.0,
+            2964.0
+          ],
+          "confidence": 0.9949379563331604
+        },
+        {
+          "text": "6.",
+          "bbox": [
+            274.0,
+            3143.0,
+            332.0,
+            3190.0
+          ],
+          "confidence": 0.9964065551757812
+        },
+        {
+          "text": "This Agreement shall terminate in the event of a significant change in.",
+          "bbox": [
+            535.0,
+            3150.0,
+            2490.0,
+            3187.0
+          ],
+          "confidence": 0.9846266508102417
+        },
+        {
+          "text": "subject of any bankruptcy proceedings..",
+          "bbox": [
+            535.0,
+            3262.0,
+            1595.0,
+            3306.0
+          ],
+          "confidence": 0.9848042130470276
+        },
+        {
+          "text": "7",
+          "bbox": [
+            279.0,
+            3375.0,
+            317.0,
+            3404.0
+          ],
+          "confidence": 0.9614723920822144
+        },
+        {
+          "text": "mPhase agrees to maintain the quality of its Goods associated with the",
+          "bbox": [
+            526.0,
+            3426.0,
+            2494.0,
+            3472.0
+          ],
+          "confidence": 0.9720927476882935
+        },
+        {
+          "text": "quality of their Goods..",
+          "bbox": [
+            533.0,
+            3539.0,
+            1176.0,
+            3584.0
+          ],
+          "confidence": 0.9786459803581238
+        },
+        {
+          "text": "8.",
+          "bbox": [
+            279.0,
+            3653.0,
+            332.0,
+            3691.0
+          ],
+          "confidence": 0.9998865723609924
+        },
+        {
+          "text": "If Lucent determines that mPhase's Goods are no longer maintained at.",
+          "bbox": [
+            533.0,
+            3655.0,
+            2434.0,
+            3691.0
+          ],
+          "confidence": 0.9915180206298828
+        },
+        {
+          "text": "the current level of quality, Lucent shall so notify mPhase, in",
+          "bbox": [
+            531.0,
+            3710.0,
+            2298.0,
+            3752.0
+          ],
+          "confidence": 0.9877910017967224
+        },
+        {
+          "text": "9.",
+          "bbox": [
+            279.0,
+            3876.0,
+            328.0,
+            3916.0
+          ],
+          "confidence": 0.9996653199195862
+        },
+        {
+          "text": "approved pursuant to the procedure set forth in Schedule B continue to",
+          "bbox": [
+            529.0,
+            3987.0,
+            2494.0,
+            4035.0
+          ],
+          "confidence": 0.9802238345146179
+        },
+        {
+          "text": "be in compliance with the terms of this Agreement.",
+          "bbox": [
+            527.0,
+            4046.0,
+            1927.0,
+            4086.0
+          ],
+          "confidence": 0.9838761687278748
+        },
+        {
+          "text": "10.",
+          "bbox": [
+            276.0,
+            4155.0,
+            359.0,
+            4197.0
+          ],
+          "confidence": 0.9998547434806824
+        },
+        {
+          "text": "dyn oo aan pnhgnoynneun Aue oo aneme saeenaq aseyae neye nueae dyn uI",
+          "bbox": [
+            531.0,
+            4159.0,
+            2461.0,
+            4201.0
+          ],
+          "confidence": 0.5199352502822876
+        },
+        {
+          "text": "Lucent Co-Branding Logo or other Lucent marks by third parties, mPhase.",
+          "bbox": [
+            529.0,
+            4218.0,
+            2489.0,
+            4254.0
+          ],
+          "confidence": 0.993131697177887
+        },
+        {
+          "text": "agrees to promptly notify Lucent and to cooperate fully, at Lucent's",
+          "bbox": [
+            531.0,
+            4272.0,
+            2434.0,
+            4313.0
+          ],
+          "confidence": 0.9997552037239075
+        },
+        {
+          "text": "expense, in any enforcement of Lucent's rights against such third",
+          "bbox": [
+            531.0,
+            4325.0,
+            2354.0,
+            4367.0
+          ],
+          "confidence": 0.9925361275672913
+        },
+        {
+          "text": "Source: MPHASE TECHNOLOGIES INC, 10-K, 9/11/2003",
+          "bbox": [
+            276.0,
+            4448.0,
+            1368.0,
+            4484.0
+          ],
+          "confidence": 0.9939214587211609
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.15",
+          "page": 0,
+          "bbox": [
+            2160.0,
+            291.0,
+            2518.0,
+            322.0
+          ]
+        },
+        {
+          "text": "CO-BRANDING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1122.0,
+            402.0,
+            1704.0,
+            433.0
+          ]
+        }
+      ]
+    }
+  ]
+}

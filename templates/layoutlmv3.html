@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LayoutLMv3 Legal Document Analysis</title>
+    <style>
+      :root {
+        --primary-blue: #1a4f8b;
+        --secondary-blue: #2c7ac9;
+        --light-blue: #f5f9ff;
+        --text-color: #2c3e50;
+        --highlight-color: #f39c12;
+        --success-color: #27ae60;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background-color: var(--light-blue);
+        color: var(--text-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 40px 20px;
+        line-height: 1.6;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+        width: 100%;
+        max-width: 800px;
+      }
+
+      h1 {
+        color: var(--primary-blue);
+        font-size: 2.5rem;
+        margin-bottom: 16px;
+        font-weight: 600;
+      }
+
+      .description {
+        color: var(--text-color);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+        opacity: 0.9;
+      }
+
+      .upload-container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+      }
+
+      .file-input-container {
+        margin-bottom: 24px;
+      }
+
+      input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border: 2px dashed var(--secondary-blue);
+        border-radius: 6px;
+        background-color: var(--light-blue);
+        cursor: pointer;
+      }
+
+      input[type="file"]:hover {
+        border-color: var(--primary-blue);
+      }
+
+      .submit-btn {
+        background-color: var(--primary-blue);
+        color: white;
+        padding: 14px 28px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+        width: 100%;
+        transition: background-color 0.2s ease;
+      }
+
+      .submit-btn:hover {
+        background-color: var(--secondary-blue);
+      }
+
+      /* Loading indicator styles */
+      #loading-indicator {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.2rem;
+      }
+
+      .spinner {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid var(--primary-blue);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+        margin-bottom: 10px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* Results container styles */
+      .results-container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        width: 100%;
+        max-width: 800px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .results-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .results-image {
+        grid-column: 1;
+        width: 100%;
+        max-height: 800px;
+        object-fit: contain;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+
+      .results-data {
+        grid-column: 2;
+        padding: 10px;
+      }
+
+      .clause-category {
+        margin-bottom: 20px;
+      }
+
+      .category-title {
+        color: var(--primary-blue);
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+        border-bottom: 2px solid var(--light-blue);
+        padding-bottom: 5px;
+      }
+
+      .clause-text {
+        background-color: var(--light-blue);
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+      }
+
+      .confidence {
+        font-size: 0.85rem;
+        color: #666;
+        font-style: italic;
+      }
+
+      .error-message {
+        color: red;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #ffeeee;
+        border-radius: 6px;
+        border-left: 4px solid red;
+      }
+
+      .nav-links {
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .nav-links a {
+        color: var(--secondary-blue);
+        text-decoration: none;
+        font-weight: 500;
+        margin: 0 10px;
+      }
+
+      .nav-links a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive design */
+      @media (max-width: 768px) {
+        .results-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .results-image,
+        .results-data {
+          grid-column: 1;
+        }
+      }
+
+      /* Additional styles for better visualization */
+      .image-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .image-caption {
+        margin-bottom: 10px;
+        font-style: italic;
+        color: #666;
+      }
+
+      .results-image {
+        width: 100%;
+        max-height: 800px;
+        object-fit: contain;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+      }
+
+      .zoom-controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
+      }
+
+      .zoom-btn {
+        background-color: var(--primary-blue);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.9rem;
+      }
+
+      .zoom-btn:hover {
+        background-color: var(--secondary-blue);
+      }
+
+      .no-image {
+        padding: 40px;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+        text-align: center;
+        color: #666;
+      }
+
+      .legend {
+        background-color: var(--light-blue);
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 15px;
+      }
+
+      .category-legend {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0 0 0;
+      }
+
+      .category-legend li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+
+      .legend-color {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+        border-radius: 3px;
+      }
+
+      /* Generate colors for categories */
+      .legend-1,
+      .category-1 .category-color {
+        background-color: #4e79a7;
+      }
+      .legend-2,
+      .category-2 .category-color {
+        background-color: #f28e2c;
+      }
+      .legend-3,
+      .category-3 .category-color {
+        background-color: #e15759;
+      }
+      .legend-4,
+      .category-4 .category-color {
+        background-color: #76b7b2;
+      }
+      .legend-5,
+      .category-5 .category-color {
+        background-color: #59a14f;
+      }
+      .legend-6,
+      .category-6 .category-color {
+        background-color: #edc949;
+      }
+      .legend-7,
+      .category-7 .category-color {
+        background-color: #af7aa1;
+      }
+      .legend-8,
+      .category-8 .category-color {
+        background-color: #ff9da7;
+      }
+      .legend-9,
+      .category-9 .category-color {
+        background-color: #9c755f;
+      }
+      .legend-10,
+      .category-10 .category-color {
+        background-color: #bab0ab;
+      }
+
+      .category-title {
+        display: flex;
+        align-items: center;
+      }
+
+      .category-color {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+        border-radius: 3px;
+      }
+
+      .clause-count {
+        font-size: 0.85rem;
+        color: #666;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading-indicator">
+      <div class="spinner"></div>
+      <p id="loading-message">Analyzing document with LayoutLMv3...</p>
+    </div>
+
+    <div class="header">
+      <h1>LayoutLMv3 Legal Document Analysis</h1>
+      <p class="description">
+        Upload legal documents to detect and extract clauses using our
+        fine-tuned LayoutLMv3 model. The model identifies key legal clauses
+        based on text content and document layout.
+      </p>
+    </div>
+
+    <div class="upload-container">
+      <form
+        action="/layoutlmv3_analyze"
+        method="post"
+        enctype="multipart/form-data"
+        onsubmit="showLoading('Analyzing document with LayoutLMv3...');"
+      >
+        <div class="file-input-container">
+          <input type="file" name="file" id="file" accept=".pdf" />
+          <small>Please upload a PDF document (max 10MB)</small>
+        </div>
+        <button type="submit" class="submit-btn">Analyze Document</button>
+      </form>
+    </div>
+
+    {% if error %}
+    <div class="error-message">{{ error }}</div>
+    {% endif %} {% if results %}
+    <div class="results-container">
+      <h2 style="margin-bottom: 20px; color: var(--success-color)">
+        Analysis Results
+      </h2>
+
+      <div class="results-grid">
+        <!-- Display the annotated image -->
+        {% if results.image_path %}
+        <div class="image-container">
+          <h3 style="margin-bottom: 15px">Processed Document</h3>
+          <p class="image-caption">
+            Document with identified legal clauses and bounding boxes
+          </p>
+          <img
+            src="{{ results.image_path }}"
+            alt="Annotated Document"
+            class="results-image"
+          />
+          <div class="zoom-controls">
+            <button id="zoom-in" class="zoom-btn">Zoom In</button>
+            <button id="zoom-out" class="zoom-btn">Zoom Out</button>
+            <button id="reset-zoom" class="zoom-btn">Reset</button>
+          </div>
+        </div>
+        {% else %}
+        <div class="image-container">
+          <h3 style="margin-bottom: 15px">Processed Document</h3>
+          <p class="no-image">No annotated image available</p>
+        </div>
+        {% endif %}
+
+        <!-- Display the extracted clauses -->
+        <div class="results-data">
+          <h3 style="margin-bottom: 15px">Extracted Clauses</h3>
+
+          {% if results.clauses|length == 0 %}
+          <p>No clauses were identified in this document.</p>
+          {% else %}
+          <div class="legend">
+            <h4>Clause Categories:</h4>
+            <ul class="category-legend">
+              {% for category in results.clauses.keys() %}
+              <li>
+                <span class="legend-color legend-{{ loop.index }}"></span>
+                <span class="legend-label">{{ category }}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          {% for category, clauses in results.clauses.items() %}
+          <div class="clause-category category-{{ loop.index }}">
+            <div class="category-title">
+              <span class="category-color"></span>
+              {{ category }}
+              <span class="clause-count">({{ clauses|length }} found)</span>
+            </div>
+            {% for clause in clauses %}
+            <div class="clause-text">
+              {{ clause.text if clause is mapping else clause }} {% if clause is
+              mapping and clause.confidence %}
+              <div class="confidence">
+                Confidence: {{ "%.2f"|format(clause.confidence*100) }}%
+              </div>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+          {% endfor %} {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="nav-links">
+      <a href="/">Home</a>
+    </div>
+
+    <script>
+      function showLoading(message) {
+          document.getElementById('loading-message').innerText = message;
+          document.getElementById('loading-indicator').style.display = 'flex';
+      }
+
+      function hideLoading() {
+          document.getElementById('loading-indicator').style.display = 'none';
+      }
+
+      {% if not results and not error %}
+      // Hide loading on initial page load
+      document.addEventListener('DOMContentLoaded', function() {
+          hideLoading();
+      });
+      {% endif %}
+
+      // Image zoom functionality
+      document.addEventListener('DOMContentLoaded', function() {
+          const image = document.querySelector('.results-image');
+          if (!image) return;
+
+          let scale = 1;
+          const zoomIn = document.getElementById('zoom-in');
+          const zoomOut = document.getElementById('zoom-out');
+          const reset = document.getElementById('reset-zoom');
+
+          zoomIn.addEventListener('click', function() {
+              scale += 0.25;
+              image.style.transform = `scale(${scale})`;
+          });
+
+          zoomOut.addEventListener('click', function() {
+              if (scale > 0.5) {
+                  scale -= 0.25;
+                  image.style.transform = `scale(${scale})`;
+              }
+          });
+
+          reset.addEventListener('click', function() {
+              scale = 1;
+              image.style.transform = 'scale(1)';
+          });
+      });
+    </script>
+  </body>
+</html>

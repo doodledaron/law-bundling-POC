@@ -1,0 +1,4695 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Development\\PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2.pdf",
+  "annotations": [
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "SOFTWARE DEVELOPMENT AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Client",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "(Developer and Client are individually referred to herein as a Party, and collectively as the Parties",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and",
+          "bbox": [
+            279.0,
+            479.0,
+            3029.0,
+            521.0
+          ],
+          "confidence": 0.9960187673568726
+        },
+        {
+          "text": "collectively as the Parties)",
+          "bbox": [
+            281.0,
+            533.0,
+            769.0,
+            579.0
+          ],
+          "confidence": 0.999841034412384
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Developer",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Pelican Delivers Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "DOT COM LLC, OBA Seattle Software Developers",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        },
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "December 3rd, 2018 (",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "December 3rd, 2018",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Expiration Date_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of",
+          "bbox": [
+            277.0,
+            704.0,
+            3032.0,
+            746.0
+          ],
+          "confidence": 0.9980354905128479
+        },
+        {
+          "text": "Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+          "bbox": [
+            277.0,
+            760.0,
+            2095.0,
+            802.0
+          ],
+          "confidence": 0.9952371120452881
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Governing Law_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This Agreement will be governed by the laws of the State of Washington without regards for its conflict of laws principle.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ],
+          "confidence": 0.9848315715789795
+        },
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        },
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        },
+        {
+          "text": "software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and",
+          "bbox": [
+            279.0,
+            479.0,
+            3029.0,
+            521.0
+          ],
+          "confidence": 0.9960187673568726
+        },
+        {
+          "text": "collectively as the Parties)",
+          "bbox": [
+            281.0,
+            533.0,
+            769.0,
+            579.0
+          ],
+          "confidence": 0.999841034412384
+        },
+        {
+          "text": "1. Term",
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ],
+          "confidence": 0.9558830857276917
+        },
+        {
+          "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of",
+          "bbox": [
+            277.0,
+            704.0,
+            3032.0,
+            746.0
+          ],
+          "confidence": 0.9980354905128479
+        },
+        {
+          "text": "Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+          "bbox": [
+            277.0,
+            760.0,
+            2095.0,
+            802.0
+          ],
+          "confidence": 0.9952371120452881
+        },
+        {
+          "text": "2. Statement of Work.",
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ],
+          "confidence": 0.9740993976593018
+        },
+        {
+          "text": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program),",
+          "bbox": [
+            279.0,
+            928.0,
+            3023.0,
+            970.0
+          ],
+          "confidence": 0.9931182861328125
+        },
+        {
+          "text": "and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written",
+          "bbox": [
+            279.0,
+            987.0,
+            3027.0,
+            1023.0
+          ],
+          "confidence": 0.9951556921005249
+        },
+        {
+          "text": "material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project",
+          "bbox": [
+            274.0,
+            1038.0,
+            3029.0,
+            1084.0
+          ],
+          "confidence": 0.9971182346343994
+        },
+        {
+          "text": "specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOw; as provided in APPENDIX.",
+          "bbox": [
+            277.0,
+            1093.0,
+            3027.0,
+            1140.0
+          ],
+          "confidence": 0.990934431552887
+        },
+        {
+          "text": "A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency.",
+          "bbox": [
+            277.0,
+            1148.0,
+            3027.0,
+            1197.0
+          ],
+          "confidence": 0.9928396344184875
+        },
+        {
+          "text": "between the terms of this Agreement and any SOw, the terms of this Agreement will control.",
+          "bbox": [
+            277.0,
+            1208.0,
+            2006.0,
+            1250.0
+          ],
+          "confidence": 0.9948063492774963
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ],
+          "confidence": 0.9994417428970337
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ],
+          "confidence": 0.9925853610038757
+        },
+        {
+          "text": "Each SOw will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time",
+          "bbox": [
+            274.0,
+            1429.0,
+            3025.0,
+            1475.0
+          ],
+          "confidence": 0.9929291009902954
+        },
+        {
+          "text": "deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final",
+          "bbox": [
+            279.0,
+            1489.0,
+            3029.0,
+            1531.0
+          ],
+          "confidence": 0.9964607954025269
+        },
+        {
+          "text": "Subject Program delivery date (Final Delivery Date).",
+          "bbox": [
+            281.0,
+            1546.0,
+            1238.0,
+            1588.0
+          ],
+          "confidence": 0.9953649044036865
+        },
+        {
+          "text": "12",
+          "bbox": [
+            1633.0,
+            1632.0,
+            1682.0,
+            1672.0
+          ],
+          "confidence": 0.9977607727050781
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            335.0,
+            4440.0,
+            1312.0,
+            4477.0
+          ],
+          "confidence": 0.9985888004302979
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Non-Disparagement_6_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty?",
+      "answer_text": "The Client and the Designer both agree to never to disparage or speak ill of the other party to anyone and or post negative or disparaging comments Online regarding any of the Designer's products, services, affiliates, subsidiaries, officers, directors, employees or shareholders, and will take reasonable steps to prevent and will not knowingly permit any of their respective employees or agents to, disparage or speak ill of such persons.",
+      "page_number": 6,
+      "words": [
+        {
+          "text": "6.4 CONFIDENTIALITY AND NON-DISCLOSURE",
+          "bbox": [
+            281.0,
+            289.0,
+            1245.0,
+            320.0
+          ],
+          "confidence": 0.9978026151657104
+        },
+        {
+          "text": "6.4.1 Confidential Information. Each Party acknowledges and agrees that it will receive confidential information and trade secrets from the other",
+          "bbox": [
+            277.0,
+            342.0,
+            3027.0,
+            384.0
+          ],
+          "confidence": 0.9903476238250732
+        },
+        {
+          "text": "Party in otherwise carrying out the actions contemplated by this Agreement (collective, Confidential Information). Confidential Information does",
+          "bbox": [
+            279.0,
+            398.0,
+            3025.0,
+            440.0
+          ],
+          "confidence": 0.9919090270996094
+        },
+        {
+          "text": "not include information at: (a) is available to the public or that becomes available to the public through no act or failure to act by the receiving Party",
+          "bbox": [
+            274.0,
+            451.0,
+            3025.0,
+            499.0
+          ],
+          "confidence": 0.9912462830543518
+        },
+        {
+          "text": "(Receiving Party); (b) is known to the Receiving Party prior to the date of disclosure by the disclosing Party (Disclosing Party), unless the",
+          "bbox": [
+            279.0,
+            510.0,
+            3027.0,
+            554.0
+          ],
+          "confidence": 0.9948471784591675
+        },
+        {
+          "text": "Receiving Party agreed to keep such information in confidence at the time of receipt of the information; (c) is properly obtained hereafter from a",
+          "bbox": [
+            279.0,
+            566.0,
+            3027.0,
+            610.0
+          ],
+          "confidence": 0.9978600144386292
+        },
+        {
+          "text": "source that is not under an obligation of confidentiality with respect to such information; or (d) is developed independently by the Receiving Party",
+          "bbox": [
+            274.0,
+            621.0,
+            3023.0,
+            667.0
+          ],
+          "confidence": 0.9961044788360596
+        },
+        {
+          "text": "without reference to or use of the Disclosing Party's Confidential Information.",
+          "bbox": [
+            277.0,
+            676.0,
+            1727.0,
+            720.0
+          ],
+          "confidence": 0.9938086271286011
+        },
+        {
+          "text": "6.4.2 Non-Disclosure. Neither Party shall use or disclose Confidential Information of the other Party to any third party, without the written consent",
+          "bbox": [
+            277.0,
+            735.0,
+            3029.0,
+            777.0
+          ],
+          "confidence": 0.9924056529998779
+        },
+        {
+          "text": "of the Disclosing Party of such Confidential Information. Receiving Party agrees to undertake reasonable measures to maintain and preserve the",
+          "bbox": [
+            277.0,
+            791.0,
+            3027.0,
+            833.0
+          ],
+          "confidence": 0.9939450621604919
+        },
+        {
+          "text": "Confidential Information of the Disclosing Party in confidence, which measures shall be no less than the measures taken by the",
+          "bbox": [
+            279.0,
+            846.0,
+            2646.0,
+            888.0
+          ],
+          "confidence": 0.9892035126686096
+        },
+        {
+          "text": "Receiving Party to protect its own confidential information and in no vent shall be less than reasonable care. Upon expiration or termination of this",
+          "bbox": [
+            277.0,
+            903.0,
+            3027.0,
+            945.0
+          ],
+          "confidence": 0.9955780506134033
+        },
+        {
+          "text": "Agreement, Receiving Party will immediately destroy or erase all copies of documents or materials containing any Confidential Information",
+          "bbox": [
+            279.0,
+            959.0,
+            3027.0,
+            1001.0
+          ],
+          "confidence": 0.9947222471237183
+        },
+        {
+          "text": "provided by Disclosing Party and, upon the Disclosing Party's request, promptly confirm destruction of same by signing and returning to the",
+          "bbox": [
+            277.0,
+            1016.0,
+            3027.0,
+            1060.0
+          ],
+          "confidence": 0.9936927556991577
+        },
+        {
+          "text": "Disclosing Party a certificate of destruction reasonably satisfactory to the Disclosing Party.",
+          "bbox": [
+            275.0,
+            1071.0,
+            1977.0,
+            1117.0
+          ],
+          "confidence": 0.9958076477050781
+        },
+        {
+          "text": "6.4.3 Derivatives. All Confidential Information, and any Derivatives thereof whether created by Client or Developer, remain the property of the",
+          "bbox": [
+            277.0,
+            1127.0,
+            3025.0,
+            1169.0
+          ],
+          "confidence": 0.9965192675590515
+        },
+        {
+          "text": "Disclosing Party and no license or other rights to any Confidential Information or Derivatives is granted or implied hereby. For purposes of this",
+          "bbox": [
+            277.0,
+            1184.0,
+            3027.0,
+            1226.0
+          ],
+          "confidence": 0.9939166903495789
+        },
+        {
+          "text": "Agreement, Derivatives shall mean: (a) for copyrightable or copyrighted material, any translation, abridgment, revision or other form in which an",
+          "bbox": [
+            281.0,
+            1241.0,
+            3027.0,
+            1283.0
+          ],
+          "confidence": 0.9971266984939575
+        },
+        {
+          "text": "existing work may be recast, transformed or adapted ;(b) for patentable or patented material, any improvement thereon; and (c) for material which is",
+          "bbox": [
+            279.0,
+            1297.0,
+            3029.0,
+            1339.0
+          ],
+          "confidence": 0.9991979598999023
+        },
+        {
+          "text": "protected by trade secret, any new material derived from such existing trade secret material, including new material which may be protected under",
+          "bbox": [
+            277.0,
+            1350.0,
+            3029.0,
+            1396.0
+          ],
+          "confidence": 0.9937392473220825
+        },
+        {
+          "text": "applicable copyright, patent, or trade secret law.",
+          "bbox": [
+            277.0,
+            1409.0,
+            1165.0,
+            1451.0
+          ],
+          "confidence": 0.9973291754722595
+        },
+        {
+          "text": "6.4.4 Notification of Suspected Disclosure. The Receiving Party further agrees to immediately notify Disclosing Party of any actual or suspected",
+          "bbox": [
+            277.0,
+            1462.0,
+            3027.0,
+            1506.0
+          ],
+          "confidence": 0.9992419481277466
+        },
+        {
+          "text": "misuse misappropriation, or unauthorized disclosure of Confidential Information, which may come to Receiving Party's attention.",
+          "bbox": [
+            275.0,
+            1519.0,
+            2670.0,
+            1564.0
+          ],
+          "confidence": 0.9937346577644348
+        },
+        {
+          "text": "18",
+          "bbox": [
+            1633.0,
+            1608.0,
+            1682.0,
+            1648.0
+          ],
+          "confidence": 0.9978011846542358
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            334.0,
+            4437.0,
+            1316.0,
+            4479.0
+          ],
+          "confidence": 0.9739082455635071
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "6.4 CONFIDENTIALITY AND NON-DISCLOSURE",
+          "page": 6,
+          "bbox": [
+            281.0,
+            289.0,
+            1245.0,
+            320.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Non-Disparagement_7_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty?",
+      "answer_text": "The Client and the Designer both agree to never to disparage or speak ill of the other party to anyone and or post negative or disparaging comments Online regarding any of the Designer's products, services, affiliates, subsidiaries, officers, directors, employees or shareholders, and will take reasonable steps to prevent and will not knowingly permit any of their respective employees or agents to, disparage or speak ill of such persons.",
+      "page_number": 7,
+      "words": [
+        {
+          "text": "6.4.5 Injunctive Relief for Breach. Because of the unique nature of the Confidential Information and other elements of the Parties business",
+          "bbox": [
+            277.0,
+            283.0,
+            3027.0,
+            327.0
+          ],
+          "confidence": 0.9977989792823792
+        },
+        {
+          "text": "relationship, the Parties acknowledge and agree that a breach of any of the provisions of Section 6 of this Agreement by Receiving Party will",
+          "bbox": [
+            275.0,
+            340.0,
+            3029.0,
+            386.0
+          ],
+          "confidence": 0.992571234703064
+        },
+        {
+          "text": "irreparably harm the Disclosing Party. Accordingly, in the event of a breach or threatened breach of Section 6 of this Agreement, Disclosing Party",
+          "bbox": [
+            277.0,
+            395.0,
+            3025.0,
+            442.0
+          ],
+          "confidence": 0.9901413321495056
+        },
+        {
+          "text": "will be entitled to seek injunctive relief to enforce the terms of Section 6 of this Agreement without the necessity of posting a bond or if a bond is",
+          "bbox": [
+            277.0,
+            451.0,
+            3029.0,
+            497.0
+          ],
+          "confidence": 0.9909669756889343
+        },
+        {
+          "text": "required, at the minimum amount legally required.",
+          "bbox": [
+            279.0,
+            512.0,
+            1194.0,
+            554.0
+          ],
+          "confidence": 0.9955355525016785
+        },
+        {
+          "text": "7. Parties Relationship.",
+          "bbox": [
+            279.0,
+            572.0,
+            1209.0,
+            660.0
+          ],
+          "confidence": 0.9832597374916077
+        },
+        {
+          "text": "7.1 INDEPENDENT CONTRACTOR",
+          "bbox": [
+            281.0,
+            678.0,
+            975.0,
+            714.0
+          ],
+          "confidence": 0.9871845841407776
+        },
+        {
+          "text": "Developer is undertaking the services set forth in this Agreement as an independent contractor, working at Developer's own hours and using",
+          "bbox": [
+            275.0,
+            731.0,
+            3027.0,
+            778.0
+          ],
+          "confidence": 0.9924299716949463
+        },
+        {
+          "text": "Developer's own equipment and at Developer's own chosen place of work, with discretion concerning the revision of Services and Deliverables",
+          "bbox": [
+            276.0,
+            791.0,
+            3027.0,
+            835.0
+          ],
+          "confidence": 0.9953569173812866
+        },
+        {
+          "text": "within Client's general direction. Nothing contained in this Agreement will be construed to constitute the Parties as partners, employees, agents or",
+          "bbox": [
+            274.0,
+            844.0,
+            3031.0,
+            890.0
+          ],
+          "confidence": 0.9868819713592529
+        },
+        {
+          "text": "joint ventures of each other. No Party will have the authority to bind the other Party in any respect..",
+          "bbox": [
+            272.0,
+            901.0,
+            2119.0,
+            947.0
+          ],
+          "confidence": 0.9918944239616394
+        },
+        {
+          "text": "7.2 NON-EXCLUSIVITY",
+          "bbox": [
+            279.0,
+            958.0,
+            745.0,
+            994.0
+          ],
+          "confidence": 0.9963192939758301
+        },
+        {
+          "text": "Subject to the terms and conditions herein, the Parties expressly acknowledge that this Agreement does not create an exclusive business",
+          "bbox": [
+            277.0,
+            1016.0,
+            3027.0,
+            1058.0
+          ],
+          "confidence": 0.9945932030677795
+        },
+        {
+          "text": "relationship between the Parties. Subject to the terms and conditions herein, Developer shall be entitled to offer and provide software design and",
+          "bbox": [
+            275.0,
+            1069.0,
+            3029.0,
+            1113.0
+          ],
+          "confidence": 0.9991369247436523
+        },
+        {
+          "text": "development services to third parties solicit other clients and otherwise advertise its services..",
+          "bbox": [
+            279.0,
+            1127.0,
+            2017.0,
+            1170.0
+          ],
+          "confidence": 0.9852909445762634
+        },
+        {
+          "text": "8. Taxes",
+          "bbox": [
+            275.0,
+            1197.0,
+            606.0,
+            1270.0
+          ],
+          "confidence": 0.9538167715072632
+        },
+        {
+          "text": "Developer acknowledges and agrees that as an independent contractor, developer is responsible for the payment of such taxes and withholding on",
+          "bbox": [
+            274.0,
+            1294.0,
+            3025.0,
+            1338.0
+          ],
+          "confidence": 0.9966176152229309
+        },
+        {
+          "text": "its income and activities as may be due under federal, state and local law and regulations. If appropriate, Developer will furnish Client with a Form",
+          "bbox": [
+            276.0,
+            1352.0,
+            3027.0,
+            1396.0
+          ],
+          "confidence": 0.984941303730011
+        },
+        {
+          "text": "1099 or equivalent for the payments made to Developer.",
+          "bbox": [
+            277.0,
+            1405.0,
+            1310.0,
+            1451.0
+          ],
+          "confidence": 0.9951455593109131
+        },
+        {
+          "text": "19",
+          "bbox": [
+            1635.0,
+            1493.0,
+            1680.0,
+            1535.0
+          ],
+          "confidence": 0.9902048110961914
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            334.0,
+            4437.0,
+            1314.0,
+            4479.0
+          ],
+          "confidence": 0.9864120483398438
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "7. Parties Relationship.",
+          "page": 7,
+          "bbox": [
+            279.0,
+            572.0,
+            1209.0,
+            660.0
+          ]
+        },
+        {
+          "text": "7.1 INDEPENDENT CONTRACTOR",
+          "page": 7,
+          "bbox": [
+            281.0,
+            678.0,
+            975.0,
+            714.0
+          ]
+        },
+        {
+          "text": "7.2 NON-EXCLUSIVITY",
+          "page": 7,
+          "bbox": [
+            279.0,
+            958.0,
+            745.0,
+            994.0
+          ]
+        },
+        {
+          "text": "8. Taxes",
+          "page": 7,
+          "bbox": [
+            275.0,
+            1197.0,
+            606.0,
+            1270.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Non-Disparagement_7",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty?",
+      "answer_text": "The Client and Designer both agree not to post on defamatory websites or review websites any negative posts concerning each other, the names of our companies, and our employees.",
+      "page_number": 7,
+      "words": [
+        {
+          "text": "6.4.5 Injunctive Relief for Breach. Because of the unique nature of the Confidential Information and other elements of the Parties business",
+          "bbox": [
+            277.0,
+            283.0,
+            3027.0,
+            327.0
+          ],
+          "confidence": 0.9977989792823792
+        },
+        {
+          "text": "relationship, the Parties acknowledge and agree that a breach of any of the provisions of Section 6 of this Agreement by Receiving Party will",
+          "bbox": [
+            275.0,
+            340.0,
+            3029.0,
+            386.0
+          ],
+          "confidence": 0.992571234703064
+        },
+        {
+          "text": "irreparably harm the Disclosing Party. Accordingly, in the event of a breach or threatened breach of Section 6 of this Agreement, Disclosing Party",
+          "bbox": [
+            277.0,
+            395.0,
+            3025.0,
+            442.0
+          ],
+          "confidence": 0.9901413321495056
+        },
+        {
+          "text": "will be entitled to seek injunctive relief to enforce the terms of Section 6 of this Agreement without the necessity of posting a bond or if a bond is",
+          "bbox": [
+            277.0,
+            451.0,
+            3029.0,
+            497.0
+          ],
+          "confidence": 0.9909669756889343
+        },
+        {
+          "text": "required, at the minimum amount legally required.",
+          "bbox": [
+            279.0,
+            512.0,
+            1194.0,
+            554.0
+          ],
+          "confidence": 0.9955355525016785
+        },
+        {
+          "text": "7. Parties Relationship.",
+          "bbox": [
+            279.0,
+            572.0,
+            1209.0,
+            660.0
+          ],
+          "confidence": 0.9832597374916077
+        },
+        {
+          "text": "7.1 INDEPENDENT CONTRACTOR",
+          "bbox": [
+            281.0,
+            678.0,
+            975.0,
+            714.0
+          ],
+          "confidence": 0.9871845841407776
+        },
+        {
+          "text": "Developer is undertaking the services set forth in this Agreement as an independent contractor, working at Developer's own hours and using",
+          "bbox": [
+            275.0,
+            731.0,
+            3027.0,
+            778.0
+          ],
+          "confidence": 0.9924299716949463
+        },
+        {
+          "text": "Developer's own equipment and at Developer's own chosen place of work, with discretion concerning the revision of Services and Deliverables",
+          "bbox": [
+            276.0,
+            791.0,
+            3027.0,
+            835.0
+          ],
+          "confidence": 0.9953569173812866
+        },
+        {
+          "text": "within Client's general direction. Nothing contained in this Agreement will be construed to constitute the Parties as partners, employees, agents or",
+          "bbox": [
+            274.0,
+            844.0,
+            3031.0,
+            890.0
+          ],
+          "confidence": 0.9868819713592529
+        },
+        {
+          "text": "joint ventures of each other. No Party will have the authority to bind the other Party in any respect..",
+          "bbox": [
+            272.0,
+            901.0,
+            2119.0,
+            947.0
+          ],
+          "confidence": 0.9918944239616394
+        },
+        {
+          "text": "7.2 NON-EXCLUSIVITY",
+          "bbox": [
+            279.0,
+            958.0,
+            745.0,
+            994.0
+          ],
+          "confidence": 0.9963192939758301
+        },
+        {
+          "text": "Subject to the terms and conditions herein, the Parties expressly acknowledge that this Agreement does not create an exclusive business",
+          "bbox": [
+            277.0,
+            1016.0,
+            3027.0,
+            1058.0
+          ],
+          "confidence": 0.9945932030677795
+        },
+        {
+          "text": "relationship between the Parties. Subject to the terms and conditions herein, Developer shall be entitled to offer and provide software design and",
+          "bbox": [
+            275.0,
+            1069.0,
+            3029.0,
+            1113.0
+          ],
+          "confidence": 0.9991369247436523
+        },
+        {
+          "text": "development services to third parties solicit other clients and otherwise advertise its services..",
+          "bbox": [
+            279.0,
+            1127.0,
+            2017.0,
+            1170.0
+          ],
+          "confidence": 0.9852909445762634
+        },
+        {
+          "text": "8. Taxes",
+          "bbox": [
+            275.0,
+            1197.0,
+            606.0,
+            1270.0
+          ],
+          "confidence": 0.9538167715072632
+        },
+        {
+          "text": "Developer acknowledges and agrees that as an independent contractor, developer is responsible for the payment of such taxes and withholding on",
+          "bbox": [
+            274.0,
+            1294.0,
+            3025.0,
+            1338.0
+          ],
+          "confidence": 0.9966176152229309
+        },
+        {
+          "text": "its income and activities as may be due under federal, state and local law and regulations. If appropriate, Developer will furnish Client with a Form",
+          "bbox": [
+            276.0,
+            1352.0,
+            3027.0,
+            1396.0
+          ],
+          "confidence": 0.984941303730011
+        },
+        {
+          "text": "1099 or equivalent for the payments made to Developer.",
+          "bbox": [
+            277.0,
+            1405.0,
+            1310.0,
+            1451.0
+          ],
+          "confidence": 0.9951455593109131
+        },
+        {
+          "text": "19",
+          "bbox": [
+            1635.0,
+            1493.0,
+            1680.0,
+            1535.0
+          ],
+          "confidence": 0.9902048110961914
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            334.0,
+            4437.0,
+            1314.0,
+            4479.0
+          ],
+          "confidence": 0.9864120483398438
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "7. Parties Relationship.",
+          "page": 7,
+          "bbox": [
+            279.0,
+            572.0,
+            1209.0,
+            660.0
+          ]
+        },
+        {
+          "text": "7.1 INDEPENDENT CONTRACTOR",
+          "page": 7,
+          "bbox": [
+            281.0,
+            678.0,
+            975.0,
+            714.0
+          ]
+        },
+        {
+          "text": "7.2 NON-EXCLUSIVITY",
+          "page": 7,
+          "bbox": [
+            279.0,
+            958.0,
+            745.0,
+            994.0
+          ]
+        },
+        {
+          "text": "8. Taxes",
+          "page": 7,
+          "bbox": [
+            275.0,
+            1197.0,
+            606.0,
+            1270.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Termination For Convenience_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "Either Party may terminate this Agreement at any time during the term of this Agreement for any reason upon two weeks written notice to the other Party.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ],
+          "confidence": 0.9848315715789795
+        },
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        },
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        },
+        {
+          "text": "software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and",
+          "bbox": [
+            279.0,
+            479.0,
+            3029.0,
+            521.0
+          ],
+          "confidence": 0.9960187673568726
+        },
+        {
+          "text": "collectively as the Parties)",
+          "bbox": [
+            281.0,
+            533.0,
+            769.0,
+            579.0
+          ],
+          "confidence": 0.999841034412384
+        },
+        {
+          "text": "1. Term",
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ],
+          "confidence": 0.9558830857276917
+        },
+        {
+          "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of",
+          "bbox": [
+            277.0,
+            704.0,
+            3032.0,
+            746.0
+          ],
+          "confidence": 0.9980354905128479
+        },
+        {
+          "text": "Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+          "bbox": [
+            277.0,
+            760.0,
+            2095.0,
+            802.0
+          ],
+          "confidence": 0.9952371120452881
+        },
+        {
+          "text": "2. Statement of Work.",
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ],
+          "confidence": 0.9740993976593018
+        },
+        {
+          "text": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program),",
+          "bbox": [
+            279.0,
+            928.0,
+            3023.0,
+            970.0
+          ],
+          "confidence": 0.9931182861328125
+        },
+        {
+          "text": "and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written",
+          "bbox": [
+            279.0,
+            987.0,
+            3027.0,
+            1023.0
+          ],
+          "confidence": 0.9951556921005249
+        },
+        {
+          "text": "material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project",
+          "bbox": [
+            274.0,
+            1038.0,
+            3029.0,
+            1084.0
+          ],
+          "confidence": 0.9971182346343994
+        },
+        {
+          "text": "specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOw; as provided in APPENDIX.",
+          "bbox": [
+            277.0,
+            1093.0,
+            3027.0,
+            1140.0
+          ],
+          "confidence": 0.990934431552887
+        },
+        {
+          "text": "A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency.",
+          "bbox": [
+            277.0,
+            1148.0,
+            3027.0,
+            1197.0
+          ],
+          "confidence": 0.9928396344184875
+        },
+        {
+          "text": "between the terms of this Agreement and any SOw, the terms of this Agreement will control.",
+          "bbox": [
+            277.0,
+            1208.0,
+            2006.0,
+            1250.0
+          ],
+          "confidence": 0.9948063492774963
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ],
+          "confidence": 0.9994417428970337
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ],
+          "confidence": 0.9925853610038757
+        },
+        {
+          "text": "Each SOw will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time",
+          "bbox": [
+            274.0,
+            1429.0,
+            3025.0,
+            1475.0
+          ],
+          "confidence": 0.9929291009902954
+        },
+        {
+          "text": "deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final",
+          "bbox": [
+            279.0,
+            1489.0,
+            3029.0,
+            1531.0
+          ],
+          "confidence": 0.9964607954025269
+        },
+        {
+          "text": "Subject Program delivery date (Final Delivery Date).",
+          "bbox": [
+            281.0,
+            1546.0,
+            1238.0,
+            1588.0
+          ],
+          "confidence": 0.9953649044036865
+        },
+        {
+          "text": "12",
+          "bbox": [
+            1633.0,
+            1632.0,
+            1682.0,
+            1672.0
+          ],
+          "confidence": 0.9977607727050781
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            335.0,
+            4440.0,
+            1312.0,
+            4477.0
+          ],
+          "confidence": 0.9985888004302979
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Anti-Assignment_11",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "answer_text": "Unless as provided herein, neither Party may assign, delegate, assign, nor subcontract their obligations and duties hereunder without the prior written consent of the non-assigning Party.",
+      "page_number": 11,
+      "words": [
+        {
+          "text": "Unless as provided herein, neither Party may assign, delegate, assign, nor subcontract their obligations and duties hereunder without the prior.",
+          "bbox": [
+            277.0,
+            1871.0,
+            3027.0,
+            1915.0
+          ],
+          "confidence": 0.986862063407898
+        },
+        {
+          "text": "written consent of the non-assigning Party. Notwithstanding the foregoing, Developer may assign it rights and benefits under this Agreement, and.",
+          "bbox": [
+            277.0,
+            1928.0,
+            3029.0,
+            1970.0
+          ],
+          "confidence": 0.9888624548912048
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "12.2 NOTICE",
+          "page": 11,
+          "bbox": [
+            281.0,
+            285.0,
+            536.0,
+            323.0
+          ]
+        },
+        {
+          "text": "SEATTLE SOFTWARE",
+          "page": 11,
+          "bbox": [
+            413.0,
+            566.0,
+            837.0,
+            603.0
+          ]
+        },
+        {
+          "text": "DEVELOPERS, INC",
+          "page": 11,
+          "bbox": [
+            446.0,
+            623.0,
+            807.0,
+            661.0
+          ]
+        },
+        {
+          "text": "ESQ.",
+          "page": 11,
+          "bbox": [
+            574.0,
+            1136.0,
+            673.0,
+            1188.0
+          ]
+        },
+        {
+          "text": "12.3 SEVERABILITY",
+          "page": 11,
+          "bbox": [
+            279.0,
+            1195.0,
+            689.0,
+            1235.0
+          ]
+        },
+        {
+          "text": "12.4 WAIVER",
+          "page": 11,
+          "bbox": [
+            281.0,
+            1424.0,
+            544.0,
+            1460.0
+          ]
+        },
+        {
+          "text": "12.5 ASSIGNMENT",
+          "page": 11,
+          "bbox": [
+            281.0,
+            1760.0,
+            660.0,
+            1796.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Ip Ownership Assignment_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "Upon payment in full of all obligations hereunder, Developer unconditionally and irrevocably grants to Client all software, improvements, code and other work produce produced by the Developer during the course of this agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ],
+          "confidence": 0.9848315715789795
+        },
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        },
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        },
+        {
+          "text": "software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and",
+          "bbox": [
+            279.0,
+            479.0,
+            3029.0,
+            521.0
+          ],
+          "confidence": 0.9960187673568726
+        },
+        {
+          "text": "collectively as the Parties)",
+          "bbox": [
+            281.0,
+            533.0,
+            769.0,
+            579.0
+          ],
+          "confidence": 0.999841034412384
+        },
+        {
+          "text": "1. Term",
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ],
+          "confidence": 0.9558830857276917
+        },
+        {
+          "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of",
+          "bbox": [
+            277.0,
+            704.0,
+            3032.0,
+            746.0
+          ],
+          "confidence": 0.9980354905128479
+        },
+        {
+          "text": "Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+          "bbox": [
+            277.0,
+            760.0,
+            2095.0,
+            802.0
+          ],
+          "confidence": 0.9952371120452881
+        },
+        {
+          "text": "2. Statement of Work.",
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ],
+          "confidence": 0.9740993976593018
+        },
+        {
+          "text": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program),",
+          "bbox": [
+            279.0,
+            928.0,
+            3023.0,
+            970.0
+          ],
+          "confidence": 0.9931182861328125
+        },
+        {
+          "text": "and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written",
+          "bbox": [
+            279.0,
+            987.0,
+            3027.0,
+            1023.0
+          ],
+          "confidence": 0.9951556921005249
+        },
+        {
+          "text": "material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project",
+          "bbox": [
+            274.0,
+            1038.0,
+            3029.0,
+            1084.0
+          ],
+          "confidence": 0.9971182346343994
+        },
+        {
+          "text": "specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOw; as provided in APPENDIX.",
+          "bbox": [
+            277.0,
+            1093.0,
+            3027.0,
+            1140.0
+          ],
+          "confidence": 0.990934431552887
+        },
+        {
+          "text": "A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency.",
+          "bbox": [
+            277.0,
+            1148.0,
+            3027.0,
+            1197.0
+          ],
+          "confidence": 0.9928396344184875
+        },
+        {
+          "text": "between the terms of this Agreement and any SOw, the terms of this Agreement will control.",
+          "bbox": [
+            277.0,
+            1208.0,
+            2006.0,
+            1250.0
+          ],
+          "confidence": 0.9948063492774963
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ],
+          "confidence": 0.9994417428970337
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ],
+          "confidence": 0.9925853610038757
+        },
+        {
+          "text": "Each SOw will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time",
+          "bbox": [
+            274.0,
+            1429.0,
+            3025.0,
+            1475.0
+          ],
+          "confidence": 0.9929291009902954
+        },
+        {
+          "text": "deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final",
+          "bbox": [
+            279.0,
+            1489.0,
+            3029.0,
+            1531.0
+          ],
+          "confidence": 0.9964607954025269
+        },
+        {
+          "text": "Subject Program delivery date (Final Delivery Date).",
+          "bbox": [
+            281.0,
+            1546.0,
+            1238.0,
+            1588.0
+          ],
+          "confidence": 0.9953649044036865
+        },
+        {
+          "text": "12",
+          "bbox": [
+            1633.0,
+            1632.0,
+            1682.0,
+            1672.0
+          ],
+          "confidence": 0.9977607727050781
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            335.0,
+            4440.0,
+            1312.0,
+            4477.0
+          ],
+          "confidence": 0.9985888004302979
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Ip Ownership Assignment_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "Upon payment in full of all obligations hereunder, Developer unconditionally and irrevocably grants to Client all software, improvements, code and other work produce produced by the Developer during the course of this agreement.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "3.2 PROJECT DELIVERY AND INSTALLATION",
+          "bbox": [
+            281.0,
+            287.0,
+            1202.0,
+            318.0
+          ],
+          "confidence": 0.9977911710739136
+        },
+        {
+          "text": "As detailed in a SOw hereto, Developer will provide certain Services, Deliverables and Documentation to Client upon a designated Milestone in",
+          "bbox": [
+            279.0,
+            342.0,
+            3025.0,
+            384.0
+          ],
+          "confidence": 0.991825520992279
+        },
+        {
+          "text": "accordance with such Milestone's specific Specifications (collectively, Specific Specifications). Prior to completing a Milestone, Developer will: (a)",
+          "bbox": [
+            277.0,
+            398.0,
+            3025.0,
+            439.0
+          ],
+          "confidence": 0.9989688992500305
+        },
+        {
+          "text": "inform Client of the availability of each portion of a Deliverable otherwise required be delivered by such Milestone date for testing by Client (he",
+          "bbox": [
+            277.0,
+            451.0,
+            3027.0,
+            497.0
+          ],
+          "confidence": 0.9833110570907593
+        },
+        {
+          "text": "Acceptance Test Date); and (b) deliver to Client sue Deliverable (each a Milestone Deliverable) including the source code and object code form",
+          "bbox": [
+            279.0,
+            510.0,
+            3029.0,
+            552.0
+          ],
+          "confidence": 0.9942138195037842
+        },
+        {
+          "text": "compatible with the platform(s) described in the SOw for such Milestone Deliverable.",
+          "bbox": [
+            277.0,
+            561.0,
+            1871.0,
+            610.0
+          ],
+          "confidence": 0.9976839423179626
+        },
+        {
+          "text": "3.3 ACCEPTANCE AND BETA TESTS",
+          "bbox": [
+            279.0,
+            623.0,
+            1010.0,
+            660.0
+          ],
+          "confidence": 0.9993003606796265
+        },
+        {
+          "text": "Within the time periods designated in the SOw, Client shall perform any tests or evaluation of the Subject Program (collectively, the Acceptance",
+          "bbox": [
+            281.0,
+            678.0,
+            3027.0,
+            722.0
+          ],
+          "confidence": 0.99110347032547
+        },
+        {
+          "text": "Tests) after the Acceptance Test Date, to determine whether each Deliverable: (a) conforms to the SOw; and (b) performs repetitively on an",
+          "bbox": [
+            276.0,
+            735.0,
+            3029.0,
+            777.0
+          ],
+          "confidence": 0.9966441988945007
+        },
+        {
+          "text": "appropriate variety of data and platforms, without failure, as more fully described in the Specifications. Upon completion of II Deliverables, the",
+          "bbox": [
+            275.0,
+            788.0,
+            3027.0,
+            837.0
+          ],
+          "confidence": 0.9958747029304504
+        },
+        {
+          "text": "Acceptance Tests shall be performed on the Subject Program in its entirety in order to determine whether the Subject Program (i) meets the",
+          "bbox": [
+            279.0,
+            848.0,
+            3027.0,
+            890.0
+          ],
+          "confidence": 0.9937873482704163
+        },
+        {
+          "text": "Specifications and (ii) operates with internal consistency..",
+          "bbox": [
+            277.0,
+            903.0,
+            1341.0,
+            947.0
+          ],
+          "confidence": 0.9891926050186157
+        },
+        {
+          "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS",
+          "bbox": [
+            274.0,
+            956.0,
+            1727.0,
+            1000.0
+          ],
+          "confidence": 0.9943150877952576
+        },
+        {
+          "text": "Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections.",
+          "bbox": [
+            277.0,
+            1012.0,
+            3023.0,
+            1058.0
+          ],
+          "confidence": 0.9982693195343018
+        },
+        {
+          "text": "corrections, changes or amendments required (a Change Request), within ten (10) days of such Milestone's Acceptance Test Date. Any Change",
+          "bbox": [
+            275.0,
+            1069.0,
+            3025.0,
+            1117.0
+          ],
+          "confidence": 0.9858789443969727
+        },
+        {
+          "text": "Request shall be sufficient to identify, with clarity, any objection, correction, change or amendment to such Milestone Deliverable. In the absence",
+          "bbox": [
+            277.0,
+            1127.0,
+            3029.0,
+            1171.0
+          ],
+          "confidence": 0.990655779838562
+        },
+        {
+          "text": "of a Change Request from Client within the time periods detailed herein, the Milestone Deliverable will be deemed accepted by Client.",
+          "bbox": [
+            277.0,
+            1184.0,
+            2753.0,
+            1226.0
+          ],
+          "confidence": 0.9910554885864258
+        },
+        {
+          "text": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+          "bbox": [
+            277.0,
+            1241.0,
+            1234.0,
+            1277.0
+          ],
+          "confidence": 0.9992486834526062
+        },
+        {
+          "text": "If any Milestone Deliverable does not satisfy the Client's Acceptance Test and Client provides Developer a Change Request concerning the same,",
+          "bbox": [
+            275.0,
+            1294.0,
+            3025.0,
+            1339.0
+          ],
+          "confidence": 0.9924458265304565
+        },
+        {
+          "text": "Developer will have twenty (20) days from the receipt of such Change Request to correct the deficiencies, errors, corrections, modifications, bug-",
+          "bbox": [
+            275.0,
+            1350.0,
+            3023.0,
+            1396.0
+          ],
+          "confidence": 0.9945789575576782
+        },
+        {
+          "text": "fixes or changes to the Deliverables as identified in the Change Request. Upon Client's receipt of a Milestone Deliverable following Developer's",
+          "bbox": [
+            277.0,
+            1405.0,
+            3027.0,
+            1453.0
+          ],
+          "confidence": 0.9946367740631104
+        },
+        {
+          "text": "modification pursuant to Change Request (a Modified Deliverable), Client will have five (5) days to inspect, test and reevaluate such Modified.",
+          "bbox": [
+            275.0,
+            1462.0,
+            3029.0,
+            1506.0
+          ],
+          "confidence": 0.9914018511772156
+        },
+        {
+          "text": "Deliverable to determine acceptance. If Client does not notify Developer of any further failures, objections, changes, defects, or bugs in such",
+          "bbox": [
+            277.0,
+            1520.0,
+            3027.0,
+            1562.0
+          ],
+          "confidence": 0.9955757856369019
+        },
+        {
+          "text": "Modified Deliverable, the Modified Deliverable will be deemed accepted by Client.",
+          "bbox": [
+            277.0,
+            1577.0,
+            1805.0,
+            1619.0
+          ],
+          "confidence": 0.9864616990089417
+        },
+        {
+          "text": "13",
+          "bbox": [
+            1633.0,
+            1663.0,
+            1682.0,
+            1703.0
+          ],
+          "confidence": 0.9969660043716431
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            332.0,
+            4435.0,
+            1316.0,
+            4479.0
+          ],
+          "confidence": 0.9986481070518494
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "3.2 PROJECT DELIVERY AND INSTALLATION",
+          "page": 1,
+          "bbox": [
+            281.0,
+            287.0,
+            1202.0,
+            318.0
+          ]
+        },
+        {
+          "text": "3.3 ACCEPTANCE AND BETA TESTS",
+          "page": 1,
+          "bbox": [
+            279.0,
+            623.0,
+            1010.0,
+            660.0
+          ]
+        },
+        {
+          "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS",
+          "page": 1,
+          "bbox": [
+            274.0,
+            956.0,
+            1727.0,
+            1000.0
+          ]
+        },
+        {
+          "text": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+          "page": 1,
+          "bbox": [
+            277.0,
+            1241.0,
+            1234.0,
+            1277.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Ip Ownership Assignment_5",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "To the extent permissible, Developer hereby assigns and transfers to Client all copyright and other intellectual property ownership in the Works.",
+      "page_number": 5,
+      "words": [
+        {
+          "text": "seq. Accordingly, Client will be the copyright author and owner of all of the Works. To the extent permissible, Developer hereby assigns and",
+          "bbox": [
+            277.0,
+            566.0,
+            3029.0,
+            610.0
+          ],
+          "confidence": 0.9906545281410217
+        },
+        {
+          "text": "transfers to Client all copyright and other intellectual property ownership in the Works. Developer agrees to assist Client, as well as execute any",
+          "bbox": [
+            279.0,
+            623.0,
+            3027.0,
+            667.0
+          ],
+          "confidence": 0.995908796787262
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "6. Intellectual Property.",
+          "page": 5,
+          "bbox": [
+            282.0,
+            294.0,
+            1215.0,
+            379.0
+          ]
+        },
+        {
+          "text": "6.1 WORK MADE FOR HIRE AND ASSIGNMENT OF RIGHTS",
+          "page": 5,
+          "bbox": [
+            281.0,
+            398.0,
+            1486.0,
+            435.0
+          ]
+        },
+        {
+          "text": "6.2 DEVELOPER'S INTELLECTUAL PROPERTY",
+          "page": 5,
+          "bbox": [
+            279.0,
+            959.0,
+            1223.0,
+            996.0
+          ]
+        },
+        {
+          "text": "6.3 LICENSE TO CLIENT'S INTELLECTUAL PROPERTY",
+          "page": 5,
+          "bbox": [
+            279.0,
+            1297.0,
+            1388.0,
+            1334.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Ip Ownership Assignment_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "Except as otherwise detailed in this Agreement, the Parties acknowledge and agree that the Subject Program including without limitation the Deliverables and Documentation (collectively, the Works) are \"work made for hire\" in accordance with the U.S. Copyright Act, 17 U.S.C. § 101 et seq.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ],
+          "confidence": 0.9848315715789795
+        },
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        },
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        },
+        {
+          "text": "software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and",
+          "bbox": [
+            279.0,
+            479.0,
+            3029.0,
+            521.0
+          ],
+          "confidence": 0.9960187673568726
+        },
+        {
+          "text": "collectively as the Parties)",
+          "bbox": [
+            281.0,
+            533.0,
+            769.0,
+            579.0
+          ],
+          "confidence": 0.999841034412384
+        },
+        {
+          "text": "1. Term",
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ],
+          "confidence": 0.9558830857276917
+        },
+        {
+          "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of",
+          "bbox": [
+            277.0,
+            704.0,
+            3032.0,
+            746.0
+          ],
+          "confidence": 0.9980354905128479
+        },
+        {
+          "text": "Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+          "bbox": [
+            277.0,
+            760.0,
+            2095.0,
+            802.0
+          ],
+          "confidence": 0.9952371120452881
+        },
+        {
+          "text": "2. Statement of Work.",
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ],
+          "confidence": 0.9740993976593018
+        },
+        {
+          "text": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program),",
+          "bbox": [
+            279.0,
+            928.0,
+            3023.0,
+            970.0
+          ],
+          "confidence": 0.9931182861328125
+        },
+        {
+          "text": "and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written",
+          "bbox": [
+            279.0,
+            987.0,
+            3027.0,
+            1023.0
+          ],
+          "confidence": 0.9951556921005249
+        },
+        {
+          "text": "material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project",
+          "bbox": [
+            274.0,
+            1038.0,
+            3029.0,
+            1084.0
+          ],
+          "confidence": 0.9971182346343994
+        },
+        {
+          "text": "specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOw; as provided in APPENDIX.",
+          "bbox": [
+            277.0,
+            1093.0,
+            3027.0,
+            1140.0
+          ],
+          "confidence": 0.990934431552887
+        },
+        {
+          "text": "A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency.",
+          "bbox": [
+            277.0,
+            1148.0,
+            3027.0,
+            1197.0
+          ],
+          "confidence": 0.9928396344184875
+        },
+        {
+          "text": "between the terms of this Agreement and any SOw, the terms of this Agreement will control.",
+          "bbox": [
+            277.0,
+            1208.0,
+            2006.0,
+            1250.0
+          ],
+          "confidence": 0.9948063492774963
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ],
+          "confidence": 0.9994417428970337
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ],
+          "confidence": 0.9925853610038757
+        },
+        {
+          "text": "Each SOw will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time",
+          "bbox": [
+            274.0,
+            1429.0,
+            3025.0,
+            1475.0
+          ],
+          "confidence": 0.9929291009902954
+        },
+        {
+          "text": "deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final",
+          "bbox": [
+            279.0,
+            1489.0,
+            3029.0,
+            1531.0
+          ],
+          "confidence": 0.9964607954025269
+        },
+        {
+          "text": "Subject Program delivery date (Final Delivery Date).",
+          "bbox": [
+            281.0,
+            1546.0,
+            1238.0,
+            1588.0
+          ],
+          "confidence": 0.9953649044036865
+        },
+        {
+          "text": "12",
+          "bbox": [
+            1633.0,
+            1632.0,
+            1682.0,
+            1672.0
+          ],
+          "confidence": 0.9977607727050781
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            335.0,
+            4440.0,
+            1312.0,
+            4477.0
+          ],
+          "confidence": 0.9985888004302979
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Ip Ownership Assignment_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "Except as otherwise detailed in this Agreement, the Parties acknowledge and agree that the Subject Program including without limitation the Deliverables and Documentation (collectively, the Works) are \"work made for hire\" in accordance with the U.S. Copyright Act, 17 U.S.C. § 101 et seq.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "3.2 PROJECT DELIVERY AND INSTALLATION",
+          "bbox": [
+            281.0,
+            287.0,
+            1202.0,
+            318.0
+          ],
+          "confidence": 0.9977911710739136
+        },
+        {
+          "text": "As detailed in a SOw hereto, Developer will provide certain Services, Deliverables and Documentation to Client upon a designated Milestone in",
+          "bbox": [
+            279.0,
+            342.0,
+            3025.0,
+            384.0
+          ],
+          "confidence": 0.991825520992279
+        },
+        {
+          "text": "accordance with such Milestone's specific Specifications (collectively, Specific Specifications). Prior to completing a Milestone, Developer will: (a)",
+          "bbox": [
+            277.0,
+            398.0,
+            3025.0,
+            439.0
+          ],
+          "confidence": 0.9989688992500305
+        },
+        {
+          "text": "inform Client of the availability of each portion of a Deliverable otherwise required be delivered by such Milestone date for testing by Client (he",
+          "bbox": [
+            277.0,
+            451.0,
+            3027.0,
+            497.0
+          ],
+          "confidence": 0.9833110570907593
+        },
+        {
+          "text": "Acceptance Test Date); and (b) deliver to Client sue Deliverable (each a Milestone Deliverable) including the source code and object code form",
+          "bbox": [
+            279.0,
+            510.0,
+            3029.0,
+            552.0
+          ],
+          "confidence": 0.9942138195037842
+        },
+        {
+          "text": "compatible with the platform(s) described in the SOw for such Milestone Deliverable.",
+          "bbox": [
+            277.0,
+            561.0,
+            1871.0,
+            610.0
+          ],
+          "confidence": 0.9976839423179626
+        },
+        {
+          "text": "3.3 ACCEPTANCE AND BETA TESTS",
+          "bbox": [
+            279.0,
+            623.0,
+            1010.0,
+            660.0
+          ],
+          "confidence": 0.9993003606796265
+        },
+        {
+          "text": "Within the time periods designated in the SOw, Client shall perform any tests or evaluation of the Subject Program (collectively, the Acceptance",
+          "bbox": [
+            281.0,
+            678.0,
+            3027.0,
+            722.0
+          ],
+          "confidence": 0.99110347032547
+        },
+        {
+          "text": "Tests) after the Acceptance Test Date, to determine whether each Deliverable: (a) conforms to the SOw; and (b) performs repetitively on an",
+          "bbox": [
+            276.0,
+            735.0,
+            3029.0,
+            777.0
+          ],
+          "confidence": 0.9966441988945007
+        },
+        {
+          "text": "appropriate variety of data and platforms, without failure, as more fully described in the Specifications. Upon completion of II Deliverables, the",
+          "bbox": [
+            275.0,
+            788.0,
+            3027.0,
+            837.0
+          ],
+          "confidence": 0.9958747029304504
+        },
+        {
+          "text": "Acceptance Tests shall be performed on the Subject Program in its entirety in order to determine whether the Subject Program (i) meets the",
+          "bbox": [
+            279.0,
+            848.0,
+            3027.0,
+            890.0
+          ],
+          "confidence": 0.9937873482704163
+        },
+        {
+          "text": "Specifications and (ii) operates with internal consistency..",
+          "bbox": [
+            277.0,
+            903.0,
+            1341.0,
+            947.0
+          ],
+          "confidence": 0.9891926050186157
+        },
+        {
+          "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS",
+          "bbox": [
+            274.0,
+            956.0,
+            1727.0,
+            1000.0
+          ],
+          "confidence": 0.9943150877952576
+        },
+        {
+          "text": "Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections.",
+          "bbox": [
+            277.0,
+            1012.0,
+            3023.0,
+            1058.0
+          ],
+          "confidence": 0.9982693195343018
+        },
+        {
+          "text": "corrections, changes or amendments required (a Change Request), within ten (10) days of such Milestone's Acceptance Test Date. Any Change",
+          "bbox": [
+            275.0,
+            1069.0,
+            3025.0,
+            1117.0
+          ],
+          "confidence": 0.9858789443969727
+        },
+        {
+          "text": "Request shall be sufficient to identify, with clarity, any objection, correction, change or amendment to such Milestone Deliverable. In the absence",
+          "bbox": [
+            277.0,
+            1127.0,
+            3029.0,
+            1171.0
+          ],
+          "confidence": 0.990655779838562
+        },
+        {
+          "text": "of a Change Request from Client within the time periods detailed herein, the Milestone Deliverable will be deemed accepted by Client.",
+          "bbox": [
+            277.0,
+            1184.0,
+            2753.0,
+            1226.0
+          ],
+          "confidence": 0.9910554885864258
+        },
+        {
+          "text": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+          "bbox": [
+            277.0,
+            1241.0,
+            1234.0,
+            1277.0
+          ],
+          "confidence": 0.9992486834526062
+        },
+        {
+          "text": "If any Milestone Deliverable does not satisfy the Client's Acceptance Test and Client provides Developer a Change Request concerning the same,",
+          "bbox": [
+            275.0,
+            1294.0,
+            3025.0,
+            1339.0
+          ],
+          "confidence": 0.9924458265304565
+        },
+        {
+          "text": "Developer will have twenty (20) days from the receipt of such Change Request to correct the deficiencies, errors, corrections, modifications, bug-",
+          "bbox": [
+            275.0,
+            1350.0,
+            3023.0,
+            1396.0
+          ],
+          "confidence": 0.9945789575576782
+        },
+        {
+          "text": "fixes or changes to the Deliverables as identified in the Change Request. Upon Client's receipt of a Milestone Deliverable following Developer's",
+          "bbox": [
+            277.0,
+            1405.0,
+            3027.0,
+            1453.0
+          ],
+          "confidence": 0.9946367740631104
+        },
+        {
+          "text": "modification pursuant to Change Request (a Modified Deliverable), Client will have five (5) days to inspect, test and reevaluate such Modified.",
+          "bbox": [
+            275.0,
+            1462.0,
+            3029.0,
+            1506.0
+          ],
+          "confidence": 0.9914018511772156
+        },
+        {
+          "text": "Deliverable to determine acceptance. If Client does not notify Developer of any further failures, objections, changes, defects, or bugs in such",
+          "bbox": [
+            277.0,
+            1520.0,
+            3027.0,
+            1562.0
+          ],
+          "confidence": 0.9955757856369019
+        },
+        {
+          "text": "Modified Deliverable, the Modified Deliverable will be deemed accepted by Client.",
+          "bbox": [
+            277.0,
+            1577.0,
+            1805.0,
+            1619.0
+          ],
+          "confidence": 0.9864616990089417
+        },
+        {
+          "text": "13",
+          "bbox": [
+            1633.0,
+            1663.0,
+            1682.0,
+            1703.0
+          ],
+          "confidence": 0.9969660043716431
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            332.0,
+            4435.0,
+            1316.0,
+            4479.0
+          ],
+          "confidence": 0.9986481070518494
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "3.2 PROJECT DELIVERY AND INSTALLATION",
+          "page": 1,
+          "bbox": [
+            281.0,
+            287.0,
+            1202.0,
+            318.0
+          ]
+        },
+        {
+          "text": "3.3 ACCEPTANCE AND BETA TESTS",
+          "page": 1,
+          "bbox": [
+            279.0,
+            623.0,
+            1010.0,
+            660.0
+          ]
+        },
+        {
+          "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS",
+          "page": 1,
+          "bbox": [
+            274.0,
+            956.0,
+            1727.0,
+            1000.0
+          ]
+        },
+        {
+          "text": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+          "page": 1,
+          "bbox": [
+            277.0,
+            1241.0,
+            1234.0,
+            1277.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__License Grant_2",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "As such, Client hereby grants Developer a royalty-free, worldwide, license to use its Content, Marks, Procedures and Confidential Information in order to complete the Project.",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "3.6 FAILURE OF DEVELOPER TO CORRECT DEFECTS",
+          "bbox": [
+            279.0,
+            285.0,
+            1365.0,
+            322.0
+          ],
+          "confidence": 0.9885804653167725
+        },
+        {
+          "text": "Should Developer reasonably fail to meet the requirements of Section 3. or Section 3.5 of this Agreement such that a Milestone Deliverable or",
+          "bbox": [
+            277.0,
+            342.0,
+            3025.0,
+            384.0
+          ],
+          "confidence": 0.9981974959373474
+        },
+        {
+          "text": "Modified Deliverable does not satisfy Client's reasonable acceptance criteria within the time periods set forth in the same, Client will have the",
+          "bbox": [
+            277.0,
+            398.0,
+            3027.0,
+            440.0
+          ],
+          "confidence": 0.9920774102210999
+        },
+        {
+          "text": "option of: (a) repeating the procedures set forth in Section 3.4 or Section 3.5 Above; or (b) terminating this Agreement pursuant to Section 8 of this",
+          "bbox": [
+            275.0,
+            450.0,
+            3031.0,
+            501.0
+          ],
+          "confidence": 0.9949540495872498
+        },
+        {
+          "text": "agreement.",
+          "bbox": [
+            275.0,
+            509.0,
+            482.0,
+            554.0
+          ],
+          "confidence": 0.9996670484542847
+        },
+        {
+          "text": "3.7 FINAL DELIVERABLE AND SUBJECT PROGRAM TESTING",
+          "bbox": [
+            277.0,
+            566.0,
+            1532.0,
+            603.0
+          ],
+          "confidence": 0.9997312426567078
+        },
+        {
+          "text": "Notwithstanding anything contained herein, upon completion of the Final Deliverable set out in the Specifications thereto, Client will perform",
+          "bbox": [
+            275.0,
+            619.0,
+            3025.0,
+            665.0
+          ],
+          "confidence": 0.994100034236908
+        },
+        {
+          "text": "Acceptance Test on the Subject Program within fifteen (15) calendar days from the Acceptance Test Date in order to determine whether the Subject",
+          "bbox": [
+            281.0,
+            680.0,
+            3027.0,
+            722.0
+          ],
+          "confidence": 0.9931752681732178
+        },
+        {
+          "text": "Program satisfies the acceptance criteria and operates with internal consistency. If the completed Subject Program does not satisfy the Client's",
+          "bbox": [
+            279.0,
+            735.0,
+            3027.0,
+            777.0
+          ],
+          "confidence": 0.9929122924804688
+        },
+        {
+          "text": "Acceptance Tests and Client provides Developer a Change Request concerning the same, Developer will have fifteen (15) calendar days from the",
+          "bbox": [
+            281.0,
+            791.0,
+            3027.0,
+            833.0
+          ],
+          "confidence": 0.9878731966018677
+        },
+        {
+          "text": "receipt of such Change Request to correct the deficiencies errors, corrections, modifications, bug-fixes or changes. Client shall then have ten (10)",
+          "bbox": [
+            277.0,
+            848.0,
+            3027.0,
+            890.0
+          ],
+          "confidence": 0.9924017190933228
+        },
+        {
+          "text": "additional days to inspect, test and reevaluate the completed and modified Subject Program or Final Deliverable. If the Subject Program or Final",
+          "bbox": [
+            279.0,
+            903.0,
+            3030.0,
+            945.0
+          ],
+          "confidence": 0.9936321973800659
+        },
+        {
+          "text": "Deliverable still does not satisfy the Client's acceptance criteria and/or the Acceptance Tests, Client shall have the option of either: (a) repeating the",
+          "bbox": [
+            275.0,
+            958.0,
+            3025.0,
+            1001.0
+          ],
+          "confidence": 0.9963139295578003
+        },
+        {
+          "text": "procedure set forth above; or (b) terminating this Agreement pursuant to Section 12 of this Agreement . If the Client does not notify the Developer",
+          "bbox": [
+            279.0,
+            1016.0,
+            3027.0,
+            1058.0
+          ],
+          "confidence": 0.993319571018219
+        },
+        {
+          "text": "of any further failures, objections, changes, or other defects, or bugs of or in the Subject Program via a Change Request, Client will be deemed to",
+          "bbox": [
+            277.0,
+            1073.0,
+            3027.0,
+            1115.0
+          ],
+          "confidence": 0.9887387156486511
+        },
+        {
+          "text": "have accepted the Subject Program.",
+          "bbox": [
+            274.0,
+            1127.0,
+            944.0,
+            1170.0
+          ],
+          "confidence": 0.9997859001159668
+        },
+        {
+          "text": "3.8 CLIENT ASSISTANCE",
+          "bbox": [
+            276.0,
+            1184.0,
+            787.0,
+            1221.0
+          ],
+          "confidence": 0.9827282428741455
+        },
+        {
+          "text": "Client shall provide Developer assistance to complete the Services, and produce the Deliverables, as reasonably requested, including but not",
+          "bbox": [
+            279.0,
+            1241.0,
+            3029.0,
+            1283.0
+          ],
+          "confidence": 0.9899232983589172
+        },
+        {
+          "text": "limited to providing the necessary information or documentation required from Developer for the development of the Subject Program. Client shall",
+          "bbox": [
+            279.0,
+            1296.0,
+            3029.0,
+            1338.0
+          ],
+          "confidence": 0.9918496012687683
+        },
+        {
+          "text": "conduct all Acceptance Tests in good faith and shall not delay any acceptance of any Service or Deliverable without reasonable justification. The",
+          "bbox": [
+            277.0,
+            1352.0,
+            3027.0,
+            1394.0
+          ],
+          "confidence": 0.991569995880127
+        },
+        {
+          "text": "evaluation of any Service or Deliverable for any Acceptance Test will be based on material compliance with applicable Specifications and Client",
+          "bbox": [
+            277.0,
+            1405.0,
+            3029.0,
+            1451.0
+          ],
+          "confidence": 0.9844787120819092
+        },
+        {
+          "text": "shall not arbitrarily withhold acceptance of any Milestone Deliverable or Subject Program.",
+          "bbox": [
+            275.0,
+            1462.0,
+            1950.0,
+            1508.0
+          ],
+          "confidence": 0.9974949955940247
+        },
+        {
+          "text": "3.9 DEVELOPER DUTIES FOR ACCEPTANCE TESTS",
+          "bbox": [
+            277.0,
+            1520.0,
+            1323.0,
+            1557.0
+          ],
+          "confidence": 0.9995651245117188
+        },
+        {
+          "text": "Unless otherwise agreed by the Parties in writing, regardless of the acceptance or rejection of any Milestone Deliverable, Developer shall continue",
+          "bbox": [
+            277.0,
+            1577.0,
+            3027.0,
+            1619.0
+          ],
+          "confidence": 0.9948419332504272
+        },
+        {
+          "text": "to perform all Services and deliver all Deliverables in accordance with the Delivery Schedule. Developer shall use its best efforts to make any",
+          "bbox": [
+            275.0,
+            1632.0,
+            3023.0,
+            1678.0
+          ],
+          "confidence": 0.9889951944351196
+        },
+        {
+          "text": "necessary corrections, modifications, bug-fixes, or other changes promptly to complete the Services and Deliverables by the Final Delivery Date.",
+          "bbox": [
+            276.0,
+            1690.0,
+            2967.0,
+            1732.0
+          ],
+          "confidence": 0.9950308203697205
+        },
+        {
+          "text": "14",
+          "bbox": [
+            1633.0,
+            1774.0,
+            1682.0,
+            1815.0
+          ],
+          "confidence": 0.9789133071899414
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            334.0,
+            4437.0,
+            1316.0,
+            4479.0
+          ],
+          "confidence": 0.9868463277816772
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "3.6 FAILURE OF DEVELOPER TO CORRECT DEFECTS",
+          "page": 2,
+          "bbox": [
+            279.0,
+            285.0,
+            1365.0,
+            322.0
+          ]
+        },
+        {
+          "text": "3.7 FINAL DELIVERABLE AND SUBJECT PROGRAM TESTING",
+          "page": 2,
+          "bbox": [
+            277.0,
+            566.0,
+            1532.0,
+            603.0
+          ]
+        },
+        {
+          "text": "3.8 CLIENT ASSISTANCE",
+          "page": 2,
+          "bbox": [
+            276.0,
+            1184.0,
+            787.0,
+            1221.0
+          ]
+        },
+        {
+          "text": "3.9 DEVELOPER DUTIES FOR ACCEPTANCE TESTS",
+          "page": 2,
+          "bbox": [
+            277.0,
+            1520.0,
+            1323.0,
+            1557.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__License Grant_5_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "To assist Developer to complete all Project-related Services and deliverable Deliverables to Client in a complete and timely manner, Client shall provide Developer access and licensed rights to the following as necessary to complete the Project: (a) text, software, graphics, photos, sounds, music, videos, designs, compilations, magnetic translations, digital conversion interactive features and the like (collectively, the Content); (b) any trademarks, service marks, trade dress and logos, whether owned or licensed by Client (collectively, the Marks); and (c) any know-how, methodologies, equipment, or processes used by Client in its operations {collectively, the Procedures); and (d) Client's Confidential Information (as defined below).",
+      "page_number": 5,
+      "words": [
+        {
+          "text": "To assist Developer to complete all Project-related Services and deliverable Deliverables to Client in a complete and timely manner, Client shall",
+          "bbox": [
+            277.0,
+            1352.0,
+            3029.0,
+            1394.0
+          ],
+          "confidence": 0.9952217936515808
+        },
+        {
+          "text": "provide Developer access and licensed rights to the following as necessary to complete the Project: (a) text, software, graphics, photos, sounds,",
+          "bbox": [
+            277.0,
+            1409.0,
+            3023.0,
+            1451.0
+          ],
+          "confidence": 0.9875170588493347
+        },
+        {
+          "text": "music, videos, designs, compilations, magnetic translations, digital conversion interactive features and the like (collectively, the Content); (b) any",
+          "bbox": [
+            274.0,
+            1462.0,
+            3025.0,
+            1509.0
+          ],
+          "confidence": 0.9957020878791809
+        },
+        {
+          "text": "trademarks, service marks, trade dress and logos, whether owned or licensed by Client (collectively, the Marks); and (c) any know-how,",
+          "bbox": [
+            277.0,
+            1520.0,
+            3025.0,
+            1562.0
+          ],
+          "confidence": 0.9899924993515015
+        },
+        {
+          "text": "methodologies, equipment, or processes used by Client in its operations {collectively, the Procedures); and (d) Client's Confidential Information (as",
+          "bbox": [
+            277.0,
+            1577.0,
+            3027.0,
+            1619.0
+          ],
+          "confidence": 0.9947377443313599
+        },
+        {
+          "text": "defined below). As such, Client hereby grants Developer a royalty-free, worldwide, license to use its Content, Marks, Procedures and Confidential",
+          "bbox": [
+            279.0,
+            1634.0,
+            3030.0,
+            1676.0
+          ],
+          "confidence": 0.9968811869621277
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "6. Intellectual Property.",
+          "page": 5,
+          "bbox": [
+            282.0,
+            294.0,
+            1215.0,
+            379.0
+          ]
+        },
+        {
+          "text": "6.1 WORK MADE FOR HIRE AND ASSIGNMENT OF RIGHTS",
+          "page": 5,
+          "bbox": [
+            281.0,
+            398.0,
+            1486.0,
+            435.0
+          ]
+        },
+        {
+          "text": "6.2 DEVELOPER'S INTELLECTUAL PROPERTY",
+          "page": 5,
+          "bbox": [
+            279.0,
+            959.0,
+            1223.0,
+            996.0
+          ]
+        },
+        {
+          "text": "6.3 LICENSE TO CLIENT'S INTELLECTUAL PROPERTY",
+          "page": 5,
+          "bbox": [
+            279.0,
+            1297.0,
+            1388.0,
+            1334.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Post-Termination Services_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?",
+      "answer_text": "In the event of a termination or expiration of this Agreement or any SOW for any reason, developer will, as requested by and at additional cost to Client, provide up to three (3) months of Fee billable assistance (collectively, the Termination Assistance Services) in transitioning from Developer to an alternative software service provider including, without limitation, the following: (a) knowledge transfer regarding the operation, use, and support of the subject Program; return of all documentation containing Content, Marks, Procedures a d Confidential Information in a format reasonably specified by Client and assistance with data migration to an alternative solution; and (c) any related additional services as requested by Client.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ],
+          "confidence": 0.9848315715789795
+        },
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        },
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        },
+        {
+          "text": "software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and",
+          "bbox": [
+            279.0,
+            479.0,
+            3029.0,
+            521.0
+          ],
+          "confidence": 0.9960187673568726
+        },
+        {
+          "text": "collectively as the Parties)",
+          "bbox": [
+            281.0,
+            533.0,
+            769.0,
+            579.0
+          ],
+          "confidence": 0.999841034412384
+        },
+        {
+          "text": "1. Term",
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ],
+          "confidence": 0.9558830857276917
+        },
+        {
+          "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of",
+          "bbox": [
+            277.0,
+            704.0,
+            3032.0,
+            746.0
+          ],
+          "confidence": 0.9980354905128479
+        },
+        {
+          "text": "Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+          "bbox": [
+            277.0,
+            760.0,
+            2095.0,
+            802.0
+          ],
+          "confidence": 0.9952371120452881
+        },
+        {
+          "text": "2. Statement of Work.",
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ],
+          "confidence": 0.9740993976593018
+        },
+        {
+          "text": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program),",
+          "bbox": [
+            279.0,
+            928.0,
+            3023.0,
+            970.0
+          ],
+          "confidence": 0.9931182861328125
+        },
+        {
+          "text": "and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written",
+          "bbox": [
+            279.0,
+            987.0,
+            3027.0,
+            1023.0
+          ],
+          "confidence": 0.9951556921005249
+        },
+        {
+          "text": "material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project",
+          "bbox": [
+            274.0,
+            1038.0,
+            3029.0,
+            1084.0
+          ],
+          "confidence": 0.9971182346343994
+        },
+        {
+          "text": "specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOw; as provided in APPENDIX.",
+          "bbox": [
+            277.0,
+            1093.0,
+            3027.0,
+            1140.0
+          ],
+          "confidence": 0.990934431552887
+        },
+        {
+          "text": "A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency.",
+          "bbox": [
+            277.0,
+            1148.0,
+            3027.0,
+            1197.0
+          ],
+          "confidence": 0.9928396344184875
+        },
+        {
+          "text": "between the terms of this Agreement and any SOw, the terms of this Agreement will control.",
+          "bbox": [
+            277.0,
+            1208.0,
+            2006.0,
+            1250.0
+          ],
+          "confidence": 0.9948063492774963
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ],
+          "confidence": 0.9994417428970337
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ],
+          "confidence": 0.9925853610038757
+        },
+        {
+          "text": "Each SOw will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time",
+          "bbox": [
+            274.0,
+            1429.0,
+            3025.0,
+            1475.0
+          ],
+          "confidence": 0.9929291009902954
+        },
+        {
+          "text": "deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final",
+          "bbox": [
+            279.0,
+            1489.0,
+            3029.0,
+            1531.0
+          ],
+          "confidence": 0.9964607954025269
+        },
+        {
+          "text": "Subject Program delivery date (Final Delivery Date).",
+          "bbox": [
+            281.0,
+            1546.0,
+            1238.0,
+            1588.0
+          ],
+          "confidence": 0.9953649044036865
+        },
+        {
+          "text": "12",
+          "bbox": [
+            1633.0,
+            1632.0,
+            1682.0,
+            1672.0
+          ],
+          "confidence": 0.9977607727050781
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            335.0,
+            4440.0,
+            1312.0,
+            4477.0
+          ],
+          "confidence": 0.9985888004302979
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Post-Termination Services_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?",
+      "answer_text": "In the event of a termination or expiration of this Agreement or any SOW for any reason, developer will, as requested by and at additional cost to Client, provide up to three (3) months of Fee billable assistance (collectively, the Termination Assistance Services) in transitioning from Developer to an alternative software service provider including, without limitation, the following: (a) knowledge transfer regarding the operation, use, and support of the subject Program; return of all documentation containing Content, Marks, Procedures a d Confidential Information in a format reasonably specified by Client and assistance with data migration to an alternative solution; and (c) any related additional services as requested by Client.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "3.2 PROJECT DELIVERY AND INSTALLATION",
+          "bbox": [
+            281.0,
+            287.0,
+            1202.0,
+            318.0
+          ],
+          "confidence": 0.9977911710739136
+        },
+        {
+          "text": "As detailed in a SOw hereto, Developer will provide certain Services, Deliverables and Documentation to Client upon a designated Milestone in",
+          "bbox": [
+            279.0,
+            342.0,
+            3025.0,
+            384.0
+          ],
+          "confidence": 0.991825520992279
+        },
+        {
+          "text": "accordance with such Milestone's specific Specifications (collectively, Specific Specifications). Prior to completing a Milestone, Developer will: (a)",
+          "bbox": [
+            277.0,
+            398.0,
+            3025.0,
+            439.0
+          ],
+          "confidence": 0.9989688992500305
+        },
+        {
+          "text": "inform Client of the availability of each portion of a Deliverable otherwise required be delivered by such Milestone date for testing by Client (he",
+          "bbox": [
+            277.0,
+            451.0,
+            3027.0,
+            497.0
+          ],
+          "confidence": 0.9833110570907593
+        },
+        {
+          "text": "Acceptance Test Date); and (b) deliver to Client sue Deliverable (each a Milestone Deliverable) including the source code and object code form",
+          "bbox": [
+            279.0,
+            510.0,
+            3029.0,
+            552.0
+          ],
+          "confidence": 0.9942138195037842
+        },
+        {
+          "text": "compatible with the platform(s) described in the SOw for such Milestone Deliverable.",
+          "bbox": [
+            277.0,
+            561.0,
+            1871.0,
+            610.0
+          ],
+          "confidence": 0.9976839423179626
+        },
+        {
+          "text": "3.3 ACCEPTANCE AND BETA TESTS",
+          "bbox": [
+            279.0,
+            623.0,
+            1010.0,
+            660.0
+          ],
+          "confidence": 0.9993003606796265
+        },
+        {
+          "text": "Within the time periods designated in the SOw, Client shall perform any tests or evaluation of the Subject Program (collectively, the Acceptance",
+          "bbox": [
+            281.0,
+            678.0,
+            3027.0,
+            722.0
+          ],
+          "confidence": 0.99110347032547
+        },
+        {
+          "text": "Tests) after the Acceptance Test Date, to determine whether each Deliverable: (a) conforms to the SOw; and (b) performs repetitively on an",
+          "bbox": [
+            276.0,
+            735.0,
+            3029.0,
+            777.0
+          ],
+          "confidence": 0.9966441988945007
+        },
+        {
+          "text": "appropriate variety of data and platforms, without failure, as more fully described in the Specifications. Upon completion of II Deliverables, the",
+          "bbox": [
+            275.0,
+            788.0,
+            3027.0,
+            837.0
+          ],
+          "confidence": 0.9958747029304504
+        },
+        {
+          "text": "Acceptance Tests shall be performed on the Subject Program in its entirety in order to determine whether the Subject Program (i) meets the",
+          "bbox": [
+            279.0,
+            848.0,
+            3027.0,
+            890.0
+          ],
+          "confidence": 0.9937873482704163
+        },
+        {
+          "text": "Specifications and (ii) operates with internal consistency..",
+          "bbox": [
+            277.0,
+            903.0,
+            1341.0,
+            947.0
+          ],
+          "confidence": 0.9891926050186157
+        },
+        {
+          "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS",
+          "bbox": [
+            274.0,
+            956.0,
+            1727.0,
+            1000.0
+          ],
+          "confidence": 0.9943150877952576
+        },
+        {
+          "text": "Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections.",
+          "bbox": [
+            277.0,
+            1012.0,
+            3023.0,
+            1058.0
+          ],
+          "confidence": 0.9982693195343018
+        },
+        {
+          "text": "corrections, changes or amendments required (a Change Request), within ten (10) days of such Milestone's Acceptance Test Date. Any Change",
+          "bbox": [
+            275.0,
+            1069.0,
+            3025.0,
+            1117.0
+          ],
+          "confidence": 0.9858789443969727
+        },
+        {
+          "text": "Request shall be sufficient to identify, with clarity, any objection, correction, change or amendment to such Milestone Deliverable. In the absence",
+          "bbox": [
+            277.0,
+            1127.0,
+            3029.0,
+            1171.0
+          ],
+          "confidence": 0.990655779838562
+        },
+        {
+          "text": "of a Change Request from Client within the time periods detailed herein, the Milestone Deliverable will be deemed accepted by Client.",
+          "bbox": [
+            277.0,
+            1184.0,
+            2753.0,
+            1226.0
+          ],
+          "confidence": 0.9910554885864258
+        },
+        {
+          "text": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+          "bbox": [
+            277.0,
+            1241.0,
+            1234.0,
+            1277.0
+          ],
+          "confidence": 0.9992486834526062
+        },
+        {
+          "text": "If any Milestone Deliverable does not satisfy the Client's Acceptance Test and Client provides Developer a Change Request concerning the same,",
+          "bbox": [
+            275.0,
+            1294.0,
+            3025.0,
+            1339.0
+          ],
+          "confidence": 0.9924458265304565
+        },
+        {
+          "text": "Developer will have twenty (20) days from the receipt of such Change Request to correct the deficiencies, errors, corrections, modifications, bug-",
+          "bbox": [
+            275.0,
+            1350.0,
+            3023.0,
+            1396.0
+          ],
+          "confidence": 0.9945789575576782
+        },
+        {
+          "text": "fixes or changes to the Deliverables as identified in the Change Request. Upon Client's receipt of a Milestone Deliverable following Developer's",
+          "bbox": [
+            277.0,
+            1405.0,
+            3027.0,
+            1453.0
+          ],
+          "confidence": 0.9946367740631104
+        },
+        {
+          "text": "modification pursuant to Change Request (a Modified Deliverable), Client will have five (5) days to inspect, test and reevaluate such Modified.",
+          "bbox": [
+            275.0,
+            1462.0,
+            3029.0,
+            1506.0
+          ],
+          "confidence": 0.9914018511772156
+        },
+        {
+          "text": "Deliverable to determine acceptance. If Client does not notify Developer of any further failures, objections, changes, defects, or bugs in such",
+          "bbox": [
+            277.0,
+            1520.0,
+            3027.0,
+            1562.0
+          ],
+          "confidence": 0.9955757856369019
+        },
+        {
+          "text": "Modified Deliverable, the Modified Deliverable will be deemed accepted by Client.",
+          "bbox": [
+            277.0,
+            1577.0,
+            1805.0,
+            1619.0
+          ],
+          "confidence": 0.9864616990089417
+        },
+        {
+          "text": "13",
+          "bbox": [
+            1633.0,
+            1663.0,
+            1682.0,
+            1703.0
+          ],
+          "confidence": 0.9969660043716431
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            332.0,
+            4435.0,
+            1316.0,
+            4479.0
+          ],
+          "confidence": 0.9986481070518494
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "3.2 PROJECT DELIVERY AND INSTALLATION",
+          "page": 1,
+          "bbox": [
+            281.0,
+            287.0,
+            1202.0,
+            318.0
+          ]
+        },
+        {
+          "text": "3.3 ACCEPTANCE AND BETA TESTS",
+          "page": 1,
+          "bbox": [
+            279.0,
+            623.0,
+            1010.0,
+            660.0
+          ]
+        },
+        {
+          "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS",
+          "page": 1,
+          "bbox": [
+            274.0,
+            956.0,
+            1727.0,
+            1000.0
+          ]
+        },
+        {
+          "text": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+          "page": 1,
+          "bbox": [
+            277.0,
+            1241.0,
+            1234.0,
+            1277.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2__Post-Termination Services_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?",
+      "answer_text": "If elected pursuant to the Agreement, Developer will provide Client Termination Assistance Services at an hourly rate of $[125.00 per hour].",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ],
+          "confidence": 0.9848315715789795
+        },
+        {
+          "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC,",
+          "bbox": [
+            279.0,
+            365.0,
+            3025.0,
+            409.0
+          ],
+          "confidence": 0.9934442043304443
+        },
+        {
+          "text": "OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of",
+          "bbox": [
+            275.0,
+            417.0,
+            3034.0,
+            468.0
+          ],
+          "confidence": 0.9984656572341919
+        },
+        {
+          "text": "software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and",
+          "bbox": [
+            279.0,
+            479.0,
+            3029.0,
+            521.0
+          ],
+          "confidence": 0.9960187673568726
+        },
+        {
+          "text": "collectively as the Parties)",
+          "bbox": [
+            281.0,
+            533.0,
+            769.0,
+            579.0
+          ],
+          "confidence": 0.999841034412384
+        },
+        {
+          "text": "1. Term",
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ],
+          "confidence": 0.9558830857276917
+        },
+        {
+          "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of",
+          "bbox": [
+            277.0,
+            704.0,
+            3032.0,
+            746.0
+          ],
+          "confidence": 0.9980354905128479
+        },
+        {
+          "text": "Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+          "bbox": [
+            277.0,
+            760.0,
+            2095.0,
+            802.0
+          ],
+          "confidence": 0.9952371120452881
+        },
+        {
+          "text": "2. Statement of Work.",
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ],
+          "confidence": 0.9740993976593018
+        },
+        {
+          "text": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program),",
+          "bbox": [
+            279.0,
+            928.0,
+            3023.0,
+            970.0
+          ],
+          "confidence": 0.9931182861328125
+        },
+        {
+          "text": "and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written",
+          "bbox": [
+            279.0,
+            987.0,
+            3027.0,
+            1023.0
+          ],
+          "confidence": 0.9951556921005249
+        },
+        {
+          "text": "material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project",
+          "bbox": [
+            274.0,
+            1038.0,
+            3029.0,
+            1084.0
+          ],
+          "confidence": 0.9971182346343994
+        },
+        {
+          "text": "specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOw; as provided in APPENDIX.",
+          "bbox": [
+            277.0,
+            1093.0,
+            3027.0,
+            1140.0
+          ],
+          "confidence": 0.990934431552887
+        },
+        {
+          "text": "A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency.",
+          "bbox": [
+            277.0,
+            1148.0,
+            3027.0,
+            1197.0
+          ],
+          "confidence": 0.9928396344184875
+        },
+        {
+          "text": "between the terms of this Agreement and any SOw, the terms of this Agreement will control.",
+          "bbox": [
+            277.0,
+            1208.0,
+            2006.0,
+            1250.0
+          ],
+          "confidence": 0.9948063492774963
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ],
+          "confidence": 0.9994417428970337
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ],
+          "confidence": 0.9925853610038757
+        },
+        {
+          "text": "Each SOw will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time",
+          "bbox": [
+            274.0,
+            1429.0,
+            3025.0,
+            1475.0
+          ],
+          "confidence": 0.9929291009902954
+        },
+        {
+          "text": "deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final",
+          "bbox": [
+            279.0,
+            1489.0,
+            3029.0,
+            1531.0
+          ],
+          "confidence": 0.9964607954025269
+        },
+        {
+          "text": "Subject Program delivery date (Final Delivery Date).",
+          "bbox": [
+            281.0,
+            1546.0,
+            1238.0,
+            1588.0
+          ],
+          "confidence": 0.9953649044036865
+        },
+        {
+          "text": "12",
+          "bbox": [
+            1633.0,
+            1632.0,
+            1682.0,
+            1672.0
+          ],
+          "confidence": 0.9977607727050781
+        },
+        {
+          "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+          "bbox": [
+            335.0,
+            4440.0,
+            1312.0,
+            4477.0
+          ],
+          "confidence": 0.9985888004302979
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SOFTWARE DEVELOPMIENT AGREEMIENT",
+          "page": 0,
+          "bbox": [
+            966.0,
+            294.0,
+            2338.0,
+            336.0
+          ]
+        },
+        {
+          "text": "1. Term",
+          "page": 0,
+          "bbox": [
+            281.0,
+            607.0,
+            584.0,
+            671.0
+          ]
+        },
+        {
+          "text": "2. Statement of Work.",
+          "page": 0,
+          "bbox": [
+            281.0,
+            831.0,
+            1147.0,
+            899.0
+          ]
+        },
+        {
+          "text": "3. Delivery Schedule; Acceptance; Change Orders",
+          "page": 0,
+          "bbox": [
+            275.0,
+            1275.0,
+            2316.0,
+            1360.0
+          ]
+        },
+        {
+          "text": "3.1 DELIVERY SCHEDULE; MILESTONES",
+          "page": 0,
+          "bbox": [
+            279.0,
+            1378.0,
+            1098.0,
+            1414.0
+          ]
+        }
+      ]
+    }
+  ]
+}

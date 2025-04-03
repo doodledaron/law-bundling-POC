@@ -1,0 +1,2 @@
+model_name: microsoft/layoutlmv3-base
+apply_ocr: False

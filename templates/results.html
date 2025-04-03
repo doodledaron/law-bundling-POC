@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NDA Analysis Results</title>
+    <style>
+      :root {
+        --primary-color: #4361ee;
+        --secondary-color: #3f37c9;
+        --accent-color: #4895ef;
+        --success-color: #4cc9f0;
+        --light-color: #f8f9fa;
+        --dark-color: #212529;
+        --gray-color: #6c757d;
+        --border-color: #dee2e6;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: var(--dark-color);
+        background-color: #f5f7fb;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .header h1 {
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+
+      .header p {
+        color: var(--gray-color);
+        font-size: 1.1rem;
+      }
+
+      .results-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      @media (min-width: 768px) {
+        .results-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      .summary-section {
+        grid-column: 1 / -1;
+        background-color: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        border-left: 4px solid var(--primary-color);
+      }
+
+      .summary-section h2 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+      }
+
+      .summary-section h2 svg {
+        margin-right: 0.5rem;
+      }
+
+      .result-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .result-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .result-card h3 {
+        color: var(--secondary-color);
+        margin-bottom: 0.75rem;
+        font-size: 1.1rem;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 0.5rem;
+      }
+
+      .result-card p {
+        color: var(--dark-color);
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .result-card .empty-field {
+        color: var(--gray-color);
+        font-style: italic;
+      }
+
+      .confidence-indicator {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        gap: 0.5rem;
+      }
+
+      .confidence-label {
+        font-size: 0.9rem;
+        color: var(--gray-color);
+      }
+
+      .confidence-value {
+        font-weight: bold;
+        color: var(--primary-color);
+      }
+
+      .full-text-section {
+        grid-column: 1 / -1;
+        background-color: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        margin-top: 1rem;
+      }
+
+      .full-text-section h2 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+      }
+
+      .full-text-content {
+        max-height: 300px;
+        overflow-y: auto;
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 5px;
+        font-family: monospace;
+        line-height: 1.6;
+        white-space: pre-wrap;
+        font-size: 0.9rem;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 0.6rem 1.2rem;
+        background-color: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 500;
+        transition: background-color 0.2s ease;
+        cursor: pointer;
+        border: none;
+        font-size: 1rem;
+      }
+
+      .btn:hover {
+        background-color: var(--secondary-color);
+      }
+
+      .btn-outline {
+        background-color: transparent;
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+      }
+
+      .btn-outline:hover {
+        background-color: var(--light-color);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>NDA Analysis Results</h1>
+        <p>
+          We've analyzed your document and extracted the following information
+        </p>
+      </div>
+
+      <div class="results-grid">
+        <div class="summary-section">
+          <h2>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"
+              />
+            </svg>
+            Document Summary
+          </h2>
+          <p>{{ summary }}</p>
+          <div class="confidence-indicator">
+            <span class="confidence-label">OCR Confidence:</span>
+            <span class="confidence-value">{{ average_confidence }}</span>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <h3>Parties</h3>
+          <p>
+            <strong>Disclosing Party:</strong>
+            {% if disclosing_party %} {{ disclosing_party }} {% else %}
+            <span class="empty-field">Not found</span>
+            {% endif %}
+          </p>
+          <p>
+            <strong>Receiving Party:</strong>
+            {% if receiving_party %} {{ receiving_party }} {% else %}
+            <span class="empty-field">Not found</span>
+            {% endif %}
+          </p>
+        </div>
+
+        <div class="result-card">
+          <h3>Dates</h3>
+          <p>
+            <strong>Effective Date:</strong>
+            {% if effective_date %} {{ effective_date }} {% else %}
+            <span class="empty-field">Not found</span>
+            {% endif %}
+          </p>
+          <p>
+            <strong>Term:</strong>
+            {% if term_length %} {{ term_length }} {% else %}
+            <span class="empty-field">Not found</span>
+            {% endif %}
+          </p>
+        </div>
+
+        <div class="result-card">
+          <h3>Confidentiality Obligations</h3>
+          <p>
+            <strong>Obligations:</strong>
+            {% if confidentiality_obligations %} {{ confidentiality_obligations
+            }} {% else %}
+            <span class="empty-field">Not found</span>
+            {% endif %}
+          </p>
+        </div>
+
+        <div class="result-card">
+          <h3>Governing Law</h3>
+          <p>
+            <strong>Jurisdiction:</strong>
+            {% if governing_law %} {{ governing_law }} {% else %}
+            <span class="empty-field">Not found</span>
+            {% endif %}
+          </p>
+        </div>
+
+        <div class="full-text-section">
+          <h2>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+              />
+              <path
+                d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"
+              />
+              <path
+                d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"
+              />
+            </svg>
+            Extracted Text
+          </h2>
+          <div class="full-text-content">{{ full_text }}</div>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <a href="/upload" class="btn btn-outline" style="margin-right: 1rem"
+          >Analyze Another Document</a
+        >
+        <a href="/" class="btn">Back to Home</a>
+      </div>
+    </div>
+  </body>
+</html>

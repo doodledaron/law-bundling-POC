@@ -15,6 +15,13 @@ import logging
 import os
 import sys
 from datetime import datetime
+import tempfile
+import uuid
+import shutil
+from pathlib import Path
+from layoutlmv3.inference import process_document
+import json
+import time
 
 # ------ LOGGING CONFIGURATION ------
 # Ensure log directory exists
@@ -94,7 +101,8 @@ ERROR_MESSAGES = {
     "invalid_type": "Only PDF, JPEG, and PNG files are supported.",
     "empty_file": "The uploaded file is empty.",
     "ocr_error": "Error processing the document. Please try again.",
-    "decode_error": "Could not decode the image. Please try another file."
+    "decode_error": "Could not decode the image. Please try another file.",
+    "file_too_large": "File size exceeds 10MB limit."
 }
 
 def preprocess_image(img):
@@ -214,15 +222,305 @@ async def test_logging():
         
     return {"message": "Logging test complete, check the log file"}
 
-# Define root endpoint
+# Create directories for storing results
+STATIC_DIR = os.path.join(os.path.dirname(__file__), "static")
+UPLOADS_DIR = os.path.join(STATIC_DIR, "uploads")
+RESULTS_DIR = os.path.join(STATIC_DIR, "results")
+
+os.makedirs(STATIC_DIR, exist_ok=True)
+os.makedirs(UPLOADS_DIR, exist_ok=True)
+os.makedirs(RESULTS_DIR, exist_ok=True)
+
+# Mount the static files directory
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+# Define layoutlmv3 model paths
+LAYOUTLMV3_MODEL_DIR = "layoutlmv3/model/best_model"
+LAYOUTLMV3_PROCESSOR_DIR = "layoutlmv3/model"
+
+# Add a helper function to run the LayoutLMv3 model
+async def run_layoutlmv3_model(pdf_path: str):
+    """
+    Run the LayoutLMv3 model on the provided PDF file.
+    
+    Args:
+        pdf_path: Path to the PDF file.
+        
+    Returns:
+        Dict with model results.
+    """
+    logger.info(f"Running LayoutLMv3 model on {pdf_path}")
+    
+    try:
+        # Handle filenames with spaces by creating a temporary copy with a clean name
+        original_pdf_path = pdf_path
+        temp_filename = f"temp_file_{uuid.uuid4()}.pdf"
+        temp_pdf_path = os.path.join(os.path.dirname(pdf_path), temp_filename)
+        
+        try:
+            shutil.copy2(original_pdf_path, temp_pdf_path)
+            logger.info(f"Created temporary file {temp_pdf_path} to handle spaces in filename")
+            pdf_path = temp_pdf_path
+        except Exception as e:
+            logger.warning(f"Failed to create temporary file: {str(e)}. Continuing with original path.")
+        
+        # Generate a unique results directory
+        result_id = str(uuid.uuid4())
+        result_dir = os.path.join(RESULTS_DIR, result_id)
+        os.makedirs(result_dir, exist_ok=True)
+        
+        # Get device (CPU or CUDA)
+        import torch
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        logger.info(f"Using device: {device}")
+        
+        # Create args object for process_document
+        class Args:
+            def __init__(self):
+                self.pdf_path = pdf_path
+                self.model_dir = LAYOUTLMV3_MODEL_DIR
+                self.processor_dir = LAYOUTLMV3_PROCESSOR_DIR
+                self.output_dir = result_dir
+                self.device = device
+                # Lower the confidence threshold to catch more potential clauses
+                self.confidence_threshold = 0.3
+                self.dpi = 300
+                self.num_workers = 0
+        
+        args = Args()
+        
+        # Process the document using the layoutlmv3 inference
+        logger.info(f"Starting document processing with confidence threshold: {args.confidence_threshold}")
+        results = process_document(args)
+        
+        # Format results for the UI
+        formatted_results = {
+            "clauses": {},
+            "image_path": None
+        }
+        
+        # Find the annotated images in the results directory
+        logger.info(f"Looking for images in {result_dir}")
+        image_files = [f for f in os.listdir(result_dir) if f.endswith('_annotated.png') or f.endswith('_annotated.jpg') or f.endswith('.jpg')]
+        logger.info(f"Found {len(image_files)} image files: {', '.join(image_files[:5])}{'...' if len(image_files) > 5 else ''}")
+        
+        if image_files:
+            # Use the first image for display
+            image_path = os.path.join("results", result_id, image_files[0])
+            formatted_results["image_path"] = f"/static/{image_path}"
+            logger.info(f"Using image path: {formatted_results['image_path']}")
+        
+        # Get the extracted clauses from the JSON file
+        clauses_file = os.path.join(result_dir, "extracted_clauses.json")
+        logger.info(f"Looking for clauses file: {clauses_file}")
+        
+        if os.path.exists(clauses_file):
+            with open(clauses_file, 'r', encoding='utf-8') as f:
+                extracted_clauses = json.load(f)
+                logger.info(f"Loaded clauses from JSON: {len(extracted_clauses)} categories")
+                
+            formatted_results["clauses"] = {}
+            for category, texts in extracted_clauses.items():
+                # Skip empty categories
+                if not texts:
+                    continue
+                
+                logger.info(f"Processing category '{category}' with {len(texts)} clauses")
+                formatted_results["clauses"][category] = []
+                for item in texts:
+                    if isinstance(item, dict):
+                        formatted_results["clauses"][category].append(item)
+                    else:
+                        # If it's just text, add with default confidence
+                        formatted_results["clauses"][category].append({
+                            "text": item,
+                            "confidence": 0.7
+                        })
+        else:
+            logger.warning(f"No clauses file found at {clauses_file}")
+            # Add dummy clause for debugging if no clauses were found
+            # This is just to verify the UI works even if no actual clauses were extracted
+            if not formatted_results["clauses"]:
+                logger.info("Adding dummy debug clause for UI testing")
+                formatted_results["clauses"]["DEBUG"] = [{
+                    "text": "No clauses detected in document. This is a debug message to verify the UI works.",
+                    "confidence": 1.0
+                }]
+        
+        logger.info(f"LayoutLMv3 processing complete, found {len(formatted_results['clauses'])} clause categories")
+        
+        # Clean up temporary file if created
+        if pdf_path != original_pdf_path and os.path.exists(temp_pdf_path):
+            try:
+                os.remove(temp_pdf_path)
+                logger.info(f"Removed temporary file {temp_pdf_path}")
+            except Exception as e:
+                logger.warning(f"Failed to remove temporary file: {str(e)}")
+        
+        return formatted_results
+        
+    except Exception as e:
+        logger.error(f"Error running LayoutLMv3 model: {str(e)}", exc_info=True)
+        raise e
+
+# Define the LayoutLMv3 page route
+@app.get("/layoutlmv3", response_class=HTMLResponse)
+async def layoutlmv3_page(request: Request):
+    """
+    Render the LayoutLMv3 model testing page
+    """
+    logger.info("LayoutLMv3 page accessed")
+    return templates.TemplateResponse("layoutlmv3.html", {"request": request})
+
+# Define the LayoutLMv3 analysis endpoint
+@app.post("/layoutlmv3_analyze", response_class=HTMLResponse)
+async def layoutlmv3_analyze(request: Request, file: UploadFile = File(...)):
+    """
+    Process a document with the LayoutLMv3 model to extract legal clauses
+    """
+    logger.info(f"LayoutLMv3 analysis initiated: {file.filename} ({file.content_type})")
+    
+    try:
+        # Read file contents
+        try:
+            contents = await file.read()
+            logger.info(f"File read successfully: {len(contents)} bytes")
+        except Exception as e:
+            error_message = f"Error reading file: {str(e)}"
+            logger.error(error_message, exc_info=True)
+            return templates.TemplateResponse(
+                "layoutlmv3.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+
+        # Check file size (limit to 10MB)
+        if len(contents) > 10 * 1024 * 1024:
+            logger.warning(f"File size exceeds limit: {len(contents)} bytes")
+            return templates.TemplateResponse(
+                "layoutlmv3.html",
+                {"request": request, "error": ERROR_MESSAGES["file_too_large"]},
+                status_code=400
+            )
+
+        # Check file type (only PDF)
+        if not file.filename.lower().endswith('.pdf'):
+            logger.warning(f"Invalid file type: {file.content_type}")
+            return templates.TemplateResponse(
+                "layoutlmv3.html",
+                {"request": request, "error": "Only PDF files are supported."},
+                status_code=400
+            )
+
+        # Save the uploaded file temporarily
+        file_id = str(uuid.uuid4())
+        pdf_path = os.path.join(UPLOADS_DIR, f"{file_id}.pdf")
+        
+        with open(pdf_path, "wb") as f:
+            f.write(contents)
+        
+        logger.info(f"File saved to {pdf_path}")
+        
+        # Process the document with LayoutLMv3
+        try:
+            results = await run_layoutlmv3_model(pdf_path)
+            logger.info("LayoutLMv3 analysis completed successfully")
+            
+            # Return the results
+            return templates.TemplateResponse(
+                "layoutlmv3.html",
+                {"request": request, "results": results}
+            )
+            
+        except Exception as e:
+            error_message = f"Error processing document with LayoutLMv3: {str(e)}"
+            logger.error(error_message, exc_info=True)
+            return templates.TemplateResponse(
+                "layoutlmv3.html",
+                {"request": request, "error": error_message},
+                status_code=500
+            )
+            
+    except Exception as e:
+        error_message = f"Unexpected error: {str(e)}"
+        logger.error(error_message, exc_info=True)
+        return templates.TemplateResponse(
+            "layoutlmv3.html",
+            {"request": request, "error": error_message},
+            status_code=500
+        )
+    finally:
+        # Clean up temporary files older than 1 hour
+        try:
+            cleanup_old_files(UPLOADS_DIR, max_age_hours=1)
+            cleanup_old_files(RESULTS_DIR, max_age_hours=24)  # Keep results longer
+        except Exception as e:
+            logger.error(f"Error during cleanup: {str(e)}", exc_info=True)
+
+# Helper function to clean up old files
+def cleanup_old_files(directory, max_age_hours=1):
+    """Remove files older than the specified age in hours"""
+    current_time = time.time()
+    max_age_seconds = max_age_hours * 3600
+    
+    for item in os.listdir(directory):
+        item_path = os.path.join(directory, item)
+        if os.path.isfile(item_path):
+            # Check file age
+            file_age = current_time - os.path.getmtime(item_path)
+            if file_age > max_age_seconds:
+                try:
+                    os.remove(item_path)
+                    logger.debug(f"Removed old file: {item_path}")
+                except Exception as e:
+                    logger.error(f"Failed to remove {item_path}: {str(e)}")
+        elif os.path.isdir(item_path):
+            # Check directory age and remove recursively if old
+            dir_age = current_time - os.path.getmtime(item_path)
+            if dir_age > max_age_seconds:
+                try:
+                    shutil.rmtree(item_path)
+                    logger.debug(f"Removed old directory: {item_path}")
+                except Exception as e:
+                    logger.error(f"Failed to remove directory {item_path}: {str(e)}")
+            
+# Update the home page to add a link to the LayoutLMv3 page
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):
     """
     Render the main upload page
     """
     logger.info("Main page accessed")
-    return templates.TemplateResponse("index.html", {"request": request})
+    
+    # Add link to LayoutLMv3 page
+    features = [
+        {
+            "name": "NDA Analysis",
+            "description": "Upload and analyze Non-Disclosure Agreements to extract key information.",
+            "url": "/upload",
+            "icon": "📄"
+        },
+        {
+            "name": "LayoutLMv3 Legal Clause Detection",
+            "description": "Detect and extract legal clauses using our fine-tuned LayoutLMv3 model.",
+            "url": "/layoutlmv3",
+            "icon": "🔍"
+        }
+    ]
+    
+    return templates.TemplateResponse("index.html", {
+        "request": request,
+        "features": features
+    })
 
+# Define upload page route
+@app.get("/upload", response_class=HTMLResponse)
+async def upload_page(request: Request):
+    """
+    Render the NDA upload page
+    """
+    logger.info("Upload page accessed")
+    return templates.TemplateResponse("upload.html", {"request": request})
 
 # Define upload endpoint
 @app.post("/upload", response_class=HTMLResponse)
@@ -240,7 +538,7 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             error_message = f"Error reading file: {str(e)}"
             logger.error(error_message, exc_info=True)
             return templates.TemplateResponse(
-                "index.html",
+                "upload.html",
                 {"request": request, "error": error_message},
                 status_code=500
             )
@@ -249,145 +547,147 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         if len(contents) > 10 * 1024 * 1024:
             logger.warning(f"File size exceeds limit: {len(contents)} bytes")
             return templates.TemplateResponse(
-                "index.html",
-                {"request": request, "error": "File size exceeds 10MB limit."},
+                "upload.html",
+                {"request": request, "error": ERROR_MESSAGES["file_too_large"]},
                 status_code=400
             )
 
+        # Check if a file was uploaded
         if not contents:
-            logger.warning("Empty file uploaded")
+            logger.warning("Empty file")
             return templates.TemplateResponse(
-                "index.html",
+                "upload.html",
                 {"request": request, "error": ERROR_MESSAGES["empty_file"]},
                 status_code=400
             )
 
-        # Validate file type
-        if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
-            logger.warning(f"Invalid file type: {file.content_type}")
-            return templates.TemplateResponse(
-                "index.html",
-                {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
-                status_code=400
-            )
-
-        # Convert file to image
-        try:
-            if file.content_type == "application/pdf":
-                logger.info("Processing PDF file")
-                # Use PyMuPDF to process PDF
-                import io
-                pdf_document = fitz.open(stream=contents, filetype="pdf")
-                logger.info(f"PDF loaded with {len(pdf_document)} pages")
+        # Create a temporary directory for this upload
+        logger.info("Creating temporary directory for file processing")
+        upload_id = str(uuid.uuid4())
+        temp_dir = os.path.join(UPLOADS_DIR, upload_id)
+        os.makedirs(temp_dir, exist_ok=True)
+        
+        # Extract text with OCR
+        full_text = ""
+        confidence_scores = []
+        
+        # Determine file type
+        file_ext = os.path.splitext(file.filename.lower())[1]
+        if file_ext in ['.pdf']:
+            # For PDFs, save as is
+            temp_file_path = os.path.join(temp_dir, f"upload{file_ext}")
+            with open(temp_file_path, "wb") as f:
+                f.write(contents)
+            logger.info(f"Saved PDF to {temp_file_path}")
+            
+            # Convert PDF to images
+            logger.info("Converting PDF to images")
+            try:
+                images = []
+                pdf_doc = fitz.open(temp_file_path)
+                for page_num in range(len(pdf_doc)):
+                    page = pdf_doc[page_num]
+                    pix = page.get_pixmap(matrix=fitz.Matrix(300/72, 300/72))
+                    img_path = os.path.join(temp_dir, f"page_{page_num+1}.png")
+                    pix.save(img_path)
+                    images.append(img_path)
+                    logger.info(f"Saved page {page_num+1} to {img_path}")
                 
-                full_text = ""
-                confidence_scores = []
+                pdf_doc.close()
                 
-                for page_num in range(len(pdf_document)):
-                    logger.info(f"Processing PDF page {page_num+1}/{len(pdf_document)}")
-                    page = pdf_document.load_page(page_num)
+                if not images:
+                    logger.warning("No images extracted from PDF")
+                    return templates.TemplateResponse(
+                        "upload.html",
+                        {"request": request, "error": "Could not extract any pages from the PDF."},
+                        status_code=400
+                    )
+                
+                # Process each page with OCR
+                for img_path in images:
+                    image = cv2.imread(img_path)
+                    processed_img = preprocess_image(image)
                     
-                    # Render page to an image (PyMuPDF uses RGB format)
-                    pix = page.get_pixmap(alpha=False)
-                    img_data = pix.tobytes("png")
+                    # Perform OCR
+                    result = ocr.ocr(processed_img, cls=True)
+                    logger.info(f"OCR completed for {img_path}")
                     
-                    # Convert to numpy array for OpenCV
-                    nparr = np.frombuffer(img_data, np.uint8)
-                    img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-                    
-                    if img is None:
-                        logger.warning(f"Failed to convert page {page_num+1} to image")
-                        continue
-                        
-                    # Preprocess image
-                    processed_img = preprocess_image(img)
-
-                    # Process the image using PaddleOCR
-                    try:
-                        result = ocr.ocr(processed_img, cls=True)
-                        logger.info(f"OCR completed for page {page_num+1}")
-                    except Exception as e:
-                        error_message = f"OCR processing error: {str(e)}"
-                        logger.error(error_message, exc_info=True)
-                        return templates.TemplateResponse(
-                            "index.html",
-                            {"request": request, "error": error_message},
-                            status_code=500
-                        )
-
-                    # Concatenate the OCR results into a full text string
+                    # Extract text and confidence scores
                     page_text = ""
                     for res in result:
                         for line in res:
                             page_text += line[1][0] + " "
                             confidence_scores.append(line[1][1])
                     
-                    logger.info(f"Extracted {len(page_text.split())} words from page {page_num+1}")
-                    full_text += page_text
+                    full_text += page_text + " "
                 
-                # Close the document
-                pdf_document.close()
+            except Exception as e:
+                error_message = f"Error processing PDF: {str(e)}"
+                logger.error(error_message, exc_info=True)
+                return templates.TemplateResponse(
+                    "upload.html",
+                    {"request": request, "error": error_message},
+                    status_code=500
+                )
                 
-                cleaned_text = clean_text(full_text)
-                if confidence_scores:
-                    average_confidence = sum(confidence_scores) / len(confidence_scores)
-                    average_confidence_formatted = f"{average_confidence:.2%}"
-                    logger.info(f"Average OCR confidence: {average_confidence_formatted}")
-                else:
-                    average_confidence_formatted = "N/A"
-                    logger.warning("No confidence scores available")
-            else:
-                logger.info(f"Processing image file: {file.content_type}")
-                # Convert image to OpenCV format
-                nparr = np.frombuffer(contents, np.uint8)
-                img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-                if img is None:
-                    error_message = f"Image decode error: Could not decode the image. Please try another file."
-                    logger.error(error_message)
+        elif file_ext in ['.jpg', '.jpeg', '.png']:
+            # For images, save and load directly
+            temp_file_path = os.path.join(temp_dir, f"upload{file_ext}")
+            with open(temp_file_path, "wb") as f:
+                f.write(contents)
+            logger.info(f"Saved image to {temp_file_path}")
+            
+            try:
+                image = cv2.imread(temp_file_path)
+                if image is None:
+                    logger.error(f"Failed to decode image: {temp_file_path}")
                     return templates.TemplateResponse(
-                        "index.html",
-                        {"request": request, "error": error_message},
+                        "upload.html",
+                        {"request": request, "error": ERROR_MESSAGES["decode_error"]},
                         status_code=400
                     )
 
-                # Process single image
-                processed_img = preprocess_image(img)
-                try:
-                    result = ocr.ocr(processed_img, cls=True)
-                    logger.info("OCR completed for image")
-                except Exception as e:
-                    logger.error(f"OCR processing error: {str(e)}", exc_info=True)
-                    return templates.TemplateResponse(
-                        "index.html",
-                        {"request": request, "error": ERROR_MESSAGES["ocr_error"]},
-                        status_code=500
-                    )
-
+                # Preprocess image
+                processed_img = preprocess_image(image)
+                
+                # Perform OCR
+                result = ocr.ocr(processed_img, cls=True)
+                logger.info(f"OCR completed for {temp_file_path}")
+                
                 # Extract text and confidence scores
-                full_text = ""
-                confidence_scores = []
                 for res in result:
                     for line in res:
                         full_text += line[1][0] + " "
                         confidence_scores.append(line[1][1])
                 
-                logger.info(f"Extracted {len(full_text.split())} words from image")
-                cleaned_text = clean_text(full_text)
-                if confidence_scores:
-                    average_confidence = sum(confidence_scores) / len(confidence_scores)
-                    average_confidence_formatted = f"{average_confidence:.2%}"
-                    logger.info(f"Average OCR confidence: {average_confidence_formatted}")
-                else:
-                    average_confidence_formatted = "N/A"
-                    logger.warning("No confidence scores available")
-
-        except Exception as e:
-            logger.error(f"Error processing document: {str(e)}", exc_info=True)
+            except Exception as e:
+                error_message = f"Error processing image: {str(e)}"
+                logger.error(error_message, exc_info=True)
+                return templates.TemplateResponse(
+                    "upload.html",
+                    {"request": request, "error": error_message},
+                    status_code=500
+                )
+        else:
+            logger.warning(f"Invalid file type: {file_ext}")
             return templates.TemplateResponse(
-                "index.html",
-                {"request": request, "error": f"Error processing the document: {str(e)}"},
-                status_code=500
+                "upload.html",
+                {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
+                status_code=400
             )
+        
+        # Clean text
+        cleaned_text = clean_text(full_text)
+        logger.info(f"Extracted {len(cleaned_text.split())} words total")
+        
+        # Calculate average confidence
+        if confidence_scores:
+            average_confidence = sum(confidence_scores) / len(confidence_scores)
+            average_confidence_formatted = f"{average_confidence:.2%}"
+            logger.info(f"Average OCR confidence: {average_confidence_formatted}")
+        else:
+            average_confidence_formatted = "N/A"
+            logger.warning("No confidence scores available")
 
         # Extract NDA fields
         logger.info("Extracting NDA fields from text")
@@ -398,32 +698,26 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         summary = generate_summary(cleaned_text)
         logger.info("Text summary generated")
 
-        # Force flush logs before returning
-        logger.info("Processing complete, preparing response")
-        for handler in logger.handlers + logging.root.handlers:
-            handler.flush()
-
-        # Render template with results
-        logger.info("Rendering results template")
+        logger.info("Document processing complete")
         return templates.TemplateResponse(
-            "result.html",
+            "results.html",
             {
                 "request": request,
                 "full_text": cleaned_text,
-                "average_confidence_formatted": average_confidence_formatted,
+                "average_confidence": average_confidence_formatted,
                 "summary": summary,
                 **fields
-            },
+            }
         )
 
     except Exception as e:
-        error_message = f"An unexpected error occurred: {str(e)}"
+        error_message = f"Unexpected error: {str(e)}"
         logger.error(error_message, exc_info=True)
         # Force flush logs
-        for handler in logger.handlers + logging.root.handlers:
+        for handler in logger.handlers:
             handler.flush()
         return templates.TemplateResponse(
-            "index.html",
+            "upload.html",
             {"request": request, "error": error_message},
             status_code=500
         )
