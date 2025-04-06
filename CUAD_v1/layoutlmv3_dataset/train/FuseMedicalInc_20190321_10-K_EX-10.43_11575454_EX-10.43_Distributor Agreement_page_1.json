@@ -1,0 +1,2125 @@
+[
+  {
+    "text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the",
+    "bbox": [
+      111,
+      281,
+      1000,
+      296
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "EXHIBIT 10.43",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "THIS AGREEMENT is dated",
+    "bbox": [
+      113,
+      102,
+      386,
+      113
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Parties",
+    "bbox": [
+      110,
+      137,
+      170,
+      152
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      109,
+      172,
+      138,
+      190
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Signature Orthopaedics Pty Ltd (ACN 106 702 416) , 7 Sirius Road, Lane Cove, NSW.",
+    "bbox": [
+      197,
+      173,
+      952,
+      188
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      109,
+      208,
+      138,
+      227
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "CPM Medical Consultants, LLC of 1565N. Central Expressway, Suite 200, Dallas, TX 75080.",
+    "bbox": [
+      196,
+      209,
+      1000,
+      224
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Background",
+    "bbox": [
+      111,
+      245,
+      215,
+      260
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the",
+    "bbox": [
+      111,
+      281,
+      1000,
+      296
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of",
+    "bbox": [
+      112,
+      302,
+      1000,
+      316
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "this agreement.",
+    "bbox": [
+      111,
+      321,
+      238,
+      337
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Agreed terms",
+    "bbox": [
+      112,
+      357,
+      228,
+      373
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      393,
+      130,
+      408
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Definitions and interpretation",
+    "bbox": [
+      197,
+      393,
+      438,
+      407
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      194,
+      428,
+      227,
+      444
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "The definitions and rules of interpretation in this clause apply in this agreement..",
+    "bbox": [
+      282,
+      429,
+      940,
+      443
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Business Day: a day (other than a Saturday, Sunday or public holiday in Australia) when banks in Sydney are open for.",
+    "bbox": [
+      197,
+      466,
+      1000,
+      480
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      194,
+      484,
+      272,
+      500
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Commencement Date: means the date of this agreement",
+    "bbox": [
+      197,
+      521,
+      672,
+      535
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Control: the ability to direct the affairs of another person, whether by virtue of the ownership of shares, contract or",
+    "bbox": [
+      197,
+      558,
+      1000,
+      571
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "otherwise.",
+    "bbox": [
+      197,
+      577,
+      282,
+      591
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Initial Term has the meaning given to it in clause 12.1..",
+    "bbox": [
+      195,
+      648,
+      647,
+      665
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Products: As defined in Schedule 1 and includes any other products developed by the Supplier and which the Supplier.",
+    "bbox": [
+      196,
+      685,
+      1000,
+      700
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "may permit the Distributor, by express notice in writing, to distribute in the Territory..",
+    "bbox": [
+      196,
+      706,
+      904,
+      720
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Term: the term of this agreement, as determined in accordance with clause 11. Territory: means the territory specified in.",
+    "bbox": [
+      195,
+      741,
+      1000,
+      756
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Schedule 2.",
+    "bbox": [
+      197,
+      761,
+      296,
+      774
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Trade Marks: the trade mark registrations listed in Schedule 3 and any further trade marks that the Supplier may permit,.",
+    "bbox": [
+      195,
+      797,
+      1000,
+      812
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "or procure permission for, the Distributor to use in the Territory in respect of the Products by express notice in writing.",
+    "bbox": [
+      195,
+      817,
+      1000,
+      833
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "GST: goods and services tax chargeable under the Goods and Services Tax Act and any similar replacement or",
+    "bbox": [
+      197,
+      854,
+      1000,
+      867
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "additional tax or such other similar or analogous form of tax under the laws and regulations in the Territory.",
+    "bbox": [
+      197,
+      872,
+      1000,
+      888
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      195,
+      909,
+      209,
+      922
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Source: FUSE MEDICAL, INC., 10-K, 3/21/2019",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "EXHIBIT 10.43",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS AGREEMENT is dated",
+    "bbox": [
+      113,
+      102,
+      386,
+      113
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Parties",
+    "bbox": [
+      110,
+      137,
+      170,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      109,
+      172,
+      138,
+      190
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Signature Orthopaedics Pty Ltd (ACN 106 702 416) , 7 Sirius Road, Lane Cove, NSW.",
+    "bbox": [
+      197,
+      173,
+      952,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      109,
+      208,
+      138,
+      227
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CPM Medical Consultants, LLC of 1565N. Central Expressway, Suite 200, Dallas, TX 75080.",
+    "bbox": [
+      196,
+      209,
+      1000,
+      224
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Background",
+    "bbox": [
+      111,
+      245,
+      215,
+      260
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the",
+    "bbox": [
+      111,
+      281,
+      1000,
+      296
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of",
+    "bbox": [
+      112,
+      302,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "this agreement.",
+    "bbox": [
+      111,
+      321,
+      238,
+      337
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreed terms",
+    "bbox": [
+      112,
+      357,
+      228,
+      373
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      393,
+      130,
+      408
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Definitions and interpretation",
+    "bbox": [
+      197,
+      393,
+      438,
+      407
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      194,
+      428,
+      227,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The definitions and rules of interpretation in this clause apply in this agreement..",
+    "bbox": [
+      282,
+      429,
+      940,
+      443
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Business Day: a day (other than a Saturday, Sunday or public holiday in Australia) when banks in Sydney are open for.",
+    "bbox": [
+      197,
+      466,
+      1000,
+      480
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      194,
+      484,
+      272,
+      500
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Commencement Date: means the date of this agreement",
+    "bbox": [
+      197,
+      521,
+      672,
+      535
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Control: the ability to direct the affairs of another person, whether by virtue of the ownership of shares, contract or",
+    "bbox": [
+      197,
+      558,
+      1000,
+      571
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise.",
+    "bbox": [
+      197,
+      577,
+      282,
+      591
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Term has the meaning given to it in clause 12.1..",
+    "bbox": [
+      195,
+      648,
+      647,
+      665
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Products: As defined in Schedule 1 and includes any other products developed by the Supplier and which the Supplier.",
+    "bbox": [
+      196,
+      685,
+      1000,
+      700
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "may permit the Distributor, by express notice in writing, to distribute in the Territory..",
+    "bbox": [
+      196,
+      706,
+      904,
+      720
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Term: the term of this agreement, as determined in accordance with clause 11. Territory: means the territory specified in.",
+    "bbox": [
+      195,
+      741,
+      1000,
+      756
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Schedule 2.",
+    "bbox": [
+      197,
+      761,
+      296,
+      774
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Trade Marks: the trade mark registrations listed in Schedule 3 and any further trade marks that the Supplier may permit,.",
+    "bbox": [
+      195,
+      797,
+      1000,
+      812
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or procure permission for, the Distributor to use in the Territory in respect of the Products by express notice in writing.",
+    "bbox": [
+      195,
+      817,
+      1000,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "GST: goods and services tax chargeable under the Goods and Services Tax Act and any similar replacement or",
+    "bbox": [
+      197,
+      854,
+      1000,
+      867
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "additional tax or such other similar or analogous form of tax under the laws and regulations in the Territory.",
+    "bbox": [
+      197,
+      872,
+      1000,
+      888
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      195,
+      909,
+      209,
+      922
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: FUSE MEDICAL, INC., 10-K, 3/21/2019",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXHIBIT 10.43",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS AGREEMENT is dated",
+    "bbox": [
+      113,
+      102,
+      386,
+      113
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Parties",
+    "bbox": [
+      110,
+      137,
+      170,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      109,
+      172,
+      138,
+      190
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Signature Orthopaedics Pty Ltd (ACN 106 702 416) , 7 Sirius Road, Lane Cove, NSW.",
+    "bbox": [
+      197,
+      173,
+      952,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      109,
+      208,
+      138,
+      227
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CPM Medical Consultants, LLC of 1565N. Central Expressway, Suite 200, Dallas, TX 75080.",
+    "bbox": [
+      196,
+      209,
+      1000,
+      224
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Background",
+    "bbox": [
+      111,
+      245,
+      215,
+      260
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the",
+    "bbox": [
+      111,
+      281,
+      1000,
+      296
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of",
+    "bbox": [
+      112,
+      302,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "this agreement.",
+    "bbox": [
+      111,
+      321,
+      238,
+      337
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreed terms",
+    "bbox": [
+      112,
+      357,
+      228,
+      373
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      393,
+      130,
+      408
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Definitions and interpretation",
+    "bbox": [
+      197,
+      393,
+      438,
+      407
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      194,
+      428,
+      227,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The definitions and rules of interpretation in this clause apply in this agreement..",
+    "bbox": [
+      282,
+      429,
+      940,
+      443
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Business Day: a day (other than a Saturday, Sunday or public holiday in Australia) when banks in Sydney are open for.",
+    "bbox": [
+      197,
+      466,
+      1000,
+      480
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      194,
+      484,
+      272,
+      500
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Commencement Date: means the date of this agreement",
+    "bbox": [
+      197,
+      521,
+      672,
+      535
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Control: the ability to direct the affairs of another person, whether by virtue of the ownership of shares, contract or",
+    "bbox": [
+      197,
+      558,
+      1000,
+      571
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise.",
+    "bbox": [
+      197,
+      577,
+      282,
+      591
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Term has the meaning given to it in clause 12.1..",
+    "bbox": [
+      195,
+      648,
+      647,
+      665
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Products: As defined in Schedule 1 and includes any other products developed by the Supplier and which the Supplier.",
+    "bbox": [
+      196,
+      685,
+      1000,
+      700
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "may permit the Distributor, by express notice in writing, to distribute in the Territory..",
+    "bbox": [
+      196,
+      706,
+      904,
+      720
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Term: the term of this agreement, as determined in accordance with clause 11. Territory: means the territory specified in.",
+    "bbox": [
+      195,
+      741,
+      1000,
+      756
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Schedule 2.",
+    "bbox": [
+      197,
+      761,
+      296,
+      774
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Trade Marks: the trade mark registrations listed in Schedule 3 and any further trade marks that the Supplier may permit,.",
+    "bbox": [
+      195,
+      797,
+      1000,
+      812
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or procure permission for, the Distributor to use in the Territory in respect of the Products by express notice in writing.",
+    "bbox": [
+      195,
+      817,
+      1000,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "GST: goods and services tax chargeable under the Goods and Services Tax Act and any similar replacement or",
+    "bbox": [
+      197,
+      854,
+      1000,
+      867
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "additional tax or such other similar or analogous form of tax under the laws and regulations in the Territory.",
+    "bbox": [
+      197,
+      872,
+      1000,
+      888
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      195,
+      909,
+      209,
+      922
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: FUSE MEDICAL, INC., 10-K, 3/21/2019",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXHIBIT 10.43",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIS AGREEMENT is dated",
+    "bbox": [
+      113,
+      102,
+      386,
+      113
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Parties",
+    "bbox": [
+      110,
+      137,
+      170,
+      152
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      109,
+      172,
+      138,
+      190
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Signature Orthopaedics Pty Ltd (ACN 106 702 416) , 7 Sirius Road, Lane Cove, NSW.",
+    "bbox": [
+      197,
+      173,
+      952,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      109,
+      208,
+      138,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CPM Medical Consultants, LLC of 1565N. Central Expressway, Suite 200, Dallas, TX 75080.",
+    "bbox": [
+      196,
+      209,
+      1000,
+      224
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Background",
+    "bbox": [
+      111,
+      245,
+      215,
+      260
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the",
+    "bbox": [
+      111,
+      281,
+      1000,
+      296
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of",
+    "bbox": [
+      112,
+      302,
+      1000,
+      316
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "this agreement.",
+    "bbox": [
+      111,
+      321,
+      238,
+      337
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreed terms",
+    "bbox": [
+      112,
+      357,
+      228,
+      373
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      393,
+      130,
+      408
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Definitions and interpretation",
+    "bbox": [
+      197,
+      393,
+      438,
+      407
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      194,
+      428,
+      227,
+      444
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The definitions and rules of interpretation in this clause apply in this agreement..",
+    "bbox": [
+      282,
+      429,
+      940,
+      443
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Business Day: a day (other than a Saturday, Sunday or public holiday in Australia) when banks in Sydney are open for.",
+    "bbox": [
+      197,
+      466,
+      1000,
+      480
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      194,
+      484,
+      272,
+      500
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Commencement Date: means the date of this agreement",
+    "bbox": [
+      197,
+      521,
+      672,
+      535
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Control: the ability to direct the affairs of another person, whether by virtue of the ownership of shares, contract or",
+    "bbox": [
+      197,
+      558,
+      1000,
+      571
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "otherwise.",
+    "bbox": [
+      197,
+      577,
+      282,
+      591
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Initial Term has the meaning given to it in clause 12.1..",
+    "bbox": [
+      195,
+      648,
+      647,
+      665
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Products: As defined in Schedule 1 and includes any other products developed by the Supplier and which the Supplier.",
+    "bbox": [
+      196,
+      685,
+      1000,
+      700
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "may permit the Distributor, by express notice in writing, to distribute in the Territory..",
+    "bbox": [
+      196,
+      706,
+      904,
+      720
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Term: the term of this agreement, as determined in accordance with clause 11. Territory: means the territory specified in.",
+    "bbox": [
+      195,
+      741,
+      1000,
+      756
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule 2.",
+    "bbox": [
+      197,
+      761,
+      296,
+      774
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Trade Marks: the trade mark registrations listed in Schedule 3 and any further trade marks that the Supplier may permit,.",
+    "bbox": [
+      195,
+      797,
+      1000,
+      812
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or procure permission for, the Distributor to use in the Territory in respect of the Products by express notice in writing.",
+    "bbox": [
+      195,
+      817,
+      1000,
+      833
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "GST: goods and services tax chargeable under the Goods and Services Tax Act and any similar replacement or",
+    "bbox": [
+      197,
+      854,
+      1000,
+      867
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional tax or such other similar or analogous form of tax under the laws and regulations in the Territory.",
+    "bbox": [
+      197,
+      872,
+      1000,
+      888
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      195,
+      909,
+      209,
+      922
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: FUSE MEDICAL, INC., 10-K, 3/21/2019",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "EXHIBIT 10.43",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIS AGREEMENT is dated",
+    "bbox": [
+      113,
+      102,
+      386,
+      113
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Parties",
+    "bbox": [
+      110,
+      137,
+      170,
+      152
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      109,
+      172,
+      138,
+      190
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Signature Orthopaedics Pty Ltd (ACN 106 702 416) , 7 Sirius Road, Lane Cove, NSW.",
+    "bbox": [
+      197,
+      173,
+      952,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      109,
+      208,
+      138,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CPM Medical Consultants, LLC of 1565N. Central Expressway, Suite 200, Dallas, TX 75080.",
+    "bbox": [
+      196,
+      209,
+      1000,
+      224
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Background",
+    "bbox": [
+      111,
+      245,
+      215,
+      260
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the",
+    "bbox": [
+      111,
+      281,
+      1000,
+      296
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of",
+    "bbox": [
+      112,
+      302,
+      1000,
+      316
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "this agreement.",
+    "bbox": [
+      111,
+      321,
+      238,
+      337
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreed terms",
+    "bbox": [
+      112,
+      357,
+      228,
+      373
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      393,
+      130,
+      408
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Definitions and interpretation",
+    "bbox": [
+      197,
+      393,
+      438,
+      407
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      194,
+      428,
+      227,
+      444
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The definitions and rules of interpretation in this clause apply in this agreement..",
+    "bbox": [
+      282,
+      429,
+      940,
+      443
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Business Day: a day (other than a Saturday, Sunday or public holiday in Australia) when banks in Sydney are open for.",
+    "bbox": [
+      197,
+      466,
+      1000,
+      480
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      194,
+      484,
+      272,
+      500
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Commencement Date: means the date of this agreement",
+    "bbox": [
+      197,
+      521,
+      672,
+      535
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Control: the ability to direct the affairs of another person, whether by virtue of the ownership of shares, contract or",
+    "bbox": [
+      197,
+      558,
+      1000,
+      571
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "otherwise.",
+    "bbox": [
+      197,
+      577,
+      282,
+      591
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Initial Term has the meaning given to it in clause 12.1..",
+    "bbox": [
+      195,
+      648,
+      647,
+      665
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Products: As defined in Schedule 1 and includes any other products developed by the Supplier and which the Supplier.",
+    "bbox": [
+      196,
+      685,
+      1000,
+      700
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "may permit the Distributor, by express notice in writing, to distribute in the Territory..",
+    "bbox": [
+      196,
+      706,
+      904,
+      720
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Term: the term of this agreement, as determined in accordance with clause 11. Territory: means the territory specified in.",
+    "bbox": [
+      195,
+      741,
+      1000,
+      756
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule 2.",
+    "bbox": [
+      197,
+      761,
+      296,
+      774
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Trade Marks: the trade mark registrations listed in Schedule 3 and any further trade marks that the Supplier may permit,.",
+    "bbox": [
+      195,
+      797,
+      1000,
+      812
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or procure permission for, the Distributor to use in the Territory in respect of the Products by express notice in writing.",
+    "bbox": [
+      195,
+      817,
+      1000,
+      833
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "GST: goods and services tax chargeable under the Goods and Services Tax Act and any similar replacement or",
+    "bbox": [
+      197,
+      854,
+      1000,
+      867
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional tax or such other similar or analogous form of tax under the laws and regulations in the Territory.",
+    "bbox": [
+      197,
+      872,
+      1000,
+      888
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      195,
+      909,
+      209,
+      922
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: FUSE MEDICAL, INC., 10-K, 3/21/2019",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "EXHIBIT 10.43",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "THIS AGREEMENT is dated",
+    "bbox": [
+      113,
+      102,
+      386,
+      113
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Parties",
+    "bbox": [
+      110,
+      137,
+      170,
+      152
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      109,
+      172,
+      138,
+      190
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Signature Orthopaedics Pty Ltd (ACN 106 702 416) , 7 Sirius Road, Lane Cove, NSW.",
+    "bbox": [
+      197,
+      173,
+      952,
+      188
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      109,
+      208,
+      138,
+      227
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "CPM Medical Consultants, LLC of 1565N. Central Expressway, Suite 200, Dallas, TX 75080.",
+    "bbox": [
+      196,
+      209,
+      1000,
+      224
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Background",
+    "bbox": [
+      111,
+      245,
+      215,
+      260
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the",
+    "bbox": [
+      111,
+      281,
+      1000,
+      296
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of",
+    "bbox": [
+      112,
+      302,
+      1000,
+      316
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "this agreement.",
+    "bbox": [
+      111,
+      321,
+      238,
+      337
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Agreed terms",
+    "bbox": [
+      112,
+      357,
+      228,
+      373
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      393,
+      130,
+      408
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Definitions and interpretation",
+    "bbox": [
+      197,
+      393,
+      438,
+      407
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      194,
+      428,
+      227,
+      444
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "The definitions and rules of interpretation in this clause apply in this agreement..",
+    "bbox": [
+      282,
+      429,
+      940,
+      443
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Business Day: a day (other than a Saturday, Sunday or public holiday in Australia) when banks in Sydney are open for.",
+    "bbox": [
+      197,
+      466,
+      1000,
+      480
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      194,
+      484,
+      272,
+      500
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Commencement Date: means the date of this agreement",
+    "bbox": [
+      197,
+      521,
+      672,
+      535
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Control: the ability to direct the affairs of another person, whether by virtue of the ownership of shares, contract or",
+    "bbox": [
+      197,
+      558,
+      1000,
+      571
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "otherwise.",
+    "bbox": [
+      197,
+      577,
+      282,
+      591
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Initial Term has the meaning given to it in clause 12.1..",
+    "bbox": [
+      195,
+      648,
+      647,
+      665
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Products: As defined in Schedule 1 and includes any other products developed by the Supplier and which the Supplier.",
+    "bbox": [
+      196,
+      685,
+      1000,
+      700
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "may permit the Distributor, by express notice in writing, to distribute in the Territory..",
+    "bbox": [
+      196,
+      706,
+      904,
+      720
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Term: the term of this agreement, as determined in accordance with clause 11. Territory: means the territory specified in.",
+    "bbox": [
+      195,
+      741,
+      1000,
+      756
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Schedule 2.",
+    "bbox": [
+      197,
+      761,
+      296,
+      774
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Trade Marks: the trade mark registrations listed in Schedule 3 and any further trade marks that the Supplier may permit,.",
+    "bbox": [
+      195,
+      797,
+      1000,
+      812
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "or procure permission for, the Distributor to use in the Territory in respect of the Products by express notice in writing.",
+    "bbox": [
+      195,
+      817,
+      1000,
+      833
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "GST: goods and services tax chargeable under the Goods and Services Tax Act and any similar replacement or",
+    "bbox": [
+      197,
+      854,
+      1000,
+      867
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "additional tax or such other similar or analogous form of tax under the laws and regulations in the Territory.",
+    "bbox": [
+      197,
+      872,
+      1000,
+      888
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      195,
+      909,
+      209,
+      922
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: FUSE MEDICAL, INC., 10-K, 3/21/2019",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  }
+]

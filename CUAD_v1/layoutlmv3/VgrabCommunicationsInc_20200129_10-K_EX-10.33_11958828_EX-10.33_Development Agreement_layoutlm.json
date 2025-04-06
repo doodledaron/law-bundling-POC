@@ -1,0 +1,3825 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Development\\VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.pdf",
+  "annotations": [
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "Mobile Application Development Agreement",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "MOBILE APPLICATION DEVELOPMENT",
+          "bbox": [
+            875.0,
+            314.0,
+            2635.0,
+            382.0
+          ],
+          "confidence": 0.9671128988265991
+        },
+        {
+          "text": "AGREEMENT",
+          "bbox": [
+            1464.0,
+            450.0,
+            2045.0,
+            517.0
+          ],
+          "confidence": 0.9900586009025574
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MOBILE APPLICATION DEVELOPMENT",
+          "page": 0,
+          "bbox": [
+            875.0,
+            314.0,
+            2635.0,
+            382.0
+          ]
+        },
+        {
+          "text": "AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1464.0,
+            450.0,
+            2045.0,
+            517.0
+          ]
+        },
+        {
+          "text": "PRIVATE & CONFIDENTIAL",
+          "page": 0,
+          "bbox": [
+            1490.0,
+            1069.0,
+            1925.0,
+            1100.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "VAL",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "(Agreement No: VAL/MAD/PVTINV/DC/190305/1)",
+          "bbox": [
+            1214.0,
+            559.0,
+            2208.0,
+            605.0
+          ],
+          "confidence": 0.9933201670646667
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MOBILE APPLICATION DEVELOPMENT",
+          "page": 0,
+          "bbox": [
+            875.0,
+            314.0,
+            2635.0,
+            382.0
+          ]
+        },
+        {
+          "text": "AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1464.0,
+            450.0,
+            2045.0,
+            517.0
+          ]
+        },
+        {
+          "text": "PRIVATE & CONFIDENTIAL",
+          "page": 0,
+          "bbox": [
+            1490.0,
+            1069.0,
+            1925.0,
+            1100.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Parties_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "VGrab Asia Ltd.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "VGrab Asia Ltd. (hereinafter called as the \"VAL\"), located at Room E, 6th Floor, Eastern Commercial.",
+          "bbox": [
+            609.0,
+            700.0,
+            2806.0,
+            758.0
+          ],
+          "confidence": 0.9720350503921509
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Parties_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Mr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Mr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Developer\"), a group.",
+          "bbox": [
+            613.0,
+            875.0,
+            2800.0,
+            928.0
+          ],
+          "confidence": 0.9875742197036743
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Agreement Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "5th Day of March, 2019",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "This Mobile Application Development Agreement (the \"Agreement\") is made and effective from 5th Day of",
+          "bbox": [
+            611.0,
+            521.0,
+            2809.0,
+            581.0
+          ],
+          "confidence": 0.9980802536010742
+        },
+        {
+          "text": "March, 2019",
+          "bbox": [
+            613.0,
+            588.0,
+            865.0,
+            627.0
+          ],
+          "confidence": 0.9959591031074524
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Effective Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "This Agreement shall commence on 5th March 2019",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "This Agreement shall commence on 5th March 2019",
+          "bbox": [
+            741.0,
+            1888.0,
+            1820.0,
+            1946.0
+          ],
+          "confidence": 0.9969316124916077
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Expiration Date_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this Agreement.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement",
+          "bbox": [
+            738.0,
+            2012.0,
+            2804.0,
+            2054.0
+          ],
+          "confidence": 0.9950644969940186
+        },
+        {
+          "text": "date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this.",
+          "bbox": [
+            738.0,
+            2070.0,
+            2804.0,
+            2112.0
+          ],
+          "confidence": 0.9922673106193542
+        },
+        {
+          "text": "Agreement.",
+          "bbox": [
+            738.0,
+            2125.0,
+            972.0,
+            2169.0
+          ],
+          "confidence": 0.9984661936759949
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Expiration Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Agreement commences on the date it is executed and shall continue until full performance by both parties, or until earlier terminated by one party under the terms of this Agreement.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            2077.0,
+            294.0,
+            2804.0,
+            333.0
+          ],
+          "confidence": 0.988129198551178
+        },
+        {
+          "text": "Agreement No: VAL/MAD/PVTINV/DC/190305/1",
+          "bbox": [
+            2003.0,
+            349.0,
+            2800.0,
+            389.0
+          ],
+          "confidence": 0.9943838119506836
+        },
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            1218.0,
+            468.0,
+            2206.0,
+            510.0
+          ],
+          "confidence": 0.9781369566917419
+        },
+        {
+          "text": "This Mobile Application Development Agreement (the \"Agreement\") is made and effective from 5th Day of",
+          "bbox": [
+            611.0,
+            521.0,
+            2809.0,
+            581.0
+          ],
+          "confidence": 0.9980802536010742
+        },
+        {
+          "text": "March, 2019",
+          "bbox": [
+            613.0,
+            588.0,
+            865.0,
+            627.0
+          ],
+          "confidence": 0.9959591031074524
+        },
+        {
+          "text": "BETWEEN:",
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ],
+          "confidence": 0.994924008846283
+        },
+        {
+          "text": "VGrab Asia Ltd. (hereinafter called as the \"VAL\"), located at Room E, 6th Floor, Eastern Commercial.",
+          "bbox": [
+            609.0,
+            700.0,
+            2806.0,
+            758.0
+          ],
+          "confidence": 0.9720350503921509
+        },
+        {
+          "text": "Center, 397 Hennessy Road, Hong Kong..",
+          "bbox": [
+            612.0,
+            764.0,
+            1445.0,
+            815.0
+          ],
+          "confidence": 0.992943525314331
+        },
+        {
+          "text": "AND:",
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ],
+          "confidence": 0.997330367565155
+        },
+        {
+          "text": "Mr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Developer\"), a group.",
+          "bbox": [
+            613.0,
+            875.0,
+            2800.0,
+            928.0
+          ],
+          "confidence": 0.9875742197036743
+        },
+        {
+          "text": "of private software developers individuals' lead and coordinated by Ms. Chen Weijie with its operations in",
+          "bbox": [
+            614.0,
+            937.0,
+            2804.0,
+            979.0
+          ],
+          "confidence": 0.9912087321281433
+        },
+        {
+          "text": "P.R.China.",
+          "bbox": [
+            611.0,
+            986.0,
+            827.0,
+            1035.0
+          ],
+          "confidence": 0.9996655583381653
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ],
+          "confidence": 0.9991079568862915
+        },
+        {
+          "text": "Whereas, VAL wishes to engage the Developer for services as an independent contractor for the sole.",
+          "bbox": [
+            614.0,
+            1160.0,
+            2802.0,
+            1204.0
+          ],
+          "confidence": 0.9942598342895508
+        },
+        {
+          "text": "purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone,.",
+          "bbox": [
+            613.0,
+            1215.0,
+            2799.0,
+            1261.0
+          ],
+          "confidence": 0.9895370602607727
+        },
+        {
+          "text": "iPad, Android (Hereinafter called as the \"Project\") developed as per the requirements specifications by VAL",
+          "bbox": [
+            614.0,
+            1274.0,
+            2800.0,
+            1316.0
+          ],
+          "confidence": 0.9963186979293823
+        },
+        {
+          "text": "within this mobile application development agreement.",
+          "bbox": [
+            614.0,
+            1330.0,
+            1696.0,
+            1374.0
+          ],
+          "confidence": 0.9934986233711243
+        },
+        {
+          "text": "Whereas, the \"Developer\" is engaged in the making of such applications and holds all the necessary tools to.",
+          "bbox": [
+            616.0,
+            1385.0,
+            2800.0,
+            1429.0
+          ],
+          "confidence": 0.9840148687362671
+        },
+        {
+          "text": "obtain the needed results of this Project for VAL.",
+          "bbox": [
+            616.0,
+            1442.0,
+            1595.0,
+            1484.0
+          ],
+          "confidence": 0.9992524981498718
+        },
+        {
+          "text": "NOw, THEREFORE, in consideration of the mutual covenants and agreements herein contained, the parties",
+          "bbox": [
+            613.0,
+            1495.0,
+            2802.0,
+            1540.0
+          ],
+          "confidence": 0.9903146624565125
+        },
+        {
+          "text": "hereto, intending, to be legally bound, agree as follows:.",
+          "bbox": [
+            613.0,
+            1551.0,
+            1729.0,
+            1597.0
+          ],
+          "confidence": 0.994920551776886
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            613.0,
+            1608.0,
+            660.0,
+            1648.0
+          ],
+          "confidence": 0.9999188184738159
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ],
+          "confidence": 0.997955858707428
+        },
+        {
+          "text": "The high level scope of work is the development of the Project on the requirements specifications as",
+          "bbox": [
+            747.0,
+            1667.0,
+            2802.0,
+            1709.0
+          ],
+          "confidence": 0.9888457655906677
+        },
+        {
+          "text": "per Clause 6. Creative designs and graphics development is covered in the scope of work of this",
+          "bbox": [
+            750.0,
+            1723.0,
+            2802.0,
+            1765.0
+          ],
+          "confidence": 0.9914399981498718
+        },
+        {
+          "text": "Agreement; Developer may recommend or create their own designs for the betterment of the App..",
+          "bbox": [
+            749.0,
+            1780.0,
+            2710.0,
+            1822.0
+          ],
+          "confidence": 0.9789860248565674
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            611.0,
+            1831.0,
+            654.0,
+            1877.0
+          ],
+          "confidence": 0.9542455673217773
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ],
+          "confidence": 0.998197078704834
+        },
+        {
+          "text": "This Agreement shall commence on 5th March 2019",
+          "bbox": [
+            741.0,
+            1888.0,
+            1820.0,
+            1946.0
+          ],
+          "confidence": 0.9969316124916077
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            611.0,
+            1955.0,
+            656.0,
+            1999.0
+          ],
+          "confidence": 0.999958872795105
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ],
+          "confidence": 0.993621289730072
+        },
+        {
+          "text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement",
+          "bbox": [
+            738.0,
+            2012.0,
+            2804.0,
+            2054.0
+          ],
+          "confidence": 0.9950644969940186
+        },
+        {
+          "text": "date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this.",
+          "bbox": [
+            738.0,
+            2070.0,
+            2804.0,
+            2112.0
+          ],
+          "confidence": 0.9922673106193542
+        },
+        {
+          "text": "Agreement.",
+          "bbox": [
+            738.0,
+            2125.0,
+            972.0,
+            2169.0
+          ],
+          "confidence": 0.9984661936759949
+        },
+        {
+          "text": "Page 1 of 7",
+          "bbox": [
+            1611.0,
+            2240.0,
+            1806.0,
+            2290.0
+          ],
+          "confidence": 0.9975642561912537
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9883763194084167
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Governing Law_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            2077.0,
+            294.0,
+            2804.0,
+            333.0
+          ],
+          "confidence": 0.988129198551178
+        },
+        {
+          "text": "Agreement No: VAL/MAD/PVTINV/DC/190305/1",
+          "bbox": [
+            2003.0,
+            349.0,
+            2800.0,
+            389.0
+          ],
+          "confidence": 0.9943838119506836
+        },
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            1218.0,
+            468.0,
+            2206.0,
+            510.0
+          ],
+          "confidence": 0.9781369566917419
+        },
+        {
+          "text": "This Mobile Application Development Agreement (the \"Agreement\") is made and effective from 5th Day of",
+          "bbox": [
+            611.0,
+            521.0,
+            2809.0,
+            581.0
+          ],
+          "confidence": 0.9980802536010742
+        },
+        {
+          "text": "March, 2019",
+          "bbox": [
+            613.0,
+            588.0,
+            865.0,
+            627.0
+          ],
+          "confidence": 0.9959591031074524
+        },
+        {
+          "text": "BETWEEN:",
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ],
+          "confidence": 0.994924008846283
+        },
+        {
+          "text": "VGrab Asia Ltd. (hereinafter called as the \"VAL\"), located at Room E, 6th Floor, Eastern Commercial.",
+          "bbox": [
+            609.0,
+            700.0,
+            2806.0,
+            758.0
+          ],
+          "confidence": 0.9720350503921509
+        },
+        {
+          "text": "Center, 397 Hennessy Road, Hong Kong..",
+          "bbox": [
+            612.0,
+            764.0,
+            1445.0,
+            815.0
+          ],
+          "confidence": 0.992943525314331
+        },
+        {
+          "text": "AND:",
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ],
+          "confidence": 0.997330367565155
+        },
+        {
+          "text": "Mr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Developer\"), a group.",
+          "bbox": [
+            613.0,
+            875.0,
+            2800.0,
+            928.0
+          ],
+          "confidence": 0.9875742197036743
+        },
+        {
+          "text": "of private software developers individuals' lead and coordinated by Ms. Chen Weijie with its operations in",
+          "bbox": [
+            614.0,
+            937.0,
+            2804.0,
+            979.0
+          ],
+          "confidence": 0.9912087321281433
+        },
+        {
+          "text": "P.R.China.",
+          "bbox": [
+            611.0,
+            986.0,
+            827.0,
+            1035.0
+          ],
+          "confidence": 0.9996655583381653
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ],
+          "confidence": 0.9991079568862915
+        },
+        {
+          "text": "Whereas, VAL wishes to engage the Developer for services as an independent contractor for the sole.",
+          "bbox": [
+            614.0,
+            1160.0,
+            2802.0,
+            1204.0
+          ],
+          "confidence": 0.9942598342895508
+        },
+        {
+          "text": "purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone,.",
+          "bbox": [
+            613.0,
+            1215.0,
+            2799.0,
+            1261.0
+          ],
+          "confidence": 0.9895370602607727
+        },
+        {
+          "text": "iPad, Android (Hereinafter called as the \"Project\") developed as per the requirements specifications by VAL",
+          "bbox": [
+            614.0,
+            1274.0,
+            2800.0,
+            1316.0
+          ],
+          "confidence": 0.9963186979293823
+        },
+        {
+          "text": "within this mobile application development agreement.",
+          "bbox": [
+            614.0,
+            1330.0,
+            1696.0,
+            1374.0
+          ],
+          "confidence": 0.9934986233711243
+        },
+        {
+          "text": "Whereas, the \"Developer\" is engaged in the making of such applications and holds all the necessary tools to.",
+          "bbox": [
+            616.0,
+            1385.0,
+            2800.0,
+            1429.0
+          ],
+          "confidence": 0.9840148687362671
+        },
+        {
+          "text": "obtain the needed results of this Project for VAL.",
+          "bbox": [
+            616.0,
+            1442.0,
+            1595.0,
+            1484.0
+          ],
+          "confidence": 0.9992524981498718
+        },
+        {
+          "text": "NOw, THEREFORE, in consideration of the mutual covenants and agreements herein contained, the parties",
+          "bbox": [
+            613.0,
+            1495.0,
+            2802.0,
+            1540.0
+          ],
+          "confidence": 0.9903146624565125
+        },
+        {
+          "text": "hereto, intending, to be legally bound, agree as follows:.",
+          "bbox": [
+            613.0,
+            1551.0,
+            1729.0,
+            1597.0
+          ],
+          "confidence": 0.994920551776886
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            613.0,
+            1608.0,
+            660.0,
+            1648.0
+          ],
+          "confidence": 0.9999188184738159
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ],
+          "confidence": 0.997955858707428
+        },
+        {
+          "text": "The high level scope of work is the development of the Project on the requirements specifications as",
+          "bbox": [
+            747.0,
+            1667.0,
+            2802.0,
+            1709.0
+          ],
+          "confidence": 0.9888457655906677
+        },
+        {
+          "text": "per Clause 6. Creative designs and graphics development is covered in the scope of work of this",
+          "bbox": [
+            750.0,
+            1723.0,
+            2802.0,
+            1765.0
+          ],
+          "confidence": 0.9914399981498718
+        },
+        {
+          "text": "Agreement; Developer may recommend or create their own designs for the betterment of the App..",
+          "bbox": [
+            749.0,
+            1780.0,
+            2710.0,
+            1822.0
+          ],
+          "confidence": 0.9789860248565674
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            611.0,
+            1831.0,
+            654.0,
+            1877.0
+          ],
+          "confidence": 0.9542455673217773
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ],
+          "confidence": 0.998197078704834
+        },
+        {
+          "text": "This Agreement shall commence on 5th March 2019",
+          "bbox": [
+            741.0,
+            1888.0,
+            1820.0,
+            1946.0
+          ],
+          "confidence": 0.9969316124916077
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            611.0,
+            1955.0,
+            656.0,
+            1999.0
+          ],
+          "confidence": 0.999958872795105
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ],
+          "confidence": 0.993621289730072
+        },
+        {
+          "text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement",
+          "bbox": [
+            738.0,
+            2012.0,
+            2804.0,
+            2054.0
+          ],
+          "confidence": 0.9950644969940186
+        },
+        {
+          "text": "date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this.",
+          "bbox": [
+            738.0,
+            2070.0,
+            2804.0,
+            2112.0
+          ],
+          "confidence": 0.9922673106193542
+        },
+        {
+          "text": "Agreement.",
+          "bbox": [
+            738.0,
+            2125.0,
+            972.0,
+            2169.0
+          ],
+          "confidence": 0.9984661936759949
+        },
+        {
+          "text": "Page 1 of 7",
+          "bbox": [
+            1611.0,
+            2240.0,
+            1806.0,
+            2290.0
+          ],
+          "confidence": 0.9975642561912537
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9883763194084167
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Termination For Convenience_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "Developer may also terminate this Agreement by giving two (2) weeks' notice in writing to VAL.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            2077.0,
+            294.0,
+            2804.0,
+            333.0
+          ],
+          "confidence": 0.988129198551178
+        },
+        {
+          "text": "Agreement No: VAL/MAD/PVTINV/DC/190305/1",
+          "bbox": [
+            2003.0,
+            349.0,
+            2800.0,
+            389.0
+          ],
+          "confidence": 0.9943838119506836
+        },
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            1218.0,
+            468.0,
+            2206.0,
+            510.0
+          ],
+          "confidence": 0.9781369566917419
+        },
+        {
+          "text": "This Mobile Application Development Agreement (the \"Agreement\") is made and effective from 5th Day of",
+          "bbox": [
+            611.0,
+            521.0,
+            2809.0,
+            581.0
+          ],
+          "confidence": 0.9980802536010742
+        },
+        {
+          "text": "March, 2019",
+          "bbox": [
+            613.0,
+            588.0,
+            865.0,
+            627.0
+          ],
+          "confidence": 0.9959591031074524
+        },
+        {
+          "text": "BETWEEN:",
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ],
+          "confidence": 0.994924008846283
+        },
+        {
+          "text": "VGrab Asia Ltd. (hereinafter called as the \"VAL\"), located at Room E, 6th Floor, Eastern Commercial.",
+          "bbox": [
+            609.0,
+            700.0,
+            2806.0,
+            758.0
+          ],
+          "confidence": 0.9720350503921509
+        },
+        {
+          "text": "Center, 397 Hennessy Road, Hong Kong..",
+          "bbox": [
+            612.0,
+            764.0,
+            1445.0,
+            815.0
+          ],
+          "confidence": 0.992943525314331
+        },
+        {
+          "text": "AND:",
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ],
+          "confidence": 0.997330367565155
+        },
+        {
+          "text": "Mr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Developer\"), a group.",
+          "bbox": [
+            613.0,
+            875.0,
+            2800.0,
+            928.0
+          ],
+          "confidence": 0.9875742197036743
+        },
+        {
+          "text": "of private software developers individuals' lead and coordinated by Ms. Chen Weijie with its operations in",
+          "bbox": [
+            614.0,
+            937.0,
+            2804.0,
+            979.0
+          ],
+          "confidence": 0.9912087321281433
+        },
+        {
+          "text": "P.R.China.",
+          "bbox": [
+            611.0,
+            986.0,
+            827.0,
+            1035.0
+          ],
+          "confidence": 0.9996655583381653
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ],
+          "confidence": 0.9991079568862915
+        },
+        {
+          "text": "Whereas, VAL wishes to engage the Developer for services as an independent contractor for the sole.",
+          "bbox": [
+            614.0,
+            1160.0,
+            2802.0,
+            1204.0
+          ],
+          "confidence": 0.9942598342895508
+        },
+        {
+          "text": "purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone,.",
+          "bbox": [
+            613.0,
+            1215.0,
+            2799.0,
+            1261.0
+          ],
+          "confidence": 0.9895370602607727
+        },
+        {
+          "text": "iPad, Android (Hereinafter called as the \"Project\") developed as per the requirements specifications by VAL",
+          "bbox": [
+            614.0,
+            1274.0,
+            2800.0,
+            1316.0
+          ],
+          "confidence": 0.9963186979293823
+        },
+        {
+          "text": "within this mobile application development agreement.",
+          "bbox": [
+            614.0,
+            1330.0,
+            1696.0,
+            1374.0
+          ],
+          "confidence": 0.9934986233711243
+        },
+        {
+          "text": "Whereas, the \"Developer\" is engaged in the making of such applications and holds all the necessary tools to.",
+          "bbox": [
+            616.0,
+            1385.0,
+            2800.0,
+            1429.0
+          ],
+          "confidence": 0.9840148687362671
+        },
+        {
+          "text": "obtain the needed results of this Project for VAL.",
+          "bbox": [
+            616.0,
+            1442.0,
+            1595.0,
+            1484.0
+          ],
+          "confidence": 0.9992524981498718
+        },
+        {
+          "text": "NOw, THEREFORE, in consideration of the mutual covenants and agreements herein contained, the parties",
+          "bbox": [
+            613.0,
+            1495.0,
+            2802.0,
+            1540.0
+          ],
+          "confidence": 0.9903146624565125
+        },
+        {
+          "text": "hereto, intending, to be legally bound, agree as follows:.",
+          "bbox": [
+            613.0,
+            1551.0,
+            1729.0,
+            1597.0
+          ],
+          "confidence": 0.994920551776886
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            613.0,
+            1608.0,
+            660.0,
+            1648.0
+          ],
+          "confidence": 0.9999188184738159
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ],
+          "confidence": 0.997955858707428
+        },
+        {
+          "text": "The high level scope of work is the development of the Project on the requirements specifications as",
+          "bbox": [
+            747.0,
+            1667.0,
+            2802.0,
+            1709.0
+          ],
+          "confidence": 0.9888457655906677
+        },
+        {
+          "text": "per Clause 6. Creative designs and graphics development is covered in the scope of work of this",
+          "bbox": [
+            750.0,
+            1723.0,
+            2802.0,
+            1765.0
+          ],
+          "confidence": 0.9914399981498718
+        },
+        {
+          "text": "Agreement; Developer may recommend or create their own designs for the betterment of the App..",
+          "bbox": [
+            749.0,
+            1780.0,
+            2710.0,
+            1822.0
+          ],
+          "confidence": 0.9789860248565674
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            611.0,
+            1831.0,
+            654.0,
+            1877.0
+          ],
+          "confidence": 0.9542455673217773
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ],
+          "confidence": 0.998197078704834
+        },
+        {
+          "text": "This Agreement shall commence on 5th March 2019",
+          "bbox": [
+            741.0,
+            1888.0,
+            1820.0,
+            1946.0
+          ],
+          "confidence": 0.9969316124916077
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            611.0,
+            1955.0,
+            656.0,
+            1999.0
+          ],
+          "confidence": 0.999958872795105
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ],
+          "confidence": 0.993621289730072
+        },
+        {
+          "text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement",
+          "bbox": [
+            738.0,
+            2012.0,
+            2804.0,
+            2054.0
+          ],
+          "confidence": 0.9950644969940186
+        },
+        {
+          "text": "date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this.",
+          "bbox": [
+            738.0,
+            2070.0,
+            2804.0,
+            2112.0
+          ],
+          "confidence": 0.9922673106193542
+        },
+        {
+          "text": "Agreement.",
+          "bbox": [
+            738.0,
+            2125.0,
+            972.0,
+            2169.0
+          ],
+          "confidence": 0.9984661936759949
+        },
+        {
+          "text": "Page 1 of 7",
+          "bbox": [
+            1611.0,
+            2240.0,
+            1806.0,
+            2290.0
+          ],
+          "confidence": 0.9975642561912537
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9883763194084167
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Ip Ownership Assignment_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "MOBILE APPLICATION DEVELOPMENT",
+          "bbox": [
+            875.0,
+            314.0,
+            2635.0,
+            382.0
+          ],
+          "confidence": 0.9671128988265991
+        },
+        {
+          "text": "AGREEMENT",
+          "bbox": [
+            1464.0,
+            450.0,
+            2045.0,
+            517.0
+          ],
+          "confidence": 0.9900586009025574
+        },
+        {
+          "text": "(Agreement No: VAL/MAD/PVTINV/DC/190305/1)",
+          "bbox": [
+            1214.0,
+            559.0,
+            2208.0,
+            605.0
+          ],
+          "confidence": 0.9933201670646667
+        },
+        {
+          "text": "EDT (Electronic document transmissions).",
+          "bbox": [
+            1377.0,
+            629.0,
+            2045.0,
+            663.0
+          ],
+          "confidence": 0.9813192486763
+        },
+        {
+          "text": "EDt (Electronic document transmissions) shall be deemed valid and enforceable in respect of any provisions of this Contract. As applicable, this",
+          "bbox": [
+            685.0,
+            682.0,
+            2730.0,
+            715.0
+          ],
+          "confidence": 0.99065101146698
+        },
+        {
+          "text": "agreement shall be:-.",
+          "bbox": [
+            681.0,
+            718.0,
+            986.0,
+            751.0
+          ],
+          "confidence": 0.9629960656166077
+        },
+        {
+          "text": "1 -",
+          "bbox": [
+            682.0,
+            757.0,
+            718.0,
+            786.0
+          ],
+          "confidence": 0.8348650932312012
+        },
+        {
+          "text": "Incorporate U.S. Public Law 106-229, \"Electronic Signatures in Global and National Commerce Act\" or such other applicable law",
+          "bbox": [
+            779.0,
+            753.0,
+            2766.0,
+            786.0
+          ],
+          "confidence": 0.9903116226196289
+        },
+        {
+          "text": "conforming to the UNcITRAL Model Law on Electronic Signatures (2001) and",
+          "bbox": [
+            783.0,
+            793.0,
+            1870.0,
+            819.0
+          ],
+          "confidence": 0.9832873940467834
+        },
+        {
+          "text": "2-",
+          "bbox": [
+            682.0,
+            822.0,
+            716.0,
+            857.0
+          ],
+          "confidence": 0.9775564670562744
+        },
+        {
+          "text": "Facilitation and Electronic Business (UN/CEFACT)..",
+          "bbox": [
+            779.0,
+            859.0,
+            1486.0,
+            892.0
+          ],
+          "confidence": 0.9793639183044434
+        },
+        {
+          "text": "3-",
+          "bbox": [
+            682.0,
+            892.0,
+            716.0,
+            925.0
+          ],
+          "confidence": 0.9871534109115601
+        },
+        {
+          "text": "EDT documents shall be subject to European Community Directive No. 95/46/EEC, as applicable. Either Party may request hard",
+          "bbox": [
+            785.0,
+            895.0,
+            2766.0,
+            926.0
+          ],
+          "confidence": 0.9873313903808594
+        },
+        {
+          "text": "copy of any document that has been previously transmitted by electronic means provided however, that any such request shall in no",
+          "bbox": [
+            781.0,
+            930.0,
+            2768.0,
+            963.0
+          ],
+          "confidence": 0.9909662008285522
+        },
+        {
+          "text": "manner delay the parties from performing their respective obligations and duties under EDT instruments.",
+          "bbox": [
+            783.0,
+            968.0,
+            2271.0,
+            994.0
+          ],
+          "confidence": 0.9910330772399902
+        },
+        {
+          "text": "PRIVATE & CONFIDENTIAL",
+          "bbox": [
+            1490.0,
+            1069.0,
+            1925.0,
+            1100.0
+          ],
+          "confidence": 0.993482232093811
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9892608523368835
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MOBILE APPLICATION DEVELOPMENT",
+          "page": 0,
+          "bbox": [
+            875.0,
+            314.0,
+            2635.0,
+            382.0
+          ]
+        },
+        {
+          "text": "AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1464.0,
+            450.0,
+            2045.0,
+            517.0
+          ]
+        },
+        {
+          "text": "PRIVATE & CONFIDENTIAL",
+          "page": 0,
+          "bbox": [
+            1490.0,
+            1069.0,
+            1925.0,
+            1100.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Ip Ownership Assignment_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "MOBILE APPLICATION DEVELOPMENT",
+          "bbox": [
+            875.0,
+            314.0,
+            2635.0,
+            382.0
+          ],
+          "confidence": 0.9671128988265991
+        },
+        {
+          "text": "AGREEMENT",
+          "bbox": [
+            1464.0,
+            450.0,
+            2045.0,
+            517.0
+          ],
+          "confidence": 0.9900586009025574
+        },
+        {
+          "text": "(Agreement No: VAL/MAD/PVTINV/DC/190305/1)",
+          "bbox": [
+            1214.0,
+            559.0,
+            2208.0,
+            605.0
+          ],
+          "confidence": 0.9933201670646667
+        },
+        {
+          "text": "EDT (Electronic document transmissions).",
+          "bbox": [
+            1377.0,
+            629.0,
+            2045.0,
+            663.0
+          ],
+          "confidence": 0.9813192486763
+        },
+        {
+          "text": "EDt (Electronic document transmissions) shall be deemed valid and enforceable in respect of any provisions of this Contract. As applicable, this",
+          "bbox": [
+            685.0,
+            682.0,
+            2730.0,
+            715.0
+          ],
+          "confidence": 0.99065101146698
+        },
+        {
+          "text": "agreement shall be:-.",
+          "bbox": [
+            681.0,
+            718.0,
+            986.0,
+            751.0
+          ],
+          "confidence": 0.9629960656166077
+        },
+        {
+          "text": "1 -",
+          "bbox": [
+            682.0,
+            757.0,
+            718.0,
+            786.0
+          ],
+          "confidence": 0.8348650932312012
+        },
+        {
+          "text": "Incorporate U.S. Public Law 106-229, \"Electronic Signatures in Global and National Commerce Act\" or such other applicable law",
+          "bbox": [
+            779.0,
+            753.0,
+            2766.0,
+            786.0
+          ],
+          "confidence": 0.9903116226196289
+        },
+        {
+          "text": "conforming to the UNcITRAL Model Law on Electronic Signatures (2001) and",
+          "bbox": [
+            783.0,
+            793.0,
+            1870.0,
+            819.0
+          ],
+          "confidence": 0.9832873940467834
+        },
+        {
+          "text": "2-",
+          "bbox": [
+            682.0,
+            822.0,
+            716.0,
+            857.0
+          ],
+          "confidence": 0.9775564670562744
+        },
+        {
+          "text": "Facilitation and Electronic Business (UN/CEFACT)..",
+          "bbox": [
+            779.0,
+            859.0,
+            1486.0,
+            892.0
+          ],
+          "confidence": 0.9793639183044434
+        },
+        {
+          "text": "3-",
+          "bbox": [
+            682.0,
+            892.0,
+            716.0,
+            925.0
+          ],
+          "confidence": 0.9871534109115601
+        },
+        {
+          "text": "EDT documents shall be subject to European Community Directive No. 95/46/EEC, as applicable. Either Party may request hard",
+          "bbox": [
+            785.0,
+            895.0,
+            2766.0,
+            926.0
+          ],
+          "confidence": 0.9873313903808594
+        },
+        {
+          "text": "copy of any document that has been previously transmitted by electronic means provided however, that any such request shall in no",
+          "bbox": [
+            781.0,
+            930.0,
+            2768.0,
+            963.0
+          ],
+          "confidence": 0.9909662008285522
+        },
+        {
+          "text": "manner delay the parties from performing their respective obligations and duties under EDT instruments.",
+          "bbox": [
+            783.0,
+            968.0,
+            2271.0,
+            994.0
+          ],
+          "confidence": 0.9910330772399902
+        },
+        {
+          "text": "PRIVATE & CONFIDENTIAL",
+          "bbox": [
+            1490.0,
+            1069.0,
+            1925.0,
+            1100.0
+          ],
+          "confidence": 0.993482232093811
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9892608523368835
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "MOBILE APPLICATION DEVELOPMENT",
+          "page": 0,
+          "bbox": [
+            875.0,
+            314.0,
+            2635.0,
+            382.0
+          ]
+        },
+        {
+          "text": "AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1464.0,
+            450.0,
+            2045.0,
+            517.0
+          ]
+        },
+        {
+          "text": "PRIVATE & CONFIDENTIAL",
+          "page": 0,
+          "bbox": [
+            1490.0,
+            1069.0,
+            1925.0,
+            1100.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Ip Ownership Assignment_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?",
+      "answer_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            2077.0,
+            294.0,
+            2804.0,
+            333.0
+          ],
+          "confidence": 0.988129198551178
+        },
+        {
+          "text": "Agreement No: VAL/MAD/PVTINV/DC/190305/1",
+          "bbox": [
+            2003.0,
+            349.0,
+            2800.0,
+            389.0
+          ],
+          "confidence": 0.9943838119506836
+        },
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            1218.0,
+            468.0,
+            2206.0,
+            510.0
+          ],
+          "confidence": 0.9781369566917419
+        },
+        {
+          "text": "This Mobile Application Development Agreement (the \"Agreement\") is made and effective from 5th Day of",
+          "bbox": [
+            611.0,
+            521.0,
+            2809.0,
+            581.0
+          ],
+          "confidence": 0.9980802536010742
+        },
+        {
+          "text": "March, 2019",
+          "bbox": [
+            613.0,
+            588.0,
+            865.0,
+            627.0
+          ],
+          "confidence": 0.9959591031074524
+        },
+        {
+          "text": "BETWEEN:",
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ],
+          "confidence": 0.994924008846283
+        },
+        {
+          "text": "VGrab Asia Ltd. (hereinafter called as the \"VAL\"), located at Room E, 6th Floor, Eastern Commercial.",
+          "bbox": [
+            609.0,
+            700.0,
+            2806.0,
+            758.0
+          ],
+          "confidence": 0.9720350503921509
+        },
+        {
+          "text": "Center, 397 Hennessy Road, Hong Kong..",
+          "bbox": [
+            612.0,
+            764.0,
+            1445.0,
+            815.0
+          ],
+          "confidence": 0.992943525314331
+        },
+        {
+          "text": "AND:",
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ],
+          "confidence": 0.997330367565155
+        },
+        {
+          "text": "Mr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Developer\"), a group.",
+          "bbox": [
+            613.0,
+            875.0,
+            2800.0,
+            928.0
+          ],
+          "confidence": 0.9875742197036743
+        },
+        {
+          "text": "of private software developers individuals' lead and coordinated by Ms. Chen Weijie with its operations in",
+          "bbox": [
+            614.0,
+            937.0,
+            2804.0,
+            979.0
+          ],
+          "confidence": 0.9912087321281433
+        },
+        {
+          "text": "P.R.China.",
+          "bbox": [
+            611.0,
+            986.0,
+            827.0,
+            1035.0
+          ],
+          "confidence": 0.9996655583381653
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ],
+          "confidence": 0.9991079568862915
+        },
+        {
+          "text": "Whereas, VAL wishes to engage the Developer for services as an independent contractor for the sole.",
+          "bbox": [
+            614.0,
+            1160.0,
+            2802.0,
+            1204.0
+          ],
+          "confidence": 0.9942598342895508
+        },
+        {
+          "text": "purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone,.",
+          "bbox": [
+            613.0,
+            1215.0,
+            2799.0,
+            1261.0
+          ],
+          "confidence": 0.9895370602607727
+        },
+        {
+          "text": "iPad, Android (Hereinafter called as the \"Project\") developed as per the requirements specifications by VAL",
+          "bbox": [
+            614.0,
+            1274.0,
+            2800.0,
+            1316.0
+          ],
+          "confidence": 0.9963186979293823
+        },
+        {
+          "text": "within this mobile application development agreement.",
+          "bbox": [
+            614.0,
+            1330.0,
+            1696.0,
+            1374.0
+          ],
+          "confidence": 0.9934986233711243
+        },
+        {
+          "text": "Whereas, the \"Developer\" is engaged in the making of such applications and holds all the necessary tools to.",
+          "bbox": [
+            616.0,
+            1385.0,
+            2800.0,
+            1429.0
+          ],
+          "confidence": 0.9840148687362671
+        },
+        {
+          "text": "obtain the needed results of this Project for VAL.",
+          "bbox": [
+            616.0,
+            1442.0,
+            1595.0,
+            1484.0
+          ],
+          "confidence": 0.9992524981498718
+        },
+        {
+          "text": "NOw, THEREFORE, in consideration of the mutual covenants and agreements herein contained, the parties",
+          "bbox": [
+            613.0,
+            1495.0,
+            2802.0,
+            1540.0
+          ],
+          "confidence": 0.9903146624565125
+        },
+        {
+          "text": "hereto, intending, to be legally bound, agree as follows:.",
+          "bbox": [
+            613.0,
+            1551.0,
+            1729.0,
+            1597.0
+          ],
+          "confidence": 0.994920551776886
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            613.0,
+            1608.0,
+            660.0,
+            1648.0
+          ],
+          "confidence": 0.9999188184738159
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ],
+          "confidence": 0.997955858707428
+        },
+        {
+          "text": "The high level scope of work is the development of the Project on the requirements specifications as",
+          "bbox": [
+            747.0,
+            1667.0,
+            2802.0,
+            1709.0
+          ],
+          "confidence": 0.9888457655906677
+        },
+        {
+          "text": "per Clause 6. Creative designs and graphics development is covered in the scope of work of this",
+          "bbox": [
+            750.0,
+            1723.0,
+            2802.0,
+            1765.0
+          ],
+          "confidence": 0.9914399981498718
+        },
+        {
+          "text": "Agreement; Developer may recommend or create their own designs for the betterment of the App..",
+          "bbox": [
+            749.0,
+            1780.0,
+            2710.0,
+            1822.0
+          ],
+          "confidence": 0.9789860248565674
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            611.0,
+            1831.0,
+            654.0,
+            1877.0
+          ],
+          "confidence": 0.9542455673217773
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ],
+          "confidence": 0.998197078704834
+        },
+        {
+          "text": "This Agreement shall commence on 5th March 2019",
+          "bbox": [
+            741.0,
+            1888.0,
+            1820.0,
+            1946.0
+          ],
+          "confidence": 0.9969316124916077
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            611.0,
+            1955.0,
+            656.0,
+            1999.0
+          ],
+          "confidence": 0.999958872795105
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ],
+          "confidence": 0.993621289730072
+        },
+        {
+          "text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement",
+          "bbox": [
+            738.0,
+            2012.0,
+            2804.0,
+            2054.0
+          ],
+          "confidence": 0.9950644969940186
+        },
+        {
+          "text": "date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this.",
+          "bbox": [
+            738.0,
+            2070.0,
+            2804.0,
+            2112.0
+          ],
+          "confidence": 0.9922673106193542
+        },
+        {
+          "text": "Agreement.",
+          "bbox": [
+            738.0,
+            2125.0,
+            972.0,
+            2169.0
+          ],
+          "confidence": 0.9984661936759949
+        },
+        {
+          "text": "Page 1 of 7",
+          "bbox": [
+            1611.0,
+            2240.0,
+            1806.0,
+            2290.0
+          ],
+          "confidence": 0.9975642561912537
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9883763194084167
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Warranty Duration_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "answer_text": "Change Orders do not however cover any bug or glitch fixing produced out of the code written by Developer as any \"bug\" will be fixed by Developer for free up to 3 months after final delivery (Bug Fixing Warranty).",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            2077.0,
+            294.0,
+            2804.0,
+            333.0
+          ],
+          "confidence": 0.988129198551178
+        },
+        {
+          "text": "Agreement No: VAL/MAD/PVTINV/DC/190305/1",
+          "bbox": [
+            2003.0,
+            349.0,
+            2800.0,
+            389.0
+          ],
+          "confidence": 0.9943838119506836
+        },
+        {
+          "text": "Mobile Application Development Agreement.",
+          "bbox": [
+            1218.0,
+            468.0,
+            2206.0,
+            510.0
+          ],
+          "confidence": 0.9781369566917419
+        },
+        {
+          "text": "This Mobile Application Development Agreement (the \"Agreement\") is made and effective from 5th Day of",
+          "bbox": [
+            611.0,
+            521.0,
+            2809.0,
+            581.0
+          ],
+          "confidence": 0.9980802536010742
+        },
+        {
+          "text": "March, 2019",
+          "bbox": [
+            613.0,
+            588.0,
+            865.0,
+            627.0
+          ],
+          "confidence": 0.9959591031074524
+        },
+        {
+          "text": "BETWEEN:",
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ],
+          "confidence": 0.994924008846283
+        },
+        {
+          "text": "VGrab Asia Ltd. (hereinafter called as the \"VAL\"), located at Room E, 6th Floor, Eastern Commercial.",
+          "bbox": [
+            609.0,
+            700.0,
+            2806.0,
+            758.0
+          ],
+          "confidence": 0.9720350503921509
+        },
+        {
+          "text": "Center, 397 Hennessy Road, Hong Kong..",
+          "bbox": [
+            612.0,
+            764.0,
+            1445.0,
+            815.0
+          ],
+          "confidence": 0.992943525314331
+        },
+        {
+          "text": "AND:",
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ],
+          "confidence": 0.997330367565155
+        },
+        {
+          "text": "Mr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Developer\"), a group.",
+          "bbox": [
+            613.0,
+            875.0,
+            2800.0,
+            928.0
+          ],
+          "confidence": 0.9875742197036743
+        },
+        {
+          "text": "of private software developers individuals' lead and coordinated by Ms. Chen Weijie with its operations in",
+          "bbox": [
+            614.0,
+            937.0,
+            2804.0,
+            979.0
+          ],
+          "confidence": 0.9912087321281433
+        },
+        {
+          "text": "P.R.China.",
+          "bbox": [
+            611.0,
+            986.0,
+            827.0,
+            1035.0
+          ],
+          "confidence": 0.9996655583381653
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ],
+          "confidence": 0.9991079568862915
+        },
+        {
+          "text": "Whereas, VAL wishes to engage the Developer for services as an independent contractor for the sole.",
+          "bbox": [
+            614.0,
+            1160.0,
+            2802.0,
+            1204.0
+          ],
+          "confidence": 0.9942598342895508
+        },
+        {
+          "text": "purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone,.",
+          "bbox": [
+            613.0,
+            1215.0,
+            2799.0,
+            1261.0
+          ],
+          "confidence": 0.9895370602607727
+        },
+        {
+          "text": "iPad, Android (Hereinafter called as the \"Project\") developed as per the requirements specifications by VAL",
+          "bbox": [
+            614.0,
+            1274.0,
+            2800.0,
+            1316.0
+          ],
+          "confidence": 0.9963186979293823
+        },
+        {
+          "text": "within this mobile application development agreement.",
+          "bbox": [
+            614.0,
+            1330.0,
+            1696.0,
+            1374.0
+          ],
+          "confidence": 0.9934986233711243
+        },
+        {
+          "text": "Whereas, the \"Developer\" is engaged in the making of such applications and holds all the necessary tools to.",
+          "bbox": [
+            616.0,
+            1385.0,
+            2800.0,
+            1429.0
+          ],
+          "confidence": 0.9840148687362671
+        },
+        {
+          "text": "obtain the needed results of this Project for VAL.",
+          "bbox": [
+            616.0,
+            1442.0,
+            1595.0,
+            1484.0
+          ],
+          "confidence": 0.9992524981498718
+        },
+        {
+          "text": "NOw, THEREFORE, in consideration of the mutual covenants and agreements herein contained, the parties",
+          "bbox": [
+            613.0,
+            1495.0,
+            2802.0,
+            1540.0
+          ],
+          "confidence": 0.9903146624565125
+        },
+        {
+          "text": "hereto, intending, to be legally bound, agree as follows:.",
+          "bbox": [
+            613.0,
+            1551.0,
+            1729.0,
+            1597.0
+          ],
+          "confidence": 0.994920551776886
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            613.0,
+            1608.0,
+            660.0,
+            1648.0
+          ],
+          "confidence": 0.9999188184738159
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ],
+          "confidence": 0.997955858707428
+        },
+        {
+          "text": "The high level scope of work is the development of the Project on the requirements specifications as",
+          "bbox": [
+            747.0,
+            1667.0,
+            2802.0,
+            1709.0
+          ],
+          "confidence": 0.9888457655906677
+        },
+        {
+          "text": "per Clause 6. Creative designs and graphics development is covered in the scope of work of this",
+          "bbox": [
+            750.0,
+            1723.0,
+            2802.0,
+            1765.0
+          ],
+          "confidence": 0.9914399981498718
+        },
+        {
+          "text": "Agreement; Developer may recommend or create their own designs for the betterment of the App..",
+          "bbox": [
+            749.0,
+            1780.0,
+            2710.0,
+            1822.0
+          ],
+          "confidence": 0.9789860248565674
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            611.0,
+            1831.0,
+            654.0,
+            1877.0
+          ],
+          "confidence": 0.9542455673217773
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ],
+          "confidence": 0.998197078704834
+        },
+        {
+          "text": "This Agreement shall commence on 5th March 2019",
+          "bbox": [
+            741.0,
+            1888.0,
+            1820.0,
+            1946.0
+          ],
+          "confidence": 0.9969316124916077
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            611.0,
+            1955.0,
+            656.0,
+            1999.0
+          ],
+          "confidence": 0.999958872795105
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ],
+          "confidence": 0.993621289730072
+        },
+        {
+          "text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement",
+          "bbox": [
+            738.0,
+            2012.0,
+            2804.0,
+            2054.0
+          ],
+          "confidence": 0.9950644969940186
+        },
+        {
+          "text": "date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this.",
+          "bbox": [
+            738.0,
+            2070.0,
+            2804.0,
+            2112.0
+          ],
+          "confidence": 0.9922673106193542
+        },
+        {
+          "text": "Agreement.",
+          "bbox": [
+            738.0,
+            2125.0,
+            972.0,
+            2169.0
+          ],
+          "confidence": 0.9984661936759949
+        },
+        {
+          "text": "Page 1 of 7",
+          "bbox": [
+            1611.0,
+            2240.0,
+            1806.0,
+            2290.0
+          ],
+          "confidence": 0.9975642561912537
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9883763194084167
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "BETWEEN:",
+          "page": 1,
+          "bbox": [
+            616.0,
+            645.0,
+            848.0,
+            683.0
+          ]
+        },
+        {
+          "text": "AND:",
+          "page": 1,
+          "bbox": [
+            613.0,
+            820.0,
+            729.0,
+            866.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            616.0,
+            1104.0,
+            836.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "SCOPE OF WORK",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1610.0,
+            1144.0,
+            1648.0
+          ]
+        },
+        {
+          "text": "COMMENCEMENT DATE",
+          "page": 1,
+          "bbox": [
+            749.0,
+            1833.0,
+            1269.0,
+            1875.0
+          ]
+        },
+        {
+          "text": "AGREEMENT PERIOD",
+          "page": 1,
+          "bbox": [
+            747.0,
+            1955.0,
+            1214.0,
+            1997.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement__Warranty Duration_2_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "answer_text": "Change Orders do not however cover any bug or glitch fixing produced out of the code written by Developer as any \"bug\" will be fixed by Developer for free up to 3 months after final delivery (Bug Fixing Warranty).",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "Mobile Application Development Agreement",
+          "bbox": [
+            2075.0,
+            291.0,
+            2804.0,
+            329.0
+          ],
+          "confidence": 0.999886691570282
+        },
+        {
+          "text": "Agreement No: VAL/MAD/PVTINV/DC/190305/1",
+          "bbox": [
+            2005.0,
+            349.0,
+            2800.0,
+            386.0
+          ],
+          "confidence": 0.9951850771903992
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            611.0,
+            462.0,
+            654.0,
+            506.0
+          ],
+          "confidence": 0.9998815655708313
+        },
+        {
+          "text": "ESTIMATION AND COMMERCIALS",
+          "bbox": [
+            750.0,
+            466.0,
+            1486.0,
+            503.0
+          ],
+          "confidence": 0.9927927255630493
+        },
+        {
+          "text": "Platform",
+          "bbox": [
+            614.0,
+            519.0,
+            789.0,
+            569.0
+          ],
+          "confidence": 0.9994457960128784
+        },
+        {
+          "text": "iOS, Android",
+          "bbox": [
+            1265.0,
+            523.0,
+            1528.0,
+            566.0
+          ],
+          "confidence": 0.9989408850669861
+        },
+        {
+          "text": "Chinese WeChat's Online Store, Social Media, Website, Online.",
+          "bbox": [
+            1267.0,
+            585.0,
+            2577.0,
+            630.0
+          ],
+          "confidence": 0.9818925857543945
+        },
+        {
+          "text": "Development",
+          "bbox": [
+            620.0,
+            645.0,
+            881.0,
+            689.0
+          ],
+          "confidence": 0.9997667670249939
+        },
+        {
+          "text": "Promotion/Marketing and Online Payment for the P.R.China.",
+          "bbox": [
+            1265.0,
+            641.0,
+            2577.0,
+            687.0
+          ],
+          "confidence": 0.9950960278511047
+        },
+        {
+          "text": "market.",
+          "bbox": [
+            1263.0,
+            700.0,
+            1421.0,
+            744.0
+          ],
+          "confidence": 0.9998509287834167
+        },
+        {
+          "text": "Total Delivery Time",
+          "bbox": [
+            616.0,
+            762.0,
+            990.0,
+            810.0
+          ],
+          "confidence": 0.9940065145492554
+        },
+        {
+          "text": "Min - 4 Calendar Months, Max - 6 Calendar Months.",
+          "bbox": [
+            1269.0,
+            766.0,
+            2302.0,
+            802.0
+          ],
+          "confidence": 0.9740796089172363
+        },
+        {
+          "text": "Quotation (In USD)",
+          "bbox": [
+            622.0,
+            830.0,
+            995.0,
+            868.0
+          ],
+          "confidence": 0.9943880438804626
+        },
+        {
+          "text": "$ 200,000.00",
+          "bbox": [
+            1269.0,
+            828.0,
+            1530.0,
+            866.0
+          ],
+          "confidence": 0.9973424077033997
+        },
+        {
+          "text": "Notes:",
+          "bbox": [
+            745.0,
+            884.0,
+            886.0,
+            930.0
+          ],
+          "confidence": 0.9999160766601562
+        },
+        {
+          "text": "Dollars Currency as per Clause 5.",
+          "bbox": [
+            812.0,
+            996.0,
+            1495.0,
+            1042.0
+          ],
+          "confidence": 0.9928969144821167
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            613.0,
+            1051.0,
+            656.0,
+            1096.0
+          ],
+          "confidence": 0.9999284744262695
+        },
+        {
+          "text": "PAYMENT TERMS",
+          "bbox": [
+            750.0,
+            1056.0,
+            1129.0,
+            1095.0
+          ],
+          "confidence": 0.9991600513458252
+        },
+        {
+          "text": "All Parties agreed the payment listed below are fair and just for the services being provided. Payment",
+          "bbox": [
+            747.0,
+            1109.0,
+            2804.0,
+            1155.0
+          ],
+          "confidence": 0.9922972917556763
+        },
+        {
+          "text": "to the following individual below within 7 days upon completion and handover on the Project to VAL.",
+          "bbox": [
+            745.0,
+            1166.0,
+            2744.0,
+            1210.0
+          ],
+          "confidence": 0.9954901933670044
+        },
+        {
+          "text": "No.",
+          "bbox": [
+            743.0,
+            1235.0,
+            828.0,
+            1285.0
+          ],
+          "confidence": 0.9188427925109863
+        },
+        {
+          "text": "Name",
+          "bbox": [
+            881.0,
+            1239.0,
+            1017.0,
+            1285.0
+          ],
+          "confidence": 0.9998524785041809
+        },
+        {
+          "text": "Function",
+          "bbox": [
+            1378.0,
+            1239.0,
+            1575.0,
+            1283.0
+          ],
+          "confidence": 0.9996614456176758
+        },
+        {
+          "text": "Amount",
+          "bbox": [
+            2101.0,
+            1237.0,
+            2282.0,
+            1281.0
+          ],
+          "confidence": 0.9999180436134338
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            743.0,
+            1338.0,
+            794.0,
+            1385.0
+          ],
+          "confidence": 0.999897837638855
+        },
+        {
+          "text": "Ms. Chen Weijie.",
+          "bbox": [
+            888.0,
+            1345.0,
+            1216.0,
+            1383.0
+          ],
+          "confidence": 0.9339509010314941
+        },
+        {
+          "text": "Coordinator/Lead Developer",
+          "bbox": [
+            1381.0,
+            1343.0,
+            2006.0,
+            1383.0
+          ],
+          "confidence": 0.9997225403785706
+        },
+        {
+          "text": "USD100,000.00",
+          "bbox": [
+            2215.0,
+            1343.0,
+            2530.0,
+            1381.0
+          ],
+          "confidence": 0.9967361092567444
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            741.0,
+            1445.0,
+            790.0,
+            1497.0
+          ],
+          "confidence": 0.9386354088783264
+        },
+        {
+          "text": "Mr. Zheng Qing",
+          "bbox": [
+            883.0,
+            1449.0,
+            1193.0,
+            1497.0
+          ],
+          "confidence": 0.9887836575508118
+        },
+        {
+          "text": "Developer",
+          "bbox": [
+            1378.0,
+            1451.0,
+            1606.0,
+            1495.0
+          ],
+          "confidence": 0.9996200203895569
+        },
+        {
+          "text": "USD50.000.00",
+          "bbox": [
+            2240.0,
+            1453.0,
+            2532.0,
+            1489.0
+          ],
+          "confidence": 0.9841127991676331
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            741.0,
+            1555.0,
+            792.0,
+            1606.0
+          ],
+          "confidence": 0.9999381303787231
+        },
+        {
+          "text": "Mr. Gu Xianwin",
+          "bbox": [
+            883.0,
+            1555.0,
+            1187.0,
+            1603.0
+          ],
+          "confidence": 0.9902364015579224
+        },
+        {
+          "text": "Developer",
+          "bbox": [
+            1379.0,
+            1561.0,
+            1579.0,
+            1604.0
+          ],
+          "confidence": 0.9997613430023193
+        },
+        {
+          "text": "USD50,000.00",
+          "bbox": [
+            2238.0,
+            1561.0,
+            2532.0,
+            1599.0
+          ],
+          "confidence": 0.9991112351417542
+        },
+        {
+          "text": "6.",
+          "bbox": [
+            613.0,
+            1637.0,
+            656.0,
+            1683.0
+          ],
+          "confidence": 0.9999270439147949
+        },
+        {
+          "text": "ENGAGEMENT PROCESS & MILESTONE",
+          "bbox": [
+            752.0,
+            1641.0,
+            1619.0,
+            1678.0
+          ],
+          "confidence": 0.9989176392555237
+        },
+        {
+          "text": "The Engagement Process and Milestone corresponding for this Fixed Price Project Agreement are as",
+          "bbox": [
+            747.0,
+            1694.0,
+            2802.0,
+            1741.0
+          ],
+          "confidence": 0.9953815340995789
+        },
+        {
+          "text": "follows:",
+          "bbox": [
+            743.0,
+            1748.0,
+            901.0,
+            1797.0
+          ],
+          "confidence": 0.9995555281639099
+        },
+        {
+          "text": "6.1",
+          "bbox": [
+            745.0,
+            1807.0,
+            816.0,
+            1851.0
+          ],
+          "confidence": 0.906582772731781
+        },
+        {
+          "text": "Graphic Design/ Ui/ Creative Design/ multimedia",
+          "bbox": [
+            883.0,
+            1809.0,
+            1954.0,
+            1851.0
+          ],
+          "confidence": 0.9681963920593262
+        },
+        {
+          "text": "The VAL is responsible for, and will supply any graphics/ design/ artwork/ multimedia (sound/",
+          "bbox": [
+            883.0,
+            1864.0,
+            2802.0,
+            1908.0
+          ],
+          "confidence": 0.9982103109359741
+        },
+        {
+          "text": "video) required for the project to the Developer at either the beginning of the project, or partially",
+          "bbox": [
+            879.0,
+            1921.0,
+            2802.0,
+            1966.0
+          ],
+          "confidence": 0.9902123808860779
+        },
+        {
+          "text": "during the development. Developer will however put its recommendations; assist in graphic",
+          "bbox": [
+            881.0,
+            1979.0,
+            2802.0,
+            2021.0
+          ],
+          "confidence": 0.9935188889503479
+        },
+        {
+          "text": "creation for the betterment of the App",
+          "bbox": [
+            879.0,
+            2030.0,
+            1640.0,
+            2080.0
+          ],
+          "confidence": 0.9882153868675232
+        },
+        {
+          "text": "6.2",
+          "bbox": [
+            743.0,
+            2085.0,
+            817.0,
+            2134.0
+          ],
+          "confidence": 0.999857485294342
+        },
+        {
+          "text": "Collaboration, coordination",
+          "bbox": [
+            883.0,
+            2090.0,
+            1492.0,
+            2131.0
+          ],
+          "confidence": 0.9982149600982666
+        },
+        {
+          "text": "A status update on the progress of the work will be shared with VAL by the lead on milestones",
+          "bbox": [
+            881.0,
+            2147.0,
+            2802.0,
+            2189.0
+          ],
+          "confidence": 0.9848563075065613
+        },
+        {
+          "text": "basis formally by developer, and informally on weekly/ fortnight/ or as and when required basis.",
+          "bbox": [
+            883.0,
+            2204.0,
+            2798.0,
+            2246.0
+          ],
+          "confidence": 0.9943509101867676
+        },
+        {
+          "text": "Weekly status calls will also happen to discuss and review the work in progress..",
+          "bbox": [
+            881.0,
+            2257.0,
+            2503.0,
+            2302.0
+          ],
+          "confidence": 0.9969800114631653
+        },
+        {
+          "text": "6.3",
+          "bbox": [
+            745.0,
+            2312.0,
+            816.0,
+            2355.0
+          ],
+          "confidence": 0.9999191164970398
+        },
+        {
+          "text": "WeChat's Official Account Setup",
+          "bbox": [
+            881.0,
+            2310.0,
+            1595.0,
+            2359.0
+          ],
+          "confidence": 0.9998568892478943
+        },
+        {
+          "text": "Developer will register a WeChat Official Account on behalf of VAL, which has access to all",
+          "bbox": [
+            883.0,
+            2370.0,
+            2804.0,
+            2414.0
+          ],
+          "confidence": 0.9978767037391663
+        },
+        {
+          "text": "advanced APls for the development of WeChat Online Duesey Coffee Store in P.R.China.",
+          "bbox": [
+            881.0,
+            2425.0,
+            2668.0,
+            2467.0
+          ],
+          "confidence": 0.9875157475471497
+        },
+        {
+          "text": "6.4",
+          "bbox": [
+            745.0,
+            2480.0,
+            816.0,
+            2524.0
+          ],
+          "confidence": 0.9998920559883118
+        },
+        {
+          "text": "WeChat's Official Social Media and Moments Setup",
+          "bbox": [
+            879.0,
+            2478.0,
+            2021.0,
+            2527.0
+          ],
+          "confidence": 0.9943316578865051
+        },
+        {
+          "text": "Developer will develop and registered a Duesey Coffee Social Media Platform within the",
+          "bbox": [
+            879.0,
+            2536.0,
+            2802.0,
+            2582.0
+          ],
+          "confidence": 0.9924752712249756
+        },
+        {
+          "text": "WeChat Official Account on behalf of VAL.",
+          "bbox": [
+            881.0,
+            2595.0,
+            1735.0,
+            2637.0
+          ],
+          "confidence": 0.9996527433395386
+        },
+        {
+          "text": "6.5",
+          "bbox": [
+            743.0,
+            2646.0,
+            817.0,
+            2695.0
+          ],
+          "confidence": 0.9998835921287537
+        },
+        {
+          "text": "WeChat's Mini Program and WeChat Pay Compliance",
+          "bbox": [
+            881.0,
+            2650.0,
+            2068.0,
+            2695.0
+          ],
+          "confidence": 0.9876455068588257
+        },
+        {
+          "text": "Page 2 of 7",
+          "bbox": [
+            1611.0,
+            2766.0,
+            1806.0,
+            2816.0
+          ],
+          "confidence": 0.9927087426185608
+        },
+        {
+          "text": "Source: VGRAB COMMUNICATIONS INC., 10-K, 1/29/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1477.0,
+            4479.0
+          ],
+          "confidence": 0.9848048686981201
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "ESTIMATION AND COMMERCIALS",
+          "page": 2,
+          "bbox": [
+            750.0,
+            466.0,
+            1486.0,
+            503.0
+          ]
+        },
+        {
+          "text": "PAYMENT TERMS",
+          "page": 2,
+          "bbox": [
+            750.0,
+            1056.0,
+            1129.0,
+            1095.0
+          ]
+        },
+        {
+          "text": "USD100,000.00",
+          "page": 2,
+          "bbox": [
+            2215.0,
+            1343.0,
+            2530.0,
+            1381.0
+          ]
+        },
+        {
+          "text": "USD50.000.00",
+          "page": 2,
+          "bbox": [
+            2240.0,
+            1453.0,
+            2532.0,
+            1489.0
+          ]
+        },
+        {
+          "text": "USD50,000.00",
+          "page": 2,
+          "bbox": [
+            2238.0,
+            1561.0,
+            2532.0,
+            1599.0
+          ]
+        },
+        {
+          "text": "ENGAGEMENT PROCESS & MILESTONE",
+          "page": 2,
+          "bbox": [
+            752.0,
+            1641.0,
+            1619.0,
+            1678.0
+          ]
+        }
+      ]
+    }
+  ]
+}

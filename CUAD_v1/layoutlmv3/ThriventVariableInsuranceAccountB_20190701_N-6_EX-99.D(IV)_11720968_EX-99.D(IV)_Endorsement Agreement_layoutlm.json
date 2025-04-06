@@ -1,0 +1,785 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Endorsement\\ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement.pdf",
+  "annotations": [
+    {
+      "id": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "ENDORSEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "ENDORSEMENT",
+          "bbox": [
+            2592.0,
+            362.0,
+            3018.0,
+            400.0
+          ],
+          "confidence": 0.9988038539886475
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "THRIYENT",
+          "page": 0,
+          "bbox": [
+            524.0,
+            314.0,
+            1129.0,
+            371.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            2592.0,
+            362.0,
+            3018.0,
+            400.0
+          ]
+        },
+        {
+          "text": "BENCTRCN",
+          "page": 0,
+          "bbox": [
+            2679.0,
+            557.0,
+            3020.0,
+            596.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            279.0,
+            623.0,
+            607.0,
+            660.0
+          ]
+        },
+        {
+          "text": "VB-TL-TFFL (18)",
+          "page": 0,
+          "bbox": [
+            277.0,
+            2951.0,
+            593.0,
+            2999.0
+          ]
+        },
+        {
+          "text": "@TL18#AA",
+          "page": 0,
+          "bbox": [
+            2856.0,
+            2969.0,
+            3029.0,
+            3002.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Thrivent Financial for Lutherans",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Thrivent Financial for Lutherans",
+          "bbox": [
+            540.0,
+            442.0,
+            1291.0,
+            490.0
+          ],
+          "confidence": 0.9617220163345337
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "THRIYENT",
+          "page": 0,
+          "bbox": [
+            524.0,
+            314.0,
+            1129.0,
+            371.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            2592.0,
+            362.0,
+            3018.0,
+            400.0
+          ]
+        },
+        {
+          "text": "BENCTRCN",
+          "page": 0,
+          "bbox": [
+            2679.0,
+            557.0,
+            3020.0,
+            596.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            279.0,
+            623.0,
+            607.0,
+            660.0
+          ]
+        },
+        {
+          "text": "VB-TL-TFFL (18)",
+          "page": 0,
+          "bbox": [
+            277.0,
+            2951.0,
+            593.0,
+            2999.0
+          ]
+        },
+        {
+          "text": "@TL18#AA",
+          "page": 0,
+          "bbox": [
+            2856.0,
+            2969.0,
+            3029.0,
+            3002.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "July 1, 2019",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Effective Date: July 1, 2019",
+          "bbox": [
+            277.0,
+            736.0,
+            776.0,
+            778.0
+          ],
+          "confidence": 0.9980807900428772
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "THRIYENT",
+          "page": 0,
+          "bbox": [
+            524.0,
+            314.0,
+            1129.0,
+            371.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            2592.0,
+            362.0,
+            3018.0,
+            400.0
+          ]
+        },
+        {
+          "text": "BENCTRCN",
+          "page": 0,
+          "bbox": [
+            2679.0,
+            557.0,
+            3020.0,
+            596.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            279.0,
+            623.0,
+            607.0,
+            660.0
+          ]
+        },
+        {
+          "text": "VB-TL-TFFL (18)",
+          "page": 0,
+          "bbox": [
+            277.0,
+            2951.0,
+            593.0,
+            2999.0
+          ]
+        },
+        {
+          "text": "@TL18#AA",
+          "page": 0,
+          "bbox": [
+            2856.0,
+            2969.0,
+            3029.0,
+            3002.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "July 1, 2019",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Effective Date: July 1, 2019",
+          "bbox": [
+            277.0,
+            736.0,
+            776.0,
+            778.0
+          ],
+          "confidence": 0.9980807900428772
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "THRIYENT",
+          "page": 0,
+          "bbox": [
+            524.0,
+            314.0,
+            1129.0,
+            371.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            2592.0,
+            362.0,
+            3018.0,
+            400.0
+          ]
+        },
+        {
+          "text": "BENCTRCN",
+          "page": 0,
+          "bbox": [
+            2679.0,
+            557.0,
+            3020.0,
+            596.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            279.0,
+            623.0,
+            607.0,
+            660.0
+          ]
+        },
+        {
+          "text": "VB-TL-TFFL (18)",
+          "page": 0,
+          "bbox": [
+            277.0,
+            2951.0,
+            593.0,
+            2999.0
+          ]
+        },
+        {
+          "text": "@TL18#AA",
+          "page": 0,
+          "bbox": [
+            2856.0,
+            2969.0,
+            3029.0,
+            3002.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement__Anti-Assignment_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "answer_text": "Society membership rights and privileges cannot be transferred or assigned.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THRIYENT",
+          "bbox": [
+            524.0,
+            314.0,
+            1129.0,
+            371.0
+          ],
+          "confidence": 0.9553210139274597
+        },
+        {
+          "text": "ENDORSEMENT",
+          "bbox": [
+            2592.0,
+            362.0,
+            3018.0,
+            400.0
+          ],
+          "confidence": 0.9988038539886475
+        },
+        {
+          "text": "Thrivent Financial for Lutherans",
+          "bbox": [
+            540.0,
+            442.0,
+            1291.0,
+            490.0
+          ],
+          "confidence": 0.9617220163345337
+        },
+        {
+          "text": "Contract",
+          "bbox": [
+            2195.0,
+            492.0,
+            2365.0,
+            535.0
+          ],
+          "confidence": 0.9999294281005859
+        },
+        {
+          "text": "Number:",
+          "bbox": [
+            2193.0,
+            546.0,
+            2360.0,
+            596.0
+          ],
+          "confidence": 0.9998823404312134
+        },
+        {
+          "text": "BENCTRCN",
+          "bbox": [
+            2679.0,
+            557.0,
+            3020.0,
+            596.0
+          ],
+          "confidence": 0.9802031517028809
+        },
+        {
+          "text": "ENDORSEMENT",
+          "bbox": [
+            279.0,
+            623.0,
+            607.0,
+            660.0
+          ],
+          "confidence": 0.999240517616272
+        },
+        {
+          "text": "Effective Date: July 1, 2019",
+          "bbox": [
+            277.0,
+            736.0,
+            776.0,
+            778.0
+          ],
+          "confidence": 0.9980807900428772
+        },
+        {
+          "text": "Thrivent Life Insurance Company has been dissolved. (Thrivent Life Insurance Company was formerly known as Lutheran Brotherhood Variable",
+          "bbox": [
+            277.0,
+            877.0,
+            2960.0,
+            919.0
+          ],
+          "confidence": 0.9995954036712646
+        },
+        {
+          "text": "Insurance Products Company.) All assets and related liabilities of Thrivent Life Insurance Company have been transferred to Thrivent Financial for",
+          "bbox": [
+            277.0,
+            934.0,
+            3009.0,
+            976.0
+          ],
+          "confidence": 0.996911883354187
+        },
+        {
+          "text": "Lutherans. That includes contracts of insurance, separate accounts, and cash and investment securities. Thrivent Financial for Lutherans now has",
+          "bbox": [
+            276.0,
+            990.0,
+            3003.0,
+            1034.0
+          ],
+          "confidence": 0.9973984956741333
+        },
+        {
+          "text": "all obligations under this contract. It is the same as if Thrivent Financial for Lutherans had originally issued the contract. All references to",
+          "bbox": [
+            279.0,
+            1049.0,
+            2838.0,
+            1085.0
+          ],
+          "confidence": 0.9902858734130859
+        },
+        {
+          "text": "\"Thrivent Life Insurance Company\"' are amended to read \"Thrivent Financial for Lutherans.\" All benefits and other terms of this contract remain",
+          "bbox": [
+            279.0,
+            1102.0,
+            2958.0,
+            1146.0
+          ],
+          "confidence": 0.9884417057037354
+        },
+        {
+          "text": "unchanged except as described below.",
+          "bbox": [
+            279.0,
+            1159.0,
+            991.0,
+            1199.0
+          ],
+          "confidence": 0.997608482837677
+        },
+        {
+          "text": "You may direct inquiries to:",
+          "bbox": [
+            279.0,
+            1268.0,
+            787.0,
+            1314.0
+          ],
+          "confidence": 0.9894124865531921
+        },
+        {
+          "text": "Thrivent Financial for Lutherans",
+          "bbox": [
+            498.0,
+            1381.0,
+            1098.0,
+            1422.0
+          ],
+          "confidence": 0.9978164434432983
+        },
+        {
+          "text": "4321 N. Ballard Road",
+          "bbox": [
+            500.0,
+            1440.0,
+            883.0,
+            1476.0
+          ],
+          "confidence": 0.9986419677734375
+        },
+        {
+          "text": "Appleton, WI 54919-0001",
+          "bbox": [
+            500.0,
+            1493.0,
+            970.0,
+            1539.0
+          ],
+          "confidence": 0.9713728427886963
+        },
+        {
+          "text": "(800) 847-4836",
+          "bbox": [
+            498.0,
+            1548.0,
+            763.0,
+            1595.0
+          ],
+          "confidence": 0.9993141889572144
+        },
+        {
+          "text": "The following amendments apply in lieu of any contract provisions to the contrary..",
+          "bbox": [
+            279.0,
+            1661.0,
+            1818.0,
+            1709.0
+          ],
+          "confidence": 0.9900758862495422
+        },
+        {
+          "text": "The following provisions are included as part of this contract:.",
+          "bbox": [
+            279.0,
+            1776.0,
+            1428.0,
+            1818.0
+          ],
+          "confidence": 0.9838017225265503
+        },
+        {
+          "text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society",
+          "bbox": [
+            304.0,
+            1888.0,
+            2983.0,
+            1932.0
+          ],
+          "confidence": 0.9955671429634094
+        },
+        {
+          "text": "becomes impaired, you may be required to make an extra payment. The Board of Directors will determine the amount of any extra payment. It will",
+          "bbox": [
+            304.0,
+            1942.0,
+            2980.0,
+            1986.0
+          ],
+          "confidence": 0.9849911332130432
+        },
+        {
+          "text": "be based on each member's fair share of the deficiency. You may make the extra payment by an equivalent reduction in benefits or by a payment in",
+          "bbox": [
+            304.0,
+            1999.0,
+            3025.0,
+            2045.0
+          ],
+          "confidence": 0.9962588548660278
+        },
+        {
+          "text": "cash. If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged",
+          "bbox": [
+            306.0,
+            2058.0,
+            3014.0,
+            2100.0
+          ],
+          "confidence": 0.9867410659790039
+        },
+        {
+          "text": "as an indebtedness against the contract with interest compounded at the rate of 5% per year.",
+          "bbox": [
+            304.0,
+            2114.0,
+            2032.0,
+            2156.0
+          ],
+          "confidence": 0.9946587681770325
+        },
+        {
+          "text": "MEMBERsHIP. The person(s) named as the Insured(s) or the Annuitant(s) is a benefit member of the Society. Rights and privileges of.",
+          "bbox": [
+            303.0,
+            2222.0,
+            2817.0,
+            2268.0
+          ],
+          "confidence": 0.988795280456543
+        },
+        {
+          "text": "membership are set forth in the Articles of Incorporation and Bylaws of the Society. These rights and privileges are separate from the ownership",
+          "bbox": [
+            301.0,
+            2281.0,
+            2983.0,
+            2324.0
+          ],
+          "confidence": 0.991730809211731
+        },
+        {
+          "text": "of this contract..",
+          "bbox": [
+            306.0,
+            2339.0,
+            598.0,
+            2376.0
+          ],
+          "confidence": 0.9706910252571106
+        },
+        {
+          "text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. Since we do not expect",
+          "bbox": [
+            306.0,
+            2449.0,
+            3025.0,
+            2491.0
+          ],
+          "confidence": 0.9883466362953186
+        },
+        {
+          "text": "this contract to contribute to divisible surplus, it is not expected that any dividends will be credited..",
+          "bbox": [
+            304.0,
+            2505.0,
+            2160.0,
+            2547.0
+          ],
+          "confidence": 0.98717200756073
+        },
+        {
+          "text": "DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be paid in cash..",
+          "bbox": [
+            304.0,
+            2615.0,
+            2842.0,
+            2661.0
+          ],
+          "confidence": 0.9810240864753723
+        },
+        {
+          "text": "Otherwise, dividends will be applied under the Payment of Premium option unless the Cash option has been chosen in writing.",
+          "bbox": [
+            304.0,
+            2670.0,
+            2648.0,
+            2719.0
+          ],
+          "confidence": 0.9872016310691833
+        },
+        {
+          "text": "Cash. Dividends are paid in cash.",
+          "bbox": [
+            388.0,
+            2785.0,
+            1006.0,
+            2825.0
+          ],
+          "confidence": 0.9977473616600037
+        },
+        {
+          "text": "Payment of Premium. Dividends are applied as payment of a Net Premium..",
+          "bbox": [
+            388.0,
+            2898.0,
+            1774.0,
+            2940.0
+          ],
+          "confidence": 0.9940375685691833
+        },
+        {
+          "text": "VB-TL-TFFL (18)",
+          "bbox": [
+            277.0,
+            2951.0,
+            593.0,
+            2999.0
+          ],
+          "confidence": 0.9935470819473267
+        },
+        {
+          "text": "page TL-1",
+          "bbox": [
+            1611.0,
+            2949.0,
+            1806.0,
+            3003.0
+          ],
+          "confidence": 0.9998270869255066
+        },
+        {
+          "text": "@TL18#AA",
+          "bbox": [
+            2856.0,
+            2969.0,
+            3029.0,
+            3002.0
+          ],
+          "confidence": 0.9996848702430725
+        },
+        {
+          "text": "Source: THRIVENT VARIABLE INSURANCE ACCOUNT B, N-6, 7/1/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1716.0,
+            4479.0
+          ],
+          "confidence": 0.9922612905502319
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "THRIYENT",
+          "page": 0,
+          "bbox": [
+            524.0,
+            314.0,
+            1129.0,
+            371.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            2592.0,
+            362.0,
+            3018.0,
+            400.0
+          ]
+        },
+        {
+          "text": "BENCTRCN",
+          "page": 0,
+          "bbox": [
+            2679.0,
+            557.0,
+            3020.0,
+            596.0
+          ]
+        },
+        {
+          "text": "ENDORSEMENT",
+          "page": 0,
+          "bbox": [
+            279.0,
+            623.0,
+            607.0,
+            660.0
+          ]
+        },
+        {
+          "text": "VB-TL-TFFL (18)",
+          "page": 0,
+          "bbox": [
+            277.0,
+            2951.0,
+            593.0,
+            2999.0
+          ]
+        },
+        {
+          "text": "@TL18#AA",
+          "page": 0,
+          "bbox": [
+            2856.0,
+            2969.0,
+            3029.0,
+            3002.0
+          ]
+        }
+      ]
+    }
+  ]
+}

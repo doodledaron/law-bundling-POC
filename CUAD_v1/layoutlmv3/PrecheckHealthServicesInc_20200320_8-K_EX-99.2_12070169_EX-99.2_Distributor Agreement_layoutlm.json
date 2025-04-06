@@ -1,0 +1,1327 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Distributor\\PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement.pdf",
+  "annotations": [
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "DISTRIBUTOR AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ],
+          "confidence": 0.9947323799133301
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Distributor",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ],
+          "confidence": 0.9947323799133301
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Co-Diagnostics, Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+          "bbox": [
+            1327.0,
+            440.0,
+            1976.0,
+            473.0
+          ],
+          "confidence": 0.995021641254425
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "PreCheck Health Services, Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "PreCheck Health Services, Inc. (herein referred to as \"Distributor\")",
+          "bbox": [
+            1251.0,
+            517.0,
+            2046.0,
+            543.0
+          ],
+          "confidence": 0.9875714778900146
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Principal",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+          "bbox": [
+            1327.0,
+            440.0,
+            1976.0,
+            473.0
+          ],
+          "confidence": 0.995021641254425
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "19t h day of March, 2020",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Agreement made this 19th day of March, 2020",
+          "bbox": [
+            444.0,
+            364.0,
+            995.0,
+            402.0
+          ],
+          "confidence": 0.9988477826118469
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Expiration Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.",
+          "bbox": [
+            546.0,
+            870.0,
+            2235.0,
+            895.0
+          ],
+          "confidence": 0.9928705096244812
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Governing Law_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This Agreement shall be construed in accordance with and governed by the laws of the State of Texas without regard to principles of conflicts of laws.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "3.",
+          "bbox": [
+            442.0,
+            259.0,
+            473.0,
+            294.0
+          ],
+          "confidence": 0.9999451637268066
+        },
+        {
+          "text": "The Distributor accepts the appointment and shall use its commercially reasonable efforts to promote, market and sell the Products within the Territory, devote such time and attention as may be.",
+          "bbox": [
+            542.0,
+            259.0,
+            2853.0,
+            292.0
+          ],
+          "confidence": 0.993570864200592
+        },
+        {
+          "text": "reasonably necessary and abide by the Principal's policies..",
+          "bbox": [
+            546.0,
+            302.0,
+            1249.0,
+            327.0
+          ],
+          "confidence": 0.9948813319206238
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            442.0,
+            340.0,
+            473.0,
+            376.0
+          ],
+          "confidence": 0.9998431205749512
+        },
+        {
+          "text": "The Principal shall maintain the right to contact and market its products to potential customers in the Territory; but agrees to pass on all sales leads and orders to the Distributor.",
+          "bbox": [
+            546.0,
+            345.0,
+            2657.0,
+            371.0
+          ],
+          "confidence": 0.9922886490821838
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            442.0,
+            386.0,
+            473.0,
+            420.0
+          ],
+          "confidence": 0.9999541640281677
+        },
+        {
+          "text": "The parties agree that the list of Products and/or prices may be amended from time to time. The Principal may unilaterally remove Products from the catalog or change prices. Additions to the.",
+          "bbox": [
+            546.0,
+            391.0,
+            2853.0,
+            417.0
+          ],
+          "confidence": 0.9923253655433655
+        },
+        {
+          "text": "Products shall be by mutual agreement. However, in the event the Distributor rejects a new product addition to the product list, the Principal shall then retain the right to market and distribute",
+          "bbox": [
+            544.0,
+            428.0,
+            2855.0,
+            453.0
+          ],
+          "confidence": 0.9941218495368958
+        },
+        {
+          "text": "the new product that is rejected by the Distributor..",
+          "bbox": [
+            540.0,
+            459.0,
+            1149.0,
+            492.0
+          ],
+          "confidence": 0.9776830077171326
+        },
+        {
+          "text": "6",
+          "bbox": [
+            433.0,
+            495.0,
+            480.0,
+            543.0
+          ],
+          "confidence": 0.927664577960968
+        },
+        {
+          "text": "Unless accepted by the Principal, the Distributor agrees that during the term of this Agreement, the Distributor, either directly or indirectly, shall handle no products that are competitive with the.",
+          "bbox": [
+            540.0,
+            503.0,
+            2855.0,
+            535.0
+          ],
+          "confidence": 0.987078070640564
+        },
+        {
+          "text": "Products within the Territory..",
+          "bbox": [
+            540.0,
+            541.0,
+            892.0,
+            574.0
+          ],
+          "confidence": 0.9916794300079346
+        },
+        {
+          "text": "7.",
+          "bbox": [
+            442.0,
+            583.0,
+            473.0,
+            618.0
+          ],
+          "confidence": 0.9998746514320374
+        },
+        {
+          "text": "The Distributor shall obtain at its own expense, all necessary licenses and permits to allow the Distributor to conduct business as contemplated herein. The Distributor represents and warrants.",
+          "bbox": [
+            544.0,
+            588.0,
+            2855.0,
+            614.0
+          ],
+          "confidence": 0.9907256364822388
+        },
+        {
+          "text": "that the Distributor shall conduct business in strict conformity with all local, state and federal laws, rules and regulations..",
+          "bbox": [
+            544.0,
+            625.0,
+            1992.0,
+            651.0
+          ],
+          "confidence": 0.990689218044281
+        },
+        {
+          "text": "8.",
+          "bbox": [
+            442.0,
+            667.0,
+            473.0,
+            700.0
+          ],
+          "confidence": 0.9999610185623169
+        },
+        {
+          "text": "The Principal agrees that the Distributor may employ or engage representatives or sub-distributors in furtherance of this Agreement and the Distributor agrees that the Distributor shall be.",
+          "bbox": [
+            540.0,
+            665.0,
+            2855.0,
+            698.0
+          ],
+          "confidence": 0.9913493394851685
+        },
+        {
+          "text": "solely responsible for the payment of wages or commissions to those representatives and sub-distributors, and that under no circumstances shall Distributor's representatives be deemed.",
+          "bbox": [
+            546.0,
+            707.0,
+            2855.0,
+            733.0
+          ],
+          "confidence": 0.9976785778999329
+        },
+        {
+          "text": "9.",
+          "bbox": [
+            442.0,
+            784.0,
+            473.0,
+            819.0
+          ],
+          "confidence": 0.9998971819877625
+        },
+        {
+          "text": "Principal will grant Distributor a discount based on the Products and Prices. The proposed discount is expected to be %. Discount may vary depending on product volume ordered or.",
+          "bbox": [
+            542.0,
+            786.0,
+            2855.0,
+            817.0
+          ],
+          "confidence": 0.991357684135437
+        },
+        {
+          "text": "promotions.",
+          "bbox": [
+            544.0,
+            826.0,
+            687.0,
+            852.0
+          ],
+          "confidence": 0.9997857809066772
+        },
+        {
+          "text": "10.",
+          "bbox": [
+            446.0,
+            864.0,
+            484.0,
+            899.0
+          ],
+          "confidence": 0.9933105111122131
+        },
+        {
+          "text": "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.",
+          "bbox": [
+            546.0,
+            870.0,
+            2235.0,
+            895.0
+          ],
+          "confidence": 0.9928705096244812
+        },
+        {
+          "text": "11.",
+          "bbox": [
+            446.0,
+            910.0,
+            484.0,
+            941.0
+          ],
+          "confidence": 0.9949190020561218
+        },
+        {
+          "text": "In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory..",
+          "bbox": [
+            540.0,
+            910.0,
+            2853.0,
+            943.0
+          ],
+          "confidence": 0.9946474432945251
+        },
+        {
+          "text": "Payment to be made upon shipment.",
+          "bbox": [
+            540.0,
+            947.0,
+            979.0,
+            980.0
+          ],
+          "confidence": 0.9985924959182739
+        },
+        {
+          "text": "Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1530.0,
+            4479.0
+          ],
+          "confidence": 0.9941104054450989
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Non-Compete_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector? ",
+      "answer_text": "Unless accepted by the Principal, the Distributor agrees that during the term of this Agreement, the Distributor, either directly or indirectly, shall handle no products that are competitive with the Products within the Territory.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Unless accepted by the Principal, the Distributor agrees that during the term of this Agreement, the Distributor, either directly or indirectly, shall handle no products that are competitive with the.",
+          "bbox": [
+            540.0,
+            503.0,
+            2855.0,
+            535.0
+          ],
+          "confidence": 0.987078070640564
+        },
+        {
+          "text": "Products within the Territory..",
+          "bbox": [
+            540.0,
+            541.0,
+            892.0,
+            574.0
+          ],
+          "confidence": 0.9916794300079346
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Termination For Convenience_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.",
+          "bbox": [
+            546.0,
+            870.0,
+            2235.0,
+            895.0
+          ],
+          "confidence": 0.9928705096244812
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Anti-Assignment_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "answer_text": "This Agreement shall not be assigned by the Distributor without the prior written consent of the Principal.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 99.2",
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ],
+          "confidence": 0.9998146891593933
+        },
+        {
+          "text": "Page 1 of 3",
+          "bbox": [
+            444.0,
+            289.0,
+            578.0,
+            320.0
+          ],
+          "confidence": 0.9989057183265686
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ],
+          "confidence": 0.9947323799133301
+        },
+        {
+          "text": "Agreement made this 19th day of March, 2020",
+          "bbox": [
+            444.0,
+            364.0,
+            995.0,
+            402.0
+          ],
+          "confidence": 0.9988477826118469
+        },
+        {
+          "text": "Between:",
+          "bbox": [
+            442.0,
+            405.0,
+            559.0,
+            437.0
+          ],
+          "confidence": 0.9968208074569702
+        },
+        {
+          "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+          "bbox": [
+            1327.0,
+            440.0,
+            1976.0,
+            473.0
+          ],
+          "confidence": 0.995021641254425
+        },
+        {
+          "text": "And",
+          "bbox": [
+            1624.0,
+            481.0,
+            1684.0,
+            506.0
+          ],
+          "confidence": 0.9999244213104248
+        },
+        {
+          "text": "PreCheck Health Services, Inc. (herein referred to as \"Distributor\")",
+          "bbox": [
+            1251.0,
+            517.0,
+            2046.0,
+            543.0
+          ],
+          "confidence": 0.9875714778900146
+        },
+        {
+          "text": "In consideration of the mutual terms, conditions and covenants hereinafter set forth, Principal and Distributor acknowledge and agree to the following descriptions and conditions:.",
+          "bbox": [
+            442.0,
+            548.0,
+            2590.0,
+            581.0
+          ],
+          "confidence": 0.9914274215698242
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ],
+          "confidence": 0.9992577433586121
+        },
+        {
+          "text": "sales and distributors.",
+          "bbox": [
+            547.0,
+            661.0,
+            812.0,
+            687.0
+          ],
+          "confidence": 0.9962577223777771
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ],
+          "confidence": 0.9992924332618713
+        },
+        {
+          "text": "The Distributor is a company operating or planning to operate in the United States of America, Latin America, Europe and Russia. The Distributor represents that the Distributor or a subsidiary",
+          "bbox": [
+            544.0,
+            729.0,
+            2856.0,
+            766.0
+          ],
+          "confidence": 0.9930793642997742
+        },
+        {
+          "text": "of the Distributor is or will be fully licensed and registered in the Territory and will provide professional distribution services for the products of the Principal.",
+          "bbox": [
+            544.0,
+            766.0,
+            2429.0,
+            799.0
+          ],
+          "confidence": 0.9900766611099243
+        },
+        {
+          "text": "CONDITIONS:",
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ],
+          "confidence": 0.9994503259658813
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            442.0,
+            841.0,
+            473.0,
+            873.0
+          ],
+          "confidence": 0.9737019538879395
+        },
+        {
+          "text": "The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx BoxTm instrument (the",
+          "bbox": [
+            544.0,
+            844.0,
+            2853.0,
+            870.0
+          ],
+          "confidence": 0.9941689968109131
+        },
+        {
+          "text": "\"Products'). The Products are described on Exhibit A to this Agreement.",
+          "bbox": [
+            542.0,
+            875.0,
+            1414.0,
+            910.0
+          ],
+          "confidence": 0.9838686585426331
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            444.0,
+            921.0,
+            469.0,
+            952.0
+          ],
+          "confidence": 0.9998146295547485
+        },
+        {
+          "text": "The Principal grants Distributor non- exclusive rights to sell these products within the countries of Romania (the \"Territory'), which may be amended by mutual written agreement..",
+          "bbox": [
+            542.0,
+            921.0,
+            2681.0,
+            956.0
+          ],
+          "confidence": 0.9901315569877625
+        },
+        {
+          "text": "Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1530.0,
+            4479.0
+          ],
+          "confidence": 0.9945091605186462
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Post-Termination Services_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?",
+      "answer_text": "In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 99.2",
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ],
+          "confidence": 0.9998146891593933
+        },
+        {
+          "text": "Page 1 of 3",
+          "bbox": [
+            444.0,
+            289.0,
+            578.0,
+            320.0
+          ],
+          "confidence": 0.9989057183265686
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ],
+          "confidence": 0.9947323799133301
+        },
+        {
+          "text": "Agreement made this 19th day of March, 2020",
+          "bbox": [
+            444.0,
+            364.0,
+            995.0,
+            402.0
+          ],
+          "confidence": 0.9988477826118469
+        },
+        {
+          "text": "Between:",
+          "bbox": [
+            442.0,
+            405.0,
+            559.0,
+            437.0
+          ],
+          "confidence": 0.9968208074569702
+        },
+        {
+          "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+          "bbox": [
+            1327.0,
+            440.0,
+            1976.0,
+            473.0
+          ],
+          "confidence": 0.995021641254425
+        },
+        {
+          "text": "And",
+          "bbox": [
+            1624.0,
+            481.0,
+            1684.0,
+            506.0
+          ],
+          "confidence": 0.9999244213104248
+        },
+        {
+          "text": "PreCheck Health Services, Inc. (herein referred to as \"Distributor\")",
+          "bbox": [
+            1251.0,
+            517.0,
+            2046.0,
+            543.0
+          ],
+          "confidence": 0.9875714778900146
+        },
+        {
+          "text": "In consideration of the mutual terms, conditions and covenants hereinafter set forth, Principal and Distributor acknowledge and agree to the following descriptions and conditions:.",
+          "bbox": [
+            442.0,
+            548.0,
+            2590.0,
+            581.0
+          ],
+          "confidence": 0.9914274215698242
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ],
+          "confidence": 0.9992577433586121
+        },
+        {
+          "text": "sales and distributors.",
+          "bbox": [
+            547.0,
+            661.0,
+            812.0,
+            687.0
+          ],
+          "confidence": 0.9962577223777771
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ],
+          "confidence": 0.9992924332618713
+        },
+        {
+          "text": "The Distributor is a company operating or planning to operate in the United States of America, Latin America, Europe and Russia. The Distributor represents that the Distributor or a subsidiary",
+          "bbox": [
+            544.0,
+            729.0,
+            2856.0,
+            766.0
+          ],
+          "confidence": 0.9930793642997742
+        },
+        {
+          "text": "of the Distributor is or will be fully licensed and registered in the Territory and will provide professional distribution services for the products of the Principal.",
+          "bbox": [
+            544.0,
+            766.0,
+            2429.0,
+            799.0
+          ],
+          "confidence": 0.9900766611099243
+        },
+        {
+          "text": "CONDITIONS:",
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ],
+          "confidence": 0.9994503259658813
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            442.0,
+            841.0,
+            473.0,
+            873.0
+          ],
+          "confidence": 0.9737019538879395
+        },
+        {
+          "text": "The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx BoxTm instrument (the",
+          "bbox": [
+            544.0,
+            844.0,
+            2853.0,
+            870.0
+          ],
+          "confidence": 0.9941689968109131
+        },
+        {
+          "text": "\"Products'). The Products are described on Exhibit A to this Agreement.",
+          "bbox": [
+            542.0,
+            875.0,
+            1414.0,
+            910.0
+          ],
+          "confidence": 0.9838686585426331
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            444.0,
+            921.0,
+            469.0,
+            952.0
+          ],
+          "confidence": 0.9998146295547485
+        },
+        {
+          "text": "The Principal grants Distributor non- exclusive rights to sell these products within the countries of Romania (the \"Territory'), which may be amended by mutual written agreement..",
+          "bbox": [
+            542.0,
+            921.0,
+            2681.0,
+            956.0
+          ],
+          "confidence": 0.9901315569877625
+        },
+        {
+          "text": "Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020",
+          "bbox": [
+            332.0,
+            4437.0,
+            1530.0,
+            4479.0
+          ],
+          "confidence": 0.9945091605186462
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 99.2",
+          "page": 0,
+          "bbox": [
+            2684.0,
+            252.0,
+            2860.0,
+            283.0
+          ]
+        },
+        {
+          "text": "DISTRIBUTOR AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1466.0,
+            325.0,
+            1836.0,
+            349.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF PRINCIPAL",
+          "page": 0,
+          "bbox": [
+            549.0,
+            588.0,
+            939.0,
+            612.0
+          ]
+        },
+        {
+          "text": "DESCRIPTION OF DISTRIBUTOR",
+          "page": 0,
+          "bbox": [
+            547.0,
+            696.0,
+            982.0,
+            722.0
+          ]
+        },
+        {
+          "text": "CONDITIONS:",
+          "page": 0,
+          "bbox": [
+            545.0,
+            798.0,
+            740.0,
+            833.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement__Covenant Not To Sue_2",
+      "question": "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract?",
+      "answer_text": "In the event of termination, neither party, their heirs nor successors shall issue any challenge whatsoever to contest the termination.",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "In the event of termination, neither party, their heirs nor successors shall issue any challenge whatsoever to contest the termination.",
+          "bbox": [
+            540.0,
+            259.0,
+            2121.0,
+            292.0
+          ],
+          "confidence": 0.9991564750671387
+        }
+      ]
+    }
+  ]
+}

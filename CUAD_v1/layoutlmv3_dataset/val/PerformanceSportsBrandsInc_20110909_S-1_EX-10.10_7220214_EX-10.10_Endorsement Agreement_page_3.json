@@ -1,0 +1,838 @@
+[
+  {
+    "text": "\"Endorsed Product(s)\" shall only mean and include Company's irons, woods, wedges and putters.",
+    "bbox": [
+      193,
+      101,
+      937,
+      114
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "g.",
+    "bbox": [
+      163,
+      102,
+      185,
+      115
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      131,
+      128,
+      144
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Term. The Term of this Agreement shall be for the Contract Period unless it is terminated or extended as set forth in this Agreement",
+    "bbox": [
+      166,
+      132,
+      1000,
+      143
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      112,
+      161,
+      128,
+      173
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Grant of License and Exclusivity. Subject to the terms set forth in this Agreement, North hereby grants to Company the right and privilege",
+    "bbox": [
+      165,
+      161,
+      1000,
+      174
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "to use North's Likeness and North's Endorsement during the Term and within the Contract Territory in all reasonable forms of advertising",
+    "bbox": [
+      163,
+      174,
+      1000,
+      191
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "including, but not limited to television (including the infomercial format), radio, print advertising, brochures, pamphlets, product packaging,",
+    "bbox": [
+      163,
+      190,
+      1000,
+      206
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "point-of-purchase materials, Company's web-site and a demonstration video (hereinafter referred to as \"Advertising Materials\")",
+    "bbox": [
+      165,
+      206,
+      1000,
+      219
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "in connection with Company's advertisement and sale of the Endorsed Product only. During the Term of this Agreement and within the",
+    "bbox": [
+      165,
+      222,
+      1000,
+      234
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Contract Territory, North agrees not to enter into an agreement with another company or entity for the purpose of endorsing or promoting",
+    "bbox": [
+      164,
+      235,
+      1000,
+      251
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "products similar to the Endorsed Products. Upon the expiration or termination of this Agreement, Company shall be prohibited from using or",
+    "bbox": [
+      165,
+      251,
+      1000,
+      265
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "distributing any new or existing Advertising Materials using North's Likeness and North's Endorsement except for Endorsed Product with",
+    "bbox": [
+      165,
+      267,
+      1000,
+      279
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "North's Likeness and/or North's Endorsement on the packaging that is already in the channel of retail distribution. Company shall be",
+    "bbox": [
+      165,
+      282,
+      1000,
+      294
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "prohibited from selling or shipping any new Endorsed Product with North's Likeness and/or North's Endorsement on the packaging upon.",
+    "bbox": [
+      164,
+      296,
+      1000,
+      310
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "the expiration or termination of this Agreement.",
+    "bbox": [
+      165,
+      312,
+      519,
+      324
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      113,
+      341,
+      128,
+      353
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Retention of Rights. All rights not specifically granted or licensed to Company hereunder shall be reserved and retained by North and may.",
+    "bbox": [
+      163,
+      340,
+      1000,
+      355
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "be utilized or licensed by North to any third parties in any manner which is not in contravention of this Agreement.",
+    "bbox": [
+      165,
+      357,
+      1000,
+      369
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      113,
+      385,
+      128,
+      398
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Appearances.",
+    "bbox": [
+      165,
+      387,
+      270,
+      399
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      165,
+      419,
+      183,
+      428
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Production Appearances.",
+    "bbox": [
+      196,
+      417,
+      391,
+      428
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      249,
+      448,
+      259,
+      457
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Contract Year 2011. North agrees to make one (1) Production Appearance on behalf of Company during Contract Year 2011",
+    "bbox": [
+      284,
+      446,
+      1000,
+      459
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "for the purpose of producing the following: (1) one 30-minute infomercial; (2) one 30-second television commercial; (3) one",
+    "bbox": [
+      284,
+      462,
+      1000,
+      474
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "advertisements and packaging (hereinafter referred to as \"Production Appearance'). Said Production Appearance shall take",
+    "bbox": [
+      283,
+      491,
+      1000,
+      504
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "place on February 22 & 23, 2011 in or around Phoenix, AZ. The Production Appearance shall be approximately nine (9)",
+    "bbox": [
+      283,
+      506,
+      1000,
+      519
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "hours in duration on February 22nd and five (5) hours in duration on February 23rd. During such Production Appearance,",
+    "bbox": [
+      282,
+      521,
+      1000,
+      534
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "North shall be permitted to wear the apparel of his choice.",
+    "bbox": [
+      284,
+      537,
+      716,
+      549
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "i.",
+    "bbox": [
+      249,
+      552,
+      262,
+      562
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Contract Year 2012. North agrees to make one (1) Production Appearance on behalf of Company during Contract Year 2012",
+    "bbox": [
+      284,
+      552,
+      1000,
+      564
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "for the purpose of producing either new or updated Advertising Materials. Said Production Appearance shall take place at a",
+    "bbox": [
+      284,
+      567,
+      1000,
+      579
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "mutually agreed upon time and location. The Production Appearance shall be approximately nine (9) hours in duration on",
+    "bbox": [
+      284,
+      582,
+      1000,
+      594
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "the first day and five (5) hours in duration on the second day. During such Production Appearance, North shall be permitted",
+    "bbox": [
+      284,
+      596,
+      1000,
+      609
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "to wear the apparel of his choice.",
+    "bbox": [
+      283,
+      612,
+      531,
+      623
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Page 4 of 12",
+    "bbox": [
+      113,
+      654,
+      205,
+      669
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Source: PERFORMANCE SPORTS BRANDS, INC., S-1, 9/9/2011",
+    "bbox": [
+      134,
+      1000,
+      628,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Endorsed Product(s)\" shall only mean and include Company's irons, woods, wedges and putters.",
+    "bbox": [
+      193,
+      101,
+      937,
+      114
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "g.",
+    "bbox": [
+      163,
+      102,
+      185,
+      115
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      131,
+      128,
+      144
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Term. The Term of this Agreement shall be for the Contract Period unless it is terminated or extended as set forth in this Agreement",
+    "bbox": [
+      166,
+      132,
+      1000,
+      143
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      112,
+      161,
+      128,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Grant of License and Exclusivity. Subject to the terms set forth in this Agreement, North hereby grants to Company the right and privilege",
+    "bbox": [
+      165,
+      161,
+      1000,
+      174
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to use North's Likeness and North's Endorsement during the Term and within the Contract Territory in all reasonable forms of advertising",
+    "bbox": [
+      163,
+      174,
+      1000,
+      191
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "including, but not limited to television (including the infomercial format), radio, print advertising, brochures, pamphlets, product packaging,",
+    "bbox": [
+      163,
+      190,
+      1000,
+      206
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "point-of-purchase materials, Company's web-site and a demonstration video (hereinafter referred to as \"Advertising Materials\")",
+    "bbox": [
+      165,
+      206,
+      1000,
+      219
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "in connection with Company's advertisement and sale of the Endorsed Product only. During the Term of this Agreement and within the",
+    "bbox": [
+      165,
+      222,
+      1000,
+      234
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Contract Territory, North agrees not to enter into an agreement with another company or entity for the purpose of endorsing or promoting",
+    "bbox": [
+      164,
+      235,
+      1000,
+      251
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "products similar to the Endorsed Products. Upon the expiration or termination of this Agreement, Company shall be prohibited from using or",
+    "bbox": [
+      165,
+      251,
+      1000,
+      265
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "distributing any new or existing Advertising Materials using North's Likeness and North's Endorsement except for Endorsed Product with",
+    "bbox": [
+      165,
+      267,
+      1000,
+      279
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "North's Likeness and/or North's Endorsement on the packaging that is already in the channel of retail distribution. Company shall be",
+    "bbox": [
+      165,
+      282,
+      1000,
+      294
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "prohibited from selling or shipping any new Endorsed Product with North's Likeness and/or North's Endorsement on the packaging upon.",
+    "bbox": [
+      164,
+      296,
+      1000,
+      310
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the expiration or termination of this Agreement.",
+    "bbox": [
+      165,
+      312,
+      519,
+      324
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      113,
+      341,
+      128,
+      353
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Retention of Rights. All rights not specifically granted or licensed to Company hereunder shall be reserved and retained by North and may.",
+    "bbox": [
+      163,
+      340,
+      1000,
+      355
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "be utilized or licensed by North to any third parties in any manner which is not in contravention of this Agreement.",
+    "bbox": [
+      165,
+      357,
+      1000,
+      369
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      113,
+      385,
+      128,
+      398
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Appearances.",
+    "bbox": [
+      165,
+      387,
+      270,
+      399
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      165,
+      419,
+      183,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Production Appearances.",
+    "bbox": [
+      196,
+      417,
+      391,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      249,
+      448,
+      259,
+      457
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Contract Year 2011. North agrees to make one (1) Production Appearance on behalf of Company during Contract Year 2011",
+    "bbox": [
+      284,
+      446,
+      1000,
+      459
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "for the purpose of producing the following: (1) one 30-minute infomercial; (2) one 30-second television commercial; (3) one",
+    "bbox": [
+      284,
+      462,
+      1000,
+      474
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "advertisements and packaging (hereinafter referred to as \"Production Appearance'). Said Production Appearance shall take",
+    "bbox": [
+      283,
+      491,
+      1000,
+      504
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "place on February 22 & 23, 2011 in or around Phoenix, AZ. The Production Appearance shall be approximately nine (9)",
+    "bbox": [
+      283,
+      506,
+      1000,
+      519
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "hours in duration on February 22nd and five (5) hours in duration on February 23rd. During such Production Appearance,",
+    "bbox": [
+      282,
+      521,
+      1000,
+      534
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "North shall be permitted to wear the apparel of his choice.",
+    "bbox": [
+      284,
+      537,
+      716,
+      549
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "i.",
+    "bbox": [
+      249,
+      552,
+      262,
+      562
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Contract Year 2012. North agrees to make one (1) Production Appearance on behalf of Company during Contract Year 2012",
+    "bbox": [
+      284,
+      552,
+      1000,
+      564
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "for the purpose of producing either new or updated Advertising Materials. Said Production Appearance shall take place at a",
+    "bbox": [
+      284,
+      567,
+      1000,
+      579
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "mutually agreed upon time and location. The Production Appearance shall be approximately nine (9) hours in duration on",
+    "bbox": [
+      284,
+      582,
+      1000,
+      594
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the first day and five (5) hours in duration on the second day. During such Production Appearance, North shall be permitted",
+    "bbox": [
+      284,
+      596,
+      1000,
+      609
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to wear the apparel of his choice.",
+    "bbox": [
+      283,
+      612,
+      531,
+      623
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Page 4 of 12",
+    "bbox": [
+      113,
+      654,
+      205,
+      669
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: PERFORMANCE SPORTS BRANDS, INC., S-1, 9/9/2011",
+    "bbox": [
+      134,
+      1000,
+      628,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

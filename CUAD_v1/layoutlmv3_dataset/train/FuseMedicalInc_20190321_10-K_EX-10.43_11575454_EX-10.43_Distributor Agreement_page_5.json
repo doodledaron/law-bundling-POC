@@ -1,0 +1,486 @@
+[
+  {
+    "text": "(b)",
+    "bbox": [
+      280,
+      81,
+      307,
+      97
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Supplier will have no obligation to separately supply the Products, except as otherwise",
+    "bbox": [
+      383,
+      82,
+      1000,
+      96
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "provided for in this Agreement..",
+    "bbox": [
+      385,
+      103,
+      646,
+      115
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      194,
+      136,
+      227,
+      153
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Supplier's undertakings.",
+    "bbox": [
+      281,
+      137,
+      477,
+      153
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "The Supplier undertakes to:.",
+    "bbox": [
+      198,
+      174,
+      431,
+      187
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      280,
+      209,
+      306,
+      225
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "provide information and support that may reasonably be requested by the Distributor to enable it",
+    "bbox": [
+      383,
+      209,
+      1000,
+      224
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to discharge its duties under this agreement properly and efficiently; and.",
+    "bbox": [
+      383,
+      230,
+      988,
+      244
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      281,
+      265,
+      306,
+      280
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "approve or reject any promotional information or material submitted by the Distributor within 28.",
+    "bbox": [
+      382,
+      263,
+      1000,
+      282
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "days of receipt..",
+    "bbox": [
+      384,
+      286,
+      514,
+      301
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      320,
+      130,
+      335
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Prices and payment",
+    "bbox": [
+      196,
+      321,
+      364,
+      336
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      194,
+      356,
+      227,
+      372
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "The prices to be paid by the Distributor to the Supplier for the Products are to be the Price, as set out in",
+    "bbox": [
+      282,
+      358,
+      1000,
+      372
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule 4.",
+    "bbox": [
+      282,
+      378,
+      381,
+      390
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      194,
+      412,
+      228,
+      429
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Any and all expenses, costs and charges incurred by the Distributor in the performance of its obligations under",
+    "bbox": [
+      283,
+      415,
+      1000,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "this agreement will be paid by the Distributor, unless the Supplier has expressly agreed in advance in writing to",
+    "bbox": [
+      281,
+      434,
+      1000,
+      448
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "pay such expenses, costs and charges..",
+    "bbox": [
+      281,
+      454,
+      605,
+      469
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      194,
+      487,
+      227,
+      504
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the",
+    "bbox": [
+      281,
+      489,
+      1000,
+      504
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "date of invoice..",
+    "bbox": [
+      281,
+      508,
+      410,
+      524
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      195,
+      544,
+      228,
+      560
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Neither party may withhold payment of any amount due to the other because of any set-off, counter-claim,",
+    "bbox": [
+      282,
+      546,
+      1000,
+      560
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "abatement, or other similar deduction.",
+    "bbox": [
+      283,
+      567,
+      601,
+      579
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      110,
+      601,
+      130,
+      616
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "GST and taxes (Only Applicable to Australian companies).",
+    "bbox": [
+      196,
+      601,
+      691,
+      616
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.1",
+    "bbox": [
+      195,
+      636,
+      226,
+      652
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "All sums payable under this agreement, or otherwise payable by any party to any other party under this",
+    "bbox": [
+      282,
+      637,
+      1000,
+      653
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "agreement are exclusive of any GST chargeable on the supplies for which such sums (or any part of them) are",
+    "bbox": [
+      280,
+      657,
+      1000,
+      673
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the whole or part of the consideration for GST purposes..",
+    "bbox": [
+      281,
+      677,
+      762,
+      692
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.2",
+    "bbox": [
+      195,
+      713,
+      228,
+      728
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Where, under this agreement, any party makes a supply to any other party (Recipient) for GST purposes and",
+    "bbox": [
+      281,
+      713,
+      1000,
+      728
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "GST is or becomes chargeable on that supply for which the supplying party is required to account to the",
+    "bbox": [
+      280,
+      732,
+      1000,
+      749
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "relevant tax authority, the Recipient shall, subject to the receipt of a valid GST invoice, pay the supplying party.",
+    "bbox": [
+      281,
+      752,
+      1000,
+      769
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(in addition to, and at the same time as, any other consideration for that supply) the amount of such GST..",
+    "bbox": [
+      282,
+      773,
+      1000,
+      787
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.3",
+    "bbox": [
+      194,
+      808,
+      227,
+      825
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Where any party is required by this agreement to reimburse or indemnify any other party for any cost or",
+    "bbox": [
+      281,
+      809,
+      1000,
+      825
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "expense, that first party shall reimburse or indemnify the other party for the full amount of the cost or expense,",
+    "bbox": [
+      282,
+      830,
+      1000,
+      844
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "including any GST on that amount..",
+    "bbox": [
+      282,
+      850,
+      572,
+      863
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      660,
+      901,
+      672,
+      913
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: FUSE MEDICAL, INC., 10-K, 3/21/2019",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

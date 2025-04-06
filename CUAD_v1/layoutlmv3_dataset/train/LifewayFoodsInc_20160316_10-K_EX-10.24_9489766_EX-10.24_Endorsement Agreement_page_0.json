@@ -1,0 +1,90 @@
+[
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      90,
+      784,
+      98
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "business address of 6431 West Oakton Street, Morton Grove, IL 60053 and Ludmila",
+    "bbox": [
+      179,
+      142,
+      1000,
+      152
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Smolyansky(\"Individual\") on her own behalf with an address of 182 N. Harbor Drive,",
+    "bbox": [
+      179,
+      156,
+      1000,
+      169
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"Effective Date\"), by and between Lifeway Foods, Inc. (\"Lifeway\") with a principal",
+    "bbox": [
+      183,
+      125,
+      1000,
+      137
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Smolyansky(\"Individual\") on her own behalf with an address of 182 N. Harbor Drive,",
+    "bbox": [
+      179,
+      156,
+      1000,
+      169
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"Effective Date\"), by and between Lifeway Foods, Inc. (\"Lifeway\") with a principal",
+    "bbox": [
+      183,
+      125,
+      1000,
+      137
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement\") is made this 14th day of March, 2016.",
+    "bbox": [
+      177,
+      105,
+      1000,
+      122
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement\") is made this 14th day of March, 2016.",
+    "bbox": [
+      177,
+      105,
+      1000,
+      122
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

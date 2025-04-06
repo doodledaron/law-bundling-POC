@@ -1,0 +1,46 @@
+[
+  {
+    "text": "Distributorship agreement",
+    "bbox": [
+      558,
+      140,
+      775,
+      154
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Signature Orthopaedics Pty Ltd",
+    "bbox": [
+      531,
+      275,
+      801,
+      290
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CPM Medical Consultants LLC",
+    "bbox": [
+      530,
+      412,
+      803,
+      424
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dated 29/3/18",
+    "bbox": [
+      283,
+      102,
+      409,
+      115
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]
