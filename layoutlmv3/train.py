@@ -59,12 +59,16 @@ def parse_args():
                         help="Log metrics every X steps")
     parser.add_argument("--eval_steps", type=int, default=100, 
                         help="Evaluate every X steps")
+    parser.add_argument("--checkpoint_steps", type=int, default=500,
+                        help="Save checkpoint every X steps")
     parser.add_argument("--seed", type=int, default=42, 
                         help="Random seed for reproducibility")
     parser.add_argument("--device", type=str, default=default_device, 
                         help="Device to use for training (cuda/cpu)")
     parser.add_argument("--num_workers", type=int, default=0, 
                         help="Number of worker processes for data loading")
+    parser.add_argument("--resume_from", type=str, default=None,
+                        help="Resume training from this checkpoint directory")
     
     return parser.parse_args()
 
@@ -134,6 +138,158 @@ def evaluate(
     return results
 
 
+def save_checkpoint(
+    model: nn.Module,
+    optimizer: torch.optim.Optimizer,
+    scheduler,
+    epoch: int,
+    global_step: int,
+    batch_idx: int,
+    metrics_history: Dict,
+    best_f1: float,
+    args,
+    output_dir: str
+) -> None:
+    """
+    Save training checkpoint for resumable training.
+    
+    This function creates a checkpoint that contains everything needed to resume training
+    from exactly where it left off. It saves:
+    
+    1. Model weights and configuration
+    2. Optimizer state (learning rates, momentum, etc.)
+    3. Scheduler state (for learning rate scheduling)
+    4. Current epoch, step, and batch position
+    5. Training metrics and best F1 score so far
+    6. All training arguments for consistency
+    
+    The checkpoint is saved in a subdirectory of the output directory, and a pointer
+    to the latest checkpoint is updated.
+    
+    Args:
+        model: The model being trained
+        optimizer: The optimizer (contains learning rates, momentum buffers, etc.)
+        scheduler: The learning rate scheduler
+        epoch: Current epoch number (0-indexed)
+        global_step: Global training step (total batches processed)
+        batch_idx: Current position within the epoch (to resume mid-epoch)
+        metrics_history: Dictionary of recorded training metrics
+        best_f1: Current best F1 score achieved during training
+        args: Command line arguments used for training
+        output_dir: Directory to save the checkpoint
+    """
+    # Create a directory for this specific checkpoint
+    checkpoint_dir = os.path.join(output_dir, f"checkpoint-{global_step}")
+    os.makedirs(checkpoint_dir, exist_ok=True)
+    
+    # Save model weights and configuration
+    model.save_pretrained(checkpoint_dir)
+    
+    # Save optimizer and scheduler states, along with training metadata
+    torch.save({
+        'optimizer': optimizer.state_dict(),  # Learning rates, momentum buffers, etc.
+        'scheduler': scheduler.state_dict() if scheduler else None,  # LR scheduler state
+        'epoch': epoch,  # Current epoch
+        'global_step': global_step,  # Total steps processed so far
+        'batch_idx': batch_idx,  # Current position in epoch (for mid-epoch resuming)
+        'metrics_history': metrics_history,  # Training metrics (loss, F1, etc.)
+        'best_f1': best_f1,  # Best F1 score so far
+        'args': vars(args)  # All training arguments for consistency
+    }, os.path.join(checkpoint_dir, "training_state.pt"))
+    
+    # Save a pointer to the latest checkpoint for easy resuming
+    with open(os.path.join(output_dir, "latest_checkpoint.txt"), "w") as f:
+        f.write(f"checkpoint-{global_step}")
+    
+    print(f"Checkpoint saved at step {global_step}")
+
+
+def load_checkpoint(
+    checkpoint_dir: str,
+    device: torch.device
+) -> Tuple[nn.Module, torch.optim.Optimizer, object, int, int, int, Dict, float, Dict]:
+    """
+    Load training checkpoint for resumable training.
+    
+    This function restores the complete training state from a checkpoint, including:
+    
+    1. Model weights and configuration
+    2. Optimizer state (learning rates, momentum buffers)
+    3. Scheduler state (learning rate schedule)
+    4. Training progress (epoch, step, batch position)
+    5. Training metrics and best F1 score
+    6. Original training arguments
+    
+    Args:
+        checkpoint_dir: Directory containing the checkpoint
+        device: Device to load model and tensors onto (cuda/cpu)
+        
+    Returns:
+        Tuple containing:
+        - model: The restored model with weights
+        - optimizer: Optimizer with restored state
+        - scheduler: LR scheduler with restored state (or None)
+        - epoch: Current epoch to resume from
+        - global_step: Global step count
+        - batch_idx: Batch index within the epoch
+        - metrics_history: Dictionary of training metrics
+        - best_f1: Best F1 score achieved so far
+        - args_dict: Original training arguments as dictionary
+    """
+    print(f"Loading checkpoint from {checkpoint_dir}...")
+    
+    # Load model weights and configuration
+    model = LayoutLMv3ForTokenClassification.from_pretrained(checkpoint_dir)
+    model.to(device)
+    
+    # Load optimizer, scheduler, and other training state
+    training_state = torch.load(
+        os.path.join(checkpoint_dir, "training_state.pt"),
+        map_location=device
+    )
+    
+    # Extract individual components from saved state
+    optimizer_state = training_state['optimizer']  # Optimizer state dict
+    scheduler_state = training_state['scheduler']  # Scheduler state dict
+    epoch = training_state['epoch']                # Current epoch
+    global_step = training_state['global_step']    # Current global step
+    batch_idx = training_state['batch_idx']        # Current batch within epoch
+    metrics_history = training_state['metrics_history']  # Training metrics
+    best_f1 = training_state['best_f1']            # Best F1 score so far
+    args_dict = training_state['args']             # Original training arguments
+    
+    # Recreate optimizer with same parameters
+    optimizer = AdamW(
+        model.parameters(),
+        lr=args_dict['learning_rate'],
+        weight_decay=args_dict['weight_decay']
+    )
+    # Restore optimizer state (learning rates, momentum buffers, etc.)
+    optimizer.load_state_dict(optimizer_state)
+    
+    # Recreate and restore scheduler if it was saved
+    scheduler = None
+    if scheduler_state:
+        # Estimate training steps based on current progress
+        num_training_steps = args_dict['num_epochs'] * (global_step // epoch if epoch > 0 else 100)
+        num_warmup_steps = int(args_dict['warmup_ratio'] * num_training_steps)
+        
+        # Recreate scheduler with same parameters
+        scheduler = get_scheduler(
+            "linear",
+            optimizer=optimizer,
+            num_warmup_steps=num_warmup_steps,
+            num_training_steps=num_training_steps
+        )
+        # Restore scheduler state
+        scheduler.load_state_dict(scheduler_state)
+    
+    print(f"Checkpoint loaded: Epoch {epoch+1}, Step {global_step}")
+    
+    return (model, optimizer, scheduler, epoch, global_step, batch_idx, 
+            metrics_history, best_f1, args_dict)
+
+
 def train(args):
     """
     Fine-tune LayoutLMv3 on the CUAD dataset.
@@ -141,16 +297,13 @@ def train(args):
     Args:
         args: Command line arguments.
     """
-    # Set seed for reproducibility
-    torch.manual_seed(args.seed)
-    np.random.seed(args.seed)
-    
     # Create output directory
     os.makedirs(args.output_dir, exist_ok=True)
     
-    # Create log file
+    # Create log file (append mode when resuming)
     log_file_path = os.path.join(args.output_dir, "training_log.txt")
-    log_file = open(log_file_path, "w")
+    log_file_mode = "a" if args.resume_from else "w"
+    log_file = open(log_file_path, log_file_mode)
     
     def log_message(message):
         """Write message to both console and log file"""
@@ -158,48 +311,104 @@ def train(args):
         log_file.write(f"{message}\n")
         log_file.flush()
     
-    # Log training parameters
-    log_message(f"Training started at: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    log_message(f"Parameters: {vars(args)}")
-    
-    # Validate device setting
+    # Set device
+    device = torch.device(args.device)
     if args.device.lower() == "cuda" and not torch.cuda.is_available():
         log_message("WARNING: CUDA is not available. Falling back to CPU.")
         args.device = "cpu"
+        device = torch.device("cpu")
     
-    # Load label map
-    with open(os.path.join(args.dataset_dir, "label_map.json"), "r") as f:
-        label_map = json.load(f)
-    num_labels = max(int(v) for v in label_map.values()) + 1
-    
-    # Initialize processor and model
-    log_message(f"Loading model {args.model_name}...")
-    
-    if args.processor_dir:
-        log_message(f"Loading processor from {args.processor_dir}...")
-        processor = LayoutLMv3Processor.from_pretrained(args.processor_dir)
+    # Resume from checkpoint or start new training
+    if args.resume_from:
+        # Find latest checkpoint if directory is provided
+        if os.path.isdir(args.resume_from) and os.path.exists(os.path.join(args.resume_from, "latest_checkpoint.txt")):
+            with open(os.path.join(args.resume_from, "latest_checkpoint.txt"), "r") as f:
+                latest_checkpoint = f.read().strip()
+            checkpoint_dir = os.path.join(args.resume_from, latest_checkpoint)
+        else:
+            checkpoint_dir = args.resume_from
+        
+        log_message(f"Resuming training from checkpoint: {checkpoint_dir}")
+        
+        # Load checkpoint
+        (model, optimizer, scheduler, start_epoch, global_step, resume_batch_idx,
+         metrics_history, best_f1, checkpoint_args) = load_checkpoint(checkpoint_dir, device)
+        
+        # Update args with original values for consistency
+        for key, value in checkpoint_args.items():
+            if key not in ['output_dir', 'resume_from']:
+                setattr(args, key, value)
+        
+        # Load label map
+        with open(os.path.join(args.dataset_dir, "label_map.json"), "r") as f:
+            label_map = json.load(f)
+        num_labels = max(int(v) for v in label_map.values()) + 1
+        
+        # Load processor
+        processor_dir = os.path.join(args.resume_from, "processor") if os.path.exists(os.path.join(args.resume_from, "processor")) else args.model_name
+        processor = LayoutLMv3Processor.from_pretrained(processor_dir)
+        
+        log_message(f"Resumed training state: Epoch {start_epoch + 1}, Step {global_step}")
+        log_message(f"Best F1 so far: {best_f1}")
     else:
-        log_message("Creating new processor with OCR disabled...")
-        processor = LayoutLMv3Processor.from_pretrained(
+        log_message(f"Training started at: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        log_message(f"Parameters: {vars(args)}")
+        
+        # Set seed for reproducibility
+        torch.manual_seed(args.seed)
+        np.random.seed(args.seed)
+        
+        # Load label map
+        with open(os.path.join(args.dataset_dir, "label_map.json"), "r") as f:
+            label_map = json.load(f)
+        num_labels = max(int(v) for v in label_map.values()) + 1
+        
+        # Initialize processor and model
+        log_message(f"Loading model {args.model_name}...")
+        
+        if args.processor_dir:
+            log_message(f"Loading processor from {args.processor_dir}...")
+            processor = LayoutLMv3Processor.from_pretrained(args.processor_dir)
+        else:
+            log_message("Creating new processor with OCR disabled...")
+            processor = LayoutLMv3Processor.from_pretrained(
+                args.model_name,
+                apply_ocr=False  # Disable OCR since we have our own annotations
+            )
+        
+        model = LayoutLMv3ForTokenClassification.from_pretrained(
             args.model_name,
-            apply_ocr=False  # Disable OCR since we have our own annotations
+            num_labels=num_labels
         )
-    
-    model = LayoutLMv3ForTokenClassification.from_pretrained(
-        args.model_name,
-        num_labels=num_labels
-    )
-    
-    # Save processor and label map
-    log_message(f"Saving processor to {args.output_dir}...")
-    processor.save_pretrained(args.output_dir)
-    with open(os.path.join(args.output_dir, "label_map.json"), "w") as f:
-        json.dump(label_map, f, indent=2)
-    
-    # Set device
-    device = torch.device(args.device)
-    log_message(f"Using device: {device}")
-    model.to(device)
+        
+        # Save processor and label map
+        processor_dir = os.path.join(args.output_dir, "processor")
+        log_message(f"Saving processor to {processor_dir}...")
+        processor.save_pretrained(processor_dir)
+        with open(os.path.join(args.output_dir, "label_map.json"), "w") as f:
+            json.dump(label_map, f, indent=2)
+        
+        model.to(device)
+        
+        # Initialize optimizer and scheduler
+        optimizer = AdamW(
+            model.parameters(),
+            lr=args.learning_rate,
+            weight_decay=args.weight_decay
+        )
+        
+        # Initialize training state
+        start_epoch = 0
+        global_step = 0
+        resume_batch_idx = 0
+        best_f1 = 0.0
+        metrics_history = {
+            "steps": [],
+            "loss": [],
+            "eval_f1": [],
+            "eval_precision": [],
+            "eval_recall": []
+        }
     
     # Create data loaders
     train_dir = os.path.join(args.dataset_dir, "train")
@@ -215,46 +424,56 @@ def train(args):
         num_workers=args.num_workers
     )
     
-    # Initialize optimizer and scheduler
-    optimizer = AdamW(
-        model.parameters(),
-        lr=args.learning_rate,
-        weight_decay=args.weight_decay
-    )
-    
+    # Create or update scheduler
     num_training_steps = args.num_epochs * len(train_dataloader)
     num_warmup_steps = int(args.warmup_ratio * num_training_steps)
     
-    scheduler = get_scheduler(
-        "linear",
-        optimizer=optimizer,
-        num_warmup_steps=num_warmup_steps,
-        num_training_steps=num_training_steps
-    )
+    if not args.resume_from or scheduler is None:
+        scheduler = get_scheduler(
+            "linear",
+            optimizer=optimizer,
+            num_warmup_steps=num_warmup_steps,
+            num_training_steps=num_training_steps
+        )
+    
+    log_message(f"Starting/Resuming training with {num_training_steps} total steps...")
+    
+    #--------------------------------------------------------------------
+    # HOW TO USE CHECKPOINTING:
+    #
+    # 1. For initial training:
+    #    python train.py --output_dir my_training_run
+    #
+    # 2. If training is interrupted, resume with:
+    #    python train.py --resume_from my_training_run
+    #
+    # The script will automatically find the latest checkpoint and continue
+    # training from exactly where it left off.
+    #--------------------------------------------------------------------
     
     # Training loop
-    global_step = 0
-    best_f1 = 0.0
-    
-    log_message(f"Starting training with {num_training_steps} steps...")
-    
-    # Create metrics history for plotting later
-    metrics_history = {
-        "steps": [],
-        "loss": [],
-        "eval_f1": [],
-        "eval_precision": [],
-        "eval_recall": []
-    }
-    
-    for epoch in range(args.num_epochs):
+    for epoch in range(start_epoch, args.num_epochs):
         model.train()
         epoch_loss = 0.0
         
         log_message(f"Epoch {epoch + 1}/{args.num_epochs}")
         
-        # Use enumerate to track batch index
-        for batch_idx, batch in enumerate(tqdm(train_dataloader, desc=f"Training (Epoch {epoch + 1})")):
+        # Convert train_dataloader to list for easy skipping when resuming
+        train_batches = list(train_dataloader)
+        
+        # Skip batches if resuming
+        start_batch_idx = resume_batch_idx if epoch == start_epoch and resume_batch_idx > 0 else 0
+        # Reset resume_batch_idx after first epoch
+        resume_batch_idx = 0
+        
+        # Use enumerate and start from resume point if needed
+        for batch_idx, batch in enumerate(tqdm(train_batches[start_batch_idx:], 
+                                              desc=f"Training (Epoch {epoch + 1})",
+                                              initial=start_batch_idx,
+                                              total=len(train_batches))):
+            # Adjust batch_idx to account for skipped batches
+            batch_idx = batch_idx + start_batch_idx
+            
             input_ids = batch["input_ids"].to(device)
             bbox = batch["bbox"].to(device)
             attention_mask = batch["attention_mask"].to(device)
@@ -304,6 +523,22 @@ def train(args):
                     best_f1 = results["f1"]
                     log_message(f"New best F1: {best_f1:.4f}, saving model...")
                     model.save_pretrained(os.path.join(args.output_dir, "best_model"))
+            
+            # Save checkpoint
+            if global_step % args.checkpoint_steps == 0:
+                log_message(f"Saving checkpoint at step {global_step}...")
+                save_checkpoint(
+                    model=model,
+                    optimizer=optimizer,
+                    scheduler=scheduler,
+                    epoch=epoch,
+                    global_step=global_step,
+                    batch_idx=batch_idx + 1,  # +1 to start from next batch when resuming
+                    metrics_history=metrics_history,
+                    best_f1=best_f1,
+                    args=args,
+                    output_dir=args.output_dir
+                )
         
         # End of epoch
         avg_epoch_loss = epoch_loss / len(train_dataloader)
@@ -319,6 +554,21 @@ def train(args):
             best_f1 = results["f1"]
             log_message(f"New best F1: {best_f1:.4f}, saving model...")
             model.save_pretrained(os.path.join(args.output_dir, "best_model"))
+        
+        # Save checkpoint at end of each epoch
+        log_message(f"Saving checkpoint at end of epoch {epoch + 1}...")
+        save_checkpoint(
+            model=model,
+            optimizer=optimizer,
+            scheduler=scheduler,
+            epoch=epoch + 1,  # +1 because we'll start the next epoch
+            global_step=global_step,
+            batch_idx=0,  # 0 because we'll start from the beginning of next epoch
+            metrics_history=metrics_history,
+            best_f1=best_f1,
+            args=args,
+            output_dir=args.output_dir
+        )
     
     # Save final model
     log_message("Training complete. Saving final model...")
