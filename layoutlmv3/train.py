@@ -7,10 +7,10 @@ import torch
 import torch.nn as nn
 import numpy as np
 from tqdm import tqdm
+from torch.optim import AdamW
 from transformers import (
     LayoutLMv3ForTokenClassification,
     LayoutLMv3Processor,
-    AdamW,
     get_scheduler
 )
 from sklearn.metrics import precision_recall_fscore_support
