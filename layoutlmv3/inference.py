@@ -607,9 +607,8 @@ def process_document(args):
         return {"clauses": {}, "error": f"Error converting PDF: {str(e)}"}
     
     # Create result directory for this document (using the original filename)
-    doc_result_dir = os.path.join(args.output_dir, display_pdf_name)
-    # Make sure the directory name is valid
-    doc_result_dir = "".join(c for c in doc_result_dir if c.isalnum() or c in "._- ")
+    safe_name = "".join(c for c in display_pdf_name if c.isalnum() or c in "._- ")
+    doc_result_dir = os.path.join(args.output_dir, safe_name)
     os.makedirs(doc_result_dir, exist_ok=True)
     
     # Process each page

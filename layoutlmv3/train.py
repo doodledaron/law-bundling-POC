@@ -1,6 +1,7 @@
 import os
 import json
 import argparse
+import datetime
 from typing import Dict, List, Optional, Tuple
 import torch
 import torch.nn as nn
@@ -29,10 +30,14 @@ def parse_args():
 
     default_device = "cuda" if cuda_available else "cpu"
     
+    # Create a timestamped output directory
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    default_output_dir = f"layoutlmv3/model/train-{timestamp}"
+    
     parser = argparse.ArgumentParser(description="Fine-tune LayoutLMv3 on CUAD dataset")
     parser.add_argument("--dataset_dir", type=str, default="CUAD_v1/layoutlmv3_dataset", 
                         help="Directory containing the prepared dataset")
-    parser.add_argument("--output_dir", type=str, default="layoutlmv3/model", 
+    parser.add_argument("--output_dir", type=str, default=default_output_dir, 
                         help="Directory to save the fine-tuned model")
     parser.add_argument("--model_name", type=str, default="microsoft/layoutlmv3-base", 
                         help="Pretrained model name or path")
@@ -51,7 +56,7 @@ def parse_args():
     parser.add_argument("--weight_decay", type=float, default=0.01, 
                         help="Weight decay for optimizer")
     parser.add_argument("--save_steps", type=int, default=100, 
-                        help="Save checkpoint every X steps")
+                        help="Log metrics every X steps")
     parser.add_argument("--eval_steps", type=int, default=100, 
                         help="Evaluate every X steps")
     parser.add_argument("--seed", type=int, default=42, 
@@ -143,9 +148,23 @@ def train(args):
     # Create output directory
     os.makedirs(args.output_dir, exist_ok=True)
     
+    # Create log file
+    log_file_path = os.path.join(args.output_dir, "training_log.txt")
+    log_file = open(log_file_path, "w")
+    
+    def log_message(message):
+        """Write message to both console and log file"""
+        print(message)
+        log_file.write(f"{message}\n")
+        log_file.flush()
+    
+    # Log training parameters
+    log_message(f"Training started at: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    log_message(f"Parameters: {vars(args)}")
+    
     # Validate device setting
     if args.device.lower() == "cuda" and not torch.cuda.is_available():
-        print("WARNING: CUDA is not available. Falling back to CPU.")
+        log_message("WARNING: CUDA is not available. Falling back to CPU.")
         args.device = "cpu"
     
     # Load label map
@@ -154,13 +173,13 @@ def train(args):
     num_labels = max(int(v) for v in label_map.values()) + 1
     
     # Initialize processor and model
-    print(f"Loading model {args.model_name}...")
+    log_message(f"Loading model {args.model_name}...")
     
     if args.processor_dir:
-        print(f"Loading processor from {args.processor_dir}...")
+        log_message(f"Loading processor from {args.processor_dir}...")
         processor = LayoutLMv3Processor.from_pretrained(args.processor_dir)
     else:
-        print("Creating new processor with OCR disabled...")
+        log_message("Creating new processor with OCR disabled...")
         processor = LayoutLMv3Processor.from_pretrained(
             args.model_name,
             apply_ocr=False  # Disable OCR since we have our own annotations
@@ -172,21 +191,21 @@ def train(args):
     )
     
     # Save processor and label map
-    print(f"Saving processor to {args.output_dir}...")
+    log_message(f"Saving processor to {args.output_dir}...")
     processor.save_pretrained(args.output_dir)
     with open(os.path.join(args.output_dir, "label_map.json"), "w") as f:
         json.dump(label_map, f, indent=2)
     
     # Set device
     device = torch.device(args.device)
-    print(f"Using device: {device}")
+    log_message(f"Using device: {device}")
     model.to(device)
     
     # Create data loaders
     train_dir = os.path.join(args.dataset_dir, "train")
     val_dir = os.path.join(args.dataset_dir, "val")
     
-    print(f"Creating data loaders (batch_size={args.batch_size}, num_workers={args.num_workers})...")
+    log_message(f"Creating data loaders (batch_size={args.batch_size}, num_workers={args.num_workers})...")
     train_dataloader, eval_dataloader = create_data_loaders(
         train_dir=train_dir,
         val_dir=val_dir,
@@ -217,13 +236,22 @@ def train(args):
     global_step = 0
     best_f1 = 0.0
     
-    print(f"Starting training with {num_training_steps} steps...")
+    log_message(f"Starting training with {num_training_steps} steps...")
+    
+    # Create metrics history for plotting later
+    metrics_history = {
+        "steps": [],
+        "loss": [],
+        "eval_f1": [],
+        "eval_precision": [],
+        "eval_recall": []
+    }
     
     for epoch in range(args.num_epochs):
         model.train()
         epoch_loss = 0.0
         
-        print(f"Epoch {epoch + 1}/{args.num_epochs}")
+        log_message(f"Epoch {epoch + 1}/{args.num_epochs}")
         
         for batch in tqdm(train_dataloader, desc=f"Training (Epoch {epoch + 1})"):
             input_ids = batch["input_ids"].to(device)
@@ -252,48 +280,61 @@ def train(args):
             
             global_step += 1
             
-            # Evaluation and checkpointing
+            # Log training progress
+            if global_step % args.save_steps == 0:
+                current_loss = epoch_loss / (batch_idx + 1 if epoch == 0 else len(train_dataloader) * epoch + batch_idx + 1)
+                log_message(f"Step {global_step}/{num_training_steps} - Loss: {current_loss:.4f}")
+                metrics_history["steps"].append(global_step)
+                metrics_history["loss"].append(current_loss)
+            
+            # Evaluation
             if global_step % args.eval_steps == 0:
-                print(f"\nEvaluating at step {global_step}...")
+                log_message(f"\nEvaluating at step {global_step}...")
                 results = evaluate(model, eval_dataloader, device, num_labels)
-                print(f"Evaluation results: {results}")
+                log_message(f"Evaluation results: {results}")
+                
+                # Track metrics
+                metrics_history["eval_f1"].append(results["f1"])
+                metrics_history["eval_precision"].append(results["precision"])
+                metrics_history["eval_recall"].append(results["recall"])
                 
                 # Save if best model
                 if results["f1"] > best_f1:
                     best_f1 = results["f1"]
-                    print(f"New best F1: {best_f1:.4f}, saving model...")
+                    log_message(f"New best F1: {best_f1:.4f}, saving model...")
                     model.save_pretrained(os.path.join(args.output_dir, "best_model"))
-                
-            if global_step % args.save_steps == 0:
-                print(f"Saving checkpoint at step {global_step}...")
-                model.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
         
         # End of epoch
         avg_epoch_loss = epoch_loss / len(train_dataloader)
-        print(f"Epoch {epoch + 1} average loss: {avg_epoch_loss:.4f}")
-        
-        # Save epoch checkpoint
-        model.save_pretrained(os.path.join(args.output_dir, f"epoch-{epoch + 1}"))
+        log_message(f"Epoch {epoch + 1} average loss: {avg_epoch_loss:.4f}")
         
         # Evaluate at the end of each epoch
-        print(f"Evaluating after epoch {epoch + 1}...")
+        log_message(f"Evaluating after epoch {epoch + 1}...")
         results = evaluate(model, eval_dataloader, device, num_labels)
-        print(f"Evaluation results: {results}")
+        log_message(f"Evaluation results: {results}")
         
         # Save if best model
         if results["f1"] > best_f1:
             best_f1 = results["f1"]
-            print(f"New best F1: {best_f1:.4f}, saving model...")
+            log_message(f"New best F1: {best_f1:.4f}, saving model...")
             model.save_pretrained(os.path.join(args.output_dir, "best_model"))
     
     # Save final model
-    print("Training complete. Saving final model...")
+    log_message("Training complete. Saving final model...")
     model.save_pretrained(os.path.join(args.output_dir, "final_model"))
     
-    print(f"Best F1: {best_f1:.4f}")
-    print(f"Model saved to {args.output_dir}")
+    # Save metrics history
+    with open(os.path.join(args.output_dir, "metrics_history.json"), "w") as f:
+        json.dump(metrics_history, f, indent=2)
+    
+    log_message(f"Best F1: {best_f1:.4f}")
+    log_message(f"Model saved to {args.output_dir}")
+    log_message(f"Training completed at: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    # Close log file
+    log_file.close()
 
 
 if __name__ == "__main__":
     args = parse_args()
-    train(args) 
+    train(args)

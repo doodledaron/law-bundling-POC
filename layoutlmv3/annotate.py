@@ -405,6 +405,57 @@ def process_cuad_document(pdf_path: str, annotations: Dict, output_dir: str):
     logger.info(f"Completed processing {pdf_path}")
     logger.info(f"Success rate: {success_rate:.2%} ({successful_matches}/{total_qa_pairs} QA pairs)")
     logger.info(f"Processing time: {total_time:.2f}s")
+# find specific pdf files instead of using --limit
+def find_specific_pdf_files(pdf_dir: str, part_config=None) -> List[str]:
+    """
+    Find PDF files based on a configuration of parts and directories.
+    
+    Args:
+        pdf_dir: Base directory containing PDF parts
+        part_config: Dictionary mapping part names to number of directories to include
+                     If None, will default to {"Part_I": 5}
+                     Special value "all" means include all directories
+    
+    Returns:
+        List of PDF file paths matching the criteria
+    """
+    if not part_config:
+        part_config = {"Part_I": 5}  # Default configuration
+    
+    pdf_files = []
+    
+    for part_name, num_dirs in part_config.items():
+        part_path = os.path.join(pdf_dir, part_name)
+        
+        # Check if the part directory exists
+        if not os.path.exists(part_path):
+            print(f"Warning: {part_path} does not exist")
+            continue
+        
+        # Get all subdirectories in the part
+        subdirs = [d for d in os.listdir(part_path) 
+                  if os.path.isdir(os.path.join(part_path, d))]
+        
+        # Sort them alphabetically
+        subdirs.sort()
+        
+        # Take all or specified number of directories
+        if num_dirs == "all":
+            target_dirs = subdirs
+        else:
+            target_dirs = subdirs[:num_dirs]
+            
+        print(f"Processing from {part_name}: {len(target_dirs)} directories - {target_dirs}")
+        
+        # Now find all PDFs in these directories
+        for subdir in target_dirs:
+            subdir_path = os.path.join(part_path, subdir)
+            for file in os.listdir(subdir_path):
+                if file.endswith(".pdf"):
+                    pdf_path = os.path.join(subdir_path, file)
+                    pdf_files.append(pdf_path)
+    
+    return pdf_files
 
 def find_pdf_files(pdf_dir: str) -> List[str]:
     """
@@ -642,7 +693,12 @@ def main():
                         help='Limit processing to this many documents (for testing)')
     parser.add_argument('--skip-existing', action='store_true',
                         help='Skip processing documents that already have output files')
-    
+    parser.add_argument('--target-part', type=str, default="Part_I", 
+                    help='Target part directory to process (e.g., Part_I)')
+    parser.add_argument('--num-dirs', type=int, default=5, 
+                    help='Number of directories to process within the target part')
+    parser.add_argument('--part-config', type=str, default=None,
+                    help='JSON configuration of parts and directory counts, e.g., \'{"Part_I":"all","Part_II":10}\'')
     args = parser.parse_args()
     
     # Configure paths from arguments
@@ -690,9 +746,24 @@ def main():
         logger.error(f"Failed to load annotations: {str(e)}")
         return
     
-    # Find PDF files to process
-    pdf_files = find_pdf_files(pdf_dir)
-    
+    # Find PDF SPECIFIC files to process: example: python annotate.py --part-config='{"Part_I":"all","Part_II":10,"Part_III":5}'
+    # Parse part configuration if provided
+    part_config = None
+    if args.part_config:
+        try:
+            part_config = json.loads(args.part_config)
+        except json.JSONDecodeError:
+            logger.error(f"Invalid part configuration format: {args.part_config}")
+            logger.error("Expected JSON format like: '{\"Part_I\":\"all\",\"Part_II\":10}'")
+            return
+
+    # Use part config if provided, otherwise use target_part and num_dirs
+    if part_config:
+        pdf_files = find_specific_pdf_files(pdf_dir, part_config=part_config)
+    else:
+        # Default to single part with specified number of directories
+        pdf_files = find_specific_pdf_files(pdf_dir, part_config={args.target_part: args.num_dirs})
+        
     if not pdf_files:
         logger.error(f"No PDF files found in {pdf_dir}")
         return
