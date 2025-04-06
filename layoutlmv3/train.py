@@ -253,7 +253,8 @@ def train(args):
         
         log_message(f"Epoch {epoch + 1}/{args.num_epochs}")
         
-        for batch in tqdm(train_dataloader, desc=f"Training (Epoch {epoch + 1})"):
+        # Use enumerate to track batch index
+        for batch_idx, batch in enumerate(tqdm(train_dataloader, desc=f"Training (Epoch {epoch + 1})")):
             input_ids = batch["input_ids"].to(device)
             bbox = batch["bbox"].to(device)
             attention_mask = batch["attention_mask"].to(device)
