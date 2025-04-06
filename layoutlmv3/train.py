@@ -7,6 +7,8 @@ import torch
 import torch.nn as nn
 import numpy as np
 from tqdm import tqdm
+import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
 from torch.optim import AdamW
 from transformers import (
     LayoutLMv3ForTokenClassification,
@@ -289,6 +291,175 @@ def load_checkpoint(
     return (model, optimizer, scheduler, epoch, global_step, batch_idx, 
             metrics_history, best_f1, args_dict)
 
+def save_training_visualizations(metrics_history, log_path, output_dir, start_time):
+    """
+    Generate and save visualizations of training metrics.
+    
+    Args:
+        metrics_history: Dictionary containing training metrics
+        log_path: Path to the training log file
+        output_dir: Directory to save the visualizations
+        start_time: Training start time for labeling
+    """
+    # Create visualizations directory
+    vis_dir = os.path.join(output_dir, "visualizations")
+    os.makedirs(vis_dir, exist_ok=True)
+    
+    # Extract information from log file
+    training_params = {}
+    steps_per_epoch = None
+    num_epochs = None
+    
+    if os.path.exists(log_path):
+        with open(log_path, "r") as f:
+            for line in f:
+                if "Parameters:" in line:
+                    try:
+                        params_str = line.split("Parameters:")[1].strip()
+                        params = eval(params_str)
+                        num_epochs = params.get('num_epochs', 25)
+                        batch_size = params.get('batch_size', 2)
+                        training_params = params
+                    except:
+                        pass
+                
+                # Look for total steps information
+                if "Starting" in line and "training with" in line and "steps" in line:
+                    try:
+                        total_steps = int(line.split("with ")[1].split(" ")[0])
+                        if num_epochs:
+                            steps_per_epoch = total_steps / num_epochs
+                    except:
+                        pass
+    
+    # Extract training completion time
+    completion_time = None
+    with open(log_path, "r") as f:
+        lines = f.readlines()
+        for line in reversed(lines):
+            if "Training completed at:" in line:
+                completion_time = line.strip().split("Training completed at:")[1].strip()
+                break
+    
+    # If we couldn't determine steps_per_epoch, estimate from steps
+    if not steps_per_epoch and 'steps' in metrics_history and metrics_history['steps']:
+        steps_per_epoch = max(metrics_history['steps']) / num_epochs if num_epochs else 80
+    
+    # Convert steps to epochs for plotting
+    if 'steps' in metrics_history and metrics_history['steps']:
+        steps_as_epochs = [step / steps_per_epoch for step in metrics_history['steps']]
+    else:
+        steps_as_epochs = []
+    
+    # Extract epoch average losses
+    epochs = []
+    epoch_loss = []
+    with open(log_path, "r") as f:
+        for line in f:
+            if "Epoch " in line and "average loss:" in line:
+                try:
+                    # The line format: "Epoch X average loss: Y.YYYY"
+                    epoch_part = line.split("Epoch ")[1].split(" average")[0]
+                    epoch_num = int(epoch_part)
+                    loss_part = line.split("average loss: ")[1]
+                    avg_loss = float(loss_part)
+                    epochs.append(epoch_num)
+                    epoch_loss.append(avg_loss)
+                except Exception as e:
+                    print(f"Error parsing epoch loss: {line.strip()} - {str(e)}")
+    
+    # Create a figure with multiple subplots
+    fig = plt.figure(figsize=(15, 12))
+    fig.suptitle(f'Training Metrics for {os.path.basename(output_dir)}', fontsize=16)
+    
+    # 1. Training Loss vs Epochs
+    if metrics_history.get('steps') and metrics_history.get('loss'):
+        ax1 = fig.add_subplot(2, 2, 1)
+        ax1.plot(steps_as_epochs, metrics_history['loss'], 'b-', label='Training Loss')
+        ax1.set_xlabel('Epochs')
+        ax1.set_ylabel('Loss')
+        ax1.set_title('Training Loss vs Epochs')
+        ax1.legend()
+        ax1.grid(True, linestyle='--', alpha=0.7)
+    
+    # 2. Evaluation Metrics vs Epochs
+    if metrics_history.get('steps') and metrics_history.get('eval_f1') and len(metrics_history['steps']) == len(metrics_history['eval_f1']):
+        ax2 = fig.add_subplot(2, 2, 2)
+        ax2.plot(steps_as_epochs, metrics_history['eval_precision'], 'r-', label='Precision')
+        ax2.plot(steps_as_epochs, metrics_history['eval_recall'], 'g-', label='Recall')
+        ax2.plot(steps_as_epochs, metrics_history['eval_f1'], 'b-', label='F1 Score')
+        ax2.set_xlabel('Epochs')
+        ax2.set_ylabel('Score')
+        ax2.set_title('Evaluation Metrics vs Epochs')
+        ax2.legend()
+        ax2.grid(True, linestyle='--', alpha=0.7)
+    
+    # 3. Epoch Average Loss
+    if epochs and epoch_loss:
+        ax3 = fig.add_subplot(2, 2, 3)
+        ax3.plot(epochs, epoch_loss, 'r-o', label='Epoch Loss')
+        ax3.set_xlabel('Epoch')
+        ax3.set_ylabel('Average Loss')
+        ax3.set_title('Average Loss per Epoch')
+        ax3.xaxis.set_major_locator(MaxNLocator(integer=True))  # Only show integer ticks for epochs
+        ax3.legend()
+        ax3.grid(True, linestyle='--', alpha=0.7)
+        
+        # Set y-axis to start from 0
+        ax3.set_ylim(bottom=0)
+    
+    # 4. Training Summary
+    ax4 = fig.add_subplot(2, 2, 4)
+    ax4.axis('off')  # No axes for this text display
+    
+    # Extract best F1 score
+    best_f1 = 0
+    if metrics_history.get('eval_f1'):
+        best_f1 = max(metrics_history['eval_f1'])
+    else:
+        with open(log_path, "r") as f:
+            for line in f:
+                if "Best F1:" in line:
+                    try:
+                        best_f1 = float(line.split("Best F1:")[1].strip())
+                    except:
+                        pass
+    
+    # Create training summary
+    summary_text = f"Training Summary:\n\n"
+    summary_text += f"Training started at: {start_time}\n"
+    if completion_time:
+        summary_text += f"Training completed at: {completion_time}\n"
+    
+    # Add training parameters
+    if training_params:
+        summary_text += f"Batch Size: {training_params.get('batch_size', 'N/A')}\n"
+        summary_text += f"Learning Rate: {training_params.get('learning_rate', 'N/A')}\n"
+        summary_text += f"Epochs: {training_params.get('num_epochs', 'N/A')}\n"
+        summary_text += f"Device: {training_params.get('device', 'N/A')}\n"
+    
+    summary_text += f"\nBest F1 Score: {best_f1:.4f}\n"
+    
+    if epochs:
+        summary_text += f"Completed Epochs: {max(epochs)}\n"
+    
+    if metrics_history.get('steps'):
+        summary_text += f"Total Steps: {max(metrics_history['steps'])}\n"
+        summary_text += f"Steps per Epoch: {steps_per_epoch:.0f}\n"
+    
+    ax4.text(0.05, 0.95, summary_text, transform=ax4.transAxes, 
+            fontsize=12, verticalalignment='top', wrap=True)
+    
+    plt.tight_layout(rect=[0, 0, 1, 0.96])  # Adjust for the title
+    
+    # Save the figure
+    plt.savefig(os.path.join(vis_dir, "training_metrics.png"), dpi=300, bbox_inches="tight")
+    plt.savefig(os.path.join(vis_dir, "training_metrics.pdf"), format="pdf", bbox_inches="tight")
+    
+    # Close the figure to free memory
+    plt.close(fig)
+    
+    print(f"Training visualizations saved to {vis_dir}")
 
 def train(args):
     """
@@ -299,7 +470,8 @@ def train(args):
     """
     # Create output directory
     os.makedirs(args.output_dir, exist_ok=True)
-    
+    # Record training start time
+    start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     # Create log file (append mode when resuming)
     log_file_path = os.path.join(args.output_dir, "training_log.txt")
     log_file_mode = "a" if args.resume_from else "w"
@@ -582,6 +754,14 @@ def train(args):
     log_message(f"Model saved to {args.output_dir}")
     log_message(f"Training completed at: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
+    # Save visualizations after training completes
+    log_message("Generating training visualizations...")
+    save_training_visualizations(
+        metrics_history=metrics_history,
+        log_path=log_file_path,
+        output_dir=args.output_dir,
+        start_time=start_time
+    )
     # Close log file
     log_file.close()
 
