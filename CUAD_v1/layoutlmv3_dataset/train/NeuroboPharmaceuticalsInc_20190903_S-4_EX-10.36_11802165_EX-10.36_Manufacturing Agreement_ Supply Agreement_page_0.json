@@ -1,0 +1,90 @@
+[
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      477,
+      153,
+      855,
+      163
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(DA-9801 Licensed Products)",
+    "bbox": [
+      551,
+      167,
+      781,
+      180
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "DONG-A ST CO., LTD.",
+    "bbox": [
+      577,
+      200,
+      754,
+      210
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DONG-A ST CO., LTD.",
+    "bbox": [
+      577,
+      200,
+      754,
+      210
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "NEUROBO PHARMACEUTICALS, INC",
+    "bbox": [
+      510,
+      232,
+      821,
+      243
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "NEUROBO PHARMACEUTICALS, INC",
+    "bbox": [
+      510,
+      232,
+      821,
+      243
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dated: September 28, 2018",
+    "bbox": [
+      562,
+      248,
+      771,
+      259
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Dated: September 28, 2018",
+    "bbox": [
+      562,
+      248,
+      771,
+      259
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

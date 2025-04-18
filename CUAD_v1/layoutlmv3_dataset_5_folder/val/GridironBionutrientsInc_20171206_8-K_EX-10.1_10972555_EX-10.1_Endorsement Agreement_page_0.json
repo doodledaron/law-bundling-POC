@@ -1,0 +1,3313 @@
+[
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      547,
+      106,
+      787,
+      115
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "This Endorsement Agreement (\"Agreement) made October 30, 2017, between National Football League Alumni -",
+    "bbox": [
+      243,
+      137,
+      1000,
+      149
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Northern California Chapter (\"NFLA-NC'), a charitable corporation organized under the laws of California, having its principal.",
+    "bbox": [
+      179,
+      152,
+      1000,
+      165
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (\"NFLA'), a charitable corporation",
+    "bbox": [
+      179,
+      168,
+      1000,
+      181
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "organized under the laws of Florida, having its principal office at 800o Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food",
+    "bbox": [
+      180,
+      185,
+      1000,
+      197
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrientsTM, a corporation organized under",
+    "bbox": [
+      179,
+      200,
+      1000,
+      213
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Company\").",
+    "bbox": [
+      178,
+      231,
+      280,
+      247
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      265,
+      710,
+      275
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      297,
+      208,
+      307
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose.",
+    "bbox": [
+      216,
+      297,
+      1000,
+      309
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and",
+    "bbox": [
+      216,
+      312,
+      1000,
+      325
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "social programs to help members lead healthy, productive and connected lives.",
+    "bbox": [
+      217,
+      329,
+      807,
+      341
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      360,
+      195,
+      372
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations \"Caring for Kids\" initiative through",
+    "bbox": [
+      217,
+      360,
+      1000,
+      373
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "fundraising for youth-related charities..",
+    "bbox": [
+      218,
+      377,
+      506,
+      389
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      179,
+      408,
+      197,
+      420
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the.",
+    "bbox": [
+      216,
+      409,
+      1000,
+      421
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A..",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      178,
+      457,
+      197,
+      468
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "In consideration of the matters described above, and of the mutual benefits and obligations set forth in this Agreement,",
+    "bbox": [
+      241,
+      488,
+      1000,
+      501
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the parties agree as follows:.",
+    "bbox": [
+      180,
+      505,
+      395,
+      517
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "SECTION ONE. DEFINITIONS",
+    "bbox": [
+      548,
+      536,
+      785,
+      547
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "As used in this Agreement, the following terms shall be defined as follows.",
+    "bbox": [
+      181,
+      569,
+      740,
+      580
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      180,
+      601,
+      202,
+      611
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Contract Period\" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding",
+    "bbox": [
+      201,
+      599,
+      1000,
+      613
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.",
+    "bbox": [
+      216,
+      620,
+      891,
+      632
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      178,
+      656,
+      195,
+      667
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Contract Territory\"' shall mean worldwide..",
+    "bbox": [
+      217,
+      656,
+      537,
+      668
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      688,
+      197,
+      699
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Contract Year\"' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of",
+    "bbox": [
+      215,
+      687,
+      1000,
+      701
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Contract Period.",
+    "bbox": [
+      217,
+      704,
+      366,
+      716
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      736,
+      672,
+      747
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "The NFLA agrees to license such rights to the Company.",
+    "bbox": [
+      215,
+      456,
+      642,
+      469
+    ],
+    "label": 25,
+    "category": "License Grant"
+  }
+]

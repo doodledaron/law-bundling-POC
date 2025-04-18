@@ -1,0 +1,959 @@
+[
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      112,
+      97,
+      345,
+      107
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(\"Company'), and XXXXXXXXXXXXXXXXXXXXX (\"Distributor\").",
+    "bbox": [
+      112,
+      144,
+      639,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS DISTRIBUTOR AGREEMENT (this \"Agreement\") is made and effective as of1 August 2019, by and between, B & C General Warehouse",
+    "bbox": [
+      113,
+      113,
+      1000,
+      124
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Corporation LLC , a USA Limited Liability Company (LLC), with an address located at 7405 SW 11th CT, North Lauderdale, FL, 33068, USA,",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      112,
+      97,
+      345,
+      107
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Corporation LLC , a USA Limited Liability Company (LLC), with an address located at 7405 SW 11th CT, North Lauderdale, FL, 33068, USA,",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS DISTRIBUTOR AGREEMENT (this \"Agreement\") is made and effective as of1 August 2019, by and between, B & C General Warehouse",
+    "bbox": [
+      113,
+      113,
+      1000,
+      124
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "THIS DISTRIBUTOR AGREEMENT (this \"Agreement\") is made and effective as of1 August 2019, by and between, B & C General Warehouse",
+    "bbox": [
+      113,
+      113,
+      1000,
+      124
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 6.1",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      112,
+      97,
+      345,
+      107
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THIS DISTRIBUTOR AGREEMENT (this \"Agreement\") is made and effective as of1 August 2019, by and between, B & C General Warehouse",
+    "bbox": [
+      113,
+      113,
+      1000,
+      124
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Corporation LLC , a USA Limited Liability Company (LLC), with an address located at 7405 SW 11th CT, North Lauderdale, FL, 33068, USA,",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(\"Company'), and XXXXXXXXXXXXXXXXXXXXX (\"Distributor\").",
+    "bbox": [
+      112,
+      144,
+      639,
+      157
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Company Import the products from Brazil Farm origin (Arte Cafe - Prescafe Torrefacao e Comercio de Cafe, a Brazil company, with an address.",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "located at 1 Fazenda Sao Gabriel, Guaxupe, Cep 37800-o00, Minas Gerais, Brazil), and sells the products listed in Section 1.c below (the \"Products\").",
+    "bbox": [
+      111,
+      177,
+      1000,
+      189
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Territory\"). Company desires to appoint Distributor as its exclusive distributor of the Products to all Clients that Distributor introduce, and upon.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "confirmed the first order, this client come to be exclusive of Distributor, every new customer introduced by Distributor, must be approved by the",
+    "bbox": [
+      111,
+      225,
+      1000,
+      237
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "company prior to any sale. After official approval from the Company, the customer introduced by Distributor, will appear on an official list in this",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "contract, and will only be met by the Distributor and will follow the rules of this agreement..",
+    "bbox": [
+      111,
+      257,
+      793,
+      269
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Distributor desires such appointment subject to the terms and conditions set forth in this Agreement, including any exhibits or schedules attached.",
+    "bbox": [
+      111,
+      273,
+      1000,
+      285
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "hereto.",
+    "bbox": [
+      110,
+      288,
+      164,
+      300
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Now, Therefore, in consideration of the foregoing, and of the mutual benefit contained herein, the Parties, intending to be legally bound, agree as",
+    "bbox": [
+      110,
+      304,
+      1000,
+      317
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      320,
+      171,
+      332
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "AGREEMENT OF THE PARTIES",
+    "bbox": [
+      112,
+      336,
+      358,
+      347
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1. APPOINTMENT, ACCEPTANCE & SCOPE.",
+    "bbox": [
+      113,
+      353,
+      470,
+      363
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(a) Exclusive Appointment. Subject to the terms and conditions of this Distributor Agreement, Company hereby appoints and grants Distributor the",
+    "bbox": [
+      112,
+      368,
+      1000,
+      381
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "exclusive right to sell and distribute the Products to customers that Distributor introduce and confirmed by Company, (in all territory of United State",
+    "bbox": [
+      112,
+      385,
+      1000,
+      397
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "of America (USA) and to render other services as a distributor for Company as set forth herein. Distributor shall limit its activities with respect to",
+    "bbox": [
+      112,
+      401,
+      1000,
+      413
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the Products to Customers located within the Territory and refrain from selling or otherwise transferring, directly or indirectly, the Products to any.",
+    "bbox": [
+      111,
+      416,
+      1000,
+      430
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "person outside the Territory, without the express written consent of Company. Company shall not sell or otherwise supply, directly or indirectly, the.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Products to any Distributor's Customer's, except by sale through the Distributor. The Company shall not contact any of Distributor's Customer's",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "for any reason, without the prior written approval of Distributor..",
+    "bbox": [
+      111,
+      465,
+      591,
+      477
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: GENTECH HOLDINGS, INC., 1-A, 8/8/2019",
+    "bbox": [
+      133,
+      1000,
+      536,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "person outside the Territory, without the express written consent of Company. Company shall not sell or otherwise supply, directly or indirectly, the.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Products to any Distributor's Customer's, except by sale through the Distributor. The Company shall not contact any of Distributor's Customer's",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Products to any Distributor's Customer's, except by sale through the Distributor. The Company shall not contact any of Distributor's Customer's",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "for any reason, without the prior written approval of Distributor..",
+    "bbox": [
+      111,
+      465,
+      591,
+      477
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "Exhibit 6.1",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      112,
+      97,
+      345,
+      107
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "THIS DISTRIBUTOR AGREEMENT (this \"Agreement\") is made and effective as of1 August 2019, by and between, B & C General Warehouse",
+    "bbox": [
+      113,
+      113,
+      1000,
+      124
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Corporation LLC , a USA Limited Liability Company (LLC), with an address located at 7405 SW 11th CT, North Lauderdale, FL, 33068, USA,",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(\"Company'), and XXXXXXXXXXXXXXXXXXXXX (\"Distributor\").",
+    "bbox": [
+      112,
+      144,
+      639,
+      157
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Company Import the products from Brazil Farm origin (Arte Cafe - Prescafe Torrefacao e Comercio de Cafe, a Brazil company, with an address.",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "located at 1 Fazenda Sao Gabriel, Guaxupe, Cep 37800-o00, Minas Gerais, Brazil), and sells the products listed in Section 1.c below (the \"Products\").",
+    "bbox": [
+      111,
+      177,
+      1000,
+      189
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Territory\"). Company desires to appoint Distributor as its exclusive distributor of the Products to all Clients that Distributor introduce, and upon.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "confirmed the first order, this client come to be exclusive of Distributor, every new customer introduced by Distributor, must be approved by the",
+    "bbox": [
+      111,
+      225,
+      1000,
+      237
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "company prior to any sale. After official approval from the Company, the customer introduced by Distributor, will appear on an official list in this",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "contract, and will only be met by the Distributor and will follow the rules of this agreement..",
+    "bbox": [
+      111,
+      257,
+      793,
+      269
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Distributor desires such appointment subject to the terms and conditions set forth in this Agreement, including any exhibits or schedules attached.",
+    "bbox": [
+      111,
+      273,
+      1000,
+      285
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "hereto.",
+    "bbox": [
+      110,
+      288,
+      164,
+      300
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Now, Therefore, in consideration of the foregoing, and of the mutual benefit contained herein, the Parties, intending to be legally bound, agree as",
+    "bbox": [
+      110,
+      304,
+      1000,
+      317
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      320,
+      171,
+      332
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "AGREEMENT OF THE PARTIES",
+    "bbox": [
+      112,
+      336,
+      358,
+      347
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1. APPOINTMENT, ACCEPTANCE & SCOPE.",
+    "bbox": [
+      113,
+      353,
+      470,
+      363
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(a) Exclusive Appointment. Subject to the terms and conditions of this Distributor Agreement, Company hereby appoints and grants Distributor the",
+    "bbox": [
+      112,
+      368,
+      1000,
+      381
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "exclusive right to sell and distribute the Products to customers that Distributor introduce and confirmed by Company, (in all territory of United State",
+    "bbox": [
+      112,
+      385,
+      1000,
+      397
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "of America (USA) and to render other services as a distributor for Company as set forth herein. Distributor shall limit its activities with respect to",
+    "bbox": [
+      112,
+      401,
+      1000,
+      413
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the Products to Customers located within the Territory and refrain from selling or otherwise transferring, directly or indirectly, the Products to any.",
+    "bbox": [
+      111,
+      416,
+      1000,
+      430
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "person outside the Territory, without the express written consent of Company. Company shall not sell or otherwise supply, directly or indirectly, the.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Products to any Distributor's Customer's, except by sale through the Distributor. The Company shall not contact any of Distributor's Customer's",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "for any reason, without the prior written approval of Distributor..",
+    "bbox": [
+      111,
+      465,
+      591,
+      477
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: GENTECH HOLDINGS, INC., 1-A, 8/8/2019",
+    "bbox": [
+      133,
+      1000,
+      536,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Exhibit 6.1",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      112,
+      97,
+      345,
+      107
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "THIS DISTRIBUTOR AGREEMENT (this \"Agreement\") is made and effective as of1 August 2019, by and between, B & C General Warehouse",
+    "bbox": [
+      113,
+      113,
+      1000,
+      124
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Corporation LLC , a USA Limited Liability Company (LLC), with an address located at 7405 SW 11th CT, North Lauderdale, FL, 33068, USA,",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(\"Company'), and XXXXXXXXXXXXXXXXXXXXX (\"Distributor\").",
+    "bbox": [
+      112,
+      144,
+      639,
+      157
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Company Import the products from Brazil Farm origin (Arte Cafe - Prescafe Torrefacao e Comercio de Cafe, a Brazil company, with an address.",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "located at 1 Fazenda Sao Gabriel, Guaxupe, Cep 37800-o00, Minas Gerais, Brazil), and sells the products listed in Section 1.c below (the \"Products\").",
+    "bbox": [
+      111,
+      177,
+      1000,
+      189
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "\"Territory\"). Company desires to appoint Distributor as its exclusive distributor of the Products to all Clients that Distributor introduce, and upon.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "confirmed the first order, this client come to be exclusive of Distributor, every new customer introduced by Distributor, must be approved by the",
+    "bbox": [
+      111,
+      225,
+      1000,
+      237
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "company prior to any sale. After official approval from the Company, the customer introduced by Distributor, will appear on an official list in this",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "contract, and will only be met by the Distributor and will follow the rules of this agreement..",
+    "bbox": [
+      111,
+      257,
+      793,
+      269
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Distributor desires such appointment subject to the terms and conditions set forth in this Agreement, including any exhibits or schedules attached.",
+    "bbox": [
+      111,
+      273,
+      1000,
+      285
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "hereto.",
+    "bbox": [
+      110,
+      288,
+      164,
+      300
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Now, Therefore, in consideration of the foregoing, and of the mutual benefit contained herein, the Parties, intending to be legally bound, agree as",
+    "bbox": [
+      110,
+      304,
+      1000,
+      317
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      320,
+      171,
+      332
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "AGREEMENT OF THE PARTIES",
+    "bbox": [
+      112,
+      336,
+      358,
+      347
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1. APPOINTMENT, ACCEPTANCE & SCOPE.",
+    "bbox": [
+      113,
+      353,
+      470,
+      363
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(a) Exclusive Appointment. Subject to the terms and conditions of this Distributor Agreement, Company hereby appoints and grants Distributor the",
+    "bbox": [
+      112,
+      368,
+      1000,
+      381
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "exclusive right to sell and distribute the Products to customers that Distributor introduce and confirmed by Company, (in all territory of United State",
+    "bbox": [
+      112,
+      385,
+      1000,
+      397
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "of America (USA) and to render other services as a distributor for Company as set forth herein. Distributor shall limit its activities with respect to",
+    "bbox": [
+      112,
+      401,
+      1000,
+      413
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "the Products to Customers located within the Territory and refrain from selling or otherwise transferring, directly or indirectly, the Products to any.",
+    "bbox": [
+      111,
+      416,
+      1000,
+      430
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "person outside the Territory, without the express written consent of Company. Company shall not sell or otherwise supply, directly or indirectly, the.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Products to any Distributor's Customer's, except by sale through the Distributor. The Company shall not contact any of Distributor's Customer's",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "for any reason, without the prior written approval of Distributor..",
+    "bbox": [
+      111,
+      465,
+      591,
+      477
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: GENTECH HOLDINGS, INC., 1-A, 8/8/2019",
+    "bbox": [
+      133,
+      1000,
+      536,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  }
+]

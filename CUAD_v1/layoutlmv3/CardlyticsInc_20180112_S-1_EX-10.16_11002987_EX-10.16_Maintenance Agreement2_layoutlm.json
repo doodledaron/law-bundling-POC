@@ -1,0 +1,185 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Maintenance\\CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2.pdf",
+  "annotations": [
+    {
+      "id": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "Customization Schedule",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Customization Schedule",
+          "bbox": [
+            2579.0,
+            409.0,
+            3023.0,
+            446.0
+          ],
+          "confidence": 0.9999182224273682
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SCHEDULE B",
+          "page": 0,
+          "bbox": [
+            2757.0,
+            296.0,
+            3029.0,
+            333.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "Software License, Customization and Maintenance Agreement",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "This Customization Schedule is attached to the Software License, Customization and Maintenance Agreement (the \"Agreement') executed by and",
+          "bbox": [
+            279.0,
+            519.0,
+            2998.0,
+            559.0
+          ],
+          "confidence": 0.991739809513092
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SCHEDULE B",
+          "page": 0,
+          "bbox": [
+            2757.0,
+            296.0,
+            3029.0,
+            333.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Bank of America, N.A.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name> (\"Supplier'). The Customizations identified hereunder shall be.",
+          "bbox": [
+            279.0,
+            577.0,
+            2991.0,
+            619.0
+          ],
+          "confidence": 0.9862821102142334
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SCHEDULE B",
+          "page": 0,
+          "bbox": [
+            2757.0,
+            296.0,
+            3029.0,
+            333.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "<<enter Company Name>>",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name> (\"Supplier'). The Customizations identified hereunder shall be.",
+          "bbox": [
+            279.0,
+            577.0,
+            2991.0,
+            619.0
+          ],
+          "confidence": 0.9862821102142334
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SCHEDULE B",
+          "page": 0,
+          "bbox": [
+            2757.0,
+            296.0,
+            3029.0,
+            333.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Bank of America",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name> (\"Supplier'). The Customizations identified hereunder shall be.",
+          "bbox": [
+            279.0,
+            577.0,
+            2991.0,
+            619.0
+          ],
+          "confidence": 0.9862821102142334
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SCHEDULE B",
+          "page": 0,
+          "bbox": [
+            2757.0,
+            296.0,
+            3029.0,
+            333.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Supplier",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name> (\"Supplier'). The Customizations identified hereunder shall be.",
+          "bbox": [
+            279.0,
+            577.0,
+            2991.0,
+            619.0
+          ],
+          "confidence": 0.9862821102142334
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SCHEDULE B",
+          "page": 0,
+          "bbox": [
+            2757.0,
+            296.0,
+            3029.0,
+            333.0
+          ]
+        }
+      ]
+    }
+  ]
+}

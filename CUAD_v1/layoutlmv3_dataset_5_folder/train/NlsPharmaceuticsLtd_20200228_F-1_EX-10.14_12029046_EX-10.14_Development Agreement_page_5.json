@@ -1,0 +1,431 @@
+[
+  {
+    "text": "License and Development Agreement.",
+    "bbox": [
+      937,
+      73,
+      1000,
+      84
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Licensed",
+    "bbox": [
+      179,
+      107,
+      250,
+      118
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Any and all products that are manufactured, sold, or otherwise supplied by the Licensee (including any Affiliate or",
+    "bbox": [
+      293,
+      107,
+      1000,
+      119
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Product",
+    "bbox": [
+      178,
+      122,
+      243,
+      135
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Distributor of the Licensee) and which incorporate, or their development makes use of, any Intellectual Property or",
+    "bbox": [
+      291,
+      122,
+      1000,
+      135
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Developed Intellectual Property.",
+    "bbox": [
+      291,
+      138,
+      534,
+      152
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Licensee",
+    "bbox": [
+      177,
+      154,
+      250,
+      167
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall mean with respect to the Licensed Product (as defined hereunder) all know-how, trade secrets and scientific, technical,",
+    "bbox": [
+      291,
+      154,
+      1000,
+      167
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Know-how",
+    "bbox": [
+      179,
+      171,
+      257,
+      182
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "including manufacturing or regulatory information, developed, applied or acquired by Eurofarma which relates to the",
+    "bbox": [
+      293,
+      171,
+      1000,
+      183
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "identification, characterization, expression, synthesis, use, or production of the Licensed Product and which is reasonably",
+    "bbox": [
+      292,
+      187,
+      1000,
+      199
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "useful or necessary to research, develop, use, make, have made, import, distribute, offer for sale, and/or sell the Licensed",
+    "bbox": [
+      292,
+      203,
+      1000,
+      215
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Product.",
+    "bbox": [
+      291,
+      218,
+      356,
+      231
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Losses",
+    "bbox": [
+      176,
+      233,
+      235,
+      247
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall have the meaning set forth in Article 17.1 of this Agreement.",
+    "bbox": [
+      291,
+      234,
+      784,
+      247
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Marketing",
+    "bbox": [
+      178,
+      249,
+      264,
+      264
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in relation to the Licensed Product, shall mean those approvals necessary from one or more competent authorities in the",
+    "bbox": [
+      292,
+      251,
+      1000,
+      263
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Authorisation Territory for manufacturing, importing, marketing, distributing, offering for sale and/or selling the Licensed Product in one",
+    "bbox": [
+      179,
+      266,
+      1000,
+      279
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "/MA",
+    "bbox": [
+      177,
+      282,
+      220,
+      295
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or several countries of the Territory..",
+    "bbox": [
+      291,
+      282,
+      561,
+      295
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Net Sales",
+    "bbox": [
+      177,
+      297,
+      254,
+      311
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means the total of the gross invoice prices of Licensed Products sold or leased by the Licensee, an Affiliate, a Distributor,",
+    "bbox": [
+      291,
+      298,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or any combination thereof, less the sum of the following actual and customary deductions where applicable and separately",
+    "bbox": [
+      291,
+      315,
+      1000,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "listed: cash, trade, or quantity discounts; sales, use, tariff, import/export duties or other excise taxes imposed on particular",
+    "bbox": [
+      291,
+      330,
+      1000,
+      343
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "sales (in particular value-added tax); transportation charges; or credits to customers because of rejections or returns. For",
+    "bbox": [
+      293,
+      347,
+      1000,
+      359
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "purposes of calculating Net Sales, transfers to an Affiliate or to a Distributor of Licensed Product under this Agreement for",
+    "bbox": [
+      292,
+      362,
+      1000,
+      375
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i) end use (but not resale) by the Affiliate shall be treated as sales by Licensee at the list price of the Licensee in an arm-",
+    "bbox": [
+      293,
+      378,
+      1000,
+      391
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "length transaction, or (ii) resale by an Affiliate shall be treated as sales at the list price of the Affiliate.",
+    "bbox": [
+      293,
+      395,
+      1000,
+      407
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Patents",
+    "bbox": [
+      179,
+      410,
+      239,
+      422
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall mean Brazilian Patent Application No. BR 11 2018 068143 filed on September 6, 2018, and Mexican Patent Application",
+    "bbox": [
+      293,
+      411,
+      1000,
+      423
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "No. MX/a/2018/010864 filed on September 7, 2018, covering multi-layered formulation of Mazindol, including all provisional",
+    "bbox": [
+      291,
+      426,
+      1000,
+      439
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "applications, continuations, divisions, extensions, re-examinations, certificates, reissues and Supplementary Protection",
+    "bbox": [
+      293,
+      443,
+      1000,
+      455
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Certificates.",
+    "bbox": [
+      293,
+      458,
+      382,
+      470
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Phase III",
+    "bbox": [
+      180,
+      475,
+      247,
+      485
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall mean a controlled clinical study of mazindol CR that aims to establish the therapeutic benefit and safety of mazindol",
+    "bbox": [
+      291,
+      474,
+      1000,
+      487
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Clinical Trial CR in the Field in a larger patient sample in a manner sufficient to be included in the Dossier and obtain one or several",
+    "bbox": [
+      178,
+      489,
+      1000,
+      504
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Marketing Authorisations to market such Licensed Product in the Territory.",
+    "bbox": [
+      291,
+      506,
+      856,
+      519
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      538,
+      672,
+      550
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      133,
+      1000,
+      547,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

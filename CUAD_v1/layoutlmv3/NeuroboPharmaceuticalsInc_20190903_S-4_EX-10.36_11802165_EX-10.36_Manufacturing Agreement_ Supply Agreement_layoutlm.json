@@ -1,0 +1,2235 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Manufacturing\\NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement.pdf",
+  "annotations": [
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "MANUFACTURING AND SUPPLY AGREEMENT (DA-9801 Licensed Products)",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ],
+          "confidence": 0.9972264766693115
+        },
+        {
+          "text": "(DA-9801 Licensed Products)",
+          "bbox": [
+            1368.0,
+            588.0,
+            1938.0,
+            634.0
+          ],
+          "confidence": 0.997552752494812
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Dong-A ST Co., Ltd.,",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ],
+          "confidence": 0.9804332852363586
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Dong-A",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ],
+          "confidence": 0.9804332852363586
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "NeuroBo Pharmaceuticals, Inc.,",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ],
+          "confidence": 0.9984108805656433
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "NeuroBo",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ],
+          "confidence": 0.9984108805656433
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "September 28, 2018",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Dated: September 28, 2018",
+          "bbox": [
+            1396.0,
+            873.0,
+            1914.0,
+            910.0
+          ],
+          "confidence": 0.9992944598197937
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "September 28, 2018",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Dated: September 28, 2018",
+          "bbox": [
+            1396.0,
+            873.0,
+            1914.0,
+            910.0
+          ],
+          "confidence": 0.9992944598197937
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Expiration Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Agreement shall commence on the Effective Date and, unless earlier terminated, shall continue in full force and effect for a period of [***] years thereafter.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "bbox": [
+            1187.0,
+            258.0,
+            2119.0,
+            294.0
+          ],
+          "confidence": 0.9878616333007812
+        },
+        {
+          "text": "(DA-9801 Licensed Products)",
+          "bbox": [
+            1370.0,
+            316.0,
+            1934.0,
+            353.0
+          ],
+          "confidence": 0.9860091805458069
+        },
+        {
+          "text": "This MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement') is made and entered into as of September 28, 2018 (\"Effective",
+          "bbox": [
+            448.0,
+            364.0,
+            3002.0,
+            417.0
+          ],
+          "confidence": 0.9731882810592651
+        },
+        {
+          "text": "Date') by and between:",
+          "bbox": [
+            279.0,
+            429.0,
+            727.0,
+            470.0
+          ],
+          "confidence": 0.994049072265625
+        },
+        {
+          "text": "Dong-A ST Co., Ltd., a corporation duly incorporated under the laws of the Republic of Korea, having its principal place of business at 64",
+          "bbox": [
+            446.0,
+            486.0,
+            3011.0,
+            532.0
+          ],
+          "confidence": 0.9951316714286804
+        },
+        {
+          "text": "Cheonho-daero, Dongdaemun-gu, Seoul 02587, Republic of Korea (\"Dong-A\") and",
+          "bbox": [
+            277.0,
+            543.0,
+            1829.0,
+            588.0
+          ],
+          "confidence": 0.9931674003601074
+        },
+        {
+          "text": "NeuroBo Pharmaceuticals, Inc., a corporation duly incorporated under the laws of the State of Delaware, having its principal place of",
+          "bbox": [
+            446.0,
+            605.0,
+            2916.0,
+            647.0
+          ],
+          "confidence": 0.9887149333953857
+        },
+        {
+          "text": "business at 177 Huntington Avenue, Suite 1700, Boston, MA 02115, U.S.A. (\"NeuroBo\").",
+          "bbox": [
+            277.0,
+            661.0,
+            1943.0,
+            704.0
+          ],
+          "confidence": 0.9915213584899902
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            1548.0,
+            720.0,
+            1764.0,
+            758.0
+          ],
+          "confidence": 0.9995371103286743
+        },
+        {
+          "text": "WHEREAS, Dong-A and NeuroBo entered into the License Agreement (DA-9801) dated January 18, 2018, as amended by the Amendment",
+          "bbox": [
+            446.0,
+            777.0,
+            3012.0,
+            819.0
+          ],
+          "confidence": 0.9945809245109558
+        },
+        {
+          "text": "to License Agreement (DA-9801) dated April 18, 2018 (the \"License Agreement') whereby Dong-A granted to NeuroBo an exclusive license under",
+          "bbox": [
+            281.0,
+            833.0,
+            3003.0,
+            875.0
+          ],
+          "confidence": 0.9972583055496216
+        },
+        {
+          "text": "the Licensed Technology in the Field and in the Territory, to make, use, offer to sell, sell and import the Licensed Products (as defined by the.",
+          "bbox": [
+            279.0,
+            892.0,
+            2886.0,
+            934.0
+          ],
+          "confidence": 0.9882877469062805
+        },
+        {
+          "text": "License Agreement);",
+          "bbox": [
+            275.0,
+            946.0,
+            669.0,
+            994.0
+          ],
+          "confidence": 0.9944901466369629
+        },
+        {
+          "text": "WHEREAS, NeuroBo wishes that Dong-A manufacture and supply to NeuroBo the entire requirement of the Licensed Products and their",
+          "bbox": [
+            442.0,
+            1003.0,
+            2998.0,
+            1047.0
+          ],
+          "confidence": 0.992804229259491
+        },
+        {
+          "text": "matching placebo for the purpose of research and development of the Licensed Products, including the use in phase III clinical trials to be",
+          "bbox": [
+            279.0,
+            1060.0,
+            2844.0,
+            1102.0
+          ],
+          "confidence": 0.9922077059745789
+        },
+        {
+          "text": "conducted by NeuroBo for the purpose of obtaining the NDA in the Territory, pursuant to the License Agreement;",
+          "bbox": [
+            279.0,
+            1115.0,
+            2405.0,
+            1157.0
+          ],
+          "confidence": 0.9948274493217468
+        },
+        {
+          "text": "WHEREAS, NeuroBo wishes that Dong-A supply to NeuroBo the Licensed Products and their matching placebo already manufactured by.",
+          "bbox": [
+            444.0,
+            1173.0,
+            3016.0,
+            1215.0
+          ],
+          "confidence": 0.9966538548469543
+        },
+        {
+          "text": "Dong-A as of the Effective Date in compliance with the Korea Good Manufacturing Practices promulgated by the Governmental Authority in the",
+          "bbox": [
+            279.0,
+            1230.0,
+            2965.0,
+            1272.0
+          ],
+          "confidence": 0.9923030734062195
+        },
+        {
+          "text": "Republic of Korea (the \"KGMP) and the Licensed Products and/or their matching placebo to be manufactured by Dong-A after the Effective Date",
+          "bbox": [
+            279.0,
+            1285.0,
+            3000.0,
+            1327.0
+          ],
+          "confidence": 0.9884299039840698
+        },
+        {
+          "text": "in compliance with the KGMP; and",
+          "bbox": [
+            277.0,
+            1341.0,
+            930.0,
+            1383.0
+          ],
+          "confidence": 0.9954627752304077
+        },
+        {
+          "text": "WHEREAS, Dong-A agrees (i) to supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A",
+          "bbox": [
+            442.0,
+            1398.0,
+            3011.0,
+            1440.0
+          ],
+          "confidence": 0.993451714515686
+        },
+        {
+          "text": "as of the Effective Date in compliance with the KGMP, and (ii) to manufacture and supply to NeuroBo the Licensed Products and their matching",
+          "bbox": [
+            275.0,
+            1451.0,
+            2947.0,
+            1498.0
+          ],
+          "confidence": 0.9951264262199402
+        },
+        {
+          "text": "placebo in compliance with the KGMP, and NeuroBo agrees to purchase from Dong-A, the Licensed Products and/or their matching placebo for",
+          "bbox": [
+            281.0,
+            1509.0,
+            2949.0,
+            1551.0
+          ],
+          "confidence": 0.9951821565628052
+        },
+        {
+          "text": "research and development, on the terms and conditions hereinafter set forth.",
+          "bbox": [
+            275.0,
+            1566.0,
+            1702.0,
+            1606.0
+          ],
+          "confidence": 0.9990976452827454
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of the foregoing premises and the mutual covenants contained herein and other good and valuable",
+          "bbox": [
+            437.0,
+            1617.0,
+            3005.0,
+            1668.0
+          ],
+          "confidence": 0.9902397990226746
+        },
+        {
+          "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, Dong-A and NeuroBo mutually agree as follows:",
+          "bbox": [
+            279.0,
+            1679.0,
+            2635.0,
+            1721.0
+          ],
+          "confidence": 0.9922615885734558
+        },
+        {
+          "text": "1.DEFINITIONS",
+          "bbox": [
+            281.0,
+            1734.0,
+            594.0,
+            1771.0
+          ],
+          "confidence": 0.9994087815284729
+        },
+        {
+          "text": "Unless otherwise defined in this Agreement, the capitalized terms utilized herein shall have",
+          "bbox": [
+            450.0,
+            1789.0,
+            2137.0,
+            1831.0
+          ],
+          "confidence": 0.9985161423683167
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1638.0,
+            1847.0,
+            1668.0,
+            1884.0
+          ],
+          "confidence": 0.9986886382102966
+        },
+        {
+          "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1513.0,
+            4479.0
+          ],
+          "confidence": 0.9969215989112854
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 1,
+          "bbox": [
+            1187.0,
+            258.0,
+            2119.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            1548.0,
+            720.0,
+            1764.0,
+            758.0
+          ]
+        },
+        {
+          "text": "1.DEFINITIONS",
+          "page": 1,
+          "bbox": [
+            281.0,
+            1734.0,
+            594.0,
+            1771.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Governing Law_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "The laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "bbox": [
+            1187.0,
+            258.0,
+            2119.0,
+            294.0
+          ],
+          "confidence": 0.9878616333007812
+        },
+        {
+          "text": "(DA-9801 Licensed Products)",
+          "bbox": [
+            1370.0,
+            316.0,
+            1934.0,
+            353.0
+          ],
+          "confidence": 0.9860091805458069
+        },
+        {
+          "text": "This MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement') is made and entered into as of September 28, 2018 (\"Effective",
+          "bbox": [
+            448.0,
+            364.0,
+            3002.0,
+            417.0
+          ],
+          "confidence": 0.9731882810592651
+        },
+        {
+          "text": "Date') by and between:",
+          "bbox": [
+            279.0,
+            429.0,
+            727.0,
+            470.0
+          ],
+          "confidence": 0.994049072265625
+        },
+        {
+          "text": "Dong-A ST Co., Ltd., a corporation duly incorporated under the laws of the Republic of Korea, having its principal place of business at 64",
+          "bbox": [
+            446.0,
+            486.0,
+            3011.0,
+            532.0
+          ],
+          "confidence": 0.9951316714286804
+        },
+        {
+          "text": "Cheonho-daero, Dongdaemun-gu, Seoul 02587, Republic of Korea (\"Dong-A\") and",
+          "bbox": [
+            277.0,
+            543.0,
+            1829.0,
+            588.0
+          ],
+          "confidence": 0.9931674003601074
+        },
+        {
+          "text": "NeuroBo Pharmaceuticals, Inc., a corporation duly incorporated under the laws of the State of Delaware, having its principal place of",
+          "bbox": [
+            446.0,
+            605.0,
+            2916.0,
+            647.0
+          ],
+          "confidence": 0.9887149333953857
+        },
+        {
+          "text": "business at 177 Huntington Avenue, Suite 1700, Boston, MA 02115, U.S.A. (\"NeuroBo\").",
+          "bbox": [
+            277.0,
+            661.0,
+            1943.0,
+            704.0
+          ],
+          "confidence": 0.9915213584899902
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            1548.0,
+            720.0,
+            1764.0,
+            758.0
+          ],
+          "confidence": 0.9995371103286743
+        },
+        {
+          "text": "WHEREAS, Dong-A and NeuroBo entered into the License Agreement (DA-9801) dated January 18, 2018, as amended by the Amendment",
+          "bbox": [
+            446.0,
+            777.0,
+            3012.0,
+            819.0
+          ],
+          "confidence": 0.9945809245109558
+        },
+        {
+          "text": "to License Agreement (DA-9801) dated April 18, 2018 (the \"License Agreement') whereby Dong-A granted to NeuroBo an exclusive license under",
+          "bbox": [
+            281.0,
+            833.0,
+            3003.0,
+            875.0
+          ],
+          "confidence": 0.9972583055496216
+        },
+        {
+          "text": "the Licensed Technology in the Field and in the Territory, to make, use, offer to sell, sell and import the Licensed Products (as defined by the.",
+          "bbox": [
+            279.0,
+            892.0,
+            2886.0,
+            934.0
+          ],
+          "confidence": 0.9882877469062805
+        },
+        {
+          "text": "License Agreement);",
+          "bbox": [
+            275.0,
+            946.0,
+            669.0,
+            994.0
+          ],
+          "confidence": 0.9944901466369629
+        },
+        {
+          "text": "WHEREAS, NeuroBo wishes that Dong-A manufacture and supply to NeuroBo the entire requirement of the Licensed Products and their",
+          "bbox": [
+            442.0,
+            1003.0,
+            2998.0,
+            1047.0
+          ],
+          "confidence": 0.992804229259491
+        },
+        {
+          "text": "matching placebo for the purpose of research and development of the Licensed Products, including the use in phase III clinical trials to be",
+          "bbox": [
+            279.0,
+            1060.0,
+            2844.0,
+            1102.0
+          ],
+          "confidence": 0.9922077059745789
+        },
+        {
+          "text": "conducted by NeuroBo for the purpose of obtaining the NDA in the Territory, pursuant to the License Agreement;",
+          "bbox": [
+            279.0,
+            1115.0,
+            2405.0,
+            1157.0
+          ],
+          "confidence": 0.9948274493217468
+        },
+        {
+          "text": "WHEREAS, NeuroBo wishes that Dong-A supply to NeuroBo the Licensed Products and their matching placebo already manufactured by.",
+          "bbox": [
+            444.0,
+            1173.0,
+            3016.0,
+            1215.0
+          ],
+          "confidence": 0.9966538548469543
+        },
+        {
+          "text": "Dong-A as of the Effective Date in compliance with the Korea Good Manufacturing Practices promulgated by the Governmental Authority in the",
+          "bbox": [
+            279.0,
+            1230.0,
+            2965.0,
+            1272.0
+          ],
+          "confidence": 0.9923030734062195
+        },
+        {
+          "text": "Republic of Korea (the \"KGMP) and the Licensed Products and/or their matching placebo to be manufactured by Dong-A after the Effective Date",
+          "bbox": [
+            279.0,
+            1285.0,
+            3000.0,
+            1327.0
+          ],
+          "confidence": 0.9884299039840698
+        },
+        {
+          "text": "in compliance with the KGMP; and",
+          "bbox": [
+            277.0,
+            1341.0,
+            930.0,
+            1383.0
+          ],
+          "confidence": 0.9954627752304077
+        },
+        {
+          "text": "WHEREAS, Dong-A agrees (i) to supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A",
+          "bbox": [
+            442.0,
+            1398.0,
+            3011.0,
+            1440.0
+          ],
+          "confidence": 0.993451714515686
+        },
+        {
+          "text": "as of the Effective Date in compliance with the KGMP, and (ii) to manufacture and supply to NeuroBo the Licensed Products and their matching",
+          "bbox": [
+            275.0,
+            1451.0,
+            2947.0,
+            1498.0
+          ],
+          "confidence": 0.9951264262199402
+        },
+        {
+          "text": "placebo in compliance with the KGMP, and NeuroBo agrees to purchase from Dong-A, the Licensed Products and/or their matching placebo for",
+          "bbox": [
+            281.0,
+            1509.0,
+            2949.0,
+            1551.0
+          ],
+          "confidence": 0.9951821565628052
+        },
+        {
+          "text": "research and development, on the terms and conditions hereinafter set forth.",
+          "bbox": [
+            275.0,
+            1566.0,
+            1702.0,
+            1606.0
+          ],
+          "confidence": 0.9990976452827454
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of the foregoing premises and the mutual covenants contained herein and other good and valuable",
+          "bbox": [
+            437.0,
+            1617.0,
+            3005.0,
+            1668.0
+          ],
+          "confidence": 0.9902397990226746
+        },
+        {
+          "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, Dong-A and NeuroBo mutually agree as follows:",
+          "bbox": [
+            279.0,
+            1679.0,
+            2635.0,
+            1721.0
+          ],
+          "confidence": 0.9922615885734558
+        },
+        {
+          "text": "1.DEFINITIONS",
+          "bbox": [
+            281.0,
+            1734.0,
+            594.0,
+            1771.0
+          ],
+          "confidence": 0.9994087815284729
+        },
+        {
+          "text": "Unless otherwise defined in this Agreement, the capitalized terms utilized herein shall have",
+          "bbox": [
+            450.0,
+            1789.0,
+            2137.0,
+            1831.0
+          ],
+          "confidence": 0.9985161423683167
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1638.0,
+            1847.0,
+            1668.0,
+            1884.0
+          ],
+          "confidence": 0.9986886382102966
+        },
+        {
+          "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1513.0,
+            4479.0
+          ],
+          "confidence": 0.9969215989112854
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 1,
+          "bbox": [
+            1187.0,
+            258.0,
+            2119.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            1548.0,
+            720.0,
+            1764.0,
+            758.0
+          ]
+        },
+        {
+          "text": "1.DEFINITIONS",
+          "page": 1,
+          "bbox": [
+            281.0,
+            1734.0,
+            594.0,
+            1771.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Governing Law_2_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "The laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement.",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "the same meanings as defined in the License Agreement..",
+          "bbox": [
+            281.0,
+            259.0,
+            1330.0,
+            296.0
+          ],
+          "confidence": 0.9801198840141296
+        },
+        {
+          "text": "2.MANUFACTURE AND SUPPLY",
+          "bbox": [
+            281.0,
+            318.0,
+            919.0,
+            349.0
+          ],
+          "confidence": 0.9679388403892517
+        },
+        {
+          "text": "2.1Subject to the provisions hereof, Dong-A shall (i) supply to NeuroBo the Licensed Products and their matching placebo already",
+          "bbox": [
+            440.0,
+            369.0,
+            2880.0,
+            413.0
+          ],
+          "confidence": 0.9988077878952026
+        },
+        {
+          "text": "manufactured by Dong-A as of the Effective Date in compliance with the KGMP, and (ii) manufacture in compliance with the KGMP and in",
+          "bbox": [
+            279.0,
+            429.0,
+            2838.0,
+            466.0
+          ],
+          "confidence": 0.9932156205177307
+        },
+        {
+          "text": "conformity with the specifications separately agreed upon between the Parties and attached hereto as Exhibit A (the \"Product Specifications\")",
+          "bbox": [
+            279.0,
+            484.0,
+            2960.0,
+            526.0
+          ],
+          "confidence": 0.9963533878326416
+        },
+        {
+          "text": "and supply to NeuroBo the Licensed Products and/or their matching placebo, and NeuroBo shall purchase from Dong-A the entire requirement of",
+          "bbox": [
+            279.0,
+            543.0,
+            2989.0,
+            585.0
+          ],
+          "confidence": 0.9921618103981018
+        },
+        {
+          "text": "the Licensed Products and/or their matching placebo for research and development of the Licensed Products under the License Agreement.",
+          "bbox": [
+            279.0,
+            598.0,
+            2875.0,
+            638.0
+          ],
+          "confidence": 0.9926541447639465
+        },
+        {
+          "text": "2.2NeuroBo shall manufacture, or have manufactured, and supply to Dong-A the active pharmaceutical ingredients (API), which are",
+          "bbox": [
+            440.0,
+            652.0,
+            2898.0,
+            694.0
+          ],
+          "confidence": 0.9967511296272278
+        },
+        {
+          "text": "necessary to manufacture the Licensed Products, in the quantity and in conformity with the specifications separately agreed upon between the",
+          "bbox": [
+            276.0,
+            711.0,
+            2938.0,
+            753.0
+          ],
+          "confidence": 0.9996564388275146
+        },
+        {
+          "text": "Parties and attached hereto as Exhibit C (the \"API Specifications') as may be amended by the Parties's agreement in writing from time to time.",
+          "bbox": [
+            275.0,
+            764.0,
+            2938.0,
+            810.0
+          ],
+          "confidence": 0.988039493560791
+        },
+        {
+          "text": "2.3NeuroBo shall, at its costs and expenses, deliver the API to the place designated by Dong-A no later than [***] days prior to the",
+          "bbox": [
+            439.0,
+            819.0,
+            2907.0,
+            872.0
+          ],
+          "confidence": 0.9857109785079956
+        },
+        {
+          "text": "requested delivery date for the Licensed Products and/or their matching placebo in accordance with the Firm Order.",
+          "bbox": [
+            277.0,
+            883.0,
+            2422.0,
+            925.0
+          ],
+          "confidence": 0.9949724078178406
+        },
+        {
+          "text": "2.4 Within [***] days after receipt of the API from NeuroBo, Dong-A shall perform quality control test (the \"API Test') in accordance with",
+          "bbox": [
+            440.0,
+            937.0,
+            3018.0,
+            981.0
+          ],
+          "confidence": 0.9924902319908142
+        },
+        {
+          "text": "the methods of the API Test on such API for acceptance (the \"API Test Methods'), which shall be separately agreed in writing by and between the",
+          "bbox": [
+            275.0,
+            996.0,
+            3020.0,
+            1040.0
+          ],
+          "confidence": 0.9865716099739075
+        },
+        {
+          "text": "Parties and attached hereto as Exhibit D') as may be amended by the Parties's agreement in writing from time to time. NeuroBo shall provide",
+          "bbox": [
+            277.0,
+            1058.0,
+            2896.0,
+            1100.0
+          ],
+          "confidence": 0.9948734045028687
+        },
+        {
+          "text": "Dong-A with all available information and technical assistance necessary for Dong-A to perform the API Test expeditiously. If the API Test",
+          "bbox": [
+            277.0,
+            1115.0,
+            2864.0,
+            1159.0
+          ],
+          "confidence": 0.9912965297698975
+        },
+        {
+          "text": "indicates that the API is deficient in quantity or does not meet the API Specifications, Dong-A shall notify NeuroBo thereof in writing within the",
+          "bbox": [
+            277.0,
+            1171.0,
+            2958.0,
+            1213.0
+          ],
+          "confidence": 0.994297206401825
+        },
+        {
+          "text": "[***]-day period together with results of the API Test. If the quantity is deficient, NeuroBo shall, as soon as commercially reasonable, ship, or have",
+          "bbox": [
+            277.0,
+            1224.0,
+            3023.0,
+            1277.0
+          ],
+          "confidence": 0.9924497604370117
+        },
+        {
+          "text": "shipped, the sufficient amount of additional API to cover the deficiency. If the API does not meet the API Specifications, NeuroBo shall retrieve the",
+          "bbox": [
+            277.0,
+            1283.0,
+            3023.0,
+            1328.0
+          ],
+          "confidence": 0.9907868504524231
+        },
+        {
+          "text": "API at its own expense and replace the API at no additional cost to Dong-A..",
+          "bbox": [
+            279.0,
+            1341.0,
+            1704.0,
+            1383.0
+          ],
+          "confidence": 0.9856228828430176
+        },
+        {
+          "text": "2.5Upon [***] days' notice and at time mutually agreed upon by the Parties during Dong-A's normal business hours, but no more",
+          "bbox": [
+            440.0,
+            1398.0,
+            2864.0,
+            1440.0
+          ],
+          "confidence": 0.9973166584968567
+        },
+        {
+          "text": "frequently than [***] every year during the term of this Agreement, NeuroBo may, at its cost and expense, inspect Dong-A's manufacturing",
+          "bbox": [
+            277.0,
+            1449.0,
+            2876.0,
+            1500.0
+          ],
+          "confidence": 0.9822660088539124
+        },
+        {
+          "text": "facilities where the Licensed Products are manufactured. Within [***] days after the completion of the inspection, NeuroBo shall provide a written",
+          "bbox": [
+            277.0,
+            1509.0,
+            3000.0,
+            1551.0
+          ],
+          "confidence": 0.9909788966178894
+        },
+        {
+          "text": "report detailing the results of such audit to Dong-A. In case of any inspection by any Governmental Authority of Dong-A's manufacturing facilities",
+          "bbox": [
+            276.0,
+            1568.0,
+            3021.0,
+            1610.0
+          ],
+          "confidence": 0.9976444244384766
+        },
+        {
+          "text": "where the Licensed Products are manufactured, NeuroBo shall promptly provide Dong-A with a notice of the inspection and all notices,.",
+          "bbox": [
+            275.0,
+            1621.0,
+            2800.0,
+            1667.0
+          ],
+          "confidence": 0.993886411190033
+        },
+        {
+          "text": "correspondence and related documents received from or sent to the applicable Governmental Authority. Dong-A shall permit such Governmental",
+          "bbox": [
+            279.0,
+            1679.0,
+            2971.0,
+            1721.0
+          ],
+          "confidence": 0.9941309094429016
+        },
+        {
+          "text": "Authority to inspect the facilities to the fullest extent permitted by Laws and shall make its [***] and cooperate with the Governmental Authority in",
+          "bbox": [
+            281.0,
+            1734.0,
+            3020.0,
+            1776.0
+          ],
+          "confidence": 0.9870937466621399
+        },
+        {
+          "text": "conducting the inspection. NeuroBo shall provide.",
+          "bbox": [
+            279.0,
+            1791.0,
+            1209.0,
+            1831.0
+          ],
+          "confidence": 0.9934356808662415
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1640.0,
+            1851.0,
+            1666.0,
+            1882.0
+          ],
+          "confidence": 0.9891913533210754
+        },
+        {
+          "text": "such assistance as reasonably requested by Dong-A for the preparation of and during such inspection and furnish Dong-A with copies of all.",
+          "bbox": [
+            275.0,
+            1966.0,
+            2905.0,
+            2012.0
+          ],
+          "confidence": 0.9915322661399841
+        },
+        {
+          "text": "documented by the Governmental Authority as a result of any such inspection. NeuroBo further agrees that it shall not hold Dong-A responsible",
+          "bbox": [
+            281.0,
+            2083.0,
+            2972.0,
+            2120.0
+          ],
+          "confidence": 0.9902700781822205
+        },
+        {
+          "text": "nor shall bring any claims or actions against Dong-A for any such deficiencies and/or costs or damages NeuroBo may incur resulting therefrom.",
+          "bbox": [
+            276.0,
+            2138.0,
+            2951.0,
+            2180.0
+          ],
+          "confidence": 0.994889497756958
+        },
+        {
+          "text": "Upon request of Dong-A, the Parties may discuss in good faith a plan for NeuroBo to assist in correcting such deficiencies and the terms and",
+          "bbox": [
+            281.0,
+            2195.0,
+            2914.0,
+            2237.0
+          ],
+          "confidence": 0.993212878704071
+        },
+        {
+          "text": "conditions for implementing the corrective actions under such plan..",
+          "bbox": [
+            279.0,
+            2253.0,
+            1537.0,
+            2290.0
+          ],
+          "confidence": 0.9873476624488831
+        },
+        {
+          "text": "2.6The Parties acknowledge and agree that prior to commercialization of the Licensed Products by NeuroBo, its Affiliates and/or",
+          "bbox": [
+            440.0,
+            2306.0,
+            2837.0,
+            2348.0
+          ],
+          "confidence": 0.9979284405708313
+        },
+        {
+          "text": "sublicensees, the Parties shall, in good faith, negotiate the terms and conditions for, including, without limitation, the supply price, and enter into a",
+          "bbox": [
+            275.0,
+            2361.0,
+            3003.0,
+            2407.0
+          ],
+          "confidence": 0.993818998336792
+        },
+        {
+          "text": "definitive non-exclusive supply agreement pursuant to which Dong-A shall supply to NeuroBo the Licensed Products for the commercialization by",
+          "bbox": [
+            277.0,
+            2416.0,
+            3005.0,
+            2461.0
+          ],
+          "confidence": 0.9917828440666199
+        },
+        {
+          "text": "NeuroBo, its Affiliates and/or sublicensees of the Licensed Products in the Field in the Territory pursuant to the License Agreement.",
+          "bbox": [
+            275.0,
+            2474.0,
+            2741.0,
+            2514.0
+          ],
+          "confidence": 0.9948624968528748
+        },
+        {
+          "text": "2.7In case NeuroBo requests Dong-A to conduct any additional activities, including testing (e.g. AMV, PV), documentation (e.g. CMC",
+          "bbox": [
+            437.0,
+            2525.0,
+            2949.0,
+            2577.0
+          ],
+          "confidence": 0.982633650302887
+        },
+        {
+          "text": "packaging), which NeuroBo requires for obtaining the NDA for the Licensed Product in the Territory, the Parties shall, in good faith, negotiate the",
+          "bbox": [
+            281.0,
+            2588.0,
+            2982.0,
+            2630.0
+          ],
+          "confidence": 0.9865680932998657
+        },
+        {
+          "text": "terms and conditions, including, without limitation, the costs and expenses for conducting such additional testing activities of the Licensed",
+          "bbox": [
+            279.0,
+            2646.0,
+            2875.0,
+            2683.0
+          ],
+          "confidence": 0.9993935227394104
+        },
+        {
+          "text": "Products and/or their matching placebo. For any such activities, NeuroBo shall pay to Dong-A [***] ([***]%) of the fees as agreed by the Parties",
+          "bbox": [
+            279.0,
+            2699.0,
+            2991.0,
+            2743.0
+          ],
+          "confidence": 0.9957177042961121
+        },
+        {
+          "text": "within [***] days prior to conducting such activities by Dong-A, and shall pay the balance due within [***] days after delivery by Dong-A to.",
+          "bbox": [
+            279.0,
+            2754.0,
+            2925.0,
+            2798.0
+          ],
+          "confidence": 0.9757285714149475
+        },
+        {
+          "text": "NeuroBo of the deliverables as agreed by the Parties.",
+          "bbox": [
+            275.0,
+            2809.0,
+            1263.0,
+            2854.0
+          ],
+          "confidence": 0.9970528483390808
+        },
+        {
+          "text": "3.ORDERING AND DELIVERY",
+          "bbox": [
+            279.0,
+            2871.0,
+            874.0,
+            2902.0
+          ],
+          "confidence": 0.9765586853027344
+        },
+        {
+          "text": "3.1NeuroBo shall submit to Dong-A an order for the Licensed Products and/or their matching placebo no later than [***] days prior to the",
+          "bbox": [
+            439.0,
+            2918.0,
+            3020.0,
+            2966.0
+          ],
+          "confidence": 0.9882343411445618
+        },
+        {
+          "text": "requested delivery date thereof. For each order, NeuroBo shall be obligated to order the Licensed Products and/or their matching placebo in [***]",
+          "bbox": [
+            276.0,
+            2980.0,
+            2989.0,
+            3022.0
+          ],
+          "confidence": 0.9956328272819519
+        },
+        {
+          "text": "tablets. NeuroBo acknowledges and agrees that certain quantity of the Licensed Products and/or their matching placebo from each batch ordered",
+          "bbox": [
+            277.0,
+            3035.0,
+            2983.0,
+            3077.0
+          ],
+          "confidence": 0.9898190498352051
+        },
+        {
+          "text": "shall be retained by Dong-A for use in the stability tests and as retention samples, and NeuroBo shall order the Licensed Products and/or their",
+          "bbox": [
+            277.0,
+            3092.0,
+            2931.0,
+            3134.0
+          ],
+          "confidence": 0.9915910363197327
+        },
+        {
+          "text": "matching placebo in consideration of such quantity to be retained by Dong-A. Each order shall specify at least (i) the quantity of the Licensed",
+          "bbox": [
+            277.0,
+            3149.0,
+            2929.0,
+            3191.0
+          ],
+          "confidence": 0.9965678453445435
+        },
+        {
+          "text": "Products and/or their matching placebo, (ii) the specifications of the Licensed Products and/or their matching placebo, including the specifics of",
+          "bbox": [
+            279.0,
+            3207.0,
+            2965.0,
+            3244.0
+          ],
+          "confidence": 0.9971423149108887
+        },
+        {
+          "text": "packaging, (iii) the expected delivery date for the API, (iv) the requested delivery date for the Licensed Products and/or their matching placebo, (v)",
+          "bbox": [
+            277.0,
+            3258.0,
+            3002.0,
+            3304.0
+          ],
+          "confidence": 0.9901661276817322
+        },
+        {
+          "text": "the shipment terms for the Licensed Products and/or their matching placebo and (vi) the supply price for the Licensed Products and/or their",
+          "bbox": [
+            279.0,
+            3317.0,
+            2878.0,
+            3359.0
+          ],
+          "confidence": 0.9874768257141113
+        },
+        {
+          "text": "matching placebo. Upon receipt of the order from NeuroBo, Dong-A shall promptly acknowledge the receipt of such order. No order shall be.",
+          "bbox": [
+            275.0,
+            3370.0,
+            2878.0,
+            3415.0
+          ],
+          "confidence": 0.9907198548316956
+        },
+        {
+          "text": "binding upon the Parties until agreed in writing by Dong-A and NeuroBo; provided, however, that such agreement shall not be unreasonably.",
+          "bbox": [
+            277.0,
+            3426.0,
+            2895.0,
+            3472.0
+          ],
+          "confidence": 0.9932901263237
+        },
+        {
+          "text": "withheld or delayed. Upon such agreement, the order shall be deemed to be the \"Firm Order' which shall be binding and may only be revised by",
+          "bbox": [
+            279.0,
+            3485.0,
+            2976.0,
+            3527.0
+          ],
+          "confidence": 0.994676947593689
+        },
+        {
+          "text": "agreement of the Parties in writing. Dong-A shall deliver the Licensed Products and/or their matching placebo to NeuroBo in accordance with the",
+          "bbox": [
+            277.0,
+            3545.0,
+            2976.0,
+            3587.0
+          ],
+          "confidence": 0.9980944395065308
+        },
+        {
+          "text": "Firm",
+          "bbox": [
+            274.0,
+            3600.0,
+            362.0,
+            3640.0
+          ],
+          "confidence": 0.9941990375518799
+        },
+        {
+          "text": "3",
+          "bbox": [
+            1638.0,
+            3655.0,
+            1668.0,
+            3695.0
+          ],
+          "confidence": 0.996547281742096
+        },
+        {
+          "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+          "bbox": [
+            334.0,
+            4440.0,
+            1513.0,
+            4477.0
+          ],
+          "confidence": 0.9963772892951965
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "2.MANUFACTURE AND SUPPLY",
+          "page": 2,
+          "bbox": [
+            281.0,
+            318.0,
+            919.0,
+            349.0
+          ]
+        },
+        {
+          "text": "3.ORDERING AND DELIVERY",
+          "page": 2,
+          "bbox": [
+            279.0,
+            2871.0,
+            874.0,
+            2902.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Audit Rights_2_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract?",
+      "answer_text": "Upon [***] days' notice and at time mutually agreed upon by the Parties during Dong-A's normal business hours, but no more frequently than [***] every year during the term of this Agreement, NeuroBo may, at its cost and expense, inspect Dong-A's manufacturing facilities where the Licensed Products are manufactured.",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "2.5Upon [***] days' notice and at time mutually agreed upon by the Parties during Dong-A's normal business hours, but no more",
+          "bbox": [
+            440.0,
+            1398.0,
+            2864.0,
+            1440.0
+          ],
+          "confidence": 0.9973166584968567
+        },
+        {
+          "text": "frequently than [***] every year during the term of this Agreement, NeuroBo may, at its cost and expense, inspect Dong-A's manufacturing",
+          "bbox": [
+            277.0,
+            1449.0,
+            2876.0,
+            1500.0
+          ],
+          "confidence": 0.9822660088539124
+        },
+        {
+          "text": "facilities where the Licensed Products are manufactured. Within [***] days after the completion of the inspection, NeuroBo shall provide a written",
+          "bbox": [
+            277.0,
+            1509.0,
+            3000.0,
+            1551.0
+          ],
+          "confidence": 0.9909788966178894
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "2.MANUFACTURE AND SUPPLY",
+          "page": 2,
+          "bbox": [
+            281.0,
+            318.0,
+            919.0,
+            349.0
+          ]
+        },
+        {
+          "text": "3.ORDERING AND DELIVERY",
+          "page": 2,
+          "bbox": [
+            279.0,
+            2871.0,
+            874.0,
+            2902.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Warranty Duration_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "answer_text": "Within [***] days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\") in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.36",
+          "bbox": [
+            2775.0,
+            356.0,
+            3029.0,
+            393.0
+          ],
+          "confidence": 0.9836177825927734
+        },
+        {
+          "text": "[Pursuant to Item 601(b)(10) of Regulation S-K, certain confidential portions of this exhibit have been omitted by means of marking such portions",
+          "bbox": [
+            279.0,
+            411.0,
+            3027.0,
+            455.0
+          ],
+          "confidence": 0.9908631443977356
+        },
+        {
+          "text": "with asterisks as the identified confidential portions (i) are not material and (ii) would be competitively harmful if publicly disclosed.J",
+          "bbox": [
+            399.0,
+            468.0,
+            2905.0,
+            508.0
+          ],
+          "confidence": 0.9935250878334045
+        },
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ],
+          "confidence": 0.9972264766693115
+        },
+        {
+          "text": "(DA-9801 Licensed Products)",
+          "bbox": [
+            1368.0,
+            588.0,
+            1938.0,
+            634.0
+          ],
+          "confidence": 0.997552752494812
+        },
+        {
+          "text": "Between",
+          "bbox": [
+            1569.0,
+            645.0,
+            1737.0,
+            687.0
+          ],
+          "confidence": 0.9996197819709778
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ],
+          "confidence": 0.9804332852363586
+        },
+        {
+          "text": "And",
+          "bbox": [
+            1611.0,
+            758.0,
+            1696.0,
+            800.0
+          ],
+          "confidence": 0.9998607039451599
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ],
+          "confidence": 0.9984108805656433
+        },
+        {
+          "text": "Dated: September 28, 2018",
+          "bbox": [
+            1396.0,
+            873.0,
+            1914.0,
+            910.0
+          ],
+          "confidence": 0.9992944598197937
+        },
+        {
+          "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1515.0,
+            4479.0
+          ],
+          "confidence": 0.9966010451316833
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1185.0,
+            537.0,
+            2122.0,
+            574.0
+          ]
+        },
+        {
+          "text": "DONG-A ST CO., LTD.",
+          "page": 0,
+          "bbox": [
+            1432.0,
+            704.0,
+            1872.0,
+            740.0
+          ]
+        },
+        {
+          "text": "NEUROBO PHARMACEUTICALS, INC",
+          "page": 0,
+          "bbox": [
+            1267.0,
+            817.0,
+            2037.0,
+            853.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement__Warranty Duration_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "answer_text": "Within [***] days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\") in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "bbox": [
+            1187.0,
+            258.0,
+            2119.0,
+            294.0
+          ],
+          "confidence": 0.9878616333007812
+        },
+        {
+          "text": "(DA-9801 Licensed Products)",
+          "bbox": [
+            1370.0,
+            316.0,
+            1934.0,
+            353.0
+          ],
+          "confidence": 0.9860091805458069
+        },
+        {
+          "text": "This MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement') is made and entered into as of September 28, 2018 (\"Effective",
+          "bbox": [
+            448.0,
+            364.0,
+            3002.0,
+            417.0
+          ],
+          "confidence": 0.9731882810592651
+        },
+        {
+          "text": "Date') by and between:",
+          "bbox": [
+            279.0,
+            429.0,
+            727.0,
+            470.0
+          ],
+          "confidence": 0.994049072265625
+        },
+        {
+          "text": "Dong-A ST Co., Ltd., a corporation duly incorporated under the laws of the Republic of Korea, having its principal place of business at 64",
+          "bbox": [
+            446.0,
+            486.0,
+            3011.0,
+            532.0
+          ],
+          "confidence": 0.9951316714286804
+        },
+        {
+          "text": "Cheonho-daero, Dongdaemun-gu, Seoul 02587, Republic of Korea (\"Dong-A\") and",
+          "bbox": [
+            277.0,
+            543.0,
+            1829.0,
+            588.0
+          ],
+          "confidence": 0.9931674003601074
+        },
+        {
+          "text": "NeuroBo Pharmaceuticals, Inc., a corporation duly incorporated under the laws of the State of Delaware, having its principal place of",
+          "bbox": [
+            446.0,
+            605.0,
+            2916.0,
+            647.0
+          ],
+          "confidence": 0.9887149333953857
+        },
+        {
+          "text": "business at 177 Huntington Avenue, Suite 1700, Boston, MA 02115, U.S.A. (\"NeuroBo\").",
+          "bbox": [
+            277.0,
+            661.0,
+            1943.0,
+            704.0
+          ],
+          "confidence": 0.9915213584899902
+        },
+        {
+          "text": "RECITALS",
+          "bbox": [
+            1548.0,
+            720.0,
+            1764.0,
+            758.0
+          ],
+          "confidence": 0.9995371103286743
+        },
+        {
+          "text": "WHEREAS, Dong-A and NeuroBo entered into the License Agreement (DA-9801) dated January 18, 2018, as amended by the Amendment",
+          "bbox": [
+            446.0,
+            777.0,
+            3012.0,
+            819.0
+          ],
+          "confidence": 0.9945809245109558
+        },
+        {
+          "text": "to License Agreement (DA-9801) dated April 18, 2018 (the \"License Agreement') whereby Dong-A granted to NeuroBo an exclusive license under",
+          "bbox": [
+            281.0,
+            833.0,
+            3003.0,
+            875.0
+          ],
+          "confidence": 0.9972583055496216
+        },
+        {
+          "text": "the Licensed Technology in the Field and in the Territory, to make, use, offer to sell, sell and import the Licensed Products (as defined by the.",
+          "bbox": [
+            279.0,
+            892.0,
+            2886.0,
+            934.0
+          ],
+          "confidence": 0.9882877469062805
+        },
+        {
+          "text": "License Agreement);",
+          "bbox": [
+            275.0,
+            946.0,
+            669.0,
+            994.0
+          ],
+          "confidence": 0.9944901466369629
+        },
+        {
+          "text": "WHEREAS, NeuroBo wishes that Dong-A manufacture and supply to NeuroBo the entire requirement of the Licensed Products and their",
+          "bbox": [
+            442.0,
+            1003.0,
+            2998.0,
+            1047.0
+          ],
+          "confidence": 0.992804229259491
+        },
+        {
+          "text": "matching placebo for the purpose of research and development of the Licensed Products, including the use in phase III clinical trials to be",
+          "bbox": [
+            279.0,
+            1060.0,
+            2844.0,
+            1102.0
+          ],
+          "confidence": 0.9922077059745789
+        },
+        {
+          "text": "conducted by NeuroBo for the purpose of obtaining the NDA in the Territory, pursuant to the License Agreement;",
+          "bbox": [
+            279.0,
+            1115.0,
+            2405.0,
+            1157.0
+          ],
+          "confidence": 0.9948274493217468
+        },
+        {
+          "text": "WHEREAS, NeuroBo wishes that Dong-A supply to NeuroBo the Licensed Products and their matching placebo already manufactured by.",
+          "bbox": [
+            444.0,
+            1173.0,
+            3016.0,
+            1215.0
+          ],
+          "confidence": 0.9966538548469543
+        },
+        {
+          "text": "Dong-A as of the Effective Date in compliance with the Korea Good Manufacturing Practices promulgated by the Governmental Authority in the",
+          "bbox": [
+            279.0,
+            1230.0,
+            2965.0,
+            1272.0
+          ],
+          "confidence": 0.9923030734062195
+        },
+        {
+          "text": "Republic of Korea (the \"KGMP) and the Licensed Products and/or their matching placebo to be manufactured by Dong-A after the Effective Date",
+          "bbox": [
+            279.0,
+            1285.0,
+            3000.0,
+            1327.0
+          ],
+          "confidence": 0.9884299039840698
+        },
+        {
+          "text": "in compliance with the KGMP; and",
+          "bbox": [
+            277.0,
+            1341.0,
+            930.0,
+            1383.0
+          ],
+          "confidence": 0.9954627752304077
+        },
+        {
+          "text": "WHEREAS, Dong-A agrees (i) to supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A",
+          "bbox": [
+            442.0,
+            1398.0,
+            3011.0,
+            1440.0
+          ],
+          "confidence": 0.993451714515686
+        },
+        {
+          "text": "as of the Effective Date in compliance with the KGMP, and (ii) to manufacture and supply to NeuroBo the Licensed Products and their matching",
+          "bbox": [
+            275.0,
+            1451.0,
+            2947.0,
+            1498.0
+          ],
+          "confidence": 0.9951264262199402
+        },
+        {
+          "text": "placebo in compliance with the KGMP, and NeuroBo agrees to purchase from Dong-A, the Licensed Products and/or their matching placebo for",
+          "bbox": [
+            281.0,
+            1509.0,
+            2949.0,
+            1551.0
+          ],
+          "confidence": 0.9951821565628052
+        },
+        {
+          "text": "research and development, on the terms and conditions hereinafter set forth.",
+          "bbox": [
+            275.0,
+            1566.0,
+            1702.0,
+            1606.0
+          ],
+          "confidence": 0.9990976452827454
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of the foregoing premises and the mutual covenants contained herein and other good and valuable",
+          "bbox": [
+            437.0,
+            1617.0,
+            3005.0,
+            1668.0
+          ],
+          "confidence": 0.9902397990226746
+        },
+        {
+          "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, Dong-A and NeuroBo mutually agree as follows:",
+          "bbox": [
+            279.0,
+            1679.0,
+            2635.0,
+            1721.0
+          ],
+          "confidence": 0.9922615885734558
+        },
+        {
+          "text": "1.DEFINITIONS",
+          "bbox": [
+            281.0,
+            1734.0,
+            594.0,
+            1771.0
+          ],
+          "confidence": 0.9994087815284729
+        },
+        {
+          "text": "Unless otherwise defined in this Agreement, the capitalized terms utilized herein shall have",
+          "bbox": [
+            450.0,
+            1789.0,
+            2137.0,
+            1831.0
+          ],
+          "confidence": 0.9985161423683167
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1638.0,
+            1847.0,
+            1668.0,
+            1884.0
+          ],
+          "confidence": 0.9986886382102966
+        },
+        {
+          "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1513.0,
+            4479.0
+          ],
+          "confidence": 0.9969215989112854
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+          "page": 1,
+          "bbox": [
+            1187.0,
+            258.0,
+            2119.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 1,
+          "bbox": [
+            1548.0,
+            720.0,
+            1764.0,
+            758.0
+          ]
+        },
+        {
+          "text": "1.DEFINITIONS",
+          "page": 1,
+          "bbox": [
+            281.0,
+            1734.0,
+            594.0,
+            1771.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -150,23 +150,15 @@ def save_checkpoint(
     metrics_history: Dict,
     best_f1: float,
     args,
-    output_dir: str
+    output_dir: str,
+    save_model: bool = False  # New parameter to control model saving
 ) -> None:
     """
     Save training checkpoint for resumable training.
     
     This function creates a checkpoint that contains everything needed to resume training
-    from exactly where it left off. It saves:
-    
-    1. Model weights and configuration
-    2. Optimizer state (learning rates, momentum, etc.)
-    3. Scheduler state (for learning rate scheduling)
-    4. Current epoch, step, and batch position
-    5. Training metrics and best F1 score so far
-    6. All training arguments for consistency
-    
-    The checkpoint is saved in a subdirectory of the output directory, and a pointer
-    to the latest checkpoint is updated.
+    from exactly where it left off. By default, it only saves training state without model weights
+    to save disk space. Model weights are only saved when save_model=True.
     
     Args:
         model: The model being trained
@@ -179,16 +171,18 @@ def save_checkpoint(
         best_f1: Current best F1 score achieved during training
         args: Command line arguments used for training
         output_dir: Directory to save the checkpoint
+        save_model: Whether to save model weights (default: False)
     """
     # Create a directory for this specific checkpoint
     checkpoint_dir = os.path.join(output_dir, f"checkpoint-{global_step}")
     os.makedirs(checkpoint_dir, exist_ok=True)
     
-    # Save model weights and configuration
-    model.save_pretrained(checkpoint_dir)
+    # Save model weights only if explicitly requested
+    if save_model:
+        model.save_pretrained(checkpoint_dir)
     
     # Save optimizer and scheduler states, along with training metadata
-    torch.save({
+    checkpoint_state = {
         'optimizer': optimizer.state_dict(),  # Learning rates, momentum buffers, etc.
         'scheduler': scheduler.state_dict() if scheduler else None,  # LR scheduler state
         'epoch': epoch,  # Current epoch
@@ -197,14 +191,46 @@ def save_checkpoint(
         'metrics_history': metrics_history,  # Training metrics (loss, F1, etc.)
         'best_f1': best_f1,  # Best F1 score so far
         'args': vars(args)  # All training arguments for consistency
-    }, os.path.join(checkpoint_dir, "training_state.pt"))
+    }
+    
+    # Save the checkpoint state
+    torch.save(
+        checkpoint_state,
+        os.path.join(checkpoint_dir, "training_state.pt")
+    )
     
     # Save a pointer to the latest checkpoint for easy resuming
     with open(os.path.join(output_dir, "latest_checkpoint.txt"), "w") as f:
         f.write(f"checkpoint-{global_step}")
     
-    print(f"Checkpoint saved at step {global_step}")
+    # Clean up old checkpoints to save space
+    cleanup_old_checkpoints(output_dir, keep_latest=2)  # Keep only the 2 most recent checkpoints
+    
+    print(f"Checkpoint saved at step {global_step}" + (" with model weights" if save_model else ""))
 
+def cleanup_old_checkpoints(output_dir: str, keep_latest: int = 2):
+    """
+    Clean up old checkpoints, keeping only the specified number of most recent ones.
+    
+    Args:
+        output_dir: Directory containing checkpoints
+        keep_latest: Number of most recent checkpoints to keep
+    """
+    # List all checkpoint directories
+    checkpoint_dirs = [d for d in os.listdir(output_dir) if d.startswith("checkpoint-")]
+    
+    # Sort by step number
+    checkpoint_dirs.sort(key=lambda x: int(x.split("-")[1]))
+    
+    # Remove old checkpoints, keeping the specified number of most recent ones
+    for checkpoint_dir in checkpoint_dirs[:-keep_latest]:
+        checkpoint_path = os.path.join(output_dir, checkpoint_dir)
+        try:
+            import shutil
+            shutil.rmtree(checkpoint_path)
+            print(f"Removed old checkpoint: {checkpoint_dir}")
+        except Exception as e:
+            print(f"Error removing checkpoint {checkpoint_dir}: {e}")
 
 def load_checkpoint(
     checkpoint_dir: str,
@@ -343,7 +369,7 @@ def save_training_visualizations(metrics_history, log_path, output_dir, start_ti
     
     # If we couldn't determine steps_per_epoch, estimate from steps
     if not steps_per_epoch and 'steps' in metrics_history and metrics_history['steps']:
-        steps_per_epoch = max(metrics_history['steps']) / num_epochs if num_epochs else 80
+        steps_per_epoch = max(metrics_history['steps']) / num_epochs if num_epochs else 180
     
     # Convert steps to epochs for plotting
     if 'steps' in metrics_history and metrics_history['steps']:
@@ -681,7 +707,8 @@ def train(args):
             
             # Evaluation
             if global_step % args.eval_steps == 0:
-                log_message(f"\nEvaluating at step {global_step}...")
+                current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                log_message(f"\nEvaluating at step {global_step}... (Time: {current_time})")
                 results = evaluate(model, eval_dataloader, device, num_labels)
                 log_message(f"Evaluation results: {results}")
                 
@@ -690,27 +717,40 @@ def train(args):
                 metrics_history["eval_precision"].append(results["precision"])
                 metrics_history["eval_recall"].append(results["recall"])
                 
-                # Save if best model
+                # Save checkpoint with model weights only for best F1 score
                 if results["f1"] > best_f1:
                     best_f1 = results["f1"]
                     log_message(f"New best F1: {best_f1:.4f}, saving model...")
                     model.save_pretrained(os.path.join(args.output_dir, "best_model"))
-            
-            # Save checkpoint
-            if global_step % args.checkpoint_steps == 0:
-                log_message(f"Saving checkpoint at step {global_step}...")
-                save_checkpoint(
-                    model=model,
-                    optimizer=optimizer,
-                    scheduler=scheduler,
-                    epoch=epoch,
-                    global_step=global_step,
-                    batch_idx=batch_idx + 1,  # +1 to start from next batch when resuming
-                    metrics_history=metrics_history,
-                    best_f1=best_f1,
-                    args=args,
-                    output_dir=args.output_dir
-                )
+                    # Save checkpoint with model weights
+                    save_checkpoint(
+                        model=model,
+                        optimizer=optimizer,
+                        scheduler=scheduler,
+                        epoch=epoch,
+                        global_step=global_step,
+                        batch_idx=batch_idx + 1,
+                        metrics_history=metrics_history,
+                        best_f1=best_f1,
+                        args=args,
+                        output_dir=args.output_dir,
+                        save_model=True  # Save model weights for best F1
+                    )
+                else:
+                    # Regular checkpoint without model weights
+                    save_checkpoint(
+                        model=model,
+                        optimizer=optimizer,
+                        scheduler=scheduler,
+                        epoch=epoch,
+                        global_step=global_step,
+                        batch_idx=batch_idx + 1,
+                        metrics_history=metrics_history,
+                        best_f1=best_f1,
+                        args=args,
+                        output_dir=args.output_dir,
+                        save_model=False  # Don't save model weights for regular checkpoints
+                    )
         
         # End of epoch
         avg_epoch_loss = epoch_loss / len(train_dataloader)
@@ -720,12 +760,6 @@ def train(args):
         log_message(f"Evaluating after epoch {epoch + 1}...")
         results = evaluate(model, eval_dataloader, device, num_labels)
         log_message(f"Evaluation results: {results}")
-        
-        # Save if best model
-        if results["f1"] > best_f1:
-            best_f1 = results["f1"]
-            log_message(f"New best F1: {best_f1:.4f}, saving model...")
-            model.save_pretrained(os.path.join(args.output_dir, "best_model"))
         
         # Save checkpoint at end of each epoch
         log_message(f"Saving checkpoint at end of epoch {epoch + 1}...")
@@ -739,7 +773,8 @@ def train(args):
             metrics_history=metrics_history,
             best_f1=best_f1,
             args=args,
-            output_dir=args.output_dir
+            output_dir=args.output_dir,
+            save_model=False  # Don't save model weights for regular checkpoints
         )
     
     # Save final model

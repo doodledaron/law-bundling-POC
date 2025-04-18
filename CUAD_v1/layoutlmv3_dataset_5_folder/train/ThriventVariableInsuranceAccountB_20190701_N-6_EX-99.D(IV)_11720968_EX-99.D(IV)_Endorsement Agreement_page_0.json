@@ -1,0 +1,475 @@
+[
+  {
+    "text": "ENDORSEMENT",
+    "bbox": [
+      1000,
+      103,
+      1000,
+      113
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Thrivent Financial for Lutherans",
+    "bbox": [
+      217,
+      125,
+      520,
+      139
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Effective Date: July 1, 2019",
+    "bbox": [
+      111,
+      209,
+      312,
+      221
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Effective Date: July 1, 2019",
+    "bbox": [
+      111,
+      209,
+      312,
+      221
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "THRIYENT",
+    "bbox": [
+      211,
+      89,
+      455,
+      105
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ENDORSEMENT",
+    "bbox": [
+      1000,
+      103,
+      1000,
+      113
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Thrivent Financial for Lutherans",
+    "bbox": [
+      217,
+      125,
+      520,
+      139
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Contract",
+    "bbox": [
+      885,
+      140,
+      953,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Number:",
+    "bbox": [
+      884,
+      155,
+      951,
+      169
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "BENCTRCN",
+    "bbox": [
+      1000,
+      158,
+      1000,
+      169
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ENDORSEMENT",
+    "bbox": [
+      112,
+      177,
+      244,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Effective Date: July 1, 2019",
+    "bbox": [
+      111,
+      209,
+      312,
+      221
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Thrivent Life Insurance Company has been dissolved. (Thrivent Life Insurance Company was formerly known as Lutheran Brotherhood Variable",
+    "bbox": [
+      111,
+      249,
+      1000,
+      261
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Insurance Products Company.) All assets and related liabilities of Thrivent Life Insurance Company have been transferred to Thrivent Financial for",
+    "bbox": [
+      111,
+      266,
+      1000,
+      278
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Lutherans. That includes contracts of insurance, separate accounts, and cash and investment securities. Thrivent Financial for Lutherans now has",
+    "bbox": [
+      111,
+      282,
+      1000,
+      294
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "all obligations under this contract. It is the same as if Thrivent Financial for Lutherans had originally issued the contract. All references to",
+    "bbox": [
+      112,
+      298,
+      1000,
+      309
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Thrivent Life Insurance Company\"' are amended to read \"Thrivent Financial for Lutherans.\" All benefits and other terms of this contract remain",
+    "bbox": [
+      112,
+      314,
+      1000,
+      326
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "unchanged except as described below.",
+    "bbox": [
+      112,
+      330,
+      399,
+      341
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "You may direct inquiries to:",
+    "bbox": [
+      112,
+      361,
+      317,
+      374
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Thrivent Financial for Lutherans",
+    "bbox": [
+      200,
+      393,
+      442,
+      405
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4321 N. Ballard Road",
+    "bbox": [
+      201,
+      410,
+      356,
+      420
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Appleton, WI 54919-0001",
+    "bbox": [
+      201,
+      425,
+      391,
+      438
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(800) 847-4836",
+    "bbox": [
+      200,
+      441,
+      307,
+      454
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The following amendments apply in lieu of any contract provisions to the contrary..",
+    "bbox": [
+      112,
+      473,
+      733,
+      487
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The following provisions are included as part of this contract:.",
+    "bbox": [
+      112,
+      506,
+      575,
+      518
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society",
+    "bbox": [
+      122,
+      538,
+      1000,
+      550
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "becomes impaired, you may be required to make an extra payment. The Board of Directors will determine the amount of any extra payment. It will",
+    "bbox": [
+      122,
+      553,
+      1000,
+      565
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "be based on each member's fair share of the deficiency. You may make the extra payment by an equivalent reduction in benefits or by a payment in",
+    "bbox": [
+      122,
+      569,
+      1000,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "cash. If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged",
+    "bbox": [
+      123,
+      586,
+      1000,
+      598
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as an indebtedness against the contract with interest compounded at the rate of 5% per year.",
+    "bbox": [
+      122,
+      602,
+      819,
+      614
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "MEMBERsHIP. The person(s) named as the Insured(s) or the Annuitant(s) is a benefit member of the Society. Rights and privileges of.",
+    "bbox": [
+      122,
+      633,
+      1000,
+      646
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "membership are set forth in the Articles of Incorporation and Bylaws of the Society. These rights and privileges are separate from the ownership",
+    "bbox": [
+      121,
+      650,
+      1000,
+      662
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of this contract..",
+    "bbox": [
+      123,
+      666,
+      241,
+      677
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. Since we do not expect",
+    "bbox": [
+      123,
+      697,
+      1000,
+      709
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "this contract to contribute to divisible surplus, it is not expected that any dividends will be credited..",
+    "bbox": [
+      122,
+      713,
+      870,
+      725
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be paid in cash..",
+    "bbox": [
+      122,
+      745,
+      1000,
+      758
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Otherwise, dividends will be applied under the Payment of Premium option unless the Cash option has been chosen in writing.",
+    "bbox": [
+      122,
+      760,
+      1000,
+      774
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Cash. Dividends are paid in cash.",
+    "bbox": [
+      156,
+      793,
+      405,
+      805
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Payment of Premium. Dividends are applied as payment of a Net Premium..",
+    "bbox": [
+      156,
+      825,
+      715,
+      837
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "VB-TL-TFFL (18)",
+    "bbox": [
+      111,
+      840,
+      239,
+      854
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "page TL-1",
+    "bbox": [
+      649,
+      840,
+      728,
+      855
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "@TL18#AA",
+    "bbox": [
+      1000,
+      846,
+      1000,
+      855
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: THRIVENT VARIABLE INSURANCE ACCOUNT B, N-6, 7/1/2019",
+    "bbox": [
+      133,
+      1000,
+      691,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

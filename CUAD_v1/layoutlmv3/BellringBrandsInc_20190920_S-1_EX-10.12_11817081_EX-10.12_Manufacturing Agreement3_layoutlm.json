@@ -1,0 +1,425 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Manufacturing\\BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3.pdf",
+  "annotations": [
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "MANUFACTURING AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ],
+          "confidence": 0.9990665912628174
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "AMENDMENT NO. 2",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+          "bbox": [
+            924.0,
+            294.0,
+            2411.0,
+            331.0
+          ],
+          "confidence": 0.9888513684272766
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Stremick's Heritage Foods, LLC",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+          "bbox": [
+            924.0,
+            294.0,
+            2411.0,
+            331.0
+          ],
+          "confidence": 0.9888513684272766
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Premier",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+          "bbox": [
+            924.0,
+            294.0,
+            2411.0,
+            331.0
+          ],
+          "confidence": 0.9888513684272766
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Premier Nutrition Corporation",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+          "bbox": [
+            924.0,
+            294.0,
+            2411.0,
+            331.0
+          ],
+          "confidence": 0.9888513684272766
+        },
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ],
+          "confidence": 0.9990665912628174
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Heritage and Premier are each referred to herein as a \"Party\" and collectively as the \"Parties\".",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "between Heritage and Premier dated July 1, 2017 (\"Agreement'). Heritage and Premier are each referred to herein as a \"Party' and collectively as the",
+          "bbox": [
+            279.0,
+            570.0,
+            2942.0,
+            607.0
+          ],
+          "confidence": 0.9924489855766296
+        },
+        {
+          "text": "\"Parties\".",
+          "bbox": [
+            277.0,
+            621.0,
+            450.0,
+            660.0
+          ],
+          "confidence": 0.9600982666015625
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Heritage",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+          "bbox": [
+            924.0,
+            294.0,
+            2411.0,
+            331.0
+          ],
+          "confidence": 0.9888513684272766
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "October 1, 2018",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Corporation (\"Premier') is effective as of October 1, 2018 (\"Second Amendment Effective Date\") and amends that certain Manufacturing Agreement",
+          "bbox": [
+            277.0,
+            510.0,
+            2951.0,
+            556.0
+          ],
+          "confidence": 0.9843289852142334
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "October 1, 2018",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Corporation (\"Premier') is effective as of October 1, 2018 (\"Second Amendment Effective Date\") and amends that certain Manufacturing Agreement",
+          "bbox": [
+            277.0,
+            510.0,
+            2951.0,
+            556.0
+          ],
+          "confidence": 0.9843289852142334
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Term. This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021. Upon.",
+          "bbox": [
+            520.0,
+            1219.0,
+            3034.0,
+            1261.0
+          ],
+          "confidence": 0.9952712655067444
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1060.0,
+            349.0,
+            2271.0,
+            386.0
+          ]
+        },
+        {
+          "text": "PRODUCTION OF PRODUCT.",
+          "page": 0,
+          "bbox": [
+            524.0,
+            1875.0,
+            1071.0,
+            1911.0
+          ]
+        }
+      ]
+    }
+  ]
+}

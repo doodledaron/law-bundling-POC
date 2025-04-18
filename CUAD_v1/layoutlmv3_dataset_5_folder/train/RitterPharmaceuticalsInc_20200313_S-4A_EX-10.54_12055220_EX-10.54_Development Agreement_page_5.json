@@ -1,0 +1,453 @@
+[
+  {
+    "text": "4.",
+    "bbox": [
+      111,
+      73,
+      125,
+      83
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Price, Shipment and Payment",
+    "bbox": [
+      180,
+      73,
+      406,
+      84
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.1.",
+    "bbox": [
+      143,
+      87,
+      173,
+      101
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Price. The price that Sekisui shall pay for the Products shall be established separately for the Reagent Kits and for the products other",
+    "bbox": [
+      212,
+      88,
+      1000,
+      101
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "than Reagent Kits. The price that Sekisui shall pay for the Reagent Kits Products shall be based upon a formula intended to ensure",
+    "bbox": [
+      213,
+      105,
+      1000,
+      117
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "that Sekisui will receive 90% of the total Available Margin for all Products during the first 12 months of this Agreement, 70% of the",
+    "bbox": [
+      213,
+      120,
+      1000,
+      133
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "total Available Margin for all Products during months 13-24 of this Agreement, and 65% of the total Available Margin for all Products",
+    "bbox": [
+      213,
+      137,
+      1000,
+      149
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "thereafter. Accordingly, the prices (established separately for the Reagent Kits and for the products other than Reagent Kits) to be",
+    "bbox": [
+      212,
+      153,
+      1000,
+      165
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "paid by Sekisui for the Products shall be fixed (subject to a later lookback true up) for each respective prospective six month period in",
+    "bbox": [
+      213,
+      169,
+      1000,
+      181
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the manner set forth in Exhibit D. The initial prices Sekisui agrees to pay for the respective Products for the first such prospective \"six",
+    "bbox": [
+      213,
+      185,
+      1000,
+      197
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "month period\" (in this instance actually a five month period: May-September 2016) shall be fixed (subject to a later lookback true up)",
+    "bbox": [
+      213,
+      201,
+      1000,
+      213
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "in the manner set forth in Exhibit D. Thereafter such prices shall be revisited and recalculated (prospectively) every six months in the",
+    "bbox": [
+      212,
+      216,
+      1000,
+      229
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "manner set forth in Exhibit D (i.e., for purposes of such calculations for establishing the new prospective prices for the reagent",
+    "bbox": [
+      212,
+      232,
+      1000,
+      245
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "products, the applicable Net Revenue, COGS and Available Margin shall be the Net Revenue, COGS and Available Margin for the",
+    "bbox": [
+      212,
+      248,
+      1000,
+      261
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "applicable historical 6-month period as defined in Exhibit D). In addition, on a semi-annual basis, such amount shall be reviewed based",
+    "bbox": [
+      213,
+      263,
+      1000,
+      278
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "on the actual Net Revenue, COGS and Available Margin for the 6 months then ended. In the event that such review results in a",
+    "bbox": [
+      213,
+      281,
+      1000,
+      293
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "difference from the intended share of Available Margin between the Parties as contemplated above, the Parties shall make a true up",
+    "bbox": [
+      212,
+      295,
+      1000,
+      310
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "payment between them in order to compensate for such overpayment or shortfall, all as provided in Exhibit D. Any true-up payments",
+    "bbox": [
+      213,
+      313,
+      1000,
+      326
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "shall be paid by the applicable Party within 30 days of the receipt of an invoice for the agreed to true up amount.",
+    "bbox": [
+      213,
+      329,
+      1000,
+      341
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sekisui shall set the customer selling prices in good faith and in a commercially reasonable manner.",
+    "bbox": [
+      214,
+      345,
+      953,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.2.",
+    "bbox": [
+      144,
+      360,
+      172,
+      372
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Shipment. The shipment of orders to Sekisui's customers shall be subject to the ability of Sekisui and Qualigen to obtain all required",
+    "bbox": [
+      214,
+      361,
+      1000,
+      373
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "licenses and permits then in effect. Qualigen agrees (i) to assist Sekisui in obtaining such required licenses or permits, (ii) to comply",
+    "bbox": [
+      212,
+      377,
+      1000,
+      390
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "with all Regulatory Approvals in, including all approvals and licenses necessary to import the Product into, the Applicable Markets,",
+    "bbox": [
+      212,
+      392,
+      1000,
+      405
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and (iii) to maintain the necessary records to comply with all Regulatory Approvals and other applicable rules and regulations in the",
+    "bbox": [
+      213,
+      409,
+      1000,
+      421
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Applicable Markets. Qualigen shall not be subject to unreasonable requests for assistance in applying for Regulatory Approvals",
+    "bbox": [
+      214,
+      424,
+      1000,
+      438
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "such as providing original or proprietary documents, submitting free product samples or extensive translations. All Product ordered",
+    "bbox": [
+      213,
+      441,
+      1000,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "by Sekisui's customers shall be suitably packed for shipment and storage by Qualigen on behalf of Sekisui in accordance with",
+    "bbox": [
+      213,
+      457,
+      1000,
+      469
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Qualigen's standard commercial shipping practices. Each order shall be shipped as designated by Sekisui's customers in the order. If",
+    "bbox": [
+      214,
+      473,
+      1000,
+      485
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the carrier noted on the Sekisui customer's purchase order is not available, or if the purchase order does not designate a carrier, then",
+    "bbox": [
+      213,
+      489,
+      1000,
+      501
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sekisui shall select the mode of shipment or, if Sekisui does not select the mode of shipment, Qualigen shall select the mode of",
+    "bbox": [
+      213,
+      505,
+      1000,
+      517
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "shipment. Qualigen's responsibility shall be to deposit the ordered goods with the designated carrier within the shipping periods",
+    "bbox": [
+      213,
+      520,
+      1000,
+      533
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "specified, and Qualigen shall not be liable for late delivery if so accomplished.",
+    "bbox": [
+      213,
+      536,
+      797,
+      550
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.3.",
+    "bbox": [
+      144,
+      552,
+      172,
+      565
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Delivery Terms. Qualigen shall deliver Products ordered by Sekisui, FCA (Incoterms 2010) Qualigen's facility in Carlsbad, California.",
+    "bbox": [
+      212,
+      552,
+      1000,
+      565
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Title to Products ordered by Sekisui shall pass to Sekisui upon delivery to the designated Sekisui storeroom at Qualigen's facility",
+    "bbox": [
+      214,
+      569,
+      1000,
+      580
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "While held at the Sekisui storeroom, any physical inventory loss will be the responsibility of Qualigen. Sekisui undertakes that all",
+    "bbox": [
+      214,
+      584,
+      1000,
+      597
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sekisui inventory of Products shall be kept at such designated Sekisui storeroom at Qualigen's facility, until resale to Sekisui's",
+    "bbox": [
+      212,
+      600,
+      1000,
+      613
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "customers.",
+    "bbox": [
+      213,
+      618,
+      295,
+      628
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      660,
+      633,
+      672,
+      644
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: RITTER PHARMACEUTICALS INC, S-4/A, 3/13/2020",
+    "bbox": [
+      133,
+      1000,
+      606,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

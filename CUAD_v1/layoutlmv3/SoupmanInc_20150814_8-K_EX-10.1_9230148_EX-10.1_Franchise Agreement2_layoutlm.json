@@ -1,0 +1,525 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Franchise\\SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement2.pdf",
+  "annotations": [
+    {
+      "id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement2__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+          "bbox": [
+            1084.0,
+            594.0,
+            2168.0,
+            630.0
+          ],
+          "confidence": 0.9886100888252258
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1084.0,
+            594.0,
+            2168.0,
+            630.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Guarantors",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "(\"Guarantors\"), jointly and severally agree as follows:.",
+          "bbox": [
+            1113.0,
+            817.0,
+            2151.0,
+            863.0
+          ],
+          "confidence": 0.9812535047531128
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1084.0,
+            594.0,
+            2168.0,
+            630.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "F ranch i so r",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "As an inducement to Kiosk Concepts, Inc. (\"Franchisor\") to enter into a Master Franchise Agreement with",
+          "bbox": [
+            448.0,
+            705.0,
+            2969.0,
+            747.0
+          ],
+          "confidence": 0.9862688183784485
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1084.0,
+            594.0,
+            2168.0,
+            630.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Master Franchisee",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "(\"Master Franchisee') dated",
+          "bbox": [
+            937.0,
+            762.0,
+            1522.0,
+            804.0
+          ],
+          "confidence": 0.9700332880020142
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1084.0,
+            594.0,
+            2168.0,
+            630.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement2__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "K iosk  Concep t s ,   I nc",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Attachment B to.",
+          "bbox": [
+            1474.0,
+            428.0,
+            1780.0,
+            464.0
+          ],
+          "confidence": 0.9627430438995361
+        },
+        {
+          "text": "Master Franchise Agreement",
+          "bbox": [
+            1343.0,
+            479.0,
+            1910.0,
+            524.0
+          ],
+          "confidence": 0.9958487749099731
+        },
+        {
+          "text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+          "bbox": [
+            1084.0,
+            594.0,
+            2168.0,
+            630.0
+          ],
+          "confidence": 0.9886100888252258
+        },
+        {
+          "text": "As an inducement to Kiosk Concepts, Inc. (\"Franchisor\") to enter into a Master Franchise Agreement with",
+          "bbox": [
+            448.0,
+            705.0,
+            2969.0,
+            747.0
+          ],
+          "confidence": 0.9862688183784485
+        },
+        {
+          "text": "N/A",
+          "bbox": [
+            321.0,
+            760.0,
+            413.0,
+            802.0
+          ],
+          "confidence": 0.9980905055999756
+        },
+        {
+          "text": "(\"Master Franchisee') dated",
+          "bbox": [
+            937.0,
+            762.0,
+            1522.0,
+            804.0
+          ],
+          "confidence": 0.9700332880020142
+        },
+        {
+          "text": ",20",
+          "bbox": [
+            1997.0,
+            760.0,
+            2077.0,
+            802.0
+          ],
+          "confidence": 0.8559186458587646
+        },
+        {
+          "text": "(the \" Master Franchise Agreement'),.",
+          "bbox": [
+            2179.0,
+            762.0,
+            2967.0,
+            804.0
+          ],
+          "confidence": 0.9602987766265869
+        },
+        {
+          "text": "(\"Guarantors\"), jointly and severally agree as follows:.",
+          "bbox": [
+            1113.0,
+            817.0,
+            2151.0,
+            863.0
+          ],
+          "confidence": 0.9812535047531128
+        },
+        {
+          "text": "A. Guarantors shall pay or cause to be paid to Franchisor all monies payable by Master Franchisee under the Master Franchise.",
+          "bbox": [
+            446.0,
+            930.0,
+            2971.0,
+            974.0
+          ],
+          "confidence": 0.9908449649810791
+        },
+        {
+          "text": "Agreement on the days and times and in the manner therein appointed for payment thereof..",
+          "bbox": [
+            285.0,
+            990.0,
+            1977.0,
+            1027.0
+          ],
+          "confidence": 0.9956954121589661
+        },
+        {
+          "text": "B. Guarantors shall unconditionally guarantee full performance and discharge by Master Franchisee of all the obligations of Master.",
+          "bbox": [
+            444.0,
+            1098.0,
+            2971.0,
+            1142.0
+          ],
+          "confidence": 0.9969744682312012
+        },
+        {
+          "text": "Franchisee under the Master Franchise Agreement at the times and in the manner therein provided..",
+          "bbox": [
+            279.0,
+            1155.0,
+            2122.0,
+            1197.0
+          ],
+          "confidence": 0.9938511848449707
+        },
+        {
+          "text": "C. Guarantors shall indemnify and save harmless Franchisor and its affiliates against and from all losses, damages, costs, and expenses",
+          "bbox": [
+            444.0,
+            1265.0,
+            2971.0,
+            1310.0
+          ],
+          "confidence": 0.9909848570823669
+        },
+        {
+          "text": "which Franchisor and its affiliates may sustain, incur, or become liable for by reason of: (1) the failure for any reason whatsoever of Master",
+          "bbox": [
+            275.0,
+            1321.0,
+            2973.0,
+            1367.0
+          ],
+          "confidence": 0.9790077805519104
+        },
+        {
+          "text": "Franchisee to pay the monies payable pursuant to the Master Franchise Agreement or to do and perform any other act, matter or thing pursuant",
+          "bbox": [
+            277.0,
+            1378.0,
+            2973.0,
+            1424.0
+          ],
+          "confidence": 0.9922272562980652
+        },
+        {
+          "text": "to the provisions of the Master Franchise Agreement; or (2) any act, action, or proceeding of or by Franchisor for or in connection with the",
+          "bbox": [
+            279.0,
+            1436.0,
+            2971.0,
+            1480.0
+          ],
+          "confidence": 0.9973942637443542
+        },
+        {
+          "text": "recovery of monies or the obtaining of performance by Master Franchisee of any other act, matter or thing pursuant to the provisions of the",
+          "bbox": [
+            276.0,
+            1493.0,
+            2971.0,
+            1535.0
+          ],
+          "confidence": 0.9947508573532104
+        },
+        {
+          "text": "Master Franchise Agreement.",
+          "bbox": [
+            275.0,
+            1546.0,
+            832.0,
+            1592.0
+          ],
+          "confidence": 0.9945952892303467
+        },
+        {
+          "text": "D. Franchisor shall not be obligated to proceed against Master Franchisee or exhaust any security from Master Franchisee or pursue or",
+          "bbox": [
+            444.0,
+            1659.0,
+            2973.0,
+            1701.0
+          ],
+          "confidence": 0.9988234639167786
+        },
+        {
+          "text": "exhaust any remedy, including any legal or equitable relief against Master Franchisee, before proceeding to enforce the obligations of the",
+          "bbox": [
+            279.0,
+            1718.0,
+            2971.0,
+            1760.0
+          ],
+          "confidence": 0.9983201026916504
+        },
+        {
+          "text": "Guarantors under this Guarantee, and the enforcement of such obligations may take place before, after, or contemporaneously with, enforcement",
+          "bbox": [
+            281.0,
+            1776.0,
+            2971.0,
+            1813.0
+          ],
+          "confidence": 0.9970625042915344
+        },
+        {
+          "text": "of any debt or obligation of Master Franchisee under the Master Franchise Agreement.",
+          "bbox": [
+            277.0,
+            1827.0,
+            1900.0,
+            1871.0
+          ],
+          "confidence": 0.9941920042037964
+        },
+        {
+          "text": "E. Without affecting the Guarantors' obligations under this Guarantee, Franchisor, without notice to the Guarantors, may extend,",
+          "bbox": [
+            442.0,
+            1939.0,
+            2969.0,
+            1983.0
+          ],
+          "confidence": 0.9940104484558105
+        },
+        {
+          "text": "modify, or release any indebtedness or obligation of Master Franchisee, or settle, adjust, or compromise any claims against Master Franchisee.",
+          "bbox": [
+            279.0,
+            1997.0,
+            2967.0,
+            2039.0
+          ],
+          "confidence": 0.9964427947998047
+        },
+        {
+          "text": "Guarantors waive notice of amendment of the Master Franchise Agreement and notice of demand for payment or performance by Master",
+          "bbox": [
+            279.0,
+            2052.0,
+            2969.0,
+            2094.0
+          ],
+          "confidence": 0.9981368780136108
+        },
+        {
+          "text": "Franchisee.",
+          "bbox": [
+            275.0,
+            2107.0,
+            491.0,
+            2151.0
+          ],
+          "confidence": 0.9997876882553101
+        },
+        {
+          "text": "F. Guarantors' obligations under this Guarantee shall remain in full force and effect, and shall be unaffected by: (1) the unenforceability",
+          "bbox": [
+            442.0,
+            2218.0,
+            2969.0,
+            2264.0
+          ],
+          "confidence": 0.9912093877792358
+        },
+        {
+          "text": "of the Master Franchise Agreement against Master Franchisee; (2) the termination of any obligations of Master Franchisee under the Master",
+          "bbox": [
+            277.0,
+            2275.0,
+            2973.0,
+            2319.0
+          ],
+          "confidence": 0.9957393407821655
+        },
+        {
+          "text": "Franchise Agreement by operation of law or otherwise; (3) the bankruptcy, insolvency, dissolution, or other liquidation of Master Franchisee,",
+          "bbox": [
+            279.0,
+            2337.0,
+            2971.0,
+            2374.0
+          ],
+          "confidence": 0.9893796443939209
+        },
+        {
+          "text": "including, without limitation, any surrender or disclaimer of the Franchise Agreement by the trustee in bankruptcy of Master Franchisee; (4)",
+          "bbox": [
+            277.0,
+            2390.0,
+            2971.0,
+            2432.0
+          ],
+          "confidence": 0.9878579378128052
+        },
+        {
+          "text": "Franchisor's consent or acquiescence to any bankruptcy, receivership, insolvency, or any other creditor's proceedings of or against Master",
+          "bbox": [
+            277.0,
+            2445.0,
+            2973.0,
+            2489.0
+          ],
+          "confidence": 0.9966156482696533
+        },
+        {
+          "text": "Franchisee, or by the winding-up or dissolution of Master Franchisee, or any other event or occurrence which would have the effect at law of",
+          "bbox": [
+            275.0,
+            2500.0,
+            2976.0,
+            2545.0
+          ],
+          "confidence": 0.9877587556838989
+        },
+        {
+          "text": "terminating the existence of Master Franchisee's obligations prior to the termination of the Master Franchise Agreement; or (5) by any other",
+          "bbox": [
+            275.0,
+            2556.0,
+            2973.0,
+            2602.0
+          ],
+          "confidence": 0.995402991771698
+        },
+        {
+          "text": "agreements or other dealings between Franchisor and Master Franchisee having the effect of amending or altering the Master Franchise",
+          "bbox": [
+            277.0,
+            2613.0,
+            2971.0,
+            2659.0
+          ],
+          "confidence": 0.9898792505264282
+        },
+        {
+          "text": "Agreement or Master Franchisee's obligations under this Guarantee, or by any want of notice by Franchisor to Master Franchisee of any default",
+          "bbox": [
+            281.0,
+            2672.0,
+            2972.0,
+            2714.0
+          ],
+          "confidence": 0.9942033886909485
+        },
+        {
+          "text": "of Master Franchisee or by any other matter, thing, act, or omission of Franchisor whatsoever..",
+          "bbox": [
+            275.0,
+            2725.0,
+            2025.0,
+            2770.0
+          ],
+          "confidence": 0.990722119808197
+        },
+        {
+          "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+          "bbox": [
+            335.0,
+            4440.0,
+            1133.0,
+            4477.0
+          ],
+          "confidence": 0.9954955577850342
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GUARANTEES OF MASTER FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1084.0,
+            594.0,
+            2168.0,
+            630.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2750 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf/Part_I/Affiliate_Agreements/CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement.pdf",
+  "annotations": [
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "CHASE AFFILIATE AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "CHASE AFFILIATE AGREEMENT",
+          "bbox": [
+            281.0,
+            636.0,
+            926.0,
+            672.0
+          ],
+          "confidence": 0.999711811542511
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "you as an \"Affiliate\"",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+          "bbox": [
+            281.0,
+            751.0,
+            3025.0,
+            788.0
+          ],
+          "confidence": 0.9894608855247498
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Chase Bank USA, N.A. (?Chase?)",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+          "bbox": [
+            281.0,
+            751.0,
+            3025.0,
+            788.0
+          ],
+          "confidence": 0.9894608855247498
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "April 6, 2007",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Last Updated: April 6, 2007",
+          "bbox": [
+            275.0,
+            464.0,
+            779.0,
+            512.0
+          ],
+          "confidence": 0.9963943362236023
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "The term of this Agreement will commence on the date that the Affiliate Registration Form is approved by Chase and will end when terminated by either party.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.33",
+          "bbox": [
+            2775.0,
+            356.0,
+            3027.0,
+            393.0
+          ],
+          "confidence": 0.9745664000511169
+        },
+        {
+          "text": "Last Updated: April 6, 2007",
+          "bbox": [
+            275.0,
+            464.0,
+            779.0,
+            512.0
+          ],
+          "confidence": 0.9963943362236023
+        },
+        {
+          "text": "CHASE AFFILIATE AGREEMENT",
+          "bbox": [
+            281.0,
+            636.0,
+            926.0,
+            672.0
+          ],
+          "confidence": 0.999711811542511
+        },
+        {
+          "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+          "bbox": [
+            281.0,
+            751.0,
+            3025.0,
+            788.0
+          ],
+          "confidence": 0.9894608855247498
+        },
+        {
+          "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+          "bbox": [
+            279.0,
+            802.0,
+            2992.0,
+            848.0
+          ],
+          "confidence": 0.9932063221931458
+        },
+        {
+          "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+          "bbox": [
+            281.0,
+            861.0,
+            2675.0,
+            903.0
+          ],
+          "confidence": 0.9777130484580994
+        },
+        {
+          "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+          "bbox": [
+            275.0,
+            1027.0,
+            3007.0,
+            1065.0
+          ],
+          "confidence": 0.9900811314582825
+        },
+        {
+          "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+          "bbox": [
+            275.0,
+            1084.0,
+            2905.0,
+            1122.0
+          ],
+          "confidence": 0.9935755729675293
+        },
+        {
+          "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+          "bbox": [
+            277.0,
+            1140.0,
+            2973.0,
+            1179.0
+          ],
+          "confidence": 0.9830624461174011
+        },
+        {
+          "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+          "bbox": [
+            281.0,
+            1199.0,
+            2974.0,
+            1235.0
+          ],
+          "confidence": 0.9927299618721008
+        },
+        {
+          "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+          "bbox": [
+            277.0,
+            1252.0,
+            2267.0,
+            1292.0
+          ],
+          "confidence": 0.9977126121520996
+        },
+        {
+          "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+          "bbox": [
+            275.0,
+            1363.0,
+            2115.0,
+            1407.0
+          ],
+          "confidence": 0.985975444316864
+        },
+        {
+          "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+          "bbox": [
+            279.0,
+            1476.0,
+            1338.0,
+            1517.0
+          ],
+          "confidence": 0.9862098693847656
+        },
+        {
+          "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+          "bbox": [
+            274.0,
+            1584.0,
+            2576.0,
+            1635.0
+          ],
+          "confidence": 0.9884176850318909
+        },
+        {
+          "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+          "bbox": [
+            277.0,
+            1701.0,
+            1834.0,
+            1745.0
+          ],
+          "confidence": 0.9952169060707092
+        },
+        {
+          "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+          "bbox": [
+            275.0,
+            1811.0,
+            1628.0,
+            1858.0
+          ],
+          "confidence": 0.9871618747711182
+        },
+        {
+          "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+          "bbox": [
+            277.0,
+            1924.0,
+            2989.0,
+            1970.0
+          ],
+          "confidence": 0.9974223971366882
+        },
+        {
+          "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+          "bbox": [
+            277.0,
+            1984.0,
+            3027.0,
+            2027.0
+          ],
+          "confidence": 0.998779296875
+        },
+        {
+          "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+          "bbox": [
+            276.0,
+            2039.0,
+            2958.0,
+            2081.0
+          ],
+          "confidence": 0.9987477660179138
+        },
+        {
+          "text": "Content\"'):",
+          "bbox": [
+            277.0,
+            2094.0,
+            477.0,
+            2140.0
+          ],
+          "confidence": 0.9201616644859314
+        },
+        {
+          "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+          "bbox": [
+            277.0,
+            2215.0,
+            2922.0,
+            2262.0
+          ],
+          "confidence": 0.9934685826301575
+        },
+        {
+          "text": "ethically or otherwise objectionable.",
+          "bbox": [
+            279.0,
+            2275.0,
+            941.0,
+            2319.0
+          ],
+          "confidence": 0.9892349243164062
+        },
+        {
+          "text": ": Promote illegal activities, including gambling",
+          "bbox": [
+            279.0,
+            2397.0,
+            1138.0,
+            2443.0
+          ],
+          "confidence": 0.9839908480644226
+        },
+        {
+          "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+          "bbox": [
+            279.0,
+            2525.0,
+            1613.0,
+            2571.0
+          ],
+          "confidence": 0.9866061806678772
+        },
+        {
+          "text": ": Promotes or depicts violence or hate speech.",
+          "bbox": [
+            279.0,
+            2650.0,
+            1133.0,
+            2695.0
+          ],
+          "confidence": 0.9624453186988831
+        },
+        {
+          "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+          "bbox": [
+            277.0,
+            2776.0,
+            2151.0,
+            2823.0
+          ],
+          "confidence": 0.9893679618835449
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4437.0,
+            1325.0,
+            4479.0
+          ],
+          "confidence": 0.9928081035614014
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "The term of this Agreement will commence on the date that the Affiliate Registration Form is approved by Chase and will end when terminated by either party.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.33",
+          "bbox": [
+            2775.0,
+            356.0,
+            3027.0,
+            393.0
+          ],
+          "confidence": 0.9745664000511169
+        },
+        {
+          "text": "Last Updated: April 6, 2007",
+          "bbox": [
+            275.0,
+            464.0,
+            779.0,
+            512.0
+          ],
+          "confidence": 0.9963943362236023
+        },
+        {
+          "text": "CHASE AFFILIATE AGREEMENT",
+          "bbox": [
+            281.0,
+            636.0,
+            926.0,
+            672.0
+          ],
+          "confidence": 0.999711811542511
+        },
+        {
+          "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+          "bbox": [
+            281.0,
+            751.0,
+            3025.0,
+            788.0
+          ],
+          "confidence": 0.9894608855247498
+        },
+        {
+          "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+          "bbox": [
+            279.0,
+            802.0,
+            2992.0,
+            848.0
+          ],
+          "confidence": 0.9932063221931458
+        },
+        {
+          "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+          "bbox": [
+            281.0,
+            861.0,
+            2675.0,
+            903.0
+          ],
+          "confidence": 0.9777130484580994
+        },
+        {
+          "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+          "bbox": [
+            275.0,
+            1027.0,
+            3007.0,
+            1065.0
+          ],
+          "confidence": 0.9900811314582825
+        },
+        {
+          "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+          "bbox": [
+            275.0,
+            1084.0,
+            2905.0,
+            1122.0
+          ],
+          "confidence": 0.9935755729675293
+        },
+        {
+          "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+          "bbox": [
+            277.0,
+            1140.0,
+            2973.0,
+            1179.0
+          ],
+          "confidence": 0.9830624461174011
+        },
+        {
+          "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+          "bbox": [
+            281.0,
+            1199.0,
+            2974.0,
+            1235.0
+          ],
+          "confidence": 0.9927299618721008
+        },
+        {
+          "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+          "bbox": [
+            277.0,
+            1252.0,
+            2267.0,
+            1292.0
+          ],
+          "confidence": 0.9977126121520996
+        },
+        {
+          "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+          "bbox": [
+            275.0,
+            1363.0,
+            2115.0,
+            1407.0
+          ],
+          "confidence": 0.985975444316864
+        },
+        {
+          "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+          "bbox": [
+            279.0,
+            1476.0,
+            1338.0,
+            1517.0
+          ],
+          "confidence": 0.9862098693847656
+        },
+        {
+          "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+          "bbox": [
+            274.0,
+            1584.0,
+            2576.0,
+            1635.0
+          ],
+          "confidence": 0.9884176850318909
+        },
+        {
+          "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+          "bbox": [
+            277.0,
+            1701.0,
+            1834.0,
+            1745.0
+          ],
+          "confidence": 0.9952169060707092
+        },
+        {
+          "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+          "bbox": [
+            275.0,
+            1811.0,
+            1628.0,
+            1858.0
+          ],
+          "confidence": 0.9871618747711182
+        },
+        {
+          "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+          "bbox": [
+            277.0,
+            1924.0,
+            2989.0,
+            1970.0
+          ],
+          "confidence": 0.9974223971366882
+        },
+        {
+          "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+          "bbox": [
+            277.0,
+            1984.0,
+            3027.0,
+            2027.0
+          ],
+          "confidence": 0.998779296875
+        },
+        {
+          "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+          "bbox": [
+            276.0,
+            2039.0,
+            2958.0,
+            2081.0
+          ],
+          "confidence": 0.9987477660179138
+        },
+        {
+          "text": "Content\"'):",
+          "bbox": [
+            277.0,
+            2094.0,
+            477.0,
+            2140.0
+          ],
+          "confidence": 0.9201616644859314
+        },
+        {
+          "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+          "bbox": [
+            277.0,
+            2215.0,
+            2922.0,
+            2262.0
+          ],
+          "confidence": 0.9934685826301575
+        },
+        {
+          "text": "ethically or otherwise objectionable.",
+          "bbox": [
+            279.0,
+            2275.0,
+            941.0,
+            2319.0
+          ],
+          "confidence": 0.9892349243164062
+        },
+        {
+          "text": ": Promote illegal activities, including gambling",
+          "bbox": [
+            279.0,
+            2397.0,
+            1138.0,
+            2443.0
+          ],
+          "confidence": 0.9839908480644226
+        },
+        {
+          "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+          "bbox": [
+            279.0,
+            2525.0,
+            1613.0,
+            2571.0
+          ],
+          "confidence": 0.9866061806678772
+        },
+        {
+          "text": ": Promotes or depicts violence or hate speech.",
+          "bbox": [
+            279.0,
+            2650.0,
+            1133.0,
+            2695.0
+          ],
+          "confidence": 0.9624453186988831
+        },
+        {
+          "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+          "bbox": [
+            277.0,
+            2776.0,
+            2151.0,
+            2823.0
+          ],
+          "confidence": 0.9893679618835449
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4437.0,
+            1325.0,
+            4479.0
+          ],
+          "confidence": 0.9928081035614014
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Governing Law_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This Agreement will be governed in all respects by the laws of the State of Delaware, including its conflict with law provisions.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.33",
+          "bbox": [
+            2775.0,
+            356.0,
+            3027.0,
+            393.0
+          ],
+          "confidence": 0.9745664000511169
+        },
+        {
+          "text": "Last Updated: April 6, 2007",
+          "bbox": [
+            275.0,
+            464.0,
+            779.0,
+            512.0
+          ],
+          "confidence": 0.9963943362236023
+        },
+        {
+          "text": "CHASE AFFILIATE AGREEMENT",
+          "bbox": [
+            281.0,
+            636.0,
+            926.0,
+            672.0
+          ],
+          "confidence": 0.999711811542511
+        },
+        {
+          "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+          "bbox": [
+            281.0,
+            751.0,
+            3025.0,
+            788.0
+          ],
+          "confidence": 0.9894608855247498
+        },
+        {
+          "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+          "bbox": [
+            279.0,
+            802.0,
+            2992.0,
+            848.0
+          ],
+          "confidence": 0.9932063221931458
+        },
+        {
+          "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+          "bbox": [
+            281.0,
+            861.0,
+            2675.0,
+            903.0
+          ],
+          "confidence": 0.9777130484580994
+        },
+        {
+          "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+          "bbox": [
+            275.0,
+            1027.0,
+            3007.0,
+            1065.0
+          ],
+          "confidence": 0.9900811314582825
+        },
+        {
+          "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+          "bbox": [
+            275.0,
+            1084.0,
+            2905.0,
+            1122.0
+          ],
+          "confidence": 0.9935755729675293
+        },
+        {
+          "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+          "bbox": [
+            277.0,
+            1140.0,
+            2973.0,
+            1179.0
+          ],
+          "confidence": 0.9830624461174011
+        },
+        {
+          "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+          "bbox": [
+            281.0,
+            1199.0,
+            2974.0,
+            1235.0
+          ],
+          "confidence": 0.9927299618721008
+        },
+        {
+          "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+          "bbox": [
+            277.0,
+            1252.0,
+            2267.0,
+            1292.0
+          ],
+          "confidence": 0.9977126121520996
+        },
+        {
+          "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+          "bbox": [
+            275.0,
+            1363.0,
+            2115.0,
+            1407.0
+          ],
+          "confidence": 0.985975444316864
+        },
+        {
+          "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+          "bbox": [
+            279.0,
+            1476.0,
+            1338.0,
+            1517.0
+          ],
+          "confidence": 0.9862098693847656
+        },
+        {
+          "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+          "bbox": [
+            274.0,
+            1584.0,
+            2576.0,
+            1635.0
+          ],
+          "confidence": 0.9884176850318909
+        },
+        {
+          "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+          "bbox": [
+            277.0,
+            1701.0,
+            1834.0,
+            1745.0
+          ],
+          "confidence": 0.9952169060707092
+        },
+        {
+          "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+          "bbox": [
+            275.0,
+            1811.0,
+            1628.0,
+            1858.0
+          ],
+          "confidence": 0.9871618747711182
+        },
+        {
+          "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+          "bbox": [
+            277.0,
+            1924.0,
+            2989.0,
+            1970.0
+          ],
+          "confidence": 0.9974223971366882
+        },
+        {
+          "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+          "bbox": [
+            277.0,
+            1984.0,
+            3027.0,
+            2027.0
+          ],
+          "confidence": 0.998779296875
+        },
+        {
+          "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+          "bbox": [
+            276.0,
+            2039.0,
+            2958.0,
+            2081.0
+          ],
+          "confidence": 0.9987477660179138
+        },
+        {
+          "text": "Content\"'):",
+          "bbox": [
+            277.0,
+            2094.0,
+            477.0,
+            2140.0
+          ],
+          "confidence": 0.9201616644859314
+        },
+        {
+          "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+          "bbox": [
+            277.0,
+            2215.0,
+            2922.0,
+            2262.0
+          ],
+          "confidence": 0.9934685826301575
+        },
+        {
+          "text": "ethically or otherwise objectionable.",
+          "bbox": [
+            279.0,
+            2275.0,
+            941.0,
+            2319.0
+          ],
+          "confidence": 0.9892349243164062
+        },
+        {
+          "text": ": Promote illegal activities, including gambling",
+          "bbox": [
+            279.0,
+            2397.0,
+            1138.0,
+            2443.0
+          ],
+          "confidence": 0.9839908480644226
+        },
+        {
+          "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+          "bbox": [
+            279.0,
+            2525.0,
+            1613.0,
+            2571.0
+          ],
+          "confidence": 0.9866061806678772
+        },
+        {
+          "text": ": Promotes or depicts violence or hate speech.",
+          "bbox": [
+            279.0,
+            2650.0,
+            1133.0,
+            2695.0
+          ],
+          "confidence": 0.9624453186988831
+        },
+        {
+          "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+          "bbox": [
+            277.0,
+            2776.0,
+            2151.0,
+            2823.0
+          ],
+          "confidence": 0.9893679618835449
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4437.0,
+            1325.0,
+            4479.0
+          ],
+          "confidence": 0.9928081035614014
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Termination For Convenience_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "Chase may revoke Affiliate's license at any time.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": " Incorporates any materials which infringe or assist others to infringe on any copyright, trademark or other intellectual property rights",
+          "bbox": [
+            281.0,
+            322.0,
+            2780.0,
+            367.0
+          ],
+          "confidence": 0.992344319820404
+        },
+        {
+          "text": " Contains or promotes politically sensitive or controversial issues",
+          "bbox": [
+            283.0,
+            450.0,
+            1519.0,
+            493.0
+          ],
+          "confidence": 0.9910027980804443
+        },
+        {
+          "text": "Chase also reserves the right to terminate this Agreement in the event that any Restricted Content is incorporated on Affiliate's site after",
+          "bbox": [
+            281.0,
+            568.0,
+            2820.0,
+            605.0
+          ],
+          "confidence": 0.9912211894989014
+        },
+        {
+          "text": "acceptance of your registration form and the commencement of the term of this Agreement. Chase may also terminate this Agreement if your site is.",
+          "bbox": [
+            275.0,
+            621.0,
+            3005.0,
+            665.0
+          ],
+          "confidence": 0.992594838142395
+        },
+        {
+          "text": "deemed unsuitable based on the criteria below:",
+          "bbox": [
+            281.0,
+            680.0,
+            1147.0,
+            716.0
+          ],
+          "confidence": 0.9993773698806763
+        },
+        {
+          "text": " Manipulates key word searches on portals.",
+          "bbox": [
+            281.0,
+            800.0,
+            1100.0,
+            844.0
+          ],
+          "confidence": 0.990525484085083
+        },
+        {
+          "text": ": Misrepresents itself as a Chase Website by altering the visual \"look and feel\"' of or text from Chase's site, and/or engage in \"framing\" the Chase.",
+          "bbox": [
+            279.0,
+            925.0,
+            2982.0,
+            970.0
+          ],
+          "confidence": 0.9816440939903259
+        },
+        {
+          "text": "Website",
+          "bbox": [
+            277.0,
+            985.0,
+            435.0,
+            1029.0
+          ],
+          "confidence": 0.9999114871025085
+        },
+        {
+          "text": ". Engages in domain squatting",
+          "bbox": [
+            281.0,
+            1107.0,
+            852.0,
+            1155.0
+          ],
+          "confidence": 0.965679407119751
+        },
+        {
+          "text": " Engages in spamming or unsolicited commercial e-mail",
+          "bbox": [
+            281.0,
+            1233.0,
+            1321.0,
+            1283.0
+          ],
+          "confidence": 0.9947139024734497
+        },
+        {
+          "text": " Engages in unauthorized telemarketing or remarketing of Chase Credit Card offers via telephone.",
+          "bbox": [
+            283.0,
+            1361.0,
+            2084.0,
+            1405.0
+          ],
+          "confidence": 0.9878663420677185
+        },
+        {
+          "text": ". Uses Chase products and services in the domain name, URL or URI, including, but not limited to, any combination of the following words:.",
+          "bbox": [
+            279.0,
+            1486.0,
+            2873.0,
+            1529.0
+          ],
+          "confidence": 0.9901994466781616
+        },
+        {
+          "text": "o JP",
+          "bbox": [
+            276.0,
+            1614.0,
+            353.0,
+            1654.0
+          ],
+          "confidence": 0.7708527445793152
+        },
+        {
+          "text": ": MORGAN",
+          "bbox": [
+            277.0,
+            1683.0,
+            504.0,
+            1721.0
+          ],
+          "confidence": 0.8737043738365173
+        },
+        {
+          "text": " CHASE",
+          "bbox": [
+            277.0,
+            1754.0,
+            455.0,
+            1793.0
+          ],
+          "confidence": 0.9526875019073486
+        },
+        {
+          "text": " MANHATTAN",
+          "bbox": [
+            279.0,
+            1826.0,
+            596.0,
+            1862.0
+          ],
+          "confidence": 0.9639683961868286
+        },
+        {
+          "text": ": AARP",
+          "bbox": [
+            276.0,
+            1891.0,
+            435.0,
+            1935.0
+          ],
+          "confidence": 0.8725789189338684
+        },
+        {
+          "text": "AMAZON.COM",
+          "bbox": [
+            281.0,
+            1966.0,
+            625.0,
+            2003.0
+          ],
+          "confidence": 0.998041033744812
+        },
+        {
+          "text": "  BALL STATE UNIVERSITY",
+          "bbox": [
+            279.0,
+            2034.0,
+            819.0,
+            2072.0
+          ],
+          "confidence": 0.957582414150238
+        },
+        {
+          "text": "BORDERS",
+          "bbox": [
+            277.0,
+            2105.0,
+            506.0,
+            2143.0
+          ],
+          "confidence": 0.9974621534347534
+        },
+        {
+          "text": " BRITISH AIRWAYS",
+          "bbox": [
+            281.0,
+            2176.0,
+            683.0,
+            2213.0
+          ],
+          "confidence": 0.9847924113273621
+        },
+        {
+          "text": " CASH PLUS",
+          "bbox": [
+            279.0,
+            2244.0,
+            544.0,
+            2282.0
+          ],
+          "confidence": 0.9642528295516968
+        },
+        {
+          "text": " CHASE FREEDOM",
+          "bbox": [
+            283.0,
+            2319.0,
+            669.0,
+            2350.0
+          ],
+          "confidence": 0.953653872013092
+        },
+        {
+          "text": " CENTRAL MICHIGAN UNIVERSITY",
+          "bbox": [
+            285.0,
+            2386.0,
+            999.0,
+            2421.0
+          ],
+          "confidence": 0.9943352937698364
+        },
+        {
+          "text": ": CONTINENTAL",
+          "bbox": [
+            277.0,
+            2456.0,
+            614.0,
+            2492.0
+          ],
+          "confidence": 0.9230283498764038
+        },
+        {
+          "text": " CORNELL UNIVERSITY",
+          "bbox": [
+            281.0,
+            2529.0,
+            756.0,
+            2560.0
+          ],
+          "confidence": 0.9686687588691711
+        },
+        {
+          "text": ": DISNEY",
+          "bbox": [
+            277.0,
+            2593.0,
+            462.0,
+            2631.0
+          ],
+          "confidence": 0.8618624806404114
+        },
+        {
+          "text": " DUKE UNIVERSITY",
+          "bbox": [
+            283.0,
+            2670.0,
+            689.0,
+            2701.0
+          ],
+          "confidence": 0.9736683964729309
+        },
+        {
+          "text": " FLEXIBLE REWARDS",
+          "bbox": [
+            283.0,
+            2739.0,
+            723.0,
+            2770.0
+          ],
+          "confidence": 0.973991870880127
+        },
+        {
+          "text": " FREE CASH",
+          "bbox": [
+            277.0,
+            2807.0,
+            542.0,
+            2843.0
+          ],
+          "confidence": 0.991316020488739
+        },
+        {
+          "text": "HARVARD COOP",
+          "bbox": [
+            279.0,
+            2878.0,
+            640.0,
+            2915.0
+          ],
+          "confidence": 0.9739785194396973
+        },
+        {
+          "text": ". HESS",
+          "bbox": [
+            277.0,
+            2946.0,
+            415.0,
+            2986.0
+          ],
+          "confidence": 0.8265067934989929
+        },
+        {
+          "text": " HOME IMPROVEMENT",
+          "bbox": [
+            279.0,
+            3017.0,
+            768.0,
+            3053.0
+          ],
+          "confidence": 0.9822191596031189
+        },
+        {
+          "text": " LEHIGH UNIVERSITY",
+          "bbox": [
+            285.0,
+            3088.0,
+            725.0,
+            3125.0
+          ],
+          "confidence": 0.9875478744506836
+        },
+        {
+          "text": "  LOUISIANA STATE UNIVERSITY",
+          "bbox": [
+            279.0,
+            3158.0,
+            948.0,
+            3194.0
+          ],
+          "confidence": 0.972978949546814
+        },
+        {
+          "text": " MARATHON",
+          "bbox": [
+            279.0,
+            3227.0,
+            566.0,
+            3265.0
+          ],
+          "confidence": 0.9735614061355591
+        },
+        {
+          "text": ": MARRIOTT",
+          "bbox": [
+            279.0,
+            3297.0,
+            546.0,
+            3335.0
+          ],
+          "confidence": 0.9020861387252808
+        },
+        {
+          "text": " MIAMI UNIVERSITY",
+          "bbox": [
+            281.0,
+            3368.0,
+            718.0,
+            3404.0
+          ],
+          "confidence": 0.9586495757102966
+        },
+        {
+          "text": " OHIO UNIVERSITY",
+          "bbox": [
+            281.0,
+            3439.0,
+            680.0,
+            3476.0
+          ],
+          "confidence": 0.9603539705276489
+        },
+        {
+          "text": ": OVERSTOCK",
+          "bbox": [
+            277.0,
+            3508.0,
+            566.0,
+            3545.0
+          ],
+          "confidence": 0.9190679788589478
+        },
+        {
+          "text": "  PERFECT CARD",
+          "bbox": [
+            281.0,
+            3582.0,
+            625.0,
+            3613.0
+          ],
+          "confidence": 0.9179754853248596
+        },
+        {
+          "text": " PRIORITY CLUB/HOLIDAY INN",
+          "bbox": [
+            279.0,
+            3649.0,
+            937.0,
+            3686.0
+          ],
+          "confidence": 0.9912132620811462
+        },
+        {
+          "text": ". SONY",
+          "bbox": [
+            279.0,
+            3719.0,
+            426.0,
+            3757.0
+          ],
+          "confidence": 0.8781323432922363
+        },
+        {
+          "text": " SOUTHERN ILLINOIS UNIVERSITY",
+          "bbox": [
+            281.0,
+            3790.0,
+            990.0,
+            3826.0
+          ],
+          "confidence": 0.9914137125015259
+        },
+        {
+          "text": ". SPEEDWAY SUPER AMERICA",
+          "bbox": [
+            279.0,
+            3857.0,
+            894.0,
+            3896.0
+          ],
+          "confidence": 0.9597212672233582
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4435.0,
+            1323.0,
+            4477.0
+          ],
+          "confidence": 0.9876200556755066
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Termination For Convenience_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "Either Affiliate or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail notice of termination.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.33",
+          "bbox": [
+            2775.0,
+            356.0,
+            3027.0,
+            393.0
+          ],
+          "confidence": 0.9745664000511169
+        },
+        {
+          "text": "Last Updated: April 6, 2007",
+          "bbox": [
+            275.0,
+            464.0,
+            779.0,
+            512.0
+          ],
+          "confidence": 0.9963943362236023
+        },
+        {
+          "text": "CHASE AFFILIATE AGREEMENT",
+          "bbox": [
+            281.0,
+            636.0,
+            926.0,
+            672.0
+          ],
+          "confidence": 0.999711811542511
+        },
+        {
+          "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+          "bbox": [
+            281.0,
+            751.0,
+            3025.0,
+            788.0
+          ],
+          "confidence": 0.9894608855247498
+        },
+        {
+          "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+          "bbox": [
+            279.0,
+            802.0,
+            2992.0,
+            848.0
+          ],
+          "confidence": 0.9932063221931458
+        },
+        {
+          "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+          "bbox": [
+            281.0,
+            861.0,
+            2675.0,
+            903.0
+          ],
+          "confidence": 0.9777130484580994
+        },
+        {
+          "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+          "bbox": [
+            275.0,
+            1027.0,
+            3007.0,
+            1065.0
+          ],
+          "confidence": 0.9900811314582825
+        },
+        {
+          "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+          "bbox": [
+            275.0,
+            1084.0,
+            2905.0,
+            1122.0
+          ],
+          "confidence": 0.9935755729675293
+        },
+        {
+          "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+          "bbox": [
+            277.0,
+            1140.0,
+            2973.0,
+            1179.0
+          ],
+          "confidence": 0.9830624461174011
+        },
+        {
+          "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+          "bbox": [
+            281.0,
+            1199.0,
+            2974.0,
+            1235.0
+          ],
+          "confidence": 0.9927299618721008
+        },
+        {
+          "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+          "bbox": [
+            277.0,
+            1252.0,
+            2267.0,
+            1292.0
+          ],
+          "confidence": 0.9977126121520996
+        },
+        {
+          "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+          "bbox": [
+            275.0,
+            1363.0,
+            2115.0,
+            1407.0
+          ],
+          "confidence": 0.985975444316864
+        },
+        {
+          "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+          "bbox": [
+            279.0,
+            1476.0,
+            1338.0,
+            1517.0
+          ],
+          "confidence": 0.9862098693847656
+        },
+        {
+          "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+          "bbox": [
+            274.0,
+            1584.0,
+            2576.0,
+            1635.0
+          ],
+          "confidence": 0.9884176850318909
+        },
+        {
+          "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+          "bbox": [
+            277.0,
+            1701.0,
+            1834.0,
+            1745.0
+          ],
+          "confidence": 0.9952169060707092
+        },
+        {
+          "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+          "bbox": [
+            275.0,
+            1811.0,
+            1628.0,
+            1858.0
+          ],
+          "confidence": 0.9871618747711182
+        },
+        {
+          "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+          "bbox": [
+            277.0,
+            1924.0,
+            2989.0,
+            1970.0
+          ],
+          "confidence": 0.9974223971366882
+        },
+        {
+          "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+          "bbox": [
+            277.0,
+            1984.0,
+            3027.0,
+            2027.0
+          ],
+          "confidence": 0.998779296875
+        },
+        {
+          "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+          "bbox": [
+            276.0,
+            2039.0,
+            2958.0,
+            2081.0
+          ],
+          "confidence": 0.9987477660179138
+        },
+        {
+          "text": "Content\"'):",
+          "bbox": [
+            277.0,
+            2094.0,
+            477.0,
+            2140.0
+          ],
+          "confidence": 0.9201616644859314
+        },
+        {
+          "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+          "bbox": [
+            277.0,
+            2215.0,
+            2922.0,
+            2262.0
+          ],
+          "confidence": 0.9934685826301575
+        },
+        {
+          "text": "ethically or otherwise objectionable.",
+          "bbox": [
+            279.0,
+            2275.0,
+            941.0,
+            2319.0
+          ],
+          "confidence": 0.9892349243164062
+        },
+        {
+          "text": ": Promote illegal activities, including gambling",
+          "bbox": [
+            279.0,
+            2397.0,
+            1138.0,
+            2443.0
+          ],
+          "confidence": 0.9839908480644226
+        },
+        {
+          "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+          "bbox": [
+            279.0,
+            2525.0,
+            1613.0,
+            2571.0
+          ],
+          "confidence": 0.9866061806678772
+        },
+        {
+          "text": ": Promotes or depicts violence or hate speech.",
+          "bbox": [
+            279.0,
+            2650.0,
+            1133.0,
+            2695.0
+          ],
+          "confidence": 0.9624453186988831
+        },
+        {
+          "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+          "bbox": [
+            277.0,
+            2776.0,
+            2151.0,
+            2823.0
+          ],
+          "confidence": 0.9893679618835449
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4437.0,
+            1325.0,
+            4479.0
+          ],
+          "confidence": 0.9928081035614014
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__License Grant_3",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "Chase grants Affiliate a non-exclusive, nontransferable, revocable right to (a) access the Chase site through the links solely in accordance with the terms of this Agreement and (b) solely in connection with such links, to use Chase's logos, trade names, trademarks, and similar identifying material relating to Chase (collectively, the \"Licensed Materials\"), for the sole purpose of booking Chase products.",
+      "page_number": 3,
+      "words": [
+        {
+          "text": ": If Affiliate manages a sub-affiliate network, the Affiliate may not pay sub-affiliates or other partners higher referral fees than the lowest tier of the.",
+          "bbox": [
+            277.0,
+            318.0,
+            3003.0,
+            369.0
+          ],
+          "confidence": 0.9840406775474548
+        },
+        {
+          "text": "public offer ($55.00).",
+          "bbox": [
+            277.0,
+            380.0,
+            653.0,
+            428.0
+          ],
+          "confidence": 0.9880416989326477
+        },
+        {
+          "text": "computer, or (c) using a context based triggering mechanism to display an advertisement that partially or wholly covers or obscures paid.",
+          "bbox": [
+            277.0,
+            508.0,
+            2813.0,
+            554.0
+          ],
+          "confidence": 0.9958469271659851
+        },
+        {
+          "text": "advertising or other content on an Internet website in a way that interferes with a user's ability to view the Internet website.",
+          "bbox": [
+            279.0,
+            566.0,
+            2577.0,
+            607.0
+          ],
+          "confidence": 0.9966303706169128
+        },
+        {
+          "text": "3. Referral Fee.",
+          "bbox": [
+            277.0,
+            678.0,
+            538.0,
+            716.0
+          ],
+          "confidence": 0.9593110680580139
+        },
+        {
+          "text": "For each Approved Account (as defined in section 4 below) received through Affiliate's site, Affiliate will earn a referral fee calculated in",
+          "bbox": [
+            277.0,
+            791.0,
+            2817.0,
+            833.0
+          ],
+          "confidence": 0.9873809814453125
+        },
+        {
+          "text": "accordance with the schedule set forth below (\"Commission') paid monthly..",
+          "bbox": [
+            277.0,
+            848.0,
+            1689.0,
+            890.0
+          ],
+          "confidence": 0.9791626930236816
+        },
+        {
+          "text": " Tiered or flat commission based on private offer terms in the network..",
+          "bbox": [
+            285.0,
+            968.0,
+            1595.0,
+            1011.0
+          ],
+          "confidence": 0.9825801849365234
+        },
+        {
+          "text": "Chase reserves the right to alter above referral fees from time to time upon written notice to Affiliate of such change",
+          "bbox": [
+            277.0,
+            1080.0,
+            2431.0,
+            1129.0
+          ],
+          "confidence": 0.9981811046600342
+        },
+        {
+          "text": "4. Approved Account.",
+          "bbox": [
+            279.0,
+            1197.0,
+            692.0,
+            1241.0
+          ],
+          "confidence": 0.9685063362121582
+        },
+        {
+          "text": "For purposes of determining Affiliate's Commission, an \"Approved Account\"' means any Chase credit card application that is: (i) submitted by any",
+          "bbox": [
+            275.0,
+            1308.0,
+            3005.0,
+            1354.0
+          ],
+          "confidence": 0.9849264621734619
+        },
+        {
+          "text": "user who clicks on an e-mail, banner or any other advertising material from Affiliate's Website; (ii) is approved by Chase; and (iii) is reported as",
+          "bbox": [
+            276.0,
+            1367.0,
+            2936.0,
+            1409.0
+          ],
+          "confidence": 0.9908273220062256
+        },
+        {
+          "text": "approved by Chase to Affiliate.",
+          "bbox": [
+            279.0,
+            1424.0,
+            861.0,
+            1466.0
+          ],
+          "confidence": 0.9998183250427246
+        },
+        {
+          "text": "5.Term of this Agreement.",
+          "bbox": [
+            277.0,
+            1531.0,
+            750.0,
+            1577.0
+          ],
+          "confidence": 0.9796097278594971
+        },
+        {
+          "text": "The term of this Agreement will commence on the date that the Affiliate Registration Form is approved by Chase and will end when terminated by",
+          "bbox": [
+            277.0,
+            1643.0,
+            2978.0,
+            1688.0
+          ],
+          "confidence": 0.9959374070167542
+        },
+        {
+          "text": "either party. Either Affiliate or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail",
+          "bbox": [
+            279.0,
+            1703.0,
+            2958.0,
+            1745.0
+          ],
+          "confidence": 0.9954000115394592
+        },
+        {
+          "text": "notice of termination. At the time of termination, any links to Chase's Website must be removed immediately. Affiliate will continue to receive",
+          "bbox": [
+            279.0,
+            1762.0,
+            2895.0,
+            1798.0
+          ],
+          "confidence": 0.9980048537254333
+        },
+        {
+          "text": "Commission payments for all Approved Accounts placed during the term of this Agreement. Notwithstanding the foregoing, Chase may.",
+          "bbox": [
+            277.0,
+            1813.0,
+            2811.0,
+            1860.0
+          ],
+          "confidence": 0.991462230682373
+        },
+        {
+          "text": "terminate this Agreement if Affiliate does not comply with the terms and conditions herein..",
+          "bbox": [
+            279.0,
+            1930.0,
+            1963.0,
+            1966.0
+          ],
+          "confidence": 0.9960137009620667
+        },
+        {
+          "text": "6. Links",
+          "bbox": [
+            274.0,
+            2036.0,
+            424.0,
+            2080.0
+          ],
+          "confidence": 0.9931321144104004
+        },
+        {
+          "text": "Affiliate agrees to place Chase's links provided by Linkshare NetworkTM which manages the Affiliate Program (\"Links\") on its Affiliate's website.",
+          "bbox": [
+            281.0,
+            2151.0,
+            2991.0,
+            2193.0
+          ],
+          "confidence": 0.9948466420173645
+        },
+        {
+          "text": "Affiliate is responsible for obtaining prior written approval from the Chase Affiliate manager or Linkshare Network to link any or all other sites",
+          "bbox": [
+            279.0,
+            2207.0,
+            2913.0,
+            2251.0
+          ],
+          "confidence": 0.9957689046859741
+        },
+        {
+          "text": "owned or managed by the Affiliate, other than the site that was approved at the time of original registration. Affiliate may select or remove Links, at",
+          "bbox": [
+            279.0,
+            2264.0,
+            3014.0,
+            2306.0
+          ],
+          "confidence": 0.9890340566635132
+        },
+        {
+          "text": "any time without prior approval from Chase. Affiliate is also responsible for removing and/or informing Chase of potential inactive or misdirected",
+          "bbox": [
+            281.0,
+            2321.0,
+            2969.0,
+            2363.0
+          ],
+          "confidence": 0.996405839920044
+        },
+        {
+          "text": "Links. Affiliate agrees to cooperate with Chase in establishing and maintaining Links.",
+          "bbox": [
+            277.0,
+            2379.0,
+            1856.0,
+            2416.0
+          ],
+          "confidence": 0.9853185415267944
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4437.0,
+            1325.0,
+            4479.0
+          ],
+          "confidence": 0.991654098033905
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Non-Transferable License_3",
+      "question": "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party?",
+      "answer_text": "Chase grants Affiliate a non-exclusive, nontransferable, revocable right to (a) access the Chase site through the links solely in accordance with the terms of this Agreement and (b) solely in connection with such links, to use Chase's logos, trade names, trademarks, and similar identifying material relating to Chase (collectively, the \"Licensed Materials\"), for the sole purpose of booking Chase products.",
+      "page_number": 3,
+      "words": [
+        {
+          "text": ": If Affiliate manages a sub-affiliate network, the Affiliate may not pay sub-affiliates or other partners higher referral fees than the lowest tier of the.",
+          "bbox": [
+            277.0,
+            318.0,
+            3003.0,
+            369.0
+          ],
+          "confidence": 0.9840406775474548
+        },
+        {
+          "text": "public offer ($55.00).",
+          "bbox": [
+            277.0,
+            380.0,
+            653.0,
+            428.0
+          ],
+          "confidence": 0.9880416989326477
+        },
+        {
+          "text": "computer, or (c) using a context based triggering mechanism to display an advertisement that partially or wholly covers or obscures paid.",
+          "bbox": [
+            277.0,
+            508.0,
+            2813.0,
+            554.0
+          ],
+          "confidence": 0.9958469271659851
+        },
+        {
+          "text": "advertising or other content on an Internet website in a way that interferes with a user's ability to view the Internet website.",
+          "bbox": [
+            279.0,
+            566.0,
+            2577.0,
+            607.0
+          ],
+          "confidence": 0.9966303706169128
+        },
+        {
+          "text": "3. Referral Fee.",
+          "bbox": [
+            277.0,
+            678.0,
+            538.0,
+            716.0
+          ],
+          "confidence": 0.9593110680580139
+        },
+        {
+          "text": "For each Approved Account (as defined in section 4 below) received through Affiliate's site, Affiliate will earn a referral fee calculated in",
+          "bbox": [
+            277.0,
+            791.0,
+            2817.0,
+            833.0
+          ],
+          "confidence": 0.9873809814453125
+        },
+        {
+          "text": "accordance with the schedule set forth below (\"Commission') paid monthly..",
+          "bbox": [
+            277.0,
+            848.0,
+            1689.0,
+            890.0
+          ],
+          "confidence": 0.9791626930236816
+        },
+        {
+          "text": " Tiered or flat commission based on private offer terms in the network..",
+          "bbox": [
+            285.0,
+            968.0,
+            1595.0,
+            1011.0
+          ],
+          "confidence": 0.9825801849365234
+        },
+        {
+          "text": "Chase reserves the right to alter above referral fees from time to time upon written notice to Affiliate of such change",
+          "bbox": [
+            277.0,
+            1080.0,
+            2431.0,
+            1129.0
+          ],
+          "confidence": 0.9981811046600342
+        },
+        {
+          "text": "4. Approved Account.",
+          "bbox": [
+            279.0,
+            1197.0,
+            692.0,
+            1241.0
+          ],
+          "confidence": 0.9685063362121582
+        },
+        {
+          "text": "For purposes of determining Affiliate's Commission, an \"Approved Account\"' means any Chase credit card application that is: (i) submitted by any",
+          "bbox": [
+            275.0,
+            1308.0,
+            3005.0,
+            1354.0
+          ],
+          "confidence": 0.9849264621734619
+        },
+        {
+          "text": "user who clicks on an e-mail, banner or any other advertising material from Affiliate's Website; (ii) is approved by Chase; and (iii) is reported as",
+          "bbox": [
+            276.0,
+            1367.0,
+            2936.0,
+            1409.0
+          ],
+          "confidence": 0.9908273220062256
+        },
+        {
+          "text": "approved by Chase to Affiliate.",
+          "bbox": [
+            279.0,
+            1424.0,
+            861.0,
+            1466.0
+          ],
+          "confidence": 0.9998183250427246
+        },
+        {
+          "text": "5.Term of this Agreement.",
+          "bbox": [
+            277.0,
+            1531.0,
+            750.0,
+            1577.0
+          ],
+          "confidence": 0.9796097278594971
+        },
+        {
+          "text": "The term of this Agreement will commence on the date that the Affiliate Registration Form is approved by Chase and will end when terminated by",
+          "bbox": [
+            277.0,
+            1643.0,
+            2978.0,
+            1688.0
+          ],
+          "confidence": 0.9959374070167542
+        },
+        {
+          "text": "either party. Either Affiliate or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail",
+          "bbox": [
+            279.0,
+            1703.0,
+            2958.0,
+            1745.0
+          ],
+          "confidence": 0.9954000115394592
+        },
+        {
+          "text": "notice of termination. At the time of termination, any links to Chase's Website must be removed immediately. Affiliate will continue to receive",
+          "bbox": [
+            279.0,
+            1762.0,
+            2895.0,
+            1798.0
+          ],
+          "confidence": 0.9980048537254333
+        },
+        {
+          "text": "Commission payments for all Approved Accounts placed during the term of this Agreement. Notwithstanding the foregoing, Chase may.",
+          "bbox": [
+            277.0,
+            1813.0,
+            2811.0,
+            1860.0
+          ],
+          "confidence": 0.991462230682373
+        },
+        {
+          "text": "terminate this Agreement if Affiliate does not comply with the terms and conditions herein..",
+          "bbox": [
+            279.0,
+            1930.0,
+            1963.0,
+            1966.0
+          ],
+          "confidence": 0.9960137009620667
+        },
+        {
+          "text": "6. Links",
+          "bbox": [
+            274.0,
+            2036.0,
+            424.0,
+            2080.0
+          ],
+          "confidence": 0.9931321144104004
+        },
+        {
+          "text": "Affiliate agrees to place Chase's links provided by Linkshare NetworkTM which manages the Affiliate Program (\"Links\") on its Affiliate's website.",
+          "bbox": [
+            281.0,
+            2151.0,
+            2991.0,
+            2193.0
+          ],
+          "confidence": 0.9948466420173645
+        },
+        {
+          "text": "Affiliate is responsible for obtaining prior written approval from the Chase Affiliate manager or Linkshare Network to link any or all other sites",
+          "bbox": [
+            279.0,
+            2207.0,
+            2913.0,
+            2251.0
+          ],
+          "confidence": 0.9957689046859741
+        },
+        {
+          "text": "owned or managed by the Affiliate, other than the site that was approved at the time of original registration. Affiliate may select or remove Links, at",
+          "bbox": [
+            279.0,
+            2264.0,
+            3014.0,
+            2306.0
+          ],
+          "confidence": 0.9890340566635132
+        },
+        {
+          "text": "any time without prior approval from Chase. Affiliate is also responsible for removing and/or informing Chase of potential inactive or misdirected",
+          "bbox": [
+            281.0,
+            2321.0,
+            2969.0,
+            2363.0
+          ],
+          "confidence": 0.996405839920044
+        },
+        {
+          "text": "Links. Affiliate agrees to cooperate with Chase in establishing and maintaining Links.",
+          "bbox": [
+            277.0,
+            2379.0,
+            1856.0,
+            2416.0
+          ],
+          "confidence": 0.9853185415267944
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4437.0,
+            1325.0,
+            4479.0
+          ],
+          "confidence": 0.991654098033905
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Cap On Liability_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "answer_text": "Further, Chase's aggregate liability arising under or with respect to this Agreement or the Affiliate Program shall in no event exceed the total Commissions paid or payable by Chase to Affiliate under this   Agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.33",
+          "bbox": [
+            2775.0,
+            356.0,
+            3027.0,
+            393.0
+          ],
+          "confidence": 0.9745664000511169
+        },
+        {
+          "text": "Last Updated: April 6, 2007",
+          "bbox": [
+            275.0,
+            464.0,
+            779.0,
+            512.0
+          ],
+          "confidence": 0.9963943362236023
+        },
+        {
+          "text": "CHASE AFFILIATE AGREEMENT",
+          "bbox": [
+            281.0,
+            636.0,
+            926.0,
+            672.0
+          ],
+          "confidence": 0.999711811542511
+        },
+        {
+          "text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\"' in the Chase",
+          "bbox": [
+            281.0,
+            751.0,
+            3025.0,
+            788.0
+          ],
+          "confidence": 0.9894608855247498
+        },
+        {
+          "text": "Affiliate Program (the \"Affiliate Program'). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to",
+          "bbox": [
+            279.0,
+            802.0,
+            2992.0,
+            848.0
+          ],
+          "confidence": 0.9932063221931458
+        },
+        {
+          "text": "[Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website..",
+          "bbox": [
+            281.0,
+            861.0,
+            2675.0,
+            903.0
+          ],
+          "confidence": 0.9777130484580994
+        },
+        {
+          "text": "PROGRAM. YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE \"AGREE' BUTTON BELOW",
+          "bbox": [
+            275.0,
+            1027.0,
+            3007.0,
+            1065.0
+          ],
+          "confidence": 0.9900811314582825
+        },
+        {
+          "text": "TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND",
+          "bbox": [
+            275.0,
+            1084.0,
+            2905.0,
+            1122.0
+          ],
+          "confidence": 0.9935755729675293
+        },
+        {
+          "text": "WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING",
+          "bbox": [
+            277.0,
+            1140.0,
+            2973.0,
+            1179.0
+          ],
+          "confidence": 0.9830624461174011
+        },
+        {
+          "text": "YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND",
+          "bbox": [
+            281.0,
+            1199.0,
+            2974.0,
+            1235.0
+          ],
+          "confidence": 0.9927299618721008
+        },
+        {
+          "text": "THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE",
+          "bbox": [
+            277.0,
+            1252.0,
+            2267.0,
+            1292.0
+          ],
+          "confidence": 0.9977126121520996
+        },
+        {
+          "text": "In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:.",
+          "bbox": [
+            275.0,
+            1363.0,
+            2115.0,
+            1407.0
+          ],
+          "confidence": 0.985975444316864
+        },
+        {
+          "text": "1. Enrollment in the Affiliate Program; Restricted Content.",
+          "bbox": [
+            279.0,
+            1476.0,
+            1338.0,
+            1517.0
+          ],
+          "confidence": 0.9862098693847656
+        },
+        {
+          "text": "To enroll in the Affiliate Program, you must submit a complete \"Affiliate Registration Form' via the Chase Affiliate Website:.",
+          "bbox": [
+            274.0,
+            1584.0,
+            2576.0,
+            1635.0
+          ],
+          "confidence": 0.9884176850318909
+        },
+        {
+          "text": "For new affiliates: https://ssl.linksynergy.com/php-bin/reg/sregister.shtml?mid=2291",
+          "bbox": [
+            277.0,
+            1701.0,
+            1834.0,
+            1745.0
+          ],
+          "confidence": 0.9952169060707092
+        },
+        {
+          "text": "For existing affiliates: http://www.linkshare.com/joinprograms?oid=87909",
+          "bbox": [
+            275.0,
+            1811.0,
+            1628.0,
+            1858.0
+          ],
+          "confidence": 0.9871618747711182
+        },
+        {
+          "text": "Chase will evaluate your registration form and will notify you via e-mail of the acceptance or rejection of your registration form. Chase reserves, in",
+          "bbox": [
+            277.0,
+            1924.0,
+            2989.0,
+            1970.0
+          ],
+          "confidence": 0.9974223971366882
+        },
+        {
+          "text": "its sole discretion, with or without reason, the right to accept or reject your registration into the Chase Affiliate Program, including but not limited to",
+          "bbox": [
+            277.0,
+            1984.0,
+            3027.0,
+            2027.0
+          ],
+          "confidence": 0.998779296875
+        },
+        {
+          "text": "a determination that your site is unsuitable for or incompatible with the Affiliate Program based on the following criteria (collectively \"Restricted",
+          "bbox": [
+            276.0,
+            2039.0,
+            2958.0,
+            2081.0
+          ],
+          "confidence": 0.9987477660179138
+        },
+        {
+          "text": "Content\"'):",
+          "bbox": [
+            277.0,
+            2094.0,
+            477.0,
+            2140.0
+          ],
+          "confidence": 0.9201616644859314
+        },
+        {
+          "text": ". Incorporates images or content that is any way unlawful, offensive, profane, harmful, threatening, defamatory, obscene, harassing or racially,",
+          "bbox": [
+            277.0,
+            2215.0,
+            2922.0,
+            2262.0
+          ],
+          "confidence": 0.9934685826301575
+        },
+        {
+          "text": "ethically or otherwise objectionable.",
+          "bbox": [
+            279.0,
+            2275.0,
+            941.0,
+            2319.0
+          ],
+          "confidence": 0.9892349243164062
+        },
+        {
+          "text": ": Promote illegal activities, including gambling",
+          "bbox": [
+            279.0,
+            2397.0,
+            1138.0,
+            2443.0
+          ],
+          "confidence": 0.9839908480644226
+        },
+        {
+          "text": "- Promotes or depicts sexually explicit, obscene or pornographic images.",
+          "bbox": [
+            279.0,
+            2525.0,
+            1613.0,
+            2571.0
+          ],
+          "confidence": 0.9866061806678772
+        },
+        {
+          "text": ": Promotes or depicts violence or hate speech.",
+          "bbox": [
+            279.0,
+            2650.0,
+            1133.0,
+            2695.0
+          ],
+          "confidence": 0.9624453186988831
+        },
+        {
+          "text": ": Promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age.",
+          "bbox": [
+            277.0,
+            2776.0,
+            2151.0,
+            2823.0
+          ],
+          "confidence": 0.9893679618835449
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4437.0,
+            1325.0,
+            4479.0
+          ],
+          "confidence": 0.9928081035614014
+        }
+      ]
+    },
+    {
+      "id": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement__Cap On Liability_6",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "answer_text": "Chase shall have no liability for any indirect, incidental, special or consequential damages or any loss of revenue or profits arising under or with respect to this Agreement or the Affiliate Program, regardless of whether Chase has been advised of the possibility of such damages.",
+      "page_number": 6,
+      "words": [
+        {
+          "text": "Affiliate hereby agrees to indemnify, defend, and hold harmless Chase, its shareholders, officers, directors, employees, agents, affiliates and their.",
+          "bbox": [
+            279.0,
+            311.0,
+            2971.0,
+            356.0
+          ],
+          "confidence": 0.9944038987159729
+        },
+        {
+          "text": "respective directors, officers, employees and agents, successors and assigns, from and against any and all claims, demands, losses, liabilities,",
+          "bbox": [
+            277.0,
+            371.0,
+            2907.0,
+            413.0
+          ],
+          "confidence": 0.9967066645622253
+        },
+        {
+          "text": "damages or expenses (including attorneys' fees and costs) of any nature whatsoever incurred or suffered by Chase (collectively the \"losses'), in so",
+          "bbox": [
+            277.0,
+            428.0,
+            3027.0,
+            470.0
+          ],
+          "confidence": 0.9952878355979919
+        },
+        {
+          "text": "far as such losses (or actions in respect thereof) arise out of, are related to, or are based on (i) the breach of any representation, warranty, or",
+          "bbox": [
+            277.0,
+            481.0,
+            2876.0,
+            526.0
+          ],
+          "confidence": 0.991970956325531
+        },
+        {
+          "text": "covenant made by Affiliate herein; or (ii) any claim related to Affiliate's site.",
+          "bbox": [
+            277.0,
+            539.0,
+            1682.0,
+            581.0
+          ],
+          "confidence": 0.9888630509376526
+        },
+        {
+          "text": "18. Confidentiality",
+          "bbox": [
+            277.0,
+            645.0,
+            616.0,
+            695.0
+          ],
+          "confidence": 0.9889498353004456
+        },
+        {
+          "text": "Except as otherwise provided in this Agreement or with the consent of the other party hereto, each of the parties hereto agrees that all information",
+          "bbox": [
+            279.0,
+            762.0,
+            2992.0,
+            804.0
+          ],
+          "confidence": 0.9944598078727722
+        },
+        {
+          "text": "including, without limitation, the terms of this Agreement, business and financial information, customer and vendor lists, and pricing and sales.",
+          "bbox": [
+            279.0,
+            819.0,
+            2925.0,
+            861.0
+          ],
+          "confidence": 0.997763991355896
+        },
+        {
+          "text": "information, concerning Chase, Customer or Affiliate shall remain strictly confidential and secret and shall not be utilized, directly or indirectly, by",
+          "bbox": [
+            275.0,
+            873.0,
+            2976.0,
+            919.0
+          ],
+          "confidence": 0.9949157238006592
+        },
+        {
+          "text": "such party for its own business purposes or for any other purpose except and solely to the extent necessary to exercise rights and perform",
+          "bbox": [
+            279.0,
+            932.0,
+            2856.0,
+            976.0
+          ],
+          "confidence": 0.9973593354225159
+        },
+        {
+          "text": "obligations under this Agreement. The foregoing restrictions will not apply to information to the extent it (i) was known to the receiving party at the",
+          "bbox": [
+            279.0,
+            989.0,
+            3023.0,
+            1031.0
+          ],
+          "confidence": 0.9964280128479004
+        },
+        {
+          "text": "time of disclosure; (ii) has become publicly known through no wrongful act of the receiving party; (iii) has been rightfully received from a third",
+          "bbox": [
+            275.0,
+            1042.0,
+            2929.0,
+            1087.0
+          ],
+          "confidence": 0.9923152923583984
+        },
+        {
+          "text": "party under no obligation to the disclosing party; (iv) has been disclosed by court order or as otherwise required by law if the receiving party has",
+          "bbox": [
+            275.0,
+            1096.0,
+            2983.0,
+            1146.0
+          ],
+          "confidence": 0.9986757636070251
+        },
+        {
+          "text": "given the disclosing party a reasonable opportunity to contest or limit the scope of such required disclosure.",
+          "bbox": [
+            277.0,
+            1155.0,
+            2300.0,
+            1201.0
+          ],
+          "confidence": 0.9890138506889343
+        },
+        {
+          "text": "19. Modification",
+          "bbox": [
+            279.0,
+            1266.0,
+            582.0,
+            1305.0
+          ],
+          "confidence": 0.9850672483444214
+        },
+        {
+          "text": "Chase reserves the right to change any and all of the terms and conditions in this Agreement, at any time and in its sole discretion, by posting a",
+          "bbox": [
+            277.0,
+            1376.0,
+            2954.0,
+            1424.0
+          ],
+          "confidence": 0.9918537735939026
+        },
+        {
+          "text": "new agreement on its Website. Without limiting the generality of the foregoing, the amount of Commissions, the definition of Approved Accounts,",
+          "bbox": [
+            276.0,
+            1436.0,
+            3007.0,
+            1478.0
+          ],
+          "confidence": 0.9975805878639221
+        },
+        {
+          "text": "and all other provisions of this Agreement are subject to change without notice other than posting such information on the Chase Website. IF ANY",
+          "bbox": [
+            275.0,
+            1489.0,
+            3027.0,
+            1535.0
+          ],
+          "confidence": 0.9988914132118225
+        },
+        {
+          "text": "MODIFICATION IS UNACCEPTABLE TO AFFILIATE, THE ONLY RECOURSE IS TO TERMINATE THIS AGREEMENT. AFFILIATE'S",
+          "bbox": [
+            279.0,
+            1550.0,
+            2789.0,
+            1586.0
+          ],
+          "confidence": 0.9944830536842346
+        },
+        {
+          "text": "CONTINUED PARTICIPATION IN THE AFFILIATE PROGRAM FOLLOWING CHASE'S POSTING OF A NEW AGREEMENT ON ITS WEB SITE",
+          "bbox": [
+            281.0,
+            1608.0,
+            2974.0,
+            1639.0
+          ],
+          "confidence": 0.993213415145874
+        },
+        {
+          "text": "WILL CONSTITUTE BINDING ACCEPTANCE OF THE CHANGE.",
+          "bbox": [
+            281.0,
+            1661.0,
+            1506.0,
+            1698.0
+          ],
+          "confidence": 0.9985371828079224
+        },
+        {
+          "text": "20. Warranty Disclaimer",
+          "bbox": [
+            281.0,
+            1774.0,
+            718.0,
+            1813.0
+          ],
+          "confidence": 0.9798316955566406
+        },
+        {
+          "text": "Chase makes no warranties, representations or conditions with regard to the Chase Affiliate Program or any services provided hereunder, whether",
+          "bbox": [
+            277.0,
+            1882.0,
+            2991.0,
+            1928.0
+          ],
+          "confidence": 0.9941665530204773
+        },
+        {
+          "text": "express or implied, arising by law or otherwise, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTY OF MERCHANTABILITY OR",
+          "bbox": [
+            277.0,
+            1937.0,
+            3002.0,
+            1985.0
+          ],
+          "confidence": 0.9898049831390381
+        },
+        {
+          "text": "FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT OR ANY IMPLIED WARRANTY ARISING OUT OF COURSE OF",
+          "bbox": [
+            281.0,
+            2001.0,
+            2779.0,
+            2032.0
+          ],
+          "confidence": 0.9963947534561157
+        },
+        {
+          "text": "PERFORMANCE. COURSE OF DEALING OR USAGE OF TRADE.",
+          "bbox": [
+            279.0,
+            2056.0,
+            1512.0,
+            2087.0
+          ],
+          "confidence": 0.9844232797622681
+        },
+        {
+          "text": "Source: CREDITCARDS.COM, INC., S-1, 8/10/2007",
+          "bbox": [
+            332.0,
+            4435.0,
+            1323.0,
+            4477.0
+          ],
+          "confidence": 0.9898048639297485
+        }
+      ]
+    }
+  ],
+  "failed_annotations": []
+}

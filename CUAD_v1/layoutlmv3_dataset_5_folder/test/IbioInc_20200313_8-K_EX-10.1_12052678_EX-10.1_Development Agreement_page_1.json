@@ -1,0 +1,772 @@
+[
+  {
+    "text": "1.2",
+    "bbox": [
+      110,
+      80,
+      138,
+      93
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "No right or license is being conveyed to CC-Pharming to export Products or to otherwise use the Technology in any country other than",
+    "bbox": [
+      179,
+      80,
+      1000,
+      93
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "China.",
+    "bbox": [
+      179,
+      96,
+      227,
+      108
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      110,
+      112,
+      138,
+      125
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "iBio will work with CC-Pharming to perform a thorough Manufacturing Development Program based from an initial comprehensive two-",
+    "bbox": [
+      179,
+      112,
+      1000,
+      125
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "day charrette to be held at its subsidiary iBio CDMO LLC facility in Bryan, Texas with the goals of CC-Pharming understanding the",
+    "bbox": [
+      179,
+      128,
+      1000,
+      141
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "definitive capital expenditure necessary and initiating a preliminary design for the first Product. iBio will provide an architect, construction",
+    "bbox": [
+      180,
+      145,
+      1000,
+      157
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "supervisor, mechanical engineer and process engineer with knowledge of the iBio CDMO facility currently in operation in Bryan, Texas.",
+    "bbox": [
+      180,
+      161,
+      1000,
+      173
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.4",
+    "bbox": [
+      110,
+      176,
+      138,
+      188
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CC-Pharming hereby expressly acknowledges the validity and highly confidential and proprietary nature of iBio's Technology and",
+    "bbox": [
+      179,
+      176,
+      1000,
+      189
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "technical information, know-how, documents, materials, software, vectors, constructs, trade secrets, and other valuable business or",
+    "bbox": [
+      179,
+      192,
+      1000,
+      205
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "scientific information that iBio will share with CC-Pharming in order to fulfill the purpose of this Agreement, namely, to form a legal",
+    "bbox": [
+      179,
+      208,
+      1000,
+      221
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "structure for a collaborative business venture in which CC-Pharming and iBio shall share revenue from product sales. iBio's double-digit",
+    "bbox": [
+      179,
+      225,
+      1000,
+      237
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "percentage, minority interest in this structure will provide compensation to iBio for providing CC-Pharming with a license to use iBio's.",
+    "bbox": [
+      179,
+      240,
+      1000,
+      254
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Technology and enabling know-how and will provide CC-Pharming with ongoing and mutually agreed technology transfer services",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "relevant to the evolving business and Product(s) of the collaborative venture.",
+    "bbox": [
+      179,
+      274,
+      765,
+      284
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      110,
+      288,
+      138,
+      301
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The parties agree that the first product focus of the joint business collaboration will be a bio-better or bio-similar version of the",
+    "bbox": [
+      179,
+      288,
+      1000,
+      301
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "therapeutic monoclonal antibody, rituximab. iBio will provide all necessary gene expression and vector technology for the transient.",
+    "bbox": [
+      179,
+      305,
+      1000,
+      318
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "expression and cGMP manufacturing of this protein in plants and will also provide pilot plant design services, construction consulting,",
+    "bbox": [
+      178,
+      320,
+      1000,
+      334
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "product and process development services, training, quality management system design, and clinical planning and regulatory consulting.",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The tasks to be conducted in the first stage of the joint business collaboration will apply specifically to the rituximab product candidate",
+    "bbox": [
+      178,
+      351,
+      1000,
+      366
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "but will be applicable, in part, to additional products to be selected by mutual agreement for development, with the timeline for such work",
+    "bbox": [
+      180,
+      369,
+      1000,
+      381
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to be determined by CC-Pharming.",
+    "bbox": [
+      179,
+      383,
+      436,
+      398
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      110,
+      400,
+      138,
+      412
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Any milestones or completion dates set forth in a Statement of Work will be estimates only, and are not binding on the Parties.",
+    "bbox": [
+      179,
+      400,
+      1000,
+      413
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.0",
+    "bbox": [
+      108,
+      415,
+      138,
+      429
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Coordinators and Governance Terms",
+    "bbox": [
+      181,
+      417,
+      461,
+      428
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      109,
+      432,
+      138,
+      444
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Project Technical Coordinators will be appointed by each the Parties for each Statement of Work. The Project Technical Coordinators will",
+    "bbox": [
+      179,
+      432,
+      1000,
+      445
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "be responsible for exchanging information with the other Party, coordinating any visits and arranging all other matters pertinent to that",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Statement of Work.",
+    "bbox": [
+      180,
+      465,
+      323,
+      476
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Master Joint Development Agreement iBio CC-Pharming",
+    "bbox": [
+      112,
+      496,
+      537,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Page 2 of 12",
+    "bbox": [
+      1000,
+      496,
+      1000,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: IBIO, INC., 8-K, 3/13/2020",
+    "bbox": [
+      135,
+      1000,
+      412,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      110,
+      80,
+      138,
+      93
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "No right or license is being conveyed to CC-Pharming to export Products or to otherwise use the Technology in any country other than",
+    "bbox": [
+      179,
+      80,
+      1000,
+      93
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "China.",
+    "bbox": [
+      179,
+      96,
+      227,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      110,
+      112,
+      138,
+      125
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "iBio will work with CC-Pharming to perform a thorough Manufacturing Development Program based from an initial comprehensive two-",
+    "bbox": [
+      179,
+      112,
+      1000,
+      125
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "day charrette to be held at its subsidiary iBio CDMO LLC facility in Bryan, Texas with the goals of CC-Pharming understanding the",
+    "bbox": [
+      179,
+      128,
+      1000,
+      141
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "definitive capital expenditure necessary and initiating a preliminary design for the first Product. iBio will provide an architect, construction",
+    "bbox": [
+      180,
+      145,
+      1000,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "supervisor, mechanical engineer and process engineer with knowledge of the iBio CDMO facility currently in operation in Bryan, Texas.",
+    "bbox": [
+      180,
+      161,
+      1000,
+      173
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4",
+    "bbox": [
+      110,
+      176,
+      138,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CC-Pharming hereby expressly acknowledges the validity and highly confidential and proprietary nature of iBio's Technology and",
+    "bbox": [
+      179,
+      176,
+      1000,
+      189
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "technical information, know-how, documents, materials, software, vectors, constructs, trade secrets, and other valuable business or",
+    "bbox": [
+      179,
+      192,
+      1000,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "scientific information that iBio will share with CC-Pharming in order to fulfill the purpose of this Agreement, namely, to form a legal",
+    "bbox": [
+      179,
+      208,
+      1000,
+      221
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "structure for a collaborative business venture in which CC-Pharming and iBio shall share revenue from product sales. iBio's double-digit",
+    "bbox": [
+      179,
+      225,
+      1000,
+      237
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "percentage, minority interest in this structure will provide compensation to iBio for providing CC-Pharming with a license to use iBio's.",
+    "bbox": [
+      179,
+      240,
+      1000,
+      254
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Technology and enabling know-how and will provide CC-Pharming with ongoing and mutually agreed technology transfer services",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "relevant to the evolving business and Product(s) of the collaborative venture.",
+    "bbox": [
+      179,
+      274,
+      765,
+      284
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      110,
+      288,
+      138,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The parties agree that the first product focus of the joint business collaboration will be a bio-better or bio-similar version of the",
+    "bbox": [
+      179,
+      288,
+      1000,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "therapeutic monoclonal antibody, rituximab. iBio will provide all necessary gene expression and vector technology for the transient.",
+    "bbox": [
+      179,
+      305,
+      1000,
+      318
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "expression and cGMP manufacturing of this protein in plants and will also provide pilot plant design services, construction consulting,",
+    "bbox": [
+      178,
+      320,
+      1000,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "product and process development services, training, quality management system design, and clinical planning and regulatory consulting.",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The tasks to be conducted in the first stage of the joint business collaboration will apply specifically to the rituximab product candidate",
+    "bbox": [
+      178,
+      351,
+      1000,
+      366
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "but will be applicable, in part, to additional products to be selected by mutual agreement for development, with the timeline for such work",
+    "bbox": [
+      180,
+      369,
+      1000,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "to be determined by CC-Pharming.",
+    "bbox": [
+      179,
+      383,
+      436,
+      398
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      110,
+      400,
+      138,
+      412
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Any milestones or completion dates set forth in a Statement of Work will be estimates only, and are not binding on the Parties.",
+    "bbox": [
+      179,
+      400,
+      1000,
+      413
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.0",
+    "bbox": [
+      108,
+      415,
+      138,
+      429
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Coordinators and Governance Terms",
+    "bbox": [
+      181,
+      417,
+      461,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      109,
+      432,
+      138,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Project Technical Coordinators will be appointed by each the Parties for each Statement of Work. The Project Technical Coordinators will",
+    "bbox": [
+      179,
+      432,
+      1000,
+      445
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "be responsible for exchanging information with the other Party, coordinating any visits and arranging all other matters pertinent to that",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Statement of Work.",
+    "bbox": [
+      180,
+      465,
+      323,
+      476
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Master Joint Development Agreement iBio CC-Pharming",
+    "bbox": [
+      112,
+      496,
+      537,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 2 of 12",
+    "bbox": [
+      1000,
+      496,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: IBIO, INC., 8-K, 3/13/2020",
+    "bbox": [
+      135,
+      1000,
+      412,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

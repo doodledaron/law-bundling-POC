@@ -1,0 +1,1609 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Marketing\\EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement.pdf",
+  "annotations": [
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT (WQHT HD2)",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ],
+          "confidence": 0.9995671510696411
+        },
+        {
+          "text": "(WQHT HD2)",
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ],
+          "confidence": 0.999553382396698
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "WBLS-WLIB LLC",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "25, 2019 by and between MediaCo Holding Inc., an Indiana corporation (the \"Licensee'), and WBLS-WLIB LLC, an Indiana",
+          "bbox": [
+            283.0,
+            629.0,
+            2962.0,
+            672.0
+          ],
+          "confidence": 0.9895581007003784
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "MediaCo Holding Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "25, 2019 by and between MediaCo Holding Inc., an Indiana corporation (the \"Licensee'), and WBLS-WLIB LLC, an Indiana",
+          "bbox": [
+            283.0,
+            629.0,
+            2962.0,
+            672.0
+          ],
+          "confidence": 0.9895581007003784
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Licensee",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "25, 2019 by and between MediaCo Holding Inc., an Indiana corporation (the \"Licensee'), and WBLS-WLIB LLC, an Indiana",
+          "bbox": [
+            283.0,
+            629.0,
+            2962.0,
+            672.0
+          ],
+          "confidence": 0.9895581007003784
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Programmer",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "limited liability company (\"Programmer'')",
+          "bbox": [
+            283.0,
+            700.0,
+            1135.0,
+            744.0
+          ],
+          "confidence": 0.9611402153968811
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "November 25, 2019",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS LOCAL PROGRAMMING AND MARKETING AGREEMENT (this \"Agreement') is made as of November",
+          "bbox": [
+            489.0,
+            555.0,
+            2987.0,
+            601.0
+          ],
+          "confidence": 0.9803546667098999
+        },
+        {
+          "text": "25, 2019 by and between MediaCo Holding Inc., an Indiana corporation (the \"Licensee'), and WBLS-WLIB LLC, an Indiana",
+          "bbox": [
+            283.0,
+            629.0,
+            2962.0,
+            672.0
+          ],
+          "confidence": 0.9895581007003784
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Effective Date_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "The term of this Agreement (the \"Term\") will begin on the date hereof (the \"Commencement Date\"), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee and Programmer (the \"Term\"), unless extended or earlier terminated pursuant to Section 11 hereof.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Agreement Term. The term of this Agreement (the \"Term'') will begin on the date hereof (the \"Commencement",
+          "bbox": [
+            701.0,
+            1948.0,
+            3012.0,
+            1992.0
+          ],
+          "confidence": 0.9883460402488708
+        },
+        {
+          "text": "Date'), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined",
+          "bbox": [
+            281.0,
+            2017.0,
+            2971.0,
+            2061.0
+          ],
+          "confidence": 0.9906772375106812
+        },
+        {
+          "text": "below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee",
+          "bbox": [
+            281.0,
+            2089.0,
+            3001.0,
+            2133.0
+          ],
+          "confidence": 0.9817823767662048
+        },
+        {
+          "text": "and Programmer (the \"Term'), unless extended or earlier terminated pursuant to Section 11 hereof. The term \"Studio Lease\"",
+          "bbox": [
+            281.0,
+            2153.0,
+            2896.0,
+            2206.0
+          ],
+          "confidence": 0.9928803443908691
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Expiration Date_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "The term of this Agreement (the \"Term\") will begin on the date hereof (the \"Commencement Date\"), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee and Programmer (the \"Term\"), unless extended or earlier terminated pursuant to Section 11 hereof.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Agreement Term. The term of this Agreement (the \"Term'') will begin on the date hereof (the \"Commencement",
+          "bbox": [
+            701.0,
+            1948.0,
+            3012.0,
+            1992.0
+          ],
+          "confidence": 0.9883460402488708
+        },
+        {
+          "text": "Date'), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined",
+          "bbox": [
+            281.0,
+            2017.0,
+            2971.0,
+            2061.0
+          ],
+          "confidence": 0.9906772375106812
+        },
+        {
+          "text": "below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee",
+          "bbox": [
+            281.0,
+            2089.0,
+            3001.0,
+            2133.0
+          ],
+          "confidence": 0.9817823767662048
+        },
+        {
+          "text": "and Programmer (the \"Term'), unless extended or earlier terminated pursuant to Section 11 hereof. The term \"Studio Lease\"",
+          "bbox": [
+            281.0,
+            2153.0,
+            2896.0,
+            2206.0
+          ],
+          "confidence": 0.9928803443908691
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Governing Law_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This Agreement will be construed in accordance with the laws of the State of Indiana without regard to principles of conflicts of laws.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.6",
+          "bbox": [
+            2753.0,
+            292.0,
+            3027.0,
+            331.0
+          ],
+          "confidence": 0.9992737770080566
+        },
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ],
+          "confidence": 0.9995671510696411
+        },
+        {
+          "text": "(WQHT HD2)",
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ],
+          "confidence": 0.999553382396698
+        },
+        {
+          "text": "THIS LOCAL PROGRAMMING AND MARKETING AGREEMENT (this \"Agreement') is made as of November",
+          "bbox": [
+            489.0,
+            555.0,
+            2987.0,
+            601.0
+          ],
+          "confidence": 0.9803546667098999
+        },
+        {
+          "text": "25, 2019 by and between MediaCo Holding Inc., an Indiana corporation (the \"Licensee'), and WBLS-WLIB LLC, an Indiana",
+          "bbox": [
+            283.0,
+            629.0,
+            2962.0,
+            672.0
+          ],
+          "confidence": 0.9895581007003784
+        },
+        {
+          "text": "limited liability company (\"Programmer'')",
+          "bbox": [
+            283.0,
+            700.0,
+            1135.0,
+            744.0
+          ],
+          "confidence": 0.9611402153968811
+        },
+        {
+          "text": "Recitals",
+          "bbox": [
+            1566.0,
+            760.0,
+            1739.0,
+            817.0
+          ],
+          "confidence": 0.9944260120391846
+        },
+        {
+          "text": "A.",
+          "bbox": [
+            486.0,
+            890.0,
+            540.0,
+            939.0
+          ],
+          "confidence": 0.9999076128005981
+        },
+        {
+          "text": "Licensee owns and operates the following radio station (the \"Station') pursuant to licenses issued by the.",
+          "bbox": [
+            705.0,
+            890.0,
+            2886.0,
+            941.0
+          ],
+          "confidence": 0.9833613634109497
+        },
+        {
+          "text": "Federal Communications Commission (\"FCC'): WQHT-FM, New York, NY (Facility ID No. 19615). The Station has the",
+          "bbox": [
+            281.0,
+            963.0,
+            2871.0,
+            1007.0
+          ],
+          "confidence": 0.9918746948242188
+        },
+        {
+          "text": "capability to transmit an in-band, on-channel (\"IBOC') digital broadcast signal..",
+          "bbox": [
+            281.0,
+            1032.0,
+            1938.0,
+            1084.0
+          ],
+          "confidence": 0.9825041890144348
+        },
+        {
+          "text": "B.",
+          "bbox": [
+            478.0,
+            1152.0,
+            543.0,
+            1211.0
+          ],
+          "confidence": 0.9996174573898315
+        },
+        {
+          "text": "Programmer desires to have radio broadcast station WLIB-AM, New York, NY (Facility ID No. 28204)",
+          "bbox": [
+            707.0,
+            1162.0,
+            2929.0,
+            1206.0
+          ],
+          "confidence": 0.990403413772583
+        },
+        {
+          "text": "(\"WLIB') rebroadcast on the Station's HD-2 channel (the \"HD2 Channel') at a bandwidth of 24kbps.",
+          "bbox": [
+            281.0,
+            1230.0,
+            2438.0,
+            1279.0
+          ],
+          "confidence": 0.9866427779197693
+        },
+        {
+          "text": "C.",
+          "bbox": [
+            482.0,
+            1350.0,
+            544.0,
+            1405.0
+          ],
+          "confidence": 0.7868853807449341
+        },
+        {
+          "text": "Licensee has agreed to make available to Programmer airtime on the HD2 Channel and accept for.",
+          "bbox": [
+            705.0,
+            1352.0,
+            2771.0,
+            1405.0
+          ],
+          "confidence": 0.9890851974487305
+        },
+        {
+          "text": "rebroadcast the programs of WLIB on the terms and conditions set forth in this Agreement.",
+          "bbox": [
+            279.0,
+            1429.0,
+            2195.0,
+            1473.0
+          ],
+          "confidence": 0.9900414943695068
+        },
+        {
+          "text": "Agreement",
+          "bbox": [
+            1541.0,
+            1555.0,
+            1769.0,
+            1599.0
+          ],
+          "confidence": 0.9984679818153381
+        },
+        {
+          "text": "NOW, THEREFORE, taking the foregoing recitals into account, and in consideration of the mutual covenants and",
+          "bbox": [
+            486.0,
+            1676.0,
+            2876.0,
+            1727.0
+          ],
+          "confidence": 0.9981787204742432
+        },
+        {
+          "text": "agreements contained herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby.",
+          "bbox": [
+            275.0,
+            1743.0,
+            2857.0,
+            1804.0
+          ],
+          "confidence": 0.9907763600349426
+        },
+        {
+          "text": "acknowledged, the parties, intending to be legally bound, agree as follows:.",
+          "bbox": [
+            279.0,
+            1818.0,
+            1838.0,
+            1869.0
+          ],
+          "confidence": 0.9947618246078491
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            484.0,
+            1941.0,
+            533.0,
+            1992.0
+          ],
+          "confidence": 0.9998482465744019
+        },
+        {
+          "text": "Agreement Term. The term of this Agreement (the \"Term'') will begin on the date hereof (the \"Commencement",
+          "bbox": [
+            701.0,
+            1948.0,
+            3012.0,
+            1992.0
+          ],
+          "confidence": 0.9883460402488708
+        },
+        {
+          "text": "Date'), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined",
+          "bbox": [
+            281.0,
+            2017.0,
+            2971.0,
+            2061.0
+          ],
+          "confidence": 0.9906772375106812
+        },
+        {
+          "text": "below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee",
+          "bbox": [
+            281.0,
+            2089.0,
+            3001.0,
+            2133.0
+          ],
+          "confidence": 0.9817823767662048
+        },
+        {
+          "text": "and Programmer (the \"Term'), unless extended or earlier terminated pursuant to Section 11 hereof. The term \"Studio Lease\"",
+          "bbox": [
+            281.0,
+            2153.0,
+            2896.0,
+            2206.0
+          ],
+          "confidence": 0.9928803443908691
+        },
+        {
+          "text": "means that certain Lease dated as of February 23, 1996 of certain real estate located on the 7th Floor of an office building located",
+          "bbox": [
+            277.0,
+            2224.0,
+            3014.0,
+            2273.0
+          ],
+          "confidence": 0.9932833313941956
+        },
+        {
+          "text": "at 395 Hudson St., New York, New York..",
+          "bbox": [
+            279.0,
+            2297.0,
+            1180.0,
+            2339.0
+          ],
+          "confidence": 0.9775629043579102
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            482.0,
+            2418.0,
+            533.0,
+            2469.0
+          ],
+          "confidence": 0.9999023079872131
+        },
+        {
+          "text": "Programmer's Use of Airtime and Provision of Programming. During the Term, and subject in all respects to.",
+          "bbox": [
+            696.0,
+            2418.0,
+            2967.0,
+            2472.0
+          ],
+          "confidence": 0.989877462387085
+        },
+        {
+          "text": "Channel, excluding the period from 6:00 a.m. to 8:00 a.m. each Sunday morning, on the terms specified below, and shall transmit",
+          "bbox": [
+            279.0,
+            2562.0,
+            2983.0,
+            2611.0
+          ],
+          "confidence": 0.9976099729537964
+        },
+        {
+          "text": "to Licensee the WLIB Programs for broadcast on the HD2 Channel twenty-four (24) hours per day, seven (7) days per week,",
+          "bbox": [
+            277.0,
+            2630.0,
+            2938.0,
+            2683.0
+          ],
+          "confidence": 0.9858741164207458
+        },
+        {
+          "text": "excluding the period from 6:00 a.m. to 8:00 a.m. each Sunday morning (the \"Broadcasting Period'). Programmer will transmit, at",
+          "bbox": [
+            281.0,
+            2703.0,
+            2987.0,
+            2752.0
+          ],
+          "confidence": 0.9943411946296692
+        },
+        {
+          "text": "its own cost, the WLIB Programs to the Station's transmitting facilities via a mode of transmission (e.g., satellite facilities,",
+          "bbox": [
+            279.0,
+            2774.0,
+            2808.0,
+            2823.0
+          ],
+          "confidence": 0.9884511232376099
+        },
+        {
+          "text": "microwave facilities and/or telephone lines) that will ensure that the WLIB Programs meet technical and quality standards at least",
+          "bbox": [
+            281.0,
+            2847.0,
+            2972.0,
+            2891.0
+          ],
+          "confidence": 0.9953177571296692
+        },
+        {
+          "text": "equal to those of the HD2 Channel's broadcasts prior to commencement of the Term..",
+          "bbox": [
+            281.0,
+            2911.0,
+            2074.0,
+            2962.0
+          ],
+          "confidence": 0.9890992045402527
+        },
+        {
+          "text": "Source: EMMIS COMMUNICATIONS CORP, 8-K, 11/25/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1499.0,
+            4479.0
+          ],
+          "confidence": 0.9706174731254578
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__Anti-Assignment_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party?",
+      "answer_text": "Programmer may not assign this Agreement without the prior written consent of Licensee, which shall not be unreasonably withheld, conditioned, or delayed.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.6",
+          "bbox": [
+            2753.0,
+            292.0,
+            3027.0,
+            331.0
+          ],
+          "confidence": 0.9992737770080566
+        },
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ],
+          "confidence": 0.9995671510696411
+        },
+        {
+          "text": "(WQHT HD2)",
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ],
+          "confidence": 0.999553382396698
+        },
+        {
+          "text": "THIS LOCAL PROGRAMMING AND MARKETING AGREEMENT (this \"Agreement') is made as of November",
+          "bbox": [
+            489.0,
+            555.0,
+            2987.0,
+            601.0
+          ],
+          "confidence": 0.9803546667098999
+        },
+        {
+          "text": "25, 2019 by and between MediaCo Holding Inc., an Indiana corporation (the \"Licensee'), and WBLS-WLIB LLC, an Indiana",
+          "bbox": [
+            283.0,
+            629.0,
+            2962.0,
+            672.0
+          ],
+          "confidence": 0.9895581007003784
+        },
+        {
+          "text": "limited liability company (\"Programmer'')",
+          "bbox": [
+            283.0,
+            700.0,
+            1135.0,
+            744.0
+          ],
+          "confidence": 0.9611402153968811
+        },
+        {
+          "text": "Recitals",
+          "bbox": [
+            1566.0,
+            760.0,
+            1739.0,
+            817.0
+          ],
+          "confidence": 0.9944260120391846
+        },
+        {
+          "text": "A.",
+          "bbox": [
+            486.0,
+            890.0,
+            540.0,
+            939.0
+          ],
+          "confidence": 0.9999076128005981
+        },
+        {
+          "text": "Licensee owns and operates the following radio station (the \"Station') pursuant to licenses issued by the.",
+          "bbox": [
+            705.0,
+            890.0,
+            2886.0,
+            941.0
+          ],
+          "confidence": 0.9833613634109497
+        },
+        {
+          "text": "Federal Communications Commission (\"FCC'): WQHT-FM, New York, NY (Facility ID No. 19615). The Station has the",
+          "bbox": [
+            281.0,
+            963.0,
+            2871.0,
+            1007.0
+          ],
+          "confidence": 0.9918746948242188
+        },
+        {
+          "text": "capability to transmit an in-band, on-channel (\"IBOC') digital broadcast signal..",
+          "bbox": [
+            281.0,
+            1032.0,
+            1938.0,
+            1084.0
+          ],
+          "confidence": 0.9825041890144348
+        },
+        {
+          "text": "B.",
+          "bbox": [
+            478.0,
+            1152.0,
+            543.0,
+            1211.0
+          ],
+          "confidence": 0.9996174573898315
+        },
+        {
+          "text": "Programmer desires to have radio broadcast station WLIB-AM, New York, NY (Facility ID No. 28204)",
+          "bbox": [
+            707.0,
+            1162.0,
+            2929.0,
+            1206.0
+          ],
+          "confidence": 0.990403413772583
+        },
+        {
+          "text": "(\"WLIB') rebroadcast on the Station's HD-2 channel (the \"HD2 Channel') at a bandwidth of 24kbps.",
+          "bbox": [
+            281.0,
+            1230.0,
+            2438.0,
+            1279.0
+          ],
+          "confidence": 0.9866427779197693
+        },
+        {
+          "text": "C.",
+          "bbox": [
+            482.0,
+            1350.0,
+            544.0,
+            1405.0
+          ],
+          "confidence": 0.7868853807449341
+        },
+        {
+          "text": "Licensee has agreed to make available to Programmer airtime on the HD2 Channel and accept for.",
+          "bbox": [
+            705.0,
+            1352.0,
+            2771.0,
+            1405.0
+          ],
+          "confidence": 0.9890851974487305
+        },
+        {
+          "text": "rebroadcast the programs of WLIB on the terms and conditions set forth in this Agreement.",
+          "bbox": [
+            279.0,
+            1429.0,
+            2195.0,
+            1473.0
+          ],
+          "confidence": 0.9900414943695068
+        },
+        {
+          "text": "Agreement",
+          "bbox": [
+            1541.0,
+            1555.0,
+            1769.0,
+            1599.0
+          ],
+          "confidence": 0.9984679818153381
+        },
+        {
+          "text": "NOW, THEREFORE, taking the foregoing recitals into account, and in consideration of the mutual covenants and",
+          "bbox": [
+            486.0,
+            1676.0,
+            2876.0,
+            1727.0
+          ],
+          "confidence": 0.9981787204742432
+        },
+        {
+          "text": "agreements contained herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby.",
+          "bbox": [
+            275.0,
+            1743.0,
+            2857.0,
+            1804.0
+          ],
+          "confidence": 0.9907763600349426
+        },
+        {
+          "text": "acknowledged, the parties, intending to be legally bound, agree as follows:.",
+          "bbox": [
+            279.0,
+            1818.0,
+            1838.0,
+            1869.0
+          ],
+          "confidence": 0.9947618246078491
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            484.0,
+            1941.0,
+            533.0,
+            1992.0
+          ],
+          "confidence": 0.9998482465744019
+        },
+        {
+          "text": "Agreement Term. The term of this Agreement (the \"Term'') will begin on the date hereof (the \"Commencement",
+          "bbox": [
+            701.0,
+            1948.0,
+            3012.0,
+            1992.0
+          ],
+          "confidence": 0.9883460402488708
+        },
+        {
+          "text": "Date'), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined",
+          "bbox": [
+            281.0,
+            2017.0,
+            2971.0,
+            2061.0
+          ],
+          "confidence": 0.9906772375106812
+        },
+        {
+          "text": "below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee",
+          "bbox": [
+            281.0,
+            2089.0,
+            3001.0,
+            2133.0
+          ],
+          "confidence": 0.9817823767662048
+        },
+        {
+          "text": "and Programmer (the \"Term'), unless extended or earlier terminated pursuant to Section 11 hereof. The term \"Studio Lease\"",
+          "bbox": [
+            281.0,
+            2153.0,
+            2896.0,
+            2206.0
+          ],
+          "confidence": 0.9928803443908691
+        },
+        {
+          "text": "means that certain Lease dated as of February 23, 1996 of certain real estate located on the 7th Floor of an office building located",
+          "bbox": [
+            277.0,
+            2224.0,
+            3014.0,
+            2273.0
+          ],
+          "confidence": 0.9932833313941956
+        },
+        {
+          "text": "at 395 Hudson St., New York, New York..",
+          "bbox": [
+            279.0,
+            2297.0,
+            1180.0,
+            2339.0
+          ],
+          "confidence": 0.9775629043579102
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            482.0,
+            2418.0,
+            533.0,
+            2469.0
+          ],
+          "confidence": 0.9999023079872131
+        },
+        {
+          "text": "Programmer's Use of Airtime and Provision of Programming. During the Term, and subject in all respects to.",
+          "bbox": [
+            696.0,
+            2418.0,
+            2967.0,
+            2472.0
+          ],
+          "confidence": 0.989877462387085
+        },
+        {
+          "text": "Channel, excluding the period from 6:00 a.m. to 8:00 a.m. each Sunday morning, on the terms specified below, and shall transmit",
+          "bbox": [
+            279.0,
+            2562.0,
+            2983.0,
+            2611.0
+          ],
+          "confidence": 0.9976099729537964
+        },
+        {
+          "text": "to Licensee the WLIB Programs for broadcast on the HD2 Channel twenty-four (24) hours per day, seven (7) days per week,",
+          "bbox": [
+            277.0,
+            2630.0,
+            2938.0,
+            2683.0
+          ],
+          "confidence": 0.9858741164207458
+        },
+        {
+          "text": "excluding the period from 6:00 a.m. to 8:00 a.m. each Sunday morning (the \"Broadcasting Period'). Programmer will transmit, at",
+          "bbox": [
+            281.0,
+            2703.0,
+            2987.0,
+            2752.0
+          ],
+          "confidence": 0.9943411946296692
+        },
+        {
+          "text": "its own cost, the WLIB Programs to the Station's transmitting facilities via a mode of transmission (e.g., satellite facilities,",
+          "bbox": [
+            279.0,
+            2774.0,
+            2808.0,
+            2823.0
+          ],
+          "confidence": 0.9884511232376099
+        },
+        {
+          "text": "microwave facilities and/or telephone lines) that will ensure that the WLIB Programs meet technical and quality standards at least",
+          "bbox": [
+            281.0,
+            2847.0,
+            2972.0,
+            2891.0
+          ],
+          "confidence": 0.9953177571296692
+        },
+        {
+          "text": "equal to those of the HD2 Channel's broadcasts prior to commencement of the Term..",
+          "bbox": [
+            281.0,
+            2911.0,
+            2074.0,
+            2962.0
+          ],
+          "confidence": 0.9890992045402527
+        },
+        {
+          "text": "Source: EMMIS COMMUNICATIONS CORP, 8-K, 11/25/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1499.0,
+            4479.0
+          ],
+          "confidence": 0.9706174731254578
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement__License Grant_0",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "Programmer shall not separately sell advertising time on the HD2 Channel but may market the WLIB Programs as being rebroadcast on the HD2 Channel.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.6",
+          "bbox": [
+            2753.0,
+            292.0,
+            3027.0,
+            331.0
+          ],
+          "confidence": 0.9992737770080566
+        },
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ],
+          "confidence": 0.9995671510696411
+        },
+        {
+          "text": "(WQHT HD2)",
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ],
+          "confidence": 0.999553382396698
+        },
+        {
+          "text": "THIS LOCAL PROGRAMMING AND MARKETING AGREEMENT (this \"Agreement') is made as of November",
+          "bbox": [
+            489.0,
+            555.0,
+            2987.0,
+            601.0
+          ],
+          "confidence": 0.9803546667098999
+        },
+        {
+          "text": "25, 2019 by and between MediaCo Holding Inc., an Indiana corporation (the \"Licensee'), and WBLS-WLIB LLC, an Indiana",
+          "bbox": [
+            283.0,
+            629.0,
+            2962.0,
+            672.0
+          ],
+          "confidence": 0.9895581007003784
+        },
+        {
+          "text": "limited liability company (\"Programmer'')",
+          "bbox": [
+            283.0,
+            700.0,
+            1135.0,
+            744.0
+          ],
+          "confidence": 0.9611402153968811
+        },
+        {
+          "text": "Recitals",
+          "bbox": [
+            1566.0,
+            760.0,
+            1739.0,
+            817.0
+          ],
+          "confidence": 0.9944260120391846
+        },
+        {
+          "text": "A.",
+          "bbox": [
+            486.0,
+            890.0,
+            540.0,
+            939.0
+          ],
+          "confidence": 0.9999076128005981
+        },
+        {
+          "text": "Licensee owns and operates the following radio station (the \"Station') pursuant to licenses issued by the.",
+          "bbox": [
+            705.0,
+            890.0,
+            2886.0,
+            941.0
+          ],
+          "confidence": 0.9833613634109497
+        },
+        {
+          "text": "Federal Communications Commission (\"FCC'): WQHT-FM, New York, NY (Facility ID No. 19615). The Station has the",
+          "bbox": [
+            281.0,
+            963.0,
+            2871.0,
+            1007.0
+          ],
+          "confidence": 0.9918746948242188
+        },
+        {
+          "text": "capability to transmit an in-band, on-channel (\"IBOC') digital broadcast signal..",
+          "bbox": [
+            281.0,
+            1032.0,
+            1938.0,
+            1084.0
+          ],
+          "confidence": 0.9825041890144348
+        },
+        {
+          "text": "B.",
+          "bbox": [
+            478.0,
+            1152.0,
+            543.0,
+            1211.0
+          ],
+          "confidence": 0.9996174573898315
+        },
+        {
+          "text": "Programmer desires to have radio broadcast station WLIB-AM, New York, NY (Facility ID No. 28204)",
+          "bbox": [
+            707.0,
+            1162.0,
+            2929.0,
+            1206.0
+          ],
+          "confidence": 0.990403413772583
+        },
+        {
+          "text": "(\"WLIB') rebroadcast on the Station's HD-2 channel (the \"HD2 Channel') at a bandwidth of 24kbps.",
+          "bbox": [
+            281.0,
+            1230.0,
+            2438.0,
+            1279.0
+          ],
+          "confidence": 0.9866427779197693
+        },
+        {
+          "text": "C.",
+          "bbox": [
+            482.0,
+            1350.0,
+            544.0,
+            1405.0
+          ],
+          "confidence": 0.7868853807449341
+        },
+        {
+          "text": "Licensee has agreed to make available to Programmer airtime on the HD2 Channel and accept for.",
+          "bbox": [
+            705.0,
+            1352.0,
+            2771.0,
+            1405.0
+          ],
+          "confidence": 0.9890851974487305
+        },
+        {
+          "text": "rebroadcast the programs of WLIB on the terms and conditions set forth in this Agreement.",
+          "bbox": [
+            279.0,
+            1429.0,
+            2195.0,
+            1473.0
+          ],
+          "confidence": 0.9900414943695068
+        },
+        {
+          "text": "Agreement",
+          "bbox": [
+            1541.0,
+            1555.0,
+            1769.0,
+            1599.0
+          ],
+          "confidence": 0.9984679818153381
+        },
+        {
+          "text": "NOW, THEREFORE, taking the foregoing recitals into account, and in consideration of the mutual covenants and",
+          "bbox": [
+            486.0,
+            1676.0,
+            2876.0,
+            1727.0
+          ],
+          "confidence": 0.9981787204742432
+        },
+        {
+          "text": "agreements contained herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby.",
+          "bbox": [
+            275.0,
+            1743.0,
+            2857.0,
+            1804.0
+          ],
+          "confidence": 0.9907763600349426
+        },
+        {
+          "text": "acknowledged, the parties, intending to be legally bound, agree as follows:.",
+          "bbox": [
+            279.0,
+            1818.0,
+            1838.0,
+            1869.0
+          ],
+          "confidence": 0.9947618246078491
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            484.0,
+            1941.0,
+            533.0,
+            1992.0
+          ],
+          "confidence": 0.9998482465744019
+        },
+        {
+          "text": "Agreement Term. The term of this Agreement (the \"Term'') will begin on the date hereof (the \"Commencement",
+          "bbox": [
+            701.0,
+            1948.0,
+            3012.0,
+            1992.0
+          ],
+          "confidence": 0.9883460402488708
+        },
+        {
+          "text": "Date'), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined",
+          "bbox": [
+            281.0,
+            2017.0,
+            2971.0,
+            2061.0
+          ],
+          "confidence": 0.9906772375106812
+        },
+        {
+          "text": "below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee",
+          "bbox": [
+            281.0,
+            2089.0,
+            3001.0,
+            2133.0
+          ],
+          "confidence": 0.9817823767662048
+        },
+        {
+          "text": "and Programmer (the \"Term'), unless extended or earlier terminated pursuant to Section 11 hereof. The term \"Studio Lease\"",
+          "bbox": [
+            281.0,
+            2153.0,
+            2896.0,
+            2206.0
+          ],
+          "confidence": 0.9928803443908691
+        },
+        {
+          "text": "means that certain Lease dated as of February 23, 1996 of certain real estate located on the 7th Floor of an office building located",
+          "bbox": [
+            277.0,
+            2224.0,
+            3014.0,
+            2273.0
+          ],
+          "confidence": 0.9932833313941956
+        },
+        {
+          "text": "at 395 Hudson St., New York, New York..",
+          "bbox": [
+            279.0,
+            2297.0,
+            1180.0,
+            2339.0
+          ],
+          "confidence": 0.9775629043579102
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            482.0,
+            2418.0,
+            533.0,
+            2469.0
+          ],
+          "confidence": 0.9999023079872131
+        },
+        {
+          "text": "Programmer's Use of Airtime and Provision of Programming. During the Term, and subject in all respects to.",
+          "bbox": [
+            696.0,
+            2418.0,
+            2967.0,
+            2472.0
+          ],
+          "confidence": 0.989877462387085
+        },
+        {
+          "text": "Channel, excluding the period from 6:00 a.m. to 8:00 a.m. each Sunday morning, on the terms specified below, and shall transmit",
+          "bbox": [
+            279.0,
+            2562.0,
+            2983.0,
+            2611.0
+          ],
+          "confidence": 0.9976099729537964
+        },
+        {
+          "text": "to Licensee the WLIB Programs for broadcast on the HD2 Channel twenty-four (24) hours per day, seven (7) days per week,",
+          "bbox": [
+            277.0,
+            2630.0,
+            2938.0,
+            2683.0
+          ],
+          "confidence": 0.9858741164207458
+        },
+        {
+          "text": "excluding the period from 6:00 a.m. to 8:00 a.m. each Sunday morning (the \"Broadcasting Period'). Programmer will transmit, at",
+          "bbox": [
+            281.0,
+            2703.0,
+            2987.0,
+            2752.0
+          ],
+          "confidence": 0.9943411946296692
+        },
+        {
+          "text": "its own cost, the WLIB Programs to the Station's transmitting facilities via a mode of transmission (e.g., satellite facilities,",
+          "bbox": [
+            279.0,
+            2774.0,
+            2808.0,
+            2823.0
+          ],
+          "confidence": 0.9884511232376099
+        },
+        {
+          "text": "microwave facilities and/or telephone lines) that will ensure that the WLIB Programs meet technical and quality standards at least",
+          "bbox": [
+            281.0,
+            2847.0,
+            2972.0,
+            2891.0
+          ],
+          "confidence": 0.9953177571296692
+        },
+        {
+          "text": "equal to those of the HD2 Channel's broadcasts prior to commencement of the Term..",
+          "bbox": [
+            281.0,
+            2911.0,
+            2074.0,
+            2962.0
+          ],
+          "confidence": 0.9890992045402527
+        },
+        {
+          "text": "Source: EMMIS COMMUNICATIONS CORP, 8-K, 11/25/2019",
+          "bbox": [
+            332.0,
+            4437.0,
+            1499.0,
+            4479.0
+          ],
+          "confidence": 0.9706174731254578
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "LOCAL PROGRAMMING AND MARKETING AGREEMENT",
+          "page": 0,
+          "bbox": [
+            941.0,
+            358.0,
+            2367.0,
+            404.0
+          ]
+        },
+        {
+          "text": "(WQHT HD2)",
+          "page": 0,
+          "bbox": [
+            1497.0,
+            429.0,
+            1812.0,
+            481.0
+          ]
+        }
+      ]
+    }
+  ]
+}

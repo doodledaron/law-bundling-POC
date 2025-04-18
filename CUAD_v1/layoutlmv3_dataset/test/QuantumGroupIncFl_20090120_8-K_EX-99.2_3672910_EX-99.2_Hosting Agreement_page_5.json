@@ -1,0 +1,442 @@
+[
+  {
+    "text": "For indemnification under this Section 8.2, IBM will:.",
+    "bbox": [
+      116,
+      91,
+      536,
+      102
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "promptly notify Customer in writing of the claim; and.",
+    "bbox": [
+      116,
+      108,
+      540,
+      121
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "allow Customer to control, and will cooperate with Customer in, the defense and any related settlement negotiations.",
+    "bbox": [
+      116,
+      125,
+      1000,
+      137
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "9.0",
+    "bbox": [
+      110,
+      144,
+      145,
+      159
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Limitation of IBM's Liability",
+    "bbox": [
+      176,
+      143,
+      464,
+      159
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Circumstances may arise where, because of a default on IBM's part or other liability, Customer is entitled to recover damages from IBM.",
+    "bbox": [
+      111,
+      165,
+      1000,
+      177
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Regardless of the basis on which Customer is entitled to claim damages from IBm (including fundamental breach, negligence,",
+    "bbox": [
+      111,
+      181,
+      1000,
+      194
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "misrepresentation, or other contract or tort claim), IBM is liable for no more than:.",
+    "bbox": [
+      111,
+      197,
+      767,
+      209
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "indemnification payments as provided in Section 8.1;.",
+    "bbox": [
+      116,
+      216,
+      546,
+      227
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "damages for bodily injury (including death) and damage to real property and tangible personal property; and",
+    "bbox": [
+      116,
+      233,
+      986,
+      245
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the amount of any other actual direct damages, up to the greater of $100,o00 or the charges paid by Customer to IBM for the Services.",
+    "bbox": [
+      115,
+      249,
+      1000,
+      263
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "in the twelve (12) months immediately preceding the accrual of the first claim related to the Services. The foregoing limit also applies to",
+    "bbox": [
+      115,
+      266,
+      1000,
+      278
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "any of IBM's Affiliates and Subcontractors. It is the cumulative maximum for which IBM and its Affiliates and Subcontractors are",
+    "bbox": [
+      115,
+      282,
+      1000,
+      295
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "collectively responsible. Under no circumstances is IBM, its Affiliates or its Subcontractors liable for any of the following:.",
+    "bbox": [
+      114,
+      297,
+      1000,
+      312
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Ioss of, or damage to, Customer's or any other entity's records or data.",
+    "bbox": [
+      115,
+      333,
+      697,
+      345
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "10.0 Disclaimer of Consequential Damages.",
+    "bbox": [
+      110,
+      352,
+      589,
+      367
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "In no event will either party be liable to the other for special, incidental, or indirect damages or for any consequential damages (including.",
+    "bbox": [
+      110,
+      373,
+      1000,
+      386
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Iost profits or savings), even if they are informed of the possibility; provided that this Section 10.0 does not apply to Customer's failure to",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "pay any amounts owing to IBM under this Agreement (including amounts owing for Services that would have been rendered but for.",
+    "bbox": [
+      111,
+      405,
+      1000,
+      418
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Customer's breach of this Agreement).",
+    "bbox": [
+      111,
+      421,
+      427,
+      434
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "11.0 Other Customer Obligations",
+    "bbox": [
+      111,
+      440,
+      479,
+      455
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Customer Contact",
+    "bbox": [
+      117,
+      463,
+      298,
+      474
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Customer will designate an individual to whom all of IBM's communications will be addressed and who has the authority to act and.",
+    "bbox": [
+      111,
+      481,
+      1000,
+      494
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "assignment of Customer focal points with authority over specific Services, and designation of Customer Authorized Representatives",
+    "bbox": [
+      112,
+      514,
+      1000,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(\"Customer Contact\").",
+    "bbox": [
+      113,
+      531,
+      286,
+      542
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Services Support",
+    "bbox": [
+      116,
+      549,
+      293,
+      563
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Customer will comply with its responsibilities to support the Services as specified in applicable Attachments. Such obligations are to be",
+    "bbox": [
+      112,
+      569,
+      1000,
+      581
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "performed at no charge to IBM. IBM's obligations are contingent on Customer meeting such support obligations..",
+    "bbox": [
+      112,
+      586,
+      1000,
+      598
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Representations and Warranties",
+    "bbox": [
+      116,
+      604,
+      436,
+      616
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Customer represents and warrants that:",
+    "bbox": [
+      112,
+      623,
+      435,
+      635
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "it has the requisite corporate power and authority to execute, deliver and perform its obligations under this Agreement; Customer has",
+    "bbox": [
+      115,
+      641,
+      1000,
+      653
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "no contractual or other obligation that (i) restricts or prohibits Customer's execution or performance of this Agreement, or (ii) Customer",
+    "bbox": [
+      116,
+      657,
+      1000,
+      669
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "will breach in connection with the execution or performance of this Agreement; and.",
+    "bbox": [
+      116,
+      673,
+      789,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "its use of the Services and all Content will comply with the Acceptable Use Policy..",
+    "bbox": [
+      115,
+      689,
+      787,
+      703
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Suspected Violations",
+    "bbox": [
+      117,
+      710,
+      325,
+      723
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "IBM reserves the right to investigate potential violations of the representations and warranties in Subsection 11.3(b). If IBM reasonably.",
+    "bbox": [
+      110,
+      728,
+      1000,
+      742
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "determines that a breach of any such warranty has occurred, then IBM may, in its sole discretion:.",
+    "bbox": [
+      111,
+      745,
+      907,
+      757
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "restrict Customer's access to the Services;",
+    "bbox": [
+      116,
+      764,
+      470,
+      776
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Page 6 of 36",
+    "bbox": [
+      623,
+      828,
+      710,
+      839
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: QUANTUM GROUP INC /FL, 8-K, 1/20/2009",
+    "bbox": [
+      134,
+      1000,
+      540,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

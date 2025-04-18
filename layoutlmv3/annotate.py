@@ -254,6 +254,35 @@ def align_annotation(ocr_words: List[Dict], annotation_text: str, min_confidence
                 
             logger.warning(f"Low confidence match for: {annotation_text[:50]}...")
             return []
+        else:
+            # Try sliding window matching for longer texts (over 100 chars)
+            if len(normalized_annotation) > 100:
+                # Use smaller chunks of the text to match
+                chunk_size = min(80, len(normalized_annotation) // 2)
+                # Try start, middle and end chunks
+                start_chunk = normalized_annotation[:chunk_size]
+                end_chunk = normalized_annotation[-chunk_size:]
+                mid_point = len(normalized_annotation) // 2
+                mid_chunk = normalized_annotation[mid_point-chunk_size//2:mid_point+chunk_size//2]
+                
+                for chunk in [start_chunk, mid_chunk, end_chunk]:
+                    matcher = difflib.SequenceMatcher(None, ocr_text_with_spaces, chunk)
+                    match = matcher.find_longest_match(0, len(ocr_text_with_spaces), 0, len(chunk))
+                    
+                    if match.size > len(chunk) * 0.7:  # Higher threshold for chunks
+                        # Found a good chunk match, now expand to include surrounding context
+                        start_idx = max(0, match.a - chunk_size)
+                        end_idx = min(len(ocr_text_with_spaces), match.a + match.size + chunk_size)
+                        
+                        # Use this expanded region for word mapping
+                        match_type = "chunk"
+                        match_text = ocr_text_with_spaces
+                        logger.debug(f"Found chunk match for: {annotation_text[:50]}...")
+                        break
+                else:
+                    # None of the chunks matched well
+                    logger.warning(f"Low confidence match for: {annotation_text[:50]}...")
+                    return []
             
         start_idx = match.a
         end_idx = start_idx + match.size
@@ -327,6 +356,9 @@ def process_cuad_document(pdf_path: str, annotations: Dict, output_dir: str):
     # Create LayoutLMv3 compatible annotations
     layoutlm_annotations = []
     
+    # NEW: Track failed annotations
+    failed_annotations = []
+    
     # In CUAD dataset, each document has 'paragraphs' containing 'qas'
     total_qa_pairs = 0
     successful_matches = 0
@@ -383,6 +415,13 @@ def process_cuad_document(pdf_path: str, annotations: Dict, output_dir: str):
                                 if fallback_success:
                                     successful_matches += 1
                                 else:
+                                    # NEW: Track failed annotation
+                                    failed_annotations.append({
+                                        'id': qa['id'],
+                                        'question': qa['question'],
+                                        'answer_text': answer_text,
+                                        'answer_length': len(answer_text)
+                                    })
                                     logger.warning(f"Could not find match for answer: {answer_text[:50]}...")
     else:
         logger.error(f"No paragraphs found in document: {annotations['title']}")
@@ -405,6 +444,90 @@ def process_cuad_document(pdf_path: str, annotations: Dict, output_dir: str):
     logger.info(f"Completed processing {pdf_path}")
     logger.info(f"Success rate: {success_rate:.2%} ({successful_matches}/{total_qa_pairs} QA pairs)")
     logger.info(f"Processing time: {total_time:.2f}s")
+    
+    # NEW: Log detailed information about failed annotations if any
+    if failed_annotations:
+        log_failed_annotations(failed_annotations, logger)
+
+def log_failed_annotations(failed_annotations, logger):
+    """
+    Log detailed information about failed annotations to help with debugging.
+    
+    Args:
+        failed_annotations: List of dictionaries with information about failed annotations
+        logger: Logger instance to use for output
+    """
+    if not failed_annotations:
+        return
+    
+    total_failures = len(failed_annotations)
+    
+    # Create a prominent warning header
+    logger.error("\n" + "!" * 80)
+    logger.error(f"⚠️  FAILED ANNOTATION WARNING: {total_failures} annotations could not be matched")
+    logger.error("!" * 80 + "\n")
+    
+    # Group failures by possible causes
+    by_length = {"short": [], "medium": [], "long": [], "very_long": []}
+    for failed in failed_annotations:
+        length = len(failed['answer_text'])
+        if length < 50:
+            by_length["short"].append(failed)
+        elif length < 200:
+            by_length["medium"].append(failed)
+        elif length < 500:
+            by_length["long"].append(failed)
+        else:
+            by_length["very_long"].append(failed)
+    
+    # Log statistics by length category
+    logger.error("FAILURE ANALYSIS BY TEXT LENGTH:")
+    logger.error(f"  Short texts (<50 chars): {len(by_length['short'])} failures")
+    logger.error(f"  Medium texts (50-200 chars): {len(by_length['medium'])} failures")
+    logger.error(f"  Long texts (200-500 chars): {len(by_length['long'])} failures")
+    logger.error(f"  Very long texts (>500 chars): {len(by_length['very_long'])} failures\n")
+    
+    # Log detailed information for each failed annotation
+    logger.error("DETAILED FAILURE REPORT:")
+    for i, failed in enumerate(failed_annotations):
+        logger.error(f"\nFAILED ANNOTATION #{i+1}")
+        logger.error(f"Question: {failed['question']}")
+        logger.error(f"Text Length: {failed['answer_length']} characters")
+        
+        # For shorter texts, show the full text
+        if failed['answer_length'] < 100:
+            logger.error(f"Answer Text: {failed['answer_text']}")
+        else:
+            # For longer texts, show the beginning and end
+            logger.error(f"Answer Text (first 100 chars): {failed['answer_text'][:100]}...")
+            logger.error(f"Answer Text (last 100 chars): ...{failed['answer_text'][-100:]}")
+        
+        # Provide hints based on text characteristics
+        hints = []
+        if failed['answer_length'] > 500:
+            hints.append("Text is very long - may span multiple pages")
+        if any(char in failed['answer_text'] for char in ['•', '©', '®', '™', '§']):
+            hints.append("Contains special characters that may affect matching")
+        if failed['answer_text'].count('\n') > 3:
+            hints.append("Contains multiple line breaks")
+        if sum(1 for c in failed['answer_text'] if c.isdigit()) > failed['answer_length'] * 0.2:
+            hints.append("Contains many numbers - consider specialized matching")
+            
+        if hints:
+            logger.error("Possible issues:")
+            for hint in hints:
+                logger.error(f"  - {hint}")
+            
+        logger.error("-" * 50)
+    
+    # Add summary and suggestions
+    logger.error("\nTROUBLESHOOTING SUGGESTIONS:")
+    logger.error("1. Review OCR quality on pages with many failures")
+    logger.error("2. Consider adjusting matching thresholds for specific document types")
+    logger.error("3. For texts with special formatting, consider custom preprocessing")
+    logger.error("4. Check for multi-page annotations that might need special handling")
+    logger.error("\n" + "!" * 80 + "\n")
+
 # find specific pdf files instead of using --limit
 def find_specific_pdf_files(pdf_dir: str, part_config=None) -> List[str]:
     """
@@ -420,7 +543,7 @@ def find_specific_pdf_files(pdf_dir: str, part_config=None) -> List[str]:
         List of PDF file paths matching the criteria
     """
     if not part_config:
-        part_config = {"Part_I": 5}  # Default configuration
+        part_config = {"Part_I": 10}  # Default configuration
     
     pdf_files = []
     
@@ -863,6 +986,19 @@ def main():
                 "limit": args.limit
             }
         }, f, indent=2)
+
+    # Log an overall summary of failures if there are any
+    if total_qa_pairs > total_successful_matches:
+        total_failures = total_qa_pairs - total_successful_matches
+        failure_rate = total_failures / total_qa_pairs
+        
+        logger.error("\n" + "=" * 60)
+        logger.error(f"OVERALL ANNOTATION FAILURE SUMMARY")
+        logger.error("=" * 60)
+        logger.error(f"Total failed annotations: {total_failures} / {total_qa_pairs} ({failure_rate:.2%})")
+        logger.error(f"These annotations could not be matched to the document text.")
+        logger.error("Check individual document logs for detailed failure reports.")
+        logger.error("=" * 60 + "\n")
 
 if __name__ == "__main__":
     main()

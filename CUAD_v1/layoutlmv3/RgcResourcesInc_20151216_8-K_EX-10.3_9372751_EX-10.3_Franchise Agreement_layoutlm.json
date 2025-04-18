@@ -1,0 +1,949 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Franchise\\RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf",
+  "annotations": [
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "GAS FRANCHISE AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ],
+          "confidence": 0.9951469302177429
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Parties_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "ROANOKE GAS COMPANY",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Town of Vinton Roanoke Gas Company.",
+          "bbox": [
+            286.0,
+            1599.0,
+            1138.0,
+            1656.0
+          ],
+          "confidence": 0.9692400097846985
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "4. BUSINESS OFFICE. Grantee shall during the term of this Franchise maintain at least one business office within the",
+          "page": 1,
+          "bbox": [
+            444.0,
+            669.0,
+            3027.0,
+            720.0
+          ]
+        },
+        {
+          "text": "5. NONDISCRIMINATION. Grantee shall not discriminate on the basis of race, religion, color, sex, national origin, age,",
+          "page": 1,
+          "bbox": [
+            442.0,
+            930.0,
+            3023.0,
+            994.0
+          ]
+        },
+        {
+          "text": "6. NOTICE. All notices required under this Agreement or the Ordinance shall be in writing and shall be deemed validly",
+          "page": 1,
+          "bbox": [
+            446.0,
+            1202.0,
+            3023.0,
+            1255.0
+          ]
+        },
+        {
+          "text": "7. EFFECTIVE DATE. The effective date of the Franchise will be January 1, 2016.",
+          "page": 1,
+          "bbox": [
+            450.0,
+            2273.0,
+            2204.0,
+            2317.0
+          ]
+        },
+        {
+          "text": "SIGNATURES APPEAR ON FOLLOWING PAGES",
+          "page": 1,
+          "bbox": [
+            1044.0,
+            2474.0,
+            2264.0,
+            2511.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Grantee",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "corporation (\"Grantee\").",
+          "bbox": [
+            281.0,
+            663.0,
+            792.0,
+            713.0
+          ],
+          "confidence": 0.971067488193512
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Grantor",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "WHEREAS, Grantor has reviewed the proposal for a Gas Franchise of Grantee; and.",
+          "bbox": [
+            450.0,
+            799.0,
+            2255.0,
+            848.0
+          ],
+          "confidence": 0.9933697581291199
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "TOWN OF VINTON, VIRGINIA",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Town of Vinton (\"Vinton'') (Grantor, Roanoke and Salem being hereinafter sometimes collectively referred to as the \"localities' and",
+          "bbox": [
+            281.0,
+            2001.0,
+            3025.0,
+            2045.0
+          ],
+          "confidence": 0.9768406748771667
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "17th day of November, 2015",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS AGREEMENT (\"Agreement\"), made and entered into this 17th day of November, 2015, by and between the",
+          "bbox": [
+            444.0,
+            526.0,
+            3027.0,
+            583.0
+          ],
+          "confidence": 0.9907367825508118
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "The effective date of the Franchise will be January 1, 2016.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.3",
+          "bbox": [
+            2817.0,
+            285.0,
+            3027.0,
+            323.0
+          ],
+          "confidence": 0.9906470775604248
+        },
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ],
+          "confidence": 0.9951469302177429
+        },
+        {
+          "text": "THIS AGREEMENT (\"Agreement\"), made and entered into this 17th day of November, 2015, by and between the",
+          "bbox": [
+            444.0,
+            526.0,
+            3027.0,
+            583.0
+          ],
+          "confidence": 0.9907367825508118
+        },
+        {
+          "text": "corporation (\"Grantee\").",
+          "bbox": [
+            281.0,
+            663.0,
+            792.0,
+            713.0
+          ],
+          "confidence": 0.971067488193512
+        },
+        {
+          "text": "WHEREAS, Grantor has reviewed the proposal for a Gas Franchise of Grantee; and.",
+          "bbox": [
+            450.0,
+            799.0,
+            2255.0,
+            848.0
+          ],
+          "confidence": 0.9933697581291199
+        },
+        {
+          "text": "WHEREAS, Grantor, at a duly authorized and regular meeting of its Town Council, did vote to grant a renewal of the Gas",
+          "bbox": [
+            450.0,
+            932.0,
+            3021.0,
+            976.0
+          ],
+          "confidence": 0.9830542802810669
+        },
+        {
+          "text": "Franchise to Grantee pursuant to provisions of the State Code and Town Charter..",
+          "bbox": [
+            279.0,
+            998.0,
+            1996.0,
+            1047.0
+          ],
+          "confidence": 0.9921849370002747
+        },
+        {
+          "text": "NOW, THEREFORE, in consideration of said grant of renewal of the Gas Franchise, the parties agree as follows:",
+          "bbox": [
+            448.0,
+            1133.0,
+            2866.0,
+            1177.0
+          ],
+          "confidence": 0.9931755661964417
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ],
+          "confidence": 0.995487630367279
+        },
+        {
+          "text": "maintain, repair, and extend a Gas Distribution System within Grantor's Territorial Limits in accordance with the terms and",
+          "bbox": [
+            279.0,
+            1330.0,
+            3027.0,
+            1378.0
+          ],
+          "confidence": 0.9928727149963379
+        },
+        {
+          "text": "conditions set forth below (\"Franchise'). The Franchise is granted pursuant to Grantor's Franchise Ordinance (Ordinance No.",
+          "bbox": [
+            283.0,
+            1402.0,
+            3020.0,
+            1445.0
+          ],
+          "confidence": 0.9932623505592346
+        },
+        {
+          "text": "967), adopted November 17, 2015, (\"Ordinance'), which is incorporated by reference herein, including any applicable definitions.",
+          "bbox": [
+            281.0,
+            1466.0,
+            3020.0,
+            1515.0
+          ],
+          "confidence": 0.9914182424545288
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ],
+          "confidence": 0.9976038932800293
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ],
+          "confidence": 0.9938685894012451
+        },
+        {
+          "text": "(a) Grantee shall pay to Grantor a Franchise Fee which shall be calculated pursuant to this Section. It is understood that.",
+          "bbox": [
+            446.0,
+            1860.0,
+            3029.0,
+            1913.0
+          ],
+          "confidence": 0.9913762211799622
+        },
+        {
+          "text": "Grantee has or will enter into franchise agreements with the City of Roanoke (\"Roanoke') and the City of Salem (\"Salem') and the",
+          "bbox": [
+            277.0,
+            1930.0,
+            3027.0,
+            1981.0
+          ],
+          "confidence": 0.9951615333557129
+        },
+        {
+          "text": "Town of Vinton (\"Vinton'') (Grantor, Roanoke and Salem being hereinafter sometimes collectively referred to as the \"localities' and",
+          "bbox": [
+            281.0,
+            2001.0,
+            3025.0,
+            2045.0
+          ],
+          "confidence": 0.9768406748771667
+        },
+        {
+          "text": "singularly as a \"locality') with fee provisions identical to this one, and that the total annual Franchise Fee to be paid to the three",
+          "bbox": [
+            279.0,
+            2063.0,
+            3025.0,
+            2114.0
+          ],
+          "confidence": 0.98859041929245
+        },
+        {
+          "text": "localities in aggregate is $98,196 for calendar year 2016 (\"base year total annual Franchise Fee'). Grantor's Franchise Fee shall",
+          "bbox": [
+            275.0,
+            2123.0,
+            3029.0,
+            2184.0
+          ],
+          "confidence": 0.9889441728591919
+        },
+        {
+          "text": "be a percentage share of the base year total annual Franchise Fee, which shall be determined on a pro rata basis according to its",
+          "bbox": [
+            277.0,
+            2196.0,
+            3027.0,
+            2248.0
+          ],
+          "confidence": 0.9960951805114746
+        },
+        {
+          "text": "percentage share of the total dollar value of Grantee's gas sales occurring within the localities during the calendar year. For each",
+          "bbox": [
+            274.0,
+            2259.0,
+            3029.0,
+            2319.0
+          ],
+          "confidence": 0.9917317032814026
+        },
+        {
+          "text": "calendar year of the Franchise, each locality's percentage share shall be determined by the following formula:",
+          "bbox": [
+            281.0,
+            2332.0,
+            2557.0,
+            2381.0
+          ],
+          "confidence": 0.9937690496444702
+        },
+        {
+          "text": "total dollar value of Grantee's gas sales within",
+          "bbox": [
+            459.0,
+            2463.0,
+            1412.0,
+            2513.0
+          ],
+          "confidence": 0.999713122844696
+        },
+        {
+          "text": "Locality's percentage share = the Territorial Limits of the locality.",
+          "bbox": [
+            281.0,
+            2535.0,
+            1620.0,
+            2578.0
+          ],
+          "confidence": 0.9796677827835083
+        },
+        {
+          "text": "total dollar value of Grantee's gas sales in the three localities.",
+          "bbox": [
+            279.0,
+            2597.0,
+            1535.0,
+            2642.0
+          ],
+          "confidence": 0.9794538021087646
+        },
+        {
+          "text": "For calendar year 2016, the Franchise Fee shall be paid to Grantor on or before March 31, 2017.",
+          "bbox": [
+            279.0,
+            2728.0,
+            2351.0,
+            2779.0
+          ],
+          "confidence": 0.9956206679344177
+        },
+        {
+          "text": "1",
+          "bbox": [
+            3002.0,
+            2916.0,
+            3030.0,
+            2958.0
+          ],
+          "confidence": 0.8992893695831299
+        },
+        {
+          "text": "Source: RGC RESOURCES INC, 8-K, 12/16/2015",
+          "bbox": [
+            332.0,
+            4437.0,
+            1269.0,
+            4479.0
+          ],
+          "confidence": 0.9990800023078918
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ],
+          "confidence": 0.9976038932800293
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Revenue/Profit Sharing_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "For each calendar year of the Franchise, each locality's percentage share shall be determined by the following formula:\n\ntotal dollar value of Grantee's gas sales within Locality's percentage share = the Territorial Limits of the locality total dollar value of Grantee's gas sales in the three localities",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "percentage share of the total dollar value of Grantee's gas sales occurring within the localities during the calendar year. For each",
+          "bbox": [
+            274.0,
+            2259.0,
+            3029.0,
+            2319.0
+          ],
+          "confidence": 0.9917317032814026
+        },
+        {
+          "text": "calendar year of the Franchise, each locality's percentage share shall be determined by the following formula:",
+          "bbox": [
+            281.0,
+            2332.0,
+            2557.0,
+            2381.0
+          ],
+          "confidence": 0.9937690496444702
+        },
+        {
+          "text": "total dollar value of Grantee's gas sales within",
+          "bbox": [
+            459.0,
+            2463.0,
+            1412.0,
+            2513.0
+          ],
+          "confidence": 0.999713122844696
+        },
+        {
+          "text": "Locality's percentage share = the Territorial Limits of the locality.",
+          "bbox": [
+            281.0,
+            2535.0,
+            1620.0,
+            2578.0
+          ],
+          "confidence": 0.9796677827835083
+        },
+        {
+          "text": "total dollar value of Grantee's gas sales in the three localities.",
+          "bbox": [
+            279.0,
+            2597.0,
+            1535.0,
+            2642.0
+          ],
+          "confidence": 0.9794538021087646
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement__Revenue/Profit Sharing_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "Grantor's Franchise Fee shall be a percentage share of the base year total annual Franchise Fee, which shall be determined on a pro rata basis according to its percentage share of the total dollar value of Grantee's gas sales occurring within the localities during the calendar year.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "localities in aggregate is $98,196 for calendar year 2016 (\"base year total annual Franchise Fee'). Grantor's Franchise Fee shall",
+          "bbox": [
+            275.0,
+            2123.0,
+            3029.0,
+            2184.0
+          ],
+          "confidence": 0.9889441728591919
+        },
+        {
+          "text": "be a percentage share of the base year total annual Franchise Fee, which shall be determined on a pro rata basis according to its",
+          "bbox": [
+            277.0,
+            2196.0,
+            3027.0,
+            2248.0
+          ],
+          "confidence": 0.9960951805114746
+        },
+        {
+          "text": "percentage share of the total dollar value of Grantee's gas sales occurring within the localities during the calendar year. For each",
+          "bbox": [
+            274.0,
+            2259.0,
+            3029.0,
+            2319.0
+          ],
+          "confidence": 0.9917317032814026
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "GAS FRANCHISE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1243.0,
+            397.0,
+            2064.0,
+            442.0
+          ]
+        },
+        {
+          "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate,",
+          "page": 0,
+          "bbox": [
+            444.0,
+            1259.0,
+            3025.0,
+            1318.0
+          ]
+        },
+        {
+          "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1597.0,
+            2496.0,
+            1646.0
+          ]
+        },
+        {
+          "text": "3. FRANCHISE FEE",
+          "page": 0,
+          "bbox": [
+            448.0,
+            1730.0,
+            923.0,
+            1774.0
+          ]
+        }
+      ]
+    }
+  ]
+}

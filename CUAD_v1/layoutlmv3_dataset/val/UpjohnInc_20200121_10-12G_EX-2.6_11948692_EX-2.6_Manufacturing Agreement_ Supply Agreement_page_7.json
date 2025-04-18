@@ -1,0 +1,1124 @@
+[
+  {
+    "text": "1.25",
+    "bbox": [
+      154,
+      82,
+      185,
+      95
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Customer Property\"' means all Intellectual Property, together with all materials, data, writings and other property in any form whatsoever,",
+    "bbox": [
+      211,
+      83,
+      1000,
+      95
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "which is (a) owned or controlled by Customer or its Affiliates as of and following the Effective Date and (b) provided to Manufacturer by or",
+    "bbox": [
+      211,
+      100,
+      1000,
+      110
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "on behalf of Customer or its Personnel under this Agreement.",
+    "bbox": [
+      210,
+      115,
+      657,
+      127
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      154,
+      129,
+      185,
+      141
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Customer-Supplied Materials\"' means the materials supplied by Customer to Manufacturer under the terms of this Agreement and as set",
+    "bbox": [
+      209,
+      129,
+      1000,
+      142
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "forth in the applicable Facility Addendum. For the avoidance of doubt, Customer-Supplied Materials are distinguishable from and exclusive.",
+    "bbox": [
+      210,
+      145,
+      1000,
+      157
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "of both Product Materials and Buy-Sell Materials.",
+    "bbox": [
+      211,
+      161,
+      572,
+      172
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      154,
+      176,
+      185,
+      188
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Delivery' shall have the meaning set forth in Section 2.6(a)",
+    "bbox": [
+      210,
+      176,
+      649,
+      188
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.28",
+    "bbox": [
+      153,
+      192,
+      185,
+      203
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Developments\"' shall have the meaning set forth in Section 8.2(a).",
+    "bbox": [
+      210,
+      192,
+      693,
+      204
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.29",
+    "bbox": [
+      153,
+      207,
+      185,
+      219
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Effective Date\" shall have the meaning set forth in the Preamble.",
+    "bbox": [
+      210,
+      207,
+      686,
+      219
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.30",
+    "bbox": [
+      154,
+      222,
+      186,
+      234
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Environmental Laws\"' means any Laws relating to (a) human or occupational health and safety; (b) pollution or protection of the",
+    "bbox": [
+      210,
+      223,
+      1000,
+      235
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "environment (including ambient air, indoor air, water vapor, surface water, groundwater, wetlands, drinking water supply, land surface or",
+    "bbox": [
+      210,
+      239,
+      1000,
+      251
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "subsurface strata, biota and other natural resources); or (c) exposure to, or use, generation, manufacture, processing, management,",
+    "bbox": [
+      209,
+      254,
+      1000,
+      267
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "treatment, recycling, storage, disposal, emission, discharge, transport, distribution, labeling, presence, possession, handling, Release or",
+    "bbox": [
+      209,
+      270,
+      1000,
+      282
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "threatened Release of, any hazardous or toxic material, substance or waste and any Laws relating to recordkeeping, notification, disclosure,.",
+    "bbox": [
+      210,
+      285,
+      1000,
+      297
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "registration and reporting requirements respecting hazardous or toxic materials, substances or wastes.",
+    "bbox": [
+      208,
+      300,
+      952,
+      313
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.31",
+    "bbox": [
+      153,
+      315,
+      185,
+      328
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Environmental Liability\" means any Liability arising under Environmental Laws.",
+    "bbox": [
+      209,
+      316,
+      797,
+      329
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.32",
+    "bbox": [
+      154,
+      331,
+      185,
+      343
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Exclusive Purchase Requirement' means, on a Product SKU-by-Product SKU and country-by country basis within the applicable Territory,.",
+    "bbox": [
+      209,
+      331,
+      1000,
+      344
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "(a) in the first two (2) years of the Initial Term, one hundred percent (1o0%) of Customer's total requirements for such Product SKU and (b)",
+    "bbox": [
+      210,
+      347,
+      1000,
+      359
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "in the third (3rd) year of the Initial Term, fifty percent (50%) of Customer's total requirements for such Product SKU; provided, however, that",
+    "bbox": [
+      209,
+      363,
+      1000,
+      375
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "(x) such quantities of Product reasonably procured by Customer to qualify a back-up supplier for such Product shall be excluded from the",
+    "bbox": [
+      211,
+      379,
+      1000,
+      390
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Exclusive Purchase Requirement, and (y) for the avoidance of doubt, Customer may commercialize such quantities of Product procured",
+    "bbox": [
+      209,
+      393,
+      1000,
+      406
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "under (x) above without violating the applicable Exclusive Purchase Requirement or related provisions in Section 2.1(e).",
+    "bbox": [
+      210,
+      409,
+      1000,
+      421
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.33",
+    "bbox": [
+      154,
+      424,
+      185,
+      436
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Exclusive Purchase Requirement Suspension Period\" shall have the meaning set forth in Section 2.5(b).",
+    "bbox": [
+      210,
+      424,
+      967,
+      437
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "-4-",
+    "bbox": [
+      660,
+      441,
+      681,
+      451
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      154,
+      82,
+      185,
+      95
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Customer Property\"' means all Intellectual Property, together with all materials, data, writings and other property in any form whatsoever,",
+    "bbox": [
+      211,
+      83,
+      1000,
+      95
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "which is (a) owned or controlled by Customer or its Affiliates as of and following the Effective Date and (b) provided to Manufacturer by or",
+    "bbox": [
+      211,
+      100,
+      1000,
+      110
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "on behalf of Customer or its Personnel under this Agreement.",
+    "bbox": [
+      210,
+      115,
+      657,
+      127
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      154,
+      129,
+      185,
+      141
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Customer-Supplied Materials\"' means the materials supplied by Customer to Manufacturer under the terms of this Agreement and as set",
+    "bbox": [
+      209,
+      129,
+      1000,
+      142
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "forth in the applicable Facility Addendum. For the avoidance of doubt, Customer-Supplied Materials are distinguishable from and exclusive.",
+    "bbox": [
+      210,
+      145,
+      1000,
+      157
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "of both Product Materials and Buy-Sell Materials.",
+    "bbox": [
+      211,
+      161,
+      572,
+      172
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      154,
+      176,
+      185,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Delivery' shall have the meaning set forth in Section 2.6(a)",
+    "bbox": [
+      210,
+      176,
+      649,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.28",
+    "bbox": [
+      153,
+      192,
+      185,
+      203
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Developments\"' shall have the meaning set forth in Section 8.2(a).",
+    "bbox": [
+      210,
+      192,
+      693,
+      204
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.29",
+    "bbox": [
+      153,
+      207,
+      185,
+      219
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Effective Date\" shall have the meaning set forth in the Preamble.",
+    "bbox": [
+      210,
+      207,
+      686,
+      219
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.30",
+    "bbox": [
+      154,
+      222,
+      186,
+      234
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Environmental Laws\"' means any Laws relating to (a) human or occupational health and safety; (b) pollution or protection of the",
+    "bbox": [
+      210,
+      223,
+      1000,
+      235
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "environment (including ambient air, indoor air, water vapor, surface water, groundwater, wetlands, drinking water supply, land surface or",
+    "bbox": [
+      210,
+      239,
+      1000,
+      251
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "subsurface strata, biota and other natural resources); or (c) exposure to, or use, generation, manufacture, processing, management,",
+    "bbox": [
+      209,
+      254,
+      1000,
+      267
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "treatment, recycling, storage, disposal, emission, discharge, transport, distribution, labeling, presence, possession, handling, Release or",
+    "bbox": [
+      209,
+      270,
+      1000,
+      282
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "threatened Release of, any hazardous or toxic material, substance or waste and any Laws relating to recordkeeping, notification, disclosure,.",
+    "bbox": [
+      210,
+      285,
+      1000,
+      297
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "registration and reporting requirements respecting hazardous or toxic materials, substances or wastes.",
+    "bbox": [
+      208,
+      300,
+      952,
+      313
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.31",
+    "bbox": [
+      153,
+      315,
+      185,
+      328
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Environmental Liability\" means any Liability arising under Environmental Laws.",
+    "bbox": [
+      209,
+      316,
+      797,
+      329
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.32",
+    "bbox": [
+      154,
+      331,
+      185,
+      343
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Exclusive Purchase Requirement' means, on a Product SKU-by-Product SKU and country-by country basis within the applicable Territory,.",
+    "bbox": [
+      209,
+      331,
+      1000,
+      344
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(a) in the first two (2) years of the Initial Term, one hundred percent (1o0%) of Customer's total requirements for such Product SKU and (b)",
+    "bbox": [
+      210,
+      347,
+      1000,
+      359
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "in the third (3rd) year of the Initial Term, fifty percent (50%) of Customer's total requirements for such Product SKU; provided, however, that",
+    "bbox": [
+      209,
+      363,
+      1000,
+      375
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(x) such quantities of Product reasonably procured by Customer to qualify a back-up supplier for such Product shall be excluded from the",
+    "bbox": [
+      211,
+      379,
+      1000,
+      390
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Exclusive Purchase Requirement, and (y) for the avoidance of doubt, Customer may commercialize such quantities of Product procured",
+    "bbox": [
+      209,
+      393,
+      1000,
+      406
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "under (x) above without violating the applicable Exclusive Purchase Requirement or related provisions in Section 2.1(e).",
+    "bbox": [
+      210,
+      409,
+      1000,
+      421
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.33",
+    "bbox": [
+      154,
+      424,
+      185,
+      436
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Exclusive Purchase Requirement Suspension Period\" shall have the meaning set forth in Section 2.5(b).",
+    "bbox": [
+      210,
+      424,
+      967,
+      437
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "-4-",
+    "bbox": [
+      660,
+      441,
+      681,
+      451
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      154,
+      82,
+      185,
+      95
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Customer Property\"' means all Intellectual Property, together with all materials, data, writings and other property in any form whatsoever,",
+    "bbox": [
+      211,
+      83,
+      1000,
+      95
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "which is (a) owned or controlled by Customer or its Affiliates as of and following the Effective Date and (b) provided to Manufacturer by or",
+    "bbox": [
+      211,
+      100,
+      1000,
+      110
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "on behalf of Customer or its Personnel under this Agreement.",
+    "bbox": [
+      210,
+      115,
+      657,
+      127
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      154,
+      129,
+      185,
+      141
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Customer-Supplied Materials\"' means the materials supplied by Customer to Manufacturer under the terms of this Agreement and as set",
+    "bbox": [
+      209,
+      129,
+      1000,
+      142
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "forth in the applicable Facility Addendum. For the avoidance of doubt, Customer-Supplied Materials are distinguishable from and exclusive.",
+    "bbox": [
+      210,
+      145,
+      1000,
+      157
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "of both Product Materials and Buy-Sell Materials.",
+    "bbox": [
+      211,
+      161,
+      572,
+      172
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      154,
+      176,
+      185,
+      188
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Delivery' shall have the meaning set forth in Section 2.6(a)",
+    "bbox": [
+      210,
+      176,
+      649,
+      188
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.28",
+    "bbox": [
+      153,
+      192,
+      185,
+      203
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Developments\"' shall have the meaning set forth in Section 8.2(a).",
+    "bbox": [
+      210,
+      192,
+      693,
+      204
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.29",
+    "bbox": [
+      153,
+      207,
+      185,
+      219
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Effective Date\" shall have the meaning set forth in the Preamble.",
+    "bbox": [
+      210,
+      207,
+      686,
+      219
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.30",
+    "bbox": [
+      154,
+      222,
+      186,
+      234
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Environmental Laws\"' means any Laws relating to (a) human or occupational health and safety; (b) pollution or protection of the",
+    "bbox": [
+      210,
+      223,
+      1000,
+      235
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "environment (including ambient air, indoor air, water vapor, surface water, groundwater, wetlands, drinking water supply, land surface or",
+    "bbox": [
+      210,
+      239,
+      1000,
+      251
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "subsurface strata, biota and other natural resources); or (c) exposure to, or use, generation, manufacture, processing, management,",
+    "bbox": [
+      209,
+      254,
+      1000,
+      267
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "treatment, recycling, storage, disposal, emission, discharge, transport, distribution, labeling, presence, possession, handling, Release or",
+    "bbox": [
+      209,
+      270,
+      1000,
+      282
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "threatened Release of, any hazardous or toxic material, substance or waste and any Laws relating to recordkeeping, notification, disclosure,.",
+    "bbox": [
+      210,
+      285,
+      1000,
+      297
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "registration and reporting requirements respecting hazardous or toxic materials, substances or wastes.",
+    "bbox": [
+      208,
+      300,
+      952,
+      313
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.31",
+    "bbox": [
+      153,
+      315,
+      185,
+      328
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Environmental Liability\" means any Liability arising under Environmental Laws.",
+    "bbox": [
+      209,
+      316,
+      797,
+      329
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.32",
+    "bbox": [
+      154,
+      331,
+      185,
+      343
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Exclusive Purchase Requirement' means, on a Product SKU-by-Product SKU and country-by country basis within the applicable Territory,.",
+    "bbox": [
+      209,
+      331,
+      1000,
+      344
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(a) in the first two (2) years of the Initial Term, one hundred percent (1o0%) of Customer's total requirements for such Product SKU and (b)",
+    "bbox": [
+      210,
+      347,
+      1000,
+      359
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "in the third (3rd) year of the Initial Term, fifty percent (50%) of Customer's total requirements for such Product SKU; provided, however, that",
+    "bbox": [
+      209,
+      363,
+      1000,
+      375
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(x) such quantities of Product reasonably procured by Customer to qualify a back-up supplier for such Product shall be excluded from the",
+    "bbox": [
+      211,
+      379,
+      1000,
+      390
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Exclusive Purchase Requirement, and (y) for the avoidance of doubt, Customer may commercialize such quantities of Product procured",
+    "bbox": [
+      209,
+      393,
+      1000,
+      406
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "under (x) above without violating the applicable Exclusive Purchase Requirement or related provisions in Section 2.1(e).",
+    "bbox": [
+      210,
+      409,
+      1000,
+      421
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.33",
+    "bbox": [
+      154,
+      424,
+      185,
+      436
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Exclusive Purchase Requirement Suspension Period\" shall have the meaning set forth in Section 2.5(b).",
+    "bbox": [
+      210,
+      424,
+      967,
+      437
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "-4-",
+    "bbox": [
+      660,
+      441,
+      681,
+      451
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  }
+]

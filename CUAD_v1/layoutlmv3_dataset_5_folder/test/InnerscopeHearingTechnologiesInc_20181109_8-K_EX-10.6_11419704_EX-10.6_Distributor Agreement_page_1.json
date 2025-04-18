@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Distributor shall not sell or export the Products outside the United States without prior written consent",
+    "bbox": [
+      247,
+      344,
+      1000,
+      359
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of Erchonia. To the extent sales of the Products outside the United States are permitted, Distributor",
+    "bbox": [
+      248,
+      364,
+      1000,
+      377
+    ],
+    "label": 25,
+    "category": "License Grant"
+  }
+]

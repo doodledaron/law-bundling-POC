@@ -1,0 +1,464 @@
+[
+  {
+    "text": "Exhibit 10.38",
+    "bbox": [
+      1000,
+      79,
+      1000,
+      89
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "against Distributor, its officers, directors, employees and agents (\"Named Parties\") so far as it is based on a claim that any Product supplied under",
+    "bbox": [
+      115,
+      109,
+      1000,
+      122
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "this Agreement infringes Third Party IPR (as defined below). Cisco will indemnify Named Parties and hold harmless against any final judgment",
+    "bbox": [
+      116,
+      125,
+      1000,
+      137
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "entered in respect of such an IPR Claim by a court of competent jurisdiction and against any settlements arising out of such an IPR Claim. Cisco's",
+    "bbox": [
+      116,
+      140,
+      1000,
+      152
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "obligations to defend the IPR Claim and indemnify Distributor are conditional upon:.",
+    "bbox": [
+      116,
+      155,
+      743,
+      167
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.1.1 Distributor notifying Cisco promptly in writing of the IPR Claim or threat thereof,",
+    "bbox": [
+      247,
+      184,
+      898,
+      197
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Distributor granting Cisco full and exclusive authority for the conduct of the defense and settlement of the 15.1.2 IPR Claim and any subsequent",
+    "bbox": [
+      116,
+      200,
+      1000,
+      212
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "appeal; and",
+    "bbox": [
+      116,
+      214,
+      204,
+      228
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.1.3 Distributor providing Cisco all information and assistance reasonably requested by Cisco in connection with the conduct of the defense and",
+    "bbox": [
+      116,
+      230,
+      1000,
+      242
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "settlement of the IPR Claim and any subsequent appeal..",
+    "bbox": [
+      115,
+      244,
+      535,
+      257
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.2 For the purposes of this Agreement, Third Party IPR means a United States copyright existing as at the Effective Date, a United States patent",
+    "bbox": [
+      116,
+      274,
+      1000,
+      288
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "issued as at the Effective Date, a trademark registered in the United States as at the Effective Date, trade dress existing in the United States as at",
+    "bbox": [
+      116,
+      290,
+      1000,
+      301
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Effective Date, or a claim that a Product is manufactured by means of misappropriation of a third party's trade secrets..",
+    "bbox": [
+      116,
+      304,
+      1000,
+      317
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.3 If an IPR Claim has been made, or in Cisco's opinion is likely to be made, Distributor agrees to permit Cisco, at its option and expense, either to:",
+    "bbox": [
+      116,
+      334,
+      1000,
+      347
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a) procure for Distributor the right to continue using the Product; (b) replace or modify the Product so that it becomes non-infringing; or (c)",
+    "bbox": [
+      116,
+      350,
+      1000,
+      362
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "immediately terminate both parties' respective rights and obligations under this Agreement with regard to the Product, in which case Distributor",
+    "bbox": [
+      116,
+      366,
+      1000,
+      376
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "will return the Product to Cisco and Cisco will refund to Distributor the price originally paid by Distributor to Cisco for the Product, [*****]..",
+    "bbox": [
+      114,
+      378,
+      1000,
+      393
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.4 Notwithstanding the foregoing, Cisco has no liability for, and Distributor will defend and indemnify Cisco against, any IPR Claim arising from:",
+    "bbox": [
+      116,
+      409,
+      1000,
+      422
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.4.1 the combination, operation, or use of a Product supplied under this Agreement with any product, device, or software not supplied by Cisco;",
+    "bbox": [
+      116,
+      439,
+      1000,
+      452
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.4.2 the amount or duration of use which Distributor, a Reseller or an End User makes of the Product, revenue earned by Distributor, a Reseller or",
+    "bbox": [
+      117,
+      455,
+      1000,
+      465
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "an End User from services it provides that use the Product, or services offered by Distributor, a Reseller or an End User to external or internal",
+    "bbox": [
+      116,
+      470,
+      1000,
+      481
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "customers;",
+    "bbox": [
+      114,
+      485,
+      201,
+      497
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.4.3 the alteration or modification of any Product supplied under this Agreement;.",
+    "bbox": [
+      248,
+      499,
+      869,
+      511
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.4.4 Cisco's compliance with Distributor's designs, specifications, or instructions; or.",
+    "bbox": [
+      247,
+      514,
+      893,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.4.5 Distributor's use of the Product after Cisco has informed Distributor of modifications or changes in the Product required to avoid such an",
+    "bbox": [
+      116,
+      529,
+      1000,
+      541
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "IPR Claim if the alleged infringement would have been avoided by implementation of Cisco's recommended modifications or changes..",
+    "bbox": [
+      115,
+      544,
+      1000,
+      557
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.5 This Section states the entire obligation of Cisco and its suppliers, and the exclusive remedy of Distributor, in respect of any infringement or",
+    "bbox": [
+      116,
+      574,
+      1000,
+      587
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "alleged infringement of any intellectual property rights or proprietary rights. THIS INDEMNITY OBLIGATION AND REMEDY ARE GIVEN TO",
+    "bbox": [
+      116,
+      589,
+      1000,
+      602
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Distributor SOLELY FOR ITS BENEFIT AND IN LIEU OF, AND CISCO DISCLAIMS, ALL WARRANTIES, CONDITIONS AND OTHER TERMS OF",
+    "bbox": [
+      116,
+      605,
+      1000,
+      616
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NON-INFRINGEMENT OR TITLE WITH RESPECT TO ANY PRODUCT.",
+    "bbox": [
+      115,
+      619,
+      659,
+      631
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15.6 [*****]",
+    "bbox": [
+      115,
+      647,
+      212,
+      663
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "16.0 SUPPORT.",
+    "bbox": [
+      111,
+      679,
+      235,
+      691
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Support shall be provided in accordance with Exhibit B. Distributor acknowledges that Cisco will not be responsible for warranty service and",
+    "bbox": [
+      115,
+      694,
+      1000,
+      707
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "support except as specifically provided in Exhibit B or a Cisco support program (e.g., SmartNet).",
+    "bbox": [
+      114,
+      709,
+      832,
+      723
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "17.0 REPORTS AND RECORDS",
+    "bbox": [
+      114,
+      740,
+      366,
+      749
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "17.1 With regard to both Distributor and Affiliates' activity, Distributor shall keep full, true, and accurate records and accounts, in accordance with",
+    "bbox": [
+      116,
+      754,
+      1000,
+      766
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "generally-accepted accounting principles, of each Product or Service purchased and deployed, Resold, or distributed by serial number, including.",
+    "bbox": [
+      114,
+      768,
+      1000,
+      783
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "information regarding compliance with Cisco marketing and sales programs, Software usage, and export or transfer. Distributor shall make these",
+    "bbox": [
+      116,
+      784,
+      1000,
+      796
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "records available for audit by Cisco upon [*****] prior written notice, during regular business hours, at Distributor's principal place of business or",
+    "bbox": [
+      114,
+      796,
+      1000,
+      815
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "such other of Distributor's locations where Distributor may maintain relevant records. [*****].",
+    "bbox": [
+      114,
+      811,
+      826,
+      828
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "All reporting and related obligations in this Section 17 apply to not only data regarding Distributor's activities, but also",
+    "bbox": [
+      116,
+      845,
+      1000,
+      857
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: SCANSOURCE, INC., 10-K, 8/22/2019",
+    "bbox": [
+      133,
+      1000,
+      495,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

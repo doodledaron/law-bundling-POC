@@ -1,0 +1,2917 @@
+[
+  {
+    "text": "absolute and",
+    "bbox": [
+      110,
+      72,
+      251,
+      84
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "sole ",
+    "bbox": [
+      260,
+      74,
+      330,
+      83
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "right",
+    "bbox": [
+      325,
+      73,
+      383,
+      84
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      395,
+      73,
+      426,
+      83
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Network",
+    "bbox": [
+      440,
+      74,
+      519,
+      83
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      528,
+      74,
+      549,
+      82
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Financial",
+    "bbox": [
+      565,
+      73,
+      662,
+      82
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Corporation,",
+    "bbox": [
+      678,
+      72,
+      804,
+      84
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      824,
+      75,
+      844,
+      83
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Virginia",
+    "bbox": [
+      855,
+      73,
+      939,
+      84
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Corporation.",
+    "bbox": [
+      110,
+      88,
+      235,
+      98
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "ARTICLE V",
+    "bbox": [
+      484,
+      118,
+      581,
+      127
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "[TERM AND TERMINATION]",
+    "bbox": [
+      601,
+      117,
+      825,
+      128
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "TERM",
+    "bbox": [
+      110,
+      146,
+      155,
+      157
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "AND",
+    "bbox": [
+      172,
+      146,
+      206,
+      156
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "TERMINATION",
+    "bbox": [
+      225,
+      147,
+      339,
+      156
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5.01",
+    "bbox": [
+      110,
+      175,
+      152,
+      186
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "TERM.",
+    "bbox": [
+      204,
+      176,
+      255,
+      185
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "The",
+    "bbox": [
+      276,
+      176,
+      309,
+      186
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "term",
+    "bbox": [
+      329,
+      176,
+      372,
+      185
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(\"Term\")",
+    "bbox": [
+      393,
+      175,
+      480,
+      185
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of  this Agreement shall be for one hundred",
+    "bbox": [
+      481,
+      176,
+      939,
+      185
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "eighty",
+    "bbox": [
+      110,
+      190,
+      175,
+      202
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "days",
+    "bbox": [
+      192,
+      191,
+      235,
+      202
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(180)",
+    "bbox": [
+      258,
+      190,
+      306,
+      201
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "from",
+    "bbox": [
+      327,
+      190,
+      377,
+      202
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the  date set forth below unless Network l or Visa or",
+    "bbox": [
+      390,
+      191,
+      939,
+      200
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "MasterCard",
+    "bbox": [
+      110,
+      205,
+      214,
+      215
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "case,",
+    "bbox": [
+      111,
+      221,
+      161,
+      230
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      183,
+      220,
+      215,
+      230
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      234,
+      219,
+      278,
+      231
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "will",
+    "bbox": [
+      295,
+      219,
+      339,
+      230
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "be",
+    "bbox": [
+      358,
+      220,
+      385,
+      230
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3 years. This Agreement will automatically renew for",
+    "bbox": [
+      399,
+      220,
+      940,
+      231
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "successive",
+    "bbox": [
+      111,
+      234,
+      214,
+      245
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "one-year",
+    "bbox": [
+      235,
+      235,
+      319,
+      246
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "terms",
+    "bbox": [
+      339,
+      235,
+      391,
+      244
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "unless terminated by either party by providing the",
+    "bbox": [
+      409,
+      234,
+      940,
+      245
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "other ",
+    "bbox": [
+      111,
+      250,
+      184,
+      259
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "with",
+    "bbox": [
+      181,
+      249,
+      224,
+      259
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      245,
+      248,
+      268,
+      259
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "days",
+    "bbox": [
+      286,
+      249,
+      329,
+      260
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliate",
+    "bbox": [
+      111,
+      265,
+      204,
+      273
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "enters",
+    "bbox": [
+      225,
+      265,
+      286,
+      273
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "into",
+    "bbox": [
+      306,
+      262,
+      351,
+      275
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      368,
+      265,
+      382,
+      274
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Processing",
+    "bbox": [
+      400,
+      263,
+      507,
+      275
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " agreement with Network 1 and",
+    "bbox": [
+      514,
+      263,
+      863,
+      275
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " an Iso",
+    "bbox": [
+      863,
+      263,
+      941,
+      274
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Sponsorship",
+    "bbox": [
+      111,
+      279,
+      224,
+      290
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "with",
+    "bbox": [
+      359,
+      279,
+      403,
+      288
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Harris",
+    "bbox": [
+      421,
+      278,
+      485,
+      288
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Bank",
+    "bbox": [
+      504,
+      278,
+      547,
+      288
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in I",
+    "bbox": [
+      564,
+      277,
+      613,
+      290
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "agreement",
+    "bbox": [
+      245,
+      279,
+      339,
+      289
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "which",
+    "bbox": [
+      606,
+      278,
+      665,
+      288
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "case this Agreement will.",
+    "bbox": [
+      664,
+      278,
+      939,
+      289
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "automatically",
+    "bbox": [
+      110,
+      293,
+      244,
+      304
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "terminate",
+    "bbox": [
+      266,
+      293,
+      360,
+      304
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "concurrent",
+    "bbox": [
+      380,
+      294,
+      485,
+      303
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "with",
+    "bbox": [
+      503,
+      293,
+      548,
+      304
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      566,
+      293,
+      602,
+      303
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "execution  of",
+    "bbox": [
+      618,
+      293,
+      775,
+      304
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "such agreements.",
+    "bbox": [
+      772,
+      293,
+      939,
+      304
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5.02",
+    "bbox": [
+      110,
+      321,
+      153,
+      333
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "TERMINATION.",
+    "bbox": [
+      204,
+      324,
+      329,
+      332
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Agreement",
+    "bbox": [
+      348,
+      324,
+      449,
+      333
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "may",
+    "bbox": [
+      444,
+      321,
+      497,
+      335
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "be",
+    "bbox": [
+      512,
+      322,
+      541,
+      333
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "terminated prior to the conclusion of",
+    "bbox": [
+      558,
+      322,
+      941,
+      333
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      109,
+      335,
+      144,
+      348
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      161,
+      336,
+      206,
+      349
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "by.",
+    "bbox": [
+      222,
+      337,
+      253,
+      348
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "giving",
+    "bbox": [
+      265,
+      337,
+      330,
+      348
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "written",
+    "bbox": [
+      347,
+      336,
+      423,
+      348
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "notice",
+    "bbox": [
+      442,
+      338,
+      505,
+      347
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      525,
+      337,
+      548,
+      347
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "termination:",
+    "bbox": [
+      565,
+      338,
+      691,
+      347
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      109,
+      351,
+      131,
+      363
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "By",
+    "bbox": [
+      180,
+      351,
+      208,
+      364
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "either party",
+    "bbox": [
+      224,
+      350,
+      361,
+      364
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "as",
+    "bbox": [
+      379,
+      354,
+      403,
+      363
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      421,
+      354,
+      434,
+      361
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "result of default by the other party under this",
+    "bbox": [
+      452,
+      352,
+      939,
+      363
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Agreement",
+    "bbox": [
+      110,
+      367,
+      204,
+      378
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "and failure to cure said default within thirty (30) days after notice",
+    "bbox": [
+      225,
+      367,
+      939,
+      377
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      109,
+      380,
+      132,
+      392
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "said",
+    "bbox": [
+      152,
+      380,
+      195,
+      391
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "default is",
+    "bbox": [
+      215,
+      381,
+      345,
+      392
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "given.",
+    "bbox": [
+      347,
+      382,
+      410,
+      392
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      109,
+      396,
+      133,
+      406
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "By",
+    "bbox": [
+      180,
+      394,
+      206,
+      408
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "either",
+    "bbox": [
+      225,
+      396,
+      309,
+      407
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " party",
+    "bbox": [
+      302,
+      397,
+      361,
+      407
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in the event of insolvency, receivership, voluntary or",
+    "bbox": [
+      378,
+      396,
+      941,
+      407
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "involuntary",
+    "bbox": [
+      110,
+      410,
+      225,
+      422
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "bankruptcy",
+    "bbox": [
+      243,
+      410,
+      353,
+      422
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "an assignment for the benefit of creditors of or by",
+    "bbox": [
+      390,
+      409,
+      941,
+      422
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      368,
+      412,
+      397,
+      420
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the Affiliate other than in the ordinary course of business. However, Affiliate",
+    "bbox": [
+      110,
+      424,
+      940,
+      436
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "may",
+    "bbox": [
+      108,
+      439,
+      145,
+      451
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "pledge",
+    "bbox": [
+      159,
+      441,
+      224,
+      450
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "or otherwise collateralize assets for the purpose of securing",
+    "bbox": [
+      243,
+      440,
+      941,
+      451
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "commercial",
+    "bbox": [
+      111,
+      455,
+      214,
+      464
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "loans or lines of credit in the ordinary course of business provided",
+    "bbox": [
+      234,
+      454,
+      941,
+      465
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "that",
+    "bbox": [
+      111,
+      469,
+      156,
+      480
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "such",
+    "bbox": [
+      172,
+      470,
+      215,
+      479
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "pledge is subordinate to an security interest associated with the",
+    "bbox": [
+      233,
+      469,
+      941,
+      481
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Merchant",
+    "bbox": [
+      109,
+      483,
+      193,
+      494
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "accounts",
+    "bbox": [
+      215,
+      485,
+      300,
+      494
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "and/or  losses  from such",
+    "bbox": [
+      317,
+      483,
+      596,
+      494
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "accounts.",
+    "bbox": [
+      606,
+      485,
+      702,
+      494
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      109,
+      498,
+      131,
+      509
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "By",
+    "bbox": [
+      180,
+      497,
+      206,
+      511
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliate",
+    "bbox": [
+      225,
+      499,
+      319,
+      508
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in the event of any changes in the Affiliate's Fee (other",
+    "bbox": [
+      336,
+      498,
+      940,
+      509
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "than",
+    "bbox": [
+      111,
+      514,
+      154,
+      523
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "direct",
+    "bbox": [
+      172,
+      513,
+      239,
+      524
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "pass through increases related to Visa and MasterCard interchange,",
+    "bbox": [
+      252,
+      513,
+      938,
+      525
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "fees,",
+    "bbox": [
+      110,
+      526,
+      161,
+      540
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "assessments",
+    "bbox": [
+      183,
+      529,
+      298,
+      538
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "and dues,.",
+    "bbox": [
+      316,
+      526,
+      431,
+      539
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "processor",
+    "bbox": [
+      441,
+      530,
+      545,
+      538
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "communication costs, and other direct",
+    "bbox": [
+      554,
+      528,
+      940,
+      538
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "increases",
+    "bbox": [
+      111,
+      542,
+      204,
+      553
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "including",
+    "bbox": [
+      224,
+      541,
+      318,
+      554
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "terminal hardware).",
+    "bbox": [
+      337,
+      542,
+      547,
+      553
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      109,
+      556,
+      131,
+      568
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "By Network l, for cause. For purpose hereof; \"cause\" shall consist of (i)",
+    "bbox": [
+      182,
+      557,
+      938,
+      568
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "fraud,",
+    "bbox": [
+      112,
+      572,
+      172,
+      582
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "intentional",
+    "bbox": [
+      194,
+      572,
+      319,
+      581
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "misrepresentation  or ",
+    "bbox": [
+      327,
+      573,
+      568,
+      582
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " negligence by Affiliate or any",
+    "bbox": [
+      560,
+      571,
+      922,
+      584
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Contractor",
+    "bbox": [
+      111,
+      587,
+      214,
+      596
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "located by Affiliate in compiling",
+    "bbox": [
+      232,
+      586,
+      621,
+      597
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " or providing any information",
+    "bbox": [
+      623,
+      586,
+      940,
+      598
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "submitted",
+    "bbox": [
+      111,
+      601,
+      205,
+      611
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "to",
+    "bbox": [
+      224,
+      603,
+      247,
+      610
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "or relied on by Network 1 to Network l, whether or not such fraud",
+    "bbox": [
+      264,
+      602,
+      940,
+      611
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      111,
+      618,
+      135,
+      626
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "misrepresentation is based on a misstatement, omission, a substantive fact,",
+    "bbox": [
+      149,
+      615,
+      937,
+      626
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      111,
+      632,
+      137,
+      640
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "data;",
+    "bbox": [
+      132,
+      631,
+      203,
+      640
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      227,
+      630,
+      266,
+      641
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " intentional violations by the Affiliate or any Contractor(s)",
+    "bbox": [
+      277,
+      630,
+      938,
+      642
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "located by Affiliate of any of the rules or regulations of visA, MasterCard, the",
+    "bbox": [
+      111,
+      645,
+      940,
+      656
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Member Bank or Network l; and (iii) the providing of vendor services or merchant",
+    "bbox": [
+      109,
+      659,
+      941,
+      671
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "services",
+    "bbox": [
+      111,
+      675,
+      197,
+      684
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "by",
+    "bbox": [
+      208,
+      675,
+      239,
+      685
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " Affiliate or Contractor(s) located by Affiliate which are",
+    "bbox": [
+      247,
+      673,
+      922,
+      686
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "competitive",
+    "bbox": [
+      111,
+      689,
+      243,
+      700
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "with  Network  1 or without the prior written consent of Network 1,.",
+    "bbox": [
+      243,
+      690,
+      937,
+      699
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "contrary",
+    "bbox": [
+      111,
+      704,
+      197,
+      715
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " to Section 1.01",
+    "bbox": [
+      208,
+      703,
+      370,
+      715
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "[coNTRACTORs] and IV, violation of any clause of Network 1 Affiliate",
+    "bbox": [
+      393,
+      704,
+      1000,
+      715
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Office Agreement",
+    "bbox": [
+      110,
+      718,
+      287,
+      728
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      308,
+      719,
+      341,
+      728
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "failure",
+    "bbox": [
+      359,
+      719,
+      434,
+      728
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "to",
+    "bbox": [
+      449,
+      719,
+      476,
+      728
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "cure such violation within 30 ",
+    "bbox": [
+      493,
+      718,
+      844,
+      729
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "days",
+    "bbox": [
+      840,
+      719,
+      903,
+      730
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      908,
+      719,
+      941,
+      728
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "notification",
+    "bbox": [
+      109,
+      733,
+      236,
+      744
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "E.",
+    "bbox": [
+      109,
+      748,
+      131,
+      758
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "By",
+    "bbox": [
+      181,
+      748,
+      208,
+      760
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Network",
+    "bbox": [
+      220,
+      749,
+      300,
+      758
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1 in the event any provision of the Sales Certificate or the",
+    "bbox": [
+      314,
+      747,
+      941,
+      759
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Code",
+    "bbox": [
+      111,
+      763,
+      154,
+      772
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      171,
+      764,
+      195,
+      772
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Ethics",
+    "bbox": [
+      214,
+      764,
+      277,
+      772
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "is",
+    "bbox": [
+      296,
+      762,
+      320,
+      772
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      338,
+      762,
+      363,
+      772
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "breach by",
+    "bbox": [
+      377,
+      762,
+      488,
+      774
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      504,
+      764,
+      558,
+      772
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliate.",
+    "bbox": [
+      110,
+      777,
+      211,
+      787
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "F.",
+    "bbox": [
+      110,
+      792,
+      131,
+      802
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliate",
+    "bbox": [
+      194,
+      793,
+      288,
+      801
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "enters ",
+    "bbox": [
+      306,
+      793,
+      376,
+      801
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "into a Processing agreement with Network 1 and an Iso",
+    "bbox": [
+      389,
+      792,
+      941,
+      803
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Sponsorship",
+    "bbox": [
+      111,
+      807,
+      227,
+      818
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "agreement with Harris",
+    "bbox": [
+      242,
+      806,
+      488,
+      818
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Bank",
+    "bbox": [
+      504,
+      807,
+      554,
+      817
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      559,
+      807,
+      597,
+      817
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "which case this Agreement will",
+    "bbox": [
+      606,
+      807,
+      939,
+      817
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "automatically",
+    "bbox": [
+      110,
+      821,
+      247,
+      832
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "terminate  concurrent ",
+    "bbox": [
+      267,
+      823,
+      489,
+      830
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "with",
+    "bbox": [
+      501,
+      822,
+      550,
+      831
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      566,
+      822,
+      604,
+      831
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "execution.",
+    "bbox": [
+      609,
+      823,
+      721,
+      830
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " of such agreements..",
+    "bbox": [
+      723,
+      821,
+      939,
+      832
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "If",
+    "bbox": [
+      161,
+      836,
+      184,
+      846
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "this",
+    "bbox": [
+      204,
+      836,
+      249,
+      846
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Agreement is terminated for cause, all rights of the Affiliate to",
+    "bbox": [
+      264,
+      836,
+      941,
+      847
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "future",
+    "bbox": [
+      111,
+      850,
+      174,
+      861
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "payments",
+    "bbox": [
+      191,
+      851,
+      278,
+      861
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "remain",
+    "bbox": [
+      111,
+      866,
+      173,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      193,
+      866,
+      220,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "place",
+    "bbox": [
+      233,
+      866,
+      289,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in accordance with",
+    "bbox": [
+      306,
+      865,
+      520,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Section 2.03",
+    "bbox": [
+      536,
+      865,
+      676,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      690,
+      865,
+      722,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "[RETENTION OF CONTRACTORS]",
+    "bbox": [
+      746,
+      866,
+      1000,
+      875
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      1000,
+      866,
+      1000,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.03",
+    "bbox": [
+      1000,
+      864,
+      1000,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(c).",
+    "bbox": [
+      1000,
+      866,
+      1000,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5.03",
+    "bbox": [
+      110,
+      894,
+      153,
+      905
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "EFFECT",
+    "bbox": [
+      204,
+      895,
+      267,
+      905
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "OF",
+    "bbox": [
+      286,
+      895,
+      312,
+      905
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "TERMINATION.",
+    "bbox": [
+      328,
+      895,
+      465,
+      904
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Upon termination of this Agreement, except in",
+    "bbox": [
+      471,
+      894,
+      940,
+      906
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the",
+    "bbox": [
+      111,
+      909,
+      142,
+      919
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "event",
+    "bbox": [
+      162,
+      910,
+      214,
+      919
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      234,
+      908,
+      257,
+      920
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "termination",
+    "bbox": [
+      278,
+      910,
+      392,
+      919
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "due",
+    "bbox": [
+      411,
+      910,
+      456,
+      919
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "to an uncured default by Affiliate pursuant to",
+    "bbox": [
+      458,
+      908,
+      941,
+      920
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Section",
+    "bbox": [
+      111,
+      924,
+      185,
+      933
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5.02",
+    "bbox": [
+      203,
+      923,
+      246,
+      934
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Fee",
+    "bbox": [
+      110,
+      939,
+      143,
+      948
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "described",
+    "bbox": [
+      162,
+      939,
+      257,
+      948
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      275,
+      937,
+      300,
+      949
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Section 3.01 ",
+    "bbox": [
+      318,
+      939,
+      477,
+      948
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "[AmounTjB for so long as Network 1 continues to process",
+    "bbox": [
+      473,
+      939,
+      1000,
+      949
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "transactions",
+    "bbox": [
+      112,
+      954,
+      235,
+      963
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of the Merchants in accordance with Schedule B attached hereto and",
+    "bbox": [
+      255,
+      953,
+      941,
+      963
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliate",
+    "bbox": [
+      111,
+      969,
+      204,
+      978
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "continues",
+    "bbox": [
+      225,
+      969,
+      320,
+      978
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "  to maintain the merchant accounts, provided, however, that",
+    "bbox": [
+      313,
+      968,
+      940,
+      980
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "yhnym u! yauoe nepuinen Aue nod pned no paunen dq nneyd seed d naennnedy ynnd ou",
+    "bbox": [
+      109,
+      983,
+      940,
+      993
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the  Affiliate's  Fee..",
+    "bbox": [
+      111,
+      998,
+      337,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "does not exceed $5oo. Upon termination due to an uncured",
+    "bbox": [
+      346,
+      997,
+      941,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "default by.",
+    "bbox": [
+      110,
+      1000,
+      231,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliate,",
+    "bbox": [
+      229,
+      1000,
+      347,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "or termination for cause pursuant to Section 5.02",
+    "bbox": [
+      368,
+      1000,
+      890,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "[TERMINATION]D all",
+    "bbox": [
+      912,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliates",
+    "bbox": [
+      110,
+      1000,
+      218,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "fees",
+    "bbox": [
+      233,
+      1000,
+      280,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "shall",
+    "bbox": [
+      296,
+      1000,
+      352,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "cease  to",
+    "bbox": [
+      368,
+      1000,
+      472,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "be",
+    "bbox": [
+      478,
+      1000,
+      510,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "fan uodn Aganedpaued pred pue pannnde",
+    "bbox": [
+      509,
+      1000,
+      941,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "occurrence",
+    "bbox": [
+      110,
+      1000,
+      216,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "of said",
+    "bbox": [
+      234,
+      1000,
+      322,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "any",
+    "bbox": [
+      109,
+      1000,
+      143,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "product",
+    "bbox": [
+      109,
+      1000,
+      185,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "offered through Network 1, Affiliate shall not approach, rewrite,",
+    "bbox": [
+      202,
+      1000,
+      938,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "pursue,",
+    "bbox": [
+      108,
+      1000,
+      182,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      204,
+      1000,
+      228,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "contract with any current client for the purpose of obtaining said",
+    "bbox": [
+      243,
+      1000,
+      940,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "be",
+    "bbox": [
+      109,
+      1000,
+      134,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "in",
+    "bbox": [
+      150,
+      1000,
+      175,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "contract with. Such restriction shall also apply to Affiliate's past,.",
+    "bbox": [
+      193,
+      1000,
+      937,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "current",
+    "bbox": [
+      111,
+      1000,
+      183,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "and future officers, directors, sales representatives, and Contractors..",
+    "bbox": [
+      202,
+      1000,
+      939,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "If",
+    "bbox": [
+      111,
+      1000,
+      131,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "terminated  for ",
+    "bbox": [
+      152,
+      1000,
+      330,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": " cause",
+    "bbox": [
+      325,
+      1000,
+      384,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Affiliate is responsible for any expense incurred by",
+    "bbox": [
+      398,
+      1000,
+      940,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Network 1 for investigating incidents, attorney fees, fines, and administration",
+    "bbox": [
+      109,
+      1000,
+      940,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "expense.",
+    "bbox": [
+      111,
+      1000,
+      192,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "ARTICLE VI",
+    "bbox": [
+      474,
+      1000,
+      579,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "[INDEPENDENT CONTRACTOR]",
+    "bbox": [
+      601,
+      1000,
+      846,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "INDEPENDENT",
+    "bbox": [
+      113,
+      1000,
+      225,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "CONTRACTOR",
+    "bbox": [
+      245,
+      1000,
+      349,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Source: USIO, INC., SB-2, 4/28/2004",
+    "bbox": [
+      111,
+      1000,
+      405,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\Franchise\\SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3.pdf",
+  "annotations": [
+    {
+      "id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "Attachment C to Master Franchise Agreement   MULTI-STATE ADDENDUM   CALIFORNIA APPENDIX",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Attachment C to",
+          "bbox": [
+            1474.0,
+            428.0,
+            1780.0,
+            464.0
+          ],
+          "confidence": 0.9669253826141357
+        },
+        {
+          "text": "Master Franchise Agreement",
+          "bbox": [
+            1345.0,
+            481.0,
+            1909.0,
+            521.0
+          ],
+          "confidence": 0.9967504739761353
+        },
+        {
+          "text": "MULTI-STATE ADDENDUM",
+          "bbox": [
+            1356.0,
+            594.0,
+            1894.0,
+            630.0
+          ],
+          "confidence": 0.9992567300796509
+        },
+        {
+          "text": "CALIFORNIA APPENDIX",
+          "bbox": [
+            1378.0,
+            707.0,
+            1876.0,
+            744.0
+          ],
+          "confidence": 0.9984647631645203
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MULTI-STATE ADDENDUM",
+          "page": 0,
+          "bbox": [
+            1356.0,
+            594.0,
+            1894.0,
+            630.0
+          ]
+        },
+        {
+          "text": "CALIFORNIA APPENDIX",
+          "page": 0,
+          "bbox": [
+            1378.0,
+            707.0,
+            1876.0,
+            744.0
+          ]
+        },
+        {
+          "text": "THE CALIFORNIA FRANCHISE INVESTMENT LAW REQUIRES THAT A COPY OF ALL PROPOSED AGREEMENTS RELATING TO",
+          "page": 0,
+          "bbox": [
+            462.0,
+            2390.0,
+            2958.0,
+            2427.0
+          ]
+        },
+        {
+          "text": "THE SALE OF THE FRANCHISE BE DELIVERED TOGETHER WITH THE DISCLOSURE DOCUMENT.",
+          "page": 0,
+          "bbox": [
+            464.0,
+            2447.0,
+            2382.0,
+            2483.0
+          ]
+        },
+        {
+          "text": "BUSINESS OVERSIGHT. ANY COMPLAINTS CONCERNING THE CONTENT OF THIS WEBSITE MAY BE DIRECTED TO THE",
+          "page": 0,
+          "bbox": [
+            462.0,
+            2783.0,
+            2960.0,
+            2820.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3__Governing Law_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "The Master Franchise Agreement requires application of the laws of New York.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "The Master Franchise Agreement requires application of the laws of New York. This provision may not be enforceable under.",
+          "bbox": [
+            459.0,
+            1994.0,
+            2962.0,
+            2039.0
+          ],
+          "confidence": 0.9932220578193665
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MULTI-STATE ADDENDUM",
+          "page": 0,
+          "bbox": [
+            1356.0,
+            594.0,
+            1894.0,
+            630.0
+          ]
+        },
+        {
+          "text": "CALIFORNIA APPENDIX",
+          "page": 0,
+          "bbox": [
+            1378.0,
+            707.0,
+            1876.0,
+            744.0
+          ]
+        },
+        {
+          "text": "THE CALIFORNIA FRANCHISE INVESTMENT LAW REQUIRES THAT A COPY OF ALL PROPOSED AGREEMENTS RELATING TO",
+          "page": 0,
+          "bbox": [
+            462.0,
+            2390.0,
+            2958.0,
+            2427.0
+          ]
+        },
+        {
+          "text": "THE SALE OF THE FRANCHISE BE DELIVERED TOGETHER WITH THE DISCLOSURE DOCUMENT.",
+          "page": 0,
+          "bbox": [
+            464.0,
+            2447.0,
+            2382.0,
+            2483.0
+          ]
+        },
+        {
+          "text": "BUSINESS OVERSIGHT. ANY COMPLAINTS CONCERNING THE CONTENT OF THIS WEBSITE MAY BE DIRECTED TO THE",
+          "page": 0,
+          "bbox": [
+            462.0,
+            2783.0,
+            2960.0,
+            2820.0
+          ]
+        }
+      ]
+    }
+  ]
+}

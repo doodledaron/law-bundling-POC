@@ -1,0 +1,519 @@
+[
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      226,
+      707,
+      236
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "FRANCHISE AGREEMENT",
+    "bbox": [
+      561,
+      243,
+      771,
+      251
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "TM",
+    "bbox": [
+      954,
+      110,
+      969,
+      120
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "PIZZA",
+    "bbox": [
+      379,
+      123,
+      551,
+      177
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FUSION",
+    "bbox": [
+      730,
+      125,
+      935,
+      176
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FRESH,ORGANIC",
+    "bbox": [
+      385,
+      197,
+      557,
+      211
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EARTH FRIENDLY",
+    "bbox": [
+      735,
+      197,
+      928,
+      211
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      226,
+      707,
+      236
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FRANCHISE AGREEMENT",
+    "bbox": [
+      561,
+      243,
+      771,
+      251
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Location of the Premises:",
+    "bbox": [
+      110,
+      258,
+      307,
+      269
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Agreement Date",
+    "bbox": [
+      112,
+      273,
+      238,
+      286
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Franchisee",
+    "bbox": [
+      112,
+      293,
+      198,
+      304
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Business Address",
+    "bbox": [
+      113,
+      312,
+      252,
+      323
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Type of Legal Entity (if applicable)",
+    "bbox": [
+      110,
+      334,
+      369,
+      347
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "State in which entity organized (if applicable).",
+    "bbox": [
+      110,
+      354,
+      454,
+      366
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Shareholder / Partner / Member Name.",
+    "bbox": [
+      112,
+      373,
+      408,
+      384
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Ownership Percentage",
+    "bbox": [
+      557,
+      373,
+      733,
+      385
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      775,
+      387,
+      795,
+      401
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(the \"Operating Principal')",
+    "bbox": [
+      112,
+      408,
+      312,
+      420
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      775,
+      422,
+      795,
+      436
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      774,
+      440,
+      797,
+      455
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      777,
+      460,
+      794,
+      473
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      775,
+      479,
+      795,
+      493
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+    "bbox": [
+      111,
+      1000,
+      575,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Franchisee",
+    "bbox": [
+      112,
+      293,
+      198,
+      304
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "TM",
+    "bbox": [
+      954,
+      110,
+      969,
+      120
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "PIZZA",
+    "bbox": [
+      379,
+      123,
+      551,
+      177
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FUSION",
+    "bbox": [
+      730,
+      125,
+      935,
+      176
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FRESH,ORGANIC",
+    "bbox": [
+      385,
+      197,
+      557,
+      211
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EARTH FRIENDLY",
+    "bbox": [
+      735,
+      197,
+      928,
+      211
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      226,
+      707,
+      236
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "FRANCHISE AGREEMENT",
+    "bbox": [
+      561,
+      243,
+      771,
+      251
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Location of the Premises:",
+    "bbox": [
+      110,
+      258,
+      307,
+      269
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Agreement Date",
+    "bbox": [
+      112,
+      273,
+      238,
+      286
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Franchisee",
+    "bbox": [
+      112,
+      293,
+      198,
+      304
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Business Address",
+    "bbox": [
+      113,
+      312,
+      252,
+      323
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Type of Legal Entity (if applicable)",
+    "bbox": [
+      110,
+      334,
+      369,
+      347
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "State in which entity organized (if applicable).",
+    "bbox": [
+      110,
+      354,
+      454,
+      366
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Shareholder / Partner / Member Name.",
+    "bbox": [
+      112,
+      373,
+      408,
+      384
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Ownership Percentage",
+    "bbox": [
+      557,
+      373,
+      733,
+      385
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      775,
+      387,
+      795,
+      401
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(the \"Operating Principal')",
+    "bbox": [
+      112,
+      408,
+      312,
+      420
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      775,
+      422,
+      795,
+      436
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      774,
+      440,
+      797,
+      455
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      777,
+      460,
+      794,
+      473
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "%",
+    "bbox": [
+      775,
+      479,
+      795,
+      493
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+    "bbox": [
+      111,
+      1000,
+      575,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

@@ -54,7 +54,6 @@ Parameters:
 - `--confidence_threshold`: Detection threshold (default: 0.5)
 - `--num_workers`: Data loader workers (default: 0)
 
-
 ### 4. Troubleshooting
 
 If you encounter issues, run the diagnostic script to check your environment:
@@ -168,7 +167,7 @@ To apply the fine-tuned model to new legal documents:
 
 ```bash
 python layoutlmv3/inference.py --pdf_path path/to/your/document.pdf
-python .\layoutlmv3\inference.py --pdf_path CUAD_v1/full_contract_pdf_Part_I/Co_Branding/2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement.pdf      
+python .\layoutlmv3\inference.py --pdf_path CUAD_v1/full_contract_pdf_Part_I/Co_Branding/2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement.pdf
 ```
 
 Inference parameters:

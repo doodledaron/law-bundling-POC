@@ -1,0 +1,409 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf\\Part_I\\License_Agreements\\WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement.pdf",
+  "annotations": [
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "Media Content and License Agreement",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Oceanic Time Warner Cable and Watchit Media Content and License Agreement",
+          "bbox": [
+            277.0,
+            506.0,
+            1814.0,
+            552.0
+          ],
+          "confidence": 0.9940916299819946
+        }
+      ]
+    },
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Oceanic Time Warner Cable",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Oceanic Time Warner Cable and Watchit Media Content and License Agreement",
+          "bbox": [
+            277.0,
+            506.0,
+            1814.0,
+            552.0
+          ],
+          "confidence": 0.9940916299819946
+        }
+      ]
+    },
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Watchit Media",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Oceanic Time Warner Cable and Watchit Media Content and License Agreement",
+          "bbox": [
+            277.0,
+            506.0,
+            1814.0,
+            552.0
+          ],
+          "confidence": 0.9940916299819946
+        }
+      ]
+    },
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "Effective Dates: September 1, 2006, August 31, 2007",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Effective Dates: September 1, 2006, August 31, 2007",
+          "bbox": [
+            279.0,
+            619.0,
+            1236.0,
+            661.0
+          ],
+          "confidence": 0.986021876335144
+        }
+      ]
+    },
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "This agreement will be in effect until the end of 2006 and will be evaluated at that time.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "This agreement will be in effect until the end of 2006 and will be evaluated at that time",
+          "bbox": [
+            279.0,
+            2249.0,
+            1870.0,
+            2291.0
+          ],
+          "confidence": 0.9933647513389587
+        }
+      ]
+    },
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Exclusivity_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).",
+      "answer_text": "Oceanic Time Warner Cable will use the content solely on channel 777, the Las Vegas channel.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Oceanic Time Warner Cable will use the content solely on channel 777, the Las Vegas channel.",
+          "bbox": [
+            279.0,
+            1296.0,
+            2023.0,
+            1338.0
+          ],
+          "confidence": 0.9896315932273865
+        }
+      ]
+    },
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Exclusivity_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).",
+      "answer_text": "Watchit shall have the exclusive right to sell third party advertising as sponsors of their content and will have the right to brand the content under the Watchit brand and place a \"bug\" on the screen identifying the content with a Watchit trademark.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Watchit shall have the exclusive right to sell third party advertising as sponsors of their content and will have the right to brand the content under",
+          "bbox": [
+            281.0,
+            1632.0,
+            3000.0,
+            1674.0
+          ],
+          "confidence": 0.9962397217750549
+        },
+        {
+          "text": "the Watchit brand and place a \"bug\"' on the screen identifying the content with a Watchit trademark.",
+          "bbox": [
+            277.0,
+            1688.0,
+            2146.0,
+            1730.0
+          ],
+          "confidence": 0.9845064282417297
+        }
+      ]
+    },
+    {
+      "id": "WatchitMediaInc_20061201_8-K_EX-10.1_4148672_EX-10.1_Content License Agreement__Liquidated Damages_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)?",
+      "answer_text": "In the event that Oceanic Time Warner Cable removes the above content and or terminates this agreement prior to December 31, 2006, Oceanic Time Warner Cable agrees to pay a cancellation fee of Five Thousand Dollars ($5,000) per month multiplied by the number of months remain on the agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.1",
+          "bbox": [
+            2798.0,
+            283.0,
+            3027.0,
+            322.0
+          ],
+          "confidence": 0.9991647601127625
+        },
+        {
+          "text": "Oceanic Time Warner Cable and Watchit Media Content and License Agreement",
+          "bbox": [
+            277.0,
+            506.0,
+            1814.0,
+            552.0
+          ],
+          "confidence": 0.9940916299819946
+        },
+        {
+          "text": "Effective Dates: September 1, 2006, August 31, 2007",
+          "bbox": [
+            279.0,
+            619.0,
+            1236.0,
+            661.0
+          ],
+          "confidence": 0.986021876335144
+        },
+        {
+          "text": "Watchit agrees to provide Oceanic Time Warner Cable the following content:",
+          "bbox": [
+            281.0,
+            735.0,
+            1704.0,
+            777.0
+          ],
+          "confidence": 0.9932886958122253
+        },
+        {
+          "text": " Watchit Gaming Guides",
+          "bbox": [
+            446.0,
+            846.0,
+            919.0,
+            888.0
+          ],
+          "confidence": 0.9763742089271545
+        },
+        {
+          "text": " Lunchtime with Ira segments every week.",
+          "bbox": [
+            444.0,
+            899.0,
+            1240.0,
+            945.0
+          ],
+          "confidence": 0.9744969606399536
+        },
+        {
+          "text": "Watchit will provide the content on BetaSp format and reserves the right to modify the content to reflect sponsorship by an advertiser and",
+          "bbox": [
+            279.0,
+            1012.0,
+            2855.0,
+            1056.0
+          ],
+          "confidence": 0.9900434017181396
+        },
+        {
+          "text": "advertisers.",
+          "bbox": [
+            277.0,
+            1071.0,
+            495.0,
+            1111.0
+          ],
+          "confidence": 0.9997579455375671
+        },
+        {
+          "text": "Oceanic Time Warner Cable agrees to not edit or modify the above content.",
+          "bbox": [
+            279.0,
+            1182.0,
+            1673.0,
+            1223.0
+          ],
+          "confidence": 0.9890574812889099
+        },
+        {
+          "text": "Oceanic Time Warner Cable will use the content solely on channel 777, the Las Vegas channel.",
+          "bbox": [
+            279.0,
+            1296.0,
+            2023.0,
+            1338.0
+          ],
+          "confidence": 0.9896315932273865
+        },
+        {
+          "text": "In the event that Oceanic Time Warner Cable removes the above content and or terminates this agreement prior to December 31, 2006, Oceanic Time",
+          "bbox": [
+            277.0,
+            1407.0,
+            3016.0,
+            1449.0
+          ],
+          "confidence": 0.9955742955207825
+        },
+        {
+          "text": "Warner Cable agrees to pay a cancellation fee of Five Thousand Dollars ($5,oo0) per month multiplied by the number of months remain on the",
+          "bbox": [
+            279.0,
+            1464.0,
+            2905.0,
+            1506.0
+          ],
+          "confidence": 0.9909886717796326
+        },
+        {
+          "text": "agreement.",
+          "bbox": [
+            277.0,
+            1522.0,
+            484.0,
+            1566.0
+          ],
+          "confidence": 0.9998957514762878
+        },
+        {
+          "text": "Watchit shall have the exclusive right to sell third party advertising as sponsors of their content and will have the right to brand the content under",
+          "bbox": [
+            281.0,
+            1632.0,
+            3000.0,
+            1674.0
+          ],
+          "confidence": 0.9962397217750549
+        },
+        {
+          "text": "the Watchit brand and place a \"bug\"' on the screen identifying the content with a Watchit trademark.",
+          "bbox": [
+            277.0,
+            1688.0,
+            2146.0,
+            1730.0
+          ],
+          "confidence": 0.9845064282417297
+        },
+        {
+          "text": "Oceanic Time Warner Cable will include the following disclaimer on the Watchit Content: \"The materials shown are for entertainment purposes only",
+          "bbox": [
+            277.0,
+            1796.0,
+            3014.0,
+            1844.0
+          ],
+          "confidence": 0.9915993809700012
+        },
+        {
+          "text": "and does not provide any guarantees of winning or improving your odds of winning on this program. The rules of the games as shown may not",
+          "bbox": [
+            277.0,
+            1855.0,
+            2953.0,
+            1900.0
+          ],
+          "confidence": 0.9974046945571899
+        },
+        {
+          "text": "apply to all properties and may change from time to time.\".",
+          "bbox": [
+            279.0,
+            1910.0,
+            1352.0,
+            1957.0
+          ],
+          "confidence": 0.989262580871582
+        },
+        {
+          "text": "Ocean Time Warner Cable will provide Watchit with data on viewership to both Channel 777 and specifically to the content provided by Watchit.",
+          "bbox": [
+            277.0,
+            2023.0,
+            2965.0,
+            2067.0
+          ],
+          "confidence": 0.987390398979187
+        },
+        {
+          "text": "Ocean Time Warner Cable will be able to not include any content that it deems inappropriate or distasteful.",
+          "bbox": [
+            277.0,
+            2136.0,
+            2253.0,
+            2180.0
+          ],
+          "confidence": 0.9950811862945557
+        },
+        {
+          "text": "This agreement will be in effect until the end of 2006 and will be evaluated at that time",
+          "bbox": [
+            279.0,
+            2249.0,
+            1870.0,
+            2291.0
+          ],
+          "confidence": 0.9933647513389587
+        },
+        {
+          "text": "Both parties agree to discuss use of information gathered form this arrangement before using it in any kind of promotional or public message.",
+          "bbox": [
+            277.0,
+            2361.0,
+            2900.0,
+            2407.0
+          ],
+          "confidence": 0.9927874803543091
+        },
+        {
+          "text": "Accepted by:",
+          "bbox": [
+            277.0,
+            2474.0,
+            529.0,
+            2518.0
+          ],
+          "confidence": 0.999912440776825
+        },
+        {
+          "text": "Oceanic Time Warner Cable/Date.",
+          "bbox": [
+            283.0,
+            2650.0,
+            886.0,
+            2681.0
+          ],
+          "confidence": 0.9877877235412598
+        },
+        {
+          "text": "Watchit Media/Date",
+          "bbox": [
+            1903.0,
+            2644.0,
+            2278.0,
+            2684.0
+          ],
+          "confidence": 0.9999317526817322
+        },
+        {
+          "text": "Source: WATCHIT MEDIA, INC., 8-K, 12/1/2006",
+          "bbox": [
+            332.0,
+            4437.0,
+            1269.0,
+            4477.0
+          ],
+          "confidence": 0.9898914694786072
+        }
+      ]
+    }
+  ]
+}

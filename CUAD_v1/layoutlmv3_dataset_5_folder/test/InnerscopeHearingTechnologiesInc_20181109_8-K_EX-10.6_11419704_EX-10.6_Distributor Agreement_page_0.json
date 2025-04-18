@@ -1,0 +1,5854 @@
+[
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Exhibit 10.6",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ATTACHMENT A",
+    "bbox": [
+      580,
+      98,
+      754,
+      110
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ERCHONIA CORPORATION",
+    "bbox": [
+      520,
+      118,
+      814,
+      130
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      445,
+      137,
+      887,
+      149
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "This agreement (\"Agreement\") is made by and between Erchonia Corporation. (\"Erchonia\") whose address",
+    "bbox": [
+      179,
+      172,
+      1000,
+      188
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "is 650 Atlantis Rd., Melbourne, Florida, USA, 32904 and InnerScope Hearing Technologies Inc, (\"Distributor\")",
+    "bbox": [
+      111,
+      192,
+      1000,
+      207
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "whose address is 2151 Professional Drive, Second Floor, Roseville, California, USA, 95661 hereafter referred to",
+    "bbox": [
+      114,
+      212,
+      1000,
+      224
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "collectively as the (\"Parties\")",
+    "bbox": [
+      113,
+      231,
+      388,
+      245
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Recitals",
+    "bbox": [
+      110,
+      264,
+      198,
+      280
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "A. Erchonia is engaged in, among other things, the business of developing and promoting low level lasers.",
+    "bbox": [
+      178,
+      300,
+      1000,
+      317
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Erchonia desires to retain Distributor to promote, distribute and sell such equipment listed in Schedule A (the",
+    "bbox": [
+      112,
+      320,
+      1000,
+      334
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "\"Products\")",
+    "bbox": [
+      112,
+      338,
+      224,
+      354
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "B. Distributor is engaged in the business of, among other things, selling medical products and services,.",
+    "bbox": [
+      179,
+      366,
+      1000,
+      381
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "specifically for the treatment of hearing disorders..",
+    "bbox": [
+      114,
+      387,
+      588,
+      399
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "C. Distributor desires to obtain the exclusive right to distribute the Products pursuant to the terms set for in",
+    "bbox": [
+      180,
+      413,
+      1000,
+      426
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      114,
+      432,
+      262,
+      445
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "D. The parties agree that these recitals shall be considered a term of this Agreement",
+    "bbox": [
+      180,
+      458,
+      1000,
+      472
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "NOW, THEREFORE, the parties agree:",
+    "bbox": [
+      179,
+      484,
+      563,
+      500
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      518,
+      132,
+      534
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Grant of License.",
+    "bbox": [
+      181,
+      521,
+      359,
+      533
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      557,
+      199,
+      571
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Subject to the terms set forth in this agreement, Erchonia grants Distributor the exclusive, non-",
+    "bbox": [
+      248,
+      556,
+      1000,
+      570
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "transferable right and license to promote, distribute and sell the Products identified in Exhibit A to",
+    "bbox": [
+      248,
+      576,
+      1000,
+      589
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "those type of customer specified in Exhibit B and only within the Territory specified in Exhibit B",
+    "bbox": [
+      247,
+      594,
+      1000,
+      607
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Distributor shall only distribute or sell the Products to customers who are licensed health care.",
+    "bbox": [
+      247,
+      612,
+      1000,
+      627
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "professionals and meet the other requirements set forth in Exhibit B.",
+    "bbox": [
+      247,
+      631,
+      904,
+      646
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      665,
+      200,
+      682
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Erchonia retains the right, in its sole discretion, to add, delete, upgrade, or modify the Products from",
+    "bbox": [
+      247,
+      667,
+      1000,
+      682
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "time to time. Upon receipt of notice of such change, Distributor shall cease to market and distribute",
+    "bbox": [
+      248,
+      687,
+      1000,
+      699
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "earlier versions of the Products and/or Products deleted from Schedule A. Distributor will deliver, at",
+    "bbox": [
+      249,
+      706,
+      1000,
+      718
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Erchonia's expense, all recalled, discontinued or products otherwise rendered unmarketable (under",
+    "bbox": [
+      248,
+      724,
+      1000,
+      737
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "the terms of this paragraph) to Erchonia. Erchonia will fully reimburse Distributor for all costs related.",
+    "bbox": [
+      247,
+      743,
+      1000,
+      758
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "to the cost of materials and products returned to Erchonia",
+    "bbox": [
+      248,
+      763,
+      803,
+      776
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      795,
+      131,
+      812
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Obligations of Distributor..",
+    "bbox": [
+      181,
+      797,
+      454,
+      811
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      834,
+      200,
+      848
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized.",
+    "bbox": [
+      247,
+      832,
+      1000,
+      847
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      885,
+      200,
+      901
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set",
+    "bbox": [
+      249,
+      888,
+      1000,
+      900
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any",
+    "bbox": [
+      247,
+      906,
+      1000,
+      921
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia",
+    "bbox": [
+      249,
+      925,
+      1000,
+      939
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "shall have all the rights and remedies provided for herein upon a breach of this agreement, including",
+    "bbox": [
+      247,
+      943,
+      1000,
+      959
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions",
+    "bbox": [
+      247,
+      963,
+      1000,
+      978
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of this agreement",
+    "bbox": [
+      248,
+      982,
+      418,
+      996
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      178,
+      1000,
+      197,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Upon Erchonia's reasonable request, Distributor shall consult with Erchonia regarding Distributor's.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "marketing and promotion efforts in the Territory and Field of Use and shall cooperate with Erchonia's",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      177,
+      1000,
+      200,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Distributor shall maintain appropriate records concerning the sales of the Products. Such records.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "shall include at a minimum the name, address and telephone number of each customer, the date of",
+    "bbox": [
+      249,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "sale, a listing of the Products sold to each customer. Upon Erchonia's request, Distributor shall",
+    "bbox": [
+      248,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "provide Erchonia with regular periodic reports including the information described in this paragraph.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Distributor shall also maintain such other records related to sales of the Products as Erchonia may.",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "reasonably request.",
+    "bbox": [
+      247,
+      1000,
+      437,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      178,
+      1000,
+      199,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Distributor shall pay for all products purchased in a timely manner.",
+    "bbox": [
+      247,
+      1000,
+      883,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: INNERSCOPE HEARING TECHNOLOGIES, INC., 8-K, 11/9/2018",
+    "bbox": [
+      133,
+      1000,
+      695,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "All such information shall be available for inspection by Erchonia, upon reasonable notice..",
+    "bbox": [
+      247,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

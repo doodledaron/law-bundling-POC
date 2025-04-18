@@ -1,0 +1,1718 @@
+[
+  {
+    "text": "1.15 Link shall mean a link (including, but not limited to, a hyperlink,",
+    "bbox": [
+      168,
+      77,
+      725,
+      86
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "button or banner) that connects two Sites in a manner so that when a user clicks",
+    "bbox": [
+      108,
+      89,
+      726,
+      97
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "on the link, the user is transferred directly from one Site to a second Site. A",
+    "bbox": [
+      108,
+      101,
+      720,
+      108
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Link from Site A to Site B\" indicates that Site A is the Site of origin and",
+    "bbox": [
+      108,
+      110,
+      698,
+      119
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Site B is the Site to which the user is linked.",
+    "bbox": [
+      109,
+      122,
+      472,
+      130
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.16 MEDIcAL PRoDucTs shall mean any equipment, including capital",
+    "bbox": [
+      168,
+      143,
+      672,
+      152
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "equipment, instruments and other products used for in-patient diagnostic or.",
+    "bbox": [
+      110,
+      155,
+      688,
+      163
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "treatment purposes in the field of human health care, excluding Laboratory",
+    "bbox": [
+      108,
+      166,
+      681,
+      174
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Products.",
+    "bbox": [
+      108,
+      177,
+      177,
+      184
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      410,
+      198,
+      419,
+      206
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      130,
+      209,
+      140,
+      217
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.17 MEDICAL PRODUCTs LISTINGS shall mean any VerticalNet Medical.",
+    "bbox": [
+      169,
+      230,
+      673,
+      239
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Product Listings and Neoforma Medical Product Listings..",
+    "bbox": [
+      107,
+      242,
+      532,
+      251
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.18 MEDICAL PRODUCTs NET REVENUE shall mean the Transaction Fees",
+    "bbox": [
+      170,
+      263,
+      672,
+      272
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "derived from the sale of New Medical Products and Used and Excess Medical",
+    "bbox": [
+      110,
+      275,
+      672,
+      283
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Products through the Neoforma Sites, less any Deductibles.",
+    "bbox": [
+      108,
+      285,
+      556,
+      295
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.19 NEOFoRmA AucTION shall mean the functionality and services provided.",
+    "bbox": [
+      169,
+      308,
+      727,
+      316
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "at the \"auction\" portion of the Neoforma Site.",
+    "bbox": [
+      107,
+      318,
+      464,
+      328
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.20 NEOFORMA CAREER CONTENT shall have the meaning ascribed thereto in.",
+    "bbox": [
+      169,
+      341,
+      719,
+      348
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Section 4.5 [CO-BRANDED CAREER CENTER].",
+    "bbox": [
+      108,
+      351,
+      416,
+      360
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.21 NEOFORMA CoMPETITORs shall mean Medibuy.com, Promedix.com,.",
+    "bbox": [
+      169,
+      373,
+      656,
+      383
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Medicalbuyer.com and Medsite.com. During the Term, Neoforma may add to this",
+    "bbox": [
+      107,
+      384,
+      689,
+      393
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "online sale of Medical Products.",
+    "bbox": [
+      108,
+      407,
+      355,
+      414
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.22 NEOFORMA CONTENT shall mean the Neoforma Career Content and the.",
+    "bbox": [
+      170,
+      429,
+      697,
+      436
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Neoforma T&E Content..",
+    "bbox": [
+      108,
+      440,
+      270,
+      447
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.23 NEOFORMA DELIVERABLE shall mean any good, service or other item to",
+    "bbox": [
+      168,
+      460,
+      720,
+      470
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "be delivered or made available by Neoforma.",
+    "bbox": [
+      107,
+      472,
+      440,
+      480
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.24 NEOFORMA GAR shall mean Neoforma GAR, Inc.",
+    "bbox": [
+      170,
+      495,
+      532,
+      502
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.25 NEOFoRmA HomE pAgE shall mean the home page located at the Neoforma",
+    "bbox": [
+      168,
+      515,
+      727,
+      524
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Site.",
+    "bbox": [
+      107,
+      526,
+      145,
+      536
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Listing relating to a Laboratory Product that is not already listed on a",
+    "bbox": [
+      108,
+      560,
+      666,
+      568
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet Site.",
+    "bbox": [
+      108,
+      571,
+      239,
+      579
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.27 NEOFORMA LINK shall mean a Link that contains a Neoforma Mark and",
+    "bbox": [
+      170,
+      593,
+      712,
+      601
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "will take users of other Sites to the Neoforma Home Page.",
+    "bbox": [
+      107,
+      603,
+      550,
+      612
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.28 NEoFoRmA MARK shall mean any trademark, service mark, trade name,",
+    "bbox": [
+      168,
+      625,
+      711,
+      635
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "domain name, design or logo of Neoforma.",
+    "bbox": [
+      107,
+      636,
+      418,
+      645
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.29 NEOFORMA MEDICAL PRODUCTS LISTING shall mean a Neoforma Product",
+    "bbox": [
+      169,
+      658,
+      696,
+      666
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Listing relating to a Medical Product that is not already covered by a",
+    "bbox": [
+      108,
+      669,
+      651,
+      677
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet Medical Product Listing on Neoforma Plan and/or Neoforma Shop.",
+    "bbox": [
+      108,
+      680,
+      679,
+      689
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.30 NEOFoRMA PLAN shall mean the \"plan\" portion of the Neoforma Site.",
+    "bbox": [
+      169,
+      701,
+      710,
+      711
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.31 NEOFORMA PRODUCT LISTING shall mean a Product Listing of Neoforma",
+    "bbox": [
+      169,
+      723,
+      712,
+      733
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "for Medical Products or Laboratory Products, including any Neoforma Product",
+    "bbox": [
+      108,
+      734,
+      689,
+      744
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Listings for Laboratory Products made available hereunder by Neoforma to",
+    "bbox": [
+      108,
+      747,
+      665,
+      754
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet.",
+    "bbox": [
+      108,
+      757,
+      199,
+      764
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      410,
+      779,
+      419,
+      787
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      131,
+      790,
+      140,
+      797
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.32 NEOFORMA RESOURCES HOME PAGE shall mean the Site located at",
+    "bbox": [
+      170,
+      812,
+      665,
+      819
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "http://www.neoforma.com/rf/index.html?PageMode=Static&file=resrc main&hdrTab=",
+    "bbox": [
+      108,
+      823,
+      703,
+      831
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "resources&subhdrTab=0&dir=resources (or a successor Site thereto).",
+    "bbox": [
+      108,
+      834,
+      617,
+      842
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.33 NEOFORMA ShOP shall mean the \"shop\" portion of the Neoforma Site.",
+    "bbox": [
+      170,
+      856,
+      710,
+      864
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.34 NEoFormA siTE shall mean any Site owned and operated by Neoforma,",
+    "bbox": [
+      168,
+      876,
+      711,
+      886
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "including, but not limited to, the Site located at www.neoforma.com (or any",
+    "bbox": [
+      108,
+      888,
+      689,
+      898
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(bugobaaog ay? Jo Aue on seots nosseoons",
+    "bbox": [
+      108,
+      899,
+      424,
+      908
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.35 NEOFORMA T&E CONTENT shall have the meaning ascribed thereto in",
+    "bbox": [
+      169,
+      921,
+      696,
+      929
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Section 5.5",
+    "bbox": [
+      109,
+      933,
+      195,
+      940
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[CO-BRANDED TRAINING AND EDUCATION SITE].",
+    "bbox": [
+      211,
+      933,
+      524,
+      940
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.36 NET ADVERTIsING REVENUE shall mean the gross amount collected by a",
+    "bbox": [
+      169,
+      953,
+      720,
+      963
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Party from a third party for the sale of Advertising, less any Deductibles.",
+    "bbox": [
+      108,
+      964,
+      687,
+      974
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.37 NEw MEDIcAL PRoDucTS shall mean new, unused Medical Products.",
+    "bbox": [
+      170,
+      987,
+      679,
+      996
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.38 PARTy shall mean VerticalNet or Neoforma.",
+    "bbox": [
+      170,
+      1000,
+      524,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.39 pRoDucT LIsTiNg shall mean a listing of a third party's product at",
+    "bbox": [
+      168,
+      1000,
+      720,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "a Site in exchange for a fee, commission, or other compensation for purposes of",
+    "bbox": [
+      107,
+      1000,
+      719,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "promoting the sale of such third party's product to a third party purchaser,",
+    "bbox": [
+      108,
+      1000,
+      695,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "including, without limitation, sales by auction.",
+    "bbox": [
+      108,
+      1000,
+      479,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.40 QuALIFIED LEAD shall mean a customer referred by Neoforma to",
+    "bbox": [
+      168,
+      1000,
+      673,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet that is not, at the time of referral, a customer of VerticalNet,",
+    "bbox": [
+      108,
+      1000,
+      695,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "which customer has agreed to place a listing on (a) the Co-Branded Career Center",
+    "bbox": [
+      109,
+      1000,
+      727,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "and/or (b) the Co-Branded Training and Education Center.",
+    "bbox": [
+      109,
+      1000,
+      540,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.41 RENEwAL TERM shall have the meaning ascribed thereto in Section.",
+    "bbox": [
+      170,
+      1000,
+      696,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "11.1",
+    "bbox": [
+      108,
+      1000,
+      142,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[AUTOMATIC RENEWAL].",
+    "bbox": [
+      156,
+      1000,
+      307,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.42 siTE shall mean a site located on the World wide web portion of the.",
+    "bbox": [
+      170,
+      1000,
+      726,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Internet.",
+    "bbox": [
+      108,
+      1000,
+      177,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.43 TERM shall mean the Initial Term and any Renewal Terms.",
+    "bbox": [
+      170,
+      1000,
+      633,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.44 TRAINING AND EDUCATION GROSs MARGIN shall have the meaning ascribed",
+    "bbox": [
+      169,
+      1000,
+      728,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "thereto in Section 10.5.2",
+    "bbox": [
+      108,
+      1000,
+      303,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[CO-BRANDED TRAINING AND EDUCATION CENTER].",
+    "bbox": [
+      317,
+      1000,
+      648,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: NEOFORMA INC, S-1/A, 12/2/1999",
+    "bbox": [
+      111,
+      1000,
+      451,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.15 Link shall mean a link (including, but not limited to, a hyperlink,",
+    "bbox": [
+      168,
+      77,
+      725,
+      86
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "button or banner) that connects two Sites in a manner so that when a user clicks",
+    "bbox": [
+      108,
+      89,
+      726,
+      97
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "on the link, the user is transferred directly from one Site to a second Site. A",
+    "bbox": [
+      108,
+      101,
+      720,
+      108
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Link from Site A to Site B\" indicates that Site A is the Site of origin and",
+    "bbox": [
+      108,
+      110,
+      698,
+      119
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Site B is the Site to which the user is linked.",
+    "bbox": [
+      109,
+      122,
+      472,
+      130
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.16 MEDIcAL PRoDucTs shall mean any equipment, including capital",
+    "bbox": [
+      168,
+      143,
+      672,
+      152
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "equipment, instruments and other products used for in-patient diagnostic or.",
+    "bbox": [
+      110,
+      155,
+      688,
+      163
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "treatment purposes in the field of human health care, excluding Laboratory",
+    "bbox": [
+      108,
+      166,
+      681,
+      174
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Products.",
+    "bbox": [
+      108,
+      177,
+      177,
+      184
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      410,
+      198,
+      419,
+      206
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      130,
+      209,
+      140,
+      217
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.17 MEDICAL PRODUCTs LISTINGS shall mean any VerticalNet Medical.",
+    "bbox": [
+      169,
+      230,
+      673,
+      239
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Product Listings and Neoforma Medical Product Listings..",
+    "bbox": [
+      107,
+      242,
+      532,
+      251
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.18 MEDICAL PRODUCTs NET REVENUE shall mean the Transaction Fees",
+    "bbox": [
+      170,
+      263,
+      672,
+      272
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "derived from the sale of New Medical Products and Used and Excess Medical",
+    "bbox": [
+      110,
+      275,
+      672,
+      283
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Products through the Neoforma Sites, less any Deductibles.",
+    "bbox": [
+      108,
+      285,
+      556,
+      295
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.19 NEOFoRmA AucTION shall mean the functionality and services provided.",
+    "bbox": [
+      169,
+      308,
+      727,
+      316
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "at the \"auction\" portion of the Neoforma Site.",
+    "bbox": [
+      107,
+      318,
+      464,
+      328
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.20 NEOFORMA CAREER CONTENT shall have the meaning ascribed thereto in.",
+    "bbox": [
+      169,
+      341,
+      719,
+      348
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Section 4.5 [CO-BRANDED CAREER CENTER].",
+    "bbox": [
+      108,
+      351,
+      416,
+      360
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.21 NEOFORMA CoMPETITORs shall mean Medibuy.com, Promedix.com,.",
+    "bbox": [
+      169,
+      373,
+      656,
+      383
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Medicalbuyer.com and Medsite.com. During the Term, Neoforma may add to this",
+    "bbox": [
+      107,
+      384,
+      689,
+      393
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "online sale of Medical Products.",
+    "bbox": [
+      108,
+      407,
+      355,
+      414
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.22 NEOFORMA CONTENT shall mean the Neoforma Career Content and the.",
+    "bbox": [
+      170,
+      429,
+      697,
+      436
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Neoforma T&E Content..",
+    "bbox": [
+      108,
+      440,
+      270,
+      447
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.23 NEOFORMA DELIVERABLE shall mean any good, service or other item to",
+    "bbox": [
+      168,
+      460,
+      720,
+      470
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "be delivered or made available by Neoforma.",
+    "bbox": [
+      107,
+      472,
+      440,
+      480
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.24 NEOFORMA GAR shall mean Neoforma GAR, Inc.",
+    "bbox": [
+      170,
+      495,
+      532,
+      502
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.25 NEOFoRmA HomE pAgE shall mean the home page located at the Neoforma",
+    "bbox": [
+      168,
+      515,
+      727,
+      524
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Site.",
+    "bbox": [
+      107,
+      526,
+      145,
+      536
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Listing relating to a Laboratory Product that is not already listed on a",
+    "bbox": [
+      108,
+      560,
+      666,
+      568
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet Site.",
+    "bbox": [
+      108,
+      571,
+      239,
+      579
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.27 NEOFORMA LINK shall mean a Link that contains a Neoforma Mark and",
+    "bbox": [
+      170,
+      593,
+      712,
+      601
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "will take users of other Sites to the Neoforma Home Page.",
+    "bbox": [
+      107,
+      603,
+      550,
+      612
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.28 NEoFoRmA MARK shall mean any trademark, service mark, trade name,",
+    "bbox": [
+      168,
+      625,
+      711,
+      635
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "domain name, design or logo of Neoforma.",
+    "bbox": [
+      107,
+      636,
+      418,
+      645
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.29 NEOFORMA MEDICAL PRODUCTS LISTING shall mean a Neoforma Product",
+    "bbox": [
+      169,
+      658,
+      696,
+      666
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Listing relating to a Medical Product that is not already covered by a",
+    "bbox": [
+      108,
+      669,
+      651,
+      677
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet Medical Product Listing on Neoforma Plan and/or Neoforma Shop.",
+    "bbox": [
+      108,
+      680,
+      679,
+      689
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.30 NEOFoRMA PLAN shall mean the \"plan\" portion of the Neoforma Site.",
+    "bbox": [
+      169,
+      701,
+      710,
+      711
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.31 NEOFORMA PRODUCT LISTING shall mean a Product Listing of Neoforma",
+    "bbox": [
+      169,
+      723,
+      712,
+      733
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "for Medical Products or Laboratory Products, including any Neoforma Product",
+    "bbox": [
+      108,
+      734,
+      689,
+      744
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Listings for Laboratory Products made available hereunder by Neoforma to",
+    "bbox": [
+      108,
+      747,
+      665,
+      754
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet.",
+    "bbox": [
+      108,
+      757,
+      199,
+      764
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      410,
+      779,
+      419,
+      787
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      131,
+      790,
+      140,
+      797
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.32 NEOFORMA RESOURCES HOME PAGE shall mean the Site located at",
+    "bbox": [
+      170,
+      812,
+      665,
+      819
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "http://www.neoforma.com/rf/index.html?PageMode=Static&file=resrc main&hdrTab=",
+    "bbox": [
+      108,
+      823,
+      703,
+      831
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "resources&subhdrTab=0&dir=resources (or a successor Site thereto).",
+    "bbox": [
+      108,
+      834,
+      617,
+      842
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.33 NEOFORMA ShOP shall mean the \"shop\" portion of the Neoforma Site.",
+    "bbox": [
+      170,
+      856,
+      710,
+      864
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.34 NEoFormA siTE shall mean any Site owned and operated by Neoforma,",
+    "bbox": [
+      168,
+      876,
+      711,
+      886
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "including, but not limited to, the Site located at www.neoforma.com (or any",
+    "bbox": [
+      108,
+      888,
+      689,
+      898
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(bugobaaog ay? Jo Aue on seots nosseoons",
+    "bbox": [
+      108,
+      899,
+      424,
+      908
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.35 NEOFORMA T&E CONTENT shall have the meaning ascribed thereto in",
+    "bbox": [
+      169,
+      921,
+      696,
+      929
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Section 5.5",
+    "bbox": [
+      109,
+      933,
+      195,
+      940
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[CO-BRANDED TRAINING AND EDUCATION SITE].",
+    "bbox": [
+      211,
+      933,
+      524,
+      940
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.36 NET ADVERTIsING REVENUE shall mean the gross amount collected by a",
+    "bbox": [
+      169,
+      953,
+      720,
+      963
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Party from a third party for the sale of Advertising, less any Deductibles.",
+    "bbox": [
+      108,
+      964,
+      687,
+      974
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.37 NEw MEDIcAL PRoDucTS shall mean new, unused Medical Products.",
+    "bbox": [
+      170,
+      987,
+      679,
+      996
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.38 PARTy shall mean VerticalNet or Neoforma.",
+    "bbox": [
+      170,
+      1000,
+      524,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.39 pRoDucT LIsTiNg shall mean a listing of a third party's product at",
+    "bbox": [
+      168,
+      1000,
+      720,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "a Site in exchange for a fee, commission, or other compensation for purposes of",
+    "bbox": [
+      107,
+      1000,
+      719,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "promoting the sale of such third party's product to a third party purchaser,",
+    "bbox": [
+      108,
+      1000,
+      695,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "including, without limitation, sales by auction.",
+    "bbox": [
+      108,
+      1000,
+      479,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.40 QuALIFIED LEAD shall mean a customer referred by Neoforma to",
+    "bbox": [
+      168,
+      1000,
+      673,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VerticalNet that is not, at the time of referral, a customer of VerticalNet,",
+    "bbox": [
+      108,
+      1000,
+      695,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "which customer has agreed to place a listing on (a) the Co-Branded Career Center",
+    "bbox": [
+      109,
+      1000,
+      727,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "and/or (b) the Co-Branded Training and Education Center.",
+    "bbox": [
+      109,
+      1000,
+      540,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.41 RENEwAL TERM shall have the meaning ascribed thereto in Section.",
+    "bbox": [
+      170,
+      1000,
+      696,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "11.1",
+    "bbox": [
+      108,
+      1000,
+      142,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[AUTOMATIC RENEWAL].",
+    "bbox": [
+      156,
+      1000,
+      307,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.42 siTE shall mean a site located on the World wide web portion of the.",
+    "bbox": [
+      170,
+      1000,
+      726,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Internet.",
+    "bbox": [
+      108,
+      1000,
+      177,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.43 TERM shall mean the Initial Term and any Renewal Terms.",
+    "bbox": [
+      170,
+      1000,
+      633,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.44 TRAINING AND EDUCATION GROSs MARGIN shall have the meaning ascribed",
+    "bbox": [
+      169,
+      1000,
+      728,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "thereto in Section 10.5.2",
+    "bbox": [
+      108,
+      1000,
+      303,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[CO-BRANDED TRAINING AND EDUCATION CENTER].",
+    "bbox": [
+      317,
+      1000,
+      648,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: NEOFORMA INC, S-1/A, 12/2/1999",
+    "bbox": [
+      111,
+      1000,
+      451,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  }
+]
