@@ -73,7 +73,7 @@ def parse_args():
                         help="Resume training from this checkpoint directory")
     parser.add_argument("--early_stopping", action="store_true", 
                         help="Enable early stopping")
-    parser.add_argument("--patience", type=int, default=3, 
+    parser.add_argument("--patience", type=int, default=8, 
                         help="Number of evaluations with no improvement before early stopping")
     parser.add_argument("--min_delta", type=float, default=0.0001, 
                         help="Minimum change in monitored value to qualify as improvement")
