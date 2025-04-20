@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Hereinafter individually referred to as the \"Party'' or collectively as the \"Parties\"', as the context requires..",
+    "bbox": [
+      111,
+      491,
+      902,
+      502
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Hereafter referred to as the \"Company' or \"AZUL\"",
+    "bbox": [
+      111,
+      258,
+      494,
+      270
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

@@ -1,0 +1,2114 @@
+[
+  {
+    "text": "1.8 \"API\"' means an active pharmaceutical ingredient, whether produced from a living organism or through synthetic process (i.e., any substance.",
+    "bbox": [
+      110,
+      83,
+      1000,
+      95
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "intended to be used in the manufacture of a drug product and that is intended to furnish pharmacological activity in the cure, treatment or prevention of",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "disease).",
+    "bbox": [
+      110,
+      113,
+      177,
+      127
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.9 \"Applicable Law\"' means all applicable statutes, ordinances, regulations, rules, or orders of any kind whatsoever of any Governmental Authority,",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "including, without limitation, the FDCA, Prescription Drug Marketing Act, the Generic Drug Enforcement Act of 1992 (21 U.S.C. s335a et seq.), U.S. Patent",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Act (35 U.S.C. $1 et seq.), Federal Civil False Claims Act (31 U.S.C. $3729 et seq.), and Anti-Kickback Statute (42 U.S.C. $1320a-7b et seq.), all as amended.",
+    "bbox": [
+      112,
+      176,
+      1000,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "from time to time, together with any rules, regulations, and compliance guidance promulgated thereunder..",
+    "bbox": [
+      110,
+      192,
+      876,
+      204
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.10 \"Arbitration Request' has the meaning set forth in Section 12.3(b).",
+    "bbox": [
+      111,
+      223,
+      637,
+      235
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.11 \"Bankruptcy Laws\" has the meaning set forth in Section 11.6(b)..",
+    "bbox": [
+      112,
+      254,
+      616,
+      266
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.12 \"Biosimilar Competitor\" means, with respect to the Licensed Product, a drug or biological product that has been determined by the FDA to be",
+    "bbox": [
+      110,
+      284,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "therapeutically equivalent to the Licensed Product, such that it may be substituted by a pharmacist for the Licensed Product in the Field in the Territory",
+    "bbox": [
+      112,
+      300,
+      1000,
+      313
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "without the need for such pharmacist to seek authorization from the physician that prescribed the Licensed Product.",
+    "bbox": [
+      112,
+      317,
+      957,
+      328
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.13 \"Biosimilar Entry Date\" means the first day of the first Calendar Quarter that occurs after Biosimilar Competitor(s) have achieved at least [***] in",
+    "bbox": [
+      110,
+      346,
+      1000,
+      359
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Field in the Territory..",
+    "bbox": [
+      110,
+      362,
+      287,
+      375
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.14 \"BLA\" means a Biologics License Application (as defined in the FDCA), including all supplements, amendments, variations, extensions and.",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "renewals thereof.",
+    "bbox": [
+      110,
+      410,
+      235,
+      420
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.15 \"Breaching Party\" has the meaning set forth in Section 11.4",
+    "bbox": [
+      111,
+      440,
+      590,
+      453
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.16 \"Business Day\"' means a day other than Saturday, Sunday or any other day on which commercial banks located in the State of New York or the State.",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of Washington, U.S., are authorized or obligated by Applicable Law to close..",
+    "bbox": [
+      110,
+      487,
+      670,
+      499
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.17 \"Calendar Quarter\" means the respective periods of three (3) consecutive calendar months ending on March 31, June 30, September 30 and.",
+    "bbox": [
+      110,
+      517,
+      1000,
+      530
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "December 31; provided, however, that (a) the first Calendar Quarter of the Term shall extend from the Effective Date to the end of the first complete",
+    "bbox": [
+      111,
+      534,
+      1000,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Calendar Quarter thereafter; and (b) the last Calendar Quarter of the Term shall end upon the expiration or termination of this Agreement..",
+    "bbox": [
+      110,
+      548,
+      1000,
+      561
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.18 \"Calendar Year\"' means the twelve-month period ending on December 31; provided, however, that (a) the first Calendar Year of the Term shall begin",
+    "bbox": [
+      111,
+      580,
+      1000,
+      592
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "on the Effective Date and end on December 31, 2019; and (b) the last Calendar Year of the Term shall end on the effective date of expiration or termination",
+    "bbox": [
+      111,
+      596,
+      1000,
+      606
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      111,
+      612,
+      247,
+      623
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.19 \"Change of Control'' means, with respect to Vyera, (a) the sale of all or substantially all of its assets; (b) any merger, consolidation or acquisition of.",
+    "bbox": [
+      111,
+      642,
+      1000,
+      654
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Vyera, by or into another Person; and/or (c) any change in the ownership of more than fifty percent (50%) of the voting capital stock of Vyera or its direct.",
+    "bbox": [
+      113,
+      658,
+      1000,
+      670
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or indirect parent entities, other than: (i) transactions involving solely Vyera (or an Affiliate, as applicable) and/or one or more Affiliates, on the one hand.",
+    "bbox": [
+      111,
+      674,
+      1000,
+      685
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and one or more of Vyera's (or an Affiliate's, as applicable) Affiliates, on the other hand, and/or (ii) transactions in which the stockholders of Vyera (or an",
+    "bbox": [
+      111,
+      690,
+      1000,
+      701
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Affiliate, as applicable) immediately prior to such transaction hold at least fifty percent (50%) of the voting power of the surviving company or ultimate",
+    "bbox": [
+      113,
+      705,
+      1000,
+      717
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "parent company of the surviving company; in each of clauses (a)-(c), in one or more related transactions..",
+    "bbox": [
+      110,
+      719,
+      875,
+      733
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.8 \"API\"' means an active pharmaceutical ingredient, whether produced from a living organism or through synthetic process (i.e., any substance.",
+    "bbox": [
+      110,
+      83,
+      1000,
+      95
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "intended to be used in the manufacture of a drug product and that is intended to furnish pharmacological activity in the cure, treatment or prevention of",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "disease).",
+    "bbox": [
+      110,
+      113,
+      177,
+      127
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.9 \"Applicable Law\"' means all applicable statutes, ordinances, regulations, rules, or orders of any kind whatsoever of any Governmental Authority,",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "including, without limitation, the FDCA, Prescription Drug Marketing Act, the Generic Drug Enforcement Act of 1992 (21 U.S.C. s335a et seq.), U.S. Patent",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Act (35 U.S.C. $1 et seq.), Federal Civil False Claims Act (31 U.S.C. $3729 et seq.), and Anti-Kickback Statute (42 U.S.C. $1320a-7b et seq.), all as amended.",
+    "bbox": [
+      112,
+      176,
+      1000,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "from time to time, together with any rules, regulations, and compliance guidance promulgated thereunder..",
+    "bbox": [
+      110,
+      192,
+      876,
+      204
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.10 \"Arbitration Request' has the meaning set forth in Section 12.3(b).",
+    "bbox": [
+      111,
+      223,
+      637,
+      235
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.11 \"Bankruptcy Laws\" has the meaning set forth in Section 11.6(b)..",
+    "bbox": [
+      112,
+      254,
+      616,
+      266
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.12 \"Biosimilar Competitor\" means, with respect to the Licensed Product, a drug or biological product that has been determined by the FDA to be",
+    "bbox": [
+      110,
+      284,
+      1000,
+      297
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "therapeutically equivalent to the Licensed Product, such that it may be substituted by a pharmacist for the Licensed Product in the Field in the Territory",
+    "bbox": [
+      112,
+      300,
+      1000,
+      313
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "without the need for such pharmacist to seek authorization from the physician that prescribed the Licensed Product.",
+    "bbox": [
+      112,
+      317,
+      957,
+      328
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.13 \"Biosimilar Entry Date\" means the first day of the first Calendar Quarter that occurs after Biosimilar Competitor(s) have achieved at least [***] in",
+    "bbox": [
+      110,
+      346,
+      1000,
+      359
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Field in the Territory..",
+    "bbox": [
+      110,
+      362,
+      287,
+      375
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.14 \"BLA\" means a Biologics License Application (as defined in the FDCA), including all supplements, amendments, variations, extensions and.",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "renewals thereof.",
+    "bbox": [
+      110,
+      410,
+      235,
+      420
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.15 \"Breaching Party\" has the meaning set forth in Section 11.4",
+    "bbox": [
+      111,
+      440,
+      590,
+      453
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.16 \"Business Day\"' means a day other than Saturday, Sunday or any other day on which commercial banks located in the State of New York or the State.",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "of Washington, U.S., are authorized or obligated by Applicable Law to close..",
+    "bbox": [
+      110,
+      487,
+      670,
+      499
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.17 \"Calendar Quarter\" means the respective periods of three (3) consecutive calendar months ending on March 31, June 30, September 30 and.",
+    "bbox": [
+      110,
+      517,
+      1000,
+      530
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "December 31; provided, however, that (a) the first Calendar Quarter of the Term shall extend from the Effective Date to the end of the first complete",
+    "bbox": [
+      111,
+      534,
+      1000,
+      546
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Calendar Quarter thereafter; and (b) the last Calendar Quarter of the Term shall end upon the expiration or termination of this Agreement..",
+    "bbox": [
+      110,
+      548,
+      1000,
+      561
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.18 \"Calendar Year\"' means the twelve-month period ending on December 31; provided, however, that (a) the first Calendar Year of the Term shall begin",
+    "bbox": [
+      111,
+      580,
+      1000,
+      592
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "on the Effective Date and end on December 31, 2019; and (b) the last Calendar Year of the Term shall end on the effective date of expiration or termination",
+    "bbox": [
+      111,
+      596,
+      1000,
+      606
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      111,
+      612,
+      247,
+      623
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.19 \"Change of Control'' means, with respect to Vyera, (a) the sale of all or substantially all of its assets; (b) any merger, consolidation or acquisition of.",
+    "bbox": [
+      111,
+      642,
+      1000,
+      654
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Vyera, by or into another Person; and/or (c) any change in the ownership of more than fifty percent (50%) of the voting capital stock of Vyera or its direct.",
+    "bbox": [
+      113,
+      658,
+      1000,
+      670
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or indirect parent entities, other than: (i) transactions involving solely Vyera (or an Affiliate, as applicable) and/or one or more Affiliates, on the one hand.",
+    "bbox": [
+      111,
+      674,
+      1000,
+      685
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and one or more of Vyera's (or an Affiliate's, as applicable) Affiliates, on the other hand, and/or (ii) transactions in which the stockholders of Vyera (or an",
+    "bbox": [
+      111,
+      690,
+      1000,
+      701
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Affiliate, as applicable) immediately prior to such transaction hold at least fifty percent (50%) of the voting power of the surviving company or ultimate",
+    "bbox": [
+      113,
+      705,
+      1000,
+      717
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "parent company of the surviving company; in each of clauses (a)-(c), in one or more related transactions..",
+    "bbox": [
+      110,
+      719,
+      875,
+      733
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.8 \"API\"' means an active pharmaceutical ingredient, whether produced from a living organism or through synthetic process (i.e., any substance.",
+    "bbox": [
+      110,
+      83,
+      1000,
+      95
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "intended to be used in the manufacture of a drug product and that is intended to furnish pharmacological activity in the cure, treatment or prevention of",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "disease).",
+    "bbox": [
+      110,
+      113,
+      177,
+      127
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.9 \"Applicable Law\"' means all applicable statutes, ordinances, regulations, rules, or orders of any kind whatsoever of any Governmental Authority,",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "including, without limitation, the FDCA, Prescription Drug Marketing Act, the Generic Drug Enforcement Act of 1992 (21 U.S.C. s335a et seq.), U.S. Patent",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Act (35 U.S.C. $1 et seq.), Federal Civil False Claims Act (31 U.S.C. $3729 et seq.), and Anti-Kickback Statute (42 U.S.C. $1320a-7b et seq.), all as amended.",
+    "bbox": [
+      112,
+      176,
+      1000,
+      188
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "from time to time, together with any rules, regulations, and compliance guidance promulgated thereunder..",
+    "bbox": [
+      110,
+      192,
+      876,
+      204
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.10 \"Arbitration Request' has the meaning set forth in Section 12.3(b).",
+    "bbox": [
+      111,
+      223,
+      637,
+      235
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.11 \"Bankruptcy Laws\" has the meaning set forth in Section 11.6(b)..",
+    "bbox": [
+      112,
+      254,
+      616,
+      266
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.12 \"Biosimilar Competitor\" means, with respect to the Licensed Product, a drug or biological product that has been determined by the FDA to be",
+    "bbox": [
+      110,
+      284,
+      1000,
+      297
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "therapeutically equivalent to the Licensed Product, such that it may be substituted by a pharmacist for the Licensed Product in the Field in the Territory",
+    "bbox": [
+      112,
+      300,
+      1000,
+      313
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "without the need for such pharmacist to seek authorization from the physician that prescribed the Licensed Product.",
+    "bbox": [
+      112,
+      317,
+      957,
+      328
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.13 \"Biosimilar Entry Date\" means the first day of the first Calendar Quarter that occurs after Biosimilar Competitor(s) have achieved at least [***] in",
+    "bbox": [
+      110,
+      346,
+      1000,
+      359
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "the Field in the Territory..",
+    "bbox": [
+      110,
+      362,
+      287,
+      375
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.14 \"BLA\" means a Biologics License Application (as defined in the FDCA), including all supplements, amendments, variations, extensions and.",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "renewals thereof.",
+    "bbox": [
+      110,
+      410,
+      235,
+      420
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.15 \"Breaching Party\" has the meaning set forth in Section 11.4",
+    "bbox": [
+      111,
+      440,
+      590,
+      453
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.16 \"Business Day\"' means a day other than Saturday, Sunday or any other day on which commercial banks located in the State of New York or the State.",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of Washington, U.S., are authorized or obligated by Applicable Law to close..",
+    "bbox": [
+      110,
+      487,
+      670,
+      499
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.17 \"Calendar Quarter\" means the respective periods of three (3) consecutive calendar months ending on March 31, June 30, September 30 and.",
+    "bbox": [
+      110,
+      517,
+      1000,
+      530
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "December 31; provided, however, that (a) the first Calendar Quarter of the Term shall extend from the Effective Date to the end of the first complete",
+    "bbox": [
+      111,
+      534,
+      1000,
+      546
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Calendar Quarter thereafter; and (b) the last Calendar Quarter of the Term shall end upon the expiration or termination of this Agreement..",
+    "bbox": [
+      110,
+      548,
+      1000,
+      561
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.18 \"Calendar Year\"' means the twelve-month period ending on December 31; provided, however, that (a) the first Calendar Year of the Term shall begin",
+    "bbox": [
+      111,
+      580,
+      1000,
+      592
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "on the Effective Date and end on December 31, 2019; and (b) the last Calendar Year of the Term shall end on the effective date of expiration or termination",
+    "bbox": [
+      111,
+      596,
+      1000,
+      606
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      111,
+      612,
+      247,
+      623
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.19 \"Change of Control'' means, with respect to Vyera, (a) the sale of all or substantially all of its assets; (b) any merger, consolidation or acquisition of.",
+    "bbox": [
+      111,
+      642,
+      1000,
+      654
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Vyera, by or into another Person; and/or (c) any change in the ownership of more than fifty percent (50%) of the voting capital stock of Vyera or its direct.",
+    "bbox": [
+      113,
+      658,
+      1000,
+      670
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "or indirect parent entities, other than: (i) transactions involving solely Vyera (or an Affiliate, as applicable) and/or one or more Affiliates, on the one hand.",
+    "bbox": [
+      111,
+      674,
+      1000,
+      685
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "and one or more of Vyera's (or an Affiliate's, as applicable) Affiliates, on the other hand, and/or (ii) transactions in which the stockholders of Vyera (or an",
+    "bbox": [
+      111,
+      690,
+      1000,
+      701
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Affiliate, as applicable) immediately prior to such transaction hold at least fifty percent (50%) of the voting power of the surviving company or ultimate",
+    "bbox": [
+      113,
+      705,
+      1000,
+      717
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "parent company of the surviving company; in each of clauses (a)-(c), in one or more related transactions..",
+    "bbox": [
+      110,
+      719,
+      875,
+      733
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.8 \"API\"' means an active pharmaceutical ingredient, whether produced from a living organism or through synthetic process (i.e., any substance.",
+    "bbox": [
+      110,
+      83,
+      1000,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "intended to be used in the manufacture of a drug product and that is intended to furnish pharmacological activity in the cure, treatment or prevention of",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "disease).",
+    "bbox": [
+      110,
+      113,
+      177,
+      127
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.9 \"Applicable Law\"' means all applicable statutes, ordinances, regulations, rules, or orders of any kind whatsoever of any Governmental Authority,",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "including, without limitation, the FDCA, Prescription Drug Marketing Act, the Generic Drug Enforcement Act of 1992 (21 U.S.C. s335a et seq.), U.S. Patent",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Act (35 U.S.C. $1 et seq.), Federal Civil False Claims Act (31 U.S.C. $3729 et seq.), and Anti-Kickback Statute (42 U.S.C. $1320a-7b et seq.), all as amended.",
+    "bbox": [
+      112,
+      176,
+      1000,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "from time to time, together with any rules, regulations, and compliance guidance promulgated thereunder..",
+    "bbox": [
+      110,
+      192,
+      876,
+      204
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.10 \"Arbitration Request' has the meaning set forth in Section 12.3(b).",
+    "bbox": [
+      111,
+      223,
+      637,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.11 \"Bankruptcy Laws\" has the meaning set forth in Section 11.6(b)..",
+    "bbox": [
+      112,
+      254,
+      616,
+      266
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.12 \"Biosimilar Competitor\" means, with respect to the Licensed Product, a drug or biological product that has been determined by the FDA to be",
+    "bbox": [
+      110,
+      284,
+      1000,
+      297
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "therapeutically equivalent to the Licensed Product, such that it may be substituted by a pharmacist for the Licensed Product in the Field in the Territory",
+    "bbox": [
+      112,
+      300,
+      1000,
+      313
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "without the need for such pharmacist to seek authorization from the physician that prescribed the Licensed Product.",
+    "bbox": [
+      112,
+      317,
+      957,
+      328
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.13 \"Biosimilar Entry Date\" means the first day of the first Calendar Quarter that occurs after Biosimilar Competitor(s) have achieved at least [***] in",
+    "bbox": [
+      110,
+      346,
+      1000,
+      359
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Field in the Territory..",
+    "bbox": [
+      110,
+      362,
+      287,
+      375
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.14 \"BLA\" means a Biologics License Application (as defined in the FDCA), including all supplements, amendments, variations, extensions and.",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "renewals thereof.",
+    "bbox": [
+      110,
+      410,
+      235,
+      420
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.15 \"Breaching Party\" has the meaning set forth in Section 11.4",
+    "bbox": [
+      111,
+      440,
+      590,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.16 \"Business Day\"' means a day other than Saturday, Sunday or any other day on which commercial banks located in the State of New York or the State.",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of Washington, U.S., are authorized or obligated by Applicable Law to close..",
+    "bbox": [
+      110,
+      487,
+      670,
+      499
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.17 \"Calendar Quarter\" means the respective periods of three (3) consecutive calendar months ending on March 31, June 30, September 30 and.",
+    "bbox": [
+      110,
+      517,
+      1000,
+      530
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "December 31; provided, however, that (a) the first Calendar Quarter of the Term shall extend from the Effective Date to the end of the first complete",
+    "bbox": [
+      111,
+      534,
+      1000,
+      546
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Calendar Quarter thereafter; and (b) the last Calendar Quarter of the Term shall end upon the expiration or termination of this Agreement..",
+    "bbox": [
+      110,
+      548,
+      1000,
+      561
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.18 \"Calendar Year\"' means the twelve-month period ending on December 31; provided, however, that (a) the first Calendar Year of the Term shall begin",
+    "bbox": [
+      111,
+      580,
+      1000,
+      592
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "on the Effective Date and end on December 31, 2019; and (b) the last Calendar Year of the Term shall end on the effective date of expiration or termination",
+    "bbox": [
+      111,
+      596,
+      1000,
+      606
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      111,
+      612,
+      247,
+      623
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19 \"Change of Control'' means, with respect to Vyera, (a) the sale of all or substantially all of its assets; (b) any merger, consolidation or acquisition of.",
+    "bbox": [
+      111,
+      642,
+      1000,
+      654
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Vyera, by or into another Person; and/or (c) any change in the ownership of more than fifty percent (50%) of the voting capital stock of Vyera or its direct.",
+    "bbox": [
+      113,
+      658,
+      1000,
+      670
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or indirect parent entities, other than: (i) transactions involving solely Vyera (or an Affiliate, as applicable) and/or one or more Affiliates, on the one hand.",
+    "bbox": [
+      111,
+      674,
+      1000,
+      685
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and one or more of Vyera's (or an Affiliate's, as applicable) Affiliates, on the other hand, and/or (ii) transactions in which the stockholders of Vyera (or an",
+    "bbox": [
+      111,
+      690,
+      1000,
+      701
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Affiliate, as applicable) immediately prior to such transaction hold at least fifty percent (50%) of the voting power of the surviving company or ultimate",
+    "bbox": [
+      113,
+      705,
+      1000,
+      717
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "parent company of the surviving company; in each of clauses (a)-(c), in one or more related transactions..",
+    "bbox": [
+      110,
+      719,
+      875,
+      733
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.8 \"API\"' means an active pharmaceutical ingredient, whether produced from a living organism or through synthetic process (i.e., any substance.",
+    "bbox": [
+      110,
+      83,
+      1000,
+      95
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "intended to be used in the manufacture of a drug product and that is intended to furnish pharmacological activity in the cure, treatment or prevention of",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "disease).",
+    "bbox": [
+      110,
+      113,
+      177,
+      127
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.9 \"Applicable Law\"' means all applicable statutes, ordinances, regulations, rules, or orders of any kind whatsoever of any Governmental Authority,",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "including, without limitation, the FDCA, Prescription Drug Marketing Act, the Generic Drug Enforcement Act of 1992 (21 U.S.C. s335a et seq.), U.S. Patent",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Act (35 U.S.C. $1 et seq.), Federal Civil False Claims Act (31 U.S.C. $3729 et seq.), and Anti-Kickback Statute (42 U.S.C. $1320a-7b et seq.), all as amended.",
+    "bbox": [
+      112,
+      176,
+      1000,
+      188
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "from time to time, together with any rules, regulations, and compliance guidance promulgated thereunder..",
+    "bbox": [
+      110,
+      192,
+      876,
+      204
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.10 \"Arbitration Request' has the meaning set forth in Section 12.3(b).",
+    "bbox": [
+      111,
+      223,
+      637,
+      235
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.11 \"Bankruptcy Laws\" has the meaning set forth in Section 11.6(b)..",
+    "bbox": [
+      112,
+      254,
+      616,
+      266
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.12 \"Biosimilar Competitor\" means, with respect to the Licensed Product, a drug or biological product that has been determined by the FDA to be",
+    "bbox": [
+      110,
+      284,
+      1000,
+      297
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "therapeutically equivalent to the Licensed Product, such that it may be substituted by a pharmacist for the Licensed Product in the Field in the Territory",
+    "bbox": [
+      112,
+      300,
+      1000,
+      313
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "without the need for such pharmacist to seek authorization from the physician that prescribed the Licensed Product.",
+    "bbox": [
+      112,
+      317,
+      957,
+      328
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.13 \"Biosimilar Entry Date\" means the first day of the first Calendar Quarter that occurs after Biosimilar Competitor(s) have achieved at least [***] in",
+    "bbox": [
+      110,
+      346,
+      1000,
+      359
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Field in the Territory..",
+    "bbox": [
+      110,
+      362,
+      287,
+      375
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.14 \"BLA\" means a Biologics License Application (as defined in the FDCA), including all supplements, amendments, variations, extensions and.",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "renewals thereof.",
+    "bbox": [
+      110,
+      410,
+      235,
+      420
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.15 \"Breaching Party\" has the meaning set forth in Section 11.4",
+    "bbox": [
+      111,
+      440,
+      590,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.16 \"Business Day\"' means a day other than Saturday, Sunday or any other day on which commercial banks located in the State of New York or the State.",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of Washington, U.S., are authorized or obligated by Applicable Law to close..",
+    "bbox": [
+      110,
+      487,
+      670,
+      499
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.17 \"Calendar Quarter\" means the respective periods of three (3) consecutive calendar months ending on March 31, June 30, September 30 and.",
+    "bbox": [
+      110,
+      517,
+      1000,
+      530
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "December 31; provided, however, that (a) the first Calendar Quarter of the Term shall extend from the Effective Date to the end of the first complete",
+    "bbox": [
+      111,
+      534,
+      1000,
+      546
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Calendar Quarter thereafter; and (b) the last Calendar Quarter of the Term shall end upon the expiration or termination of this Agreement..",
+    "bbox": [
+      110,
+      548,
+      1000,
+      561
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.18 \"Calendar Year\"' means the twelve-month period ending on December 31; provided, however, that (a) the first Calendar Year of the Term shall begin",
+    "bbox": [
+      111,
+      580,
+      1000,
+      592
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "on the Effective Date and end on December 31, 2019; and (b) the last Calendar Year of the Term shall end on the effective date of expiration or termination",
+    "bbox": [
+      111,
+      596,
+      1000,
+      606
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      111,
+      612,
+      247,
+      623
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.19 \"Change of Control'' means, with respect to Vyera, (a) the sale of all or substantially all of its assets; (b) any merger, consolidation or acquisition of.",
+    "bbox": [
+      111,
+      642,
+      1000,
+      654
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Vyera, by or into another Person; and/or (c) any change in the ownership of more than fifty percent (50%) of the voting capital stock of Vyera or its direct.",
+    "bbox": [
+      113,
+      658,
+      1000,
+      670
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "or indirect parent entities, other than: (i) transactions involving solely Vyera (or an Affiliate, as applicable) and/or one or more Affiliates, on the one hand.",
+    "bbox": [
+      111,
+      674,
+      1000,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and one or more of Vyera's (or an Affiliate's, as applicable) Affiliates, on the other hand, and/or (ii) transactions in which the stockholders of Vyera (or an",
+    "bbox": [
+      111,
+      690,
+      1000,
+      701
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Affiliate, as applicable) immediately prior to such transaction hold at least fifty percent (50%) of the voting power of the surviving company or ultimate",
+    "bbox": [
+      113,
+      705,
+      1000,
+      717
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "parent company of the surviving company; in each of clauses (a)-(c), in one or more related transactions..",
+    "bbox": [
+      110,
+      719,
+      875,
+      733
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.8 \"API\"' means an active pharmaceutical ingredient, whether produced from a living organism or through synthetic process (i.e., any substance.",
+    "bbox": [
+      110,
+      83,
+      1000,
+      95
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "intended to be used in the manufacture of a drug product and that is intended to furnish pharmacological activity in the cure, treatment or prevention of",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "disease).",
+    "bbox": [
+      110,
+      113,
+      177,
+      127
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.9 \"Applicable Law\"' means all applicable statutes, ordinances, regulations, rules, or orders of any kind whatsoever of any Governmental Authority,",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "including, without limitation, the FDCA, Prescription Drug Marketing Act, the Generic Drug Enforcement Act of 1992 (21 U.S.C. s335a et seq.), U.S. Patent",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Act (35 U.S.C. $1 et seq.), Federal Civil False Claims Act (31 U.S.C. $3729 et seq.), and Anti-Kickback Statute (42 U.S.C. $1320a-7b et seq.), all as amended.",
+    "bbox": [
+      112,
+      176,
+      1000,
+      188
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "from time to time, together with any rules, regulations, and compliance guidance promulgated thereunder..",
+    "bbox": [
+      110,
+      192,
+      876,
+      204
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.10 \"Arbitration Request' has the meaning set forth in Section 12.3(b).",
+    "bbox": [
+      111,
+      223,
+      637,
+      235
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.11 \"Bankruptcy Laws\" has the meaning set forth in Section 11.6(b)..",
+    "bbox": [
+      112,
+      254,
+      616,
+      266
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.12 \"Biosimilar Competitor\" means, with respect to the Licensed Product, a drug or biological product that has been determined by the FDA to be",
+    "bbox": [
+      110,
+      284,
+      1000,
+      297
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "therapeutically equivalent to the Licensed Product, such that it may be substituted by a pharmacist for the Licensed Product in the Field in the Territory",
+    "bbox": [
+      112,
+      300,
+      1000,
+      313
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "without the need for such pharmacist to seek authorization from the physician that prescribed the Licensed Product.",
+    "bbox": [
+      112,
+      317,
+      957,
+      328
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.13 \"Biosimilar Entry Date\" means the first day of the first Calendar Quarter that occurs after Biosimilar Competitor(s) have achieved at least [***] in",
+    "bbox": [
+      110,
+      346,
+      1000,
+      359
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Field in the Territory..",
+    "bbox": [
+      110,
+      362,
+      287,
+      375
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.14 \"BLA\" means a Biologics License Application (as defined in the FDCA), including all supplements, amendments, variations, extensions and.",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "renewals thereof.",
+    "bbox": [
+      110,
+      410,
+      235,
+      420
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.15 \"Breaching Party\" has the meaning set forth in Section 11.4",
+    "bbox": [
+      111,
+      440,
+      590,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.16 \"Business Day\"' means a day other than Saturday, Sunday or any other day on which commercial banks located in the State of New York or the State.",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of Washington, U.S., are authorized or obligated by Applicable Law to close..",
+    "bbox": [
+      110,
+      487,
+      670,
+      499
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.17 \"Calendar Quarter\" means the respective periods of three (3) consecutive calendar months ending on March 31, June 30, September 30 and.",
+    "bbox": [
+      110,
+      517,
+      1000,
+      530
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "December 31; provided, however, that (a) the first Calendar Quarter of the Term shall extend from the Effective Date to the end of the first complete",
+    "bbox": [
+      111,
+      534,
+      1000,
+      546
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Calendar Quarter thereafter; and (b) the last Calendar Quarter of the Term shall end upon the expiration or termination of this Agreement..",
+    "bbox": [
+      110,
+      548,
+      1000,
+      561
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.18 \"Calendar Year\"' means the twelve-month period ending on December 31; provided, however, that (a) the first Calendar Year of the Term shall begin",
+    "bbox": [
+      111,
+      580,
+      1000,
+      592
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "on the Effective Date and end on December 31, 2019; and (b) the last Calendar Year of the Term shall end on the effective date of expiration or termination",
+    "bbox": [
+      111,
+      596,
+      1000,
+      606
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      111,
+      612,
+      247,
+      623
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.19 \"Change of Control'' means, with respect to Vyera, (a) the sale of all or substantially all of its assets; (b) any merger, consolidation or acquisition of.",
+    "bbox": [
+      111,
+      642,
+      1000,
+      654
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Vyera, by or into another Person; and/or (c) any change in the ownership of more than fifty percent (50%) of the voting capital stock of Vyera or its direct.",
+    "bbox": [
+      113,
+      658,
+      1000,
+      670
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "or indirect parent entities, other than: (i) transactions involving solely Vyera (or an Affiliate, as applicable) and/or one or more Affiliates, on the one hand.",
+    "bbox": [
+      111,
+      674,
+      1000,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and one or more of Vyera's (or an Affiliate's, as applicable) Affiliates, on the other hand, and/or (ii) transactions in which the stockholders of Vyera (or an",
+    "bbox": [
+      111,
+      690,
+      1000,
+      701
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Affiliate, as applicable) immediately prior to such transaction hold at least fifty percent (50%) of the voting power of the surviving company or ultimate",
+    "bbox": [
+      113,
+      705,
+      1000,
+      717
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "parent company of the surviving company; in each of clauses (a)-(c), in one or more related transactions..",
+    "bbox": [
+      110,
+      719,
+      875,
+      733
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

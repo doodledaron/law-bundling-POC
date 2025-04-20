@@ -1,0 +1,915 @@
+[
+  {
+    "text": "Development Agreement",
+    "bbox": [
+      572,
+      97,
+      762,
+      109
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "WPD Pharmaceuticals, (\"WPD\"), a Polish corporation, having a business address of ul. Zwirki i Wigury 101, 02-089 Warszawa. CNS and WPD are",
+    "bbox": [
+      112,
+      144,
+      1000,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "sometimes referred to herein individually as a \"Party\"' and collectively as the \"Parties.\".",
+    "bbox": [
+      112,
+      161,
+      762,
+      173
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Development Agreement (the \"Agreement') dated as of March 20, 2020 (the \"Effective Date') is entered into by and between CNS",
+    "bbox": [
+      180,
+      113,
+      1000,
+      125
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "WPD Pharmaceuticals, (\"WPD\"), a Polish corporation, having a business address of ul. Zwirki i Wigury 101, 02-089 Warszawa. CNS and WPD are",
+    "bbox": [
+      112,
+      144,
+      1000,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Development Agreement (the \"Agreement') dated as of March 20, 2020 (the \"Effective Date') is entered into by and between CNS",
+    "bbox": [
+      180,
+      113,
+      1000,
+      125
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Pharmaceuticals, Inc. (\"CNS'), a Nevada corporation, having a business address of 2100 West Loop South, Suite 900, Houston, Texas 77027, and.",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "WPD Pharmaceuticals, (\"WPD\"), a Polish corporation, having a business address of ul. Zwirki i Wigury 101, 02-089 Warszawa. CNS and WPD are",
+    "bbox": [
+      112,
+      144,
+      1000,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Development Agreement (the \"Agreement') dated as of March 20, 2020 (the \"Effective Date') is entered into by and between CNS",
+    "bbox": [
+      180,
+      113,
+      1000,
+      125
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This Development Agreement (the \"Agreement') dated as of March 20, 2020 (the \"Effective Date') is entered into by and between CNS",
+    "bbox": [
+      180,
+      113,
+      1000,
+      125
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.1.",
+    "bbox": [
+      111,
+      81,
+      196,
+      92
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Development Agreement",
+    "bbox": [
+      572,
+      97,
+      762,
+      109
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Development Agreement (the \"Agreement') dated as of March 20, 2020 (the \"Effective Date') is entered into by and between CNS",
+    "bbox": [
+      180,
+      113,
+      1000,
+      125
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Pharmaceuticals, Inc. (\"CNS'), a Nevada corporation, having a business address of 2100 West Loop South, Suite 900, Houston, Texas 77027, and.",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WPD Pharmaceuticals, (\"WPD\"), a Polish corporation, having a business address of ul. Zwirki i Wigury 101, 02-089 Warszawa. CNS and WPD are",
+    "bbox": [
+      112,
+      144,
+      1000,
+      157
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "sometimes referred to herein individually as a \"Party\"' and collectively as the \"Parties.\".",
+    "bbox": [
+      112,
+      161,
+      762,
+      173
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      624,
+      177,
+      710,
+      188
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, WPD is party to a sublicense agreement dated February 19, 2019 with Moleculin Biotech, Inc. (\"MBI) (the \"Sublicense",
+    "bbox": [
+      180,
+      192,
+      1000,
+      204
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Agreement') to research and develop, manufacture, have manufactured, use, export/import, offer to sell and/or sell certain products for use in",
+    "bbox": [
+      112,
+      209,
+      1000,
+      221
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "certain territories;",
+    "bbox": [
+      111,
+      226,
+      243,
+      236
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, WPD is developing certain anti-viral indications pursuant to the Sublicense Agreement; and",
+    "bbox": [
+      179,
+      241,
+      968,
+      253
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, CNS has agreed to fund a portion of the development of such indications in exchange for certain economic rights..",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the covenants, conditions and agreements hereinafter set forth, and other valuable consideration,",
+    "bbox": [
+      177,
+      273,
+      1000,
+      285
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, WPD and CNS hereby agree as follows:.",
+    "bbox": [
+      112,
+      289,
+      875,
+      301
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      304,
+      712,
+      315
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      321,
+      723,
+      332
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1 \"Approval Achievement Date\"' means the earlier of the: (i) date on which WPD receives marketing approval for a Development Product",
+    "bbox": [
+      179,
+      336,
+      1000,
+      349
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Development Fees hereunder of $1.0 million..",
+    "bbox": [
+      112,
+      369,
+      443,
+      380
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2 \"Business Day\"' means any day other than a day which is a Saturday, a Sunday or any other day on which banks are authorized or",
+    "bbox": [
+      179,
+      384,
+      1000,
+      397
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "required to be closed in New York City, NY..",
+    "bbox": [
+      111,
+      400,
+      432,
+      412
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.3 \"Calendar Quarter\"' means the consecutive three month period ending on one of March 31, June 30, September 30, or December 31.",
+    "bbox": [
+      179,
+      417,
+      1000,
+      428
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.4 \"Confidential Information\"' includes: (1) all information contained in documents marked \"confidential\" and disclosed by one Party (the",
+    "bbox": [
+      179,
+      432,
+      1000,
+      445
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"disclosing party\") to the other Party (the \"recipient party\") pursuant to this Agreement; (2) orally disclosed information which is disclosed by the",
+    "bbox": [
+      112,
+      448,
+      1000,
+      461
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "disclosing party to the recipient party pursuant to this Agreement, summarized in writing, identified as \"confidential\" and delivered to the recipient",
+    "bbox": [
+      111,
+      464,
+      1000,
+      477
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "party; and (3) all proprietary technical information, business and financial information, and all other information which a reasonable person would",
+    "bbox": [
+      111,
+      480,
+      1000,
+      493
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "treat confidentially that relates to the Development Products and disclosed from the disclosing party to the recipient party, whether or not the",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "information is marked as \"confidential.\" Notwithstanding anything to the contrary, CNS shall be permitted to make such disclosures as CNS",
+    "bbox": [
+      111,
+      512,
+      1000,
+      525
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "determines, in its sole discretion, is required pursuant to the Securities Exchange Act of 1934, as amended, and the rules and regulations thereof..",
+    "bbox": [
+      112,
+      529,
+      1000,
+      541
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.5 \"Development Fee'\" means 50% of the Net Sales for any Development Products in the Development Territory..",
+    "bbox": [
+      179,
+      543,
+      1000,
+      557
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.6 \"Development Products\" means: (i) Sublicensed Products, as defined in the Sublicense Agreement, in the field of pharmaceutical drug",
+    "bbox": [
+      180,
+      561,
+      1000,
+      573
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "products for the treatment of any viral infection in humans; and (ii) any other drug or product in the field of pharmaceutical drug products for the",
+    "bbox": [
+      112,
+      577,
+      1000,
+      589
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "treatment of any viral infection in humans that is licensed between WPD and MBI after this date..",
+    "bbox": [
+      112,
+      593,
+      837,
+      604
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.7 \"Development Territory\"' means (i) until the Approval Achievement Date, the Sublicensed Territory, as defined in the Sublicense.",
+    "bbox": [
+      178,
+      608,
+      1000,
+      621
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Agreement; and (ii) after the Approval Achievement Date, the Sublicensed Territory, as defined in the Sublicense Agreement, other than Poland..",
+    "bbox": [
+      114,
+      625,
+      1000,
+      637
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      648,
+      673,
+      658
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: CNS PHARMACEUTICALS, INC., 8-K, 3/26/2020",
+    "bbox": [
+      133,
+      1000,
+      572,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 10.1.",
+    "bbox": [
+      111,
+      81,
+      196,
+      92
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Development Agreement",
+    "bbox": [
+      572,
+      97,
+      762,
+      109
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "This Development Agreement (the \"Agreement') dated as of March 20, 2020 (the \"Effective Date') is entered into by and between CNS",
+    "bbox": [
+      180,
+      113,
+      1000,
+      125
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Pharmaceuticals, Inc. (\"CNS'), a Nevada corporation, having a business address of 2100 West Loop South, Suite 900, Houston, Texas 77027, and.",
+    "bbox": [
+      111,
+      128,
+      1000,
+      141
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "WPD Pharmaceuticals, (\"WPD\"), a Polish corporation, having a business address of ul. Zwirki i Wigury 101, 02-089 Warszawa. CNS and WPD are",
+    "bbox": [
+      112,
+      144,
+      1000,
+      157
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "sometimes referred to herein individually as a \"Party\"' and collectively as the \"Parties.\".",
+    "bbox": [
+      112,
+      161,
+      762,
+      173
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      624,
+      177,
+      710,
+      188
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "WHEREAS, WPD is party to a sublicense agreement dated February 19, 2019 with Moleculin Biotech, Inc. (\"MBI) (the \"Sublicense",
+    "bbox": [
+      180,
+      192,
+      1000,
+      204
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Agreement') to research and develop, manufacture, have manufactured, use, export/import, offer to sell and/or sell certain products for use in",
+    "bbox": [
+      112,
+      209,
+      1000,
+      221
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "certain territories;",
+    "bbox": [
+      111,
+      226,
+      243,
+      236
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "WHEREAS, WPD is developing certain anti-viral indications pursuant to the Sublicense Agreement; and",
+    "bbox": [
+      179,
+      241,
+      968,
+      253
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "WHEREAS, CNS has agreed to fund a portion of the development of such indications in exchange for certain economic rights..",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the covenants, conditions and agreements hereinafter set forth, and other valuable consideration,",
+    "bbox": [
+      177,
+      273,
+      1000,
+      285
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, WPD and CNS hereby agree as follows:.",
+    "bbox": [
+      112,
+      289,
+      875,
+      301
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      304,
+      712,
+      315
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      321,
+      723,
+      332
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.1 \"Approval Achievement Date\"' means the earlier of the: (i) date on which WPD receives marketing approval for a Development Product",
+    "bbox": [
+      179,
+      336,
+      1000,
+      349
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Development Fees hereunder of $1.0 million..",
+    "bbox": [
+      112,
+      369,
+      443,
+      380
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.2 \"Business Day\"' means any day other than a day which is a Saturday, a Sunday or any other day on which banks are authorized or",
+    "bbox": [
+      179,
+      384,
+      1000,
+      397
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "required to be closed in New York City, NY..",
+    "bbox": [
+      111,
+      400,
+      432,
+      412
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.3 \"Calendar Quarter\"' means the consecutive three month period ending on one of March 31, June 30, September 30, or December 31.",
+    "bbox": [
+      179,
+      417,
+      1000,
+      428
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.4 \"Confidential Information\"' includes: (1) all information contained in documents marked \"confidential\" and disclosed by one Party (the",
+    "bbox": [
+      179,
+      432,
+      1000,
+      445
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"disclosing party\") to the other Party (the \"recipient party\") pursuant to this Agreement; (2) orally disclosed information which is disclosed by the",
+    "bbox": [
+      112,
+      448,
+      1000,
+      461
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "disclosing party to the recipient party pursuant to this Agreement, summarized in writing, identified as \"confidential\" and delivered to the recipient",
+    "bbox": [
+      111,
+      464,
+      1000,
+      477
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "party; and (3) all proprietary technical information, business and financial information, and all other information which a reasonable person would",
+    "bbox": [
+      111,
+      480,
+      1000,
+      493
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "treat confidentially that relates to the Development Products and disclosed from the disclosing party to the recipient party, whether or not the",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "information is marked as \"confidential.\" Notwithstanding anything to the contrary, CNS shall be permitted to make such disclosures as CNS",
+    "bbox": [
+      111,
+      512,
+      1000,
+      525
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "determines, in its sole discretion, is required pursuant to the Securities Exchange Act of 1934, as amended, and the rules and regulations thereof..",
+    "bbox": [
+      112,
+      529,
+      1000,
+      541
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.5 \"Development Fee'\" means 50% of the Net Sales for any Development Products in the Development Territory..",
+    "bbox": [
+      179,
+      543,
+      1000,
+      557
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.6 \"Development Products\" means: (i) Sublicensed Products, as defined in the Sublicense Agreement, in the field of pharmaceutical drug",
+    "bbox": [
+      180,
+      561,
+      1000,
+      573
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "products for the treatment of any viral infection in humans; and (ii) any other drug or product in the field of pharmaceutical drug products for the",
+    "bbox": [
+      112,
+      577,
+      1000,
+      589
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "treatment of any viral infection in humans that is licensed between WPD and MBI after this date..",
+    "bbox": [
+      112,
+      593,
+      837,
+      604
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.7 \"Development Territory\"' means (i) until the Approval Achievement Date, the Sublicensed Territory, as defined in the Sublicense.",
+    "bbox": [
+      178,
+      608,
+      1000,
+      621
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Agreement; and (ii) after the Approval Achievement Date, the Sublicensed Territory, as defined in the Sublicense Agreement, other than Poland..",
+    "bbox": [
+      114,
+      625,
+      1000,
+      637
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      648,
+      673,
+      658
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: CNS PHARMACEUTICALS, INC., 8-K, 3/26/2020",
+    "bbox": [
+      133,
+      1000,
+      572,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.5 \"Development Fee'\" means 50% of the Net Sales for any Development Products in the Development Territory..",
+    "bbox": [
+      179,
+      543,
+      1000,
+      557
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  }
+]

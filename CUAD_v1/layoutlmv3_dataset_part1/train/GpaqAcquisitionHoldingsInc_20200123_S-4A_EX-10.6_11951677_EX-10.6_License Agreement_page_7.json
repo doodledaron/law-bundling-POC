@@ -1,0 +1,24 @@
+[
+  {
+    "text": "All communication with the National Football League (the \"NFL\"), its 32 Member Clubs, NFL Legends and Gold Jackets shall be",
+    "bbox": [
+      248,
+      128,
+      1000,
+      141
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "made exclusively and directly through PFHOF. For the avoidance of doubt, PFHOF has the exclusive and sole relationship with",
+    "bbox": [
+      247,
+      146,
+      1000,
+      158
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  }
+]

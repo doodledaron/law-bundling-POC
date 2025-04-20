@@ -1,0 +1,1058 @@
+[
+  {
+    "text": "\"Point of Access\" means Ehave's, or its subcontractor's, border router, which is used to establish connectivity from the Ehave Platform to",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave's, or its subcontractor's, Internet provider, or the public Internet.",
+    "bbox": [
+      180,
+      97,
+      714,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Royalties' means the fees, charges and other amounts to be paid by CHT to Ehave for the rights granted hereunder and which amounts.",
+    "bbox": [
+      179,
+      112,
+      1000,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "are set out in Schedule \"6\".",
+    "bbox": [
+      179,
+      128,
+      385,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Security Requirements\" means those safeguards and controls set out in Schedule \"5\".",
+    "bbox": [
+      179,
+      143,
+      844,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "animal (including companion animal) and veterinary industry.",
+    "bbox": [
+      179,
+      176,
+      637,
+      190
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Source Code\"' means the human-readable form of a computer instruction, including, but not limited to, related system documentation,",
+    "bbox": [
+      179,
+      192,
+      1000,
+      205
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "flow charts, all comments and any procedural code and a description of the procedure for generating object code, all of a level sufficient to",
+    "bbox": [
+      180,
+      209,
+      1000,
+      221
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "enable a programmer reasonably fluent in the programming language in which the Software was written to understand, build, operate,",
+    "bbox": [
+      180,
+      225,
+      1000,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "support, maintain and develop modifications, upgrades, updates, adaptations, enhancements, new versions, and other derivative works",
+    "bbox": [
+      179,
+      239,
+      1000,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and improvements of, and to develop computer programs compatible with, the Software. \"Specifications\"' has the meaning ascribed to it in",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3(a).\"Subscription Agreement' has the meaning ascribed to it in Section 5(b).",
+    "bbox": [
+      179,
+      273,
+      825,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Term\"' has the meaning ascribed to it in Section 9.",
+    "bbox": [
+      180,
+      288,
+      563,
+      300
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Territory' means any jurisdiction in the World where the use of the Ehave Companion Solution for the intended purpose herein is",
+    "bbox": [
+      178,
+      303,
+      1000,
+      318
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "permitted under Applicable Law.",
+    "bbox": [
+      179,
+      321,
+      422,
+      333
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Transition out Period' has the meaning ascribed to it in Section 10(f).",
+    "bbox": [
+      179,
+      336,
+      709,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Transition-out Services\" has the meaning ascribed to it in Section 10(f).",
+    "bbox": [
+      178,
+      351,
+      727,
+      366
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Virus' means a piece of code usually (but not necessarily) disguised as something else that causes some unexpected and, for the victim,",
+    "bbox": [
+      179,
+      368,
+      1000,
+      381
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "usually undesirable, event and which is designed so that it may automatically spread to other computer users; the term 'Virus' will also be",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "deemed to include worms, cancelbots, trojan horses, harmful contaminants (whether self-replicating or not) and nuisance causing or",
+    "bbox": [
+      179,
+      400,
+      1000,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "otherwise harmful applets.",
+    "bbox": [
+      180,
+      417,
+      376,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      179,
+      432,
+      202,
+      445
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Headings; Extended Meanings",
+    "bbox": [
+      245,
+      432,
+      480,
+      445
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The division of this Agreement into articles, sections, schedules and other subdivisions, and the inclusion of headings are for",
+    "bbox": [
+      180,
+      449,
+      1000,
+      460
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "convenience of reference only and shall not affect the construction or interpretation of this Agreement. The headings in the Agreement.",
+    "bbox": [
+      180,
+      465,
+      1000,
+      476
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "are not intended to be full or precise descriptions of the text to which they refer. Unless something in the subject matter or context is",
+    "bbox": [
+      178,
+      480,
+      1000,
+      493
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "inconsistent therewith, references herein to Articles and Sections are to Articles and Sections of this Agreement. The word \"including\" or.",
+    "bbox": [
+      178,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      529,
+      201,
+      542
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Currency",
+    "bbox": [
+      247,
+      530,
+      317,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Unless otherwise specified, all references to monetary amounts, including the symbol \"$\", are in respect of Canadian currency.",
+    "bbox": [
+      179,
+      544,
+      1000,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      1000,
+      577,
+      1000,
+      587
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Point of Access\" means Ehave's, or its subcontractor's, border router, which is used to establish connectivity from the Ehave Platform to",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Ehave's, or its subcontractor's, Internet provider, or the public Internet.",
+    "bbox": [
+      180,
+      97,
+      714,
+      109
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Royalties' means the fees, charges and other amounts to be paid by CHT to Ehave for the rights granted hereunder and which amounts.",
+    "bbox": [
+      179,
+      112,
+      1000,
+      125
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "are set out in Schedule \"6\".",
+    "bbox": [
+      179,
+      128,
+      385,
+      141
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Security Requirements\" means those safeguards and controls set out in Schedule \"5\".",
+    "bbox": [
+      179,
+      143,
+      844,
+      157
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "animal (including companion animal) and veterinary industry.",
+    "bbox": [
+      179,
+      176,
+      637,
+      190
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Source Code\"' means the human-readable form of a computer instruction, including, but not limited to, related system documentation,",
+    "bbox": [
+      179,
+      192,
+      1000,
+      205
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "flow charts, all comments and any procedural code and a description of the procedure for generating object code, all of a level sufficient to",
+    "bbox": [
+      180,
+      209,
+      1000,
+      221
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "enable a programmer reasonably fluent in the programming language in which the Software was written to understand, build, operate,",
+    "bbox": [
+      180,
+      225,
+      1000,
+      237
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "support, maintain and develop modifications, upgrades, updates, adaptations, enhancements, new versions, and other derivative works",
+    "bbox": [
+      179,
+      239,
+      1000,
+      254
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "and improvements of, and to develop computer programs compatible with, the Software. \"Specifications\"' has the meaning ascribed to it in",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Section 3(a).\"Subscription Agreement' has the meaning ascribed to it in Section 5(b).",
+    "bbox": [
+      179,
+      273,
+      825,
+      285
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Term\"' has the meaning ascribed to it in Section 9.",
+    "bbox": [
+      180,
+      288,
+      563,
+      300
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Territory' means any jurisdiction in the World where the use of the Ehave Companion Solution for the intended purpose herein is",
+    "bbox": [
+      178,
+      303,
+      1000,
+      318
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "permitted under Applicable Law.",
+    "bbox": [
+      179,
+      321,
+      422,
+      333
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Transition out Period' has the meaning ascribed to it in Section 10(f).",
+    "bbox": [
+      179,
+      336,
+      709,
+      349
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Transition-out Services\" has the meaning ascribed to it in Section 10(f).",
+    "bbox": [
+      178,
+      351,
+      727,
+      366
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Virus' means a piece of code usually (but not necessarily) disguised as something else that causes some unexpected and, for the victim,",
+    "bbox": [
+      179,
+      368,
+      1000,
+      381
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "usually undesirable, event and which is designed so that it may automatically spread to other computer users; the term 'Virus' will also be",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "deemed to include worms, cancelbots, trojan horses, harmful contaminants (whether self-replicating or not) and nuisance causing or",
+    "bbox": [
+      179,
+      400,
+      1000,
+      413
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "otherwise harmful applets.",
+    "bbox": [
+      180,
+      417,
+      376,
+      428
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      179,
+      432,
+      202,
+      445
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Headings; Extended Meanings",
+    "bbox": [
+      245,
+      432,
+      480,
+      445
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "The division of this Agreement into articles, sections, schedules and other subdivisions, and the inclusion of headings are for",
+    "bbox": [
+      180,
+      449,
+      1000,
+      460
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "convenience of reference only and shall not affect the construction or interpretation of this Agreement. The headings in the Agreement.",
+    "bbox": [
+      180,
+      465,
+      1000,
+      476
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "are not intended to be full or precise descriptions of the text to which they refer. Unless something in the subject matter or context is",
+    "bbox": [
+      178,
+      480,
+      1000,
+      493
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "inconsistent therewith, references herein to Articles and Sections are to Articles and Sections of this Agreement. The word \"including\" or.",
+    "bbox": [
+      178,
+      496,
+      1000,
+      509
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      529,
+      201,
+      542
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Currency",
+    "bbox": [
+      247,
+      530,
+      317,
+      541
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Unless otherwise specified, all references to monetary amounts, including the symbol \"$\", are in respect of Canadian currency.",
+    "bbox": [
+      179,
+      544,
+      1000,
+      557
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      1000,
+      577,
+      1000,
+      587
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Point of Access\" means Ehave's, or its subcontractor's, border router, which is used to establish connectivity from the Ehave Platform to",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Ehave's, or its subcontractor's, Internet provider, or the public Internet.",
+    "bbox": [
+      180,
+      97,
+      714,
+      109
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Royalties' means the fees, charges and other amounts to be paid by CHT to Ehave for the rights granted hereunder and which amounts.",
+    "bbox": [
+      179,
+      112,
+      1000,
+      125
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "are set out in Schedule \"6\".",
+    "bbox": [
+      179,
+      128,
+      385,
+      141
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Security Requirements\" means those safeguards and controls set out in Schedule \"5\".",
+    "bbox": [
+      179,
+      143,
+      844,
+      157
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "animal (including companion animal) and veterinary industry.",
+    "bbox": [
+      179,
+      176,
+      637,
+      190
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Source Code\"' means the human-readable form of a computer instruction, including, but not limited to, related system documentation,",
+    "bbox": [
+      179,
+      192,
+      1000,
+      205
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "flow charts, all comments and any procedural code and a description of the procedure for generating object code, all of a level sufficient to",
+    "bbox": [
+      180,
+      209,
+      1000,
+      221
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "enable a programmer reasonably fluent in the programming language in which the Software was written to understand, build, operate,",
+    "bbox": [
+      180,
+      225,
+      1000,
+      237
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "support, maintain and develop modifications, upgrades, updates, adaptations, enhancements, new versions, and other derivative works",
+    "bbox": [
+      179,
+      239,
+      1000,
+      254
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and improvements of, and to develop computer programs compatible with, the Software. \"Specifications\"' has the meaning ascribed to it in",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Section 3(a).\"Subscription Agreement' has the meaning ascribed to it in Section 5(b).",
+    "bbox": [
+      179,
+      273,
+      825,
+      285
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Term\"' has the meaning ascribed to it in Section 9.",
+    "bbox": [
+      180,
+      288,
+      563,
+      300
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Territory' means any jurisdiction in the World where the use of the Ehave Companion Solution for the intended purpose herein is",
+    "bbox": [
+      178,
+      303,
+      1000,
+      318
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "permitted under Applicable Law.",
+    "bbox": [
+      179,
+      321,
+      422,
+      333
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Transition out Period' has the meaning ascribed to it in Section 10(f).",
+    "bbox": [
+      179,
+      336,
+      709,
+      349
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Transition-out Services\" has the meaning ascribed to it in Section 10(f).",
+    "bbox": [
+      178,
+      351,
+      727,
+      366
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Virus' means a piece of code usually (but not necessarily) disguised as something else that causes some unexpected and, for the victim,",
+    "bbox": [
+      179,
+      368,
+      1000,
+      381
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "usually undesirable, event and which is designed so that it may automatically spread to other computer users; the term 'Virus' will also be",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "deemed to include worms, cancelbots, trojan horses, harmful contaminants (whether self-replicating or not) and nuisance causing or",
+    "bbox": [
+      179,
+      400,
+      1000,
+      413
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "otherwise harmful applets.",
+    "bbox": [
+      180,
+      417,
+      376,
+      428
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      179,
+      432,
+      202,
+      445
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Headings; Extended Meanings",
+    "bbox": [
+      245,
+      432,
+      480,
+      445
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "The division of this Agreement into articles, sections, schedules and other subdivisions, and the inclusion of headings are for",
+    "bbox": [
+      180,
+      449,
+      1000,
+      460
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "convenience of reference only and shall not affect the construction or interpretation of this Agreement. The headings in the Agreement.",
+    "bbox": [
+      180,
+      465,
+      1000,
+      476
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "are not intended to be full or precise descriptions of the text to which they refer. Unless something in the subject matter or context is",
+    "bbox": [
+      178,
+      480,
+      1000,
+      493
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "inconsistent therewith, references herein to Articles and Sections are to Articles and Sections of this Agreement. The word \"including\" or.",
+    "bbox": [
+      178,
+      496,
+      1000,
+      509
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      529,
+      201,
+      542
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Currency",
+    "bbox": [
+      247,
+      530,
+      317,
+      541
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Unless otherwise specified, all references to monetary amounts, including the symbol \"$\", are in respect of Canadian currency.",
+    "bbox": [
+      179,
+      544,
+      1000,
+      557
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      1000,
+      577,
+      1000,
+      587
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "text": "3.1 Either Party may terminate this Agreement by giving the other Party thirty (30) days' prior written notice..",
+    "bbox": [
+      180,
+      113,
+      985,
+      125
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4.2.2 IN NO EVENT SHALL LICENSOR OR ANY OF ITS DIRECTORS, OFFICERS, EMPLOYEES, LICENSORS, SUPPLIERS OR",
+    "bbox": [
+      264,
+      417,
+      1000,
+      427
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "OTHER REPRESENTATIVES BE LIABLE FOR ANY INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOSS OF",
+    "bbox": [
+      111,
+      432,
+      1000,
+      444
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "PROFITS, BUSINESS INTERRUPTION, LOSS OF GOODWILL, COMPUTER FAILURE OR MALFUNCTION OR OTHERWISE, ARISING FROM OR",
+    "bbox": [
+      111,
+      449,
+      1000,
+      459
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "RELATING TO THIS AGREEMENT OR THE LICENSED MARK, EVEN IF LICENSOR IS EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH",
+    "bbox": [
+      112,
+      465,
+      1000,
+      475
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DAMAGES. The foregoing limitation of liability and exclusion of certain damages shall apply regardless of the failure of essential purpose of any.",
+    "bbox": [
+      110,
+      480,
+      1000,
+      494
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

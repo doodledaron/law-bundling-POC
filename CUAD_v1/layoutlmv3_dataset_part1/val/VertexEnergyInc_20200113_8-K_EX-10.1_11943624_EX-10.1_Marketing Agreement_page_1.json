@@ -1,0 +1,299 @@
+[
+  {
+    "text": "THE PARTIES hereto hereby agree as follows:",
+    "bbox": [
+      122,
+      72,
+      475,
+      86
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      120,
+      90,
+      137,
+      101
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      189,
+      89,
+      279,
+      101
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Area' means Texas, Louisiana, Alabama and areas immediately adjacent thereto if mutually agreed..",
+    "bbox": [
+      188,
+      105,
+      940,
+      118
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Bunker Holding\", a Danish holding company and sole shareholder of Bunker One (USA) Inc...",
+    "bbox": [
+      189,
+      122,
+      910,
+      135
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Business Day\" means any day except a Saturday, Sunday, or a Federal Reserve Bank holiday. A Business Day shall open at 8:00a.m",
+    "bbox": [
+      189,
+      138,
+      1000,
+      151
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and close at 5:00p.m. Houston, Texas, time.",
+    "bbox": [
+      189,
+      156,
+      508,
+      166
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"JSMIA Output\"' has the meaning ascribed thereto in Section 2.1.",
+    "bbox": [
+      189,
+      170,
+      680,
+      183
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Effective Date' means the date as of which the last signature of a Party is affixed hereto",
+    "bbox": [
+      189,
+      186,
+      857,
+      199
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Fiscal Year' shall mean the period beginning with May 1st in each calendar year and ending on the next succeeding April 30th",
+    "bbox": [
+      186,
+      202,
+      1000,
+      222
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Hedge Position Value\"' means the then current settlement value of any and all open hedge transactions entered into by Bunker One as",
+    "bbox": [
+      188,
+      222,
+      1000,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "determined by Bunker One on a mark-to-market basis in a commercially reasonable manner..",
+    "bbox": [
+      190,
+      239,
+      868,
+      250
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Hedging Profit' means the greater of zero and the net gain on all hedging transactions closed and settled during the applicable",
+    "bbox": [
+      189,
+      254,
+      1000,
+      267
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Tracking Account reporting or settlement period, including any interest received by Bunker One with respect to any margin deposits",
+    "bbox": [
+      189,
+      271,
+      1000,
+      283
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "made by Bunker One with any hedge transaction counterparties exclusive of any such amount in excess of that which would be taken",
+    "bbox": [
+      189,
+      287,
+      1000,
+      299
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "into account by parties dealing at arm's length on a commercial basis.",
+    "bbox": [
+      189,
+      303,
+      709,
+      315
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Hedging Loss' means the lesser of zero and the net loss on all hedging transactions closed and settled during the applicable Tracking",
+    "bbox": [
+      189,
+      319,
+      1000,
+      332
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Account reporting or settlement period, including any in- terest received by Bunker One with respect to any margin deposits made by",
+    "bbox": [
+      189,
+      335,
+      1000,
+      348
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Bunker One with any hedge transaction counterparties exclusive of any such amount in excess of that which would be taken into",
+    "bbox": [
+      188,
+      351,
+      1000,
+      364
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "account by parties dealing at arm's length on a commercial basis.",
+    "bbox": [
+      189,
+      368,
+      676,
+      380
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "fixing of the preceding month + 3.5 per cent pro anno (compounded monthly for each month or part thereof) and (b) with respect to a",
+    "bbox": [
+      189,
+      400,
+      1000,
+      412
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Defaulting Party, a per annum rate of interest equal to 5 % over the rate mentioned above in (a), provided, how- ever, that the rate set",
+    "bbox": [
+      189,
+      415,
+      1000,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "forth in (a) shall be adjusted by the Parties annually at the last meeting of the JDMB (as such term is defined in the Heads of Agreement",
+    "bbox": [
+      189,
+      432,
+      1000,
+      444
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "entered into between the Parties as of January 10, 2020.",
+    "bbox": [
+      189,
+      447,
+      602,
+      460
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Inventory' shall mean the Product purchased by Bunker One pursuant to this Agreement..",
+    "bbox": [
+      189,
+      463,
+      873,
+      476
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Inventory Cost' shall mean the amount paid by Bunker One to Vertex for the Inventory.",
+    "bbox": [
+      189,
+      480,
+      850,
+      493
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: VERTEX ENERGY INC., 8-K, 1/13/2020",
+    "bbox": [
+      133,
+      1000,
+      504,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

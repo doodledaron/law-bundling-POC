@@ -1,0 +1,717 @@
+[
+  {
+    "text": "Execution version",
+    "bbox": [
+      599,
+      83,
+      734,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REQUESTED",
+    "bbox": [
+      879,
+      114,
+      1000,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Airworthiness Authority\"",
+    "bbox": [
+      111,
+      163,
+      321,
+      176
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means, in respect of any jurisdiction, the Government Entity, which under the laws of such",
+    "bbox": [
+      477,
+      163,
+      1000,
+      176
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "jurisdiction, has control over civil aviation or the registration, airworthiness, operation of aircraft in",
+    "bbox": [
+      476,
+      179,
+      1000,
+      192
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "such jurisdiction, including, in the European Union, the European Aviation Safety Agency (the",
+    "bbox": [
+      479,
+      197,
+      1000,
+      207
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"EASA\") and, in the United States of America, the Federal Aviation Administration (the \"FAA\");.",
+    "bbox": [
+      477,
+      211,
+      1000,
+      224
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Airworthiness Directives\" or \"AD\"",
+    "bbox": [
+      112,
+      235,
+      395,
+      247
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means enforceable rules issued by the relevant Airworthiness Authorities that have a mandatory",
+    "bbox": [
+      477,
+      235,
+      1000,
+      248
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "impact on Aircraft operation and/or maintenance;",
+    "bbox": [
+      477,
+      251,
+      850,
+      265
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Aircraft",
+    "bbox": [
+      109,
+      274,
+      187,
+      288
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means the customized manual, drafted in compliance with the ATA100 specifications, issued by",
+    "bbox": [
+      477,
+      275,
+      1000,
+      288
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance",
+    "bbox": [
+      110,
+      291,
+      211,
+      304
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ATR, as Aircraft manufacturer, and which is split into three (3) separate parts, namely: the",
+    "bbox": [
+      477,
+      291,
+      1000,
+      304
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Manual\"' or",
+    "bbox": [
+      111,
+      308,
+      200,
+      319
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Description and Operation Manual, the Trouble Shooting Manual and the Job Instruction Cards;",
+    "bbox": [
+      477,
+      308,
+      1000,
+      320
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"AMm\"",
+    "bbox": [
+      111,
+      322,
+      177,
+      335
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the purpose of which is to provide all information required for Aircraft maintenance, while ensuring",
+    "bbox": [
+      477,
+      324,
+      1000,
+      336
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "personnel and flight safety;.",
+    "bbox": [
+      478,
+      340,
+      686,
+      353
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Aircraft On",
+    "bbox": [
+      111,
+      363,
+      212,
+      374
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means the highest priority designation to process a requirement for an LRU and/or maintenance",
+    "bbox": [
+      477,
+      364,
+      1000,
+      377
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ground\"' or",
+    "bbox": [
+      112,
+      380,
+      200,
+      390
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "action; when applied to an Aircraft, such term indicates that such Aircraft is unable to continue or.",
+    "bbox": [
+      477,
+      381,
+      1000,
+      392
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"AOG\"",
+    "bbox": [
+      111,
+      394,
+      172,
+      407
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to be returned to revenue service until that appropriate action is taken;.",
+    "bbox": [
+      477,
+      397,
+      1000,
+      408
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"ANAC\"",
+    "bbox": [
+      110,
+      419,
+      182,
+      432
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means Agencia Nacional de Aviacao Civil, the Brazilian Civil Aviation Authority;.",
+    "bbox": [
+      477,
+      420,
+      1000,
+      433
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"ATA\"",
+    "bbox": [
+      110,
+      444,
+      165,
+      456
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means Air Transport Association of America Inc.;",
+    "bbox": [
+      477,
+      445,
+      852,
+      457
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"ATA 300\"",
+    "bbox": [
+      111,
+      468,
+      198,
+      480
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means documentation issued by ATA (as amended from time to time, or any other ATA's",
+    "bbox": [
+      477,
+      469,
+      1000,
+      481
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "substituted documentation) reviews the design, development and procurement of effective",
+    "bbox": [
+      478,
+      485,
+      1000,
+      497
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "packaging of supplies shipped by either Party to the other Party; it provides packaging",
+    "bbox": [
+      477,
+      500,
+      1000,
+      514
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "instructions for repairable and expendable units and components, included packaging standards",
+    "bbox": [
+      478,
+      517,
+      1000,
+      529
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "for kits, preparation of hazardous materials for shipment and handling of electrostatic discharge",
+    "bbox": [
+      477,
+      532,
+      1000,
+      545
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "sensitive devices..",
+    "bbox": [
+      477,
+      548,
+      610,
+      559
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"BER\" or \"Beyond",
+    "bbox": [
+      111,
+      571,
+      257,
+      585
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means the case in which the repair cost of any unserviceable Item is greater than [*****] of the.",
+    "bbox": [
+      476,
+      571,
+      1000,
+      586
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Economical",
+    "bbox": [
+      112,
+      589,
+      200,
+      600
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "price for a brand new identical LRU and/or Main Element;",
+    "bbox": [
+      478,
+      589,
+      910,
+      601
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Repair\"",
+    "bbox": [
+      110,
+      603,
+      175,
+      618
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"BUR\" or \"Basic",
+    "bbox": [
+      112,
+      629,
+      246,
+      641
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means any basic unplanned removal, premature removal of a LRU or a Main Element, due to a sub-",
+    "bbox": [
+      478,
+      630,
+      1000,
+      641
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Unscheduled",
+    "bbox": [
+      111,
+      645,
+      208,
+      656
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "component or accessory induced malfunction. Likewise, removal of a LRU and/or a Main Element,",
+    "bbox": [
+      477,
+      645,
+      1000,
+      657
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Removal\"",
+    "bbox": [
+      111,
+      661,
+      187,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "component or accessory due to a problem which could have been rectified using troubleshooting",
+    "bbox": [
+      477,
+      662,
+      1000,
+      674
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and/or corrective line maintenance actions as specified in the applicable AMM is not considered",
+    "bbox": [
+      477,
+      677,
+      1000,
+      689
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to be a BUR;",
+    "bbox": [
+      477,
+      692,
+      575,
+      706
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Business Day\"",
+    "bbox": [
+      111,
+      716,
+      236,
+      730
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means a day, other than a Saturday or a Sunday, on which banks are open for the transaction of",
+    "bbox": [
+      478,
+      718,
+      1000,
+      728
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "domestic and foreign exchange business in Paris (France) and Sao Paulo (Brazil);.",
+    "bbox": [
+      477,
+      733,
+      1000,
+      746
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"CMM\"' or",
+    "bbox": [
+      110,
+      756,
+      197,
+      769
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Component",
+    "bbox": [
+      110,
+      772,
+      210,
+      787
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means a manual issued either by any relevant OEM and containing instruction concerning the",
+    "bbox": [
+      477,
+      774,
+      1000,
+      786
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance",
+    "bbox": [
+      110,
+      789,
+      212,
+      801
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "overhaul and/or repair of components together with procedures for restoring such components to",
+    "bbox": [
+      477,
+      790,
+      1000,
+      803
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Manuals\"",
+    "bbox": [
+      110,
+      805,
+      189,
+      817
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "a fully serviceable condition. These manuals shall be compliant with ATA100 Specification;",
+    "bbox": [
+      477,
+      806,
+      1000,
+      819
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission..",
+    "bbox": [
+      113,
+      855,
+      902,
+      869
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "AZUL-ATR",
+    "bbox": [
+      110,
+      886,
+      204,
+      899
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Global Maintenance Master Agreement",
+    "bbox": [
+      527,
+      888,
+      831,
+      899
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Page 7/110",
+    "bbox": [
+      1000,
+      886,
+      1000,
+      901
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "DS/CS-3957/14/Issue 7",
+    "bbox": [
+      594,
+      903,
+      765,
+      914
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: AZUL SA, F-1/A, 3/3/2017",
+    "bbox": [
+      134,
+      1000,
+      404,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

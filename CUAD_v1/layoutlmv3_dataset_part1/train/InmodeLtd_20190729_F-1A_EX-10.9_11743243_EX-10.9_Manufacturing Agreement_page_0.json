@@ -1,0 +1,530 @@
+[
+  {
+    "text": "TURN - KEY MANUFACTURING AGREEMENT",
+    "bbox": [
+      485,
+      97,
+      848,
+      107
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "FLEXTRONICS ISRAEL LTD. with a principal place of business at Industrial Zone Migdal Haemek 23108 P.O.B. 867, Israel. Hereinafter referred to.",
+    "bbox": [
+      111,
+      176,
+      1000,
+      188
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "INVASIX LTD., with a principal place of business at Tavor Building, Shaar Yokneam, POB 533, Yokneam 20692, Israel. Hereinafter referred to as.",
+    "bbox": [
+      112,
+      129,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"Customer\"",
+    "bbox": [
+      112,
+      145,
+      206,
+      156
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "as \"Contractor.\"",
+    "bbox": [
+      110,
+      192,
+      239,
+      204
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Turn - Key Manufacturing Agreement (the \"Agreement') is effective as of the 1.4.2011 (the \"Effective Date') by and between:.",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Agreement shall commence on the Effective Date and shall continue for an initial term of year as of the Effective Date. This Agreement",
+    "bbox": [
+      160,
+      449,
+      1000,
+      460
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.9.",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "TURN - KEY MANUFACTURING AGREEMENT",
+    "bbox": [
+      485,
+      97,
+      848,
+      107
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "This Turn - Key Manufacturing Agreement (the \"Agreement') is effective as of the 1.4.2011 (the \"Effective Date') by and between:.",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "INVASIX LTD., with a principal place of business at Tavor Building, Shaar Yokneam, POB 533, Yokneam 20692, Israel. Hereinafter referred to as.",
+    "bbox": [
+      112,
+      129,
+      1000,
+      141
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "\"Customer\"",
+    "bbox": [
+      112,
+      145,
+      206,
+      156
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "And",
+    "bbox": [
+      111,
+      161,
+      148,
+      172
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "FLEXTRONICS ISRAEL LTD. with a principal place of business at Industrial Zone Migdal Haemek 23108 P.O.B. 867, Israel. Hereinafter referred to.",
+    "bbox": [
+      111,
+      176,
+      1000,
+      188
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "as \"Contractor.\"",
+    "bbox": [
+      110,
+      192,
+      239,
+      204
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Whereas",
+    "bbox": [
+      112,
+      209,
+      183,
+      220
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Customer designs, manufactures and sells the Products as defined in Exhibit A attached hereto, which includes subassemblies",
+    "bbox": [
+      214,
+      208,
+      1000,
+      220
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "components and know- how, that is confidential and proprietary property of Customer;.",
+    "bbox": [
+      212,
+      224,
+      866,
+      237
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Whereas",
+    "bbox": [
+      111,
+      240,
+      183,
+      253
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Customer desires to buy manufacturing services;",
+    "bbox": [
+      213,
+      241,
+      583,
+      253
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Whereas",
+    "bbox": [
+      110,
+      256,
+      183,
+      268
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Contractor is in the business of Turn - Key projects;.",
+    "bbox": [
+      213,
+      256,
+      609,
+      268
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Whereas",
+    "bbox": [
+      110,
+      271,
+      184,
+      286
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Customer acknowledges that Contractor's expertise is manufacturing and that Contractor's responsibility related to the Customer's.",
+    "bbox": [
+      212,
+      272,
+      1000,
+      285
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Products is limited to this extent;",
+    "bbox": [
+      212,
+      288,
+      460,
+      300
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Whereas",
+    "bbox": [
+      111,
+      304,
+      183,
+      316
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Contractor declares that it has all the capabilities to supply manufacturing services for Customer's Products; and",
+    "bbox": [
+      212,
+      304,
+      1000,
+      317
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Whereas",
+    "bbox": [
+      110,
+      319,
+      184,
+      333
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Contractor desires to sell and deliver its manufacturing services in accordance with Customer specifications all subject to the terms.",
+    "bbox": [
+      213,
+      321,
+      1000,
+      333
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "and conditions contained herein.",
+    "bbox": [
+      213,
+      336,
+      458,
+      348
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Now therefore, the parties hereto have agreed and do hereby agree as follows:.",
+    "bbox": [
+      111,
+      353,
+      697,
+      365
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      368,
+      127,
+      381
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Precedence",
+    "bbox": [
+      157,
+      368,
+      247,
+      381
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      110,
+      383,
+      133,
+      396
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "The terms and conditions and appendices herein shall govern all services performed by Contractor pertaining to the subject matter..",
+    "bbox": [
+      157,
+      384,
+      1000,
+      397
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      110,
+      400,
+      135,
+      412
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "of any purchase order, acknowledgment form or order instruction..",
+    "bbox": [
+      159,
+      417,
+      650,
+      429
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      432,
+      125,
+      444
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      155,
+      431,
+      202,
+      445
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "This Agreement shall commence on the Effective Date and shall continue for an initial term of year as of the Effective Date. This Agreement",
+    "bbox": [
+      160,
+      449,
+      1000,
+      460
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "shall automatically be renewed for successive one (1) year increments unless either party request in writing, at least ninety (90) days prior to.",
+    "bbox": [
+      160,
+      465,
+      1000,
+      477
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "the anniversary date, that this Agreement not to be renewed.",
+    "bbox": [
+      159,
+      480,
+      616,
+      493
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      109,
+      496,
+      125,
+      508
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Scope Of Work",
+    "bbox": [
+      158,
+      497,
+      277,
+      508
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Contractor will, pursuant to the written specifications given by Customer and pre approved by Contractor (\"Specifications\"'), perform.",
+    "bbox": [
+      160,
+      513,
+      1000,
+      525
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "manufacturing services on behalf of Customer. These manufacturing services shall include, but not be limited to, labor, materials, testing.",
+    "bbox": [
+      159,
+      528,
+      1000,
+      542
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "packaging and delivery to Customer, all subject to the terms and conditions contained in this Agreement..",
+    "bbox": [
+      160,
+      544,
+      947,
+      557
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Source: INMODE LTD., F-1/A, 7/29/2019",
+    "bbox": [
+      133,
+      1000,
+      456,
+      1000
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  }
+]

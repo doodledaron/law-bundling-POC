@@ -1,0 +1,486 @@
+[
+  {
+    "text": "8.",
+    "bbox": [
+      110,
+      80,
+      127,
+      93
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "AUDIT RIGHTS",
+    "bbox": [
+      181,
+      81,
+      304,
+      91
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      97,
+      201,
+      110
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Ehave Right to Audit.",
+    "bbox": [
+      247,
+      98,
+      407,
+      108
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CHT will provide Ehave and its representatives, auditors and inspectors (\"Auditors\") upon ten (10) Business Days prior written notice",
+    "bbox": [
+      179,
+      113,
+      1000,
+      125
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "with reasonable access, during business hours, to all facilities, systems and assets used by CHT, to CHT personnel and subcontractors",
+    "bbox": [
+      180,
+      129,
+      1000,
+      141
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "and to all relevant CHT books and records, in each case, to the extent relevant to this Agreement, in order to conduct appropriate audits,",
+    "bbox": [
+      179,
+      144,
+      1000,
+      157
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "examinations and inspections (\"Audits\") to:.",
+    "bbox": [
+      180,
+      161,
+      509,
+      172
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      176,
+      265,
+      191
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "verify compliance with the requirements set out in this Agreement; and.",
+    "bbox": [
+      313,
+      176,
+      850,
+      189
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      192,
+      268,
+      206
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "verify the Royalty calculations..",
+    "bbox": [
+      314,
+      193,
+      549,
+      205
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      179,
+      208,
+      202,
+      221
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Principles Regarding Audits.",
+    "bbox": [
+      247,
+      209,
+      459,
+      220
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CHT shall provide to Ehave and its Auditors any assistance they may reasonably require to conduct such Audits. Audits may be",
+    "bbox": [
+      179,
+      224,
+      1000,
+      237
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "conducted once a calendar year, provided that the foregoing limit shall not apply where an audit discovered an overcharge of 5% or more.",
+    "bbox": [
+      179,
+      241,
+      1000,
+      253
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "in which case, Ehave may conduct another audit sooner. No period shall be audited more than once. Costs incurred by Ehave in",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "connection with any audit or inspection conducted shall be borne by Ehave. Notwithstanding the foregoing, if an Audit reveals that CHT",
+    "bbox": [
+      179,
+      273,
+      1000,
+      285
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "underpaid Ehave for any Royalties hereunder, by more than five percent (5%) of the total Royalties paid during the period being audited,",
+    "bbox": [
+      179,
+      289,
+      1000,
+      301
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CHT shall promptly reimburse Ehave for all reasonable third party expenses incurred by Ehave in connection with such Audit. In all cases",
+    "bbox": [
+      179,
+      304,
+      1000,
+      317
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CHT shall promptly pay Ehave in full for any underpayments revealed by an Audit. All information obtained by Ehave and its Auditors",
+    "bbox": [
+      179,
+      319,
+      1000,
+      334
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "during any such Audit shall be kept confidential and shall be considered CHT's Confidential Information. Ehave shall impose",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "confidentiality obligations on its Auditors that are substantially similar to those under Section 13 and shall be responsible for any breach",
+    "bbox": [
+      180,
+      353,
+      1000,
+      365
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "of confidentiality by its Auditors..",
+    "bbox": [
+      179,
+      369,
+      429,
+      380
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      384,
+      201,
+      397
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Records",
+    "bbox": [
+      245,
+      384,
+      310,
+      397
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CHT shall keep detailed records and books of account with supporting vouchers, invoices and other documentation showing all",
+    "bbox": [
+      179,
+      400,
+      1000,
+      413
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "expenditures, charges and related calculations of whatsoever nature made by it in the performance of its obligations under this Agreement.",
+    "bbox": [
+      180,
+      417,
+      1000,
+      429
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CHT shall retain such records for the greater of: (i) three (3) years; or (ii) the period required by Applicable Laws..",
+    "bbox": [
+      179,
+      432,
+      1000,
+      445
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(d)",
+    "bbox": [
+      178,
+      448,
+      203,
+      461
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Security Audit",
+    "bbox": [
+      246,
+      448,
+      358,
+      460
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "On an annual basis, Ehave shall conduct and provide CHT the results of an audit conducted in accordance with the Statement on",
+    "bbox": [
+      179,
+      465,
+      1000,
+      476
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Standards for Attestation Engagements (SSAE) No. 18, Service Organization Control (SOC) 2 Report type audit or similar audits in respect",
+    "bbox": [
+      179,
+      480,
+      1000,
+      493
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "of its operations. Ehave shall also provide CHT written notice and detail of any deficiencies that Ehave's auditors (whether internal or",
+    "bbox": [
+      180,
+      497,
+      1000,
+      508
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "external) found through the conduct of such audits and the remediation efforts that Ehave shall undergo to rectify such deficiencies.",
+    "bbox": [
+      180,
+      513,
+      1000,
+      525
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Ehave shall promptly rectify any deficiencies identified that may materially and adversely impact the Ehave Companion Solution or End",
+    "bbox": [
+      180,
+      529,
+      1000,
+      541
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "User Data, and shall provide CHT with such information as CHT may reasonably request from time to time with respect to its security",
+    "bbox": [
+      179,
+      544,
+      1000,
+      557
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "controls including any remediation efforts undertaken to rectify any deficiencies..",
+    "bbox": [
+      179,
+      561,
+      787,
+      573
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "9.",
+    "bbox": [
+      110,
+      575,
+      127,
+      588
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "TERM",
+    "bbox": [
+      179,
+      577,
+      231,
+      587
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall",
+    "bbox": [
+      178,
+      592,
+      1000,
+      605
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "continue in perpetuity (the \"Term'), unless terminated earlier in accordance with the provisions contained herein..",
+    "bbox": [
+      179,
+      608,
+      1000,
+      621
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "14.",
+    "bbox": [
+      1000,
+      640,
+      1000,
+      652
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  }
+]

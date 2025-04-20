@@ -1,0 +1,1377 @@
+[
+  {
+    "text": "Section 6.4",
+    "bbox": [
+      179,
+      85,
+      262,
+      98
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Delegation and Contracting.",
+    "bbox": [
+      395,
+      85,
+      603,
+      98
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      86,
+      1000,
+      98
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 6.5",
+    "bbox": [
+      179,
+      100,
+      263,
+      114
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Servicer May Own Notes",
+    "bbox": [
+      397,
+      103,
+      586,
+      113
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      113
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 6.6",
+    "bbox": [
+      180,
+      118,
+      262,
+      129
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Annual Statement as to Compliance.",
+    "bbox": [
+      396,
+      118,
+      663,
+      129
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      117,
+      1000,
+      130
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 6.7",
+    "bbox": [
+      180,
+      134,
+      262,
+      145
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Assessment of Compliance and Accountants' Attestation",
+    "bbox": [
+      396,
+      134,
+      830,
+      144
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      133,
+      1000,
+      145
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "ARTICLE VII SERVICER RESIGNATION AND TERMINATION: SUCCESSOR SERVICER",
+    "bbox": [
+      114,
+      167,
+      773,
+      176
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      165,
+      1000,
+      178
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 7.1",
+    "bbox": [
+      180,
+      182,
+      261,
+      193
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "No Resignation",
+    "bbox": [
+      395,
+      182,
+      513,
+      193
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      181,
+      1000,
+      194
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 7.2",
+    "bbox": [
+      180,
+      198,
+      262,
+      209
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Servicer Termination Events",
+    "bbox": [
+      396,
+      198,
+      606,
+      209
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      197,
+      1000,
+      209
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 7.3",
+    "bbox": [
+      179,
+      213,
+      261,
+      225
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Continue to Perform.",
+    "bbox": [
+      395,
+      214,
+      546,
+      225
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "34",
+    "bbox": [
+      1000,
+      213,
+      1000,
+      225
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 7.4",
+    "bbox": [
+      180,
+      230,
+      262,
+      241
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Successor Servicer",
+    "bbox": [
+      395,
+      230,
+      539,
+      241
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "35",
+    "bbox": [
+      1000,
+      229,
+      1000,
+      242
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 7.5",
+    "bbox": [
+      178,
+      244,
+      263,
+      258
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Transition of Servicing",
+    "bbox": [
+      394,
+      244,
+      568,
+      259
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "36",
+    "bbox": [
+      1000,
+      245,
+      1000,
+      257
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 7.6",
+    "bbox": [
+      178,
+      260,
+      263,
+      274
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Merger, Consolidation, Succession or Assignment",
+    "bbox": [
+      395,
+      262,
+      776,
+      274
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      260,
+      1000,
+      273
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "ARTICLE VIII TERMINATION",
+    "bbox": [
+      113,
+      293,
+      340,
+      304
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      293,
+      1000,
+      306
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 8.1",
+    "bbox": [
+      180,
+      309,
+      260,
+      320
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Optional Acquisition of Receivables; Clean-Up Redemption of Notes",
+    "bbox": [
+      396,
+      310,
+      913,
+      322
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      308,
+      1000,
+      322
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 8.2",
+    "bbox": [
+      180,
+      325,
+      262,
+      336
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Optional Redemption of Notes",
+    "bbox": [
+      396,
+      326,
+      625,
+      338
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "38",
+    "bbox": [
+      1000,
+      324,
+      1000,
+      338
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 8.3",
+    "bbox": [
+      179,
+      342,
+      262,
+      353
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Termination",
+    "bbox": [
+      395,
+      342,
+      485,
+      353
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "39",
+    "bbox": [
+      1000,
+      341,
+      1000,
+      353
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "ARTICLE IX OTHER AGREEMENTS",
+    "bbox": [
+      112,
+      373,
+      390,
+      384
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "39",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      386
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.1",
+    "bbox": [
+      179,
+      390,
+      261,
+      400
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Financing Statements",
+    "bbox": [
+      395,
+      390,
+      559,
+      402
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "39",
+    "bbox": [
+      1000,
+      388,
+      1000,
+      402
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.2",
+    "bbox": [
+      179,
+      406,
+      262,
+      417
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "No Transfer or Lien by Depositor",
+    "bbox": [
+      394,
+      406,
+      644,
+      417
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      405,
+      1000,
+      418
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.3",
+    "bbox": [
+      180,
+      421,
+      261,
+      432
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Expenses",
+    "bbox": [
+      396,
+      422,
+      467,
+      433
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      421,
+      1000,
+      434
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.4",
+    "bbox": [
+      178,
+      436,
+      263,
+      449
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Receivables Information.",
+    "bbox": [
+      395,
+      438,
+      577,
+      448
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      436,
+      1000,
+      449
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.5",
+    "bbox": [
+      179,
+      452,
+      263,
+      466
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "No Petition",
+    "bbox": [
+      394,
+      453,
+      481,
+      465
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      453,
+      1000,
+      465
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.6",
+    "bbox": [
+      180,
+      470,
+      262,
+      481
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Limited Recourse",
+    "bbox": [
+      394,
+      470,
+      526,
+      481
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      469,
+      1000,
+      482
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.7",
+    "bbox": [
+      180,
+      486,
+      262,
+      497
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Limitation of Liability",
+    "bbox": [
+      395,
+      485,
+      555,
+      497
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "41",
+    "bbox": [
+      1000,
+      485,
+      1000,
+      497
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.8",
+    "bbox": [
+      180,
+      502,
+      262,
+      512
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Tax Treatment of Notes",
+    "bbox": [
+      396,
+      502,
+      570,
+      512
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "41",
+    "bbox": [
+      1000,
+      501,
+      1000,
+      513
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.9",
+    "bbox": [
+      180,
+      518,
+      262,
+      529
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Regulation RR Risk Retention",
+    "bbox": [
+      395,
+      518,
+      618,
+      529
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "41",
+    "bbox": [
+      1000,
+      517,
+      1000,
+      529
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 9.10",
+    "bbox": [
+      180,
+      533,
+      270,
+      544
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Cap Collateral Account",
+    "bbox": [
+      396,
+      534,
+      572,
+      545
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "41",
+    "bbox": [
+      1000,
+      533,
+      1000,
+      545
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "ARTICLE X MISCELLANEOUS",
+    "bbox": [
+      113,
+      565,
+      350,
+      576
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "42",
+    "bbox": [
+      1000,
+      565,
+      1000,
+      578
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.1",
+    "bbox": [
+      180,
+      581,
+      269,
+      592
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Amendments",
+    "bbox": [
+      397,
+      582,
+      496,
+      593
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "42",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      594
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.2",
+    "bbox": [
+      179,
+      596,
+      270,
+      609
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Assignment; Benefit of Agreement; Third-Party Beneficiary",
+    "bbox": [
+      395,
+      597,
+      843,
+      610
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "44",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.3",
+    "bbox": [
+      180,
+      613,
+      270,
+      624
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Notices",
+    "bbox": [
+      394,
+      613,
+      455,
+      626
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "44",
+    "bbox": [
+      1000,
+      612,
+      1000,
+      625
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.4",
+    "bbox": [
+      180,
+      629,
+      270,
+      640
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Agent for Service",
+    "bbox": [
+      397,
+      630,
+      529,
+      641
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "45",
+    "bbox": [
+      1000,
+      629,
+      1000,
+      641
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.5",
+    "bbox": [
+      179,
+      644,
+      271,
+      658
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "GOVERNING LAW",
+    "bbox": [
+      396,
+      646,
+      539,
+      656
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "45",
+    "bbox": [
+      1000,
+      644,
+      1000,
+      658
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.6",
+    "bbox": [
+      180,
+      662,
+      270,
+      672
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Submission to Jurisdiction",
+    "bbox": [
+      397,
+      662,
+      594,
+      672
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "45",
+    "bbox": [
+      1000,
+      660,
+      1000,
+      674
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.7",
+    "bbox": [
+      180,
+      677,
+      270,
+      689
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WAIVER OF JURY TRIAL",
+    "bbox": [
+      397,
+      678,
+      589,
+      687
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "46",
+    "bbox": [
+      1000,
+      677,
+      1000,
+      689
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.8",
+    "bbox": [
+      180,
+      694,
+      270,
+      705
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "No Waiver; Remedies",
+    "bbox": [
+      395,
+      693,
+      558,
+      705
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "46",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      705
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.9",
+    "bbox": [
+      180,
+      709,
+      270,
+      720
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Severability",
+    "bbox": [
+      395,
+      708,
+      485,
+      722
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "46",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      722
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.10",
+    "bbox": [
+      180,
+      725,
+      279,
+      736
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Headings",
+    "bbox": [
+      394,
+      724,
+      469,
+      738
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "46",
+    "bbox": [
+      1000,
+      724,
+      1000,
+      737
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.11",
+    "bbox": [
+      180,
+      742,
+      277,
+      752
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Counterparts",
+    "bbox": [
+      394,
+      740,
+      497,
+      755
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "46",
+    "bbox": [
+      1000,
+      740,
+      1000,
+      754
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.12",
+    "bbox": [
+      180,
+      757,
+      279,
+      768
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Limitation of Rights of the Cap Counterparty.",
+    "bbox": [
+      394,
+      757,
+      731,
+      770
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "46",
+    "bbox": [
+      1000,
+      755,
+      1000,
+      770
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 10.13",
+    "bbox": [
+      180,
+      773,
+      279,
+      784
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Intent of the Parties; Reasonableness.",
+    "bbox": [
+      395,
+      773,
+      678,
+      785
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "46",
+    "bbox": [
+      1000,
+      772,
+      1000,
+      785
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "ARTICLE XI ASSET REPRESENTATIONS REVIEW: DISPUTE RESOLUTION",
+    "bbox": [
+      114,
+      807,
+      691,
+      815
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "47",
+    "bbox": [
+      1000,
+      805,
+      1000,
+      818
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 11.1",
+    "bbox": [
+      180,
+      822,
+      268,
+      832
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Asset Representations Review",
+    "bbox": [
+      396,
+      822,
+      627,
+      833
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "47",
+    "bbox": [
+      1000,
+      819,
+      1000,
+      834
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Section 11.2",
+    "bbox": [
+      179,
+      837,
+      269,
+      848
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Dispute Resolution",
+    "bbox": [
+      396,
+      838,
+      542,
+      849
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "47",
+    "bbox": [
+      1000,
+      836,
+      1000,
+      849
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Source: VERIZON ABS LLC, 8-K, 1/23/2020",
+    "bbox": [
+      133,
+      1000,
+      474,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  }
+]

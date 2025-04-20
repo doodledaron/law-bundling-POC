@@ -11,7 +11,7 @@ from pdf2image import convert_from_path
 # Define paths
 ANNOTATIONS_DIR = "CUAD_v1/layoutlmv3"
 PDF_DIR = "CUAD_v1/full_contract_pdf"
-OUTPUT_DIR = "CUAD_v1/layoutlmv3_dataset"
+OUTPUT_DIR = "CUAD_v1/layoutlmv3_dataset_part1"
 TRAIN_DIR = os.path.join(OUTPUT_DIR, "train")
 VAL_DIR = os.path.join(OUTPUT_DIR, "val")
 TEST_DIR = os.path.join(OUTPUT_DIR, "test")

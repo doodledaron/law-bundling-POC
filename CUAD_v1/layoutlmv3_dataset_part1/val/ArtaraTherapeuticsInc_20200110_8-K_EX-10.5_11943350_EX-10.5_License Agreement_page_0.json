@@ -1,0 +1,4435 @@
+[
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "COMPETITIVE HARM TO ARTARA THERAPEUTICS, INC. IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      112,
+      129,
+      794,
+      140
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "SPONSORED RESEARCH AND LICENSE AGREEMENT",
+    "bbox": [
+      445,
+      144,
+      885,
+      155
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "This Sponsored Research and License Agreement (this \"Agreement') is entered into on November 28, 2018 (the \"Effective Date'), by and",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "between ArTara, Inc. located at 1 Little West 12th Street, New York, NY 10014 (\"ArTara'), and The University of Iowa, located at c/o Division of.",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University'). ArTara and University may individually be referred to herein as a \"Party,'",
+    "bbox": [
+      111,
+      196,
+      1000,
+      209
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and collectively as \"Parties.\"",
+    "bbox": [
+      112,
+      212,
+      329,
+      224
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WI T N E S SE T H:",
+    "bbox": [
+      591,
+      229,
+      743,
+      239
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases;",
+    "bbox": [
+      179,
+      244,
+      1000,
+      257
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, University is engaged in clinical research to improve the diagnosis and treatment of lymphangioma (LM) using OK-432 (as.",
+    "bbox": [
+      179,
+      259,
+      1000,
+      274
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "defined below), a pharmaceutical product not approved by regulatory authorities in the United States;.",
+    "bbox": [
+      111,
+      276,
+      877,
+      289
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAs, University is engaged in a clinical research Program (as defined below) and with Chugai Pharmaceutical Co., Ltd., 1-1.",
+    "bbox": [
+      179,
+      291,
+      1000,
+      306
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Nihonbashi 2-Chome, Chuo-ku, Tokyo, 103-8324 Japan, and its wholly-owned subsidiary, Chugai Pharma U.S.A, LLC 300 Connell Drive, Suite.",
+    "bbox": [
+      110,
+      308,
+      1000,
+      321
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3100, Berkeley Heights, New Jersey 07922 (collectively \"Chugai\"), the product manufacturer;.",
+    "bbox": [
+      111,
+      324,
+      808,
+      337
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAs, Principal Investigator (as defined below) of the Program is an employee of the University and holds the IND (as defined",
+    "bbox": [
+      179,
+      341,
+      1000,
+      353
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "below) approved by the FDA (as defined below) for OK-432 under BB-IND#5266;",
+    "bbox": [
+      111,
+      357,
+      722,
+      369
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to develop and submit for regulatory approval, TARA-o02, a proposed product that will be biosimilar to OK-",
+    "bbox": [
+      179,
+      372,
+      1000,
+      385
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "432;",
+    "bbox": [
+      109,
+      386,
+      149,
+      402
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, ArTara wishes to use the Program Data (as defined below) collected from the Program, conduct research analysis of the Data",
+    "bbox": [
+      180,
+      404,
+      1000,
+      417
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and potentially rely on said Program Data to support Regulatory Approvals (as defined below) for TARA-o02 in the Territory (as defined below);",
+    "bbox": [
+      113,
+      421,
+      1000,
+      433
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      111,
+      436,
+      142,
+      448
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, the copying, review and analysis of Program Data for the Project (as defined below) contemplated by this Agreement is of",
+    "bbox": [
+      179,
+      452,
+      1000,
+      465
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "mutual interest and benefit to University and ArTara.",
+    "bbox": [
+      111,
+      469,
+      508,
+      480
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the foregoing premises and the mutual covenants and agreements contained herein, the Parties",
+    "bbox": [
+      178,
+      484,
+      1000,
+      497
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "agree as follows:",
+    "bbox": [
+      111,
+      502,
+      236,
+      512
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ARTICLE ONE",
+    "bbox": [
+      609,
+      517,
+      724,
+      527
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      610,
+      533,
+      723,
+      543
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      109,
+      547,
+      134,
+      561
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Affiliates\"' of a person or entity means any other entity which (directly or indirectly) is controlled by, controls or is under common control",
+    "bbox": [
+      179,
+      548,
+      1000,
+      561
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"controlled by' and \"under common control with'') as used with respect to an entity will mean (i) in the case of a corporate entity, direct or",
+    "bbox": [
+      179,
+      580,
+      1000,
+      593
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "indirect ownership of voting securities entitled to cast at least fifty percent (50%) of the votes in the election of directors, or (ii) in the case",
+    "bbox": [
+      179,
+      597,
+      1000,
+      609
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of a non-corporate entity, direct or indirect ownership of at least fifty percent (50%) of the equity interests with the power to direct the",
+    "bbox": [
+      179,
+      613,
+      1000,
+      625
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "management and policies of such entity, provided that if local law restricts foreign ownership, control will be established by direct or",
+    "bbox": [
+      179,
+      628,
+      1000,
+      640
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "indirect ownership of the maximum ownership percentage that may, under such local law, be owned by foreign interests..",
+    "bbox": [
+      179,
+      645,
+      1000,
+      657
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      662,
+      677,
+      672,
+      686
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

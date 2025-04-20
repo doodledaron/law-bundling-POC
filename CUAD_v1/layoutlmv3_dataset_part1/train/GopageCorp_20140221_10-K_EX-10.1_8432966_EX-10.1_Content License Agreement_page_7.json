@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Licensee shall make such books and records, and appropriate personnel, available during normal business hours for audit by Licensor or its authorized",
+    "bbox": [
+      100,
+      189,
+      1000,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "representative; provided that Licensor shall:.",
+    "bbox": [
+      100,
+      206,
+      432,
+      218
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a) provide Licensee with reasonable prior notice of any audit;.",
+    "bbox": [
+      186,
+      238,
+      651,
+      250
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(b) undertake an audit no more than once per calendar year, unless a prior audit has disclosed a balance due; and.",
+    "bbox": [
+      186,
+      270,
+      1000,
+      282
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c) conduct or cause to be conducted such audit in a manner designed to minimize disruption of Licensee's normal business operations",
+    "bbox": [
+      185,
+      301,
+      1000,
+      314
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "text": "3. Term of this Agreement. This Agreement shall be valid for five (5) years from February 1, 2019 through January 31, 2024 unless this Agreement",
+    "bbox": [
+      111,
+      249,
+      1000,
+      261
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "is terminated earlier pursuant to Section 14 (the \"Term'). For the purpose of clarity, the second year of this Agreement starts February 1, 2020, and",
+    "bbox": [
+      111,
+      265,
+      1000,
+      277
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "5.1 Allied grants Newegg a non-exclusive, royalty-free, non-assignable, non-transferable, and non- sublicensable worldwide license to",
+    "bbox": [
+      179,
+      472,
+      1000,
+      485
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "use, publicly display, transmit, broadcast, stream, distribute and reproduce the Allied Marks in all approved forms and in manners for the purposes",
+    "bbox": [
+      111,
+      489,
+      1000,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of this Agreement during the Term. Allied acknowledges and agrees that Newegg shall not pay any fees or royalties for the license of the Allied.",
+    "bbox": [
+      112,
+      505,
+      1000,
+      517
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "5.1 Allied grants Newegg a non-exclusive, royalty-free, non-assignable, non-transferable, and non- sublicensable worldwide license to",
+    "bbox": [
+      179,
+      472,
+      1000,
+      485
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "use, publicly display, transmit, broadcast, stream, distribute and reproduce the Allied Marks in all approved forms and in manners for the purposes",
+    "bbox": [
+      111,
+      489,
+      1000,
+      501
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of this Agreement during the Term. Allied acknowledges and agrees that Newegg shall not pay any fees or royalties for the license of the Allied.",
+    "bbox": [
+      112,
+      505,
+      1000,
+      517
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  }
+]

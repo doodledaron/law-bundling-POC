@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Hereinafter individually referred to as the \"Party' or collectively as the \"Parties\"",
+    "bbox": [
+      111,
+      480,
+      721,
+      492
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AZUL LINHAS AEREAS BRASILEIRAS S/A, a company incorporated under the laws of Brazil, the registered office of which is located at Avenida",
+    "bbox": [
+      110,
+      206,
+      1000,
+      221
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Hereafter referred to as the \"Repairer' or \"ATR',",
+    "bbox": [
+      111,
+      432,
+      479,
+      444
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This amendment (hereinafter referred to as the \"Amendment') is entered into on January 6th, 2016.",
+    "bbox": [
+      111,
+      143,
+      850,
+      156
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This amendment (hereinafter referred to as the \"Amendment') is entered into on January 6th, 2016.",
+    "bbox": [
+      111,
+      143,
+      850,
+      156
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

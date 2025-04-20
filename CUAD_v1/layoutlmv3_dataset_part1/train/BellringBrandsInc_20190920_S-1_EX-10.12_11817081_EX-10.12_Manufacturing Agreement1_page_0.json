@@ -1,0 +1,3016 @@
+[
+  {
+    "text": "MANUFACTURING AGREEMENT",
+    "bbox": [
+      545,
+      190,
+      800,
+      199
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(each a \"Party\", collectively, the \"Parties')..",
+    "bbox": [
+      112,
+      268,
+      422,
+      278
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "PREMIER NUTRITION CORPORATION",
+    "bbox": [
+      518,
+      174,
+      825,
+      183
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Foods, LLC (\"Heritage\"), a Delaware limited liability company with an address of 4002 Westminster Avenue, Santa Ana, CA 92703 and PREMIER",
+    "bbox": [
+      111,
+      236,
+      1000,
+      248
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "PREMIER NUTRITION CORPORATION",
+    "bbox": [
+      518,
+      174,
+      825,
+      183
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "STREMICK HERITAGE FOODS, LLC and",
+    "bbox": [
+      515,
+      158,
+      829,
+      169
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.12",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(1) HLON RI LI HSNVNHN TALLINO NEIN SRH I**+ AN CTNVNI LNENNMON SHHL NI IINIVLNOO NOILRNNOINI IARILNANI NIVLNIN",
+    "bbox": [
+      123,
+      110,
+      1000,
+      123
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOT MATERIAL AND (2) WOULD LIKELY CAUSE COMPETITIVE HARM TO THE COMPANY IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      207,
+      127,
+      1000,
+      137
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "STREMICK HERITAGE FOODS, LLC and",
+    "bbox": [
+      515,
+      158,
+      829,
+      169
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "PREMIER NUTRITION CORPORATION",
+    "bbox": [
+      518,
+      174,
+      825,
+      183
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "MANUFACTURING AGREEMENT",
+    "bbox": [
+      545,
+      190,
+      800,
+      199
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Foods, LLC (\"Heritage\"), a Delaware limited liability company with an address of 4002 Westminster Avenue, Santa Ana, CA 92703 and PREMIER",
+    "bbox": [
+      111,
+      236,
+      1000,
+      248
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NUTRITION CORPORATION (\"Premier'), a Delaware corporation with a principal place of business at 5905 Christie Avenue, Emeryville, California 94608",
+    "bbox": [
+      111,
+      251,
+      1000,
+      263
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(each a \"Party\", collectively, the \"Parties')..",
+    "bbox": [
+      112,
+      268,
+      422,
+      278
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Heritage is engaged in the business of producing food products on a contract basis and desires to produce Products (as defined",
+    "bbox": [
+      156,
+      297,
+      1000,
+      310
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "below) for Premier at its facilities in [***] as well as at its majority-owned subsidiary, Jasper Products, L.L.C. (\"Jasper') in [***];",
+    "bbox": [
+      110,
+      311,
+      1000,
+      327
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Premier is the owner of certain proprietary formulations, manufacturing processes and techniques and wishes to have Product",
+    "bbox": [
+      157,
+      344,
+      1000,
+      357
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "manufactured and packaged by Heritage in accordance with the terms and conditions set forth herein;",
+    "bbox": [
+      111,
+      360,
+      855,
+      372
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants contained herein and intending to be legally bound, the Parties agree as follows:",
+    "bbox": [
+      155,
+      390,
+      1000,
+      403
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      154,
+      407,
+      171,
+      418
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "BASIC TERMS",
+    "bbox": [
+      210,
+      407,
+      327,
+      417
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(a) This Section contains the basic terms of this Agreement between Heritage and Premier. All other provisions of this Agreement are to be",
+    "bbox": [
+      212,
+      430,
+      1000,
+      442
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "read in accordance with the provisions herein contained.",
+    "bbox": [
+      112,
+      446,
+      523,
+      456
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      250,
+      459,
+      268,
+      475
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Commencement Date",
+    "bbox": [
+      293,
+      461,
+      447,
+      472
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "July 1, 2017",
+    "bbox": [
+      594,
+      459,
+      681,
+      473
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      250,
+      483,
+      272,
+      497
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Termination Date.",
+    "bbox": [
+      293,
+      484,
+      419,
+      495
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "December 31, 2022",
+    "bbox": [
+      596,
+      484,
+      730,
+      495
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      250,
+      507,
+      276,
+      520
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Product Descriptions",
+    "bbox": [
+      293,
+      508,
+      448,
+      519
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule A (2(a))",
+    "bbox": [
+      594,
+      506,
+      722,
+      520
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      250,
+      531,
+      277,
+      543
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Records",
+    "bbox": [
+      292,
+      530,
+      356,
+      542
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule B (2(i), 3(e))",
+    "bbox": [
+      596,
+      531,
+      752,
+      542
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      250,
+      554,
+      274,
+      567
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Ingredients/Materials/Packaging",
+    "bbox": [
+      293,
+      553,
+      532,
+      567
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Purchased by Premier",
+    "bbox": [
+      294,
+      570,
+      452,
+      581
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C (3(b))",
+    "bbox": [
+      594,
+      569,
+      722,
+      583
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(vi)",
+    "bbox": [
+      251,
+      594,
+      277,
+      606
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Ingredient/Materials/Packaging",
+    "bbox": [
+      291,
+      593,
+      524,
+      607
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Purchased by Heritage",
+    "bbox": [
+      293,
+      608,
+      460,
+      622
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C (3(c))",
+    "bbox": [
+      594,
+      608,
+      721,
+      622
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(vii)",
+    "bbox": [
+      252,
+      635,
+      282,
+      644
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": ")Material loss allowance",
+    "bbox": [
+      275,
+      633,
+      464,
+      644
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C",
+    "bbox": [
+      596,
+      633,
+      679,
+      644
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(viii) Pricing and terms",
+    "bbox": [
+      252,
+      658,
+      420,
+      669
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C, 3(d)",
+    "bbox": [
+      596,
+      657,
+      714,
+      668
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(ix)",
+    "bbox": [
+      251,
+      681,
+      274,
+      692
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Premier Contacts",
+    "bbox": [
+      293,
+      681,
+      417,
+      691
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule D",
+    "bbox": [
+      596,
+      680,
+      680,
+      691
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(x)",
+    "bbox": [
+      250,
+      703,
+      270,
+      716
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Post Holdings' Quality Expectations",
+    "bbox": [
+      293,
+      704,
+      557,
+      716
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Manual",
+    "bbox": [
+      311,
+      719,
+      369,
+      730
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule E",
+    "bbox": [
+      596,
+      718,
+      678,
+      729
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      734,
+      678,
+      746
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      134,
+      1000,
+      527,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.12",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(1) HLON RI LI HSNVNHN TALLINO NEIN SRH I**+ AN CTNVNI LNENNMON SHHL NI IINIVLNOO NOILRNNOINI IARILNANI NIVLNIN",
+    "bbox": [
+      123,
+      110,
+      1000,
+      123
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOT MATERIAL AND (2) WOULD LIKELY CAUSE COMPETITIVE HARM TO THE COMPANY IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      207,
+      127,
+      1000,
+      137
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "STREMICK HERITAGE FOODS, LLC and",
+    "bbox": [
+      515,
+      158,
+      829,
+      169
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "PREMIER NUTRITION CORPORATION",
+    "bbox": [
+      518,
+      174,
+      825,
+      183
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "MANUFACTURING AGREEMENT",
+    "bbox": [
+      545,
+      190,
+      800,
+      199
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Foods, LLC (\"Heritage\"), a Delaware limited liability company with an address of 4002 Westminster Avenue, Santa Ana, CA 92703 and PREMIER",
+    "bbox": [
+      111,
+      236,
+      1000,
+      248
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NUTRITION CORPORATION (\"Premier'), a Delaware corporation with a principal place of business at 5905 Christie Avenue, Emeryville, California 94608",
+    "bbox": [
+      111,
+      251,
+      1000,
+      263
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(each a \"Party\", collectively, the \"Parties')..",
+    "bbox": [
+      112,
+      268,
+      422,
+      278
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Heritage is engaged in the business of producing food products on a contract basis and desires to produce Products (as defined",
+    "bbox": [
+      156,
+      297,
+      1000,
+      310
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "below) for Premier at its facilities in [***] as well as at its majority-owned subsidiary, Jasper Products, L.L.C. (\"Jasper') in [***];",
+    "bbox": [
+      110,
+      311,
+      1000,
+      327
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Premier is the owner of certain proprietary formulations, manufacturing processes and techniques and wishes to have Product",
+    "bbox": [
+      157,
+      344,
+      1000,
+      357
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "manufactured and packaged by Heritage in accordance with the terms and conditions set forth herein;",
+    "bbox": [
+      111,
+      360,
+      855,
+      372
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants contained herein and intending to be legally bound, the Parties agree as follows:",
+    "bbox": [
+      155,
+      390,
+      1000,
+      403
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      154,
+      407,
+      171,
+      418
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "BASIC TERMS",
+    "bbox": [
+      210,
+      407,
+      327,
+      417
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(a) This Section contains the basic terms of this Agreement between Heritage and Premier. All other provisions of this Agreement are to be",
+    "bbox": [
+      212,
+      430,
+      1000,
+      442
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "read in accordance with the provisions herein contained.",
+    "bbox": [
+      112,
+      446,
+      523,
+      456
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      250,
+      459,
+      268,
+      475
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Commencement Date",
+    "bbox": [
+      293,
+      461,
+      447,
+      472
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "July 1, 2017",
+    "bbox": [
+      594,
+      459,
+      681,
+      473
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      250,
+      483,
+      272,
+      497
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Termination Date.",
+    "bbox": [
+      293,
+      484,
+      419,
+      495
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "December 31, 2022",
+    "bbox": [
+      596,
+      484,
+      730,
+      495
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      250,
+      507,
+      276,
+      520
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Product Descriptions",
+    "bbox": [
+      293,
+      508,
+      448,
+      519
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule A (2(a))",
+    "bbox": [
+      594,
+      506,
+      722,
+      520
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      250,
+      531,
+      277,
+      543
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Records",
+    "bbox": [
+      292,
+      530,
+      356,
+      542
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule B (2(i), 3(e))",
+    "bbox": [
+      596,
+      531,
+      752,
+      542
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      250,
+      554,
+      274,
+      567
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Ingredients/Materials/Packaging",
+    "bbox": [
+      293,
+      553,
+      532,
+      567
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Purchased by Premier",
+    "bbox": [
+      294,
+      570,
+      452,
+      581
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C (3(b))",
+    "bbox": [
+      594,
+      569,
+      722,
+      583
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(vi)",
+    "bbox": [
+      251,
+      594,
+      277,
+      606
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Ingredient/Materials/Packaging",
+    "bbox": [
+      291,
+      593,
+      524,
+      607
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Purchased by Heritage",
+    "bbox": [
+      293,
+      608,
+      460,
+      622
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C (3(c))",
+    "bbox": [
+      594,
+      608,
+      721,
+      622
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(vii)",
+    "bbox": [
+      252,
+      635,
+      282,
+      644
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": ")Material loss allowance",
+    "bbox": [
+      275,
+      633,
+      464,
+      644
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C",
+    "bbox": [
+      596,
+      633,
+      679,
+      644
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(viii) Pricing and terms",
+    "bbox": [
+      252,
+      658,
+      420,
+      669
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule C, 3(d)",
+    "bbox": [
+      596,
+      657,
+      714,
+      668
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(ix)",
+    "bbox": [
+      251,
+      681,
+      274,
+      692
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Premier Contacts",
+    "bbox": [
+      293,
+      681,
+      417,
+      691
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule D",
+    "bbox": [
+      596,
+      680,
+      680,
+      691
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(x)",
+    "bbox": [
+      250,
+      703,
+      270,
+      716
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Post Holdings' Quality Expectations",
+    "bbox": [
+      293,
+      704,
+      557,
+      716
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Manual",
+    "bbox": [
+      311,
+      719,
+      369,
+      730
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Schedule E",
+    "bbox": [
+      596,
+      718,
+      678,
+      729
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      734,
+      678,
+      746
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      134,
+      1000,
+      527,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.12",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(1) HLON RI LI HSNVNHN TALLINO NEIN SRH I**+ AN CTNVNI LNENNMON SHHL NI IINIVLNOO NOILRNNOINI IARILNANI NIVLNIN",
+    "bbox": [
+      123,
+      110,
+      1000,
+      123
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NOT MATERIAL AND (2) WOULD LIKELY CAUSE COMPETITIVE HARM TO THE COMPANY IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      207,
+      127,
+      1000,
+      137
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "STREMICK HERITAGE FOODS, LLC and",
+    "bbox": [
+      515,
+      158,
+      829,
+      169
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "PREMIER NUTRITION CORPORATION",
+    "bbox": [
+      518,
+      174,
+      825,
+      183
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "MANUFACTURING AGREEMENT",
+    "bbox": [
+      545,
+      190,
+      800,
+      199
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Foods, LLC (\"Heritage\"), a Delaware limited liability company with an address of 4002 Westminster Avenue, Santa Ana, CA 92703 and PREMIER",
+    "bbox": [
+      111,
+      236,
+      1000,
+      248
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NUTRITION CORPORATION (\"Premier'), a Delaware corporation with a principal place of business at 5905 Christie Avenue, Emeryville, California 94608",
+    "bbox": [
+      111,
+      251,
+      1000,
+      263
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(each a \"Party\", collectively, the \"Parties')..",
+    "bbox": [
+      112,
+      268,
+      422,
+      278
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, Heritage is engaged in the business of producing food products on a contract basis and desires to produce Products (as defined",
+    "bbox": [
+      156,
+      297,
+      1000,
+      310
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "below) for Premier at its facilities in [***] as well as at its majority-owned subsidiary, Jasper Products, L.L.C. (\"Jasper') in [***];",
+    "bbox": [
+      110,
+      311,
+      1000,
+      327
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, Premier is the owner of certain proprietary formulations, manufacturing processes and techniques and wishes to have Product",
+    "bbox": [
+      157,
+      344,
+      1000,
+      357
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "manufactured and packaged by Heritage in accordance with the terms and conditions set forth herein;",
+    "bbox": [
+      111,
+      360,
+      855,
+      372
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants contained herein and intending to be legally bound, the Parties agree as follows:",
+    "bbox": [
+      155,
+      390,
+      1000,
+      403
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      154,
+      407,
+      171,
+      418
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "BASIC TERMS",
+    "bbox": [
+      210,
+      407,
+      327,
+      417
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(a) This Section contains the basic terms of this Agreement between Heritage and Premier. All other provisions of this Agreement are to be",
+    "bbox": [
+      212,
+      430,
+      1000,
+      442
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "read in accordance with the provisions herein contained.",
+    "bbox": [
+      112,
+      446,
+      523,
+      456
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      250,
+      459,
+      268,
+      475
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Commencement Date",
+    "bbox": [
+      293,
+      461,
+      447,
+      472
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "July 1, 2017",
+    "bbox": [
+      594,
+      459,
+      681,
+      473
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      250,
+      483,
+      272,
+      497
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Termination Date.",
+    "bbox": [
+      293,
+      484,
+      419,
+      495
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "December 31, 2022",
+    "bbox": [
+      596,
+      484,
+      730,
+      495
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      250,
+      507,
+      276,
+      520
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Product Descriptions",
+    "bbox": [
+      293,
+      508,
+      448,
+      519
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule A (2(a))",
+    "bbox": [
+      594,
+      506,
+      722,
+      520
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      250,
+      531,
+      277,
+      543
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Records",
+    "bbox": [
+      292,
+      530,
+      356,
+      542
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule B (2(i), 3(e))",
+    "bbox": [
+      596,
+      531,
+      752,
+      542
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      250,
+      554,
+      274,
+      567
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Ingredients/Materials/Packaging",
+    "bbox": [
+      293,
+      553,
+      532,
+      567
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Purchased by Premier",
+    "bbox": [
+      294,
+      570,
+      452,
+      581
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule C (3(b))",
+    "bbox": [
+      594,
+      569,
+      722,
+      583
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(vi)",
+    "bbox": [
+      251,
+      594,
+      277,
+      606
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Ingredient/Materials/Packaging",
+    "bbox": [
+      291,
+      593,
+      524,
+      607
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Purchased by Heritage",
+    "bbox": [
+      293,
+      608,
+      460,
+      622
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule C (3(c))",
+    "bbox": [
+      594,
+      608,
+      721,
+      622
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(vii)",
+    "bbox": [
+      252,
+      635,
+      282,
+      644
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": ")Material loss allowance",
+    "bbox": [
+      275,
+      633,
+      464,
+      644
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule C",
+    "bbox": [
+      596,
+      633,
+      679,
+      644
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(viii) Pricing and terms",
+    "bbox": [
+      252,
+      658,
+      420,
+      669
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule C, 3(d)",
+    "bbox": [
+      596,
+      657,
+      714,
+      668
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(ix)",
+    "bbox": [
+      251,
+      681,
+      274,
+      692
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Premier Contacts",
+    "bbox": [
+      293,
+      681,
+      417,
+      691
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule D",
+    "bbox": [
+      596,
+      680,
+      680,
+      691
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(x)",
+    "bbox": [
+      250,
+      703,
+      270,
+      716
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Post Holdings' Quality Expectations",
+    "bbox": [
+      293,
+      704,
+      557,
+      716
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Manual",
+    "bbox": [
+      311,
+      719,
+      369,
+      730
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule E",
+    "bbox": [
+      596,
+      718,
+      678,
+      729
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      734,
+      678,
+      746
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      134,
+      1000,
+      527,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Exhibit 10.12",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(1) HLON RI LI HSNVNHN TALLINO NEIN SRH I**+ AN CTNVNI LNENNMON SHHL NI IINIVLNOO NOILRNNOINI IARILNANI NIVLNIN",
+    "bbox": [
+      123,
+      110,
+      1000,
+      123
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOT MATERIAL AND (2) WOULD LIKELY CAUSE COMPETITIVE HARM TO THE COMPANY IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      207,
+      127,
+      1000,
+      137
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "STREMICK HERITAGE FOODS, LLC and",
+    "bbox": [
+      515,
+      158,
+      829,
+      169
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "PREMIER NUTRITION CORPORATION",
+    "bbox": [
+      518,
+      174,
+      825,
+      183
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "MANUFACTURING AGREEMENT",
+    "bbox": [
+      545,
+      190,
+      800,
+      199
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Foods, LLC (\"Heritage\"), a Delaware limited liability company with an address of 4002 Westminster Avenue, Santa Ana, CA 92703 and PREMIER",
+    "bbox": [
+      111,
+      236,
+      1000,
+      248
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NUTRITION CORPORATION (\"Premier'), a Delaware corporation with a principal place of business at 5905 Christie Avenue, Emeryville, California 94608",
+    "bbox": [
+      111,
+      251,
+      1000,
+      263
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(each a \"Party\", collectively, the \"Parties')..",
+    "bbox": [
+      112,
+      268,
+      422,
+      278
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, Heritage is engaged in the business of producing food products on a contract basis and desires to produce Products (as defined",
+    "bbox": [
+      156,
+      297,
+      1000,
+      310
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "below) for Premier at its facilities in [***] as well as at its majority-owned subsidiary, Jasper Products, L.L.C. (\"Jasper') in [***];",
+    "bbox": [
+      110,
+      311,
+      1000,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, Premier is the owner of certain proprietary formulations, manufacturing processes and techniques and wishes to have Product",
+    "bbox": [
+      157,
+      344,
+      1000,
+      357
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manufactured and packaged by Heritage in accordance with the terms and conditions set forth herein;",
+    "bbox": [
+      111,
+      360,
+      855,
+      372
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants contained herein and intending to be legally bound, the Parties agree as follows:",
+    "bbox": [
+      155,
+      390,
+      1000,
+      403
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      154,
+      407,
+      171,
+      418
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "BASIC TERMS",
+    "bbox": [
+      210,
+      407,
+      327,
+      417
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a) This Section contains the basic terms of this Agreement between Heritage and Premier. All other provisions of this Agreement are to be",
+    "bbox": [
+      212,
+      430,
+      1000,
+      442
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "read in accordance with the provisions herein contained.",
+    "bbox": [
+      112,
+      446,
+      523,
+      456
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      250,
+      459,
+      268,
+      475
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Commencement Date",
+    "bbox": [
+      293,
+      461,
+      447,
+      472
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "July 1, 2017",
+    "bbox": [
+      594,
+      459,
+      681,
+      473
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      250,
+      483,
+      272,
+      497
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Termination Date.",
+    "bbox": [
+      293,
+      484,
+      419,
+      495
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "December 31, 2022",
+    "bbox": [
+      596,
+      484,
+      730,
+      495
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      250,
+      507,
+      276,
+      520
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Product Descriptions",
+    "bbox": [
+      293,
+      508,
+      448,
+      519
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule A (2(a))",
+    "bbox": [
+      594,
+      506,
+      722,
+      520
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      250,
+      531,
+      277,
+      543
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Records",
+    "bbox": [
+      292,
+      530,
+      356,
+      542
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule B (2(i), 3(e))",
+    "bbox": [
+      596,
+      531,
+      752,
+      542
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      250,
+      554,
+      274,
+      567
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ingredients/Materials/Packaging",
+    "bbox": [
+      293,
+      553,
+      532,
+      567
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Purchased by Premier",
+    "bbox": [
+      294,
+      570,
+      452,
+      581
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule C (3(b))",
+    "bbox": [
+      594,
+      569,
+      722,
+      583
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(vi)",
+    "bbox": [
+      251,
+      594,
+      277,
+      606
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ingredient/Materials/Packaging",
+    "bbox": [
+      291,
+      593,
+      524,
+      607
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Purchased by Heritage",
+    "bbox": [
+      293,
+      608,
+      460,
+      622
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule C (3(c))",
+    "bbox": [
+      594,
+      608,
+      721,
+      622
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(vii)",
+    "bbox": [
+      252,
+      635,
+      282,
+      644
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": ")Material loss allowance",
+    "bbox": [
+      275,
+      633,
+      464,
+      644
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule C",
+    "bbox": [
+      596,
+      633,
+      679,
+      644
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(viii) Pricing and terms",
+    "bbox": [
+      252,
+      658,
+      420,
+      669
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule C, 3(d)",
+    "bbox": [
+      596,
+      657,
+      714,
+      668
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ix)",
+    "bbox": [
+      251,
+      681,
+      274,
+      692
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Premier Contacts",
+    "bbox": [
+      293,
+      681,
+      417,
+      691
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule D",
+    "bbox": [
+      596,
+      680,
+      680,
+      691
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(x)",
+    "bbox": [
+      250,
+      703,
+      270,
+      716
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Post Holdings' Quality Expectations",
+    "bbox": [
+      293,
+      704,
+      557,
+      716
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Manual",
+    "bbox": [
+      311,
+      719,
+      369,
+      730
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule E",
+    "bbox": [
+      596,
+      718,
+      678,
+      729
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      734,
+      678,
+      746
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      134,
+      1000,
+      527,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Exhibit 10.12",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(1) HLON RI LI HSNVNHN TALLINO NEIN SRH I**+ AN CTNVNI LNENNMON SHHL NI IINIVLNOO NOILRNNOINI IARILNANI NIVLNIN",
+    "bbox": [
+      123,
+      110,
+      1000,
+      123
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOT MATERIAL AND (2) WOULD LIKELY CAUSE COMPETITIVE HARM TO THE COMPANY IF PUBLICLY DISCLOSED.",
+    "bbox": [
+      207,
+      127,
+      1000,
+      137
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "STREMICK HERITAGE FOODS, LLC and",
+    "bbox": [
+      515,
+      158,
+      829,
+      169
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "PREMIER NUTRITION CORPORATION",
+    "bbox": [
+      518,
+      174,
+      825,
+      183
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "MANUFACTURING AGREEMENT",
+    "bbox": [
+      545,
+      190,
+      800,
+      199
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "THIS MANUFACTURING AGREEMENT (the \"Agreement') is made this first day of July, 2017 (the \"Effective Date') between Stremicks Heritage.",
+    "bbox": [
+      157,
+      219,
+      1000,
+      232
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Foods, LLC (\"Heritage\"), a Delaware limited liability company with an address of 4002 Westminster Avenue, Santa Ana, CA 92703 and PREMIER",
+    "bbox": [
+      111,
+      236,
+      1000,
+      248
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NUTRITION CORPORATION (\"Premier'), a Delaware corporation with a principal place of business at 5905 Christie Avenue, Emeryville, California 94608",
+    "bbox": [
+      111,
+      251,
+      1000,
+      263
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(each a \"Party\", collectively, the \"Parties')..",
+    "bbox": [
+      112,
+      268,
+      422,
+      278
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Heritage is engaged in the business of producing food products on a contract basis and desires to produce Products (as defined",
+    "bbox": [
+      156,
+      297,
+      1000,
+      310
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "below) for Premier at its facilities in [***] as well as at its majority-owned subsidiary, Jasper Products, L.L.C. (\"Jasper') in [***];",
+    "bbox": [
+      110,
+      311,
+      1000,
+      327
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Premier is the owner of certain proprietary formulations, manufacturing processes and techniques and wishes to have Product",
+    "bbox": [
+      157,
+      344,
+      1000,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "manufactured and packaged by Heritage in accordance with the terms and conditions set forth herein;",
+    "bbox": [
+      111,
+      360,
+      855,
+      372
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants contained herein and intending to be legally bound, the Parties agree as follows:",
+    "bbox": [
+      155,
+      390,
+      1000,
+      403
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      154,
+      407,
+      171,
+      418
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "BASIC TERMS",
+    "bbox": [
+      210,
+      407,
+      327,
+      417
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a) This Section contains the basic terms of this Agreement between Heritage and Premier. All other provisions of this Agreement are to be",
+    "bbox": [
+      212,
+      430,
+      1000,
+      442
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "read in accordance with the provisions herein contained.",
+    "bbox": [
+      112,
+      446,
+      523,
+      456
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      250,
+      459,
+      268,
+      475
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Commencement Date",
+    "bbox": [
+      293,
+      461,
+      447,
+      472
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "July 1, 2017",
+    "bbox": [
+      594,
+      459,
+      681,
+      473
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      250,
+      483,
+      272,
+      497
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Termination Date.",
+    "bbox": [
+      293,
+      484,
+      419,
+      495
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "December 31, 2022",
+    "bbox": [
+      596,
+      484,
+      730,
+      495
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      250,
+      507,
+      276,
+      520
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Product Descriptions",
+    "bbox": [
+      293,
+      508,
+      448,
+      519
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule A (2(a))",
+    "bbox": [
+      594,
+      506,
+      722,
+      520
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      250,
+      531,
+      277,
+      543
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Records",
+    "bbox": [
+      292,
+      530,
+      356,
+      542
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule B (2(i), 3(e))",
+    "bbox": [
+      596,
+      531,
+      752,
+      542
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      250,
+      554,
+      274,
+      567
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Ingredients/Materials/Packaging",
+    "bbox": [
+      293,
+      553,
+      532,
+      567
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Purchased by Premier",
+    "bbox": [
+      294,
+      570,
+      452,
+      581
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule C (3(b))",
+    "bbox": [
+      594,
+      569,
+      722,
+      583
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(vi)",
+    "bbox": [
+      251,
+      594,
+      277,
+      606
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Ingredient/Materials/Packaging",
+    "bbox": [
+      291,
+      593,
+      524,
+      607
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Purchased by Heritage",
+    "bbox": [
+      293,
+      608,
+      460,
+      622
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule C (3(c))",
+    "bbox": [
+      594,
+      608,
+      721,
+      622
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(vii)",
+    "bbox": [
+      252,
+      635,
+      282,
+      644
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": ")Material loss allowance",
+    "bbox": [
+      275,
+      633,
+      464,
+      644
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule C",
+    "bbox": [
+      596,
+      633,
+      679,
+      644
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(viii) Pricing and terms",
+    "bbox": [
+      252,
+      658,
+      420,
+      669
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule C, 3(d)",
+    "bbox": [
+      596,
+      657,
+      714,
+      668
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(ix)",
+    "bbox": [
+      251,
+      681,
+      274,
+      692
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Premier Contacts",
+    "bbox": [
+      293,
+      681,
+      417,
+      691
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule D",
+    "bbox": [
+      596,
+      680,
+      680,
+      691
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(x)",
+    "bbox": [
+      250,
+      703,
+      270,
+      716
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Post Holdings' Quality Expectations",
+    "bbox": [
+      293,
+      704,
+      557,
+      716
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Manual",
+    "bbox": [
+      311,
+      719,
+      369,
+      730
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule E",
+    "bbox": [
+      596,
+      718,
+      678,
+      729
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      734,
+      678,
+      746
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      134,
+      1000,
+      527,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

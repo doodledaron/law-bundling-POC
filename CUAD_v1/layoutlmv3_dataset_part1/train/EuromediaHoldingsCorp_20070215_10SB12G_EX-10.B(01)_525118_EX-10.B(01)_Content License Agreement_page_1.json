@@ -1,0 +1,1993 @@
+[
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      119,
+      203,
+      134
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "In the event that Licensor grants to another VOD or Pay-Per-View (\"PPy') service provider in the U.S. or the Territory the right to.",
+    "bbox": [
+      247,
+      121,
+      1000,
+      133
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "distribute or exhibit any Licensed Program on an earlier availability date, then Licensor shall also grant to Rogers the right to",
+    "bbox": [
+      247,
+      136,
+      1000,
+      149
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "distribute and exhibit such Licensed Program on such earlier availability date, on the terms provided herein.",
+    "bbox": [
+      247,
+      152,
+      1000,
+      165
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      188,
+      200,
+      202
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Licensor shall not authorize the distribution or exhibition of any Licensed Program by any other means, including, without",
+    "bbox": [
+      246,
+      188,
+      1000,
+      201
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "limitation, television (other than PPV) and internet, for a period of ninety (90) consecutive days following such Licensed",
+    "bbox": [
+      247,
+      204,
+      1000,
+      217
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Program's VOD availability date..",
+    "bbox": [
+      247,
+      221,
+      490,
+      233
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      179,
+      256,
+      192,
+      268
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "LICENSE PERIOD.",
+    "bbox": [
+      246,
+      257,
+      395,
+      267
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of",
+    "bbox": [
+      180,
+      296,
+      1000,
+      308
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the \"License Period').",
+    "bbox": [
+      180,
+      312,
+      1000,
+      324
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      178,
+      348,
+      193,
+      360
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "VIEWING PERIOD.",
+    "bbox": [
+      248,
+      349,
+      399,
+      359
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The viewing period for each Licensed Program shall be at least twenty-four (24) consecutive hours, or such longer period as may be.",
+    "bbox": [
+      179,
+      388,
+      1000,
+      401
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "agreed to by Rogers and Licensor from time to time (the \"Viewing Period'). Multiple viewings of the Licensed Program shall be permitted",
+    "bbox": [
+      180,
+      405,
+      1000,
+      417
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "during the Viewing Period for no additional fee and all such viewings shall be considered a single exhibition of the Licensed Program for.",
+    "bbox": [
+      180,
+      421,
+      1000,
+      433
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the purposes of calculating License Fees hereunder..",
+    "bbox": [
+      180,
+      437,
+      570,
+      449
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      178,
+      472,
+      193,
+      485
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "LICENSE FEES.",
+    "bbox": [
+      247,
+      473,
+      369,
+      483
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      512,
+      201,
+      526
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Rogers shall pay to Licensor a fee (the \"License Fee\"), which shall be equal to fifty (50)% of Retail Revenues.",
+    "bbox": [
+      247,
+      511,
+      1000,
+      525
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "For the purposes of this Agreement, \"Retail Revenues\"' means the retail revenues actually received by Rogers for each authorized.",
+    "bbox": [
+      247,
+      553,
+      1000,
+      565
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "exhibition of a Licensed Program on the ROD Service, less GST and applicable sales tax. For greater certainty, Retail Revenues",
+    "bbox": [
+      248,
+      569,
+      1000,
+      581
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "shall not include any fees payable to Rogers for: (i) the purchase, rental or installation of a digital terminal; (ii) any basic or",
+    "bbox": [
+      247,
+      584,
+      1000,
+      597
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "premium television services; or (iii) digital cable access.",
+    "bbox": [
+      247,
+      601,
+      662,
+      612
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      635,
+      203,
+      650
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Notwithstanding Section 6(a) above,.",
+    "bbox": [
+      247,
+      637,
+      522,
+      649
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      675,
+      265,
+      690
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Prior to calculating License Fees, Rogers shall be entitled to deduct from Retail Revenues on a rolling monthly basis",
+    "bbox": [
+      315,
+      677,
+      1000,
+      689
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "during the Term (\"Rogers Costs'):.",
+    "bbox": [
+      314,
+      692,
+      572,
+      705
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(A)",
+    "bbox": [
+      314,
+      727,
+      343,
+      742
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the value of programming credits, rebates or other retail price discounts provided to ROD Service subscribers",
+    "bbox": [
+      383,
+      728,
+      1000,
+      741
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "in conjunction with a public marketing or promotional initiative;",
+    "bbox": [
+      383,
+      746,
+      860,
+      756
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "-2-",
+    "bbox": [
+      656,
+      780,
+      676,
+      791
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: EUROMEDIA HOLDINGS CORP, 10SB12G, 2/15/2007",
+    "bbox": [
+      133,
+      1000,
+      616,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      119,
+      203,
+      134
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "In the event that Licensor grants to another VOD or Pay-Per-View (\"PPy') service provider in the U.S. or the Territory the right to.",
+    "bbox": [
+      247,
+      121,
+      1000,
+      133
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "distribute or exhibit any Licensed Program on an earlier availability date, then Licensor shall also grant to Rogers the right to",
+    "bbox": [
+      247,
+      136,
+      1000,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "distribute and exhibit such Licensed Program on such earlier availability date, on the terms provided herein.",
+    "bbox": [
+      247,
+      152,
+      1000,
+      165
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      188,
+      200,
+      202
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Licensor shall not authorize the distribution or exhibition of any Licensed Program by any other means, including, without",
+    "bbox": [
+      246,
+      188,
+      1000,
+      201
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "limitation, television (other than PPV) and internet, for a period of ninety (90) consecutive days following such Licensed",
+    "bbox": [
+      247,
+      204,
+      1000,
+      217
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Program's VOD availability date..",
+    "bbox": [
+      247,
+      221,
+      490,
+      233
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      179,
+      256,
+      192,
+      268
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE PERIOD.",
+    "bbox": [
+      246,
+      257,
+      395,
+      267
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of",
+    "bbox": [
+      180,
+      296,
+      1000,
+      308
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the \"License Period').",
+    "bbox": [
+      180,
+      312,
+      1000,
+      324
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      178,
+      348,
+      193,
+      360
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "VIEWING PERIOD.",
+    "bbox": [
+      248,
+      349,
+      399,
+      359
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The viewing period for each Licensed Program shall be at least twenty-four (24) consecutive hours, or such longer period as may be.",
+    "bbox": [
+      179,
+      388,
+      1000,
+      401
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "agreed to by Rogers and Licensor from time to time (the \"Viewing Period'). Multiple viewings of the Licensed Program shall be permitted",
+    "bbox": [
+      180,
+      405,
+      1000,
+      417
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "during the Viewing Period for no additional fee and all such viewings shall be considered a single exhibition of the Licensed Program for.",
+    "bbox": [
+      180,
+      421,
+      1000,
+      433
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the purposes of calculating License Fees hereunder..",
+    "bbox": [
+      180,
+      437,
+      570,
+      449
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      178,
+      472,
+      193,
+      485
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE FEES.",
+    "bbox": [
+      247,
+      473,
+      369,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      512,
+      201,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Rogers shall pay to Licensor a fee (the \"License Fee\"), which shall be equal to fifty (50)% of Retail Revenues.",
+    "bbox": [
+      247,
+      511,
+      1000,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "For the purposes of this Agreement, \"Retail Revenues\"' means the retail revenues actually received by Rogers for each authorized.",
+    "bbox": [
+      247,
+      553,
+      1000,
+      565
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "exhibition of a Licensed Program on the ROD Service, less GST and applicable sales tax. For greater certainty, Retail Revenues",
+    "bbox": [
+      248,
+      569,
+      1000,
+      581
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "shall not include any fees payable to Rogers for: (i) the purchase, rental or installation of a digital terminal; (ii) any basic or",
+    "bbox": [
+      247,
+      584,
+      1000,
+      597
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "premium television services; or (iii) digital cable access.",
+    "bbox": [
+      247,
+      601,
+      662,
+      612
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      635,
+      203,
+      650
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Notwithstanding Section 6(a) above,.",
+    "bbox": [
+      247,
+      637,
+      522,
+      649
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      675,
+      265,
+      690
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Prior to calculating License Fees, Rogers shall be entitled to deduct from Retail Revenues on a rolling monthly basis",
+    "bbox": [
+      315,
+      677,
+      1000,
+      689
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "during the Term (\"Rogers Costs'):.",
+    "bbox": [
+      314,
+      692,
+      572,
+      705
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(A)",
+    "bbox": [
+      314,
+      727,
+      343,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the value of programming credits, rebates or other retail price discounts provided to ROD Service subscribers",
+    "bbox": [
+      383,
+      728,
+      1000,
+      741
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "in conjunction with a public marketing or promotional initiative;",
+    "bbox": [
+      383,
+      746,
+      860,
+      756
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "-2-",
+    "bbox": [
+      656,
+      780,
+      676,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: EUROMEDIA HOLDINGS CORP, 10SB12G, 2/15/2007",
+    "bbox": [
+      133,
+      1000,
+      616,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      119,
+      203,
+      134
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "In the event that Licensor grants to another VOD or Pay-Per-View (\"PPy') service provider in the U.S. or the Territory the right to.",
+    "bbox": [
+      247,
+      121,
+      1000,
+      133
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "distribute or exhibit any Licensed Program on an earlier availability date, then Licensor shall also grant to Rogers the right to",
+    "bbox": [
+      247,
+      136,
+      1000,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "distribute and exhibit such Licensed Program on such earlier availability date, on the terms provided herein.",
+    "bbox": [
+      247,
+      152,
+      1000,
+      165
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      188,
+      200,
+      202
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Licensor shall not authorize the distribution or exhibition of any Licensed Program by any other means, including, without",
+    "bbox": [
+      246,
+      188,
+      1000,
+      201
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "limitation, television (other than PPV) and internet, for a period of ninety (90) consecutive days following such Licensed",
+    "bbox": [
+      247,
+      204,
+      1000,
+      217
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Program's VOD availability date..",
+    "bbox": [
+      247,
+      221,
+      490,
+      233
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      179,
+      256,
+      192,
+      268
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE PERIOD.",
+    "bbox": [
+      246,
+      257,
+      395,
+      267
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of",
+    "bbox": [
+      180,
+      296,
+      1000,
+      308
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the \"License Period').",
+    "bbox": [
+      180,
+      312,
+      1000,
+      324
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      178,
+      348,
+      193,
+      360
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "VIEWING PERIOD.",
+    "bbox": [
+      248,
+      349,
+      399,
+      359
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The viewing period for each Licensed Program shall be at least twenty-four (24) consecutive hours, or such longer period as may be.",
+    "bbox": [
+      179,
+      388,
+      1000,
+      401
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "agreed to by Rogers and Licensor from time to time (the \"Viewing Period'). Multiple viewings of the Licensed Program shall be permitted",
+    "bbox": [
+      180,
+      405,
+      1000,
+      417
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "during the Viewing Period for no additional fee and all such viewings shall be considered a single exhibition of the Licensed Program for.",
+    "bbox": [
+      180,
+      421,
+      1000,
+      433
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the purposes of calculating License Fees hereunder..",
+    "bbox": [
+      180,
+      437,
+      570,
+      449
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      178,
+      472,
+      193,
+      485
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE FEES.",
+    "bbox": [
+      247,
+      473,
+      369,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      512,
+      201,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Rogers shall pay to Licensor a fee (the \"License Fee\"), which shall be equal to fifty (50)% of Retail Revenues.",
+    "bbox": [
+      247,
+      511,
+      1000,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "For the purposes of this Agreement, \"Retail Revenues\"' means the retail revenues actually received by Rogers for each authorized.",
+    "bbox": [
+      247,
+      553,
+      1000,
+      565
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "exhibition of a Licensed Program on the ROD Service, less GST and applicable sales tax. For greater certainty, Retail Revenues",
+    "bbox": [
+      248,
+      569,
+      1000,
+      581
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "shall not include any fees payable to Rogers for: (i) the purchase, rental or installation of a digital terminal; (ii) any basic or",
+    "bbox": [
+      247,
+      584,
+      1000,
+      597
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "premium television services; or (iii) digital cable access.",
+    "bbox": [
+      247,
+      601,
+      662,
+      612
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      635,
+      203,
+      650
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Notwithstanding Section 6(a) above,.",
+    "bbox": [
+      247,
+      637,
+      522,
+      649
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      675,
+      265,
+      690
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Prior to calculating License Fees, Rogers shall be entitled to deduct from Retail Revenues on a rolling monthly basis",
+    "bbox": [
+      315,
+      677,
+      1000,
+      689
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "during the Term (\"Rogers Costs'):.",
+    "bbox": [
+      314,
+      692,
+      572,
+      705
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(A)",
+    "bbox": [
+      314,
+      727,
+      343,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the value of programming credits, rebates or other retail price discounts provided to ROD Service subscribers",
+    "bbox": [
+      383,
+      728,
+      1000,
+      741
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "in conjunction with a public marketing or promotional initiative;",
+    "bbox": [
+      383,
+      746,
+      860,
+      756
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "-2-",
+    "bbox": [
+      656,
+      780,
+      676,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: EUROMEDIA HOLDINGS CORP, 10SB12G, 2/15/2007",
+    "bbox": [
+      133,
+      1000,
+      616,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Rogers shall pay to Licensor a fee (the \"License Fee\"), which shall be equal to fifty (50)% of Retail Revenues.",
+    "bbox": [
+      247,
+      511,
+      1000,
+      525
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      119,
+      203,
+      134
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "In the event that Licensor grants to another VOD or Pay-Per-View (\"PPy') service provider in the U.S. or the Territory the right to.",
+    "bbox": [
+      247,
+      121,
+      1000,
+      133
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "distribute or exhibit any Licensed Program on an earlier availability date, then Licensor shall also grant to Rogers the right to",
+    "bbox": [
+      247,
+      136,
+      1000,
+      149
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "distribute and exhibit such Licensed Program on such earlier availability date, on the terms provided herein.",
+    "bbox": [
+      247,
+      152,
+      1000,
+      165
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      188,
+      200,
+      202
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Licensor shall not authorize the distribution or exhibition of any Licensed Program by any other means, including, without",
+    "bbox": [
+      246,
+      188,
+      1000,
+      201
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "limitation, television (other than PPV) and internet, for a period of ninety (90) consecutive days following such Licensed",
+    "bbox": [
+      247,
+      204,
+      1000,
+      217
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Program's VOD availability date..",
+    "bbox": [
+      247,
+      221,
+      490,
+      233
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      179,
+      256,
+      192,
+      268
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "LICENSE PERIOD.",
+    "bbox": [
+      246,
+      257,
+      395,
+      267
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of",
+    "bbox": [
+      180,
+      296,
+      1000,
+      308
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the \"License Period').",
+    "bbox": [
+      180,
+      312,
+      1000,
+      324
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      178,
+      348,
+      193,
+      360
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VIEWING PERIOD.",
+    "bbox": [
+      248,
+      349,
+      399,
+      359
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The viewing period for each Licensed Program shall be at least twenty-four (24) consecutive hours, or such longer period as may be.",
+    "bbox": [
+      179,
+      388,
+      1000,
+      401
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "agreed to by Rogers and Licensor from time to time (the \"Viewing Period'). Multiple viewings of the Licensed Program shall be permitted",
+    "bbox": [
+      180,
+      405,
+      1000,
+      417
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "during the Viewing Period for no additional fee and all such viewings shall be considered a single exhibition of the Licensed Program for.",
+    "bbox": [
+      180,
+      421,
+      1000,
+      433
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the purposes of calculating License Fees hereunder..",
+    "bbox": [
+      180,
+      437,
+      570,
+      449
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      178,
+      472,
+      193,
+      485
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "LICENSE FEES.",
+    "bbox": [
+      247,
+      473,
+      369,
+      483
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      512,
+      201,
+      526
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Rogers shall pay to Licensor a fee (the \"License Fee\"), which shall be equal to fifty (50)% of Retail Revenues.",
+    "bbox": [
+      247,
+      511,
+      1000,
+      525
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "For the purposes of this Agreement, \"Retail Revenues\"' means the retail revenues actually received by Rogers for each authorized.",
+    "bbox": [
+      247,
+      553,
+      1000,
+      565
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "exhibition of a Licensed Program on the ROD Service, less GST and applicable sales tax. For greater certainty, Retail Revenues",
+    "bbox": [
+      248,
+      569,
+      1000,
+      581
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "shall not include any fees payable to Rogers for: (i) the purchase, rental or installation of a digital terminal; (ii) any basic or",
+    "bbox": [
+      247,
+      584,
+      1000,
+      597
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "premium television services; or (iii) digital cable access.",
+    "bbox": [
+      247,
+      601,
+      662,
+      612
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      635,
+      203,
+      650
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Notwithstanding Section 6(a) above,.",
+    "bbox": [
+      247,
+      637,
+      522,
+      649
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      675,
+      265,
+      690
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Prior to calculating License Fees, Rogers shall be entitled to deduct from Retail Revenues on a rolling monthly basis",
+    "bbox": [
+      315,
+      677,
+      1000,
+      689
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "during the Term (\"Rogers Costs'):.",
+    "bbox": [
+      314,
+      692,
+      572,
+      705
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(A)",
+    "bbox": [
+      314,
+      727,
+      343,
+      742
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the value of programming credits, rebates or other retail price discounts provided to ROD Service subscribers",
+    "bbox": [
+      383,
+      728,
+      1000,
+      741
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "in conjunction with a public marketing or promotional initiative;",
+    "bbox": [
+      383,
+      746,
+      860,
+      756
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "-2-",
+    "bbox": [
+      656,
+      780,
+      676,
+      791
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: EUROMEDIA HOLDINGS CORP, 10SB12G, 2/15/2007",
+    "bbox": [
+      133,
+      1000,
+      616,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      119,
+      203,
+      134
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "In the event that Licensor grants to another VOD or Pay-Per-View (\"PPy') service provider in the U.S. or the Territory the right to.",
+    "bbox": [
+      247,
+      121,
+      1000,
+      133
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "distribute or exhibit any Licensed Program on an earlier availability date, then Licensor shall also grant to Rogers the right to",
+    "bbox": [
+      247,
+      136,
+      1000,
+      149
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "distribute and exhibit such Licensed Program on such earlier availability date, on the terms provided herein.",
+    "bbox": [
+      247,
+      152,
+      1000,
+      165
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      188,
+      200,
+      202
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Licensor shall not authorize the distribution or exhibition of any Licensed Program by any other means, including, without",
+    "bbox": [
+      246,
+      188,
+      1000,
+      201
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "limitation, television (other than PPV) and internet, for a period of ninety (90) consecutive days following such Licensed",
+    "bbox": [
+      247,
+      204,
+      1000,
+      217
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Program's VOD availability date..",
+    "bbox": [
+      247,
+      221,
+      490,
+      233
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      179,
+      256,
+      192,
+      268
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "LICENSE PERIOD.",
+    "bbox": [
+      246,
+      257,
+      395,
+      267
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of",
+    "bbox": [
+      180,
+      296,
+      1000,
+      308
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the \"License Period').",
+    "bbox": [
+      180,
+      312,
+      1000,
+      324
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      178,
+      348,
+      193,
+      360
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "VIEWING PERIOD.",
+    "bbox": [
+      248,
+      349,
+      399,
+      359
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The viewing period for each Licensed Program shall be at least twenty-four (24) consecutive hours, or such longer period as may be.",
+    "bbox": [
+      179,
+      388,
+      1000,
+      401
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "agreed to by Rogers and Licensor from time to time (the \"Viewing Period'). Multiple viewings of the Licensed Program shall be permitted",
+    "bbox": [
+      180,
+      405,
+      1000,
+      417
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "during the Viewing Period for no additional fee and all such viewings shall be considered a single exhibition of the Licensed Program for.",
+    "bbox": [
+      180,
+      421,
+      1000,
+      433
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the purposes of calculating License Fees hereunder..",
+    "bbox": [
+      180,
+      437,
+      570,
+      449
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      178,
+      472,
+      193,
+      485
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "LICENSE FEES.",
+    "bbox": [
+      247,
+      473,
+      369,
+      483
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      512,
+      201,
+      526
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Rogers shall pay to Licensor a fee (the \"License Fee\"), which shall be equal to fifty (50)% of Retail Revenues.",
+    "bbox": [
+      247,
+      511,
+      1000,
+      525
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "For the purposes of this Agreement, \"Retail Revenues\"' means the retail revenues actually received by Rogers for each authorized.",
+    "bbox": [
+      247,
+      553,
+      1000,
+      565
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "exhibition of a Licensed Program on the ROD Service, less GST and applicable sales tax. For greater certainty, Retail Revenues",
+    "bbox": [
+      248,
+      569,
+      1000,
+      581
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "shall not include any fees payable to Rogers for: (i) the purchase, rental or installation of a digital terminal; (ii) any basic or",
+    "bbox": [
+      247,
+      584,
+      1000,
+      597
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "premium television services; or (iii) digital cable access.",
+    "bbox": [
+      247,
+      601,
+      662,
+      612
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      177,
+      635,
+      203,
+      650
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Notwithstanding Section 6(a) above,.",
+    "bbox": [
+      247,
+      637,
+      522,
+      649
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      675,
+      265,
+      690
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Prior to calculating License Fees, Rogers shall be entitled to deduct from Retail Revenues on a rolling monthly basis",
+    "bbox": [
+      315,
+      677,
+      1000,
+      689
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "during the Term (\"Rogers Costs'):.",
+    "bbox": [
+      314,
+      692,
+      572,
+      705
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(A)",
+    "bbox": [
+      314,
+      727,
+      343,
+      742
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the value of programming credits, rebates or other retail price discounts provided to ROD Service subscribers",
+    "bbox": [
+      383,
+      728,
+      1000,
+      741
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "in conjunction with a public marketing or promotional initiative;",
+    "bbox": [
+      383,
+      746,
+      860,
+      756
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "-2-",
+    "bbox": [
+      656,
+      780,
+      676,
+      791
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: EUROMEDIA HOLDINGS CORP, 10SB12G, 2/15/2007",
+    "bbox": [
+      133,
+      1000,
+      616,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  }
+]

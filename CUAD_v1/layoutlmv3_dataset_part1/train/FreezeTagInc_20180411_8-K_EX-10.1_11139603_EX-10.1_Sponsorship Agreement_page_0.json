@@ -1,0 +1,4215 @@
+[
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "EXHIBIT 10.1",
+    "bbox": [
+      1000,
+      73,
+      1000,
+      83
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "American",
+    "bbox": [
+      243,
+      102,
+      331,
+      116
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      115,
+      324,
+      128
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      241,
+      127,
+      356,
+      140
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Corporate Sponsorship Agreement.",
+    "bbox": [
+      531,
+      157,
+      802,
+      170
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Between American Diabetes Association and Freeze Tag, Inc..",
+    "bbox": [
+      433,
+      174,
+      899,
+      186
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation",
+    "bbox": [
+      179,
+      189,
+      1000,
+      202
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American",
+    "bbox": [
+      179,
+      205,
+      1000,
+      218
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451",
+    "bbox": [
+      179,
+      222,
+      1000,
+      234
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a \"Party\" or collectively as the",
+    "bbox": [
+      180,
+      238,
+      1000,
+      250
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      179,
+      253,
+      252,
+      266
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a",
+    "bbox": [
+      207,
+      270,
+      1000,
+      282
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and",
+    "bbox": [
+      235,
+      285,
+      1000,
+      297
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable",
+    "bbox": [
+      235,
+      305,
+      1000,
+      319
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The",
+    "bbox": [
+      235,
+      322,
+      1000,
+      334
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of.",
+    "bbox": [
+      235,
+      353,
+      1000,
+      366
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      234,
+      369,
+      312,
+      383
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      208,
+      387,
+      228,
+      396
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes.",
+    "bbox": [
+      233,
+      386,
+      1000,
+      398
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512",
+    "bbox": [
+      235,
+      401,
+      1000,
+      414
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of the Internal Revenue Code and Treasury regulations thereunder (\"Code'). Company agrees not to knowingly take any",
+    "bbox": [
+      235,
+      417,
+      1000,
+      431
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees.",
+    "bbox": [
+      235,
+      433,
+      1000,
+      446
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined",
+    "bbox": [
+      235,
+      450,
+      1000,
+      463
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not",
+    "bbox": [
+      235,
+      465,
+      1000,
+      477
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "to adversely reflect upon the Association or its mission..",
+    "bbox": [
+      235,
+      482,
+      657,
+      493
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      208,
+      499,
+      224,
+      508
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier",
+    "bbox": [
+      233,
+      497,
+      1000,
+      509
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "pursuant to Section 13 of the Agreement (the \"Term\").",
+    "bbox": [
+      235,
+      513,
+      643,
+      526
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      208,
+      530,
+      222,
+      540
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without",
+    "bbox": [
+      233,
+      530,
+      1000,
+      542
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or",
+    "bbox": [
+      235,
+      545,
+      1000,
+      558
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "developed by the Association remain the property of the Association. The Association's names, logos, and various",
+    "bbox": [
+      236,
+      561,
+      1000,
+      574
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "marks, are \"the Association Marks\"', as listed in Attachment B. The Association's ownership of the Association Marks is",
+    "bbox": [
+      235,
+      577,
+      1000,
+      589
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does",
+    "bbox": [
+      236,
+      594,
+      1000,
+      606
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Company is the sole and exclusive owner of its name, logos, and marks (the \"Company Marks\"), which include, without",
+    "bbox": [
+      236,
+      658,
+      1000,
+      670
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "limitation, the names, logos, and marks listed in Attachment B as Company Marks..",
+    "bbox": [
+      235,
+      673,
+      852,
+      686
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      691,
+      671,
+      699
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "not create ownership rights in the Association Marks for Company. Company shall not, during the period of this",
+    "bbox": [
+      235,
+      610,
+      1000,
+      622
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks,",
+    "bbox": [
+      236,
+      626,
+      1000,
+      638
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "including any and all moral rights.",
+    "bbox": [
+      236,
+      643,
+      491,
+      653
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  }
+]

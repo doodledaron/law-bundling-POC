@@ -1,0 +1,970 @@
+[
+  {
+    "text": "(i) the number of units of such SKU of the Product shipped from the Specialty Pharmacies to all patients based on prescriptions.",
+    "bbox": [
+      117,
+      141,
+      1000,
+      155
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "written by the Specialty in the Territory during an applicable period (as determined by data reported pursuant to agreements",
+    "bbox": [
+      117,
+      160,
+      1000,
+      174
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "between Dova (or its Affiliates) and the Specialty Pharmacies or the data aggregators, as applicable); and",
+    "bbox": [
+      116,
+      179,
+      1000,
+      193
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "MULTIPLIED BY",
+    "bbox": [
+      181,
+      215,
+      339,
+      225
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii) the applicable WAC for such SKU of the Product for the applicable period",
+    "bbox": [
+      118,
+      249,
+      785,
+      263
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "MULTIPLIED BY",
+    "bbox": [
+      116,
+      284,
+      276,
+      295
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iii) the Gross to Net Fraction for such SKU of the Product for the applicable period.",
+    "bbox": [
+      117,
+      319,
+      836,
+      333
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.59 \"Specialty Pharmacy'' shall mean those specialty pharmacies to which Dova (or its Affiliates) sells and/or ships units",
+    "bbox": [
+      181,
+      355,
+      1000,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of Product during the Term and for which Dova or its Affiliates have agreements with that include data provisions or provide for",
+    "bbox": [
+      112,
+      373,
+      1000,
+      388
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "separate data agreements which enables Dova to track shipments of Product from such Specialty Pharmacy to patients based on",
+    "bbox": [
+      112,
+      393,
+      1000,
+      407
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Target Professional prescribing such Product..",
+    "bbox": [
+      113,
+      413,
+      526,
+      426
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.60 \"Tail Period\"' shall mean the period commencing on the day after the last day of the Term and ending on the earlier of",
+    "bbox": [
+      180,
+      447,
+      1000,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i) [***] and (ii) [***], unless terminated early pursuant to Section 2.3.1(a) of the Agreement.",
+    "bbox": [
+      113,
+      466,
+      907,
+      482
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.61 \"Target Professionals\" shall mean physicians, nurse practitioners, physician assistants and any other medical",
+    "bbox": [
+      180,
+      502,
+      1000,
+      516
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "professionals in the Territory with prescribing authority (as authorized under Applicable Law) in the Territory for the Product.",
+    "bbox": [
+      114,
+      523,
+      1000,
+      535
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.62 \"Term\"' shall have the meaning set forth in Section 12.1..",
+    "bbox": [
+      180,
+      556,
+      696,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.63 \"Territory'' shall mean the United States of America and its territories and possessions.",
+    "bbox": [
+      180,
+      592,
+      962,
+      607
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.64 \"Third Party(ies)\"' shall mean any person or entity other than Dova and Valeant and their respective Affiliates",
+    "bbox": [
+      181,
+      628,
+      1000,
+      643
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.65 \"Third Party Agreements\" shall mean the agreements described on Schedule 1.65 hereto.",
+    "bbox": [
+      181,
+      665,
+      1000,
+      679
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.66 Valeant Activities\"' shall mean any and all promotional activities (including Detailing) conducted by Valeant to",
+    "bbox": [
+      179,
+      700,
+      1000,
+      715
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "encourage the appropriate use of the Product in the Specialty in the Field in the Territory in accordance with the terms of this",
+    "bbox": [
+      112,
+      721,
+      1000,
+      734
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      112,
+      740,
+      209,
+      752
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.67 \"Valeant Property\" shall have the meaning set forth in Section 8.1.1.",
+    "bbox": [
+      181,
+      774,
+      812,
+      788
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.68 \"WAC\" shall mean, for each SKU of the Product, Dova's list price for a unit of the SKU of the Product to",
+    "bbox": [
+      179,
+      810,
+      1000,
+      825
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "wholesalers or direct purchasers in the Territory, as reported in wholesale price guides or other nationally recognized publications",
+    "bbox": [
+      112,
+      830,
+      1000,
+      845
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of drug pricing data.n.",
+    "bbox": [
+      112,
+      849,
+      281,
+      864
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE 2",
+    "bbox": [
+      608,
+      884,
+      722,
+      897
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "RIGHTS AND OBLIGATIONS",
+    "bbox": [
+      516,
+      905,
+      816,
+      917
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.1 Engagement; Grant of Rights. During the Term, subject to the terms and conditions of this Agreement, Dova",
+    "bbox": [
+      179,
+      939,
+      1000,
+      953
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "hereby grants to Valeant the right, on a co-exclusive basis (solely with Dova and its Affiliates), to Detail and promote the Product",
+    "bbox": [
+      111,
+      959,
+      1000,
+      974
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in the Specialty in the Territory in the Field, and to conduct the Valeant Activities and the activities of the institutional account",
+    "bbox": [
+      113,
+      980,
+      1000,
+      992
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "management team (pursuant to and subject to the terms of Section 4.1.5) for the Product in the Territory in the Field in accordance",
+    "bbox": [
+      110,
+      997,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with the terms and conditions of this Agreement. Notwithstanding the foregoing, Dova retains and reserves the right for Dova and",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "its Affiliates to promote the Product in the Territory including in the Specialty. Valeant shall have no other rights relating to the",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Product, except as specifically set forth in this Agreement and, without limiting the foregoing, except as set out in Section 4.1.5, if",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "agreed upon, Valeant shall have no right to, and shall not, conduct the Valeant Activities for the Product outside the Specialty or",
+    "bbox": [
+      112,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "outside the Territory or for use outside the Field. Except to Affiliates of Valeant, Valeant's rights and obligations under this Section",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.1 are non-transferable, non-assignable, and non-delegable. Except to Affiliates of Valeant, Valeant shall not subcontract the",
+    "bbox": [
+      111,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Valeant Activities with any Third Party (including any contract sales force). Any obligation of Valeant under or pursuant to this.",
+    "bbox": [
+      111,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreement may be satisfied, met or fulfilled, in whole or in part, at Valeant's sole and exclusive option, either by Valeant or its",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Affiliates. Valeant guarantees the performance of all actions, agreements and obligations to be performed by its Affiliates under the",
+    "bbox": [
+      111,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "terms and conditions of this Agreement. For clarity, Valeant shall not have any license rights hereunder nor any rights to sublicense",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "any rights hereunder.",
+    "bbox": [
+      113,
+      1000,
+      285,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      592,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i) the number of units of such SKU of the Product shipped from the Specialty Pharmacies to all patients based on prescriptions.",
+    "bbox": [
+      117,
+      141,
+      1000,
+      155
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "written by the Specialty in the Territory during an applicable period (as determined by data reported pursuant to agreements",
+    "bbox": [
+      117,
+      160,
+      1000,
+      174
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "between Dova (or its Affiliates) and the Specialty Pharmacies or the data aggregators, as applicable); and",
+    "bbox": [
+      116,
+      179,
+      1000,
+      193
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "MULTIPLIED BY",
+    "bbox": [
+      181,
+      215,
+      339,
+      225
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(ii) the applicable WAC for such SKU of the Product for the applicable period",
+    "bbox": [
+      118,
+      249,
+      785,
+      263
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "MULTIPLIED BY",
+    "bbox": [
+      116,
+      284,
+      276,
+      295
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(iii) the Gross to Net Fraction for such SKU of the Product for the applicable period.",
+    "bbox": [
+      117,
+      319,
+      836,
+      333
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.59 \"Specialty Pharmacy'' shall mean those specialty pharmacies to which Dova (or its Affiliates) sells and/or ships units",
+    "bbox": [
+      181,
+      355,
+      1000,
+      367
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "of Product during the Term and for which Dova or its Affiliates have agreements with that include data provisions or provide for",
+    "bbox": [
+      112,
+      373,
+      1000,
+      388
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "separate data agreements which enables Dova to track shipments of Product from such Specialty Pharmacy to patients based on",
+    "bbox": [
+      112,
+      393,
+      1000,
+      407
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "the Target Professional prescribing such Product..",
+    "bbox": [
+      113,
+      413,
+      526,
+      426
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.60 \"Tail Period\"' shall mean the period commencing on the day after the last day of the Term and ending on the earlier of",
+    "bbox": [
+      180,
+      447,
+      1000,
+      461
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(i) [***] and (ii) [***], unless terminated early pursuant to Section 2.3.1(a) of the Agreement.",
+    "bbox": [
+      113,
+      466,
+      907,
+      482
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.61 \"Target Professionals\" shall mean physicians, nurse practitioners, physician assistants and any other medical",
+    "bbox": [
+      180,
+      502,
+      1000,
+      516
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "professionals in the Territory with prescribing authority (as authorized under Applicable Law) in the Territory for the Product.",
+    "bbox": [
+      114,
+      523,
+      1000,
+      535
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.62 \"Term\"' shall have the meaning set forth in Section 12.1..",
+    "bbox": [
+      180,
+      556,
+      696,
+      570
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.63 \"Territory'' shall mean the United States of America and its territories and possessions.",
+    "bbox": [
+      180,
+      592,
+      962,
+      607
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.64 \"Third Party(ies)\"' shall mean any person or entity other than Dova and Valeant and their respective Affiliates",
+    "bbox": [
+      181,
+      628,
+      1000,
+      643
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.65 \"Third Party Agreements\" shall mean the agreements described on Schedule 1.65 hereto.",
+    "bbox": [
+      181,
+      665,
+      1000,
+      679
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.66 Valeant Activities\"' shall mean any and all promotional activities (including Detailing) conducted by Valeant to",
+    "bbox": [
+      179,
+      700,
+      1000,
+      715
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "encourage the appropriate use of the Product in the Specialty in the Field in the Territory in accordance with the terms of this",
+    "bbox": [
+      112,
+      721,
+      1000,
+      734
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      112,
+      740,
+      209,
+      752
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.67 \"Valeant Property\" shall have the meaning set forth in Section 8.1.1.",
+    "bbox": [
+      181,
+      774,
+      812,
+      788
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.68 \"WAC\" shall mean, for each SKU of the Product, Dova's list price for a unit of the SKU of the Product to",
+    "bbox": [
+      179,
+      810,
+      1000,
+      825
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "wholesalers or direct purchasers in the Territory, as reported in wholesale price guides or other nationally recognized publications",
+    "bbox": [
+      112,
+      830,
+      1000,
+      845
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "of drug pricing data.n.",
+    "bbox": [
+      112,
+      849,
+      281,
+      864
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "ARTICLE 2",
+    "bbox": [
+      608,
+      884,
+      722,
+      897
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "RIGHTS AND OBLIGATIONS",
+    "bbox": [
+      516,
+      905,
+      816,
+      917
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "2.1 Engagement; Grant of Rights. During the Term, subject to the terms and conditions of this Agreement, Dova",
+    "bbox": [
+      179,
+      939,
+      1000,
+      953
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "hereby grants to Valeant the right, on a co-exclusive basis (solely with Dova and its Affiliates), to Detail and promote the Product",
+    "bbox": [
+      111,
+      959,
+      1000,
+      974
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "in the Specialty in the Territory in the Field, and to conduct the Valeant Activities and the activities of the institutional account",
+    "bbox": [
+      113,
+      980,
+      1000,
+      992
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "management team (pursuant to and subject to the terms of Section 4.1.5) for the Product in the Territory in the Field in accordance",
+    "bbox": [
+      110,
+      997,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "with the terms and conditions of this Agreement. Notwithstanding the foregoing, Dova retains and reserves the right for Dova and",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "its Affiliates to promote the Product in the Territory including in the Specialty. Valeant shall have no other rights relating to the",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Product, except as specifically set forth in this Agreement and, without limiting the foregoing, except as set out in Section 4.1.5, if",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "agreed upon, Valeant shall have no right to, and shall not, conduct the Valeant Activities for the Product outside the Specialty or",
+    "bbox": [
+      112,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "outside the Territory or for use outside the Field. Except to Affiliates of Valeant, Valeant's rights and obligations under this Section",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "2.1 are non-transferable, non-assignable, and non-delegable. Except to Affiliates of Valeant, Valeant shall not subcontract the",
+    "bbox": [
+      111,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Valeant Activities with any Third Party (including any contract sales force). Any obligation of Valeant under or pursuant to this.",
+    "bbox": [
+      111,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Agreement may be satisfied, met or fulfilled, in whole or in part, at Valeant's sole and exclusive option, either by Valeant or its",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Affiliates. Valeant guarantees the performance of all actions, agreements and obligations to be performed by its Affiliates under the",
+    "bbox": [
+      111,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "terms and conditions of this Agreement. For clarity, Valeant shall not have any license rights hereunder nor any rights to sublicense",
+    "bbox": [
+      113,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "any rights hereunder.",
+    "bbox": [
+      113,
+      1000,
+      285,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      592,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  }
+]

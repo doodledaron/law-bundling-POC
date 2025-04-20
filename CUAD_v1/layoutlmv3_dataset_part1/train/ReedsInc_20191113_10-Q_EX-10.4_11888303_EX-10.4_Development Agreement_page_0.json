@@ -1,0 +1,79 @@
+[
+  {
+    "text": "RECIPE DEVELOPMENT AGREEMENT",
+    "bbox": [
+      512,
+      81,
+      822,
+      91
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Marketing Concepts Inc., dba Full Sail Brewing Company, an Oregon corporation (\"Company'), effective as of October 11, 2019 (the \"Effective",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: REED'S, INC., 10-Q, 11/13/2019",
+    "bbox": [
+      134,
+      1000,
+      454,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Company is engaged in the business of developing recipes for and manufacturing alcohol beverage products. Reed's is engaged in the",
+    "bbox": [
+      179,
+      161,
+      1000,
+      173
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Marketing Concepts Inc., dba Full Sail Brewing Company, an Oregon corporation (\"Company'), effective as of October 11, 2019 (the \"Effective",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Marketing Concepts Inc., dba Full Sail Brewing Company, an Oregon corporation (\"Company'), effective as of October 11, 2019 (the \"Effective",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Marketing Concepts Inc., dba Full Sail Brewing Company, an Oregon corporation (\"Company'), effective as of October 11, 2019 (the \"Effective",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

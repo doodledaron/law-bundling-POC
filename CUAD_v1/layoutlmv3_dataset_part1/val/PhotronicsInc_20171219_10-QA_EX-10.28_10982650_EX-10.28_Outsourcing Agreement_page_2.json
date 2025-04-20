@@ -1,0 +1,354 @@
+[
+  {
+    "text": "(b) If PDMC and the Company [***]",
+    "bbox": [
+      248,
+      85,
+      520,
+      98
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(i) if[***]or",
+    "bbox": [
+      279,
+      100,
+      387,
+      116
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(ii) if[***].",
+    "bbox": [
+      279,
+      115,
+      374,
+      132
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "C. General",
+    "bbox": [
+      247,
+      148,
+      332,
+      162
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(a) The Purchase Orders for the [***][***]in accordance with the .",
+    "bbox": [
+      249,
+      165,
+      750,
+      178
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(b) PDMC and the Company will make best efforts to be [***|The terms and conditions of such [***]",
+    "bbox": [
+      247,
+      197,
+      1000,
+      210
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(c) For the avoidance of doubt, the Parties agree and confirm that, during the Outsource Transition Period and aside from the.",
+    "bbox": [
+      247,
+      229,
+      1000,
+      242
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Outsource Stepdown Rules in [***].",
+    "bbox": [
+      111,
+      245,
+      386,
+      258
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(d) The Parties acknowledge and agree that [***]",
+    "bbox": [
+      247,
+      276,
+      618,
+      291
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      381,
+      309,
+      410,
+      321
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Purchase Orders",
+    "bbox": [
+      450,
+      310,
+      585,
+      321
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "The Suppliers will make good faith efforts to accept all [***]from the Company that comply with this Agreement including.",
+    "bbox": [
+      247,
+      340,
+      1000,
+      355
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "adhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the",
+    "bbox": [
+      112,
+      357,
+      1000,
+      370
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "[***] (as defined below)). The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***].",
+    "bbox": [
+      113,
+      374,
+      1000,
+      386
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***]. The lead time for the Products will be.",
+    "bbox": [
+      111,
+      389,
+      1000,
+      402
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "type of the Product ordered by the Company; (c) the price of each Product ordered per Schedule 2 attached hereto; (d) the requested delivery date.",
+    "bbox": [
+      111,
+      421,
+      1000,
+      434
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(subject to the applicable Product Lead Time); (e) any shipping instructions, including preferred carrier and shipping destination; and (f) the",
+    "bbox": [
+      112,
+      437,
+      1000,
+      450
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "specifications for the Product.",
+    "bbox": [
+      113,
+      454,
+      336,
+      466
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "of clarity, [***].",
+    "bbox": [
+      110,
+      500,
+      230,
+      516
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      381,
+      533,
+      410,
+      545
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Purchase Order Terms",
+    "bbox": [
+      451,
+      533,
+      629,
+      545
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "All [***]agreed to between the Company and a Supplier shall be governed by this Agreement unless otherwise agreed by the",
+    "bbox": [
+      247,
+      565,
+      1000,
+      578
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Company and the [***]which receives such [***]in writing; the Parties agree that the [***]submitted by the Company to any of the [***] will",
+    "bbox": [
+      112,
+      582,
+      1000,
+      594
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "mirror the terms and conditions of the [***]with respect to specification for the Product and the end customer's requirement submitted to the",
+    "bbox": [
+      111,
+      598,
+      1000,
+      610
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Company by the Company's [***]. Those terms and conditions of the [***]may be discussed and agreed between the Company and any of the.",
+    "bbox": [
+      111,
+      613,
+      1000,
+      626
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Suppliers prior to issuance of such [***]to any of the [***].",
+    "bbox": [
+      112,
+      630,
+      564,
+      642
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "2.4",
+    "bbox": [
+      381,
+      661,
+      410,
+      673
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Rescheduling and Cancellation",
+    "bbox": [
+      450,
+      662,
+      689,
+      673
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "provided on a [***] basis covering a rolling [***]period. The Company will provide the Suppliers with such [***]which will be updated [***] and",
+    "bbox": [
+      113,
+      725,
+      1000,
+      738
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "[***]which will be updated [***] and will be used for planning purposes only. If a Supplier's ability to supply any Product is constrained for any",
+    "bbox": [
+      112,
+      740,
+      1000,
+      756
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      803,
+      671,
+      813
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Source: PHOTRONICS INC, 10-Q/A, 12/19/2017",
+    "bbox": [
+      134,
+      1000,
+      511,
+      1000
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  }
+]

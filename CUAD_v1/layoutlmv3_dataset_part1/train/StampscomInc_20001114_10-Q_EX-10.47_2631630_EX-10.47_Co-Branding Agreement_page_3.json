@@ -1,0 +1,640 @@
+[
+  {
+    "text": "center. The Company shall bear all costs associated with the network operating",
+    "bbox": [
+      110,
+      72,
+      844,
+      83
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "center, including without limitation hardware and software, networking equipment",
+    "bbox": [
+      109,
+      85,
+      863,
+      96
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "and bandwidth charges, redundant storage and/or mirroring across multiple.",
+    "bbox": [
+      111,
+      100,
+      797,
+      109
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "geographic locations, and maintenance; provided, however, that Company and MBE",
+    "bbox": [
+      110,
+      112,
+      845,
+      123
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "shall each pay one-half of the costs and expenses associated with transmitting",
+    "bbox": [
+      109,
+      138,
+      844,
+      151
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "fyn on Auedenn fyn dq paan o paunenunee dnannnd dyn wone enep pue uonnewnnnu?",
+    "bbox": [
+      110,
+      153,
+      843,
+      163
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "VSAT network hub, including hardware and backhaul circuits. The Company will",
+    "bbox": [
+      109,
+      166,
+      825,
+      176
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "make the Service available to MBE Centers via one or more secure Internet sites.",
+    "bbox": [
+      110,
+      181,
+      860,
+      188
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Each MBE Center approved by MBE that wishes to participate in the Service shall",
+    "bbox": [
+      111,
+      193,
+      853,
+      202
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "agreed upon by the parties, which form.",
+    "bbox": [
+      110,
+      219,
+      469,
+      230
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "shall include appropriate obligations of the MBE Centers as set forth in this",
+    "bbox": [
+      111,
+      286,
+      834,
+      295
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Agreement (the \"Subscription Agreement\"). MBE agrees to use its commercially",
+    "bbox": [
+      109,
+      298,
+      825,
+      310
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "reasonable best efforts to facilitate the execution of a Subscription Agreement",
+    "bbox": [
+      110,
+      326,
+      853,
+      335
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "by each participating mBE Center within a reasonable amount of time after the",
+    "bbox": [
+      111,
+      340,
+      834,
+      349
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Company's Intellectual Property Rights solely to access and use the Service in",
+    "bbox": [
+      110,
+      379,
+      845,
+      390
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "accordance with the terms and conditions of this Aqreement and the Subscription.",
+    "bbox": [
+      112,
+      394,
+      852,
+      401
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      110,
+      407,
+      203,
+      416
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(c) Authorized Equipment. Each MBE Center shall be responsible for",
+    "bbox": [
+      160,
+      432,
+      778,
+      443
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "obtaining, installing and maintaining the Authorized Equipment at its sole cost",
+    "bbox": [
+      111,
+      460,
+      853,
+      469
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "accesses or uses the Service on any hardware or other equipment, or in.",
+    "bbox": [
+      111,
+      487,
+      770,
+      495
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "does so as its own risk, and the Company shall not be liable for any failure of.",
+    "bbox": [
+      111,
+      512,
+      855,
+      523
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "the Service on hardware or other equipment, or in conjunction with any software,",
+    "bbox": [
+      110,
+      525,
+      860,
+      536
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "that does not constitute Authorized Equipment.",
+    "bbox": [
+      110,
+      538,
+      543,
+      550
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(d) Exclusivity",
+    "bbox": [
+      159,
+      565,
+      298,
+      577
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      197,
+      606,
+      222,
+      616
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "The Company shall not enter into any agreement or arrangement,",
+    "bbox": [
+      249,
+      605,
+      832,
+      616
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "including without limitation any sale, license, service agreement,",
+    "bbox": [
+      157,
+      619,
+      777,
+      629
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "co-branding agreement, co-marketing agreement or linking agreement with any",
+    "bbox": [
+      157,
+      632,
+      864,
+      643
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "provider of manifesting or shipping services through non-carrier retail",
+    "bbox": [
+      157,
+      646,
+      826,
+      656
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "shipping locations; provided, however, that:",
+    "bbox": [
+      158,
+      660,
+      571,
+      669
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(A) the Company may provide listings of carrier drop-boxes or",
+    "bbox": [
+      253,
+      686,
+      826,
+      696
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "carrier-owned counter drop-off locations specific to a particular carrier.",
+    "bbox": [
+      158,
+      700,
+      843,
+      709
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(including, without limitation, locations within retail establishments) on",
+    "bbox": [
+      161,
+      713,
+      855,
+      722
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "the Company Site, provided that such listings do not include retail",
+    "bbox": [
+      158,
+      726,
+      787,
+      735
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "shipping locations, including Ups authorized shipping outlets, FedEx.",
+    "bbox": [
+      158,
+      739,
+      798,
+      749
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "authorized shipping centers and other commercial mail receiving agencies;",
+    "bbox": [
+      158,
+      753,
+      842,
+      762
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      157,
+      766,
+      187,
+      776
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "auaeebuenen no auaeennbe yons Aue oaen nnaen Aee Aueduen ay? (g)",
+    "bbox": [
+      254,
+      793,
+      854,
+      802
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "so long as MBE is given advance written notice of such agreement or.",
+    "bbox": [
+      157,
+      806,
+      789,
+      816
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "arrangement and such agreement or arrangement prohibits the use of the.",
+    "bbox": [
+      157,
+      820,
+      816,
+      829
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Manifest or any Company Technology to manifest or ship packages for retail",
+    "bbox": [
+      155,
+      832,
+      853,
+      842
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "customers and provided further that Company terminates service to any such",
+    "bbox": [
+      158,
+      846,
+      854,
+      855
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "customers.",
+    "bbox": [
+      158,
+      874,
+      250,
+      881
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(ii) MBe shall not enter into any agreement or arrangement with any",
+    "bbox": [
+      196,
+      898,
+      835,
+      910
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Company.",
+    "bbox": [
+      156,
+      925,
+      231,
+      937
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(iii) The Company may, at its option, terminate the exclusivity",
+    "bbox": [
+      197,
+      952,
+      788,
+      963
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "provisions set forth in this Section 3(d)",
+    "bbox": [
+      156,
+      964,
+      542,
+      976
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "[Exclusivity] upon the occurrence of any of the",
+    "bbox": [
+      564,
+      966,
+      1000,
+      976
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "following events: (A) MBE.",
+    "bbox": [
+      158,
+      980,
+      393,
+      988
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Confidential treatment has been requested for the bracketed portion. The",
+    "bbox": [
+      185,
+      1000,
+      863,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "confidential redacted portion has been omitted and filed separately with the.",
+    "bbox": [
+      111,
+      1000,
+      825,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Securities and Exchange Commission.",
+    "bbox": [
+      111,
+      1000,
+      437,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "and all mBE Centers together fail to ship at least [***]* packages",
+    "bbox": [
+      158,
+      1000,
+      778,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "on the earlier of (x) March 1, 20o0, and (y) the use of the Service to",
+    "bbox": [
+      157,
+      1000,
+      817,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "in Section 18(e)  [Force Majeure] or by the failure of the Service to operate in accordance.",
+    "bbox": [
+      158,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "with the Specifications or by the Company's breach of any of its",
+    "bbox": [
+      156,
+      1000,
+      761,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "obligations hereunder), or (B) MBE ceases to own at least [***]* shares of",
+    "bbox": [
+      157,
+      1000,
+      855,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Source: STAMPS.COM INC, 10-Q, 11/14/2000",
+    "bbox": [
+      111,
+      1000,
+      472,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  }
+]

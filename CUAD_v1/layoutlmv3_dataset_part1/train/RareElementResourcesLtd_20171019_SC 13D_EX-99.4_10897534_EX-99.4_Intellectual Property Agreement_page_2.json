@@ -1,0 +1,838 @@
+[
+  {
+    "text": "Rare Element Resources Ltd.",
+    "bbox": [
+      181,
+      87,
+      403,
+      96
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "EXECUTION COPY",
+    "bbox": [
+      1000,
+      86,
+      1000,
+      96
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "IP Rights Agreement",
+    "bbox": [
+      1000,
+      103,
+      1000,
+      113
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.20 \"Person' has the meaning set forth in the Investment Agreement..",
+    "bbox": [
+      179,
+      133,
+      704,
+      146
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.21 \"Technical Information\" means research and development information that is published or unpublished, unpatented inventions,",
+    "bbox": [
+      178,
+      165,
+      1000,
+      178
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "know-how, trade secrets, and technical data in the possession of Company at the Effective Date of this IP Agreement or developed by Company.",
+    "bbox": [
+      110,
+      181,
+      1000,
+      195
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "during the term of this IP Agreement that relate to rare earth mineral processing and rare earth separation.",
+    "bbox": [
+      111,
+      197,
+      899,
+      210
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.22 \"Third Party\"' means a Person other than Investor, the Company or one of their Affiliates..",
+    "bbox": [
+      180,
+      230,
+      882,
+      242
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "II",
+    "bbox": [
+      110,
+      261,
+      135,
+      273
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "License",
+    "bbox": [
+      176,
+      260,
+      242,
+      274
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "3.00 Company grants to Investor, for the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable license (with.",
+    "bbox": [
+      179,
+      292,
+      1000,
+      307
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the right to grant sublicenses to Affiliates) under the Patents to practice the methods therein described and claimed and to make and have made,",
+    "bbox": [
+      112,
+      310,
+      1000,
+      322
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "use, offer to sell, sell and import products made using such methods, and to make Improvements, and to engage in any activity which would give",
+    "bbox": [
+      112,
+      326,
+      1000,
+      338
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license..",
+    "bbox": [
+      111,
+      342,
+      996,
+      353
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "3.01 Company further grants to Investor, during the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable.",
+    "bbox": [
+      179,
+      373,
+      1000,
+      385
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "license (with the right to grant sublicenses to Affiliates) to use the Technical Information to practice the methods described and claimed in the",
+    "bbox": [
+      111,
+      389,
+      1000,
+      402
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Patents and to make and have made, use, offer to sell, sell and import products made using the methods, and to make Improvements, and to engage",
+    "bbox": [
+      110,
+      406,
+      1000,
+      418
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "in any activity which would give rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a",
+    "bbox": [
+      111,
+      422,
+      1000,
+      434
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "license.",
+    "bbox": [
+      111,
+      438,
+      169,
+      449
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "in Articles 3.00 and 3.01 beyond the expiration of the Option Period, subject to an annual licensing fee paid by Investor to Company. The non-",
+    "bbox": [
+      111,
+      485,
+      1000,
+      497
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "exclusive rights granted to Investor under this Article 3.02 do not include the right to grant sublicenses to Third Parties. The amount and",
+    "bbox": [
+      111,
+      502,
+      1000,
+      514
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "parameters of the annual licensing fee shall be commercially reasonable, as determined by an independent expert who is mutually agreeable to the",
+    "bbox": [
+      111,
+      517,
+      1000,
+      530
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Parties and whose determination shall be final and binding; provided, however, that if the Parties cannot agree on the independent expert, each",
+    "bbox": [
+      112,
+      534,
+      1000,
+      546
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Party shall designate an expert of their choice and the two experts designated by the Parties shall work together in good faith to identify and",
+    "bbox": [
+      111,
+      550,
+      1000,
+      562
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "designate a third, independent expert whose determination shall be binding.",
+    "bbox": [
+      112,
+      565,
+      678,
+      578
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Page 3 of 15",
+    "bbox": [
+      621,
+      610,
+      712,
+      623
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: RARE ELEMENT RESOURCES LTD, SC 13D, 10/19/2017",
+    "bbox": [
+      133,
+      1000,
+      635,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Rare Element Resources Ltd.",
+    "bbox": [
+      181,
+      87,
+      403,
+      96
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXECUTION COPY",
+    "bbox": [
+      1000,
+      86,
+      1000,
+      96
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "IP Rights Agreement",
+    "bbox": [
+      1000,
+      103,
+      1000,
+      113
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.20 \"Person' has the meaning set forth in the Investment Agreement..",
+    "bbox": [
+      179,
+      133,
+      704,
+      146
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.21 \"Technical Information\" means research and development information that is published or unpublished, unpatented inventions,",
+    "bbox": [
+      178,
+      165,
+      1000,
+      178
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "know-how, trade secrets, and technical data in the possession of Company at the Effective Date of this IP Agreement or developed by Company.",
+    "bbox": [
+      110,
+      181,
+      1000,
+      195
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "during the term of this IP Agreement that relate to rare earth mineral processing and rare earth separation.",
+    "bbox": [
+      111,
+      197,
+      899,
+      210
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.22 \"Third Party\"' means a Person other than Investor, the Company or one of their Affiliates..",
+    "bbox": [
+      180,
+      230,
+      882,
+      242
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "II",
+    "bbox": [
+      110,
+      261,
+      135,
+      273
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "License",
+    "bbox": [
+      176,
+      260,
+      242,
+      274
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.00 Company grants to Investor, for the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable license (with.",
+    "bbox": [
+      179,
+      292,
+      1000,
+      307
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the right to grant sublicenses to Affiliates) under the Patents to practice the methods therein described and claimed and to make and have made,",
+    "bbox": [
+      112,
+      310,
+      1000,
+      322
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "use, offer to sell, sell and import products made using such methods, and to make Improvements, and to engage in any activity which would give",
+    "bbox": [
+      112,
+      326,
+      1000,
+      338
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license..",
+    "bbox": [
+      111,
+      342,
+      996,
+      353
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.01 Company further grants to Investor, during the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable.",
+    "bbox": [
+      179,
+      373,
+      1000,
+      385
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "license (with the right to grant sublicenses to Affiliates) to use the Technical Information to practice the methods described and claimed in the",
+    "bbox": [
+      111,
+      389,
+      1000,
+      402
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Patents and to make and have made, use, offer to sell, sell and import products made using the methods, and to make Improvements, and to engage",
+    "bbox": [
+      110,
+      406,
+      1000,
+      418
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "in any activity which would give rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a",
+    "bbox": [
+      111,
+      422,
+      1000,
+      434
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "license.",
+    "bbox": [
+      111,
+      438,
+      169,
+      449
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "in Articles 3.00 and 3.01 beyond the expiration of the Option Period, subject to an annual licensing fee paid by Investor to Company. The non-",
+    "bbox": [
+      111,
+      485,
+      1000,
+      497
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "exclusive rights granted to Investor under this Article 3.02 do not include the right to grant sublicenses to Third Parties. The amount and",
+    "bbox": [
+      111,
+      502,
+      1000,
+      514
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "parameters of the annual licensing fee shall be commercially reasonable, as determined by an independent expert who is mutually agreeable to the",
+    "bbox": [
+      111,
+      517,
+      1000,
+      530
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Parties and whose determination shall be final and binding; provided, however, that if the Parties cannot agree on the independent expert, each",
+    "bbox": [
+      112,
+      534,
+      1000,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Party shall designate an expert of their choice and the two experts designated by the Parties shall work together in good faith to identify and",
+    "bbox": [
+      111,
+      550,
+      1000,
+      562
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "designate a third, independent expert whose determination shall be binding.",
+    "bbox": [
+      112,
+      565,
+      678,
+      578
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 3 of 15",
+    "bbox": [
+      621,
+      610,
+      712,
+      623
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: RARE ELEMENT RESOURCES LTD, SC 13D, 10/19/2017",
+    "bbox": [
+      133,
+      1000,
+      635,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.00 Company grants to Investor, for the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable license (with.",
+    "bbox": [
+      179,
+      292,
+      1000,
+      307
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "the right to grant sublicenses to Affiliates) under the Patents to practice the methods therein described and claimed and to make and have made,",
+    "bbox": [
+      112,
+      310,
+      1000,
+      322
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "use, offer to sell, sell and import products made using such methods, and to make Improvements, and to engage in any activity which would give",
+    "bbox": [
+      112,
+      326,
+      1000,
+      338
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license..",
+    "bbox": [
+      111,
+      342,
+      996,
+      353
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3.01 Company further grants to Investor, during the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable.",
+    "bbox": [
+      179,
+      373,
+      1000,
+      385
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "license (with the right to grant sublicenses to Affiliates) to use the Technical Information to practice the methods described and claimed in the",
+    "bbox": [
+      111,
+      389,
+      1000,
+      402
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Patents and to make and have made, use, offer to sell, sell and import products made using the methods, and to make Improvements, and to engage",
+    "bbox": [
+      110,
+      406,
+      1000,
+      418
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "in any activity which would give rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a",
+    "bbox": [
+      111,
+      422,
+      1000,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "license.",
+    "bbox": [
+      111,
+      438,
+      169,
+      449
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "3.00 Company grants to Investor, for the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable license (with.",
+    "bbox": [
+      179,
+      292,
+      1000,
+      307
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "the right to grant sublicenses to Affiliates) under the Patents to practice the methods therein described and claimed and to make and have made,",
+    "bbox": [
+      112,
+      310,
+      1000,
+      322
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "use, offer to sell, sell and import products made using such methods, and to make Improvements, and to engage in any activity which would give",
+    "bbox": [
+      112,
+      326,
+      1000,
+      338
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license..",
+    "bbox": [
+      111,
+      342,
+      996,
+      353
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "3.00 Company grants to Investor, for the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable license (with.",
+    "bbox": [
+      179,
+      292,
+      1000,
+      307
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "the right to grant sublicenses to Affiliates) under the Patents to practice the methods therein described and claimed and to make and have made,",
+    "bbox": [
+      112,
+      310,
+      1000,
+      322
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "use, offer to sell, sell and import products made using such methods, and to make Improvements, and to engage in any activity which would give",
+    "bbox": [
+      112,
+      326,
+      1000,
+      338
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license..",
+    "bbox": [
+      111,
+      342,
+      996,
+      353
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "3.01 Company further grants to Investor, during the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable.",
+    "bbox": [
+      179,
+      373,
+      1000,
+      385
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "license (with the right to grant sublicenses to Affiliates) to use the Technical Information to practice the methods described and claimed in the",
+    "bbox": [
+      111,
+      389,
+      1000,
+      402
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Patents and to make and have made, use, offer to sell, sell and import products made using the methods, and to make Improvements, and to engage",
+    "bbox": [
+      110,
+      406,
+      1000,
+      418
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "in any activity which would give rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a",
+    "bbox": [
+      111,
+      422,
+      1000,
+      434
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "license.",
+    "bbox": [
+      111,
+      438,
+      169,
+      449
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  }
+]

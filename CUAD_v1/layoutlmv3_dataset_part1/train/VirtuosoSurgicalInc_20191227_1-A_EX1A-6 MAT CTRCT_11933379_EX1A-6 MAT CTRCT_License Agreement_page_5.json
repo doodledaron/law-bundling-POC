@@ -1,0 +1,398 @@
+[
+  {
+    "text": "5",
+    "bbox": [
+      660,
+      72,
+      672,
+      83
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "May 3, 2016",
+    "bbox": [
+      1000,
+      104,
+      1000,
+      118
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Reference: JHU Tech Transfer (JHU Agreement A29889)",
+    "bbox": [
+      248,
+      121,
+      672,
+      132
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Company shall be responsible for any and all costs associated with wire transfers. Company shall provide JHU with the date of",
+    "bbox": [
+      247,
+      136,
+      1000,
+      149
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "wire transfer payment and ACH confirmation number upon completion of such payment.",
+    "bbox": [
+      247,
+      153,
+      911,
+      165
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.10",
+    "bbox": [
+      178,
+      167,
+      212,
+      181
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Invoices. Any invoice for payment sent by JHU to Company may be electronically provided by e-mail service. JHU will send",
+    "bbox": [
+      245,
+      167,
+      1000,
+      182
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "invoices to an e-mail address provided by Company. Company will provide JHU with any updates to this e-mail address.",
+    "bbox": [
+      247,
+      185,
+      1000,
+      197
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5. PATENT MATTERS",
+    "bbox": [
+      112,
+      201,
+      284,
+      212
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      178,
+      216,
+      202,
+      229
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Prosecution & Maintenance: JHU, at its sole option and discretion, shall file, prosecute and maintain all patents and patent",
+    "bbox": [
+      247,
+      216,
+      1000,
+      229
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "applications specified under PATENT RIGHT(S). Title to all such patents and patent applications shall reside in JHU. JHU shall",
+    "bbox": [
+      247,
+      232,
+      1000,
+      245
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "have full and complete control over all patent matters in connection therewith under the PATENT RIGHT(S).",
+    "bbox": [
+      248,
+      249,
+      1000,
+      260
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      178,
+      263,
+      202,
+      277
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Right to Enforce: JHU shall have the first right to enforce the PATENT RIGHTS against any infringement or alleged infringement",
+    "bbox": [
+      248,
+      265,
+      1000,
+      277
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "thereof in the LICENSED FIELD OF USE",
+    "bbox": [
+      247,
+      280,
+      552,
+      292
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6. TERM AND TERMINATION",
+    "bbox": [
+      111,
+      296,
+      350,
+      308
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.1",
+    "bbox": [
+      178,
+      312,
+      202,
+      325
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Expiration: This term of this Agreement shall commence on the EFFECTIVE DATE and shall continue, in each country, until the",
+    "bbox": [
+      247,
+      312,
+      1000,
+      325
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "date of expiration of the last to expire patent within PATENT RIGHT(S) in that country.",
+    "bbox": [
+      247,
+      329,
+      892,
+      341
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.2",
+    "bbox": [
+      178,
+      344,
+      203,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Termination by Company: Company may terminate this Agreement and the license granted herein, for any reason, upon giving",
+    "bbox": [
+      246,
+      344,
+      1000,
+      358
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "JHU sixty (60) days written notice under Paragraph 8.1..",
+    "bbox": [
+      247,
+      361,
+      660,
+      373
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.3",
+    "bbox": [
+      178,
+      376,
+      202,
+      389
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Termination by JHU: JHU, at its option, may terminate this Agreement and the license granted herein if Company has not made",
+    "bbox": [
+      247,
+      377,
+      1000,
+      389
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "any sales of LICENSED PRODUCT(S) or LICENSED SERVICE(S) in any period of four consecutive quarters, after the initial",
+    "bbox": [
+      247,
+      393,
+      1000,
+      405
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "commercial sale of the PRODUCT(S) or LICENSED SERVICE(S).",
+    "bbox": [
+      247,
+      409,
+      724,
+      421
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.4",
+    "bbox": [
+      178,
+      424,
+      203,
+      436
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Unpaid Royalty/Reversion of Rights: Termination or expiration of this Agreement shall not affect JHU's right to recover unpaid",
+    "bbox": [
+      247,
+      425,
+      1000,
+      437
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "royalties accrued prior to termination or expiration. Upon termination or expiration of this Agreement, all rights in and to the",
+    "bbox": [
+      247,
+      441,
+      1000,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "licensed technology shall revert to JHU at no cost to JHU..",
+    "bbox": [
+      247,
+      457,
+      684,
+      469
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.5",
+    "bbox": [
+      178,
+      471,
+      203,
+      484
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Survival: All applicable provisions, including but not limited to Paragraphs 4.1 (License Fee), 9.3 (Severability), 9.4 (Use of Name),",
+    "bbox": [
+      247,
+      473,
+      1000,
+      485
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "9.6 (Disclaimer of Warranties), 9.7 (Indemnification), 9.8 (Product Liability), 9.13 (Binding Effect) and 9.14 (Governing Law) shall",
+    "bbox": [
+      247,
+      488,
+      1000,
+      501
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "survive termination or expiration of this Agreement..",
+    "bbox": [
+      247,
+      504,
+      634,
+      516
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019",
+    "bbox": [
+      133,
+      1000,
+      559,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

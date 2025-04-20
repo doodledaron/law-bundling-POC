@@ -1,0 +1,35 @@
+[
+  {
+    "text": "accordance with generally accepted accounting principles consistently applied. The Company shall permit the inspection and",
+    "bbox": [
+      247,
+      456,
+      1000,
+      469
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "copying of such records, files and books of account by JHU or its agents during regular business hours upon ten (10) business",
+    "bbox": [
+      247,
+      472,
+      1000,
+      485
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "days' written notice to the Company. Such inspection shall not be made more than once each calendar year. All costs of such",
+    "bbox": [
+      247,
+      489,
+      1000,
+      501
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

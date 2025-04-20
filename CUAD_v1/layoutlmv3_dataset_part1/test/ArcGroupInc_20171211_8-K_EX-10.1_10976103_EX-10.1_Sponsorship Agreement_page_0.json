@@ -1,0 +1,200 @@
+[
+  {
+    "text": "JACKSONVILLE JAGUARS",
+    "bbox": [
+      556,
+      130,
+      778,
+      139
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "SPONSORSHIP AGREEMENT",
+    "bbox": [
+      548,
+      145,
+      785,
+      155
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "SPONSORSHIP AGREEMENT",
+    "bbox": [
+      548,
+      145,
+      785,
+      155
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club'), and The ARC Group, Inc., a Florida corporation (owner and operator of.",
+    "bbox": [
+      110,
+      192,
+      1000,
+      205
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club'), and The ARC Group, Inc., a Florida corporation (owner and operator of.",
+    "bbox": [
+      110,
+      192,
+      1000,
+      205
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club'), and The ARC Group, Inc., a Florida corporation (owner and operator of.",
+    "bbox": [
+      110,
+      192,
+      1000,
+      205
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Sponsorship Agreement (this \"Agreement') is entered into as of November 27, 2017 (the \"Execution Date\") by and between",
+    "bbox": [
+      179,
+      176,
+      1000,
+      189
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "\"Term') shall commence as of April 1, 2018 (the \"Effective Date') and shall expire upon the later of: (a) the conclusion of the 2022/23 NFL season",
+    "bbox": [
+      112,
+      448,
+      1000,
+      461
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+    "bbox": [
+      145,
+      432,
+      1000,
+      445
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Term') shall commence as of April 1, 2018 (the \"Effective Date') and shall expire upon the later of: (a) the conclusion of the 2022/23 NFL season",
+    "bbox": [
+      112,
+      448,
+      1000,
+      461
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "and (b) the last day in February, 2023 (such expiration date, the \"Scheduled Expiration Date'), unless sooner terminated pursuant to the terms of",
+    "bbox": [
+      111,
+      464,
+      1000,
+      477
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      111,
+      481,
+      231,
+      493
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+    "bbox": [
+      145,
+      513,
+      1000,
+      525
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "payment of the Sponsor Fees, Club hereby grants to Sponsor, and Sponsor hereby accepts, solely in the Territory, and during the Term: (i) the right",
+    "bbox": [
+      110,
+      528,
+      1000,
+      542
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to use the Benefits set forth on Exhibit A and the license and right to use the Team Marks solely in connection with the advertisement and",
+    "bbox": [
+      111,
+      545,
+      1000,
+      556
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "promotion of Sponsor's Dick's Wings and Grill branded restaurants (the \"Sponsor Business\") in accordance with this Agreement; and (ii) the right",
+    "bbox": [
+      110,
+      560,
+      1000,
+      573
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to use the designation \"Official Wings of the Jacksonville Jaguars\" and such other designations as Club and Sponsor may agree to in a writing",
+    "bbox": [
+      110,
+      576,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "from time to time (collectively, the \"Official Designations'), solely in connection with the Sponsor Business. No license or right is granted for the",
+    "bbox": [
+      111,
+      593,
+      1000,
+      605
+    ],
+    "label": 25,
+    "category": "License Grant"
+  }
+]

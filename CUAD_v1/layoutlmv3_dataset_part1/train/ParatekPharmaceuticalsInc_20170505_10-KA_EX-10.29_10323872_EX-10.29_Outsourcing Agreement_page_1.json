@@ -1,0 +1,926 @@
+[
+  {
+    "text": "Supply of Materials and Customer Material",
+    "bbox": [
+      197,
+      478,
+      529,
+      490
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      128,
+      85,
+      1000,
+      94
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Table of Contents",
+    "bbox": [
+      600,
+      130,
+      733,
+      141
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Article 1",
+    "bbox": [
+      113,
+      166,
+      183,
+      177
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Interpretation",
+    "bbox": [
+      194,
+      166,
+      302,
+      176
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      166,
+      1000,
+      178
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      148,
+      189,
+      175,
+      202
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      195,
+      188,
+      283,
+      202
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      190,
+      1000,
+      202
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      148,
+      213,
+      176,
+      225
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Other Definitions",
+    "bbox": [
+      197,
+      214,
+      333,
+      225
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      213,
+      1000,
+      225
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      147,
+      237,
+      176,
+      249
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Currency",
+    "bbox": [
+      195,
+      236,
+      272,
+      252
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      237,
+      1000,
+      249
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.4",
+    "bbox": [
+      147,
+      261,
+      177,
+      273
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Headings",
+    "bbox": [
+      194,
+      260,
+      268,
+      275
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      273
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      147,
+      285,
+      176,
+      297
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Exhibits",
+    "bbox": [
+      196,
+      285,
+      260,
+      297
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      285,
+      1000,
+      297
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.6",
+    "bbox": [
+      145,
+      307,
+      177,
+      323
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Applicable Law",
+    "bbox": [
+      196,
+      309,
+      312,
+      322
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      309,
+      1000,
+      322
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Article 2",
+    "bbox": [
+      112,
+      333,
+      182,
+      344
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      194,
+      333,
+      239,
+      345
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      333,
+      1000,
+      346
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      148,
+      357,
+      175,
+      369
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      195,
+      357,
+      239,
+      370
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      357,
+      1000,
+      370
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      147,
+      381,
+      176,
+      393
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Effect of Expiration on Purchase Orders",
+    "bbox": [
+      198,
+      382,
+      503,
+      393
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      381,
+      1000,
+      394
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Article 3",
+    "bbox": [
+      112,
+      406,
+      182,
+      417
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Supply of Product",
+    "bbox": [
+      195,
+      405,
+      333,
+      418
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      405,
+      1000,
+      418
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      147,
+      429,
+      176,
+      441
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Supply of Product",
+    "bbox": [
+      195,
+      428,
+      334,
+      443
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      429,
+      1000,
+      441
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      147,
+      453,
+      176,
+      465
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Manufacturing Services",
+    "bbox": [
+      196,
+      453,
+      383,
+      465
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      453,
+      1000,
+      465
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      146,
+      476,
+      177,
+      490
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Supply of Materials and Customer Material",
+    "bbox": [
+      197,
+      478,
+      529,
+      490
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      477,
+      1000,
+      490
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      147,
+      499,
+      177,
+      514
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Production Capacity",
+    "bbox": [
+      196,
+      500,
+      350,
+      514
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      500,
+      1000,
+      514
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      146,
+      524,
+      177,
+      538
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Processing Changes",
+    "bbox": [
+      196,
+      525,
+      357,
+      538
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      524,
+      1000,
+      538
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.6",
+    "bbox": [
+      147,
+      549,
+      177,
+      561
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Monitoring of Facilities",
+    "bbox": [
+      196,
+      550,
+      378,
+      561
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      548,
+      1000,
+      562
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.7",
+    "bbox": [
+      147,
+      573,
+      176,
+      585
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Subcontracting",
+    "bbox": [
+      195,
+      573,
+      315,
+      587
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      571,
+      1000,
+      586
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.8",
+    "bbox": [
+      147,
+      596,
+      176,
+      611
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "[* * *]",
+    "bbox": [
+      194,
+      596,
+      248,
+      611
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      610
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.9",
+    "bbox": [
+      148,
+      621,
+      177,
+      634
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "[* * *]",
+    "bbox": [
+      195,
+      621,
+      247,
+      634
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      621,
+      1000,
+      633
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.10",
+    "bbox": [
+      150,
+      646,
+      185,
+      656
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Territory Expansion",
+    "bbox": [
+      194,
+      646,
+      350,
+      657
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      645,
+      1000,
+      658
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.11",
+    "bbox": [
+      149,
+      669,
+      184,
+      681
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Supply to Customer Licensees",
+    "bbox": [
+      195,
+      670,
+      431,
+      682
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      667,
+      1000,
+      683
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.12",
+    "bbox": [
+      150,
+      694,
+      185,
+      704
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Alternative Supply",
+    "bbox": [
+      195,
+      693,
+      338,
+      706
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      706
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Article 4.",
+    "bbox": [
+      114,
+      718,
+      182,
+      728
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Forecasts",
+    "bbox": [
+      195,
+      717,
+      272,
+      729
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      717,
+      1000,
+      730
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      148,
+      740,
+      175,
+      753
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Short Term Rolling Forecasts",
+    "bbox": [
+      196,
+      741,
+      427,
+      753
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      740,
+      1000,
+      754
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      148,
+      765,
+      176,
+      777
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Long Term Forecasts",
+    "bbox": [
+      195,
+      766,
+      360,
+      777
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      796,
+      241,
+      806
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Page 2 of 49",
+    "bbox": [
+      1000,
+      794,
+      1000,
+      809
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  }
+]

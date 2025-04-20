@@ -1,0 +1,497 @@
+[
+  {
+    "text": "GLOBAL MAINTENANCE AGREEMIENT",
+    "bbox": [
+      414,
+      399,
+      920,
+      411
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "AVIONS DE TRANSPORT REGIONAL, G.I.E.",
+    "bbox": [
+      453,
+      709,
+      879,
+      721
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Execution version",
+    "bbox": [
+      600,
+      82,
+      734,
+      92
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AR",
+    "bbox": [
+      116,
+      130,
+      338,
+      215
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.3",
+    "bbox": [
+      1000,
+      237,
+      1000,
+      247
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED -REDACTED COPY",
+    "bbox": [
+      410,
+      269,
+      922,
+      279
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Confidential Treatment has been requested for portions of this Exhibit. Confidential",
+    "bbox": [
+      349,
+      285,
+      985,
+      297
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "portions of this Exhibit are designated by [*****]. A complete version of this Exhibit has",
+    "bbox": [
+      331,
+      300,
+      1000,
+      313
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "been filed separately with the Securities and Exchange Commission.",
+    "bbox": [
+      405,
+      317,
+      925,
+      329
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "GLOBAL MAINTENANCE AGREEMIENT",
+    "bbox": [
+      414,
+      399,
+      920,
+      411
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Contract No. DS/CS-3957/14 issue 7",
+    "bbox": [
+      532,
+      420,
+      800,
+      431
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Between",
+    "bbox": [
+      627,
+      484,
+      705,
+      499
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AZUL LINHAS AEREAS BRASILEIRAS S/A",
+    "bbox": [
+      462,
+      552,
+      872,
+      565
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(as Company)",
+    "bbox": [
+      605,
+      573,
+      729,
+      588
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      648,
+      639,
+      685,
+      655
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AVIONS DE TRANSPORT REGIONAL, G.I.E.",
+    "bbox": [
+      453,
+      709,
+      879,
+      721
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(as Repairer)",
+    "bbox": [
+      609,
+      730,
+      725,
+      744
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "March 9th, 2015",
+    "bbox": [
+      602,
+      795,
+      730,
+      807
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AZUL-ATR",
+    "bbox": [
+      112,
+      855,
+      204,
+      866
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Global Maintenance Master Agreement.",
+    "bbox": [
+      528,
+      855,
+      831,
+      867
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Page 1/110",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      868
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DS/CS-3957/14/Issue 7",
+    "bbox": [
+      594,
+      872,
+      765,
+      882
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: AZUL SA, F-1/A, 3/3/2017",
+    "bbox": [
+      133,
+      1000,
+      404,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Execution version",
+    "bbox": [
+      600,
+      82,
+      734,
+      92
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AR",
+    "bbox": [
+      116,
+      130,
+      338,
+      215
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.3",
+    "bbox": [
+      1000,
+      237,
+      1000,
+      247
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED -REDACTED COPY",
+    "bbox": [
+      410,
+      269,
+      922,
+      279
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Confidential Treatment has been requested for portions of this Exhibit. Confidential",
+    "bbox": [
+      349,
+      285,
+      985,
+      297
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "portions of this Exhibit are designated by [*****]. A complete version of this Exhibit has",
+    "bbox": [
+      331,
+      300,
+      1000,
+      313
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "been filed separately with the Securities and Exchange Commission.",
+    "bbox": [
+      405,
+      317,
+      925,
+      329
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "GLOBAL MAINTENANCE AGREEMIENT",
+    "bbox": [
+      414,
+      399,
+      920,
+      411
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Contract No. DS/CS-3957/14 issue 7",
+    "bbox": [
+      532,
+      420,
+      800,
+      431
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Between",
+    "bbox": [
+      627,
+      484,
+      705,
+      499
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AZUL LINHAS AEREAS BRASILEIRAS S/A",
+    "bbox": [
+      462,
+      552,
+      872,
+      565
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(as Company)",
+    "bbox": [
+      605,
+      573,
+      729,
+      588
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      648,
+      639,
+      685,
+      655
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AVIONS DE TRANSPORT REGIONAL, G.I.E.",
+    "bbox": [
+      453,
+      709,
+      879,
+      721
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(as Repairer)",
+    "bbox": [
+      609,
+      730,
+      725,
+      744
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "March 9th, 2015",
+    "bbox": [
+      602,
+      795,
+      730,
+      807
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AZUL-ATR",
+    "bbox": [
+      112,
+      855,
+      204,
+      866
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Global Maintenance Master Agreement.",
+    "bbox": [
+      528,
+      855,
+      831,
+      867
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Page 1/110",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      868
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DS/CS-3957/14/Issue 7",
+    "bbox": [
+      594,
+      872,
+      765,
+      882
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: AZUL SA, F-1/A, 3/3/2017",
+    "bbox": [
+      133,
+      1000,
+      404,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "March 9th, 2015",
+    "bbox": [
+      602,
+      795,
+      730,
+      807
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

@@ -1,0 +1,453 @@
+[
+  {
+    "text": "SUPPLIER/SUBCONTRACTOR CONTRACT",
+    "bbox": [
+      443,
+      122,
+      890,
+      135
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "SUPPLIER/SUBCONTRACTOR CONTRACT",
+    "bbox": [
+      443,
+      122,
+      890,
+      135
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "('Purchaser') to merchandise covered by this Contract are owned by",
+    "bbox": [
+      595,
+      195,
+      1000,
+      209
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 8",
+    "bbox": [
+      625,
+      88,
+      709,
+      101
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "SUPPLIER/SUBCONTRACTOR CONTRACT",
+    "bbox": [
+      443,
+      122,
+      890,
+      135
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      114,
+      157,
+      132,
+      169
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "By execution of this Supplier/Subcontractor Contract (\"Contract'),",
+    "bbox": [
+      190,
+      157,
+      804,
+      171
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "(\"Supplier\") agrees and",
+    "bbox": [
+      1000,
+      157,
+      1000,
+      171
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "acknowledges that: (i) all images and/or trademarks, including, but not limited to PLAYBOY, (the *Playboy Properties\")",
+    "bbox": [
+      188,
+      175,
+      1000,
+      191
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "applied at the request of",
+    "bbox": [
+      189,
+      195,
+      413,
+      210
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "('Purchaser') to merchandise covered by this Contract are owned by",
+    "bbox": [
+      595,
+      195,
+      1000,
+      209
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Playboy Enterprises International, Inc. (\"Playboy'), and when used upon merchandise means that such merchandise is",
+    "bbox": [
+      190,
+      215,
+      1000,
+      227
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "sponsored, approved, recommended or sold by Playboy or its licensees; (ii) Supplier will not sell, ship or otherwise.",
+    "bbox": [
+      189,
+      232,
+      1000,
+      247
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "dispose of any such merchandise except upon the order of Purchaser or Playboy; (iii) Supplier will never make, cause",
+    "bbox": [
+      191,
+      253,
+      1000,
+      266
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "others to make or assist others in making, any claim whatsoever to any or all of the Playboy Properties or any trademark.",
+    "bbox": [
+      191,
+      271,
+      1000,
+      284
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "copyright, designation, name, phrase, design or symbol similar thereto in connection with the manufacture, advertising,.",
+    "bbox": [
+      190,
+      290,
+      1000,
+      305
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "promotion, sale or distribution of merchandise; and (iv) Supplier will defend, indemnify and hold harmless Purchaser and.",
+    "bbox": [
+      189,
+      308,
+      1000,
+      324
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Playboy and the distributors and dealers and the officers and employees of each of the foregoing against all liability.",
+    "bbox": [
+      189,
+      328,
+      1000,
+      342
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "whatsoever which may be incurred by them or any of them as a result of any alleged defects in material or workmanship",
+    "bbox": [
+      190,
+      348,
+      1000,
+      360
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "in the merchandise covered by this Contract.",
+    "bbox": [
+      189,
+      366,
+      567,
+      379
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      398,
+      132,
+      414
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Supplier agrees that no production or manufacture of any merchandise covered by this Contract will commence until this",
+    "bbox": [
+      189,
+      399,
+      1000,
+      414
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Contract has been signed, dated and returned by Supplier to Purchaser. Supplier further agrees that it will not produce,",
+    "bbox": [
+      189,
+      418,
+      1000,
+      433
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "cause to be produced or assist in the production of more units than are specified by Purchaser nor will Supplier produce,",
+    "bbox": [
+      191,
+      439,
+      1000,
+      451
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "or all of the Playboy Properties or any trademark, copyright, designations, names, phrases, designs or symbols similar to.",
+    "bbox": [
+      188,
+      475,
+      1000,
+      491
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "any or all of the Playboy Properties during or at any time after the completion of merchandise requested by this Contract.",
+    "bbox": [
+      189,
+      495,
+      1000,
+      509
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      112,
+      528,
+      133,
+      543
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Supplier will, upon request from Purchaser or Playboy, deliver to Purchaser or will destroy in the presence of Purchaser",
+    "bbox": [
+      190,
+      530,
+      1000,
+      542
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "or its representative(s), all molds, designs or any other elements used in reproducing any or all of the Playboy Properties",
+    "bbox": [
+      191,
+      548,
+      1000,
+      561
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      112,
+      581,
+      133,
+      596
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Playboy is an intended third-party beneficiary of this Contract.",
+    "bbox": [
+      189,
+      581,
+      716,
+      596
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      113,
+      614,
+      133,
+      629
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "This Contract, when attached to a purchase order, shall consist of the entire agreement between the parties and shall",
+    "bbox": [
+      189,
+      615,
+      1000,
+      630
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied",
+    "bbox": [
+      190,
+      635,
+      1000,
+      649
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "by Purchaser or Supplier.",
+    "bbox": [
+      191,
+      654,
+      406,
+      668
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      113,
+      686,
+      133,
+      701
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "This Contract may not be modified or terminated except in writing, and no claimed modification, termination or waiver",
+    "bbox": [
+      191,
+      689,
+      1000,
+      701
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "shall be binding unless also signed by an authorized representative of Playboy",
+    "bbox": [
+      189,
+      706,
+      846,
+      721
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      113,
+      754,
+      139,
+      770
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Source: PLAYBOY ENTERPRISES INC, 10-Q/A, 2/20/2009",
+    "bbox": [
+      134,
+      1000,
+      584,
+      1000
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Playboy is an intended third-party beneficiary of this Contract.",
+    "bbox": [
+      189,
+      581,
+      716,
+      596
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  }
+]

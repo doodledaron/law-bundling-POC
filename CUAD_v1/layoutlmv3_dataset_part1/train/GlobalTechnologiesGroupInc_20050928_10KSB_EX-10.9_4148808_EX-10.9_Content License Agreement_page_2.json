@@ -1,0 +1,2378 @@
+[
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      111,
+      95,
+      195,
+      105
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "GLOBAL MUSIC INTERNATIONAL, INC.",
+    "bbox": [
+      112,
+      123,
+      427,
+      134
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "DBA IMNTV",
+    "bbox": [
+      111,
+      135,
+      207,
+      146
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "MASTER TERMS OF SERVICE",
+    "bbox": [
+      111,
+      147,
+      346,
+      156
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1. DEFINITIONS",
+    "bbox": [
+      112,
+      176,
+      240,
+      185
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The following capitalized terms will have the meanings set forth below:",
+    "bbox": [
+      111,
+      203,
+      595,
+      215
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Bundles\" means, any version of the Mobile Product that includes IMNTV content bundled with any other product or service",
+    "bbox": [
+      112,
+      232,
+      977,
+      242
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Confidential Information' means the confidential or proprietary technical or business information of a party, including without limitation (a) proposals or",
+    "bbox": [
+      110,
+      258,
+      1000,
+      271
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "research related to possible new products or services; (b) financial statements and other financial information; (c) reporting information; (d) the material terms of",
+    "bbox": [
+      110,
+      271,
+      1000,
+      283
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "this Agreement and the relationship between the parties; and (e) planned launch dates. All of the information will be considered confidential only if it is",
+    "bbox": [
+      111,
+      284,
+      1000,
+      294
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "conspicuously designated as \"Confidential,\" or if provided orally, identified at the time of disclosure as confidential. \"Confidential Information\" does not include",
+    "bbox": [
+      110,
+      295,
+      1000,
+      307
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "information that (i) is in or enters the public domain without breach of this Agreement, (ii) the receiving party lawfully receives from a third party without",
+    "bbox": [
+      110,
+      307,
+      1000,
+      319
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "restriction on disclosure and without breach of a nondisclosure obligation, or (iii) the receiving party knew prior to receiving such information from the disclosing.",
+    "bbox": [
+      110,
+      319,
+      1000,
+      332
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "party or develops independently..",
+    "bbox": [
+      110,
+      332,
+      336,
+      343
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Content' means generally text, images, video, audio, and other material.",
+    "bbox": [
+      111,
+      358,
+      608,
+      371
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Fees\" means Subscription Fees that include IMNTV content...",
+    "bbox": [
+      111,
+      386,
+      544,
+      399
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Internet Protocol' means any protocol used to route data on the Internet, or on any portion of the Internet, including all versions currently in existence or",
+    "bbox": [
+      110,
+      414,
+      1000,
+      428
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "developed or implemented in the future.",
+    "bbox": [
+      112,
+      428,
+      383,
+      438
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Landing Page\" means the destination web page for a Special Link, created and hosted by Distributor, from where individuals may begin the Registration Process",
+    "bbox": [
+      110,
+      454,
+      1000,
+      467
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "for the Subscription Service or a Bundle, at such individual's election.",
+    "bbox": [
+      112,
+      468,
+      581,
+      478
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Launch' means the date that the Programming is made generally available for purchase by consumers under the terms and conditions of the Agreement..",
+    "bbox": [
+      110,
+      494,
+      1000,
+      507
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Programming\"'means IMNTV's Content, as specifically described on Section B (1) of the Agreement. As used herein, \"Programming\" also includes any.",
+    "bbox": [
+      110,
+      522,
+      1000,
+      535
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "promotional and marketing Content provided by Provider for IMNTV's promotional and marketing activities as described herein..",
+    "bbox": [
+      111,
+      536,
+      987,
+      546
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Programming Bundle Fee\" means the fee actually paid by a Subscriber for a Programming Bundle that includes IMNTV content provided in accordance with",
+    "bbox": [
+      112,
+      563,
+      1000,
+      575
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "this Agreement..",
+    "bbox": [
+      110,
+      575,
+      219,
+      587
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Distributor Marks' means the trademarks, service marks, brands, logos and trade names of Distributor.",
+    "bbox": [
+      111,
+      603,
+      827,
+      614
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Distributor Portal\"' means, collectively, the Distributor's Site and any other web site or property from where Distributor promotes the Programming",
+    "bbox": [
+      112,
+      630,
+      1000,
+      643
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Distributor Site\"' means Distributor's Internet web site intended to promote the availability of any Distributor Content, including the Programming, via mobile",
+    "bbox": [
+      111,
+      658,
+      1000,
+      671
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and wireless networks. Distributor Site is more fully described in Section A of the Agreement.",
+    "bbox": [
+      110,
+      671,
+      749,
+      682
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Subscription Fee\"' means the fee actually paid by a Subscriber for the applicable Mobile Content.",
+    "bbox": [
+      111,
+      698,
+      792,
+      711
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Subscriber' means any individual who purchases mobile content programming and: (a) who actually pays the applicable Subscription Fee; and (b) does not",
+    "bbox": [
+      110,
+      726,
+      1000,
+      739
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "receive a refund of such Subscription Fee for any reason within thirty (30) days from the end of the payment period for which the Subscription Fee was paid. A",
+    "bbox": [
+      110,
+      739,
+      1000,
+      750
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Subscriber remains a \"Subscriber\"' for the purposes of this Agreement so long as such individual continues to pay the applicable Subscription Fee..",
+    "bbox": [
+      111,
+      750,
+      1000,
+      763
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Registration Process\" means the download, payment, installation, and electronic registration process of the Programming, a Bundle or the applicable Software..",
+    "bbox": [
+      111,
+      778,
+      1000,
+      791
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Registration Process\" may include an online registration form.",
+    "bbox": [
+      110,
+      791,
+      536,
+      803
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: GLOBAL TECHNOLOGIES GROUP, INC., 10KSB, 9/28/2005",
+    "bbox": [
+      133,
+      1000,
+      659,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      111,
+      95,
+      195,
+      105
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "GLOBAL MUSIC INTERNATIONAL, INC.",
+    "bbox": [
+      112,
+      123,
+      427,
+      134
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DBA IMNTV",
+    "bbox": [
+      111,
+      135,
+      207,
+      146
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "MASTER TERMS OF SERVICE",
+    "bbox": [
+      111,
+      147,
+      346,
+      156
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1. DEFINITIONS",
+    "bbox": [
+      112,
+      176,
+      240,
+      185
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The following capitalized terms will have the meanings set forth below:",
+    "bbox": [
+      111,
+      203,
+      595,
+      215
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Bundles\" means, any version of the Mobile Product that includes IMNTV content bundled with any other product or service",
+    "bbox": [
+      112,
+      232,
+      977,
+      242
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Confidential Information' means the confidential or proprietary technical or business information of a party, including without limitation (a) proposals or",
+    "bbox": [
+      110,
+      258,
+      1000,
+      271
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "research related to possible new products or services; (b) financial statements and other financial information; (c) reporting information; (d) the material terms of",
+    "bbox": [
+      110,
+      271,
+      1000,
+      283
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "this Agreement and the relationship between the parties; and (e) planned launch dates. All of the information will be considered confidential only if it is",
+    "bbox": [
+      111,
+      284,
+      1000,
+      294
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "conspicuously designated as \"Confidential,\" or if provided orally, identified at the time of disclosure as confidential. \"Confidential Information\" does not include",
+    "bbox": [
+      110,
+      295,
+      1000,
+      307
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "information that (i) is in or enters the public domain without breach of this Agreement, (ii) the receiving party lawfully receives from a third party without",
+    "bbox": [
+      110,
+      307,
+      1000,
+      319
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "restriction on disclosure and without breach of a nondisclosure obligation, or (iii) the receiving party knew prior to receiving such information from the disclosing.",
+    "bbox": [
+      110,
+      319,
+      1000,
+      332
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "party or develops independently..",
+    "bbox": [
+      110,
+      332,
+      336,
+      343
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Content' means generally text, images, video, audio, and other material.",
+    "bbox": [
+      111,
+      358,
+      608,
+      371
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Fees\" means Subscription Fees that include IMNTV content...",
+    "bbox": [
+      111,
+      386,
+      544,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Internet Protocol' means any protocol used to route data on the Internet, or on any portion of the Internet, including all versions currently in existence or",
+    "bbox": [
+      110,
+      414,
+      1000,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "developed or implemented in the future.",
+    "bbox": [
+      112,
+      428,
+      383,
+      438
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Landing Page\" means the destination web page for a Special Link, created and hosted by Distributor, from where individuals may begin the Registration Process",
+    "bbox": [
+      110,
+      454,
+      1000,
+      467
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "for the Subscription Service or a Bundle, at such individual's election.",
+    "bbox": [
+      112,
+      468,
+      581,
+      478
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Launch' means the date that the Programming is made generally available for purchase by consumers under the terms and conditions of the Agreement..",
+    "bbox": [
+      110,
+      494,
+      1000,
+      507
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Programming\"'means IMNTV's Content, as specifically described on Section B (1) of the Agreement. As used herein, \"Programming\" also includes any.",
+    "bbox": [
+      110,
+      522,
+      1000,
+      535
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "promotional and marketing Content provided by Provider for IMNTV's promotional and marketing activities as described herein..",
+    "bbox": [
+      111,
+      536,
+      987,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Programming Bundle Fee\" means the fee actually paid by a Subscriber for a Programming Bundle that includes IMNTV content provided in accordance with",
+    "bbox": [
+      112,
+      563,
+      1000,
+      575
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "this Agreement..",
+    "bbox": [
+      110,
+      575,
+      219,
+      587
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Distributor Marks' means the trademarks, service marks, brands, logos and trade names of Distributor.",
+    "bbox": [
+      111,
+      603,
+      827,
+      614
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Distributor Portal\"' means, collectively, the Distributor's Site and any other web site or property from where Distributor promotes the Programming",
+    "bbox": [
+      112,
+      630,
+      1000,
+      643
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Distributor Site\"' means Distributor's Internet web site intended to promote the availability of any Distributor Content, including the Programming, via mobile",
+    "bbox": [
+      111,
+      658,
+      1000,
+      671
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and wireless networks. Distributor Site is more fully described in Section A of the Agreement.",
+    "bbox": [
+      110,
+      671,
+      749,
+      682
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Subscription Fee\"' means the fee actually paid by a Subscriber for the applicable Mobile Content.",
+    "bbox": [
+      111,
+      698,
+      792,
+      711
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Subscriber' means any individual who purchases mobile content programming and: (a) who actually pays the applicable Subscription Fee; and (b) does not",
+    "bbox": [
+      110,
+      726,
+      1000,
+      739
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "receive a refund of such Subscription Fee for any reason within thirty (30) days from the end of the payment period for which the Subscription Fee was paid. A",
+    "bbox": [
+      110,
+      739,
+      1000,
+      750
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Subscriber remains a \"Subscriber\"' for the purposes of this Agreement so long as such individual continues to pay the applicable Subscription Fee..",
+    "bbox": [
+      111,
+      750,
+      1000,
+      763
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Registration Process\" means the download, payment, installation, and electronic registration process of the Programming, a Bundle or the applicable Software..",
+    "bbox": [
+      111,
+      778,
+      1000,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Registration Process\" may include an online registration form.",
+    "bbox": [
+      110,
+      791,
+      536,
+      803
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: GLOBAL TECHNOLOGIES GROUP, INC., 10KSB, 9/28/2005",
+    "bbox": [
+      133,
+      1000,
+      659,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      111,
+      95,
+      195,
+      105
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "GLOBAL MUSIC INTERNATIONAL, INC.",
+    "bbox": [
+      112,
+      123,
+      427,
+      134
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "DBA IMNTV",
+    "bbox": [
+      111,
+      135,
+      207,
+      146
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "MASTER TERMS OF SERVICE",
+    "bbox": [
+      111,
+      147,
+      346,
+      156
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1. DEFINITIONS",
+    "bbox": [
+      112,
+      176,
+      240,
+      185
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The following capitalized terms will have the meanings set forth below:",
+    "bbox": [
+      111,
+      203,
+      595,
+      215
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Bundles\" means, any version of the Mobile Product that includes IMNTV content bundled with any other product or service",
+    "bbox": [
+      112,
+      232,
+      977,
+      242
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Confidential Information' means the confidential or proprietary technical or business information of a party, including without limitation (a) proposals or",
+    "bbox": [
+      110,
+      258,
+      1000,
+      271
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "research related to possible new products or services; (b) financial statements and other financial information; (c) reporting information; (d) the material terms of",
+    "bbox": [
+      110,
+      271,
+      1000,
+      283
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "this Agreement and the relationship between the parties; and (e) planned launch dates. All of the information will be considered confidential only if it is",
+    "bbox": [
+      111,
+      284,
+      1000,
+      294
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "conspicuously designated as \"Confidential,\" or if provided orally, identified at the time of disclosure as confidential. \"Confidential Information\" does not include",
+    "bbox": [
+      110,
+      295,
+      1000,
+      307
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "information that (i) is in or enters the public domain without breach of this Agreement, (ii) the receiving party lawfully receives from a third party without",
+    "bbox": [
+      110,
+      307,
+      1000,
+      319
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "restriction on disclosure and without breach of a nondisclosure obligation, or (iii) the receiving party knew prior to receiving such information from the disclosing.",
+    "bbox": [
+      110,
+      319,
+      1000,
+      332
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "party or develops independently..",
+    "bbox": [
+      110,
+      332,
+      336,
+      343
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Content' means generally text, images, video, audio, and other material.",
+    "bbox": [
+      111,
+      358,
+      608,
+      371
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Fees\" means Subscription Fees that include IMNTV content...",
+    "bbox": [
+      111,
+      386,
+      544,
+      399
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Internet Protocol' means any protocol used to route data on the Internet, or on any portion of the Internet, including all versions currently in existence or",
+    "bbox": [
+      110,
+      414,
+      1000,
+      428
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "developed or implemented in the future.",
+    "bbox": [
+      112,
+      428,
+      383,
+      438
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Landing Page\" means the destination web page for a Special Link, created and hosted by Distributor, from where individuals may begin the Registration Process",
+    "bbox": [
+      110,
+      454,
+      1000,
+      467
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "for the Subscription Service or a Bundle, at such individual's election.",
+    "bbox": [
+      112,
+      468,
+      581,
+      478
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Launch' means the date that the Programming is made generally available for purchase by consumers under the terms and conditions of the Agreement..",
+    "bbox": [
+      110,
+      494,
+      1000,
+      507
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Programming\"'means IMNTV's Content, as specifically described on Section B (1) of the Agreement. As used herein, \"Programming\" also includes any.",
+    "bbox": [
+      110,
+      522,
+      1000,
+      535
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "promotional and marketing Content provided by Provider for IMNTV's promotional and marketing activities as described herein..",
+    "bbox": [
+      111,
+      536,
+      987,
+      546
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Programming Bundle Fee\" means the fee actually paid by a Subscriber for a Programming Bundle that includes IMNTV content provided in accordance with",
+    "bbox": [
+      112,
+      563,
+      1000,
+      575
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "this Agreement..",
+    "bbox": [
+      110,
+      575,
+      219,
+      587
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Distributor Marks' means the trademarks, service marks, brands, logos and trade names of Distributor.",
+    "bbox": [
+      111,
+      603,
+      827,
+      614
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Distributor Portal\"' means, collectively, the Distributor's Site and any other web site or property from where Distributor promotes the Programming",
+    "bbox": [
+      112,
+      630,
+      1000,
+      643
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Distributor Site\"' means Distributor's Internet web site intended to promote the availability of any Distributor Content, including the Programming, via mobile",
+    "bbox": [
+      111,
+      658,
+      1000,
+      671
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "and wireless networks. Distributor Site is more fully described in Section A of the Agreement.",
+    "bbox": [
+      110,
+      671,
+      749,
+      682
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Subscription Fee\"' means the fee actually paid by a Subscriber for the applicable Mobile Content.",
+    "bbox": [
+      111,
+      698,
+      792,
+      711
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Subscriber' means any individual who purchases mobile content programming and: (a) who actually pays the applicable Subscription Fee; and (b) does not",
+    "bbox": [
+      110,
+      726,
+      1000,
+      739
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "receive a refund of such Subscription Fee for any reason within thirty (30) days from the end of the payment period for which the Subscription Fee was paid. A",
+    "bbox": [
+      110,
+      739,
+      1000,
+      750
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Subscriber remains a \"Subscriber\"' for the purposes of this Agreement so long as such individual continues to pay the applicable Subscription Fee..",
+    "bbox": [
+      111,
+      750,
+      1000,
+      763
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Registration Process\" means the download, payment, installation, and electronic registration process of the Programming, a Bundle or the applicable Software..",
+    "bbox": [
+      111,
+      778,
+      1000,
+      791
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Registration Process\" may include an online registration form.",
+    "bbox": [
+      110,
+      791,
+      536,
+      803
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: GLOBAL TECHNOLOGIES GROUP, INC., 10KSB, 9/28/2005",
+    "bbox": [
+      133,
+      1000,
+      659,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      111,
+      95,
+      195,
+      105
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "GLOBAL MUSIC INTERNATIONAL, INC.",
+    "bbox": [
+      112,
+      123,
+      427,
+      134
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "DBA IMNTV",
+    "bbox": [
+      111,
+      135,
+      207,
+      146
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "MASTER TERMS OF SERVICE",
+    "bbox": [
+      111,
+      147,
+      346,
+      156
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1. DEFINITIONS",
+    "bbox": [
+      112,
+      176,
+      240,
+      185
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "The following capitalized terms will have the meanings set forth below:",
+    "bbox": [
+      111,
+      203,
+      595,
+      215
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Bundles\" means, any version of the Mobile Product that includes IMNTV content bundled with any other product or service",
+    "bbox": [
+      112,
+      232,
+      977,
+      242
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Confidential Information' means the confidential or proprietary technical or business information of a party, including without limitation (a) proposals or",
+    "bbox": [
+      110,
+      258,
+      1000,
+      271
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "research related to possible new products or services; (b) financial statements and other financial information; (c) reporting information; (d) the material terms of",
+    "bbox": [
+      110,
+      271,
+      1000,
+      283
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "this Agreement and the relationship between the parties; and (e) planned launch dates. All of the information will be considered confidential only if it is",
+    "bbox": [
+      111,
+      284,
+      1000,
+      294
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "conspicuously designated as \"Confidential,\" or if provided orally, identified at the time of disclosure as confidential. \"Confidential Information\" does not include",
+    "bbox": [
+      110,
+      295,
+      1000,
+      307
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "information that (i) is in or enters the public domain without breach of this Agreement, (ii) the receiving party lawfully receives from a third party without",
+    "bbox": [
+      110,
+      307,
+      1000,
+      319
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "restriction on disclosure and without breach of a nondisclosure obligation, or (iii) the receiving party knew prior to receiving such information from the disclosing.",
+    "bbox": [
+      110,
+      319,
+      1000,
+      332
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "party or develops independently..",
+    "bbox": [
+      110,
+      332,
+      336,
+      343
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Content' means generally text, images, video, audio, and other material.",
+    "bbox": [
+      111,
+      358,
+      608,
+      371
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Fees\" means Subscription Fees that include IMNTV content...",
+    "bbox": [
+      111,
+      386,
+      544,
+      399
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Internet Protocol' means any protocol used to route data on the Internet, or on any portion of the Internet, including all versions currently in existence or",
+    "bbox": [
+      110,
+      414,
+      1000,
+      428
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "developed or implemented in the future.",
+    "bbox": [
+      112,
+      428,
+      383,
+      438
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Landing Page\" means the destination web page for a Special Link, created and hosted by Distributor, from where individuals may begin the Registration Process",
+    "bbox": [
+      110,
+      454,
+      1000,
+      467
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "for the Subscription Service or a Bundle, at such individual's election.",
+    "bbox": [
+      112,
+      468,
+      581,
+      478
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Launch' means the date that the Programming is made generally available for purchase by consumers under the terms and conditions of the Agreement..",
+    "bbox": [
+      110,
+      494,
+      1000,
+      507
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Programming\"'means IMNTV's Content, as specifically described on Section B (1) of the Agreement. As used herein, \"Programming\" also includes any.",
+    "bbox": [
+      110,
+      522,
+      1000,
+      535
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "promotional and marketing Content provided by Provider for IMNTV's promotional and marketing activities as described herein..",
+    "bbox": [
+      111,
+      536,
+      987,
+      546
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Programming Bundle Fee\" means the fee actually paid by a Subscriber for a Programming Bundle that includes IMNTV content provided in accordance with",
+    "bbox": [
+      112,
+      563,
+      1000,
+      575
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "this Agreement..",
+    "bbox": [
+      110,
+      575,
+      219,
+      587
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Distributor Marks' means the trademarks, service marks, brands, logos and trade names of Distributor.",
+    "bbox": [
+      111,
+      603,
+      827,
+      614
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Distributor Portal\"' means, collectively, the Distributor's Site and any other web site or property from where Distributor promotes the Programming",
+    "bbox": [
+      112,
+      630,
+      1000,
+      643
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Distributor Site\"' means Distributor's Internet web site intended to promote the availability of any Distributor Content, including the Programming, via mobile",
+    "bbox": [
+      111,
+      658,
+      1000,
+      671
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "and wireless networks. Distributor Site is more fully described in Section A of the Agreement.",
+    "bbox": [
+      110,
+      671,
+      749,
+      682
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Subscription Fee\"' means the fee actually paid by a Subscriber for the applicable Mobile Content.",
+    "bbox": [
+      111,
+      698,
+      792,
+      711
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Subscriber' means any individual who purchases mobile content programming and: (a) who actually pays the applicable Subscription Fee; and (b) does not",
+    "bbox": [
+      110,
+      726,
+      1000,
+      739
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "receive a refund of such Subscription Fee for any reason within thirty (30) days from the end of the payment period for which the Subscription Fee was paid. A",
+    "bbox": [
+      110,
+      739,
+      1000,
+      750
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Subscriber remains a \"Subscriber\"' for the purposes of this Agreement so long as such individual continues to pay the applicable Subscription Fee..",
+    "bbox": [
+      111,
+      750,
+      1000,
+      763
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Registration Process\" means the download, payment, installation, and electronic registration process of the Programming, a Bundle or the applicable Software..",
+    "bbox": [
+      111,
+      778,
+      1000,
+      791
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "\"Registration Process\" may include an online registration form.",
+    "bbox": [
+      110,
+      791,
+      536,
+      803
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Source: GLOBAL TECHNOLOGIES GROUP, INC., 10KSB, 9/28/2005",
+    "bbox": [
+      133,
+      1000,
+      659,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      111,
+      95,
+      195,
+      105
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "GLOBAL MUSIC INTERNATIONAL, INC.",
+    "bbox": [
+      112,
+      123,
+      427,
+      134
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "DBA IMNTV",
+    "bbox": [
+      111,
+      135,
+      207,
+      146
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "MASTER TERMS OF SERVICE",
+    "bbox": [
+      111,
+      147,
+      346,
+      156
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1. DEFINITIONS",
+    "bbox": [
+      112,
+      176,
+      240,
+      185
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "The following capitalized terms will have the meanings set forth below:",
+    "bbox": [
+      111,
+      203,
+      595,
+      215
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Bundles\" means, any version of the Mobile Product that includes IMNTV content bundled with any other product or service",
+    "bbox": [
+      112,
+      232,
+      977,
+      242
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Confidential Information' means the confidential or proprietary technical or business information of a party, including without limitation (a) proposals or",
+    "bbox": [
+      110,
+      258,
+      1000,
+      271
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "research related to possible new products or services; (b) financial statements and other financial information; (c) reporting information; (d) the material terms of",
+    "bbox": [
+      110,
+      271,
+      1000,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "this Agreement and the relationship between the parties; and (e) planned launch dates. All of the information will be considered confidential only if it is",
+    "bbox": [
+      111,
+      284,
+      1000,
+      294
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "conspicuously designated as \"Confidential,\" or if provided orally, identified at the time of disclosure as confidential. \"Confidential Information\" does not include",
+    "bbox": [
+      110,
+      295,
+      1000,
+      307
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "information that (i) is in or enters the public domain without breach of this Agreement, (ii) the receiving party lawfully receives from a third party without",
+    "bbox": [
+      110,
+      307,
+      1000,
+      319
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "restriction on disclosure and without breach of a nondisclosure obligation, or (iii) the receiving party knew prior to receiving such information from the disclosing.",
+    "bbox": [
+      110,
+      319,
+      1000,
+      332
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "party or develops independently..",
+    "bbox": [
+      110,
+      332,
+      336,
+      343
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Content' means generally text, images, video, audio, and other material.",
+    "bbox": [
+      111,
+      358,
+      608,
+      371
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Fees\" means Subscription Fees that include IMNTV content...",
+    "bbox": [
+      111,
+      386,
+      544,
+      399
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Internet Protocol' means any protocol used to route data on the Internet, or on any portion of the Internet, including all versions currently in existence or",
+    "bbox": [
+      110,
+      414,
+      1000,
+      428
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "developed or implemented in the future.",
+    "bbox": [
+      112,
+      428,
+      383,
+      438
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Landing Page\" means the destination web page for a Special Link, created and hosted by Distributor, from where individuals may begin the Registration Process",
+    "bbox": [
+      110,
+      454,
+      1000,
+      467
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "for the Subscription Service or a Bundle, at such individual's election.",
+    "bbox": [
+      112,
+      468,
+      581,
+      478
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Launch' means the date that the Programming is made generally available for purchase by consumers under the terms and conditions of the Agreement..",
+    "bbox": [
+      110,
+      494,
+      1000,
+      507
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Programming\"'means IMNTV's Content, as specifically described on Section B (1) of the Agreement. As used herein, \"Programming\" also includes any.",
+    "bbox": [
+      110,
+      522,
+      1000,
+      535
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "promotional and marketing Content provided by Provider for IMNTV's promotional and marketing activities as described herein..",
+    "bbox": [
+      111,
+      536,
+      987,
+      546
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Programming Bundle Fee\" means the fee actually paid by a Subscriber for a Programming Bundle that includes IMNTV content provided in accordance with",
+    "bbox": [
+      112,
+      563,
+      1000,
+      575
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "this Agreement..",
+    "bbox": [
+      110,
+      575,
+      219,
+      587
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Distributor Marks' means the trademarks, service marks, brands, logos and trade names of Distributor.",
+    "bbox": [
+      111,
+      603,
+      827,
+      614
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Distributor Portal\"' means, collectively, the Distributor's Site and any other web site or property from where Distributor promotes the Programming",
+    "bbox": [
+      112,
+      630,
+      1000,
+      643
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Distributor Site\"' means Distributor's Internet web site intended to promote the availability of any Distributor Content, including the Programming, via mobile",
+    "bbox": [
+      111,
+      658,
+      1000,
+      671
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and wireless networks. Distributor Site is more fully described in Section A of the Agreement.",
+    "bbox": [
+      110,
+      671,
+      749,
+      682
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Subscription Fee\"' means the fee actually paid by a Subscriber for the applicable Mobile Content.",
+    "bbox": [
+      111,
+      698,
+      792,
+      711
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Subscriber' means any individual who purchases mobile content programming and: (a) who actually pays the applicable Subscription Fee; and (b) does not",
+    "bbox": [
+      110,
+      726,
+      1000,
+      739
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "receive a refund of such Subscription Fee for any reason within thirty (30) days from the end of the payment period for which the Subscription Fee was paid. A",
+    "bbox": [
+      110,
+      739,
+      1000,
+      750
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Subscriber remains a \"Subscriber\"' for the purposes of this Agreement so long as such individual continues to pay the applicable Subscription Fee..",
+    "bbox": [
+      111,
+      750,
+      1000,
+      763
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Registration Process\" means the download, payment, installation, and electronic registration process of the Programming, a Bundle or the applicable Software..",
+    "bbox": [
+      111,
+      778,
+      1000,
+      791
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Registration Process\" may include an online registration form.",
+    "bbox": [
+      110,
+      791,
+      536,
+      803
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: GLOBAL TECHNOLOGIES GROUP, INC., 10KSB, 9/28/2005",
+    "bbox": [
+      133,
+      1000,
+      659,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      111,
+      95,
+      195,
+      105
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "GLOBAL MUSIC INTERNATIONAL, INC.",
+    "bbox": [
+      112,
+      123,
+      427,
+      134
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DBA IMNTV",
+    "bbox": [
+      111,
+      135,
+      207,
+      146
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "MASTER TERMS OF SERVICE",
+    "bbox": [
+      111,
+      147,
+      346,
+      156
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1. DEFINITIONS",
+    "bbox": [
+      112,
+      176,
+      240,
+      185
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "The following capitalized terms will have the meanings set forth below:",
+    "bbox": [
+      111,
+      203,
+      595,
+      215
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Bundles\" means, any version of the Mobile Product that includes IMNTV content bundled with any other product or service",
+    "bbox": [
+      112,
+      232,
+      977,
+      242
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Confidential Information' means the confidential or proprietary technical or business information of a party, including without limitation (a) proposals or",
+    "bbox": [
+      110,
+      258,
+      1000,
+      271
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "research related to possible new products or services; (b) financial statements and other financial information; (c) reporting information; (d) the material terms of",
+    "bbox": [
+      110,
+      271,
+      1000,
+      283
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "this Agreement and the relationship between the parties; and (e) planned launch dates. All of the information will be considered confidential only if it is",
+    "bbox": [
+      111,
+      284,
+      1000,
+      294
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "conspicuously designated as \"Confidential,\" or if provided orally, identified at the time of disclosure as confidential. \"Confidential Information\" does not include",
+    "bbox": [
+      110,
+      295,
+      1000,
+      307
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "information that (i) is in or enters the public domain without breach of this Agreement, (ii) the receiving party lawfully receives from a third party without",
+    "bbox": [
+      110,
+      307,
+      1000,
+      319
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "restriction on disclosure and without breach of a nondisclosure obligation, or (iii) the receiving party knew prior to receiving such information from the disclosing.",
+    "bbox": [
+      110,
+      319,
+      1000,
+      332
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "party or develops independently..",
+    "bbox": [
+      110,
+      332,
+      336,
+      343
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Content' means generally text, images, video, audio, and other material.",
+    "bbox": [
+      111,
+      358,
+      608,
+      371
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Fees\" means Subscription Fees that include IMNTV content...",
+    "bbox": [
+      111,
+      386,
+      544,
+      399
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Internet Protocol' means any protocol used to route data on the Internet, or on any portion of the Internet, including all versions currently in existence or",
+    "bbox": [
+      110,
+      414,
+      1000,
+      428
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "developed or implemented in the future.",
+    "bbox": [
+      112,
+      428,
+      383,
+      438
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Landing Page\" means the destination web page for a Special Link, created and hosted by Distributor, from where individuals may begin the Registration Process",
+    "bbox": [
+      110,
+      454,
+      1000,
+      467
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "for the Subscription Service or a Bundle, at such individual's election.",
+    "bbox": [
+      112,
+      468,
+      581,
+      478
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Launch' means the date that the Programming is made generally available for purchase by consumers under the terms and conditions of the Agreement..",
+    "bbox": [
+      110,
+      494,
+      1000,
+      507
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Programming\"'means IMNTV's Content, as specifically described on Section B (1) of the Agreement. As used herein, \"Programming\" also includes any.",
+    "bbox": [
+      110,
+      522,
+      1000,
+      535
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "promotional and marketing Content provided by Provider for IMNTV's promotional and marketing activities as described herein..",
+    "bbox": [
+      111,
+      536,
+      987,
+      546
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Programming Bundle Fee\" means the fee actually paid by a Subscriber for a Programming Bundle that includes IMNTV content provided in accordance with",
+    "bbox": [
+      112,
+      563,
+      1000,
+      575
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "this Agreement..",
+    "bbox": [
+      110,
+      575,
+      219,
+      587
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Distributor Marks' means the trademarks, service marks, brands, logos and trade names of Distributor.",
+    "bbox": [
+      111,
+      603,
+      827,
+      614
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Distributor Portal\"' means, collectively, the Distributor's Site and any other web site or property from where Distributor promotes the Programming",
+    "bbox": [
+      112,
+      630,
+      1000,
+      643
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Distributor Site\"' means Distributor's Internet web site intended to promote the availability of any Distributor Content, including the Programming, via mobile",
+    "bbox": [
+      111,
+      658,
+      1000,
+      671
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and wireless networks. Distributor Site is more fully described in Section A of the Agreement.",
+    "bbox": [
+      110,
+      671,
+      749,
+      682
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Subscription Fee\"' means the fee actually paid by a Subscriber for the applicable Mobile Content.",
+    "bbox": [
+      111,
+      698,
+      792,
+      711
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Subscriber' means any individual who purchases mobile content programming and: (a) who actually pays the applicable Subscription Fee; and (b) does not",
+    "bbox": [
+      110,
+      726,
+      1000,
+      739
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "receive a refund of such Subscription Fee for any reason within thirty (30) days from the end of the payment period for which the Subscription Fee was paid. A",
+    "bbox": [
+      110,
+      739,
+      1000,
+      750
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Subscriber remains a \"Subscriber\"' for the purposes of this Agreement so long as such individual continues to pay the applicable Subscription Fee..",
+    "bbox": [
+      111,
+      750,
+      1000,
+      763
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Registration Process\" means the download, payment, installation, and electronic registration process of the Programming, a Bundle or the applicable Software..",
+    "bbox": [
+      111,
+      778,
+      1000,
+      791
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Registration Process\" may include an online registration form.",
+    "bbox": [
+      110,
+      791,
+      536,
+      803
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: GLOBAL TECHNOLOGIES GROUP, INC., 10KSB, 9/28/2005",
+    "bbox": [
+      133,
+      1000,
+      659,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

@@ -1,0 +1,992 @@
+[
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      546,
+      119,
+      788,
+      128
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (\"Agreement') by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a",
+    "bbox": [
+      152,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (\"Agreement') by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a",
+    "bbox": [
+      152,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (\"Agreement') by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a",
+    "bbox": [
+      152,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (\"Agreement') by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a",
+    "bbox": [
+      152,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 (\"Berkshire')(Each or both of which shall",
+    "bbox": [
+      114,
+      162,
+      1000,
+      175
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "hereinafter be referred to as the \"PARTY\" or \"PARTIES,\" respectively).",
+    "bbox": [
+      113,
+      176,
+      650,
+      190
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "a) \"CONTRACT PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and",
+    "bbox": [
+      201,
+      463,
+      1000,
+      474
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "terminating on May 31, 2016 unless sooner terminated under this Agreement.",
+    "bbox": [
+      114,
+      477,
+      692,
+      490
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      88,
+      1000,
+      98
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      546,
+      119,
+      788,
+      128
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (\"Agreement') by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a",
+    "bbox": [
+      152,
+      147,
+      1000,
+      159
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 (\"Berkshire')(Each or both of which shall",
+    "bbox": [
+      114,
+      162,
+      1000,
+      175
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "hereinafter be referred to as the \"PARTY\" or \"PARTIES,\" respectively).",
+    "bbox": [
+      113,
+      176,
+      650,
+      190
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      619,
+      208,
+      712,
+      219
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Berkshire desires to obtain the right to use the name, likeness, and endorsement services of Auriemma in connection with the advertisement.",
+    "bbox": [
+      152,
+      237,
+      1000,
+      249
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and promotion of Berkshire's Financial Services (as defined below).",
+    "bbox": [
+      116,
+      253,
+      619,
+      265
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The endorsement by Auriemma of Berkshire is of commercial value.",
+    "bbox": [
+      152,
+      282,
+      656,
+      294
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Berkshire and Auriemma wish to enter into an agreement to cooperate and coordinate the marketing of Auriemma's endorsement with.",
+    "bbox": [
+      153,
+      312,
+      1000,
+      325
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Berkshire's banking services.",
+    "bbox": [
+      115,
+      328,
+      333,
+      339
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOW, THEREFORE for and in consideration of the foregoing, and the mutual covenants and agreements set forth herein, the Parties hereby.",
+    "bbox": [
+      151,
+      357,
+      1000,
+      370
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "agree as follows:.",
+    "bbox": [
+      115,
+      373,
+      240,
+      384
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1. DEFINITIONS.",
+    "bbox": [
+      116,
+      403,
+      246,
+      414
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The following terms shall be defined in the Agreement as follows:",
+    "bbox": [
+      154,
+      433,
+      643,
+      444
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a) \"CONTRACT PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and",
+    "bbox": [
+      201,
+      463,
+      1000,
+      474
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "terminating on May 31, 2016 unless sooner terminated under this Agreement.",
+    "bbox": [
+      114,
+      477,
+      692,
+      490
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "b) \"SERVICES PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and",
+    "bbox": [
+      199,
+      507,
+      1000,
+      520
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "terminating on May 31, 2014 unless sooner terminated under this Agreement.",
+    "bbox": [
+      114,
+      523,
+      693,
+      535
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "b) \"CONTRACT TERRITORY\" shall be any State in which Berkshire currently, or at any time during the Contract Period, offers.",
+    "bbox": [
+      200,
+      553,
+      1000,
+      565
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Banking Services.",
+    "bbox": [
+      114,
+      567,
+      248,
+      581
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "c) \"FINANCIAL SERVICES' shall mean banking, lending, financial and wealth management products and services offered by Berkshire.",
+    "bbox": [
+      200,
+      597,
+      1000,
+      610
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and insurance products and services offered by Berkshire's affiliate Berkshire Insurance Group, Inc.",
+    "bbox": [
+      114,
+      613,
+      863,
+      625
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "d) \"AURIEMMA IDENTIFICATION\" shall mean any words, symbols, photographic or graphic representations, statements by",
+    "bbox": [
+      200,
+      642,
+      1000,
+      655
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Auriemma or any combination thereof which identify Auriemma such as, for example, Auriemma's name, voice, nickname, likeness, and anything",
+    "bbox": [
+      114,
+      657,
+      1000,
+      670
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "else that identifies Auriemma. The Auriemma.",
+    "bbox": [
+      114,
+      673,
+      451,
+      684
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: BERKSHIRE HILLS BANCORP INC, 10-Q, 8/9/2012",
+    "bbox": [
+      134,
+      1000,
+      594,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      88,
+      1000,
+      98
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      546,
+      119,
+      788,
+      128
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (\"Agreement') by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a",
+    "bbox": [
+      152,
+      147,
+      1000,
+      159
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 (\"Berkshire')(Each or both of which shall",
+    "bbox": [
+      114,
+      162,
+      1000,
+      175
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "hereinafter be referred to as the \"PARTY\" or \"PARTIES,\" respectively).",
+    "bbox": [
+      113,
+      176,
+      650,
+      190
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      619,
+      208,
+      712,
+      219
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Berkshire desires to obtain the right to use the name, likeness, and endorsement services of Auriemma in connection with the advertisement.",
+    "bbox": [
+      152,
+      237,
+      1000,
+      249
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "and promotion of Berkshire's Financial Services (as defined below).",
+    "bbox": [
+      116,
+      253,
+      619,
+      265
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "The endorsement by Auriemma of Berkshire is of commercial value.",
+    "bbox": [
+      152,
+      282,
+      656,
+      294
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Berkshire and Auriemma wish to enter into an agreement to cooperate and coordinate the marketing of Auriemma's endorsement with.",
+    "bbox": [
+      153,
+      312,
+      1000,
+      325
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Berkshire's banking services.",
+    "bbox": [
+      115,
+      328,
+      333,
+      339
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "NOW, THEREFORE for and in consideration of the foregoing, and the mutual covenants and agreements set forth herein, the Parties hereby.",
+    "bbox": [
+      151,
+      357,
+      1000,
+      370
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "agree as follows:.",
+    "bbox": [
+      115,
+      373,
+      240,
+      384
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "1. DEFINITIONS.",
+    "bbox": [
+      116,
+      403,
+      246,
+      414
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "The following terms shall be defined in the Agreement as follows:",
+    "bbox": [
+      154,
+      433,
+      643,
+      444
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "a) \"CONTRACT PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and",
+    "bbox": [
+      201,
+      463,
+      1000,
+      474
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "terminating on May 31, 2016 unless sooner terminated under this Agreement.",
+    "bbox": [
+      114,
+      477,
+      692,
+      490
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "b) \"SERVICES PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and",
+    "bbox": [
+      199,
+      507,
+      1000,
+      520
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "terminating on May 31, 2014 unless sooner terminated under this Agreement.",
+    "bbox": [
+      114,
+      523,
+      693,
+      535
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "b) \"CONTRACT TERRITORY\" shall be any State in which Berkshire currently, or at any time during the Contract Period, offers.",
+    "bbox": [
+      200,
+      553,
+      1000,
+      565
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Banking Services.",
+    "bbox": [
+      114,
+      567,
+      248,
+      581
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "c) \"FINANCIAL SERVICES' shall mean banking, lending, financial and wealth management products and services offered by Berkshire.",
+    "bbox": [
+      200,
+      597,
+      1000,
+      610
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "and insurance products and services offered by Berkshire's affiliate Berkshire Insurance Group, Inc.",
+    "bbox": [
+      114,
+      613,
+      863,
+      625
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "d) \"AURIEMMA IDENTIFICATION\" shall mean any words, symbols, photographic or graphic representations, statements by",
+    "bbox": [
+      200,
+      642,
+      1000,
+      655
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Auriemma or any combination thereof which identify Auriemma such as, for example, Auriemma's name, voice, nickname, likeness, and anything",
+    "bbox": [
+      114,
+      657,
+      1000,
+      670
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "else that identifies Auriemma. The Auriemma.",
+    "bbox": [
+      114,
+      673,
+      451,
+      684
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Source: BERKSHIRE HILLS BANCORP INC, 10-Q, 8/9/2012",
+    "bbox": [
+      134,
+      1000,
+      594,
+      1000
+    ],
+    "label": 14,
+    "category": "Non-Disparagement"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      88,
+      1000,
+      98
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      546,
+      119,
+      788,
+      128
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (\"Agreement') by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a",
+    "bbox": [
+      152,
+      147,
+      1000,
+      159
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 (\"Berkshire')(Each or both of which shall",
+    "bbox": [
+      114,
+      162,
+      1000,
+      175
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "hereinafter be referred to as the \"PARTY\" or \"PARTIES,\" respectively).",
+    "bbox": [
+      113,
+      176,
+      650,
+      190
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      619,
+      208,
+      712,
+      219
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Berkshire desires to obtain the right to use the name, likeness, and endorsement services of Auriemma in connection with the advertisement.",
+    "bbox": [
+      152,
+      237,
+      1000,
+      249
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and promotion of Berkshire's Financial Services (as defined below).",
+    "bbox": [
+      116,
+      253,
+      619,
+      265
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The endorsement by Auriemma of Berkshire is of commercial value.",
+    "bbox": [
+      152,
+      282,
+      656,
+      294
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Berkshire and Auriemma wish to enter into an agreement to cooperate and coordinate the marketing of Auriemma's endorsement with.",
+    "bbox": [
+      153,
+      312,
+      1000,
+      325
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Berkshire's banking services.",
+    "bbox": [
+      115,
+      328,
+      333,
+      339
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE for and in consideration of the foregoing, and the mutual covenants and agreements set forth herein, the Parties hereby.",
+    "bbox": [
+      151,
+      357,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "agree as follows:.",
+    "bbox": [
+      115,
+      373,
+      240,
+      384
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1. DEFINITIONS.",
+    "bbox": [
+      116,
+      403,
+      246,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The following terms shall be defined in the Agreement as follows:",
+    "bbox": [
+      154,
+      433,
+      643,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a) \"CONTRACT PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and",
+    "bbox": [
+      201,
+      463,
+      1000,
+      474
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "terminating on May 31, 2016 unless sooner terminated under this Agreement.",
+    "bbox": [
+      114,
+      477,
+      692,
+      490
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b) \"SERVICES PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and",
+    "bbox": [
+      199,
+      507,
+      1000,
+      520
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "terminating on May 31, 2014 unless sooner terminated under this Agreement.",
+    "bbox": [
+      114,
+      523,
+      693,
+      535
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b) \"CONTRACT TERRITORY\" shall be any State in which Berkshire currently, or at any time during the Contract Period, offers.",
+    "bbox": [
+      200,
+      553,
+      1000,
+      565
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Banking Services.",
+    "bbox": [
+      114,
+      567,
+      248,
+      581
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "c) \"FINANCIAL SERVICES' shall mean banking, lending, financial and wealth management products and services offered by Berkshire.",
+    "bbox": [
+      200,
+      597,
+      1000,
+      610
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and insurance products and services offered by Berkshire's affiliate Berkshire Insurance Group, Inc.",
+    "bbox": [
+      114,
+      613,
+      863,
+      625
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "d) \"AURIEMMA IDENTIFICATION\" shall mean any words, symbols, photographic or graphic representations, statements by",
+    "bbox": [
+      200,
+      642,
+      1000,
+      655
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Auriemma or any combination thereof which identify Auriemma such as, for example, Auriemma's name, voice, nickname, likeness, and anything",
+    "bbox": [
+      114,
+      657,
+      1000,
+      670
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "else that identifies Auriemma. The Auriemma.",
+    "bbox": [
+      114,
+      673,
+      451,
+      684
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: BERKSHIRE HILLS BANCORP INC, 10-Q, 8/9/2012",
+    "bbox": [
+      134,
+      1000,
+      594,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

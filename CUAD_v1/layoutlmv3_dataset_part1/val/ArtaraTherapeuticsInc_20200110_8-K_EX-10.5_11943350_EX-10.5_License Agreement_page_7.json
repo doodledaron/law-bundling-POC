@@ -1,0 +1,772 @@
+[
+  {
+    "text": "ARTICLE FIVE",
+    "bbox": [
+      609,
+      81,
+      725,
+      92
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "CONFIDENTIAL INFORMATION; PUBLICATION",
+    "bbox": [
+      472,
+      97,
+      860,
+      107
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.1 Confidentiality. During the term of this Agreement and for a period of seven (7) years after its termination or expiration each Party (the",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Receiving Party\") shall maintain in confidence and, except as authorized by this Agreement, not use any know-how, data, processes, techniques,",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "formulas, test data and other information disclosed by the other Party (the \"Disclosing Party') and which for any of the foregoing, if written, is",
+    "bbox": [
+      111,
+      144,
+      1000,
+      157
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "marked \"Confidential\"' by the Disclosing Party or, if verbal or visual, is identified in writing as \"Confidential\"' at the time of disclosure and reduced",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to writing by the Disclosing Party within thirty (30) days of the verbal or visual disclosure (\"Confidential Information')..",
+    "bbox": [
+      112,
+      177,
+      1000,
+      189
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.2 Exceptions. The obligations of confidentiality and non-use set forth in paragraph 5.1 shall not apply to the extent that it can be established by",
+    "bbox": [
+      112,
+      192,
+      1000,
+      205
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Receiving Party that the information:.",
+    "bbox": [
+      111,
+      209,
+      388,
+      221
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a) was already known to Receiving Party without restriction at the time of disclosure;.",
+    "bbox": [
+      180,
+      225,
+      823,
+      237
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(b) was generally available to the public or otherwise part of the public domain at the time of its disclosure;",
+    "bbox": [
+      179,
+      240,
+      980,
+      253
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(c) became generally available to the public or otherwise part of the public domain after its disclosure to Receiving Party through no",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "breach of this Agreement by Receiving Party;.",
+    "bbox": [
+      179,
+      272,
+      524,
+      285
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(d) was disclosed to Receiving Party without restriction by a third party who had no known obligation to not to disclose such information;",
+    "bbox": [
+      180,
+      289,
+      1000,
+      301
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(e) was independently developed by Receiving Party without the use of Confidential Information;.",
+    "bbox": [
+      179,
+      304,
+      913,
+      317
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(f) was required to be disclosed by operation of law or court order; or.",
+    "bbox": [
+      181,
+      321,
+      700,
+      333
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(g) Disclosing Party gave prior written consent to Receiving Party to disclose such Confidential Information.",
+    "bbox": [
+      180,
+      337,
+      993,
+      349
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.3 Return of Confidential Information. In the event the Disclosing Party requests in writing the return of Confidential Information, the Receiving",
+    "bbox": [
+      112,
+      353,
+      1000,
+      365
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Party shall return such Confidential Information to Disclosing Party with the exception of one copy, which may be retained for archival purposes.",
+    "bbox": [
+      111,
+      368,
+      1000,
+      381
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.4 Publication. The University and ArTara each agree to treat matters of authorship of the Publication in a proper collaborative spirit and following",
+    "bbox": [
+      111,
+      384,
+      1000,
+      397
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "guidelines and policies in accordance with the University of Iowa's Operations Manual which may be found at: https://opsmanual.uiowa.edu/.",
+    "bbox": [
+      110,
+      400,
+      1000,
+      413
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "It is anticipated that employees of the University will be first and senior authors on the Publication, but it is understood that final authorship will be",
+    "bbox": [
+      111,
+      417,
+      1000,
+      429
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "determined in accordance with all applicable laws and regulations in publication practice, including Section 6002 of the Affordable Care Act a/k/a",
+    "bbox": [
+      112,
+      433,
+      1000,
+      445
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sunshine Act and with ICMJE (International Committee of Medical Journal Editors) guidelines, standard scientific practice and journal guidelines.",
+    "bbox": [
+      112,
+      449,
+      1000,
+      461
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "University and/or Principal Investigator shall provide ArTara with a copy of any proposed Publication for review and comment at least [...***...].",
+    "bbox": [
+      110,
+      462,
+      1000,
+      478
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "prior to submission thereof for publication. ArTara shall have [...***...], after receipt of said copy to object to such proposed Publication because.",
+    "bbox": [
+      111,
+      479,
+      1000,
+      493
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "there is Confidential Information which needs protection. In the event that ArTara makes such objection, University and/or Principal Investigator",
+    "bbox": [
+      111,
+      496,
+      1000,
+      509
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "shall refrain from submitting such Publication for a maximum of [...***...] from date of receipt of such objection in order for ArTara to file patent.",
+    "bbox": [
+      110,
+      510,
+      1000,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "application(s) directed to patentable subject matter contained in the proposed Publication. If in its review, ArTara identifies information it considers",
+    "bbox": [
+      112,
+      528,
+      1000,
+      541
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to be its Confidential Information, ArTara may require redaction of that Confidential Information; provided, however, that ArTara shall not require",
+    "bbox": [
+      111,
+      545,
+      1000,
+      557
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "removal of information necessary for complete and accurate presentation and interpretation of the Program Data and results. The Publication shall",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "occur within [...***...] of the date the Project is closed or terminated, or University and/or Principal Investigator shall be free to publish Program",
+    "bbox": [
+      111,
+      575,
+      1000,
+      589
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Data and results at that time..",
+    "bbox": [
+      111,
+      593,
+      325,
+      603
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      662,
+      624,
+      674,
+      636
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ARTICLE FIVE",
+    "bbox": [
+      609,
+      81,
+      725,
+      92
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "CONFIDENTIAL INFORMATION; PUBLICATION",
+    "bbox": [
+      472,
+      97,
+      860,
+      107
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.1 Confidentiality. During the term of this Agreement and for a period of seven (7) years after its termination or expiration each Party (the",
+    "bbox": [
+      112,
+      113,
+      1000,
+      125
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Receiving Party\") shall maintain in confidence and, except as authorized by this Agreement, not use any know-how, data, processes, techniques,",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "formulas, test data and other information disclosed by the other Party (the \"Disclosing Party') and which for any of the foregoing, if written, is",
+    "bbox": [
+      111,
+      144,
+      1000,
+      157
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "marked \"Confidential\"' by the Disclosing Party or, if verbal or visual, is identified in writing as \"Confidential\"' at the time of disclosure and reduced",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to writing by the Disclosing Party within thirty (30) days of the verbal or visual disclosure (\"Confidential Information')..",
+    "bbox": [
+      112,
+      177,
+      1000,
+      189
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.2 Exceptions. The obligations of confidentiality and non-use set forth in paragraph 5.1 shall not apply to the extent that it can be established by",
+    "bbox": [
+      112,
+      192,
+      1000,
+      205
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Receiving Party that the information:.",
+    "bbox": [
+      111,
+      209,
+      388,
+      221
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a) was already known to Receiving Party without restriction at the time of disclosure;.",
+    "bbox": [
+      180,
+      225,
+      823,
+      237
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(b) was generally available to the public or otherwise part of the public domain at the time of its disclosure;",
+    "bbox": [
+      179,
+      240,
+      980,
+      253
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(c) became generally available to the public or otherwise part of the public domain after its disclosure to Receiving Party through no",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "breach of this Agreement by Receiving Party;.",
+    "bbox": [
+      179,
+      272,
+      524,
+      285
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(d) was disclosed to Receiving Party without restriction by a third party who had no known obligation to not to disclose such information;",
+    "bbox": [
+      180,
+      289,
+      1000,
+      301
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(e) was independently developed by Receiving Party without the use of Confidential Information;.",
+    "bbox": [
+      179,
+      304,
+      913,
+      317
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(f) was required to be disclosed by operation of law or court order; or.",
+    "bbox": [
+      181,
+      321,
+      700,
+      333
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(g) Disclosing Party gave prior written consent to Receiving Party to disclose such Confidential Information.",
+    "bbox": [
+      180,
+      337,
+      993,
+      349
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.3 Return of Confidential Information. In the event the Disclosing Party requests in writing the return of Confidential Information, the Receiving",
+    "bbox": [
+      112,
+      353,
+      1000,
+      365
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Party shall return such Confidential Information to Disclosing Party with the exception of one copy, which may be retained for archival purposes.",
+    "bbox": [
+      111,
+      368,
+      1000,
+      381
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.4 Publication. The University and ArTara each agree to treat matters of authorship of the Publication in a proper collaborative spirit and following",
+    "bbox": [
+      111,
+      384,
+      1000,
+      397
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "guidelines and policies in accordance with the University of Iowa's Operations Manual which may be found at: https://opsmanual.uiowa.edu/.",
+    "bbox": [
+      110,
+      400,
+      1000,
+      413
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "It is anticipated that employees of the University will be first and senior authors on the Publication, but it is understood that final authorship will be",
+    "bbox": [
+      111,
+      417,
+      1000,
+      429
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "determined in accordance with all applicable laws and regulations in publication practice, including Section 6002 of the Affordable Care Act a/k/a",
+    "bbox": [
+      112,
+      433,
+      1000,
+      445
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sunshine Act and with ICMJE (International Committee of Medical Journal Editors) guidelines, standard scientific practice and journal guidelines.",
+    "bbox": [
+      112,
+      449,
+      1000,
+      461
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "University and/or Principal Investigator shall provide ArTara with a copy of any proposed Publication for review and comment at least [...***...].",
+    "bbox": [
+      110,
+      462,
+      1000,
+      478
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "prior to submission thereof for publication. ArTara shall have [...***...], after receipt of said copy to object to such proposed Publication because.",
+    "bbox": [
+      111,
+      479,
+      1000,
+      493
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "there is Confidential Information which needs protection. In the event that ArTara makes such objection, University and/or Principal Investigator",
+    "bbox": [
+      111,
+      496,
+      1000,
+      509
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "shall refrain from submitting such Publication for a maximum of [...***...] from date of receipt of such objection in order for ArTara to file patent.",
+    "bbox": [
+      110,
+      510,
+      1000,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "application(s) directed to patentable subject matter contained in the proposed Publication. If in its review, ArTara identifies information it considers",
+    "bbox": [
+      112,
+      528,
+      1000,
+      541
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to be its Confidential Information, ArTara may require redaction of that Confidential Information; provided, however, that ArTara shall not require",
+    "bbox": [
+      111,
+      545,
+      1000,
+      557
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "removal of information necessary for complete and accurate presentation and interpretation of the Program Data and results. The Publication shall",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "occur within [...***...] of the date the Project is closed or terminated, or University and/or Principal Investigator shall be free to publish Program",
+    "bbox": [
+      111,
+      575,
+      1000,
+      589
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Data and results at that time..",
+    "bbox": [
+      111,
+      593,
+      325,
+      603
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      662,
+      624,
+      674,
+      636
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

@@ -1,0 +1,3918 @@
+[
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Exhibit 4.15",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      92
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "THE SYMBOL <****\" DENOTES PLACES WHERE PORTIONS OF THIS DOCUMENT HAVE BEEN OMITTED PURSUANT TO A REQUEST",
+    "bbox": [
+      122,
+      96,
+      1000,
+      108
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "FOR CONFIDENTIAL TREATMENT. SUCH MATERIAL WILL BE FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE",
+    "bbox": [
+      160,
+      113,
+      1000,
+      123
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "COMIMISSION.",
+    "bbox": [
+      606,
+      129,
+      727,
+      140
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "PRODUCT MANUFACTURING AGREEMENT",
+    "bbox": [
+      490,
+      145,
+      843,
+      155
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "This Product Manufacturing Agreement (\"Agreement') is made as of the Effective Date by and between DEXCEL LTD., with its registered address.",
+    "bbox": [
+      110,
+      160,
+      1000,
+      173
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "at ****, Israel (\"Dexcel'') and KITOV Pharma Ltd., with its registered office at 132 Menachem Begin Road, Azrieli Center, Tel Aviv, 6701101, Israel.",
+    "bbox": [
+      110,
+      176,
+      1000,
+      189
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(\"Kitov'). Dexcel and Kitov are hereinafter jointly the \"Parties' and individually a \"Party.\".",
+    "bbox": [
+      112,
+      193,
+      784,
+      205
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "WHEREAS: Dexcel is a pharmaceutical company engaged in various activities including, but not limited to, the research, development,",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "manufacture, and marketing of various drugs and pharmaceutical specialties in various dosage forms;",
+    "bbox": [
+      221,
+      226,
+      983,
+      236
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      241,
+      207,
+      251
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Kitov is a pharmaceutical company engaged in various activities including, but not limited to, the development of pharmaceutical",
+    "bbox": [
+      220,
+      240,
+      1000,
+      253
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "products;",
+    "bbox": [
+      222,
+      258,
+      295,
+      269
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      273,
+      206,
+      283
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Kitov and Dexcel entered into a Development Services Agreement on April 1, 2014 (\"Development Agreement'), pursuant to which",
+    "bbox": [
+      221,
+      273,
+      1000,
+      284
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Dexcel performed certain development services for Kitov with respect to the Product;",
+    "bbox": [
+      222,
+      289,
+      862,
+      301
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      113,
+      305,
+      207,
+      315
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Kitov desires that Dexcel manufacture and package the Product for Kitov in accordance with the terms of this Agreement, and Dexcel",
+    "bbox": [
+      220,
+      304,
+      1000,
+      317
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "is willing to manufacture and package the Product for Kitov in accordance with the terms of this Agreement..",
+    "bbox": [
+      220,
+      320,
+      1000,
+      333
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual covenants herein contained, the Parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      336,
+      1000,
+      349
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      352,
+      171,
+      364
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      111,
+      370,
+      122,
+      379
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      148,
+      369,
+      237,
+      380
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "For the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly.",
+    "bbox": [
+      111,
+      385,
+      1000,
+      397
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "provided for in this Agreement or the context otherwise requires, the following:.",
+    "bbox": [
+      111,
+      400,
+      705,
+      414
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      152,
+      416,
+      177,
+      429
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Affiliate\"' of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control.",
+    "bbox": [
+      220,
+      415,
+      1000,
+      430
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "with, or in the Control of such Party..",
+    "bbox": [
+      222,
+      432,
+      492,
+      445
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      152,
+      448,
+      177,
+      461
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the",
+    "bbox": [
+      221,
+      449,
+      1000,
+      461
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Bribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other",
+    "bbox": [
+      222,
+      465,
+      1000,
+      477
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "anti-corruption or anti-bribery statutes, laws or regulations applicable to a Party..",
+    "bbox": [
+      220,
+      480,
+      822,
+      493
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      152,
+      496,
+      177,
+      509
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"API\"' shall mean the active pharmaceutical ingredients Celecoxib and Amlodipine Besylate..",
+    "bbox": [
+      221,
+      496,
+      918,
+      509
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  }
+]

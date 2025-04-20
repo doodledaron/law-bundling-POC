@@ -1,0 +1,420 @@
+[
+  {
+    "text": "3.3 Royalties. Royalties will be payable by ArTara on Net Sales of Product in the Indication. ArTara will, no later than [...***...] following the close",
+    "bbox": [
+      112,
+      80,
+      1000,
+      93
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "of each calendar quarter, pay tiered Royalties based on annual Net Sales of Product in the Indication as set forth below:.",
+    "bbox": [
+      112,
+      97,
+      1000,
+      109
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Annual Net Sales of Product for the",
+    "bbox": [
+      236,
+      147,
+      506,
+      156
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Annual Royalty Rate Percent Net",
+    "bbox": [
+      844,
+      146,
+      1000,
+      158
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Indication",
+    "bbox": [
+      234,
+      162,
+      311,
+      173
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Sales",
+    "bbox": [
+      1000,
+      162,
+      1000,
+      173
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "$0 - $25,000,000",
+    "bbox": [
+      558,
+      195,
+      672,
+      205
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.75%",
+    "bbox": [
+      1000,
+      193,
+      1000,
+      206
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": ">$25,000,000 - $50,000,000",
+    "bbox": [
+      479,
+      227,
+      672,
+      239
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.25%",
+    "bbox": [
+      1000,
+      225,
+      1000,
+      240
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": ">$50,000,000",
+    "bbox": [
+      579,
+      261,
+      673,
+      273
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.50%",
+    "bbox": [
+      1000,
+      260,
+      1000,
+      273
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "3.4 Royalty Reduction. In the event the Regulatory Authorities determine that the Program Data is not sufficient for Regulatory Approvals on its",
+    "bbox": [
+      111,
+      292,
+      1000,
+      307
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "own and additional pediatric efficacy and safety clinical studies are required, Royalties set forth above will be reduced by [...***...] percent ([....",
+    "bbox": [
+      108,
+      307,
+      1000,
+      324
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "***...]%).",
+    "bbox": [
+      110,
+      323,
+      189,
+      339
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "3.5 Sales Milestone Payments. In the event that Annual Net Sales, as detailed in Section 3.3, surpass certain thresholds, ArTara will make the",
+    "bbox": [
+      110,
+      341,
+      1000,
+      354
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "following payments no later than [...***...] following the close of the calendar quarter in which each milestone is reached as set forth below:.",
+    "bbox": [
+      110,
+      354,
+      1000,
+      371
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Annual Net Sales of Product for the",
+    "bbox": [
+      314,
+      408,
+      584,
+      417
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Milestone Payment",
+    "bbox": [
+      952,
+      407,
+      1000,
+      418
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Indication Exceeds",
+    "bbox": [
+      380,
+      423,
+      521,
+      434
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "$25,000,000",
+    "bbox": [
+      586,
+      455,
+      674,
+      468
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "$62,500",
+    "bbox": [
+      1000,
+      456,
+      1000,
+      467
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "$50,000,000",
+    "bbox": [
+      588,
+      488,
+      673,
+      500
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "$62,500",
+    "bbox": [
+      1000,
+      487,
+      1000,
+      500
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "$100,000,000",
+    "bbox": [
+      578,
+      520,
+      673,
+      534
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "$125,000",
+    "bbox": [
+      1000,
+      521,
+      1000,
+      533
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "3.6 Payments.",
+    "bbox": [
+      113,
+      555,
+      215,
+      566
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "All payments under Articles 3.2, 3.3 and 3.5 shall be sent to the following address:.",
+    "bbox": [
+      112,
+      570,
+      726,
+      583
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Checks will be sent to:",
+    "bbox": [
+      179,
+      586,
+      347,
+      598
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The University of Iowa Research Foundation",
+    "bbox": [
+      247,
+      603,
+      586,
+      613
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "ATTN: Accounting.",
+    "bbox": [
+      246,
+      617,
+      393,
+      632
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "6 Gilmore Hall",
+    "bbox": [
+      248,
+      635,
+      351,
+      645
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "112 North Capitol St.",
+    "bbox": [
+      246,
+      650,
+      400,
+      662
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Iowa City, IA 52242-5500",
+    "bbox": [
+      246,
+      666,
+      431,
+      679
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Wire transfers will be sent to:",
+    "bbox": [
+      181,
+      682,
+      399,
+      694
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[... ***...]",
+    "bbox": [
+      245,
+      697,
+      325,
+      711
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      662,
+      731,
+      674,
+      742
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  }
+]

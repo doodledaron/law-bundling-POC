@@ -1,0 +1,68 @@
+[
+  {
+    "text": "Program Content License Agreement.",
+    "bbox": [
+      522,
+      137,
+      813,
+      149
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Phoenix Satellite Television Company Limited",
+    "bbox": [
+      490,
+      197,
+      842,
+      209
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Beijing Tianying Jiuzhou Network Technology Co., Ltd.",
+    "bbox": [
+      451,
+      256,
+      881,
+      269
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Phoenix Satellite Television Company Limited",
+    "bbox": [
+      490,
+      197,
+      842,
+      209
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "November 24, 2009",
+    "bbox": [
+      591,
+      286,
+      740,
+      298
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "November 24, 2009",
+    "bbox": [
+      591,
+      286,
+      740,
+      298
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

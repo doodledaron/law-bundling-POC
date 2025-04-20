@@ -1,0 +1,101 @@
+[
+  {
+    "text": "SECOND AMENDMENT",
+    "bbox": [
+      464,
+      363,
+      642,
+      372
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "TO",
+    "bbox": [
+      540,
+      379,
+      565,
+      389
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "CO-BRANDING AGREEMENT",
+    "bbox": [
+      442,
+      395,
+      676,
+      404
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "60605 (\"pcQ\") and A.B. Watley, Inc., with its principal place of business at",
+    "bbox": [
+      113,
+      506,
+      971,
+      518
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "the 23rd day of February, 1998, by and between PC QuotE, INc., with its.",
+    "bbox": [
+      113,
+      474,
+      915,
+      487
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "60605 (\"pcQ\") and A.B. Watley, Inc., with its principal place of business at",
+    "bbox": [
+      113,
+      506,
+      971,
+      518
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "33 West 17th Street, New York, New York 100l1 (\"ABw\").",
+    "bbox": [
+      111,
+      521,
+      722,
+      534
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "the 23rd day of February, 1998, by and between PC QuotE, INc., with its.",
+    "bbox": [
+      113,
+      474,
+      915,
+      487
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "the 23rd day of February, 1998, by and between PC QuotE, INc., with its.",
+    "bbox": [
+      113,
+      474,
+      915,
+      487
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

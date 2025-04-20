@@ -1,0 +1,2400 @@
+[
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      430,
+      275,
+      710,
+      283
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
+    "bbox": [
+      249,
+      146,
+      879,
+      155
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"CEIS\"); and",
+    "bbox": [
+      168,
+      1000,
+      306,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Central, Hong Kong (\"xFN\"),",
+    "bbox": [
+      168,
+      1000,
+      469,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EXHIBIT 99.4",
+    "bbox": [
+      881,
+      81,
+      1000,
+      92
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "DATED 15TH DECEMBER 2001",
+    "bbox": [
+      430,
+      114,
+      697,
+      123
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
+    "bbox": [
+      249,
+      146,
+      879,
+      155
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "AND",
+    "bbox": [
+      551,
+      177,
+      588,
+      188
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "XINHUA EINANCIAI. NETWORK IIMITED",
+    "bbox": [
+      385,
+      211,
+      743,
+      218
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      430,
+      275,
+      710,
+      283
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "SUPPLEMENT TO THE EXCLUSIVE BROADCASTING AGREEMENT",
+    "bbox": [
+      284,
+      290,
+      844,
+      298
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "BAKER & McKENZIE",
+    "bbox": [
+      474,
+      354,
+      654,
+      363
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "14th Floor Hutchison House",
+    "bbox": [
+      418,
+      370,
+      709,
+      379
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "10 Harcourt Road",
+    "bbox": [
+      473,
+      385,
+      654,
+      396
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Hong Kong",
+    "bbox": [
+      517,
+      400,
+      622,
+      415
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Tel: 2846-1888",
+    "bbox": [
+      486,
+      418,
+      641,
+      427
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Fax: 2845-0476",
+    "bbox": [
+      485,
+      433,
+      642,
+      444
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "CONTENT",
+    "bbox": [
+      531,
+      497,
+      610,
+      508
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Clause",
+    "bbox": [
+      110,
+      560,
+      179,
+      572
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      970,
+      561,
+      1000,
+      574
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      609,
+      132,
+      620
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Definitions and Interpretation.",
+    "bbox": [
+      157,
+      609,
+      502,
+      620
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      993,
+      609,
+      1000,
+      620
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      111,
+      624,
+      133,
+      636
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Grant of Rights.",
+    "bbox": [
+      158,
+      626,
+      341,
+      635
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      993,
+      625,
+      1000,
+      636
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      111,
+      640,
+      134,
+      652
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Delivery of Content.",
+    "bbox": [
+      158,
+      642,
+      383,
+      652
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      993,
+      640,
+      1000,
+      652
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      111,
+      657,
+      133,
+      667
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Consideration..",
+    "bbox": [
+      158,
+      657,
+      322,
+      667
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      993,
+      657,
+      1000,
+      668
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      111,
+      672,
+      133,
+      684
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Representations and warranties",
+    "bbox": [
+      158,
+      674,
+      500,
+      684
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      993,
+      673,
+      1000,
+      684
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      112,
+      689,
+      133,
+      700
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Indemnity..",
+    "bbox": [
+      156,
+      688,
+      282,
+      701
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      993,
+      689,
+      1000,
+      700
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      111,
+      705,
+      133,
+      716
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Term.",
+    "bbox": [
+      156,
+      705,
+      213,
+      716
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      993,
+      705,
+      1000,
+      716
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      111,
+      721,
+      133,
+      732
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Termination.",
+    "bbox": [
+      157,
+      722,
+      290,
+      732
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      992,
+      719,
+      1000,
+      732
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "9.",
+    "bbox": [
+      112,
+      737,
+      134,
+      748
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Further Assurance.",
+    "bbox": [
+      157,
+      738,
+      356,
+      747
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      995,
+      737,
+      1000,
+      748
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "10. Entire Agreement; Amendments..",
+    "bbox": [
+      110,
+      752,
+      481,
+      764
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      752,
+      1000,
+      764
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "11. Severance.",
+    "bbox": [
+      110,
+      769,
+      272,
+      780
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      769,
+      1000,
+      780
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "12. No waiver.",
+    "bbox": [
+      111,
+      784,
+      266,
+      796
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      995,
+      785,
+      1000,
+      796
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "13. Costs And Expenses.",
+    "bbox": [
+      110,
+      800,
+      371,
+      813
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      801,
+      1000,
+      812
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "14. Counterparts.",
+    "bbox": [
+      111,
+      817,
+      302,
+      829
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      817,
+      1000,
+      829
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "15. Notice.",
+    "bbox": [
+      113,
+      833,
+      236,
+      843
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      833,
+      1000,
+      844
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "16. Governing Law And Arbitration..",
+    "bbox": [
+      112,
+      849,
+      494,
+      860
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      993,
+      848,
+      1000,
+      860
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Execution.",
+    "bbox": [
+      112,
+      865,
+      228,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      994,
+      864,
+      1000,
+      876
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Schedule 1 - Contents",
+    "bbox": [
+      113,
+      912,
+      348,
+      924
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "BETWEEN",
+    "bbox": [
+      111,
+      1000,
+      192,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      113,
+      1000,
+      143,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation",
+    "bbox": [
+      169,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "operations and business, registered in the People's Republic of China with.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "offices at 57 Xuanwumen Xidajie, Beijing, the People's Republic of China (.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "\"CEIS\"); and",
+    "bbox": [
+      168,
+      1000,
+      306,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      114,
+      1000,
+      143,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "registered office is at Room 2003-4, Vicwood Plaza, 199 Des Voeux Road.",
+    "bbox": [
+      168,
+      1000,
+      960,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Central, Hong Kong (\"xFN\"),",
+    "bbox": [
+      168,
+      1000,
+      469,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "(collectively referred to as \"pARTIEs\"; individually, a \"pARTy\")..",
+    "bbox": [
+      171,
+      1000,
+      902,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "EXHIBIT 99.4",
+    "bbox": [
+      881,
+      81,
+      1000,
+      92
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "DATED 15TH DECEMBER 2001",
+    "bbox": [
+      430,
+      114,
+      697,
+      123
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
+    "bbox": [
+      249,
+      146,
+      879,
+      155
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "AND",
+    "bbox": [
+      551,
+      177,
+      588,
+      188
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "XINHUA EINANCIAI. NETWORK IIMITED",
+    "bbox": [
+      385,
+      211,
+      743,
+      218
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      430,
+      275,
+      710,
+      283
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "SUPPLEMENT TO THE EXCLUSIVE BROADCASTING AGREEMENT",
+    "bbox": [
+      284,
+      290,
+      844,
+      298
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "BAKER & McKENZIE",
+    "bbox": [
+      474,
+      354,
+      654,
+      363
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "14th Floor Hutchison House",
+    "bbox": [
+      418,
+      370,
+      709,
+      379
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "10 Harcourt Road",
+    "bbox": [
+      473,
+      385,
+      654,
+      396
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Hong Kong",
+    "bbox": [
+      517,
+      400,
+      622,
+      415
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Tel: 2846-1888",
+    "bbox": [
+      486,
+      418,
+      641,
+      427
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Fax: 2845-0476",
+    "bbox": [
+      485,
+      433,
+      642,
+      444
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONTENT",
+    "bbox": [
+      531,
+      497,
+      610,
+      508
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Clause",
+    "bbox": [
+      110,
+      560,
+      179,
+      572
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      970,
+      561,
+      1000,
+      574
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      609,
+      132,
+      620
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Definitions and Interpretation.",
+    "bbox": [
+      157,
+      609,
+      502,
+      620
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      993,
+      609,
+      1000,
+      620
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      111,
+      624,
+      133,
+      636
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Grant of Rights.",
+    "bbox": [
+      158,
+      626,
+      341,
+      635
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      993,
+      625,
+      1000,
+      636
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      111,
+      640,
+      134,
+      652
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Delivery of Content.",
+    "bbox": [
+      158,
+      642,
+      383,
+      652
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      993,
+      640,
+      1000,
+      652
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      111,
+      657,
+      133,
+      667
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Consideration..",
+    "bbox": [
+      158,
+      657,
+      322,
+      667
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      993,
+      657,
+      1000,
+      668
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      111,
+      672,
+      133,
+      684
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Representations and warranties",
+    "bbox": [
+      158,
+      674,
+      500,
+      684
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      993,
+      673,
+      1000,
+      684
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      112,
+      689,
+      133,
+      700
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Indemnity..",
+    "bbox": [
+      156,
+      688,
+      282,
+      701
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      993,
+      689,
+      1000,
+      700
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      111,
+      705,
+      133,
+      716
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Term.",
+    "bbox": [
+      156,
+      705,
+      213,
+      716
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      993,
+      705,
+      1000,
+      716
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      111,
+      721,
+      133,
+      732
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Termination.",
+    "bbox": [
+      157,
+      722,
+      290,
+      732
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      992,
+      719,
+      1000,
+      732
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "9.",
+    "bbox": [
+      112,
+      737,
+      134,
+      748
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Further Assurance.",
+    "bbox": [
+      157,
+      738,
+      356,
+      747
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      995,
+      737,
+      1000,
+      748
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "10. Entire Agreement; Amendments..",
+    "bbox": [
+      110,
+      752,
+      481,
+      764
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      752,
+      1000,
+      764
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "11. Severance.",
+    "bbox": [
+      110,
+      769,
+      272,
+      780
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      769,
+      1000,
+      780
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "12. No waiver.",
+    "bbox": [
+      111,
+      784,
+      266,
+      796
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      995,
+      785,
+      1000,
+      796
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "13. Costs And Expenses.",
+    "bbox": [
+      110,
+      800,
+      371,
+      813
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      801,
+      1000,
+      812
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "14. Counterparts.",
+    "bbox": [
+      111,
+      817,
+      302,
+      829
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      817,
+      1000,
+      829
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "15. Notice.",
+    "bbox": [
+      113,
+      833,
+      236,
+      843
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      833,
+      1000,
+      844
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "16. Governing Law And Arbitration..",
+    "bbox": [
+      112,
+      849,
+      494,
+      860
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      993,
+      848,
+      1000,
+      860
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Execution.",
+    "bbox": [
+      112,
+      865,
+      228,
+      876
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      994,
+      864,
+      1000,
+      876
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Schedule 1 - Contents",
+    "bbox": [
+      113,
+      912,
+      348,
+      924
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "BETWEEN",
+    "bbox": [
+      111,
+      1000,
+      192,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      113,
+      1000,
+      143,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation",
+    "bbox": [
+      169,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "operations and business, registered in the People's Republic of China with.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "offices at 57 Xuanwumen Xidajie, Beijing, the People's Republic of China (.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"CEIS\"); and",
+    "bbox": [
+      168,
+      1000,
+      306,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      114,
+      1000,
+      143,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "registered office is at Room 2003-4, Vicwood Plaza, 199 Des Voeux Road.",
+    "bbox": [
+      168,
+      1000,
+      960,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Central, Hong Kong (\"xFN\"),",
+    "bbox": [
+      168,
+      1000,
+      469,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "(collectively referred to as \"pARTIEs\"; individually, a \"pARTy\")..",
+    "bbox": [
+      171,
+      1000,
+      902,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "EXHIBIT 99.4",
+    "bbox": [
+      881,
+      81,
+      1000,
+      92
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "DATED 15TH DECEMBER 2001",
+    "bbox": [
+      430,
+      114,
+      697,
+      123
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
+    "bbox": [
+      249,
+      146,
+      879,
+      155
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "AND",
+    "bbox": [
+      551,
+      177,
+      588,
+      188
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "XINHUA EINANCIAI. NETWORK IIMITED",
+    "bbox": [
+      385,
+      211,
+      743,
+      218
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      430,
+      275,
+      710,
+      283
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "SUPPLEMENT TO THE EXCLUSIVE BROADCASTING AGREEMENT",
+    "bbox": [
+      284,
+      290,
+      844,
+      298
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "BAKER & McKENZIE",
+    "bbox": [
+      474,
+      354,
+      654,
+      363
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "14th Floor Hutchison House",
+    "bbox": [
+      418,
+      370,
+      709,
+      379
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "10 Harcourt Road",
+    "bbox": [
+      473,
+      385,
+      654,
+      396
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Hong Kong",
+    "bbox": [
+      517,
+      400,
+      622,
+      415
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Tel: 2846-1888",
+    "bbox": [
+      486,
+      418,
+      641,
+      427
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Fax: 2845-0476",
+    "bbox": [
+      485,
+      433,
+      642,
+      444
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "CONTENT",
+    "bbox": [
+      531,
+      497,
+      610,
+      508
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Clause",
+    "bbox": [
+      110,
+      560,
+      179,
+      572
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      970,
+      561,
+      1000,
+      574
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      609,
+      132,
+      620
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Definitions and Interpretation.",
+    "bbox": [
+      157,
+      609,
+      502,
+      620
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      993,
+      609,
+      1000,
+      620
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      111,
+      624,
+      133,
+      636
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Grant of Rights.",
+    "bbox": [
+      158,
+      626,
+      341,
+      635
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      993,
+      625,
+      1000,
+      636
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      111,
+      640,
+      134,
+      652
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Delivery of Content.",
+    "bbox": [
+      158,
+      642,
+      383,
+      652
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      993,
+      640,
+      1000,
+      652
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      111,
+      657,
+      133,
+      667
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Consideration..",
+    "bbox": [
+      158,
+      657,
+      322,
+      667
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      993,
+      657,
+      1000,
+      668
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      111,
+      672,
+      133,
+      684
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Representations and warranties",
+    "bbox": [
+      158,
+      674,
+      500,
+      684
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      993,
+      673,
+      1000,
+      684
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      112,
+      689,
+      133,
+      700
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Indemnity..",
+    "bbox": [
+      156,
+      688,
+      282,
+      701
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      993,
+      689,
+      1000,
+      700
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      111,
+      705,
+      133,
+      716
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Term.",
+    "bbox": [
+      156,
+      705,
+      213,
+      716
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      993,
+      705,
+      1000,
+      716
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      111,
+      721,
+      133,
+      732
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Termination.",
+    "bbox": [
+      157,
+      722,
+      290,
+      732
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      992,
+      719,
+      1000,
+      732
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "9.",
+    "bbox": [
+      112,
+      737,
+      134,
+      748
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Further Assurance.",
+    "bbox": [
+      157,
+      738,
+      356,
+      747
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      995,
+      737,
+      1000,
+      748
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "10. Entire Agreement; Amendments..",
+    "bbox": [
+      110,
+      752,
+      481,
+      764
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      752,
+      1000,
+      764
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "11. Severance.",
+    "bbox": [
+      110,
+      769,
+      272,
+      780
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      769,
+      1000,
+      780
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "12. No waiver.",
+    "bbox": [
+      111,
+      784,
+      266,
+      796
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      995,
+      785,
+      1000,
+      796
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "13. Costs And Expenses.",
+    "bbox": [
+      110,
+      800,
+      371,
+      813
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      801,
+      1000,
+      812
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "14. Counterparts.",
+    "bbox": [
+      111,
+      817,
+      302,
+      829
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      817,
+      1000,
+      829
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "15. Notice.",
+    "bbox": [
+      113,
+      833,
+      236,
+      843
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      994,
+      833,
+      1000,
+      844
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "16. Governing Law And Arbitration..",
+    "bbox": [
+      112,
+      849,
+      494,
+      860
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      993,
+      848,
+      1000,
+      860
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Execution.",
+    "bbox": [
+      112,
+      865,
+      228,
+      876
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      994,
+      864,
+      1000,
+      876
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Schedule 1 - Contents",
+    "bbox": [
+      113,
+      912,
+      348,
+      924
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "BETWEEN",
+    "bbox": [
+      111,
+      1000,
+      192,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(1)",
+    "bbox": [
+      113,
+      1000,
+      143,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation",
+    "bbox": [
+      169,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "operations and business, registered in the People's Republic of China with.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "offices at 57 Xuanwumen Xidajie, Beijing, the People's Republic of China (.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"CEIS\"); and",
+    "bbox": [
+      168,
+      1000,
+      306,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(2)",
+    "bbox": [
+      114,
+      1000,
+      143,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "registered office is at Room 2003-4, Vicwood Plaza, 199 Des Voeux Road.",
+    "bbox": [
+      168,
+      1000,
+      960,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Central, Hong Kong (\"xFN\"),",
+    "bbox": [
+      168,
+      1000,
+      469,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(collectively referred to as \"pARTIEs\"; individually, a \"pARTy\")..",
+    "bbox": [
+      171,
+      1000,
+      902,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  }
+]

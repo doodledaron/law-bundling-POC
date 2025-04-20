@@ -1,0 +1,7581 @@
+[
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMIISSION PURSUANT TO RULE 406 OF THE SECURITIES ACT",
+    "bbox": [
+      113,
+      129,
+      1000,
+      140
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "OF 1933, AS AMENDED.",
+    "bbox": [
+      113,
+      145,
+      305,
+      156
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      116,
+      185,
+      231,
+      196
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      322,
+      204,
+      801,
+      215
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreement Number:",
+    "bbox": [
+      114,
+      248,
+      262,
+      259
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CW251207",
+    "bbox": [
+      333,
+      247,
+      414,
+      258
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Effective Date:",
+    "bbox": [
+      111,
+      271,
+      222,
+      283
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      334,
+      271,
+      386,
+      282
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company Name:",
+    "bbox": [
+      112,
+      296,
+      235,
+      308
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      334,
+      296,
+      445,
+      307
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company Address:",
+    "bbox": [
+      112,
+      320,
+      258,
+      331
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "621 North Avenue NE",
+    "bbox": [
+      334,
+      320,
+      496,
+      330
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      333,
+      336,
+      410,
+      347
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Atlanta, GA 30308",
+    "bbox": [
+      334,
+      352,
+      469,
+      363
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company Telephone:",
+    "bbox": [
+      113,
+      377,
+      270,
+      387
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "888.798.5802",
+    "bbox": [
+      333,
+      375,
+      427,
+      386
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (\"Agreement') is entered into as of the Effective Date by",
+    "bbox": [
+      110,
+      423,
+      1000,
+      437
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and between Bank of America, N.A. (\"Bank of America\"), a national banking association, and the above-named Supplier, a corporation, and",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "consists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are.",
+    "bbox": [
+      110,
+      456,
+      1000,
+      469
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "incorporated in full by this reference.",
+    "bbox": [
+      111,
+      473,
+      389,
+      485
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"Supplier\")",
+    "bbox": [
+      111,
+      508,
+      209,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Bank of America, N.A.",
+    "bbox": [
+      679,
+      509,
+      850,
+      519
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      108,
+      539,
+      139,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "/s/ Scott Grime",
+    "bbox": [
+      170,
+      541,
+      282,
+      552
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "By:",
+    "bbox": [
+      675,
+      539,
+      705,
+      553
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "/s/ Chandra Torrence",
+    "bbox": [
+      734,
+      540,
+      892,
+      551
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Name:",
+    "bbox": [
+      109,
+      558,
+      173,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Scott Grime",
+    "bbox": [
+      169,
+      558,
+      258,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Name: ",
+    "bbox": [
+      676,
+      559,
+      738,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Chandra Torrence",
+    "bbox": [
+      730,
+      558,
+      868,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      110,
+      573,
+      150,
+      586
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Chief Executive Officer",
+    "bbox": [
+      170,
+      575,
+      342,
+      585
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Title:",
+    "bbox": [
+      676,
+      574,
+      716,
+      586
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "V.P., Sourcing Manager",
+    "bbox": [
+      732,
+      574,
+      907,
+      587
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      109,
+      591,
+      153,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11/8/10",
+    "bbox": [
+      170,
+      592,
+      224,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      676,
+      592,
+      720,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11/4/10",
+    "bbox": [
+      733,
+      592,
+      787,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Address for Notices:",
+    "bbox": [
+      112,
+      620,
+      268,
+      632
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Address for Notices: (Supply Chain Management Contact).",
+    "bbox": [
+      729,
+      620,
+      1000,
+      633
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Mailcode NC1-023-09-01",
+    "bbox": [
+      728,
+      637,
+      910,
+      647
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Cardlytics, Inc.",
+    "bbox": [
+      112,
+      647,
+      223,
+      658
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Bank of America",
+    "bbox": [
+      727,
+      653,
+      852,
+      664
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "621 North Ave NE",
+    "bbox": [
+      111,
+      662,
+      246,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "625 N Tryon St",
+    "bbox": [
+      727,
+      667,
+      841,
+      681
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Suite C-30",
+    "bbox": [
+      111,
+      679,
+      189,
+      689
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      728,
+      685,
+      876,
+      695
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Atlanta, GA 30030",
+    "bbox": [
+      112,
+      694,
+      247,
+      706
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ATTN: Chandra Torrence",
+    "bbox": [
+      728,
+      701,
+      917,
+      711
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ATTN: Scott Grimes",
+    "bbox": [
+      112,
+      710,
+      261,
+      722
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Telephone: [***]",
+    "bbox": [
+      727,
+      716,
+      858,
+      730
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Telephone: 888.798.5802",
+    "bbox": [
+      112,
+      727,
+      291,
+      738
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      727,
+      731,
+      819,
+      746
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Email: [***]",
+    "bbox": [
+      110,
+      742,
+      202,
+      756
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "With a copy to:",
+    "bbox": [
+      727,
+      758,
+      844,
+      771
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Bank of America Legal Department",
+    "bbox": [
+      727,
+      784,
+      991,
+      797
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "101 S. Tryon Street",
+    "bbox": [
+      729,
+      800,
+      870,
+      813
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Charlotte, NC 28255",
+    "bbox": [
+      729,
+      817,
+      876,
+      827
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      113,
+      854,
+      351,
+      867
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      854,
+      1000,
+      866
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

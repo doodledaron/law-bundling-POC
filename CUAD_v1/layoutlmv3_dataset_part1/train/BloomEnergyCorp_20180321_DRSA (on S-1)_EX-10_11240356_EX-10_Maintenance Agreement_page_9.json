@@ -1,0 +1,574 @@
+[
+  {
+    "text": "'Guidance\" is defined in the ECCA..",
+    "bbox": [
+      157,
+      83,
+      421,
+      95
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Indemnifiable Loss\" means any claim, demand, suit, loss, liability, damage, obligation, payment, cost or expense (including the cost and.",
+    "bbox": [
+      156,
+      115,
+      1000,
+      128
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "expense of any action, suit, proceeding, assessment, judgment, settlement or compromise relating thereto and reasonable attorneys' fees and",
+    "bbox": [
+      113,
+      132,
+      1000,
+      144
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "reasonable disbursements in connection therewith).",
+    "bbox": [
+      111,
+      147,
+      499,
+      160
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Indemnified Party' is defined in Section 6.3.",
+    "bbox": [
+      157,
+      180,
+      490,
+      191
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Indemnifying Party\"' is defined in Section 6.3",
+    "bbox": [
+      157,
+      212,
+      501,
+      223
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "'Independent Engineer\" is defined in the MESPA.",
+    "bbox": [
+      158,
+      244,
+      530,
+      255
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Interconnection Agreement' means an agreement among Owner, DPL and/or PJM regarding interconnection of the Facility to the.",
+    "bbox": [
+      156,
+      275,
+      1000,
+      288
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "transmission or distribution system of the Transmitting Utility.",
+    "bbox": [
+      110,
+      290,
+      578,
+      305
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "'Interconnection Point\" is defined in the QFCP-RC Tariff..",
+    "bbox": [
+      158,
+      324,
+      584,
+      334
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "'kW\" means kilowatt..",
+    "bbox": [
+      158,
+      356,
+      317,
+      367
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "'kWh' means kilowatt-hour..",
+    "bbox": [
+      158,
+      388,
+      367,
+      398
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Legal Requirement' means any law, statute, act, decree, ordinance, rule, directive (to the extent having the force of law), tariff (including the",
+    "bbox": [
+      156,
+      419,
+      1000,
+      432
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Tariffs), order, treaty, code or regulation or any interpretation of any of the foregoing, as enacted, issued or promulgated by any Governmental",
+    "bbox": [
+      112,
+      436,
+      1000,
+      448
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Authority, including all amendments, modifications, extensions, replacements or re-enactments thereof, in each case applicable to or binding upon",
+    "bbox": [
+      112,
+      451,
+      1000,
+      464
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "such Person or any of its properties or to which such Person or any of its property is subject..",
+    "bbox": [
+      111,
+      468,
+      812,
+      480
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Letter Agreement' means that certain Letter Agreement dated October 10, 2011 between Operator and the State of Delaware, as may be",
+    "bbox": [
+      156,
+      499,
+      1000,
+      511
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "amended from time to time..",
+    "bbox": [
+      113,
+      516,
+      311,
+      526
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "'Liens\" means any lien, security interest, mortgage, hypothecation, encumbrance or other restriction on title or property interest..",
+    "bbox": [
+      158,
+      548,
+      1000,
+      560
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "'Look Back Period\" means each calendar year following the Commencement of Operations for a Bloom System (or, in the case of the calendar",
+    "bbox": [
+      158,
+      580,
+      1000,
+      592
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "year in which the Delivery Date for a Bloom System has occurred, the portion of such calendar year commencing on the date such Bloom System",
+    "bbox": [
+      110,
+      595,
+      1000,
+      608
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "achieved Commencement of Operations), but excluding with respect to each relevant Bloom System any period during such calendar year when",
+    "bbox": [
+      112,
+      612,
+      1000,
+      624
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "such Bloom System was (a) subject to a Force Majeure Event, (b) not delivering Energy to the PJM Grid because of a failure to perform by DPL",
+    "bbox": [
+      111,
+      628,
+      1000,
+      640
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "under the DPL Agreements or PJM under the PJM Agreements, or (c) required to be disconnected from the PJM Grid or otherwise required not to",
+    "bbox": [
+      111,
+      643,
+      1000,
+      656
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "to such Bloom System (e.g., due to a grid event).",
+    "bbox": [
+      111,
+      676,
+      475,
+      689
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      660,
+      692,
+      672,
+      703
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "'Guidance\" is defined in the ECCA..",
+    "bbox": [
+      157,
+      83,
+      421,
+      95
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Indemnifiable Loss\" means any claim, demand, suit, loss, liability, damage, obligation, payment, cost or expense (including the cost and.",
+    "bbox": [
+      156,
+      115,
+      1000,
+      128
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "expense of any action, suit, proceeding, assessment, judgment, settlement or compromise relating thereto and reasonable attorneys' fees and",
+    "bbox": [
+      113,
+      132,
+      1000,
+      144
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "reasonable disbursements in connection therewith).",
+    "bbox": [
+      111,
+      147,
+      499,
+      160
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Indemnified Party' is defined in Section 6.3.",
+    "bbox": [
+      157,
+      180,
+      490,
+      191
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Indemnifying Party\"' is defined in Section 6.3",
+    "bbox": [
+      157,
+      212,
+      501,
+      223
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Independent Engineer\" is defined in the MESPA.",
+    "bbox": [
+      158,
+      244,
+      530,
+      255
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Interconnection Agreement' means an agreement among Owner, DPL and/or PJM regarding interconnection of the Facility to the.",
+    "bbox": [
+      156,
+      275,
+      1000,
+      288
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "transmission or distribution system of the Transmitting Utility.",
+    "bbox": [
+      110,
+      290,
+      578,
+      305
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Interconnection Point\" is defined in the QFCP-RC Tariff..",
+    "bbox": [
+      158,
+      324,
+      584,
+      334
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'kW\" means kilowatt..",
+    "bbox": [
+      158,
+      356,
+      317,
+      367
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'kWh' means kilowatt-hour..",
+    "bbox": [
+      158,
+      388,
+      367,
+      398
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Legal Requirement' means any law, statute, act, decree, ordinance, rule, directive (to the extent having the force of law), tariff (including the",
+    "bbox": [
+      156,
+      419,
+      1000,
+      432
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Tariffs), order, treaty, code or regulation or any interpretation of any of the foregoing, as enacted, issued or promulgated by any Governmental",
+    "bbox": [
+      112,
+      436,
+      1000,
+      448
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Authority, including all amendments, modifications, extensions, replacements or re-enactments thereof, in each case applicable to or binding upon",
+    "bbox": [
+      112,
+      451,
+      1000,
+      464
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "such Person or any of its properties or to which such Person or any of its property is subject..",
+    "bbox": [
+      111,
+      468,
+      812,
+      480
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Letter Agreement' means that certain Letter Agreement dated October 10, 2011 between Operator and the State of Delaware, as may be",
+    "bbox": [
+      156,
+      499,
+      1000,
+      511
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "amended from time to time..",
+    "bbox": [
+      113,
+      516,
+      311,
+      526
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Liens\" means any lien, security interest, mortgage, hypothecation, encumbrance or other restriction on title or property interest..",
+    "bbox": [
+      158,
+      548,
+      1000,
+      560
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Look Back Period\" means each calendar year following the Commencement of Operations for a Bloom System (or, in the case of the calendar",
+    "bbox": [
+      158,
+      580,
+      1000,
+      592
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "year in which the Delivery Date for a Bloom System has occurred, the portion of such calendar year commencing on the date such Bloom System",
+    "bbox": [
+      110,
+      595,
+      1000,
+      608
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "achieved Commencement of Operations), but excluding with respect to each relevant Bloom System any period during such calendar year when",
+    "bbox": [
+      112,
+      612,
+      1000,
+      624
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "such Bloom System was (a) subject to a Force Majeure Event, (b) not delivering Energy to the PJM Grid because of a failure to perform by DPL",
+    "bbox": [
+      111,
+      628,
+      1000,
+      640
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "under the DPL Agreements or PJM under the PJM Agreements, or (c) required to be disconnected from the PJM Grid or otherwise required not to",
+    "bbox": [
+      111,
+      643,
+      1000,
+      656
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "to such Bloom System (e.g., due to a grid event).",
+    "bbox": [
+      111,
+      676,
+      475,
+      689
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      660,
+      692,
+      672,
+      703
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

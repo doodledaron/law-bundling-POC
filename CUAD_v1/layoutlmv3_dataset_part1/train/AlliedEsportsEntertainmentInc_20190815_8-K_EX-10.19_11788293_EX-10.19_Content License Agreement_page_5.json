@@ -1,0 +1,662 @@
+[
+  {
+    "text": "C.",
+    "bbox": [
+      177,
+      75,
+      191,
+      84
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Payment. All amounts payable and due will be made in U.S. dollars. If withholding taxes are required, Zynga may account for the",
+    "bbox": [
+      247,
+      73,
+      1000,
+      85
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "required amount of such withholding taxes when calculating the Royalty or other payments payable prior to remittance to WPT.",
+    "bbox": [
+      247,
+      89,
+      1000,
+      101
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Zynga shall provide WPT with an official receipt or other equivalent documentation issued by the appropriate taxing authority or",
+    "bbox": [
+      247,
+      105,
+      1000,
+      117
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "other evidence as is reasonably requested by WPT to establish that such taxes have been paid. Zynga shall pay all amounts",
+    "bbox": [
+      247,
+      121,
+      1000,
+      133
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "accruing under this Agreement for any reporting period to WPT by check or wire transfer to the account specified by WPT in",
+    "bbox": [
+      247,
+      136,
+      1000,
+      149
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "writing, concurrently with Zynga's delivery of the applicable report under Section 3(d), provided that payments will only be paid",
+    "bbox": [
+      248,
+      153,
+      1000,
+      165
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "if the amount owed to WPT for any reporting period is greater than five hundred dollars ($500.o0). An amount due of less than",
+    "bbox": [
+      247,
+      168,
+      1000,
+      181
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "five hundred dollars ($500.o0) will be accumulated to the next payment and will be included in the amount to be paid to WPT on",
+    "bbox": [
+      247,
+      184,
+      1000,
+      197
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the next payment date, again provided that the amount owed to WPT in the subsequent month exceeds five hundred dollars",
+    "bbox": [
+      247,
+      201,
+      1000,
+      213
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "($500.00). Accumulated amounts do not accrue any interest.",
+    "bbox": [
+      248,
+      217,
+      695,
+      228
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "d.",
+    "bbox": [
+      178,
+      232,
+      195,
+      244
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Reporting. Zynga will, within thirty (30) days of the end of each calendar quarter, commencing with the first full calendar quarter",
+    "bbox": [
+      247,
+      233,
+      1000,
+      245
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "following the Effective Date, furnish WPT with complete statements containing the following information with respect to all Net",
+    "bbox": [
+      247,
+      249,
+      1000,
+      261
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Revenue from the use of the WPT-brand on the Zynga platform, during the preceding period covered by such statement: the",
+    "bbox": [
+      247,
+      265,
+      1000,
+      277
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Territory; the amount due WPT (or the remaining unrecouped Annual Minimum Guarantee balance as applicable); Net Revenue;",
+    "bbox": [
+      247,
+      280,
+      1000,
+      293
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Royalties rate; the distribution channels or portals, the platform, the territory(ies), and itemized Allowable Deductions (\"Royalty",
+    "bbox": [
+      247,
+      296,
+      1000,
+      309
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Statement(s)'). The amount shown to be payable to WPT shall be paid simultaneously with the rendition of the respective",
+    "bbox": [
+      247,
+      313,
+      1000,
+      325
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Royalty Statement. The statements and payments remitted hereunder shall be delivered to WPT via email to the following email",
+    "bbox": [
+      247,
+      329,
+      1000,
+      341
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "address: Deborah.Frazzetta@wpt.com (ATTN: Deborah Frazzetta, VP, Finance..",
+    "bbox": [
+      247,
+      345,
+      833,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "e.",
+    "bbox": [
+      179,
+      363,
+      192,
+      372
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Audit Rights. Zynga shall keep full, complete and accurate books of account and records (collectively \"records') covering all",
+    "bbox": [
+      247,
+      361,
+      1000,
+      373
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "transactions relating to the subject matter of this Agreement in sufficient detail to enable the Royalties payable hereunder to be",
+    "bbox": [
+      247,
+      376,
+      1000,
+      388
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "determined and verified. Zynga shall permit such records to be examined by authorized representatives of WPT, including such",
+    "bbox": [
+      247,
+      393,
+      1000,
+      405
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "independent auditors as WPT may designate, during usual business hours, with advance notice, to verify to the extent necessary",
+    "bbox": [
+      246,
+      407,
+      1000,
+      422
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Royalties paid hereunder, and WPT and its representatives shall use reasonable efforts to minimize disruptions to Zynga's",
+    "bbox": [
+      247,
+      425,
+      1000,
+      437
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "business. Prompt adjustment shall be made by Zynga to compensate for any errors or omissions disclosed by such examination.",
+    "bbox": [
+      247,
+      441,
+      1000,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "If the adjustment is more than $1,500 in favor, then out-of-pocket costs of such examination shall be borne by Zynga.",
+    "bbox": [
+      247,
+      456,
+      1000,
+      469
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "f.",
+    "bbox": [
+      178,
+      472,
+      190,
+      484
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "No Other Charges or Expenses. Neither party will be liable to pay the other party any other types of charges or expenses not",
+    "bbox": [
+      246,
+      472,
+      1000,
+      485
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "agreed to in this Agreement or any related amendment signed by the Parties..",
+    "bbox": [
+      247,
+      488,
+      822,
+      502
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      504,
+      127,
+      516
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "REPRESENTATIONS AND WARRANTIES: LIMITATIONS OF LIABILITY",
+    "bbox": [
+      181,
+      506,
+      753,
+      514
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      523,
+      192,
+      533
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Each party represents and warrants to the other as follows: (i) it is duly authorized under applicable law and has the authority to",
+    "bbox": [
+      247,
+      520,
+      1000,
+      533
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "accordance with its terms; (iii) the making of this Agreement by such party does not violate any agreement, right or obligation.",
+    "bbox": [
+      247,
+      553,
+      1000,
+      565
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "existing between such party and any third party; (iv) the marketing and promotional activities in Exhibit A shall not infringe or",
+    "bbox": [
+      248,
+      569,
+      1000,
+      581
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "misappropriate third party rights, including, without limitation, any patent, trade name, trademark, copyright or other intellectual",
+    "bbox": [
+      247,
+      584,
+      1000,
+      597
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "property or proprietary right and shall not invade or violate any right of privacy, publicity, personal or proprietary right, or other",
+    "bbox": [
+      247,
+      601,
+      1000,
+      613
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "common law or statutory right, nor defame any person or entity in the United States and European Union (the \"Principal",
+    "bbox": [
+      247,
+      616,
+      1000,
+      628
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Territories'), and to the knowledge of such party, outside the Principal Territories; provided that such party makes no",
+    "bbox": [
+      247,
+      632,
+      1000,
+      645
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "representations regarding the Licensed Property or any other materials provided by Licensor as contemplated under this",
+    "bbox": [
+      247,
+      649,
+      1000,
+      661
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      248,
+      666,
+      335,
+      677
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      177,
+      680,
+      195,
+      692
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "DISCLAIMIER. EXCEPT AS EXPRESSLY STATED IN THIS AGREEMENT, NEITHER PARTY MAKES ANY REPRESENTATIONS",
+    "bbox": [
+      247,
+      680,
+      1000,
+      691
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "OR WARRANTIES OF ANY KIND WITH RESPECT TO THE SUBJECT MATTER HEREOF, INCLUDING BUT NOT LIMITED TO",
+    "bbox": [
+      248,
+      697,
+      1000,
+      707
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "THE IMPLIED WARRANTIES OF MERCHANTABILITY. FITNESS FOR A PARTICULAR PURPOSE OR ANY LEVEL OF",
+    "bbox": [
+      249,
+      713,
+      1000,
+      722
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "BUSINESS OR SERVICE THAT MAY RESULT FROM THIS AGREEMENT. OR ANY WARRANTY OR CONDITION ARISING",
+    "bbox": [
+      249,
+      730,
+      1000,
+      738
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "FROM ANY COURSE OF DEALING, COURSE OF PERFORMANCE OR USAGE IN THE INDUSTRY.",
+    "bbox": [
+      247,
+      745,
+      1000,
+      755
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "LIMITATIONS ON LIABILITY/NO INJUNCTIVE RELIEF. EXCEPT IN CASES OF GROSS NEGLIGENCE. WILLFUL ",
+    "bbox": [
+      248,
+      761,
+      1000,
+      770
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      178,
+      762,
+      191,
+      772
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "MISCONDUCT OR FRAUD. INDEMNIFICATION CLAIMS UNDER SECTION 5 OR BREACHES OF SECTION 2 ",
+    "bbox": [
+      248,
+      777,
+      1000,
+      786
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(TRADEMARKS), 8 (CONFIDENTIALITY), OR 9 (NO AGENCY RELATIONSHIP), IN NO EVENT SHALL EITHER PARTY OR ITS",
+    "bbox": [
+      248,
+      792,
+      1000,
+      803
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "OFFICERS, DIRECTORS, OR EMPLOYEES BE LIABLE TO THE OTHER PARTY IN CONNECTION WITH THE SUBJECT",
+    "bbox": [
+      248,
+      809,
+      1000,
+      819
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "MATTER HEREOF, FOR ANY SPECIAL, INDIRECT, CONSEQUENTIAL OR PUNITIVE DAMAGES OF ANY KIND, LOST",
+    "bbox": [
+      247,
+      825,
+      1000,
+      835
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "PROFITS OR LOST REVENUE, WHETHER ARISING IN CONTRACT, TORT, NEGLIGENCE, STATUTE, OR OTHERWISE, EVEN",
+    "bbox": [
+      247,
+      841,
+      1000,
+      852
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "IF ADVISED OF THE POSSIBILITY THEREOF. IN NO EVENT SHALL THE NON-BREACHING PARTY BE ENTITLED TO",
+    "bbox": [
+      248,
+      858,
+      1000,
+      867
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "EQUITABLE OR INJUNCTIVE RELIEF OF ANY KIND.",
+    "bbox": [
+      248,
+      873,
+      656,
+      883
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      662,
+      896,
+      674,
+      907
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: ALLIED ESPORTS ENTERTAINMENT, INC., 8-K, 8/15/2019",
+    "bbox": [
+      133,
+      1000,
+      658,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

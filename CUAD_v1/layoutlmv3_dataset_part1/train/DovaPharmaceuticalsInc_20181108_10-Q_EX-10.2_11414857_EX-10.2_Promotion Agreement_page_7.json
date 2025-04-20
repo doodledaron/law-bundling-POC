@@ -1,0 +1,5095 @@
+[
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 10,
+    "category": "Non-Compete"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  }
+]

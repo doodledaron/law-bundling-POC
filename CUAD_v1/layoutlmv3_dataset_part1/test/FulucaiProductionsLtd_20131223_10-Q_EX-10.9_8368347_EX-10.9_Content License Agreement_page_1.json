@@ -1,0 +1,24 @@
+[
+  {
+    "text": "program, file or video listed on the Deal Terms above (the \"Program') consisting of (check one)  episodes (series) or ] one-offs,.",
+    "bbox": [
+      235,
+      287,
+      1000,
+      300
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "program, file or video listed on the Deal Terms above (the \"Program') consisting of (check one)  episodes (series) or ] one-offs,.",
+    "bbox": [
+      235,
+      287,
+      1000,
+      300
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  }
+]

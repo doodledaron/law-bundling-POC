@@ -1,0 +1,2004 @@
+[
+  {
+    "text": "and between Xencor, Inc. (\"Xencor\"), and Aimmune Therapeutics, Inc. (\"Aimmune'). Xencor and Aimmune are sometimes referred to herein.",
+    "bbox": [
+      112,
+      131,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "individually as a \"Party\" and collectively as the \"Parties\".",
+    "bbox": [
+      112,
+      145,
+      543,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",
+    "bbox": [
+      397,
+      83,
+      947,
+      94
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This License, Development and Commercialization Agreement (this \"Agreement'), dated as of February 4, 2020 (the \"Effective Date'), is made by",
+    "bbox": [
+      156,
+      113,
+      1000,
+      127
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and between Xencor, Inc. (\"Xencor\"), and Aimmune Therapeutics, Inc. (\"Aimmune'). Xencor and Aimmune are sometimes referred to herein.",
+    "bbox": [
+      112,
+      131,
+      1000,
+      141
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "individually as a \"Party\" and collectively as the \"Parties\".",
+    "bbox": [
+      112,
+      145,
+      543,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      192,
+      715,
+      203
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WheREAs, Xencor has developed the Antibody (as defined below);.",
+    "bbox": [
+      157,
+      221,
+      654,
+      235
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAs, Aimmune is interested in further developing and commercializing the Antibody; and",
+    "bbox": [
+      157,
+      253,
+      855,
+      266
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHeREAs, Xencor wishes to grant a license to Aimmune under certain intellectual property rights related to the Antibody to develop, manufacture.",
+    "bbox": [
+      156,
+      284,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and commercialize the Product (as defined below), and Aimmune wishes to take such license, in each case in accordance with the terms and conditions.",
+    "bbox": [
+      111,
+      300,
+      1000,
+      312
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "set forth below.",
+    "bbox": [
+      111,
+      317,
+      223,
+      327
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "No w THEReFoRE, in consideration of the foregoing premises and the mutual promises, covenants and conditions contained in this Agreement,",
+    "bbox": [
+      155,
+      347,
+      1000,
+      359
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and for other good and valuable consideration, receipt of which is hereby acknowledged, the Parties agree as follows:.",
+    "bbox": [
+      112,
+      363,
+      967,
+      375
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      629,
+      409,
+      716,
+      420
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      425,
+      727,
+      435
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "As used in this Agreement, the following initially capitalized terms shall have the meanings set forth in this ARTICLE 1 or as otherwise defined",
+    "bbox": [
+      156,
+      455,
+      1000,
+      468
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "elsewhere in this Agreement:",
+    "bbox": [
+      112,
+      471,
+      323,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 \"Active Ingredient\"' means any substance (whether chemical or biologic) or mixture of substances intended to be used in the manufacture of a",
+    "bbox": [
+      156,
+      495,
+      1000,
+      507
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "drug (medicinal) product that, when used in the production of such drug, becomes a therapeutically active ingredient of the drug product, and which",
+    "bbox": [
+      111,
+      510,
+      1000,
+      522
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "such substance or mixture of substances is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment.",
+    "bbox": [
+      110,
+      526,
+      1000,
+      538
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or prevention of disease or to affect the structure or function of the body..",
+    "bbox": [
+      112,
+      542,
+      645,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 \"Affiliate\" means with respect to any person, any other person directly or indirectly controlling, controlled by, or under common control with.",
+    "bbox": [
+      156,
+      572,
+      1000,
+      585
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "such person; provided, that, for purposes of this definition, \"control'' (including, with correlative meanings, the terms \"controlled by' and \"under",
+    "bbox": [
+      112,
+      589,
+      1000,
+      599
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "common control with'), as used with respect to any person, shall mean (i) the possession, directly or indirectly, of the power to direct or cause the.",
+    "bbox": [
+      110,
+      604,
+      1000,
+      615
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "direction of the management and policies of such person, whether through the ownership of voting securities or by contract or otherwise, or (ii) the",
+    "bbox": [
+      111,
+      619,
+      1000,
+      631
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ownership, directly or indirectly, of fifty percent (50%) or more of the voting securities of such person. For purposes of this Section 1.2, \"person\"' means.",
+    "bbox": [
+      111,
+      635,
+      1000,
+      647
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "mean an individual, corporation, partnership, limited partnership, limited liability company, limited liability partnership, syndicate, person (including a",
+    "bbox": [
+      110,
+      650,
+      1000,
+      662
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "person' as defined in Section 13(d)(3) of the Securities Exchange Act of 1934, as amended, together with the rules and regulations promulgated",
+    "bbox": [
+      113,
+      666,
+      1000,
+      677
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "thereunder), trust, association, entity or government or political subdivision, agency or instrumentality of a government..",
+    "bbox": [
+      112,
+      682,
+      986,
+      693
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      697,
+      679,
+      707
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+    "bbox": [
+      133,
+      1000,
+      574,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",
+    "bbox": [
+      397,
+      83,
+      947,
+      94
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This License, Development and Commercialization Agreement (this \"Agreement'), dated as of February 4, 2020 (the \"Effective Date'), is made by",
+    "bbox": [
+      156,
+      113,
+      1000,
+      127
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and between Xencor, Inc. (\"Xencor\"), and Aimmune Therapeutics, Inc. (\"Aimmune'). Xencor and Aimmune are sometimes referred to herein.",
+    "bbox": [
+      112,
+      131,
+      1000,
+      141
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "individually as a \"Party\" and collectively as the \"Parties\".",
+    "bbox": [
+      112,
+      145,
+      543,
+      157
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      192,
+      715,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WheREAs, Xencor has developed the Antibody (as defined below);.",
+    "bbox": [
+      157,
+      221,
+      654,
+      235
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAs, Aimmune is interested in further developing and commercializing the Antibody; and",
+    "bbox": [
+      157,
+      253,
+      855,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHeREAs, Xencor wishes to grant a license to Aimmune under certain intellectual property rights related to the Antibody to develop, manufacture.",
+    "bbox": [
+      156,
+      284,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and commercialize the Product (as defined below), and Aimmune wishes to take such license, in each case in accordance with the terms and conditions.",
+    "bbox": [
+      111,
+      300,
+      1000,
+      312
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "set forth below.",
+    "bbox": [
+      111,
+      317,
+      223,
+      327
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "No w THEReFoRE, in consideration of the foregoing premises and the mutual promises, covenants and conditions contained in this Agreement,",
+    "bbox": [
+      155,
+      347,
+      1000,
+      359
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and for other good and valuable consideration, receipt of which is hereby acknowledged, the Parties agree as follows:.",
+    "bbox": [
+      112,
+      363,
+      967,
+      375
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      629,
+      409,
+      716,
+      420
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      425,
+      727,
+      435
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "As used in this Agreement, the following initially capitalized terms shall have the meanings set forth in this ARTICLE 1 or as otherwise defined",
+    "bbox": [
+      156,
+      455,
+      1000,
+      468
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "elsewhere in this Agreement:",
+    "bbox": [
+      112,
+      471,
+      323,
+      483
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.1 \"Active Ingredient\"' means any substance (whether chemical or biologic) or mixture of substances intended to be used in the manufacture of a",
+    "bbox": [
+      156,
+      495,
+      1000,
+      507
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "drug (medicinal) product that, when used in the production of such drug, becomes a therapeutically active ingredient of the drug product, and which",
+    "bbox": [
+      111,
+      510,
+      1000,
+      522
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "such substance or mixture of substances is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment.",
+    "bbox": [
+      110,
+      526,
+      1000,
+      538
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or prevention of disease or to affect the structure or function of the body..",
+    "bbox": [
+      112,
+      542,
+      645,
+      554
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.2 \"Affiliate\" means with respect to any person, any other person directly or indirectly controlling, controlled by, or under common control with.",
+    "bbox": [
+      156,
+      572,
+      1000,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "such person; provided, that, for purposes of this definition, \"control'' (including, with correlative meanings, the terms \"controlled by' and \"under",
+    "bbox": [
+      112,
+      589,
+      1000,
+      599
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "common control with'), as used with respect to any person, shall mean (i) the possession, directly or indirectly, of the power to direct or cause the.",
+    "bbox": [
+      110,
+      604,
+      1000,
+      615
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "direction of the management and policies of such person, whether through the ownership of voting securities or by contract or otherwise, or (ii) the",
+    "bbox": [
+      111,
+      619,
+      1000,
+      631
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ownership, directly or indirectly, of fifty percent (50%) or more of the voting securities of such person. For purposes of this Section 1.2, \"person\"' means.",
+    "bbox": [
+      111,
+      635,
+      1000,
+      647
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "mean an individual, corporation, partnership, limited partnership, limited liability company, limited liability partnership, syndicate, person (including a",
+    "bbox": [
+      110,
+      650,
+      1000,
+      662
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "person' as defined in Section 13(d)(3) of the Securities Exchange Act of 1934, as amended, together with the rules and regulations promulgated",
+    "bbox": [
+      113,
+      666,
+      1000,
+      677
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "thereunder), trust, association, entity or government or political subdivision, agency or instrumentality of a government..",
+    "bbox": [
+      112,
+      682,
+      986,
+      693
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      697,
+      679,
+      707
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+    "bbox": [
+      133,
+      1000,
+      574,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",
+    "bbox": [
+      397,
+      83,
+      947,
+      94
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "This License, Development and Commercialization Agreement (this \"Agreement'), dated as of February 4, 2020 (the \"Effective Date'), is made by",
+    "bbox": [
+      156,
+      113,
+      1000,
+      127
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and between Xencor, Inc. (\"Xencor\"), and Aimmune Therapeutics, Inc. (\"Aimmune'). Xencor and Aimmune are sometimes referred to herein.",
+    "bbox": [
+      112,
+      131,
+      1000,
+      141
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "individually as a \"Party\" and collectively as the \"Parties\".",
+    "bbox": [
+      112,
+      145,
+      543,
+      157
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      192,
+      715,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WheREAs, Xencor has developed the Antibody (as defined below);.",
+    "bbox": [
+      157,
+      221,
+      654,
+      235
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAs, Aimmune is interested in further developing and commercializing the Antibody; and",
+    "bbox": [
+      157,
+      253,
+      855,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHeREAs, Xencor wishes to grant a license to Aimmune under certain intellectual property rights related to the Antibody to develop, manufacture.",
+    "bbox": [
+      156,
+      284,
+      1000,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and commercialize the Product (as defined below), and Aimmune wishes to take such license, in each case in accordance with the terms and conditions.",
+    "bbox": [
+      111,
+      300,
+      1000,
+      312
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "set forth below.",
+    "bbox": [
+      111,
+      317,
+      223,
+      327
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "No w THEReFoRE, in consideration of the foregoing premises and the mutual promises, covenants and conditions contained in this Agreement,",
+    "bbox": [
+      155,
+      347,
+      1000,
+      359
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and for other good and valuable consideration, receipt of which is hereby acknowledged, the Parties agree as follows:.",
+    "bbox": [
+      112,
+      363,
+      967,
+      375
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      629,
+      409,
+      716,
+      420
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      425,
+      727,
+      435
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "As used in this Agreement, the following initially capitalized terms shall have the meanings set forth in this ARTICLE 1 or as otherwise defined",
+    "bbox": [
+      156,
+      455,
+      1000,
+      468
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "elsewhere in this Agreement:",
+    "bbox": [
+      112,
+      471,
+      323,
+      483
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.1 \"Active Ingredient\"' means any substance (whether chemical or biologic) or mixture of substances intended to be used in the manufacture of a",
+    "bbox": [
+      156,
+      495,
+      1000,
+      507
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "drug (medicinal) product that, when used in the production of such drug, becomes a therapeutically active ingredient of the drug product, and which",
+    "bbox": [
+      111,
+      510,
+      1000,
+      522
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "such substance or mixture of substances is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment.",
+    "bbox": [
+      110,
+      526,
+      1000,
+      538
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or prevention of disease or to affect the structure or function of the body..",
+    "bbox": [
+      112,
+      542,
+      645,
+      554
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.2 \"Affiliate\" means with respect to any person, any other person directly or indirectly controlling, controlled by, or under common control with.",
+    "bbox": [
+      156,
+      572,
+      1000,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "such person; provided, that, for purposes of this definition, \"control'' (including, with correlative meanings, the terms \"controlled by' and \"under",
+    "bbox": [
+      112,
+      589,
+      1000,
+      599
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "common control with'), as used with respect to any person, shall mean (i) the possession, directly or indirectly, of the power to direct or cause the.",
+    "bbox": [
+      110,
+      604,
+      1000,
+      615
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "direction of the management and policies of such person, whether through the ownership of voting securities or by contract or otherwise, or (ii) the",
+    "bbox": [
+      111,
+      619,
+      1000,
+      631
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ownership, directly or indirectly, of fifty percent (50%) or more of the voting securities of such person. For purposes of this Section 1.2, \"person\"' means.",
+    "bbox": [
+      111,
+      635,
+      1000,
+      647
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "mean an individual, corporation, partnership, limited partnership, limited liability company, limited liability partnership, syndicate, person (including a",
+    "bbox": [
+      110,
+      650,
+      1000,
+      662
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "person' as defined in Section 13(d)(3) of the Securities Exchange Act of 1934, as amended, together with the rules and regulations promulgated",
+    "bbox": [
+      113,
+      666,
+      1000,
+      677
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "thereunder), trust, association, entity or government or political subdivision, agency or instrumentality of a government..",
+    "bbox": [
+      112,
+      682,
+      986,
+      693
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      697,
+      679,
+      707
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+    "bbox": [
+      133,
+      1000,
+      574,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",
+    "bbox": [
+      397,
+      83,
+      947,
+      94
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "This License, Development and Commercialization Agreement (this \"Agreement'), dated as of February 4, 2020 (the \"Effective Date'), is made by",
+    "bbox": [
+      156,
+      113,
+      1000,
+      127
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and between Xencor, Inc. (\"Xencor\"), and Aimmune Therapeutics, Inc. (\"Aimmune'). Xencor and Aimmune are sometimes referred to herein.",
+    "bbox": [
+      112,
+      131,
+      1000,
+      141
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "individually as a \"Party\" and collectively as the \"Parties\".",
+    "bbox": [
+      112,
+      145,
+      543,
+      157
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      192,
+      715,
+      203
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WheREAs, Xencor has developed the Antibody (as defined below);.",
+    "bbox": [
+      157,
+      221,
+      654,
+      235
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAs, Aimmune is interested in further developing and commercializing the Antibody; and",
+    "bbox": [
+      157,
+      253,
+      855,
+      266
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHeREAs, Xencor wishes to grant a license to Aimmune under certain intellectual property rights related to the Antibody to develop, manufacture.",
+    "bbox": [
+      156,
+      284,
+      1000,
+      297
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and commercialize the Product (as defined below), and Aimmune wishes to take such license, in each case in accordance with the terms and conditions.",
+    "bbox": [
+      111,
+      300,
+      1000,
+      312
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "set forth below.",
+    "bbox": [
+      111,
+      317,
+      223,
+      327
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "No w THEReFoRE, in consideration of the foregoing premises and the mutual promises, covenants and conditions contained in this Agreement,",
+    "bbox": [
+      155,
+      347,
+      1000,
+      359
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and for other good and valuable consideration, receipt of which is hereby acknowledged, the Parties agree as follows:.",
+    "bbox": [
+      112,
+      363,
+      967,
+      375
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      629,
+      409,
+      716,
+      420
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      425,
+      727,
+      435
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "As used in this Agreement, the following initially capitalized terms shall have the meanings set forth in this ARTICLE 1 or as otherwise defined",
+    "bbox": [
+      156,
+      455,
+      1000,
+      468
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "elsewhere in this Agreement:",
+    "bbox": [
+      112,
+      471,
+      323,
+      483
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.1 \"Active Ingredient\"' means any substance (whether chemical or biologic) or mixture of substances intended to be used in the manufacture of a",
+    "bbox": [
+      156,
+      495,
+      1000,
+      507
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "drug (medicinal) product that, when used in the production of such drug, becomes a therapeutically active ingredient of the drug product, and which",
+    "bbox": [
+      111,
+      510,
+      1000,
+      522
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "such substance or mixture of substances is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment.",
+    "bbox": [
+      110,
+      526,
+      1000,
+      538
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "or prevention of disease or to affect the structure or function of the body..",
+    "bbox": [
+      112,
+      542,
+      645,
+      554
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.2 \"Affiliate\" means with respect to any person, any other person directly or indirectly controlling, controlled by, or under common control with.",
+    "bbox": [
+      156,
+      572,
+      1000,
+      585
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "such person; provided, that, for purposes of this definition, \"control'' (including, with correlative meanings, the terms \"controlled by' and \"under",
+    "bbox": [
+      112,
+      589,
+      1000,
+      599
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "common control with'), as used with respect to any person, shall mean (i) the possession, directly or indirectly, of the power to direct or cause the.",
+    "bbox": [
+      110,
+      604,
+      1000,
+      615
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "direction of the management and policies of such person, whether through the ownership of voting securities or by contract or otherwise, or (ii) the",
+    "bbox": [
+      111,
+      619,
+      1000,
+      631
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ownership, directly or indirectly, of fifty percent (50%) or more of the voting securities of such person. For purposes of this Section 1.2, \"person\"' means.",
+    "bbox": [
+      111,
+      635,
+      1000,
+      647
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "mean an individual, corporation, partnership, limited partnership, limited liability company, limited liability partnership, syndicate, person (including a",
+    "bbox": [
+      110,
+      650,
+      1000,
+      662
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "person' as defined in Section 13(d)(3) of the Securities Exchange Act of 1934, as amended, together with the rules and regulations promulgated",
+    "bbox": [
+      113,
+      666,
+      1000,
+      677
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "thereunder), trust, association, entity or government or political subdivision, agency or instrumentality of a government..",
+    "bbox": [
+      112,
+      682,
+      986,
+      693
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      697,
+      679,
+      707
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+    "bbox": [
+      133,
+      1000,
+      574,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",
+    "bbox": [
+      397,
+      83,
+      947,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "This License, Development and Commercialization Agreement (this \"Agreement'), dated as of February 4, 2020 (the \"Effective Date'), is made by",
+    "bbox": [
+      156,
+      113,
+      1000,
+      127
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and between Xencor, Inc. (\"Xencor\"), and Aimmune Therapeutics, Inc. (\"Aimmune'). Xencor and Aimmune are sometimes referred to herein.",
+    "bbox": [
+      112,
+      131,
+      1000,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "individually as a \"Party\" and collectively as the \"Parties\".",
+    "bbox": [
+      112,
+      145,
+      543,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      192,
+      715,
+      203
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WheREAs, Xencor has developed the Antibody (as defined below);.",
+    "bbox": [
+      157,
+      221,
+      654,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAs, Aimmune is interested in further developing and commercializing the Antibody; and",
+    "bbox": [
+      157,
+      253,
+      855,
+      266
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHeREAs, Xencor wishes to grant a license to Aimmune under certain intellectual property rights related to the Antibody to develop, manufacture.",
+    "bbox": [
+      156,
+      284,
+      1000,
+      297
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and commercialize the Product (as defined below), and Aimmune wishes to take such license, in each case in accordance with the terms and conditions.",
+    "bbox": [
+      111,
+      300,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "set forth below.",
+    "bbox": [
+      111,
+      317,
+      223,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "No w THEReFoRE, in consideration of the foregoing premises and the mutual promises, covenants and conditions contained in this Agreement,",
+    "bbox": [
+      155,
+      347,
+      1000,
+      359
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and for other good and valuable consideration, receipt of which is hereby acknowledged, the Parties agree as follows:.",
+    "bbox": [
+      112,
+      363,
+      967,
+      375
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      629,
+      409,
+      716,
+      420
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      425,
+      727,
+      435
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "As used in this Agreement, the following initially capitalized terms shall have the meanings set forth in this ARTICLE 1 or as otherwise defined",
+    "bbox": [
+      156,
+      455,
+      1000,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "elsewhere in this Agreement:",
+    "bbox": [
+      112,
+      471,
+      323,
+      483
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1 \"Active Ingredient\"' means any substance (whether chemical or biologic) or mixture of substances intended to be used in the manufacture of a",
+    "bbox": [
+      156,
+      495,
+      1000,
+      507
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "drug (medicinal) product that, when used in the production of such drug, becomes a therapeutically active ingredient of the drug product, and which",
+    "bbox": [
+      111,
+      510,
+      1000,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "such substance or mixture of substances is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment.",
+    "bbox": [
+      110,
+      526,
+      1000,
+      538
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or prevention of disease or to affect the structure or function of the body..",
+    "bbox": [
+      112,
+      542,
+      645,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.2 \"Affiliate\" means with respect to any person, any other person directly or indirectly controlling, controlled by, or under common control with.",
+    "bbox": [
+      156,
+      572,
+      1000,
+      585
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "such person; provided, that, for purposes of this definition, \"control'' (including, with correlative meanings, the terms \"controlled by' and \"under",
+    "bbox": [
+      112,
+      589,
+      1000,
+      599
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "common control with'), as used with respect to any person, shall mean (i) the possession, directly or indirectly, of the power to direct or cause the.",
+    "bbox": [
+      110,
+      604,
+      1000,
+      615
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "direction of the management and policies of such person, whether through the ownership of voting securities or by contract or otherwise, or (ii) the",
+    "bbox": [
+      111,
+      619,
+      1000,
+      631
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ownership, directly or indirectly, of fifty percent (50%) or more of the voting securities of such person. For purposes of this Section 1.2, \"person\"' means.",
+    "bbox": [
+      111,
+      635,
+      1000,
+      647
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "mean an individual, corporation, partnership, limited partnership, limited liability company, limited liability partnership, syndicate, person (including a",
+    "bbox": [
+      110,
+      650,
+      1000,
+      662
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "person' as defined in Section 13(d)(3) of the Securities Exchange Act of 1934, as amended, together with the rules and regulations promulgated",
+    "bbox": [
+      113,
+      666,
+      1000,
+      677
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "thereunder), trust, association, entity or government or political subdivision, agency or instrumentality of a government..",
+    "bbox": [
+      112,
+      682,
+      986,
+      693
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      697,
+      679,
+      707
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+    "bbox": [
+      133,
+      1000,
+      574,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",
+    "bbox": [
+      397,
+      83,
+      947,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "This License, Development and Commercialization Agreement (this \"Agreement'), dated as of February 4, 2020 (the \"Effective Date'), is made by",
+    "bbox": [
+      156,
+      113,
+      1000,
+      127
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and between Xencor, Inc. (\"Xencor\"), and Aimmune Therapeutics, Inc. (\"Aimmune'). Xencor and Aimmune are sometimes referred to herein.",
+    "bbox": [
+      112,
+      131,
+      1000,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "individually as a \"Party\" and collectively as the \"Parties\".",
+    "bbox": [
+      112,
+      145,
+      543,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      192,
+      715,
+      203
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WheREAs, Xencor has developed the Antibody (as defined below);.",
+    "bbox": [
+      157,
+      221,
+      654,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAs, Aimmune is interested in further developing and commercializing the Antibody; and",
+    "bbox": [
+      157,
+      253,
+      855,
+      266
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHeREAs, Xencor wishes to grant a license to Aimmune under certain intellectual property rights related to the Antibody to develop, manufacture.",
+    "bbox": [
+      156,
+      284,
+      1000,
+      297
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and commercialize the Product (as defined below), and Aimmune wishes to take such license, in each case in accordance with the terms and conditions.",
+    "bbox": [
+      111,
+      300,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "set forth below.",
+    "bbox": [
+      111,
+      317,
+      223,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "No w THEReFoRE, in consideration of the foregoing premises and the mutual promises, covenants and conditions contained in this Agreement,",
+    "bbox": [
+      155,
+      347,
+      1000,
+      359
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and for other good and valuable consideration, receipt of which is hereby acknowledged, the Parties agree as follows:.",
+    "bbox": [
+      112,
+      363,
+      967,
+      375
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      629,
+      409,
+      716,
+      420
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      425,
+      727,
+      435
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "As used in this Agreement, the following initially capitalized terms shall have the meanings set forth in this ARTICLE 1 or as otherwise defined",
+    "bbox": [
+      156,
+      455,
+      1000,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "elsewhere in this Agreement:",
+    "bbox": [
+      112,
+      471,
+      323,
+      483
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1 \"Active Ingredient\"' means any substance (whether chemical or biologic) or mixture of substances intended to be used in the manufacture of a",
+    "bbox": [
+      156,
+      495,
+      1000,
+      507
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "drug (medicinal) product that, when used in the production of such drug, becomes a therapeutically active ingredient of the drug product, and which",
+    "bbox": [
+      111,
+      510,
+      1000,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "such substance or mixture of substances is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment.",
+    "bbox": [
+      110,
+      526,
+      1000,
+      538
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or prevention of disease or to affect the structure or function of the body..",
+    "bbox": [
+      112,
+      542,
+      645,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.2 \"Affiliate\" means with respect to any person, any other person directly or indirectly controlling, controlled by, or under common control with.",
+    "bbox": [
+      156,
+      572,
+      1000,
+      585
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "such person; provided, that, for purposes of this definition, \"control'' (including, with correlative meanings, the terms \"controlled by' and \"under",
+    "bbox": [
+      112,
+      589,
+      1000,
+      599
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "common control with'), as used with respect to any person, shall mean (i) the possession, directly or indirectly, of the power to direct or cause the.",
+    "bbox": [
+      110,
+      604,
+      1000,
+      615
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "direction of the management and policies of such person, whether through the ownership of voting securities or by contract or otherwise, or (ii) the",
+    "bbox": [
+      111,
+      619,
+      1000,
+      631
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ownership, directly or indirectly, of fifty percent (50%) or more of the voting securities of such person. For purposes of this Section 1.2, \"person\"' means.",
+    "bbox": [
+      111,
+      635,
+      1000,
+      647
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "mean an individual, corporation, partnership, limited partnership, limited liability company, limited liability partnership, syndicate, person (including a",
+    "bbox": [
+      110,
+      650,
+      1000,
+      662
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "person' as defined in Section 13(d)(3) of the Securities Exchange Act of 1934, as amended, together with the rules and regulations promulgated",
+    "bbox": [
+      113,
+      666,
+      1000,
+      677
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "thereunder), trust, association, entity or government or political subdivision, agency or instrumentality of a government..",
+    "bbox": [
+      112,
+      682,
+      986,
+      693
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      666,
+      697,
+      679,
+      707
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+    "bbox": [
+      133,
+      1000,
+      574,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

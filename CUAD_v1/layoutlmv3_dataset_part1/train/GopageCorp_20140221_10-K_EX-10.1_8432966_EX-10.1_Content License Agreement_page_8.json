@@ -1,0 +1,68 @@
+[
+  {
+    "text": "of this Agreement, shall continue until five (5) years following the Effective Date (the \"Initial Term\"). Thereafter, this Agreement shall renew",
+    "bbox": [
+      101,
+      158,
+      1000,
+      170
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless",
+    "bbox": [
+      101,
+      174,
+      1000,
+      186
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term]",
+    "bbox": [
+      101,
+      190,
+      1000,
+      202
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "of this Agreement, shall continue until five (5) years following the Effective Date (the \"Initial Term\"). Thereafter, this Agreement shall renew",
+    "bbox": [
+      101,
+      158,
+      1000,
+      170
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless",
+    "bbox": [
+      101,
+      174,
+      1000,
+      186
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term]",
+    "bbox": [
+      101,
+      190,
+      1000,
+      202
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  }
+]

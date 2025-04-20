@@ -1,0 +1,3126 @@
+[
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      118,
+      88,
+      231,
+      100
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      323,
+      107,
+      800,
+      118
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Table of Contents",
+    "bbox": [
+      599,
+      141,
+      733,
+      152
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      1000,
+      176,
+      1000,
+      191
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.0",
+    "bbox": [
+      110,
+      190,
+      135,
+      203
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      164,
+      191,
+      272,
+      201
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      190,
+      1000,
+      203
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.0",
+    "bbox": [
+      109,
+      206,
+      135,
+      218
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "LICENSE",
+    "bbox": [
+      162,
+      206,
+      233,
+      217
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      206,
+      1000,
+      218
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3.0",
+    "bbox": [
+      110,
+      222,
+      135,
+      234
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RELATIONSHIP MANAGER",
+    "bbox": [
+      163,
+      223,
+      379,
+      233
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      222,
+      1000,
+      235
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4.0",
+    "bbox": [
+      110,
+      237,
+      135,
+      251
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "TERM",
+    "bbox": [
+      162,
+      239,
+      214,
+      249
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      239,
+      1000,
+      251
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "5.0",
+    "bbox": [
+      110,
+      254,
+      135,
+      266
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "TERMINATION",
+    "bbox": [
+      163,
+      255,
+      285,
+      265
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      254,
+      1000,
+      267
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "6.0",
+    "bbox": [
+      110,
+      270,
+      135,
+      282
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ORDERING, DELIVERY AND INSTALLATION",
+    "bbox": [
+      164,
+      271,
+      512,
+      281
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      269,
+      1000,
+      282
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "7.0",
+    "bbox": [
+      110,
+      286,
+      135,
+      298
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CUSTOMIZATIONS",
+    "bbox": [
+      164,
+      287,
+      319,
+      297
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      286,
+      1000,
+      298
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "8.0",
+    "bbox": [
+      110,
+      302,
+      135,
+      315
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SOURCE CODE CUSTODY",
+    "bbox": [
+      165,
+      304,
+      367,
+      312
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      302,
+      1000,
+      315
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "9.0",
+    "bbox": [
+      110,
+      318,
+      135,
+      330
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DOCUMENTATION",
+    "bbox": [
+      164,
+      319,
+      316,
+      329
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      318,
+      1000,
+      331
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      111,
+      334,
+      130,
+      346
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ACCEPTANCE",
+    "bbox": [
+      164,
+      334,
+      279,
+      345
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      334,
+      1000,
+      346
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "11.0",
+    "bbox": [
+      111,
+      350,
+      142,
+      362
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "MAINTENANCE SERVICES",
+    "bbox": [
+      165,
+      351,
+      376,
+      360
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      350,
+      1000,
+      363
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "12.0",
+    "bbox": [
+      111,
+      366,
+      143,
+      378
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "UPGRADES",
+    "bbox": [
+      163,
+      366,
+      256,
+      377
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      366,
+      1000,
+      379
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "13.0",
+    "bbox": [
+      111,
+      382,
+      143,
+      394
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NON-MAINTENANCE SERVICES SUPPORT",
+    "bbox": [
+      163,
+      383,
+      502,
+      393
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      382,
+      1000,
+      394
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "14.0",
+    "bbox": [
+      111,
+      398,
+      143,
+      410
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "TRAINING",
+    "bbox": [
+      163,
+      398,
+      249,
+      409
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      398,
+      1000,
+      410
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "15.0",
+    "bbox": [
+      111,
+      414,
+      143,
+      426
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "PRICING/FEES",
+    "bbox": [
+      164,
+      414,
+      277,
+      426
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "16.0",
+    "bbox": [
+      111,
+      430,
+      143,
+      442
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "INVOICES TAXES/PAYMENT",
+    "bbox": [
+      164,
+      431,
+      393,
+      441
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      430,
+      1000,
+      442
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "17.0",
+    "bbox": [
+      111,
+      446,
+      143,
+      458
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "EXPORT LAWS",
+    "bbox": [
+      164,
+      447,
+      285,
+      457
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      446,
+      1000,
+      458
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "18.0",
+    "bbox": [
+      111,
+      462,
+      143,
+      474
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "MUTUAL REPRESENTATIONS AND WARRANTIES",
+    "bbox": [
+      165,
+      463,
+      565,
+      472
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      461,
+      1000,
+      475
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "19.0",
+    "bbox": [
+      111,
+      478,
+      143,
+      490
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "REPRESENTATIONS AND WARRANTIES OF SUPPLIER",
+    "bbox": [
+      165,
+      480,
+      595,
+      489
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      477,
+      1000,
+      491
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "20.0",
+    "bbox": [
+      108,
+      493,
+      144,
+      507
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DELETION OF FUNCTIONS",
+    "bbox": [
+      163,
+      495,
+      379,
+      505
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      494,
+      1000,
+      507
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "21.0",
+    "bbox": [
+      110,
+      510,
+      143,
+      522
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DISABLEMENT OF SOFTWARE AND HARDWARE",
+    "bbox": [
+      165,
+      511,
+      563,
+      520
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      510,
+      1000,
+      523
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "22.0",
+    "bbox": [
+      110,
+      526,
+      143,
+      538
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "FINANCIAL RESPONSIBILITY",
+    "bbox": [
+      163,
+      526,
+      399,
+      537
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "23.0",
+    "bbox": [
+      110,
+      542,
+      143,
+      554
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "BUSINESS CONTINUITY",
+    "bbox": [
+      164,
+      543,
+      357,
+      553
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      542,
+      1000,
+      555
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "24.0",
+    "bbox": [
+      110,
+      558,
+      143,
+      570
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RELATIONSHIP OF THE PARTIES",
+    "bbox": [
+      164,
+      559,
+      422,
+      568
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      558,
+      1000,
+      570
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "25.0",
+    "bbox": [
+      110,
+      574,
+      143,
+      586
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SUPPLIER PERSONNEL",
+    "bbox": [
+      165,
+      575,
+      345,
+      584
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      574,
+      1000,
+      587
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "26.0",
+    "bbox": [
+      110,
+      589,
+      143,
+      601
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "INSURANCE",
+    "bbox": [
+      164,
+      590,
+      265,
+      601
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "19",
+    "bbox": [
+      1000,
+      589,
+      1000,
+      603
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27.0",
+    "bbox": [
+      110,
+      606,
+      143,
+      618
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CONFIDENTIALITY AND INFORMATION PROTECTION",
+    "bbox": [
+      164,
+      607,
+      603,
+      617
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "20",
+    "bbox": [
+      1000,
+      606,
+      1000,
+      619
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "28.0",
+    "bbox": [
+      110,
+      622,
+      143,
+      634
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "INDEMNITY",
+    "bbox": [
+      162,
+      622,
+      262,
+      633
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "23",
+    "bbox": [
+      1000,
+      621,
+      1000,
+      635
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "29.0",
+    "bbox": [
+      111,
+      637,
+      143,
+      650
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "LIMITATION OF LIABILITY",
+    "bbox": [
+      163,
+      638,
+      380,
+      649
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "24",
+    "bbox": [
+      1000,
+      637,
+      1000,
+      650
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "30.0",
+    "bbox": [
+      110,
+      654,
+      143,
+      666
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DAMAGE TO BANK OF AMERICA SYSTEMS",
+    "bbox": [
+      163,
+      655,
+      522,
+      665
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "24",
+    "bbox": [
+      1000,
+      654,
+      1000,
+      667
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "31.0",
+    "bbox": [
+      110,
+      670,
+      143,
+      682
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SUPPLIER DIVERSITYS",
+    "bbox": [
+      164,
+      671,
+      336,
+      681
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      669,
+      1000,
+      683
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "32.0",
+    "bbox": [
+      110,
+      686,
+      143,
+      698
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ENVIRONMENTAL INITIATIVE ",
+    "bbox": [
+      165,
+      687,
+      406,
+      696
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      685,
+      1000,
+      698
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "33.0",
+    "bbox": [
+      110,
+      702,
+      143,
+      714
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "AUDIT",
+    "bbox": [
+      164,
+      702,
+      222,
+      713
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      701,
+      1000,
+      715
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "34.0",
+    "bbox": [
+      110,
+      717,
+      143,
+      731
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NON-ASSIGNMENT",
+    "bbox": [
+      163,
+      719,
+      322,
+      729
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      718,
+      1000,
+      731
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "35.0",
+    "bbox": [
+      109,
+      733,
+      143,
+      746
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "GOVERNING LAW",
+    "bbox": [
+      165,
+      735,
+      307,
+      744
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      733,
+      1000,
+      747
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "37.0",
+    "bbox": [
+      110,
+      750,
+      143,
+      761
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "MEDIATION/ARBITRATION",
+    "bbox": [
+      163,
+      750,
+      387,
+      761
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      762
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "38.0",
+    "bbox": [
+      110,
+      766,
+      143,
+      777
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NON-EXCLUSIVE NATURE OF AGREEMENT",
+    "bbox": [
+      163,
+      767,
+      513,
+      777
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      766,
+      1000,
+      779
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "39.0",
+    "bbox": [
+      110,
+      782,
+      143,
+      794
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "OWNERSHIP OF WORK PRODUCT",
+    "bbox": [
+      165,
+      783,
+      437,
+      792
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      781,
+      1000,
+      795
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "40.0",
+    "bbox": [
+      111,
+      798,
+      143,
+      810
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "MISCELLANEOUS",
+    "bbox": [
+      164,
+      798,
+      309,
+      809
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      797,
+      1000,
+      810
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "41.0",
+    "bbox": [
+      111,
+      813,
+      143,
+      825
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ENTIRE AGREEMENT",
+    "bbox": [
+      163,
+      815,
+      337,
+      825
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      813,
+      1000,
+      827
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE A",
+    "bbox": [
+      111,
+      850,
+      219,
+      861
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "PRODUCT LICENSE SCHEDULE TEMPLATE",
+    "bbox": [
+      290,
+      851,
+      632,
+      860
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE B",
+    "bbox": [
+      111,
+      867,
+      217,
+      877
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CUSTOMIZATION SCHEDULE",
+    "bbox": [
+      290,
+      867,
+      529,
+      877
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE C",
+    "bbox": [
+      110,
+      882,
+      217,
+      894
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CHANGE ORDER REQUEST FORM",
+    "bbox": [
+      290,
+      882,
+      561,
+      893
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE D",
+    "bbox": [
+      111,
+      898,
+      218,
+      909
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "MAINTENANCE SERVICES",
+    "bbox": [
+      290,
+      899,
+      502,
+      908
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE E",
+    "bbox": [
+      111,
+      915,
+      215,
+      925
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "INFORMATION SECURITY",
+    "bbox": [
+      290,
+      915,
+      500,
+      925
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE F",
+    "bbox": [
+      111,
+      931,
+      215,
+      941
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "BACKGROUND CHECKS",
+    "bbox": [
+      290,
+      931,
+      484,
+      941
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE G",
+    "bbox": [
+      112,
+      946,
+      216,
+      957
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RECOVERY",
+    "bbox": [
+      290,
+      946,
+      377,
+      957
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      111,
+      985,
+      352,
+      997
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ii",
+    "bbox": [
+      682,
+      984,
+      698,
+      996
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      984,
+      1000,
+      995
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "BankofAmerica",
+    "bbox": [
+      118,
+      88,
+      231,
+      100
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Software License, Customization and Maintenance Agreement",
+    "bbox": [
+      323,
+      107,
+      800,
+      118
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Table of Contents",
+    "bbox": [
+      599,
+      141,
+      733,
+      152
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      1000,
+      176,
+      1000,
+      191
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.0",
+    "bbox": [
+      110,
+      190,
+      135,
+      203
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      164,
+      191,
+      272,
+      201
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      190,
+      1000,
+      203
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "2.0",
+    "bbox": [
+      109,
+      206,
+      135,
+      218
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "LICENSE",
+    "bbox": [
+      162,
+      206,
+      233,
+      217
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      206,
+      1000,
+      218
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "3.0",
+    "bbox": [
+      110,
+      222,
+      135,
+      234
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "RELATIONSHIP MANAGER",
+    "bbox": [
+      163,
+      223,
+      379,
+      233
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      222,
+      1000,
+      235
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "4.0",
+    "bbox": [
+      110,
+      237,
+      135,
+      251
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "TERM",
+    "bbox": [
+      162,
+      239,
+      214,
+      249
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      239,
+      1000,
+      251
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "5.0",
+    "bbox": [
+      110,
+      254,
+      135,
+      266
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "TERMINATION",
+    "bbox": [
+      163,
+      255,
+      285,
+      265
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      254,
+      1000,
+      267
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "6.0",
+    "bbox": [
+      110,
+      270,
+      135,
+      282
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ORDERING, DELIVERY AND INSTALLATION",
+    "bbox": [
+      164,
+      271,
+      512,
+      281
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      269,
+      1000,
+      282
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "7.0",
+    "bbox": [
+      110,
+      286,
+      135,
+      298
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "CUSTOMIZATIONS",
+    "bbox": [
+      164,
+      287,
+      319,
+      297
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      286,
+      1000,
+      298
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "8.0",
+    "bbox": [
+      110,
+      302,
+      135,
+      315
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SOURCE CODE CUSTODY",
+    "bbox": [
+      165,
+      304,
+      367,
+      312
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      302,
+      1000,
+      315
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "9.0",
+    "bbox": [
+      110,
+      318,
+      135,
+      330
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DOCUMENTATION",
+    "bbox": [
+      164,
+      319,
+      316,
+      329
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      318,
+      1000,
+      331
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      111,
+      334,
+      130,
+      346
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ACCEPTANCE",
+    "bbox": [
+      164,
+      334,
+      279,
+      345
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      334,
+      1000,
+      346
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "11.0",
+    "bbox": [
+      111,
+      350,
+      142,
+      362
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "MAINTENANCE SERVICES",
+    "bbox": [
+      165,
+      351,
+      376,
+      360
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      350,
+      1000,
+      363
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "12.0",
+    "bbox": [
+      111,
+      366,
+      143,
+      378
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "UPGRADES",
+    "bbox": [
+      163,
+      366,
+      256,
+      377
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      366,
+      1000,
+      379
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "13.0",
+    "bbox": [
+      111,
+      382,
+      143,
+      394
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NON-MAINTENANCE SERVICES SUPPORT",
+    "bbox": [
+      163,
+      383,
+      502,
+      393
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      382,
+      1000,
+      394
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "14.0",
+    "bbox": [
+      111,
+      398,
+      143,
+      410
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "TRAINING",
+    "bbox": [
+      163,
+      398,
+      249,
+      409
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      398,
+      1000,
+      410
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "15.0",
+    "bbox": [
+      111,
+      414,
+      143,
+      426
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "PRICING/FEES",
+    "bbox": [
+      164,
+      414,
+      277,
+      426
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16.0",
+    "bbox": [
+      111,
+      430,
+      143,
+      442
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "INVOICES TAXES/PAYMENT",
+    "bbox": [
+      164,
+      431,
+      393,
+      441
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      430,
+      1000,
+      442
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17.0",
+    "bbox": [
+      111,
+      446,
+      143,
+      458
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "EXPORT LAWS",
+    "bbox": [
+      164,
+      447,
+      285,
+      457
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      446,
+      1000,
+      458
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18.0",
+    "bbox": [
+      111,
+      462,
+      143,
+      474
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "MUTUAL REPRESENTATIONS AND WARRANTIES",
+    "bbox": [
+      165,
+      463,
+      565,
+      472
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      461,
+      1000,
+      475
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "19.0",
+    "bbox": [
+      111,
+      478,
+      143,
+      490
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "REPRESENTATIONS AND WARRANTIES OF SUPPLIER",
+    "bbox": [
+      165,
+      480,
+      595,
+      489
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      477,
+      1000,
+      491
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "20.0",
+    "bbox": [
+      108,
+      493,
+      144,
+      507
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DELETION OF FUNCTIONS",
+    "bbox": [
+      163,
+      495,
+      379,
+      505
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      494,
+      1000,
+      507
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "21.0",
+    "bbox": [
+      110,
+      510,
+      143,
+      522
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DISABLEMENT OF SOFTWARE AND HARDWARE",
+    "bbox": [
+      165,
+      511,
+      563,
+      520
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      510,
+      1000,
+      523
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "22.0",
+    "bbox": [
+      110,
+      526,
+      143,
+      538
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "FINANCIAL RESPONSIBILITY",
+    "bbox": [
+      163,
+      526,
+      399,
+      537
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "23.0",
+    "bbox": [
+      110,
+      542,
+      143,
+      554
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "BUSINESS CONTINUITY",
+    "bbox": [
+      164,
+      543,
+      357,
+      553
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      1000,
+      542,
+      1000,
+      555
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "24.0",
+    "bbox": [
+      110,
+      558,
+      143,
+      570
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "RELATIONSHIP OF THE PARTIES",
+    "bbox": [
+      164,
+      559,
+      422,
+      568
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      558,
+      1000,
+      570
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "25.0",
+    "bbox": [
+      110,
+      574,
+      143,
+      586
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SUPPLIER PERSONNEL",
+    "bbox": [
+      165,
+      575,
+      345,
+      584
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      574,
+      1000,
+      587
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "26.0",
+    "bbox": [
+      110,
+      589,
+      143,
+      601
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "INSURANCE",
+    "bbox": [
+      164,
+      590,
+      265,
+      601
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "19",
+    "bbox": [
+      1000,
+      589,
+      1000,
+      603
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "27.0",
+    "bbox": [
+      110,
+      606,
+      143,
+      618
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "CONFIDENTIALITY AND INFORMATION PROTECTION",
+    "bbox": [
+      164,
+      607,
+      603,
+      617
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "20",
+    "bbox": [
+      1000,
+      606,
+      1000,
+      619
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "28.0",
+    "bbox": [
+      110,
+      622,
+      143,
+      634
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "INDEMNITY",
+    "bbox": [
+      162,
+      622,
+      262,
+      633
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "23",
+    "bbox": [
+      1000,
+      621,
+      1000,
+      635
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "29.0",
+    "bbox": [
+      111,
+      637,
+      143,
+      650
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "LIMITATION OF LIABILITY",
+    "bbox": [
+      163,
+      638,
+      380,
+      649
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "24",
+    "bbox": [
+      1000,
+      637,
+      1000,
+      650
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "30.0",
+    "bbox": [
+      110,
+      654,
+      143,
+      666
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DAMAGE TO BANK OF AMERICA SYSTEMS",
+    "bbox": [
+      163,
+      655,
+      522,
+      665
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "24",
+    "bbox": [
+      1000,
+      654,
+      1000,
+      667
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "31.0",
+    "bbox": [
+      110,
+      670,
+      143,
+      682
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SUPPLIER DIVERSITYS",
+    "bbox": [
+      164,
+      671,
+      336,
+      681
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      669,
+      1000,
+      683
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "32.0",
+    "bbox": [
+      110,
+      686,
+      143,
+      698
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ENVIRONMENTAL INITIATIVE ",
+    "bbox": [
+      165,
+      687,
+      406,
+      696
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      685,
+      1000,
+      698
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "33.0",
+    "bbox": [
+      110,
+      702,
+      143,
+      714
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "AUDIT",
+    "bbox": [
+      164,
+      702,
+      222,
+      713
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      701,
+      1000,
+      715
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "34.0",
+    "bbox": [
+      110,
+      717,
+      143,
+      731
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NON-ASSIGNMENT",
+    "bbox": [
+      163,
+      719,
+      322,
+      729
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      718,
+      1000,
+      731
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "35.0",
+    "bbox": [
+      109,
+      733,
+      143,
+      746
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "GOVERNING LAW",
+    "bbox": [
+      165,
+      735,
+      307,
+      744
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      733,
+      1000,
+      747
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "37.0",
+    "bbox": [
+      110,
+      750,
+      143,
+      761
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "MEDIATION/ARBITRATION",
+    "bbox": [
+      163,
+      750,
+      387,
+      761
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      762
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "38.0",
+    "bbox": [
+      110,
+      766,
+      143,
+      777
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NON-EXCLUSIVE NATURE OF AGREEMENT",
+    "bbox": [
+      163,
+      767,
+      513,
+      777
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      766,
+      1000,
+      779
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "39.0",
+    "bbox": [
+      110,
+      782,
+      143,
+      794
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "OWNERSHIP OF WORK PRODUCT",
+    "bbox": [
+      165,
+      783,
+      437,
+      792
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      781,
+      1000,
+      795
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "40.0",
+    "bbox": [
+      111,
+      798,
+      143,
+      810
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "MISCELLANEOUS",
+    "bbox": [
+      164,
+      798,
+      309,
+      809
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      797,
+      1000,
+      810
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "41.0",
+    "bbox": [
+      111,
+      813,
+      143,
+      825
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ENTIRE AGREEMENT",
+    "bbox": [
+      163,
+      815,
+      337,
+      825
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      813,
+      1000,
+      827
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SCHEDULE A",
+    "bbox": [
+      111,
+      850,
+      219,
+      861
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "PRODUCT LICENSE SCHEDULE TEMPLATE",
+    "bbox": [
+      290,
+      851,
+      632,
+      860
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SCHEDULE B",
+    "bbox": [
+      111,
+      867,
+      217,
+      877
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "CUSTOMIZATION SCHEDULE",
+    "bbox": [
+      290,
+      867,
+      529,
+      877
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SCHEDULE C",
+    "bbox": [
+      110,
+      882,
+      217,
+      894
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "CHANGE ORDER REQUEST FORM",
+    "bbox": [
+      290,
+      882,
+      561,
+      893
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SCHEDULE D",
+    "bbox": [
+      111,
+      898,
+      218,
+      909
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "MAINTENANCE SERVICES",
+    "bbox": [
+      290,
+      899,
+      502,
+      908
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SCHEDULE E",
+    "bbox": [
+      111,
+      915,
+      215,
+      925
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "INFORMATION SECURITY",
+    "bbox": [
+      290,
+      915,
+      500,
+      925
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SCHEDULE F",
+    "bbox": [
+      111,
+      931,
+      215,
+      941
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "BACKGROUND CHECKS",
+    "bbox": [
+      290,
+      931,
+      484,
+      941
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "SCHEDULE G",
+    "bbox": [
+      112,
+      946,
+      216,
+      957
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "RECOVERY",
+    "bbox": [
+      290,
+      946,
+      377,
+      957
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      111,
+      985,
+      352,
+      997
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ii",
+    "bbox": [
+      682,
+      984,
+      698,
+      996
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      984,
+      1000,
+      995
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  }
+]

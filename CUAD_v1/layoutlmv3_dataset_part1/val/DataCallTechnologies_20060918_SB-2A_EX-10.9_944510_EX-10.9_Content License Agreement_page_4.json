@@ -1,0 +1,68 @@
+[
+  {
+    "text": "Contract",
+    "bbox": [
+      225,
+      778,
+      315,
+      787
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "start:",
+    "bbox": [
+      338,
+      779,
+      404,
+      787
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "04-01-06",
+    "bbox": [
+      429,
+      777,
+      518,
+      788
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Contract",
+    "bbox": [
+      225,
+      810,
+      317,
+      820
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "end:",
+    "bbox": [
+      337,
+      809,
+      384,
+      820
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "04-01-08",
+    "bbox": [
+      406,
+      809,
+      496,
+      820
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  }
+]

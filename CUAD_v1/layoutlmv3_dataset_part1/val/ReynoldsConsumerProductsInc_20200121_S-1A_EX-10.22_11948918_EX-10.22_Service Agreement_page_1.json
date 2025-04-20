@@ -1,0 +1,277 @@
+[
+  {
+    "text": "\"Business Day\"' means any day that is not (a) a Saturday, (b) a Sunday, or (c) any other day on which commercial banks are authorized or required",
+    "bbox": [
+      158,
+      83,
+      1000,
+      95
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "by law to be closed in the City of New York..",
+    "bbox": [
+      158,
+      100,
+      473,
+      110
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Change\" has the meaning set forth in Section 3.1(c)",
+    "bbox": [
+      160,
+      123,
+      541,
+      133
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Commencement Date\" has the meaning set forth in the preamble",
+    "bbox": [
+      158,
+      145,
+      633,
+      157
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Confidential Information\" means any information of a Party, its Affiliates, members, licensors, consultants, service providers, advisors or agents",
+    "bbox": [
+      158,
+      169,
+      1000,
+      180
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "that is confidential or proprietary, however recorded or preserved, whether written or oral. Confidential Information includes trade secrets, pricing.",
+    "bbox": [
+      155,
+      183,
+      1000,
+      198
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "data, employee information, customer information, cost information, supplier information, financial and tax matters, third-party contract terms,",
+    "bbox": [
+      157,
+      200,
+      1000,
+      212
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "inventions, know-how, processes, methods, models, technical information, schedules, code, ideas, concepts, data, software and business plans",
+    "bbox": [
+      157,
+      216,
+      1000,
+      227
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(regardless of whether such information is identified as confidential).",
+    "bbox": [
+      158,
+      232,
+      655,
+      242
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Dispute Negotiations\"' has the meaning set forth in Section 3.3(b)",
+    "bbox": [
+      159,
+      255,
+      643,
+      265
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "'Fees\" has the meaning set forth in Section 5.1..",
+    "bbox": [
+      158,
+      278,
+      502,
+      288
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Force Majeure Event\"' has the meaning set forth in Section 10.1.",
+    "bbox": [
+      157,
+      300,
+      627,
+      312
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Governmental Authority\" means governmental or quasi-governmental entity of any nature (including any governmental agency, branch,",
+    "bbox": [
+      157,
+      323,
+      1000,
+      336
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "department, official, or entity and any court or other tribunal) or (iii) body exercising, or entitled to exercise any administrative, executive, judicial,",
+    "bbox": [
+      158,
+      341,
+      1000,
+      351
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "legislative, police, regulatory or taxing authority or power of any nature, including any arbitral tribunal..",
+    "bbox": [
+      156,
+      355,
+      904,
+      368
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Indemnified Parties\" has the meaning set forth in Section 9.1.",
+    "bbox": [
+      158,
+      378,
+      607,
+      390
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Indemnifying Party' has the meaning set forth in Section 9.1",
+    "bbox": [
+      157,
+      402,
+      606,
+      413
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Law\"' means a law, statute, order, ordinance, rule, regulation, judgment, injunction, order, or decree..",
+    "bbox": [
+      158,
+      425,
+      879,
+      437
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Litigation' means any action, cease and desist letter, demand, suit, arbitration proceeding, administrative or regulatory proceeding, citation,",
+    "bbox": [
+      157,
+      448,
+      1000,
+      460
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "summons or subpoena of any nature, civil, criminal, regulatory or otherwise, in law or in equity..",
+    "bbox": [
+      154,
+      463,
+      845,
+      477
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Losses\" means any and all damages, liabilities, losses, obligations, claims of any kind, interest and expenses (including reasonable fees and",
+    "bbox": [
+      157,
+      487,
+      1000,
+      499
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "expenses of attorneys).",
+    "bbox": [
+      158,
+      504,
+      326,
+      514
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Migration Plan' has the meaning set forth in Section 2.1(c).",
+    "bbox": [
+      158,
+      526,
+      594,
+      538
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Migration Services\"' has the meaning set forth in Section 2.1(c)",
+    "bbox": [
+      158,
+      549,
+      625,
+      561
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: REYNOLDS CONSUMER PRODUCTS INC., S-1/A, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      667,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

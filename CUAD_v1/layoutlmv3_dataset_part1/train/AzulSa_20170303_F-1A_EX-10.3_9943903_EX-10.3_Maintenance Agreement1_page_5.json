@@ -1,0 +1,1982 @@
+[
+  {
+    "text": "Execution version",
+    "bbox": [
+      599,
+      83,
+      734,
+      96
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      123,
+      128,
+      135
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "SUBJECT-MATTER OF THE AGREEMENT",
+    "bbox": [
+      155,
+      123,
+      487,
+      134
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This Agreement describes the terms and conditions according to which the Repairer (i) shall provide, or cause its Subcontractors to provide.",
+    "bbox": [
+      157,
+      149,
+      1000,
+      159
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Services for the Company's Aircraft fleet; and (ii) agrees to lease the Stock to the Company and the Company agrees to take the Stock on.",
+    "bbox": [
+      155,
+      164,
+      1000,
+      176
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "lease, subject to the terms and conditions set forth on Exhibit 8.",
+    "bbox": [
+      154,
+      180,
+      632,
+      191
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      110,
+      223,
+      127,
+      235
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "DEFINITIONS AND INTERPRETATION",
+    "bbox": [
+      157,
+      224,
+      463,
+      233
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      111,
+      250,
+      137,
+      260
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Unless otherwise defined, capitalised terms, singular or plural, used in this Agreement shall have the meaning set out below:.",
+    "bbox": [
+      153,
+      249,
+      1000,
+      262
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Abnormal Use\"",
+    "bbox": [
+      111,
+      285,
+      241,
+      297
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "means any usage, maintenance, storage, handling of the Aircraft, or its sub-assemblies, or its",
+    "bbox": [
+      477,
+      285,
+      1000,
+      298
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "systems, or Items fitted on it including LRUs, Main Elements, Spare Main Elements, that does not.",
+    "bbox": [
+      477,
+      301,
+      1000,
+      315
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "comply with all applicable technical documentation and any other instructions issued by the",
+    "bbox": [
+      479,
+      319,
+      1000,
+      329
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "manufacturers and which is not attributable to the Repairer or Subcontractors, including:.",
+    "bbox": [
+      477,
+      333,
+      1000,
+      346
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(i) Any failure by the Company to correctly comply with any Repairer and/or OEM instructions or.",
+    "bbox": [
+      478,
+      369,
+      1000,
+      382
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "recommendations, technical directives, or any workmanship defect, lack of qualification, non-.",
+    "bbox": [
+      514,
+      386,
+      1000,
+      398
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "approved repair and/or maintenance method; or,.",
+    "bbox": [
+      516,
+      402,
+      877,
+      414
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(ii) Any negligence or failure to exercise reasonable effort(s) made to initiate corrective action(s), or",
+    "bbox": [
+      480,
+      438,
+      1000,
+      450
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "lateness or total or partial failure in undertaking corrective action(s), for Aircraft or LRU(s) or",
+    "bbox": [
+      516,
+      455,
+      1000,
+      465
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Main Element(s) malfunctions which should have been reasonably identified by the",
+    "bbox": [
+      516,
+      470,
+      1000,
+      482
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Company; or,",
+    "bbox": [
+      514,
+      485,
+      617,
+      500
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(iii) Any Aircraft, LRU(s) or Main Element(s) suffering damage or premature removal arising out of",
+    "bbox": [
+      479,
+      522,
+      1000,
+      534
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "or in connection with any defective storage, inappropriate Packaging or transport by the.",
+    "bbox": [
+      516,
+      538,
+      1000,
+      550
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Company or its forwarder agent, or gross negligence or wilful misconduct of the Company(or.",
+    "bbox": [
+      516,
+      554,
+      1000,
+      566
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "its subcontractors or agents); or.",
+    "bbox": [
+      515,
+      569,
+      760,
+      582
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(iv) Any events or circumstances, including: FOD, abnormal wear, hard contact, material drop or",
+    "bbox": [
+      479,
+      606,
+      1000,
+      618
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "shock, engine fire or submersion, lightning strike, hard landing, hail (including on storage.",
+    "bbox": [
+      516,
+      621,
+      1000,
+      634
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "position), partial or total destruction or loss of Aircraft, LRU(s) or, Main Element(s);",
+    "bbox": [
+      516,
+      638,
+      1000,
+      650
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Affiliates\"",
+    "bbox": [
+      111,
+      662,
+      203,
+      673
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "means with respect to any entity, any entity Controlled by, Controlling or under Common Control",
+    "bbox": [
+      477,
+      662,
+      1000,
+      675
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "with, the first entity, and/or their respective lawful successors and/or assigns;",
+    "bbox": [
+      477,
+      678,
+      1000,
+      691
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Agreement\"",
+    "bbox": [
+      111,
+      701,
+      217,
+      716
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "has the meaning set forth in page four (4) here above;",
+    "bbox": [
+      477,
+      701,
+      881,
+      715
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Aircraft\"",
+    "bbox": [
+      110,
+      724,
+      195,
+      739
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "means collectively or individually as the context requires the ATR aircraft listed in Exhibit 1 (\"List",
+    "bbox": [
+      477,
+      726,
+      1000,
+      738
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "of ATR Aircraft covered under this Agreement'), amended from time to time by way of notice sent",
+    "bbox": [
+      478,
+      743,
+      1000,
+      755
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "to the Company , as relevant, by Repairer in order to cover any further ATR aircraft entering the",
+    "bbox": [
+      477,
+      759,
+      1000,
+      771
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Company's fleet, including the airframe, engines, propellers and landing gears and parts installed",
+    "bbox": [
+      477,
+      774,
+      1000,
+      787
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "on the Aircraft, when solely operated by the Company ;",
+    "bbox": [
+      477,
+      789,
+      897,
+      803
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "AZUL-ATR",
+    "bbox": [
+      111,
+      840,
+      204,
+      852
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Global Maintenance Master Agreement.",
+    "bbox": [
+      527,
+      842,
+      831,
+      853
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Page 6/110",
+    "bbox": [
+      1000,
+      840,
+      1000,
+      854
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "DS/CS-3957/14/Issue 7",
+    "bbox": [
+      594,
+      858,
+      765,
+      868
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: AZUL SA, F-1/A, 3/3/2017",
+    "bbox": [
+      134,
+      1000,
+      404,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Execution version",
+    "bbox": [
+      599,
+      83,
+      734,
+      96
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      123,
+      128,
+      135
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SUBJECT-MATTER OF THE AGREEMENT",
+    "bbox": [
+      155,
+      123,
+      487,
+      134
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This Agreement describes the terms and conditions according to which the Repairer (i) shall provide, or cause its Subcontractors to provide.",
+    "bbox": [
+      157,
+      149,
+      1000,
+      159
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Services for the Company's Aircraft fleet; and (ii) agrees to lease the Stock to the Company and the Company agrees to take the Stock on.",
+    "bbox": [
+      155,
+      164,
+      1000,
+      176
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "lease, subject to the terms and conditions set forth on Exhibit 8.",
+    "bbox": [
+      154,
+      180,
+      632,
+      191
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      110,
+      223,
+      127,
+      235
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DEFINITIONS AND INTERPRETATION",
+    "bbox": [
+      157,
+      224,
+      463,
+      233
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      111,
+      250,
+      137,
+      260
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Unless otherwise defined, capitalised terms, singular or plural, used in this Agreement shall have the meaning set out below:.",
+    "bbox": [
+      153,
+      249,
+      1000,
+      262
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Abnormal Use\"",
+    "bbox": [
+      111,
+      285,
+      241,
+      297
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "means any usage, maintenance, storage, handling of the Aircraft, or its sub-assemblies, or its",
+    "bbox": [
+      477,
+      285,
+      1000,
+      298
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "systems, or Items fitted on it including LRUs, Main Elements, Spare Main Elements, that does not.",
+    "bbox": [
+      477,
+      301,
+      1000,
+      315
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "comply with all applicable technical documentation and any other instructions issued by the",
+    "bbox": [
+      479,
+      319,
+      1000,
+      329
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "manufacturers and which is not attributable to the Repairer or Subcontractors, including:.",
+    "bbox": [
+      477,
+      333,
+      1000,
+      346
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(i) Any failure by the Company to correctly comply with any Repairer and/or OEM instructions or.",
+    "bbox": [
+      478,
+      369,
+      1000,
+      382
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "recommendations, technical directives, or any workmanship defect, lack of qualification, non-.",
+    "bbox": [
+      514,
+      386,
+      1000,
+      398
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "approved repair and/or maintenance method; or,.",
+    "bbox": [
+      516,
+      402,
+      877,
+      414
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(ii) Any negligence or failure to exercise reasonable effort(s) made to initiate corrective action(s), or",
+    "bbox": [
+      480,
+      438,
+      1000,
+      450
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "lateness or total or partial failure in undertaking corrective action(s), for Aircraft or LRU(s) or",
+    "bbox": [
+      516,
+      455,
+      1000,
+      465
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Main Element(s) malfunctions which should have been reasonably identified by the",
+    "bbox": [
+      516,
+      470,
+      1000,
+      482
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Company; or,",
+    "bbox": [
+      514,
+      485,
+      617,
+      500
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(iii) Any Aircraft, LRU(s) or Main Element(s) suffering damage or premature removal arising out of",
+    "bbox": [
+      479,
+      522,
+      1000,
+      534
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or in connection with any defective storage, inappropriate Packaging or transport by the.",
+    "bbox": [
+      516,
+      538,
+      1000,
+      550
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Company or its forwarder agent, or gross negligence or wilful misconduct of the Company(or.",
+    "bbox": [
+      516,
+      554,
+      1000,
+      566
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "its subcontractors or agents); or.",
+    "bbox": [
+      515,
+      569,
+      760,
+      582
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(iv) Any events or circumstances, including: FOD, abnormal wear, hard contact, material drop or",
+    "bbox": [
+      479,
+      606,
+      1000,
+      618
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "shock, engine fire or submersion, lightning strike, hard landing, hail (including on storage.",
+    "bbox": [
+      516,
+      621,
+      1000,
+      634
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "position), partial or total destruction or loss of Aircraft, LRU(s) or, Main Element(s);",
+    "bbox": [
+      516,
+      638,
+      1000,
+      650
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Affiliates\"",
+    "bbox": [
+      111,
+      662,
+      203,
+      673
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "means with respect to any entity, any entity Controlled by, Controlling or under Common Control",
+    "bbox": [
+      477,
+      662,
+      1000,
+      675
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "with, the first entity, and/or their respective lawful successors and/or assigns;",
+    "bbox": [
+      477,
+      678,
+      1000,
+      691
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Agreement\"",
+    "bbox": [
+      111,
+      701,
+      217,
+      716
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "has the meaning set forth in page four (4) here above;",
+    "bbox": [
+      477,
+      701,
+      881,
+      715
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Aircraft\"",
+    "bbox": [
+      110,
+      724,
+      195,
+      739
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "means collectively or individually as the context requires the ATR aircraft listed in Exhibit 1 (\"List",
+    "bbox": [
+      477,
+      726,
+      1000,
+      738
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "of ATR Aircraft covered under this Agreement'), amended from time to time by way of notice sent",
+    "bbox": [
+      478,
+      743,
+      1000,
+      755
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "to the Company , as relevant, by Repairer in order to cover any further ATR aircraft entering the",
+    "bbox": [
+      477,
+      759,
+      1000,
+      771
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Company's fleet, including the airframe, engines, propellers and landing gears and parts installed",
+    "bbox": [
+      477,
+      774,
+      1000,
+      787
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "on the Aircraft, when solely operated by the Company ;",
+    "bbox": [
+      477,
+      789,
+      897,
+      803
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "AZUL-ATR",
+    "bbox": [
+      111,
+      840,
+      204,
+      852
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Global Maintenance Master Agreement.",
+    "bbox": [
+      527,
+      842,
+      831,
+      853
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Page 6/110",
+    "bbox": [
+      1000,
+      840,
+      1000,
+      854
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DS/CS-3957/14/Issue 7",
+    "bbox": [
+      594,
+      858,
+      765,
+      868
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: AZUL SA, F-1/A, 3/3/2017",
+    "bbox": [
+      134,
+      1000,
+      404,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Execution version",
+    "bbox": [
+      599,
+      83,
+      734,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      123,
+      128,
+      135
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "SUBJECT-MATTER OF THE AGREEMENT",
+    "bbox": [
+      155,
+      123,
+      487,
+      134
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "This Agreement describes the terms and conditions according to which the Repairer (i) shall provide, or cause its Subcontractors to provide.",
+    "bbox": [
+      157,
+      149,
+      1000,
+      159
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Services for the Company's Aircraft fleet; and (ii) agrees to lease the Stock to the Company and the Company agrees to take the Stock on.",
+    "bbox": [
+      155,
+      164,
+      1000,
+      176
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "lease, subject to the terms and conditions set forth on Exhibit 8.",
+    "bbox": [
+      154,
+      180,
+      632,
+      191
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      110,
+      223,
+      127,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "DEFINITIONS AND INTERPRETATION",
+    "bbox": [
+      157,
+      224,
+      463,
+      233
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      111,
+      250,
+      137,
+      260
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Unless otherwise defined, capitalised terms, singular or plural, used in this Agreement shall have the meaning set out below:.",
+    "bbox": [
+      153,
+      249,
+      1000,
+      262
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Abnormal Use\"",
+    "bbox": [
+      111,
+      285,
+      241,
+      297
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means any usage, maintenance, storage, handling of the Aircraft, or its sub-assemblies, or its",
+    "bbox": [
+      477,
+      285,
+      1000,
+      298
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "systems, or Items fitted on it including LRUs, Main Elements, Spare Main Elements, that does not.",
+    "bbox": [
+      477,
+      301,
+      1000,
+      315
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "comply with all applicable technical documentation and any other instructions issued by the",
+    "bbox": [
+      479,
+      319,
+      1000,
+      329
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manufacturers and which is not attributable to the Repairer or Subcontractors, including:.",
+    "bbox": [
+      477,
+      333,
+      1000,
+      346
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i) Any failure by the Company to correctly comply with any Repairer and/or OEM instructions or.",
+    "bbox": [
+      478,
+      369,
+      1000,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "recommendations, technical directives, or any workmanship defect, lack of qualification, non-.",
+    "bbox": [
+      514,
+      386,
+      1000,
+      398
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "approved repair and/or maintenance method; or,.",
+    "bbox": [
+      516,
+      402,
+      877,
+      414
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii) Any negligence or failure to exercise reasonable effort(s) made to initiate corrective action(s), or",
+    "bbox": [
+      480,
+      438,
+      1000,
+      450
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "lateness or total or partial failure in undertaking corrective action(s), for Aircraft or LRU(s) or",
+    "bbox": [
+      516,
+      455,
+      1000,
+      465
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Main Element(s) malfunctions which should have been reasonably identified by the",
+    "bbox": [
+      516,
+      470,
+      1000,
+      482
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company; or,",
+    "bbox": [
+      514,
+      485,
+      617,
+      500
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iii) Any Aircraft, LRU(s) or Main Element(s) suffering damage or premature removal arising out of",
+    "bbox": [
+      479,
+      522,
+      1000,
+      534
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or in connection with any defective storage, inappropriate Packaging or transport by the.",
+    "bbox": [
+      516,
+      538,
+      1000,
+      550
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company or its forwarder agent, or gross negligence or wilful misconduct of the Company(or.",
+    "bbox": [
+      516,
+      554,
+      1000,
+      566
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "its subcontractors or agents); or.",
+    "bbox": [
+      515,
+      569,
+      760,
+      582
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iv) Any events or circumstances, including: FOD, abnormal wear, hard contact, material drop or",
+    "bbox": [
+      479,
+      606,
+      1000,
+      618
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shock, engine fire or submersion, lightning strike, hard landing, hail (including on storage.",
+    "bbox": [
+      516,
+      621,
+      1000,
+      634
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "position), partial or total destruction or loss of Aircraft, LRU(s) or, Main Element(s);",
+    "bbox": [
+      516,
+      638,
+      1000,
+      650
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Affiliates\"",
+    "bbox": [
+      111,
+      662,
+      203,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means with respect to any entity, any entity Controlled by, Controlling or under Common Control",
+    "bbox": [
+      477,
+      662,
+      1000,
+      675
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with, the first entity, and/or their respective lawful successors and/or assigns;",
+    "bbox": [
+      477,
+      678,
+      1000,
+      691
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Agreement\"",
+    "bbox": [
+      111,
+      701,
+      217,
+      716
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "has the meaning set forth in page four (4) here above;",
+    "bbox": [
+      477,
+      701,
+      881,
+      715
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Aircraft\"",
+    "bbox": [
+      110,
+      724,
+      195,
+      739
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means collectively or individually as the context requires the ATR aircraft listed in Exhibit 1 (\"List",
+    "bbox": [
+      477,
+      726,
+      1000,
+      738
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of ATR Aircraft covered under this Agreement'), amended from time to time by way of notice sent",
+    "bbox": [
+      478,
+      743,
+      1000,
+      755
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to the Company , as relevant, by Repairer in order to cover any further ATR aircraft entering the",
+    "bbox": [
+      477,
+      759,
+      1000,
+      771
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company's fleet, including the airframe, engines, propellers and landing gears and parts installed",
+    "bbox": [
+      477,
+      774,
+      1000,
+      787
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "on the Aircraft, when solely operated by the Company ;",
+    "bbox": [
+      477,
+      789,
+      897,
+      803
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "AZUL-ATR",
+    "bbox": [
+      111,
+      840,
+      204,
+      852
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Global Maintenance Master Agreement.",
+    "bbox": [
+      527,
+      842,
+      831,
+      853
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Page 6/110",
+    "bbox": [
+      1000,
+      840,
+      1000,
+      854
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "DS/CS-3957/14/Issue 7",
+    "bbox": [
+      594,
+      858,
+      765,
+      868
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: AZUL SA, F-1/A, 3/3/2017",
+    "bbox": [
+      134,
+      1000,
+      404,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Execution version",
+    "bbox": [
+      599,
+      83,
+      734,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      123,
+      128,
+      135
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "SUBJECT-MATTER OF THE AGREEMENT",
+    "bbox": [
+      155,
+      123,
+      487,
+      134
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "This Agreement describes the terms and conditions according to which the Repairer (i) shall provide, or cause its Subcontractors to provide.",
+    "bbox": [
+      157,
+      149,
+      1000,
+      159
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Services for the Company's Aircraft fleet; and (ii) agrees to lease the Stock to the Company and the Company agrees to take the Stock on.",
+    "bbox": [
+      155,
+      164,
+      1000,
+      176
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "lease, subject to the terms and conditions set forth on Exhibit 8.",
+    "bbox": [
+      154,
+      180,
+      632,
+      191
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      110,
+      223,
+      127,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "DEFINITIONS AND INTERPRETATION",
+    "bbox": [
+      157,
+      224,
+      463,
+      233
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      111,
+      250,
+      137,
+      260
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Unless otherwise defined, capitalised terms, singular or plural, used in this Agreement shall have the meaning set out below:.",
+    "bbox": [
+      153,
+      249,
+      1000,
+      262
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Abnormal Use\"",
+    "bbox": [
+      111,
+      285,
+      241,
+      297
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means any usage, maintenance, storage, handling of the Aircraft, or its sub-assemblies, or its",
+    "bbox": [
+      477,
+      285,
+      1000,
+      298
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "systems, or Items fitted on it including LRUs, Main Elements, Spare Main Elements, that does not.",
+    "bbox": [
+      477,
+      301,
+      1000,
+      315
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "comply with all applicable technical documentation and any other instructions issued by the",
+    "bbox": [
+      479,
+      319,
+      1000,
+      329
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manufacturers and which is not attributable to the Repairer or Subcontractors, including:.",
+    "bbox": [
+      477,
+      333,
+      1000,
+      346
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i) Any failure by the Company to correctly comply with any Repairer and/or OEM instructions or.",
+    "bbox": [
+      478,
+      369,
+      1000,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "recommendations, technical directives, or any workmanship defect, lack of qualification, non-.",
+    "bbox": [
+      514,
+      386,
+      1000,
+      398
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "approved repair and/or maintenance method; or,.",
+    "bbox": [
+      516,
+      402,
+      877,
+      414
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii) Any negligence or failure to exercise reasonable effort(s) made to initiate corrective action(s), or",
+    "bbox": [
+      480,
+      438,
+      1000,
+      450
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "lateness or total or partial failure in undertaking corrective action(s), for Aircraft or LRU(s) or",
+    "bbox": [
+      516,
+      455,
+      1000,
+      465
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Main Element(s) malfunctions which should have been reasonably identified by the",
+    "bbox": [
+      516,
+      470,
+      1000,
+      482
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company; or,",
+    "bbox": [
+      514,
+      485,
+      617,
+      500
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iii) Any Aircraft, LRU(s) or Main Element(s) suffering damage or premature removal arising out of",
+    "bbox": [
+      479,
+      522,
+      1000,
+      534
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or in connection with any defective storage, inappropriate Packaging or transport by the.",
+    "bbox": [
+      516,
+      538,
+      1000,
+      550
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company or its forwarder agent, or gross negligence or wilful misconduct of the Company(or.",
+    "bbox": [
+      516,
+      554,
+      1000,
+      566
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "its subcontractors or agents); or.",
+    "bbox": [
+      515,
+      569,
+      760,
+      582
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iv) Any events or circumstances, including: FOD, abnormal wear, hard contact, material drop or",
+    "bbox": [
+      479,
+      606,
+      1000,
+      618
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shock, engine fire or submersion, lightning strike, hard landing, hail (including on storage.",
+    "bbox": [
+      516,
+      621,
+      1000,
+      634
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "position), partial or total destruction or loss of Aircraft, LRU(s) or, Main Element(s);",
+    "bbox": [
+      516,
+      638,
+      1000,
+      650
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Affiliates\"",
+    "bbox": [
+      111,
+      662,
+      203,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means with respect to any entity, any entity Controlled by, Controlling or under Common Control",
+    "bbox": [
+      477,
+      662,
+      1000,
+      675
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with, the first entity, and/or their respective lawful successors and/or assigns;",
+    "bbox": [
+      477,
+      678,
+      1000,
+      691
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Agreement\"",
+    "bbox": [
+      111,
+      701,
+      217,
+      716
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "has the meaning set forth in page four (4) here above;",
+    "bbox": [
+      477,
+      701,
+      881,
+      715
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Aircraft\"",
+    "bbox": [
+      110,
+      724,
+      195,
+      739
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "means collectively or individually as the context requires the ATR aircraft listed in Exhibit 1 (\"List",
+    "bbox": [
+      477,
+      726,
+      1000,
+      738
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of ATR Aircraft covered under this Agreement'), amended from time to time by way of notice sent",
+    "bbox": [
+      478,
+      743,
+      1000,
+      755
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to the Company , as relevant, by Repairer in order to cover any further ATR aircraft entering the",
+    "bbox": [
+      477,
+      759,
+      1000,
+      771
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company's fleet, including the airframe, engines, propellers and landing gears and parts installed",
+    "bbox": [
+      477,
+      774,
+      1000,
+      787
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "on the Aircraft, when solely operated by the Company ;",
+    "bbox": [
+      477,
+      789,
+      897,
+      803
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "AZUL-ATR",
+    "bbox": [
+      111,
+      840,
+      204,
+      852
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Global Maintenance Master Agreement.",
+    "bbox": [
+      527,
+      842,
+      831,
+      853
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Page 6/110",
+    "bbox": [
+      1000,
+      840,
+      1000,
+      854
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "DS/CS-3957/14/Issue 7",
+    "bbox": [
+      594,
+      858,
+      765,
+      868
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: AZUL SA, F-1/A, 3/3/2017",
+    "bbox": [
+      134,
+      1000,
+      404,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

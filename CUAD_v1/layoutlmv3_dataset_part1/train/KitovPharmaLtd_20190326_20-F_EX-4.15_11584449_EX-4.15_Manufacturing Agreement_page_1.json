@@ -1,0 +1,497 @@
+[
+  {
+    "text": "1.4",
+    "bbox": [
+      152,
+      80,
+      178,
+      93
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Batch' shall mean the defined quantity of the Product processed in a single process or series of processes in a manner designed to.",
+    "bbox": [
+      221,
+      80,
+      1000,
+      93
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "be homogeneous. The Batch size for the Product is **** tablets.",
+    "bbox": [
+      222,
+      96,
+      708,
+      108
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      151,
+      111,
+      178,
+      126
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"cGMPs\" or \"Good Manufacturing Practice\"' shall mean the part of quality assurance which ensures that the Product is consistently.",
+    "bbox": [
+      221,
+      112,
+      1000,
+      125
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "produced and controlled to the quality standards appropriate to their intended use, the principles and guidelines of which are",
+    "bbox": [
+      221,
+      128,
+      1000,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "specified in European Commission Directive 2003/94/EC and the FDA's current Good Manufacturing Practices, particularly 21 CFR ",
+    "bbox": [
+      220,
+      144,
+      1000,
+      158
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "210 et seq., and 21 CFR $$ 600-610, as both may be amended from time to time..",
+    "bbox": [
+      221,
+      161,
+      808,
+      172
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.6",
+    "bbox": [
+      152,
+      176,
+      178,
+      188
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Change of Control' shall mean (i) any change, sale, merger, reorganization, or any other event or action that results in a third party,",
+    "bbox": [
+      220,
+      176,
+      1000,
+      190
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "which is a material competitor to the other Party to this agreement, acquiring: (a) all or substantially all of the business or assets of a.",
+    "bbox": [
+      222,
+      193,
+      1000,
+      205
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Party relating to this Agreement, (b) Control, directly or indirectly, of such Party (and/or any corporate entity that Controls, directly.",
+    "bbox": [
+      222,
+      209,
+      1000,
+      221
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "or indirectly, such Party), or (ii) any assignment or delegation of, sale or transfer of a Party's rights and obligations under this",
+    "bbox": [
+      221,
+      224,
+      1000,
+      237
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Agreement (or any part hereof) to a third party.",
+    "bbox": [
+      223,
+      241,
+      575,
+      253
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Notwithstanding anything in the immediately preceding paragraph to the contrary, where the Party in question is Dexcel, any of the",
+    "bbox": [
+      221,
+      257,
+      1000,
+      269
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "foregoing events or actions shall not be considered a Change of Control where any one or more of the relevant third party or parties.",
+    "bbox": [
+      222,
+      273,
+      1000,
+      285
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "referred to in clause (i) above is (A) a Family Member, or (B) any entity Controlled by Mr. **** and/or a Family Member.",
+    "bbox": [
+      219,
+      286,
+      1000,
+      303
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.7",
+    "bbox": [
+      152,
+      304,
+      178,
+      317
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Claims' shall mean any demands, claims, actions, causes of action, assessments, losses, damages, injuries, liabilities, costs and.",
+    "bbox": [
+      221,
+      304,
+      1000,
+      317
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "expenses (including, without limitation, reasonable attorneys' fees and expenses) filed, raised, initiated or made by any governmental.",
+    "bbox": [
+      222,
+      321,
+      1000,
+      333
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "authority and/or third party.",
+    "bbox": [
+      222,
+      337,
+      429,
+      349
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.8",
+    "bbox": [
+      152,
+      351,
+      178,
+      365
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Confidential Information\"' shall have the meaning set forth in Section 7.1.",
+    "bbox": [
+      221,
+      351,
+      781,
+      365
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.9",
+    "bbox": [
+      152,
+      368,
+      177,
+      380
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Confirmed Order' shall have the meaning set forth in Section 3.3.2.",
+    "bbox": [
+      221,
+      368,
+      739,
+      381
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.10",
+    "bbox": [
+      152,
+      383,
+      186,
+      397
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Control' or \"Controlled' shall mean possession of more than fifty percent (50%) of the share capital of a corporation or other",
+    "bbox": [
+      220,
+      383,
+      1000,
+      398
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "business entity, and/or the power to direct or cause the direction of the management and policies of a corporation or other entity",
+    "bbox": [
+      221,
+      400,
+      1000,
+      413
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "whether through the ownership of voting securities, by contract or otherwise..",
+    "bbox": [
+      222,
+      418,
+      804,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.11",
+    "bbox": [
+      152,
+      432,
+      183,
+      444
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Delivery' shall mean the time when the Product is placed at the disposal of Kitov at Dexcel's Facility based on an ****",
+    "bbox": [
+      220,
+      429,
+      1000,
+      446
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(Incoterms 2010).",
+    "bbox": [
+      223,
+      449,
+      364,
+      460
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.12",
+    "bbox": [
+      152,
+      463,
+      186,
+      477
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Distributors\" shall mean any Person under contract with Kitov or any of its Affiliates for the distribution of the Product in a certain",
+    "bbox": [
+      222,
+      465,
+      1000,
+      475
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "territory or territories..",
+    "bbox": [
+      222,
+      482,
+      381,
+      492
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.13",
+    "bbox": [
+      153,
+      496,
+      185,
+      508
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Effective Date' shall mean the date of signature of the last Party to execute this Agreement..",
+    "bbox": [
+      221,
+      496,
+      914,
+      509
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.14",
+    "bbox": [
+      152,
+      512,
+      185,
+      524
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"EMA\" means the European Medicines Agency or any successor entity.",
+    "bbox": [
+      221,
+      512,
+      765,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.15",
+    "bbox": [
+      152,
+      527,
+      185,
+      541
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Family Member\" shall mean ****.",
+    "bbox": [
+      220,
+      526,
+      492,
+      542
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      152,
+      543,
+      186,
+      557
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"FDA\" means the U.S. Food and Drug Administration or any successor entity..",
+    "bbox": [
+      221,
+      544,
+      808,
+      556
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      577,
+      672,
+      587
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      506,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

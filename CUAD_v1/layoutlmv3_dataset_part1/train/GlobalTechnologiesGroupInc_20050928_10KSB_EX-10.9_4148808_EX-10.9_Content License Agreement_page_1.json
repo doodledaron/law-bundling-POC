@@ -1,0 +1,57 @@
+[
+  {
+    "text": "13/07/05",
+    "bbox": [
+      233,
+      304,
+      295,
+      316
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "13/07/05",
+    "bbox": [
+      233,
+      304,
+      295,
+      316
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Agreement is effective as of the last date signed below (\"Effective Date'). The initial term of this Agreement will begin on the Effective Date and",
+    "bbox": [
+      180,
+      123,
+      1000,
+      134
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Agreement is effective as of the last date signed below (\"Effective Date'). The initial term of this Agreement will begin on the Effective Date and",
+    "bbox": [
+      180,
+      123,
+      1000,
+      134
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "end twelve (12) months after the Launch (the \"Term'). IMNTV will extend the Agreement on the same terms and conditions for additional one-year terms,",
+    "bbox": [
+      111,
+      135,
+      1000,
+      147
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  }
+]

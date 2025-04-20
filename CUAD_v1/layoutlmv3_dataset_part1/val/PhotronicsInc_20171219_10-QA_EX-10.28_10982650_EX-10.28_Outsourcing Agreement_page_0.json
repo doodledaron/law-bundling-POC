@@ -1,0 +1,849 @@
+[
+  {
+    "text": "OUTSOURCING AGREEMENT",
+    "bbox": [
+      547,
+      156,
+      785,
+      166
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Republic of China with its principal place of business at 4f, #2, Li-Hsin Road, Science Park, Hsinchu, Taiwan, ROC (\"PDMC'), and",
+    "bbox": [
+      112,
+      332,
+      1000,
+      344
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics, Inc., a Connecticut corporation with its principal place of business at 15 Secor Road, Brookfield, Connecticut, U.S.A",
+    "bbox": [
+      247,
+      220,
+      1000,
+      232
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics DNP Photomask Corporation, a company limited by shares organized and formed under the Company Act of the.",
+    "bbox": [
+      246,
+      315,
+      1000,
+      328
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics, Inc., a Connecticut corporation with its principal place of business at 15 Secor Road, Brookfield, Connecticut, U.S.A",
+    "bbox": [
+      247,
+      220,
+      1000,
+      232
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dai Nippon Printing Co., Ltd., a Japanese corporation with its principal place of business at 1-1, Ichigaya Kagacho 1-chome,",
+    "bbox": [
+      247,
+      267,
+      1000,
+      280
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics DNP Photomask Corporation, a company limited by shares organized and formed under the Company Act of the.",
+    "bbox": [
+      246,
+      315,
+      1000,
+      328
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Shinjuku-ku, Tokyo, Japan (\"DNP'),",
+    "bbox": [
+      112,
+      284,
+      384,
+      296
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Xiamen American Japan Photronics Mask Co., Ltd., a limited liability company organized and formed under the People's Republic",
+    "bbox": [
+      247,
+      363,
+      1000,
+      376
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Each of Photronics and DNP is hereinafter referred to as a \"Shareholder\"' and collectively as the \"Shareholders\", each of the",
+    "bbox": [
+      247,
+      428,
+      1000,
+      440
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Shareholders and PDMC is hereinafter referred to as a \"Supplier\" and collectively as the \"Suppliers\", and each of the Suppliers and the Company.",
+    "bbox": [
+      111,
+      443,
+      1000,
+      457
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "is hereinafter referred to as a \"Party\" and collectively as the \"Parties.\"",
+    "bbox": [
+      110,
+      459,
+      643,
+      471
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This OUTSOURCING AGREEMENT (this \"Agreement') is made and entered into as of the 16th day of May, 2017, by and among",
+    "bbox": [
+      247,
+      185,
+      1000,
+      202
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Exhibit 10.28",
+    "bbox": [
+      1000,
+      92,
+      1000,
+      103
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Execution Version",
+    "bbox": [
+      1000,
+      124,
+      1000,
+      135
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "OUTSOURCING AGREEMENT",
+    "bbox": [
+      547,
+      156,
+      785,
+      166
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This OUTSOURCING AGREEMENT (this \"Agreement') is made and entered into as of the 16th day of May, 2017, by and among",
+    "bbox": [
+      247,
+      185,
+      1000,
+      202
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Photronics, Inc., a Connecticut corporation with its principal place of business at 15 Secor Road, Brookfield, Connecticut, U.S.A",
+    "bbox": [
+      247,
+      220,
+      1000,
+      232
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(\"Photronics\"),",
+    "bbox": [
+      111,
+      235,
+      229,
+      249
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Dai Nippon Printing Co., Ltd., a Japanese corporation with its principal place of business at 1-1, Ichigaya Kagacho 1-chome,",
+    "bbox": [
+      247,
+      267,
+      1000,
+      280
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Shinjuku-ku, Tokyo, Japan (\"DNP'),",
+    "bbox": [
+      112,
+      284,
+      384,
+      296
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Photronics DNP Photomask Corporation, a company limited by shares organized and formed under the Company Act of the.",
+    "bbox": [
+      246,
+      315,
+      1000,
+      328
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Republic of China with its principal place of business at 4f, #2, Li-Hsin Road, Science Park, Hsinchu, Taiwan, ROC (\"PDMC'), and",
+    "bbox": [
+      112,
+      332,
+      1000,
+      344
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Xiamen American Japan Photronics Mask Co., Ltd., a limited liability company organized and formed under the People's Republic",
+    "bbox": [
+      247,
+      363,
+      1000,
+      376
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "of China with its principal place of business at R203-95, South Building of Torch Square, No. 56-58 Torch Road, Gaoxin District, Xiamen, Fujian",
+    "bbox": [
+      113,
+      379,
+      1000,
+      391
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Province, Peoples Republic of China (the \"Company\").",
+    "bbox": [
+      112,
+      396,
+      519,
+      408
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Each of Photronics and DNP is hereinafter referred to as a \"Shareholder\"' and collectively as the \"Shareholders\", each of the",
+    "bbox": [
+      247,
+      428,
+      1000,
+      440
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Shareholders and PDMC is hereinafter referred to as a \"Supplier\" and collectively as the \"Suppliers\", and each of the Suppliers and the Company.",
+    "bbox": [
+      111,
+      443,
+      1000,
+      457
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "is hereinafter referred to as a \"Party\" and collectively as the \"Parties.\"",
+    "bbox": [
+      110,
+      459,
+      643,
+      471
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ARTICLE 1.",
+    "bbox": [
+      620,
+      492,
+      713,
+      502
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "BACKGROUND",
+    "bbox": [
+      602,
+      508,
+      730,
+      518
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Photronics and DNP wish to participate in a joint venture, either directly or indirectly through their respective Affiliates, as equity",
+    "bbox": [
+      247,
+      538,
+      1000,
+      552
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "interest owners in the Company, and to carry on the Business through the Company. The Parties are engaged, among other things, in the design.",
+    "bbox": [
+      111,
+      556,
+      1000,
+      568
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "development, fabrication and sale of advanced photomasks. Photronics and DNP, directly or indirectly, are the shareholders of and own PDMC, a",
+    "bbox": [
+      112,
+      572,
+      1000,
+      584
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "joint venture of Photronics and DNP in Taiwan. In connection with the formation of the Company, Photronics and DNP have entered into \"Joint",
+    "bbox": [
+      111,
+      588,
+      1000,
+      600
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Venture Operating Agreement' (the \"China JV Operating Agreement') dated as of the 16th day of May, 2017. In connection with the China JV.",
+    "bbox": [
+      113,
+      604,
+      1000,
+      616
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Operating Agreement and in order to support the business objective of the Company, including but not limited in order to (i) [***]the Company",
+    "bbox": [
+      111,
+      619,
+      1000,
+      633
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "desires to outsource or [***]of the Company pursuant to the terms and conditions set forth herein.",
+    "bbox": [
+      112,
+      635,
+      855,
+      648
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "The Parties hereby agree and confirm the exclusive distribution mechanism set forth in Section 10.1 hereof. All terms and.",
+    "bbox": [
+      244,
+      667,
+      1000,
+      680
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "conditions for [***]will be governed by this Agreement. Any and all [***]set forth in Section 5.15 of the China JV Operating Agreement..",
+    "bbox": [
+      113,
+      683,
+      1000,
+      696
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      381,
+      715,
+      410,
+      728
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Defined Terms",
+    "bbox": [
+      449,
+      714,
+      564,
+      728
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Unless otherwise defined in this Agreement and Schedule 1 hereof, terms defined in the China JV Operating Agreement shall.",
+    "bbox": [
+      247,
+      747,
+      1000,
+      760
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "have the same meanings when used in this Agreement",
+    "bbox": [
+      110,
+      763,
+      523,
+      776
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: PHOTRONICS INC, 10-Q/A, 12/19/2017",
+    "bbox": [
+      133,
+      1000,
+      512,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.28",
+    "bbox": [
+      1000,
+      92,
+      1000,
+      103
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Execution Version",
+    "bbox": [
+      1000,
+      124,
+      1000,
+      135
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "OUTSOURCING AGREEMENT",
+    "bbox": [
+      547,
+      156,
+      785,
+      166
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "This OUTSOURCING AGREEMENT (this \"Agreement') is made and entered into as of the 16th day of May, 2017, by and among",
+    "bbox": [
+      247,
+      185,
+      1000,
+      202
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Photronics, Inc., a Connecticut corporation with its principal place of business at 15 Secor Road, Brookfield, Connecticut, U.S.A",
+    "bbox": [
+      247,
+      220,
+      1000,
+      232
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(\"Photronics\"),",
+    "bbox": [
+      111,
+      235,
+      229,
+      249
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Dai Nippon Printing Co., Ltd., a Japanese corporation with its principal place of business at 1-1, Ichigaya Kagacho 1-chome,",
+    "bbox": [
+      247,
+      267,
+      1000,
+      280
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Shinjuku-ku, Tokyo, Japan (\"DNP'),",
+    "bbox": [
+      112,
+      284,
+      384,
+      296
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Photronics DNP Photomask Corporation, a company limited by shares organized and formed under the Company Act of the.",
+    "bbox": [
+      246,
+      315,
+      1000,
+      328
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Republic of China with its principal place of business at 4f, #2, Li-Hsin Road, Science Park, Hsinchu, Taiwan, ROC (\"PDMC'), and",
+    "bbox": [
+      112,
+      332,
+      1000,
+      344
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Xiamen American Japan Photronics Mask Co., Ltd., a limited liability company organized and formed under the People's Republic",
+    "bbox": [
+      247,
+      363,
+      1000,
+      376
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "of China with its principal place of business at R203-95, South Building of Torch Square, No. 56-58 Torch Road, Gaoxin District, Xiamen, Fujian",
+    "bbox": [
+      113,
+      379,
+      1000,
+      391
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Province, Peoples Republic of China (the \"Company\").",
+    "bbox": [
+      112,
+      396,
+      519,
+      408
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Each of Photronics and DNP is hereinafter referred to as a \"Shareholder\"' and collectively as the \"Shareholders\", each of the",
+    "bbox": [
+      247,
+      428,
+      1000,
+      440
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Shareholders and PDMC is hereinafter referred to as a \"Supplier\" and collectively as the \"Suppliers\", and each of the Suppliers and the Company.",
+    "bbox": [
+      111,
+      443,
+      1000,
+      457
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "is hereinafter referred to as a \"Party\" and collectively as the \"Parties.\"",
+    "bbox": [
+      110,
+      459,
+      643,
+      471
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE 1.",
+    "bbox": [
+      620,
+      492,
+      713,
+      502
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "BACKGROUND",
+    "bbox": [
+      602,
+      508,
+      730,
+      518
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Photronics and DNP wish to participate in a joint venture, either directly or indirectly through their respective Affiliates, as equity",
+    "bbox": [
+      247,
+      538,
+      1000,
+      552
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "interest owners in the Company, and to carry on the Business through the Company. The Parties are engaged, among other things, in the design.",
+    "bbox": [
+      111,
+      556,
+      1000,
+      568
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "development, fabrication and sale of advanced photomasks. Photronics and DNP, directly or indirectly, are the shareholders of and own PDMC, a",
+    "bbox": [
+      112,
+      572,
+      1000,
+      584
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "joint venture of Photronics and DNP in Taiwan. In connection with the formation of the Company, Photronics and DNP have entered into \"Joint",
+    "bbox": [
+      111,
+      588,
+      1000,
+      600
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Venture Operating Agreement' (the \"China JV Operating Agreement') dated as of the 16th day of May, 2017. In connection with the China JV.",
+    "bbox": [
+      113,
+      604,
+      1000,
+      616
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Operating Agreement and in order to support the business objective of the Company, including but not limited in order to (i) [***]the Company",
+    "bbox": [
+      111,
+      619,
+      1000,
+      633
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "desires to outsource or [***]of the Company pursuant to the terms and conditions set forth herein.",
+    "bbox": [
+      112,
+      635,
+      855,
+      648
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "The Parties hereby agree and confirm the exclusive distribution mechanism set forth in Section 10.1 hereof. All terms and.",
+    "bbox": [
+      244,
+      667,
+      1000,
+      680
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "conditions for [***]will be governed by this Agreement. Any and all [***]set forth in Section 5.15 of the China JV Operating Agreement..",
+    "bbox": [
+      113,
+      683,
+      1000,
+      696
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      381,
+      715,
+      410,
+      728
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Defined Terms",
+    "bbox": [
+      449,
+      714,
+      564,
+      728
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Unless otherwise defined in this Agreement and Schedule 1 hereof, terms defined in the China JV Operating Agreement shall.",
+    "bbox": [
+      247,
+      747,
+      1000,
+      760
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "have the same meanings when used in this Agreement",
+    "bbox": [
+      110,
+      763,
+      523,
+      776
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: PHOTRONICS INC, 10-Q/A, 12/19/2017",
+    "bbox": [
+      133,
+      1000,
+      512,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

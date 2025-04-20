@@ -1,0 +1,123 @@
+[
+  {
+    "text": "written notice of the cancellation, termination or change at least thirty (30) days in advance of the effective date of the cancellation, termination or",
+    "bbox": [
+      111,
+      83,
+      1000,
+      95
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "material adverse change:",
+    "bbox": [
+      110,
+      100,
+      295,
+      112
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a) Worker's Compensation Insurance as required by the laws of the state where Operator's facilities are located;.",
+    "bbox": [
+      156,
+      131,
+      1000,
+      144
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(b) Employer's liability insurance with limits not less than One Million Dollars ($1,00o,oo0); and",
+    "bbox": [
+      157,
+      164,
+      868,
+      176
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(c) Commercial General Liability Insurance, including bodily injury and property damage liability including premises operations, contractual.",
+    "bbox": [
+      156,
+      196,
+      1000,
+      208
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "liability endorsements, products liability and completed operations with limits not less than Five Million Dollars ($5,ooo,oo0)..",
+    "bbox": [
+      112,
+      212,
+      1000,
+      224
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Operator shall cause Owner (and such additional parties as Owner designates in writing) to be named additional insured(s), must be written as.",
+    "bbox": [
+      113,
+      244,
+      1000,
+      256
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "primary policy not contributing to or in excess of any policies carried by the Owner, and each contain a waiver of subrogation endorsement, in form",
+    "bbox": [
+      111,
+      259,
+      1000,
+      273
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and substance reasonably satisfactory to the Owner, in favor of the Owner..",
+    "bbox": [
+      111,
+      276,
+      675,
+      288
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "[Signatures follow on next page]",
+    "bbox": [
+      539,
+      308,
+      793,
+      321
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      656,
+      325,
+      675,
+      336
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

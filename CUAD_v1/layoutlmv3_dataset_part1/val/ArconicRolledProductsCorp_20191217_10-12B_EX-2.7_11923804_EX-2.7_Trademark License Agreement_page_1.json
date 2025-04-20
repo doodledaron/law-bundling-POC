@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Licensor, and shall not confer on Licensee any ownership rights to the Licensed Mark. Licensee agrees and covenants that it shall not challenge,",
+    "bbox": [
+      109,
+      255,
+      1000,
+      270
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "contest, or take any actions inconsistent with Licensor's exclusive rights of ownership of the Licensed Mark.",
+    "bbox": [
+      111,
+      273,
+      930,
+      285
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  }
+]

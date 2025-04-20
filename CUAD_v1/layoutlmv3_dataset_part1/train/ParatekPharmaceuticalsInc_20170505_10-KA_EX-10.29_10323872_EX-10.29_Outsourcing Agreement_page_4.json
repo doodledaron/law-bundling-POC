@@ -1,0 +1,794 @@
+[
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      128,
+      85,
+      1000,
+      94
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NOISSINWON HNNVHMXA INV SHILINNMHS HHL HLI ATLVNVdHS CII NAGN SVH CNV I* * * HLIM CIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "14.2 Indemnification of Customer",
+    "bbox": [
+      149,
+      137,
+      415,
+      149
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      137,
+      1000,
+      150
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "14.3 Intellectual Property Indemnity",
+    "bbox": [
+      148,
+      161,
+      436,
+      174
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "34",
+    "bbox": [
+      1000,
+      161,
+      1000,
+      174
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "14.4 Indemnification Procedure",
+    "bbox": [
+      149,
+      185,
+      401,
+      197
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "34",
+    "bbox": [
+      1000,
+      184,
+      1000,
+      198
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      209,
+      169,
+      221
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      128,
+      224,
+      152,
+      237
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      195,
+      225,
+      275,
+      238
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "35",
+    "bbox": [
+      1000,
+      225,
+      1000,
+      237
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "15.1Insurance Coverage",
+    "bbox": [
+      149,
+      248,
+      350,
+      263
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "35",
+    "bbox": [
+      1000,
+      249,
+      1000,
+      262
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "15.2Evidence of Insurance",
+    "bbox": [
+      149,
+      273,
+      364,
+      285
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "35",
+    "bbox": [
+      1000,
+      273,
+      1000,
+      286
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      112,
+      297,
+      169,
+      309
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      128,
+      313,
+      152,
+      326
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Legal and Regulatory",
+    "bbox": [
+      195,
+      314,
+      361,
+      327
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "35",
+    "bbox": [
+      1000,
+      312,
+      1000,
+      326
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16.1 Compliance with Laws",
+    "bbox": [
+      150,
+      337,
+      368,
+      349
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "35",
+    "bbox": [
+      1000,
+      337,
+      1000,
+      350
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16.2  Maintenance of Records",
+    "bbox": [
+      150,
+      362,
+      381,
+      372
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "36",
+    "bbox": [
+      1000,
+      360,
+      1000,
+      374
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16.3 Notice of Reports",
+    "bbox": [
+      148,
+      385,
+      329,
+      398
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "36",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      398
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16.4  Drug Master Files",
+    "bbox": [
+      148,
+      409,
+      340,
+      422
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "36",
+    "bbox": [
+      1000,
+      409,
+      1000,
+      422
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16.5Compliance with Regulatory Standards",
+    "bbox": [
+      148,
+      433,
+      496,
+      446
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "36",
+    "bbox": [
+      1000,
+      433,
+      1000,
+      446
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "16.6 Inspection",
+    "bbox": [
+      148,
+      457,
+      277,
+      470
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "36",
+    "bbox": [
+      1000,
+      455,
+      1000,
+      470
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      481,
+      169,
+      493
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17",
+    "bbox": [
+      127,
+      497,
+      152,
+      509
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Recalls",
+    "bbox": [
+      195,
+      497,
+      256,
+      509
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      497,
+      1000,
+      510
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17.1 ",
+    "bbox": [
+      150,
+      521,
+      199,
+      533
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": " Safety",
+    "bbox": [
+      191,
+      520,
+      245,
+      535
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      521,
+      1000,
+      534
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17.2",
+    "bbox": [
+      149,
+      545,
+      196,
+      556
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": " Recalls",
+    "bbox": [
+      189,
+      544,
+      255,
+      557
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      545,
+      1000,
+      558
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17.3 ",
+    "bbox": [
+      150,
+      570,
+      199,
+      581
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Supplier's Liability for Recall",
+    "bbox": [
+      194,
+      570,
+      426,
+      582
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      569,
+      1000,
+      582
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17.4Customer's Liability for Recall",
+    "bbox": [
+      149,
+      593,
+      436,
+      605
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      593,
+      1000,
+      606
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "17.5 Replacement Shipments",
+    "bbox": [
+      149,
+      616,
+      382,
+      630
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "37",
+    "bbox": [
+      1000,
+      616,
+      1000,
+      630
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      640,
+      169,
+      653
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      128,
+      657,
+      152,
+      669
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Termination",
+    "bbox": [
+      196,
+      658,
+      290,
+      669
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "38",
+    "bbox": [
+      1000,
+      657,
+      1000,
+      670
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18.1 Termination",
+    "bbox": [
+      150,
+      682,
+      290,
+      692
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "38",
+    "bbox": [
+      1000,
+      681,
+      1000,
+      694
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18.2Consequences of Termination",
+    "bbox": [
+      150,
+      705,
+      423,
+      717
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "39",
+    "bbox": [
+      1000,
+      704,
+      1000,
+      718
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18.3Return of Samples",
+    "bbox": [
+      148,
+      728,
+      339,
+      742
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      728,
+      1000,
+      742
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18.4Return of Confidential Information",
+    "bbox": [
+      149,
+      753,
+      463,
+      764
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      752,
+      1000,
+      766
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "18.5 Survival",
+    "bbox": [
+      148,
+      776,
+      262,
+      789
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "40",
+    "bbox": [
+      1000,
+      776,
+      1000,
+      789
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      801,
+      168,
+      813
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "19",
+    "bbox": [
+      128,
+      817,
+      152,
+      830
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Miscellaneous",
+    "bbox": [
+      195,
+      817,
+      308,
+      829
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "41",
+    "bbox": [
+      1000,
+      817,
+      1000,
+      829
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "19.1 Assignment; Inurement",
+    "bbox": [
+      149,
+      840,
+      382,
+      854
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "41",
+    "bbox": [
+      1000,
+      839,
+      1000,
+      854
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      872,
+      241,
+      882
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Page 5 of 49",
+    "bbox": [
+      1000,
+      870,
+      1000,
+      884
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  }
+]

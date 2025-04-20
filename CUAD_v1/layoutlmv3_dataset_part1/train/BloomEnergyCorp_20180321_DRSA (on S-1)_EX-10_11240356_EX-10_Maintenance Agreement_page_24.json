@@ -1,0 +1,640 @@
+[
+  {
+    "text": "entering into a new agreement with a third party operator governing operation and maintenance services to be provided to Owner on terms",
+    "bbox": [
+      113,
+      84,
+      1000,
+      96
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "substantially similar to the terms of this Agreement, so that such replacement Operator shall be deemed a QFCP",
+    "bbox": [
+      113,
+      100,
+      947,
+      112
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "ARTICLE 5",
+    "bbox": [
+      623,
+      147,
+      713,
+      158
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "DATA ACCESS",
+    "bbox": [
+      607,
+      164,
+      726,
+      175
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Section 5.1 Access to Data and Meters. Throughout the Term, and thereafter to the extent relevant to calculations necessary for periods prior.",
+    "bbox": [
+      154,
+      195,
+      1000,
+      208
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "to the end of the Term and subject to any confidentiality obligation owed to any third party and/or any restrictions on the disclosure of information",
+    "bbox": [
+      113,
+      212,
+      1000,
+      224
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "which may be subject to intellectual property rights restricting disclosure:",
+    "bbox": [
+      113,
+      228,
+      665,
+      240
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(a) Owner shall grant Operator access to all data relating to the electricity production of each Bloom System, it being understood that it is",
+    "bbox": [
+      155,
+      260,
+      1000,
+      272
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Operator's responsibility to determine the performance of the Bloom System, and any other calculations as required under this Agreement, and that",
+    "bbox": [
+      113,
+      276,
+      1000,
+      288
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "it is Owner's responsibility to handle all accounting and invoicing activities; and",
+    "bbox": [
+      111,
+      292,
+      719,
+      304
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(b) Owner shall allow Operator access to all data from all Facility Meters.",
+    "bbox": [
+      156,
+      324,
+      697,
+      336
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Operator shall be entitled to use the foregoing data for its internal purposes and make such data available to third parties for analysis",
+    "bbox": [
+      113,
+      356,
+      1000,
+      368
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "ARTICLE 6",
+    "bbox": [
+      623,
+      404,
+      712,
+      414
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "INDEMNITY",
+    "bbox": [
+      618,
+      420,
+      715,
+      430
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Section 6.1 Indemnification of Operator by Owner. Owner shall indemnify, defend and hold harmless Operator, its officers, directors..",
+    "bbox": [
+      155,
+      451,
+      1000,
+      463
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "employees, shareholders, Affiliates and agents (each, a \"Operator Indemnitee\") from and against any and all Indemnifiable Losses asserted against",
+    "bbox": [
+      113,
+      468,
+      1000,
+      480
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "or suffered by any Operator Indemnitee arising out of any Third Party Claims against a Operator Indemnitee to the extent arising out of or in",
+    "bbox": [
+      113,
+      484,
+      1000,
+      496
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "connection with (i) Owner's breach of its representations, warranties or covenants in this Agreement, (ii) the negligent or intentional acts or",
+    "bbox": [
+      111,
+      500,
+      1000,
+      511
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "omissions of Owner or its subcontractors, agents or employees or others under Owner's control or (iii) a breach by Owner of its obligations",
+    "bbox": [
+      110,
+      515,
+      1000,
+      528
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "hereunder, provided that Owner shall have no obligation to indemnify Operator for any negligence, fraud or willful misconduct of any Operator",
+    "bbox": [
+      111,
+      532,
+      1000,
+      544
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Indemnitee or the breach by Operator of any Operator Indemnitee of its covenants and warranties under this Agreement or any other Transaction",
+    "bbox": [
+      111,
+      547,
+      1000,
+      559
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Document.",
+    "bbox": [
+      111,
+      564,
+      194,
+      575
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Section 6.2 Indemnification of Owner by Operator. Operator shall indemnify, defend and hold harmless Owner, its members, managers,",
+    "bbox": [
+      155,
+      595,
+      1000,
+      607
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "officers, directors, employees, Affiliates and agents (each, an \"Owner Indemnitee') from and against any and all Indemnifiable Losses asserted",
+    "bbox": [
+      112,
+      611,
+      1000,
+      624
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "against or suffered by any Owner Indemnitee arising out of any Third Party Claims against an Owner Indemnitee to the extent arising out of or in",
+    "bbox": [
+      112,
+      628,
+      1000,
+      640
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "connection with (i) Operator's breach of its representations, warranties or covenants in this Agreement, (ii) the negligent or intentional acts or",
+    "bbox": [
+      112,
+      645,
+      1000,
+      655
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "omissions of Operator or its subcontractors, agents or employees or others under Operator's control or (iii) a breach by Operator of its obligations",
+    "bbox": [
+      112,
+      660,
+      1000,
+      672
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "hereunder; provided that",
+    "bbox": [
+      111,
+      677,
+      301,
+      687
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "21",
+    "bbox": [
+      656,
+      691,
+      674,
+      703
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "entering into a new agreement with a third party operator governing operation and maintenance services to be provided to Owner on terms",
+    "bbox": [
+      113,
+      84,
+      1000,
+      96
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "substantially similar to the terms of this Agreement, so that such replacement Operator shall be deemed a QFCP",
+    "bbox": [
+      113,
+      100,
+      947,
+      112
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE 5",
+    "bbox": [
+      623,
+      147,
+      713,
+      158
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DATA ACCESS",
+    "bbox": [
+      607,
+      164,
+      726,
+      175
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Section 5.1 Access to Data and Meters. Throughout the Term, and thereafter to the extent relevant to calculations necessary for periods prior.",
+    "bbox": [
+      154,
+      195,
+      1000,
+      208
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "to the end of the Term and subject to any confidentiality obligation owed to any third party and/or any restrictions on the disclosure of information",
+    "bbox": [
+      113,
+      212,
+      1000,
+      224
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "which may be subject to intellectual property rights restricting disclosure:",
+    "bbox": [
+      113,
+      228,
+      665,
+      240
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(a) Owner shall grant Operator access to all data relating to the electricity production of each Bloom System, it being understood that it is",
+    "bbox": [
+      155,
+      260,
+      1000,
+      272
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Operator's responsibility to determine the performance of the Bloom System, and any other calculations as required under this Agreement, and that",
+    "bbox": [
+      113,
+      276,
+      1000,
+      288
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "it is Owner's responsibility to handle all accounting and invoicing activities; and",
+    "bbox": [
+      111,
+      292,
+      719,
+      304
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(b) Owner shall allow Operator access to all data from all Facility Meters.",
+    "bbox": [
+      156,
+      324,
+      697,
+      336
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Operator shall be entitled to use the foregoing data for its internal purposes and make such data available to third parties for analysis",
+    "bbox": [
+      113,
+      356,
+      1000,
+      368
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE 6",
+    "bbox": [
+      623,
+      404,
+      712,
+      414
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "INDEMNITY",
+    "bbox": [
+      618,
+      420,
+      715,
+      430
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Section 6.1 Indemnification of Operator by Owner. Owner shall indemnify, defend and hold harmless Operator, its officers, directors..",
+    "bbox": [
+      155,
+      451,
+      1000,
+      463
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "employees, shareholders, Affiliates and agents (each, a \"Operator Indemnitee\") from and against any and all Indemnifiable Losses asserted against",
+    "bbox": [
+      113,
+      468,
+      1000,
+      480
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "or suffered by any Operator Indemnitee arising out of any Third Party Claims against a Operator Indemnitee to the extent arising out of or in",
+    "bbox": [
+      113,
+      484,
+      1000,
+      496
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "connection with (i) Owner's breach of its representations, warranties or covenants in this Agreement, (ii) the negligent or intentional acts or",
+    "bbox": [
+      111,
+      500,
+      1000,
+      511
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "omissions of Owner or its subcontractors, agents or employees or others under Owner's control or (iii) a breach by Owner of its obligations",
+    "bbox": [
+      110,
+      515,
+      1000,
+      528
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "hereunder, provided that Owner shall have no obligation to indemnify Operator for any negligence, fraud or willful misconduct of any Operator",
+    "bbox": [
+      111,
+      532,
+      1000,
+      544
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Indemnitee or the breach by Operator of any Operator Indemnitee of its covenants and warranties under this Agreement or any other Transaction",
+    "bbox": [
+      111,
+      547,
+      1000,
+      559
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Document.",
+    "bbox": [
+      111,
+      564,
+      194,
+      575
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Section 6.2 Indemnification of Owner by Operator. Operator shall indemnify, defend and hold harmless Owner, its members, managers,",
+    "bbox": [
+      155,
+      595,
+      1000,
+      607
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "officers, directors, employees, Affiliates and agents (each, an \"Owner Indemnitee') from and against any and all Indemnifiable Losses asserted",
+    "bbox": [
+      112,
+      611,
+      1000,
+      624
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "against or suffered by any Owner Indemnitee arising out of any Third Party Claims against an Owner Indemnitee to the extent arising out of or in",
+    "bbox": [
+      112,
+      628,
+      1000,
+      640
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "connection with (i) Operator's breach of its representations, warranties or covenants in this Agreement, (ii) the negligent or intentional acts or",
+    "bbox": [
+      112,
+      645,
+      1000,
+      655
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "omissions of Operator or its subcontractors, agents or employees or others under Operator's control or (iii) a breach by Operator of its obligations",
+    "bbox": [
+      112,
+      660,
+      1000,
+      672
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "hereunder; provided that",
+    "bbox": [
+      111,
+      677,
+      301,
+      687
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "21",
+    "bbox": [
+      656,
+      691,
+      674,
+      703
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]
