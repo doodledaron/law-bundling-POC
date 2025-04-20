@@ -1,0 +1,311 @@
+Early stopping enabled with patience=8, min_delta=0.0001
+Training started at: 2025-04-20 10:16:55
+Parameters: {'dataset_dir': 'CUAD_v1/layoutlmv3_dataset', 'output_dir': 'layoutlmv3/model/train-20250420_101655', 'model_name': 'microsoft/layoutlmv3-base', 'processor_dir': None, 'batch_size': 2, 'learning_rate': 5e-06, 'num_epochs': 100, 'max_seq_length': 512, 'warmup_ratio': 0.1, 'weight_decay': 0.01, 'save_steps': 100, 'eval_steps': 100, 'checkpoint_steps': 500, 'seed': 42, 'device': 'cuda', 'num_workers': 0, 'resume_from': None, 'early_stopping': True, 'patience': 8, 'min_delta': 0.0001}
+Loading model microsoft/layoutlmv3-base...
+Creating new processor with OCR disabled...
+Saving processor to layoutlmv3/model/train-20250420_101655/processor...
+Creating data loaders (batch_size=2, num_workers=0)...
+Starting/Resuming training with 14400 total steps...
+Epoch 1/100
+Step 100/14400 - Loss: 3.6947
+
+Evaluating at step 100... (Time: 2025-04-20 10:17:37)
+Evaluation results: {'precision': 0.09367579033422721, 'recall': 0.029411764705882353, 'f1': 0.019475229223743347}
+New best F1: 0.0195, saving model...
+Epoch 1 average loss: 3.6825
+Evaluating after epoch 1...
+Evaluation results: {'precision': 0.11938071356197177, 'recall': 0.037525354969574036, 'f1': 0.020928294933430396}
+Saving checkpoint at end of epoch 1...
+Epoch 2/100
+Step 200/14400 - Loss: 1.0231
+
+Evaluating at step 200... (Time: 2025-04-20 10:18:42)
+Evaluation results: {'precision': 0.12009698907631602, 'recall': 0.04462474645030426, 'f1': 0.017277565458890722}
+Epoch 2 average loss: 3.6139
+Evaluating after epoch 2...
+Evaluation results: {'precision': 0.02585954602325736, 'recall': 0.04969574036511156, 'f1': 0.014110329114806003}
+Saving checkpoint at end of epoch 2...
+Epoch 3/100
+Step 300/14400 - Loss: 0.1410
+
+Evaluating at step 300... (Time: 2025-04-20 10:19:54)
+Evaluation results: {'precision': 0.028075408268080665, 'recall': 0.05476673427991886, 'f1': 0.017235244004195155}
+Step 400/14400 - Loss: 0.9680
+
+Evaluating at step 400... (Time: 2025-04-20 10:20:19)
+Evaluation results: {'precision': 0.022709380935370345, 'recall': 0.08468559837728194, 'f1': 0.019773721780325722}
+New best F1: 0.0198, saving model...
+Epoch 3 average loss: 3.4454
+Evaluating after epoch 3...
+Evaluation results: {'precision': 0.07410657222306019, 'recall': 0.08823529411764706, 'f1': 0.019073059098800426}
+Saving checkpoint at end of epoch 3...
+Epoch 4/100
+Step 500/14400 - Loss: 0.4553
+
+Evaluating at step 500... (Time: 2025-04-20 10:21:23)
+Evaluation results: {'precision': 0.02158567021703285, 'recall': 0.09178498985801217, 'f1': 0.022597672568320463}
+New best F1: 0.0226, saving model...
+Epoch 4 average loss: 3.2496
+Evaluating after epoch 4...
+Evaluation results: {'precision': 0.025275678441299344, 'recall': 0.09178498985801217, 'f1': 0.021559405858383562}
+Saving checkpoint at end of epoch 4...
+Epoch 5/100
+Step 600/14400 - Loss: 0.1316
+
+Evaluating at step 600... (Time: 2025-04-20 10:22:28)
+Evaluation results: {'precision': 0.05097581600246567, 'recall': 0.09279918864097363, 'f1': 0.02493699779712372}
+New best F1: 0.0249, saving model...
+Step 700/14400 - Loss: 0.5396
+
+Evaluating at step 700... (Time: 2025-04-20 10:22:55)
+Evaluation results: {'precision': 0.03369211049783892, 'recall': 0.11764705882352941, 'f1': 0.027697533570742096}
+New best F1: 0.0277, saving model...
+Epoch 5 average loss: 3.0406
+Evaluating after epoch 5...
+Evaluation results: {'precision': 0.02515406538645947, 'recall': 0.11967545638945233, 'f1': 0.03694758761444493}
+Saving checkpoint at end of epoch 5...
+Epoch 6/100
+Step 800/14400 - Loss: 0.3035
+
+Evaluating at step 800... (Time: 2025-04-20 10:24:08)
+Evaluation results: {'precision': 0.023051144524268, 'recall': 0.12271805273833672, 'f1': 0.03624352710213416}
+New best F1: 0.0362, saving model...
+Epoch 6 average loss: 2.9892
+Evaluating after epoch 6...
+Evaluation results: {'precision': 0.0449345244951759, 'recall': 0.13793103448275862, 'f1': 0.06586425829429952}
+Saving checkpoint at end of epoch 6...
+Epoch 7/100
+Step 900/14400 - Loss: 0.1172
+
+Evaluating at step 900... (Time: 2025-04-20 10:25:11)
+Evaluation results: {'precision': 0.03269668488352708, 'recall': 0.13032454361054766, 'f1': 0.044455445665249775}
+New best F1: 0.0445, saving model...
+Step 1000/14400 - Loss: 0.3836
+
+Evaluating at step 1000... (Time: 2025-04-20 10:25:39)
+Evaluation results: {'precision': 0.024255622133802654, 'recall': 0.1308316430020284, 'f1': 0.040861172756809054}
+Epoch 7 average loss: 2.8272
+Evaluating after epoch 7...
+Evaluation results: {'precision': 0.02040800623785153, 'recall': 0.1206896551724138, 'f1': 0.0346852499254042}
+Saving checkpoint at end of epoch 7...
+Epoch 8/100
+Step 1100/14400 - Loss: 0.2315
+
+Evaluating at step 1100... (Time: 2025-04-20 10:26:51)
+Evaluation results: {'precision': 0.08347933849525029, 'recall': 0.14300202839756593, 'f1': 0.08537632741390043}
+New best F1: 0.0854, saving model...
+Epoch 8 average loss: 2.7722
+Evaluating after epoch 8...
+Evaluation results: {'precision': 0.05886964657669116, 'recall': 0.1460446247464503, 'f1': 0.07504883338958562}
+Saving checkpoint at end of epoch 8...
+Epoch 9/100
+Step 1200/14400 - Loss: 0.1102
+
+Evaluating at step 1200... (Time: 2025-04-20 10:27:54)
+Evaluation results: {'precision': 0.07736535578023251, 'recall': 0.17342799188640973, 'f1': 0.09228950973144445}
+New best F1: 0.0923, saving model...
+Epoch 9 average loss: 2.6382
+Evaluating after epoch 9...
+Evaluation results: {'precision': 0.026985648209296165, 'recall': 0.1328600405679513, 'f1': 0.04267574597492763}
+Saving checkpoint at end of epoch 9...
+Epoch 10/100
+Step 1300/14400 - Loss: 0.0094
+
+Evaluating at step 1300... (Time: 2025-04-20 10:28:56)
+Evaluation results: {'precision': 0.04927200535777722, 'recall': 0.12728194726166328, 'f1': 0.04898997446117365}
+Step 1400/14400 - Loss: 0.1954
+
+Evaluating at step 1400... (Time: 2025-04-20 10:29:22)
+Evaluation results: {'precision': 0.08019603681793125, 'recall': 0.14300202839756593, 'f1': 0.09244566951244522}
+New best F1: 0.0924, saving model...
+Epoch 10 average loss: 2.5195
+Evaluating after epoch 10...
+Evaluation results: {'precision': 0.048045536631824495, 'recall': 0.1328600405679513, 'f1': 0.0668285214181026}
+Saving checkpoint at end of epoch 10...
+Epoch 11/100
+Step 1500/14400 - Loss: 0.0994
+
+Evaluating at step 1500... (Time: 2025-04-20 10:30:35)
+Evaluation results: {'precision': 0.04539649389590162, 'recall': 0.12119675456389452, 'f1': 0.06488270716734863}
+Epoch 11 average loss: 2.3382
+Evaluating after epoch 11...
+Evaluation results: {'precision': 0.10922531161295865, 'recall': 0.14705882352941177, 'f1': 0.09323363733415807}
+Saving checkpoint at end of epoch 11...
+Epoch 12/100
+Step 1600/14400 - Loss: 0.0224
+
+Evaluating at step 1600... (Time: 2025-04-20 10:31:47)
+Evaluation results: {'precision': 0.1375718053074523, 'recall': 0.1577079107505071, 'f1': 0.11185185910126856}
+New best F1: 0.1119, saving model...
+Step 1700/14400 - Loss: 0.1475
+
+Evaluating at step 1700... (Time: 2025-04-20 10:32:14)
+Evaluation results: {'precision': 0.10909152466943672, 'recall': 0.15415821501014199, 'f1': 0.11094124520253469}
+Epoch 12 average loss: 2.1111
+Evaluating after epoch 12...
+Evaluation results: {'precision': 0.11104627658357238, 'recall': 0.17089249492900607, 'f1': 0.12021367974470393}
+Saving checkpoint at end of epoch 12...
+Epoch 13/100
+Step 1800/14400 - Loss: 0.0912
+
+Evaluating at step 1800... (Time: 2025-04-20 10:33:26)
+Evaluation results: {'precision': 0.1880877116976008, 'recall': 0.1744421906693712, 'f1': 0.13411657752519443}
+New best F1: 0.1341, saving model...
+Epoch 13 average loss: 2.0281
+Evaluating after epoch 13...
+Evaluation results: {'precision': 0.1187332151001172, 'recall': 0.16531440162271804, 'f1': 0.1230252483318181}
+Saving checkpoint at end of epoch 13...
+Epoch 14/100
+Step 1900/14400 - Loss: 0.0310
+
+Evaluating at step 1900... (Time: 2025-04-20 10:34:39)
+Evaluation results: {'precision': 0.18245923256988816, 'recall': 0.2165314401622718, 'f1': 0.130602299045117}
+Step 2000/14400 - Loss: 0.1154
+
+Evaluating at step 2000... (Time: 2025-04-20 10:35:05)
+Evaluation results: {'precision': 0.12890025542692007, 'recall': 0.20943204868154158, 'f1': 0.1370783481610505}
+New best F1: 0.1371, saving model...
+Epoch 14 average loss: 1.8124
+Evaluating after epoch 14...
+Evaluation results: {'precision': 0.13784876100784266, 'recall': 0.1577079107505071, 'f1': 0.12675404304206633}
+Saving checkpoint at end of epoch 14...
+Epoch 15/100
+Step 2100/14400 - Loss: 0.0705
+
+Evaluating at step 2100... (Time: 2025-04-20 10:36:18)
+Evaluation results: {'precision': 0.21124650581214408, 'recall': 0.1678498985801217, 'f1': 0.14847906784414497}
+New best F1: 0.1485, saving model...
+Epoch 15 average loss: 1.6967
+Evaluating after epoch 15...
+Evaluation results: {'precision': 0.16634930574537043, 'recall': 0.16987829614604463, 'f1': 0.14329985848176963}
+Saving checkpoint at end of epoch 15...
+Epoch 16/100
+Step 2200/14400 - Loss: 0.0273
+
+Evaluating at step 2200... (Time: 2025-04-20 10:37:30)
+Evaluation results: {'precision': 0.24754072528864324, 'recall': 0.19168356997971603, 'f1': 0.1754477289778271}
+New best F1: 0.1754, saving model...
+Step 2300/14400 - Loss: 0.0871
+
+Evaluating at step 2300... (Time: 2025-04-20 10:37:58)
+Evaluation results: {'precision': 0.22294791231831776, 'recall': 0.20841784989858012, 'f1': 0.1792294916287765}
+New best F1: 0.1792, saving model...
+Epoch 16 average loss: 1.4240
+Evaluating after epoch 16...
+Evaluation results: {'precision': 0.229473550391312, 'recall': 0.2302231237322515, 'f1': 0.2165971666485627}
+Saving checkpoint at end of epoch 16...
+Epoch 17/100
+Step 2400/14400 - Loss: 0.0532
+
+Evaluating at step 2400... (Time: 2025-04-20 10:39:11)
+Evaluation results: {'precision': 0.18100065046023964, 'recall': 0.15517241379310345, 'f1': 0.1509430561451072}
+Epoch 17 average loss: 1.2791
+Evaluating after epoch 17...
+Evaluation results: {'precision': 0.24526348919055596, 'recall': 0.21348884381338742, 'f1': 0.1963410833034746}
+Saving checkpoint at end of epoch 17...
+Epoch 18/100
+Step 2500/14400 - Loss: 0.0242
+
+Evaluating at step 2500... (Time: 2025-04-20 10:40:23)
+Evaluation results: {'precision': 0.16054802698389697, 'recall': 0.172920892494929, 'f1': 0.15285898505096182}
+Epoch 18 average loss: 1.0932
+Evaluating after epoch 18...
+Evaluation results: {'precision': 0.2008713165748208, 'recall': 0.1896551724137931, 'f1': 0.17828664828730967}
+Saving checkpoint at end of epoch 18...
+Epoch 19/100
+Step 2600/14400 - Loss: 0.0027
+
+Evaluating at step 2600... (Time: 2025-04-20 10:41:35)
+Evaluation results: {'precision': 0.24455716333268873, 'recall': 0.23123732251521298, 'f1': 0.21891077759829788}
+New best F1: 0.2189, saving model...
+Step 2700/14400 - Loss: 0.0380
+
+Evaluating at step 2700... (Time: 2025-04-20 10:42:02)
+Evaluation results: {'precision': 0.21577222577789187, 'recall': 0.2363083164300203, 'f1': 0.20142826475734138}
+Epoch 19 average loss: 0.9370
+Evaluating after epoch 19...
+Evaluation results: {'precision': 0.23597999660258762, 'recall': 0.22413793103448276, 'f1': 0.20520532276905423}
+Saving checkpoint at end of epoch 19...
+Epoch 20/100
+Step 2800/14400 - Loss: 0.0242
+
+Evaluating at step 2800... (Time: 2025-04-20 10:43:14)
+Evaluation results: {'precision': 0.23113818070873157, 'recall': 0.2413793103448276, 'f1': 0.21946258341109795}
+New best F1: 0.2195, saving model...
+Epoch 20 average loss: 0.9007
+Evaluating after epoch 20...
+Evaluation results: {'precision': 0.2473154325253978, 'recall': 0.22413793103448276, 'f1': 0.1969690591358985}
+Saving checkpoint at end of epoch 20...
+Epoch 21/100
+Step 2900/14400 - Loss: 0.0069
+
+Evaluating at step 2900... (Time: 2025-04-20 10:44:27)
+Evaluation results: {'precision': 0.1602429075696106, 'recall': 0.2150101419878296, 'f1': 0.17241504220994985}
+Step 3000/14400 - Loss: 0.0283
+
+Evaluating at step 3000... (Time: 2025-04-20 10:44:54)
+Evaluation results: {'precision': 0.2626690099174941, 'recall': 0.22565922920892495, 'f1': 0.21674717674766467}
+Epoch 21 average loss: 0.6882
+Evaluating after epoch 21...
+Evaluation results: {'precision': 0.21667990648059612, 'recall': 0.23935091277890466, 'f1': 0.20593726189174089}
+Saving checkpoint at end of epoch 21...
+Epoch 22/100
+Step 3100/14400 - Loss: 0.0185
+
+Evaluating at step 3100... (Time: 2025-04-20 10:46:06)
+Evaluation results: {'precision': 0.17991170361195508, 'recall': 0.2281947261663286, 'f1': 0.1864332568033097}
+Epoch 22 average loss: 0.7034
+Evaluating after epoch 22...
+Evaluation results: {'precision': 0.2244379898612236, 'recall': 0.23782961460446247, 'f1': 0.21323764398725478}
+Saving checkpoint at end of epoch 22...
+Epoch 23/100
+Step 3200/14400 - Loss: 0.0082
+
+Evaluating at step 3200... (Time: 2025-04-20 10:47:18)
+Evaluation results: {'precision': 0.24212848656336844, 'recall': 0.2535496957403651, 'f1': 0.2186341518432463}
+Step 3300/14400 - Loss: 0.0246
+
+Evaluating at step 3300... (Time: 2025-04-20 10:47:45)
+Evaluation results: {'precision': 0.23348345000962467, 'recall': 0.2591277890466531, 'f1': 0.23690432288552207}
+New best F1: 0.2369, saving model...
+Epoch 23 average loss: 0.5967
+Evaluating after epoch 23...
+Evaluation results: {'precision': 0.24111283999841226, 'recall': 0.24188640973630832, 'f1': 0.2295280328845145}
+Saving checkpoint at end of epoch 23...
+Epoch 24/100
+Step 3400/14400 - Loss: 0.0162
+
+Evaluating at step 3400... (Time: 2025-04-20 10:48:58)
+Evaluation results: {'precision': 0.204695105849415, 'recall': 0.21754563894523327, 'f1': 0.19451949758172352}
+Epoch 24 average loss: 0.5735
+Evaluating after epoch 24...
+Evaluation results: {'precision': 0.25543250121892574, 'recall': 0.1845841784989858, 'f1': 0.19565286474671462}
+Saving checkpoint at end of epoch 24...
+Epoch 25/100
+Step 3500/14400 - Loss: 0.0094
+
+Evaluating at step 3500... (Time: 2025-04-20 10:50:10)
+Evaluation results: {'precision': 0.21869466401215368, 'recall': 0.22616632860040567, 'f1': 0.20242619375732368}
+Step 3600/14400 - Loss: 0.0199
+
+Evaluating at step 3600... (Time: 2025-04-20 10:50:37)
+Evaluation results: {'precision': 0.23095307431999532, 'recall': 0.22515212981744423, 'f1': 0.20789679925980342}
+Epoch 25 average loss: 0.4977
+Evaluating after epoch 25...
+Evaluation results: {'precision': 0.23095307431999532, 'recall': 0.22515212981744423, 'f1': 0.20789679925980342}
+Saving checkpoint at end of epoch 25...
+Epoch 26/100
+Step 3700/14400 - Loss: 0.0157
+
+Evaluating at step 3700... (Time: 2025-04-20 10:51:49)
+Evaluation results: {'precision': 0.22644845659126384, 'recall': 0.2281947261663286, 'f1': 0.2110113615161186}
+Epoch 26 average loss: 0.5171
+Evaluating after epoch 26...
+Evaluation results: {'precision': 0.23877129604682792, 'recall': 0.22565922920892495, 'f1': 0.21400974290580674}
+Early stopping triggered after epoch 26.
+Best performance was at epoch 23 with F1: 0.2369
+Training complete. Saving final model...
+Best F1: 0.2369
+Model saved to layoutlmv3/model/train-20250420_101655
+Training completed at: 2025-04-20 10:52:16
+Generating training visualizations...
