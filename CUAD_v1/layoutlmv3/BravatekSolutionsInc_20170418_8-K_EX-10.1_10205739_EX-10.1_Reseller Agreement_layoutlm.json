@@ -1,0 +1,3907 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf/Part_I/Reseller/BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.pdf",
+  "annotations": [
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "RESELLER AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "RESELLER AGREEMENT",
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ],
+          "confidence": 0.9752152562141418
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "BVTK",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Company: Bravatek Solutions, Inc. (BVTK).",
+          "bbox": [
+            460.0,
+            775.0,
+            1258.0,
+            821.0
+          ],
+          "confidence": 0.9798861145973206
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Reseller",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "RESELLER AGREEMENT",
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ],
+          "confidence": 0.9752152562141418
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Bravatek Solutions, Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Company: Bravatek Solutions, Inc. (BVTK).",
+          "bbox": [
+            460.0,
+            775.0,
+            1258.0,
+            821.0
+          ],
+          "confidence": 0.9798861145973206
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "i3 ICS",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Date\"), by and between i3 Integrative Creative Solutions, LLC (\"i3 ICs\"), a Virginia limited liability company, having its offices at",
+          "bbox": [
+            448.0,
+            539.0,
+            2860.0,
+            581.0
+          ],
+          "confidence": 0.9797215461730957
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "the company set forth below (\"Company\") (each, individually, a \"party\" and collectively, \"parties\"):",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.1",
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ],
+          "confidence": 0.9890637397766113
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ],
+          "confidence": 0.9752152562141418
+        },
+        {
+          "text": "THIS RESELLER AGREEMENT (this \"Agreement') is made and entered into effect the 7th day of April, 2017 (\"Effective",
+          "bbox": [
+            604.0,
+            479.0,
+            2860.0,
+            524.0
+          ],
+          "confidence": 0.9851179122924805
+        },
+        {
+          "text": "Date\"), by and between i3 Integrative Creative Solutions, LLC (\"i3 ICs\"), a Virginia limited liability company, having its offices at",
+          "bbox": [
+            448.0,
+            539.0,
+            2860.0,
+            581.0
+          ],
+          "confidence": 0.9797215461730957
+        },
+        {
+          "text": "individually, a \"party' and collectively, \"parties'):",
+          "bbox": [
+            444.0,
+            649.0,
+            1370.0,
+            694.0
+          ],
+          "confidence": 0.9902007579803467
+        },
+        {
+          "text": "Company: Bravatek Solutions, Inc. (BVTK).",
+          "bbox": [
+            460.0,
+            775.0,
+            1258.0,
+            821.0
+          ],
+          "confidence": 0.9798861145973206
+        },
+        {
+          "text": "Telephone: 1-866-490-8590",
+          "bbox": [
+            1667.0,
+            773.0,
+            2159.0,
+            819.0
+          ],
+          "confidence": 0.9997531175613403
+        },
+        {
+          "text": "Address:2028 E. Ben White Blvd., Suite 240-2835",
+          "bbox": [
+            464.0,
+            859.0,
+            1367.0,
+            895.0
+          ],
+          "confidence": 0.9871459603309631
+        },
+        {
+          "text": "Fax: N/A",
+          "bbox": [
+            1664.0,
+            855.0,
+            1832.0,
+            899.0
+          ],
+          "confidence": 0.9990730881690979
+        },
+        {
+          "text": "Austin, Texas 78741",
+          "bbox": [
+            462.0,
+            937.0,
+            827.0,
+            978.0
+          ],
+          "confidence": 0.9988735318183899
+        },
+        {
+          "text": "E-mail: tom.cellucci@bravatek.com",
+          "bbox": [
+            1666.0,
+            937.0,
+            2309.0,
+            978.0
+          ],
+          "confidence": 0.9998758435249329
+        },
+        {
+          "text": "Territory: US Federal Government Civilian and Military.",
+          "bbox": [
+            459.0,
+            1016.0,
+            1651.0,
+            1060.0
+          ],
+          "confidence": 0.9827221035957336
+        },
+        {
+          "text": "Agreement Term: 1 Year.",
+          "bbox": [
+            1633.0,
+            1018.0,
+            2108.0,
+            1058.0
+          ],
+          "confidence": 0.9724909663200378
+        },
+        {
+          "text": "Agencies/Customers in the U.S",
+          "bbox": [
+            464.0,
+            1074.0,
+            1050.0,
+            1117.0
+          ],
+          "confidence": 0.9997743964195251
+        },
+        {
+          "text": "Company Products: cybersecurity email software/telecom|Other Terms (not applicable if blank):",
+          "bbox": [
+            462.0,
+            1155.0,
+            2353.0,
+            1197.0
+          ],
+          "confidence": 0.9912549257278442
+        },
+        {
+          "text": "services",
+          "bbox": [
+            460.0,
+            1217.0,
+            614.0,
+            1250.0
+          ],
+          "confidence": 0.9996511936187744
+        },
+        {
+          "text": "Pricing: Reseller will obtain pricing quote from Company for|Contract is renewable for 1 year extension by amendment to",
+          "bbox": [
+            462.0,
+            1292.0,
+            2846.0,
+            1336.0
+          ],
+          "confidence": 0.9951424598693848
+        },
+        {
+          "text": "each opportunity.",
+          "bbox": [
+            462.0,
+            1349.0,
+            785.0,
+            1392.0
+          ],
+          "confidence": 0.9823927283287048
+        },
+        {
+          "text": "this agreement. Either Party may terminate this agreement for.",
+          "bbox": [
+            1668.0,
+            1349.0,
+            2844.0,
+            1391.0
+          ],
+          "confidence": 0.9943450093269348
+        },
+        {
+          "text": "The parties agree as follows:.",
+          "bbox": [
+            605.0,
+            1531.0,
+            1135.0,
+            1573.0
+          ],
+          "confidence": 0.9914015531539917
+        },
+        {
+          "text": "1. Definitions.",
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ],
+          "confidence": 0.9996646046638489
+        },
+        {
+          "text": "a. \"Company'\" shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            1756.0,
+            1784.0,
+            1798.0
+          ],
+          "confidence": 0.9561346769332886
+        },
+        {
+          "text": "b. \"Company Products\"' shall have the meaning assigned in the preamble.",
+          "bbox": [
+            604.0,
+            1868.0,
+            1967.0,
+            1910.0
+          ],
+          "confidence": 0.9956019520759583
+        },
+        {
+          "text": "c. \"Effective Date\" shall have the meaning assigned in the preamble",
+          "bbox": [
+            602.0,
+            1977.0,
+            1863.0,
+            2019.0
+          ],
+          "confidence": 0.9962957501411438
+        },
+        {
+          "text": "d. \"Marks\"' shall have the meaning assigned in Section 7.",
+          "bbox": [
+            604.0,
+            2090.0,
+            1666.0,
+            2134.0
+          ],
+          "confidence": 0.9880393147468567
+        },
+        {
+          "text": "e. \"Net Revenue\" shall mean gross receipts collected by Company or Reseller from the distribution of Company",
+          "bbox": [
+            604.0,
+            2204.0,
+            2856.0,
+            2248.0
+          ],
+          "confidence": 0.9983675479888916
+        },
+        {
+          "text": "Products, [less third party commissions, equipment sales, delivery costs, taxes, refunds, and credits.",
+          "bbox": [
+            448.0,
+            2260.0,
+            2307.0,
+            2304.0
+          ],
+          "confidence": 0.9884462356567383
+        },
+        {
+          "text": "f. \"Proprietary Information\"' shall have the meaning assigned in Section 11.",
+          "bbox": [
+            602.0,
+            2372.0,
+            1988.0,
+            2414.0
+          ],
+          "confidence": 0.9817070364952087
+        },
+        {
+          "text": "g. \"Registered Referral\" shall mean a Named Account (i) for which \"Reseller' identifies & creates the opportunity,",
+          "bbox": [
+            600.0,
+            2480.0,
+            2858.0,
+            2533.0
+          ],
+          "confidence": 0.9803852438926697
+        },
+        {
+          "text": "provides Sales Assistance (as defined below), and (ii) which leads to a direct sale with the \"Company\". Registered Referrals may",
+          "bbox": [
+            446.0,
+            2540.0,
+            2857.0,
+            2586.0
+          ],
+          "confidence": 0.9908136129379272
+        },
+        {
+          "text": "fall into two categories: Sales executed by the \"Company\", and via a third party's prime contract.",
+          "bbox": [
+            446.0,
+            2595.0,
+            2244.0,
+            2641.0
+          ],
+          "confidence": 0.9888241291046143
+        },
+        {
+          "text": "h. \"Sales Assistance\" shall mean (i) introductions to and scheduling meetings with key executives at the Named",
+          "bbox": [
+            598.0,
+            2706.0,
+            2860.0,
+            2752.0
+          ],
+          "confidence": 0.9925665259361267
+        },
+        {
+          "text": "Account (e.g., CxO, Vice President of Infrastructure and Vice President of Application Development), and (ii) generating and",
+          "bbox": [
+            448.0,
+            2767.0,
+            2860.0,
+            2809.0
+          ],
+          "confidence": 0.9953611493110657
+        },
+        {
+          "text": "delivering proposals and providing other marketing and sales support necessary to close the opportunity and obtain an order",
+          "bbox": [
+            448.0,
+            2821.0,
+            2860.0,
+            2865.0
+          ],
+          "confidence": 0.9978345632553101
+        },
+        {
+          "text": "from the Named Account..",
+          "bbox": [
+            450.0,
+            2880.0,
+            924.0,
+            2916.0
+          ],
+          "confidence": 0.9607622623443604
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2993.0,
+            1664.0,
+            3022.0
+          ],
+          "confidence": 0.9997127652168274
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9968578219413757
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "i3 Integrative Creative Solutions, LLC",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Date\"), by and between i3 Integrative Creative Solutions, LLC (\"i3 ICs\"), a Virginia limited liability company, having its offices at",
+          "bbox": [
+            448.0,
+            539.0,
+            2860.0,
+            581.0
+          ],
+          "confidence": 0.9797215461730957
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "7th day of April, 2017",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS RESELLER AGREEMENT (this \"Agreement') is made and entered into effect the 7th day of April, 2017 (\"Effective",
+          "bbox": [
+            604.0,
+            479.0,
+            2860.0,
+            524.0
+          ],
+          "confidence": 0.9851179122924805
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "7th day of April, 2017",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "THIS RESELLER AGREEMENT (this \"Agreement') is made and entered into effect the 7th day of April, 2017 (\"Effective",
+          "bbox": [
+            604.0,
+            479.0,
+            2860.0,
+            524.0
+          ],
+          "confidence": 0.9851179122924805
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Renewal Term_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.",
+      "answer_text": "Contract is renewable for 1 year extension by amendment to this agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Pricing: Reseller will obtain pricing quote from Company for|Contract is renewable for 1 year extension by amendment to",
+          "bbox": [
+            462.0,
+            1292.0,
+            2846.0,
+            1336.0
+          ],
+          "confidence": 0.9951424598693848
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Governing Law_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia without regard to the conflicts of law provisions thereof.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "and (ii) the \"Reseller'' purchases directly from the \"Company\"' at a discount and sells to the customer.",
+          "bbox": [
+            450.0,
+            482.0,
+            2334.0,
+            524.0
+          ],
+          "confidence": 0.9835149049758911
+        },
+        {
+          "text": "j. \"Fulfillment Transaction\" shall mean a sale through the Reseller's contract vehicle to a Federal Agency entity that is.",
+          "bbox": [
+            598.0,
+            592.0,
+            2857.0,
+            638.0
+          ],
+          "confidence": 0.9860460162162781
+        },
+        {
+          "text": "not a Registered Referral or Registered Opportunity",
+          "bbox": [
+            446.0,
+            647.0,
+            1405.0,
+            696.0
+          ],
+          "confidence": 0.9809033274650574
+        },
+        {
+          "text": "k. \"Referral Fee'' shall have the meaning assigned in Exhibit B..",
+          "bbox": [
+            602.0,
+            762.0,
+            1754.0,
+            806.0
+          ],
+          "confidence": 0.9785752892494202
+        },
+        {
+          "text": "1. \"Reseller' shall have the meaning assigned in the preamble..",
+          "bbox": [
+            598.0,
+            872.0,
+            1747.0,
+            917.0
+          ],
+          "confidence": 0.9788862466812134
+        },
+        {
+          "text": "m. \"Territory\"' shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            987.0,
+            1776.0,
+            1031.0
+          ],
+          "confidence": 0.9740103483200073
+        },
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ],
+          "confidence": 0.9901356101036072
+        },
+        {
+          "text": "to buy Company Products in the Territory..",
+          "bbox": [
+            446.0,
+            1153.0,
+            1227.0,
+            1201.0
+          ],
+          "confidence": 0.9911601543426514
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ],
+          "confidence": 0.9980789422988892
+        },
+        {
+          "text": "this Agreement, Reseller shall use the then-current names for the Company Products and any sales or marketing documentation",
+          "bbox": [
+            448.0,
+            1325.0,
+            2858.0,
+            1367.0
+          ],
+          "confidence": 0.9985719919204712
+        },
+        {
+          "text": "or forms provided by Company..",
+          "bbox": [
+            448.0,
+            1380.0,
+            1029.0,
+            1422.0
+          ],
+          "confidence": 0.9463931322097778
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ],
+          "confidence": 0.9927790760993958
+        },
+        {
+          "text": "good business practices and all applicable laws and regulations. During the term of this Agreement, Company shall notify reseller",
+          "bbox": [
+            446.0,
+            1546.0,
+            2858.0,
+            1593.0
+          ],
+          "confidence": 0.9902396202087402
+        },
+        {
+          "text": "of any changes, modifications or the discontinuation of any of the Company Products within thirty (30) days. Company shall",
+          "bbox": [
+            448.0,
+            1604.0,
+            2860.0,
+            1646.0
+          ],
+          "confidence": 0.9965085983276367
+        },
+        {
+          "text": "make reasonable accommodations for any ongoing sales or existing sales..",
+          "bbox": [
+            444.0,
+            1661.0,
+            1813.0,
+            1701.0
+          ],
+          "confidence": 0.9836264848709106
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ],
+          "confidence": 0.9946539998054504
+        },
+        {
+          "text": "termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive.",
+          "bbox": [
+            442.0,
+            1827.0,
+            2860.0,
+            1873.0
+          ],
+          "confidence": 0.9964202642440796
+        },
+        {
+          "text": "right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products",
+          "bbox": [
+            448.0,
+            1886.0,
+            2858.0,
+            1928.0
+          ],
+          "confidence": 0.9858182668685913
+        },
+        {
+          "text": "or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the",
+          "bbox": [
+            446.0,
+            1942.0,
+            2858.0,
+            1984.0
+          ],
+          "confidence": 0.9927161335945129
+        },
+        {
+          "text": "Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller.",
+          "bbox": [
+            446.0,
+            1997.0,
+            2857.0,
+            2037.0
+          ],
+          "confidence": 0.9868861436843872
+        },
+        {
+          "text": "and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents,",
+          "bbox": [
+            446.0,
+            2052.0,
+            2857.0,
+            2096.0
+          ],
+          "confidence": 0.9948574304580688
+        },
+        {
+          "text": "representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing",
+          "bbox": [
+            444.0,
+            2109.0,
+            2858.0,
+            2154.0
+          ],
+          "confidence": 0.9996578693389893
+        },
+        {
+          "text": "or prospective customer of the Reseller..",
+          "bbox": [
+            448.0,
+            2165.0,
+            1180.0,
+            2207.0
+          ],
+          "confidence": 0.9908010959625244
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ],
+          "confidence": 0.9932149052619934
+        },
+        {
+          "text": "form attached hereto as Exhibit A, and (ii) such Registered Referral executes an agreement to purchase any of such Company",
+          "bbox": [
+            444.0,
+            2330.0,
+            2857.0,
+            2379.0
+          ],
+          "confidence": 0.991463840007782
+        },
+        {
+          "text": "Products or services, then Company shall pay Reseller a Referral Fee, as specified in Exhibit B attached hereto. Referral Fees will",
+          "bbox": [
+            446.0,
+            2390.0,
+            2860.0,
+            2432.0
+          ],
+          "confidence": 0.9981054663658142
+        },
+        {
+          "text": "be paid within thirty (30) days of the collection of receivables from the Registered Referral. In the event an opportunity is",
+          "bbox": [
+            446.0,
+            2447.0,
+            2860.0,
+            2489.0
+          ],
+          "confidence": 0.9931979775428772
+        },
+        {
+          "text": "requested and the government elects to use a different contract vehicle as described in 1g, reseller will still receive Referral Fee",
+          "bbox": [
+            442.0,
+            2500.0,
+            2860.0,
+            2546.0
+          ],
+          "confidence": 0.9954943656921387
+        },
+        {
+          "text": "outlined in exhibit B..",
+          "bbox": [
+            448.0,
+            2560.0,
+            825.0,
+            2597.0
+          ],
+          "confidence": 0.9862937331199646
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1638.0,
+            2670.0,
+            1668.0,
+            2706.0
+          ],
+          "confidence": 0.9900665283203125
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9959858059883118
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ]
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "page": 1,
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ]
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ]
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "page": 1,
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Exclusivity_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).",
+      "answer_text": "During the Term hereof and for a period of six (6) months following the termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller, and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents, representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing or prospective customer of the Reseller.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ],
+          "confidence": 0.9946539998054504
+        },
+        {
+          "text": "termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive.",
+          "bbox": [
+            442.0,
+            1827.0,
+            2860.0,
+            1873.0
+          ],
+          "confidence": 0.9964202642440796
+        },
+        {
+          "text": "right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products",
+          "bbox": [
+            448.0,
+            1886.0,
+            2858.0,
+            1928.0
+          ],
+          "confidence": 0.9858182668685913
+        },
+        {
+          "text": "or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the",
+          "bbox": [
+            446.0,
+            1942.0,
+            2858.0,
+            1984.0
+          ],
+          "confidence": 0.9927161335945129
+        },
+        {
+          "text": "Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller.",
+          "bbox": [
+            446.0,
+            1997.0,
+            2857.0,
+            2037.0
+          ],
+          "confidence": 0.9868861436843872
+        },
+        {
+          "text": "and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents,",
+          "bbox": [
+            446.0,
+            2052.0,
+            2857.0,
+            2096.0
+          ],
+          "confidence": 0.9948574304580688
+        },
+        {
+          "text": "representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing",
+          "bbox": [
+            444.0,
+            2109.0,
+            2858.0,
+            2154.0
+          ],
+          "confidence": 0.9996578693389893
+        },
+        {
+          "text": "or prospective customer of the Reseller..",
+          "bbox": [
+            448.0,
+            2165.0,
+            1180.0,
+            2207.0
+          ],
+          "confidence": 0.9908010959625244
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ]
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "page": 1,
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ]
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ]
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "page": 1,
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Termination For Convenience_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)?",
+      "answer_text": "Either Party may terminate this agreement for non-cause with a sixty (60) written notice.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.1",
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ],
+          "confidence": 0.9890637397766113
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ],
+          "confidence": 0.9752152562141418
+        },
+        {
+          "text": "THIS RESELLER AGREEMENT (this \"Agreement') is made and entered into effect the 7th day of April, 2017 (\"Effective",
+          "bbox": [
+            604.0,
+            479.0,
+            2860.0,
+            524.0
+          ],
+          "confidence": 0.9851179122924805
+        },
+        {
+          "text": "Date\"), by and between i3 Integrative Creative Solutions, LLC (\"i3 ICs\"), a Virginia limited liability company, having its offices at",
+          "bbox": [
+            448.0,
+            539.0,
+            2860.0,
+            581.0
+          ],
+          "confidence": 0.9797215461730957
+        },
+        {
+          "text": "individually, a \"party' and collectively, \"parties'):",
+          "bbox": [
+            444.0,
+            649.0,
+            1370.0,
+            694.0
+          ],
+          "confidence": 0.9902007579803467
+        },
+        {
+          "text": "Company: Bravatek Solutions, Inc. (BVTK).",
+          "bbox": [
+            460.0,
+            775.0,
+            1258.0,
+            821.0
+          ],
+          "confidence": 0.9798861145973206
+        },
+        {
+          "text": "Telephone: 1-866-490-8590",
+          "bbox": [
+            1667.0,
+            773.0,
+            2159.0,
+            819.0
+          ],
+          "confidence": 0.9997531175613403
+        },
+        {
+          "text": "Address:2028 E. Ben White Blvd., Suite 240-2835",
+          "bbox": [
+            464.0,
+            859.0,
+            1367.0,
+            895.0
+          ],
+          "confidence": 0.9871459603309631
+        },
+        {
+          "text": "Fax: N/A",
+          "bbox": [
+            1664.0,
+            855.0,
+            1832.0,
+            899.0
+          ],
+          "confidence": 0.9990730881690979
+        },
+        {
+          "text": "Austin, Texas 78741",
+          "bbox": [
+            462.0,
+            937.0,
+            827.0,
+            978.0
+          ],
+          "confidence": 0.9988735318183899
+        },
+        {
+          "text": "E-mail: tom.cellucci@bravatek.com",
+          "bbox": [
+            1666.0,
+            937.0,
+            2309.0,
+            978.0
+          ],
+          "confidence": 0.9998758435249329
+        },
+        {
+          "text": "Territory: US Federal Government Civilian and Military.",
+          "bbox": [
+            459.0,
+            1016.0,
+            1651.0,
+            1060.0
+          ],
+          "confidence": 0.9827221035957336
+        },
+        {
+          "text": "Agreement Term: 1 Year.",
+          "bbox": [
+            1633.0,
+            1018.0,
+            2108.0,
+            1058.0
+          ],
+          "confidence": 0.9724909663200378
+        },
+        {
+          "text": "Agencies/Customers in the U.S",
+          "bbox": [
+            464.0,
+            1074.0,
+            1050.0,
+            1117.0
+          ],
+          "confidence": 0.9997743964195251
+        },
+        {
+          "text": "Company Products: cybersecurity email software/telecom|Other Terms (not applicable if blank):",
+          "bbox": [
+            462.0,
+            1155.0,
+            2353.0,
+            1197.0
+          ],
+          "confidence": 0.9912549257278442
+        },
+        {
+          "text": "services",
+          "bbox": [
+            460.0,
+            1217.0,
+            614.0,
+            1250.0
+          ],
+          "confidence": 0.9996511936187744
+        },
+        {
+          "text": "Pricing: Reseller will obtain pricing quote from Company for|Contract is renewable for 1 year extension by amendment to",
+          "bbox": [
+            462.0,
+            1292.0,
+            2846.0,
+            1336.0
+          ],
+          "confidence": 0.9951424598693848
+        },
+        {
+          "text": "each opportunity.",
+          "bbox": [
+            462.0,
+            1349.0,
+            785.0,
+            1392.0
+          ],
+          "confidence": 0.9823927283287048
+        },
+        {
+          "text": "this agreement. Either Party may terminate this agreement for.",
+          "bbox": [
+            1668.0,
+            1349.0,
+            2844.0,
+            1391.0
+          ],
+          "confidence": 0.9943450093269348
+        },
+        {
+          "text": "The parties agree as follows:.",
+          "bbox": [
+            605.0,
+            1531.0,
+            1135.0,
+            1573.0
+          ],
+          "confidence": 0.9914015531539917
+        },
+        {
+          "text": "1. Definitions.",
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ],
+          "confidence": 0.9996646046638489
+        },
+        {
+          "text": "a. \"Company'\" shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            1756.0,
+            1784.0,
+            1798.0
+          ],
+          "confidence": 0.9561346769332886
+        },
+        {
+          "text": "b. \"Company Products\"' shall have the meaning assigned in the preamble.",
+          "bbox": [
+            604.0,
+            1868.0,
+            1967.0,
+            1910.0
+          ],
+          "confidence": 0.9956019520759583
+        },
+        {
+          "text": "c. \"Effective Date\" shall have the meaning assigned in the preamble",
+          "bbox": [
+            602.0,
+            1977.0,
+            1863.0,
+            2019.0
+          ],
+          "confidence": 0.9962957501411438
+        },
+        {
+          "text": "d. \"Marks\"' shall have the meaning assigned in Section 7.",
+          "bbox": [
+            604.0,
+            2090.0,
+            1666.0,
+            2134.0
+          ],
+          "confidence": 0.9880393147468567
+        },
+        {
+          "text": "e. \"Net Revenue\" shall mean gross receipts collected by Company or Reseller from the distribution of Company",
+          "bbox": [
+            604.0,
+            2204.0,
+            2856.0,
+            2248.0
+          ],
+          "confidence": 0.9983675479888916
+        },
+        {
+          "text": "Products, [less third party commissions, equipment sales, delivery costs, taxes, refunds, and credits.",
+          "bbox": [
+            448.0,
+            2260.0,
+            2307.0,
+            2304.0
+          ],
+          "confidence": 0.9884462356567383
+        },
+        {
+          "text": "f. \"Proprietary Information\"' shall have the meaning assigned in Section 11.",
+          "bbox": [
+            602.0,
+            2372.0,
+            1988.0,
+            2414.0
+          ],
+          "confidence": 0.9817070364952087
+        },
+        {
+          "text": "g. \"Registered Referral\" shall mean a Named Account (i) for which \"Reseller' identifies & creates the opportunity,",
+          "bbox": [
+            600.0,
+            2480.0,
+            2858.0,
+            2533.0
+          ],
+          "confidence": 0.9803852438926697
+        },
+        {
+          "text": "provides Sales Assistance (as defined below), and (ii) which leads to a direct sale with the \"Company\". Registered Referrals may",
+          "bbox": [
+            446.0,
+            2540.0,
+            2857.0,
+            2586.0
+          ],
+          "confidence": 0.9908136129379272
+        },
+        {
+          "text": "fall into two categories: Sales executed by the \"Company\", and via a third party's prime contract.",
+          "bbox": [
+            446.0,
+            2595.0,
+            2244.0,
+            2641.0
+          ],
+          "confidence": 0.9888241291046143
+        },
+        {
+          "text": "h. \"Sales Assistance\" shall mean (i) introductions to and scheduling meetings with key executives at the Named",
+          "bbox": [
+            598.0,
+            2706.0,
+            2860.0,
+            2752.0
+          ],
+          "confidence": 0.9925665259361267
+        },
+        {
+          "text": "Account (e.g., CxO, Vice President of Infrastructure and Vice President of Application Development), and (ii) generating and",
+          "bbox": [
+            448.0,
+            2767.0,
+            2860.0,
+            2809.0
+          ],
+          "confidence": 0.9953611493110657
+        },
+        {
+          "text": "delivering proposals and providing other marketing and sales support necessary to close the opportunity and obtain an order",
+          "bbox": [
+            448.0,
+            2821.0,
+            2860.0,
+            2865.0
+          ],
+          "confidence": 0.9978345632553101
+        },
+        {
+          "text": "from the Named Account..",
+          "bbox": [
+            450.0,
+            2880.0,
+            924.0,
+            2916.0
+          ],
+          "confidence": 0.9607622623443604
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2993.0,
+            1664.0,
+            3022.0
+          ],
+          "confidence": 0.9997127652168274
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9968578219413757
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Revenue/Profit Sharing_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?",
+      "answer_text": "25% of Net Revenue (as defined in Section 1e.) with a COMPANY-RESELLER AGREED UPON SALE PRICE in writing, the case of COMPANY's software products.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.1",
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ],
+          "confidence": 0.9890637397766113
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ],
+          "confidence": 0.9752152562141418
+        },
+        {
+          "text": "THIS RESELLER AGREEMENT (this \"Agreement') is made and entered into effect the 7th day of April, 2017 (\"Effective",
+          "bbox": [
+            604.0,
+            479.0,
+            2860.0,
+            524.0
+          ],
+          "confidence": 0.9851179122924805
+        },
+        {
+          "text": "Date\"), by and between i3 Integrative Creative Solutions, LLC (\"i3 ICs\"), a Virginia limited liability company, having its offices at",
+          "bbox": [
+            448.0,
+            539.0,
+            2860.0,
+            581.0
+          ],
+          "confidence": 0.9797215461730957
+        },
+        {
+          "text": "individually, a \"party' and collectively, \"parties'):",
+          "bbox": [
+            444.0,
+            649.0,
+            1370.0,
+            694.0
+          ],
+          "confidence": 0.9902007579803467
+        },
+        {
+          "text": "Company: Bravatek Solutions, Inc. (BVTK).",
+          "bbox": [
+            460.0,
+            775.0,
+            1258.0,
+            821.0
+          ],
+          "confidence": 0.9798861145973206
+        },
+        {
+          "text": "Telephone: 1-866-490-8590",
+          "bbox": [
+            1667.0,
+            773.0,
+            2159.0,
+            819.0
+          ],
+          "confidence": 0.9997531175613403
+        },
+        {
+          "text": "Address:2028 E. Ben White Blvd., Suite 240-2835",
+          "bbox": [
+            464.0,
+            859.0,
+            1367.0,
+            895.0
+          ],
+          "confidence": 0.9871459603309631
+        },
+        {
+          "text": "Fax: N/A",
+          "bbox": [
+            1664.0,
+            855.0,
+            1832.0,
+            899.0
+          ],
+          "confidence": 0.9990730881690979
+        },
+        {
+          "text": "Austin, Texas 78741",
+          "bbox": [
+            462.0,
+            937.0,
+            827.0,
+            978.0
+          ],
+          "confidence": 0.9988735318183899
+        },
+        {
+          "text": "E-mail: tom.cellucci@bravatek.com",
+          "bbox": [
+            1666.0,
+            937.0,
+            2309.0,
+            978.0
+          ],
+          "confidence": 0.9998758435249329
+        },
+        {
+          "text": "Territory: US Federal Government Civilian and Military.",
+          "bbox": [
+            459.0,
+            1016.0,
+            1651.0,
+            1060.0
+          ],
+          "confidence": 0.9827221035957336
+        },
+        {
+          "text": "Agreement Term: 1 Year.",
+          "bbox": [
+            1633.0,
+            1018.0,
+            2108.0,
+            1058.0
+          ],
+          "confidence": 0.9724909663200378
+        },
+        {
+          "text": "Agencies/Customers in the U.S",
+          "bbox": [
+            464.0,
+            1074.0,
+            1050.0,
+            1117.0
+          ],
+          "confidence": 0.9997743964195251
+        },
+        {
+          "text": "Company Products: cybersecurity email software/telecom|Other Terms (not applicable if blank):",
+          "bbox": [
+            462.0,
+            1155.0,
+            2353.0,
+            1197.0
+          ],
+          "confidence": 0.9912549257278442
+        },
+        {
+          "text": "services",
+          "bbox": [
+            460.0,
+            1217.0,
+            614.0,
+            1250.0
+          ],
+          "confidence": 0.9996511936187744
+        },
+        {
+          "text": "Pricing: Reseller will obtain pricing quote from Company for|Contract is renewable for 1 year extension by amendment to",
+          "bbox": [
+            462.0,
+            1292.0,
+            2846.0,
+            1336.0
+          ],
+          "confidence": 0.9951424598693848
+        },
+        {
+          "text": "each opportunity.",
+          "bbox": [
+            462.0,
+            1349.0,
+            785.0,
+            1392.0
+          ],
+          "confidence": 0.9823927283287048
+        },
+        {
+          "text": "this agreement. Either Party may terminate this agreement for.",
+          "bbox": [
+            1668.0,
+            1349.0,
+            2844.0,
+            1391.0
+          ],
+          "confidence": 0.9943450093269348
+        },
+        {
+          "text": "The parties agree as follows:.",
+          "bbox": [
+            605.0,
+            1531.0,
+            1135.0,
+            1573.0
+          ],
+          "confidence": 0.9914015531539917
+        },
+        {
+          "text": "1. Definitions.",
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ],
+          "confidence": 0.9996646046638489
+        },
+        {
+          "text": "a. \"Company'\" shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            1756.0,
+            1784.0,
+            1798.0
+          ],
+          "confidence": 0.9561346769332886
+        },
+        {
+          "text": "b. \"Company Products\"' shall have the meaning assigned in the preamble.",
+          "bbox": [
+            604.0,
+            1868.0,
+            1967.0,
+            1910.0
+          ],
+          "confidence": 0.9956019520759583
+        },
+        {
+          "text": "c. \"Effective Date\" shall have the meaning assigned in the preamble",
+          "bbox": [
+            602.0,
+            1977.0,
+            1863.0,
+            2019.0
+          ],
+          "confidence": 0.9962957501411438
+        },
+        {
+          "text": "d. \"Marks\"' shall have the meaning assigned in Section 7.",
+          "bbox": [
+            604.0,
+            2090.0,
+            1666.0,
+            2134.0
+          ],
+          "confidence": 0.9880393147468567
+        },
+        {
+          "text": "e. \"Net Revenue\" shall mean gross receipts collected by Company or Reseller from the distribution of Company",
+          "bbox": [
+            604.0,
+            2204.0,
+            2856.0,
+            2248.0
+          ],
+          "confidence": 0.9983675479888916
+        },
+        {
+          "text": "Products, [less third party commissions, equipment sales, delivery costs, taxes, refunds, and credits.",
+          "bbox": [
+            448.0,
+            2260.0,
+            2307.0,
+            2304.0
+          ],
+          "confidence": 0.9884462356567383
+        },
+        {
+          "text": "f. \"Proprietary Information\"' shall have the meaning assigned in Section 11.",
+          "bbox": [
+            602.0,
+            2372.0,
+            1988.0,
+            2414.0
+          ],
+          "confidence": 0.9817070364952087
+        },
+        {
+          "text": "g. \"Registered Referral\" shall mean a Named Account (i) for which \"Reseller' identifies & creates the opportunity,",
+          "bbox": [
+            600.0,
+            2480.0,
+            2858.0,
+            2533.0
+          ],
+          "confidence": 0.9803852438926697
+        },
+        {
+          "text": "provides Sales Assistance (as defined below), and (ii) which leads to a direct sale with the \"Company\". Registered Referrals may",
+          "bbox": [
+            446.0,
+            2540.0,
+            2857.0,
+            2586.0
+          ],
+          "confidence": 0.9908136129379272
+        },
+        {
+          "text": "fall into two categories: Sales executed by the \"Company\", and via a third party's prime contract.",
+          "bbox": [
+            446.0,
+            2595.0,
+            2244.0,
+            2641.0
+          ],
+          "confidence": 0.9888241291046143
+        },
+        {
+          "text": "h. \"Sales Assistance\" shall mean (i) introductions to and scheduling meetings with key executives at the Named",
+          "bbox": [
+            598.0,
+            2706.0,
+            2860.0,
+            2752.0
+          ],
+          "confidence": 0.9925665259361267
+        },
+        {
+          "text": "Account (e.g., CxO, Vice President of Infrastructure and Vice President of Application Development), and (ii) generating and",
+          "bbox": [
+            448.0,
+            2767.0,
+            2860.0,
+            2809.0
+          ],
+          "confidence": 0.9953611493110657
+        },
+        {
+          "text": "delivering proposals and providing other marketing and sales support necessary to close the opportunity and obtain an order",
+          "bbox": [
+            448.0,
+            2821.0,
+            2860.0,
+            2865.0
+          ],
+          "confidence": 0.9978345632553101
+        },
+        {
+          "text": "from the Named Account..",
+          "bbox": [
+            450.0,
+            2880.0,
+            924.0,
+            2916.0
+          ],
+          "confidence": 0.9607622623443604
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2993.0,
+            1664.0,
+            3022.0
+          ],
+          "confidence": 0.9997127652168274
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9968578219413757
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__License Grant_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "Subject to the terms of this Agreement, Company grants Reseller the right to use and display the Company trademarks, tradenames and other designations of source, and proprietary notices, slogans, designs and distinct advertising as may appear on any documentation or other material with respect to Product (\"Marks\") with prior approval, that will not be unreasonable withheld.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.1",
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ],
+          "confidence": 0.9890637397766113
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ],
+          "confidence": 0.9752152562141418
+        },
+        {
+          "text": "THIS RESELLER AGREEMENT (this \"Agreement') is made and entered into effect the 7th day of April, 2017 (\"Effective",
+          "bbox": [
+            604.0,
+            479.0,
+            2860.0,
+            524.0
+          ],
+          "confidence": 0.9851179122924805
+        },
+        {
+          "text": "Date\"), by and between i3 Integrative Creative Solutions, LLC (\"i3 ICs\"), a Virginia limited liability company, having its offices at",
+          "bbox": [
+            448.0,
+            539.0,
+            2860.0,
+            581.0
+          ],
+          "confidence": 0.9797215461730957
+        },
+        {
+          "text": "individually, a \"party' and collectively, \"parties'):",
+          "bbox": [
+            444.0,
+            649.0,
+            1370.0,
+            694.0
+          ],
+          "confidence": 0.9902007579803467
+        },
+        {
+          "text": "Company: Bravatek Solutions, Inc. (BVTK).",
+          "bbox": [
+            460.0,
+            775.0,
+            1258.0,
+            821.0
+          ],
+          "confidence": 0.9798861145973206
+        },
+        {
+          "text": "Telephone: 1-866-490-8590",
+          "bbox": [
+            1667.0,
+            773.0,
+            2159.0,
+            819.0
+          ],
+          "confidence": 0.9997531175613403
+        },
+        {
+          "text": "Address:2028 E. Ben White Blvd., Suite 240-2835",
+          "bbox": [
+            464.0,
+            859.0,
+            1367.0,
+            895.0
+          ],
+          "confidence": 0.9871459603309631
+        },
+        {
+          "text": "Fax: N/A",
+          "bbox": [
+            1664.0,
+            855.0,
+            1832.0,
+            899.0
+          ],
+          "confidence": 0.9990730881690979
+        },
+        {
+          "text": "Austin, Texas 78741",
+          "bbox": [
+            462.0,
+            937.0,
+            827.0,
+            978.0
+          ],
+          "confidence": 0.9988735318183899
+        },
+        {
+          "text": "E-mail: tom.cellucci@bravatek.com",
+          "bbox": [
+            1666.0,
+            937.0,
+            2309.0,
+            978.0
+          ],
+          "confidence": 0.9998758435249329
+        },
+        {
+          "text": "Territory: US Federal Government Civilian and Military.",
+          "bbox": [
+            459.0,
+            1016.0,
+            1651.0,
+            1060.0
+          ],
+          "confidence": 0.9827221035957336
+        },
+        {
+          "text": "Agreement Term: 1 Year.",
+          "bbox": [
+            1633.0,
+            1018.0,
+            2108.0,
+            1058.0
+          ],
+          "confidence": 0.9724909663200378
+        },
+        {
+          "text": "Agencies/Customers in the U.S",
+          "bbox": [
+            464.0,
+            1074.0,
+            1050.0,
+            1117.0
+          ],
+          "confidence": 0.9997743964195251
+        },
+        {
+          "text": "Company Products: cybersecurity email software/telecom|Other Terms (not applicable if blank):",
+          "bbox": [
+            462.0,
+            1155.0,
+            2353.0,
+            1197.0
+          ],
+          "confidence": 0.9912549257278442
+        },
+        {
+          "text": "services",
+          "bbox": [
+            460.0,
+            1217.0,
+            614.0,
+            1250.0
+          ],
+          "confidence": 0.9996511936187744
+        },
+        {
+          "text": "Pricing: Reseller will obtain pricing quote from Company for|Contract is renewable for 1 year extension by amendment to",
+          "bbox": [
+            462.0,
+            1292.0,
+            2846.0,
+            1336.0
+          ],
+          "confidence": 0.9951424598693848
+        },
+        {
+          "text": "each opportunity.",
+          "bbox": [
+            462.0,
+            1349.0,
+            785.0,
+            1392.0
+          ],
+          "confidence": 0.9823927283287048
+        },
+        {
+          "text": "this agreement. Either Party may terminate this agreement for.",
+          "bbox": [
+            1668.0,
+            1349.0,
+            2844.0,
+            1391.0
+          ],
+          "confidence": 0.9943450093269348
+        },
+        {
+          "text": "The parties agree as follows:.",
+          "bbox": [
+            605.0,
+            1531.0,
+            1135.0,
+            1573.0
+          ],
+          "confidence": 0.9914015531539917
+        },
+        {
+          "text": "1. Definitions.",
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ],
+          "confidence": 0.9996646046638489
+        },
+        {
+          "text": "a. \"Company'\" shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            1756.0,
+            1784.0,
+            1798.0
+          ],
+          "confidence": 0.9561346769332886
+        },
+        {
+          "text": "b. \"Company Products\"' shall have the meaning assigned in the preamble.",
+          "bbox": [
+            604.0,
+            1868.0,
+            1967.0,
+            1910.0
+          ],
+          "confidence": 0.9956019520759583
+        },
+        {
+          "text": "c. \"Effective Date\" shall have the meaning assigned in the preamble",
+          "bbox": [
+            602.0,
+            1977.0,
+            1863.0,
+            2019.0
+          ],
+          "confidence": 0.9962957501411438
+        },
+        {
+          "text": "d. \"Marks\"' shall have the meaning assigned in Section 7.",
+          "bbox": [
+            604.0,
+            2090.0,
+            1666.0,
+            2134.0
+          ],
+          "confidence": 0.9880393147468567
+        },
+        {
+          "text": "e. \"Net Revenue\" shall mean gross receipts collected by Company or Reseller from the distribution of Company",
+          "bbox": [
+            604.0,
+            2204.0,
+            2856.0,
+            2248.0
+          ],
+          "confidence": 0.9983675479888916
+        },
+        {
+          "text": "Products, [less third party commissions, equipment sales, delivery costs, taxes, refunds, and credits.",
+          "bbox": [
+            448.0,
+            2260.0,
+            2307.0,
+            2304.0
+          ],
+          "confidence": 0.9884462356567383
+        },
+        {
+          "text": "f. \"Proprietary Information\"' shall have the meaning assigned in Section 11.",
+          "bbox": [
+            602.0,
+            2372.0,
+            1988.0,
+            2414.0
+          ],
+          "confidence": 0.9817070364952087
+        },
+        {
+          "text": "g. \"Registered Referral\" shall mean a Named Account (i) for which \"Reseller' identifies & creates the opportunity,",
+          "bbox": [
+            600.0,
+            2480.0,
+            2858.0,
+            2533.0
+          ],
+          "confidence": 0.9803852438926697
+        },
+        {
+          "text": "provides Sales Assistance (as defined below), and (ii) which leads to a direct sale with the \"Company\". Registered Referrals may",
+          "bbox": [
+            446.0,
+            2540.0,
+            2857.0,
+            2586.0
+          ],
+          "confidence": 0.9908136129379272
+        },
+        {
+          "text": "fall into two categories: Sales executed by the \"Company\", and via a third party's prime contract.",
+          "bbox": [
+            446.0,
+            2595.0,
+            2244.0,
+            2641.0
+          ],
+          "confidence": 0.9888241291046143
+        },
+        {
+          "text": "h. \"Sales Assistance\" shall mean (i) introductions to and scheduling meetings with key executives at the Named",
+          "bbox": [
+            598.0,
+            2706.0,
+            2860.0,
+            2752.0
+          ],
+          "confidence": 0.9925665259361267
+        },
+        {
+          "text": "Account (e.g., CxO, Vice President of Infrastructure and Vice President of Application Development), and (ii) generating and",
+          "bbox": [
+            448.0,
+            2767.0,
+            2860.0,
+            2809.0
+          ],
+          "confidence": 0.9953611493110657
+        },
+        {
+          "text": "delivering proposals and providing other marketing and sales support necessary to close the opportunity and obtain an order",
+          "bbox": [
+            448.0,
+            2821.0,
+            2860.0,
+            2865.0
+          ],
+          "confidence": 0.9978345632553101
+        },
+        {
+          "text": "from the Named Account..",
+          "bbox": [
+            450.0,
+            2880.0,
+            924.0,
+            2916.0
+          ],
+          "confidence": 0.9607622623443604
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2993.0,
+            1664.0,
+            3022.0
+          ],
+          "confidence": 0.9997127652168274
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9968578219413757
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__License Grant_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "Subject to the terms of this Agreement, Company grants Reseller the right to use and display the Company trademarks, tradenames and other designations of source, and proprietary notices, slogans, designs and distinct advertising as may appear on any documentation or other material with respect to Product (\"Marks\") with prior approval, that will not be unreasonable withheld.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "and (ii) the \"Reseller'' purchases directly from the \"Company\"' at a discount and sells to the customer.",
+          "bbox": [
+            450.0,
+            482.0,
+            2334.0,
+            524.0
+          ],
+          "confidence": 0.9835149049758911
+        },
+        {
+          "text": "j. \"Fulfillment Transaction\" shall mean a sale through the Reseller's contract vehicle to a Federal Agency entity that is.",
+          "bbox": [
+            598.0,
+            592.0,
+            2857.0,
+            638.0
+          ],
+          "confidence": 0.9860460162162781
+        },
+        {
+          "text": "not a Registered Referral or Registered Opportunity",
+          "bbox": [
+            446.0,
+            647.0,
+            1405.0,
+            696.0
+          ],
+          "confidence": 0.9809033274650574
+        },
+        {
+          "text": "k. \"Referral Fee'' shall have the meaning assigned in Exhibit B..",
+          "bbox": [
+            602.0,
+            762.0,
+            1754.0,
+            806.0
+          ],
+          "confidence": 0.9785752892494202
+        },
+        {
+          "text": "1. \"Reseller' shall have the meaning assigned in the preamble..",
+          "bbox": [
+            598.0,
+            872.0,
+            1747.0,
+            917.0
+          ],
+          "confidence": 0.9788862466812134
+        },
+        {
+          "text": "m. \"Territory\"' shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            987.0,
+            1776.0,
+            1031.0
+          ],
+          "confidence": 0.9740103483200073
+        },
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ],
+          "confidence": 0.9901356101036072
+        },
+        {
+          "text": "to buy Company Products in the Territory..",
+          "bbox": [
+            446.0,
+            1153.0,
+            1227.0,
+            1201.0
+          ],
+          "confidence": 0.9911601543426514
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ],
+          "confidence": 0.9980789422988892
+        },
+        {
+          "text": "this Agreement, Reseller shall use the then-current names for the Company Products and any sales or marketing documentation",
+          "bbox": [
+            448.0,
+            1325.0,
+            2858.0,
+            1367.0
+          ],
+          "confidence": 0.9985719919204712
+        },
+        {
+          "text": "or forms provided by Company..",
+          "bbox": [
+            448.0,
+            1380.0,
+            1029.0,
+            1422.0
+          ],
+          "confidence": 0.9463931322097778
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ],
+          "confidence": 0.9927790760993958
+        },
+        {
+          "text": "good business practices and all applicable laws and regulations. During the term of this Agreement, Company shall notify reseller",
+          "bbox": [
+            446.0,
+            1546.0,
+            2858.0,
+            1593.0
+          ],
+          "confidence": 0.9902396202087402
+        },
+        {
+          "text": "of any changes, modifications or the discontinuation of any of the Company Products within thirty (30) days. Company shall",
+          "bbox": [
+            448.0,
+            1604.0,
+            2860.0,
+            1646.0
+          ],
+          "confidence": 0.9965085983276367
+        },
+        {
+          "text": "make reasonable accommodations for any ongoing sales or existing sales..",
+          "bbox": [
+            444.0,
+            1661.0,
+            1813.0,
+            1701.0
+          ],
+          "confidence": 0.9836264848709106
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ],
+          "confidence": 0.9946539998054504
+        },
+        {
+          "text": "termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive.",
+          "bbox": [
+            442.0,
+            1827.0,
+            2860.0,
+            1873.0
+          ],
+          "confidence": 0.9964202642440796
+        },
+        {
+          "text": "right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products",
+          "bbox": [
+            448.0,
+            1886.0,
+            2858.0,
+            1928.0
+          ],
+          "confidence": 0.9858182668685913
+        },
+        {
+          "text": "or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the",
+          "bbox": [
+            446.0,
+            1942.0,
+            2858.0,
+            1984.0
+          ],
+          "confidence": 0.9927161335945129
+        },
+        {
+          "text": "Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller.",
+          "bbox": [
+            446.0,
+            1997.0,
+            2857.0,
+            2037.0
+          ],
+          "confidence": 0.9868861436843872
+        },
+        {
+          "text": "and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents,",
+          "bbox": [
+            446.0,
+            2052.0,
+            2857.0,
+            2096.0
+          ],
+          "confidence": 0.9948574304580688
+        },
+        {
+          "text": "representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing",
+          "bbox": [
+            444.0,
+            2109.0,
+            2858.0,
+            2154.0
+          ],
+          "confidence": 0.9996578693389893
+        },
+        {
+          "text": "or prospective customer of the Reseller..",
+          "bbox": [
+            448.0,
+            2165.0,
+            1180.0,
+            2207.0
+          ],
+          "confidence": 0.9908010959625244
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ],
+          "confidence": 0.9932149052619934
+        },
+        {
+          "text": "form attached hereto as Exhibit A, and (ii) such Registered Referral executes an agreement to purchase any of such Company",
+          "bbox": [
+            444.0,
+            2330.0,
+            2857.0,
+            2379.0
+          ],
+          "confidence": 0.991463840007782
+        },
+        {
+          "text": "Products or services, then Company shall pay Reseller a Referral Fee, as specified in Exhibit B attached hereto. Referral Fees will",
+          "bbox": [
+            446.0,
+            2390.0,
+            2860.0,
+            2432.0
+          ],
+          "confidence": 0.9981054663658142
+        },
+        {
+          "text": "be paid within thirty (30) days of the collection of receivables from the Registered Referral. In the event an opportunity is",
+          "bbox": [
+            446.0,
+            2447.0,
+            2860.0,
+            2489.0
+          ],
+          "confidence": 0.9931979775428772
+        },
+        {
+          "text": "requested and the government elects to use a different contract vehicle as described in 1g, reseller will still receive Referral Fee",
+          "bbox": [
+            442.0,
+            2500.0,
+            2860.0,
+            2546.0
+          ],
+          "confidence": 0.9954943656921387
+        },
+        {
+          "text": "outlined in exhibit B..",
+          "bbox": [
+            448.0,
+            2560.0,
+            825.0,
+            2597.0
+          ],
+          "confidence": 0.9862937331199646
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1638.0,
+            2670.0,
+            1668.0,
+            2706.0
+          ],
+          "confidence": 0.9900665283203125
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9959858059883118
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ]
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "page": 1,
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ]
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ]
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "page": 1,
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Post-Termination Services_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?",
+      "answer_text": "During the Term hereof and for a period of six (6) months following the termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller, and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents, representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing or prospective customer of the Reseller.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ],
+          "confidence": 0.9946539998054504
+        },
+        {
+          "text": "termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive.",
+          "bbox": [
+            442.0,
+            1827.0,
+            2860.0,
+            1873.0
+          ],
+          "confidence": 0.9964202642440796
+        },
+        {
+          "text": "right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products",
+          "bbox": [
+            448.0,
+            1886.0,
+            2858.0,
+            1928.0
+          ],
+          "confidence": 0.9858182668685913
+        },
+        {
+          "text": "or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the",
+          "bbox": [
+            446.0,
+            1942.0,
+            2858.0,
+            1984.0
+          ],
+          "confidence": 0.9927161335945129
+        },
+        {
+          "text": "Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller.",
+          "bbox": [
+            446.0,
+            1997.0,
+            2857.0,
+            2037.0
+          ],
+          "confidence": 0.9868861436843872
+        },
+        {
+          "text": "and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents,",
+          "bbox": [
+            446.0,
+            2052.0,
+            2857.0,
+            2096.0
+          ],
+          "confidence": 0.9948574304580688
+        },
+        {
+          "text": "representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing",
+          "bbox": [
+            444.0,
+            2109.0,
+            2858.0,
+            2154.0
+          ],
+          "confidence": 0.9996578693389893
+        },
+        {
+          "text": "or prospective customer of the Reseller..",
+          "bbox": [
+            448.0,
+            2165.0,
+            1180.0,
+            2207.0
+          ],
+          "confidence": 0.9908010959625244
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ]
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "page": 1,
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ]
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ]
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "page": 1,
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Cap On Liability_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "answer_text": "EXCEPT FOR IN THE EVENT OF WILLFUL MISCONDUCT OR GROSS NEGLIGENCE, THE RESELLER AND ITS AFFILIATES SHALL NOT BE LIABLE TO THE COMPANY, AND SHALL HAVE NO OBLIGATION TO INDEMNIFY OR HOLD HARMLESS THE COMPANY, WITH RESPECT TO OR IN CONNECTION WITH ANY LOSS RESULTING FROM OR CAUSED BY THE COMPANY PRODUCTS.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EXHIBIT 10.1",
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ],
+          "confidence": 0.9890637397766113
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ],
+          "confidence": 0.9752152562141418
+        },
+        {
+          "text": "THIS RESELLER AGREEMENT (this \"Agreement') is made and entered into effect the 7th day of April, 2017 (\"Effective",
+          "bbox": [
+            604.0,
+            479.0,
+            2860.0,
+            524.0
+          ],
+          "confidence": 0.9851179122924805
+        },
+        {
+          "text": "Date\"), by and between i3 Integrative Creative Solutions, LLC (\"i3 ICs\"), a Virginia limited liability company, having its offices at",
+          "bbox": [
+            448.0,
+            539.0,
+            2860.0,
+            581.0
+          ],
+          "confidence": 0.9797215461730957
+        },
+        {
+          "text": "individually, a \"party' and collectively, \"parties'):",
+          "bbox": [
+            444.0,
+            649.0,
+            1370.0,
+            694.0
+          ],
+          "confidence": 0.9902007579803467
+        },
+        {
+          "text": "Company: Bravatek Solutions, Inc. (BVTK).",
+          "bbox": [
+            460.0,
+            775.0,
+            1258.0,
+            821.0
+          ],
+          "confidence": 0.9798861145973206
+        },
+        {
+          "text": "Telephone: 1-866-490-8590",
+          "bbox": [
+            1667.0,
+            773.0,
+            2159.0,
+            819.0
+          ],
+          "confidence": 0.9997531175613403
+        },
+        {
+          "text": "Address:2028 E. Ben White Blvd., Suite 240-2835",
+          "bbox": [
+            464.0,
+            859.0,
+            1367.0,
+            895.0
+          ],
+          "confidence": 0.9871459603309631
+        },
+        {
+          "text": "Fax: N/A",
+          "bbox": [
+            1664.0,
+            855.0,
+            1832.0,
+            899.0
+          ],
+          "confidence": 0.9990730881690979
+        },
+        {
+          "text": "Austin, Texas 78741",
+          "bbox": [
+            462.0,
+            937.0,
+            827.0,
+            978.0
+          ],
+          "confidence": 0.9988735318183899
+        },
+        {
+          "text": "E-mail: tom.cellucci@bravatek.com",
+          "bbox": [
+            1666.0,
+            937.0,
+            2309.0,
+            978.0
+          ],
+          "confidence": 0.9998758435249329
+        },
+        {
+          "text": "Territory: US Federal Government Civilian and Military.",
+          "bbox": [
+            459.0,
+            1016.0,
+            1651.0,
+            1060.0
+          ],
+          "confidence": 0.9827221035957336
+        },
+        {
+          "text": "Agreement Term: 1 Year.",
+          "bbox": [
+            1633.0,
+            1018.0,
+            2108.0,
+            1058.0
+          ],
+          "confidence": 0.9724909663200378
+        },
+        {
+          "text": "Agencies/Customers in the U.S",
+          "bbox": [
+            464.0,
+            1074.0,
+            1050.0,
+            1117.0
+          ],
+          "confidence": 0.9997743964195251
+        },
+        {
+          "text": "Company Products: cybersecurity email software/telecom|Other Terms (not applicable if blank):",
+          "bbox": [
+            462.0,
+            1155.0,
+            2353.0,
+            1197.0
+          ],
+          "confidence": 0.9912549257278442
+        },
+        {
+          "text": "services",
+          "bbox": [
+            460.0,
+            1217.0,
+            614.0,
+            1250.0
+          ],
+          "confidence": 0.9996511936187744
+        },
+        {
+          "text": "Pricing: Reseller will obtain pricing quote from Company for|Contract is renewable for 1 year extension by amendment to",
+          "bbox": [
+            462.0,
+            1292.0,
+            2846.0,
+            1336.0
+          ],
+          "confidence": 0.9951424598693848
+        },
+        {
+          "text": "each opportunity.",
+          "bbox": [
+            462.0,
+            1349.0,
+            785.0,
+            1392.0
+          ],
+          "confidence": 0.9823927283287048
+        },
+        {
+          "text": "this agreement. Either Party may terminate this agreement for.",
+          "bbox": [
+            1668.0,
+            1349.0,
+            2844.0,
+            1391.0
+          ],
+          "confidence": 0.9943450093269348
+        },
+        {
+          "text": "The parties agree as follows:.",
+          "bbox": [
+            605.0,
+            1531.0,
+            1135.0,
+            1573.0
+          ],
+          "confidence": 0.9914015531539917
+        },
+        {
+          "text": "1. Definitions.",
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ],
+          "confidence": 0.9996646046638489
+        },
+        {
+          "text": "a. \"Company'\" shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            1756.0,
+            1784.0,
+            1798.0
+          ],
+          "confidence": 0.9561346769332886
+        },
+        {
+          "text": "b. \"Company Products\"' shall have the meaning assigned in the preamble.",
+          "bbox": [
+            604.0,
+            1868.0,
+            1967.0,
+            1910.0
+          ],
+          "confidence": 0.9956019520759583
+        },
+        {
+          "text": "c. \"Effective Date\" shall have the meaning assigned in the preamble",
+          "bbox": [
+            602.0,
+            1977.0,
+            1863.0,
+            2019.0
+          ],
+          "confidence": 0.9962957501411438
+        },
+        {
+          "text": "d. \"Marks\"' shall have the meaning assigned in Section 7.",
+          "bbox": [
+            604.0,
+            2090.0,
+            1666.0,
+            2134.0
+          ],
+          "confidence": 0.9880393147468567
+        },
+        {
+          "text": "e. \"Net Revenue\" shall mean gross receipts collected by Company or Reseller from the distribution of Company",
+          "bbox": [
+            604.0,
+            2204.0,
+            2856.0,
+            2248.0
+          ],
+          "confidence": 0.9983675479888916
+        },
+        {
+          "text": "Products, [less third party commissions, equipment sales, delivery costs, taxes, refunds, and credits.",
+          "bbox": [
+            448.0,
+            2260.0,
+            2307.0,
+            2304.0
+          ],
+          "confidence": 0.9884462356567383
+        },
+        {
+          "text": "f. \"Proprietary Information\"' shall have the meaning assigned in Section 11.",
+          "bbox": [
+            602.0,
+            2372.0,
+            1988.0,
+            2414.0
+          ],
+          "confidence": 0.9817070364952087
+        },
+        {
+          "text": "g. \"Registered Referral\" shall mean a Named Account (i) for which \"Reseller' identifies & creates the opportunity,",
+          "bbox": [
+            600.0,
+            2480.0,
+            2858.0,
+            2533.0
+          ],
+          "confidence": 0.9803852438926697
+        },
+        {
+          "text": "provides Sales Assistance (as defined below), and (ii) which leads to a direct sale with the \"Company\". Registered Referrals may",
+          "bbox": [
+            446.0,
+            2540.0,
+            2857.0,
+            2586.0
+          ],
+          "confidence": 0.9908136129379272
+        },
+        {
+          "text": "fall into two categories: Sales executed by the \"Company\", and via a third party's prime contract.",
+          "bbox": [
+            446.0,
+            2595.0,
+            2244.0,
+            2641.0
+          ],
+          "confidence": 0.9888241291046143
+        },
+        {
+          "text": "h. \"Sales Assistance\" shall mean (i) introductions to and scheduling meetings with key executives at the Named",
+          "bbox": [
+            598.0,
+            2706.0,
+            2860.0,
+            2752.0
+          ],
+          "confidence": 0.9925665259361267
+        },
+        {
+          "text": "Account (e.g., CxO, Vice President of Infrastructure and Vice President of Application Development), and (ii) generating and",
+          "bbox": [
+            448.0,
+            2767.0,
+            2860.0,
+            2809.0
+          ],
+          "confidence": 0.9953611493110657
+        },
+        {
+          "text": "delivering proposals and providing other marketing and sales support necessary to close the opportunity and obtain an order",
+          "bbox": [
+            448.0,
+            2821.0,
+            2860.0,
+            2865.0
+          ],
+          "confidence": 0.9978345632553101
+        },
+        {
+          "text": "from the Named Account..",
+          "bbox": [
+            450.0,
+            2880.0,
+            924.0,
+            2916.0
+          ],
+          "confidence": 0.9607622623443604
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1640.0,
+            2993.0,
+            1664.0,
+            3022.0
+          ],
+          "confidence": 0.9997127652168274
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9968578219413757
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "EXHIBIT 10.1",
+          "page": 0,
+          "bbox": [
+            2590.0,
+            258.0,
+            2858.0,
+            294.0
+          ]
+        },
+        {
+          "text": "RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1408.0,
+            373.0,
+            1898.0,
+            404.0
+          ]
+        },
+        {
+          "text": "1. Definitions.",
+          "page": 0,
+          "bbox": [
+            446.0,
+            1637.0,
+            703.0,
+            1685.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement__Cap On Liability_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "answer_text": "EXCEPT FOR IN THE EVENT OF WILLFUL MISCONDUCT OR GROSS NEGLIGENCE, THE RESELLER AND ITS AFFILIATES SHALL NOT BE LIABLE TO THE COMPANY, AND SHALL HAVE NO OBLIGATION TO INDEMNIFY OR HOLD HARMLESS THE COMPANY, WITH RESPECT TO OR IN CONNECTION WITH ANY LOSS RESULTING FROM OR CAUSED BY THE COMPANY PRODUCTS.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "and (ii) the \"Reseller'' purchases directly from the \"Company\"' at a discount and sells to the customer.",
+          "bbox": [
+            450.0,
+            482.0,
+            2334.0,
+            524.0
+          ],
+          "confidence": 0.9835149049758911
+        },
+        {
+          "text": "j. \"Fulfillment Transaction\" shall mean a sale through the Reseller's contract vehicle to a Federal Agency entity that is.",
+          "bbox": [
+            598.0,
+            592.0,
+            2857.0,
+            638.0
+          ],
+          "confidence": 0.9860460162162781
+        },
+        {
+          "text": "not a Registered Referral or Registered Opportunity",
+          "bbox": [
+            446.0,
+            647.0,
+            1405.0,
+            696.0
+          ],
+          "confidence": 0.9809033274650574
+        },
+        {
+          "text": "k. \"Referral Fee'' shall have the meaning assigned in Exhibit B..",
+          "bbox": [
+            602.0,
+            762.0,
+            1754.0,
+            806.0
+          ],
+          "confidence": 0.9785752892494202
+        },
+        {
+          "text": "1. \"Reseller' shall have the meaning assigned in the preamble..",
+          "bbox": [
+            598.0,
+            872.0,
+            1747.0,
+            917.0
+          ],
+          "confidence": 0.9788862466812134
+        },
+        {
+          "text": "m. \"Territory\"' shall have the meaning assigned in the preamble..",
+          "bbox": [
+            604.0,
+            987.0,
+            1776.0,
+            1031.0
+          ],
+          "confidence": 0.9740103483200073
+        },
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ],
+          "confidence": 0.9901356101036072
+        },
+        {
+          "text": "to buy Company Products in the Territory..",
+          "bbox": [
+            446.0,
+            1153.0,
+            1227.0,
+            1201.0
+          ],
+          "confidence": 0.9911601543426514
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ],
+          "confidence": 0.9980789422988892
+        },
+        {
+          "text": "this Agreement, Reseller shall use the then-current names for the Company Products and any sales or marketing documentation",
+          "bbox": [
+            448.0,
+            1325.0,
+            2858.0,
+            1367.0
+          ],
+          "confidence": 0.9985719919204712
+        },
+        {
+          "text": "or forms provided by Company..",
+          "bbox": [
+            448.0,
+            1380.0,
+            1029.0,
+            1422.0
+          ],
+          "confidence": 0.9463931322097778
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ],
+          "confidence": 0.9927790760993958
+        },
+        {
+          "text": "good business practices and all applicable laws and regulations. During the term of this Agreement, Company shall notify reseller",
+          "bbox": [
+            446.0,
+            1546.0,
+            2858.0,
+            1593.0
+          ],
+          "confidence": 0.9902396202087402
+        },
+        {
+          "text": "of any changes, modifications or the discontinuation of any of the Company Products within thirty (30) days. Company shall",
+          "bbox": [
+            448.0,
+            1604.0,
+            2860.0,
+            1646.0
+          ],
+          "confidence": 0.9965085983276367
+        },
+        {
+          "text": "make reasonable accommodations for any ongoing sales or existing sales..",
+          "bbox": [
+            444.0,
+            1661.0,
+            1813.0,
+            1701.0
+          ],
+          "confidence": 0.9836264848709106
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ],
+          "confidence": 0.9946539998054504
+        },
+        {
+          "text": "termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive.",
+          "bbox": [
+            442.0,
+            1827.0,
+            2860.0,
+            1873.0
+          ],
+          "confidence": 0.9964202642440796
+        },
+        {
+          "text": "right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products",
+          "bbox": [
+            448.0,
+            1886.0,
+            2858.0,
+            1928.0
+          ],
+          "confidence": 0.9858182668685913
+        },
+        {
+          "text": "or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the",
+          "bbox": [
+            446.0,
+            1942.0,
+            2858.0,
+            1984.0
+          ],
+          "confidence": 0.9927161335945129
+        },
+        {
+          "text": "Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller.",
+          "bbox": [
+            446.0,
+            1997.0,
+            2857.0,
+            2037.0
+          ],
+          "confidence": 0.9868861436843872
+        },
+        {
+          "text": "and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents,",
+          "bbox": [
+            446.0,
+            2052.0,
+            2857.0,
+            2096.0
+          ],
+          "confidence": 0.9948574304580688
+        },
+        {
+          "text": "representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing",
+          "bbox": [
+            444.0,
+            2109.0,
+            2858.0,
+            2154.0
+          ],
+          "confidence": 0.9996578693389893
+        },
+        {
+          "text": "or prospective customer of the Reseller..",
+          "bbox": [
+            448.0,
+            2165.0,
+            1180.0,
+            2207.0
+          ],
+          "confidence": 0.9908010959625244
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ],
+          "confidence": 0.9932149052619934
+        },
+        {
+          "text": "form attached hereto as Exhibit A, and (ii) such Registered Referral executes an agreement to purchase any of such Company",
+          "bbox": [
+            444.0,
+            2330.0,
+            2857.0,
+            2379.0
+          ],
+          "confidence": 0.991463840007782
+        },
+        {
+          "text": "Products or services, then Company shall pay Reseller a Referral Fee, as specified in Exhibit B attached hereto. Referral Fees will",
+          "bbox": [
+            446.0,
+            2390.0,
+            2860.0,
+            2432.0
+          ],
+          "confidence": 0.9981054663658142
+        },
+        {
+          "text": "be paid within thirty (30) days of the collection of receivables from the Registered Referral. In the event an opportunity is",
+          "bbox": [
+            446.0,
+            2447.0,
+            2860.0,
+            2489.0
+          ],
+          "confidence": 0.9931979775428772
+        },
+        {
+          "text": "requested and the government elects to use a different contract vehicle as described in 1g, reseller will still receive Referral Fee",
+          "bbox": [
+            442.0,
+            2500.0,
+            2860.0,
+            2546.0
+          ],
+          "confidence": 0.9954943656921387
+        },
+        {
+          "text": "outlined in exhibit B..",
+          "bbox": [
+            448.0,
+            2560.0,
+            825.0,
+            2597.0
+          ],
+          "confidence": 0.9862937331199646
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1638.0,
+            2670.0,
+            1668.0,
+            2706.0
+          ],
+          "confidence": 0.9900665283203125
+        },
+        {
+          "text": "Source: BRAVATEK SOLUTIONS, INC., 8-K, 4/18/2017",
+          "bbox": [
+            332.0,
+            4437.0,
+            1392.0,
+            4479.0
+          ],
+          "confidence": 0.9959858059883118
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "2. General Scope. Company develops or provides Company Products and desires that Reseller promote and solicit commitments",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1100.0,
+            2860.0,
+            1142.0
+          ]
+        },
+        {
+          "text": "3. Reseller Activity. Reseller shall have the right to solicit orders for Company Products within the Territory. In its activities under",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1268.0,
+            2858.0,
+            1310.0
+          ]
+        },
+        {
+          "text": "4. Company Obligations. Company shall provide Reseller with the support described in Exhibit B. Company shall comply with",
+          "page": 1,
+          "bbox": [
+            446.0,
+            1491.0,
+            2856.0,
+            1535.0
+          ]
+        },
+        {
+          "text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the",
+          "page": 1,
+          "bbox": [
+            448.0,
+            1773.0,
+            2856.0,
+            1815.0
+          ]
+        },
+        {
+          "text": "6. Compensation. In the event that Reseller (i) refers a Registered Referral to Company, through delivery to Company of the lead.",
+          "page": 1,
+          "bbox": [
+            444.0,
+            2275.0,
+            2860.0,
+            2321.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf/Part_I/Reseller/SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.pdf",
+  "annotations": [
+    {
+      "id": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "FORM OF SUB-RESELLER AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "FORM OF SUB-RESELLER AGREEMENT",
+          "bbox": [
+            1142.0,
+            950.0,
+            2168.0,
+            994.0
+          ],
+          "confidence": 0.9997202157974243
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF SUB-RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1142.0,
+            950.0,
+            2168.0,
+            994.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Salesforce.org",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Salesforce.org, a nonprofit public benefit corporation having its",
+          "bbox": [
+            1593.0,
+            1317.0,
+            2909.0,
+            1376.0
+          ],
+          "confidence": 0.9899828433990479
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF SUB-RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1142.0,
+            950.0,
+            2168.0,
+            994.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "\"SFDC\" or \"Salesforce\"",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "California 94105 (\"SFDC\" or \"Salesforce') and the Reseller named above and amends that certain Reseller Agreement between",
+          "bbox": [
+            279.0,
+            1718.0,
+            2953.0,
+            1765.0
+          ],
+          "confidence": 0.9842635989189148
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF SUB-RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1142.0,
+            950.0,
+            2168.0,
+            994.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "salesforce.com, inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "This Form of Sub-Reseller Agreement (this \"Sub-Reseller Agreement') is made and entered in by and between salesforce.com,",
+          "bbox": [
+            277.0,
+            1588.0,
+            2969.0,
+            1635.0
+          ],
+          "confidence": 0.9901856184005737
+        },
+        {
+          "text": "inc., a Delaware corporation having its principal place of business at The Landmark @ One Market, Suite 300, San Francisco,",
+          "bbox": [
+            279.0,
+            1652.0,
+            2862.0,
+            1701.0
+          ],
+          "confidence": 0.9907626509666443
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF SUB-RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1142.0,
+            950.0,
+            2168.0,
+            994.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "the Reseller named above",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "California 94105 (\"SFDC\" or \"Salesforce') and the Reseller named above and amends that certain Reseller Agreement between",
+          "bbox": [
+            279.0,
+            1718.0,
+            2953.0,
+            1765.0
+          ],
+          "confidence": 0.9842635989189148
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "FORM OF SUB-RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1142.0,
+            950.0,
+            2168.0,
+            994.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement__Effective Date_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Salesforce and Reseller dated as of August 1, 2015, as previously amended (the \"Agreement\"'). This Sub-Reseller Agreement is",
+          "bbox": [
+            281.0,
+            1787.0,
+            2933.0,
+            1831.0
+          ],
+          "confidence": 0.9890071749687195
+        },
+        {
+          "text": "effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date'), provided, however,",
+          "bbox": [
+            279.0,
+            1849.0,
+            2938.0,
+            1900.0
+          ],
+          "confidence": 0.988938570022583
+        },
+        {
+          "text": "that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days. If such period is",
+          "bbox": [
+            277.0,
+            1913.0,
+            2944.0,
+            1964.0
+          ],
+          "confidence": 0.9971894025802612
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "FORM OF SUB-RESELLER AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1142.0,
+            950.0,
+            2168.0,
+            994.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3179 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf/Part_I/Transportation/TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement.pdf",
+  "annotations": [
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "TRANSPORTATION SERVICE AGREEMENT Contract Identification FT18150",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ],
+          "confidence": 0.9907137751579285
+        },
+        {
+          "text": "Contract Identification FT18150",
+          "bbox": [
+            1316.0,
+            1043.0,
+            1994.0,
+            1080.0
+          ],
+          "confidence": 0.9980042576789856
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "ANR PIPELINE COMPANY",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "and ANR PIPELINE COMPANY (Shipper)",
+          "bbox": [
+            277.0,
+            1206.0,
+            1126.0,
+            1254.0
+          ],
+          "confidence": 0.9778608679771423
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Great Lakes Gas Transmission Limited Partnership",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)",
+          "bbox": [
+            277.0,
+            1151.0,
+            2996.0,
+            1197.0
+          ],
+          "confidence": 0.9961249828338623
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Shipper",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "and ANR PIPELINE COMPANY (Shipper)",
+          "bbox": [
+            277.0,
+            1206.0,
+            1126.0,
+            1254.0
+          ],
+          "confidence": 0.9778608679771423
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Transporter",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)",
+          "bbox": [
+            277.0,
+            1151.0,
+            2996.0,
+            1197.0
+          ],
+          "confidence": 0.9961249828338623
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Agreement Date_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "December 14, 2015",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Dated: December 14, 2015",
+          "bbox": [
+            279.0,
+            2668.0,
+            819.0,
+            2710.0
+          ],
+          "confidence": 0.9958624243736267
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "MISCELLANEOUS:",
+          "page": 1,
+          "bbox": [
+            421.0,
+            375.0,
+            819.0,
+            413.0
+          ]
+        },
+        {
+          "text": "OTHER PROVISIONS:",
+          "page": 1,
+          "bbox": [
+            422.0,
+            831.0,
+            886.0,
+            868.0
+          ]
+        },
+        {
+          "text": "NOTICES AND COMMUNICATIONS:",
+          "page": 1,
+          "bbox": [
+            422.0,
+            1396.0,
+            1173.0,
+            1433.0
+          ]
+        },
+        {
+          "text": "ADMINISTRATIVE MATTERS",
+          "page": 1,
+          "bbox": [
+            283.0,
+            1732.0,
+            886.0,
+            1769.0
+          ]
+        },
+        {
+          "text": "ANR PIPELINE COMPANY",
+          "page": 1,
+          "bbox": [
+            1421.0,
+            1789.0,
+            1970.0,
+            1826.0
+          ]
+        },
+        {
+          "text": "AGREED TO BY:",
+          "page": 1,
+          "bbox": [
+            279.0,
+            2012.0,
+            624.0,
+            2050.0
+          ]
+        },
+        {
+          "text": "GREAT LAKES GAS TRANSMISSION",
+          "page": 1,
+          "bbox": [
+            279.0,
+            2134.0,
+            1066.0,
+            2171.0
+          ]
+        },
+        {
+          "text": "ANR PIPELINE COMPANY",
+          "page": 1,
+          "bbox": [
+            1486.0,
+            2136.0,
+            2035.0,
+            2173.0
+          ]
+        },
+        {
+          "text": "LIMITED PARTNERSHIP",
+          "page": 1,
+          "bbox": [
+            277.0,
+            2189.0,
+            790.0,
+            2229.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "EFFECTIVE DATE: November 01, 2016",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "EFFECTIVE DATE: November 01, 2016",
+          "bbox": [
+            421.0,
+            1663.0,
+            1209.0,
+            1699.0
+          ],
+          "confidence": 0.972798764705658
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "TERM: November 01, 2014 to October 31, 2017",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "TERM: November 01. 2014 to October 31. 2017",
+          "bbox": [
+            421.0,
+            2248.0,
+            1378.0,
+            2284.0
+          ],
+          "confidence": 0.9895526170730591
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Governing Law_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in accordance with the laws of the State of Michigan.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "QuickLinks",
+          "bbox": [
+            281.0,
+            356.0,
+            631.0,
+            393.0
+          ],
+          "confidence": 0.9897384643554688
+        },
+        {
+          "text": "-- Click here to rapidly navigate through this document",
+          "bbox": [
+            660.0,
+            351.0,
+            2588.0,
+            397.0
+          ],
+          "confidence": 0.9866781830787659
+        },
+        {
+          "text": "Exhibit 99.12",
+          "bbox": [
+            2733.0,
+            526.0,
+            3014.0,
+            565.0
+          ],
+          "confidence": 0.9967450499534607
+        },
+        {
+          "text": "G",
+          "bbox": [
+            308.0,
+            671.0,
+            491.0,
+            829.0
+          ],
+          "confidence": 0.5581551194190979
+        },
+        {
+          "text": "Great lakes",
+          "bbox": [
+            542.0,
+            687.0,
+            935.0,
+            749.0
+          ],
+          "confidence": 0.9650015234947205
+        },
+        {
+          "text": "Gas Transmission Company",
+          "bbox": [
+            618.0,
+            755.0,
+            1106.0,
+            795.0
+          ],
+          "confidence": 0.9725878834724426
+        },
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ],
+          "confidence": 0.9907137751579285
+        },
+        {
+          "text": "Contract Identification FT18150",
+          "bbox": [
+            1316.0,
+            1043.0,
+            1994.0,
+            1080.0
+          ],
+          "confidence": 0.9980042576789856
+        },
+        {
+          "text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)",
+          "bbox": [
+            277.0,
+            1151.0,
+            2996.0,
+            1197.0
+          ],
+          "confidence": 0.9961249828338623
+        },
+        {
+          "text": "and ANR PIPELINE COMPANY (Shipper)",
+          "bbox": [
+            277.0,
+            1206.0,
+            1126.0,
+            1254.0
+          ],
+          "confidence": 0.9778608679771423
+        },
+        {
+          "text": "WHEREAS, Shipper has requested Transporter to transport Gas on its behalf and Transporter represents that it is willing to transport",
+          "bbox": [
+            275.0,
+            1319.0,
+            2956.0,
+            1365.0
+          ],
+          "confidence": 0.9939489364624023
+        },
+        {
+          "text": "Gas under the terms and conditions of this Agreement.",
+          "bbox": [
+            277.0,
+            1376.0,
+            1387.0,
+            1422.0
+          ],
+          "confidence": 0.9998607039451599
+        },
+        {
+          "text": "NOw, THEREFORE, Transporter and Shipper agree that the terms below constitute the transportation service to be provided and the",
+          "bbox": [
+            277.0,
+            1487.0,
+            2949.0,
+            1533.0
+          ],
+          "confidence": 0.9964675307273865
+        },
+        {
+          "text": "rights and obligations of Shipper and Transporter..",
+          "bbox": [
+            281.0,
+            1548.0,
+            1262.0,
+            1590.0
+          ],
+          "confidence": 0.9907848238945007
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            274.0,
+            1652.0,
+            321.0,
+            1703.0
+          ],
+          "confidence": 0.999909520149231
+        },
+        {
+          "text": "EFFECTIVE DATE: November 01, 2016",
+          "bbox": [
+            421.0,
+            1663.0,
+            1209.0,
+            1699.0
+          ],
+          "confidence": 0.972798764705658
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            270.0,
+            1767.0,
+            321.0,
+            1818.0
+          ],
+          "confidence": 0.8297921419143677
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ],
+          "confidence": 0.9916989207267761
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            270.0,
+            1888.0,
+            321.0,
+            1937.0
+          ],
+          "confidence": 0.9999269843101501
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ],
+          "confidence": 0.9974721074104309
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            270.0,
+            2005.0,
+            321.0,
+            2054.0
+          ],
+          "confidence": 0.9998815655708313
+        },
+        {
+          "text": "SHIPPER TYPE: Interstate PI",
+          "bbox": [
+            419.0,
+            2010.0,
+            1024.0,
+            2052.0
+          ],
+          "confidence": 0.9859851598739624
+        },
+        {
+          "text": "5.",
+          "bbox": [
+            272.0,
+            2118.0,
+            321.0,
+            2169.0
+          ],
+          "confidence": 0.9999290704727173
+        },
+        {
+          "text": "STATE/PROVINCE OF INCORPORATION: Delaware",
+          "bbox": [
+            419.0,
+            2129.0,
+            1492.0,
+            2173.0
+          ],
+          "confidence": 0.9960907697677612
+        },
+        {
+          "text": "6.",
+          "bbox": [
+            270.0,
+            2238.0,
+            321.0,
+            2288.0
+          ],
+          "confidence": 0.9999475479125977
+        },
+        {
+          "text": "TERM: November 01. 2014 to October 31. 2017",
+          "bbox": [
+            421.0,
+            2248.0,
+            1378.0,
+            2284.0
+          ],
+          "confidence": 0.9895526170730591
+        },
+        {
+          "text": "7.",
+          "bbox": [
+            270.0,
+            2355.0,
+            323.0,
+            2403.0
+          ],
+          "confidence": 0.9999707937240601
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ],
+          "confidence": 0.9854886531829834
+        },
+        {
+          "text": "This Agreement supersedes, cancels and terminates, as of the effective date stated above, the following contract(s): Service",
+          "bbox": [
+            421.0,
+            2476.0,
+            2918.0,
+            2518.0
+          ],
+          "confidence": 0.99716717004776
+        },
+        {
+          "text": "Agreement dated November 01, 2015 with Contract Identification FT18150.",
+          "bbox": [
+            419.0,
+            2529.0,
+            1916.0,
+            2573.0
+          ],
+          "confidence": 0.9985897541046143
+        },
+        {
+          "text": "8.",
+          "bbox": [
+            272.0,
+            2639.0,
+            321.0,
+            2688.0
+          ],
+          "confidence": 0.9065907001495361
+        },
+        {
+          "text": "MAXIMUM DAILY QUANTITY (Dth/Day): 101,300",
+          "bbox": [
+            421.0,
+            2650.0,
+            1430.0,
+            2694.0
+          ],
+          "confidence": 0.9824001789093018
+        },
+        {
+          "text": "Please see Appendix A for further detail..",
+          "bbox": [
+            419.0,
+            2763.0,
+            1231.0,
+            2805.0
+          ],
+          "confidence": 0.9961932897567749
+        },
+        {
+          "text": "9.",
+          "bbox": [
+            270.0,
+            2869.0,
+            321.0,
+            2920.0
+          ],
+          "confidence": 0.8302234411239624
+        },
+        {
+          "text": "RATES:",
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ],
+          "confidence": 0.9983541965484619
+        },
+        {
+          "text": "Unless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates",
+          "bbox": [
+            419.0,
+            2990.0,
+            2991.0,
+            3033.0
+          ],
+          "confidence": 0.9886216521263123
+        },
+        {
+          "text": "and charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on",
+          "bbox": [
+            419.0,
+            3048.0,
+            2965.0,
+            3090.0
+          ],
+          "confidence": 0.986723780632019
+        },
+        {
+          "text": "file with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the.",
+          "bbox": [
+            415.0,
+            3101.0,
+            2835.0,
+            3147.0
+          ],
+          "confidence": 0.9901562333106995
+        },
+        {
+          "text": "maximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto.",
+          "bbox": [
+            417.0,
+            3159.0,
+            1970.0,
+            3200.0
+          ],
+          "confidence": 0.9967819452285767
+        },
+        {
+          "text": "10.",
+          "bbox": [
+            275.0,
+            3264.0,
+            344.0,
+            3316.0
+          ],
+          "confidence": 0.9985561966896057
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ],
+          "confidence": 0.9878522157669067
+        },
+        {
+          "text": "The primary receipt and delivery points are set forth on Appendix A.",
+          "bbox": [
+            419.0,
+            3386.0,
+            1774.0,
+            3430.0
+          ],
+          "confidence": 0.9998865723609924
+        },
+        {
+          "text": "11.",
+          "bbox": [
+            276.0,
+            3492.0,
+            343.0,
+            3543.0
+          ],
+          "confidence": 0.9998610019683838
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ],
+          "confidence": 0.9991955161094666
+        },
+        {
+          "text": "N/A",
+          "bbox": [
+            411.0,
+            3614.0,
+            502.0,
+            3662.0
+          ],
+          "confidence": 0.9967921376228333
+        },
+        {
+          "text": "12.",
+          "bbox": [
+            276.0,
+            3724.0,
+            344.0,
+            3775.0
+          ],
+          "confidence": 0.9999303817749023
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ],
+          "confidence": 0.9917910695075989
+        },
+        {
+          "text": "This Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate",
+          "bbox": [
+            421.0,
+            3847.0,
+            2969.0,
+            3889.0
+          ],
+          "confidence": 0.989762008190155
+        },
+        {
+          "text": "Schedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time",
+          "bbox": [
+            419.0,
+            3903.0,
+            2987.0,
+            3945.0
+          ],
+          "confidence": 0.9896261096000671
+        },
+        {
+          "text": "time to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the.",
+          "bbox": [
+            419.0,
+            4017.0,
+            2893.0,
+            4060.0
+          ],
+          "confidence": 0.9924432039260864
+        },
+        {
+          "text": "\"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the",
+          "bbox": [
+            421.0,
+            4071.0,
+            2933.0,
+            4113.0
+          ],
+          "confidence": 0.9885486960411072
+        },
+        {
+          "text": "right to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes.",
+          "bbox": [
+            419.0,
+            4126.0,
+            3012.0,
+            4172.0
+          ],
+          "confidence": 0.9930146336555481
+        },
+        {
+          "text": "and any such changes",
+          "bbox": [
+            419.0,
+            4186.0,
+            877.0,
+            4228.0
+          ],
+          "confidence": 0.9769763946533203
+        },
+        {
+          "text": "Source: TC PIPELINES LP, 10-K, 2/26/2016",
+          "bbox": [
+            277.0,
+            4450.0,
+            1124.0,
+            4486.0
+          ],
+          "confidence": 0.9858218431472778
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Volume Restriction_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold?",
+      "answer_text": "Maximum Daily Quantity (Dth/Day) per Location:\n\nBegin Date End Date Point(s) of Primary Receipt Point(s) of Primary Delivery MDQ\n\nMaximum Allowable Operating Pressure (MAOP)\n\n11/01/2014 03/31/2015 SOUTH CHESTER 101,300 974 11/01/2014 03/31/2015 DEWARD 101,300 974 04/01/2015 10/31/2015 SOUTH CHESTER 0 974 11/01/2015 03/31/2016 SOUTH CHESTER 101,300 974 11/01/2015 03/31/2016 DEWARD 101,300 974 04/01/2016 10/31/2016 SOUTH CHESTER 0 974 11/01/2016 03/31/2017 SOUTH CHESTER 101,300 974 11/01/2016 03/31/2017 DEWARD 101,300 974 04/01/2017 10/31/2017 SOUTH CHESTER 0 974 11/01/2014 03/31/2015 FARWELL 101,300 974 04/01/2015 10/31/2015 FARWELL 0 974 11/01/2015 03/31/2016 FARWELL 101,300 974 04/01/2016 10/31/2016 FARWELL 0 974 11/01/2016 03/31/2017 FARWELL 101,300 974 04/01/2017 10/31/2017 FARWELL 0 974",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "which become effective by operation of law and Commission Order, without prejudice to Shipper's right to protest the same.",
+          "bbox": [
+            419.0,
+            259.0,
+            2900.0,
+            302.0
+          ],
+          "confidence": 0.9905675649642944
+        },
+        {
+          "text": "13.",
+          "bbox": [
+            277.0,
+            367.0,
+            341.0,
+            413.0
+          ],
+          "confidence": 0.9991188645362854
+        },
+        {
+          "text": "MISCELLANEOUS:",
+          "bbox": [
+            421.0,
+            375.0,
+            819.0,
+            413.0
+          ],
+          "confidence": 0.9986142516136169
+        },
+        {
+          "text": "No waiver by either party to this Agreement of any one or more defaults by the other in the performance of this Agreement shal",
+          "bbox": [
+            419.0,
+            486.0,
+            2978.0,
+            528.0
+          ],
+          "confidence": 0.9885950684547424
+        },
+        {
+          "text": "operate or be construed as a waiver of any continuing or future default(s), whether of a like or a different character..",
+          "bbox": [
+            419.0,
+            545.0,
+            2706.0,
+            587.0
+          ],
+          "confidence": 0.9893722534179688
+        },
+        {
+          "text": "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in.",
+          "bbox": [
+            419.0,
+            656.0,
+            2842.0,
+            700.0
+          ],
+          "confidence": 0.9883049130439758
+        },
+        {
+          "text": "accordance with the laws of the State of Michigan.",
+          "bbox": [
+            419.0,
+            713.0,
+            1432.0,
+            755.0
+          ],
+          "confidence": 0.995098888874054
+        },
+        {
+          "text": "14.",
+          "bbox": [
+            275.0,
+            816.0,
+            342.0,
+            868.0
+          ],
+          "confidence": 0.9968816637992859
+        },
+        {
+          "text": "OTHER PROVISIONS:",
+          "bbox": [
+            422.0,
+            831.0,
+            886.0,
+            868.0
+          ],
+          "confidence": 0.9982996582984924
+        },
+        {
+          "text": "It is agreed that no personal liability whatsoever shall attach to, be imposed on or otherwise be incurred by any Partner, agent,",
+          "bbox": [
+            417.0,
+            943.0,
+            2960.0,
+            987.0
+          ],
+          "confidence": 0.990066409111023
+        },
+        {
+          "text": "management official or employee of the Transporter or any director, officer or employee of any of the foregoing, for any obligation",
+          "bbox": [
+            419.0,
+            1001.0,
+            2989.0,
+            1043.0
+          ],
+          "confidence": 0.9979290962219238
+        },
+        {
+          "text": "of the Transporter arising under this Agreement or for any claim based on such obligation and that the sole recourse of Shipper",
+          "bbox": [
+            417.0,
+            1053.0,
+            2971.0,
+            1100.0
+          ],
+          "confidence": 0.9938051700592041
+        },
+        {
+          "text": "under this Agreement is limited to assets of the Transporter..",
+          "bbox": [
+            419.0,
+            1113.0,
+            1629.0,
+            1155.0
+          ],
+          "confidence": 0.9965029358863831
+        },
+        {
+          "text": "Upon termination of this Agreement, Shipper's and Transporter's obligations to each other arising under this Agreement, prior to",
+          "bbox": [
+            421.0,
+            1222.0,
+            2978.0,
+            1265.0
+          ],
+          "confidence": 0.9968695044517517
+        },
+        {
+          "text": "the date of termination, remain in effect and are not being terminated by any provision of this Agreement..",
+          "bbox": [
+            417.0,
+            1281.0,
+            2525.0,
+            1323.0
+          ],
+          "confidence": 0.9895198345184326
+        },
+        {
+          "text": "15.",
+          "bbox": [
+            277.0,
+            1385.0,
+            344.0,
+            1436.0
+          ],
+          "confidence": 0.999147891998291
+        },
+        {
+          "text": "NOTICES AND COMMUNICATIONS:",
+          "bbox": [
+            422.0,
+            1396.0,
+            1173.0,
+            1433.0
+          ],
+          "confidence": 0.9835252165794373
+        },
+        {
+          "text": "All notices and communications with respect to this Agreement shall be in writing by mail, e-mail, or fax, or other means as",
+          "bbox": [
+            417.0,
+            1506.0,
+            2915.0,
+            1551.0
+          ],
+          "confidence": 0.9875646233558655
+        },
+        {
+          "text": "agreed to by the parties, and sent to the addresses stated below or to any other such address(es) as may be designated in",
+          "bbox": [
+            417.0,
+            1562.0,
+            2913.0,
+            1610.0
+          ],
+          "confidence": 0.9917141199111938
+        },
+        {
+          "text": "ADMINISTRATIVE MATTERS",
+          "bbox": [
+            283.0,
+            1732.0,
+            886.0,
+            1769.0
+          ],
+          "confidence": 0.9807422757148743
+        },
+        {
+          "text": "Great Lakes Gas Transmission Limited Partnership",
+          "bbox": [
+            279.0,
+            1789.0,
+            1309.0,
+            1831.0
+          ],
+          "confidence": 0.9998922348022461
+        },
+        {
+          "text": "ANR PIPELINE COMPANY",
+          "bbox": [
+            1421.0,
+            1789.0,
+            1970.0,
+            1826.0
+          ],
+          "confidence": 0.9992960095405579
+        },
+        {
+          "text": "Commercial Services",
+          "bbox": [
+            281.0,
+            1846.0,
+            703.0,
+            1882.0
+          ],
+          "confidence": 0.9916868805885315
+        },
+        {
+          "text": "700 Louisiana St., Suite 700",
+          "bbox": [
+            1421.0,
+            1846.0,
+            1990.0,
+            1882.0
+          ],
+          "confidence": 0.9883846640586853
+        },
+        {
+          "text": "700 Louisiana St., Suite 700",
+          "bbox": [
+            279.0,
+            1899.0,
+            852.0,
+            1941.0
+          ],
+          "confidence": 0.9787880778312683
+        },
+        {
+          "text": "Houston, TX 77002-2700",
+          "bbox": [
+            1417.0,
+            1900.0,
+            1912.0,
+            1942.0
+          ],
+          "confidence": 0.9863194823265076
+        },
+        {
+          "text": "Houston, TX 77002-2700",
+          "bbox": [
+            279.0,
+            1955.0,
+            770.0,
+            1996.0
+          ],
+          "confidence": 0.9938440918922424
+        },
+        {
+          "text": "Attn:",
+          "bbox": [
+            1410.0,
+            1951.0,
+            1519.0,
+            2002.0
+          ],
+          "confidence": 0.9968079328536987
+        },
+        {
+          "text": "AGREED TO BY:",
+          "bbox": [
+            279.0,
+            2012.0,
+            624.0,
+            2050.0
+          ],
+          "confidence": 0.9930490851402283
+        },
+        {
+          "text": "GREAT LAKES GAS TRANSMISSION",
+          "bbox": [
+            279.0,
+            2134.0,
+            1066.0,
+            2171.0
+          ],
+          "confidence": 0.9929822087287903
+        },
+        {
+          "text": "ANR PIPELINE COMPANY",
+          "bbox": [
+            1486.0,
+            2136.0,
+            2035.0,
+            2173.0
+          ],
+          "confidence": 0.9988982081413269
+        },
+        {
+          "text": "LIMITED PARTNERSHIP",
+          "bbox": [
+            277.0,
+            2189.0,
+            790.0,
+            2229.0
+          ],
+          "confidence": 0.9963191151618958
+        },
+        {
+          "text": "By: Great Lakes Gas Transmission Company.",
+          "bbox": [
+            279.0,
+            2248.0,
+            1251.0,
+            2293.0
+          ],
+          "confidence": 0.9868757724761963
+        },
+        {
+          "text": "/s/ STEVEN D. JASKOLSKI",
+          "bbox": [
+            275.0,
+            2366.0,
+            846.0,
+            2410.0
+          ],
+          "confidence": 0.9937083125114441
+        },
+        {
+          "text": "/s/ JOSEPH E. POLLARD",
+          "bbox": [
+            1483.0,
+            2357.0,
+            2014.0,
+            2398.0
+          ],
+          "confidence": 0.9885346293449402
+        },
+        {
+          "text": "Steven D. Jaskolski",
+          "bbox": [
+            281.0,
+            2491.0,
+            680.0,
+            2527.0
+          ],
+          "confidence": 0.9938998222351074
+        },
+        {
+          "text": "Joseph E. Pollard",
+          "bbox": [
+            1486.0,
+            2482.0,
+            1842.0,
+            2520.0
+          ],
+          "confidence": 0.9995623230934143
+        },
+        {
+          "text": "Director, Long Term Marketing",
+          "bbox": [
+            1483.0,
+            2534.0,
+            2083.0,
+            2580.0
+          ],
+          "confidence": 0.9993980526924133
+        },
+        {
+          "text": "Director, Commercial Services",
+          "bbox": [
+            279.0,
+            2544.0,
+            886.0,
+            2588.0
+          ],
+          "confidence": 0.9843717813491821
+        },
+        {
+          "text": "Dated: December 14, 2015",
+          "bbox": [
+            279.0,
+            2668.0,
+            819.0,
+            2710.0
+          ],
+          "confidence": 0.9958624243736267
+        },
+        {
+          "text": "Dated: December 14, 2015",
+          "bbox": [
+            1484.0,
+            2668.0,
+            2028.0,
+            2710.0
+          ],
+          "confidence": 0.9725063443183899
+        },
+        {
+          "text": "Source: TC PIPELINES LP, 10-K, 2/26/2016",
+          "bbox": [
+            275.0,
+            4446.0,
+            1122.0,
+            4486.0
+          ],
+          "confidence": 0.9766189455986023
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "MISCELLANEOUS:",
+          "page": 1,
+          "bbox": [
+            421.0,
+            375.0,
+            819.0,
+            413.0
+          ]
+        },
+        {
+          "text": "OTHER PROVISIONS:",
+          "page": 1,
+          "bbox": [
+            422.0,
+            831.0,
+            886.0,
+            868.0
+          ]
+        },
+        {
+          "text": "NOTICES AND COMMUNICATIONS:",
+          "page": 1,
+          "bbox": [
+            422.0,
+            1396.0,
+            1173.0,
+            1433.0
+          ]
+        },
+        {
+          "text": "ADMINISTRATIVE MATTERS",
+          "page": 1,
+          "bbox": [
+            283.0,
+            1732.0,
+            886.0,
+            1769.0
+          ]
+        },
+        {
+          "text": "ANR PIPELINE COMPANY",
+          "page": 1,
+          "bbox": [
+            1421.0,
+            1789.0,
+            1970.0,
+            1826.0
+          ]
+        },
+        {
+          "text": "AGREED TO BY:",
+          "page": 1,
+          "bbox": [
+            279.0,
+            2012.0,
+            624.0,
+            2050.0
+          ]
+        },
+        {
+          "text": "GREAT LAKES GAS TRANSMISSION",
+          "page": 1,
+          "bbox": [
+            279.0,
+            2134.0,
+            1066.0,
+            2171.0
+          ]
+        },
+        {
+          "text": "ANR PIPELINE COMPANY",
+          "page": 1,
+          "bbox": [
+            1486.0,
+            2136.0,
+            2035.0,
+            2173.0
+          ]
+        },
+        {
+          "text": "LIMITED PARTNERSHIP",
+          "page": 1,
+          "bbox": [
+            277.0,
+            2189.0,
+            790.0,
+            2229.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Volume Restriction_2_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold?",
+      "answer_text": "Maximum Daily Quantity (Dth/Day) per Location:\n\nBegin Date End Date Point(s) of Primary Receipt Point(s) of Primary Delivery MDQ\n\nMaximum Allowable Operating Pressure (MAOP)\n\n11/01/2014 03/31/2015 SOUTH CHESTER 101,300 974 11/01/2014 03/31/2015 DEWARD 101,300 974 04/01/2015 10/31/2015 SOUTH CHESTER 0 974 11/01/2015 03/31/2016 SOUTH CHESTER 101,300 974 11/01/2015 03/31/2016 DEWARD 101,300 974 04/01/2016 10/31/2016 SOUTH CHESTER 0 974 11/01/2016 03/31/2017 SOUTH CHESTER 101,300 974 11/01/2016 03/31/2017 DEWARD 101,300 974 04/01/2017 10/31/2017 SOUTH CHESTER 0 974 11/01/2014 03/31/2015 FARWELL 101,300 974 04/01/2015 10/31/2015 FARWELL 0 974 11/01/2015 03/31/2016 FARWELL 101,300 974 04/01/2016 10/31/2016 FARWELL 0 974 11/01/2016 03/31/2017 FARWELL 101,300 974 04/01/2017 10/31/2017 FARWELL 0 974",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "APPENDIX A",
+          "bbox": [
+            1512.0,
+            316.0,
+            1784.0,
+            355.0
+          ],
+          "confidence": 0.9745070338249207
+        },
+        {
+          "text": "Contract Identification FT18150",
+          "bbox": [
+            1316.0,
+            429.0,
+            1992.0,
+            466.0
+          ],
+          "confidence": 0.9974762201309204
+        },
+        {
+          "text": "Date: November 01. 2016",
+          "bbox": [
+            2519.0,
+            541.0,
+            3025.0,
+            577.0
+          ],
+          "confidence": 0.9726956486701965
+        },
+        {
+          "text": "Supersedes Appendix Dated: November 01, 2015",
+          "bbox": [
+            2034.0,
+            596.0,
+            3029.0,
+            640.0
+          ],
+          "confidence": 0.9994216561317444
+        },
+        {
+          "text": "Shipper: ANR PIPELINE COMPANY",
+          "bbox": [
+            281.0,
+            707.0,
+            1015.0,
+            751.0
+          ],
+          "confidence": 0.9698196053504944
+        },
+        {
+          "text": "Maximum Daily Quantity (Dth/Day) per Location:",
+          "bbox": [
+            277.0,
+            820.0,
+            1263.0,
+            864.0
+          ],
+          "confidence": 0.9995940923690796
+        },
+        {
+          "text": "Maximum",
+          "bbox": [
+            2807.0,
+            923.0,
+            3002.0,
+            965.0
+          ],
+          "confidence": 0.999232292175293
+        },
+        {
+          "text": "Allowable",
+          "bbox": [
+            2809.0,
+            965.0,
+            3000.0,
+            1007.0
+          ],
+          "confidence": 0.9998500347137451
+        },
+        {
+          "text": "Operating",
+          "bbox": [
+            2809.0,
+            1005.0,
+            3000.0,
+            1055.0
+          ],
+          "confidence": 0.9999602437019348
+        },
+        {
+          "text": "Pressure",
+          "bbox": [
+            2811.0,
+            1050.0,
+            2998.0,
+            1093.0
+          ],
+          "confidence": 0.9998115301132202
+        },
+        {
+          "text": "Begin Date",
+          "bbox": [
+            346.0,
+            1093.0,
+            547.0,
+            1131.0
+          ],
+          "confidence": 0.9888795018196106
+        },
+        {
+          "text": "End Date",
+          "bbox": [
+            752.0,
+            1093.0,
+            917.0,
+            1131.0
+          ],
+          "confidence": 0.9998852014541626
+        },
+        {
+          "text": "Point(s) of Primary Receipt",
+          "bbox": [
+            1129.0,
+            1093.0,
+            1646.0,
+            1133.0
+          ],
+          "confidence": 0.9992293119430542
+        },
+        {
+          "text": "Point(s) of Primary Delivery",
+          "bbox": [
+            1832.0,
+            1091.0,
+            2362.0,
+            1139.0
+          ],
+          "confidence": 0.9998916387557983
+        },
+        {
+          "text": "MDQ",
+          "bbox": [
+            2557.0,
+            1093.0,
+            2654.0,
+            1133.0
+          ],
+          "confidence": 0.9852589964866638
+        },
+        {
+          "text": "(MAOP)",
+          "bbox": [
+            2828.0,
+            1093.0,
+            2980.0,
+            1138.0
+          ],
+          "confidence": 0.9844000935554504
+        },
+        {
+          "text": "11/01/2014",
+          "bbox": [
+            281.0,
+            1206.0,
+            498.0,
+            1244.0
+          ],
+          "confidence": 0.9999558329582214
+        },
+        {
+          "text": "03/31/2015",
+          "bbox": [
+            667.0,
+            1206.0,
+            892.0,
+            1244.0
+          ],
+          "confidence": 0.9999263882637024
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "bbox": [
+            1057.0,
+            1204.0,
+            1439.0,
+            1244.0
+          ],
+          "confidence": 0.9815559387207031
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2565.0,
+            1204.0,
+            2728.0,
+            1248.0
+          ],
+          "confidence": 0.9997648596763611
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1202.0,
+            3032.0,
+            1250.0
+          ],
+          "confidence": 0.9999901652336121
+        },
+        {
+          "text": "11/01/2014",
+          "bbox": [
+            281.0,
+            1263.0,
+            498.0,
+            1301.0
+          ],
+          "confidence": 0.9999537467956543
+        },
+        {
+          "text": "03/31/2015",
+          "bbox": [
+            667.0,
+            1263.0,
+            894.0,
+            1301.0
+          ],
+          "confidence": 0.9998718500137329
+        },
+        {
+          "text": "DEWARD",
+          "bbox": [
+            1057.0,
+            1261.0,
+            1254.0,
+            1299.0
+          ],
+          "confidence": 0.9997124075889587
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2565.0,
+            1259.0,
+            2728.0,
+            1305.0
+          ],
+          "confidence": 0.9996790289878845
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1257.0,
+            3032.0,
+            1305.0
+          ],
+          "confidence": 0.9999875426292419
+        },
+        {
+          "text": "04/01/2015",
+          "bbox": [
+            277.0,
+            1316.0,
+            502.0,
+            1354.0
+          ],
+          "confidence": 0.9998754262924194
+        },
+        {
+          "text": "10/31/2015",
+          "bbox": [
+            669.0,
+            1318.0,
+            894.0,
+            1356.0
+          ],
+          "confidence": 0.9999215006828308
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "bbox": [
+            1058.0,
+            1318.0,
+            1439.0,
+            1356.0
+          ],
+          "confidence": 0.9949140548706055
+        },
+        {
+          "text": "0",
+          "bbox": [
+            2693.0,
+            1314.0,
+            2731.0,
+            1361.0
+          ],
+          "confidence": 0.9936829805374146
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2951.0,
+            1316.0,
+            3030.0,
+            1358.0
+          ],
+          "confidence": 0.9999814629554749
+        },
+        {
+          "text": "11/01/2015",
+          "bbox": [
+            281.0,
+            1374.0,
+            500.0,
+            1413.0
+          ],
+          "confidence": 0.9999407529830933
+        },
+        {
+          "text": "03/31/2016",
+          "bbox": [
+            665.0,
+            1372.0,
+            890.0,
+            1411.0
+          ],
+          "confidence": 0.9999262094497681
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "bbox": [
+            1058.0,
+            1374.0,
+            1439.0,
+            1413.0
+          ],
+          "confidence": 0.9983603358268738
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2563.0,
+            1372.0,
+            2728.0,
+            1416.0
+          ],
+          "confidence": 0.9995459914207458
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2951.0,
+            1372.0,
+            3030.0,
+            1414.0
+          ],
+          "confidence": 0.9999814629554749
+        },
+        {
+          "text": "11/01/2015",
+          "bbox": [
+            281.0,
+            1431.0,
+            500.0,
+            1469.0
+          ],
+          "confidence": 0.9999504089355469
+        },
+        {
+          "text": "03/31/2016",
+          "bbox": [
+            667.0,
+            1431.0,
+            894.0,
+            1469.0
+          ],
+          "confidence": 0.9998618960380554
+        },
+        {
+          "text": "DEWARD",
+          "bbox": [
+            1057.0,
+            1431.0,
+            1256.0,
+            1469.0
+          ],
+          "confidence": 0.999699592590332
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2565.0,
+            1429.0,
+            2728.0,
+            1473.0
+          ],
+          "confidence": 0.9998098015785217
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2951.0,
+            1429.0,
+            3030.0,
+            1471.0
+          ],
+          "confidence": 0.9999838471412659
+        },
+        {
+          "text": "04/01/2016",
+          "bbox": [
+            273.0,
+            1482.0,
+            506.0,
+            1530.0
+          ],
+          "confidence": 0.999914824962616
+        },
+        {
+          "text": "10/31/2016",
+          "bbox": [
+            665.0,
+            1484.0,
+            894.0,
+            1528.0
+          ],
+          "confidence": 0.9998995065689087
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "bbox": [
+            1058.0,
+            1487.0,
+            1439.0,
+            1524.0
+          ],
+          "confidence": 0.9974351525306702
+        },
+        {
+          "text": "0",
+          "bbox": [
+            2693.0,
+            1482.0,
+            2731.0,
+            1529.0
+          ],
+          "confidence": 0.9933630228042603
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1482.0,
+            3032.0,
+            1529.0
+          ],
+          "confidence": 0.9999791979789734
+        },
+        {
+          "text": "11/01/2016",
+          "bbox": [
+            279.0,
+            1544.0,
+            500.0,
+            1582.0
+          ],
+          "confidence": 0.9999395608901978
+        },
+        {
+          "text": "03/31/2017",
+          "bbox": [
+            665.0,
+            1540.0,
+            894.0,
+            1584.0
+          ],
+          "confidence": 0.9996936917304993
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "bbox": [
+            1058.0,
+            1544.0,
+            1439.0,
+            1581.0
+          ],
+          "confidence": 0.9965084791183472
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2563.0,
+            1538.0,
+            2728.0,
+            1588.0
+          ],
+          "confidence": 0.999787449836731
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1539.0,
+            3032.0,
+            1586.0
+          ],
+          "confidence": 0.9999873042106628
+        },
+        {
+          "text": "11/01/2016",
+          "bbox": [
+            281.0,
+            1599.0,
+            500.0,
+            1637.0
+          ],
+          "confidence": 0.9999486804008484
+        },
+        {
+          "text": "03/31/2017",
+          "bbox": [
+            665.0,
+            1599.0,
+            890.0,
+            1637.0
+          ],
+          "confidence": 0.9999303817749023
+        },
+        {
+          "text": "DEWARD",
+          "bbox": [
+            1058.0,
+            1599.0,
+            1256.0,
+            1637.0
+          ],
+          "confidence": 0.9996441006660461
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2565.0,
+            1597.0,
+            2728.0,
+            1641.0
+          ],
+          "confidence": 0.9997987747192383
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2951.0,
+            1597.0,
+            3030.0,
+            1639.0
+          ],
+          "confidence": 0.9999831318855286
+        },
+        {
+          "text": "04/01/2017",
+          "bbox": [
+            277.0,
+            1656.0,
+            502.0,
+            1694.0
+          ],
+          "confidence": 0.9997690320014954
+        },
+        {
+          "text": "10/31/2017",
+          "bbox": [
+            667.0,
+            1652.0,
+            894.0,
+            1696.0
+          ],
+          "confidence": 0.999920666217804
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "bbox": [
+            1057.0,
+            1654.0,
+            1437.0,
+            1694.0
+          ],
+          "confidence": 0.9748879671096802
+        },
+        {
+          "text": "0",
+          "bbox": [
+            2693.0,
+            1652.0,
+            2731.0,
+            1698.0
+          ],
+          "confidence": 0.9948107004165649
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1650.0,
+            3032.0,
+            1698.0
+          ],
+          "confidence": 0.9999871253967285
+        },
+        {
+          "text": "11/01/2014",
+          "bbox": [
+            279.0,
+            1709.0,
+            500.0,
+            1752.0
+          ],
+          "confidence": 0.9999257326126099
+        },
+        {
+          "text": "03/31/2015",
+          "bbox": [
+            663.0,
+            1706.0,
+            896.0,
+            1754.0
+          ],
+          "confidence": 0.9999419450759888
+        },
+        {
+          "text": "FARWELL",
+          "bbox": [
+            1765.0,
+            1705.0,
+            1983.0,
+            1753.0
+          ],
+          "confidence": 0.9994776844978333
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2565.0,
+            1709.0,
+            2728.0,
+            1754.0
+          ],
+          "confidence": 0.9998341202735901
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1707.0,
+            3032.0,
+            1754.0
+          ],
+          "confidence": 0.9999837875366211
+        },
+        {
+          "text": "04/01/2015",
+          "bbox": [
+            276.0,
+            1767.0,
+            502.0,
+            1805.0
+          ],
+          "confidence": 0.9998579025268555
+        },
+        {
+          "text": "10/31/2015",
+          "bbox": [
+            669.0,
+            1767.0,
+            894.0,
+            1805.0
+          ],
+          "confidence": 0.9999200105667114
+        },
+        {
+          "text": "FARWELL",
+          "bbox": [
+            1765.0,
+            1761.0,
+            1985.0,
+            1809.0
+          ],
+          "confidence": 0.999544084072113
+        },
+        {
+          "text": "0",
+          "bbox": [
+            2693.0,
+            1763.0,
+            2731.0,
+            1809.0
+          ],
+          "confidence": 0.9938037395477295
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2951.0,
+            1765.0,
+            3030.0,
+            1807.0
+          ],
+          "confidence": 0.999981701374054
+        },
+        {
+          "text": "11/01/2015",
+          "bbox": [
+            281.0,
+            1824.0,
+            500.0,
+            1862.0
+          ],
+          "confidence": 0.9999500513076782
+        },
+        {
+          "text": "03/31/2016",
+          "bbox": [
+            665.0,
+            1826.0,
+            890.0,
+            1862.0
+          ],
+          "confidence": 0.9999136924743652
+        },
+        {
+          "text": "FARWELL",
+          "bbox": [
+            1767.0,
+            1822.0,
+            1981.0,
+            1866.0
+          ],
+          "confidence": 0.999552309513092
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2565.0,
+            1822.0,
+            2728.0,
+            1866.0
+          ],
+          "confidence": 0.9998140931129456
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2951.0,
+            1822.0,
+            3030.0,
+            1864.0
+          ],
+          "confidence": 0.9999837279319763
+        },
+        {
+          "text": "04/01/2016",
+          "bbox": [
+            277.0,
+            1880.0,
+            502.0,
+            1919.0
+          ],
+          "confidence": 0.9998748898506165
+        },
+        {
+          "text": "10/31/2016",
+          "bbox": [
+            669.0,
+            1880.0,
+            892.0,
+            1919.0
+          ],
+          "confidence": 0.9999216794967651
+        },
+        {
+          "text": "FARWELL",
+          "bbox": [
+            1769.0,
+            1880.0,
+            1983.0,
+            1919.0
+          ],
+          "confidence": 0.9996232986450195
+        },
+        {
+          "text": "0",
+          "bbox": [
+            2693.0,
+            1877.0,
+            2731.0,
+            1924.0
+          ],
+          "confidence": 0.9952404499053955
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1875.0,
+            3032.0,
+            1922.0
+          ],
+          "confidence": 0.9999787211418152
+        },
+        {
+          "text": "11/01/2016",
+          "bbox": [
+            277.0,
+            1929.0,
+            501.0,
+            1977.0
+          ],
+          "confidence": 0.999921977519989
+        },
+        {
+          "text": "03/31/2017",
+          "bbox": [
+            667.0,
+            1935.0,
+            892.0,
+            1974.0
+          ],
+          "confidence": 0.9999417066574097
+        },
+        {
+          "text": "FARWELL",
+          "bbox": [
+            1769.0,
+            1935.0,
+            1983.0,
+            1974.0
+          ],
+          "confidence": 0.9996352195739746
+        },
+        {
+          "text": "101,300",
+          "bbox": [
+            2565.0,
+            1933.0,
+            2728.0,
+            1977.0
+          ],
+          "confidence": 0.9997541308403015
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2949.0,
+            1932.0,
+            3032.0,
+            1979.0
+          ],
+          "confidence": 0.9999890923500061
+        },
+        {
+          "text": "04/01/2017",
+          "bbox": [
+            279.0,
+            1992.0,
+            500.0,
+            2030.0
+          ],
+          "confidence": 0.9999410510063171
+        },
+        {
+          "text": "10/31/2017",
+          "bbox": [
+            669.0,
+            1992.0,
+            890.0,
+            2030.0
+          ],
+          "confidence": 0.9999354481697083
+        },
+        {
+          "text": "FARWELL",
+          "bbox": [
+            1767.0,
+            1990.0,
+            1985.0,
+            2034.0
+          ],
+          "confidence": 0.9948717355728149
+        },
+        {
+          "text": "0",
+          "bbox": [
+            2690.0,
+            1984.0,
+            2735.0,
+            2038.0
+          ],
+          "confidence": 0.9913173913955688
+        },
+        {
+          "text": "974",
+          "bbox": [
+            2951.0,
+            1990.0,
+            3030.0,
+            2032.0
+          ],
+          "confidence": 0.9999838471412659
+        },
+        {
+          "text": "Source: TC PIPELINES LP, 10-K, 2/26/2016",
+          "bbox": [
+            275.0,
+            4446.0,
+            1124.0,
+            4486.0
+          ],
+          "confidence": 0.9811275601387024
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "APPENDIX A",
+          "page": 2,
+          "bbox": [
+            1512.0,
+            316.0,
+            1784.0,
+            355.0
+          ]
+        },
+        {
+          "text": "(MAOP)",
+          "page": 2,
+          "bbox": [
+            2828.0,
+            1093.0,
+            2980.0,
+            1138.0
+          ]
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "page": 2,
+          "bbox": [
+            1057.0,
+            1204.0,
+            1439.0,
+            1244.0
+          ]
+        },
+        {
+          "text": "DEWARD",
+          "page": 2,
+          "bbox": [
+            1057.0,
+            1261.0,
+            1254.0,
+            1299.0
+          ]
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "page": 2,
+          "bbox": [
+            1058.0,
+            1318.0,
+            1439.0,
+            1356.0
+          ]
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "page": 2,
+          "bbox": [
+            1058.0,
+            1374.0,
+            1439.0,
+            1413.0
+          ]
+        },
+        {
+          "text": "DEWARD",
+          "page": 2,
+          "bbox": [
+            1057.0,
+            1431.0,
+            1256.0,
+            1469.0
+          ]
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "page": 2,
+          "bbox": [
+            1058.0,
+            1487.0,
+            1439.0,
+            1524.0
+          ]
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "page": 2,
+          "bbox": [
+            1058.0,
+            1544.0,
+            1439.0,
+            1581.0
+          ]
+        },
+        {
+          "text": "DEWARD",
+          "page": 2,
+          "bbox": [
+            1058.0,
+            1599.0,
+            1256.0,
+            1637.0
+          ]
+        },
+        {
+          "text": "SOUTH CHESTER",
+          "page": 2,
+          "bbox": [
+            1057.0,
+            1654.0,
+            1437.0,
+            1694.0
+          ]
+        },
+        {
+          "text": "FARWELL",
+          "page": 2,
+          "bbox": [
+            1765.0,
+            1705.0,
+            1983.0,
+            1753.0
+          ]
+        },
+        {
+          "text": "FARWELL",
+          "page": 2,
+          "bbox": [
+            1765.0,
+            1761.0,
+            1985.0,
+            1809.0
+          ]
+        },
+        {
+          "text": "FARWELL",
+          "page": 2,
+          "bbox": [
+            1767.0,
+            1822.0,
+            1981.0,
+            1866.0
+          ]
+        },
+        {
+          "text": "FARWELL",
+          "page": 2,
+          "bbox": [
+            1769.0,
+            1880.0,
+            1983.0,
+            1919.0
+          ]
+        },
+        {
+          "text": "FARWELL",
+          "page": 2,
+          "bbox": [
+            1769.0,
+            1935.0,
+            1983.0,
+            1974.0
+          ]
+        },
+        {
+          "text": "FARWELL",
+          "page": 2,
+          "bbox": [
+            1767.0,
+            1990.0,
+            1985.0,
+            2034.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement__Volume Restriction_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold?",
+      "answer_text": "MAXIMUM DAILY QUANTITY (Dth/Day): 101,300",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "MAXIMUM DAILY QUANTITY (Dth/Day): 101,300",
+          "bbox": [
+            421.0,
+            2650.0,
+            1430.0,
+            2694.0
+          ],
+          "confidence": 0.9824001789093018
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "TRANSPORTATION SERVICE AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1196.0,
+            985.0,
+            2110.0,
+            1021.0
+          ]
+        },
+        {
+          "text": "CONTRACT IDENTIFICATION: FT18150",
+          "page": 0,
+          "bbox": [
+            421.0,
+            1782.0,
+            1242.0,
+            1818.0
+          ]
+        },
+        {
+          "text": "RATE SCHEDULE: FT",
+          "page": 0,
+          "bbox": [
+            419.0,
+            1895.0,
+            872.0,
+            1935.0
+          ]
+        },
+        {
+          "text": "EFFECT ON PREVIOUS CONTRACTS:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            2361.0,
+            1227.0,
+            2403.0
+          ]
+        },
+        {
+          "text": "RATES:",
+          "page": 0,
+          "bbox": [
+            415.0,
+            2874.0,
+            580.0,
+            2920.0
+          ]
+        },
+        {
+          "text": "POINTS OF RECEIPT AND DELIVERY:",
+          "page": 0,
+          "bbox": [
+            419.0,
+            3273.0,
+            1222.0,
+            3313.0
+          ]
+        },
+        {
+          "text": "RELEASED CAPACITY:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3507.0,
+            904.0,
+            3543.0
+          ]
+        },
+        {
+          "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+          "page": 0,
+          "bbox": [
+            421.0,
+            3735.0,
+            1466.0,
+            3772.0
+          ]
+        }
+      ]
+    }
+  ]
+}

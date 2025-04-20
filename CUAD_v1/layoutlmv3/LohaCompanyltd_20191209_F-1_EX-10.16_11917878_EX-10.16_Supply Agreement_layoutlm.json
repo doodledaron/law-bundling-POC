@@ -1,0 +1,1599 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf/Part_I/Supply/LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement.pdf",
+  "annotations": [
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "SUPPLY CONTRACT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SUPPLY CONTRACT",
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ],
+          "confidence": 0.9996674060821533
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SUPPLY CONTRACT",
+          "page": 0,
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ]
+        },
+        {
+          "text": "1. General provisions",
+          "page": 0,
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ]
+        },
+        {
+          "text": "2. The agreement and order",
+          "page": 0,
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "The seller:",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "The seller:",
+          "bbox": [
+            274.0,
+            674.0,
+            471.0,
+            718.0
+          ],
+          "confidence": 0.9509193301200867
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SUPPLY CONTRACT",
+          "page": 0,
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ]
+        },
+        {
+          "text": "1. General provisions",
+          "page": 0,
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ]
+        },
+        {
+          "text": "2. The agreement and order",
+          "page": 0,
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd..",
+          "bbox": [
+            279.0,
+            508.0,
+            1706.0,
+            550.0
+          ],
+          "confidence": 0.9937980771064758
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SUPPLY CONTRACT",
+          "page": 0,
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ]
+        },
+        {
+          "text": "1. General provisions",
+          "page": 0,
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ]
+        },
+        {
+          "text": "2. The agreement and order",
+          "page": 0,
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Expiration Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "The Contract is valid for 5 years, beginning from and ended on .",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.16.",
+          "bbox": [
+            2777.0,
+            287.0,
+            3029.0,
+            323.0
+          ],
+          "confidence": 0.9617225527763367
+        },
+        {
+          "text": "SUPPLY CONTRACT",
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ],
+          "confidence": 0.9996674060821533
+        },
+        {
+          "text": "Contract No:.",
+          "bbox": [
+            2481.0,
+            398.0,
+            2715.0,
+            437.0
+          ],
+          "confidence": 0.96345055103302
+        },
+        {
+          "text": "Date:",
+          "bbox": [
+            2476.0,
+            451.0,
+            2583.0,
+            497.0
+          ],
+          "confidence": 0.9998236894607544
+        },
+        {
+          "text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd..",
+          "bbox": [
+            279.0,
+            508.0,
+            1706.0,
+            550.0
+          ],
+          "confidence": 0.9937980771064758
+        },
+        {
+          "text": "ADD:",
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ],
+          "confidence": 0.9989699125289917
+        },
+        {
+          "text": "Tel No. :",
+          "bbox": [
+            272.0,
+            617.0,
+            441.0,
+            666.0
+          ],
+          "confidence": 0.9990757703781128
+        },
+        {
+          "text": "Fax No. :",
+          "bbox": [
+            1182.0,
+            619.0,
+            1348.0,
+            663.0
+          ],
+          "confidence": 0.9996543526649475
+        },
+        {
+          "text": "The seller:",
+          "bbox": [
+            274.0,
+            674.0,
+            471.0,
+            718.0
+          ],
+          "confidence": 0.9509193301200867
+        },
+        {
+          "text": "ADD:",
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ],
+          "confidence": 0.9995285868644714
+        },
+        {
+          "text": "The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong..",
+          "bbox": [
+            272.0,
+            784.0,
+            1800.0,
+            839.0
+          ],
+          "confidence": 0.9858773946762085
+        },
+        {
+          "text": "1. General provisions",
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ],
+          "confidence": 0.9721527099609375
+        },
+        {
+          "text": "1.1 This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred",
+          "bbox": [
+            279.0,
+            903.0,
+            3000.0,
+            945.0
+          ],
+          "confidence": 0.9966585040092468
+        },
+        {
+          "text": "to as the \"order')..",
+          "bbox": [
+            277.0,
+            961.0,
+            613.0,
+            1000.0
+          ],
+          "confidence": 0.9491764307022095
+        },
+        {
+          "text": "1.2 If the provisions of the agreement are inconsistent with the order, the order shall prevail. Not stated in order content will be subject to the",
+          "bbox": [
+            281.0,
+            1018.0,
+            2891.0,
+            1054.0
+          ],
+          "confidence": 0.9991603493690491
+        },
+        {
+          "text": "provisions of agreement. Any modification, supplementary, give up should been written records, only to be valid by buyers and sellers authorized.",
+          "bbox": [
+            272.0,
+            1067.0,
+            2998.0,
+            1118.0
+          ],
+          "confidence": 0.9948969483375549
+        },
+        {
+          "text": "representative signature and confirmation, otherwise will be deemed invalid.",
+          "bbox": [
+            272.0,
+            1124.0,
+            1689.0,
+            1171.0
+          ],
+          "confidence": 0.998497486114502
+        },
+        {
+          "text": "2. The agreement and order",
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ],
+          "confidence": 0.9668902158737183
+        },
+        {
+          "text": "2.1 During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or",
+          "bbox": [
+            276.0,
+            1239.0,
+            2844.0,
+            1281.0
+          ],
+          "confidence": 0.9882811903953552
+        },
+        {
+          "text": "SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\"' or \"LEHEYUAN\"), to purchase",
+          "bbox": [
+            279.0,
+            1296.0,
+            2976.0,
+            1338.0
+          ],
+          "confidence": 0.9855749607086182
+        },
+        {
+          "text": "the products specified in this agreement from the seller in the form of orders.",
+          "bbox": [
+            277.0,
+            1349.0,
+            1697.0,
+            1394.0
+          ],
+          "confidence": 0.9832271337509155
+        },
+        {
+          "text": "2.2 The seller shall be confirmed within three working days after receipt of order. If the seller finds order is not acceptable or need to modify, should",
+          "bbox": [
+            276.0,
+            1407.0,
+            3009.0,
+            1449.0
+          ],
+          "confidence": 0.9858871102333069
+        },
+        {
+          "text": "note entrusted party in two working days after receipt of the order, If the seller did not confirm orders in time or notice not accept orders or",
+          "bbox": [
+            276.0,
+            1464.0,
+            2853.0,
+            1506.0
+          ],
+          "confidence": 0.9918244481086731
+        },
+        {
+          "text": "modifications, the seller is deemed to have been accepted the order. The orders become effective once the seller accepts, any party shall not.",
+          "bbox": [
+            274.0,
+            1517.0,
+            2884.0,
+            1564.0
+          ],
+          "confidence": 0.9920433163642883
+        },
+        {
+          "text": "unilaterally cancel the order before the two sides agreed ..",
+          "bbox": [
+            275.0,
+            1573.0,
+            1343.0,
+            1621.0
+          ],
+          "confidence": 0.9938981533050537
+        },
+        {
+          "text": "2.3 If the seller puts forward amendments or not accept orders, the seller shall be in the form of a written notice to entrusted party, entrusted party",
+          "bbox": [
+            274.0,
+            1630.0,
+            2978.0,
+            1676.0
+          ],
+          "confidence": 0.9935821890830994
+        },
+        {
+          "text": "accept the modified by written consent, the modified orders to be taken effect..",
+          "bbox": [
+            277.0,
+            1688.0,
+            1724.0,
+            1729.0
+          ],
+          "confidence": 0.995470404624939
+        },
+        {
+          "text": "2.4 Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law..",
+          "bbox": [
+            276.0,
+            1745.0,
+            2675.0,
+            1787.0
+          ],
+          "confidence": 0.9859963655471802
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1638.0,
+            1857.0,
+            1668.0,
+            1895.0
+          ],
+          "confidence": 0.9998052716255188
+        },
+        {
+          "text": "Source: LOHA CO. LTD., F-1, 12/9/2019",
+          "bbox": [
+            330.0,
+            4435.0,
+            1115.0,
+            4477.0
+          ],
+          "confidence": 0.9976518750190735
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SUPPLY CONTRACT",
+          "page": 0,
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ]
+        },
+        {
+          "text": "1. General provisions",
+          "page": 0,
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ]
+        },
+        {
+          "text": "2. The agreement and order",
+          "page": 0,
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Governing Law_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "It will be governed by the law of the People's Republic of China ,otherwise it is governed by United Nations Convention on Contract for the International Sale of Goods.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.16.",
+          "bbox": [
+            2777.0,
+            287.0,
+            3029.0,
+            323.0
+          ],
+          "confidence": 0.9617225527763367
+        },
+        {
+          "text": "SUPPLY CONTRACT",
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ],
+          "confidence": 0.9996674060821533
+        },
+        {
+          "text": "Contract No:.",
+          "bbox": [
+            2481.0,
+            398.0,
+            2715.0,
+            437.0
+          ],
+          "confidence": 0.96345055103302
+        },
+        {
+          "text": "Date:",
+          "bbox": [
+            2476.0,
+            451.0,
+            2583.0,
+            497.0
+          ],
+          "confidence": 0.9998236894607544
+        },
+        {
+          "text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd..",
+          "bbox": [
+            279.0,
+            508.0,
+            1706.0,
+            550.0
+          ],
+          "confidence": 0.9937980771064758
+        },
+        {
+          "text": "ADD:",
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ],
+          "confidence": 0.9989699125289917
+        },
+        {
+          "text": "Tel No. :",
+          "bbox": [
+            272.0,
+            617.0,
+            441.0,
+            666.0
+          ],
+          "confidence": 0.9990757703781128
+        },
+        {
+          "text": "Fax No. :",
+          "bbox": [
+            1182.0,
+            619.0,
+            1348.0,
+            663.0
+          ],
+          "confidence": 0.9996543526649475
+        },
+        {
+          "text": "The seller:",
+          "bbox": [
+            274.0,
+            674.0,
+            471.0,
+            718.0
+          ],
+          "confidence": 0.9509193301200867
+        },
+        {
+          "text": "ADD:",
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ],
+          "confidence": 0.9995285868644714
+        },
+        {
+          "text": "The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong..",
+          "bbox": [
+            272.0,
+            784.0,
+            1800.0,
+            839.0
+          ],
+          "confidence": 0.9858773946762085
+        },
+        {
+          "text": "1. General provisions",
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ],
+          "confidence": 0.9721527099609375
+        },
+        {
+          "text": "1.1 This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred",
+          "bbox": [
+            279.0,
+            903.0,
+            3000.0,
+            945.0
+          ],
+          "confidence": 0.9966585040092468
+        },
+        {
+          "text": "to as the \"order')..",
+          "bbox": [
+            277.0,
+            961.0,
+            613.0,
+            1000.0
+          ],
+          "confidence": 0.9491764307022095
+        },
+        {
+          "text": "1.2 If the provisions of the agreement are inconsistent with the order, the order shall prevail. Not stated in order content will be subject to the",
+          "bbox": [
+            281.0,
+            1018.0,
+            2891.0,
+            1054.0
+          ],
+          "confidence": 0.9991603493690491
+        },
+        {
+          "text": "provisions of agreement. Any modification, supplementary, give up should been written records, only to be valid by buyers and sellers authorized.",
+          "bbox": [
+            272.0,
+            1067.0,
+            2998.0,
+            1118.0
+          ],
+          "confidence": 0.9948969483375549
+        },
+        {
+          "text": "representative signature and confirmation, otherwise will be deemed invalid.",
+          "bbox": [
+            272.0,
+            1124.0,
+            1689.0,
+            1171.0
+          ],
+          "confidence": 0.998497486114502
+        },
+        {
+          "text": "2. The agreement and order",
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ],
+          "confidence": 0.9668902158737183
+        },
+        {
+          "text": "2.1 During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or",
+          "bbox": [
+            276.0,
+            1239.0,
+            2844.0,
+            1281.0
+          ],
+          "confidence": 0.9882811903953552
+        },
+        {
+          "text": "SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\"' or \"LEHEYUAN\"), to purchase",
+          "bbox": [
+            279.0,
+            1296.0,
+            2976.0,
+            1338.0
+          ],
+          "confidence": 0.9855749607086182
+        },
+        {
+          "text": "the products specified in this agreement from the seller in the form of orders.",
+          "bbox": [
+            277.0,
+            1349.0,
+            1697.0,
+            1394.0
+          ],
+          "confidence": 0.9832271337509155
+        },
+        {
+          "text": "2.2 The seller shall be confirmed within three working days after receipt of order. If the seller finds order is not acceptable or need to modify, should",
+          "bbox": [
+            276.0,
+            1407.0,
+            3009.0,
+            1449.0
+          ],
+          "confidence": 0.9858871102333069
+        },
+        {
+          "text": "note entrusted party in two working days after receipt of the order, If the seller did not confirm orders in time or notice not accept orders or",
+          "bbox": [
+            276.0,
+            1464.0,
+            2853.0,
+            1506.0
+          ],
+          "confidence": 0.9918244481086731
+        },
+        {
+          "text": "modifications, the seller is deemed to have been accepted the order. The orders become effective once the seller accepts, any party shall not.",
+          "bbox": [
+            274.0,
+            1517.0,
+            2884.0,
+            1564.0
+          ],
+          "confidence": 0.9920433163642883
+        },
+        {
+          "text": "unilaterally cancel the order before the two sides agreed ..",
+          "bbox": [
+            275.0,
+            1573.0,
+            1343.0,
+            1621.0
+          ],
+          "confidence": 0.9938981533050537
+        },
+        {
+          "text": "2.3 If the seller puts forward amendments or not accept orders, the seller shall be in the form of a written notice to entrusted party, entrusted party",
+          "bbox": [
+            274.0,
+            1630.0,
+            2978.0,
+            1676.0
+          ],
+          "confidence": 0.9935821890830994
+        },
+        {
+          "text": "accept the modified by written consent, the modified orders to be taken effect..",
+          "bbox": [
+            277.0,
+            1688.0,
+            1724.0,
+            1729.0
+          ],
+          "confidence": 0.995470404624939
+        },
+        {
+          "text": "2.4 Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law..",
+          "bbox": [
+            276.0,
+            1745.0,
+            2675.0,
+            1787.0
+          ],
+          "confidence": 0.9859963655471802
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1638.0,
+            1857.0,
+            1668.0,
+            1895.0
+          ],
+          "confidence": 0.9998052716255188
+        },
+        {
+          "text": "Source: LOHA CO. LTD., F-1, 12/9/2019",
+          "bbox": [
+            330.0,
+            4435.0,
+            1115.0,
+            4477.0
+          ],
+          "confidence": 0.9976518750190735
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "SUPPLY CONTRACT",
+          "page": 0,
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ]
+        },
+        {
+          "text": "1. General provisions",
+          "page": 0,
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ]
+        },
+        {
+          "text": "2. The agreement and order",
+          "page": 0,
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Warranty Duration_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "answer_text": "Within 7 days after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract except those claims for which the insurance company or the owners of the vessel are liable, the Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Exhibit 10.16.",
+          "bbox": [
+            2777.0,
+            287.0,
+            3029.0,
+            323.0
+          ],
+          "confidence": 0.9617225527763367
+        },
+        {
+          "text": "SUPPLY CONTRACT",
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ],
+          "confidence": 0.9996674060821533
+        },
+        {
+          "text": "Contract No:.",
+          "bbox": [
+            2481.0,
+            398.0,
+            2715.0,
+            437.0
+          ],
+          "confidence": 0.96345055103302
+        },
+        {
+          "text": "Date:",
+          "bbox": [
+            2476.0,
+            451.0,
+            2583.0,
+            497.0
+          ],
+          "confidence": 0.9998236894607544
+        },
+        {
+          "text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd..",
+          "bbox": [
+            279.0,
+            508.0,
+            1706.0,
+            550.0
+          ],
+          "confidence": 0.9937980771064758
+        },
+        {
+          "text": "ADD:",
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ],
+          "confidence": 0.9989699125289917
+        },
+        {
+          "text": "Tel No. :",
+          "bbox": [
+            272.0,
+            617.0,
+            441.0,
+            666.0
+          ],
+          "confidence": 0.9990757703781128
+        },
+        {
+          "text": "Fax No. :",
+          "bbox": [
+            1182.0,
+            619.0,
+            1348.0,
+            663.0
+          ],
+          "confidence": 0.9996543526649475
+        },
+        {
+          "text": "The seller:",
+          "bbox": [
+            274.0,
+            674.0,
+            471.0,
+            718.0
+          ],
+          "confidence": 0.9509193301200867
+        },
+        {
+          "text": "ADD:",
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ],
+          "confidence": 0.9995285868644714
+        },
+        {
+          "text": "The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong..",
+          "bbox": [
+            272.0,
+            784.0,
+            1800.0,
+            839.0
+          ],
+          "confidence": 0.9858773946762085
+        },
+        {
+          "text": "1. General provisions",
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ],
+          "confidence": 0.9721527099609375
+        },
+        {
+          "text": "1.1 This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred",
+          "bbox": [
+            279.0,
+            903.0,
+            3000.0,
+            945.0
+          ],
+          "confidence": 0.9966585040092468
+        },
+        {
+          "text": "to as the \"order')..",
+          "bbox": [
+            277.0,
+            961.0,
+            613.0,
+            1000.0
+          ],
+          "confidence": 0.9491764307022095
+        },
+        {
+          "text": "1.2 If the provisions of the agreement are inconsistent with the order, the order shall prevail. Not stated in order content will be subject to the",
+          "bbox": [
+            281.0,
+            1018.0,
+            2891.0,
+            1054.0
+          ],
+          "confidence": 0.9991603493690491
+        },
+        {
+          "text": "provisions of agreement. Any modification, supplementary, give up should been written records, only to be valid by buyers and sellers authorized.",
+          "bbox": [
+            272.0,
+            1067.0,
+            2998.0,
+            1118.0
+          ],
+          "confidence": 0.9948969483375549
+        },
+        {
+          "text": "representative signature and confirmation, otherwise will be deemed invalid.",
+          "bbox": [
+            272.0,
+            1124.0,
+            1689.0,
+            1171.0
+          ],
+          "confidence": 0.998497486114502
+        },
+        {
+          "text": "2. The agreement and order",
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ],
+          "confidence": 0.9668902158737183
+        },
+        {
+          "text": "2.1 During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or",
+          "bbox": [
+            276.0,
+            1239.0,
+            2844.0,
+            1281.0
+          ],
+          "confidence": 0.9882811903953552
+        },
+        {
+          "text": "SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\"' or \"LEHEYUAN\"), to purchase",
+          "bbox": [
+            279.0,
+            1296.0,
+            2976.0,
+            1338.0
+          ],
+          "confidence": 0.9855749607086182
+        },
+        {
+          "text": "the products specified in this agreement from the seller in the form of orders.",
+          "bbox": [
+            277.0,
+            1349.0,
+            1697.0,
+            1394.0
+          ],
+          "confidence": 0.9832271337509155
+        },
+        {
+          "text": "2.2 The seller shall be confirmed within three working days after receipt of order. If the seller finds order is not acceptable or need to modify, should",
+          "bbox": [
+            276.0,
+            1407.0,
+            3009.0,
+            1449.0
+          ],
+          "confidence": 0.9858871102333069
+        },
+        {
+          "text": "note entrusted party in two working days after receipt of the order, If the seller did not confirm orders in time or notice not accept orders or",
+          "bbox": [
+            276.0,
+            1464.0,
+            2853.0,
+            1506.0
+          ],
+          "confidence": 0.9918244481086731
+        },
+        {
+          "text": "modifications, the seller is deemed to have been accepted the order. The orders become effective once the seller accepts, any party shall not.",
+          "bbox": [
+            274.0,
+            1517.0,
+            2884.0,
+            1564.0
+          ],
+          "confidence": 0.9920433163642883
+        },
+        {
+          "text": "unilaterally cancel the order before the two sides agreed ..",
+          "bbox": [
+            275.0,
+            1573.0,
+            1343.0,
+            1621.0
+          ],
+          "confidence": 0.9938981533050537
+        },
+        {
+          "text": "2.3 If the seller puts forward amendments or not accept orders, the seller shall be in the form of a written notice to entrusted party, entrusted party",
+          "bbox": [
+            274.0,
+            1630.0,
+            2978.0,
+            1676.0
+          ],
+          "confidence": 0.9935821890830994
+        },
+        {
+          "text": "accept the modified by written consent, the modified orders to be taken effect..",
+          "bbox": [
+            277.0,
+            1688.0,
+            1724.0,
+            1729.0
+          ],
+          "confidence": 0.995470404624939
+        },
+        {
+          "text": "2.4 Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law..",
+          "bbox": [
+            276.0,
+            1745.0,
+            2675.0,
+            1787.0
+          ],
+          "confidence": 0.9859963655471802
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1638.0,
+            1857.0,
+            1668.0,
+            1895.0
+          ],
+          "confidence": 0.9998052716255188
+        },
+        {
+          "text": "Source: LOHA CO. LTD., F-1, 12/9/2019",
+          "bbox": [
+            330.0,
+            4435.0,
+            1115.0,
+            4477.0
+          ],
+          "confidence": 0.9976518750190735
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "SUPPLY CONTRACT",
+          "page": 0,
+          "bbox": [
+            1455.0,
+            342.0,
+            1856.0,
+            378.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            273.0,
+            559.0,
+            390.0,
+            609.0
+          ]
+        },
+        {
+          "text": "ADD:",
+          "page": 0,
+          "bbox": [
+            276.0,
+            733.0,
+            388.0,
+            773.0
+          ]
+        },
+        {
+          "text": "1. General provisions",
+          "page": 0,
+          "bbox": [
+            279.0,
+            846.0,
+            673.0,
+            888.0
+          ]
+        },
+        {
+          "text": "2. The agreement and order",
+          "page": 0,
+          "bbox": [
+            276.0,
+            1184.0,
+            790.0,
+            1226.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Warranty Duration_1_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract?",
+      "answer_text": "Within 7 days after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract except those claims for which the insurance company or the owners of the vessel are liable, the Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "3. GOODS AND COUNTRY OF ORIGIN:",
+          "bbox": [
+            279.0,
+            287.0,
+            1019.0,
+            323.0
+          ],
+          "confidence": 0.9964146018028259
+        },
+        {
+          "text": "4. Specific order:",
+          "bbox": [
+            279.0,
+            344.0,
+            585.0,
+            382.0
+          ],
+          "confidence": 0.963541567325592
+        },
+        {
+          "text": "The products quantity, unit price, specifications, delivery time and transportation, specific content shall be subject to the purchase order issued",
+          "bbox": [
+            332.0,
+            398.0,
+            3011.0,
+            440.0
+          ],
+          "confidence": 0.9947493076324463
+        },
+        {
+          "text": "by entrusted party which is commissioned the buyer..",
+          "bbox": [
+            279.0,
+            455.0,
+            1262.0,
+            497.0
+          ],
+          "confidence": 0.9828564524650574
+        },
+        {
+          "text": "5. PACKING: To be packed in new strong wooden case(s) /carton(s), suitable for long distance transportation and for the change of climate, well",
+          "bbox": [
+            277.0,
+            510.0,
+            2960.0,
+            552.0
+          ],
+          "confidence": 0.9988300800323486
+        },
+        {
+          "text": "protected against rough handling, moisture, rain, corrosion, shocks, rust, and freezing. The seller shall be liable for any damage and loss of the",
+          "bbox": [
+            277.0,
+            565.0,
+            2927.0,
+            610.0
+          ],
+          "confidence": 0.9914920926094055
+        },
+        {
+          "text": "commodity, expenses incurred on account of improper packing, and any damage attributable to inadequate or improper protective measures taken.",
+          "bbox": [
+            277.0,
+            623.0,
+            2980.0,
+            667.0
+          ],
+          "confidence": 0.9968910813331604
+        },
+        {
+          "text": "by the seller in regard to the packing. One full set of technical All wooden material of shipping package must be treated as the requirements of",
+          "bbox": [
+            281.0,
+            678.0,
+            2922.0,
+            722.0
+          ],
+          "confidence": 0.9960755109786987
+        },
+        {
+          "text": "Entry-Exit Inspection and Quarantine Bureau of China, by the agent whom is certified by the government where the goods is exported. And the",
+          "bbox": [
+            279.0,
+            735.0,
+            2951.0,
+            777.0
+          ],
+          "confidence": 0.9935715198516846
+        },
+        {
+          "text": "goods must be marked with the IPPC stamps, which are certified by the government agent of Botanical-Inspection and Quarantine Bureau..",
+          "bbox": [
+            277.0,
+            789.0,
+            2860.0,
+            835.0
+          ],
+          "confidence": 0.992939293384552
+        },
+        {
+          "text": "6. SHIPPING MARK: The Sellers shall mark on each package with fadeless paint the package number, gross weight, net weight, measurements and.",
+          "bbox": [
+            275.0,
+            844.0,
+            3002.0,
+            890.0
+          ],
+          "confidence": 0.9931873679161072
+        },
+        {
+          "text": "the wordings: \"KEEP AWAY FROM MOISTURE\",\"HANDLE WITH CARE\"\"THIS SIDE UP\" etc. and the shipping mark on each package with",
+          "bbox": [
+            275.0,
+            901.0,
+            2922.0,
+            947.0
+          ],
+          "confidence": 0.9953562021255493
+        },
+        {
+          "text": "fadeless paint.",
+          "bbox": [
+            275.0,
+            959.0,
+            548.0,
+            1002.0
+          ],
+          "confidence": 0.9998114109039307
+        },
+        {
+          "text": "7. DATE OF SHIPMENT: According to specific order by YICHANGTAI or LEHEYUAN.",
+          "bbox": [
+            276.0,
+            1012.0,
+            1898.0,
+            1054.0
+          ],
+          "confidence": 0.9947088360786438
+        },
+        {
+          "text": "8. PORT OF SHIPMENT:",
+          "bbox": [
+            277.0,
+            1073.0,
+            732.0,
+            1109.0
+          ],
+          "confidence": 0.999458909034729
+        },
+        {
+          "text": "2",
+          "bbox": [
+            1637.0,
+            1182.0,
+            1669.0,
+            1222.0
+          ],
+          "confidence": 0.9880897402763367
+        },
+        {
+          "text": "Source: LOHA CO. LTD., F-1, 12/9/2019",
+          "bbox": [
+            334.0,
+            4440.0,
+            1115.0,
+            4477.0
+          ],
+          "confidence": 0.984488844871521
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "3. GOODS AND COUNTRY OF ORIGIN:",
+          "page": 1,
+          "bbox": [
+            279.0,
+            287.0,
+            1019.0,
+            323.0
+          ]
+        },
+        {
+          "text": "4. Specific order:",
+          "page": 1,
+          "bbox": [
+            279.0,
+            344.0,
+            585.0,
+            382.0
+          ]
+        },
+        {
+          "text": "5. PACKING: To be packed in new strong wooden case(s) /carton(s), suitable for long distance transportation and for the change of climate, well",
+          "page": 1,
+          "bbox": [
+            277.0,
+            510.0,
+            2960.0,
+            552.0
+          ]
+        },
+        {
+          "text": "6. SHIPPING MARK: The Sellers shall mark on each package with fadeless paint the package number, gross weight, net weight, measurements and.",
+          "page": 1,
+          "bbox": [
+            275.0,
+            844.0,
+            3002.0,
+            890.0
+          ]
+        },
+        {
+          "text": "7. DATE OF SHIPMENT: According to specific order by YICHANGTAI or LEHEYUAN.",
+          "page": 1,
+          "bbox": [
+            276.0,
+            1012.0,
+            1898.0,
+            1054.0
+          ]
+        },
+        {
+          "text": "8. PORT OF SHIPMENT:",
+          "page": 1,
+          "bbox": [
+            277.0,
+            1073.0,
+            732.0,
+            1109.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Insurance_2",
+      "question": "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty?",
+      "answer_text": "To be covered by the Seller for 110% invoice value against All Risks and War Risk.",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "10. INSURANCE: To be covered by the Seller for 110% invoice value against All Risks and War Risk.",
+          "bbox": [
+            279.0,
+            338.0,
+            2146.0,
+            382.0
+          ],
+          "confidence": 0.9883575439453125
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "9. PORT OF DESTINATION: SHENZHEN. GUANGDONG. CHINA",
+          "page": 2,
+          "bbox": [
+            279.0,
+            289.0,
+            1495.0,
+            320.0
+          ]
+        },
+        {
+          "text": "10. INSURANCE: To be covered by the Seller for 110% invoice value against All Risks and War Risk.",
+          "page": 2,
+          "bbox": [
+            279.0,
+            338.0,
+            2146.0,
+            382.0
+          ]
+        },
+        {
+          "text": "11. PA YMENT: Under Letter of Credit or T/T:",
+          "page": 2,
+          "bbox": [
+            281.0,
+            398.0,
+            1106.0,
+            435.0
+          ]
+        },
+        {
+          "text": "12. DOCUMENTS:",
+          "page": 2,
+          "bbox": [
+            281.0,
+            1016.0,
+            625.0,
+            1053.0
+          ]
+        }
+      ]
+    }
+  ]
+}

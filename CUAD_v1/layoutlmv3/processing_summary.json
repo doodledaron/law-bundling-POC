@@ -1,20 +1,20 @@
 {
-  "timestamp": "2025-04-12T20:31:24.822111",
+  "timestamp": "2025-04-19T02:17:42.689127",
   "documents": {
-    "total": 152,
-    "processed": 13,
-    "successful": 12,
-    "skipped": 139,
-    "success_rate": 0.9230769230769231
+    "total": 181,
+    "processed": 30,
+    "successful": 29,
+    "skipped": 151,
+    "success_rate": 0.9666666666666667
   },
   "annotations": {
-    "total": 492,
-    "matched": 690,
-    "success_rate": 1.4024390243902438
+    "total": 1189,
+    "matched": 1010,
+    "success_rate": 0.8494533221194281
   },
   "timing": {
-    "total_seconds": 3924.8545587062836,
-    "average_per_document": 301.91188913125256
+    "total_seconds": 19255.56319618225,
+    "average_per_document": 641.8521065394084
   },
   "settings": {
     "dpi": 400,

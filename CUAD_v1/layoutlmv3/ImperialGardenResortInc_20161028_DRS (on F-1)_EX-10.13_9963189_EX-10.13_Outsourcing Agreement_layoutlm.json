@@ -1,0 +1,1253 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf/Part_I/Outsourcing/ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement.pdf",
+  "annotations": [
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "Outsourcing Contract on Development of Miaoli Royal Resort Hotel",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Outsourcing Contract on Development of Miaoli Royal Resort Hotel",
+          "bbox": [
+            283.0,
+            460.0,
+            1878.0,
+            504.0
+          ],
+          "confidence": 0.9884941577911377
+        }
+      ]
+    },
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Parties_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "The HUANG JIA Country CLUB and Recreation Inc.",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "The Covenanter: The HUANG JIA Country CLUB and Recreation Inc. (hereinafter referred to as Party A) and the Covenanter: Chang Chen.",
+          "bbox": [
+            388.0,
+            535.0,
+            3020.0,
+            579.0
+          ],
+          "confidence": 0.9919576644897461
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "III.",
+          "page": 1,
+          "bbox": [
+            701.0,
+            2218.0,
+            761.0,
+            2264.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Parties_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Party A",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "The Covenanter: The HUANG JIA Country CLUB and Recreation Inc. (hereinafter referred to as Party A) and the Covenanter: Chang Chen.",
+          "bbox": [
+            388.0,
+            535.0,
+            3020.0,
+            579.0
+          ],
+          "confidence": 0.9919576644897461
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "III.",
+          "page": 1,
+          "bbox": [
+            701.0,
+            2218.0,
+            761.0,
+            2264.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Parties_1",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Party B",
+      "page_number": 1,
+      "words": [
+        {
+          "text": "Bin Architects Office (hereinafter referred to as Party B) hereby agree to establish the following terms and conditions with regard to the",
+          "bbox": [
+            277.0,
+            592.0,
+            3027.0,
+            638.0
+          ],
+          "confidence": 0.9911383986473083
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "III.",
+          "page": 1,
+          "bbox": [
+            701.0,
+            2218.0,
+            761.0,
+            2264.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Chang Chen- Bin Architects Office",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Planning Unit: Chang Chen-Bin Architects Office",
+          "bbox": [
+            277.0,
+            577.0,
+            1193.0,
+            623.0
+          ],
+          "confidence": 0.9999261498451233
+        }
+      ]
+    },
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "October 29, 2015",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "October 29, 2015",
+          "bbox": [
+            279.0,
+            638.0,
+            585.0,
+            674.0
+          ],
+          "confidence": 0.9988420605659485
+        }
+      ]
+    },
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Governing Law_2_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "Should either Party herein initiate a legal proceeding for revoking any arbitration result regarding the Contract, both Parties herein agree to take the Miaoli District Court of Taiwan as the competent court of first instance pursuant to the laws of the R.O.C..",
+      "page_number": 2,
+      "words": [
+        {
+          "text": "Part III: Environmental Impact Assessment Report.",
+          "bbox": [
+            549.0,
+            426.0,
+            1483.0,
+            466.0
+          ],
+          "confidence": 0.98918616771698
+        },
+        {
+          "text": "I.",
+          "bbox": [
+            696.0,
+            481.0,
+            736.0,
+            526.0
+          ],
+          "confidence": 0.9053064584732056
+        },
+        {
+          "text": "Program on runoff of Waste Water And Pollution Reduction on the Construction Site",
+          "bbox": [
+            832.0,
+            479.0,
+            2425.0,
+            524.0
+          ],
+          "confidence": 0.9969339966773987
+        },
+        {
+          "text": "II.",
+          "bbox": [
+            698.0,
+            534.0,
+            749.0,
+            581.0
+          ],
+          "confidence": 0.81483393907547
+        },
+        {
+          "text": "Implementation Plan for Environmental Protection.",
+          "bbox": [
+            839.0,
+            541.0,
+            1769.0,
+            577.0
+          ],
+          "confidence": 0.9918439388275146
+        },
+        {
+          "text": "III.I",
+          "bbox": [
+            701.0,
+            590.0,
+            759.0,
+            636.0
+          ],
+          "confidence": 0.791218638420105
+        },
+        {
+          "text": "Environmental Monitoring (Monitoring Report prior to Environmental Impact Assessment)",
+          "bbox": [
+            832.0,
+            592.0,
+            2523.0,
+            638.0
+          ],
+          "confidence": 0.9962080121040344
+        },
+        {
+          "text": "IV.",
+          "bbox": [
+            700.0,
+            645.0,
+            756.0,
+            693.0
+          ],
+          "confidence": 0.8747733235359192
+        },
+        {
+          "text": "Establishment of Environmental Impact Statement And Assessment Report",
+          "bbox": [
+            834.0,
+            649.0,
+            2237.0,
+            691.0
+          ],
+          "confidence": 0.99640291929245
+        },
+        {
+          "text": "Part IV: Establishment of Documents Relevant to Change of Land Usage.",
+          "bbox": [
+            545.0,
+            702.0,
+            1890.0,
+            751.0
+          ],
+          "confidence": 0.9898700714111328
+        },
+        {
+          "text": "(I)",
+          "bbox": [
+            700.0,
+            757.0,
+            758.0,
+            813.0
+          ],
+          "confidence": 0.9270222783088684
+        },
+        {
+          "text": "Establishment of Documents and Drawings Relevant to Change of Land Usage.",
+          "bbox": [
+            835.0,
+            756.0,
+            2311.0,
+            808.0
+          ],
+          "confidence": 0.9910969138145447
+        },
+        {
+          "text": "(II).",
+          "bbox": [
+            701.0,
+            815.0,
+            776.0,
+            866.0
+          ],
+          "confidence": 0.9731680154800415
+        },
+        {
+          "text": "Attendance of Concerned Work Coordination Meeting.",
+          "bbox": [
+            835.0,
+            815.0,
+            1856.0,
+            863.0
+          ],
+          "confidence": 0.9827641248703003
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            848.0,
+            872.0,
+            894.0,
+            915.0
+          ],
+          "confidence": 0.9995772242546082
+        },
+        {
+          "text": "Attendance of relevant review meetings and presentations..",
+          "bbox": [
+            973.0,
+            873.0,
+            2070.0,
+            916.0
+          ],
+          "confidence": 0.9942805171012878
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            848.0,
+            928.0,
+            888.0,
+            972.0
+          ],
+          "confidence": 0.9998965263366699
+        },
+        {
+          "text": "Reply to relevant consultations and plan revision.",
+          "bbox": [
+            971.0,
+            932.0,
+            1899.0,
+            974.0
+          ],
+          "confidence": 0.9925098419189453
+        },
+        {
+          "text": "Part V: Establishment of Documents and Drawings Relevant to Landscaping.",
+          "bbox": [
+            545.0,
+            981.0,
+            1961.0,
+            1033.0
+          ],
+          "confidence": 0.9828972220420837
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            696.0,
+            1042.0,
+            736.0,
+            1085.0
+          ],
+          "confidence": 0.7505959868431091
+        },
+        {
+          "text": "Principles, Concepts and Calculations on Landscaping",
+          "bbox": [
+            832.0,
+            1038.0,
+            1854.0,
+            1091.0
+          ],
+          "confidence": 0.9999328255653381
+        },
+        {
+          "text": "II.",
+          "bbox": [
+            698.0,
+            1095.0,
+            749.0,
+            1142.0
+          ],
+          "confidence": 0.81483393907547
+        },
+        {
+          "text": "Planting Scheme & Relevant Design Drawings",
+          "bbox": [
+            834.0,
+            1098.0,
+            1698.0,
+            1144.0
+          ],
+          "confidence": 0.9868481755256653
+        },
+        {
+          "text": "III.",
+          "bbox": [
+            701.0,
+            1151.0,
+            761.0,
+            1197.0
+          ],
+          "confidence": 0.8867366313934326
+        },
+        {
+          "text": "Calculations & Drawings on Green Cover Rate",
+          "bbox": [
+            836.0,
+            1155.0,
+            1698.0,
+            1195.0
+          ],
+          "confidence": 0.9982585310935974
+        },
+        {
+          "text": "Part VI: Planning, Design and Monitoring on Miscellaneous Works.",
+          "bbox": [
+            547.0,
+            1212.0,
+            1796.0,
+            1254.0
+          ],
+          "confidence": 0.9853038191795349
+        },
+        {
+          "text": "I.",
+          "bbox": [
+            698.0,
+            1265.0,
+            736.0,
+            1310.0
+          ],
+          "confidence": 0.8744027614593506
+        },
+        {
+          "text": "Basic Design.",
+          "bbox": [
+            832.0,
+            1264.0,
+            1090.0,
+            1312.0
+          ],
+          "confidence": 0.9998931288719177
+        },
+        {
+          "text": "II.",
+          "bbox": [
+            693.0,
+            1314.0,
+            752.0,
+            1368.0
+          ],
+          "confidence": 0.8005209565162659
+        },
+        {
+          "text": "Establishment of Documents & Drawings Relevant to Miscellaneous Works",
+          "bbox": [
+            834.0,
+            1323.0,
+            2249.0,
+            1365.0
+          ],
+          "confidence": 0.996073305606842
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            848.0,
+            1376.0,
+            890.0,
+            1422.0
+          ],
+          "confidence": 0.999783992767334
+        },
+        {
+          "text": "Trunk sewer, calculation on water control and treatment and relevant design drawings",
+          "bbox": [
+            970.0,
+            1376.0,
+            2563.0,
+            1424.0
+          ],
+          "confidence": 0.9969446063041687
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            848.0,
+            1433.0,
+            888.0,
+            1478.0
+          ],
+          "confidence": 0.9998890161514282
+        },
+        {
+          "text": "Design of disasters prevention facilities during construction",
+          "bbox": [
+            973.0,
+            1436.0,
+            2095.0,
+            1478.0
+          ],
+          "confidence": 0.9924280047416687
+        },
+        {
+          "text": "3.",
+          "bbox": [
+            848.0,
+            1487.0,
+            888.0,
+            1533.0
+          ],
+          "confidence": 0.9999096989631653
+        },
+        {
+          "text": "Design of desilting and detention basin",
+          "bbox": [
+            970.0,
+            1489.0,
+            1711.0,
+            1537.0
+          ],
+          "confidence": 0.9999714493751526
+        },
+        {
+          "text": "4.",
+          "bbox": [
+            848.0,
+            1544.0,
+            888.0,
+            1590.0
+          ],
+          "confidence": 0.9997354745864868
+        },
+        {
+          "text": "Designs and drawings relevant to miscellaneous works.",
+          "bbox": [
+            972.0,
+            1548.0,
+            1997.0,
+            1590.0
+          ],
+          "confidence": 0.9889125227928162
+        },
+        {
+          "text": "III.",
+          "bbox": [
+            698.0,
+            1598.0,
+            764.0,
+            1648.0
+          ],
+          "confidence": 0.8975937366485596
+        },
+        {
+          "text": "Attendance of Miscellaneous Works Review Meetings",
+          "bbox": [
+            834.0,
+            1601.0,
+            1860.0,
+            1648.0
+          ],
+          "confidence": 0.998920202255249
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            846.0,
+            1657.0,
+            890.0,
+            1701.0
+          ],
+          "confidence": 0.8970926403999329
+        },
+        {
+          "text": "Attendance of project review meetings and presentations.",
+          "bbox": [
+            973.0,
+            1657.0,
+            2045.0,
+            1705.0
+          ],
+          "confidence": 0.984099805355072
+        },
+        {
+          "text": "2.",
+          "bbox": [
+            848.0,
+            1714.0,
+            888.0,
+            1758.0
+          ],
+          "confidence": 0.999899685382843
+        },
+        {
+          "text": "Reply to relevant consultations and revision of relevant documents and drawings.",
+          "bbox": [
+            970.0,
+            1716.0,
+            2496.0,
+            1762.0
+          ],
+          "confidence": 0.9910019040107727
+        },
+        {
+          "text": "IV.",
+          "bbox": [
+            700.0,
+            1769.0,
+            756.0,
+            1815.0
+          ],
+          "confidence": 0.994307279586792
+        },
+        {
+          "text": "Signing & Verification of Technicians and Architects",
+          "bbox": [
+            836.0,
+            1769.0,
+            1814.0,
+            1816.0
+          ],
+          "confidence": 0.9978581070899963
+        },
+        {
+          "text": "Signing & Verification of Miscellaneous Works Relevant to the Project (including signing and verification of",
+          "bbox": [
+            841.0,
+            1826.0,
+            3032.0,
+            1871.0
+          ],
+          "confidence": 0.9971716403961182
+        },
+        {
+          "text": "geological technicians)",
+          "bbox": [
+            843.0,
+            1882.0,
+            1274.0,
+            1932.0
+          ],
+          "confidence": 0.9998813271522522
+        },
+        {
+          "text": "V.",
+          "bbox": [
+            692.0,
+            1929.0,
+            752.0,
+            1989.0
+          ],
+          "confidence": 0.7705667614936829
+        },
+        {
+          "text": "Construction Monitoring",
+          "bbox": [
+            835.0,
+            1935.0,
+            1305.0,
+            1987.0
+          ],
+          "confidence": 0.9999209046363831
+        },
+        {
+          "text": "VI.",
+          "bbox": [
+            701.0,
+            1994.0,
+            763.0,
+            2039.0
+          ],
+          "confidence": 0.9917739033699036
+        },
+        {
+          "text": "Submitting documents for obtaining miscellaneous license, providing structural design and signing and verification",
+          "bbox": [
+            837.0,
+            1997.0,
+            3025.0,
+            2039.0
+          ],
+          "confidence": 0.9975394010543823
+        },
+        {
+          "text": "relevant to the miscellaneous works.",
+          "bbox": [
+            836.0,
+            2056.0,
+            1508.0,
+            2092.0
+          ],
+          "confidence": 0.9915537238121033
+        },
+        {
+          "text": "Part VII: Planning and Design of Relevant Buildings and Construction Monitoring",
+          "bbox": [
+            549.0,
+            2107.0,
+            2077.0,
+            2154.0
+          ],
+          "confidence": 0.995383083820343
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            696.0,
+            2164.0,
+            736.0,
+            2207.0
+          ],
+          "confidence": 0.7505959868431091
+        },
+        {
+          "text": "Planning & Design of Relevant Buildings.",
+          "bbox": [
+            832.0,
+            2164.0,
+            1608.0,
+            2209.0
+          ],
+          "confidence": 0.9960104823112488
+        },
+        {
+          "text": "Source: IMPERIAL GARDEN & RESORT, INC., DRS (on F-1), 10/28/2016",
+          "bbox": [
+            332.0,
+            4437.0,
+            1742.0,
+            4477.0
+          ],
+          "confidence": 0.9880200624465942
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "III.I",
+          "page": 2,
+          "bbox": [
+            701.0,
+            590.0,
+            759.0,
+            636.0
+          ]
+        },
+        {
+          "text": "(II).",
+          "page": 2,
+          "bbox": [
+            701.0,
+            815.0,
+            776.0,
+            866.0
+          ]
+        },
+        {
+          "text": "III.",
+          "page": 2,
+          "bbox": [
+            701.0,
+            1151.0,
+            761.0,
+            1197.0
+          ]
+        },
+        {
+          "text": "III.",
+          "page": 2,
+          "bbox": [
+            698.0,
+            1598.0,
+            764.0,
+            1648.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ImperialGardenResortInc_20161028_DRS (on F-1)_EX-10.13_9963189_EX-10.13_Outsourcing Agreement__Governing Law_3_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract?",
+      "answer_text": "Should either Party herein initiate a legal proceeding for revoking any arbitration result regarding the Contract, both Parties herein agree to take the Miaoli District Court of Taiwan as the competent court of first instance pursuant to the laws of the R.O.C..",
+      "page_number": 3,
+      "words": [
+        {
+          "text": "II.",
+          "bbox": [
+            701.0,
+            422.0,
+            747.0,
+            466.0
+          ],
+          "confidence": 0.9033047556877136
+        },
+        {
+          "text": "Coordination on geological drilling and survey and arrangement of building structure, sewage treatment, water and.",
+          "bbox": [
+            836.0,
+            424.0,
+            3031.0,
+            468.0
+          ],
+          "confidence": 0.9972707629203796
+        },
+        {
+          "text": "electricity utility, fire protection, telecommunications and electrical and mechanical systems etc. for various.",
+          "bbox": [
+            837.0,
+            482.0,
+            3029.0,
+            524.0
+          ],
+          "confidence": 0.9934172034263611
+        },
+        {
+          "text": "professional technicians pursuant to relevant laws and regulations..",
+          "bbox": [
+            834.0,
+            537.0,
+            2086.0,
+            581.0
+          ],
+          "confidence": 0.9926108121871948
+        },
+        {
+          "text": "III.",
+          "bbox": [
+            701.0,
+            590.0,
+            761.0,
+            636.0
+          ],
+          "confidence": 0.8867366313934326
+        },
+        {
+          "text": "Construction Drawings (involving building structure, interior decoration, water supply and drainage and electricity,.",
+          "bbox": [
+            832.0,
+            590.0,
+            3027.0,
+            641.0
+          ],
+          "confidence": 0.9923239946365356
+        },
+        {
+          "text": "telecommunication, monitoring, fire protection and air conditioning system)..",
+          "bbox": [
+            832.0,
+            649.0,
+            2246.0,
+            694.0
+          ],
+          "confidence": 0.9830657243728638
+        },
+        {
+          "text": "IV.",
+          "bbox": [
+            700.0,
+            704.0,
+            756.0,
+            749.0
+          ],
+          "confidence": 0.9902259707450867
+        },
+        {
+          "text": "Assistance in Works Quantity Counting & Valuation..",
+          "bbox": [
+            837.0,
+            707.0,
+            1823.0,
+            749.0
+          ],
+          "confidence": 0.9863370060920715
+        },
+        {
+          "text": "V.",
+          "bbox": [
+            703.0,
+            760.0,
+            747.0,
+            804.0
+          ],
+          "confidence": 0.7964991331100464
+        },
+        {
+          "text": "Submitting of Construction License and Structure, Water, Electricity and Fire Protection Design for Reviewing.",
+          "bbox": [
+            836.0,
+            760.0,
+            3023.0,
+            808.0
+          ],
+          "confidence": 0.9956884384155273
+        },
+        {
+          "text": "Signing and Verification..",
+          "bbox": [
+            839.0,
+            822.0,
+            1283.0,
+            861.0
+          ],
+          "confidence": 0.9827877283096313
+        },
+        {
+          "text": "VI.",
+          "bbox": [
+            701.0,
+            872.0,
+            763.0,
+            915.0
+          ],
+          "confidence": 0.9875903129577637
+        },
+        {
+          "text": "Monitoring on Major Construction Parts..",
+          "bbox": [
+            836.0,
+            875.0,
+            1602.0,
+            917.0
+          ],
+          "confidence": 0.9926567077636719
+        },
+        {
+          "text": "VII.",
+          "bbox": [
+            699.0,
+            924.0,
+            777.0,
+            973.0
+          ],
+          "confidence": 0.9810025691986084
+        },
+        {
+          "text": "Construction Monitoring (Survey on Major Parts)..",
+          "bbox": [
+            836.0,
+            932.0,
+            1771.0,
+            974.0
+          ],
+          "confidence": 0.9958722591400146
+        },
+        {
+          "text": "VIII.",
+          "bbox": [
+            701.0,
+            985.0,
+            787.0,
+            1027.0
+          ],
+          "confidence": 0.9772027730941772
+        },
+        {
+          "text": "Solving Any Disputes & Problems Relevant to the Construction..",
+          "bbox": [
+            836.0,
+            989.0,
+            2039.0,
+            1031.0
+          ],
+          "confidence": 0.9848126173019409
+        },
+        {
+          "text": "IX.",
+          "bbox": [
+            701.0,
+            1040.0,
+            765.0,
+            1084.0
+          ],
+          "confidence": 0.9210461974143982
+        },
+        {
+          "text": "Other Items Agreed by the Two Parties Herein..",
+          "bbox": [
+            837.0,
+            1042.0,
+            1704.0,
+            1084.0
+          ],
+          "confidence": 0.9783362746238708
+        },
+        {
+          "text": "Article IV.",
+          "bbox": [
+            276.0,
+            1153.0,
+            475.0,
+            1191.0
+          ],
+          "confidence": 0.9993976354598999
+        },
+        {
+          "text": "Service Fee",
+          "bbox": [
+            634.0,
+            1153.0,
+            856.0,
+            1191.0
+          ],
+          "confidence": 0.9983198642730713
+        },
+        {
+          "text": "The fees for services mentioned in Part I to Part VI are NTD 12 million ((SAY TWELVE MILLION ONLY) in total and the fees for",
+          "bbox": [
+            658.0,
+            1266.0,
+            3023.0,
+            1308.0
+          ],
+          "confidence": 0.9892674684524536
+        },
+        {
+          "text": "planning and design of the buildings and construction monitoring shall be calculated based on the ratio of 3.50% of the legal",
+          "bbox": [
+            547.0,
+            1323.0,
+            3021.0,
+            1367.0
+          ],
+          "confidence": 0.9927235841751099
+        },
+        {
+          "text": "construction cost hereof.",
+          "bbox": [
+            547.0,
+            1380.0,
+            1017.0,
+            1416.0
+          ],
+          "confidence": 0.9999447464942932
+        },
+        {
+          "text": "Should Party A require a comprehensive modification on the development plan of the project outsourced and any subsequent",
+          "bbox": [
+            660.0,
+            1436.0,
+            3025.0,
+            1478.0
+          ],
+          "confidence": 0.99687260389328
+        },
+        {
+          "text": "extra cost occur in Party B; Party A shall bear the corresponding extra service fee..",
+          "bbox": [
+            547.0,
+            1497.0,
+            2061.0,
+            1533.0
+          ],
+          "confidence": 0.9905009269714355
+        },
+        {
+          "text": "Article V.",
+          "bbox": [
+            277.0,
+            1604.0,
+            462.0,
+            1643.0
+          ],
+          "confidence": 0.9548500776290894
+        },
+        {
+          "text": "Payment Method",
+          "bbox": [
+            638.0,
+            1606.0,
+            950.0,
+            1645.0
+          ],
+          "confidence": 0.9998418092727661
+        },
+        {
+          "text": "With regard to the payment method regarding the project herein, Party A shall remit relevant cashes into the account.",
+          "bbox": [
+            662.0,
+            1714.0,
+            3027.0,
+            1760.0
+          ],
+          "confidence": 0.9883025884628296
+        },
+        {
+          "text": "designated by Party B by stages as per the following conditions:",
+          "bbox": [
+            547.0,
+            1771.0,
+            1755.0,
+            1816.0
+          ],
+          "confidence": 0.992507815361023
+        },
+        {
+          "text": "Stage 1:",
+          "bbox": [
+            547.0,
+            1884.0,
+            698.0,
+            1930.0
+          ],
+          "confidence": 0.9788161516189575
+        },
+        {
+          "text": "The service fee of NTD 1.2 million (SAY ONE MILLION AND TWENTY THOUSAND ONLY) shall be paid upon",
+          "bbox": [
+            790.0,
+            1880.0,
+            2991.0,
+            1928.0
+          ],
+          "confidence": 0.9916643500328064
+        },
+        {
+          "text": "signing of the Contract herein..",
+          "bbox": [
+            794.0,
+            1942.0,
+            1359.0,
+            1984.0
+          ],
+          "confidence": 0.9825776815414429
+        },
+        {
+          "text": "Stage 2:",
+          "bbox": [
+            547.0,
+            1995.0,
+            696.0,
+            2041.0
+          ],
+          "confidence": 0.9706342220306396
+        },
+        {
+          "text": "The service fee of NTD 1.2 million (SAY ONE MILLION AND TWENTY THOUSAND ONLY) shall be paid upon",
+          "bbox": [
+            792.0,
+            1994.0,
+            2991.0,
+            2039.0
+          ],
+          "confidence": 0.9899687170982361
+        },
+        {
+          "text": "completion of the Business Plan and Architectural Development Plan and Relevant Drawings.",
+          "bbox": [
+            792.0,
+            2050.0,
+            2530.0,
+            2098.0
+          ],
+          "confidence": 0.999251127243042
+        },
+        {
+          "text": "Stage 3:",
+          "bbox": [
+            547.0,
+            2109.0,
+            698.0,
+            2153.0
+          ],
+          "confidence": 0.9998126029968262
+        },
+        {
+          "text": "The service fee of NTD 1.2 million (SAY ONE MILLION AND TWENTY THOUSAND ONLY) shall be paid after the.",
+          "bbox": [
+            792.0,
+            2107.0,
+            2991.0,
+            2151.0
+          ],
+          "confidence": 0.9923148155212402
+        },
+        {
+          "text": "soil and water conservation plan and relevant drawings are filed in the county government.",
+          "bbox": [
+            792.0,
+            2164.0,
+            2487.0,
+            2209.0
+          ],
+          "confidence": 0.9997621178627014
+        },
+        {
+          "text": "Stage 4:",
+          "bbox": [
+            546.0,
+            2218.0,
+            694.0,
+            2264.0
+          ],
+          "confidence": 0.9395080804824829
+        },
+        {
+          "text": "The service fee of NTD 1.2 million (SAY ONE MILLION AND TWENTY THOUSAND ONLY) shall be paid after the",
+          "bbox": [
+            796.0,
+            2224.0,
+            2989.0,
+            2260.0
+          ],
+          "confidence": 0.9865010380744934
+        },
+        {
+          "text": "Environmental Impact Assessment Report and relevant drawings are filed in the county government..",
+          "bbox": [
+            792.0,
+            2275.0,
+            2668.0,
+            2321.0
+          ],
+          "confidence": 0.995449960231781
+        },
+        {
+          "text": "Source: IMPERIAL GARDEN & RESORT, INC., DRS (on F-1), 10/28/2016",
+          "bbox": [
+            332.0,
+            4437.0,
+            1742.0,
+            4477.0
+          ],
+          "confidence": 0.9871196746826172
+        }
+      ],
+      "multi_page": true,
+      "part_of": 2,
+      "nearby_headers": [
+        {
+          "text": "III.",
+          "page": 3,
+          "bbox": [
+            701.0,
+            590.0,
+            761.0,
+            636.0
+          ]
+        },
+        {
+          "text": "VII.",
+          "page": 3,
+          "bbox": [
+            699.0,
+            924.0,
+            777.0,
+            973.0
+          ]
+        },
+        {
+          "text": "VIII.",
+          "page": 3,
+          "bbox": [
+            701.0,
+            985.0,
+            787.0,
+            1027.0
+          ]
+        }
+      ]
+    }
+  ]
+}

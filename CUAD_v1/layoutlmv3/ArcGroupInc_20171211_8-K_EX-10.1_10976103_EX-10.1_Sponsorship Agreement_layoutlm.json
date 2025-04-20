@@ -1,0 +1,819 @@
+{
+  "file_name": "CUAD_v1/full_contract_pdf/Part_I/Sponsorship/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.pdf",
+  "annotations": [
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Document Name_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract",
+      "answer_text": "JACKSONVILLE JAGUARS SPONSORSHIP AGREEMENT",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ],
+          "confidence": 0.9933547973632812
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ],
+          "confidence": 0.9987137913703918
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Sponsor",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ],
+          "confidence": 0.9987137913703918
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Club",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club'), and The ARC Group, Inc., a Florida corporation (owner and operator of.",
+          "bbox": [
+            274.0,
+            676.0,
+            3031.0,
+            722.0
+          ],
+          "confidence": 0.9889765977859497
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "The ARC Group, Inc.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club'), and The ARC Group, Inc., a Florida corporation (owner and operator of.",
+          "bbox": [
+            274.0,
+            676.0,
+            3031.0,
+            722.0
+          ],
+          "confidence": 0.9889765977859497
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract",
+      "answer_text": "Jacksonville Jaguars, LLC",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club'), and The ARC Group, Inc., a Florida corporation (owner and operator of.",
+          "bbox": [
+            274.0,
+            676.0,
+            3031.0,
+            722.0
+          ],
+          "confidence": 0.9889765977859497
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Agreement Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract",
+      "answer_text": "November 27, 2017",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "This Sponsorship Agreement (this \"Agreement') is entered into as of November 27, 2017 (the \"Execution Date\") by and between",
+          "bbox": [
+            444.0,
+            619.0,
+            3029.0,
+            665.0
+          ],
+          "confidence": 0.9888166189193726
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Effective Date_0",
+      "question": "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective ",
+      "answer_text": "April 1, 2018",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "\"Term') shall commence as of April 1, 2018 (the \"Effective Date') and shall expire upon the later of: (a) the conclusion of the 2022/23 NFL season",
+          "bbox": [
+            279.0,
+            1573.0,
+            3029.0,
+            1619.0
+          ],
+          "confidence": 0.9804967641830444
+        }
+      ],
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Expiration Date_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire?",
+      "answer_text": "The term of this Agreement (the \"Term\") shall commence as of April 1, 2018 (the \"Effective Date\") and shall expire upon the later of: (a) the conclusion of the 2022/23 NFL season and (b) the last day in February, 2023 (such expiration date, the \"Scheduled Expiration Date\"), unless sooner terminated pursuant to the terms of this Agreement.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ],
+          "confidence": 0.9974440932273865
+        },
+        {
+          "text": "\"Term') shall commence as of April 1, 2018 (the \"Effective Date') and shall expire upon the later of: (a) the conclusion of the 2022/23 NFL season",
+          "bbox": [
+            279.0,
+            1573.0,
+            3029.0,
+            1619.0
+          ],
+          "confidence": 0.9804967641830444
+        },
+        {
+          "text": "and (b) the last day in February, 2023 (such expiration date, the \"Scheduled Expiration Date'), unless sooner terminated pursuant to the terms of",
+          "bbox": [
+            277.0,
+            1630.0,
+            3034.0,
+            1676.0
+          ],
+          "confidence": 0.9885490536689758
+        },
+        {
+          "text": "this Agreement.",
+          "bbox": [
+            277.0,
+            1688.0,
+            575.0,
+            1732.0
+          ],
+          "confidence": 0.9999452829360962
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__License Grant_0_multi",
+      "question": "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty?",
+      "answer_text": "Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely payment of the Sponsor Fees, Club hereby grants to Sponsor, and Sponsor hereby accepts, solely in the Territory, and during the Term: (i) the right to use the Benefits set forth on Exhibit A and the license and right to use the Team Marks solely in connection with the advertisement and promotion of Sponsor's Dick's Wings and Grill branded restaurants (the \"Sponsor Business\") in accordance with this Agreement; and (ii) the right to use the designation \"Official Wings of the Jacksonville Jaguars\" and such other designations as Club and Sponsor may agree to in a writing from time to time (collectively, the \"Official Designations\"), solely in connection with the Sponsor Business.",
+      "page_number": 0,
+      "words": [
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ],
+          "confidence": 0.995962917804718
+        },
+        {
+          "text": "payment of the Sponsor Fees, Club hereby grants to Sponsor, and Sponsor hereby accepts, solely in the Territory, and during the Term: (i) the right",
+          "bbox": [
+            275.0,
+            1855.0,
+            3029.0,
+            1902.0
+          ],
+          "confidence": 0.9890454411506653
+        },
+        {
+          "text": "to use the Benefits set forth on Exhibit A and the license and right to use the Team Marks solely in connection with the advertisement and",
+          "bbox": [
+            277.0,
+            1915.0,
+            3029.0,
+            1952.0
+          ],
+          "confidence": 0.9964510202407837
+        },
+        {
+          "text": "promotion of Sponsor's Dick's Wings and Grill branded restaurants (the \"Sponsor Business\") in accordance with this Agreement; and (ii) the right",
+          "bbox": [
+            275.0,
+            1968.0,
+            3029.0,
+            2014.0
+          ],
+          "confidence": 0.9951542615890503
+        },
+        {
+          "text": "to use the designation \"Official Wings of the Jacksonville Jaguars\" and such other designations as Club and Sponsor may agree to in a writing",
+          "bbox": [
+            275.0,
+            2023.0,
+            3029.0,
+            2070.0
+          ],
+          "confidence": 0.9965583086013794
+        },
+        {
+          "text": "from time to time (collectively, the \"Official Designations'), solely in connection with the Sponsor Business. No license or right is granted for the",
+          "bbox": [
+            277.0,
+            2081.0,
+            3027.0,
+            2123.0
+          ],
+          "confidence": 0.9975908398628235
+        }
+      ],
+      "multi_page": true,
+      "part_of": 1,
+      "nearby_headers": [
+        {
+          "text": "JACKSONVILLE JAGUARS",
+          "page": 0,
+          "bbox": [
+            1379.0,
+            457.0,
+            1930.0,
+            488.0
+          ]
+        },
+        {
+          "text": "SPONSORSHIP AGREEMENT",
+          "page": 0,
+          "bbox": [
+            1361.0,
+            510.0,
+            1948.0,
+            546.0
+          ]
+        },
+        {
+          "text": "RECITALS",
+          "page": 0,
+          "bbox": [
+            1546.0,
+            901.0,
+            1762.0,
+            939.0
+          ]
+        },
+        {
+          "text": "1. Term of Agreement. This Agreement shall be binding on the parties hereto as of the Execution Date. The term of this Agreement (the",
+          "page": 0,
+          "bbox": [
+            362.0,
+            1517.0,
+            3025.0,
+            1562.0
+          ]
+        },
+        {
+          "text": "2. Sponsor Rights and Benefits. Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely.",
+          "page": 0,
+          "bbox": [
+            361.0,
+            1802.0,
+            3027.0,
+            1844.0
+          ]
+        },
+        {
+          "text": "3. Annual Fees; Playoff Payment.t.",
+          "page": 0,
+          "bbox": [
+            362.0,
+            2418.0,
+            982.0,
+            2458.0
+          ]
+        }
+      ]
+    }
+  ]
+}
