@@ -71,6 +71,12 @@ def parse_args():
                         help="Number of worker processes for data loading")
     parser.add_argument("--resume_from", type=str, default=None,
                         help="Resume training from this checkpoint directory")
+    parser.add_argument("--early_stopping", action="store_true", 
+                        help="Enable early stopping")
+    parser.add_argument("--patience", type=int, default=8, 
+                        help="Number of evaluations with no improvement before early stopping")
+    parser.add_argument("--min_delta", type=float, default=0.0001, 
+                        help="Minimum change in monitored value to qualify as improvement")
     
     return parser.parse_args()
 
@@ -487,6 +493,55 @@ def save_training_visualizations(metrics_history, log_path, output_dir, start_ti
     
     print(f"Training visualizations saved to {vis_dir}")
 
+class EarlyStopping:
+    """Early stopping to stop training when validation performance doesn't improve.
+    
+    Args:
+        patience (int): Number of evaluations with no improvement before stopping.
+        min_delta (float): Minimum change to qualify as improvement.
+        monitor (str): Metric to monitor ('f1', 'precision', or 'recall').
+        mode (str): 'max' if higher values are better, 'min' if lower values are better.
+    """
+    def __init__(self, patience=3, min_delta=0.0001, monitor='f1', mode='max'):
+        self.patience = patience
+        self.min_delta = min_delta
+        self.monitor = monitor
+        self.mode = mode
+        self.counter = 0
+        self.best_score = None
+        self.early_stop = False
+        self.best_epoch = 0
+        
+    def __call__(self, epoch, val_metrics):
+        score = val_metrics[self.monitor]
+        
+        if self.best_score is None:
+            self.best_score = score
+            self.best_epoch = epoch
+            return False
+        
+        if self.mode == 'max':
+            # For metrics like f1, precision, recall where higher is better
+            if score < self.best_score + self.min_delta:
+                self.counter += 1
+            else:
+                self.best_score = score
+                self.best_epoch = epoch
+                self.counter = 0
+        else:
+            # For metrics like loss where lower is better
+            if score > self.best_score - self.min_delta:
+                self.counter += 1
+            else:
+                self.best_score = score
+                self.best_epoch = epoch
+                self.counter = 0
+                
+        if self.counter >= self.patience:
+            self.early_stop = True
+            
+        return self.early_stop
+
 def train(args):
     """
     Fine-tune LayoutLMv3 on the CUAD dataset.
@@ -516,6 +571,17 @@ def train(args):
         args.device = "cpu"
         device = torch.device("cpu")
     
+    # Initialize early stopping
+    early_stopping = None
+    if args.early_stopping:
+        log_message(f"Early stopping enabled with patience={args.patience}, min_delta={args.min_delta}")
+        early_stopping = EarlyStopping(
+            patience=args.patience,
+            min_delta=args.min_delta,
+            monitor='f1',
+            mode='max'
+        )
+    
     # Resume from checkpoint or start new training
     if args.resume_from:
         # Find latest checkpoint if directory is provided
@@ -534,7 +600,7 @@ def train(args):
         
         # Update args with original values for consistency
         for key, value in checkpoint_args.items():
-            if key not in ['output_dir', 'resume_from']:
+            if key not in ['output_dir', 'resume_from', 'early_stopping', 'patience', 'min_delta']:
                 setattr(args, key, value)
         
         # Load label map
@@ -636,19 +702,6 @@ def train(args):
     
     log_message(f"Starting/Resuming training with {num_training_steps} total steps...")
     
-    #--------------------------------------------------------------------
-    # HOW TO USE CHECKPOINTING:
-    #
-    # 1. For initial training:
-    #    python train.py --output_dir my_training_run
-    #
-    # 2. If training is interrupted, resume with:
-    #    python train.py --resume_from my_training_run
-    #
-    # The script will automatically find the latest checkpoint and continue
-    # training from exactly where it left off.
-    #--------------------------------------------------------------------
-    
     # Training loop
     for epoch in range(start_epoch, args.num_epochs):
         model.train()
@@ -717,6 +770,12 @@ def train(args):
                 metrics_history["eval_precision"].append(results["precision"])
                 metrics_history["eval_recall"].append(results["recall"])
                 
+                # Check early stopping
+                if early_stopping and early_stopping(epoch, results):
+                    log_message(f"Early stopping triggered. No improvement for {args.patience} evaluations.")
+                    log_message(f"Best performance was at epoch {early_stopping.best_epoch + 1} with F1: {early_stopping.best_score:.4f}")
+                    break
+                
                 # Save checkpoint with model weights only for best F1 score
                 if results["f1"] > best_f1:
                     best_f1 = results["f1"]
@@ -760,6 +819,12 @@ def train(args):
         log_message(f"Evaluating after epoch {epoch + 1}...")
         results = evaluate(model, eval_dataloader, device, num_labels)
         log_message(f"Evaluation results: {results}")
+        
+        # Check early stopping after end-of-epoch evaluation
+        if early_stopping and early_stopping(epoch, results):
+            log_message(f"Early stopping triggered after epoch {epoch + 1}.")
+            log_message(f"Best performance was at epoch {early_stopping.best_epoch + 1} with F1: {early_stopping.best_score:.4f}")
+            break
         
         # Save checkpoint at end of each epoch
         log_message(f"Saving checkpoint at end of epoch {epoch + 1}...")
