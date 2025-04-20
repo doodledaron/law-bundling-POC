@@ -1,0 +1,596 @@
+[
+  {
+    "text": "Road Transportation Agreement",
+    "bbox": [
+      543,
+      133,
+      790,
+      144
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Party A (Shipper): ZTO Express Co., Ltd..",
+    "bbox": [
+      112,
+      165,
+      424,
+      177
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Party B (Carrier): Tonglu Tongze Logistics Ltd..",
+    "bbox": [
+      113,
+      213,
+      480,
+      225
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "2.Period of transportation services: this Agreement is valid for an indefinite term. Subsequent contracts might be entered in case of special",
+    "bbox": [
+      111,
+      373,
+      1000,
+      385
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.10",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Road Transportation Agreement",
+    "bbox": [
+      543,
+      133,
+      790,
+      144
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Party A (Shipper): ZTO Express Co., Ltd..",
+    "bbox": [
+      112,
+      165,
+      424,
+      177
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Address: Building 1, No. 1685, Huazhi Road, Huaxin Twon, Qingpu District, Shanghai.",
+    "bbox": [
+      111,
+      180,
+      750,
+      193
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Party B (Carrier): Tonglu Tongze Logistics Ltd..",
+    "bbox": [
+      113,
+      213,
+      480,
+      225
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Address: 12 Floor, HSBC Tower, Yinchun South Road, Tonglu County, Zhejiang Province.",
+    "bbox": [
+      111,
+      228,
+      779,
+      241
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Due to the need for logistics business, Party A and Party B enter into this Road Transportation Agreement (this \"Agreement'), in which",
+    "bbox": [
+      179,
+      260,
+      1000,
+      273
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Party A pays the freight and Party B provides parcel transportation services to Party A. In accordance with relevant laws and regulations, Party A",
+    "bbox": [
+      112,
+      277,
+      1000,
+      289
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "and Party B have sufficiently negotiated the specific matters and voluntarily reached the following Agreement based on equality, reciprocity and",
+    "bbox": [
+      112,
+      293,
+      1000,
+      305
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "integrity. This Agreement is to be complied by both Parties.",
+    "bbox": [
+      113,
+      310,
+      557,
+      320
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "1.Party B shall provide parcel transportation services on highway line-haul routes based on the needs of Party A..",
+    "bbox": [
+      112,
+      340,
+      961,
+      353
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "2.Period of transportation services: this Agreement is valid for an indefinite term. Subsequent contracts might be entered in case of special",
+    "bbox": [
+      111,
+      373,
+      1000,
+      385
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      179,
+      388,
+      251,
+      400
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "3.Freight and payment method:.",
+    "bbox": [
+      113,
+      421,
+      346,
+      433
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "(a) Verification of freight: Party A pays freight based on carload rate (such freight includes pick-up charges, door-to-door delivery charges",
+    "bbox": [
+      180,
+      453,
+      1000,
+      465
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "and tax fees).",
+    "bbox": [
+      246,
+      468,
+      347,
+      481
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "(b)Party A shall not pay any other charges other than the freight..",
+    "bbox": [
+      180,
+      500,
+      667,
+      513
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "(c)Clearance of freight: the clearance method is based on both Parties' fund clearance arrangement and the final clearance amount is",
+    "bbox": [
+      181,
+      533,
+      1000,
+      545
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "subject to actual carriage amount and EX-warehouse (\"EXw) weight determined by Party A. Party B shall attach Party A's",
+    "bbox": [
+      248,
+      549,
+      1000,
+      561
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "parcel EXw originals or copies for Party A's verification for clearance of freight..",
+    "bbox": [
+      247,
+      565,
+      843,
+      577
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "4. Transportation route, time and relevant rules.",
+    "bbox": [
+      113,
+      597,
+      458,
+      607
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "(a) Transportation time:",
+    "bbox": [
+      181,
+      630,
+      351,
+      640
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "(b)Any changes to the line-haul route and time are subject to both Parties' negotiation and written supplemental clauses.",
+    "bbox": [
+      181,
+      661,
+      1000,
+      673
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "(c)Party B shall have its own loading crews and the parcel shall be loaded by Party B's loading crews..",
+    "bbox": [
+      179,
+      692,
+      940,
+      705
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Source: ZTO EXPRESS (CAYMAN) INC., F-1, 9/30/2016",
+    "bbox": [
+      133,
+      1000,
+      566,
+      1000
+    ],
+    "label": 36,
+    "category": "Liquidated Damages"
+  },
+  {
+    "text": "Exhibit 10.10",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Road Transportation Agreement",
+    "bbox": [
+      543,
+      133,
+      790,
+      144
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Party A (Shipper): ZTO Express Co., Ltd..",
+    "bbox": [
+      112,
+      165,
+      424,
+      177
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Address: Building 1, No. 1685, Huazhi Road, Huaxin Twon, Qingpu District, Shanghai.",
+    "bbox": [
+      111,
+      180,
+      750,
+      193
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Party B (Carrier): Tonglu Tongze Logistics Ltd..",
+    "bbox": [
+      113,
+      213,
+      480,
+      225
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Address: 12 Floor, HSBC Tower, Yinchun South Road, Tonglu County, Zhejiang Province.",
+    "bbox": [
+      111,
+      228,
+      779,
+      241
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Due to the need for logistics business, Party A and Party B enter into this Road Transportation Agreement (this \"Agreement'), in which",
+    "bbox": [
+      179,
+      260,
+      1000,
+      273
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Party A pays the freight and Party B provides parcel transportation services to Party A. In accordance with relevant laws and regulations, Party A",
+    "bbox": [
+      112,
+      277,
+      1000,
+      289
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and Party B have sufficiently negotiated the specific matters and voluntarily reached the following Agreement based on equality, reciprocity and",
+    "bbox": [
+      112,
+      293,
+      1000,
+      305
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "integrity. This Agreement is to be complied by both Parties.",
+    "bbox": [
+      113,
+      310,
+      557,
+      320
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.Party B shall provide parcel transportation services on highway line-haul routes based on the needs of Party A..",
+    "bbox": [
+      112,
+      340,
+      961,
+      353
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.Period of transportation services: this Agreement is valid for an indefinite term. Subsequent contracts might be entered in case of special",
+    "bbox": [
+      111,
+      373,
+      1000,
+      385
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "business.",
+    "bbox": [
+      179,
+      388,
+      251,
+      400
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.Freight and payment method:.",
+    "bbox": [
+      113,
+      421,
+      346,
+      433
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a) Verification of freight: Party A pays freight based on carload rate (such freight includes pick-up charges, door-to-door delivery charges",
+    "bbox": [
+      180,
+      453,
+      1000,
+      465
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and tax fees).",
+    "bbox": [
+      246,
+      468,
+      347,
+      481
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(b)Party A shall not pay any other charges other than the freight..",
+    "bbox": [
+      180,
+      500,
+      667,
+      513
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(c)Clearance of freight: the clearance method is based on both Parties' fund clearance arrangement and the final clearance amount is",
+    "bbox": [
+      181,
+      533,
+      1000,
+      545
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "subject to actual carriage amount and EX-warehouse (\"EXw) weight determined by Party A. Party B shall attach Party A's",
+    "bbox": [
+      248,
+      549,
+      1000,
+      561
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "parcel EXw originals or copies for Party A's verification for clearance of freight..",
+    "bbox": [
+      247,
+      565,
+      843,
+      577
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4. Transportation route, time and relevant rules.",
+    "bbox": [
+      113,
+      597,
+      458,
+      607
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(a) Transportation time:",
+    "bbox": [
+      181,
+      630,
+      351,
+      640
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(b)Any changes to the line-haul route and time are subject to both Parties' negotiation and written supplemental clauses.",
+    "bbox": [
+      181,
+      661,
+      1000,
+      673
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(c)Party B shall have its own loading crews and the parcel shall be loaded by Party B's loading crews..",
+    "bbox": [
+      179,
+      692,
+      940,
+      705
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: ZTO EXPRESS (CAYMAN) INC., F-1, 9/30/2016",
+    "bbox": [
+      133,
+      1000,
+      566,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

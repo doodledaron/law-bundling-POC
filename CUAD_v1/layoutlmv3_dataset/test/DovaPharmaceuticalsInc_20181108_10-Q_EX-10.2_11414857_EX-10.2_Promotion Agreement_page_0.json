@@ -1,0 +1,189 @@
+[
+  {
+    "text": "CO-PROMOTION AGREEMENT",
+    "bbox": [
+      501,
+      180,
+      833,
+      192
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "VALEANT PHARMACEUTICALS NORTH AMERICA LLC",
+    "bbox": [
+      376,
+      416,
+      958,
+      428
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DOVA PHARMACEUTICALS, INC",
+    "bbox": [
+      491,
+      314,
+      839,
+      327
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DOVA PHARMACEUTICALS, INC",
+    "bbox": [
+      491,
+      314,
+      839,
+      327
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      80,
+      1000,
+      91
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CO-PROMOTION AGREEMENT",
+    "bbox": [
+      501,
+      180,
+      833,
+      192
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "by and between",
+    "bbox": [
+      595,
+      248,
+      739,
+      260
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DOVA PHARMACEUTICALS, INC",
+    "bbox": [
+      491,
+      314,
+      839,
+      327
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      647,
+      364,
+      685,
+      379
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "VALEANT PHARMACEUTICALS NORTH AMERICA LLC",
+    "bbox": [
+      376,
+      416,
+      958,
+      428
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "September 26, 2018",
+    "bbox": [
+      572,
+      466,
+      759,
+      482
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "SUBJECT TO A CONFIDENTIALITY REOUEST. OMISSIONS ARE DESIGNATED [***]. A COMPLETE VERSION OF THIS EXHIBIT HAS BEEN FILED",
+    "bbox": [
+      150,
+      663,
+      1000,
+      672
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION",
+    "bbox": [
+      415,
+      677,
+      917,
+      684
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "VALEANT PHARMACEUTICALS NORTH AMERICA LLC",
+    "bbox": [
+      376,
+      416,
+      958,
+      428
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "September 26, 2018",
+    "bbox": [
+      572,
+      466,
+      759,
+      482
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "September 26, 2018",
+    "bbox": [
+      572,
+      466,
+      759,
+      482
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

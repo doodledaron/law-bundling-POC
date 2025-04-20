@@ -1,0 +1,57 @@
+[
+  {
+    "text": "ODM - SUPPLY AGREEMIENT",
+    "bbox": [
+      551,
+      84,
+      782,
+      93
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "AGAPE ATP INTERNATIONAL HOLDING LIMITED",
+    "bbox": [
+      469,
+      201,
+      864,
+      212
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"the Manufacturer\"",
+    "bbox": [
+      593,
+      169,
+      741,
+      180
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"the Customer\"",
+    "bbox": [
+      607,
+      280,
+      727,
+      293
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "ORGANIC PREPARATIONS INC.",
+    "bbox": [
+      543,
+      117,
+      790,
+      128
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

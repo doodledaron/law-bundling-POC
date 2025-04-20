@@ -1,0 +1,1311 @@
+[
+  {
+    "text": "THIS AGREEMENT is made on the 15th day of January 2018.",
+    "bbox": [
+      109,
+      89,
+      570,
+      106
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This agreement commences upon execution of this document.",
+    "bbox": [
+      178,
+      384,
+      643,
+      397
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This agreement is for a term of ten (10) years..",
+    "bbox": [
+      178,
+      416,
+      516,
+      429
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten",
+    "bbox": [
+      178,
+      448,
+      1000,
+      461
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "(10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ODM SUPPLY AGREEMENT",
+    "bbox": [
+      555,
+      72,
+      778,
+      84
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "THIS AGREEMENT is made on the 15th day of January 2018.",
+    "bbox": [
+      109,
+      89,
+      570,
+      106
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      109,
+      200,
+      119
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ORGANIC PREPARATIONS INC.",
+    "bbox": [
+      313,
+      109,
+      562,
+      119
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2nd Floor, Transpacific Haus",
+    "bbox": [
+      312,
+      125,
+      524,
+      143
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Lini Highway, Port Vila. Vanuatu",
+    "bbox": [
+      312,
+      144,
+      552,
+      156
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(the Manufacturer') of one part",
+    "bbox": [
+      313,
+      162,
+      557,
+      172
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "AND:",
+    "bbox": [
+      111,
+      176,
+      155,
+      188
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "AGAPE ATP INTERNATIONAL HOLDING LIMITED",
+    "bbox": [
+      313,
+      177,
+      709,
+      188
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Unit 05, 4F, Energy Plaza",
+    "bbox": [
+      312,
+      192,
+      496,
+      205
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "No. 92, Granville Road",
+    "bbox": [
+      312,
+      209,
+      479,
+      220
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Tsim Sha Tsui East",
+    "bbox": [
+      312,
+      225,
+      455,
+      236
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Kowloon, Hong Kong",
+    "bbox": [
+      312,
+      239,
+      480,
+      254
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "('the Customer') of the other part..",
+    "bbox": [
+      313,
+      258,
+      568,
+      268
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      112,
+      273,
+      198,
+      283
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "The Manufacturer wishes to appoint the Customer to be the sole and exclusive agent for the promotion, sales, marketing distribution",
+    "bbox": [
+      212,
+      288,
+      1000,
+      300
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      291,
+      195,
+      300
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and administration of the Products listed in schedule A of this agreement.",
+    "bbox": [
+      212,
+      304,
+      765,
+      317
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      175,
+      319,
+      197,
+      333
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "The Manufacturer and the Customer wish to record their agreement under the stipulations of this Agreement.",
+    "bbox": [
+      211,
+      320,
+      1000,
+      333
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "NOW IT IS AGREED as follows:-",
+    "bbox": [
+      111,
+      337,
+      364,
+      347
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      351,
+      129,
+      365
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "TERMS OF AGREEMIENT",
+    "bbox": [
+      181,
+      354,
+      378,
+      363
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      110,
+      368,
+      137,
+      381
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Commencement",
+    "bbox": [
+      179,
+      369,
+      304,
+      380
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "This agreement commences upon execution of this document.",
+    "bbox": [
+      178,
+      384,
+      643,
+      397
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      110,
+      400,
+      138,
+      412
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      178,
+      400,
+      222,
+      412
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "This agreement is for a term of ten (10) years..",
+    "bbox": [
+      178,
+      416,
+      516,
+      429
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      109,
+      432,
+      138,
+      444
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Renewal",
+    "bbox": [
+      179,
+      433,
+      246,
+      444
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten",
+    "bbox": [
+      178,
+      448,
+      1000,
+      461
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "breach of this agreement.",
+    "bbox": [
+      179,
+      481,
+      367,
+      492
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ODM Supply Agreement",
+    "bbox": [
+      572,
+      496,
+      762,
+      509
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      496,
+      1000,
+      509
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Organic Preparations INC. & Agape ATP International Holding Limited",
+    "bbox": [
+      402,
+      514,
+      931,
+      524
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: AGAPE ATP CORP, 10-K/A, 12/2/2019",
+    "bbox": [
+      133,
+      1000,
+      497,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ODM SUPPLY AGREEMENT",
+    "bbox": [
+      555,
+      72,
+      778,
+      84
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "THIS AGREEMENT is made on the 15th day of January 2018.",
+    "bbox": [
+      109,
+      89,
+      570,
+      106
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      109,
+      200,
+      119
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "ORGANIC PREPARATIONS INC.",
+    "bbox": [
+      313,
+      109,
+      562,
+      119
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2nd Floor, Transpacific Haus",
+    "bbox": [
+      312,
+      125,
+      524,
+      143
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Lini Highway, Port Vila. Vanuatu",
+    "bbox": [
+      312,
+      144,
+      552,
+      156
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(the Manufacturer') of one part",
+    "bbox": [
+      313,
+      162,
+      557,
+      172
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "AND:",
+    "bbox": [
+      111,
+      176,
+      155,
+      188
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "AGAPE ATP INTERNATIONAL HOLDING LIMITED",
+    "bbox": [
+      313,
+      177,
+      709,
+      188
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Unit 05, 4F, Energy Plaza",
+    "bbox": [
+      312,
+      192,
+      496,
+      205
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "No. 92, Granville Road",
+    "bbox": [
+      312,
+      209,
+      479,
+      220
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Tsim Sha Tsui East",
+    "bbox": [
+      312,
+      225,
+      455,
+      236
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Kowloon, Hong Kong",
+    "bbox": [
+      312,
+      239,
+      480,
+      254
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "('the Customer') of the other part..",
+    "bbox": [
+      313,
+      258,
+      568,
+      268
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      112,
+      273,
+      198,
+      283
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "The Manufacturer wishes to appoint the Customer to be the sole and exclusive agent for the promotion, sales, marketing distribution",
+    "bbox": [
+      212,
+      288,
+      1000,
+      300
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      291,
+      195,
+      300
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "and administration of the Products listed in schedule A of this agreement.",
+    "bbox": [
+      212,
+      304,
+      765,
+      317
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      175,
+      319,
+      197,
+      333
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "The Manufacturer and the Customer wish to record their agreement under the stipulations of this Agreement.",
+    "bbox": [
+      211,
+      320,
+      1000,
+      333
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "NOW IT IS AGREED as follows:-",
+    "bbox": [
+      111,
+      337,
+      364,
+      347
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      351,
+      129,
+      365
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "TERMS OF AGREEMIENT",
+    "bbox": [
+      181,
+      354,
+      378,
+      363
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      110,
+      368,
+      137,
+      381
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Commencement",
+    "bbox": [
+      179,
+      369,
+      304,
+      380
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "This agreement commences upon execution of this document.",
+    "bbox": [
+      178,
+      384,
+      643,
+      397
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      110,
+      400,
+      138,
+      412
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      178,
+      400,
+      222,
+      412
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "This agreement is for a term of ten (10) years..",
+    "bbox": [
+      178,
+      416,
+      516,
+      429
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      109,
+      432,
+      138,
+      444
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Renewal",
+    "bbox": [
+      179,
+      433,
+      246,
+      444
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten",
+    "bbox": [
+      178,
+      448,
+      1000,
+      461
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "breach of this agreement.",
+    "bbox": [
+      179,
+      481,
+      367,
+      492
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "ODM Supply Agreement",
+    "bbox": [
+      572,
+      496,
+      762,
+      509
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      496,
+      1000,
+      509
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Organic Preparations INC. & Agape ATP International Holding Limited",
+    "bbox": [
+      402,
+      514,
+      931,
+      524
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Source: AGAPE ATP CORP, 10-K/A, 12/2/2019",
+    "bbox": [
+      133,
+      1000,
+      497,
+      1000
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "ODM SUPPLY AGREEMENT",
+    "bbox": [
+      555,
+      72,
+      778,
+      84
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS AGREEMENT is made on the 15th day of January 2018.",
+    "bbox": [
+      109,
+      89,
+      570,
+      106
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      109,
+      200,
+      119
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ORGANIC PREPARATIONS INC.",
+    "bbox": [
+      313,
+      109,
+      562,
+      119
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2nd Floor, Transpacific Haus",
+    "bbox": [
+      312,
+      125,
+      524,
+      143
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Lini Highway, Port Vila. Vanuatu",
+    "bbox": [
+      312,
+      144,
+      552,
+      156
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(the Manufacturer') of one part",
+    "bbox": [
+      313,
+      162,
+      557,
+      172
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "AND:",
+    "bbox": [
+      111,
+      176,
+      155,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "AGAPE ATP INTERNATIONAL HOLDING LIMITED",
+    "bbox": [
+      313,
+      177,
+      709,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Unit 05, 4F, Energy Plaza",
+    "bbox": [
+      312,
+      192,
+      496,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "No. 92, Granville Road",
+    "bbox": [
+      312,
+      209,
+      479,
+      220
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Tsim Sha Tsui East",
+    "bbox": [
+      312,
+      225,
+      455,
+      236
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Kowloon, Hong Kong",
+    "bbox": [
+      312,
+      239,
+      480,
+      254
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "('the Customer') of the other part..",
+    "bbox": [
+      313,
+      258,
+      568,
+      268
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      112,
+      273,
+      198,
+      283
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The Manufacturer wishes to appoint the Customer to be the sole and exclusive agent for the promotion, sales, marketing distribution",
+    "bbox": [
+      212,
+      288,
+      1000,
+      300
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a.",
+    "bbox": [
+      178,
+      291,
+      195,
+      300
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and administration of the Products listed in schedule A of this agreement.",
+    "bbox": [
+      212,
+      304,
+      765,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b.",
+    "bbox": [
+      175,
+      319,
+      197,
+      333
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The Manufacturer and the Customer wish to record their agreement under the stipulations of this Agreement.",
+    "bbox": [
+      211,
+      320,
+      1000,
+      333
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW IT IS AGREED as follows:-",
+    "bbox": [
+      111,
+      337,
+      364,
+      347
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      109,
+      351,
+      129,
+      365
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TERMS OF AGREEMIENT",
+    "bbox": [
+      181,
+      354,
+      378,
+      363
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      110,
+      368,
+      137,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Commencement",
+    "bbox": [
+      179,
+      369,
+      304,
+      380
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This agreement commences upon execution of this document.",
+    "bbox": [
+      178,
+      384,
+      643,
+      397
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      110,
+      400,
+      138,
+      412
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      178,
+      400,
+      222,
+      412
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This agreement is for a term of ten (10) years..",
+    "bbox": [
+      178,
+      416,
+      516,
+      429
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      109,
+      432,
+      138,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Renewal",
+    "bbox": [
+      179,
+      433,
+      246,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten",
+    "bbox": [
+      178,
+      448,
+      1000,
+      461
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "breach of this agreement.",
+    "bbox": [
+      179,
+      481,
+      367,
+      492
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ODM Supply Agreement",
+    "bbox": [
+      572,
+      496,
+      762,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      496,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Organic Preparations INC. & Agape ATP International Holding Limited",
+    "bbox": [
+      402,
+      514,
+      931,
+      524
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: AGAPE ATP CORP, 10-K/A, 12/2/2019",
+    "bbox": [
+      133,
+      1000,
+      497,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

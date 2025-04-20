@@ -1,0 +1,618 @@
+[
+  {
+    "text": "3.5.3.",
+    "bbox": [
+      219,
+      82,
+      261,
+      95
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "EIT declares and guarantees the Customer the legal purchase of licences of all the software necessary for the use of the.",
+    "bbox": [
+      309,
+      83,
+      1000,
+      95
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "central applications created by EIT.",
+    "bbox": [
+      309,
+      100,
+      569,
+      111
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "3.5.4.",
+    "bbox": [
+      220,
+      123,
+      260,
+      137
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "EIT must inform the Customer in due course if any changes take place in licences or in their rights of use..",
+    "bbox": [
+      309,
+      125,
+      1000,
+      137
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "3.6.",
+    "bbox": [
+      153,
+      150,
+      181,
+      162
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "DEFINITION OF STANDARDS AND AGREED GUIDELINES",
+    "bbox": [
+      222,
+      152,
+      672,
+      161
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "EIT is responsible for:",
+    "bbox": [
+      158,
+      174,
+      318,
+      185
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "3.6.1.",
+    "bbox": [
+      220,
+      198,
+      261,
+      212
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "The definition of the technological standards to be used in the Customer's IT environment..",
+    "bbox": [
+      309,
+      200,
+      983,
+      211
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "3.6.2.",
+    "bbox": [
+      220,
+      225,
+      259,
+      236
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "The agreed guidelines with the suppliers, in order to assure the provision of certain services or the purchase of certain IT.",
+    "bbox": [
+      309,
+      225,
+      1000,
+      237
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "tools which, according to EIT, are necessary for the provision of the mentioned services.",
+    "bbox": [
+      309,
+      242,
+      965,
+      254
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      266,
+      125,
+      278
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "PROJECTS",
+    "bbox": [
+      154,
+      267,
+      237,
+      278
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "4.1.",
+    "bbox": [
+      153,
+      292,
+      181,
+      304
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Apart from these services, EIT must provide other supplementary services, not considered in the present Agreement. These services",
+    "bbox": [
+      221,
+      293,
+      1000,
+      305
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "include the study, development and implementation of new applications, changing to new platforms, as well as any other service that",
+    "bbox": [
+      220,
+      308,
+      1000,
+      321
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "the Customer may need in the field of IT services..",
+    "bbox": [
+      221,
+      325,
+      586,
+      335
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "4.2.",
+    "bbox": [
+      153,
+      349,
+      181,
+      361
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "The terms and conditions of these services will be separately negotiated if and when it applies",
+    "bbox": [
+      220,
+      349,
+      918,
+      362
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "4.3.",
+    "bbox": [
+      153,
+      375,
+      181,
+      387
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "For that purpose and before the execution of the mentioned services by EIT, the Customer will pay EIT the package price, previously",
+    "bbox": [
+      220,
+      375,
+      1000,
+      388
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "agreed by the parties. These services can either be carried out directly by EIT or by subcontracts in the sole discretion of EIT, which.",
+    "bbox": [
+      219,
+      389,
+      1000,
+      405
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "will have to notify the customer of this fact before the project commence. However if EIT decides to subcontract the project EIT",
+    "bbox": [
+      221,
+      407,
+      1000,
+      419
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "remains responsible for the quality, the cost and the supervision of the services to the satisfaction of the customer.",
+    "bbox": [
+      220,
+      424,
+      1000,
+      434
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      661,
+      453,
+      674,
+      463
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Source: FERROGLOBE PLC, F-4/A, 6/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "3.5.3.",
+    "bbox": [
+      219,
+      82,
+      261,
+      95
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "EIT declares and guarantees the Customer the legal purchase of licences of all the software necessary for the use of the.",
+    "bbox": [
+      309,
+      83,
+      1000,
+      95
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "central applications created by EIT.",
+    "bbox": [
+      309,
+      100,
+      569,
+      111
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3.5.4.",
+    "bbox": [
+      220,
+      123,
+      260,
+      137
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "EIT must inform the Customer in due course if any changes take place in licences or in their rights of use..",
+    "bbox": [
+      309,
+      125,
+      1000,
+      137
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3.6.",
+    "bbox": [
+      153,
+      150,
+      181,
+      162
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DEFINITION OF STANDARDS AND AGREED GUIDELINES",
+    "bbox": [
+      222,
+      152,
+      672,
+      161
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "EIT is responsible for:",
+    "bbox": [
+      158,
+      174,
+      318,
+      185
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3.6.1.",
+    "bbox": [
+      220,
+      198,
+      261,
+      212
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "The definition of the technological standards to be used in the Customer's IT environment..",
+    "bbox": [
+      309,
+      200,
+      983,
+      211
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3.6.2.",
+    "bbox": [
+      220,
+      225,
+      259,
+      236
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "The agreed guidelines with the suppliers, in order to assure the provision of certain services or the purchase of certain IT.",
+    "bbox": [
+      309,
+      225,
+      1000,
+      237
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "tools which, according to EIT, are necessary for the provision of the mentioned services.",
+    "bbox": [
+      309,
+      242,
+      965,
+      254
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      266,
+      125,
+      278
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "PROJECTS",
+    "bbox": [
+      154,
+      267,
+      237,
+      278
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4.1.",
+    "bbox": [
+      153,
+      292,
+      181,
+      304
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Apart from these services, EIT must provide other supplementary services, not considered in the present Agreement. These services",
+    "bbox": [
+      221,
+      293,
+      1000,
+      305
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "include the study, development and implementation of new applications, changing to new platforms, as well as any other service that",
+    "bbox": [
+      220,
+      308,
+      1000,
+      321
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the Customer may need in the field of IT services..",
+    "bbox": [
+      221,
+      325,
+      586,
+      335
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4.2.",
+    "bbox": [
+      153,
+      349,
+      181,
+      361
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "The terms and conditions of these services will be separately negotiated if and when it applies",
+    "bbox": [
+      220,
+      349,
+      918,
+      362
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4.3.",
+    "bbox": [
+      153,
+      375,
+      181,
+      387
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "For that purpose and before the execution of the mentioned services by EIT, the Customer will pay EIT the package price, previously",
+    "bbox": [
+      220,
+      375,
+      1000,
+      388
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "agreed by the parties. These services can either be carried out directly by EIT or by subcontracts in the sole discretion of EIT, which.",
+    "bbox": [
+      219,
+      389,
+      1000,
+      405
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "will have to notify the customer of this fact before the project commence. However if EIT decides to subcontract the project EIT",
+    "bbox": [
+      221,
+      407,
+      1000,
+      419
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "remains responsible for the quality, the cost and the supervision of the services to the satisfaction of the customer.",
+    "bbox": [
+      220,
+      424,
+      1000,
+      434
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      661,
+      453,
+      674,
+      463
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: FERROGLOBE PLC, F-4/A, 6/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  }
+]

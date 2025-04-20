@@ -1,0 +1,409 @@
+[
+  {
+    "text": "Effective Date: January 1, 2019",
+    "bbox": [
+      110,
+      200,
+      340,
+      212
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "On request of Buyer, Buyer is allowed to carry out on-site manufacturing and quality audits in manufacturing units where Products are produced.",
+    "bbox": [
+      112,
+      636,
+      1000,
+      648
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Buyer and Seller agree to enter into negotiations on an extended Quality Assurance Agreement. Provided that these negotiations will be.",
+    "bbox": [
+      112,
+      126,
+      1000,
+      138
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "successful, such agreement shall then be incorporated into this Contract as an amendment to it.",
+    "bbox": [
+      112,
+      142,
+      828,
+      152
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "AGREEMENT PERIOD",
+    "bbox": [
+      113,
+      171,
+      289,
+      182
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Effective Date: January 1, 2019",
+    "bbox": [
+      110,
+      200,
+      340,
+      212
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Termination Date: December 31. 2023",
+    "bbox": [
+      113,
+      231,
+      386,
+      241
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "PAYMENT TERMS",
+    "bbox": [
+      112,
+      261,
+      258,
+      271
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Buyer/Buyer Affiliates shall pay for Product by Electronic Funds Transfer (EFT) through the Automated Clearing House (ACH) using the",
+    "bbox": [
+      113,
+      292,
+      1000,
+      302
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Corporate Trade Exchange (CTX) format, according to the payment terms described in Attachment E.",
+    "bbox": [
+      112,
+      306,
+      866,
+      318
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "TECHNICAL SUPPORT",
+    "bbox": [
+      110,
+      335,
+      298,
+      347
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "EMCC/A will provide technical expertise in the use of Products and will use its technical centers to enhance technical communications with West.",
+    "bbox": [
+      112,
+      366,
+      1000,
+      378
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Pharmaceutical Services Affiliates technical centers. West/A will share its needs with EMCC/A and how they relate to West/A activities to help",
+    "bbox": [
+      110,
+      380,
+      1000,
+      393
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "guide ExxonMobil Chemical Affiliates technical efforts..",
+    "bbox": [
+      111,
+      395,
+      522,
+      408
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "The parties have created and continue to entertain a research and development governance structure with a steering team, program management",
+    "bbox": [
+      111,
+      425,
+      1000,
+      438
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "team and working team. The charter, roles and meeting frequencies are described in mutually agreed documents and will be reviewed periodically as.",
+    "bbox": [
+      111,
+      441,
+      1000,
+      453
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "deemed appropriate by the parties.",
+    "bbox": [
+      112,
+      456,
+      369,
+      468
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "SAFETY, HEALTH & ENVIRONMENT",
+    "bbox": [
+      112,
+      487,
+      408,
+      497
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Safety, health and environment (SHE) professional representatives from both parties shall endeavor to meet once a year (face to face or via.",
+    "bbox": [
+      112,
+      516,
+      1000,
+      528
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "teleconference) to exchange and benchmark on best practices..",
+    "bbox": [
+      112,
+      531,
+      576,
+      542
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "The parties agree to notify each other on SHE related issues that may arise from the use of Products.",
+    "bbox": [
+      112,
+      561,
+      865,
+      573
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "The parties agree to explore the reuse/recycling of articles, manufacturing trim and scrap Buyer produces from Products purchased from Seller.",
+    "bbox": [
+      112,
+      575,
+      1000,
+      588
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "AUDIT",
+    "bbox": [
+      111,
+      605,
+      167,
+      618
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "On request of Buyer, Buyer is allowed to carry out on-site manufacturing and quality audits in manufacturing units where Products are produced.",
+    "bbox": [
+      112,
+      636,
+      1000,
+      648
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "The frequency of such audits shall not exceed one audit per site within three years.",
+    "bbox": [
+      111,
+      650,
+      732,
+      663
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "SUPPLY SECURITY",
+    "bbox": [
+      112,
+      681,
+      266,
+      692
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Buyer is seeking for an increased level of supply security and additional risk mitigation strategies and actions in case of short and long term supply",
+    "bbox": [
+      111,
+      710,
+      1000,
+      723
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "disruptions of Products.",
+    "bbox": [
+      113,
+      726,
+      292,
+      737
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Seller agrees to enter into discussions and negotiations with Buyer and to take reasonable efforts to enhance such risk mitigation and business",
+    "bbox": [
+      112,
+      756,
+      1000,
+      768
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "continuity strategies.",
+    "bbox": [
+      111,
+      771,
+      270,
+      783
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "COLLABORATION PLANNING AND SUPPLY ASSURANCE, FORECAST",
+    "bbox": [
+      113,
+      801,
+      690,
+      810
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Buyer and Seller agree to convene once every calendar year to discuss annual Product quantities. Buyer has provided Seller with an annual non-",
+    "bbox": [
+      112,
+      831,
+      1000,
+      842
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "binding forecast for the respective contract year.",
+    "bbox": [
+      111,
+      846,
+      475,
+      857
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "As requested by the Seller, the Buyer will provide a quarterly forecast for the subsequent contract years. Seller will provide Buyer a quarterly",
+    "bbox": [
+      111,
+      875,
+      1000,
+      888
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "overview of the planned production run of each Butyl grade purchased for Buyer..",
+    "bbox": [
+      111,
+      891,
+      725,
+      903
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Seller shall acknowledge in writing the requested delivery and timing of Products and Volumes.",
+    "bbox": [
+      111,
+      920,
+      820,
+      933
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: WEST PHARMACEUTICAL SERVICES INC, 8-K, 1/16/2020",
+    "bbox": [
+      133,
+      1000,
+      651,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

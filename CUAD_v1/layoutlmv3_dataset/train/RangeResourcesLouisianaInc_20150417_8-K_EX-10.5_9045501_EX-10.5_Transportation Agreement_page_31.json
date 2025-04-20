@@ -1,0 +1,35 @@
+[
+  {
+    "text": "New Shippers will have access to a minimum of ten percent (10%) of the Available Capacity and Historical Shippers will have access to a",
+    "bbox": [
+      155,
+      418,
+      1000,
+      430
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "maximum of ninety percent (90%) of the Available Capacity.",
+    "bbox": [
+      154,
+      433,
+      599,
+      446
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Carrier shall allocate up to ninety percent (90%) of the Available Capacity on a non-discriminatory historical basis to all Historical Shippers",
+    "bbox": [
+      155,
+      458,
+      1000,
+      470
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  }
+]

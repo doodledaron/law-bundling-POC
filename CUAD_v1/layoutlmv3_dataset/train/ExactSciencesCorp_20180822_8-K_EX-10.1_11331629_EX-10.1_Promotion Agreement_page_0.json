@@ -1,0 +1,79 @@
+[
+  {
+    "text": "PROMOTION AGREEMENT",
+    "bbox": [
+      556,
+      113,
+      778,
+      123
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "PFIZER INC.",
+    "bbox": [
+      616,
+      176,
+      716,
+      187
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EXACT SCIENCES CORPORATION",
+    "bbox": [
+      525,
+      146,
+      809,
+      155
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EXACT SCIENCES CORPORATION",
+    "bbox": [
+      525,
+      146,
+      809,
+      155
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "PFIZER INC.",
+    "bbox": [
+      616,
+      176,
+      716,
+      187
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "August 21, 2018",
+    "bbox": [
+      602,
+      192,
+      733,
+      205
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "August 21, 2018",
+    "bbox": [
+      602,
+      192,
+      733,
+      205
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "text": "If control of either party shall pass from the present shareholders or owners or controllers to other persons whom the other party",
+    "bbox": [
+      225,
+      72,
+      1000,
+      86
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "shall in their absolute discretion regard as unsuitable.",
+    "bbox": [
+      226,
+      89,
+      625,
+      101
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  }
+]

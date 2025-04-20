@@ -1,0 +1,35 @@
+[
+  {
+    "text": "Outsourcing Contract on Development of Miaoli Royal Resort Hotel",
+    "bbox": [
+      114,
+      131,
+      757,
+      143
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Planning Unit: Chang Chen-Bin Architects Office",
+    "bbox": [
+      111,
+      164,
+      481,
+      177
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "October 29, 2015",
+    "bbox": [
+      112,
+      181,
+      235,
+      192
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

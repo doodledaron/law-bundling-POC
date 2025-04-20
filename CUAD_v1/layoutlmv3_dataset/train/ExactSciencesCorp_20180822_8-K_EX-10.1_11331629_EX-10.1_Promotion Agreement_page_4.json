@@ -1,0 +1,2576 @@
+[
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      613,
+      72,
+      720,
+      84
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "This Agreement (the \"Agreement') is made and entered into as of August 21, 2018 (the \"Effective Date'), by and between Pfizer Inc",
+    "bbox": [
+      190,
+      88,
+      1000,
+      101
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(\"Pfizer'), a Delaware corporation, with a principal place of business at 235 East 42nd Street, New York, New York 10017 and Exact Sciences.",
+    "bbox": [
+      124,
+      104,
+      1000,
+      117
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Corporation (\"Exact'), a Delaware corporation with a principal place of business at 441 Charmany Drive, Madison, Wisconsin 53719. Pfizer and",
+    "bbox": [
+      123,
+      120,
+      1000,
+      133
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Exact may each be referred to herein individually as a \"Party\"' and collectively as the \"Parties\"'.",
+    "bbox": [
+      123,
+      137,
+      838,
+      149
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Exact has marketing and proprietary rights to the Product (as defined below) in the United States;",
+    "bbox": [
+      191,
+      152,
+      1000,
+      165
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Pfizer has sales, marketing, analytical, and other core capabilities and competencies to promote and market branded",
+    "bbox": [
+      190,
+      167,
+      1000,
+      182
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "prescription products; and",
+    "bbox": [
+      122,
+      184,
+      325,
+      197
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Exact desires to work with Pfizer to leverage Pfizer's expertise in sales, marketing, analytical, and other core capabilities and.",
+    "bbox": [
+      191,
+      201,
+      1000,
+      213
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "competencies for the Product in the United States and Pfizer desires to provide such expertise, including through its Sales Representatives, and to",
+    "bbox": [
+      122,
+      217,
+      1000,
+      229
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "invest in Exact's Promotion of the Product in the United States.",
+    "bbox": [
+      123,
+      233,
+      593,
+      244
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOW THEREFORE, in consideration of the mutual promises and covenants set forth below and other good and valuable consideration,.",
+    "bbox": [
+      189,
+      248,
+      1000,
+      261
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the receipt and sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:",
+    "bbox": [
+      123,
+      265,
+      852,
+      277
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.DEFINITIONS.",
+    "bbox": [
+      113,
+      281,
+      242,
+      292
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1\"AdvaMed Code\"' shall have the meaning set forth in Section 3.2(c)(ii).",
+    "bbox": [
+      191,
+      297,
+      736,
+      309
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.2\"Advertising\" shall mean the paid advertising, planning, purchasing and placement of advertising for a prescription medical device",
+    "bbox": [
+      189,
+      312,
+      1000,
+      326
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "subject to pre-market approval in the Territory through any means, including television, print, radio/audio, in-office/placed-",
+    "bbox": [
+      259,
+      329,
+      1000,
+      341
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "based, digital, web, search (SEM/SEO), social media, mobile and any and all new and emerging media channels for consumers,",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "healthcare institutions and healthcare providers..",
+    "bbox": [
+      258,
+      360,
+      623,
+      373
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.3\"Affiliate(s)\"' shall mean, with respect to any Party, any other Person which controls, is controlled by or is under common control",
+    "bbox": [
+      191,
+      376,
+      1000,
+      388
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "with such Party. A Person shall be regarded as in control of another Person if it owns or controls at least fifty percent (50%) of",
+    "bbox": [
+      258,
+      393,
+      1000,
+      405
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the equity securities of such other Person entitled to vote in the election of directors (or, in the case of an entity that is not a",
+    "bbox": [
+      259,
+      409,
+      1000,
+      421
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "corporation, for the election of the corresponding managing authority); provided, however, that the term \"Affiliate\" shall not",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "include subsidiaries or other entities in which a Party or its Affiliates owns a majority of the ordinary voting power necessary to",
+    "bbox": [
+      258,
+      441,
+      1000,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "elect a majority of the board of directors or other governing board, but is restricted from electing such majority by contract or",
+    "bbox": [
+      258,
+      456,
+      1000,
+      469
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "otherwise, until such time as such restrictions are no longer in effect.",
+    "bbox": [
+      258,
+      473,
+      774,
+      484
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.4\"Agreement\"' shall have the meaning set forth in the preamble.",
+    "bbox": [
+      192,
+      489,
+      686,
+      501
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      506,
+      671,
+      515
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]
