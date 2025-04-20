@@ -1,0 +1,2642 @@
+[
+  {
+    "text": "JOINT DEVELOPMENT AGREEMENT",
+    "bbox": [
+      474,
+      82,
+      857,
+      93
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Agreement is made as of the Effective Date between:",
+    "bbox": [
+      113,
+      106,
+      602,
+      119
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ExxonMobil Research and Engineering Company, a corporation of the State of Delaware having offices at 1545 Route 22 East,",
+    "bbox": [
+      112,
+      133,
+      1000,
+      147
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Annandale, New Jersey O8801 (\"ExxonMobil''); and",
+    "bbox": [
+      113,
+      153,
+      561,
+      166
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "FuelCell Energy, Inc., a corporation of the State of Delaware having offices at 3 Great Pasture Road, Danbury, Connecticut O6810",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "(\"FCE\").",
+    "bbox": [
+      111,
+      197,
+      191,
+      213
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ExxonMobil and FCE are engaged in collaborative research and development projects to evaluate and develop Molten Carbonate Fuel",
+    "bbox": [
+      110,
+      223,
+      1000,
+      239
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Cells (MCFCs) to reduce carbon dioxide emissions (i.e., achieve low cost carbon dioxide capture). ExxonMobil and FCE wish to",
+    "bbox": [
+      113,
+      243,
+      1000,
+      255
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "further the research and development efforts to evaluate and develop new and/or improved MCFCs to reduce carbon dioxide.",
+    "bbox": [
+      113,
+      261,
+      1000,
+      273
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "contained herein, ExxonMobil and FCE (each a \"Party' and collectively the \"Parties\") agree as follows:",
+    "bbox": [
+      112,
+      297,
+      972,
+      310
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ARTICLE 1 - DEFINITIONS",
+    "bbox": [
+      529,
+      324,
+      802,
+      336
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.01",
+    "bbox": [
+      109,
+      349,
+      153,
+      364
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Definitions. The terms appearing in this Agreement in initial capital letters, not otherwise defined in the preamble or body",
+    "bbox": [
+      195,
+      349,
+      1000,
+      365
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "of this Agreement, are defined in Appendix A.",
+    "bbox": [
+      197,
+      369,
+      580,
+      382
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ARTICLE 2 - PROGRAM",
+    "bbox": [
+      545,
+      395,
+      789,
+      407
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.01",
+    "bbox": [
+      108,
+      420,
+      152,
+      435
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Program / Projects. The collaborative research and development effort will comprise one or more mutually agreed upon",
+    "bbox": [
+      197,
+      422,
+      1000,
+      434
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "projects within the Scope during the Term of this Agreement (each a \"Project' and, collectively, the \"Projects\" or the",
+    "bbox": [
+      195,
+      438,
+      1000,
+      455
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Program'). The details of each Project will be described in a written, mutually agreed upon document (\"Project.",
+    "bbox": [
+      196,
+      457,
+      1000,
+      471
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Description') - a template for which is set forth in Appendix B. Each Project Description will specify the scope and content",
+    "bbox": [
+      197,
+      476,
+      1000,
+      489
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "of the Project, the work to be undertaken by each Party and potential third parties, the deliverables, the timing, any",
+    "bbox": [
+      196,
+      493,
+      1000,
+      508
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "payments to be made not otherwise set forth in this Agreement, and any other related objectives and expectations. When",
+    "bbox": [
+      195,
+      510,
+      1000,
+      527
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "completed and signed by duly authorized representatives of both Parties, each Project Description will become part of this",
+    "bbox": [
+      197,
+      530,
+      1000,
+      543
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Agreement and will be governed by the terms and conditions of this Agreement. Neither Party makes any representations",
+    "bbox": [
+      197,
+      548,
+      1000,
+      561
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "as to the number, frequency, or monetary value of the Projects, except as otherwise set forth herein or in any Project.",
+    "bbox": [
+      196,
+      565,
+      1000,
+      580
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Description.",
+    "bbox": [
+      196,
+      583,
+      296,
+      597
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.02",
+    "bbox": [
+      109,
+      609,
+      154,
+      624
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Subcontracting. ExxonMobil hereby consents to FCE hiring trade contractors commonly used for facility modifications",
+    "bbox": [
+      197,
+      610,
+      1000,
+      623
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "and individual engineering contractors and individual staff from temporary agencies as needed to perform work pursuant to",
+    "bbox": [
+      197,
+      628,
+      1000,
+      641
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "a Project Description, provided that such contractors and staff are under confidentiality and use restrictions no less.",
+    "bbox": [
+      196,
+      646,
+      1000,
+      659
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "restrictive than the terms and conditions set forth herein.",
+    "bbox": [
+      197,
+      666,
+      660,
+      676
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.03",
+    "bbox": [
+      108,
+      689,
+      154,
+      705
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Work Exclusivity/Independent Work. During the Term of this Agreement, FCE will not conduct any Work using",
+    "bbox": [
+      195,
+      689,
+      1000,
+      707
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Generation 1 Technology in Carbon Capture Applications or any Work using Generation 2 Technology, independently or.",
+    "bbox": [
+      196,
+      709,
+      1000,
+      723
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "with third parties outside this Agreement, without prior written approval from ExxonMobil. Notwithstanding the foregoing.",
+    "bbox": [
+      196,
+      726,
+      1000,
+      742
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ExxonMobil hereby grants approval for FCE solely to conduct Authorized Work using Generation 1 Technology with.",
+    "bbox": [
+      196,
+      745,
+      1000,
+      759
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Authorized Third Parties for Carbon Capture Applications and any Work using Generation 2 Technology solely for Power.",
+    "bbox": [
+      197,
+      764,
+      1000,
+      776
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Applications and Hydrogen Applications..",
+    "bbox": [
+      198,
+      782,
+      532,
+      795
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Page 1 of 31",
+    "bbox": [
+      1000,
+      815,
+      1000,
+      831
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: FUELCELL ENERGY INC, 8-K, 11/6/2019",
+    "bbox": [
+      133,
+      1000,
+      514,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "JOINT DEVELOPMENT AGREEMENT",
+    "bbox": [
+      474,
+      82,
+      857,
+      93
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Agreement is made as of the Effective Date between:",
+    "bbox": [
+      113,
+      106,
+      602,
+      119
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ExxonMobil Research and Engineering Company, a corporation of the State of Delaware having offices at 1545 Route 22 East,",
+    "bbox": [
+      112,
+      133,
+      1000,
+      147
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Annandale, New Jersey O8801 (\"ExxonMobil''); and",
+    "bbox": [
+      113,
+      153,
+      561,
+      166
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "FuelCell Energy, Inc., a corporation of the State of Delaware having offices at 3 Great Pasture Road, Danbury, Connecticut O6810",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(\"FCE\").",
+    "bbox": [
+      111,
+      197,
+      191,
+      213
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ExxonMobil and FCE are engaged in collaborative research and development projects to evaluate and develop Molten Carbonate Fuel",
+    "bbox": [
+      110,
+      223,
+      1000,
+      239
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Cells (MCFCs) to reduce carbon dioxide emissions (i.e., achieve low cost carbon dioxide capture). ExxonMobil and FCE wish to",
+    "bbox": [
+      113,
+      243,
+      1000,
+      255
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "further the research and development efforts to evaluate and develop new and/or improved MCFCs to reduce carbon dioxide.",
+    "bbox": [
+      113,
+      261,
+      1000,
+      273
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "contained herein, ExxonMobil and FCE (each a \"Party' and collectively the \"Parties\") agree as follows:",
+    "bbox": [
+      112,
+      297,
+      972,
+      310
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ARTICLE 1 - DEFINITIONS",
+    "bbox": [
+      529,
+      324,
+      802,
+      336
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.01",
+    "bbox": [
+      109,
+      349,
+      153,
+      364
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Definitions. The terms appearing in this Agreement in initial capital letters, not otherwise defined in the preamble or body",
+    "bbox": [
+      195,
+      349,
+      1000,
+      365
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "of this Agreement, are defined in Appendix A.",
+    "bbox": [
+      197,
+      369,
+      580,
+      382
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ARTICLE 2 - PROGRAM",
+    "bbox": [
+      545,
+      395,
+      789,
+      407
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.01",
+    "bbox": [
+      108,
+      420,
+      152,
+      435
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Program / Projects. The collaborative research and development effort will comprise one or more mutually agreed upon",
+    "bbox": [
+      197,
+      422,
+      1000,
+      434
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "projects within the Scope during the Term of this Agreement (each a \"Project' and, collectively, the \"Projects\" or the",
+    "bbox": [
+      195,
+      438,
+      1000,
+      455
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Program'). The details of each Project will be described in a written, mutually agreed upon document (\"Project.",
+    "bbox": [
+      196,
+      457,
+      1000,
+      471
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Description') - a template for which is set forth in Appendix B. Each Project Description will specify the scope and content",
+    "bbox": [
+      197,
+      476,
+      1000,
+      489
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "of the Project, the work to be undertaken by each Party and potential third parties, the deliverables, the timing, any",
+    "bbox": [
+      196,
+      493,
+      1000,
+      508
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "payments to be made not otherwise set forth in this Agreement, and any other related objectives and expectations. When",
+    "bbox": [
+      195,
+      510,
+      1000,
+      527
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "completed and signed by duly authorized representatives of both Parties, each Project Description will become part of this",
+    "bbox": [
+      197,
+      530,
+      1000,
+      543
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Agreement and will be governed by the terms and conditions of this Agreement. Neither Party makes any representations",
+    "bbox": [
+      197,
+      548,
+      1000,
+      561
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "as to the number, frequency, or monetary value of the Projects, except as otherwise set forth herein or in any Project.",
+    "bbox": [
+      196,
+      565,
+      1000,
+      580
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Description.",
+    "bbox": [
+      196,
+      583,
+      296,
+      597
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.02",
+    "bbox": [
+      109,
+      609,
+      154,
+      624
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Subcontracting. ExxonMobil hereby consents to FCE hiring trade contractors commonly used for facility modifications",
+    "bbox": [
+      197,
+      610,
+      1000,
+      623
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and individual engineering contractors and individual staff from temporary agencies as needed to perform work pursuant to",
+    "bbox": [
+      197,
+      628,
+      1000,
+      641
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "a Project Description, provided that such contractors and staff are under confidentiality and use restrictions no less.",
+    "bbox": [
+      196,
+      646,
+      1000,
+      659
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "restrictive than the terms and conditions set forth herein.",
+    "bbox": [
+      197,
+      666,
+      660,
+      676
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.03",
+    "bbox": [
+      108,
+      689,
+      154,
+      705
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Work Exclusivity/Independent Work. During the Term of this Agreement, FCE will not conduct any Work using",
+    "bbox": [
+      195,
+      689,
+      1000,
+      707
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Generation 1 Technology in Carbon Capture Applications or any Work using Generation 2 Technology, independently or.",
+    "bbox": [
+      196,
+      709,
+      1000,
+      723
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "with third parties outside this Agreement, without prior written approval from ExxonMobil. Notwithstanding the foregoing.",
+    "bbox": [
+      196,
+      726,
+      1000,
+      742
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ExxonMobil hereby grants approval for FCE solely to conduct Authorized Work using Generation 1 Technology with.",
+    "bbox": [
+      196,
+      745,
+      1000,
+      759
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Authorized Third Parties for Carbon Capture Applications and any Work using Generation 2 Technology solely for Power.",
+    "bbox": [
+      197,
+      764,
+      1000,
+      776
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Applications and Hydrogen Applications..",
+    "bbox": [
+      198,
+      782,
+      532,
+      795
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Page 1 of 31",
+    "bbox": [
+      1000,
+      815,
+      1000,
+      831
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: FUELCELL ENERGY INC, 8-K, 11/6/2019",
+    "bbox": [
+      133,
+      1000,
+      514,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "JOINT DEVELOPMENT AGREEMENT",
+    "bbox": [
+      474,
+      82,
+      857,
+      93
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This Agreement is made as of the Effective Date between:",
+    "bbox": [
+      113,
+      106,
+      602,
+      119
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ExxonMobil Research and Engineering Company, a corporation of the State of Delaware having offices at 1545 Route 22 East,",
+    "bbox": [
+      112,
+      133,
+      1000,
+      147
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Annandale, New Jersey O8801 (\"ExxonMobil''); and",
+    "bbox": [
+      113,
+      153,
+      561,
+      166
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "FuelCell Energy, Inc., a corporation of the State of Delaware having offices at 3 Great Pasture Road, Danbury, Connecticut O6810",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(\"FCE\").",
+    "bbox": [
+      111,
+      197,
+      191,
+      213
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ExxonMobil and FCE are engaged in collaborative research and development projects to evaluate and develop Molten Carbonate Fuel",
+    "bbox": [
+      110,
+      223,
+      1000,
+      239
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Cells (MCFCs) to reduce carbon dioxide emissions (i.e., achieve low cost carbon dioxide capture). ExxonMobil and FCE wish to",
+    "bbox": [
+      113,
+      243,
+      1000,
+      255
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "further the research and development efforts to evaluate and develop new and/or improved MCFCs to reduce carbon dioxide.",
+    "bbox": [
+      113,
+      261,
+      1000,
+      273
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "contained herein, ExxonMobil and FCE (each a \"Party' and collectively the \"Parties\") agree as follows:",
+    "bbox": [
+      112,
+      297,
+      972,
+      310
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLE 1 - DEFINITIONS",
+    "bbox": [
+      529,
+      324,
+      802,
+      336
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.01",
+    "bbox": [
+      109,
+      349,
+      153,
+      364
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Definitions. The terms appearing in this Agreement in initial capital letters, not otherwise defined in the preamble or body",
+    "bbox": [
+      195,
+      349,
+      1000,
+      365
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "of this Agreement, are defined in Appendix A.",
+    "bbox": [
+      197,
+      369,
+      580,
+      382
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLE 2 - PROGRAM",
+    "bbox": [
+      545,
+      395,
+      789,
+      407
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.01",
+    "bbox": [
+      108,
+      420,
+      152,
+      435
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Program / Projects. The collaborative research and development effort will comprise one or more mutually agreed upon",
+    "bbox": [
+      197,
+      422,
+      1000,
+      434
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "projects within the Scope during the Term of this Agreement (each a \"Project' and, collectively, the \"Projects\" or the",
+    "bbox": [
+      195,
+      438,
+      1000,
+      455
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Program'). The details of each Project will be described in a written, mutually agreed upon document (\"Project.",
+    "bbox": [
+      196,
+      457,
+      1000,
+      471
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Description') - a template for which is set forth in Appendix B. Each Project Description will specify the scope and content",
+    "bbox": [
+      197,
+      476,
+      1000,
+      489
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "of the Project, the work to be undertaken by each Party and potential third parties, the deliverables, the timing, any",
+    "bbox": [
+      196,
+      493,
+      1000,
+      508
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "payments to be made not otherwise set forth in this Agreement, and any other related objectives and expectations. When",
+    "bbox": [
+      195,
+      510,
+      1000,
+      527
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "completed and signed by duly authorized representatives of both Parties, each Project Description will become part of this",
+    "bbox": [
+      197,
+      530,
+      1000,
+      543
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement and will be governed by the terms and conditions of this Agreement. Neither Party makes any representations",
+    "bbox": [
+      197,
+      548,
+      1000,
+      561
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "as to the number, frequency, or monetary value of the Projects, except as otherwise set forth herein or in any Project.",
+    "bbox": [
+      196,
+      565,
+      1000,
+      580
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Description.",
+    "bbox": [
+      196,
+      583,
+      296,
+      597
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.02",
+    "bbox": [
+      109,
+      609,
+      154,
+      624
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Subcontracting. ExxonMobil hereby consents to FCE hiring trade contractors commonly used for facility modifications",
+    "bbox": [
+      197,
+      610,
+      1000,
+      623
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and individual engineering contractors and individual staff from temporary agencies as needed to perform work pursuant to",
+    "bbox": [
+      197,
+      628,
+      1000,
+      641
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "a Project Description, provided that such contractors and staff are under confidentiality and use restrictions no less.",
+    "bbox": [
+      196,
+      646,
+      1000,
+      659
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "restrictive than the terms and conditions set forth herein.",
+    "bbox": [
+      197,
+      666,
+      660,
+      676
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.03",
+    "bbox": [
+      108,
+      689,
+      154,
+      705
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Work Exclusivity/Independent Work. During the Term of this Agreement, FCE will not conduct any Work using",
+    "bbox": [
+      195,
+      689,
+      1000,
+      707
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Generation 1 Technology in Carbon Capture Applications or any Work using Generation 2 Technology, independently or.",
+    "bbox": [
+      196,
+      709,
+      1000,
+      723
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "with third parties outside this Agreement, without prior written approval from ExxonMobil. Notwithstanding the foregoing.",
+    "bbox": [
+      196,
+      726,
+      1000,
+      742
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ExxonMobil hereby grants approval for FCE solely to conduct Authorized Work using Generation 1 Technology with.",
+    "bbox": [
+      196,
+      745,
+      1000,
+      759
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Authorized Third Parties for Carbon Capture Applications and any Work using Generation 2 Technology solely for Power.",
+    "bbox": [
+      197,
+      764,
+      1000,
+      776
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Applications and Hydrogen Applications..",
+    "bbox": [
+      198,
+      782,
+      532,
+      795
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Page 1 of 31",
+    "bbox": [
+      1000,
+      815,
+      1000,
+      831
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: FUELCELL ENERGY INC, 8-K, 11/6/2019",
+    "bbox": [
+      133,
+      1000,
+      514,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "JOINT DEVELOPMENT AGREEMENT",
+    "bbox": [
+      474,
+      82,
+      857,
+      93
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "This Agreement is made as of the Effective Date between:",
+    "bbox": [
+      113,
+      106,
+      602,
+      119
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil Research and Engineering Company, a corporation of the State of Delaware having offices at 1545 Route 22 East,",
+    "bbox": [
+      112,
+      133,
+      1000,
+      147
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Annandale, New Jersey O8801 (\"ExxonMobil''); and",
+    "bbox": [
+      113,
+      153,
+      561,
+      166
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "FuelCell Energy, Inc., a corporation of the State of Delaware having offices at 3 Great Pasture Road, Danbury, Connecticut O6810",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(\"FCE\").",
+    "bbox": [
+      111,
+      197,
+      191,
+      213
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil and FCE are engaged in collaborative research and development projects to evaluate and develop Molten Carbonate Fuel",
+    "bbox": [
+      110,
+      223,
+      1000,
+      239
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Cells (MCFCs) to reduce carbon dioxide emissions (i.e., achieve low cost carbon dioxide capture). ExxonMobil and FCE wish to",
+    "bbox": [
+      113,
+      243,
+      1000,
+      255
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "further the research and development efforts to evaluate and develop new and/or improved MCFCs to reduce carbon dioxide.",
+    "bbox": [
+      113,
+      261,
+      1000,
+      273
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "contained herein, ExxonMobil and FCE (each a \"Party' and collectively the \"Parties\") agree as follows:",
+    "bbox": [
+      112,
+      297,
+      972,
+      310
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ARTICLE 1 - DEFINITIONS",
+    "bbox": [
+      529,
+      324,
+      802,
+      336
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.01",
+    "bbox": [
+      109,
+      349,
+      153,
+      364
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Definitions. The terms appearing in this Agreement in initial capital letters, not otherwise defined in the preamble or body",
+    "bbox": [
+      195,
+      349,
+      1000,
+      365
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of this Agreement, are defined in Appendix A.",
+    "bbox": [
+      197,
+      369,
+      580,
+      382
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ARTICLE 2 - PROGRAM",
+    "bbox": [
+      545,
+      395,
+      789,
+      407
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.01",
+    "bbox": [
+      108,
+      420,
+      152,
+      435
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Program / Projects. The collaborative research and development effort will comprise one or more mutually agreed upon",
+    "bbox": [
+      197,
+      422,
+      1000,
+      434
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "projects within the Scope during the Term of this Agreement (each a \"Project' and, collectively, the \"Projects\" or the",
+    "bbox": [
+      195,
+      438,
+      1000,
+      455
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "\"Program'). The details of each Project will be described in a written, mutually agreed upon document (\"Project.",
+    "bbox": [
+      196,
+      457,
+      1000,
+      471
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Description') - a template for which is set forth in Appendix B. Each Project Description will specify the scope and content",
+    "bbox": [
+      197,
+      476,
+      1000,
+      489
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of the Project, the work to be undertaken by each Party and potential third parties, the deliverables, the timing, any",
+    "bbox": [
+      196,
+      493,
+      1000,
+      508
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "payments to be made not otherwise set forth in this Agreement, and any other related objectives and expectations. When",
+    "bbox": [
+      195,
+      510,
+      1000,
+      527
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "completed and signed by duly authorized representatives of both Parties, each Project Description will become part of this",
+    "bbox": [
+      197,
+      530,
+      1000,
+      543
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Agreement and will be governed by the terms and conditions of this Agreement. Neither Party makes any representations",
+    "bbox": [
+      197,
+      548,
+      1000,
+      561
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "as to the number, frequency, or monetary value of the Projects, except as otherwise set forth herein or in any Project.",
+    "bbox": [
+      196,
+      565,
+      1000,
+      580
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Description.",
+    "bbox": [
+      196,
+      583,
+      296,
+      597
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.02",
+    "bbox": [
+      109,
+      609,
+      154,
+      624
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Subcontracting. ExxonMobil hereby consents to FCE hiring trade contractors commonly used for facility modifications",
+    "bbox": [
+      197,
+      610,
+      1000,
+      623
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "and individual engineering contractors and individual staff from temporary agencies as needed to perform work pursuant to",
+    "bbox": [
+      197,
+      628,
+      1000,
+      641
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "a Project Description, provided that such contractors and staff are under confidentiality and use restrictions no less.",
+    "bbox": [
+      196,
+      646,
+      1000,
+      659
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "restrictive than the terms and conditions set forth herein.",
+    "bbox": [
+      197,
+      666,
+      660,
+      676
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.03",
+    "bbox": [
+      108,
+      689,
+      154,
+      705
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Work Exclusivity/Independent Work. During the Term of this Agreement, FCE will not conduct any Work using",
+    "bbox": [
+      195,
+      689,
+      1000,
+      707
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Generation 1 Technology in Carbon Capture Applications or any Work using Generation 2 Technology, independently or.",
+    "bbox": [
+      196,
+      709,
+      1000,
+      723
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "with third parties outside this Agreement, without prior written approval from ExxonMobil. Notwithstanding the foregoing.",
+    "bbox": [
+      196,
+      726,
+      1000,
+      742
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil hereby grants approval for FCE solely to conduct Authorized Work using Generation 1 Technology with.",
+    "bbox": [
+      196,
+      745,
+      1000,
+      759
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Authorized Third Parties for Carbon Capture Applications and any Work using Generation 2 Technology solely for Power.",
+    "bbox": [
+      197,
+      764,
+      1000,
+      776
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Applications and Hydrogen Applications..",
+    "bbox": [
+      198,
+      782,
+      532,
+      795
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Page 1 of 31",
+    "bbox": [
+      1000,
+      815,
+      1000,
+      831
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: FUELCELL ENERGY INC, 8-K, 11/6/2019",
+    "bbox": [
+      133,
+      1000,
+      514,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "JOINT DEVELOPMENT AGREEMENT",
+    "bbox": [
+      474,
+      82,
+      857,
+      93
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "This Agreement is made as of the Effective Date between:",
+    "bbox": [
+      113,
+      106,
+      602,
+      119
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil Research and Engineering Company, a corporation of the State of Delaware having offices at 1545 Route 22 East,",
+    "bbox": [
+      112,
+      133,
+      1000,
+      147
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Annandale, New Jersey O8801 (\"ExxonMobil''); and",
+    "bbox": [
+      113,
+      153,
+      561,
+      166
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "FuelCell Energy, Inc., a corporation of the State of Delaware having offices at 3 Great Pasture Road, Danbury, Connecticut O6810",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(\"FCE\").",
+    "bbox": [
+      111,
+      197,
+      191,
+      213
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil and FCE are engaged in collaborative research and development projects to evaluate and develop Molten Carbonate Fuel",
+    "bbox": [
+      110,
+      223,
+      1000,
+      239
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Cells (MCFCs) to reduce carbon dioxide emissions (i.e., achieve low cost carbon dioxide capture). ExxonMobil and FCE wish to",
+    "bbox": [
+      113,
+      243,
+      1000,
+      255
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "further the research and development efforts to evaluate and develop new and/or improved MCFCs to reduce carbon dioxide.",
+    "bbox": [
+      113,
+      261,
+      1000,
+      273
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "contained herein, ExxonMobil and FCE (each a \"Party' and collectively the \"Parties\") agree as follows:",
+    "bbox": [
+      112,
+      297,
+      972,
+      310
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ARTICLE 1 - DEFINITIONS",
+    "bbox": [
+      529,
+      324,
+      802,
+      336
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.01",
+    "bbox": [
+      109,
+      349,
+      153,
+      364
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Definitions. The terms appearing in this Agreement in initial capital letters, not otherwise defined in the preamble or body",
+    "bbox": [
+      195,
+      349,
+      1000,
+      365
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of this Agreement, are defined in Appendix A.",
+    "bbox": [
+      197,
+      369,
+      580,
+      382
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ARTICLE 2 - PROGRAM",
+    "bbox": [
+      545,
+      395,
+      789,
+      407
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.01",
+    "bbox": [
+      108,
+      420,
+      152,
+      435
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Program / Projects. The collaborative research and development effort will comprise one or more mutually agreed upon",
+    "bbox": [
+      197,
+      422,
+      1000,
+      434
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "projects within the Scope during the Term of this Agreement (each a \"Project' and, collectively, the \"Projects\" or the",
+    "bbox": [
+      195,
+      438,
+      1000,
+      455
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "\"Program'). The details of each Project will be described in a written, mutually agreed upon document (\"Project.",
+    "bbox": [
+      196,
+      457,
+      1000,
+      471
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Description') - a template for which is set forth in Appendix B. Each Project Description will specify the scope and content",
+    "bbox": [
+      197,
+      476,
+      1000,
+      489
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of the Project, the work to be undertaken by each Party and potential third parties, the deliverables, the timing, any",
+    "bbox": [
+      196,
+      493,
+      1000,
+      508
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "payments to be made not otherwise set forth in this Agreement, and any other related objectives and expectations. When",
+    "bbox": [
+      195,
+      510,
+      1000,
+      527
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "completed and signed by duly authorized representatives of both Parties, each Project Description will become part of this",
+    "bbox": [
+      197,
+      530,
+      1000,
+      543
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Agreement and will be governed by the terms and conditions of this Agreement. Neither Party makes any representations",
+    "bbox": [
+      197,
+      548,
+      1000,
+      561
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "as to the number, frequency, or monetary value of the Projects, except as otherwise set forth herein or in any Project.",
+    "bbox": [
+      196,
+      565,
+      1000,
+      580
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Description.",
+    "bbox": [
+      196,
+      583,
+      296,
+      597
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.02",
+    "bbox": [
+      109,
+      609,
+      154,
+      624
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Subcontracting. ExxonMobil hereby consents to FCE hiring trade contractors commonly used for facility modifications",
+    "bbox": [
+      197,
+      610,
+      1000,
+      623
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "and individual engineering contractors and individual staff from temporary agencies as needed to perform work pursuant to",
+    "bbox": [
+      197,
+      628,
+      1000,
+      641
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "a Project Description, provided that such contractors and staff are under confidentiality and use restrictions no less.",
+    "bbox": [
+      196,
+      646,
+      1000,
+      659
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "restrictive than the terms and conditions set forth herein.",
+    "bbox": [
+      197,
+      666,
+      660,
+      676
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.03",
+    "bbox": [
+      108,
+      689,
+      154,
+      705
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Work Exclusivity/Independent Work. During the Term of this Agreement, FCE will not conduct any Work using",
+    "bbox": [
+      195,
+      689,
+      1000,
+      707
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Generation 1 Technology in Carbon Capture Applications or any Work using Generation 2 Technology, independently or.",
+    "bbox": [
+      196,
+      709,
+      1000,
+      723
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "with third parties outside this Agreement, without prior written approval from ExxonMobil. Notwithstanding the foregoing.",
+    "bbox": [
+      196,
+      726,
+      1000,
+      742
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil hereby grants approval for FCE solely to conduct Authorized Work using Generation 1 Technology with.",
+    "bbox": [
+      196,
+      745,
+      1000,
+      759
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Authorized Third Parties for Carbon Capture Applications and any Work using Generation 2 Technology solely for Power.",
+    "bbox": [
+      197,
+      764,
+      1000,
+      776
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Applications and Hydrogen Applications..",
+    "bbox": [
+      198,
+      782,
+      532,
+      795
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Page 1 of 31",
+    "bbox": [
+      1000,
+      815,
+      1000,
+      831
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: FUELCELL ENERGY INC, 8-K, 11/6/2019",
+    "bbox": [
+      133,
+      1000,
+      514,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "JOINT DEVELOPMENT AGREEMENT",
+    "bbox": [
+      474,
+      82,
+      857,
+      93
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "This Agreement is made as of the Effective Date between:",
+    "bbox": [
+      113,
+      106,
+      602,
+      119
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil Research and Engineering Company, a corporation of the State of Delaware having offices at 1545 Route 22 East,",
+    "bbox": [
+      112,
+      133,
+      1000,
+      147
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Annandale, New Jersey O8801 (\"ExxonMobil''); and",
+    "bbox": [
+      113,
+      153,
+      561,
+      166
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "FuelCell Energy, Inc., a corporation of the State of Delaware having offices at 3 Great Pasture Road, Danbury, Connecticut O6810",
+    "bbox": [
+      111,
+      179,
+      1000,
+      193
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(\"FCE\").",
+    "bbox": [
+      111,
+      197,
+      191,
+      213
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil and FCE are engaged in collaborative research and development projects to evaluate and develop Molten Carbonate Fuel",
+    "bbox": [
+      110,
+      223,
+      1000,
+      239
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Cells (MCFCs) to reduce carbon dioxide emissions (i.e., achieve low cost carbon dioxide capture). ExxonMobil and FCE wish to",
+    "bbox": [
+      113,
+      243,
+      1000,
+      255
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "further the research and development efforts to evaluate and develop new and/or improved MCFCs to reduce carbon dioxide.",
+    "bbox": [
+      113,
+      261,
+      1000,
+      273
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "contained herein, ExxonMobil and FCE (each a \"Party' and collectively the \"Parties\") agree as follows:",
+    "bbox": [
+      112,
+      297,
+      972,
+      310
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ARTICLE 1 - DEFINITIONS",
+    "bbox": [
+      529,
+      324,
+      802,
+      336
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.01",
+    "bbox": [
+      109,
+      349,
+      153,
+      364
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Definitions. The terms appearing in this Agreement in initial capital letters, not otherwise defined in the preamble or body",
+    "bbox": [
+      195,
+      349,
+      1000,
+      365
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of this Agreement, are defined in Appendix A.",
+    "bbox": [
+      197,
+      369,
+      580,
+      382
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ARTICLE 2 - PROGRAM",
+    "bbox": [
+      545,
+      395,
+      789,
+      407
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.01",
+    "bbox": [
+      108,
+      420,
+      152,
+      435
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Program / Projects. The collaborative research and development effort will comprise one or more mutually agreed upon",
+    "bbox": [
+      197,
+      422,
+      1000,
+      434
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "projects within the Scope during the Term of this Agreement (each a \"Project' and, collectively, the \"Projects\" or the",
+    "bbox": [
+      195,
+      438,
+      1000,
+      455
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "\"Program'). The details of each Project will be described in a written, mutually agreed upon document (\"Project.",
+    "bbox": [
+      196,
+      457,
+      1000,
+      471
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Description') - a template for which is set forth in Appendix B. Each Project Description will specify the scope and content",
+    "bbox": [
+      197,
+      476,
+      1000,
+      489
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "of the Project, the work to be undertaken by each Party and potential third parties, the deliverables, the timing, any",
+    "bbox": [
+      196,
+      493,
+      1000,
+      508
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "payments to be made not otherwise set forth in this Agreement, and any other related objectives and expectations. When",
+    "bbox": [
+      195,
+      510,
+      1000,
+      527
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "completed and signed by duly authorized representatives of both Parties, each Project Description will become part of this",
+    "bbox": [
+      197,
+      530,
+      1000,
+      543
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Agreement and will be governed by the terms and conditions of this Agreement. Neither Party makes any representations",
+    "bbox": [
+      197,
+      548,
+      1000,
+      561
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "as to the number, frequency, or monetary value of the Projects, except as otherwise set forth herein or in any Project.",
+    "bbox": [
+      196,
+      565,
+      1000,
+      580
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Description.",
+    "bbox": [
+      196,
+      583,
+      296,
+      597
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.02",
+    "bbox": [
+      109,
+      609,
+      154,
+      624
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Subcontracting. ExxonMobil hereby consents to FCE hiring trade contractors commonly used for facility modifications",
+    "bbox": [
+      197,
+      610,
+      1000,
+      623
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "and individual engineering contractors and individual staff from temporary agencies as needed to perform work pursuant to",
+    "bbox": [
+      197,
+      628,
+      1000,
+      641
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "a Project Description, provided that such contractors and staff are under confidentiality and use restrictions no less.",
+    "bbox": [
+      196,
+      646,
+      1000,
+      659
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "restrictive than the terms and conditions set forth herein.",
+    "bbox": [
+      197,
+      666,
+      660,
+      676
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.03",
+    "bbox": [
+      108,
+      689,
+      154,
+      705
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Work Exclusivity/Independent Work. During the Term of this Agreement, FCE will not conduct any Work using",
+    "bbox": [
+      195,
+      689,
+      1000,
+      707
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Generation 1 Technology in Carbon Capture Applications or any Work using Generation 2 Technology, independently or.",
+    "bbox": [
+      196,
+      709,
+      1000,
+      723
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "with third parties outside this Agreement, without prior written approval from ExxonMobil. Notwithstanding the foregoing.",
+    "bbox": [
+      196,
+      726,
+      1000,
+      742
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ExxonMobil hereby grants approval for FCE solely to conduct Authorized Work using Generation 1 Technology with.",
+    "bbox": [
+      196,
+      745,
+      1000,
+      759
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Authorized Third Parties for Carbon Capture Applications and any Work using Generation 2 Technology solely for Power.",
+    "bbox": [
+      197,
+      764,
+      1000,
+      776
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Applications and Hydrogen Applications..",
+    "bbox": [
+      198,
+      782,
+      532,
+      795
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Page 1 of 31",
+    "bbox": [
+      1000,
+      815,
+      1000,
+      831
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: FUELCELL ENERGY INC, 8-K, 11/6/2019",
+    "bbox": [
+      133,
+      1000,
+      514,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  }
+]

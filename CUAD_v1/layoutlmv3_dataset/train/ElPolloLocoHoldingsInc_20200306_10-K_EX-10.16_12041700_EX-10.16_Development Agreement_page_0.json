@@ -1,0 +1,1949 @@
+[
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "PolloLoco",
+    "bbox": [
+      147,
+      227,
+      364,
+      271
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      120,
+      242,
+      142,
+      260
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "EL POLLO LOCO FRANCHISE DEVELOPMENT AGREEMENT",
+    "bbox": [
+      114,
+      436,
+      778,
+      448
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Dated:",
+    "bbox": [
+      110,
+      473,
+      185,
+      489
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Territory:",
+    "bbox": [
+      119,
+      598,
+      219,
+      618
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Developer:",
+    "bbox": [
+      122,
+      626,
+      239,
+      640
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(Disclosure Document Control No. 032619)",
+    "bbox": [
+      114,
+      726,
+      532,
+      738
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      112,
+      764,
+      355,
+      776
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "1.DEVELOPMENT RIGHTS IN TERRITORY. 4",
+    "bbox": [
+      112,
+      782,
+      583,
+      795
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "2.LIMITATION ON DEVELOPMENT RIGHTS. 5",
+    "bbox": [
+      113,
+      802,
+      591,
+      814
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "3.DEVELOPMENT FEE. 9",
+    "bbox": [
+      112,
+      820,
+      380,
+      833
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "4.TERM OF DEVELOPMENT AGREEMENT.10",
+    "bbox": [
+      112,
+      839,
+      597,
+      852
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "5.TERRITORY CONFLICTS. 10",
+    "bbox": [
+      114,
+      858,
+      433,
+      871
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "6.PROPRIETARY RIGHTS OF EL POLLO LOCO. 11",
+    "bbox": [
+      113,
+      878,
+      643,
+      889
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "7.INSURANCE AND INDEMNIFICATION. 11",
+    "bbox": [
+      113,
+      896,
+      562,
+      909
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "8.TRANSFER OF RIGHTS.13",
+    "bbox": [
+      113,
+      915,
+      420,
+      927
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "9.ACKNOWLEDGMENT OF SELECTED TERMS AND PROVISIONS OF THE FRANCHISE AGREEMENT",
+    "bbox": [
+      113,
+      934,
+      1000,
+      947
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      111,
+      953,
+      138,
+      966
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "10.TERMINATION BY DEVELOPER: EXPIRATION DATE. 14",
+    "bbox": [
+      113,
+      972,
+      737,
+      985
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "11.EVENTS OF DEFAULT. 15",
+    "bbox": [
+      112,
+      991,
+      415,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "12.EFFECT OF TERMINATION. 16",
+    "bbox": [
+      113,
+      1000,
+      467,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "13.NON-WAIVER. 17",
+    "bbox": [
+      113,
+      1000,
+      325,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "14.INDEPENDENT CONTRACTOR AND INDEMNIFICATION. 17",
+    "bbox": [
+      112,
+      1000,
+      774,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "15.ENTIRE AGREEMENT. 17",
+    "bbox": [
+      113,
+      1000,
+      412,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "16.DISPUTE RESOLUTION 18",
+    "bbox": [
+      112,
+      1000,
+      429,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "17.SEVERABILITY. 19",
+    "bbox": [
+      114,
+      1000,
+      341,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "18.APPLICABLE LAW; CHOICE OF FORUM; WAIVER OF JURY TRIAL.19",
+    "bbox": [
+      114,
+      1000,
+      885,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "19.DOCUMENT INTERPRETATION. 19",
+    "bbox": [
+      113,
+      1000,
+      516,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "20.COVENANT NOT TO COMPETE. 20",
+    "bbox": [
+      114,
+      1000,
+      517,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "21.NOTICES. 21",
+    "bbox": [
+      114,
+      1000,
+      279,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "22.SECTION HEADINGS. 21",
+    "bbox": [
+      114,
+      1000,
+      405,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "23.ACKNOWLEDGMENTS. 21",
+    "bbox": [
+      113,
+      1000,
+      426,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "24.COUNTERPARTS. 22",
+    "bbox": [
+      114,
+      1000,
+      370,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Source: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020",
+    "bbox": [
+      134,
+      1000,
+      596,
+      1000
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "EL POLLO LOCO FRANCHISE DEVELOPMENT AGREEMENT",
+    "bbox": [
+      114,
+      436,
+      778,
+      448
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "PolloLoco",
+    "bbox": [
+      147,
+      227,
+      364,
+      271
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      120,
+      242,
+      142,
+      260
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EL POLLO LOCO FRANCHISE DEVELOPMENT AGREEMENT",
+    "bbox": [
+      114,
+      436,
+      778,
+      448
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dated:",
+    "bbox": [
+      110,
+      473,
+      185,
+      489
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Territory:",
+    "bbox": [
+      119,
+      598,
+      219,
+      618
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Developer:",
+    "bbox": [
+      122,
+      626,
+      239,
+      640
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(Disclosure Document Control No. 032619)",
+    "bbox": [
+      114,
+      726,
+      532,
+      738
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      112,
+      764,
+      355,
+      776
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "1.DEVELOPMENT RIGHTS IN TERRITORY. 4",
+    "bbox": [
+      112,
+      782,
+      583,
+      795
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "2.LIMITATION ON DEVELOPMENT RIGHTS. 5",
+    "bbox": [
+      113,
+      802,
+      591,
+      814
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "3.DEVELOPMENT FEE. 9",
+    "bbox": [
+      112,
+      820,
+      380,
+      833
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "4.TERM OF DEVELOPMENT AGREEMENT.10",
+    "bbox": [
+      112,
+      839,
+      597,
+      852
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "5.TERRITORY CONFLICTS. 10",
+    "bbox": [
+      114,
+      858,
+      433,
+      871
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "6.PROPRIETARY RIGHTS OF EL POLLO LOCO. 11",
+    "bbox": [
+      113,
+      878,
+      643,
+      889
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "7.INSURANCE AND INDEMNIFICATION. 11",
+    "bbox": [
+      113,
+      896,
+      562,
+      909
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "8.TRANSFER OF RIGHTS.13",
+    "bbox": [
+      113,
+      915,
+      420,
+      927
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "9.ACKNOWLEDGMENT OF SELECTED TERMS AND PROVISIONS OF THE FRANCHISE AGREEMENT",
+    "bbox": [
+      113,
+      934,
+      1000,
+      947
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      111,
+      953,
+      138,
+      966
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "10.TERMINATION BY DEVELOPER: EXPIRATION DATE. 14",
+    "bbox": [
+      113,
+      972,
+      737,
+      985
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.EVENTS OF DEFAULT. 15",
+    "bbox": [
+      112,
+      991,
+      415,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12.EFFECT OF TERMINATION. 16",
+    "bbox": [
+      113,
+      1000,
+      467,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "13.NON-WAIVER. 17",
+    "bbox": [
+      113,
+      1000,
+      325,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "14.INDEPENDENT CONTRACTOR AND INDEMNIFICATION. 17",
+    "bbox": [
+      112,
+      1000,
+      774,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "15.ENTIRE AGREEMENT. 17",
+    "bbox": [
+      113,
+      1000,
+      412,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "16.DISPUTE RESOLUTION 18",
+    "bbox": [
+      112,
+      1000,
+      429,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "17.SEVERABILITY. 19",
+    "bbox": [
+      114,
+      1000,
+      341,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "18.APPLICABLE LAW; CHOICE OF FORUM; WAIVER OF JURY TRIAL.19",
+    "bbox": [
+      114,
+      1000,
+      885,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "19.DOCUMENT INTERPRETATION. 19",
+    "bbox": [
+      113,
+      1000,
+      516,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "20.COVENANT NOT TO COMPETE. 20",
+    "bbox": [
+      114,
+      1000,
+      517,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "21.NOTICES. 21",
+    "bbox": [
+      114,
+      1000,
+      279,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "22.SECTION HEADINGS. 21",
+    "bbox": [
+      114,
+      1000,
+      405,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "23.ACKNOWLEDGMENTS. 21",
+    "bbox": [
+      113,
+      1000,
+      426,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "24.COUNTERPARTS. 22",
+    "bbox": [
+      114,
+      1000,
+      370,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020",
+    "bbox": [
+      134,
+      1000,
+      596,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Developer:",
+    "bbox": [
+      122,
+      626,
+      239,
+      640
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "PolloLoco",
+    "bbox": [
+      147,
+      227,
+      364,
+      271
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      120,
+      242,
+      142,
+      260
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "EL POLLO LOCO FRANCHISE DEVELOPMENT AGREEMENT",
+    "bbox": [
+      114,
+      436,
+      778,
+      448
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Dated:",
+    "bbox": [
+      110,
+      473,
+      185,
+      489
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Territory:",
+    "bbox": [
+      119,
+      598,
+      219,
+      618
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Developer:",
+    "bbox": [
+      122,
+      626,
+      239,
+      640
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "(Disclosure Document Control No. 032619)",
+    "bbox": [
+      114,
+      726,
+      532,
+      738
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      112,
+      764,
+      355,
+      776
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.DEVELOPMENT RIGHTS IN TERRITORY. 4",
+    "bbox": [
+      112,
+      782,
+      583,
+      795
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.LIMITATION ON DEVELOPMENT RIGHTS. 5",
+    "bbox": [
+      113,
+      802,
+      591,
+      814
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "3.DEVELOPMENT FEE. 9",
+    "bbox": [
+      112,
+      820,
+      380,
+      833
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "4.TERM OF DEVELOPMENT AGREEMENT.10",
+    "bbox": [
+      112,
+      839,
+      597,
+      852
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5.TERRITORY CONFLICTS. 10",
+    "bbox": [
+      114,
+      858,
+      433,
+      871
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6.PROPRIETARY RIGHTS OF EL POLLO LOCO. 11",
+    "bbox": [
+      113,
+      878,
+      643,
+      889
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "7.INSURANCE AND INDEMNIFICATION. 11",
+    "bbox": [
+      113,
+      896,
+      562,
+      909
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "8.TRANSFER OF RIGHTS.13",
+    "bbox": [
+      113,
+      915,
+      420,
+      927
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "9.ACKNOWLEDGMENT OF SELECTED TERMS AND PROVISIONS OF THE FRANCHISE AGREEMENT",
+    "bbox": [
+      113,
+      934,
+      1000,
+      947
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      111,
+      953,
+      138,
+      966
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "10.TERMINATION BY DEVELOPER: EXPIRATION DATE. 14",
+    "bbox": [
+      113,
+      972,
+      737,
+      985
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "11.EVENTS OF DEFAULT. 15",
+    "bbox": [
+      112,
+      991,
+      415,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "12.EFFECT OF TERMINATION. 16",
+    "bbox": [
+      113,
+      1000,
+      467,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "13.NON-WAIVER. 17",
+    "bbox": [
+      113,
+      1000,
+      325,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "14.INDEPENDENT CONTRACTOR AND INDEMNIFICATION. 17",
+    "bbox": [
+      112,
+      1000,
+      774,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "15.ENTIRE AGREEMENT. 17",
+    "bbox": [
+      113,
+      1000,
+      412,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "16.DISPUTE RESOLUTION 18",
+    "bbox": [
+      112,
+      1000,
+      429,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "17.SEVERABILITY. 19",
+    "bbox": [
+      114,
+      1000,
+      341,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "18.APPLICABLE LAW; CHOICE OF FORUM; WAIVER OF JURY TRIAL.19",
+    "bbox": [
+      114,
+      1000,
+      885,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "19.DOCUMENT INTERPRETATION. 19",
+    "bbox": [
+      113,
+      1000,
+      516,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "20.COVENANT NOT TO COMPETE. 20",
+    "bbox": [
+      114,
+      1000,
+      517,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "21.NOTICES. 21",
+    "bbox": [
+      114,
+      1000,
+      279,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "22.SECTION HEADINGS. 21",
+    "bbox": [
+      114,
+      1000,
+      405,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "23.ACKNOWLEDGMENTS. 21",
+    "bbox": [
+      113,
+      1000,
+      426,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "24.COUNTERPARTS. 22",
+    "bbox": [
+      114,
+      1000,
+      370,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020",
+    "bbox": [
+      134,
+      1000,
+      596,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "PolloLoco",
+    "bbox": [
+      147,
+      227,
+      364,
+      271
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      120,
+      242,
+      142,
+      260
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EL POLLO LOCO FRANCHISE DEVELOPMENT AGREEMENT",
+    "bbox": [
+      114,
+      436,
+      778,
+      448
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Dated:",
+    "bbox": [
+      110,
+      473,
+      185,
+      489
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory:",
+    "bbox": [
+      119,
+      598,
+      219,
+      618
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Developer:",
+    "bbox": [
+      122,
+      626,
+      239,
+      640
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(Disclosure Document Control No. 032619)",
+    "bbox": [
+      114,
+      726,
+      532,
+      738
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      112,
+      764,
+      355,
+      776
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.DEVELOPMENT RIGHTS IN TERRITORY. 4",
+    "bbox": [
+      112,
+      782,
+      583,
+      795
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.LIMITATION ON DEVELOPMENT RIGHTS. 5",
+    "bbox": [
+      113,
+      802,
+      591,
+      814
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.DEVELOPMENT FEE. 9",
+    "bbox": [
+      112,
+      820,
+      380,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.TERM OF DEVELOPMENT AGREEMENT.10",
+    "bbox": [
+      112,
+      839,
+      597,
+      852
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.TERRITORY CONFLICTS. 10",
+    "bbox": [
+      114,
+      858,
+      433,
+      871
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6.PROPRIETARY RIGHTS OF EL POLLO LOCO. 11",
+    "bbox": [
+      113,
+      878,
+      643,
+      889
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7.INSURANCE AND INDEMNIFICATION. 11",
+    "bbox": [
+      113,
+      896,
+      562,
+      909
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "8.TRANSFER OF RIGHTS.13",
+    "bbox": [
+      113,
+      915,
+      420,
+      927
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.ACKNOWLEDGMENT OF SELECTED TERMS AND PROVISIONS OF THE FRANCHISE AGREEMENT",
+    "bbox": [
+      113,
+      934,
+      1000,
+      947
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      111,
+      953,
+      138,
+      966
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.TERMINATION BY DEVELOPER: EXPIRATION DATE. 14",
+    "bbox": [
+      113,
+      972,
+      737,
+      985
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.EVENTS OF DEFAULT. 15",
+    "bbox": [
+      112,
+      991,
+      415,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.EFFECT OF TERMINATION. 16",
+    "bbox": [
+      113,
+      1000,
+      467,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13.NON-WAIVER. 17",
+    "bbox": [
+      113,
+      1000,
+      325,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14.INDEPENDENT CONTRACTOR AND INDEMNIFICATION. 17",
+    "bbox": [
+      112,
+      1000,
+      774,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15.ENTIRE AGREEMENT. 17",
+    "bbox": [
+      113,
+      1000,
+      412,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "16.DISPUTE RESOLUTION 18",
+    "bbox": [
+      112,
+      1000,
+      429,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17.SEVERABILITY. 19",
+    "bbox": [
+      114,
+      1000,
+      341,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "18.APPLICABLE LAW; CHOICE OF FORUM; WAIVER OF JURY TRIAL.19",
+    "bbox": [
+      114,
+      1000,
+      885,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "19.DOCUMENT INTERPRETATION. 19",
+    "bbox": [
+      113,
+      1000,
+      516,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "20.COVENANT NOT TO COMPETE. 20",
+    "bbox": [
+      114,
+      1000,
+      517,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "21.NOTICES. 21",
+    "bbox": [
+      114,
+      1000,
+      279,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "22.SECTION HEADINGS. 21",
+    "bbox": [
+      114,
+      1000,
+      405,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "23.ACKNOWLEDGMENTS. 21",
+    "bbox": [
+      113,
+      1000,
+      426,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "24.COUNTERPARTS. 22",
+    "bbox": [
+      114,
+      1000,
+      370,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020",
+    "bbox": [
+      134,
+      1000,
+      596,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.16",
+    "bbox": [
+      1000,
+      83,
+      1000,
+      94
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "PolloLoco",
+    "bbox": [
+      147,
+      227,
+      364,
+      271
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      120,
+      242,
+      142,
+      260
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EL POLLO LOCO FRANCHISE DEVELOPMENT AGREEMENT",
+    "bbox": [
+      114,
+      436,
+      778,
+      448
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Dated:",
+    "bbox": [
+      110,
+      473,
+      185,
+      489
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory:",
+    "bbox": [
+      119,
+      598,
+      219,
+      618
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Developer:",
+    "bbox": [
+      122,
+      626,
+      239,
+      640
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(Disclosure Document Control No. 032619)",
+    "bbox": [
+      114,
+      726,
+      532,
+      738
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      112,
+      764,
+      355,
+      776
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.DEVELOPMENT RIGHTS IN TERRITORY. 4",
+    "bbox": [
+      112,
+      782,
+      583,
+      795
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.LIMITATION ON DEVELOPMENT RIGHTS. 5",
+    "bbox": [
+      113,
+      802,
+      591,
+      814
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.DEVELOPMENT FEE. 9",
+    "bbox": [
+      112,
+      820,
+      380,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.TERM OF DEVELOPMENT AGREEMENT.10",
+    "bbox": [
+      112,
+      839,
+      597,
+      852
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.TERRITORY CONFLICTS. 10",
+    "bbox": [
+      114,
+      858,
+      433,
+      871
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6.PROPRIETARY RIGHTS OF EL POLLO LOCO. 11",
+    "bbox": [
+      113,
+      878,
+      643,
+      889
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7.INSURANCE AND INDEMNIFICATION. 11",
+    "bbox": [
+      113,
+      896,
+      562,
+      909
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "8.TRANSFER OF RIGHTS.13",
+    "bbox": [
+      113,
+      915,
+      420,
+      927
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9.ACKNOWLEDGMENT OF SELECTED TERMS AND PROVISIONS OF THE FRANCHISE AGREEMENT",
+    "bbox": [
+      113,
+      934,
+      1000,
+      947
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      111,
+      953,
+      138,
+      966
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.TERMINATION BY DEVELOPER: EXPIRATION DATE. 14",
+    "bbox": [
+      113,
+      972,
+      737,
+      985
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.EVENTS OF DEFAULT. 15",
+    "bbox": [
+      112,
+      991,
+      415,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.EFFECT OF TERMINATION. 16",
+    "bbox": [
+      113,
+      1000,
+      467,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13.NON-WAIVER. 17",
+    "bbox": [
+      113,
+      1000,
+      325,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14.INDEPENDENT CONTRACTOR AND INDEMNIFICATION. 17",
+    "bbox": [
+      112,
+      1000,
+      774,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15.ENTIRE AGREEMENT. 17",
+    "bbox": [
+      113,
+      1000,
+      412,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "16.DISPUTE RESOLUTION 18",
+    "bbox": [
+      112,
+      1000,
+      429,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "17.SEVERABILITY. 19",
+    "bbox": [
+      114,
+      1000,
+      341,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "18.APPLICABLE LAW; CHOICE OF FORUM; WAIVER OF JURY TRIAL.19",
+    "bbox": [
+      114,
+      1000,
+      885,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "19.DOCUMENT INTERPRETATION. 19",
+    "bbox": [
+      113,
+      1000,
+      516,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "20.COVENANT NOT TO COMPETE. 20",
+    "bbox": [
+      114,
+      1000,
+      517,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "21.NOTICES. 21",
+    "bbox": [
+      114,
+      1000,
+      279,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "22.SECTION HEADINGS. 21",
+    "bbox": [
+      114,
+      1000,
+      405,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "23.ACKNOWLEDGMENTS. 21",
+    "bbox": [
+      113,
+      1000,
+      426,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "24.COUNTERPARTS. 22",
+    "bbox": [
+      114,
+      1000,
+      370,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020",
+    "bbox": [
+      134,
+      1000,
+      596,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

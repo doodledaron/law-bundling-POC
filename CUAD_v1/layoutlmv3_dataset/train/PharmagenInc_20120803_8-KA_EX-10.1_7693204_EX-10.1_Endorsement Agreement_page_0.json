@@ -1,0 +1,992 @@
+[
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      475,
+      103,
+      719,
+      113
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Delaware corporation, and Paul Silas (\"Celebrity), an individual.",
+    "bbox": [
+      114,
+      163,
+      597,
+      175
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Delaware corporation, and Paul Silas (\"Celebrity), an individual.",
+    "bbox": [
+      114,
+      163,
+      597,
+      175
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "made effective as of February 20, 2012 (\"Effective Date\") between Healthcare Distribution Specialists LLC (\"HDS\"), a",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "made effective as of February 20, 2012 (\"Effective Date\") between Healthcare Distribution Specialists LLC (\"HDS\"), a",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "made effective as of February 20, 2012 (\"Effective Date\") between Healthcare Distribution Specialists LLC (\"HDS\"), a",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "made effective as of February 20, 2012 (\"Effective Date\") between Healthcare Distribution Specialists LLC (\"HDS\"), a",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Term of Agreement. The term of this Agreement shall be for one (1) year commencing on the Effective Date and ending.",
+    "bbox": [
+      177,
+      282,
+      1000,
+      295
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "on February 19, 2013 (\"Term\").",
+    "bbox": [
+      181,
+      297,
+      412,
+      310
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.1",
+    "bbox": [
+      987,
+      73,
+      1000,
+      83
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      475,
+      103,
+      719,
+      113
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (the \"Agreement\") is dated as of this",
+    "bbox": [
+      182,
+      132,
+      781,
+      144
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "day of",
+    "bbox": [
+      825,
+      133,
+      877,
+      144
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": ", 2012, but",
+    "bbox": [
+      994,
+      131,
+      1000,
+      145
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "made effective as of February 20, 2012 (\"Effective Date\") between Healthcare Distribution Specialists LLC (\"HDS\"), a",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Delaware corporation, and Paul Silas (\"Celebrity), an individual.",
+    "bbox": [
+      114,
+      163,
+      597,
+      175
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      461,
+      193,
+      567,
+      204
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      150,
+      224,
+      163,
+      233
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Engagement. HDS engages Celebrity and Celebrity hereby accepts the engagement to provide for his endorsement of",
+    "bbox": [
+      178,
+      223,
+      1000,
+      235
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "HDS' product, Clotamin in the United States (Territory\") as further outlined herein. In addition, it is understood and",
+    "bbox": [
+      181,
+      237,
+      1000,
+      250
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "agreed that with respect to the Website, as defined below, the Territory shall be worldwide.",
+    "bbox": [
+      183,
+      252,
+      866,
+      265
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      149,
+      283,
+      166,
+      293
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Term of Agreement. The term of this Agreement shall be for one (1) year commencing on the Effective Date and ending.",
+    "bbox": [
+      177,
+      282,
+      1000,
+      295
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "on February 19, 2013 (\"Term\").",
+    "bbox": [
+      181,
+      297,
+      412,
+      310
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      147,
+      328,
+      162,
+      339
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Grant. During the Term and subject to the limitations set forth in Paragraphs 9 and 10, HDS shall have the right to use",
+    "bbox": [
+      179,
+      328,
+      1000,
+      339
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "the name, image, likeness, characterization, visual and audio representation of Celebrity (\"Celebrity Attributes\") in",
+    "bbox": [
+      183,
+      344,
+      1000,
+      354
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "connection with HDS' product, Clotamin, in the Territory as follows:",
+    "bbox": [
+      181,
+      357,
+      691,
+      369
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "A. In a television commercial (specific spot length to be mutually agreed upon) promoting Clotamin.",
+    "bbox": [
+      221,
+      387,
+      1000,
+      400
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(\"Commercial\") aired specifically in the following three (3) television markets: (1) Washington, DC Metro.",
+    "bbox": [
+      256,
+      403,
+      1000,
+      415
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Area; (2) Florida; and (3) Texas (collectively \"Markets\");",
+    "bbox": [
+      255,
+      417,
+      680,
+      430
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "B.On HDS' website (www.clotamin.corn) (\"Website\"); and",
+    "bbox": [
+      220,
+      447,
+      675,
+      460
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "C. In Clotamin-related press releases.",
+    "bbox": [
+      220,
+      477,
+      508,
+      490
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      222,
+      508,
+      252,
+      518
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": " In connection with any HDS' usage of Celebrity Attributes as outlined above in Paragraphs 3(A)-(C), HDS will.",
+    "bbox": [
+      248,
+      508,
+      1000,
+      520
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "feature the following disclaimer in close proximity to said usage: \"PAUL SILAS IS NOT A MEDICAL.",
+    "bbox": [
+      255,
+      523,
+      1000,
+      535
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "AUTHORITY. THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG",
+    "bbox": [
+      257,
+      538,
+      1000,
+      548
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE OR PREVENT",
+    "bbox": [
+      257,
+      553,
+      1000,
+      563
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "ANY DISEASE.\"",
+    "bbox": [
+      255,
+      567,
+      383,
+      579
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      149,
+      598,
+      165,
+      607
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Duties of Celebrity and Rights of HDS. During the Term and subject to the limitations set forth in Paragraphs 9 and 10,",
+    "bbox": [
+      178,
+      597,
+      1000,
+      609
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Celebrity agrees to provide HDS with the following:",
+    "bbox": [
+      181,
+      612,
+      569,
+      626
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "A. Upon request by HDS, one (1) production session to be used for the production of the Commercial.",
+    "bbox": [
+      216,
+      643,
+      1000,
+      655
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(\"Production Session\"). The location, date and time of the Production Session shall be mutually agreed upon.",
+    "bbox": [
+      250,
+      657,
+      1000,
+      670
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "by Celebrity and HDS. In the event the Production Session exceeds eight (8) hours in duration HDS and.",
+    "bbox": [
+      251,
+      673,
+      1000,
+      685
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Celebrity will negotiate in good faith additional compensation to Celebrity for time in excess of eight (8)",
+    "bbox": [
+      250,
+      687,
+      1000,
+      700
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "hours.",
+    "bbox": [
+      249,
+      702,
+      299,
+      715
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: PHARMAGEN, INC., 8-K/A, 8/3/2012",
+    "bbox": [
+      133,
+      1000,
+      485,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "by Celebrity and HDS. In the event the Production Session exceeds eight (8) hours in duration HDS and.",
+    "bbox": [
+      251,
+      673,
+      1000,
+      685
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Celebrity will negotiate in good faith additional compensation to Celebrity for time in excess of eight (8)",
+    "bbox": [
+      250,
+      687,
+      1000,
+      700
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "hours.",
+    "bbox": [
+      249,
+      702,
+      299,
+      715
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Exhibit 10.1",
+    "bbox": [
+      987,
+      73,
+      1000,
+      83
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      475,
+      103,
+      719,
+      113
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "THIS ENDORSEMENT AGREEMENT (the \"Agreement\") is dated as of this",
+    "bbox": [
+      182,
+      132,
+      781,
+      144
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "day of",
+    "bbox": [
+      825,
+      133,
+      877,
+      144
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": ", 2012, but",
+    "bbox": [
+      994,
+      131,
+      1000,
+      145
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "made effective as of February 20, 2012 (\"Effective Date\") between Healthcare Distribution Specialists LLC (\"HDS\"), a",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Delaware corporation, and Paul Silas (\"Celebrity), an individual.",
+    "bbox": [
+      114,
+      163,
+      597,
+      175
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      461,
+      193,
+      567,
+      204
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      150,
+      224,
+      163,
+      233
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Engagement. HDS engages Celebrity and Celebrity hereby accepts the engagement to provide for his endorsement of",
+    "bbox": [
+      178,
+      223,
+      1000,
+      235
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "HDS' product, Clotamin in the United States (Territory\") as further outlined herein. In addition, it is understood and",
+    "bbox": [
+      181,
+      237,
+      1000,
+      250
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "agreed that with respect to the Website, as defined below, the Territory shall be worldwide.",
+    "bbox": [
+      183,
+      252,
+      866,
+      265
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      149,
+      283,
+      166,
+      293
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Term of Agreement. The term of this Agreement shall be for one (1) year commencing on the Effective Date and ending.",
+    "bbox": [
+      177,
+      282,
+      1000,
+      295
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "on February 19, 2013 (\"Term\").",
+    "bbox": [
+      181,
+      297,
+      412,
+      310
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      147,
+      328,
+      162,
+      339
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Grant. During the Term and subject to the limitations set forth in Paragraphs 9 and 10, HDS shall have the right to use",
+    "bbox": [
+      179,
+      328,
+      1000,
+      339
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the name, image, likeness, characterization, visual and audio representation of Celebrity (\"Celebrity Attributes\") in",
+    "bbox": [
+      183,
+      344,
+      1000,
+      354
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "connection with HDS' product, Clotamin, in the Territory as follows:",
+    "bbox": [
+      181,
+      357,
+      691,
+      369
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "A. In a television commercial (specific spot length to be mutually agreed upon) promoting Clotamin.",
+    "bbox": [
+      221,
+      387,
+      1000,
+      400
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(\"Commercial\") aired specifically in the following three (3) television markets: (1) Washington, DC Metro.",
+    "bbox": [
+      256,
+      403,
+      1000,
+      415
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Area; (2) Florida; and (3) Texas (collectively \"Markets\");",
+    "bbox": [
+      255,
+      417,
+      680,
+      430
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "B.On HDS' website (www.clotamin.corn) (\"Website\"); and",
+    "bbox": [
+      220,
+      447,
+      675,
+      460
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "C. In Clotamin-related press releases.",
+    "bbox": [
+      220,
+      477,
+      508,
+      490
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      222,
+      508,
+      252,
+      518
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": " In connection with any HDS' usage of Celebrity Attributes as outlined above in Paragraphs 3(A)-(C), HDS will.",
+    "bbox": [
+      248,
+      508,
+      1000,
+      520
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "feature the following disclaimer in close proximity to said usage: \"PAUL SILAS IS NOT A MEDICAL.",
+    "bbox": [
+      255,
+      523,
+      1000,
+      535
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "AUTHORITY. THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG",
+    "bbox": [
+      257,
+      538,
+      1000,
+      548
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE OR PREVENT",
+    "bbox": [
+      257,
+      553,
+      1000,
+      563
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ANY DISEASE.\"",
+    "bbox": [
+      255,
+      567,
+      383,
+      579
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      149,
+      598,
+      165,
+      607
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Duties of Celebrity and Rights of HDS. During the Term and subject to the limitations set forth in Paragraphs 9 and 10,",
+    "bbox": [
+      178,
+      597,
+      1000,
+      609
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Celebrity agrees to provide HDS with the following:",
+    "bbox": [
+      181,
+      612,
+      569,
+      626
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "A. Upon request by HDS, one (1) production session to be used for the production of the Commercial.",
+    "bbox": [
+      216,
+      643,
+      1000,
+      655
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(\"Production Session\"). The location, date and time of the Production Session shall be mutually agreed upon.",
+    "bbox": [
+      250,
+      657,
+      1000,
+      670
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "by Celebrity and HDS. In the event the Production Session exceeds eight (8) hours in duration HDS and.",
+    "bbox": [
+      251,
+      673,
+      1000,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Celebrity will negotiate in good faith additional compensation to Celebrity for time in excess of eight (8)",
+    "bbox": [
+      250,
+      687,
+      1000,
+      700
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "hours.",
+    "bbox": [
+      249,
+      702,
+      299,
+      715
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: PHARMAGEN, INC., 8-K/A, 8/3/2012",
+    "bbox": [
+      133,
+      1000,
+      485,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

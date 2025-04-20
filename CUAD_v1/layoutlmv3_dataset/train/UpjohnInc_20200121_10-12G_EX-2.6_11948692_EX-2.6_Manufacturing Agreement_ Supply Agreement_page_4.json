@@ -1,0 +1,3093 @@
+[
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "MANUFACTURING AND SUPPLY AGREEMENT",
+    "bbox": [
+      489,
+      83,
+      853,
+      93
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement'), dated as of [o] (the \"Effective Date\"), is by and between Pfizer Inc., a",
+    "bbox": [
+      157,
+      114,
+      1000,
+      126
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer'). Manufacturer and Customer may",
+    "bbox": [
+      110,
+      129,
+      1000,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "be referred to herein individually as a \"Party' or collectively as the \"Parties\"'",
+    "bbox": [
+      111,
+      145,
+      669,
+      157
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WITNESSETH:",
+    "bbox": [
+      596,
+      192,
+      747,
+      202
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Pfizer Inc. (\"Pluto') and Upjohn Inc. (\"Spinco\") have entered into a Separation and Distribution Agreement, dated as of July 29, 2019",
+    "bbox": [
+      157,
+      223,
+      1000,
+      235
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(as amended, modified or supplemented from time to time in accordance with its terms, the \"Separation Agreement'), pursuant to which Pluto and Spinco",
+    "bbox": [
+      112,
+      239,
+      1000,
+      250
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "have agreed to separate the Spinco Business from the Pluto Business so that, as of the Distribution Date, the Spinco Business shall be held by members",
+    "bbox": [
+      111,
+      255,
+      1000,
+      266
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of the Spinco Group and the Pluto Business is held by members of the Pluto Group (the \"Separation');",
+    "bbox": [
+      110,
+      269,
+      858,
+      282
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, after the Separation, Spinco shall become a standalone publicly traded company, pursuant to the terms of the Separation Agreement.",
+    "bbox": [
+      156,
+      300,
+      1000,
+      313
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and a Business Combination Agreement, dated as of July 29, 2019 (the \"Business Combination Agreement'), by and among Pluto, Spinco, Mylan N.V., a",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "public company with limited liability incorporated under the laws of the Netherlands, and certain of their Affiliates; and",
+    "bbox": [
+      112,
+      332,
+      977,
+      343
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, in connection with the Separation, the Parties are entering into this Agreement, pursuant to which Customer desires to procure from.",
+    "bbox": [
+      157,
+      362,
+      1000,
+      375
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Manufacturer, and Manufacturer desires to supply or cause one of its Affiliates to supply to Customer, Products for sale by Customer or its Affiliates in",
+    "bbox": [
+      111,
+      379,
+      1000,
+      390
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Territory during the Term, upon the terms and subject to the conditions set forth herein.",
+    "bbox": [
+      111,
+      394,
+      778,
+      406
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of these premises and the covenants and agreements set forth herein, and intending to be legally bound.",
+    "bbox": [
+      154,
+      424,
+      1000,
+      437
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "thereby, the Parties hereby agree as follows:",
+    "bbox": [
+      110,
+      441,
+      433,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      457,
+      127,
+      466
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      153,
+      456,
+      242,
+      468
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "As used in this Agreement, the following capitalized terms shall have the meanings set forth below. Capitalized terms not otherwise defined in this",
+    "bbox": [
+      157,
+      478,
+      1000,
+      491
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Agreement shall have the meanings ascribed to such terms in the Separation Agreement.",
+    "bbox": [
+      113,
+      496,
+      757,
+      506
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      154,
+      509,
+      177,
+      522
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Accounting Method\" means U.S. Generally Accepted Accounting Principles (GAAP) or, if otherwise agreed by the Parties, an alternative.",
+    "bbox": [
+      209,
+      510,
+      1000,
+      522
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "accounting method used in the ordinary course of business.",
+    "bbox": [
+      209,
+      526,
+      650,
+      538
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      153,
+      540,
+      178,
+      553
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Act\"' means the U.S. Federal Food, Drug, and Cosmetic Act, as amended.",
+    "bbox": [
+      209,
+      541,
+      749,
+      554
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      153,
+      556,
+      178,
+      569
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Action' means any demand, action, claim, dispute, suit, countersuit, arbitration, inquiry, subpoena, proceeding or investigation of any",
+    "bbox": [
+      210,
+      557,
+      1000,
+      569
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "nature (whether criminal, civil, legislative, administrative, regulatory, prosecutorial or otherwise) by or before any federal, state, local, foreign.",
+    "bbox": [
+      210,
+      572,
+      1000,
+      584
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "or international Governmental Authority or any arbitration or mediation tribunal.",
+    "bbox": [
+      210,
+      588,
+      793,
+      599
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: UPJOHN INC, 10-12G, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      462,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

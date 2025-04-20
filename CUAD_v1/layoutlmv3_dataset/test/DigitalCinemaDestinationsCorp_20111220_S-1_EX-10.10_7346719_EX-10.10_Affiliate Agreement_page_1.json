@@ -1,0 +1,662 @@
+[
+  {
+    "text": "\"Branded Slots' has the meaning assigned to it in Section 3.6(b).",
+    "bbox": [
+      183,
+      101,
+      669,
+      113
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Change of Control' has the meaning assigned to it in Section 14.8..",
+    "bbox": [
+      183,
+      131,
+      690,
+      143
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Confidential Information' means any and all technical and non-technical information of or related to either Party, including, without",
+    "bbox": [
+      182,
+      161,
+      1000,
+      174
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "limitation, proprietary information, know-how, the NCM Property and Derived Works, and information related to or regarding either Party's",
+    "bbox": [
+      114,
+      176,
+      1000,
+      190
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "research and development, finances, suppliers, customers, business forecasts, and marketing plans, in whatever form disclosed or made available",
+    "bbox": [
+      114,
+      192,
+      1000,
+      203
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Confidential Information does not include information which: (i) the recipient can demonstrate was already known to it at the time of its receipt",
+    "bbox": [
+      114,
+      206,
+      1000,
+      219
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "hereunder; (ii) is or becomes generally available to the public other than by means of the recipient's breach of its obligations under this",
+    "bbox": [
+      114,
+      222,
+      1000,
+      234
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement; (iii) is independently obtained from a third party whose disclosure violates no duty of confidentiality; or (iv) is independently.",
+    "bbox": [
+      114,
+      236,
+      1000,
+      249
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "developed by or on behalf of the recipient without use of or reliance on any Confidential Information furnished to it under this Agreement.",
+    "bbox": [
+      114,
+      252,
+      1000,
+      264
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Costs\" has the meaning assigned to it in Section 10.1.",
+    "bbox": [
+      183,
+      281,
+      594,
+      294
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Derived Works' has the meaning assigned to it in Section 12.2",
+    "bbox": [
+      181,
+      310,
+      670,
+      324
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Digital Carousel' means a loop of slide advertising with minimal branding and entertainment content which (i) is displayed before the",
+    "bbox": [
+      181,
+      341,
+      1000,
+      354
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pre-Feature Program in Digitized Theatres via the Digital Content Network and (ii) is displayed before the Traditional Content Program in Non-",
+    "bbox": [
+      114,
+      357,
+      1000,
+      369
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Digitized Theatres via a non-digital slide projector.",
+    "bbox": [
+      114,
+      371,
+      493,
+      384
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Digital Cinema Services\" means services related to the digital playback and display of feature films at a level of quality commensurate",
+    "bbox": [
+      182,
+      400,
+      1000,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "with that of 35 mm film release prints that include high-resolution film scanners, digital image compression, high-speed data networking and",
+    "bbox": [
+      114,
+      416,
+      1000,
+      429
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "storage, and advanced digital projections",
+    "bbox": [
+      114,
+      432,
+      426,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Digital Content Network\" means a network of Equipment and third-party equipment and other facilities which provides for the",
+    "bbox": [
+      181,
+      460,
+      1000,
+      475
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "electronic transmission of digital content, directly or indirectly, from a centrally-controlled location to Theatres, resulting in the \"on-screen'",
+    "bbox": [
+      114,
+      477,
+      1000,
+      489
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "exhibition of such content in such Theatres, either in Theatre auditoriums or on Lobby Screens..",
+    "bbox": [
+      115,
+      492,
+      831,
+      503
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Digital Content Service\" means the Pre-Feature Program, Policy Trailer and the Video Display Program..",
+    "bbox": [
+      183,
+      521,
+      965,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Digitized Theatres\" means all Theatres that are connected to the Digital Content Network as of the Effective Date and all Theatres that",
+    "bbox": [
+      182,
+      550,
+      1000,
+      563
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "subsequently connect to the Digital Content Network, as of the date such connection is established..",
+    "bbox": [
+      115,
+      567,
+      869,
+      578
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Dispositions\"' has the meaning assigned to it in Section 2.6..",
+    "bbox": [
+      184,
+      596,
+      637,
+      608
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Effective Date' has the meaning assigned to it in Section 3.1.",
+    "bbox": [
+      181,
+      624,
+      646,
+      640
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Equipment' means (a) the equipment and cabling which is necessary to schedule, distribute, play, reconcile and otherwise transmit and.",
+    "bbox": [
+      183,
+      656,
+      1000,
+      669
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "receive transmission of the Digital Cinema Service, known as \"small d Equipment'; and (b) the equipment and cabling which is necessary to",
+    "bbox": [
+      114,
+      672,
+      1000,
+      684
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "schedule, distribute, play, reconcile and otherwise transmit and receive transmission of the Digital Cinema Service, known as \"Big D Equipment'.",
+    "bbox": [
+      114,
+      686,
+      1000,
+      698
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      113,
+      730,
+      125,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: DIGITAL CINEMA DESTINATIONS CORP., S-1, 12/20/2011",
+    "bbox": [
+      134,
+      1000,
+      660,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Branded Slots' has the meaning assigned to it in Section 3.6(b).",
+    "bbox": [
+      183,
+      101,
+      669,
+      113
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Change of Control' has the meaning assigned to it in Section 14.8..",
+    "bbox": [
+      183,
+      131,
+      690,
+      143
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Confidential Information' means any and all technical and non-technical information of or related to either Party, including, without",
+    "bbox": [
+      182,
+      161,
+      1000,
+      174
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "limitation, proprietary information, know-how, the NCM Property and Derived Works, and information related to or regarding either Party's",
+    "bbox": [
+      114,
+      176,
+      1000,
+      190
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "research and development, finances, suppliers, customers, business forecasts, and marketing plans, in whatever form disclosed or made available",
+    "bbox": [
+      114,
+      192,
+      1000,
+      203
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Confidential Information does not include information which: (i) the recipient can demonstrate was already known to it at the time of its receipt",
+    "bbox": [
+      114,
+      206,
+      1000,
+      219
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "hereunder; (ii) is or becomes generally available to the public other than by means of the recipient's breach of its obligations under this",
+    "bbox": [
+      114,
+      222,
+      1000,
+      234
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Agreement; (iii) is independently obtained from a third party whose disclosure violates no duty of confidentiality; or (iv) is independently.",
+    "bbox": [
+      114,
+      236,
+      1000,
+      249
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "developed by or on behalf of the recipient without use of or reliance on any Confidential Information furnished to it under this Agreement.",
+    "bbox": [
+      114,
+      252,
+      1000,
+      264
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Costs\" has the meaning assigned to it in Section 10.1.",
+    "bbox": [
+      183,
+      281,
+      594,
+      294
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Derived Works' has the meaning assigned to it in Section 12.2",
+    "bbox": [
+      181,
+      310,
+      670,
+      324
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Digital Carousel' means a loop of slide advertising with minimal branding and entertainment content which (i) is displayed before the",
+    "bbox": [
+      181,
+      341,
+      1000,
+      354
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Pre-Feature Program in Digitized Theatres via the Digital Content Network and (ii) is displayed before the Traditional Content Program in Non-",
+    "bbox": [
+      114,
+      357,
+      1000,
+      369
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Digitized Theatres via a non-digital slide projector.",
+    "bbox": [
+      114,
+      371,
+      493,
+      384
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Digital Cinema Services\" means services related to the digital playback and display of feature films at a level of quality commensurate",
+    "bbox": [
+      182,
+      400,
+      1000,
+      414
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "with that of 35 mm film release prints that include high-resolution film scanners, digital image compression, high-speed data networking and",
+    "bbox": [
+      114,
+      416,
+      1000,
+      429
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "storage, and advanced digital projections",
+    "bbox": [
+      114,
+      432,
+      426,
+      444
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Digital Content Network\" means a network of Equipment and third-party equipment and other facilities which provides for the",
+    "bbox": [
+      181,
+      460,
+      1000,
+      475
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "electronic transmission of digital content, directly or indirectly, from a centrally-controlled location to Theatres, resulting in the \"on-screen'",
+    "bbox": [
+      114,
+      477,
+      1000,
+      489
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "exhibition of such content in such Theatres, either in Theatre auditoriums or on Lobby Screens..",
+    "bbox": [
+      115,
+      492,
+      831,
+      503
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Digital Content Service\" means the Pre-Feature Program, Policy Trailer and the Video Display Program..",
+    "bbox": [
+      183,
+      521,
+      965,
+      534
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Digitized Theatres\" means all Theatres that are connected to the Digital Content Network as of the Effective Date and all Theatres that",
+    "bbox": [
+      182,
+      550,
+      1000,
+      563
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "subsequently connect to the Digital Content Network, as of the date such connection is established..",
+    "bbox": [
+      115,
+      567,
+      869,
+      578
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Dispositions\"' has the meaning assigned to it in Section 2.6..",
+    "bbox": [
+      184,
+      596,
+      637,
+      608
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Effective Date' has the meaning assigned to it in Section 3.1.",
+    "bbox": [
+      181,
+      624,
+      646,
+      640
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Equipment' means (a) the equipment and cabling which is necessary to schedule, distribute, play, reconcile and otherwise transmit and.",
+    "bbox": [
+      183,
+      656,
+      1000,
+      669
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "receive transmission of the Digital Cinema Service, known as \"small d Equipment'; and (b) the equipment and cabling which is necessary to",
+    "bbox": [
+      114,
+      672,
+      1000,
+      684
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "schedule, distribute, play, reconcile and otherwise transmit and receive transmission of the Digital Cinema Service, known as \"Big D Equipment'.",
+    "bbox": [
+      114,
+      686,
+      1000,
+      698
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      113,
+      730,
+      125,
+      742
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: DIGITAL CINEMA DESTINATIONS CORP., S-1, 12/20/2011",
+    "bbox": [
+      134,
+      1000,
+      660,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

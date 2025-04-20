@@ -1,0 +1,134 @@
+[
+  {
+    "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+    "bbox": [
+      427,
+      99,
+      915,
+      110
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+    "bbox": [
+      372,
+      83,
+      972,
+      94
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+    "bbox": [
+      372,
+      83,
+      972,
+      94
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+    "bbox": [
+      372,
+      83,
+      972,
+      94
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+    "bbox": [
+      372,
+      83,
+      972,
+      94
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+    "bbox": [
+      427,
+      99,
+      915,
+      110
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "between Heritage and Premier dated July 1, 2017 (\"Agreement'). Heritage and Premier are each referred to herein as a \"Party' and collectively as the",
+    "bbox": [
+      112,
+      162,
+      1000,
+      172
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"Parties\".",
+    "bbox": [
+      111,
+      176,
+      181,
+      188
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "AMENDMENT NO. 2 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER",
+    "bbox": [
+      372,
+      83,
+      972,
+      94
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Corporation (\"Premier') is effective as of October 1, 2018 (\"Second Amendment Effective Date\") and amends that certain Manufacturing Agreement",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Corporation (\"Premier') is effective as of October 1, 2018 (\"Second Amendment Effective Date\") and amends that certain Manufacturing Agreement",
+    "bbox": [
+      111,
+      145,
+      1000,
+      158
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Term. This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021. Upon.",
+    "bbox": [
+      209,
+      347,
+      1000,
+      359
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  }
+]

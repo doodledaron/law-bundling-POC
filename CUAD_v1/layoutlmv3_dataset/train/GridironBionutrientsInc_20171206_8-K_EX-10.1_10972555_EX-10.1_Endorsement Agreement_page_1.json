@@ -1,0 +1,464 @@
+[
+  {
+    "text": "D.",
+    "bbox": [
+      179,
+      121,
+      200,
+      132
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Gross Sales\" shall mean total revenues, under generally accepted accounting principles, from sales of the Licensed",
+    "bbox": [
+      195,
+      119,
+      1000,
+      134
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Products, but does not include any revenue from sales, use or other transaction taxes, duties, handling, graphics,",
+    "bbox": [
+      217,
+      137,
+      1000,
+      149
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "embroidery or shipping.",
+    "bbox": [
+      218,
+      151,
+      395,
+      166
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "E.",
+    "bbox": [
+      177,
+      184,
+      194,
+      196
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Net Sales'\" shall mean Gross Sales less Product returns, trade discounts, samples, allowances, value added services,.",
+    "bbox": [
+      215,
+      184,
+      1000,
+      197
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "markdowns, customer charge backs and liquidation sales (substantially discounted and out of ordinary distribution channel)",
+    "bbox": [
+      217,
+      201,
+      1000,
+      213
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "of Licensed Products.",
+    "bbox": [
+      219,
+      217,
+      381,
+      227
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "F.",
+    "bbox": [
+      178,
+      249,
+      192,
+      259
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Licensed Products\" shall mean BlackMP Living Water, BlackMP Concentrate, Zezel Probiotic Water, Zayin Sports Water,.",
+    "bbox": [
+      217,
+      248,
+      1000,
+      261
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Gridiron MVpTm and Gridiron MVpTm Concentrate using the Pro Football Legends Logo on the Licensed Products' affixed",
+    "bbox": [
+      216,
+      263,
+      1000,
+      277
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "labels, hang-tags or packaging. Other products of the Company may be added to the list of Licensed Products during the",
+    "bbox": [
+      217,
+      281,
+      1000,
+      293
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Contract Period by written amendment to this Agreement. All amendments to this Agreement must be signed by all parties.",
+    "bbox": [
+      217,
+      297,
+      1000,
+      309
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to this Agreement.",
+    "bbox": [
+      219,
+      314,
+      356,
+      324
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "G.",
+    "bbox": [
+      178,
+      344,
+      196,
+      356
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Products' shall mean goods manufactured, distributed or otherwise sold by the Company",
+    "bbox": [
+      216,
+      344,
+      900,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "H.",
+    "bbox": [
+      178,
+      376,
+      197,
+      388
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Licensed Marks\"' shall mean in connection with the rights and benefits granted to Company hereunder as set forth in.",
+    "bbox": [
+      216,
+      375,
+      1000,
+      389
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "General Terms. Company may utilize only the logo and other trademarks listed on Exhibit A (the \"Licensed Marks') during",
+    "bbox": [
+      216,
+      390,
+      1000,
+      406
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Term and within the Territory solely in connection with advertising and promotional materials that identify Company as a.",
+    "bbox": [
+      218,
+      409,
+      1000,
+      421
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "sponsor of the Pro Football Legends, provided that NFLA first approves all such uses in writing. Any use of the Licensed",
+    "bbox": [
+      218,
+      425,
+      1000,
+      437
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Marks will bear the trademark and/or copyright notices required by NFLA to facilitate its trademark protection program and",
+    "bbox": [
+      216,
+      441,
+      1000,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "will be a \"work made for hire\"' for NFLA. All of Company's uses of the Licensed Marks shall inure to the benefit of the",
+    "bbox": [
+      218,
+      457,
+      1000,
+      469
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NFLA. After the expiration or termination of this Agreement, Company will refrain from further use of the Licensed Marks",
+    "bbox": [
+      216,
+      472,
+      1000,
+      485
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "used pursuant to this Agreement. Company will not sublicense pass-through or otherwise grant to any third parties the",
+    "bbox": [
+      218,
+      489,
+      1000,
+      501
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "rights granted to Company hereunder without the NFLA prior written consent, including but not limited to the right to use",
+    "bbox": [
+      219,
+      506,
+      1000,
+      516
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Licensed Marks. Company acknowledges that this Agreement does not grant Company any rights with respect to any",
+    "bbox": [
+      217,
+      520,
+      1000,
+      534
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "other NFLA Marks (defined below), the name, likeness, signature, or other attributes of any NFLA member or other.",
+    "bbox": [
+      218,
+      537,
+      1000,
+      549
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "individual, or any audio or video of any NFLA event. Company agrees that the quality of all services offered by Company",
+    "bbox": [
+      217,
+      552,
+      1000,
+      565
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "under the Licensed Marks will conform to Licensor's written quality control standards and that Company will annually",
+    "bbox": [
+      217,
+      568,
+      1000,
+      581
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "provide to NFLA samples of any advertising and marketing materials that use the Licensed Marks.",
+    "bbox": [
+      217,
+      584,
+      953,
+      597
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "I.",
+    "bbox": [
+      177,
+      616,
+      189,
+      628
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Trademark Protection' for the purposes of this agreement, \"NFLA MARKS\" means the names, symbols, emblems, designs,",
+    "bbox": [
+      216,
+      614,
+      1000,
+      630
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and colors of the NFLA, including but not limited to the Licensed Marks. Company acknowledges and agrees that all right,",
+    "bbox": [
+      217,
+      631,
+      1000,
+      645
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "title and interest in and to the NFLA marks belongs to the NFLA. Company agrees that NFLA marks possesses a special,.",
+    "bbox": [
+      216,
+      648,
+      1000,
+      661
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "unique and extraordinary character that makes difficult assessment of the monetary damages that would be sustained by",
+    "bbox": [
+      217,
+      665,
+      1000,
+      677
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "their unauthorized use. Company recognizes that irreparable injury would be caused by unauthorized use of any of the",
+    "bbox": [
+      218,
+      680,
+      1000,
+      692
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NFLA marks, and agrees that injunctive and other equitable relief would be appropriate in the event of such unauthorized",
+    "bbox": [
+      216,
+      696,
+      1000,
+      709
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "use, and that such remedy would not be exclusive of other legal remedies available to NFLA. Company recognizes that great",
+    "bbox": [
+      217,
+      713,
+      1000,
+      725
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "value and goodwill associated with NFLA marks belongs to the NFLA and that the NFLA marks have secondary meaning",
+    "bbox": [
+      216,
+      727,
+      1000,
+      742
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      760,
+      672,
+      771
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: GRIDIRON BIONUTRIENTS, INC., 8-K, 12/6/2017",
+    "bbox": [
+      133,
+      1000,
+      589,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

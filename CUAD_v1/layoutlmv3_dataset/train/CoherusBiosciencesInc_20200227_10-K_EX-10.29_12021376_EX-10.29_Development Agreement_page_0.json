@@ -1,0 +1,79 @@
+[
+  {
+    "text": "LICENSE AND DEVELOPMENT AGREEMENT",
+    "bbox": [
+      434,
+      716,
+      897,
+      726
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "COHERUS BIOSCIENCES, INC",
+    "bbox": [
+      510,
+      598,
+      822,
+      610
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "BIOEQ IP AG",
+    "bbox": [
+      601,
+      533,
+      733,
+      546
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "LICENSE AND DEVELOPMENT AGREEMENT",
+    "bbox": [
+      434,
+      716,
+      897,
+      726
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "BIOEQ IP AG",
+    "bbox": [
+      601,
+      533,
+      733,
+      546
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "NOV 02, 2019",
+    "bbox": [
+      600,
+      338,
+      733,
+      353
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "NOV 02, 2019",
+    "bbox": [
+      600,
+      338,
+      733,
+      353
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

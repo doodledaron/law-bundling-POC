@@ -1,0 +1,79 @@
+[
+  {
+    "text": "CELEBRITY ENDORSEMENT AGREEMIENT",
+    "bbox": [
+      508,
+      103,
+      825,
+      113
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "corporation with offices at 63 Main Street, Suite 202, Flemington, NJ 08822 (\"Bizzingo) and Joseph Theismann, an individual whose address is 21495",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS AGRE/EMIENT is made as of this March 14, 2012 but effective as of March 1, 2012 (\"Effective Date') by and between Bizzingo, Inc., a Nevada",
+    "bbox": [
+      116,
+      133,
+      1000,
+      144
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS AGRE/EMIENT is made as of this March 14, 2012 but effective as of March 1, 2012 (\"Effective Date') by and between Bizzingo, Inc., a Nevada",
+    "bbox": [
+      116,
+      133,
+      1000,
+      144
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "corporation with offices at 63 Main Street, Suite 202, Flemington, NJ 08822 (\"Bizzingo) and Joseph Theismann, an individual whose address is 21495",
+    "bbox": [
+      114,
+      147,
+      1000,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS AGRE/EMIENT is made as of this March 14, 2012 but effective as of March 1, 2012 (\"Effective Date') by and between Bizzingo, Inc., a Nevada",
+    "bbox": [
+      116,
+      133,
+      1000,
+      144
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "THIS AGRE/EMIENT is made as of this March 14, 2012 but effective as of March 1, 2012 (\"Effective Date') by and between Bizzingo, Inc., a Nevada",
+    "bbox": [
+      116,
+      133,
+      1000,
+      144
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Date: August 08, 2018",
+    "bbox": [
+      668,
+      163,
+      832,
+      173
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Date: August 08, 2018",
+    "bbox": [
+      668,
+      163,
+      832,
+      173
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]
