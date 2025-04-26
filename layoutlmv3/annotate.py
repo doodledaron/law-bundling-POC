@@ -375,12 +375,12 @@ def process_cuad_document(pdf_path: str, annotations: Dict, output_dir: str):
                             answer_text = answer['text']
                             
                             # Try multi-page matching for longer annotations
-                            if len(answer_text) > 200:
-                                # Combine text from multiple pages for potential matches across page boundaries
-                                match_found = try_multi_page_match(all_pages_ocr, answer_text, qa, layoutlm_annotations)
-                                if match_found:
-                                    successful_matches += 1
-                                    continue
+                            # if len(answer_text) > 200:
+                            #     # Combine text from multiple pages for potential matches across page boundaries
+                            #     match_found = try_multi_page_match(all_pages_ocr, answer_text, qa, layoutlm_annotations)
+                            #     if match_found:
+                            #         successful_matches += 1
+                            #         continue
                             
                             # Standard single-page matching approach
                             match_found = False
@@ -574,7 +574,7 @@ def find_specific_pdf_files(pdf_dir: str, part_config=None) -> List[str]:
         for subdir in target_dirs:
             subdir_path = os.path.join(part_path, subdir)
             for file in os.listdir(subdir_path):
-                if file.endswith(".pdf"):
+                if file.lower().endswith(".pdf"):
                     pdf_path = os.path.join(subdir_path, file)
                     pdf_files.append(pdf_path)
     
@@ -587,7 +587,7 @@ def find_pdf_files(pdf_dir: str) -> List[str]:
     pdf_files = []
     for root, _, files in os.walk(pdf_dir):
         for file in files:
-            if file.endswith(".pdf"):
+            if file.lower().endswith(".pdf"):
                 pdf_path = os.path.join(root, file)
                 pdf_files.append(pdf_path)
     return pdf_files
