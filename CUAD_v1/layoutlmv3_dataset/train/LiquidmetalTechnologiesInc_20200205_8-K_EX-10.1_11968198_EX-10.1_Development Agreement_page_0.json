@@ -1,0 +1,354 @@
+[
+  {
+    "text": "BUSINESS DEVELOPMENT AGREEMENT",
+    "bbox": [
+      500,
+      97,
+      832,
+      107
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "LIQUIDMETAL TECHNOLOGIES, INC., a Delaware corporation having its principal place of business at 20321 Valencia Circle, Lake Forest,",
+    "bbox": [
+      126,
+      129,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "California 92630 (\"Liquidmetal'), and EUTECTIX, LLC, a Delaware limited liability company having an address of 323 Main Street, Chatham,",
+    "bbox": [
+      126,
+      145,
+      1000,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "LIQUIDMETAL TECHNOLOGIES, INC., a Delaware corporation having its principal place of business at 20321 Valencia Circle, Lake Forest,",
+    "bbox": [
+      126,
+      129,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "California 92630 (\"Liquidmetal'), and EUTECTIX, LLC, a Delaware limited liability company having an address of 323 Main Street, Chatham,",
+    "bbox": [
+      126,
+      145,
+      1000,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS BUSINESS DEVELOPMENT AGREEMENT (the \"Agreement') is effective as of , 2020 (the \"Effective Date'), by and between",
+    "bbox": [
+      193,
+      112,
+      1000,
+      125
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "THIS BUSINESS DEVELOPMENT AGREEMENT (the \"Agreement') is effective as of , 2020 (the \"Effective Date'), by and between",
+    "bbox": [
+      193,
+      112,
+      1000,
+      125
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.1",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      91
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "BUSINESS DEVELOPMENT AGREEMENT",
+    "bbox": [
+      500,
+      97,
+      832,
+      107
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "THIS BUSINESS DEVELOPMENT AGREEMENT (the \"Agreement') is effective as of , 2020 (the \"Effective Date'), by and between",
+    "bbox": [
+      193,
+      112,
+      1000,
+      125
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "LIQUIDMETAL TECHNOLOGIES, INC., a Delaware corporation having its principal place of business at 20321 Valencia Circle, Lake Forest,",
+    "bbox": [
+      126,
+      129,
+      1000,
+      141
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "California 92630 (\"Liquidmetal'), and EUTECTIX, LLC, a Delaware limited liability company having an address of 323 Main Street, Chatham,",
+    "bbox": [
+      126,
+      145,
+      1000,
+      157
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "New Jersey O7928 (\"Eutectix'). Liquidmetal and Eutectix are sometimes referred to herein individually as a \"Party\" or collectively as the",
+    "bbox": [
+      125,
+      161,
+      1000,
+      172
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Parties.\"",
+    "bbox": [
+      125,
+      175,
+      205,
+      189
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      625,
+      193,
+      707,
+      204
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Liquidmetal is a global leader in the development and pursuit of applications for amorphous alloys and has developed",
+    "bbox": [
+      194,
+      209,
+      1000,
+      221
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "relationships with various prominent corporations with respect to the development of parts and products made from amorphous alloys;",
+    "bbox": [
+      125,
+      224,
+      1000,
+      237
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Eutectix is a global leader in the development and production of amorphous alloys and other high-quality technical alloys,",
+    "bbox": [
+      193,
+      240,
+      1000,
+      253
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and possesses certain intellectual property in connection therewith which is not provided for under this Agreement;.",
+    "bbox": [
+      125,
+      256,
+      1000,
+      269
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Liquidmetal and DongGuan Eontec Co., Ltd. (\"Eontec\") are parties to a Parallel License Agreement dated March 10, 2016",
+    "bbox": [
+      193,
+      273,
+      1000,
+      284
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(the \"Affiliate License Agreement'), pursuant to which Liquidmetal and Eontec license to each other certain technology and intellectual",
+    "bbox": [
+      127,
+      289,
+      1000,
+      301
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "property relating to bulk metallic glasses as further described therein, a copy of which has been provided to Eutectix;.",
+    "bbox": [
+      125,
+      304,
+      1000,
+      318
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Liquidmetal desires to utilize Eutectix's capabilities with respect to amorphous alloy development and the manufacture of",
+    "bbox": [
+      194,
+      321,
+      1000,
+      333
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "amorphous alloy parts, which Liquidmetal develops with, and intends to sell to, Liquidmetal's customers, and Eutectix is interested in providing",
+    "bbox": [
+      126,
+      336,
+      1000,
+      349
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "such product development and manufacturing services to Liquidmetal;.",
+    "bbox": [
+      127,
+      353,
+      658,
+      365
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAs, Liquidmetal and Eutectix desire to further collaborate with respect to the advancement and commercialization of",
+    "bbox": [
+      193,
+      369,
+      1000,
+      381
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "amorphous alloy materials and technologies;",
+    "bbox": [
+      127,
+      386,
+      462,
+      396
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS, Eutectix desires to utilize Liquidmetal processing equipment and methodologies to independently develop new metallic",
+    "bbox": [
+      192,
+      400,
+      1000,
+      413
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "glass technologies, including, but not limited to, new metallic glass alloys and related products for sale, as further described herein; and",
+    "bbox": [
+      125,
+      416,
+      1000,
+      429
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual covenants and agreements set forth herein and other good and",
+    "bbox": [
+      192,
+      449,
+      1000,
+      461
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "valuable consideration, the receipt and sufficiency are hereby acknowledged, the Parties hereto hereby agree as follows:.",
+    "bbox": [
+      126,
+      465,
+      1000,
+      477
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: LIQUIDMETAL TECHNOLOGIES INC, 8-K, 2/5/2020",
+    "bbox": [
+      134,
+      1000,
+      601,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

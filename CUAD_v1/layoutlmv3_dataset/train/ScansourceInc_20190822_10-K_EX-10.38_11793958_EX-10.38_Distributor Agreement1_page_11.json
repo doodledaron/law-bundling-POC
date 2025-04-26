@@ -1,0 +1,24 @@
+[
+  {
+    "text": "(b) Each party shall maintain Commercial General Liability insurance with bodily injury and property damage limits of $[*****] per occurrence and",
+    "bbox": [
+      116,
+      499,
+      1000,
+      512
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "$[*****] aggregate. Such insurance shall (a) provide for contractual liability coverage, (b) provide for cross liability coverage, and (c) name the",
+    "bbox": [
+      115,
+      514,
+      1000,
+      528
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

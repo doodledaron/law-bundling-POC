@@ -1,0 +1,992 @@
+[
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMHS HHL HLIM ATLVNVdHS CITI NAGN SRH HNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "u) \"Improvements\" means, in relation to any Intellectual Property, any and all versions, adaptations, modifications, improvements, enhancements,",
+    "bbox": [
+      113,
+      130,
+      1000,
+      142
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "changes, revisions, translations and derivative works (whether complete or incomplete), of, to, in or based upon such Intellectual Property;.",
+    "bbox": [
+      111,
+      145,
+      1000,
+      159
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "v) \"Intellectual Property'\" means anything that is protected by any Rights in and to any and all patents, trade-marks, copyrights, industrial designs,",
+    "bbox": [
+      112,
+      178,
+      1000,
+      190
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Confidential Information, know-how and processes, and all other intellectual and industrial property Rights whatsoever and world-wide (whether",
+    "bbox": [
+      111,
+      193,
+      1000,
+      206
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "registered or unregistered and including Rights in any application for any of the foregoing);",
+    "bbox": [
+      110,
+      210,
+      800,
+      223
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "w) \"Manufacture,\" \"Manufactured'' or \"Manufacturing\"' means all activities involved in the production of Products to be supplied to Customer or",
+    "bbox": [
+      112,
+      242,
+      1000,
+      254
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "its Affiliates hereunder, including the preparation, formulation, finishing, testing, storage and packaging for shipment of Products and the handling..",
+    "bbox": [
+      110,
+      257,
+      1000,
+      270
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "storage and disposal of any residues or wastes generated thereby;",
+    "bbox": [
+      111,
+      275,
+      612,
+      286
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "x) \"Manufacturing Process\" means the activities set out in (a) this Agreement, (b) the Master Batch Record and (c) Supplier's standard operating",
+    "bbox": [
+      110,
+      305,
+      1000,
+      318
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "procedures for the Manufacturing, characterization and testing, and bulk packaging and storage of the Product;.",
+    "bbox": [
+      111,
+      322,
+      950,
+      334
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "y) \"Master Batch Record\"' means the complete detailed Manufacturing and control instructions and specifications for the Manufacturing Process",
+    "bbox": [
+      110,
+      354,
+      1000,
+      366
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "for the Product, as defined by the applicable validation protocol and cGMP Requirements, as may be amended from time to time; in accordance with",
+    "bbox": [
+      112,
+      370,
+      1000,
+      382
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "cGMP Requirements, or by mutual agreement of both Customer and Supplier;",
+    "bbox": [
+      111,
+      385,
+      690,
+      398
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "z) \"Materials\" means any and all materials, reagents, chemicals, compounds, physical samples, models, specimens and any other similar physical",
+    "bbox": [
+      111,
+      417,
+      1000,
+      430
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "substances that are used in the Manufacture of the Product except for Customer Materials, including processes and activities leading up to and",
+    "bbox": [
+      111,
+      434,
+      1000,
+      446
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "peripheral to the Manufacture of the Product;.",
+    "bbox": [
+      111,
+      449,
+      454,
+      463
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "aa) \"Product\"' means the compound product as described in Exhibit A satisfying the Product Specifications;",
+    "bbox": [
+      111,
+      481,
+      920,
+      494
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "bb) \"Product Specifications\"' means the specifications for the Product set forth in the Quality Agreement, as such may be amended from time to",
+    "bbox": [
+      112,
+      513,
+      1000,
+      526
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "time in accordance with its terms;.",
+    "bbox": [
+      111,
+      530,
+      361,
+      542
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "cc) \"Quality Agreement' shall mean that certain Quality Agreement Relating to Contract Manufacturing Services by and between Customer and",
+    "bbox": [
+      112,
+      561,
+      1000,
+      574
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Supplier, dated [* * *];",
+    "bbox": [
+      111,
+      575,
+      284,
+      591
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "dd) \"Recall' means any action by Supplier, Customer or any of their respective Affiliates, to recover possession of the Product or finished products.",
+    "bbox": [
+      111,
+      609,
+      1000,
+      622
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "containing the Product shipped to Third Parties. \"Recalled\" and \"Recalling\" shall have comparable meanings;",
+    "bbox": [
+      110,
+      624,
+      935,
+      639
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "ee) \"Rights\"' shall mean any and all proprietary, possessory, use and ownership rights, titles and interests (whether beneficial or legal) of all kinds.",
+    "bbox": [
+      112,
+      658,
+      1000,
+      670
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "whatsoever, howsoever arising, world-wide and whether partial or whole in nature;",
+    "bbox": [
+      111,
+      673,
+      731,
+      686
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      111,
+      703,
+      241,
+      715
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Page 10 of 49",
+    "bbox": [
+      1000,
+      703,
+      1000,
+      716
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMHS HHL HLIM ATLVNVdHS CITI NAGN SRH HNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "u) \"Improvements\" means, in relation to any Intellectual Property, any and all versions, adaptations, modifications, improvements, enhancements,",
+    "bbox": [
+      113,
+      130,
+      1000,
+      142
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "changes, revisions, translations and derivative works (whether complete or incomplete), of, to, in or based upon such Intellectual Property;.",
+    "bbox": [
+      111,
+      145,
+      1000,
+      159
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "v) \"Intellectual Property'\" means anything that is protected by any Rights in and to any and all patents, trade-marks, copyrights, industrial designs,",
+    "bbox": [
+      112,
+      178,
+      1000,
+      190
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Confidential Information, know-how and processes, and all other intellectual and industrial property Rights whatsoever and world-wide (whether",
+    "bbox": [
+      111,
+      193,
+      1000,
+      206
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "registered or unregistered and including Rights in any application for any of the foregoing);",
+    "bbox": [
+      110,
+      210,
+      800,
+      223
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "w) \"Manufacture,\" \"Manufactured'' or \"Manufacturing\"' means all activities involved in the production of Products to be supplied to Customer or",
+    "bbox": [
+      112,
+      242,
+      1000,
+      254
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "its Affiliates hereunder, including the preparation, formulation, finishing, testing, storage and packaging for shipment of Products and the handling..",
+    "bbox": [
+      110,
+      257,
+      1000,
+      270
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "storage and disposal of any residues or wastes generated thereby;",
+    "bbox": [
+      111,
+      275,
+      612,
+      286
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "x) \"Manufacturing Process\" means the activities set out in (a) this Agreement, (b) the Master Batch Record and (c) Supplier's standard operating",
+    "bbox": [
+      110,
+      305,
+      1000,
+      318
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "procedures for the Manufacturing, characterization and testing, and bulk packaging and storage of the Product;.",
+    "bbox": [
+      111,
+      322,
+      950,
+      334
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "y) \"Master Batch Record\"' means the complete detailed Manufacturing and control instructions and specifications for the Manufacturing Process",
+    "bbox": [
+      110,
+      354,
+      1000,
+      366
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "for the Product, as defined by the applicable validation protocol and cGMP Requirements, as may be amended from time to time; in accordance with",
+    "bbox": [
+      112,
+      370,
+      1000,
+      382
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "cGMP Requirements, or by mutual agreement of both Customer and Supplier;",
+    "bbox": [
+      111,
+      385,
+      690,
+      398
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "z) \"Materials\" means any and all materials, reagents, chemicals, compounds, physical samples, models, specimens and any other similar physical",
+    "bbox": [
+      111,
+      417,
+      1000,
+      430
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "substances that are used in the Manufacture of the Product except for Customer Materials, including processes and activities leading up to and",
+    "bbox": [
+      111,
+      434,
+      1000,
+      446
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "peripheral to the Manufacture of the Product;.",
+    "bbox": [
+      111,
+      449,
+      454,
+      463
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "aa) \"Product\"' means the compound product as described in Exhibit A satisfying the Product Specifications;",
+    "bbox": [
+      111,
+      481,
+      920,
+      494
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "bb) \"Product Specifications\"' means the specifications for the Product set forth in the Quality Agreement, as such may be amended from time to",
+    "bbox": [
+      112,
+      513,
+      1000,
+      526
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "time in accordance with its terms;.",
+    "bbox": [
+      111,
+      530,
+      361,
+      542
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "cc) \"Quality Agreement' shall mean that certain Quality Agreement Relating to Contract Manufacturing Services by and between Customer and",
+    "bbox": [
+      112,
+      561,
+      1000,
+      574
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Supplier, dated [* * *];",
+    "bbox": [
+      111,
+      575,
+      284,
+      591
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "dd) \"Recall' means any action by Supplier, Customer or any of their respective Affiliates, to recover possession of the Product or finished products.",
+    "bbox": [
+      111,
+      609,
+      1000,
+      622
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "containing the Product shipped to Third Parties. \"Recalled\" and \"Recalling\" shall have comparable meanings;",
+    "bbox": [
+      110,
+      624,
+      935,
+      639
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ee) \"Rights\"' shall mean any and all proprietary, possessory, use and ownership rights, titles and interests (whether beneficial or legal) of all kinds.",
+    "bbox": [
+      112,
+      658,
+      1000,
+      670
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "whatsoever, howsoever arising, world-wide and whether partial or whole in nature;",
+    "bbox": [
+      111,
+      673,
+      731,
+      686
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      111,
+      703,
+      241,
+      715
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Page 10 of 49",
+    "bbox": [
+      1000,
+      703,
+      1000,
+      716
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMHS HHL HLIM ATLVNVdHS CITI NAGN SRH HNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "u) \"Improvements\" means, in relation to any Intellectual Property, any and all versions, adaptations, modifications, improvements, enhancements,",
+    "bbox": [
+      113,
+      130,
+      1000,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "changes, revisions, translations and derivative works (whether complete or incomplete), of, to, in or based upon such Intellectual Property;.",
+    "bbox": [
+      111,
+      145,
+      1000,
+      159
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "v) \"Intellectual Property'\" means anything that is protected by any Rights in and to any and all patents, trade-marks, copyrights, industrial designs,",
+    "bbox": [
+      112,
+      178,
+      1000,
+      190
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Confidential Information, know-how and processes, and all other intellectual and industrial property Rights whatsoever and world-wide (whether",
+    "bbox": [
+      111,
+      193,
+      1000,
+      206
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "registered or unregistered and including Rights in any application for any of the foregoing);",
+    "bbox": [
+      110,
+      210,
+      800,
+      223
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "w) \"Manufacture,\" \"Manufactured'' or \"Manufacturing\"' means all activities involved in the production of Products to be supplied to Customer or",
+    "bbox": [
+      112,
+      242,
+      1000,
+      254
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "its Affiliates hereunder, including the preparation, formulation, finishing, testing, storage and packaging for shipment of Products and the handling..",
+    "bbox": [
+      110,
+      257,
+      1000,
+      270
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "storage and disposal of any residues or wastes generated thereby;",
+    "bbox": [
+      111,
+      275,
+      612,
+      286
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "x) \"Manufacturing Process\" means the activities set out in (a) this Agreement, (b) the Master Batch Record and (c) Supplier's standard operating",
+    "bbox": [
+      110,
+      305,
+      1000,
+      318
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "procedures for the Manufacturing, characterization and testing, and bulk packaging and storage of the Product;.",
+    "bbox": [
+      111,
+      322,
+      950,
+      334
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "y) \"Master Batch Record\"' means the complete detailed Manufacturing and control instructions and specifications for the Manufacturing Process",
+    "bbox": [
+      110,
+      354,
+      1000,
+      366
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "for the Product, as defined by the applicable validation protocol and cGMP Requirements, as may be amended from time to time; in accordance with",
+    "bbox": [
+      112,
+      370,
+      1000,
+      382
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "cGMP Requirements, or by mutual agreement of both Customer and Supplier;",
+    "bbox": [
+      111,
+      385,
+      690,
+      398
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "z) \"Materials\" means any and all materials, reagents, chemicals, compounds, physical samples, models, specimens and any other similar physical",
+    "bbox": [
+      111,
+      417,
+      1000,
+      430
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "substances that are used in the Manufacture of the Product except for Customer Materials, including processes and activities leading up to and",
+    "bbox": [
+      111,
+      434,
+      1000,
+      446
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "peripheral to the Manufacture of the Product;.",
+    "bbox": [
+      111,
+      449,
+      454,
+      463
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "aa) \"Product\"' means the compound product as described in Exhibit A satisfying the Product Specifications;",
+    "bbox": [
+      111,
+      481,
+      920,
+      494
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "bb) \"Product Specifications\"' means the specifications for the Product set forth in the Quality Agreement, as such may be amended from time to",
+    "bbox": [
+      112,
+      513,
+      1000,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "time in accordance with its terms;.",
+    "bbox": [
+      111,
+      530,
+      361,
+      542
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "cc) \"Quality Agreement' shall mean that certain Quality Agreement Relating to Contract Manufacturing Services by and between Customer and",
+    "bbox": [
+      112,
+      561,
+      1000,
+      574
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Supplier, dated [* * *];",
+    "bbox": [
+      111,
+      575,
+      284,
+      591
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "dd) \"Recall' means any action by Supplier, Customer or any of their respective Affiliates, to recover possession of the Product or finished products.",
+    "bbox": [
+      111,
+      609,
+      1000,
+      622
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "containing the Product shipped to Third Parties. \"Recalled\" and \"Recalling\" shall have comparable meanings;",
+    "bbox": [
+      110,
+      624,
+      935,
+      639
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ee) \"Rights\"' shall mean any and all proprietary, possessory, use and ownership rights, titles and interests (whether beneficial or legal) of all kinds.",
+    "bbox": [
+      112,
+      658,
+      1000,
+      670
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "whatsoever, howsoever arising, world-wide and whether partial or whole in nature;",
+    "bbox": [
+      111,
+      673,
+      731,
+      686
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      111,
+      703,
+      241,
+      715
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Page 10 of 49",
+    "bbox": [
+      1000,
+      703,
+      1000,
+      716
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

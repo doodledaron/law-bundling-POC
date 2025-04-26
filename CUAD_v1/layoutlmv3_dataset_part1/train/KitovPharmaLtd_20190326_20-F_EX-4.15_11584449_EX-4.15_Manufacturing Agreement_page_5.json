@@ -1,0 +1,618 @@
+[
+  {
+    "text": "3.3.2",
+    "bbox": [
+      220,
+      80,
+      258,
+      93
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "All Kitov purchase orders are subject to confirmation in writing by Dexcel, which confirmation shall be delivered by e-mail",
+    "bbox": [
+      291,
+      81,
+      1000,
+      93
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "within ten (10) Working Days of Dexcel's receipt of each purchase order (each, a \"Confirmed Order'). If Kitov does not",
+    "bbox": [
+      290,
+      97,
+      1000,
+      108
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "receive a response from Dexcel within such ten (10) Working Days, Kitov shall contact Dexcel to confirm that Dexcel has.",
+    "bbox": [
+      289,
+      113,
+      1000,
+      125
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "received the purchase order. Except as provided in Section 3.3.3, Dexcel shall use its best endeavors to accept all purchase",
+    "bbox": [
+      289,
+      129,
+      1000,
+      141
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "orders placed by Kitov, which meet the Minimum Order Requirements and the remaining terms and conditions of this",
+    "bbox": [
+      290,
+      145,
+      1000,
+      157
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      290,
+      162,
+      377,
+      173
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "3.3.3",
+    "bbox": [
+      220,
+      176,
+      258,
+      189
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "In the event that a Kitov purchase order is greater than Kitov's Forecast by more than **** percent (****%), Dexcel shall.",
+    "bbox": [
+      287,
+      173,
+      1000,
+      190
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "make a good faith determination of its ability to accept such purchase order, consistent with its manufacturing schedule, the",
+    "bbox": [
+      290,
+      193,
+      1000,
+      205
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "availability of the Product API and other materials, and its other planning requirements, in Dexcel's sole discretion.",
+    "bbox": [
+      290,
+      209,
+      1000,
+      221
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "3.3.4",
+    "bbox": [
+      220,
+      223,
+      258,
+      237
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Dexcel will supply the Product only on the terms of this Agreement or any additional terms specifically agreed upon in",
+    "bbox": [
+      288,
+      224,
+      1000,
+      237
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "writing by both parties; in the event of any conflict, the provisions of this Agreement shall prevail..",
+    "bbox": [
+      289,
+      240,
+      1000,
+      253
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "3.3.5",
+    "bbox": [
+      220,
+      256,
+      258,
+      268
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Dexcel shall use reasonable commercial efforts to deliver the Confirmed Orders to Kitov in full on the required delivery date.",
+    "bbox": [
+      288,
+      256,
+      1000,
+      269
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Each shipment shall be accompanied by certificates of analysis and such other documents required to be included pursuant",
+    "bbox": [
+      290,
+      273,
+      1000,
+      285
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "to the Quality Agreement.",
+    "bbox": [
+      290,
+      289,
+      485,
+      301
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "3.3.6",
+    "bbox": [
+      220,
+      304,
+      258,
+      316
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Dexcel shall supply the Product with at least **** percent (****%) of the shelf life upon Delivery unless otherwise agreed.",
+    "bbox": [
+      287,
+      302,
+      1000,
+      318
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "by the Parties.",
+    "bbox": [
+      290,
+      321,
+      396,
+      332
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "3.3.7",
+    "bbox": [
+      220,
+      335,
+      258,
+      349
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "The Parties shall store and transport the Product in compliance with applicable laws and regulations for pharmaceutical",
+    "bbox": [
+      289,
+      336,
+      1000,
+      349
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "products, the Quality Agreement and the relevant Marketing Authorization. Dexcel will be responsible for packaging the",
+    "bbox": [
+      290,
+      353,
+      1000,
+      366
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Product in a manner appropriate for shipment and for including data loggers with each such shipment in accordance with",
+    "bbox": [
+      289,
+      368,
+      1000,
+      381
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "the provisions of the Quality Agreement.",
+    "bbox": [
+      290,
+      385,
+      599,
+      397
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "3.3.8",
+    "bbox": [
+      220,
+      400,
+      258,
+      412
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Kitov shall be solely responsible, at its own cost and expense, for all activities related to the sale, marketing, shipping",
+    "bbox": [
+      289,
+      400,
+      1000,
+      414
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "distribution, storage following the delivery of the Products, order fulfilment, invoicing, collection, and any other activities",
+    "bbox": [
+      290,
+      416,
+      1000,
+      429
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "directly or indirectly related to the promotion, marketing, distribution, or sale of the Product in any country..",
+    "bbox": [
+      290,
+      432,
+      1000,
+      445
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      152,
+      448,
+      178,
+      460
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "The Supply Prices for the Product shall be:",
+    "bbox": [
+      221,
+      448,
+      543,
+      461
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Supply Price/Pack",
+    "bbox": [
+      897,
+      465,
+      1000,
+      477
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Strength",
+    "bbox": [
+      328,
+      479,
+      401,
+      494
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Pack Size",
+    "bbox": [
+      628,
+      480,
+      707,
+      492
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "(in US Dollars)",
+    "bbox": [
+      910,
+      480,
+      1000,
+      493
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "200/10mg",
+    "bbox": [
+      221,
+      497,
+      295,
+      512
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Bottle **** tablets",
+    "bbox": [
+      596,
+      496,
+      742,
+      511
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "****",
+    "bbox": [
+      947,
+      498,
+      990,
+      507
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "200/10mg",
+    "bbox": [
+      222,
+      513,
+      295,
+      528
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Bottle **** tablets",
+    "bbox": [
+      596,
+      512,
+      742,
+      526
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "****",
+    "bbox": [
+      947,
+      513,
+      990,
+      523
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "200/5mg",
+    "bbox": [
+      221,
+      529,
+      287,
+      544
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Bottle **** tablets",
+    "bbox": [
+      595,
+      528,
+      742,
+      543
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "****",
+    "bbox": [
+      947,
+      530,
+      989,
+      538
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "200/5mg",
+    "bbox": [
+      221,
+      545,
+      287,
+      561
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Bottle **** tablets",
+    "bbox": [
+      595,
+      544,
+      743,
+      559
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "****",
+    "bbox": [
+      948,
+      545,
+      989,
+      554
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "200/2.5mg",
+    "bbox": [
+      221,
+      561,
+      300,
+      576
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Bottle **** tablets",
+    "bbox": [
+      595,
+      560,
+      743,
+      575
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "****",
+    "bbox": [
+      949,
+      562,
+      988,
+      570
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "200/2.5mg",
+    "bbox": [
+      221,
+      577,
+      300,
+      592
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Bottle **** tablets",
+    "bbox": [
+      594,
+      576,
+      743,
+      591
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "****",
+    "bbox": [
+      949,
+      579,
+      989,
+      586
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      660,
+      610,
+      672,
+      622
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Source: KITOV PHARMA LTD., 20-F, 3/26/2019",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  }
+]

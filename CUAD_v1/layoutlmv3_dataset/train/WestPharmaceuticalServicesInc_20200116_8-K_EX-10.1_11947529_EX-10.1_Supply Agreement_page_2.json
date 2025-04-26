@@ -1,0 +1,420 @@
+[
+  {
+    "text": "oil (as published in the Wall Street Journal). This average shall be calculated as the average of the prices for the immediate preceding three.",
+    "bbox": [
+      112,
+      110,
+      1000,
+      123
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "consecutive calendar months, with each month's price calculated as the average of the daily prices.",
+    "bbox": [
+      110,
+      125,
+      855,
+      139
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Any conversion between United States Dollars and Euros will be carried out by using the average of the European Central Bank's daily foreign.",
+    "bbox": [
+      112,
+      155,
+      1000,
+      168
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "exchange rate as published in Reuter's screen ECB 37 for the period in question.",
+    "bbox": [
+      112,
+      171,
+      711,
+      183
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Any Product price adjustment shall take effect the month immediately following Seller's notification of an increase or decrease in Product price.",
+    "bbox": [
+      113,
+      201,
+      1000,
+      213
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "TITLE AND RISK OF LOSS - EXXONMOBIL CHEMICAL COMPANY AND EXXONMOBIL CHEMICAL SERVICES AMERICAS INC",
+    "bbox": [
+      111,
+      230,
+      1000,
+      242
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Title to the Product(s) to be sold and delivered hereunder will transfer simultaneously with the risks upon delivery as per the applicable lncoterm",
+    "bbox": [
+      110,
+      260,
+      1000,
+      273
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(lncoterms 2010) in Attachment E with the exception of the following:",
+    "bbox": [
+      112,
+      275,
+      628,
+      288
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "For Product sold and/or sourced by ExxonMobil Chemical Company or ExxonMobil Chemical Services Americas Inc. that is shipped overseas to a",
+    "bbox": [
+      110,
+      305,
+      1000,
+      318
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "non-U.S. location, title and risk of loss of Product shall transfer from ExxonMobil Chemical Company or ExxonMobil Chemical Services Americas",
+    "bbox": [
+      111,
+      320,
+      1000,
+      332
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Inc. to Buyer Affiliates at the first point upon which the delivering marine vessel crosses the outer boundary of the United States Exclusive",
+    "bbox": [
+      111,
+      336,
+      1000,
+      347
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Economic Zone (EEZ). The EEZ extends 200 nautical miles beyond the coastal baseline defined in the United Nations Convention on the Law of the",
+    "bbox": [
+      112,
+      351,
+      1000,
+      363
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Sea.",
+    "bbox": [
+      109,
+      363,
+      145,
+      378
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "For Product sold by ExxonMobil Chemical Company that is transported by land to Mexico, title and risk of loss of Product shall transfer from",
+    "bbox": [
+      112,
+      395,
+      1000,
+      407
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ExxonMobil Chemical Company to Buyer Affiliates at the frontier between Laredo, Texas, U.S.A. and Mexico (not unloaded), but prior to the",
+    "bbox": [
+      112,
+      411,
+      1000,
+      423
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "customs border of Mexico.",
+    "bbox": [
+      112,
+      426,
+      312,
+      437
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "LOCATIONS OF SUPPLY",
+    "bbox": [
+      116,
+      455,
+      317,
+      467
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Buyer/Buyer Affiliates that may purchase Product from ExxonMobil Selling Affiliates are listed in Attachment C. Other products and locations may",
+    "bbox": [
+      110,
+      484,
+      1000,
+      499
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "be added upon mutual agreement in writing",
+    "bbox": [
+      110,
+      500,
+      439,
+      514
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Any and all sales of Product between ExxonMobil Chemical Company and/or ExxonMobil Chemical Services Americas, Inc. and Buyer Affiliates in",
+    "bbox": [
+      117,
+      531,
+      1000,
+      542
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the U.S., Mexico and Brazil shall be subject to the terms and conditions set forth in Attachment A hereto.",
+    "bbox": [
+      116,
+      546,
+      901,
+      557
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Any and all sales of Product between ExxonMobil Petroleum & Chemical and Buyer Affiliates in France, Germany, Denmark, Serbia, Ireland and the",
+    "bbox": [
+      116,
+      575,
+      1000,
+      587
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "United Kingdom shall be subject to the terms and conditions set forth in Attachment H hereto.",
+    "bbox": [
+      116,
+      590,
+      825,
+      602
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Any and all sales of Product between ExxonMobil Chemical Asia Pacific and Buyer Affiliates in Singapore, China and India shall be subject to the",
+    "bbox": [
+      116,
+      620,
+      1000,
+      632
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "terms and conditions set forth in Attachment G hereto.",
+    "bbox": [
+      116,
+      636,
+      526,
+      647
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Buyer/Buyer Affiliates are responsible for the Product and returnable crates in their custody at the sales value of the Product and the replacement",
+    "bbox": [
+      112,
+      666,
+      1000,
+      677
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "value of the metal crates, respectively. The terms relating to the use and return of metal crates are set out in Attachment F.",
+    "bbox": [
+      112,
+      680,
+      1000,
+      692
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "AFFILIATES",
+    "bbox": [
+      111,
+      710,
+      210,
+      721
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ExxonMobil Selling Affiliates participating in this Agreement are listed in Attachment B. Buyer Affiliates participating in this Agreement are listed",
+    "bbox": [
+      111,
+      740,
+      1000,
+      752
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "in Attachment C. Seller and Buyer each represent and warrant that each will cause its respective affiliates, so listed, to become bound to the terms.",
+    "bbox": [
+      111,
+      755,
+      1000,
+      767
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "of this Agreement.",
+    "bbox": [
+      110,
+      770,
+      252,
+      783
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "QUALITY",
+    "bbox": [
+      111,
+      800,
+      189,
+      811
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Product shall conform to ExxonMobil Selling Affiliates' standard sales specifications as of the date of shipment.",
+    "bbox": [
+      111,
+      830,
+      945,
+      842
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Sellers agrees to support the creation of purchasing specifications for Products by Buyer and agrees to supply Products in accordance to those.",
+    "bbox": [
+      111,
+      860,
+      1000,
+      873
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "purchasing specifications. Seller has the right to review each purchasing specification and needs to accept in writing before such purchasing",
+    "bbox": [
+      112,
+      876,
+      1000,
+      888
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "specifications become effective. Seller has the right to take exceptions to terms and provisions in these purchasing specifications if in contradiction.",
+    "bbox": [
+      113,
+      891,
+      1000,
+      903
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "with Seller's Sales specifications, General Terms and Condition of Sales or other Seller's procedures and policies.",
+    "bbox": [
+      110,
+      905,
+      958,
+      918
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: WEST PHARMACEUTICAL SERVICES INC, 8-K, 1/16/2020",
+    "bbox": [
+      133,
+      1000,
+      650,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  }
+]

@@ -1,0 +1,420 @@
+[
+  {
+    "text": "(a) Payments. In consideration for provision of the Content and all rights granted hereunder, Emdeon hereby agreed to pay WebMD the amounts",
+    "bbox": [
+      112,
+      111,
+      1000,
+      123
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "set forth on Exhibit B of this Agreement. All amounts payable shall be due be due thirty (30) days after the receipt of WebMD's invoice..",
+    "bbox": [
+      110,
+      126,
+      1000,
+      139
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(b) Taxes. All payments under the Agreement are exclusive of all federal, state, local and foreign taxes, levies and assessments. Emdeon agrees to",
+    "bbox": [
+      112,
+      151,
+      1000,
+      163
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "bear and be responsible for the payment of all such taxes, levies and assessments imposed on WebMD arising out of this Agreement, excluding",
+    "bbox": [
+      112,
+      167,
+      1000,
+      179
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "any tax based on WebMD's net income. All fees charged hereunder by WebMD are net of any such taxes..",
+    "bbox": [
+      112,
+      183,
+      906,
+      195
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(c) Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate..",
+    "bbox": [
+      111,
+      206,
+      1000,
+      219
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "5. Trademark License.",
+    "bbox": [
+      110,
+      231,
+      285,
+      242
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(a) Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD's trademarks and logos (\"Marks') for the purpose of identifying.",
+    "bbox": [
+      110,
+      253,
+      1000,
+      268
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the.",
+    "bbox": [
+      112,
+      272,
+      1000,
+      282
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the.",
+    "bbox": [
+      113,
+      288,
+      1000,
+      298
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "foregoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties",
+    "bbox": [
+      112,
+      303,
+      1000,
+      315
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "6. DiSClaimer. WebMD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO THE CONTENT OR THE",
+    "bbox": [
+      110,
+      326,
+      1000,
+      339
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ACCURACY OF THE CONTENT. WEBMID EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND ALL",
+    "bbox": [
+      111,
+      343,
+      1000,
+      355
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WARRANTIES ARISING FROM CONDUCT, COURSE OF DEALING OR CUSTOM OF TRADE. IN NO EVENT WILL WEBMID OR ITS SUPPLIERS OR LICENSORS BE LIABLE UNDER",
+    "bbox": [
+      110,
+      359,
+      1000,
+      370
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARISING OUT OF THIS AGREEMENT, OR THE PROVISION OR USE OF CONTENT, EVEN IF WEBMID HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+    "bbox": [
+      110,
+      390,
+      1000,
+      403
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WEBMID'S AGGREGATE LIABILITY FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION IN ANY WAY RELATED TO THIS AGREEMENT OR THE CONTENT, WHETHER IN",
+    "bbox": [
+      110,
+      406,
+      1000,
+      419
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, EITHER JOINTLY OR SEVERALLY, SHALL NOT EXCEED FIFTY DOLLARS ($5O). THIS SECTION REFLECTS AN",
+    "bbox": [
+      111,
+      424,
+      1000,
+      434
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ALLOCATION OF RISK BETWEEN THE PARTIES, IS NOT A PENALTY, AND SHALL BE EXCLUSIVE. THIS SECTION SHALL APPLY DESPITE ANY FAILURE OF ESSENTIAL",
+    "bbox": [
+      110,
+      440,
+      1000,
+      450
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "PURPOSE OF ANY LIMITED WARRANTY OR REMEDY.",
+    "bbox": [
+      112,
+      458,
+      453,
+      465
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "6. Confidentiality.",
+    "bbox": [
+      110,
+      477,
+      249,
+      491
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(a) Confidential Information. \"Confidential Information' means any data, materials or information that is disclosed by either party to the other",
+    "bbox": [
+      110,
+      502,
+      1000,
+      515
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "party during the term hereof, in oral or written form, and which is marked or otherwise reasonably identified as \"confidential' or \"proprietary\"",
+    "bbox": [
+      111,
+      519,
+      1000,
+      531
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Confidential Information also includes any information described in this Section which either party obtains from a third party under an obligation of.",
+    "bbox": [
+      112,
+      534,
+      1000,
+      546
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "confidentiality. Confidential Information does not include any data or information which the receiving party can demonstrate with competent.",
+    "bbox": [
+      112,
+      550,
+      1000,
+      562
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "written proof: (i) was already known to it at the time of disclosure; (ii) was independently developed by it without reference to the disclosing party's.",
+    "bbox": [
+      112,
+      567,
+      1000,
+      579
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Confidential Information; (ii) is in the public domain; (iv) was rightfully disclosed to it by a third party without obligation of confidentiality; or (v) is",
+    "bbox": [
+      111,
+      582,
+      1000,
+      595
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "required to be disclosed pursuant to any statutory or regulatory authority or court order, provided the disclosing party is given prompt written",
+    "bbox": [
+      110,
+      598,
+      1000,
+      611
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "notice of such requirement and the scope of such disclosure is limited to the extent possible..",
+    "bbox": [
+      111,
+      614,
+      806,
+      626
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(b) Trade Secrets. \"Trade Secrets\" shall mean Confidential Information, including but not limited to technical or non-technical data, a formula, a",
+    "bbox": [
+      112,
+      638,
+      1000,
+      650
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "pattern, a compilation, a program, a device, a method, a technique, a drawing, a process, financial data, financial plans, product plans, or a list of",
+    "bbox": [
+      110,
+      654,
+      1000,
+      667
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "actual or potential customers or suppliers, in any form or format, which is not commonly known by or available to the public and which: (i) derives",
+    "bbox": [
+      112,
+      671,
+      1000,
+      682
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "economic value, actual or potential, from not being generally known to and not being readily ascertainable by proper means by other persons who",
+    "bbox": [
+      111,
+      687,
+      1000,
+      699
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "can obtain economic value from its disclosure or use, and (ii) is the subject of efforts that are reasonable under the circumstances to maintain its",
+    "bbox": [
+      110,
+      702,
+      1000,
+      715
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "secrecy.",
+    "bbox": [
+      110,
+      719,
+      173,
+      732
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(c) Requirements. During the term of this Agreement and for so long as such information remains a trade secret under applicable law, neither party",
+    "bbox": [
+      112,
+      743,
+      1000,
+      755
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "will, except as otherwise expressly directed by the other",
+    "bbox": [
+      113,
+      759,
+      530,
+      771
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "-5-",
+    "bbox": [
+      656,
+      787,
+      675,
+      798
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005",
+    "bbox": [
+      133,
+      1000,
+      525,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

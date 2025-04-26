@@ -1,0 +1,2576 @@
+[
+  {
+    "text": "\"Authentication ID\" means a security mechanism by which an Authorized User identifies herself or himself to the Ehave Companion",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Solution and gains access thereto, which security mechanism may include user identification, passwords, digital certificates or any other",
+    "bbox": [
+      179,
+      96,
+      1000,
+      109
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "similar process mechanism for authentication and recognition as determined by Ehave from time to time.",
+    "bbox": [
+      180,
+      113,
+      958,
+      125
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Authorized User\"' means an individual who an End User has authorized to access and use CHT's services, which includes the use of the",
+    "bbox": [
+      180,
+      129,
+      1000,
+      140
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Ehave Companion Solution.",
+    "bbox": [
+      179,
+      145,
+      389,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Business Day\" means any calendar day except for Saturday or Sunday or any statutory holiday observed in the Province of Ontario.",
+    "bbox": [
+      179,
+      161,
+      1000,
+      172
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"CHT Developments' has the meaning ascribed to it in Section 4(a)..",
+    "bbox": [
+      179,
+      176,
+      688,
+      189
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"CHT Indemnified Parties\"' has the meaning ascribed to it on Section 16(a)..",
+    "bbox": [
+      179,
+      192,
+      747,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"CHT Marks\" means the names, trademarks, trade names, service marks, designs and logos of CHT.",
+    "bbox": [
+      179,
+      208,
+      931,
+      221
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Claim\" has the meaning ascribed to it in Section 16(a)..",
+    "bbox": [
+      178,
+      223,
+      597,
+      238
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Competitive Transaction\"' has the meaning ascribed to it in Section 2(d)..",
+    "bbox": [
+      179,
+      239,
+      728,
+      253
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Confidential Information\"' means this Agreement, the Ehave Companion Solution, End User Data and all ideas, designs, business",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "models, databases, drawings, documents, diagrams, formulas, test data, marketing, financial or personnel data, sales information, customer",
+    "bbox": [
+      179,
+      274,
+      1000,
+      284
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or supplier information, including information provided by such customers or suppliers, or any other information already furnished and to",
+    "bbox": [
+      179,
+      289,
+      1000,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "be furnished or made available by one Party to the other, whether in oral, written, graphic or electronic form including any such information",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "exchanged during informational sessions designated as confidential, including, without limitation, information concerning a Party's actual",
+    "bbox": [
+      181,
+      322,
+      1000,
+      332
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and potential customers and other Intellectual Property Rights of such Party, provided, however, that Confidential Information shall not",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "include any data or information:",
+    "bbox": [
+      181,
+      354,
+      418,
+      363
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      368,
+      265,
+      383
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "that, at the time of disclosure, is in or, after disclosure, becomes part of the public domain, through no act or failure on.",
+    "bbox": [
+      314,
+      369,
+      1000,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the part of the receiving Party, whether through breach of this Agreement or otherwise;",
+    "bbox": [
+      315,
+      385,
+      971,
+      397
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      400,
+      269,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "that, prior to disclosure by the disclosing Party, was already in the possession of the receiving Party, as evidenced by",
+    "bbox": [
+      314,
+      401,
+      1000,
+      413
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "written records kept by the receiving Party in the ordinary course of its business, or as evidenced by proof of actual.",
+    "bbox": [
+      314,
+      417,
+      1000,
+      429
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "prior use by the receiving Party;",
+    "bbox": [
+      314,
+      432,
+      557,
+      446
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      246,
+      448,
+      273,
+      463
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Confidential Information provided that the receiving Party provides clear and convincing evidence of such independent",
+    "bbox": [
+      314,
+      464,
+      1000,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "development;",
+    "bbox": [
+      316,
+      481,
+      420,
+      492
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      246,
+      495,
+      276,
+      510
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "which, subsequent to disclosure, is obtained from a third Person: (A) who is lawfully in possession of such information;.",
+    "bbox": [
+      314,
+      496,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(B) who is not in violation of any contractual, legal, or fiduciary obligation to either Party, as applicable, with respect to.",
+    "bbox": [
+      315,
+      512,
+      1000,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "such information; and (C) who does not prohibit either Party from disclosing such information to others; or",
+    "bbox": [
+      314,
+      528,
+      1000,
+      541
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      246,
+      544,
+      270,
+      557
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "is further disclosed with the prior written consent of the disclosing Party, but only to the extent of such consent.",
+    "bbox": [
+      314,
+      544,
+      1000,
+      557
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Effective Date'' means the date first written above..",
+    "bbox": [
+      179,
+      560,
+      564,
+      572
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Ehave Companion Solution'' means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of.",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "which are set out in Schedule \"1\"",
+    "bbox": [
+      180,
+      592,
+      431,
+      604
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      1000,
+      624,
+      1000,
+      635
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Authentication ID\" means a security mechanism by which an Authorized User identifies herself or himself to the Ehave Companion",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Solution and gains access thereto, which security mechanism may include user identification, passwords, digital certificates or any other",
+    "bbox": [
+      179,
+      96,
+      1000,
+      109
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "similar process mechanism for authentication and recognition as determined by Ehave from time to time.",
+    "bbox": [
+      180,
+      113,
+      958,
+      125
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Authorized User\"' means an individual who an End User has authorized to access and use CHT's services, which includes the use of the",
+    "bbox": [
+      180,
+      129,
+      1000,
+      140
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Ehave Companion Solution.",
+    "bbox": [
+      179,
+      145,
+      389,
+      157
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Business Day\" means any calendar day except for Saturday or Sunday or any statutory holiday observed in the Province of Ontario.",
+    "bbox": [
+      179,
+      161,
+      1000,
+      172
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"CHT Developments' has the meaning ascribed to it in Section 4(a)..",
+    "bbox": [
+      179,
+      176,
+      688,
+      189
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"CHT Indemnified Parties\"' has the meaning ascribed to it on Section 16(a)..",
+    "bbox": [
+      179,
+      192,
+      747,
+      205
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"CHT Marks\" means the names, trademarks, trade names, service marks, designs and logos of CHT.",
+    "bbox": [
+      179,
+      208,
+      931,
+      221
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Claim\" has the meaning ascribed to it in Section 16(a)..",
+    "bbox": [
+      178,
+      223,
+      597,
+      238
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Competitive Transaction\"' has the meaning ascribed to it in Section 2(d)..",
+    "bbox": [
+      179,
+      239,
+      728,
+      253
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Confidential Information\"' means this Agreement, the Ehave Companion Solution, End User Data and all ideas, designs, business",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "models, databases, drawings, documents, diagrams, formulas, test data, marketing, financial or personnel data, sales information, customer",
+    "bbox": [
+      179,
+      274,
+      1000,
+      284
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "or supplier information, including information provided by such customers or suppliers, or any other information already furnished and to",
+    "bbox": [
+      179,
+      289,
+      1000,
+      301
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "be furnished or made available by one Party to the other, whether in oral, written, graphic or electronic form including any such information",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "exchanged during informational sessions designated as confidential, including, without limitation, information concerning a Party's actual",
+    "bbox": [
+      181,
+      322,
+      1000,
+      332
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "and potential customers and other Intellectual Property Rights of such Party, provided, however, that Confidential Information shall not",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "include any data or information:",
+    "bbox": [
+      181,
+      354,
+      418,
+      363
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      368,
+      265,
+      383
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "that, at the time of disclosure, is in or, after disclosure, becomes part of the public domain, through no act or failure on.",
+    "bbox": [
+      314,
+      369,
+      1000,
+      381
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "the part of the receiving Party, whether through breach of this Agreement or otherwise;",
+    "bbox": [
+      315,
+      385,
+      971,
+      397
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      400,
+      269,
+      414
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "that, prior to disclosure by the disclosing Party, was already in the possession of the receiving Party, as evidenced by",
+    "bbox": [
+      314,
+      401,
+      1000,
+      413
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "written records kept by the receiving Party in the ordinary course of its business, or as evidenced by proof of actual.",
+    "bbox": [
+      314,
+      417,
+      1000,
+      429
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "prior use by the receiving Party;",
+    "bbox": [
+      314,
+      432,
+      557,
+      446
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      246,
+      448,
+      273,
+      463
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Confidential Information provided that the receiving Party provides clear and convincing evidence of such independent",
+    "bbox": [
+      314,
+      464,
+      1000,
+      477
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "development;",
+    "bbox": [
+      316,
+      481,
+      420,
+      492
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      246,
+      495,
+      276,
+      510
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "which, subsequent to disclosure, is obtained from a third Person: (A) who is lawfully in possession of such information;.",
+    "bbox": [
+      314,
+      496,
+      1000,
+      509
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(B) who is not in violation of any contractual, legal, or fiduciary obligation to either Party, as applicable, with respect to.",
+    "bbox": [
+      315,
+      512,
+      1000,
+      525
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "such information; and (C) who does not prohibit either Party from disclosing such information to others; or",
+    "bbox": [
+      314,
+      528,
+      1000,
+      541
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      246,
+      544,
+      270,
+      557
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "is further disclosed with the prior written consent of the disclosing Party, but only to the extent of such consent.",
+    "bbox": [
+      314,
+      544,
+      1000,
+      557
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Effective Date'' means the date first written above..",
+    "bbox": [
+      179,
+      560,
+      564,
+      572
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Ehave Companion Solution'' means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of.",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "which are set out in Schedule \"1\"",
+    "bbox": [
+      180,
+      592,
+      431,
+      604
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      1000,
+      624,
+      1000,
+      635
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 31,
+    "category": "Source Code Escrow"
+  },
+  {
+    "text": "\"Authentication ID\" means a security mechanism by which an Authorized User identifies herself or himself to the Ehave Companion",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution and gains access thereto, which security mechanism may include user identification, passwords, digital certificates or any other",
+    "bbox": [
+      179,
+      96,
+      1000,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "similar process mechanism for authentication and recognition as determined by Ehave from time to time.",
+    "bbox": [
+      180,
+      113,
+      958,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Authorized User\"' means an individual who an End User has authorized to access and use CHT's services, which includes the use of the",
+    "bbox": [
+      180,
+      129,
+      1000,
+      140
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave Companion Solution.",
+    "bbox": [
+      179,
+      145,
+      389,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Business Day\" means any calendar day except for Saturday or Sunday or any statutory holiday observed in the Province of Ontario.",
+    "bbox": [
+      179,
+      161,
+      1000,
+      172
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"CHT Developments' has the meaning ascribed to it in Section 4(a)..",
+    "bbox": [
+      179,
+      176,
+      688,
+      189
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"CHT Indemnified Parties\"' has the meaning ascribed to it on Section 16(a)..",
+    "bbox": [
+      179,
+      192,
+      747,
+      205
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"CHT Marks\" means the names, trademarks, trade names, service marks, designs and logos of CHT.",
+    "bbox": [
+      179,
+      208,
+      931,
+      221
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Claim\" has the meaning ascribed to it in Section 16(a)..",
+    "bbox": [
+      178,
+      223,
+      597,
+      238
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Competitive Transaction\"' has the meaning ascribed to it in Section 2(d)..",
+    "bbox": [
+      179,
+      239,
+      728,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Confidential Information\"' means this Agreement, the Ehave Companion Solution, End User Data and all ideas, designs, business",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "models, databases, drawings, documents, diagrams, formulas, test data, marketing, financial or personnel data, sales information, customer",
+    "bbox": [
+      179,
+      274,
+      1000,
+      284
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or supplier information, including information provided by such customers or suppliers, or any other information already furnished and to",
+    "bbox": [
+      179,
+      289,
+      1000,
+      301
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "be furnished or made available by one Party to the other, whether in oral, written, graphic or electronic form including any such information",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "exchanged during informational sessions designated as confidential, including, without limitation, information concerning a Party's actual",
+    "bbox": [
+      181,
+      322,
+      1000,
+      332
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and potential customers and other Intellectual Property Rights of such Party, provided, however, that Confidential Information shall not",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "include any data or information:",
+    "bbox": [
+      181,
+      354,
+      418,
+      363
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      368,
+      265,
+      383
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "that, at the time of disclosure, is in or, after disclosure, becomes part of the public domain, through no act or failure on.",
+    "bbox": [
+      314,
+      369,
+      1000,
+      381
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the part of the receiving Party, whether through breach of this Agreement or otherwise;",
+    "bbox": [
+      315,
+      385,
+      971,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      400,
+      269,
+      414
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "that, prior to disclosure by the disclosing Party, was already in the possession of the receiving Party, as evidenced by",
+    "bbox": [
+      314,
+      401,
+      1000,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "written records kept by the receiving Party in the ordinary course of its business, or as evidenced by proof of actual.",
+    "bbox": [
+      314,
+      417,
+      1000,
+      429
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "prior use by the receiving Party;",
+    "bbox": [
+      314,
+      432,
+      557,
+      446
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      246,
+      448,
+      273,
+      463
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Confidential Information provided that the receiving Party provides clear and convincing evidence of such independent",
+    "bbox": [
+      314,
+      464,
+      1000,
+      477
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "development;",
+    "bbox": [
+      316,
+      481,
+      420,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      246,
+      495,
+      276,
+      510
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "which, subsequent to disclosure, is obtained from a third Person: (A) who is lawfully in possession of such information;.",
+    "bbox": [
+      314,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(B) who is not in violation of any contractual, legal, or fiduciary obligation to either Party, as applicable, with respect to.",
+    "bbox": [
+      315,
+      512,
+      1000,
+      525
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "such information; and (C) who does not prohibit either Party from disclosing such information to others; or",
+    "bbox": [
+      314,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      246,
+      544,
+      270,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "is further disclosed with the prior written consent of the disclosing Party, but only to the extent of such consent.",
+    "bbox": [
+      314,
+      544,
+      1000,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Effective Date'' means the date first written above..",
+    "bbox": [
+      179,
+      560,
+      564,
+      572
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Ehave Companion Solution'' means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of.",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "which are set out in Schedule \"1\"",
+    "bbox": [
+      180,
+      592,
+      431,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      1000,
+      624,
+      1000,
+      635
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Authentication ID\" means a security mechanism by which an Authorized User identifies herself or himself to the Ehave Companion",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution and gains access thereto, which security mechanism may include user identification, passwords, digital certificates or any other",
+    "bbox": [
+      179,
+      96,
+      1000,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "similar process mechanism for authentication and recognition as determined by Ehave from time to time.",
+    "bbox": [
+      180,
+      113,
+      958,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Authorized User\"' means an individual who an End User has authorized to access and use CHT's services, which includes the use of the",
+    "bbox": [
+      180,
+      129,
+      1000,
+      140
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave Companion Solution.",
+    "bbox": [
+      179,
+      145,
+      389,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Business Day\" means any calendar day except for Saturday or Sunday or any statutory holiday observed in the Province of Ontario.",
+    "bbox": [
+      179,
+      161,
+      1000,
+      172
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"CHT Developments' has the meaning ascribed to it in Section 4(a)..",
+    "bbox": [
+      179,
+      176,
+      688,
+      189
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"CHT Indemnified Parties\"' has the meaning ascribed to it on Section 16(a)..",
+    "bbox": [
+      179,
+      192,
+      747,
+      205
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"CHT Marks\" means the names, trademarks, trade names, service marks, designs and logos of CHT.",
+    "bbox": [
+      179,
+      208,
+      931,
+      221
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Claim\" has the meaning ascribed to it in Section 16(a)..",
+    "bbox": [
+      178,
+      223,
+      597,
+      238
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Competitive Transaction\"' has the meaning ascribed to it in Section 2(d)..",
+    "bbox": [
+      179,
+      239,
+      728,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Confidential Information\"' means this Agreement, the Ehave Companion Solution, End User Data and all ideas, designs, business",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "models, databases, drawings, documents, diagrams, formulas, test data, marketing, financial or personnel data, sales information, customer",
+    "bbox": [
+      179,
+      274,
+      1000,
+      284
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or supplier information, including information provided by such customers or suppliers, or any other information already furnished and to",
+    "bbox": [
+      179,
+      289,
+      1000,
+      301
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "be furnished or made available by one Party to the other, whether in oral, written, graphic or electronic form including any such information",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "exchanged during informational sessions designated as confidential, including, without limitation, information concerning a Party's actual",
+    "bbox": [
+      181,
+      322,
+      1000,
+      332
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and potential customers and other Intellectual Property Rights of such Party, provided, however, that Confidential Information shall not",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "include any data or information:",
+    "bbox": [
+      181,
+      354,
+      418,
+      363
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      368,
+      265,
+      383
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "that, at the time of disclosure, is in or, after disclosure, becomes part of the public domain, through no act or failure on.",
+    "bbox": [
+      314,
+      369,
+      1000,
+      381
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the part of the receiving Party, whether through breach of this Agreement or otherwise;",
+    "bbox": [
+      315,
+      385,
+      971,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      400,
+      269,
+      414
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "that, prior to disclosure by the disclosing Party, was already in the possession of the receiving Party, as evidenced by",
+    "bbox": [
+      314,
+      401,
+      1000,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "written records kept by the receiving Party in the ordinary course of its business, or as evidenced by proof of actual.",
+    "bbox": [
+      314,
+      417,
+      1000,
+      429
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "prior use by the receiving Party;",
+    "bbox": [
+      314,
+      432,
+      557,
+      446
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      246,
+      448,
+      273,
+      463
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Confidential Information provided that the receiving Party provides clear and convincing evidence of such independent",
+    "bbox": [
+      314,
+      464,
+      1000,
+      477
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "development;",
+    "bbox": [
+      316,
+      481,
+      420,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      246,
+      495,
+      276,
+      510
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "which, subsequent to disclosure, is obtained from a third Person: (A) who is lawfully in possession of such information;.",
+    "bbox": [
+      314,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(B) who is not in violation of any contractual, legal, or fiduciary obligation to either Party, as applicable, with respect to.",
+    "bbox": [
+      315,
+      512,
+      1000,
+      525
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "such information; and (C) who does not prohibit either Party from disclosing such information to others; or",
+    "bbox": [
+      314,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      246,
+      544,
+      270,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "is further disclosed with the prior written consent of the disclosing Party, but only to the extent of such consent.",
+    "bbox": [
+      314,
+      544,
+      1000,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Effective Date'' means the date first written above..",
+    "bbox": [
+      179,
+      560,
+      564,
+      572
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Ehave Companion Solution'' means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of.",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "which are set out in Schedule \"1\"",
+    "bbox": [
+      180,
+      592,
+      431,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      1000,
+      624,
+      1000,
+      635
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Authentication ID\" means a security mechanism by which an Authorized User identifies herself or himself to the Ehave Companion",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Solution and gains access thereto, which security mechanism may include user identification, passwords, digital certificates or any other",
+    "bbox": [
+      179,
+      96,
+      1000,
+      109
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "similar process mechanism for authentication and recognition as determined by Ehave from time to time.",
+    "bbox": [
+      180,
+      113,
+      958,
+      125
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Authorized User\"' means an individual who an End User has authorized to access and use CHT's services, which includes the use of the",
+    "bbox": [
+      180,
+      129,
+      1000,
+      140
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Ehave Companion Solution.",
+    "bbox": [
+      179,
+      145,
+      389,
+      157
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Business Day\" means any calendar day except for Saturday or Sunday or any statutory holiday observed in the Province of Ontario.",
+    "bbox": [
+      179,
+      161,
+      1000,
+      172
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"CHT Developments' has the meaning ascribed to it in Section 4(a)..",
+    "bbox": [
+      179,
+      176,
+      688,
+      189
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"CHT Indemnified Parties\"' has the meaning ascribed to it on Section 16(a)..",
+    "bbox": [
+      179,
+      192,
+      747,
+      205
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"CHT Marks\" means the names, trademarks, trade names, service marks, designs and logos of CHT.",
+    "bbox": [
+      179,
+      208,
+      931,
+      221
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Claim\" has the meaning ascribed to it in Section 16(a)..",
+    "bbox": [
+      178,
+      223,
+      597,
+      238
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Competitive Transaction\"' has the meaning ascribed to it in Section 2(d)..",
+    "bbox": [
+      179,
+      239,
+      728,
+      253
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Confidential Information\"' means this Agreement, the Ehave Companion Solution, End User Data and all ideas, designs, business",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "models, databases, drawings, documents, diagrams, formulas, test data, marketing, financial or personnel data, sales information, customer",
+    "bbox": [
+      179,
+      274,
+      1000,
+      284
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "or supplier information, including information provided by such customers or suppliers, or any other information already furnished and to",
+    "bbox": [
+      179,
+      289,
+      1000,
+      301
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "be furnished or made available by one Party to the other, whether in oral, written, graphic or electronic form including any such information",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "exchanged during informational sessions designated as confidential, including, without limitation, information concerning a Party's actual",
+    "bbox": [
+      181,
+      322,
+      1000,
+      332
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "and potential customers and other Intellectual Property Rights of such Party, provided, however, that Confidential Information shall not",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "include any data or information:",
+    "bbox": [
+      181,
+      354,
+      418,
+      363
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      368,
+      265,
+      383
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "that, at the time of disclosure, is in or, after disclosure, becomes part of the public domain, through no act or failure on.",
+    "bbox": [
+      314,
+      369,
+      1000,
+      381
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "the part of the receiving Party, whether through breach of this Agreement or otherwise;",
+    "bbox": [
+      315,
+      385,
+      971,
+      397
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      400,
+      269,
+      414
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "that, prior to disclosure by the disclosing Party, was already in the possession of the receiving Party, as evidenced by",
+    "bbox": [
+      314,
+      401,
+      1000,
+      413
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "written records kept by the receiving Party in the ordinary course of its business, or as evidenced by proof of actual.",
+    "bbox": [
+      314,
+      417,
+      1000,
+      429
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "prior use by the receiving Party;",
+    "bbox": [
+      314,
+      432,
+      557,
+      446
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      246,
+      448,
+      273,
+      463
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Confidential Information provided that the receiving Party provides clear and convincing evidence of such independent",
+    "bbox": [
+      314,
+      464,
+      1000,
+      477
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "development;",
+    "bbox": [
+      316,
+      481,
+      420,
+      492
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      246,
+      495,
+      276,
+      510
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "which, subsequent to disclosure, is obtained from a third Person: (A) who is lawfully in possession of such information;.",
+    "bbox": [
+      314,
+      496,
+      1000,
+      509
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(B) who is not in violation of any contractual, legal, or fiduciary obligation to either Party, as applicable, with respect to.",
+    "bbox": [
+      315,
+      512,
+      1000,
+      525
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "such information; and (C) who does not prohibit either Party from disclosing such information to others; or",
+    "bbox": [
+      314,
+      528,
+      1000,
+      541
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      246,
+      544,
+      270,
+      557
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "is further disclosed with the prior written consent of the disclosing Party, but only to the extent of such consent.",
+    "bbox": [
+      314,
+      544,
+      1000,
+      557
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Effective Date'' means the date first written above..",
+    "bbox": [
+      179,
+      560,
+      564,
+      572
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Ehave Companion Solution'' means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of.",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "which are set out in Schedule \"1\"",
+    "bbox": [
+      180,
+      592,
+      431,
+      604
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      1000,
+      624,
+      1000,
+      635
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "\"Authentication ID\" means a security mechanism by which an Authorized User identifies herself or himself to the Ehave Companion",
+    "bbox": [
+      179,
+      80,
+      1000,
+      92
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Solution and gains access thereto, which security mechanism may include user identification, passwords, digital certificates or any other",
+    "bbox": [
+      179,
+      96,
+      1000,
+      109
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "similar process mechanism for authentication and recognition as determined by Ehave from time to time.",
+    "bbox": [
+      180,
+      113,
+      958,
+      125
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Authorized User\"' means an individual who an End User has authorized to access and use CHT's services, which includes the use of the",
+    "bbox": [
+      180,
+      129,
+      1000,
+      140
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Ehave Companion Solution.",
+    "bbox": [
+      179,
+      145,
+      389,
+      157
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Business Day\" means any calendar day except for Saturday or Sunday or any statutory holiday observed in the Province of Ontario.",
+    "bbox": [
+      179,
+      161,
+      1000,
+      172
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"CHT Developments' has the meaning ascribed to it in Section 4(a)..",
+    "bbox": [
+      179,
+      176,
+      688,
+      189
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"CHT Indemnified Parties\"' has the meaning ascribed to it on Section 16(a)..",
+    "bbox": [
+      179,
+      192,
+      747,
+      205
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"CHT Marks\" means the names, trademarks, trade names, service marks, designs and logos of CHT.",
+    "bbox": [
+      179,
+      208,
+      931,
+      221
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Claim\" has the meaning ascribed to it in Section 16(a)..",
+    "bbox": [
+      178,
+      223,
+      597,
+      238
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Competitive Transaction\"' has the meaning ascribed to it in Section 2(d)..",
+    "bbox": [
+      179,
+      239,
+      728,
+      253
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Confidential Information\"' means this Agreement, the Ehave Companion Solution, End User Data and all ideas, designs, business",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "models, databases, drawings, documents, diagrams, formulas, test data, marketing, financial or personnel data, sales information, customer",
+    "bbox": [
+      179,
+      274,
+      1000,
+      284
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "or supplier information, including information provided by such customers or suppliers, or any other information already furnished and to",
+    "bbox": [
+      179,
+      289,
+      1000,
+      301
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "be furnished or made available by one Party to the other, whether in oral, written, graphic or electronic form including any such information",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "exchanged during informational sessions designated as confidential, including, without limitation, information concerning a Party's actual",
+    "bbox": [
+      181,
+      322,
+      1000,
+      332
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and potential customers and other Intellectual Property Rights of such Party, provided, however, that Confidential Information shall not",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "include any data or information:",
+    "bbox": [
+      181,
+      354,
+      418,
+      363
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      368,
+      265,
+      383
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "that, at the time of disclosure, is in or, after disclosure, becomes part of the public domain, through no act or failure on.",
+    "bbox": [
+      314,
+      369,
+      1000,
+      381
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the part of the receiving Party, whether through breach of this Agreement or otherwise;",
+    "bbox": [
+      315,
+      385,
+      971,
+      397
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      400,
+      269,
+      414
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "that, prior to disclosure by the disclosing Party, was already in the possession of the receiving Party, as evidenced by",
+    "bbox": [
+      314,
+      401,
+      1000,
+      413
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "written records kept by the receiving Party in the ordinary course of its business, or as evidenced by proof of actual.",
+    "bbox": [
+      314,
+      417,
+      1000,
+      429
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "prior use by the receiving Party;",
+    "bbox": [
+      314,
+      432,
+      557,
+      446
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(iii)",
+    "bbox": [
+      246,
+      448,
+      273,
+      463
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Confidential Information provided that the receiving Party provides clear and convincing evidence of such independent",
+    "bbox": [
+      314,
+      464,
+      1000,
+      477
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "development;",
+    "bbox": [
+      316,
+      481,
+      420,
+      492
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(iv)",
+    "bbox": [
+      246,
+      495,
+      276,
+      510
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "which, subsequent to disclosure, is obtained from a third Person: (A) who is lawfully in possession of such information;.",
+    "bbox": [
+      314,
+      496,
+      1000,
+      509
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(B) who is not in violation of any contractual, legal, or fiduciary obligation to either Party, as applicable, with respect to.",
+    "bbox": [
+      315,
+      512,
+      1000,
+      525
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "such information; and (C) who does not prohibit either Party from disclosing such information to others; or",
+    "bbox": [
+      314,
+      528,
+      1000,
+      541
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(v)",
+    "bbox": [
+      246,
+      544,
+      270,
+      557
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "is further disclosed with the prior written consent of the disclosing Party, but only to the extent of such consent.",
+    "bbox": [
+      314,
+      544,
+      1000,
+      557
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Effective Date'' means the date first written above..",
+    "bbox": [
+      179,
+      560,
+      564,
+      572
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Ehave Companion Solution'' means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of.",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "which are set out in Schedule \"1\"",
+    "bbox": [
+      180,
+      592,
+      431,
+      604
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      1000,
+      624,
+      1000,
+      635
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

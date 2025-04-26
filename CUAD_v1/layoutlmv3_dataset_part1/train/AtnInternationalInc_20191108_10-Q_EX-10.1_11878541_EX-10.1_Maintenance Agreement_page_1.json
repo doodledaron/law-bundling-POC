@@ -1,0 +1,3885 @@
+[
+  {
+    "text": "party representatives, and Vendor except under written agreement by the contracting parties.",
+    "bbox": [
+      316,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Mobility Network General Agreement",
+    "bbox": [
+      504,
+      115,
+      828,
+      127
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      555,
+      134,
+      777,
+      146
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      1000,
+      152,
+      1000,
+      169
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1.1 Scope",
+    "bbox": [
+      179,
+      171,
+      268,
+      187
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      171,
+      1000,
+      185
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1.2 Scope ofAgreement",
+    "bbox": [
+      192,
+      192,
+      410,
+      206
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      191,
+      1000,
+      206
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1.3 Term of Agreement",
+    "bbox": [
+      193,
+      212,
+      398,
+      225
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      211,
+      1000,
+      225
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.1 Definitions",
+    "bbox": [
+      178,
+      232,
+      301,
+      245
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      245
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.2 Affiliate",
+    "bbox": [
+      190,
+      251,
+      298,
+      266
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      251,
+      1000,
+      266
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.3 Agreement",
+    "bbox": [
+      191,
+      272,
+      326,
+      286
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      271,
+      1000,
+      286
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.4 Attorney's Fees",
+    "bbox": [
+      190,
+      291,
+      368,
+      306
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      290,
+      1000,
+      307
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.5 AT&T Competitor",
+    "bbox": [
+      191,
+      312,
+      390,
+      326
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      310,
+      1000,
+      327
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.6 AT&T Indemnified Parties",
+    "bbox": [
+      192,
+      332,
+      454,
+      344
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      331,
+      1000,
+      346
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.7 Cell Site",
+    "bbox": [
+      192,
+      352,
+      304,
+      365
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      350,
+      1000,
+      367
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.8 Change Management Plan",
+    "bbox": [
+      190,
+      371,
+      454,
+      386
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      371,
+      1000,
+      386
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.9 Change of Control",
+    "bbox": [
+      192,
+      393,
+      390,
+      405
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      390,
+      1000,
+      407
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.10Change Order",
+    "bbox": [
+      191,
+      412,
+      355,
+      426
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      410,
+      1000,
+      426
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.11Control",
+    "bbox": [
+      191,
+      432,
+      298,
+      444
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      431,
+      1000,
+      446
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.12Customer Information",
+    "bbox": [
+      192,
+      452,
+      417,
+      465
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      450,
+      1000,
+      467
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.13Deliverable",
+    "bbox": [
+      191,
+      472,
+      326,
+      484
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      471,
+      1000,
+      486
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.14Delivery or Completion",
+    "bbox": [
+      191,
+      491,
+      431,
+      506
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      491,
+      1000,
+      507
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.1 5Delivery Date or Completion Date",
+    "bbox": [
+      192,
+      512,
+      524,
+      525
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.16Documentation",
+    "bbox": [
+      191,
+      532,
+      360,
+      545
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      531,
+      1000,
+      546
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.17Drug Screen",
+    "bbox": [
+      190,
+      551,
+      339,
+      567
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      551,
+      1000,
+      565
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.18Employment Claims",
+    "bbox": [
+      191,
+      571,
+      402,
+      586
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      571,
+      1000,
+      585
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.19Excusable Delay",
+    "bbox": [
+      190,
+      591,
+      372,
+      606
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      591,
+      1000,
+      605
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.20FirstNet Authority",
+    "bbox": [
+      191,
+      611,
+      385,
+      626
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      610,
+      1000,
+      625
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.21Information",
+    "bbox": [
+      191,
+      631,
+      329,
+      645
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      631,
+      1000,
+      646
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.22Intellectual Property Rights",
+    "bbox": [
+      189,
+      650,
+      460,
+      667
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      650,
+      1000,
+      666
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.23Items",
+    "bbox": [
+      191,
+      671,
+      279,
+      685
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      671,
+      1000,
+      685
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.24Laws",
+    "bbox": [
+      190,
+      690,
+      279,
+      706
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      690,
+      1000,
+      706
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.25Liability",
+    "bbox": [
+      190,
+      710,
+      298,
+      726
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      710,
+      1000,
+      725
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.26Lien",
+    "bbox": [
+      191,
+      732,
+      269,
+      745
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      730,
+      1000,
+      746
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.27Litigation Expense",
+    "bbox": [
+      191,
+      751,
+      387,
+      767
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      750,
+      1000,
+      766
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.28Loss",
+    "bbox": [
+      191,
+      771,
+      274,
+      785
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      771,
+      1000,
+      785
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.29Material",
+    "bbox": [
+      192,
+      791,
+      302,
+      804
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.30Non-Service Affecting Defect",
+    "bbox": [
+      190,
+      811,
+      486,
+      825
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      811,
+      1000,
+      825
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.310EM",
+    "bbox": [
+      190,
+      830,
+      282,
+      844
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      830,
+      1000,
+      846
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.32Permits",
+    "bbox": [
+      192,
+      852,
+      295,
+      864
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      851,
+      1000,
+      866
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.33Person",
+    "bbox": [
+      191,
+      871,
+      291,
+      885
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      871,
+      1000,
+      885
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.34Physical Entry",
+    "bbox": [
+      191,
+      890,
+      351,
+      907
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      891,
+      1000,
+      906
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.35Restricted Entities",
+    "bbox": [
+      191,
+      911,
+      384,
+      924
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      911,
+      1000,
+      925
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.36Service Affecting Defect",
+    "bbox": [
+      192,
+      931,
+      439,
+      945
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      931,
+      1000,
+      946
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "2.37Services",
+    "bbox": [
+      191,
+      951,
+      304,
+      965
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      951,
+      1000,
+      965
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Proprietary and Confidential",
+    "bbox": [
+      556,
+      986,
+      777,
+      998
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This Agreement and information contained therein is not for use or disclosure outside of AT&T, its Affiliates, and third",
+    "bbox": [
+      220,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "party representatives, and Vendor except under written agreement by the contracting parties.",
+    "bbox": [
+      316,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "i",
+    "bbox": [
+      660,
+      1000,
+      673,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Source: ATN INTERNATIONAL, INC., 10-Q, 11/8/2019",
+    "bbox": [
+      133,
+      1000,
+      561,
+      1000
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Mobility Network General Agreement",
+    "bbox": [
+      504,
+      115,
+      828,
+      127
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      555,
+      134,
+      777,
+      146
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      1000,
+      152,
+      1000,
+      169
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.1 Scope",
+    "bbox": [
+      179,
+      171,
+      268,
+      187
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      171,
+      1000,
+      185
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.2 Scope ofAgreement",
+    "bbox": [
+      192,
+      192,
+      410,
+      206
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      191,
+      1000,
+      206
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.3 Term of Agreement",
+    "bbox": [
+      193,
+      212,
+      398,
+      225
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      211,
+      1000,
+      225
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.1 Definitions",
+    "bbox": [
+      178,
+      232,
+      301,
+      245
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      245
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.2 Affiliate",
+    "bbox": [
+      190,
+      251,
+      298,
+      266
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      251,
+      1000,
+      266
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.3 Agreement",
+    "bbox": [
+      191,
+      272,
+      326,
+      286
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      271,
+      1000,
+      286
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.4 Attorney's Fees",
+    "bbox": [
+      190,
+      291,
+      368,
+      306
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      290,
+      1000,
+      307
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.5 AT&T Competitor",
+    "bbox": [
+      191,
+      312,
+      390,
+      326
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      310,
+      1000,
+      327
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.6 AT&T Indemnified Parties",
+    "bbox": [
+      192,
+      332,
+      454,
+      344
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      331,
+      1000,
+      346
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.7 Cell Site",
+    "bbox": [
+      192,
+      352,
+      304,
+      365
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      350,
+      1000,
+      367
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.8 Change Management Plan",
+    "bbox": [
+      190,
+      371,
+      454,
+      386
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      371,
+      1000,
+      386
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.9 Change of Control",
+    "bbox": [
+      192,
+      393,
+      390,
+      405
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      390,
+      1000,
+      407
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.10Change Order",
+    "bbox": [
+      191,
+      412,
+      355,
+      426
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      410,
+      1000,
+      426
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.11Control",
+    "bbox": [
+      191,
+      432,
+      298,
+      444
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      431,
+      1000,
+      446
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.12Customer Information",
+    "bbox": [
+      192,
+      452,
+      417,
+      465
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      450,
+      1000,
+      467
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.13Deliverable",
+    "bbox": [
+      191,
+      472,
+      326,
+      484
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      471,
+      1000,
+      486
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.14Delivery or Completion",
+    "bbox": [
+      191,
+      491,
+      431,
+      506
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      491,
+      1000,
+      507
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.1 5Delivery Date or Completion Date",
+    "bbox": [
+      192,
+      512,
+      524,
+      525
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.16Documentation",
+    "bbox": [
+      191,
+      532,
+      360,
+      545
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      531,
+      1000,
+      546
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.17Drug Screen",
+    "bbox": [
+      190,
+      551,
+      339,
+      567
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      551,
+      1000,
+      565
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.18Employment Claims",
+    "bbox": [
+      191,
+      571,
+      402,
+      586
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      571,
+      1000,
+      585
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.19Excusable Delay",
+    "bbox": [
+      190,
+      591,
+      372,
+      606
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      591,
+      1000,
+      605
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.20FirstNet Authority",
+    "bbox": [
+      191,
+      611,
+      385,
+      626
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      610,
+      1000,
+      625
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.21Information",
+    "bbox": [
+      191,
+      631,
+      329,
+      645
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      631,
+      1000,
+      646
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.22Intellectual Property Rights",
+    "bbox": [
+      189,
+      650,
+      460,
+      667
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      650,
+      1000,
+      666
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.23Items",
+    "bbox": [
+      191,
+      671,
+      279,
+      685
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      671,
+      1000,
+      685
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.24Laws",
+    "bbox": [
+      190,
+      690,
+      279,
+      706
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      690,
+      1000,
+      706
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.25Liability",
+    "bbox": [
+      190,
+      710,
+      298,
+      726
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      710,
+      1000,
+      725
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.26Lien",
+    "bbox": [
+      191,
+      732,
+      269,
+      745
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      730,
+      1000,
+      746
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.27Litigation Expense",
+    "bbox": [
+      191,
+      751,
+      387,
+      767
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      750,
+      1000,
+      766
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.28Loss",
+    "bbox": [
+      191,
+      771,
+      274,
+      785
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      771,
+      1000,
+      785
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.29Material",
+    "bbox": [
+      192,
+      791,
+      302,
+      804
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.30Non-Service Affecting Defect",
+    "bbox": [
+      190,
+      811,
+      486,
+      825
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      811,
+      1000,
+      825
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.310EM",
+    "bbox": [
+      190,
+      830,
+      282,
+      844
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      830,
+      1000,
+      846
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.32Permits",
+    "bbox": [
+      192,
+      852,
+      295,
+      864
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      851,
+      1000,
+      866
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.33Person",
+    "bbox": [
+      191,
+      871,
+      291,
+      885
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      871,
+      1000,
+      885
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.34Physical Entry",
+    "bbox": [
+      191,
+      890,
+      351,
+      907
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      891,
+      1000,
+      906
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.35Restricted Entities",
+    "bbox": [
+      191,
+      911,
+      384,
+      924
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      911,
+      1000,
+      925
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.36Service Affecting Defect",
+    "bbox": [
+      192,
+      931,
+      439,
+      945
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      931,
+      1000,
+      946
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.37Services",
+    "bbox": [
+      191,
+      951,
+      304,
+      965
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      951,
+      1000,
+      965
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Proprietary and Confidential",
+    "bbox": [
+      556,
+      986,
+      777,
+      998
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Agreement and information contained therein is not for use or disclosure outside of AT&T, its Affiliates, and third",
+    "bbox": [
+      220,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "party representatives, and Vendor except under written agreement by the contracting parties.",
+    "bbox": [
+      316,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "i",
+    "bbox": [
+      660,
+      1000,
+      673,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: ATN INTERNATIONAL, INC., 10-Q, 11/8/2019",
+    "bbox": [
+      133,
+      1000,
+      561,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Mobility Network General Agreement",
+    "bbox": [
+      504,
+      115,
+      828,
+      127
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      555,
+      134,
+      777,
+      146
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      1000,
+      152,
+      1000,
+      169
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1 Scope",
+    "bbox": [
+      179,
+      171,
+      268,
+      187
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      171,
+      1000,
+      185
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.2 Scope ofAgreement",
+    "bbox": [
+      192,
+      192,
+      410,
+      206
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      191,
+      1000,
+      206
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.3 Term of Agreement",
+    "bbox": [
+      193,
+      212,
+      398,
+      225
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      211,
+      1000,
+      225
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.1 Definitions",
+    "bbox": [
+      178,
+      232,
+      301,
+      245
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      245
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.2 Affiliate",
+    "bbox": [
+      190,
+      251,
+      298,
+      266
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      251,
+      1000,
+      266
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.3 Agreement",
+    "bbox": [
+      191,
+      272,
+      326,
+      286
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      271,
+      1000,
+      286
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.4 Attorney's Fees",
+    "bbox": [
+      190,
+      291,
+      368,
+      306
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      290,
+      1000,
+      307
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.5 AT&T Competitor",
+    "bbox": [
+      191,
+      312,
+      390,
+      326
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      310,
+      1000,
+      327
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.6 AT&T Indemnified Parties",
+    "bbox": [
+      192,
+      332,
+      454,
+      344
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      331,
+      1000,
+      346
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.7 Cell Site",
+    "bbox": [
+      192,
+      352,
+      304,
+      365
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      350,
+      1000,
+      367
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.8 Change Management Plan",
+    "bbox": [
+      190,
+      371,
+      454,
+      386
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      371,
+      1000,
+      386
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.9 Change of Control",
+    "bbox": [
+      192,
+      393,
+      390,
+      405
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      390,
+      1000,
+      407
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.10Change Order",
+    "bbox": [
+      191,
+      412,
+      355,
+      426
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      410,
+      1000,
+      426
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.11Control",
+    "bbox": [
+      191,
+      432,
+      298,
+      444
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      431,
+      1000,
+      446
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.12Customer Information",
+    "bbox": [
+      192,
+      452,
+      417,
+      465
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      450,
+      1000,
+      467
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.13Deliverable",
+    "bbox": [
+      191,
+      472,
+      326,
+      484
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      471,
+      1000,
+      486
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.14Delivery or Completion",
+    "bbox": [
+      191,
+      491,
+      431,
+      506
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      491,
+      1000,
+      507
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.1 5Delivery Date or Completion Date",
+    "bbox": [
+      192,
+      512,
+      524,
+      525
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.16Documentation",
+    "bbox": [
+      191,
+      532,
+      360,
+      545
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      531,
+      1000,
+      546
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.17Drug Screen",
+    "bbox": [
+      190,
+      551,
+      339,
+      567
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      551,
+      1000,
+      565
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.18Employment Claims",
+    "bbox": [
+      191,
+      571,
+      402,
+      586
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      571,
+      1000,
+      585
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.19Excusable Delay",
+    "bbox": [
+      190,
+      591,
+      372,
+      606
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      591,
+      1000,
+      605
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.20FirstNet Authority",
+    "bbox": [
+      191,
+      611,
+      385,
+      626
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      610,
+      1000,
+      625
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.21Information",
+    "bbox": [
+      191,
+      631,
+      329,
+      645
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      631,
+      1000,
+      646
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.22Intellectual Property Rights",
+    "bbox": [
+      189,
+      650,
+      460,
+      667
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      650,
+      1000,
+      666
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.23Items",
+    "bbox": [
+      191,
+      671,
+      279,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      671,
+      1000,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.24Laws",
+    "bbox": [
+      190,
+      690,
+      279,
+      706
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      690,
+      1000,
+      706
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.25Liability",
+    "bbox": [
+      190,
+      710,
+      298,
+      726
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      710,
+      1000,
+      725
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.26Lien",
+    "bbox": [
+      191,
+      732,
+      269,
+      745
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      730,
+      1000,
+      746
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.27Litigation Expense",
+    "bbox": [
+      191,
+      751,
+      387,
+      767
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      750,
+      1000,
+      766
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.28Loss",
+    "bbox": [
+      191,
+      771,
+      274,
+      785
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      771,
+      1000,
+      785
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.29Material",
+    "bbox": [
+      192,
+      791,
+      302,
+      804
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.30Non-Service Affecting Defect",
+    "bbox": [
+      190,
+      811,
+      486,
+      825
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      811,
+      1000,
+      825
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.310EM",
+    "bbox": [
+      190,
+      830,
+      282,
+      844
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      830,
+      1000,
+      846
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.32Permits",
+    "bbox": [
+      192,
+      852,
+      295,
+      864
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      851,
+      1000,
+      866
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.33Person",
+    "bbox": [
+      191,
+      871,
+      291,
+      885
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      871,
+      1000,
+      885
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.34Physical Entry",
+    "bbox": [
+      191,
+      890,
+      351,
+      907
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      891,
+      1000,
+      906
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.35Restricted Entities",
+    "bbox": [
+      191,
+      911,
+      384,
+      924
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      911,
+      1000,
+      925
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.36Service Affecting Defect",
+    "bbox": [
+      192,
+      931,
+      439,
+      945
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      931,
+      1000,
+      946
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.37Services",
+    "bbox": [
+      191,
+      951,
+      304,
+      965
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      951,
+      1000,
+      965
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Proprietary and Confidential",
+    "bbox": [
+      556,
+      986,
+      777,
+      998
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "This Agreement and information contained therein is not for use or disclosure outside of AT&T, its Affiliates, and third",
+    "bbox": [
+      220,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "party representatives, and Vendor except under written agreement by the contracting parties.",
+    "bbox": [
+      316,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "i",
+    "bbox": [
+      660,
+      1000,
+      673,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: ATN INTERNATIONAL, INC., 10-Q, 11/8/2019",
+    "bbox": [
+      133,
+      1000,
+      561,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Mobility Network General Agreement",
+    "bbox": [
+      504,
+      115,
+      828,
+      127
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      555,
+      134,
+      777,
+      146
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      1000,
+      152,
+      1000,
+      169
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1.1 Scope",
+    "bbox": [
+      179,
+      171,
+      268,
+      187
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      171,
+      1000,
+      185
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1.2 Scope ofAgreement",
+    "bbox": [
+      192,
+      192,
+      410,
+      206
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      191,
+      1000,
+      206
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1.3 Term of Agreement",
+    "bbox": [
+      193,
+      212,
+      398,
+      225
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      211,
+      1000,
+      225
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.1 Definitions",
+    "bbox": [
+      178,
+      232,
+      301,
+      245
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      245
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.2 Affiliate",
+    "bbox": [
+      190,
+      251,
+      298,
+      266
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      251,
+      1000,
+      266
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.3 Agreement",
+    "bbox": [
+      191,
+      272,
+      326,
+      286
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      271,
+      1000,
+      286
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.4 Attorney's Fees",
+    "bbox": [
+      190,
+      291,
+      368,
+      306
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      290,
+      1000,
+      307
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.5 AT&T Competitor",
+    "bbox": [
+      191,
+      312,
+      390,
+      326
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      310,
+      1000,
+      327
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.6 AT&T Indemnified Parties",
+    "bbox": [
+      192,
+      332,
+      454,
+      344
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      331,
+      1000,
+      346
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.7 Cell Site",
+    "bbox": [
+      192,
+      352,
+      304,
+      365
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      350,
+      1000,
+      367
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.8 Change Management Plan",
+    "bbox": [
+      190,
+      371,
+      454,
+      386
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      371,
+      1000,
+      386
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.9 Change of Control",
+    "bbox": [
+      192,
+      393,
+      390,
+      405
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      390,
+      1000,
+      407
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.10Change Order",
+    "bbox": [
+      191,
+      412,
+      355,
+      426
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      410,
+      1000,
+      426
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.11Control",
+    "bbox": [
+      191,
+      432,
+      298,
+      444
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      431,
+      1000,
+      446
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.12Customer Information",
+    "bbox": [
+      192,
+      452,
+      417,
+      465
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      450,
+      1000,
+      467
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.13Deliverable",
+    "bbox": [
+      191,
+      472,
+      326,
+      484
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      471,
+      1000,
+      486
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.14Delivery or Completion",
+    "bbox": [
+      191,
+      491,
+      431,
+      506
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      491,
+      1000,
+      507
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.1 5Delivery Date or Completion Date",
+    "bbox": [
+      192,
+      512,
+      524,
+      525
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.16Documentation",
+    "bbox": [
+      191,
+      532,
+      360,
+      545
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      531,
+      1000,
+      546
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.17Drug Screen",
+    "bbox": [
+      190,
+      551,
+      339,
+      567
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      551,
+      1000,
+      565
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.18Employment Claims",
+    "bbox": [
+      191,
+      571,
+      402,
+      586
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      571,
+      1000,
+      585
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.19Excusable Delay",
+    "bbox": [
+      190,
+      591,
+      372,
+      606
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      591,
+      1000,
+      605
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.20FirstNet Authority",
+    "bbox": [
+      191,
+      611,
+      385,
+      626
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      610,
+      1000,
+      625
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.21Information",
+    "bbox": [
+      191,
+      631,
+      329,
+      645
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      631,
+      1000,
+      646
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.22Intellectual Property Rights",
+    "bbox": [
+      189,
+      650,
+      460,
+      667
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      650,
+      1000,
+      666
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.23Items",
+    "bbox": [
+      191,
+      671,
+      279,
+      685
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      671,
+      1000,
+      685
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.24Laws",
+    "bbox": [
+      190,
+      690,
+      279,
+      706
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      690,
+      1000,
+      706
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.25Liability",
+    "bbox": [
+      190,
+      710,
+      298,
+      726
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      710,
+      1000,
+      725
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.26Lien",
+    "bbox": [
+      191,
+      732,
+      269,
+      745
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      730,
+      1000,
+      746
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.27Litigation Expense",
+    "bbox": [
+      191,
+      751,
+      387,
+      767
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      750,
+      1000,
+      766
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.28Loss",
+    "bbox": [
+      191,
+      771,
+      274,
+      785
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      771,
+      1000,
+      785
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.29Material",
+    "bbox": [
+      192,
+      791,
+      302,
+      804
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.30Non-Service Affecting Defect",
+    "bbox": [
+      190,
+      811,
+      486,
+      825
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      811,
+      1000,
+      825
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.310EM",
+    "bbox": [
+      190,
+      830,
+      282,
+      844
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      830,
+      1000,
+      846
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.32Permits",
+    "bbox": [
+      192,
+      852,
+      295,
+      864
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      851,
+      1000,
+      866
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.33Person",
+    "bbox": [
+      191,
+      871,
+      291,
+      885
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      871,
+      1000,
+      885
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.34Physical Entry",
+    "bbox": [
+      191,
+      890,
+      351,
+      907
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      891,
+      1000,
+      906
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.35Restricted Entities",
+    "bbox": [
+      191,
+      911,
+      384,
+      924
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      911,
+      1000,
+      925
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.36Service Affecting Defect",
+    "bbox": [
+      192,
+      931,
+      439,
+      945
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      931,
+      1000,
+      946
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2.37Services",
+    "bbox": [
+      191,
+      951,
+      304,
+      965
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      951,
+      1000,
+      965
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Proprietary and Confidential",
+    "bbox": [
+      556,
+      986,
+      777,
+      998
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "This Agreement and information contained therein is not for use or disclosure outside of AT&T, its Affiliates, and third",
+    "bbox": [
+      220,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "party representatives, and Vendor except under written agreement by the contracting parties.",
+    "bbox": [
+      316,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "i",
+    "bbox": [
+      660,
+      1000,
+      673,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Source: ATN INTERNATIONAL, INC., 10-Q, 11/8/2019",
+    "bbox": [
+      133,
+      1000,
+      561,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  }
+]

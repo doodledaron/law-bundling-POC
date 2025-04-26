@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Termination for Convenience by Customer.",
+    "bbox": [
+      200,
+      392,
+      510,
+      404
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "TERM; TERMINATION",
+    "bbox": [
+      144,
+      275,
+      306,
+      287
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  }
+]

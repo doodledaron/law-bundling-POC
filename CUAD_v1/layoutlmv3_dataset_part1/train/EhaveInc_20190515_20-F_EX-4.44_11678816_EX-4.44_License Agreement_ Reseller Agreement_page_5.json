@@ -1,0 +1,530 @@
+[
+  {
+    "text": "19(c) or by a final non-appealable judgment of a court of competent jurisdiction; or",
+    "bbox": [
+      316,
+      481,
+      937,
+      493
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      496,
+      269,
+      510
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "at any time after November 1, 2010 CHT fails to achieve annual revenues of $500,000.",
+    "bbox": [
+      314,
+      495,
+      950,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      178,
+      80,
+      204,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Grant by Ehave",
+    "bbox": [
+      246,
+      81,
+      363,
+      93
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Subject to the terms and conditions of this Agreement commencing as of the Effective Date and for the duration of the Term and any",
+    "bbox": [
+      180,
+      97,
+      1000,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Transition-out Period, Ehave hereby grants to CHT a non-transferable (except as permitted under Section 20(f)), right to:",
+    "bbox": [
+      179,
+      113,
+      1000,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      247,
+      129,
+      263,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "sub-license the use of the Ehave Companion Solution within the Field of Use in the Territory to End Users and their",
+    "bbox": [
+      314,
+      129,
+      1000,
+      140
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and services, in accordance with and subject to the provisions of CHT's Subscription Agreement; and",
+    "bbox": [
+      315,
+      161,
+      1000,
+      173
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      247,
+      176,
+      268,
+      190
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "use the Ehave Companion Solution to support its licensed End Users.",
+    "bbox": [
+      314,
+      177,
+      839,
+      189
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Subject to Section 2(e), the grant set out in Clause 2(b)(i) is exclusive such that Ehave shall not license any other Person to, nor may Ehave",
+    "bbox": [
+      179,
+      192,
+      1000,
+      205
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "itself, license, sub-license the use of, or provide services similar to, the Ehave Companion Solution within the Field of Use anywhere in the.",
+    "bbox": [
+      179,
+      209,
+      1000,
+      221
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Territory.",
+    "bbox": [
+      179,
+      224,
+      246,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      179,
+      241,
+      201,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Restrictions on Use",
+    "bbox": [
+      245,
+      239,
+      396,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Any rights not granted herein are strictly reserved by Ehave. CHT shall not, and shall not permit others to, reverse engineer, decompile,",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "disassemble or translate any software used by Ehave to provide the Ehave Companion Solution, or otherwise attempt to view, display or.",
+    "bbox": [
+      179,
+      273,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "print such software, including its Source Code, except as permitted herein.",
+    "bbox": [
+      178,
+      288,
+      736,
+      302
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(d)",
+    "bbox": [
+      179,
+      305,
+      203,
+      317
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Prohibition on Competitive Solutions",
+    "bbox": [
+      245,
+      305,
+      526,
+      316
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with any other Person related to the license, sub-license, sale, resale or provide service, solutions, goods or products, that are.",
+    "bbox": [
+      180,
+      337,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "substantially similar to or competitive with the Ehave Companion Solution. For clarity, a Competitive Transaction shall not include an",
+    "bbox": [
+      181,
+      354,
+      1000,
+      364
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "agreement for use, integration or interfacing, or co-marketing, of the Ehave Companion Solution with other services, solutions, devices.",
+    "bbox": [
+      179,
+      369,
+      1000,
+      381
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "goods or products, where such other services, solutions, devices, goods or products do not contain the same or similar functionality of",
+    "bbox": [
+      179,
+      383,
+      1000,
+      398
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Ehave Companion Solution, but provides for a complementary solution.",
+    "bbox": [
+      179,
+      401,
+      744,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(e)",
+    "bbox": [
+      179,
+      417,
+      201,
+      430
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Conversion to Non-Exclusive",
+    "bbox": [
+      247,
+      417,
+      468,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Notwithstanding anything to the contrary contained herein, the exclusive appointment and license set out in Sections 2(a) and 2(b) shall",
+    "bbox": [
+      179,
+      433,
+      1000,
+      445
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "become non-exclusive if:",
+    "bbox": [
+      179,
+      448,
+      365,
+      460
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      246,
+      463,
+      265,
+      479
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "at any time during the Term hereof, CHT breaches Section 2(d) as determined by arbitration in accordance with Section",
+    "bbox": [
+      314,
+      464,
+      1000,
+      477
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "19(c) or by a final non-appealable judgment of a court of competent jurisdiction; or",
+    "bbox": [
+      316,
+      481,
+      937,
+      493
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      496,
+      269,
+      510
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "at any time after November 1, 2010 CHT fails to achieve annual revenues of $500,000.",
+    "bbox": [
+      314,
+      495,
+      950,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(f)",
+    "bbox": [
+      178,
+      512,
+      198,
+      526
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "No Franchise Agreement",
+    "bbox": [
+      246,
+      514,
+      435,
+      524
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The Parties to this Agreement are independent contractors and nothing in this Agreement shall be deemed or constructed as creating a",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "any right, power or authority to act or create an obligation, express or implied, on behalf of the other Party. Each Party assumes",
+    "bbox": [
+      180,
+      561,
+      1000,
+      573
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "responsibility for the actions of their personnel under this Agreement and will be solely responsible for their supervision, daily direction.",
+    "bbox": [
+      180,
+      577,
+      1000,
+      588
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and control, wage rates, withholding income taxes, Canada Pension Plan contributions, employment insurance premiums, disability",
+    "bbox": [
+      180,
+      593,
+      1000,
+      605
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "benefits, or the manner and means through which the work under this Agreement will be accomplished. Except as provided otherwise in",
+    "bbox": [
+      180,
+      608,
+      1000,
+      620
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "this Agreement, CHT has the sole discretion to determine CHT's methods of operation, CHT's accounting practices, the types and",
+    "bbox": [
+      179,
+      624,
+      1000,
+      638
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "amounts of insurance CHT carries, CHT's personnel practices, CHT's advertising and promotion, CHT's customers and CHT's service.",
+    "bbox": [
+      179,
+      640,
+      1000,
+      652
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "areas and methods. The relationship created hereby between the parties is solely that of supplier and reseller, and licensor and licensee.",
+    "bbox": [
+      179,
+      657,
+      1000,
+      669
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      1000,
+      689,
+      1000,
+      700
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

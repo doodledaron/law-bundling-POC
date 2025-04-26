@@ -1,0 +1,4963 @@
+[
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.16",
+    "bbox": [
+      111,
+      83,
+      143,
+      95
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Delivery Date - the date on which Bank of America actually receives the Software from Supplier.",
+    "bbox": [
+      166,
+      84,
+      881,
+      96
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.17",
+    "bbox": [
+      111,
+      109,
+      143,
+      121
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Documentation - any and all: (i) materials created by or on behalf of Supplier that describe or relate to the functional, operational or",
+    "bbox": [
+      165,
+      110,
+      1000,
+      122
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "performance capabilities of the Software, regardless of format; (ii) user, operator, system administration, technical, support and other.",
+    "bbox": [
+      165,
+      125,
+      1000,
+      139
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "manuals, including but not limited to functional specifications, help files, flow charts, logic diagrams, programming comments, acceptance",
+    "bbox": [
+      165,
+      141,
+      1000,
+      155
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "plan, if any, and portions of licensor's web site that in any way describe the Software; (iii) responses and other materials submitted by",
+    "bbox": [
+      167,
+      158,
+      1000,
+      170
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Supplier in response to any Bank of America Request for Information (RFI'), Request for Proposal (RFP'') or Request for Quotation",
+    "bbox": [
+      168,
+      175,
+      1000,
+      185
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(\"RFQ'); and (iv) updates, changes and corrections to any of the forgoing that may be made during the Term of this Agreement.",
+    "bbox": [
+      167,
+      190,
+      1000,
+      202
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.18",
+    "bbox": [
+      110,
+      214,
+      143,
+      227
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Effective Date - the date set forth on the signature page on which this Agreement takes effect..",
+    "bbox": [
+      166,
+      216,
+      871,
+      228
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.19",
+    "bbox": [
+      111,
+      241,
+      143,
+      253
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Error - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended",
+    "bbox": [
+      166,
+      242,
+      1000,
+      254
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "purpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the.",
+    "bbox": [
+      165,
+      256,
+      1000,
+      271
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "value to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+    "bbox": [
+      167,
+      275,
+      1000,
+      285
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.20",
+    "bbox": [
+      111,
+      299,
+      143,
+      311
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Information Security Program - the documents that describe how Supplier will provide services to Bank of America in a manner that complies.",
+    "bbox": [
+      165,
+      300,
+      1000,
+      312
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "with the confidentiality and information security requirements of this Agreement and all pertinent Schedules and Exhibits hereto. Such",
+    "bbox": [
+      167,
+      317,
+      1000,
+      327
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "information security program must be approved by Supplier's board of directors or equivalent executive management prior to the Effective.",
+    "bbox": [
+      165,
+      331,
+      1000,
+      344
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Date thereof and annually thereafter. It must describe Supplier's network infrastructure and security procedures and controls that protect.",
+    "bbox": [
+      165,
+      347,
+      1000,
+      360
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Confidential Information on a basis that meets or exceeds the Bank Security Requirements..",
+    "bbox": [
+      167,
+      363,
+      843,
+      376
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.21",
+    "bbox": [
+      110,
+      388,
+      142,
+      402
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Installation Date - the date the Software has been properly installed.",
+    "bbox": [
+      166,
+      390,
+      677,
+      402
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.22",
+    "bbox": [
+      111,
+      414,
+      142,
+      427
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Installation Site - the building or complex of buildings at which Bank of America installs the Software..",
+    "bbox": [
+      166,
+      416,
+      924,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      441,
+      142,
+      453
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Intellectual Property Rights - all intellectual property rights throughout the world, including copyrights, patents, mask works, trademarks.",
+    "bbox": [
+      166,
+      442,
+      1000,
+      454
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "service marks, trade secrets, inventions (whether or not patentable), know how, authors' rights, rights of attribution, and other proprietary.",
+    "bbox": [
+      165,
+      457,
+      1000,
+      470
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "rights and all applications and rights to apply for registration or protection of such rights.",
+    "bbox": [
+      167,
+      474,
+      837,
+      486
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      111,
+      499,
+      143,
+      511
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedule (including Source Code for such computer programs unless expressly stated otherwise in such Product License Schedule)..",
+    "bbox": [
+      167,
+      516,
+      1000,
+      528
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      540,
+      143,
+      554
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Maintenance Fees - the fees for Maintenance Services set forth in each Product License Schedule",
+    "bbox": [
+      168,
+      543,
+      902,
+      552
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      111,
+      567,
+      143,
+      579
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per.",
+    "bbox": [
+      165,
+      567,
+      1000,
+      580
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "day, seven (7) per week, including Bank of America holidays.",
+    "bbox": [
+      167,
+      584,
+      621,
+      596
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      111,
+      609,
+      143,
+      621
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Maintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed",
+    "bbox": [
+      165,
+      609,
+      1000,
+      622
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Proprietary to Bank of America",
+    "bbox": [
+      112,
+      663,
+      351,
+      675
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      662,
+      1000,
+      673
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      134,
+      1000,
+      477,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

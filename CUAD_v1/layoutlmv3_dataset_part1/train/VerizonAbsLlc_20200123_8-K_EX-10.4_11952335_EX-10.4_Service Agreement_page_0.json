@@ -1,0 +1,123 @@
+[
+  {
+    "text": "FORM OF TRANSFER AND SERVICING AGREEMENT",
+    "bbox": [
+      457,
+      283,
+      876,
+      293
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "as Servicer, Marketing Agent and Custodian.",
+    "bbox": [
+      498,
+      650,
+      833,
+      663
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "as Servicer, Marketing Agent and Custodian.",
+    "bbox": [
+      498,
+      650,
+      833,
+      663
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "as Depositor",
+    "bbox": [
+      617,
+      507,
+      715,
+      519
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "as Issuer,.",
+    "bbox": [
+      629,
+      426,
+      703,
+      439
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "VERIZON ABS LLC.",
+    "bbox": [
+      591,
+      491,
+      742,
+      502
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "as Servicer, Marketing Agent and Custodian.",
+    "bbox": [
+      498,
+      650,
+      833,
+      663
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "VERIZON OWNER TRUST 2020-A,",
+    "bbox": [
+      534,
+      410,
+      800,
+      422
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CELLCO PARTNERSHIP d/b/a VERIZON WIRELESS",
+    "bbox": [
+      468,
+      635,
+      864,
+      645
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CELLCO PARTNERSHIP d/b/a VERIZON WIRELESS",
+    "bbox": [
+      468,
+      635,
+      864,
+      645
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dated as of January 29, 2020",
+    "bbox": [
+      559,
+      713,
+      773,
+      726
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

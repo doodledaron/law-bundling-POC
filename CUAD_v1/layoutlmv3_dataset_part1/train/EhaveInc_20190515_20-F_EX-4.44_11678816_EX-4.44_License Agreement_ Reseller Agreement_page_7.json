@@ -1,0 +1,1850 @@
+[
+  {
+    "text": "(c)",
+    "bbox": [
+      178,
+      81,
+      201,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Change Control Process.",
+    "bbox": [
+      248,
+      82,
+      430,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Either Party may request additions, deletions or amendments in respect of the development and implementation of the Ehave Companion",
+    "bbox": [
+      179,
+      97,
+      1000,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution (\"Change'). Changes shall be requested in writing signed by an authorized representative of the Party requesting the Change",
+    "bbox": [
+      179,
+      113,
+      1000,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"Change Request'). Ehave shall have no obligation to perform, and CHT shall have no obligation to pay for, services related to any",
+    "bbox": [
+      179,
+      128,
+      1000,
+      142
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "procedures set forth herein. The Change Request shall include a reasonably detailed description of the scope and nature of the requested",
+    "bbox": [
+      179,
+      161,
+      1000,
+      173
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "as reasonably possible after receipt of CHT's request, Ehave agrees to provide CHT with a written estimate of the cost, if any, of and the",
+    "bbox": [
+      179,
+      192,
+      1000,
+      206
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "timing to implement the requested Changes as well as any additional terms and conditions related to such Changes. The costs, if any,",
+    "bbox": [
+      179,
+      208,
+      1000,
+      221
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "associated with the development of such estimate shall be borne by CHT. Upon CHT's approval in writing of the cost estimate and any",
+    "bbox": [
+      178,
+      224,
+      1000,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional terms and conditions related to such Changes, including delivery dates and payment terms provided by Ehave, the Parties shall",
+    "bbox": [
+      179,
+      241,
+      1000,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "revise the Specifications and Implementation Plan and shall replace the Specifications and Implementation Plan attached hereto as",
+    "bbox": [
+      179,
+      258,
+      1000,
+      268
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedules \"1\"' and \"2\", and Ehave shall develop and implement the Change as so agreed. Changes shall be subject to acceptance testing",
+    "bbox": [
+      180,
+      273,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "by CHT prior to being deployed into production in accordance with procedures described in Section 3(d) or as otherwise agreed by the",
+    "bbox": [
+      180,
+      289,
+      1000,
+      301
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "parties in writing. Ehave shall not refuse to accept a CHT Change request unless it is unable to make the Change requested using",
+    "bbox": [
+      179,
+      305,
+      1000,
+      318
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "commercially reasonable efforts, in which event Ehave will provide an explanation to CHT; or Ehave and CHT fail to agree on the terms and",
+    "bbox": [
+      180,
+      321,
+      1000,
+      332
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conditions related to the performance of such Change, including the costs, if any. If a mutually acceptable resolution is not reached in",
+    "bbox": [
+      179,
+      336,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(d)",
+    "bbox": [
+      178,
+      369,
+      203,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Acceptance",
+    "bbox": [
+      246,
+      369,
+      339,
+      381
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The criteria (\"Acceptance Criteria') which the Ehave Companion Solution is to meet and the procedures by which such criteria are to be",
+    "bbox": [
+      179,
+      384,
+      1000,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "tested (\"Acceptance Procedures\") shall be set out in the Implementation Plan and shall follow the requirements set out in this Section",
+    "bbox": [
+      179,
+      401,
+      1000,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3(d). Once notified by Ehave that the Ehave Companion Solution is ready for acceptance testing, CHT shall perform the tests as set out in",
+    "bbox": [
+      181,
+      418,
+      1000,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the acceptance tests as set out in the Acceptance Procedures and to provide Ehave written notice of acceptance or non-acceptance of the",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave Companion Solution (the \"Acceptance Period'). CHT shall not refuse to accept the Ehave Companion Solution unless all or one or",
+    "bbox": [
+      180,
+      465,
+      1000,
+      476
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "more portions of the Solution fail to perform, in any material respect, in accordance with the Acceptance Criteria. Any notice of non-",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "acceptance shall describe the material failure of the Ehave Companion Solution in reasonable detail and CHT shall provide Ehave with",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "reasonably detailed documentation and explanations, together with underlying data, to substantiate the failure and to reasonably assist",
+    "bbox": [
+      179,
+      513,
+      1000,
+      525
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave in its efforts to diagnose and correct the failure. If CHT gives notice to Ehave of non-acceptance of the Ehave Companion Solution",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "then Ehave shall investigate the reported failure in good faith and correct same, and if the engagement is on a fixed fee basis at no",
+    "bbox": [
+      179,
+      545,
+      1000,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional cost to CHT, within fifteen (15) Business Days unless an extension is granted by CHT. If, within such fifteen (15) Business day",
+    "bbox": [
+      179,
+      559,
+      1000,
+      573
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "period (or extended period, as applicable), Ehave corrects the failure, then Ehave shall give written notice to CHT certifying that the failure",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "has been corrected, and another Acceptance Period of the same duration as the initial Acceptance Period shall begin and shall be",
+    "bbox": [
+      179,
+      592,
+      1000,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "governed by the provisions of this Section 3(d) upon delivery of the corrected Ehave Companion Solution to CHT. If the Acceptance",
+    "bbox": [
+      179,
+      608,
+      1000,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Companion Solution failed to pass the Acceptance Criteria on the third (3rd) try, then, at the discretion of either Party, Ehave may continue",
+    "bbox": [
+      180,
+      640,
+      1000,
+      652
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to fix the problem, or terminate this Agreement in which case, CHT shall promptly return to Ehave all copies of the Ehave Companion",
+    "bbox": [
+      179,
+      656,
+      1000,
+      668
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution, including the Specifications and any other items delivered to CHT by Ehave thereunder and Ehave shall promptly refund to CHT",
+    "bbox": [
+      180,
+      673,
+      1000,
+      685
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "any monies paid by CHT in respect of the initial development and implementation of the Ehave Companion Solution. If the Acceptance",
+    "bbox": [
+      179,
+      689,
+      1000,
+      701
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Procedures were conducted three (3) times in respect of a Change, and the Change failed to pass the Acceptance Criteria on the third (3rd)",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "try, then, at the discretion of CHT, Ehave may continue to fix the problem, or terminate the performance of the development of the Change,",
+    "bbox": [
+      179,
+      720,
+      1000,
+      734
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in which case CHT shall promptly return to Ehave all copies of the Change, including the Specifications thereto and Ehave shall promptly",
+    "bbox": [
+      180,
+      737,
+      1000,
+      749
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "refund to CHT any monies paid by CHT in respect of the development and implementation of the Change.",
+    "bbox": [
+      179,
+      752,
+      972,
+      765
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      1000,
+      784,
+      1000,
+      795
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      134,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      178,
+      81,
+      201,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Change Control Process.",
+    "bbox": [
+      248,
+      82,
+      430,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Either Party may request additions, deletions or amendments in respect of the development and implementation of the Ehave Companion",
+    "bbox": [
+      179,
+      97,
+      1000,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution (\"Change'). Changes shall be requested in writing signed by an authorized representative of the Party requesting the Change",
+    "bbox": [
+      179,
+      113,
+      1000,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"Change Request'). Ehave shall have no obligation to perform, and CHT shall have no obligation to pay for, services related to any",
+    "bbox": [
+      179,
+      128,
+      1000,
+      142
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "procedures set forth herein. The Change Request shall include a reasonably detailed description of the scope and nature of the requested",
+    "bbox": [
+      179,
+      161,
+      1000,
+      173
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "as reasonably possible after receipt of CHT's request, Ehave agrees to provide CHT with a written estimate of the cost, if any, of and the",
+    "bbox": [
+      179,
+      192,
+      1000,
+      206
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "timing to implement the requested Changes as well as any additional terms and conditions related to such Changes. The costs, if any,",
+    "bbox": [
+      179,
+      208,
+      1000,
+      221
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "associated with the development of such estimate shall be borne by CHT. Upon CHT's approval in writing of the cost estimate and any",
+    "bbox": [
+      178,
+      224,
+      1000,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional terms and conditions related to such Changes, including delivery dates and payment terms provided by Ehave, the Parties shall",
+    "bbox": [
+      179,
+      241,
+      1000,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "revise the Specifications and Implementation Plan and shall replace the Specifications and Implementation Plan attached hereto as",
+    "bbox": [
+      179,
+      258,
+      1000,
+      268
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedules \"1\"' and \"2\", and Ehave shall develop and implement the Change as so agreed. Changes shall be subject to acceptance testing",
+    "bbox": [
+      180,
+      273,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "by CHT prior to being deployed into production in accordance with procedures described in Section 3(d) or as otherwise agreed by the",
+    "bbox": [
+      180,
+      289,
+      1000,
+      301
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "parties in writing. Ehave shall not refuse to accept a CHT Change request unless it is unable to make the Change requested using",
+    "bbox": [
+      179,
+      305,
+      1000,
+      318
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "commercially reasonable efforts, in which event Ehave will provide an explanation to CHT; or Ehave and CHT fail to agree on the terms and",
+    "bbox": [
+      180,
+      321,
+      1000,
+      332
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conditions related to the performance of such Change, including the costs, if any. If a mutually acceptable resolution is not reached in",
+    "bbox": [
+      179,
+      336,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(d)",
+    "bbox": [
+      178,
+      369,
+      203,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Acceptance",
+    "bbox": [
+      246,
+      369,
+      339,
+      381
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The criteria (\"Acceptance Criteria') which the Ehave Companion Solution is to meet and the procedures by which such criteria are to be",
+    "bbox": [
+      179,
+      384,
+      1000,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "tested (\"Acceptance Procedures\") shall be set out in the Implementation Plan and shall follow the requirements set out in this Section",
+    "bbox": [
+      179,
+      401,
+      1000,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3(d). Once notified by Ehave that the Ehave Companion Solution is ready for acceptance testing, CHT shall perform the tests as set out in",
+    "bbox": [
+      181,
+      418,
+      1000,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the acceptance tests as set out in the Acceptance Procedures and to provide Ehave written notice of acceptance or non-acceptance of the",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave Companion Solution (the \"Acceptance Period'). CHT shall not refuse to accept the Ehave Companion Solution unless all or one or",
+    "bbox": [
+      180,
+      465,
+      1000,
+      476
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "more portions of the Solution fail to perform, in any material respect, in accordance with the Acceptance Criteria. Any notice of non-",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "acceptance shall describe the material failure of the Ehave Companion Solution in reasonable detail and CHT shall provide Ehave with",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "reasonably detailed documentation and explanations, together with underlying data, to substantiate the failure and to reasonably assist",
+    "bbox": [
+      179,
+      513,
+      1000,
+      525
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave in its efforts to diagnose and correct the failure. If CHT gives notice to Ehave of non-acceptance of the Ehave Companion Solution",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "then Ehave shall investigate the reported failure in good faith and correct same, and if the engagement is on a fixed fee basis at no",
+    "bbox": [
+      179,
+      545,
+      1000,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional cost to CHT, within fifteen (15) Business Days unless an extension is granted by CHT. If, within such fifteen (15) Business day",
+    "bbox": [
+      179,
+      559,
+      1000,
+      573
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "period (or extended period, as applicable), Ehave corrects the failure, then Ehave shall give written notice to CHT certifying that the failure",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "has been corrected, and another Acceptance Period of the same duration as the initial Acceptance Period shall begin and shall be",
+    "bbox": [
+      179,
+      592,
+      1000,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "governed by the provisions of this Section 3(d) upon delivery of the corrected Ehave Companion Solution to CHT. If the Acceptance",
+    "bbox": [
+      179,
+      608,
+      1000,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Companion Solution failed to pass the Acceptance Criteria on the third (3rd) try, then, at the discretion of either Party, Ehave may continue",
+    "bbox": [
+      180,
+      640,
+      1000,
+      652
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to fix the problem, or terminate this Agreement in which case, CHT shall promptly return to Ehave all copies of the Ehave Companion",
+    "bbox": [
+      179,
+      656,
+      1000,
+      668
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution, including the Specifications and any other items delivered to CHT by Ehave thereunder and Ehave shall promptly refund to CHT",
+    "bbox": [
+      180,
+      673,
+      1000,
+      685
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "any monies paid by CHT in respect of the initial development and implementation of the Ehave Companion Solution. If the Acceptance",
+    "bbox": [
+      179,
+      689,
+      1000,
+      701
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Procedures were conducted three (3) times in respect of a Change, and the Change failed to pass the Acceptance Criteria on the third (3rd)",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "try, then, at the discretion of CHT, Ehave may continue to fix the problem, or terminate the performance of the development of the Change,",
+    "bbox": [
+      179,
+      720,
+      1000,
+      734
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in which case CHT shall promptly return to Ehave all copies of the Change, including the Specifications thereto and Ehave shall promptly",
+    "bbox": [
+      180,
+      737,
+      1000,
+      749
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "refund to CHT any monies paid by CHT in respect of the development and implementation of the Change.",
+    "bbox": [
+      179,
+      752,
+      972,
+      765
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      1000,
+      784,
+      1000,
+      795
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      134,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      178,
+      81,
+      201,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Change Control Process.",
+    "bbox": [
+      248,
+      82,
+      430,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Either Party may request additions, deletions or amendments in respect of the development and implementation of the Ehave Companion",
+    "bbox": [
+      179,
+      97,
+      1000,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution (\"Change'). Changes shall be requested in writing signed by an authorized representative of the Party requesting the Change",
+    "bbox": [
+      179,
+      113,
+      1000,
+      125
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"Change Request'). Ehave shall have no obligation to perform, and CHT shall have no obligation to pay for, services related to any",
+    "bbox": [
+      179,
+      128,
+      1000,
+      142
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "procedures set forth herein. The Change Request shall include a reasonably detailed description of the scope and nature of the requested",
+    "bbox": [
+      179,
+      161,
+      1000,
+      173
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "as reasonably possible after receipt of CHT's request, Ehave agrees to provide CHT with a written estimate of the cost, if any, of and the",
+    "bbox": [
+      179,
+      192,
+      1000,
+      206
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "timing to implement the requested Changes as well as any additional terms and conditions related to such Changes. The costs, if any,",
+    "bbox": [
+      179,
+      208,
+      1000,
+      221
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "associated with the development of such estimate shall be borne by CHT. Upon CHT's approval in writing of the cost estimate and any",
+    "bbox": [
+      178,
+      224,
+      1000,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional terms and conditions related to such Changes, including delivery dates and payment terms provided by Ehave, the Parties shall",
+    "bbox": [
+      179,
+      241,
+      1000,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "revise the Specifications and Implementation Plan and shall replace the Specifications and Implementation Plan attached hereto as",
+    "bbox": [
+      179,
+      258,
+      1000,
+      268
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Schedules \"1\"' and \"2\", and Ehave shall develop and implement the Change as so agreed. Changes shall be subject to acceptance testing",
+    "bbox": [
+      180,
+      273,
+      1000,
+      285
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "by CHT prior to being deployed into production in accordance with procedures described in Section 3(d) or as otherwise agreed by the",
+    "bbox": [
+      180,
+      289,
+      1000,
+      301
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "parties in writing. Ehave shall not refuse to accept a CHT Change request unless it is unable to make the Change requested using",
+    "bbox": [
+      179,
+      305,
+      1000,
+      318
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "commercially reasonable efforts, in which event Ehave will provide an explanation to CHT; or Ehave and CHT fail to agree on the terms and",
+    "bbox": [
+      180,
+      321,
+      1000,
+      332
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conditions related to the performance of such Change, including the costs, if any. If a mutually acceptable resolution is not reached in",
+    "bbox": [
+      179,
+      336,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(d)",
+    "bbox": [
+      178,
+      369,
+      203,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Acceptance",
+    "bbox": [
+      246,
+      369,
+      339,
+      381
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The criteria (\"Acceptance Criteria') which the Ehave Companion Solution is to meet and the procedures by which such criteria are to be",
+    "bbox": [
+      179,
+      384,
+      1000,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "tested (\"Acceptance Procedures\") shall be set out in the Implementation Plan and shall follow the requirements set out in this Section",
+    "bbox": [
+      179,
+      401,
+      1000,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3(d). Once notified by Ehave that the Ehave Companion Solution is ready for acceptance testing, CHT shall perform the tests as set out in",
+    "bbox": [
+      181,
+      418,
+      1000,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the acceptance tests as set out in the Acceptance Procedures and to provide Ehave written notice of acceptance or non-acceptance of the",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave Companion Solution (the \"Acceptance Period'). CHT shall not refuse to accept the Ehave Companion Solution unless all or one or",
+    "bbox": [
+      180,
+      465,
+      1000,
+      476
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "more portions of the Solution fail to perform, in any material respect, in accordance with the Acceptance Criteria. Any notice of non-",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "acceptance shall describe the material failure of the Ehave Companion Solution in reasonable detail and CHT shall provide Ehave with",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "reasonably detailed documentation and explanations, together with underlying data, to substantiate the failure and to reasonably assist",
+    "bbox": [
+      179,
+      513,
+      1000,
+      525
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave in its efforts to diagnose and correct the failure. If CHT gives notice to Ehave of non-acceptance of the Ehave Companion Solution",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "then Ehave shall investigate the reported failure in good faith and correct same, and if the engagement is on a fixed fee basis at no",
+    "bbox": [
+      179,
+      545,
+      1000,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "additional cost to CHT, within fifteen (15) Business Days unless an extension is granted by CHT. If, within such fifteen (15) Business day",
+    "bbox": [
+      179,
+      559,
+      1000,
+      573
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "period (or extended period, as applicable), Ehave corrects the failure, then Ehave shall give written notice to CHT certifying that the failure",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "has been corrected, and another Acceptance Period of the same duration as the initial Acceptance Period shall begin and shall be",
+    "bbox": [
+      179,
+      592,
+      1000,
+      604
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "governed by the provisions of this Section 3(d) upon delivery of the corrected Ehave Companion Solution to CHT. If the Acceptance",
+    "bbox": [
+      179,
+      608,
+      1000,
+      621
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Companion Solution failed to pass the Acceptance Criteria on the third (3rd) try, then, at the discretion of either Party, Ehave may continue",
+    "bbox": [
+      180,
+      640,
+      1000,
+      652
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to fix the problem, or terminate this Agreement in which case, CHT shall promptly return to Ehave all copies of the Ehave Companion",
+    "bbox": [
+      179,
+      656,
+      1000,
+      668
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Solution, including the Specifications and any other items delivered to CHT by Ehave thereunder and Ehave shall promptly refund to CHT",
+    "bbox": [
+      180,
+      673,
+      1000,
+      685
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "any monies paid by CHT in respect of the initial development and implementation of the Ehave Companion Solution. If the Acceptance",
+    "bbox": [
+      179,
+      689,
+      1000,
+      701
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Procedures were conducted three (3) times in respect of a Change, and the Change failed to pass the Acceptance Criteria on the third (3rd)",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "try, then, at the discretion of CHT, Ehave may continue to fix the problem, or terminate the performance of the development of the Change,",
+    "bbox": [
+      179,
+      720,
+      1000,
+      734
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in which case CHT shall promptly return to Ehave all copies of the Change, including the Specifications thereto and Ehave shall promptly",
+    "bbox": [
+      180,
+      737,
+      1000,
+      749
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "refund to CHT any monies paid by CHT in respect of the development and implementation of the Change.",
+    "bbox": [
+      179,
+      752,
+      972,
+      765
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      1000,
+      784,
+      1000,
+      795
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      134,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      178,
+      81,
+      201,
+      94
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Change Control Process.",
+    "bbox": [
+      248,
+      82,
+      430,
+      92
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Either Party may request additions, deletions or amendments in respect of the development and implementation of the Ehave Companion",
+    "bbox": [
+      179,
+      97,
+      1000,
+      109
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Solution (\"Change'). Changes shall be requested in writing signed by an authorized representative of the Party requesting the Change",
+    "bbox": [
+      179,
+      113,
+      1000,
+      125
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(\"Change Request'). Ehave shall have no obligation to perform, and CHT shall have no obligation to pay for, services related to any",
+    "bbox": [
+      179,
+      128,
+      1000,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "procedures set forth herein. The Change Request shall include a reasonably detailed description of the scope and nature of the requested",
+    "bbox": [
+      179,
+      161,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "as reasonably possible after receipt of CHT's request, Ehave agrees to provide CHT with a written estimate of the cost, if any, of and the",
+    "bbox": [
+      179,
+      192,
+      1000,
+      206
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "timing to implement the requested Changes as well as any additional terms and conditions related to such Changes. The costs, if any,",
+    "bbox": [
+      179,
+      208,
+      1000,
+      221
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "associated with the development of such estimate shall be borne by CHT. Upon CHT's approval in writing of the cost estimate and any",
+    "bbox": [
+      178,
+      224,
+      1000,
+      237
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "additional terms and conditions related to such Changes, including delivery dates and payment terms provided by Ehave, the Parties shall",
+    "bbox": [
+      179,
+      241,
+      1000,
+      253
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "revise the Specifications and Implementation Plan and shall replace the Specifications and Implementation Plan attached hereto as",
+    "bbox": [
+      179,
+      258,
+      1000,
+      268
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Schedules \"1\"' and \"2\", and Ehave shall develop and implement the Change as so agreed. Changes shall be subject to acceptance testing",
+    "bbox": [
+      180,
+      273,
+      1000,
+      285
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "by CHT prior to being deployed into production in accordance with procedures described in Section 3(d) or as otherwise agreed by the",
+    "bbox": [
+      180,
+      289,
+      1000,
+      301
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "parties in writing. Ehave shall not refuse to accept a CHT Change request unless it is unable to make the Change requested using",
+    "bbox": [
+      179,
+      305,
+      1000,
+      318
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "commercially reasonable efforts, in which event Ehave will provide an explanation to CHT; or Ehave and CHT fail to agree on the terms and",
+    "bbox": [
+      180,
+      321,
+      1000,
+      332
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "conditions related to the performance of such Change, including the costs, if any. If a mutually acceptable resolution is not reached in",
+    "bbox": [
+      179,
+      336,
+      1000,
+      349
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(d)",
+    "bbox": [
+      178,
+      369,
+      203,
+      382
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Acceptance",
+    "bbox": [
+      246,
+      369,
+      339,
+      381
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "The criteria (\"Acceptance Criteria') which the Ehave Companion Solution is to meet and the procedures by which such criteria are to be",
+    "bbox": [
+      179,
+      384,
+      1000,
+      397
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "tested (\"Acceptance Procedures\") shall be set out in the Implementation Plan and shall follow the requirements set out in this Section",
+    "bbox": [
+      179,
+      401,
+      1000,
+      413
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3(d). Once notified by Ehave that the Ehave Companion Solution is ready for acceptance testing, CHT shall perform the tests as set out in",
+    "bbox": [
+      181,
+      418,
+      1000,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the acceptance tests as set out in the Acceptance Procedures and to provide Ehave written notice of acceptance or non-acceptance of the",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Ehave Companion Solution (the \"Acceptance Period'). CHT shall not refuse to accept the Ehave Companion Solution unless all or one or",
+    "bbox": [
+      180,
+      465,
+      1000,
+      476
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "more portions of the Solution fail to perform, in any material respect, in accordance with the Acceptance Criteria. Any notice of non-",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "acceptance shall describe the material failure of the Ehave Companion Solution in reasonable detail and CHT shall provide Ehave with",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "reasonably detailed documentation and explanations, together with underlying data, to substantiate the failure and to reasonably assist",
+    "bbox": [
+      179,
+      513,
+      1000,
+      525
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Ehave in its efforts to diagnose and correct the failure. If CHT gives notice to Ehave of non-acceptance of the Ehave Companion Solution",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "then Ehave shall investigate the reported failure in good faith and correct same, and if the engagement is on a fixed fee basis at no",
+    "bbox": [
+      179,
+      545,
+      1000,
+      557
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "additional cost to CHT, within fifteen (15) Business Days unless an extension is granted by CHT. If, within such fifteen (15) Business day",
+    "bbox": [
+      179,
+      559,
+      1000,
+      573
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "period (or extended period, as applicable), Ehave corrects the failure, then Ehave shall give written notice to CHT certifying that the failure",
+    "bbox": [
+      180,
+      577,
+      1000,
+      589
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "has been corrected, and another Acceptance Period of the same duration as the initial Acceptance Period shall begin and shall be",
+    "bbox": [
+      179,
+      592,
+      1000,
+      604
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "governed by the provisions of this Section 3(d) upon delivery of the corrected Ehave Companion Solution to CHT. If the Acceptance",
+    "bbox": [
+      179,
+      608,
+      1000,
+      621
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Companion Solution failed to pass the Acceptance Criteria on the third (3rd) try, then, at the discretion of either Party, Ehave may continue",
+    "bbox": [
+      180,
+      640,
+      1000,
+      652
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "to fix the problem, or terminate this Agreement in which case, CHT shall promptly return to Ehave all copies of the Ehave Companion",
+    "bbox": [
+      179,
+      656,
+      1000,
+      668
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Solution, including the Specifications and any other items delivered to CHT by Ehave thereunder and Ehave shall promptly refund to CHT",
+    "bbox": [
+      180,
+      673,
+      1000,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "any monies paid by CHT in respect of the initial development and implementation of the Ehave Companion Solution. If the Acceptance",
+    "bbox": [
+      179,
+      689,
+      1000,
+      701
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Procedures were conducted three (3) times in respect of a Change, and the Change failed to pass the Acceptance Criteria on the third (3rd)",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "try, then, at the discretion of CHT, Ehave may continue to fix the problem, or terminate the performance of the development of the Change,",
+    "bbox": [
+      179,
+      720,
+      1000,
+      734
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "in which case CHT shall promptly return to Ehave all copies of the Change, including the Specifications thereto and Ehave shall promptly",
+    "bbox": [
+      180,
+      737,
+      1000,
+      749
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "refund to CHT any monies paid by CHT in respect of the development and implementation of the Change.",
+    "bbox": [
+      179,
+      752,
+      972,
+      765
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      1000,
+      784,
+      1000,
+      795
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      134,
+      1000,
+      437,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

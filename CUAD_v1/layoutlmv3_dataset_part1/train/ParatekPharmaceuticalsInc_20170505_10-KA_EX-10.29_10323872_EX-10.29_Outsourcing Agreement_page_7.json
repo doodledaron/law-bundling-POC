@@ -1,0 +1,1762 @@
+[
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMIS HHL HLIM ARALVNVHIS CITI NAGN RRH NNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "common control') shall mean: (a) ownership of at least fifty percent (50%) of the equity capital or other ownership interest in or of an entity; (b) the",
+    "bbox": [
+      111,
+      130,
+      1000,
+      142
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "power to control or otherwise direct the affairs of an entity; (c) in the case of non-stock organizations, the power to control the distribution of",
+    "bbox": [
+      110,
+      144,
+      1000,
+      159
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "profits of an entity; or (d) such other relationship as, in fact, results in actual control over the management, business, and affairs of an entity;",
+    "bbox": [
+      112,
+      162,
+      1000,
+      174
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "b) \"Agreement' means this Supply Agreement for the Product, including all Exhibits attached hereto;",
+    "bbox": [
+      111,
+      193,
+      871,
+      206
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "c) \"Applicable Law\"' means any applicable law, statute, rule, regulation, order, judgment or ordinance of any governmental or regulatory authority or",
+    "bbox": [
+      113,
+      226,
+      1000,
+      238
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "agency;",
+    "bbox": [
+      111,
+      243,
+      173,
+      256
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "d) \"Applicable Regulatory Authority\"' means FDA, EMEA and/or other equivalent governmental or regulatory authorities or agencies and any",
+    "bbox": [
+      112,
+      273,
+      1000,
+      286
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "successors thereto;",
+    "bbox": [
+      110,
+      290,
+      260,
+      302
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "e) \"Business Day\" means any day on which banking institutions in Boston, Massachusetts and Bubendorf, Switzerland are open for business;",
+    "bbox": [
+      113,
+      322,
+      1000,
+      334
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "f) \"Campaign\" means a schedule of one or more discrete batches of Product Manufactured in sequence by Supplier without pausing to change",
+    "bbox": [
+      111,
+      353,
+      1000,
+      367
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "over to manufacture of any other product;",
+    "bbox": [
+      111,
+      370,
+      429,
+      382
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "g) \"cGMP Requirements\" means the current Good Manufacturing Practices standards required under ICH Q7A guideline and/or any similar",
+    "bbox": [
+      112,
+      401,
+      1000,
+      414
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "standards of applicable governmental and/or regulatory authorities as defined in the Quality Agreement;",
+    "bbox": [
+      110,
+      417,
+      896,
+      430
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "h) \"Change of Control\"' means any transaction or series of transactions wherein (a) the voting securities of Supplier outstanding immediately prior",
+    "bbox": [
+      111,
+      450,
+      1000,
+      462
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "thereto cease to represent at least fifty percent (50%) of the combined voting power of the surviving entity immediately after such transaction or",
+    "bbox": [
+      112,
+      467,
+      1000,
+      477
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "transactions; (b) the stockholders or equity holders of Supplier approve a plan of complete liquidation of Supplier, or an agreement for the sale or",
+    "bbox": [
+      112,
+      483,
+      1000,
+      493
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "disposition by Supplier of all or substantially all of Supplier's assets, other than to an Affiliate; (c) a Third Party becomes the beneficial owner of",
+    "bbox": [
+      112,
+      498,
+      1000,
+      510
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "fifty percent (50%) or more of the combined voting power of the outstanding securities of Supplier; or (d) substantially all of Supplier's business or",
+    "bbox": [
+      112,
+      514,
+      1000,
+      526
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "assets which relate to this Agreement are sold or otherwise transferred to a Third Party;.",
+    "bbox": [
+      110,
+      528,
+      770,
+      543
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "i) \"Chemical Synthesis\"' means established and reliable execution of chemical reactions in order to produce the \"Product\"' by applying chemical and",
+    "bbox": [
+      113,
+      562,
+      1000,
+      574
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "physical manipulations usually involving one or more reactions;.",
+    "bbox": [
+      111,
+      577,
+      594,
+      590
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "j) \"Confidential Information' means all written information and data provided by the Parties to each other hereunder and identified as being",
+    "bbox": [
+      109,
+      608,
+      1000,
+      623
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Confidential' and provided to the recipient, except that the term \"Confidential Information' shall not apply to any information or any portion",
+    "bbox": [
+      111,
+      625,
+      1000,
+      638
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "thereof which:",
+    "bbox": [
+      111,
+      642,
+      219,
+      652
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "(i) was known to the recipient or any of its Affiliates, as evidenced by its written records, before receipt thereof under this Agreement;",
+    "bbox": [
+      202,
+      666,
+      1000,
+      678
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "(ii) is disclosed to the recipient or any of its Affiliates, without obligations of confidentiality, during the Term by a Third Party who has",
+    "bbox": [
+      202,
+      689,
+      1000,
+      701
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "the right to make such disclosure;",
+    "bbox": [
+      200,
+      705,
+      456,
+      718
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      736,
+      240,
+      746
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Page 8 of 49",
+    "bbox": [
+      1000,
+      734,
+      1000,
+      748
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMIS HHL HLIM ARALVNVHIS CITI NAGN RRH NNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "common control') shall mean: (a) ownership of at least fifty percent (50%) of the equity capital or other ownership interest in or of an entity; (b) the",
+    "bbox": [
+      111,
+      130,
+      1000,
+      142
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "power to control or otherwise direct the affairs of an entity; (c) in the case of non-stock organizations, the power to control the distribution of",
+    "bbox": [
+      110,
+      144,
+      1000,
+      159
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "profits of an entity; or (d) such other relationship as, in fact, results in actual control over the management, business, and affairs of an entity;",
+    "bbox": [
+      112,
+      162,
+      1000,
+      174
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "b) \"Agreement' means this Supply Agreement for the Product, including all Exhibits attached hereto;",
+    "bbox": [
+      111,
+      193,
+      871,
+      206
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "c) \"Applicable Law\"' means any applicable law, statute, rule, regulation, order, judgment or ordinance of any governmental or regulatory authority or",
+    "bbox": [
+      113,
+      226,
+      1000,
+      238
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "agency;",
+    "bbox": [
+      111,
+      243,
+      173,
+      256
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "d) \"Applicable Regulatory Authority\"' means FDA, EMEA and/or other equivalent governmental or regulatory authorities or agencies and any",
+    "bbox": [
+      112,
+      273,
+      1000,
+      286
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "successors thereto;",
+    "bbox": [
+      110,
+      290,
+      260,
+      302
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "e) \"Business Day\" means any day on which banking institutions in Boston, Massachusetts and Bubendorf, Switzerland are open for business;",
+    "bbox": [
+      113,
+      322,
+      1000,
+      334
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "f) \"Campaign\" means a schedule of one or more discrete batches of Product Manufactured in sequence by Supplier without pausing to change",
+    "bbox": [
+      111,
+      353,
+      1000,
+      367
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "over to manufacture of any other product;",
+    "bbox": [
+      111,
+      370,
+      429,
+      382
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "g) \"cGMP Requirements\" means the current Good Manufacturing Practices standards required under ICH Q7A guideline and/or any similar",
+    "bbox": [
+      112,
+      401,
+      1000,
+      414
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "standards of applicable governmental and/or regulatory authorities as defined in the Quality Agreement;",
+    "bbox": [
+      110,
+      417,
+      896,
+      430
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "h) \"Change of Control\"' means any transaction or series of transactions wherein (a) the voting securities of Supplier outstanding immediately prior",
+    "bbox": [
+      111,
+      450,
+      1000,
+      462
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "thereto cease to represent at least fifty percent (50%) of the combined voting power of the surviving entity immediately after such transaction or",
+    "bbox": [
+      112,
+      467,
+      1000,
+      477
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "transactions; (b) the stockholders or equity holders of Supplier approve a plan of complete liquidation of Supplier, or an agreement for the sale or",
+    "bbox": [
+      112,
+      483,
+      1000,
+      493
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "disposition by Supplier of all or substantially all of Supplier's assets, other than to an Affiliate; (c) a Third Party becomes the beneficial owner of",
+    "bbox": [
+      112,
+      498,
+      1000,
+      510
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "fifty percent (50%) or more of the combined voting power of the outstanding securities of Supplier; or (d) substantially all of Supplier's business or",
+    "bbox": [
+      112,
+      514,
+      1000,
+      526
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "assets which relate to this Agreement are sold or otherwise transferred to a Third Party;.",
+    "bbox": [
+      110,
+      528,
+      770,
+      543
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "i) \"Chemical Synthesis\"' means established and reliable execution of chemical reactions in order to produce the \"Product\"' by applying chemical and",
+    "bbox": [
+      113,
+      562,
+      1000,
+      574
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "physical manipulations usually involving one or more reactions;.",
+    "bbox": [
+      111,
+      577,
+      594,
+      590
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "j) \"Confidential Information' means all written information and data provided by the Parties to each other hereunder and identified as being",
+    "bbox": [
+      109,
+      608,
+      1000,
+      623
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Confidential' and provided to the recipient, except that the term \"Confidential Information' shall not apply to any information or any portion",
+    "bbox": [
+      111,
+      625,
+      1000,
+      638
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "thereof which:",
+    "bbox": [
+      111,
+      642,
+      219,
+      652
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(i) was known to the recipient or any of its Affiliates, as evidenced by its written records, before receipt thereof under this Agreement;",
+    "bbox": [
+      202,
+      666,
+      1000,
+      678
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(ii) is disclosed to the recipient or any of its Affiliates, without obligations of confidentiality, during the Term by a Third Party who has",
+    "bbox": [
+      202,
+      689,
+      1000,
+      701
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "the right to make such disclosure;",
+    "bbox": [
+      200,
+      705,
+      456,
+      718
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      736,
+      240,
+      746
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Page 8 of 49",
+    "bbox": [
+      1000,
+      734,
+      1000,
+      748
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMIS HHL HLIM ARALVNVHIS CITI NAGN RRH NNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "common control') shall mean: (a) ownership of at least fifty percent (50%) of the equity capital or other ownership interest in or of an entity; (b) the",
+    "bbox": [
+      111,
+      130,
+      1000,
+      142
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "power to control or otherwise direct the affairs of an entity; (c) in the case of non-stock organizations, the power to control the distribution of",
+    "bbox": [
+      110,
+      144,
+      1000,
+      159
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "profits of an entity; or (d) such other relationship as, in fact, results in actual control over the management, business, and affairs of an entity;",
+    "bbox": [
+      112,
+      162,
+      1000,
+      174
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b) \"Agreement' means this Supply Agreement for the Product, including all Exhibits attached hereto;",
+    "bbox": [
+      111,
+      193,
+      871,
+      206
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "c) \"Applicable Law\"' means any applicable law, statute, rule, regulation, order, judgment or ordinance of any governmental or regulatory authority or",
+    "bbox": [
+      113,
+      226,
+      1000,
+      238
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "agency;",
+    "bbox": [
+      111,
+      243,
+      173,
+      256
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "d) \"Applicable Regulatory Authority\"' means FDA, EMEA and/or other equivalent governmental or regulatory authorities or agencies and any",
+    "bbox": [
+      112,
+      273,
+      1000,
+      286
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "successors thereto;",
+    "bbox": [
+      110,
+      290,
+      260,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "e) \"Business Day\" means any day on which banking institutions in Boston, Massachusetts and Bubendorf, Switzerland are open for business;",
+    "bbox": [
+      113,
+      322,
+      1000,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "f) \"Campaign\" means a schedule of one or more discrete batches of Product Manufactured in sequence by Supplier without pausing to change",
+    "bbox": [
+      111,
+      353,
+      1000,
+      367
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "over to manufacture of any other product;",
+    "bbox": [
+      111,
+      370,
+      429,
+      382
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "g) \"cGMP Requirements\" means the current Good Manufacturing Practices standards required under ICH Q7A guideline and/or any similar",
+    "bbox": [
+      112,
+      401,
+      1000,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "standards of applicable governmental and/or regulatory authorities as defined in the Quality Agreement;",
+    "bbox": [
+      110,
+      417,
+      896,
+      430
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "h) \"Change of Control\"' means any transaction or series of transactions wherein (a) the voting securities of Supplier outstanding immediately prior",
+    "bbox": [
+      111,
+      450,
+      1000,
+      462
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "thereto cease to represent at least fifty percent (50%) of the combined voting power of the surviving entity immediately after such transaction or",
+    "bbox": [
+      112,
+      467,
+      1000,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "transactions; (b) the stockholders or equity holders of Supplier approve a plan of complete liquidation of Supplier, or an agreement for the sale or",
+    "bbox": [
+      112,
+      483,
+      1000,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "disposition by Supplier of all or substantially all of Supplier's assets, other than to an Affiliate; (c) a Third Party becomes the beneficial owner of",
+    "bbox": [
+      112,
+      498,
+      1000,
+      510
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "fifty percent (50%) or more of the combined voting power of the outstanding securities of Supplier; or (d) substantially all of Supplier's business or",
+    "bbox": [
+      112,
+      514,
+      1000,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "assets which relate to this Agreement are sold or otherwise transferred to a Third Party;.",
+    "bbox": [
+      110,
+      528,
+      770,
+      543
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "i) \"Chemical Synthesis\"' means established and reliable execution of chemical reactions in order to produce the \"Product\"' by applying chemical and",
+    "bbox": [
+      113,
+      562,
+      1000,
+      574
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "physical manipulations usually involving one or more reactions;.",
+    "bbox": [
+      111,
+      577,
+      594,
+      590
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "j) \"Confidential Information' means all written information and data provided by the Parties to each other hereunder and identified as being",
+    "bbox": [
+      109,
+      608,
+      1000,
+      623
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Confidential' and provided to the recipient, except that the term \"Confidential Information' shall not apply to any information or any portion",
+    "bbox": [
+      111,
+      625,
+      1000,
+      638
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "thereof which:",
+    "bbox": [
+      111,
+      642,
+      219,
+      652
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(i) was known to the recipient or any of its Affiliates, as evidenced by its written records, before receipt thereof under this Agreement;",
+    "bbox": [
+      202,
+      666,
+      1000,
+      678
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(ii) is disclosed to the recipient or any of its Affiliates, without obligations of confidentiality, during the Term by a Third Party who has",
+    "bbox": [
+      202,
+      689,
+      1000,
+      701
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the right to make such disclosure;",
+    "bbox": [
+      200,
+      705,
+      456,
+      718
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      736,
+      240,
+      746
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 8 of 49",
+    "bbox": [
+      1000,
+      734,
+      1000,
+      748
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMIS HHL HLIM ARALVNVHIS CITI NAGN RRH NNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "common control') shall mean: (a) ownership of at least fifty percent (50%) of the equity capital or other ownership interest in or of an entity; (b) the",
+    "bbox": [
+      111,
+      130,
+      1000,
+      142
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "power to control or otherwise direct the affairs of an entity; (c) in the case of non-stock organizations, the power to control the distribution of",
+    "bbox": [
+      110,
+      144,
+      1000,
+      159
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "profits of an entity; or (d) such other relationship as, in fact, results in actual control over the management, business, and affairs of an entity;",
+    "bbox": [
+      112,
+      162,
+      1000,
+      174
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "b) \"Agreement' means this Supply Agreement for the Product, including all Exhibits attached hereto;",
+    "bbox": [
+      111,
+      193,
+      871,
+      206
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "c) \"Applicable Law\"' means any applicable law, statute, rule, regulation, order, judgment or ordinance of any governmental or regulatory authority or",
+    "bbox": [
+      113,
+      226,
+      1000,
+      238
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "agency;",
+    "bbox": [
+      111,
+      243,
+      173,
+      256
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "d) \"Applicable Regulatory Authority\"' means FDA, EMEA and/or other equivalent governmental or regulatory authorities or agencies and any",
+    "bbox": [
+      112,
+      273,
+      1000,
+      286
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "successors thereto;",
+    "bbox": [
+      110,
+      290,
+      260,
+      302
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "e) \"Business Day\" means any day on which banking institutions in Boston, Massachusetts and Bubendorf, Switzerland are open for business;",
+    "bbox": [
+      113,
+      322,
+      1000,
+      334
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "f) \"Campaign\" means a schedule of one or more discrete batches of Product Manufactured in sequence by Supplier without pausing to change",
+    "bbox": [
+      111,
+      353,
+      1000,
+      367
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "over to manufacture of any other product;",
+    "bbox": [
+      111,
+      370,
+      429,
+      382
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "g) \"cGMP Requirements\" means the current Good Manufacturing Practices standards required under ICH Q7A guideline and/or any similar",
+    "bbox": [
+      112,
+      401,
+      1000,
+      414
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "standards of applicable governmental and/or regulatory authorities as defined in the Quality Agreement;",
+    "bbox": [
+      110,
+      417,
+      896,
+      430
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "h) \"Change of Control\"' means any transaction or series of transactions wherein (a) the voting securities of Supplier outstanding immediately prior",
+    "bbox": [
+      111,
+      450,
+      1000,
+      462
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "thereto cease to represent at least fifty percent (50%) of the combined voting power of the surviving entity immediately after such transaction or",
+    "bbox": [
+      112,
+      467,
+      1000,
+      477
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "transactions; (b) the stockholders or equity holders of Supplier approve a plan of complete liquidation of Supplier, or an agreement for the sale or",
+    "bbox": [
+      112,
+      483,
+      1000,
+      493
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "disposition by Supplier of all or substantially all of Supplier's assets, other than to an Affiliate; (c) a Third Party becomes the beneficial owner of",
+    "bbox": [
+      112,
+      498,
+      1000,
+      510
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "fifty percent (50%) or more of the combined voting power of the outstanding securities of Supplier; or (d) substantially all of Supplier's business or",
+    "bbox": [
+      112,
+      514,
+      1000,
+      526
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "assets which relate to this Agreement are sold or otherwise transferred to a Third Party;.",
+    "bbox": [
+      110,
+      528,
+      770,
+      543
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "i) \"Chemical Synthesis\"' means established and reliable execution of chemical reactions in order to produce the \"Product\"' by applying chemical and",
+    "bbox": [
+      113,
+      562,
+      1000,
+      574
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "physical manipulations usually involving one or more reactions;.",
+    "bbox": [
+      111,
+      577,
+      594,
+      590
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "j) \"Confidential Information' means all written information and data provided by the Parties to each other hereunder and identified as being",
+    "bbox": [
+      109,
+      608,
+      1000,
+      623
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "\"Confidential' and provided to the recipient, except that the term \"Confidential Information' shall not apply to any information or any portion",
+    "bbox": [
+      111,
+      625,
+      1000,
+      638
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "thereof which:",
+    "bbox": [
+      111,
+      642,
+      219,
+      652
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "(i) was known to the recipient or any of its Affiliates, as evidenced by its written records, before receipt thereof under this Agreement;",
+    "bbox": [
+      202,
+      666,
+      1000,
+      678
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "(ii) is disclosed to the recipient or any of its Affiliates, without obligations of confidentiality, during the Term by a Third Party who has",
+    "bbox": [
+      202,
+      689,
+      1000,
+      701
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "the right to make such disclosure;",
+    "bbox": [
+      200,
+      705,
+      456,
+      718
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      736,
+      240,
+      746
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Page 8 of 49",
+    "bbox": [
+      1000,
+      734,
+      1000,
+      748
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 20,
+    "category": "Price Restrictions"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOISSINNON HNNVHMXA NNV SAILINNMIS HHL HLIM ARALVNVHIS CITI NAGN RRH NNV I*   HLIM HIIVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "common control') shall mean: (a) ownership of at least fifty percent (50%) of the equity capital or other ownership interest in or of an entity; (b) the",
+    "bbox": [
+      111,
+      130,
+      1000,
+      142
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "power to control or otherwise direct the affairs of an entity; (c) in the case of non-stock organizations, the power to control the distribution of",
+    "bbox": [
+      110,
+      144,
+      1000,
+      159
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "profits of an entity; or (d) such other relationship as, in fact, results in actual control over the management, business, and affairs of an entity;",
+    "bbox": [
+      112,
+      162,
+      1000,
+      174
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "b) \"Agreement' means this Supply Agreement for the Product, including all Exhibits attached hereto;",
+    "bbox": [
+      111,
+      193,
+      871,
+      206
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "c) \"Applicable Law\"' means any applicable law, statute, rule, regulation, order, judgment or ordinance of any governmental or regulatory authority or",
+    "bbox": [
+      113,
+      226,
+      1000,
+      238
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "agency;",
+    "bbox": [
+      111,
+      243,
+      173,
+      256
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "d) \"Applicable Regulatory Authority\"' means FDA, EMEA and/or other equivalent governmental or regulatory authorities or agencies and any",
+    "bbox": [
+      112,
+      273,
+      1000,
+      286
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "successors thereto;",
+    "bbox": [
+      110,
+      290,
+      260,
+      302
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "e) \"Business Day\" means any day on which banking institutions in Boston, Massachusetts and Bubendorf, Switzerland are open for business;",
+    "bbox": [
+      113,
+      322,
+      1000,
+      334
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "f) \"Campaign\" means a schedule of one or more discrete batches of Product Manufactured in sequence by Supplier without pausing to change",
+    "bbox": [
+      111,
+      353,
+      1000,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "over to manufacture of any other product;",
+    "bbox": [
+      111,
+      370,
+      429,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "g) \"cGMP Requirements\" means the current Good Manufacturing Practices standards required under ICH Q7A guideline and/or any similar",
+    "bbox": [
+      112,
+      401,
+      1000,
+      414
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "standards of applicable governmental and/or regulatory authorities as defined in the Quality Agreement;",
+    "bbox": [
+      110,
+      417,
+      896,
+      430
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "h) \"Change of Control\"' means any transaction or series of transactions wherein (a) the voting securities of Supplier outstanding immediately prior",
+    "bbox": [
+      111,
+      450,
+      1000,
+      462
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "thereto cease to represent at least fifty percent (50%) of the combined voting power of the surviving entity immediately after such transaction or",
+    "bbox": [
+      112,
+      467,
+      1000,
+      477
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "transactions; (b) the stockholders or equity holders of Supplier approve a plan of complete liquidation of Supplier, or an agreement for the sale or",
+    "bbox": [
+      112,
+      483,
+      1000,
+      493
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "disposition by Supplier of all or substantially all of Supplier's assets, other than to an Affiliate; (c) a Third Party becomes the beneficial owner of",
+    "bbox": [
+      112,
+      498,
+      1000,
+      510
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "fifty percent (50%) or more of the combined voting power of the outstanding securities of Supplier; or (d) substantially all of Supplier's business or",
+    "bbox": [
+      112,
+      514,
+      1000,
+      526
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "assets which relate to this Agreement are sold or otherwise transferred to a Third Party;.",
+    "bbox": [
+      110,
+      528,
+      770,
+      543
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "i) \"Chemical Synthesis\"' means established and reliable execution of chemical reactions in order to produce the \"Product\"' by applying chemical and",
+    "bbox": [
+      113,
+      562,
+      1000,
+      574
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "physical manipulations usually involving one or more reactions;.",
+    "bbox": [
+      111,
+      577,
+      594,
+      590
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "j) \"Confidential Information' means all written information and data provided by the Parties to each other hereunder and identified as being",
+    "bbox": [
+      109,
+      608,
+      1000,
+      623
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Confidential' and provided to the recipient, except that the term \"Confidential Information' shall not apply to any information or any portion",
+    "bbox": [
+      111,
+      625,
+      1000,
+      638
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "thereof which:",
+    "bbox": [
+      111,
+      642,
+      219,
+      652
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i) was known to the recipient or any of its Affiliates, as evidenced by its written records, before receipt thereof under this Agreement;",
+    "bbox": [
+      202,
+      666,
+      1000,
+      678
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(ii) is disclosed to the recipient or any of its Affiliates, without obligations of confidentiality, during the Term by a Third Party who has",
+    "bbox": [
+      202,
+      689,
+      1000,
+      701
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the right to make such disclosure;",
+    "bbox": [
+      200,
+      705,
+      456,
+      718
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      736,
+      240,
+      746
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Page 8 of 49",
+    "bbox": [
+      1000,
+      734,
+      1000,
+      748
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

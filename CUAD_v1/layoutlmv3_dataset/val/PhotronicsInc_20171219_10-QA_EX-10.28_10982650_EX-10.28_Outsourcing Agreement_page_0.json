@@ -1,0 +1,112 @@
+[
+  {
+    "text": "OUTSOURCING AGREEMENT",
+    "bbox": [
+      547,
+      156,
+      785,
+      166
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Republic of China with its principal place of business at 4f, #2, Li-Hsin Road, Science Park, Hsinchu, Taiwan, ROC (\"PDMC'), and",
+    "bbox": [
+      112,
+      332,
+      1000,
+      344
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics, Inc., a Connecticut corporation with its principal place of business at 15 Secor Road, Brookfield, Connecticut, U.S.A",
+    "bbox": [
+      247,
+      220,
+      1000,
+      232
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics DNP Photomask Corporation, a company limited by shares organized and formed under the Company Act of the.",
+    "bbox": [
+      246,
+      315,
+      1000,
+      328
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics, Inc., a Connecticut corporation with its principal place of business at 15 Secor Road, Brookfield, Connecticut, U.S.A",
+    "bbox": [
+      247,
+      220,
+      1000,
+      232
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dai Nippon Printing Co., Ltd., a Japanese corporation with its principal place of business at 1-1, Ichigaya Kagacho 1-chome,",
+    "bbox": [
+      247,
+      267,
+      1000,
+      280
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Photronics DNP Photomask Corporation, a company limited by shares organized and formed under the Company Act of the.",
+    "bbox": [
+      246,
+      315,
+      1000,
+      328
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Shinjuku-ku, Tokyo, Japan (\"DNP'),",
+    "bbox": [
+      112,
+      284,
+      384,
+      296
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Xiamen American Japan Photronics Mask Co., Ltd., a limited liability company organized and formed under the People's Republic",
+    "bbox": [
+      247,
+      363,
+      1000,
+      376
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This OUTSOURCING AGREEMENT (this \"Agreement') is made and entered into as of the 16th day of May, 2017, by and among",
+    "bbox": [
+      247,
+      185,
+      1000,
+      202
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Section 9.5 Insurance. Each Party shall obtain and maintain, for the Term (i) commercial general liability insurance with a single combined liability.",
+    "bbox": [
+      158,
+      131,
+      1000,
+      141
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "limit of at least $5,000,000 per occurrence, (ii) workers compensation/employer's liability insurance with a liability limit of at least $1,000,000 per occurrence.",
+    "bbox": [
+      110,
+      145,
+      1000,
+      158
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "or, if greater, the statutory minimum, and (iii) \"all risk\"' property insurance on a replacement cost basis adequate to cover all assets and business",
+    "bbox": [
+      112,
+      161,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "interruption Losses that a Party may suffer in connection with or arising out of this Agreement, subject to policy limits, and in the case of the policies",
+    "bbox": [
+      112,
+      178,
+      1000,
+      188
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "described in clause (i) above, naming the other Party as an additional insured thereunder. Upon request, each Party shall provide the other Party a.",
+    "bbox": [
+      111,
+      192,
+      1000,
+      204
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

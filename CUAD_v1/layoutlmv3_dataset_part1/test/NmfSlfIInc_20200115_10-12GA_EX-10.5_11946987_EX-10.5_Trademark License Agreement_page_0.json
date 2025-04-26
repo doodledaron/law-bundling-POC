@@ -1,0 +1,5909 @@
+[
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Exhibit 10.5",
+    "bbox": [
+      1000,
+      101,
+      1000,
+      111
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "TRADEMARK LICENSE AGREEMIENT",
+    "bbox": [
+      516,
+      118,
+      816,
+      127
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "This TRADEMARK LICENSE AGREEMENT (this \"Agreement') is made and effective as of [], 2019 (the \"Effective Date\"), by and among",
+    "bbox": [
+      178,
+      131,
+      1000,
+      147
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "New Mountain Capital, L.L.C., a Delaware limited liability company (the \"Licensor\"), and NMF Senior Loan Fund I, Inc., a Maryland corporation",
+    "bbox": [
+      111,
+      149,
+      1000,
+      161
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(the \"Licensee\"). The Licensor and the Licensee are sometimes referred to herein separately as a \"party\"' and collectively as the \"parties.\"",
+    "bbox": [
+      112,
+      165,
+      1000,
+      178
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      623,
+      182,
+      711,
+      193
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS, the Licensee is a closed-end management investment company that intends to elect to be treated as a business development",
+    "bbox": [
+      179,
+      197,
+      1000,
+      210
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "company under the Investment Company Act of 1940, as amended;.",
+    "bbox": [
+      112,
+      214,
+      616,
+      226
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS, the Licensor, together with its affiliates, provides investment management, investment consultation and investment advisory",
+    "bbox": [
+      179,
+      229,
+      1000,
+      243
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "services;",
+    "bbox": [
+      110,
+      246,
+      180,
+      258
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS, the Licensor, of which New Mountain Finance Advisers, BDC, L.L.C., a Delaware limited liability company (the \"Investment",
+    "bbox": [
+      179,
+      261,
+      1000,
+      274
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Advisor) is an affiliate, is the owner of all right, title, and interest in and to the mark \"NMF\" (the \"Licensed Mark') in the United States of America,",
+    "bbox": [
+      112,
+      277,
+      1000,
+      290
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Canada and the European Union (the \"Territory') in connection with \"financial services, namely, investment advisory and investment management",
+    "bbox": [
+      111,
+      293,
+      1000,
+      306
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "services for pooled investment vehicles, private investment funds, and investment accounts; investment management services for others; private",
+    "bbox": [
+      111,
+      310,
+      1000,
+      322
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "equity services, namely, providing expansion and growth capital in the form of private equity investments; financial services, namely, private equity",
+    "bbox": [
+      113,
+      326,
+      1000,
+      337
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "and public equity capital investment; private and public equity investment management services; providing private equity fund investments;",
+    "bbox": [
+      112,
+      342,
+      1000,
+      354
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "investment services, namely, asset acquisition, consultation, development, research and management services; capital investment services; equity",
+    "bbox": [
+      111,
+      357,
+      1000,
+      370
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "capital investment; financial services, namely, debt and equity investment services in private companies, namely, investment to support business",
+    "bbox": [
+      112,
+      374,
+      1000,
+      386
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "expansions, acquisitions, management buyouts and recapitalizations\" (the \"Licensed Services'), and Licensor has been and is currently using.",
+    "bbox": [
+      111,
+      390,
+      1000,
+      402
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "either on its own or through its related companies or licensees (such as, but not limited to, the Investment Advisor) the Licensed Mark;",
+    "bbox": [
+      110,
+      405,
+      1000,
+      418
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS, the Licensee is entering into an investment advisory and management agreement with the Investment Advisor (the",
+    "bbox": [
+      179,
+      421,
+      1000,
+      434
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "\"Investment Management Agreement'), wherein the Licensee will engage the Investment Advisor to act as the investment advisor to the Licensee;",
+    "bbox": [
+      111,
+      437,
+      1000,
+      450
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS, it is intended that the Investment Advisor be a third party beneficiary of this Agreement; and",
+    "bbox": [
+      180,
+      453,
+      975,
+      465
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS, the Licensee desires to use the Licensed Mark as part of its company name and in connection with the operation of its",
+    "bbox": [
+      179,
+      468,
+      1000,
+      483
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "business, and the Licensor is willing to grant the Licensee a license to use the Licensed Mark, subject to the terms and conditions of this",
+    "bbox": [
+      110,
+      485,
+      1000,
+      498
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      502,
+      197,
+      514
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements set forth herein, and for other good and",
+    "bbox": [
+      178,
+      517,
+      1000,
+      530
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties, intending to be legally bound, hereby agree as",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "follows:",
+    "bbox": [
+      110,
+      548,
+      172,
+      562
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      621,
+      564,
+      712,
+      578
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "LICENSE GRANT",
+    "bbox": [
+      597,
+      582,
+      736,
+      593
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1.1. License. Subject to the terms and conditions of this Agreement, the Licensor hereby grants to the Licensee, and the Licensee hereby",
+    "bbox": [
+      179,
+      597,
+      1000,
+      610
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "accepts from the Licensor, a personal, non-exclusive, royalty-free right and license to use the Licensed Mark in the Territory solely and exclusively",
+    "bbox": [
+      110,
+      613,
+      1000,
+      626
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "as a component of the Licensee's own company name and in connection with the Licensed Services and any business provided in conjunction",
+    "bbox": [
+      111,
+      630,
+      1000,
+      642
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "therewith by such Licensee. During the term of this Agreement, the Licensee shall use the Licensed Mark only to the extent permitted under this",
+    "bbox": [
+      112,
+      646,
+      1000,
+      658
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Agreement, and except as provided above, neither the Licensee nor any of its affiliates, owners, directors, officers, employees or agents shall",
+    "bbox": [
+      113,
+      662,
+      1000,
+      674
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "otherwise use the Licensed Mark or any derivatives without the prior express written consent of the Licensor in its sole and absolute discretion. All.",
+    "bbox": [
+      111,
+      677,
+      1000,
+      690
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "rights not expressly granted to the Licensee hereunder shall remain the exclusive property of the Licensor. Upon written notification by the",
+    "bbox": [
+      112,
+      694,
+      1000,
+      706
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Licensor",
+    "bbox": [
+      110,
+      710,
+      178,
+      721
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Source: NMF SLF I, INC., 10-12G/A, 1/15/2020",
+    "bbox": [
+      133,
+      1000,
+      505,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  }
+]

@@ -1,0 +1,2224 @@
+[
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      108
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THIS CONTENT LICENSE AGREEMENT (this \"Agreement'), dated as of",
+    "bbox": [
+      179,
+      176,
+      743,
+      188
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": ", 2015 (the \"Effective Date'), is entered into.",
+    "bbox": [
+      844,
+      176,
+      1000,
+      188
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS, Licensor and Licensee have agreed to enter into this Agreement, pursuant to which Licensor shall license to Licensee certain.",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "video programming on the terms and subject to the conditions contained in this Agreement..",
+    "bbox": [
+      112,
+      273,
+      801,
+      285
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the mutual promises and covenants herein contained and other good and valuable",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, and incorporating the above recitals with and into this Agreement,",
+    "bbox": [
+      113,
+      321,
+      1000,
+      333
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the parties hereby agree as follows:.",
+    "bbox": [
+      111,
+      336,
+      378,
+      349
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      556,
+      369,
+      775,
+      379
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      400,
+      128,
+      411
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      142,
+      399,
+      233,
+      413
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(a) \"Additional Title\"' shall have the meaning specified in Section 5.",
+    "bbox": [
+      181,
+      432,
+      682,
+      445
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(b) \"Advertising\" shall have the meaning specified in Section 9.",
+    "bbox": [
+      180,
+      465,
+      656,
+      477
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(c) \"Affiliate(s)\" shall mean an entity controlling, controlled by or under common control with a party. \"Control,\" for purposes of this",
+    "bbox": [
+      180,
+      497,
+      1000,
+      509
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity..",
+    "bbox": [
+      112,
+      511,
+      993,
+      526
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(d) \"Confidential Information' shall have the meaning specified in Section 14(a)..",
+    "bbox": [
+      179,
+      544,
+      777,
+      557
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(e) \"Indemnified Party' shall have the meaning specified in Section 13.",
+    "bbox": [
+      179,
+      575,
+      705,
+      589
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(f) \"Indemnifying Party\"' shall have the meaning specified in Section 13.",
+    "bbox": [
+      180,
+      608,
+      714,
+      621
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(g) \"Licensor Marks\" shall have the meaning specified in Section 11.",
+    "bbox": [
+      179,
+      638,
+      692,
+      654
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(h) \"Materials'' shall have the meaning specified in Section 4(b).",
+    "bbox": [
+      181,
+      673,
+      656,
+      684
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(i) \"Mobile Sites\" shall mean any and all versions of the Licensee Sites optimized for delivery and/or distribution via a wireless network..",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "() \"Reports\" shall have the meaning specified in Section 8(b)",
+    "bbox": [
+      180,
+      737,
+      640,
+      749
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: IDEANOMICS, INC., 8-K, 11/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      108
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "THIS CONTENT LICENSE AGREEMENT (this \"Agreement'), dated as of",
+    "bbox": [
+      179,
+      176,
+      743,
+      188
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": ", 2015 (the \"Effective Date'), is entered into.",
+    "bbox": [
+      844,
+      176,
+      1000,
+      188
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, Licensor and Licensee have agreed to enter into this Agreement, pursuant to which Licensor shall license to Licensee certain.",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "video programming on the terms and subject to the conditions contained in this Agreement..",
+    "bbox": [
+      112,
+      273,
+      801,
+      285
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the mutual promises and covenants herein contained and other good and valuable",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, and incorporating the above recitals with and into this Agreement,",
+    "bbox": [
+      113,
+      321,
+      1000,
+      333
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the parties hereby agree as follows:.",
+    "bbox": [
+      111,
+      336,
+      378,
+      349
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      556,
+      369,
+      775,
+      379
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      400,
+      128,
+      411
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      142,
+      399,
+      233,
+      413
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(a) \"Additional Title\"' shall have the meaning specified in Section 5.",
+    "bbox": [
+      181,
+      432,
+      682,
+      445
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(b) \"Advertising\" shall have the meaning specified in Section 9.",
+    "bbox": [
+      180,
+      465,
+      656,
+      477
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(c) \"Affiliate(s)\" shall mean an entity controlling, controlled by or under common control with a party. \"Control,\" for purposes of this",
+    "bbox": [
+      180,
+      497,
+      1000,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity..",
+    "bbox": [
+      112,
+      511,
+      993,
+      526
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(d) \"Confidential Information' shall have the meaning specified in Section 14(a)..",
+    "bbox": [
+      179,
+      544,
+      777,
+      557
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(e) \"Indemnified Party' shall have the meaning specified in Section 13.",
+    "bbox": [
+      179,
+      575,
+      705,
+      589
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(f) \"Indemnifying Party\"' shall have the meaning specified in Section 13.",
+    "bbox": [
+      180,
+      608,
+      714,
+      621
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(g) \"Licensor Marks\" shall have the meaning specified in Section 11.",
+    "bbox": [
+      179,
+      638,
+      692,
+      654
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(h) \"Materials'' shall have the meaning specified in Section 4(b).",
+    "bbox": [
+      181,
+      673,
+      656,
+      684
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(i) \"Mobile Sites\" shall mean any and all versions of the Licensee Sites optimized for delivery and/or distribution via a wireless network..",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "() \"Reports\" shall have the meaning specified in Section 8(b)",
+    "bbox": [
+      180,
+      737,
+      640,
+      749
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: IDEANOMICS, INC., 8-K, 11/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      108
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "THIS CONTENT LICENSE AGREEMENT (this \"Agreement'), dated as of",
+    "bbox": [
+      179,
+      176,
+      743,
+      188
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": ", 2015 (the \"Effective Date'), is entered into.",
+    "bbox": [
+      844,
+      176,
+      1000,
+      188
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "WHEREAS, Licensor and Licensee have agreed to enter into this Agreement, pursuant to which Licensor shall license to Licensee certain.",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "video programming on the terms and subject to the conditions contained in this Agreement..",
+    "bbox": [
+      112,
+      273,
+      801,
+      285
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the mutual promises and covenants herein contained and other good and valuable",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, and incorporating the above recitals with and into this Agreement,",
+    "bbox": [
+      113,
+      321,
+      1000,
+      333
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "the parties hereby agree as follows:.",
+    "bbox": [
+      111,
+      336,
+      378,
+      349
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      556,
+      369,
+      775,
+      379
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      400,
+      128,
+      411
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      142,
+      399,
+      233,
+      413
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(a) \"Additional Title\"' shall have the meaning specified in Section 5.",
+    "bbox": [
+      181,
+      432,
+      682,
+      445
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(b) \"Advertising\" shall have the meaning specified in Section 9.",
+    "bbox": [
+      180,
+      465,
+      656,
+      477
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(c) \"Affiliate(s)\" shall mean an entity controlling, controlled by or under common control with a party. \"Control,\" for purposes of this",
+    "bbox": [
+      180,
+      497,
+      1000,
+      509
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity..",
+    "bbox": [
+      112,
+      511,
+      993,
+      526
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(d) \"Confidential Information' shall have the meaning specified in Section 14(a)..",
+    "bbox": [
+      179,
+      544,
+      777,
+      557
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(e) \"Indemnified Party' shall have the meaning specified in Section 13.",
+    "bbox": [
+      179,
+      575,
+      705,
+      589
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(f) \"Indemnifying Party\"' shall have the meaning specified in Section 13.",
+    "bbox": [
+      180,
+      608,
+      714,
+      621
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(g) \"Licensor Marks\" shall have the meaning specified in Section 11.",
+    "bbox": [
+      179,
+      638,
+      692,
+      654
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(h) \"Materials'' shall have the meaning specified in Section 4(b).",
+    "bbox": [
+      181,
+      673,
+      656,
+      684
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(i) \"Mobile Sites\" shall mean any and all versions of the Licensee Sites optimized for delivery and/or distribution via a wireless network..",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "() \"Reports\" shall have the meaning specified in Section 8(b)",
+    "bbox": [
+      180,
+      737,
+      640,
+      749
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Source: IDEANOMICS, INC., 8-K, 11/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "THIS CONTENT LICENSE AGREEMENT (this \"Agreement'), dated as of",
+    "bbox": [
+      179,
+      176,
+      743,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": ", 2015 (the \"Effective Date'), is entered into.",
+    "bbox": [
+      844,
+      176,
+      1000,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, Licensor and Licensee have agreed to enter into this Agreement, pursuant to which Licensor shall license to Licensee certain.",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "video programming on the terms and subject to the conditions contained in this Agreement..",
+    "bbox": [
+      112,
+      273,
+      801,
+      285
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the mutual promises and covenants herein contained and other good and valuable",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, and incorporating the above recitals with and into this Agreement,",
+    "bbox": [
+      113,
+      321,
+      1000,
+      333
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the parties hereby agree as follows:.",
+    "bbox": [
+      111,
+      336,
+      378,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      556,
+      369,
+      775,
+      379
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      400,
+      128,
+      411
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      142,
+      399,
+      233,
+      413
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(a) \"Additional Title\"' shall have the meaning specified in Section 5.",
+    "bbox": [
+      181,
+      432,
+      682,
+      445
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b) \"Advertising\" shall have the meaning specified in Section 9.",
+    "bbox": [
+      180,
+      465,
+      656,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c) \"Affiliate(s)\" shall mean an entity controlling, controlled by or under common control with a party. \"Control,\" for purposes of this",
+    "bbox": [
+      180,
+      497,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity..",
+    "bbox": [
+      112,
+      511,
+      993,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(d) \"Confidential Information' shall have the meaning specified in Section 14(a)..",
+    "bbox": [
+      179,
+      544,
+      777,
+      557
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(e) \"Indemnified Party' shall have the meaning specified in Section 13.",
+    "bbox": [
+      179,
+      575,
+      705,
+      589
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(f) \"Indemnifying Party\"' shall have the meaning specified in Section 13.",
+    "bbox": [
+      180,
+      608,
+      714,
+      621
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(g) \"Licensor Marks\" shall have the meaning specified in Section 11.",
+    "bbox": [
+      179,
+      638,
+      692,
+      654
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(h) \"Materials'' shall have the meaning specified in Section 4(b).",
+    "bbox": [
+      181,
+      673,
+      656,
+      684
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(i) \"Mobile Sites\" shall mean any and all versions of the Licensee Sites optimized for delivery and/or distribution via a wireless network..",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "() \"Reports\" shall have the meaning specified in Section 8(b)",
+    "bbox": [
+      180,
+      737,
+      640,
+      749
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: IDEANOMICS, INC., 8-K, 11/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      108
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "THIS CONTENT LICENSE AGREEMENT (this \"Agreement'), dated as of",
+    "bbox": [
+      179,
+      176,
+      743,
+      188
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": ", 2015 (the \"Effective Date'), is entered into.",
+    "bbox": [
+      844,
+      176,
+      1000,
+      188
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "WHEREAS, Licensor and Licensee have agreed to enter into this Agreement, pursuant to which Licensor shall license to Licensee certain.",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "video programming on the terms and subject to the conditions contained in this Agreement..",
+    "bbox": [
+      112,
+      273,
+      801,
+      285
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the mutual promises and covenants herein contained and other good and valuable",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, and incorporating the above recitals with and into this Agreement,",
+    "bbox": [
+      113,
+      321,
+      1000,
+      333
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "the parties hereby agree as follows:.",
+    "bbox": [
+      111,
+      336,
+      378,
+      349
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      556,
+      369,
+      775,
+      379
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      400,
+      128,
+      411
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      142,
+      399,
+      233,
+      413
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(a) \"Additional Title\"' shall have the meaning specified in Section 5.",
+    "bbox": [
+      181,
+      432,
+      682,
+      445
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(b) \"Advertising\" shall have the meaning specified in Section 9.",
+    "bbox": [
+      180,
+      465,
+      656,
+      477
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(c) \"Affiliate(s)\" shall mean an entity controlling, controlled by or under common control with a party. \"Control,\" for purposes of this",
+    "bbox": [
+      180,
+      497,
+      1000,
+      509
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity..",
+    "bbox": [
+      112,
+      511,
+      993,
+      526
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(d) \"Confidential Information' shall have the meaning specified in Section 14(a)..",
+    "bbox": [
+      179,
+      544,
+      777,
+      557
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(e) \"Indemnified Party' shall have the meaning specified in Section 13.",
+    "bbox": [
+      179,
+      575,
+      705,
+      589
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(f) \"Indemnifying Party\"' shall have the meaning specified in Section 13.",
+    "bbox": [
+      180,
+      608,
+      714,
+      621
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(g) \"Licensor Marks\" shall have the meaning specified in Section 11.",
+    "bbox": [
+      179,
+      638,
+      692,
+      654
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(h) \"Materials'' shall have the meaning specified in Section 4(b).",
+    "bbox": [
+      181,
+      673,
+      656,
+      684
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(i) \"Mobile Sites\" shall mean any and all versions of the Licensee Sites optimized for delivery and/or distribution via a wireless network..",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "() \"Reports\" shall have the meaning specified in Section 8(b)",
+    "bbox": [
+      180,
+      737,
+      640,
+      749
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: IDEANOMICS, INC., 8-K, 11/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      108
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "THIS CONTENT LICENSE AGREEMENT (this \"Agreement'), dated as of",
+    "bbox": [
+      179,
+      176,
+      743,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": ", 2015 (the \"Effective Date'), is entered into.",
+    "bbox": [
+      844,
+      176,
+      1000,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, Licensor and Licensee have agreed to enter into this Agreement, pursuant to which Licensor shall license to Licensee certain.",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "video programming on the terms and subject to the conditions contained in this Agreement..",
+    "bbox": [
+      112,
+      273,
+      801,
+      285
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the mutual promises and covenants herein contained and other good and valuable",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, and incorporating the above recitals with and into this Agreement,",
+    "bbox": [
+      113,
+      321,
+      1000,
+      333
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "the parties hereby agree as follows:.",
+    "bbox": [
+      111,
+      336,
+      378,
+      349
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      556,
+      369,
+      775,
+      379
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      400,
+      128,
+      411
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      142,
+      399,
+      233,
+      413
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(a) \"Additional Title\"' shall have the meaning specified in Section 5.",
+    "bbox": [
+      181,
+      432,
+      682,
+      445
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(b) \"Advertising\" shall have the meaning specified in Section 9.",
+    "bbox": [
+      180,
+      465,
+      656,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(c) \"Affiliate(s)\" shall mean an entity controlling, controlled by or under common control with a party. \"Control,\" for purposes of this",
+    "bbox": [
+      180,
+      497,
+      1000,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity..",
+    "bbox": [
+      112,
+      511,
+      993,
+      526
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(d) \"Confidential Information' shall have the meaning specified in Section 14(a)..",
+    "bbox": [
+      179,
+      544,
+      777,
+      557
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(e) \"Indemnified Party' shall have the meaning specified in Section 13.",
+    "bbox": [
+      179,
+      575,
+      705,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(f) \"Indemnifying Party\"' shall have the meaning specified in Section 13.",
+    "bbox": [
+      180,
+      608,
+      714,
+      621
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(g) \"Licensor Marks\" shall have the meaning specified in Section 11.",
+    "bbox": [
+      179,
+      638,
+      692,
+      654
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(h) \"Materials'' shall have the meaning specified in Section 4(b).",
+    "bbox": [
+      181,
+      673,
+      656,
+      684
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(i) \"Mobile Sites\" shall mean any and all versions of the Licensee Sites optimized for delivery and/or distribution via a wireless network..",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "() \"Reports\" shall have the meaning specified in Section 8(b)",
+    "bbox": [
+      180,
+      737,
+      640,
+      749
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: IDEANOMICS, INC., 8-K, 11/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Exhibit 10.2",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      108
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "FORM OF",
+    "bbox": [
+      627,
+      129,
+      706,
+      140
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "CONTENT LICENSE AGREEMENT",
+    "bbox": [
+      530,
+      145,
+      802,
+      155
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "THIS CONTENT LICENSE AGREEMENT (this \"Agreement'), dated as of",
+    "bbox": [
+      179,
+      176,
+      743,
+      188
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": ", 2015 (the \"Effective Date'), is entered into.",
+    "bbox": [
+      844,
+      176,
+      1000,
+      188
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern",
+    "bbox": [
+      112,
+      193,
+      1000,
+      205
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (Licensor'), and YOU ON DEMAND HOLDINGS, INC., a Nevada.",
+    "bbox": [
+      111,
+      208,
+      1000,
+      221
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "corporation with an address at 375 Greenwich Street, Suite 516, New York, New York 10013 (\"Licensee')..",
+    "bbox": [
+      112,
+      225,
+      887,
+      237
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, Licensor and Licensee have agreed to enter into this Agreement, pursuant to which Licensor shall license to Licensee certain.",
+    "bbox": [
+      180,
+      257,
+      1000,
+      269
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "video programming on the terms and subject to the conditions contained in this Agreement..",
+    "bbox": [
+      112,
+      273,
+      801,
+      285
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the mutual promises and covenants herein contained and other good and valuable",
+    "bbox": [
+      179,
+      305,
+      1000,
+      317
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, and incorporating the above recitals with and into this Agreement,",
+    "bbox": [
+      113,
+      321,
+      1000,
+      333
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "the parties hereby agree as follows:.",
+    "bbox": [
+      111,
+      336,
+      378,
+      349
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      556,
+      369,
+      775,
+      379
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      111,
+      400,
+      128,
+      411
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Definitions.",
+    "bbox": [
+      142,
+      399,
+      233,
+      413
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(a) \"Additional Title\"' shall have the meaning specified in Section 5.",
+    "bbox": [
+      181,
+      432,
+      682,
+      445
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(b) \"Advertising\" shall have the meaning specified in Section 9.",
+    "bbox": [
+      180,
+      465,
+      656,
+      477
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(c) \"Affiliate(s)\" shall mean an entity controlling, controlled by or under common control with a party. \"Control,\" for purposes of this",
+    "bbox": [
+      180,
+      497,
+      1000,
+      509
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity..",
+    "bbox": [
+      112,
+      511,
+      993,
+      526
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(d) \"Confidential Information' shall have the meaning specified in Section 14(a)..",
+    "bbox": [
+      179,
+      544,
+      777,
+      557
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(e) \"Indemnified Party' shall have the meaning specified in Section 13.",
+    "bbox": [
+      179,
+      575,
+      705,
+      589
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(f) \"Indemnifying Party\"' shall have the meaning specified in Section 13.",
+    "bbox": [
+      180,
+      608,
+      714,
+      621
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(g) \"Licensor Marks\" shall have the meaning specified in Section 11.",
+    "bbox": [
+      179,
+      638,
+      692,
+      654
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(h) \"Materials'' shall have the meaning specified in Section 4(b).",
+    "bbox": [
+      181,
+      673,
+      656,
+      684
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "(i) \"Mobile Sites\" shall mean any and all versions of the Licensee Sites optimized for delivery and/or distribution via a wireless network..",
+    "bbox": [
+      179,
+      704,
+      1000,
+      717
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "() \"Reports\" shall have the meaning specified in Section 8(b)",
+    "bbox": [
+      180,
+      737,
+      640,
+      749
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Source: IDEANOMICS, INC., 8-K, 11/24/2015",
+    "bbox": [
+      133,
+      1000,
+      490,
+      1000
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  }
+]

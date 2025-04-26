@@ -1,0 +1,35 @@
+[
+  {
+    "text": "by any device or in media now or hereafter known.",
+    "bbox": [
+      224,
+      201,
+      777,
+      212
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by any device or in media now or hereafter known.",
+    "bbox": [
+      224,
+      201,
+      777,
+      212
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "by any device or in media now or hereafter known.",
+    "bbox": [
+      224,
+      201,
+      777,
+      212
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  }
+]

@@ -1,0 +1,475 @@
+[
+  {
+    "text": "ARTICLE 6.",
+    "bbox": [
+      620,
+      86,
+      712,
+      97
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "LIMITED WARRANTIES",
+    "bbox": [
+      570,
+      102,
+      762,
+      113
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "6.1",
+    "bbox": [
+      381,
+      132,
+      410,
+      146
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Suppliers Limited Warranty",
+    "bbox": [
+      450,
+      133,
+      668,
+      146
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant.",
+    "bbox": [
+      248,
+      167,
+      1000,
+      177
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Supplier and the Company in writing that is applicable to such Products for the Warranty Period. This warranty does not apply to any Product",
+    "bbox": [
+      111,
+      181,
+      1000,
+      194
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "failures resulting from misuse, storage in or exposure to environmental conditions inconsistent with those specified in the applicable specifications.",
+    "bbox": [
+      112,
+      198,
+      1000,
+      210
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "or documentation, modification of the Product by anyone other than the relevant Supplier. If a Product fails to comply with the foregoing warranty,",
+    "bbox": [
+      111,
+      213,
+      1000,
+      227
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the relevant Supplier shall, at its option, either [***]such Product, or, in the event the foregoing options are not commercially practicable, [***]to.",
+    "bbox": [
+      112,
+      230,
+      1000,
+      242
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the Company any amounts paid for the applicable Product. Without limiting the remedies specified in Article 8 and Section 9.2, this Section 6.1",
+    "bbox": [
+      111,
+      245,
+      1000,
+      258
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "states the exclusive remedy of the Company for failure of a Product to conform to the warranty provisions set forth in this Section 6.1..",
+    "bbox": [
+      111,
+      262,
+      1000,
+      274
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "6.2",
+    "bbox": [
+      382,
+      293,
+      410,
+      306
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Disclaimer",
+    "bbox": [
+      450,
+      294,
+      538,
+      305
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "EXCEPT AS EXPRESSLY SET FORTH IN THIS ARTICLE 6. THE PARTIES MAKE NO WARRANTIES OR REPRESENTATIONS",
+    "bbox": [
+      249,
+      327,
+      1000,
+      335
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "INCLUDING THE WARRANTIES OF MERCHANTABILITY. NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR PURPOSE",
+    "bbox": [
+      113,
+      359,
+      1000,
+      368
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE 7.",
+    "bbox": [
+      619,
+      389,
+      713,
+      400
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "TERM AND TERMINATION",
+    "bbox": [
+      558,
+      406,
+      776,
+      416
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "7.1",
+    "bbox": [
+      381,
+      436,
+      410,
+      450
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Term",
+    "bbox": [
+      449,
+      436,
+      494,
+      449
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "This Agreement shall become effective as of the Effective Date and shall continue to be in full force and effect for so long as",
+    "bbox": [
+      246,
+      469,
+      1000,
+      482
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Photronics and DNP, or any of their Affiliates, each remains a Shareholder of the Company..",
+    "bbox": [
+      111,
+      485,
+      790,
+      499
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "7.2",
+    "bbox": [
+      380,
+      516,
+      410,
+      530
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Termination for Cause.",
+    "bbox": [
+      450,
+      517,
+      624,
+      529
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "A Party shall have the right to terminate its obligations under this Agreement if the other Party materially breaches this.",
+    "bbox": [
+      248,
+      549,
+      1000,
+      561
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Agreement and fails to cure such breach within thirty (30) days after its receipt of written notice of the breach specifying such default..",
+    "bbox": [
+      112,
+      565,
+      1000,
+      578
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "7.3",
+    "bbox": [
+      381,
+      597,
+      410,
+      609
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Survival",
+    "bbox": [
+      449,
+      597,
+      517,
+      609
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Article 6 (for the duration of the applicable warranty period), Article 7, Article 8 and Article 9 shall survive any termination or.",
+    "bbox": [
+      248,
+      630,
+      1000,
+      642
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "expiration of this Agreement.",
+    "bbox": [
+      114,
+      647,
+      328,
+      657
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLE 8.",
+    "bbox": [
+      620,
+      677,
+      712,
+      689
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "INDEMINIFICATION",
+    "bbox": [
+      587,
+      694,
+      745,
+      704
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "8.1",
+    "bbox": [
+      381,
+      724,
+      409,
+      737
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Indemnification by the Suppliers",
+    "bbox": [
+      450,
+      724,
+      700,
+      738
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Each of the Suppliers shall, with respect to Products supplied by such Supplier, defend, indemnify and hold harmless the.",
+    "bbox": [
+      247,
+      758,
+      1000,
+      770
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Company from and against any third party claims, expenses and costs (including but not limited to attorney and other professional fees and",
+    "bbox": [
+      111,
+      773,
+      1000,
+      786
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "expenses), settlement (if negotiated and approved by the relevant Supplier), damages and liability to the extent arising from a claim (a) alleging that.",
+    "bbox": [
+      111,
+      789,
+      1000,
+      802
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "a Product infringes or misappropriates any Intellectual Property Rights, or (b) arising under products liability theory from a manufacturing defect,.",
+    "bbox": [
+      111,
+      806,
+      1000,
+      818
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and shall pay any judgments finally awarded by a court or any amounts contained in a settlement agreed to by the relevant Supplier arising from",
+    "bbox": [
+      112,
+      822,
+      1000,
+      834
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "such claims. The foregoing indemnity does not cover claims that solely arise from (i) the modification of the Product by any party other than the",
+    "bbox": [
+      111,
+      838,
+      1000,
+      850
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "relevant Supplier, (ii) the combination or use of the Product with other products, processes, methods, materials or devices except as approved by",
+    "bbox": [
+      110,
+      853,
+      1000,
+      866
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the relevant Supplier, or (iii) the fault of the Company..",
+    "bbox": [
+      110,
+      869,
+      510,
+      882
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      661,
+      915,
+      670,
+      924
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: PHOTRONICS INC, 10-Q/A, 12/19/2017",
+    "bbox": [
+      133,
+      1000,
+      512,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

@@ -1,0 +1,695 @@
+[
+  {
+    "text": "TRANSPORTATION SERVICE AGREEMENT",
+    "bbox": [
+      482,
+      280,
+      850,
+      290
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Contract Identification FT18150",
+    "bbox": [
+      530,
+      297,
+      804,
+      307
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "and ANR PIPELINE COMPANY (Shipper)",
+    "bbox": [
+      111,
+      343,
+      454,
+      357
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)",
+    "bbox": [
+      111,
+      328,
+      1000,
+      341
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and ANR PIPELINE COMPANY (Shipper)",
+    "bbox": [
+      111,
+      343,
+      454,
+      357
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)",
+    "bbox": [
+      111,
+      328,
+      1000,
+      341
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EFFECTIVE DATE: November 01, 2016",
+    "bbox": [
+      169,
+      473,
+      487,
+      484
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "TERM: November 01. 2014 to October 31. 2017",
+    "bbox": [
+      169,
+      640,
+      555,
+      650
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "QuickLinks",
+    "bbox": [
+      113,
+      101,
+      254,
+      111
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "-- Click here to rapidly navigate through this document",
+    "bbox": [
+      266,
+      100,
+      1000,
+      113
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Exhibit 99.12",
+    "bbox": [
+      1000,
+      149,
+      1000,
+      161
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "G",
+    "bbox": [
+      124,
+      191,
+      197,
+      236
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Great lakes",
+    "bbox": [
+      218,
+      195,
+      377,
+      213
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Gas Transmission Company",
+    "bbox": [
+      249,
+      215,
+      445,
+      226
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "TRANSPORTATION SERVICE AGREEMENT",
+    "bbox": [
+      482,
+      280,
+      850,
+      290
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Contract Identification FT18150",
+    "bbox": [
+      530,
+      297,
+      804,
+      307
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)",
+    "bbox": [
+      111,
+      328,
+      1000,
+      341
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and ANR PIPELINE COMPANY (Shipper)",
+    "bbox": [
+      111,
+      343,
+      454,
+      357
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, Shipper has requested Transporter to transport Gas on its behalf and Transporter represents that it is willing to transport",
+    "bbox": [
+      110,
+      375,
+      1000,
+      388
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Gas under the terms and conditions of this Agreement.",
+    "bbox": [
+      111,
+      392,
+      559,
+      405
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOw, THEREFORE, Transporter and Shipper agree that the terms below constitute the transportation service to be provided and the",
+    "bbox": [
+      111,
+      423,
+      1000,
+      436
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "rights and obligations of Shipper and Transporter..",
+    "bbox": [
+      113,
+      441,
+      508,
+      453
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      470,
+      129,
+      485
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "EFFECTIVE DATE: November 01, 2016",
+    "bbox": [
+      169,
+      473,
+      487,
+      484
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      503,
+      129,
+      518
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CONTRACT IDENTIFICATION: FT18150",
+    "bbox": [
+      169,
+      507,
+      500,
+      518
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      538,
+      129,
+      552
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RATE SCHEDULE: FT",
+    "bbox": [
+      168,
+      540,
+      351,
+      551
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      108,
+      571,
+      129,
+      585
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SHIPPER TYPE: Interstate PI",
+    "bbox": [
+      168,
+      572,
+      412,
+      584
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      603,
+      129,
+      618
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "STATE/PROVINCE OF INCORPORATION: Delaware",
+    "bbox": [
+      168,
+      606,
+      601,
+      619
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      108,
+      637,
+      129,
+      652
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "TERM: November 01. 2014 to October 31. 2017",
+    "bbox": [
+      169,
+      640,
+      555,
+      650
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      108,
+      671,
+      130,
+      684
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "EFFECT ON PREVIOUS CONTRACTS:",
+    "bbox": [
+      168,
+      672,
+      494,
+      684
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Agreement supersedes, cancels and terminates, as of the effective date stated above, the following contract(s): Service",
+    "bbox": [
+      169,
+      705,
+      1000,
+      717
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Agreement dated November 01, 2015 with Contract Identification FT18150.",
+    "bbox": [
+      168,
+      720,
+      772,
+      733
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      109,
+      752,
+      129,
+      766
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "MAXIMUM DAILY QUANTITY (Dth/Day): 101,300",
+    "bbox": [
+      169,
+      755,
+      576,
+      767
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Please see Appendix A for further detail..",
+    "bbox": [
+      168,
+      787,
+      496,
+      799
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "9.",
+    "bbox": [
+      108,
+      817,
+      129,
+      832
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RATES:",
+    "bbox": [
+      167,
+      819,
+      233,
+      832
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Unless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates",
+    "bbox": [
+      168,
+      852,
+      1000,
+      864
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on",
+    "bbox": [
+      168,
+      868,
+      1000,
+      880
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "file with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the.",
+    "bbox": [
+      167,
+      883,
+      1000,
+      896
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "maximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto.",
+    "bbox": [
+      168,
+      900,
+      794,
+      911
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "10.",
+    "bbox": [
+      110,
+      930,
+      138,
+      944
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "POINTS OF RECEIPT AND DELIVERY:",
+    "bbox": [
+      168,
+      932,
+      492,
+      944
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The primary receipt and delivery points are set forth on Appendix A.",
+    "bbox": [
+      168,
+      964,
+      715,
+      977
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "11.",
+    "bbox": [
+      111,
+      995,
+      138,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RELEASED CAPACITY:",
+    "bbox": [
+      169,
+      999,
+      364,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "N/A",
+    "bbox": [
+      165,
+      1000,
+      202,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "12.",
+    "bbox": [
+      111,
+      1000,
+      138,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "INCORPORATION OF TARIFF INTO AGREEMENT:",
+    "bbox": [
+      169,
+      1000,
+      591,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate",
+    "bbox": [
+      169,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Schedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "time to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the",
+    "bbox": [
+      169,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "right to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes.",
+    "bbox": [
+      168,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and any such changes",
+    "bbox": [
+      168,
+      1000,
+      353,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: TC PIPELINES LP, 10-K, 2/26/2016",
+    "bbox": [
+      111,
+      1000,
+      453,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "MAXIMUM DAILY QUANTITY (Dth/Day): 101,300",
+    "bbox": [
+      169,
+      755,
+      576,
+      767
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  }
+]

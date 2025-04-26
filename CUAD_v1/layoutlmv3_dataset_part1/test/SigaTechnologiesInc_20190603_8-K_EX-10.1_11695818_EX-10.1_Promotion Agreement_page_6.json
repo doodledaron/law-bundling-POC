@@ -1,0 +1,1597 @@
+[
+  {
+    "text": "\"Confidential Information\"' of a Party means (a) any and all information of such Party or its Affiliates that is provided or disclosed by such",
+    "bbox": [
+      179,
+      86,
+      1000,
+      99
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Party or its Affiliates to the other Party or its Affiliates under this Agreement, whether in oral, written, graphic, or electronic form, and (b) the terms.",
+    "bbox": [
+      112,
+      103,
+      1000,
+      115
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      112,
+      119,
+      250,
+      131
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Control' means, with respect to any material, Know-How, or intellectual property right, that a Party (a) owns or (b) has a license (other.",
+    "bbox": [
+      181,
+      135,
+      1000,
+      147
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "than a license granted to such Party under this Agreement) or other right to such material, Know-How, or intellectual property right, and in each.",
+    "bbox": [
+      112,
+      151,
+      1000,
+      164
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "case, has the ability to grant to the other Party access, a license, sublicense or other rights (as applicable) to the foregoing on the terms and.",
+    "bbox": [
+      112,
+      167,
+      1000,
+      179
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "conditions set forth in this Agreement without violating the terms of any then-existing agreement or other arrangement with any Third Party.",
+    "bbox": [
+      111,
+      182,
+      1000,
+      195
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Credit Amount\"' has the meaning set forth in Section 6.1(b)..",
+    "bbox": [
+      179,
+      198,
+      633,
+      210
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Customer\"' means a Third Party that has entered into a Customer Contract with MMT.",
+    "bbox": [
+      181,
+      215,
+      831,
+      227
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "'Customer Contract Notice\"' has the meaning set forth in Section 4.3(b)",
+    "bbox": [
+      181,
+      231,
+      714,
+      242
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Customer Contract\"' has the meaning set forth in Section 4.3(a)..",
+    "bbox": [
+      180,
+      246,
+      660,
+      259
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Delivery Date\" shall mean the date set forth in each Purchase Order by which SIGA is to deliver the Product ordered thereunder, which.",
+    "bbox": [
+      181,
+      263,
+      1000,
+      275
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "date shall not be any earlier than the corresponding lead time set forth in the applicable Purchase Order.",
+    "bbox": [
+      111,
+      278,
+      887,
+      290
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Develop\"' or \"Development\"' means any and all activities relating to researching or developing (including synthesizing, screening, testing",
+    "bbox": [
+      179,
+      294,
+      1000,
+      308
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "or evaluating), preparing and conducting non-clinical studies, preparing and conducting clinical studies, and conducting certain regulatory",
+    "bbox": [
+      110,
+      310,
+      1000,
+      324
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "activities (including preparation of regulatory applications) that are necessary or useful to obtain and maintain Regulatory Approval of the Product.",
+    "bbox": [
+      112,
+      327,
+      1000,
+      339
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "in any country in the Territory. \"Develop\" or \"Development\"' may include \"Manufacture\" or \"Manufacturing\"' but shall expressly exclude",
+    "bbox": [
+      113,
+      344,
+      1000,
+      354
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "'Commercialize\"' or \"Commercialization\"..",
+    "bbox": [
+      114,
+      359,
+      415,
+      370
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Discontinued Country' has the meaning set forth in Section 4.2.",
+    "bbox": [
+      179,
+      375,
+      666,
+      387
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Dollars\" or \"$\"' means U.S. dollars..",
+    "bbox": [
+      179,
+      390,
+      446,
+      402
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"EMA\" means the European Medicines Agency or any successor entity..",
+    "bbox": [
+      179,
+      406,
+      725,
+      419
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[***]",
+    "bbox": [
+      176,
+      420,
+      223,
+      437
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "'EU\"' means the economic, scientific and political organization of member states of the European Union as it may be constituted from time.",
+    "bbox": [
+      181,
+      440,
+      1000,
+      450
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "to time, which as of the Effective Date consists of Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia, Finland,.",
+    "bbox": [
+      111,
+      454,
+      1000,
+      467
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia,",
+    "bbox": [
+      112,
+      471,
+      1000,
+      483
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Slovenia, Spain, Sweden, and the United Kingdom. For clarity, the EU will at all times be deemed to include the United Kingdom, whether or not the.",
+    "bbox": [
+      112,
+      487,
+      1000,
+      499
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "United Kingdom remains a member state of the EU..",
+    "bbox": [
+      112,
+      502,
+      493,
+      514
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      532,
+      670,
+      541
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: SIGA TECHNOLOGIES INC, 8-K, 6/3/2019",
+    "bbox": [
+      133,
+      1000,
+      528,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Confidential Information\"' of a Party means (a) any and all information of such Party or its Affiliates that is provided or disclosed by such",
+    "bbox": [
+      179,
+      86,
+      1000,
+      99
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Party or its Affiliates to the other Party or its Affiliates under this Agreement, whether in oral, written, graphic, or electronic form, and (b) the terms.",
+    "bbox": [
+      112,
+      103,
+      1000,
+      115
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      112,
+      119,
+      250,
+      131
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Control' means, with respect to any material, Know-How, or intellectual property right, that a Party (a) owns or (b) has a license (other.",
+    "bbox": [
+      181,
+      135,
+      1000,
+      147
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "than a license granted to such Party under this Agreement) or other right to such material, Know-How, or intellectual property right, and in each.",
+    "bbox": [
+      112,
+      151,
+      1000,
+      164
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "case, has the ability to grant to the other Party access, a license, sublicense or other rights (as applicable) to the foregoing on the terms and.",
+    "bbox": [
+      112,
+      167,
+      1000,
+      179
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "conditions set forth in this Agreement without violating the terms of any then-existing agreement or other arrangement with any Third Party.",
+    "bbox": [
+      111,
+      182,
+      1000,
+      195
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "\"Credit Amount\"' has the meaning set forth in Section 6.1(b)..",
+    "bbox": [
+      179,
+      198,
+      633,
+      210
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Customer\"' means a Third Party that has entered into a Customer Contract with MMT.",
+    "bbox": [
+      181,
+      215,
+      831,
+      227
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "'Customer Contract Notice\"' has the meaning set forth in Section 4.3(b)",
+    "bbox": [
+      181,
+      231,
+      714,
+      242
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "\"Customer Contract\"' has the meaning set forth in Section 4.3(a)..",
+    "bbox": [
+      180,
+      246,
+      660,
+      259
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Delivery Date\" shall mean the date set forth in each Purchase Order by which SIGA is to deliver the Product ordered thereunder, which.",
+    "bbox": [
+      181,
+      263,
+      1000,
+      275
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "date shall not be any earlier than the corresponding lead time set forth in the applicable Purchase Order.",
+    "bbox": [
+      111,
+      278,
+      887,
+      290
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "\"Develop\"' or \"Development\"' means any and all activities relating to researching or developing (including synthesizing, screening, testing",
+    "bbox": [
+      179,
+      294,
+      1000,
+      308
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "or evaluating), preparing and conducting non-clinical studies, preparing and conducting clinical studies, and conducting certain regulatory",
+    "bbox": [
+      110,
+      310,
+      1000,
+      324
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "activities (including preparation of regulatory applications) that are necessary or useful to obtain and maintain Regulatory Approval of the Product.",
+    "bbox": [
+      112,
+      327,
+      1000,
+      339
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "in any country in the Territory. \"Develop\" or \"Development\"' may include \"Manufacture\" or \"Manufacturing\"' but shall expressly exclude",
+    "bbox": [
+      113,
+      344,
+      1000,
+      354
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "'Commercialize\"' or \"Commercialization\"..",
+    "bbox": [
+      114,
+      359,
+      415,
+      370
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "\"Discontinued Country' has the meaning set forth in Section 4.2.",
+    "bbox": [
+      179,
+      375,
+      666,
+      387
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "\"Dollars\" or \"$\"' means U.S. dollars..",
+    "bbox": [
+      179,
+      390,
+      446,
+      402
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "\"EMA\" means the European Medicines Agency or any successor entity..",
+    "bbox": [
+      179,
+      406,
+      725,
+      419
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "[***]",
+    "bbox": [
+      176,
+      420,
+      223,
+      437
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "'EU\"' means the economic, scientific and political organization of member states of the European Union as it may be constituted from time.",
+    "bbox": [
+      181,
+      440,
+      1000,
+      450
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "to time, which as of the Effective Date consists of Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia, Finland,.",
+    "bbox": [
+      111,
+      454,
+      1000,
+      467
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia,",
+    "bbox": [
+      112,
+      471,
+      1000,
+      483
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Slovenia, Spain, Sweden, and the United Kingdom. For clarity, the EU will at all times be deemed to include the United Kingdom, whether or not the.",
+    "bbox": [
+      112,
+      487,
+      1000,
+      499
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "United Kingdom remains a member state of the EU..",
+    "bbox": [
+      112,
+      502,
+      493,
+      514
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      532,
+      670,
+      541
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Source: SIGA TECHNOLOGIES INC, 8-K, 6/3/2019",
+    "bbox": [
+      133,
+      1000,
+      528,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "\"Confidential Information\"' of a Party means (a) any and all information of such Party or its Affiliates that is provided or disclosed by such",
+    "bbox": [
+      179,
+      86,
+      1000,
+      99
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Party or its Affiliates to the other Party or its Affiliates under this Agreement, whether in oral, written, graphic, or electronic form, and (b) the terms.",
+    "bbox": [
+      112,
+      103,
+      1000,
+      115
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      112,
+      119,
+      250,
+      131
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Control' means, with respect to any material, Know-How, or intellectual property right, that a Party (a) owns or (b) has a license (other.",
+    "bbox": [
+      181,
+      135,
+      1000,
+      147
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "than a license granted to such Party under this Agreement) or other right to such material, Know-How, or intellectual property right, and in each.",
+    "bbox": [
+      112,
+      151,
+      1000,
+      164
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "case, has the ability to grant to the other Party access, a license, sublicense or other rights (as applicable) to the foregoing on the terms and.",
+    "bbox": [
+      112,
+      167,
+      1000,
+      179
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "conditions set forth in this Agreement without violating the terms of any then-existing agreement or other arrangement with any Third Party.",
+    "bbox": [
+      111,
+      182,
+      1000,
+      195
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Credit Amount\"' has the meaning set forth in Section 6.1(b)..",
+    "bbox": [
+      179,
+      198,
+      633,
+      210
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Customer\"' means a Third Party that has entered into a Customer Contract with MMT.",
+    "bbox": [
+      181,
+      215,
+      831,
+      227
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "'Customer Contract Notice\"' has the meaning set forth in Section 4.3(b)",
+    "bbox": [
+      181,
+      231,
+      714,
+      242
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Customer Contract\"' has the meaning set forth in Section 4.3(a)..",
+    "bbox": [
+      180,
+      246,
+      660,
+      259
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Delivery Date\" shall mean the date set forth in each Purchase Order by which SIGA is to deliver the Product ordered thereunder, which.",
+    "bbox": [
+      181,
+      263,
+      1000,
+      275
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "date shall not be any earlier than the corresponding lead time set forth in the applicable Purchase Order.",
+    "bbox": [
+      111,
+      278,
+      887,
+      290
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Develop\"' or \"Development\"' means any and all activities relating to researching or developing (including synthesizing, screening, testing",
+    "bbox": [
+      179,
+      294,
+      1000,
+      308
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "or evaluating), preparing and conducting non-clinical studies, preparing and conducting clinical studies, and conducting certain regulatory",
+    "bbox": [
+      110,
+      310,
+      1000,
+      324
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "activities (including preparation of regulatory applications) that are necessary or useful to obtain and maintain Regulatory Approval of the Product.",
+    "bbox": [
+      112,
+      327,
+      1000,
+      339
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "in any country in the Territory. \"Develop\" or \"Development\"' may include \"Manufacture\" or \"Manufacturing\"' but shall expressly exclude",
+    "bbox": [
+      113,
+      344,
+      1000,
+      354
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "'Commercialize\"' or \"Commercialization\"..",
+    "bbox": [
+      114,
+      359,
+      415,
+      370
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Discontinued Country' has the meaning set forth in Section 4.2.",
+    "bbox": [
+      179,
+      375,
+      666,
+      387
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Dollars\" or \"$\"' means U.S. dollars..",
+    "bbox": [
+      179,
+      390,
+      446,
+      402
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"EMA\" means the European Medicines Agency or any successor entity..",
+    "bbox": [
+      179,
+      406,
+      725,
+      419
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "[***]",
+    "bbox": [
+      176,
+      420,
+      223,
+      437
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "'EU\"' means the economic, scientific and political organization of member states of the European Union as it may be constituted from time.",
+    "bbox": [
+      181,
+      440,
+      1000,
+      450
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "to time, which as of the Effective Date consists of Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia, Finland,.",
+    "bbox": [
+      111,
+      454,
+      1000,
+      467
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia,",
+    "bbox": [
+      112,
+      471,
+      1000,
+      483
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Slovenia, Spain, Sweden, and the United Kingdom. For clarity, the EU will at all times be deemed to include the United Kingdom, whether or not the.",
+    "bbox": [
+      112,
+      487,
+      1000,
+      499
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "United Kingdom remains a member state of the EU..",
+    "bbox": [
+      112,
+      502,
+      493,
+      514
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      532,
+      670,
+      541
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: SIGA TECHNOLOGIES INC, 8-K, 6/3/2019",
+    "bbox": [
+      133,
+      1000,
+      528,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Confidential Information\"' of a Party means (a) any and all information of such Party or its Affiliates that is provided or disclosed by such",
+    "bbox": [
+      179,
+      86,
+      1000,
+      99
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Party or its Affiliates to the other Party or its Affiliates under this Agreement, whether in oral, written, graphic, or electronic form, and (b) the terms.",
+    "bbox": [
+      112,
+      103,
+      1000,
+      115
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      112,
+      119,
+      250,
+      131
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Control' means, with respect to any material, Know-How, or intellectual property right, that a Party (a) owns or (b) has a license (other.",
+    "bbox": [
+      181,
+      135,
+      1000,
+      147
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "than a license granted to such Party under this Agreement) or other right to such material, Know-How, or intellectual property right, and in each.",
+    "bbox": [
+      112,
+      151,
+      1000,
+      164
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "case, has the ability to grant to the other Party access, a license, sublicense or other rights (as applicable) to the foregoing on the terms and.",
+    "bbox": [
+      112,
+      167,
+      1000,
+      179
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "conditions set forth in this Agreement without violating the terms of any then-existing agreement or other arrangement with any Third Party.",
+    "bbox": [
+      111,
+      182,
+      1000,
+      195
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Credit Amount\"' has the meaning set forth in Section 6.1(b)..",
+    "bbox": [
+      179,
+      198,
+      633,
+      210
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Customer\"' means a Third Party that has entered into a Customer Contract with MMT.",
+    "bbox": [
+      181,
+      215,
+      831,
+      227
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "'Customer Contract Notice\"' has the meaning set forth in Section 4.3(b)",
+    "bbox": [
+      181,
+      231,
+      714,
+      242
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Customer Contract\"' has the meaning set forth in Section 4.3(a)..",
+    "bbox": [
+      180,
+      246,
+      660,
+      259
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Delivery Date\" shall mean the date set forth in each Purchase Order by which SIGA is to deliver the Product ordered thereunder, which.",
+    "bbox": [
+      181,
+      263,
+      1000,
+      275
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "date shall not be any earlier than the corresponding lead time set forth in the applicable Purchase Order.",
+    "bbox": [
+      111,
+      278,
+      887,
+      290
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Develop\"' or \"Development\"' means any and all activities relating to researching or developing (including synthesizing, screening, testing",
+    "bbox": [
+      179,
+      294,
+      1000,
+      308
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "or evaluating), preparing and conducting non-clinical studies, preparing and conducting clinical studies, and conducting certain regulatory",
+    "bbox": [
+      110,
+      310,
+      1000,
+      324
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "activities (including preparation of regulatory applications) that are necessary or useful to obtain and maintain Regulatory Approval of the Product.",
+    "bbox": [
+      112,
+      327,
+      1000,
+      339
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "in any country in the Territory. \"Develop\" or \"Development\"' may include \"Manufacture\" or \"Manufacturing\"' but shall expressly exclude",
+    "bbox": [
+      113,
+      344,
+      1000,
+      354
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "'Commercialize\"' or \"Commercialization\"..",
+    "bbox": [
+      114,
+      359,
+      415,
+      370
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Discontinued Country' has the meaning set forth in Section 4.2.",
+    "bbox": [
+      179,
+      375,
+      666,
+      387
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Dollars\" or \"$\"' means U.S. dollars..",
+    "bbox": [
+      179,
+      390,
+      446,
+      402
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"EMA\" means the European Medicines Agency or any successor entity..",
+    "bbox": [
+      179,
+      406,
+      725,
+      419
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "[***]",
+    "bbox": [
+      176,
+      420,
+      223,
+      437
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "'EU\"' means the economic, scientific and political organization of member states of the European Union as it may be constituted from time.",
+    "bbox": [
+      181,
+      440,
+      1000,
+      450
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "to time, which as of the Effective Date consists of Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia, Finland,.",
+    "bbox": [
+      111,
+      454,
+      1000,
+      467
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia,",
+    "bbox": [
+      112,
+      471,
+      1000,
+      483
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Slovenia, Spain, Sweden, and the United Kingdom. For clarity, the EU will at all times be deemed to include the United Kingdom, whether or not the.",
+    "bbox": [
+      112,
+      487,
+      1000,
+      499
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "United Kingdom remains a member state of the EU..",
+    "bbox": [
+      112,
+      502,
+      493,
+      514
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      532,
+      670,
+      541
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: SIGA TECHNOLOGIES INC, 8-K, 6/3/2019",
+    "bbox": [
+      133,
+      1000,
+      528,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Confidential Information\"' of a Party means (a) any and all information of such Party or its Affiliates that is provided or disclosed by such",
+    "bbox": [
+      179,
+      86,
+      1000,
+      99
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Party or its Affiliates to the other Party or its Affiliates under this Agreement, whether in oral, written, graphic, or electronic form, and (b) the terms.",
+    "bbox": [
+      112,
+      103,
+      1000,
+      115
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "of this Agreement..",
+    "bbox": [
+      112,
+      119,
+      250,
+      131
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Control' means, with respect to any material, Know-How, or intellectual property right, that a Party (a) owns or (b) has a license (other.",
+    "bbox": [
+      181,
+      135,
+      1000,
+      147
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "than a license granted to such Party under this Agreement) or other right to such material, Know-How, or intellectual property right, and in each.",
+    "bbox": [
+      112,
+      151,
+      1000,
+      164
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "case, has the ability to grant to the other Party access, a license, sublicense or other rights (as applicable) to the foregoing on the terms and.",
+    "bbox": [
+      112,
+      167,
+      1000,
+      179
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conditions set forth in this Agreement without violating the terms of any then-existing agreement or other arrangement with any Third Party.",
+    "bbox": [
+      111,
+      182,
+      1000,
+      195
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Credit Amount\"' has the meaning set forth in Section 6.1(b)..",
+    "bbox": [
+      179,
+      198,
+      633,
+      210
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Customer\"' means a Third Party that has entered into a Customer Contract with MMT.",
+    "bbox": [
+      181,
+      215,
+      831,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "'Customer Contract Notice\"' has the meaning set forth in Section 4.3(b)",
+    "bbox": [
+      181,
+      231,
+      714,
+      242
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Customer Contract\"' has the meaning set forth in Section 4.3(a)..",
+    "bbox": [
+      180,
+      246,
+      660,
+      259
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Delivery Date\" shall mean the date set forth in each Purchase Order by which SIGA is to deliver the Product ordered thereunder, which.",
+    "bbox": [
+      181,
+      263,
+      1000,
+      275
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "date shall not be any earlier than the corresponding lead time set forth in the applicable Purchase Order.",
+    "bbox": [
+      111,
+      278,
+      887,
+      290
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Develop\"' or \"Development\"' means any and all activities relating to researching or developing (including synthesizing, screening, testing",
+    "bbox": [
+      179,
+      294,
+      1000,
+      308
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or evaluating), preparing and conducting non-clinical studies, preparing and conducting clinical studies, and conducting certain regulatory",
+    "bbox": [
+      110,
+      310,
+      1000,
+      324
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "activities (including preparation of regulatory applications) that are necessary or useful to obtain and maintain Regulatory Approval of the Product.",
+    "bbox": [
+      112,
+      327,
+      1000,
+      339
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in any country in the Territory. \"Develop\" or \"Development\"' may include \"Manufacture\" or \"Manufacturing\"' but shall expressly exclude",
+    "bbox": [
+      113,
+      344,
+      1000,
+      354
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "'Commercialize\"' or \"Commercialization\"..",
+    "bbox": [
+      114,
+      359,
+      415,
+      370
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Discontinued Country' has the meaning set forth in Section 4.2.",
+    "bbox": [
+      179,
+      375,
+      666,
+      387
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Dollars\" or \"$\"' means U.S. dollars..",
+    "bbox": [
+      179,
+      390,
+      446,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"EMA\" means the European Medicines Agency or any successor entity..",
+    "bbox": [
+      179,
+      406,
+      725,
+      419
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[***]",
+    "bbox": [
+      176,
+      420,
+      223,
+      437
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "'EU\"' means the economic, scientific and political organization of member states of the European Union as it may be constituted from time.",
+    "bbox": [
+      181,
+      440,
+      1000,
+      450
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to time, which as of the Effective Date consists of Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia, Finland,.",
+    "bbox": [
+      111,
+      454,
+      1000,
+      467
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia,",
+    "bbox": [
+      112,
+      471,
+      1000,
+      483
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Slovenia, Spain, Sweden, and the United Kingdom. For clarity, the EU will at all times be deemed to include the United Kingdom, whether or not the.",
+    "bbox": [
+      112,
+      487,
+      1000,
+      499
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "United Kingdom remains a member state of the EU..",
+    "bbox": [
+      112,
+      502,
+      493,
+      514
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      532,
+      670,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: SIGA TECHNOLOGIES INC, 8-K, 6/3/2019",
+    "bbox": [
+      133,
+      1000,
+      528,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

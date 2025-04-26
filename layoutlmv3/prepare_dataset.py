@@ -11,7 +11,7 @@ from pdf2image import convert_from_path
 # Define paths
 ANNOTATIONS_DIR = "CUAD_v1/layoutlmv3"
 PDF_DIR = "CUAD_v1/full_contract_pdf"
-OUTPUT_DIR = "CUAD_v1/layoutlmv3_dataset"
+OUTPUT_DIR = "CUAD_v1/layoutlmv3_dataset_part1"
 TRAIN_DIR = os.path.join(OUTPUT_DIR, "train")
 VAL_DIR = os.path.join(OUTPUT_DIR, "val")
 TEST_DIR = os.path.join(OUTPUT_DIR, "test")
@@ -103,6 +103,9 @@ def process_annotation_file(json_path, split_dir, split):
             data = json.load(f)
         
         pdf_path = data['file_name']
+        # <<< ADD THIS LINE TO ENSURE CORRECT PATH SEPARATORS >>>
+        pdf_path = pdf_path.replace("\\", "/") 
+        
         file_name = os.path.splitext(os.path.basename(pdf_path))[0]
         
         # Extract annotations
@@ -217,4 +220,4 @@ def prepare_dataset():
     print(f"Dataset preparation complete. Output saved to {OUTPUT_DIR}")
 
 if __name__ == "__main__":
-    prepare_dataset() 
+    prepare_dataset()

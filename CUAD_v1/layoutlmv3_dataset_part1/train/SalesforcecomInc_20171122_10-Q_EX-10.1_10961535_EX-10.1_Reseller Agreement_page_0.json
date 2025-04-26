@@ -1,0 +1,101 @@
+[
+  {
+    "text": "FORM OF SUB-RESELLER AGREEMENT",
+    "bbox": [
+      460,
+      270,
+      874,
+      283
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Salesforce.org, a nonprofit public benefit corporation having its",
+    "bbox": [
+      642,
+      375,
+      1000,
+      392
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "California 94105 (\"SFDC\" or \"Salesforce') and the Reseller named above and amends that certain Reseller Agreement between",
+    "bbox": [
+      112,
+      489,
+      1000,
+      502
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Form of Sub-Reseller Agreement (this \"Sub-Reseller Agreement') is made and entered in by and between salesforce.com,",
+    "bbox": [
+      111,
+      452,
+      1000,
+      465
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "inc., a Delaware corporation having its principal place of business at The Landmark @ One Market, Suite 300, San Francisco,",
+    "bbox": [
+      112,
+      470,
+      1000,
+      484
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "California 94105 (\"SFDC\" or \"Salesforce') and the Reseller named above and amends that certain Reseller Agreement between",
+    "bbox": [
+      112,
+      489,
+      1000,
+      502
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Salesforce and Reseller dated as of August 1, 2015, as previously amended (the \"Agreement\"'). This Sub-Reseller Agreement is",
+    "bbox": [
+      113,
+      509,
+      1000,
+      521
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date'), provided, however,",
+    "bbox": [
+      112,
+      526,
+      1000,
+      541
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days. If such period is",
+    "bbox": [
+      111,
+      545,
+      1000,
+      559
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

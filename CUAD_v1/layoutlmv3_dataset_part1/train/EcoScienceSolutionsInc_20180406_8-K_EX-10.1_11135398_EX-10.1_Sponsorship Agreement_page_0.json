@@ -1,0 +1,90 @@
+[
+  {
+    "text": "SPONSORSHIP AGREEMENT",
+    "bbox": [
+      480,
+      279,
+      853,
+      292
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "SPONSORSHIP AGREEMENT",
+    "bbox": [
+      480,
+      279,
+      853,
+      292
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"Promoter\") and Eco Science Solutions, Inc.,(\"Sponsor\"), 1135 Makawao Avenue, Suite 103-188, Makawao, Hawaii, 96768..",
+    "bbox": [
+      112,
+      315,
+      1000,
+      328
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This agreement (the \"Agreement\") is made effective this 1st day of April, 2018 (\"Effective Date\") between Fruit of Life Productions LLC,",
+    "bbox": [
+      111,
+      299,
+      1000,
+      312
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(\"Promoter\") and Eco Science Solutions, Inc.,(\"Sponsor\"), 1135 Makawao Avenue, Suite 103-188, Makawao, Hawaii, 96768..",
+    "bbox": [
+      112,
+      315,
+      1000,
+      328
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This agreement (the \"Agreement\") is made effective this 1st day of April, 2018 (\"Effective Date\") between Fruit of Life Productions LLC,",
+    "bbox": [
+      111,
+      299,
+      1000,
+      312
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This agreement (the \"Agreement\") is made effective this 1st day of April, 2018 (\"Effective Date\") between Fruit of Life Productions LLC,",
+    "bbox": [
+      111,
+      299,
+      1000,
+      312
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "The term of this agreement will begin on April 1, 2018 and continue until April 30, 2018 at 11:59pm..",
+    "bbox": [
+      112,
+      811,
+      842,
+      824
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "text": "1.33",
+    "bbox": [
+      111,
+      100,
+      142,
+      112
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"TAP\" shall mean Transferred Account Procedure as defined and described in GSM Association Permanent Reference Documents.",
+    "bbox": [
+      180,
+      100,
+      1000,
+      113
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.34",
+    "bbox": [
+      110,
+      135,
+      144,
+      149
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Technical Specification' shall mean the working document in which Parties agree upon the technical specification of the Hosting Services",
+    "bbox": [
+      179,
+      136,
+      1000,
+      149
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "as attached in Appendix 11.",
+    "bbox": [
+      179,
+      153,
+      386,
+      165
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.35",
+    "bbox": [
+      109,
+      186,
+      144,
+      201
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"T-Mobile Network\" shall mean the T-Mobile DCS 1800 and UMTS/HSDPA mobile telecommunications network, including all network",
+    "bbox": [
+      180,
+      188,
+      1000,
+      200
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "elements, in the Netherlands, as described in Appendix 1..",
+    "bbox": [
+      179,
+      205,
+      610,
+      217
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      108,
+      242,
+      128,
+      256
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "PURPOSE AND SCOPE OF THE AGREEMENT",
+    "bbox": [
+      183,
+      244,
+      547,
+      254
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      108,
+      280,
+      134,
+      293
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "The purpose of this Agreement is to lay down the general terms and conditions between the Parties under which T-Mobile shall provide",
+    "bbox": [
+      179,
+      280,
+      1000,
+      292
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "the Hosting Services and ELEPHANT TALK shall purchase the Hosting Services from T-Mobile, whereby T-Mobile shall enable",
+    "bbox": [
+      179,
+      296,
+      1000,
+      309
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ELEPHANT TALK to market, sell and provide mobile telecommunication services to the ELEPHANT TALK Customers via the T-Mobile",
+    "bbox": [
+      180,
+      312,
+      1000,
+      324
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Network. For the avoidance of doubt, ELEPHANT TALK is not entitled to provide (retail) telecommunication services based on the",
+    "bbox": [
+      179,
+      329,
+      1000,
+      341
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Hosting Service to others than ELEPHANT TALK Customers, such as but not limited to mobile end-users or business companies with",
+    "bbox": [
+      179,
+      345,
+      1000,
+      357
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "their own end-users.",
+    "bbox": [
+      179,
+      360,
+      333,
+      372
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "In the event that *** Parties shall negotiate the terms and conditions under which T-Mobile shall provide and ELEPHANT TALK shall",
+    "bbox": [
+      178,
+      395,
+      1000,
+      408
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "purchase the services from T-Mobile. These terms and conditions shall be laid down in a separate document and shall therefore not be",
+    "bbox": [
+      179,
+      412,
+      1000,
+      425
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "part of this Agreement.",
+    "bbox": [
+      179,
+      428,
+      353,
+      442
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      109,
+      463,
+      135,
+      476
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "T-Mobile is entitled without limitations, to *** related services to any other party..",
+    "bbox": [
+      177,
+      462,
+      792,
+      478
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      109,
+      499,
+      135,
+      512
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ELEPHANT TALK will not enter into any discussions or agreement on the provisioning of (similar) Hosting Services as defined in",
+    "bbox": [
+      179,
+      499,
+      1000,
+      514
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Appendix 1 with any *** in the Netherlands for the duration of the Initial Term of the Agreement. In case ELEPHANT TALK has provided",
+    "bbox": [
+      179,
+      515,
+      1000,
+      530
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "to T-Mobile the twelve month termination notice in accordance with article 17.2, ELEPHANT TALK ***.",
+    "bbox": [
+      179,
+      531,
+      958,
+      545
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.4",
+    "bbox": [
+      109,
+      568,
+      135,
+      580
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "SIM cards to ELEPHANT TALK Customers under the terms and conditions as mentioned in this Agreement.",
+    "bbox": [
+      179,
+      584,
+      993,
+      597
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "For the scope of this Agreement, ELEPHANT TALK (including its Affiliated Companies) shall not provide the Hosting Services to ***.",
+    "bbox": [
+      187,
+      618,
+      1000,
+      634
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.5",
+    "bbox": [
+      109,
+      622,
+      135,
+      635
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Excluded from this provision is the situation wherein ELEPHANT TALK provides *** under the terms and conditions as set out in this",
+    "bbox": [
+      189,
+      636,
+      1000,
+      648
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "article.",
+    "bbox": [
+      188,
+      655,
+      239,
+      667
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: PARETEUM CORP, 8-K, 10/1/2008",
+    "bbox": [
+      133,
+      1000,
+      467,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  }
+]

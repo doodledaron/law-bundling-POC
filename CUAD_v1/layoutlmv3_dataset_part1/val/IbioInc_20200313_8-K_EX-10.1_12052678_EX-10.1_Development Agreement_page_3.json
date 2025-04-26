@@ -1,0 +1,563 @@
+[
+  {
+    "text": "2.5",
+    "bbox": [
+      108,
+      79,
+      138,
+      93
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Each Party may change its Agreement Administrators, at any time, with written notice to the other Party.",
+    "bbox": [
+      179,
+      80,
+      958,
+      93
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.0",
+    "bbox": [
+      109,
+      96,
+      138,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Costs and Expenses",
+    "bbox": [
+      179,
+      97,
+      332,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      109,
+      112,
+      138,
+      125
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Upon execution of this Agreement and acceptance of iBio's proposal for the development of a Plant-Made Rituximab, and in consideration",
+    "bbox": [
+      180,
+      113,
+      1000,
+      125
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "for providing the technology transfer contemplated herein, CC-Pharming shall pay iBio [***], which shall be paid as follows:",
+    "bbox": [
+      179,
+      128,
+      1000,
+      141
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.1.1",
+    "bbox": [
+      179,
+      144,
+      214,
+      156
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "First payment of [***] is required to initiate the project: [***].",
+    "bbox": [
+      247,
+      145,
+      713,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.1.2",
+    "bbox": [
+      178,
+      161,
+      215,
+      172
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Second payment of [***]. Due upon presentation of the following deliverables:",
+    "bbox": [
+      247,
+      161,
+      842,
+      173
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a)",
+    "bbox": [
+      247,
+      178,
+      265,
+      189
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Detailed design drawings of the pilot plant;.",
+    "bbox": [
+      278,
+      176,
+      606,
+      189
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b)",
+    "bbox": [
+      245,
+      192,
+      266,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Schematic design of the commercial facility;.",
+    "bbox": [
+      279,
+      192,
+      608,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "c)",
+    "bbox": [
+      247,
+      209,
+      262,
+      221
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Purified antibody for pre-clinical testing and development; and",
+    "bbox": [
+      279,
+      209,
+      753,
+      221
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "d)",
+    "bbox": [
+      247,
+      224,
+      265,
+      237
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The quality management system (QMS) development up to and including governance documents and governance standard",
+    "bbox": [
+      279,
+      225,
+      1000,
+      237
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "operating procedures (SOP's).",
+    "bbox": [
+      281,
+      240,
+      508,
+      254
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.1.3",
+    "bbox": [
+      178,
+      256,
+      215,
+      268
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Final payment of [***], due upon presentation of the following deliverables:",
+    "bbox": [
+      247,
+      257,
+      820,
+      269
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a)",
+    "bbox": [
+      247,
+      275,
+      262,
+      284
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Detailed Design drawings for the commercial facility;",
+    "bbox": [
+      279,
+      273,
+      676,
+      284
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "b)",
+    "bbox": [
+      246,
+      288,
+      265,
+      300
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Completion of QMS documentation for rituximab including batch records, release documents, and assay SOPs;",
+    "bbox": [
+      279,
+      288,
+      1000,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "c)",
+    "bbox": [
+      246,
+      305,
+      262,
+      318
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Completion of all training sessions and training documentation;",
+    "bbox": [
+      280,
+      305,
+      760,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "d)",
+    "bbox": [
+      247,
+      320,
+      263,
+      333
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Delivery of antibody drug substance for clinical trials; and",
+    "bbox": [
+      279,
+      320,
+      721,
+      333
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "e)",
+    "bbox": [
+      247,
+      337,
+      262,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Completion of a chemistry, manufacturing, and controls (CMC) document to support an (investigational new drug",
+    "bbox": [
+      280,
+      336,
+      1000,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "application (IND) or equivalent.",
+    "bbox": [
+      282,
+      352,
+      519,
+      366
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.0",
+    "bbox": [
+      110,
+      368,
+      138,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Inventions",
+    "bbox": [
+      179,
+      369,
+      259,
+      380
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      110,
+      384,
+      138,
+      396
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Inventorship of inventions, developments, or discoveries first conceived or actually reduced to practice under this Agreement.",
+    "bbox": [
+      179,
+      384,
+      1000,
+      397
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(\"Agreement Inventions\") will be determined under U.S. Patent Law. All inventions, developments, or discoveries made solely by iBio.",
+    "bbox": [
+      179,
+      400,
+      1000,
+      413
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "prior to this Agreement is, and shall be, the sole property of iBio. All inventions, developments, or discoveries made solely by CC-",
+    "bbox": [
+      179,
+      416,
+      1000,
+      429
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharming thereof prior to this Agreement is, and shall be, the sole property of CC-Pharming",
+    "bbox": [
+      179,
+      432,
+      866,
+      445
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      110,
+      448,
+      138,
+      461
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "All rights to inventions, patentable or non-patentable, made solely by employees of iBio during the term of this Agreement shall belong",
+    "bbox": [
+      179,
+      448,
+      1000,
+      461
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "solely to iBio. All rights to inventions, patentable or non-patentable, made solely by employees of CC-Pharming during the term of this",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement shall belong solely to CC-Pharming. All rights to Agreement Inventions, patentable or non-patentable, made jointly by",
+    "bbox": [
+      180,
+      481,
+      1000,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "employees of iBio and employees of CC-Pharming (\"Joint Inventions\") will belong jointly to iBio and CC-Pharming, with inventorship.",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "determined as described in 35 U.S.C. s 262 and (Chin Patent Law). The Parties contemplate that each will benefit from Joint Inventions, as",
+    "bbox": [
+      179,
+      512,
+      1000,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "such, iBio will be responsible for direct control over the drafting and prosecution of any patents to Joint Inventions, with copy to CC-.",
+    "bbox": [
+      180,
+      529,
+      1000,
+      541
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharming. The parties shall share equally in the costs of patent protection for Joint Inventions.",
+    "bbox": [
+      179,
+      544,
+      891,
+      557
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Master Joint Development Agreement iBio CC-Pharming.",
+    "bbox": [
+      111,
+      574,
+      538,
+      590
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 4 of 12",
+    "bbox": [
+      1000,
+      575,
+      1000,
+      590
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: IBIO, INC., 8-K, 3/13/2020",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

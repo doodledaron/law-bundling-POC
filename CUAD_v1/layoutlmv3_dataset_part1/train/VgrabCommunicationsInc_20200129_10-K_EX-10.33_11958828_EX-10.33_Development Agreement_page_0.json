@@ -1,0 +1,35 @@
+[
+  {
+    "text": "MOBILE APPLICATION DEVELOPMENT",
+    "bbox": [
+      352,
+      89,
+      1000,
+      108
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "AGREEMENT",
+    "bbox": [
+      590,
+      128,
+      824,
+      147
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "(Agreement No: VAL/MAD/PVTINV/DC/190305/1)",
+    "bbox": [
+      489,
+      159,
+      890,
+      172
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

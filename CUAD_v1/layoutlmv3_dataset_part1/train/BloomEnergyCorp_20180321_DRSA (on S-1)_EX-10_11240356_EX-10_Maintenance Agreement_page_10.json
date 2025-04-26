@@ -1,0 +1,860 @@
+[
+  {
+    "text": "\"Material Adverse Change\"' means a fact, event or circumstance that, alone or when taken with other events or conditions occurring or.",
+    "bbox": [
+      156,
+      83,
+      1000,
+      96
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "existing concurrently with such event or condition, (a) has or is reasonably expected to have a material adverse effect on the business, operations,",
+    "bbox": [
+      111,
+      100,
+      1000,
+      113
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "condition (financial or otherwise), assets, liabilities, prospects, or properties of a Person; (b) has or is reasonably expected to have any material.",
+    "bbox": [
+      112,
+      116,
+      1000,
+      129
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "adverse effect on the validity or enforceability of this Agreement; (c) materially impairs or is reasonably expected to materially impair the ability of a",
+    "bbox": [
+      113,
+      133,
+      1000,
+      143
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Person to meet or perform its obligations under this Agreement; or (d) has or is reasonably expected to have any material adverse effect on a",
+    "bbox": [
+      111,
+      148,
+      1000,
+      160
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Person's rights under this Agreement.",
+    "bbox": [
+      111,
+      164,
+      396,
+      176
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Maximum Liability' means, with respect to Operator, the aggregate Residual Value of the Portfolio as of such date, and with respect to",
+    "bbox": [
+      154,
+      194,
+      1000,
+      209
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Owner, One Million Dollars ($1,o0o,oo0); provided that a reduction in the Maximum Liability of Operator shall never result in a requirement for",
+    "bbox": [
+      112,
+      212,
+      1000,
+      224
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Owner or any Owner Indemnitee to return any money to Operator. Maximum Liability will be determined on an aggregate basis between this",
+    "bbox": [
+      112,
+      228,
+      1000,
+      240
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Agreement and the MESPA..",
+    "bbox": [
+      114,
+      244,
+      322,
+      255
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"MESPA\" is defined in the Recitals to this Agreement.",
+    "bbox": [
+      157,
+      275,
+      562,
+      287
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Minimum Efficiency Level'\" means fifty percent (50%) Efficiency while a Bloom System is operating at Nameplate Capacity, measured over",
+    "bbox": [
+      156,
+      308,
+      1000,
+      320
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Efficiency Warranty Period..",
+    "bbox": [
+      112,
+      324,
+      347,
+      336
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Minimum kWh\"' means the product of (x) the number of hours in the applicable Power Performance Warranty Period minus the number of",
+    "bbox": [
+      157,
+      356,
+      1000,
+      368
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "hours for each Bloom System in the Portfolio as of the last day of the applicable Power Performance Warranty Period when each such Bloom",
+    "bbox": [
+      111,
+      372,
+      1000,
+      384
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "System (i) was subject to a Force Majeure Event, (ii) was not delivering Energy to the PJM Grid because of a failure to perform by DPL under the",
+    "bbox": [
+      112,
+      388,
+      1000,
+      400
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "DPL Agreements or PJM under the PJM Agreements, or (iii) was required to be disconnected from the grid or otherwise required not to deliver.",
+    "bbox": [
+      111,
+      403,
+      1000,
+      416
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Energy to the PJM Grid as the result of a Legal Requirement or action by or a directive from the applicable electric utility or PJM with respect to",
+    "bbox": [
+      112,
+      420,
+      1000,
+      432
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "such Bloom System (e.g., due to a grid event), and (y) the Minimum Power Product for the applicable Power Performance Warranty Period.",
+    "bbox": [
+      112,
+      436,
+      1000,
+      448
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Minimum Power Product\"' means the aggregate Nameplate Capacity of the Bloom Systems in the Portfolio in kW for the applicable Power",
+    "bbox": [
+      156,
+      468,
+      1000,
+      480
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Performance Warranty Period multiplied by (1) eighty-five percent (85%) when this term is used for the One-Month Power Performance Warranty or",
+    "bbox": [
+      111,
+      483,
+      1000,
+      496
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(2) ninety-five percent (95%) when this term is used for the One-Year Power Performance Warranty. An example of a calculation of the Minimum",
+    "bbox": [
+      111,
+      499,
+      1000,
+      512
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Power Product is set forth in Appendix B.",
+    "bbox": [
+      110,
+      514,
+      421,
+      528
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "MW\" means megawatt..",
+    "bbox": [
+      158,
+      548,
+      339,
+      560
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"MWh\" means megawatt-hour.",
+    "bbox": [
+      157,
+      579,
+      387,
+      592
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      661,
+      595,
+      672,
+      607
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Material Adverse Change\"' means a fact, event or circumstance that, alone or when taken with other events or conditions occurring or.",
+    "bbox": [
+      156,
+      83,
+      1000,
+      96
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "existing concurrently with such event or condition, (a) has or is reasonably expected to have a material adverse effect on the business, operations,",
+    "bbox": [
+      111,
+      100,
+      1000,
+      113
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "condition (financial or otherwise), assets, liabilities, prospects, or properties of a Person; (b) has or is reasonably expected to have any material.",
+    "bbox": [
+      112,
+      116,
+      1000,
+      129
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "adverse effect on the validity or enforceability of this Agreement; (c) materially impairs or is reasonably expected to materially impair the ability of a",
+    "bbox": [
+      113,
+      133,
+      1000,
+      143
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Person to meet or perform its obligations under this Agreement; or (d) has or is reasonably expected to have any material adverse effect on a",
+    "bbox": [
+      111,
+      148,
+      1000,
+      160
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Person's rights under this Agreement.",
+    "bbox": [
+      111,
+      164,
+      396,
+      176
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Maximum Liability' means, with respect to Operator, the aggregate Residual Value of the Portfolio as of such date, and with respect to",
+    "bbox": [
+      154,
+      194,
+      1000,
+      209
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Owner, One Million Dollars ($1,o0o,oo0); provided that a reduction in the Maximum Liability of Operator shall never result in a requirement for",
+    "bbox": [
+      112,
+      212,
+      1000,
+      224
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Owner or any Owner Indemnitee to return any money to Operator. Maximum Liability will be determined on an aggregate basis between this",
+    "bbox": [
+      112,
+      228,
+      1000,
+      240
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Agreement and the MESPA..",
+    "bbox": [
+      114,
+      244,
+      322,
+      255
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"MESPA\" is defined in the Recitals to this Agreement.",
+    "bbox": [
+      157,
+      275,
+      562,
+      287
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Minimum Efficiency Level'\" means fifty percent (50%) Efficiency while a Bloom System is operating at Nameplate Capacity, measured over",
+    "bbox": [
+      156,
+      308,
+      1000,
+      320
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Efficiency Warranty Period..",
+    "bbox": [
+      112,
+      324,
+      347,
+      336
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Minimum kWh\"' means the product of (x) the number of hours in the applicable Power Performance Warranty Period minus the number of",
+    "bbox": [
+      157,
+      356,
+      1000,
+      368
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "hours for each Bloom System in the Portfolio as of the last day of the applicable Power Performance Warranty Period when each such Bloom",
+    "bbox": [
+      111,
+      372,
+      1000,
+      384
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "System (i) was subject to a Force Majeure Event, (ii) was not delivering Energy to the PJM Grid because of a failure to perform by DPL under the",
+    "bbox": [
+      112,
+      388,
+      1000,
+      400
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "DPL Agreements or PJM under the PJM Agreements, or (iii) was required to be disconnected from the grid or otherwise required not to deliver.",
+    "bbox": [
+      111,
+      403,
+      1000,
+      416
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Energy to the PJM Grid as the result of a Legal Requirement or action by or a directive from the applicable electric utility or PJM with respect to",
+    "bbox": [
+      112,
+      420,
+      1000,
+      432
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "such Bloom System (e.g., due to a grid event), and (y) the Minimum Power Product for the applicable Power Performance Warranty Period.",
+    "bbox": [
+      112,
+      436,
+      1000,
+      448
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Minimum Power Product\"' means the aggregate Nameplate Capacity of the Bloom Systems in the Portfolio in kW for the applicable Power",
+    "bbox": [
+      156,
+      468,
+      1000,
+      480
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Performance Warranty Period multiplied by (1) eighty-five percent (85%) when this term is used for the One-Month Power Performance Warranty or",
+    "bbox": [
+      111,
+      483,
+      1000,
+      496
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(2) ninety-five percent (95%) when this term is used for the One-Year Power Performance Warranty. An example of a calculation of the Minimum",
+    "bbox": [
+      111,
+      499,
+      1000,
+      512
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Power Product is set forth in Appendix B.",
+    "bbox": [
+      110,
+      514,
+      421,
+      528
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "MW\" means megawatt..",
+    "bbox": [
+      158,
+      548,
+      339,
+      560
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"MWh\" means megawatt-hour.",
+    "bbox": [
+      157,
+      579,
+      387,
+      592
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      661,
+      595,
+      672,
+      607
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Material Adverse Change\"' means a fact, event or circumstance that, alone or when taken with other events or conditions occurring or.",
+    "bbox": [
+      156,
+      83,
+      1000,
+      96
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "existing concurrently with such event or condition, (a) has or is reasonably expected to have a material adverse effect on the business, operations,",
+    "bbox": [
+      111,
+      100,
+      1000,
+      113
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "condition (financial or otherwise), assets, liabilities, prospects, or properties of a Person; (b) has or is reasonably expected to have any material.",
+    "bbox": [
+      112,
+      116,
+      1000,
+      129
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "adverse effect on the validity or enforceability of this Agreement; (c) materially impairs or is reasonably expected to materially impair the ability of a",
+    "bbox": [
+      113,
+      133,
+      1000,
+      143
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Person to meet or perform its obligations under this Agreement; or (d) has or is reasonably expected to have any material adverse effect on a",
+    "bbox": [
+      111,
+      148,
+      1000,
+      160
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Person's rights under this Agreement.",
+    "bbox": [
+      111,
+      164,
+      396,
+      176
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Maximum Liability' means, with respect to Operator, the aggregate Residual Value of the Portfolio as of such date, and with respect to",
+    "bbox": [
+      154,
+      194,
+      1000,
+      209
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Owner, One Million Dollars ($1,o0o,oo0); provided that a reduction in the Maximum Liability of Operator shall never result in a requirement for",
+    "bbox": [
+      112,
+      212,
+      1000,
+      224
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Owner or any Owner Indemnitee to return any money to Operator. Maximum Liability will be determined on an aggregate basis between this",
+    "bbox": [
+      112,
+      228,
+      1000,
+      240
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Agreement and the MESPA..",
+    "bbox": [
+      114,
+      244,
+      322,
+      255
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"MESPA\" is defined in the Recitals to this Agreement.",
+    "bbox": [
+      157,
+      275,
+      562,
+      287
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Minimum Efficiency Level'\" means fifty percent (50%) Efficiency while a Bloom System is operating at Nameplate Capacity, measured over",
+    "bbox": [
+      156,
+      308,
+      1000,
+      320
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Efficiency Warranty Period..",
+    "bbox": [
+      112,
+      324,
+      347,
+      336
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Minimum kWh\"' means the product of (x) the number of hours in the applicable Power Performance Warranty Period minus the number of",
+    "bbox": [
+      157,
+      356,
+      1000,
+      368
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "hours for each Bloom System in the Portfolio as of the last day of the applicable Power Performance Warranty Period when each such Bloom",
+    "bbox": [
+      111,
+      372,
+      1000,
+      384
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "System (i) was subject to a Force Majeure Event, (ii) was not delivering Energy to the PJM Grid because of a failure to perform by DPL under the",
+    "bbox": [
+      112,
+      388,
+      1000,
+      400
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "DPL Agreements or PJM under the PJM Agreements, or (iii) was required to be disconnected from the grid or otherwise required not to deliver.",
+    "bbox": [
+      111,
+      403,
+      1000,
+      416
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Energy to the PJM Grid as the result of a Legal Requirement or action by or a directive from the applicable electric utility or PJM with respect to",
+    "bbox": [
+      112,
+      420,
+      1000,
+      432
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "such Bloom System (e.g., due to a grid event), and (y) the Minimum Power Product for the applicable Power Performance Warranty Period.",
+    "bbox": [
+      112,
+      436,
+      1000,
+      448
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"Minimum Power Product\"' means the aggregate Nameplate Capacity of the Bloom Systems in the Portfolio in kW for the applicable Power",
+    "bbox": [
+      156,
+      468,
+      1000,
+      480
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Performance Warranty Period multiplied by (1) eighty-five percent (85%) when this term is used for the One-Month Power Performance Warranty or",
+    "bbox": [
+      111,
+      483,
+      1000,
+      496
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(2) ninety-five percent (95%) when this term is used for the One-Year Power Performance Warranty. An example of a calculation of the Minimum",
+    "bbox": [
+      111,
+      499,
+      1000,
+      512
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Power Product is set forth in Appendix B.",
+    "bbox": [
+      110,
+      514,
+      421,
+      528
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "MW\" means megawatt..",
+    "bbox": [
+      158,
+      548,
+      339,
+      560
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "\"MWh\" means megawatt-hour.",
+    "bbox": [
+      157,
+      579,
+      387,
+      592
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      661,
+      595,
+      672,
+      607
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

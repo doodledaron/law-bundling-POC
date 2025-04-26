@@ -1,0 +1,2422 @@
+[
+  {
+    "text": "2.",
+    "bbox": [
+      193,
+      96,
+      214,
+      111
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONSIDERATION",
+    "bbox": [
+      255,
+      98,
+      443,
+      110
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      253,
+      145,
+      276,
+      158
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "In consideration for the license ofrights granted hereunder in the Current Content, COMPANY",
+    "bbox": [
+      298,
+      146,
+      1000,
+      159
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "hereby agrees to issue to YGP 16,200 shares of its Series A Convertible Preferred Stock for which",
+    "bbox": [
+      298,
+      165,
+      1000,
+      180
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "YGP will pay COMPANY the sum of $1.00 per share or $16,200 in theaggregate; NCM 3,000 of",
+    "bbox": [
+      302,
+      186,
+      1000,
+      200
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "its Series A Convertible Preferred Stock for which NCM will pay COMPANY the sum of $1.00",
+    "bbox": [
+      299,
+      205,
+      1000,
+      220
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "per share or $3,000 in the aggregate and TWK 12,000 of its Series A ConvertiblePreferred Stock.",
+    "bbox": [
+      299,
+      225,
+      1000,
+      241
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "for which TWK will pay COMPANY the sum of $1.00 per share o$12,000 in the aggregate. Prior",
+    "bbox": [
+      299,
+      245,
+      1000,
+      261
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "to the execution hereof, CONTENT PROVIDER has been furnished with a copy of theertificate",
+    "bbox": [
+      300,
+      266,
+      1000,
+      278
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "of Designation for the Series A Convertible Preferred Stock and is fully familiar with the terms and",
+    "bbox": [
+      302,
+      286,
+      1000,
+      299
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "conditions thereof.",
+    "bbox": [
+      302,
+      307,
+      455,
+      318
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      353,
+      272,
+      367
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "In addition to the foregoing, and subject to the terms and conditions of the applicable content",
+    "bbox": [
+      297,
+      353,
+      1000,
+      368
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "agreement with such Licensor, COMPANY agrees to pay directlyto each Licensor from whom",
+    "bbox": [
+      300,
+      375,
+      1000,
+      388
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONTENT PROVIDER might obtain Content which CONTENPROVIDER licenses to",
+    "bbox": [
+      299,
+      393,
+      1000,
+      407
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "COMPANY pursuant hereto a royalty equal to that royaltywhich CONTENT PROVIDER might",
+    "bbox": [
+      299,
+      413,
+      1000,
+      429
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "be obligated to pay to that Licensor with respect to the use and exploitation of that Content in the",
+    "bbox": [
+      299,
+      433,
+      1000,
+      448
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "manner licensed to and actually used by COMPANY pursuant hereto provided, however, unless the",
+    "bbox": [
+      300,
+      455,
+      1000,
+      467
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Parties might agree in writing to the contrary, in no event will COMPANY be obligated topay such",
+    "bbox": [
+      299,
+      474,
+      1000,
+      488
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Licensor for the use of such Content more than fifty percent (50.0%) ofall revenues generated during",
+    "bbox": [
+      299,
+      493,
+      1000,
+      509
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "the Term of this Agreement from banner advertising that appears on Web site pages that display that.",
+    "bbox": [
+      299,
+      514,
+      1000,
+      529
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Content or any portion thereof and with respect to which at least a majority of the content (excluding",
+    "bbox": [
+      300,
+      533,
+      1000,
+      548
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "advertisements) on such pages is composed of the Content (the \"Net Advertising Revenue\").",
+    "bbox": [
+      301,
+      554,
+      1000,
+      568
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      254,
+      603,
+      271,
+      613
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Subject to the terms and conditions ofthe applicable content agreement with such Licensor, the Net",
+    "bbox": [
+      301,
+      603,
+      1000,
+      615
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Advertising Revenue shall be calculated on a quarterly calendar basis (the \"Net Advertising",
+    "bbox": [
+      299,
+      621,
+      1000,
+      636
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Revenue Period') and shall be payable no later than sixty (60) days after the termination of the",
+    "bbox": [
+      299,
+      641,
+      1000,
+      656
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "preceding full quarter-annual period, i.e., commencing on the first (1st) day of January, April, July",
+    "bbox": [
+      301,
+      663,
+      1000,
+      675
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "and October except that the first and last calendar periods may be \"short,\" depending on the effective",
+    "bbox": [
+      299,
+      681,
+      1000,
+      696
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "date of this Agreement..",
+    "bbox": [
+      302,
+      703,
+      496,
+      715
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      252,
+      749,
+      277,
+      762
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "For each Net Advertising Revenue Period,COMPANY shall provide the Licensor of such Content",
+    "bbox": [
+      296,
+      749,
+      1000,
+      764
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "with a written statement of account setting out the actual number of visits to the Web Site during the",
+    "bbox": [
+      300,
+      769,
+      1000,
+      784
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "applicable Net Advertising Revenue Period. Such statement shall be furnished to the Licensor of such",
+    "bbox": [
+      300,
+      788,
+      1000,
+      804
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Content regardless of whether any visits to the Web site were made during the applicable period.",
+    "bbox": [
+      300,
+      810,
+      1000,
+      824
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "E.",
+    "bbox": [
+      251,
+      857,
+      272,
+      871
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "COMPANY'S obligation for the payment ofthe Net Advertising Revenue shall survive expiration or.",
+    "bbox": [
+      298,
+      857,
+      1000,
+      872
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "termination of this Agreement and will continue for as long as COMPANY continues to use the",
+    "bbox": [
+      301,
+      879,
+      1000,
+      891
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Content.",
+    "bbox": [
+      297,
+      896,
+      374,
+      912
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "F.",
+    "bbox": [
+      250,
+      944,
+      272,
+      959
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "For the avoidance of doubt or confusion, the sole consideration paid or payable to CONTENT",
+    "bbox": [
+      298,
+      945,
+      1000,
+      959
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "PROVIDER pursuant to thisAgreement is that provided for in paragraph 2A hereof and in no event",
+    "bbox": [
+      298,
+      965,
+      1000,
+      980
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "will CONTENT PROVIDER be entitled to receive any participation in any of the revenueshich",
+    "bbox": [
+      301,
+      985,
+      1000,
+      999
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "COMPANY might derive from the Content..",
+    "bbox": [
+      299,
+      1000,
+      676,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      193,
+      1000,
+      214,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONTENT PROVIDER'S RESPONSIBILITIES",
+    "bbox": [
+      254,
+      1000,
+      719,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      254,
+      1000,
+      277,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONTENT PROVIDER will provide to COMPANte Content, which will comply with the",
+    "bbox": [
+      295,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "description attached hereto as Exhibit A..",
+    "bbox": [
+      300,
+      1000,
+      643,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      1000,
+      273,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONTENT PROVIDER will have sohesponsibility for providing, at its expense, the Content to",
+    "bbox": [
+      298,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "COMPANY. CONTENTPROVIDER and COMPANY will determine mutually agreeable",
+    "bbox": [
+      300,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "methods for the transmission and incorporation of updates to the Content..",
+    "bbox": [
+      301,
+      1000,
+      923,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: MIDWEST ENERGY EMISSIONS CORP., 8-K, 6/4/2008",
+    "bbox": [
+      134,
+      1000,
+      623,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      193,
+      96,
+      214,
+      111
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "CONSIDERATION",
+    "bbox": [
+      255,
+      98,
+      443,
+      110
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      253,
+      145,
+      276,
+      158
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "In consideration for the license ofrights granted hereunder in the Current Content, COMPANY",
+    "bbox": [
+      298,
+      146,
+      1000,
+      159
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "hereby agrees to issue to YGP 16,200 shares of its Series A Convertible Preferred Stock for which",
+    "bbox": [
+      298,
+      165,
+      1000,
+      180
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "YGP will pay COMPANY the sum of $1.00 per share or $16,200 in theaggregate; NCM 3,000 of",
+    "bbox": [
+      302,
+      186,
+      1000,
+      200
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "its Series A Convertible Preferred Stock for which NCM will pay COMPANY the sum of $1.00",
+    "bbox": [
+      299,
+      205,
+      1000,
+      220
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "per share or $3,000 in the aggregate and TWK 12,000 of its Series A ConvertiblePreferred Stock.",
+    "bbox": [
+      299,
+      225,
+      1000,
+      241
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "for which TWK will pay COMPANY the sum of $1.00 per share o$12,000 in the aggregate. Prior",
+    "bbox": [
+      299,
+      245,
+      1000,
+      261
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "to the execution hereof, CONTENT PROVIDER has been furnished with a copy of theertificate",
+    "bbox": [
+      300,
+      266,
+      1000,
+      278
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "of Designation for the Series A Convertible Preferred Stock and is fully familiar with the terms and",
+    "bbox": [
+      302,
+      286,
+      1000,
+      299
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "conditions thereof.",
+    "bbox": [
+      302,
+      307,
+      455,
+      318
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      353,
+      272,
+      367
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "In addition to the foregoing, and subject to the terms and conditions of the applicable content",
+    "bbox": [
+      297,
+      353,
+      1000,
+      368
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "agreement with such Licensor, COMPANY agrees to pay directlyto each Licensor from whom",
+    "bbox": [
+      300,
+      375,
+      1000,
+      388
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "CONTENT PROVIDER might obtain Content which CONTENPROVIDER licenses to",
+    "bbox": [
+      299,
+      393,
+      1000,
+      407
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "COMPANY pursuant hereto a royalty equal to that royaltywhich CONTENT PROVIDER might",
+    "bbox": [
+      299,
+      413,
+      1000,
+      429
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "be obligated to pay to that Licensor with respect to the use and exploitation of that Content in the",
+    "bbox": [
+      299,
+      433,
+      1000,
+      448
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "manner licensed to and actually used by COMPANY pursuant hereto provided, however, unless the",
+    "bbox": [
+      300,
+      455,
+      1000,
+      467
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Parties might agree in writing to the contrary, in no event will COMPANY be obligated topay such",
+    "bbox": [
+      299,
+      474,
+      1000,
+      488
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Licensor for the use of such Content more than fifty percent (50.0%) ofall revenues generated during",
+    "bbox": [
+      299,
+      493,
+      1000,
+      509
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "the Term of this Agreement from banner advertising that appears on Web site pages that display that.",
+    "bbox": [
+      299,
+      514,
+      1000,
+      529
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Content or any portion thereof and with respect to which at least a majority of the content (excluding",
+    "bbox": [
+      300,
+      533,
+      1000,
+      548
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "advertisements) on such pages is composed of the Content (the \"Net Advertising Revenue\").",
+    "bbox": [
+      301,
+      554,
+      1000,
+      568
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      254,
+      603,
+      271,
+      613
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Subject to the terms and conditions ofthe applicable content agreement with such Licensor, the Net",
+    "bbox": [
+      301,
+      603,
+      1000,
+      615
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Advertising Revenue shall be calculated on a quarterly calendar basis (the \"Net Advertising",
+    "bbox": [
+      299,
+      621,
+      1000,
+      636
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Revenue Period') and shall be payable no later than sixty (60) days after the termination of the",
+    "bbox": [
+      299,
+      641,
+      1000,
+      656
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "preceding full quarter-annual period, i.e., commencing on the first (1st) day of January, April, July",
+    "bbox": [
+      301,
+      663,
+      1000,
+      675
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "and October except that the first and last calendar periods may be \"short,\" depending on the effective",
+    "bbox": [
+      299,
+      681,
+      1000,
+      696
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "date of this Agreement..",
+    "bbox": [
+      302,
+      703,
+      496,
+      715
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      252,
+      749,
+      277,
+      762
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "For each Net Advertising Revenue Period,COMPANY shall provide the Licensor of such Content",
+    "bbox": [
+      296,
+      749,
+      1000,
+      764
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "with a written statement of account setting out the actual number of visits to the Web Site during the",
+    "bbox": [
+      300,
+      769,
+      1000,
+      784
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "applicable Net Advertising Revenue Period. Such statement shall be furnished to the Licensor of such",
+    "bbox": [
+      300,
+      788,
+      1000,
+      804
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Content regardless of whether any visits to the Web site were made during the applicable period.",
+    "bbox": [
+      300,
+      810,
+      1000,
+      824
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "E.",
+    "bbox": [
+      251,
+      857,
+      272,
+      871
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "COMPANY'S obligation for the payment ofthe Net Advertising Revenue shall survive expiration or.",
+    "bbox": [
+      298,
+      857,
+      1000,
+      872
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "termination of this Agreement and will continue for as long as COMPANY continues to use the",
+    "bbox": [
+      301,
+      879,
+      1000,
+      891
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Content.",
+    "bbox": [
+      297,
+      896,
+      374,
+      912
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "F.",
+    "bbox": [
+      250,
+      944,
+      272,
+      959
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "For the avoidance of doubt or confusion, the sole consideration paid or payable to CONTENT",
+    "bbox": [
+      298,
+      945,
+      1000,
+      959
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "PROVIDER pursuant to thisAgreement is that provided for in paragraph 2A hereof and in no event",
+    "bbox": [
+      298,
+      965,
+      1000,
+      980
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "will CONTENT PROVIDER be entitled to receive any participation in any of the revenueshich",
+    "bbox": [
+      301,
+      985,
+      1000,
+      999
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "COMPANY might derive from the Content..",
+    "bbox": [
+      299,
+      1000,
+      676,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      193,
+      1000,
+      214,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "CONTENT PROVIDER'S RESPONSIBILITIES",
+    "bbox": [
+      254,
+      1000,
+      719,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      254,
+      1000,
+      277,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "CONTENT PROVIDER will provide to COMPANte Content, which will comply with the",
+    "bbox": [
+      295,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "description attached hereto as Exhibit A..",
+    "bbox": [
+      300,
+      1000,
+      643,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      1000,
+      273,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "CONTENT PROVIDER will have sohesponsibility for providing, at its expense, the Content to",
+    "bbox": [
+      298,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "COMPANY. CONTENTPROVIDER and COMPANY will determine mutually agreeable",
+    "bbox": [
+      300,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "methods for the transmission and incorporation of updates to the Content..",
+    "bbox": [
+      301,
+      1000,
+      923,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Source: MIDWEST ENERGY EMISSIONS CORP., 8-K, 6/4/2008",
+    "bbox": [
+      134,
+      1000,
+      623,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      193,
+      96,
+      214,
+      111
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CONSIDERATION",
+    "bbox": [
+      255,
+      98,
+      443,
+      110
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      253,
+      145,
+      276,
+      158
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "In consideration for the license ofrights granted hereunder in the Current Content, COMPANY",
+    "bbox": [
+      298,
+      146,
+      1000,
+      159
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "hereby agrees to issue to YGP 16,200 shares of its Series A Convertible Preferred Stock for which",
+    "bbox": [
+      298,
+      165,
+      1000,
+      180
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "YGP will pay COMPANY the sum of $1.00 per share or $16,200 in theaggregate; NCM 3,000 of",
+    "bbox": [
+      302,
+      186,
+      1000,
+      200
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "its Series A Convertible Preferred Stock for which NCM will pay COMPANY the sum of $1.00",
+    "bbox": [
+      299,
+      205,
+      1000,
+      220
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "per share or $3,000 in the aggregate and TWK 12,000 of its Series A ConvertiblePreferred Stock.",
+    "bbox": [
+      299,
+      225,
+      1000,
+      241
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "for which TWK will pay COMPANY the sum of $1.00 per share o$12,000 in the aggregate. Prior",
+    "bbox": [
+      299,
+      245,
+      1000,
+      261
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "to the execution hereof, CONTENT PROVIDER has been furnished with a copy of theertificate",
+    "bbox": [
+      300,
+      266,
+      1000,
+      278
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "of Designation for the Series A Convertible Preferred Stock and is fully familiar with the terms and",
+    "bbox": [
+      302,
+      286,
+      1000,
+      299
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "conditions thereof.",
+    "bbox": [
+      302,
+      307,
+      455,
+      318
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      353,
+      272,
+      367
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "In addition to the foregoing, and subject to the terms and conditions of the applicable content",
+    "bbox": [
+      297,
+      353,
+      1000,
+      368
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "agreement with such Licensor, COMPANY agrees to pay directlyto each Licensor from whom",
+    "bbox": [
+      300,
+      375,
+      1000,
+      388
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CONTENT PROVIDER might obtain Content which CONTENPROVIDER licenses to",
+    "bbox": [
+      299,
+      393,
+      1000,
+      407
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "COMPANY pursuant hereto a royalty equal to that royaltywhich CONTENT PROVIDER might",
+    "bbox": [
+      299,
+      413,
+      1000,
+      429
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "be obligated to pay to that Licensor with respect to the use and exploitation of that Content in the",
+    "bbox": [
+      299,
+      433,
+      1000,
+      448
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "manner licensed to and actually used by COMPANY pursuant hereto provided, however, unless the",
+    "bbox": [
+      300,
+      455,
+      1000,
+      467
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Parties might agree in writing to the contrary, in no event will COMPANY be obligated topay such",
+    "bbox": [
+      299,
+      474,
+      1000,
+      488
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Licensor for the use of such Content more than fifty percent (50.0%) ofall revenues generated during",
+    "bbox": [
+      299,
+      493,
+      1000,
+      509
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "the Term of this Agreement from banner advertising that appears on Web site pages that display that.",
+    "bbox": [
+      299,
+      514,
+      1000,
+      529
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Content or any portion thereof and with respect to which at least a majority of the content (excluding",
+    "bbox": [
+      300,
+      533,
+      1000,
+      548
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "advertisements) on such pages is composed of the Content (the \"Net Advertising Revenue\").",
+    "bbox": [
+      301,
+      554,
+      1000,
+      568
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      254,
+      603,
+      271,
+      613
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Subject to the terms and conditions ofthe applicable content agreement with such Licensor, the Net",
+    "bbox": [
+      301,
+      603,
+      1000,
+      615
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Advertising Revenue shall be calculated on a quarterly calendar basis (the \"Net Advertising",
+    "bbox": [
+      299,
+      621,
+      1000,
+      636
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Revenue Period') and shall be payable no later than sixty (60) days after the termination of the",
+    "bbox": [
+      299,
+      641,
+      1000,
+      656
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "preceding full quarter-annual period, i.e., commencing on the first (1st) day of January, April, July",
+    "bbox": [
+      301,
+      663,
+      1000,
+      675
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and October except that the first and last calendar periods may be \"short,\" depending on the effective",
+    "bbox": [
+      299,
+      681,
+      1000,
+      696
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "date of this Agreement..",
+    "bbox": [
+      302,
+      703,
+      496,
+      715
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      252,
+      749,
+      277,
+      762
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "For each Net Advertising Revenue Period,COMPANY shall provide the Licensor of such Content",
+    "bbox": [
+      296,
+      749,
+      1000,
+      764
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "with a written statement of account setting out the actual number of visits to the Web Site during the",
+    "bbox": [
+      300,
+      769,
+      1000,
+      784
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "applicable Net Advertising Revenue Period. Such statement shall be furnished to the Licensor of such",
+    "bbox": [
+      300,
+      788,
+      1000,
+      804
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Content regardless of whether any visits to the Web site were made during the applicable period.",
+    "bbox": [
+      300,
+      810,
+      1000,
+      824
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "E.",
+    "bbox": [
+      251,
+      857,
+      272,
+      871
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "COMPANY'S obligation for the payment ofthe Net Advertising Revenue shall survive expiration or.",
+    "bbox": [
+      298,
+      857,
+      1000,
+      872
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "termination of this Agreement and will continue for as long as COMPANY continues to use the",
+    "bbox": [
+      301,
+      879,
+      1000,
+      891
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Content.",
+    "bbox": [
+      297,
+      896,
+      374,
+      912
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "F.",
+    "bbox": [
+      250,
+      944,
+      272,
+      959
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "For the avoidance of doubt or confusion, the sole consideration paid or payable to CONTENT",
+    "bbox": [
+      298,
+      945,
+      1000,
+      959
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "PROVIDER pursuant to thisAgreement is that provided for in paragraph 2A hereof and in no event",
+    "bbox": [
+      298,
+      965,
+      1000,
+      980
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "will CONTENT PROVIDER be entitled to receive any participation in any of the revenueshich",
+    "bbox": [
+      301,
+      985,
+      1000,
+      999
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "COMPANY might derive from the Content..",
+    "bbox": [
+      299,
+      1000,
+      676,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      193,
+      1000,
+      214,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CONTENT PROVIDER'S RESPONSIBILITIES",
+    "bbox": [
+      254,
+      1000,
+      719,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      254,
+      1000,
+      277,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CONTENT PROVIDER will provide to COMPANte Content, which will comply with the",
+    "bbox": [
+      295,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "description attached hereto as Exhibit A..",
+    "bbox": [
+      300,
+      1000,
+      643,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      1000,
+      273,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CONTENT PROVIDER will have sohesponsibility for providing, at its expense, the Content to",
+    "bbox": [
+      298,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "COMPANY. CONTENTPROVIDER and COMPANY will determine mutually agreeable",
+    "bbox": [
+      300,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "methods for the transmission and incorporation of updates to the Content..",
+    "bbox": [
+      301,
+      1000,
+      923,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: MIDWEST ENERGY EMISSIONS CORP., 8-K, 6/4/2008",
+    "bbox": [
+      134,
+      1000,
+      623,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      193,
+      96,
+      214,
+      111
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CONSIDERATION",
+    "bbox": [
+      255,
+      98,
+      443,
+      110
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      253,
+      145,
+      276,
+      158
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "In consideration for the license ofrights granted hereunder in the Current Content, COMPANY",
+    "bbox": [
+      298,
+      146,
+      1000,
+      159
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "hereby agrees to issue to YGP 16,200 shares of its Series A Convertible Preferred Stock for which",
+    "bbox": [
+      298,
+      165,
+      1000,
+      180
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "YGP will pay COMPANY the sum of $1.00 per share or $16,200 in theaggregate; NCM 3,000 of",
+    "bbox": [
+      302,
+      186,
+      1000,
+      200
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "its Series A Convertible Preferred Stock for which NCM will pay COMPANY the sum of $1.00",
+    "bbox": [
+      299,
+      205,
+      1000,
+      220
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "per share or $3,000 in the aggregate and TWK 12,000 of its Series A ConvertiblePreferred Stock.",
+    "bbox": [
+      299,
+      225,
+      1000,
+      241
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "for which TWK will pay COMPANY the sum of $1.00 per share o$12,000 in the aggregate. Prior",
+    "bbox": [
+      299,
+      245,
+      1000,
+      261
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "to the execution hereof, CONTENT PROVIDER has been furnished with a copy of theertificate",
+    "bbox": [
+      300,
+      266,
+      1000,
+      278
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "of Designation for the Series A Convertible Preferred Stock and is fully familiar with the terms and",
+    "bbox": [
+      302,
+      286,
+      1000,
+      299
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "conditions thereof.",
+    "bbox": [
+      302,
+      307,
+      455,
+      318
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      353,
+      272,
+      367
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "In addition to the foregoing, and subject to the terms and conditions of the applicable content",
+    "bbox": [
+      297,
+      353,
+      1000,
+      368
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "agreement with such Licensor, COMPANY agrees to pay directlyto each Licensor from whom",
+    "bbox": [
+      300,
+      375,
+      1000,
+      388
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CONTENT PROVIDER might obtain Content which CONTENPROVIDER licenses to",
+    "bbox": [
+      299,
+      393,
+      1000,
+      407
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "COMPANY pursuant hereto a royalty equal to that royaltywhich CONTENT PROVIDER might",
+    "bbox": [
+      299,
+      413,
+      1000,
+      429
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "be obligated to pay to that Licensor with respect to the use and exploitation of that Content in the",
+    "bbox": [
+      299,
+      433,
+      1000,
+      448
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "manner licensed to and actually used by COMPANY pursuant hereto provided, however, unless the",
+    "bbox": [
+      300,
+      455,
+      1000,
+      467
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Parties might agree in writing to the contrary, in no event will COMPANY be obligated topay such",
+    "bbox": [
+      299,
+      474,
+      1000,
+      488
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Licensor for the use of such Content more than fifty percent (50.0%) ofall revenues generated during",
+    "bbox": [
+      299,
+      493,
+      1000,
+      509
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the Term of this Agreement from banner advertising that appears on Web site pages that display that.",
+    "bbox": [
+      299,
+      514,
+      1000,
+      529
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Content or any portion thereof and with respect to which at least a majority of the content (excluding",
+    "bbox": [
+      300,
+      533,
+      1000,
+      548
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "advertisements) on such pages is composed of the Content (the \"Net Advertising Revenue\").",
+    "bbox": [
+      301,
+      554,
+      1000,
+      568
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      254,
+      603,
+      271,
+      613
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Subject to the terms and conditions ofthe applicable content agreement with such Licensor, the Net",
+    "bbox": [
+      301,
+      603,
+      1000,
+      615
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Advertising Revenue shall be calculated on a quarterly calendar basis (the \"Net Advertising",
+    "bbox": [
+      299,
+      621,
+      1000,
+      636
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Revenue Period') and shall be payable no later than sixty (60) days after the termination of the",
+    "bbox": [
+      299,
+      641,
+      1000,
+      656
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "preceding full quarter-annual period, i.e., commencing on the first (1st) day of January, April, July",
+    "bbox": [
+      301,
+      663,
+      1000,
+      675
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and October except that the first and last calendar periods may be \"short,\" depending on the effective",
+    "bbox": [
+      299,
+      681,
+      1000,
+      696
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "date of this Agreement..",
+    "bbox": [
+      302,
+      703,
+      496,
+      715
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      252,
+      749,
+      277,
+      762
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "For each Net Advertising Revenue Period,COMPANY shall provide the Licensor of such Content",
+    "bbox": [
+      296,
+      749,
+      1000,
+      764
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "with a written statement of account setting out the actual number of visits to the Web Site during the",
+    "bbox": [
+      300,
+      769,
+      1000,
+      784
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "applicable Net Advertising Revenue Period. Such statement shall be furnished to the Licensor of such",
+    "bbox": [
+      300,
+      788,
+      1000,
+      804
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Content regardless of whether any visits to the Web site were made during the applicable period.",
+    "bbox": [
+      300,
+      810,
+      1000,
+      824
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "E.",
+    "bbox": [
+      251,
+      857,
+      272,
+      871
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "COMPANY'S obligation for the payment ofthe Net Advertising Revenue shall survive expiration or.",
+    "bbox": [
+      298,
+      857,
+      1000,
+      872
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "termination of this Agreement and will continue for as long as COMPANY continues to use the",
+    "bbox": [
+      301,
+      879,
+      1000,
+      891
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Content.",
+    "bbox": [
+      297,
+      896,
+      374,
+      912
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "F.",
+    "bbox": [
+      250,
+      944,
+      272,
+      959
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "For the avoidance of doubt or confusion, the sole consideration paid or payable to CONTENT",
+    "bbox": [
+      298,
+      945,
+      1000,
+      959
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "PROVIDER pursuant to thisAgreement is that provided for in paragraph 2A hereof and in no event",
+    "bbox": [
+      298,
+      965,
+      1000,
+      980
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "will CONTENT PROVIDER be entitled to receive any participation in any of the revenueshich",
+    "bbox": [
+      301,
+      985,
+      1000,
+      999
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "COMPANY might derive from the Content..",
+    "bbox": [
+      299,
+      1000,
+      676,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      193,
+      1000,
+      214,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CONTENT PROVIDER'S RESPONSIBILITIES",
+    "bbox": [
+      254,
+      1000,
+      719,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      254,
+      1000,
+      277,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CONTENT PROVIDER will provide to COMPANte Content, which will comply with the",
+    "bbox": [
+      295,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "description attached hereto as Exhibit A..",
+    "bbox": [
+      300,
+      1000,
+      643,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      251,
+      1000,
+      273,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "CONTENT PROVIDER will have sohesponsibility for providing, at its expense, the Content to",
+    "bbox": [
+      298,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "COMPANY. CONTENTPROVIDER and COMPANY will determine mutually agreeable",
+    "bbox": [
+      300,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "methods for the transmission and incorporation of updates to the Content..",
+    "bbox": [
+      301,
+      1000,
+      923,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: MIDWEST ENERGY EMISSIONS CORP., 8-K, 6/4/2008",
+    "bbox": [
+      134,
+      1000,
+      623,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

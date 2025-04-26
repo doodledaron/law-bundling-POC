@@ -1,0 +1,662 @@
+[
+  {
+    "text": "1.5\"Alliance Manager\" shall have the meaning set forth in Section 2.5.",
+    "bbox": [
+      191,
+      72,
+      724,
+      84
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.6\"Annual Marketing Plan\"' shall mean the plan for the Marketing and Promotion of the Product in the Territory for each full or partial",
+    "bbox": [
+      192,
+      90,
+      1000,
+      100
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Calendar Year as described in Section 3.3, as prepared and updated from time to time pursuant to Section 3.3..",
+    "bbox": [
+      258,
+      105,
+      1000,
+      117
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.7\"Annual Supplemental Promotion Fee\"' shall have the meaning set forth in Section 4.2(c)(i)..",
+    "bbox": [
+      192,
+      121,
+      902,
+      133
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.8\"Applicable Compliance/Review Policies\"' shall mean, with respect to Pfizer, its written Code of Ethics and Professional Conduct and,.",
+    "bbox": [
+      192,
+      137,
+      1000,
+      149
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "with respect to Exact, its written Code of Business Conduct and Ethics, and such policies and standard operating procedures",
+    "bbox": [
+      258,
+      153,
+      1000,
+      165
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "that are adhered to by such Party in connection with the Product and any payments or services contemplated by this",
+    "bbox": [
+      258,
+      168,
+      1000,
+      181
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement, as the same may be amended from time to time.",
+    "bbox": [
+      259,
+      185,
+      700,
+      196
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.9\"Applicable Law\"' shall mean any law, statute, rule, regulation, order, judgment, ordinance, administrative code, decree, directive,",
+    "bbox": [
+      191,
+      200,
+      1000,
+      214
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "injunction or permit (including Regulatory Approvals) of any court, arbitral body, agency, department, authority or other.",
+    "bbox": [
+      259,
+      217,
+      1000,
+      229
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "instrumentality of any national, state, county, city or other political subdivision applicable to a Party's activities to be performed",
+    "bbox": [
+      258,
+      233,
+      1000,
+      245
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "under this Agreement. For the avoidance of doubt, any specific references to any Applicable Law or any portion thereof, shall",
+    "bbox": [
+      259,
+      249,
+      1000,
+      261
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "be deemed to include all amendments, replacements or successors thereto.",
+    "bbox": [
+      258,
+      265,
+      817,
+      277
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.10\"Audited Party\" shall have the meaning set forth in Section 4.7(b)(i).",
+    "bbox": [
+      192,
+      280,
+      738,
+      293
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.11\"Auditing Party\"' shall have the meaning set forth in Section 4.7(b)(i).",
+    "bbox": [
+      192,
+      297,
+      745,
+      309
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.12\"Baseline Laboratory Service Revenue\" shall mean, with respect to a particular Calendar Year during the Term, the amounts set.",
+    "bbox": [
+      190,
+      312,
+      1000,
+      324
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "forth in Section 4.2(b).",
+    "bbox": [
+      258,
+      329,
+      423,
+      340
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.13\"Baseline M&P Expense\" shall have the meaning set forth in Section 3.6..",
+    "bbox": [
+      191,
+      345,
+      775,
+      357
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.14\"Business Day\"' shall mean any day other than a Saturday, Sunday, or a bank or other public holiday in New York, New York, United.",
+    "bbox": [
+      191,
+      360,
+      1000,
+      373
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "States.",
+    "bbox": [
+      257,
+      377,
+      310,
+      388
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.15\"Calendar Quarter' shall mean the respective periods of three (3) consecutive calendar months ending on March 31, June 30,",
+    "bbox": [
+      190,
+      392,
+      1000,
+      405
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "September 30 or December 31.",
+    "bbox": [
+      259,
+      409,
+      484,
+      421
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.16\"Calendar Year' shall mean the respective periods of twelve (12) calendar months, each such period ending on December 31 of the.",
+    "bbox": [
+      190,
+      424,
+      1000,
+      437
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "applicable year for as long as this Agreement is in effect.",
+    "bbox": [
+      258,
+      440,
+      684,
+      454
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.17\"Calendar Year Baseline Laboratory Service Revenue\" shall have the meaning set forth in Section 4.2(b).",
+    "bbox": [
+      191,
+      457,
+      1000,
+      469
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.18\"Change of Control' shall mean, with respect to a Party: (a) the sale of all or substantially all of such Party's assets or business.",
+    "bbox": [
+      191,
+      473,
+      1000,
+      485
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "relating to the subject matter of this Agreement; (b) a merger, reorganization, or consolidation involving such Party in which the.",
+    "bbox": [
+      257,
+      487,
+      1000,
+      502
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "holders of voting securities of such Party outstanding immediately",
+    "bbox": [
+      258,
+      504,
+      759,
+      517
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      521,
+      672,
+      531
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.5\"Alliance Manager\" shall have the meaning set forth in Section 2.5.",
+    "bbox": [
+      191,
+      72,
+      724,
+      84
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.6\"Annual Marketing Plan\"' shall mean the plan for the Marketing and Promotion of the Product in the Territory for each full or partial",
+    "bbox": [
+      192,
+      90,
+      1000,
+      100
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Calendar Year as described in Section 3.3, as prepared and updated from time to time pursuant to Section 3.3..",
+    "bbox": [
+      258,
+      105,
+      1000,
+      117
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.7\"Annual Supplemental Promotion Fee\"' shall have the meaning set forth in Section 4.2(c)(i)..",
+    "bbox": [
+      192,
+      121,
+      902,
+      133
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.8\"Applicable Compliance/Review Policies\"' shall mean, with respect to Pfizer, its written Code of Ethics and Professional Conduct and,.",
+    "bbox": [
+      192,
+      137,
+      1000,
+      149
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "with respect to Exact, its written Code of Business Conduct and Ethics, and such policies and standard operating procedures",
+    "bbox": [
+      258,
+      153,
+      1000,
+      165
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "that are adhered to by such Party in connection with the Product and any payments or services contemplated by this",
+    "bbox": [
+      258,
+      168,
+      1000,
+      181
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Agreement, as the same may be amended from time to time.",
+    "bbox": [
+      259,
+      185,
+      700,
+      196
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.9\"Applicable Law\"' shall mean any law, statute, rule, regulation, order, judgment, ordinance, administrative code, decree, directive,",
+    "bbox": [
+      191,
+      200,
+      1000,
+      214
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "injunction or permit (including Regulatory Approvals) of any court, arbitral body, agency, department, authority or other.",
+    "bbox": [
+      259,
+      217,
+      1000,
+      229
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "instrumentality of any national, state, county, city or other political subdivision applicable to a Party's activities to be performed",
+    "bbox": [
+      258,
+      233,
+      1000,
+      245
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "under this Agreement. For the avoidance of doubt, any specific references to any Applicable Law or any portion thereof, shall",
+    "bbox": [
+      259,
+      249,
+      1000,
+      261
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "be deemed to include all amendments, replacements or successors thereto.",
+    "bbox": [
+      258,
+      265,
+      817,
+      277
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.10\"Audited Party\" shall have the meaning set forth in Section 4.7(b)(i).",
+    "bbox": [
+      192,
+      280,
+      738,
+      293
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.11\"Auditing Party\"' shall have the meaning set forth in Section 4.7(b)(i).",
+    "bbox": [
+      192,
+      297,
+      745,
+      309
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.12\"Baseline Laboratory Service Revenue\" shall mean, with respect to a particular Calendar Year during the Term, the amounts set.",
+    "bbox": [
+      190,
+      312,
+      1000,
+      324
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "forth in Section 4.2(b).",
+    "bbox": [
+      258,
+      329,
+      423,
+      340
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.13\"Baseline M&P Expense\" shall have the meaning set forth in Section 3.6..",
+    "bbox": [
+      191,
+      345,
+      775,
+      357
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.14\"Business Day\"' shall mean any day other than a Saturday, Sunday, or a bank or other public holiday in New York, New York, United.",
+    "bbox": [
+      191,
+      360,
+      1000,
+      373
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "States.",
+    "bbox": [
+      257,
+      377,
+      310,
+      388
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.15\"Calendar Quarter' shall mean the respective periods of three (3) consecutive calendar months ending on March 31, June 30,",
+    "bbox": [
+      190,
+      392,
+      1000,
+      405
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "September 30 or December 31.",
+    "bbox": [
+      259,
+      409,
+      484,
+      421
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.16\"Calendar Year' shall mean the respective periods of twelve (12) calendar months, each such period ending on December 31 of the.",
+    "bbox": [
+      190,
+      424,
+      1000,
+      437
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "applicable year for as long as this Agreement is in effect.",
+    "bbox": [
+      258,
+      440,
+      684,
+      454
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.17\"Calendar Year Baseline Laboratory Service Revenue\" shall have the meaning set forth in Section 4.2(b).",
+    "bbox": [
+      191,
+      457,
+      1000,
+      469
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.18\"Change of Control' shall mean, with respect to a Party: (a) the sale of all or substantially all of such Party's assets or business.",
+    "bbox": [
+      191,
+      473,
+      1000,
+      485
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "relating to the subject matter of this Agreement; (b) a merger, reorganization, or consolidation involving such Party in which the.",
+    "bbox": [
+      257,
+      487,
+      1000,
+      502
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "holders of voting securities of such Party outstanding immediately",
+    "bbox": [
+      258,
+      504,
+      759,
+      517
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      521,
+      672,
+      531
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  }
+]

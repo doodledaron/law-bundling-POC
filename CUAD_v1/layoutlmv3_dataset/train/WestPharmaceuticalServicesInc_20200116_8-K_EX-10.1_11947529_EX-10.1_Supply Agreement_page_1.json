@@ -1,0 +1,948 @@
+[
+  {
+    "text": "Base price",
+    "bbox": [
+      111,
+      110,
+      194,
+      122
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Requested delivery date",
+    "bbox": [
+      113,
+      141,
+      293,
+      152
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1.2019 - 28.2.2019:",
+    "bbox": [
+      113,
+      156,
+      258,
+      166
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "All [*****] grades except [*****]: [*****] $/t",
+    "bbox": [
+      111,
+      168,
+      466,
+      184
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      111,
+      183,
+      270,
+      199
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      197,
+      268,
+      214
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.3.2019 - 31.12.2019:",
+    "bbox": [
+      112,
+      230,
+      265,
+      241
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1/$ [*****] [*****] ddeexe sepex8 [*****] IIV",
+    "bbox": [
+      112,
+      244,
+      466,
+      258
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1/$ [*****] [*****]",
+    "bbox": [
+      112,
+      258,
+      270,
+      274
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      273,
+      269,
+      288
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1.2020 - 31.12.2020:",
+    "bbox": [
+      113,
+      305,
+      265,
+      316
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1/$ [*****] :[*****] ddeexe sepex8 [*****] lIV",
+    "bbox": [
+      112,
+      319,
+      466,
+      333
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1/$ [*****] [*****]",
+    "bbox": [
+      112,
+      333,
+      269,
+      349
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      113,
+      347,
+      268,
+      363
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1.2021 - 31.12.2021:",
+    "bbox": [
+      113,
+      380,
+      265,
+      390
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "All [*****] grades except [*****]: [*****] $/t",
+    "bbox": [
+      111,
+      393,
+      465,
+      407
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      408,
+      270,
+      424
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      422,
+      269,
+      438
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1.2022 - 31.12.2022:",
+    "bbox": [
+      113,
+      455,
+      265,
+      465
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "All [*****] grades except [*****]: [*****] $/t",
+    "bbox": [
+      111,
+      469,
+      464,
+      483
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      113,
+      483,
+      268,
+      498
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      113,
+      497,
+      268,
+      514
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1.2023 - 31.12.2023:",
+    "bbox": [
+      113,
+      530,
+      265,
+      541
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1/$ [*****] [*****] deexe sepex8 [*****] IIV",
+    "bbox": [
+      110,
+      542,
+      466,
+      558
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1/$ [*****] [*****]",
+    "bbox": [
+      113,
+      558,
+      269,
+      573
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      572,
+      268,
+      589
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "[*****]",
+    "bbox": [
+      110,
+      601,
+      175,
+      618
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Base prices listed above are non-delivered pricing (i.e., Ex-Works designated Exxon Affiliate location (see Attachment B) - Incoterms 2010",
+    "bbox": [
+      111,
+      634,
+      1000,
+      647
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(\"EXw') and does not include freight or insurance.",
+    "bbox": [
+      111,
+      649,
+      508,
+      662
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Seller and Buyer shall meet on or before December 31, [*****] to assess the requirements for a price and/or volume adjustment in good faith on the.",
+    "bbox": [
+      110,
+      677,
+      1000,
+      692
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "price for Products sold by Seller/ExxonMobil Selling Affiliates to Buyer/Buyer Affiliates for years [*****] and [*****].",
+    "bbox": [
+      110,
+      693,
+      1000,
+      708
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Notwithstanding anything to the contrary in Attachments A, G and H to this Agreement, the parties agree that any permitted adjustments to the",
+    "bbox": [
+      111,
+      725,
+      1000,
+      737
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "price, freight or payment terms for Products sold hereunder will be governed by the terms of the Pricing and Payment Terms sections of this",
+    "bbox": [
+      112,
+      740,
+      1000,
+      752
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      112,
+      756,
+      200,
+      766
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be",
+    "bbox": [
+      112,
+      784,
+      1000,
+      796
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "paid in full by wire transfer in accordance with the invoice's instructions..",
+    "bbox": [
+      110,
+      799,
+      656,
+      812
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Crude Trigger Clause",
+    "bbox": [
+      113,
+      830,
+      282,
+      841
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Should the Average Brent crude oil price at any moment during the term of this Agreement move to a different Average Brent crude oil price bracket",
+    "bbox": [
+      110,
+      874,
+      1000,
+      886
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "as mentioned below, Seller may increase or decrease the Product price by $[*****] for every $[*****] change in the Average Brent crude oil price..",
+    "bbox": [
+      111,
+      889,
+      1000,
+      901
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "In no event shall the Product price's increase or decrease exceed $[*****] for every $[*****] change in the Average Brent crude oil price brackets.",
+    "bbox": [
+      109,
+      903,
+      1000,
+      917
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Each Average Brent crude oil bracket is calculated on a $5 range basis (e.g., $30-$35, $40-$45, $50-$55, etc.)..",
+    "bbox": [
+      112,
+      920,
+      912,
+      932
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "The Average Brent crude oil price evolution shall be expressed as the three-month average spot price per barrel of the Brent crude.",
+    "bbox": [
+      112,
+      949,
+      1000,
+      962
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: WEST PHARMACEUTICAL SERVICES INC, 8-K, 1/16/2020",
+    "bbox": [
+      133,
+      1000,
+      651,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Base price",
+    "bbox": [
+      111,
+      110,
+      194,
+      122
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Requested delivery date",
+    "bbox": [
+      113,
+      141,
+      293,
+      152
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1.2019 - 28.2.2019:",
+    "bbox": [
+      113,
+      156,
+      258,
+      166
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "All [*****] grades except [*****]: [*****] $/t",
+    "bbox": [
+      111,
+      168,
+      466,
+      184
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      111,
+      183,
+      270,
+      199
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      197,
+      268,
+      214
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.3.2019 - 31.12.2019:",
+    "bbox": [
+      112,
+      230,
+      265,
+      241
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1/$ [*****] [*****] ddeexe sepex8 [*****] IIV",
+    "bbox": [
+      112,
+      244,
+      466,
+      258
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1/$ [*****] [*****]",
+    "bbox": [
+      112,
+      258,
+      270,
+      274
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      273,
+      269,
+      288
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1.2020 - 31.12.2020:",
+    "bbox": [
+      113,
+      305,
+      265,
+      316
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1/$ [*****] :[*****] ddeexe sepex8 [*****] lIV",
+    "bbox": [
+      112,
+      319,
+      466,
+      333
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1/$ [*****] [*****]",
+    "bbox": [
+      112,
+      333,
+      269,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      113,
+      347,
+      268,
+      363
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1.2021 - 31.12.2021:",
+    "bbox": [
+      113,
+      380,
+      265,
+      390
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "All [*****] grades except [*****]: [*****] $/t",
+    "bbox": [
+      111,
+      393,
+      465,
+      407
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      408,
+      270,
+      424
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      422,
+      269,
+      438
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1.2022 - 31.12.2022:",
+    "bbox": [
+      113,
+      455,
+      265,
+      465
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "All [*****] grades except [*****]: [*****] $/t",
+    "bbox": [
+      111,
+      469,
+      464,
+      483
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      113,
+      483,
+      268,
+      498
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      113,
+      497,
+      268,
+      514
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1.2023 - 31.12.2023:",
+    "bbox": [
+      113,
+      530,
+      265,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1/$ [*****] [*****] deexe sepex8 [*****] IIV",
+    "bbox": [
+      110,
+      542,
+      466,
+      558
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1/$ [*****] [*****]",
+    "bbox": [
+      113,
+      558,
+      269,
+      573
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]: [*****] $/t",
+    "bbox": [
+      112,
+      572,
+      268,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[*****]",
+    "bbox": [
+      110,
+      601,
+      175,
+      618
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Base prices listed above are non-delivered pricing (i.e., Ex-Works designated Exxon Affiliate location (see Attachment B) - Incoterms 2010",
+    "bbox": [
+      111,
+      634,
+      1000,
+      647
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"EXw') and does not include freight or insurance.",
+    "bbox": [
+      111,
+      649,
+      508,
+      662
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Seller and Buyer shall meet on or before December 31, [*****] to assess the requirements for a price and/or volume adjustment in good faith on the.",
+    "bbox": [
+      110,
+      677,
+      1000,
+      692
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "price for Products sold by Seller/ExxonMobil Selling Affiliates to Buyer/Buyer Affiliates for years [*****] and [*****].",
+    "bbox": [
+      110,
+      693,
+      1000,
+      708
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Notwithstanding anything to the contrary in Attachments A, G and H to this Agreement, the parties agree that any permitted adjustments to the",
+    "bbox": [
+      111,
+      725,
+      1000,
+      737
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "price, freight or payment terms for Products sold hereunder will be governed by the terms of the Pricing and Payment Terms sections of this",
+    "bbox": [
+      112,
+      740,
+      1000,
+      752
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      112,
+      756,
+      200,
+      766
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be",
+    "bbox": [
+      112,
+      784,
+      1000,
+      796
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "paid in full by wire transfer in accordance with the invoice's instructions..",
+    "bbox": [
+      110,
+      799,
+      656,
+      812
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Crude Trigger Clause",
+    "bbox": [
+      113,
+      830,
+      282,
+      841
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Should the Average Brent crude oil price at any moment during the term of this Agreement move to a different Average Brent crude oil price bracket",
+    "bbox": [
+      110,
+      874,
+      1000,
+      886
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "as mentioned below, Seller may increase or decrease the Product price by $[*****] for every $[*****] change in the Average Brent crude oil price..",
+    "bbox": [
+      111,
+      889,
+      1000,
+      901
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "In no event shall the Product price's increase or decrease exceed $[*****] for every $[*****] change in the Average Brent crude oil price brackets.",
+    "bbox": [
+      109,
+      903,
+      1000,
+      917
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Each Average Brent crude oil bracket is calculated on a $5 range basis (e.g., $30-$35, $40-$45, $50-$55, etc.)..",
+    "bbox": [
+      112,
+      920,
+      912,
+      932
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The Average Brent crude oil price evolution shall be expressed as the three-month average spot price per barrel of the Brent crude.",
+    "bbox": [
+      112,
+      949,
+      1000,
+      962
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: WEST PHARMACEUTICAL SERVICES INC, 8-K, 1/16/2020",
+    "bbox": [
+      133,
+      1000,
+      651,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

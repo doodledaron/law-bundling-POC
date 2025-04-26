@@ -1,0 +1,695 @@
+[
+  {
+    "text": "SUPPLY CONTRACT",
+    "bbox": [
+      586,
+      97,
+      748,
+      107
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "The seller:",
+    "bbox": [
+      110,
+      192,
+      189,
+      204
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd..",
+    "bbox": [
+      112,
+      144,
+      687,
+      156
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.16.",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "SUPPLY CONTRACT",
+    "bbox": [
+      586,
+      97,
+      748,
+      107
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Contract No:.",
+    "bbox": [
+      1000,
+      113,
+      1000,
+      124
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      998,
+      128,
+      1000,
+      141
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd..",
+    "bbox": [
+      112,
+      144,
+      687,
+      156
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ADD:",
+    "bbox": [
+      110,
+      159,
+      157,
+      173
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Tel No. :",
+    "bbox": [
+      109,
+      175,
+      177,
+      189
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Fax No. :",
+    "bbox": [
+      476,
+      176,
+      543,
+      188
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "The seller:",
+    "bbox": [
+      110,
+      192,
+      189,
+      204
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ADD:",
+    "bbox": [
+      111,
+      208,
+      156,
+      220
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong..",
+    "bbox": [
+      109,
+      223,
+      725,
+      239
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1. General provisions",
+    "bbox": [
+      112,
+      241,
+      271,
+      253
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1 This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred",
+    "bbox": [
+      112,
+      257,
+      1000,
+      269
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "to as the \"order')..",
+    "bbox": [
+      111,
+      273,
+      247,
+      284
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.2 If the provisions of the agreement are inconsistent with the order, the order shall prevail. Not stated in order content will be subject to the",
+    "bbox": [
+      113,
+      290,
+      1000,
+      300
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "provisions of agreement. Any modification, supplementary, give up should been written records, only to be valid by buyers and sellers authorized.",
+    "bbox": [
+      109,
+      304,
+      1000,
+      318
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "representative signature and confirmation, otherwise will be deemed invalid.",
+    "bbox": [
+      109,
+      320,
+      681,
+      333
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2. The agreement and order",
+    "bbox": [
+      111,
+      337,
+      318,
+      349
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.1 During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or",
+    "bbox": [
+      111,
+      353,
+      1000,
+      365
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\"' or \"LEHEYUAN\"), to purchase",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "the products specified in this agreement from the seller in the form of orders.",
+    "bbox": [
+      111,
+      384,
+      684,
+      397
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.2 The seller shall be confirmed within three working days after receipt of order. If the seller finds order is not acceptable or need to modify, should",
+    "bbox": [
+      111,
+      400,
+      1000,
+      412
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "note entrusted party in two working days after receipt of the order, If the seller did not confirm orders in time or notice not accept orders or",
+    "bbox": [
+      111,
+      417,
+      1000,
+      429
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "modifications, the seller is deemed to have been accepted the order. The orders become effective once the seller accepts, any party shall not.",
+    "bbox": [
+      110,
+      432,
+      1000,
+      445
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "unilaterally cancel the order before the two sides agreed ..",
+    "bbox": [
+      110,
+      448,
+      541,
+      461
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.3 If the seller puts forward amendments or not accept orders, the seller shall be in the form of a written notice to entrusted party, entrusted party",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "accept the modified by written consent, the modified orders to be taken effect..",
+    "bbox": [
+      111,
+      481,
+      695,
+      492
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.4 Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law..",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      529,
+      672,
+      540
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: LOHA CO. LTD., F-1, 12/9/2019",
+    "bbox": [
+      133,
+      1000,
+      449,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.16.",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SUPPLY CONTRACT",
+    "bbox": [
+      586,
+      97,
+      748,
+      107
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Contract No:.",
+    "bbox": [
+      1000,
+      113,
+      1000,
+      124
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Date:",
+    "bbox": [
+      998,
+      128,
+      1000,
+      141
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd..",
+    "bbox": [
+      112,
+      144,
+      687,
+      156
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ADD:",
+    "bbox": [
+      110,
+      159,
+      157,
+      173
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Tel No. :",
+    "bbox": [
+      109,
+      175,
+      177,
+      189
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Fax No. :",
+    "bbox": [
+      476,
+      176,
+      543,
+      188
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The seller:",
+    "bbox": [
+      110,
+      192,
+      189,
+      204
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ADD:",
+    "bbox": [
+      111,
+      208,
+      156,
+      220
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong..",
+    "bbox": [
+      109,
+      223,
+      725,
+      239
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1. General provisions",
+    "bbox": [
+      112,
+      241,
+      271,
+      253
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1 This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred",
+    "bbox": [
+      112,
+      257,
+      1000,
+      269
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "to as the \"order')..",
+    "bbox": [
+      111,
+      273,
+      247,
+      284
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2 If the provisions of the agreement are inconsistent with the order, the order shall prevail. Not stated in order content will be subject to the",
+    "bbox": [
+      113,
+      290,
+      1000,
+      300
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "provisions of agreement. Any modification, supplementary, give up should been written records, only to be valid by buyers and sellers authorized.",
+    "bbox": [
+      109,
+      304,
+      1000,
+      318
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "representative signature and confirmation, otherwise will be deemed invalid.",
+    "bbox": [
+      109,
+      320,
+      681,
+      333
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2. The agreement and order",
+    "bbox": [
+      111,
+      337,
+      318,
+      349
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.1 During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or",
+    "bbox": [
+      111,
+      353,
+      1000,
+      365
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the \"entrusted party\" or \"YICHANGTAI\"' or \"LEHEYUAN\"), to purchase",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "the products specified in this agreement from the seller in the form of orders.",
+    "bbox": [
+      111,
+      384,
+      684,
+      397
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.2 The seller shall be confirmed within three working days after receipt of order. If the seller finds order is not acceptable or need to modify, should",
+    "bbox": [
+      111,
+      400,
+      1000,
+      412
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "note entrusted party in two working days after receipt of the order, If the seller did not confirm orders in time or notice not accept orders or",
+    "bbox": [
+      111,
+      417,
+      1000,
+      429
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "modifications, the seller is deemed to have been accepted the order. The orders become effective once the seller accepts, any party shall not.",
+    "bbox": [
+      110,
+      432,
+      1000,
+      445
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "unilaterally cancel the order before the two sides agreed ..",
+    "bbox": [
+      110,
+      448,
+      541,
+      461
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.3 If the seller puts forward amendments or not accept orders, the seller shall be in the form of a written notice to entrusted party, entrusted party",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "accept the modified by written consent, the modified orders to be taken effect..",
+    "bbox": [
+      111,
+      481,
+      695,
+      492
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.4 Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law..",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      529,
+      672,
+      540
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: LOHA CO. LTD., F-1, 12/9/2019",
+    "bbox": [
+      133,
+      1000,
+      449,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  }
+]

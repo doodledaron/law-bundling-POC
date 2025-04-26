@@ -1,0 +1,1322 @@
+[
+  {
+    "text": "SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT",
+    "bbox": [
+      380,
+      90,
+      953,
+      98
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "officer, director, or employee of Franchisee (the \"Member\")..",
+    "bbox": [
+      113,
+      153,
+      557,
+      165
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(BETWEEN FRANCHISEE AND ITS PERSONNEL)",
+    "bbox": [
+      474,
+      104,
+      858,
+      117
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "APPENDIX C",
+    "bbox": [
+      615,
+      73,
+      720,
+      83
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT",
+    "bbox": [
+      380,
+      90,
+      953,
+      98
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "(BETWEEN FRANCHISEE AND ITS PERSONNEL)",
+    "bbox": [
+      474,
+      104,
+      858,
+      117
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "THIS SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT (\"Agreement') is made this",
+    "bbox": [
+      179,
+      120,
+      1000,
+      133
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "day of",
+    "bbox": [
+      1000,
+      121,
+      1000,
+      132
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": ", 20 , by and between",
+    "bbox": [
+      199,
+      137,
+      397,
+      149
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "(the \"Franchisee\"), and",
+    "bbox": [
+      673,
+      137,
+      861,
+      149
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": ", who is an",
+    "bbox": [
+      1000,
+      137,
+      1000,
+      149
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "officer, director, or employee of Franchisee (the \"Member\")..",
+    "bbox": [
+      113,
+      153,
+      557,
+      165
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      623,
+      169,
+      709,
+      180
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "WHEREAS,",
+    "bbox": [
+      180,
+      185,
+      271,
+      196
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "(\"Franchisor\") has developed a distinctive set of specifications and operating procedures",
+    "bbox": [
+      469,
+      185,
+      1000,
+      197
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "(collectively, the \"System') for the operation of \"Pizza Fusion'' restaurant businesses (\"Franchised Businesses\").",
+    "bbox": [
+      110,
+      200,
+      968,
+      213
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement') granting Franchisee the right to.",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "operate a Franchised Business under the terms and conditions of the Franchise Agreement;",
+    "bbox": [
+      111,
+      232,
+      801,
+      245
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "WHEREAs, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential.",
+    "bbox": [
+      179,
+      248,
+      1000,
+      261
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound",
+    "bbox": [
+      111,
+      264,
+      1000,
+      277
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "by.",
+    "bbox": [
+      108,
+      280,
+      135,
+      295
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "IN CONSIDERATION of these premises, the conditions stated herein, and for other good and valuable consideration, the sufficiency and",
+    "bbox": [
+      179,
+      297,
+      1000,
+      308
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "receipt of which are hereby acknowledged, the parties agree as follows:.",
+    "bbox": [
+      111,
+      313,
+      646,
+      325
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for",
+    "bbox": [
+      179,
+      328,
+      1000,
+      341
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may.",
+    "bbox": [
+      110,
+      344,
+      1000,
+      358
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and",
+    "bbox": [
+      110,
+      360,
+      1000,
+      373
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information'') is deemed confidential,",
+    "bbox": [
+      112,
+      378,
+      1000,
+      388
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the",
+    "bbox": [
+      112,
+      393,
+      1000,
+      405
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "time of the disclosure to Member, had become a part of the public domain..",
+    "bbox": [
+      111,
+      409,
+      666,
+      421
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "2. Covenants Not to Compete.",
+    "bbox": [
+      179,
+      424,
+      404,
+      437
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "(a) Member specifically acknowledges that, pursuant to the Franchise Agreement, and by virtue of its position with Franchisee, Member",
+    "bbox": [
+      178,
+      440,
+      1000,
+      453
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "will receive valuable specialized training and Confidential Information, including, without limitation, information regarding the operational, sales,",
+    "bbox": [
+      111,
+      456,
+      1000,
+      469
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "promotional, and marketing methods and techniques of Franchisor and the System.",
+    "bbox": [
+      112,
+      474,
+      735,
+      484
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "(b) Member covenants and agrees that during the term of the Franchise Agreement, except as otherwise approved in writing by.",
+    "bbox": [
+      178,
+      488,
+      1000,
+      502
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "Franchisor, Member shall not, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons,",
+    "bbox": [
+      110,
+      504,
+      1000,
+      518
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "partnership, corporation, or entity:",
+    "bbox": [
+      111,
+      521,
+      371,
+      533
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "(i) Own, manage, engage in, be employed by, advise, make loans to, consult for, rent or lease to, or have any other interest in",
+    "bbox": [
+      247,
+      537,
+      1000,
+      550
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "business that (directly or indirectly) operates, or grants franchises or licenses to operate, a restaurant featuring pizza and related food specialties or",
+    "bbox": [
+      111,
+      553,
+      1000,
+      565
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "that offers products or services substantially similar to those then offered by Pizza Fusions Restaurants (\"Competitive Business');.",
+    "bbox": [
+      111,
+      568,
+      1000,
+      581
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      641,
+      587,
+      653,
+      594
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      676,
+      585,
+      695,
+      596
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+    "bbox": [
+      111,
+      1000,
+      575,
+      1000
+    ],
+    "label": 12,
+    "category": "No-Solicit Of Customers"
+  },
+  {
+    "text": "APPENDIX C",
+    "bbox": [
+      615,
+      73,
+      720,
+      83
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT",
+    "bbox": [
+      380,
+      90,
+      953,
+      98
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "(BETWEEN FRANCHISEE AND ITS PERSONNEL)",
+    "bbox": [
+      474,
+      104,
+      858,
+      117
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "THIS SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT (\"Agreement') is made this",
+    "bbox": [
+      179,
+      120,
+      1000,
+      133
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "day of",
+    "bbox": [
+      1000,
+      121,
+      1000,
+      132
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": ", 20 , by and between",
+    "bbox": [
+      199,
+      137,
+      397,
+      149
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "(the \"Franchisee\"), and",
+    "bbox": [
+      673,
+      137,
+      861,
+      149
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": ", who is an",
+    "bbox": [
+      1000,
+      137,
+      1000,
+      149
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "officer, director, or employee of Franchisee (the \"Member\")..",
+    "bbox": [
+      113,
+      153,
+      557,
+      165
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      623,
+      169,
+      709,
+      180
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "WHEREAS,",
+    "bbox": [
+      180,
+      185,
+      271,
+      196
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "(\"Franchisor\") has developed a distinctive set of specifications and operating procedures",
+    "bbox": [
+      469,
+      185,
+      1000,
+      197
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "(collectively, the \"System') for the operation of \"Pizza Fusion'' restaurant businesses (\"Franchised Businesses\").",
+    "bbox": [
+      110,
+      200,
+      968,
+      213
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement') granting Franchisee the right to.",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "operate a Franchised Business under the terms and conditions of the Franchise Agreement;",
+    "bbox": [
+      111,
+      232,
+      801,
+      245
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "WHEREAs, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential.",
+    "bbox": [
+      179,
+      248,
+      1000,
+      261
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound",
+    "bbox": [
+      111,
+      264,
+      1000,
+      277
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "by.",
+    "bbox": [
+      108,
+      280,
+      135,
+      295
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "IN CONSIDERATION of these premises, the conditions stated herein, and for other good and valuable consideration, the sufficiency and",
+    "bbox": [
+      179,
+      297,
+      1000,
+      308
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "receipt of which are hereby acknowledged, the parties agree as follows:.",
+    "bbox": [
+      111,
+      313,
+      646,
+      325
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for",
+    "bbox": [
+      179,
+      328,
+      1000,
+      341
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may.",
+    "bbox": [
+      110,
+      344,
+      1000,
+      358
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and",
+    "bbox": [
+      110,
+      360,
+      1000,
+      373
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information'') is deemed confidential,",
+    "bbox": [
+      112,
+      378,
+      1000,
+      388
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the",
+    "bbox": [
+      112,
+      393,
+      1000,
+      405
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "time of the disclosure to Member, had become a part of the public domain..",
+    "bbox": [
+      111,
+      409,
+      666,
+      421
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "2. Covenants Not to Compete.",
+    "bbox": [
+      179,
+      424,
+      404,
+      437
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "(a) Member specifically acknowledges that, pursuant to the Franchise Agreement, and by virtue of its position with Franchisee, Member",
+    "bbox": [
+      178,
+      440,
+      1000,
+      453
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "will receive valuable specialized training and Confidential Information, including, without limitation, information regarding the operational, sales,",
+    "bbox": [
+      111,
+      456,
+      1000,
+      469
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "promotional, and marketing methods and techniques of Franchisor and the System.",
+    "bbox": [
+      112,
+      474,
+      735,
+      484
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "(b) Member covenants and agrees that during the term of the Franchise Agreement, except as otherwise approved in writing by.",
+    "bbox": [
+      178,
+      488,
+      1000,
+      502
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Franchisor, Member shall not, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons,",
+    "bbox": [
+      110,
+      504,
+      1000,
+      518
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "partnership, corporation, or entity:",
+    "bbox": [
+      111,
+      521,
+      371,
+      533
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "(i) Own, manage, engage in, be employed by, advise, make loans to, consult for, rent or lease to, or have any other interest in",
+    "bbox": [
+      247,
+      537,
+      1000,
+      550
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "business that (directly or indirectly) operates, or grants franchises or licenses to operate, a restaurant featuring pizza and related food specialties or",
+    "bbox": [
+      111,
+      553,
+      1000,
+      565
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "that offers products or services substantially similar to those then offered by Pizza Fusions Restaurants (\"Competitive Business');.",
+    "bbox": [
+      111,
+      568,
+      1000,
+      581
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      641,
+      587,
+      653,
+      594
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      676,
+      585,
+      695,
+      596
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+    "bbox": [
+      111,
+      1000,
+      575,
+      1000
+    ],
+    "label": 13,
+    "category": "No-Solicit Of Employees"
+  },
+  {
+    "text": "APPENDIX C",
+    "bbox": [
+      615,
+      73,
+      720,
+      83
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT",
+    "bbox": [
+      380,
+      90,
+      953,
+      98
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(BETWEEN FRANCHISEE AND ITS PERSONNEL)",
+    "bbox": [
+      474,
+      104,
+      858,
+      117
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "THIS SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT (\"Agreement') is made this",
+    "bbox": [
+      179,
+      120,
+      1000,
+      133
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "day of",
+    "bbox": [
+      1000,
+      121,
+      1000,
+      132
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": ", 20 , by and between",
+    "bbox": [
+      199,
+      137,
+      397,
+      149
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(the \"Franchisee\"), and",
+    "bbox": [
+      673,
+      137,
+      861,
+      149
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": ", who is an",
+    "bbox": [
+      1000,
+      137,
+      1000,
+      149
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "officer, director, or employee of Franchisee (the \"Member\")..",
+    "bbox": [
+      113,
+      153,
+      557,
+      165
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      623,
+      169,
+      709,
+      180
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS,",
+    "bbox": [
+      180,
+      185,
+      271,
+      196
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(\"Franchisor\") has developed a distinctive set of specifications and operating procedures",
+    "bbox": [
+      469,
+      185,
+      1000,
+      197
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(collectively, the \"System') for the operation of \"Pizza Fusion'' restaurant businesses (\"Franchised Businesses\").",
+    "bbox": [
+      110,
+      200,
+      968,
+      213
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement') granting Franchisee the right to.",
+    "bbox": [
+      179,
+      216,
+      1000,
+      229
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "operate a Franchised Business under the terms and conditions of the Franchise Agreement;",
+    "bbox": [
+      111,
+      232,
+      801,
+      245
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "WHEREAs, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential.",
+    "bbox": [
+      179,
+      248,
+      1000,
+      261
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound",
+    "bbox": [
+      111,
+      264,
+      1000,
+      277
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "by.",
+    "bbox": [
+      108,
+      280,
+      135,
+      295
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "IN CONSIDERATION of these premises, the conditions stated herein, and for other good and valuable consideration, the sufficiency and",
+    "bbox": [
+      179,
+      297,
+      1000,
+      308
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "receipt of which are hereby acknowledged, the parties agree as follows:.",
+    "bbox": [
+      111,
+      313,
+      646,
+      325
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for",
+    "bbox": [
+      179,
+      328,
+      1000,
+      341
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may.",
+    "bbox": [
+      110,
+      344,
+      1000,
+      358
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and",
+    "bbox": [
+      110,
+      360,
+      1000,
+      373
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information'') is deemed confidential,",
+    "bbox": [
+      112,
+      378,
+      1000,
+      388
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the",
+    "bbox": [
+      112,
+      393,
+      1000,
+      405
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "time of the disclosure to Member, had become a part of the public domain..",
+    "bbox": [
+      111,
+      409,
+      666,
+      421
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "2. Covenants Not to Compete.",
+    "bbox": [
+      179,
+      424,
+      404,
+      437
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(a) Member specifically acknowledges that, pursuant to the Franchise Agreement, and by virtue of its position with Franchisee, Member",
+    "bbox": [
+      178,
+      440,
+      1000,
+      453
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "will receive valuable specialized training and Confidential Information, including, without limitation, information regarding the operational, sales,",
+    "bbox": [
+      111,
+      456,
+      1000,
+      469
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "promotional, and marketing methods and techniques of Franchisor and the System.",
+    "bbox": [
+      112,
+      474,
+      735,
+      484
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(b) Member covenants and agrees that during the term of the Franchise Agreement, except as otherwise approved in writing by.",
+    "bbox": [
+      178,
+      488,
+      1000,
+      502
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Franchisor, Member shall not, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons,",
+    "bbox": [
+      110,
+      504,
+      1000,
+      518
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "partnership, corporation, or entity:",
+    "bbox": [
+      111,
+      521,
+      371,
+      533
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(i) Own, manage, engage in, be employed by, advise, make loans to, consult for, rent or lease to, or have any other interest in",
+    "bbox": [
+      247,
+      537,
+      1000,
+      550
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "business that (directly or indirectly) operates, or grants franchises or licenses to operate, a restaurant featuring pizza and related food specialties or",
+    "bbox": [
+      111,
+      553,
+      1000,
+      565
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "that offers products or services substantially similar to those then offered by Pizza Fusions Restaurants (\"Competitive Business');.",
+    "bbox": [
+      111,
+      568,
+      1000,
+      581
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "C",
+    "bbox": [
+      641,
+      587,
+      653,
+      594
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      676,
+      585,
+      695,
+      596
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+    "bbox": [
+      111,
+      1000,
+      575,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  }
+]

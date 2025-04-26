@@ -1,0 +1,1850 @@
+[
+  {
+    "text": "License and Development Agreement.",
+    "bbox": [
+      937,
+      73,
+      1000,
+      84
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WHEREAS",
+    "bbox": [
+      112,
+      107,
+      200,
+      117
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "A. NLS carries on the business of researching, developing and manufacturing certain pharmaceutical products and is the legal and beneficial",
+    "bbox": [
+      110,
+      122,
+      1000,
+      135
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "owner of certain Intellectual Property, including Patents, Know-how and other materials (all words with capital letters are defined below);.",
+    "bbox": [
+      145,
+      139,
+      1000,
+      151
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      110,
+      155,
+      128,
+      166
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Eurofarma is a pharmaceutical company with expertise in researching, developing, manufacturing, marketing and sales of pharmaceutical.",
+    "bbox": [
+      144,
+      154,
+      1000,
+      167
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "products, including products in the Field, and has a distribution network throughout Latin America;",
+    "bbox": [
+      145,
+      170,
+      895,
+      183
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      111,
+      186,
+      129,
+      198
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Eurofarma wishes to receive an exclusive license from NLS to register, import, export, store, handle, commercialize, have commercialized.",
+    "bbox": [
+      144,
+      186,
+      1000,
+      198
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "promote, have promoted, distribute, have distributed, sell and have sold the Licensed Product in the Territory, and NLS wishes to grant a.",
+    "bbox": [
+      144,
+      203,
+      1000,
+      216
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "respective license on the terms and conditions set out in this Agreement;",
+    "bbox": [
+      145,
+      219,
+      696,
+      231
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      110,
+      234,
+      142,
+      246
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "The Parties acknowledge that further development of the Products will be necessary to develop the required Dossier as defined hereunder for",
+    "bbox": [
+      143,
+      235,
+      1000,
+      247
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "obtaining Marketing Authorisation(s) in the Territory and wish to collaborate on the further development of the Products.",
+    "bbox": [
+      145,
+      251,
+      1000,
+      263
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties agree as follows:",
+    "bbox": [
+      111,
+      267,
+      478,
+      278
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      282,
+      128,
+      294
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      179,
+      283,
+      267,
+      294
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "When used in this Agreement in capital letters, the terms and abbreviations set forth below, whether used in the singular or plural, shall.",
+    "bbox": [
+      180,
+      298,
+      1000,
+      311
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "have the following meaning:",
+    "bbox": [
+      178,
+      314,
+      391,
+      328
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Affiliates",
+    "bbox": [
+      179,
+      329,
+      252,
+      343
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "means any company, enterprise, corporation or business entity which controls, is controlled by, or is under common control.",
+    "bbox": [
+      278,
+      331,
+      1000,
+      343
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "power to direct or cause the direction of the management and policies of an entity, whether through holding a majority of the.",
+    "bbox": [
+      279,
+      363,
+      1000,
+      375
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "voting rights of the entity, by contract or otherwise.",
+    "bbox": [
+      279,
+      378,
+      669,
+      391
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Agreement",
+    "bbox": [
+      180,
+      395,
+      269,
+      407
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "shall mean this Agreement, including all of its Appendices.",
+    "bbox": [
+      277,
+      395,
+      722,
+      407
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Appendix",
+    "bbox": [
+      178,
+      409,
+      253,
+      425
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "shall mean any appendix to this Agreement..",
+    "bbox": [
+      278,
+      409,
+      608,
+      424
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      179,
+      426,
+      237,
+      438
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "shall mean an article of this Agreement..",
+    "bbox": [
+      279,
+      426,
+      575,
+      439
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Change of",
+    "bbox": [
+      179,
+      442,
+      260,
+      456
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "shall mean any merger, consolidation or acquisition of a Party with, by or into another corporation, entity or person; or any.",
+    "bbox": [
+      279,
+      442,
+      1000,
+      456
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Control",
+    "bbox": [
+      178,
+      457,
+      241,
+      471
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "change in the ownership of more than fifty percent (50%) of the voting capital stock or actual control over the voting rights.",
+    "bbox": [
+      280,
+      459,
+      1000,
+      471
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "in one or more related transactions..",
+    "bbox": [
+      279,
+      475,
+      543,
+      486
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Confidential shall have the meaning set forth in Article 18.",
+    "bbox": [
+      178,
+      489,
+      619,
+      504
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Information",
+    "bbox": [
+      179,
+      506,
+      270,
+      518
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Developed",
+    "bbox": [
+      179,
+      523,
+      260,
+      535
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "shall mean any and all changes, additional Know-how, improvements and inventions relating to the Intellectual Property.",
+    "bbox": [
+      277,
+      522,
+      1000,
+      535
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Intellectual (such as, without limitation, method of use patents) made after the Effective Date of this Agreement.",
+    "bbox": [
+      179,
+      539,
+      1000,
+      551
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Property",
+    "bbox": [
+      178,
+      554,
+      248,
+      568
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      586,
+      672,
+      598
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      133,
+      1000,
+      547,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "License and Development Agreement.",
+    "bbox": [
+      937,
+      73,
+      1000,
+      84
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "WHEREAS",
+    "bbox": [
+      112,
+      107,
+      200,
+      117
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "A. NLS carries on the business of researching, developing and manufacturing certain pharmaceutical products and is the legal and beneficial",
+    "bbox": [
+      110,
+      122,
+      1000,
+      135
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "owner of certain Intellectual Property, including Patents, Know-how and other materials (all words with capital letters are defined below);.",
+    "bbox": [
+      145,
+      139,
+      1000,
+      151
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      110,
+      155,
+      128,
+      166
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Eurofarma is a pharmaceutical company with expertise in researching, developing, manufacturing, marketing and sales of pharmaceutical.",
+    "bbox": [
+      144,
+      154,
+      1000,
+      167
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "products, including products in the Field, and has a distribution network throughout Latin America;",
+    "bbox": [
+      145,
+      170,
+      895,
+      183
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      111,
+      186,
+      129,
+      198
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Eurofarma wishes to receive an exclusive license from NLS to register, import, export, store, handle, commercialize, have commercialized.",
+    "bbox": [
+      144,
+      186,
+      1000,
+      198
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "promote, have promoted, distribute, have distributed, sell and have sold the Licensed Product in the Territory, and NLS wishes to grant a.",
+    "bbox": [
+      144,
+      203,
+      1000,
+      216
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "respective license on the terms and conditions set out in this Agreement;",
+    "bbox": [
+      145,
+      219,
+      696,
+      231
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      110,
+      234,
+      142,
+      246
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "The Parties acknowledge that further development of the Products will be necessary to develop the required Dossier as defined hereunder for",
+    "bbox": [
+      143,
+      235,
+      1000,
+      247
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "obtaining Marketing Authorisation(s) in the Territory and wish to collaborate on the further development of the Products.",
+    "bbox": [
+      145,
+      251,
+      1000,
+      263
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties agree as follows:",
+    "bbox": [
+      111,
+      267,
+      478,
+      278
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      282,
+      128,
+      294
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      179,
+      283,
+      267,
+      294
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "When used in this Agreement in capital letters, the terms and abbreviations set forth below, whether used in the singular or plural, shall.",
+    "bbox": [
+      180,
+      298,
+      1000,
+      311
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "have the following meaning:",
+    "bbox": [
+      178,
+      314,
+      391,
+      328
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Affiliates",
+    "bbox": [
+      179,
+      329,
+      252,
+      343
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "means any company, enterprise, corporation or business entity which controls, is controlled by, or is under common control.",
+    "bbox": [
+      278,
+      331,
+      1000,
+      343
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "power to direct or cause the direction of the management and policies of an entity, whether through holding a majority of the.",
+    "bbox": [
+      279,
+      363,
+      1000,
+      375
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "voting rights of the entity, by contract or otherwise.",
+    "bbox": [
+      279,
+      378,
+      669,
+      391
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Agreement",
+    "bbox": [
+      180,
+      395,
+      269,
+      407
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "shall mean this Agreement, including all of its Appendices.",
+    "bbox": [
+      277,
+      395,
+      722,
+      407
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Appendix",
+    "bbox": [
+      178,
+      409,
+      253,
+      425
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "shall mean any appendix to this Agreement..",
+    "bbox": [
+      278,
+      409,
+      608,
+      424
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      179,
+      426,
+      237,
+      438
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "shall mean an article of this Agreement..",
+    "bbox": [
+      279,
+      426,
+      575,
+      439
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Change of",
+    "bbox": [
+      179,
+      442,
+      260,
+      456
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "shall mean any merger, consolidation or acquisition of a Party with, by or into another corporation, entity or person; or any.",
+    "bbox": [
+      279,
+      442,
+      1000,
+      456
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Control",
+    "bbox": [
+      178,
+      457,
+      241,
+      471
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "change in the ownership of more than fifty percent (50%) of the voting capital stock or actual control over the voting rights.",
+    "bbox": [
+      280,
+      459,
+      1000,
+      471
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "in one or more related transactions..",
+    "bbox": [
+      279,
+      475,
+      543,
+      486
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Confidential shall have the meaning set forth in Article 18.",
+    "bbox": [
+      178,
+      489,
+      619,
+      504
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Information",
+    "bbox": [
+      179,
+      506,
+      270,
+      518
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Developed",
+    "bbox": [
+      179,
+      523,
+      260,
+      535
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "shall mean any and all changes, additional Know-how, improvements and inventions relating to the Intellectual Property.",
+    "bbox": [
+      277,
+      522,
+      1000,
+      535
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Intellectual (such as, without limitation, method of use patents) made after the Effective Date of this Agreement.",
+    "bbox": [
+      179,
+      539,
+      1000,
+      551
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Property",
+    "bbox": [
+      178,
+      554,
+      248,
+      568
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      586,
+      672,
+      598
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      133,
+      1000,
+      547,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "License and Development Agreement.",
+    "bbox": [
+      937,
+      73,
+      1000,
+      84
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS",
+    "bbox": [
+      112,
+      107,
+      200,
+      117
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "A. NLS carries on the business of researching, developing and manufacturing certain pharmaceutical products and is the legal and beneficial",
+    "bbox": [
+      110,
+      122,
+      1000,
+      135
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "owner of certain Intellectual Property, including Patents, Know-how and other materials (all words with capital letters are defined below);.",
+    "bbox": [
+      145,
+      139,
+      1000,
+      151
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      110,
+      155,
+      128,
+      166
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Eurofarma is a pharmaceutical company with expertise in researching, developing, manufacturing, marketing and sales of pharmaceutical.",
+    "bbox": [
+      144,
+      154,
+      1000,
+      167
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "products, including products in the Field, and has a distribution network throughout Latin America;",
+    "bbox": [
+      145,
+      170,
+      895,
+      183
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      111,
+      186,
+      129,
+      198
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Eurofarma wishes to receive an exclusive license from NLS to register, import, export, store, handle, commercialize, have commercialized.",
+    "bbox": [
+      144,
+      186,
+      1000,
+      198
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "promote, have promoted, distribute, have distributed, sell and have sold the Licensed Product in the Territory, and NLS wishes to grant a.",
+    "bbox": [
+      144,
+      203,
+      1000,
+      216
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "respective license on the terms and conditions set out in this Agreement;",
+    "bbox": [
+      145,
+      219,
+      696,
+      231
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      110,
+      234,
+      142,
+      246
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "The Parties acknowledge that further development of the Products will be necessary to develop the required Dossier as defined hereunder for",
+    "bbox": [
+      143,
+      235,
+      1000,
+      247
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "obtaining Marketing Authorisation(s) in the Territory and wish to collaborate on the further development of the Products.",
+    "bbox": [
+      145,
+      251,
+      1000,
+      263
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties agree as follows:",
+    "bbox": [
+      111,
+      267,
+      478,
+      278
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      282,
+      128,
+      294
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      179,
+      283,
+      267,
+      294
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "When used in this Agreement in capital letters, the terms and abbreviations set forth below, whether used in the singular or plural, shall.",
+    "bbox": [
+      180,
+      298,
+      1000,
+      311
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "have the following meaning:",
+    "bbox": [
+      178,
+      314,
+      391,
+      328
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Affiliates",
+    "bbox": [
+      179,
+      329,
+      252,
+      343
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "means any company, enterprise, corporation or business entity which controls, is controlled by, or is under common control.",
+    "bbox": [
+      278,
+      331,
+      1000,
+      343
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "power to direct or cause the direction of the management and policies of an entity, whether through holding a majority of the.",
+    "bbox": [
+      279,
+      363,
+      1000,
+      375
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "voting rights of the entity, by contract or otherwise.",
+    "bbox": [
+      279,
+      378,
+      669,
+      391
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Agreement",
+    "bbox": [
+      180,
+      395,
+      269,
+      407
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "shall mean this Agreement, including all of its Appendices.",
+    "bbox": [
+      277,
+      395,
+      722,
+      407
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Appendix",
+    "bbox": [
+      178,
+      409,
+      253,
+      425
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "shall mean any appendix to this Agreement..",
+    "bbox": [
+      278,
+      409,
+      608,
+      424
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      179,
+      426,
+      237,
+      438
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "shall mean an article of this Agreement..",
+    "bbox": [
+      279,
+      426,
+      575,
+      439
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Change of",
+    "bbox": [
+      179,
+      442,
+      260,
+      456
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "shall mean any merger, consolidation or acquisition of a Party with, by or into another corporation, entity or person; or any.",
+    "bbox": [
+      279,
+      442,
+      1000,
+      456
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Control",
+    "bbox": [
+      178,
+      457,
+      241,
+      471
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "change in the ownership of more than fifty percent (50%) of the voting capital stock or actual control over the voting rights.",
+    "bbox": [
+      280,
+      459,
+      1000,
+      471
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "in one or more related transactions..",
+    "bbox": [
+      279,
+      475,
+      543,
+      486
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Confidential shall have the meaning set forth in Article 18.",
+    "bbox": [
+      178,
+      489,
+      619,
+      504
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Information",
+    "bbox": [
+      179,
+      506,
+      270,
+      518
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Developed",
+    "bbox": [
+      179,
+      523,
+      260,
+      535
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "shall mean any and all changes, additional Know-how, improvements and inventions relating to the Intellectual Property.",
+    "bbox": [
+      277,
+      522,
+      1000,
+      535
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Intellectual (such as, without limitation, method of use patents) made after the Effective Date of this Agreement.",
+    "bbox": [
+      179,
+      539,
+      1000,
+      551
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Property",
+    "bbox": [
+      178,
+      554,
+      248,
+      568
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      586,
+      672,
+      598
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      133,
+      1000,
+      547,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "License and Development Agreement.",
+    "bbox": [
+      937,
+      73,
+      1000,
+      84
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS",
+    "bbox": [
+      112,
+      107,
+      200,
+      117
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "A. NLS carries on the business of researching, developing and manufacturing certain pharmaceutical products and is the legal and beneficial",
+    "bbox": [
+      110,
+      122,
+      1000,
+      135
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "owner of certain Intellectual Property, including Patents, Know-how and other materials (all words with capital letters are defined below);.",
+    "bbox": [
+      145,
+      139,
+      1000,
+      151
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      110,
+      155,
+      128,
+      166
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Eurofarma is a pharmaceutical company with expertise in researching, developing, manufacturing, marketing and sales of pharmaceutical.",
+    "bbox": [
+      144,
+      154,
+      1000,
+      167
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "products, including products in the Field, and has a distribution network throughout Latin America;",
+    "bbox": [
+      145,
+      170,
+      895,
+      183
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      111,
+      186,
+      129,
+      198
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Eurofarma wishes to receive an exclusive license from NLS to register, import, export, store, handle, commercialize, have commercialized.",
+    "bbox": [
+      144,
+      186,
+      1000,
+      198
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "promote, have promoted, distribute, have distributed, sell and have sold the Licensed Product in the Territory, and NLS wishes to grant a.",
+    "bbox": [
+      144,
+      203,
+      1000,
+      216
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "respective license on the terms and conditions set out in this Agreement;",
+    "bbox": [
+      145,
+      219,
+      696,
+      231
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "D.",
+    "bbox": [
+      110,
+      234,
+      142,
+      246
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "The Parties acknowledge that further development of the Products will be necessary to develop the required Dossier as defined hereunder for",
+    "bbox": [
+      143,
+      235,
+      1000,
+      247
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "obtaining Marketing Authorisation(s) in the Territory and wish to collaborate on the further development of the Products.",
+    "bbox": [
+      145,
+      251,
+      1000,
+      263
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties agree as follows:",
+    "bbox": [
+      111,
+      267,
+      478,
+      278
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      282,
+      128,
+      294
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      179,
+      283,
+      267,
+      294
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "When used in this Agreement in capital letters, the terms and abbreviations set forth below, whether used in the singular or plural, shall.",
+    "bbox": [
+      180,
+      298,
+      1000,
+      311
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "have the following meaning:",
+    "bbox": [
+      178,
+      314,
+      391,
+      328
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Affiliates",
+    "bbox": [
+      179,
+      329,
+      252,
+      343
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "means any company, enterprise, corporation or business entity which controls, is controlled by, or is under common control.",
+    "bbox": [
+      278,
+      331,
+      1000,
+      343
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "power to direct or cause the direction of the management and policies of an entity, whether through holding a majority of the.",
+    "bbox": [
+      279,
+      363,
+      1000,
+      375
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "voting rights of the entity, by contract or otherwise.",
+    "bbox": [
+      279,
+      378,
+      669,
+      391
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Agreement",
+    "bbox": [
+      180,
+      395,
+      269,
+      407
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "shall mean this Agreement, including all of its Appendices.",
+    "bbox": [
+      277,
+      395,
+      722,
+      407
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Appendix",
+    "bbox": [
+      178,
+      409,
+      253,
+      425
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "shall mean any appendix to this Agreement..",
+    "bbox": [
+      278,
+      409,
+      608,
+      424
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      179,
+      426,
+      237,
+      438
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "shall mean an article of this Agreement..",
+    "bbox": [
+      279,
+      426,
+      575,
+      439
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Change of",
+    "bbox": [
+      179,
+      442,
+      260,
+      456
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "shall mean any merger, consolidation or acquisition of a Party with, by or into another corporation, entity or person; or any.",
+    "bbox": [
+      279,
+      442,
+      1000,
+      456
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Control",
+    "bbox": [
+      178,
+      457,
+      241,
+      471
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "change in the ownership of more than fifty percent (50%) of the voting capital stock or actual control over the voting rights.",
+    "bbox": [
+      280,
+      459,
+      1000,
+      471
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "in one or more related transactions..",
+    "bbox": [
+      279,
+      475,
+      543,
+      486
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Confidential shall have the meaning set forth in Article 18.",
+    "bbox": [
+      178,
+      489,
+      619,
+      504
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Information",
+    "bbox": [
+      179,
+      506,
+      270,
+      518
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Developed",
+    "bbox": [
+      179,
+      523,
+      260,
+      535
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "shall mean any and all changes, additional Know-how, improvements and inventions relating to the Intellectual Property.",
+    "bbox": [
+      277,
+      522,
+      1000,
+      535
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual (such as, without limitation, method of use patents) made after the Effective Date of this Agreement.",
+    "bbox": [
+      179,
+      539,
+      1000,
+      551
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Property",
+    "bbox": [
+      178,
+      554,
+      248,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      660,
+      586,
+      672,
+      598
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      133,
+      1000,
+      547,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "text": "MASTER OPERATION AND MAINTENANCE AGREEMENT",
+    "bbox": [
+      434,
+      195,
+      900,
+      204
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "BLOOM ENERGY CORPORATION",
+    "bbox": [
+      528,
+      321,
+      804,
+      332
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "***] Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities",
+    "bbox": [
+      114,
+      145,
+      1000,
+      157
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DIAMOND STATE GENERATION PARTNERS, LLC",
+    "bbox": [
+      466,
+      259,
+      866,
+      268
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "DIAMOND STATE GENERATION PARTNERS, LLC",
+    "bbox": [
+      466,
+      259,
+      866,
+      268
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "MASTER OPERATION AND MAINTENANCE AGREEMENT",
+    "bbox": [
+      434,
+      195,
+      900,
+      204
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "dated as of April 13, 2012",
+    "bbox": [
+      569,
+      354,
+      765,
+      366
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

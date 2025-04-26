@@ -1,0 +1,1322 @@
+[
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      577,
+      86,
+      754,
+      96
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE I USAGE AND DEFINITIONS",
+    "bbox": [
+      114,
+      118,
+      412,
+      128
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      117,
+      1000,
+      129
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 1.1",
+    "bbox": [
+      179,
+      134,
+      261,
+      145
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Usage and Definitions",
+    "bbox": [
+      396,
+      134,
+      564,
+      145
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      133,
+      1000,
+      145
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE II TRANSFER AND ACOUISITION OF DEPOSITOR TRANSFERRED PROPERTY: REPRESENTATIONS AND",
+    "bbox": [
+      114,
+      167,
+      1000,
+      176
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WARRANTIES",
+    "bbox": [
+      113,
+      182,
+      228,
+      192
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.1",
+    "bbox": [
+      179,
+      213,
+      261,
+      225
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Transfers of Depositor Transferred Property.",
+    "bbox": [
+      395,
+      213,
+      725,
+      227
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      214,
+      1000,
+      225
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.2",
+    "bbox": [
+      180,
+      230,
+      262,
+      241
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Acknowledgement of Further Assignments",
+    "bbox": [
+      397,
+      231,
+      721,
+      241
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      229,
+      1000,
+      242
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.3",
+    "bbox": [
+      178,
+      244,
+      262,
+      258
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Savings Clause",
+    "bbox": [
+      395,
+      246,
+      512,
+      257
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      245,
+      1000,
+      257
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.4",
+    "bbox": [
+      179,
+      260,
+      263,
+      274
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Representations and Warranties About Depositor Transferred Property.",
+    "bbox": [
+      395,
+      262,
+      931,
+      275
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      273
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.5",
+    "bbox": [
+      180,
+      278,
+      262,
+      288
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Originators' Reacquisition and Servicer's Acquisition of Receivables for Breach of",
+    "bbox": [
+      395,
+      277,
+      1000,
+      290
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      277,
+      1000,
+      290
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Representations",
+    "bbox": [
+      395,
+      294,
+      518,
+      305
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.6",
+    "bbox": [
+      180,
+      310,
+      262,
+      320
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Originators' Reacquisition or Servicer's Acquisition of Bankruptcy Surrendered Receivables",
+    "bbox": [
+      395,
+      309,
+      1000,
+      322
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      309,
+      1000,
+      322
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE III SERVICING OF RECEIVABLES",
+    "bbox": [
+      113,
+      342,
+      439,
+      352
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      341,
+      1000,
+      354
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.1",
+    "bbox": [
+      179,
+      358,
+      260,
+      369
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Engagement",
+    "bbox": [
+      395,
+      357,
+      491,
+      371
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      357,
+      1000,
+      370
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.2",
+    "bbox": [
+      179,
+      372,
+      263,
+      386
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Servicing of Receivables.",
+    "bbox": [
+      395,
+      373,
+      583,
+      386
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      386
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.3",
+    "bbox": [
+      179,
+      390,
+      261,
+      400
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Servicer's Acquisition of Receivables.",
+    "bbox": [
+      395,
+      390,
+      679,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      388,
+      1000,
+      402
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.4",
+    "bbox": [
+      179,
+      406,
+      262,
+      417
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Sale of Written-Off Receivables",
+    "bbox": [
+      397,
+      406,
+      632,
+      417
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      405,
+      1000,
+      417
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.5",
+    "bbox": [
+      180,
+      421,
+      262,
+      432
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Servicer Reports and Compliance Statements",
+    "bbox": [
+      396,
+      422,
+      732,
+      433
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      421,
+      1000,
+      433
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.6",
+    "bbox": [
+      179,
+      436,
+      262,
+      449
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Review of Servicer's Records",
+    "bbox": [
+      396,
+      438,
+      616,
+      449
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      436,
+      1000,
+      450
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.7",
+    "bbox": [
+      179,
+      453,
+      262,
+      465
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Servicer's Authorized and Responsible Persons",
+    "bbox": [
+      395,
+      453,
+      754,
+      465
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      453,
+      1000,
+      465
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.8",
+    "bbox": [
+      180,
+      470,
+      262,
+      481
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Servicer's Fees",
+    "bbox": [
+      396,
+      470,
+      510,
+      481
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      469,
+      1000,
+      481
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.9",
+    "bbox": [
+      179,
+      484,
+      263,
+      498
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Servicer's Expenses",
+    "bbox": [
+      396,
+      487,
+      545,
+      497
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      485,
+      1000,
+      497
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.10",
+    "bbox": [
+      180,
+      502,
+      270,
+      512
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Custodian.",
+    "bbox": [
+      395,
+      502,
+      477,
+      513
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      501,
+      1000,
+      513
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.11",
+    "bbox": [
+      180,
+      518,
+      268,
+      529
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Marketing Agent",
+    "bbox": [
+      393,
+      516,
+      527,
+      531
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      517,
+      1000,
+      530
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.12",
+    "bbox": [
+      180,
+      533,
+      270,
+      544
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Termination of Upgrade Programs; Credits Related to Upgrade Programs",
+    "bbox": [
+      394,
+      533,
+      937,
+      546
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      533,
+      1000,
+      545
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 3.13",
+    "bbox": [
+      179,
+      549,
+      270,
+      560
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Notices to Obligors.",
+    "bbox": [
+      394,
+      548,
+      543,
+      562
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      548,
+      1000,
+      562
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE IV ACCOUNTS, COLLECTIONS AND APPLICATION OF FUNDS",
+    "bbox": [
+      113,
+      582,
+      682,
+      592
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      594
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 4.1",
+    "bbox": [
+      179,
+      597,
+      261,
+      609
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Bank Accounts",
+    "bbox": [
+      395,
+      597,
+      514,
+      609
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      595,
+      1000,
+      610
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 4.2",
+    "bbox": [
+      180,
+      613,
+      262,
+      624
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Investment of Funds in Bank Accounts",
+    "bbox": [
+      395,
+      614,
+      692,
+      624
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      612,
+      1000,
+      626
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 4.3",
+    "bbox": [
+      178,
+      628,
+      263,
+      642
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Deposits and Payments",
+    "bbox": [
+      397,
+      631,
+      575,
+      641
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "19",
+    "bbox": [
+      1000,
+      629,
+      1000,
+      641
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 4.4",
+    "bbox": [
+      178,
+      644,
+      263,
+      658
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Reserve Account; Negative Carry Account; Acquisition Account",
+    "bbox": [
+      395,
+      646,
+      890,
+      657
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "21",
+    "bbox": [
+      1000,
+      644,
+      1000,
+      658
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 4.5",
+    "bbox": [
+      179,
+      662,
+      262,
+      672
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Direction to Indenture Trustee for Distributions",
+    "bbox": [
+      395,
+      662,
+      752,
+      673
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "22",
+    "bbox": [
+      1000,
+      660,
+      1000,
+      674
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE V DEPOSITOR",
+    "bbox": [
+      114,
+      694,
+      298,
+      704
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "23",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      705
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 5.1",
+    "bbox": [
+      180,
+      709,
+      260,
+      720
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Depositor's Representations and Warranties",
+    "bbox": [
+      395,
+      709,
+      731,
+      722
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "23",
+    "bbox": [
+      1000,
+      708,
+      1000,
+      722
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 5.2",
+    "bbox": [
+      180,
+      725,
+      262,
+      736
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Liability of Depositor",
+    "bbox": [
+      395,
+      725,
+      556,
+      737
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "24",
+    "bbox": [
+      1000,
+      724,
+      1000,
+      738
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 5.3",
+    "bbox": [
+      179,
+      740,
+      262,
+      754
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Merger, Consolidation, Succession or Assignment",
+    "bbox": [
+      395,
+      742,
+      776,
+      754
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      740,
+      1000,
+      754
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 5.4",
+    "bbox": [
+      179,
+      757,
+      262,
+      769
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Depositor May Own Notes",
+    "bbox": [
+      396,
+      758,
+      600,
+      770
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      756,
+      1000,
+      770
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 5.5",
+    "bbox": [
+      179,
+      772,
+      263,
+      785
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Depositor's Authorized and Responsible Persons",
+    "bbox": [
+      396,
+      774,
+      770,
+      786
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      772,
+      1000,
+      786
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 5.6",
+    "bbox": [
+      180,
+      789,
+      262,
+      800
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Company Existence",
+    "bbox": [
+      395,
+      789,
+      543,
+      801
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      788,
+      1000,
+      801
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 5.7",
+    "bbox": [
+      179,
+      806,
+      262,
+      817
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "No Division",
+    "bbox": [
+      394,
+      805,
+      487,
+      817
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      805,
+      1000,
+      817
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE VI SERVICER AND MARKETING AGENT",
+    "bbox": [
+      114,
+      838,
+      505,
+      847
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      837,
+      1000,
+      849
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 6.1",
+    "bbox": [
+      180,
+      854,
+      261,
+      864
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Servicer's and Marketing Agent's Representations and Warranties",
+    "bbox": [
+      395,
+      854,
+      895,
+      866
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      852,
+      1000,
+      866
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 6.2",
+    "bbox": [
+      180,
+      870,
+      262,
+      881
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Liability of Servicer and Marketing Agent.",
+    "bbox": [
+      395,
+      869,
+      709,
+      882
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      868,
+      1000,
+      882
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 6.3",
+    "bbox": [
+      179,
+      885,
+      262,
+      897
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Indemnities of Servicer and the Marketing Agent.",
+    "bbox": [
+      395,
+      885,
+      764,
+      898
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      885,
+      1000,
+      897
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: VERIZON ABS LLC, 8-K, 1/23/2020",
+    "bbox": [
+      133,
+      1000,
+      475,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

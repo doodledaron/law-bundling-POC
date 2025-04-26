@@ -1,0 +1,497 @@
+[
+  {
+    "text": "American",
+    "bbox": [
+      244,
+      74,
+      331,
+      86
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Diabetes",
+    "bbox": [
+      243,
+      85,
+      324,
+      99
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Association.",
+    "bbox": [
+      240,
+      98,
+      356,
+      110
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      207,
+      115,
+      233,
+      125
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "License: The Association grants Company a non-exclusive, limited, revocable and conditional license during the term to.",
+    "bbox": [
+      233,
+      115,
+      1000,
+      127
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "use the Association Marks, solely to identify Company as a supporter of the Association. Use by Company of the",
+    "bbox": [
+      235,
+      131,
+      1000,
+      143
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Association Marks is limited to the particular Association Marks as authorized by the Association, which may not be",
+    "bbox": [
+      236,
+      147,
+      1000,
+      159
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "revised or altered in any way, without prior written consent, must be displayed in the same form and colors, and does not.",
+    "bbox": [
+      235,
+      163,
+      1000,
+      175
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "extend to any other marks of the Association. Use by Company of the Association Marks on and in conjunction with its",
+    "bbox": [
+      235,
+      178,
+      1000,
+      191
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "product or brand is conditioned upon Company's observance of the specifications for permissible uses of the",
+    "bbox": [
+      235,
+      195,
+      1000,
+      207
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Association Marks as stated herein and as may be given to Company, from time to time , in writing by the Association.",
+    "bbox": [
+      236,
+      211,
+      1000,
+      223
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Nothing shall prohibit the Association, during the period of this Agreement, from licensing the use of substantially similar",
+    "bbox": [
+      235,
+      227,
+      1000,
+      239
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "marks for substantially similar uses in working with other companies or industries. Company may not permit any third",
+    "bbox": [
+      235,
+      243,
+      1000,
+      255
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "party to use the Association Marks without the express prior written approval of the Association, which may be withheld",
+    "bbox": [
+      235,
+      258,
+      1000,
+      271
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "for any reason. The Association Marks must be used in a professional manner and solely in connection with the activities.",
+    "bbox": [
+      235,
+      275,
+      1000,
+      287
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "authorized under this Agreement..",
+    "bbox": [
+      236,
+      292,
+      487,
+      302
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "The Company grants the Association a non-exclusive, limited, revocable and conditional license during the term to use",
+    "bbox": [
+      235,
+      307,
+      1000,
+      319
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Company Marks, solely to identify Company as a supporter of the Association. The Company Marks must be used",
+    "bbox": [
+      235,
+      323,
+      1000,
+      335
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "solely in connection with the activities authorized under this Agreement.",
+    "bbox": [
+      235,
+      339,
+      781,
+      351
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      208,
+      356,
+      222,
+      365
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Use of Association Marks: The Association Marks shall not be placed adjacent to the mark of another organization",
+    "bbox": [
+      235,
+      355,
+      1000,
+      367
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "concerned with diabetes, or those of a company that manufactures products or provides services related to diabetes,.",
+    "bbox": [
+      235,
+      371,
+      1000,
+      382
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "without the Association's specific prior written consent, which may be withheld for any reason. The Association Marks",
+    "bbox": [
+      236,
+      387,
+      1000,
+      398
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "may not be used for individual, personal or professional gain, or other private benefit, and Company shall not use the..",
+    "bbox": [
+      236,
+      404,
+      1000,
+      414
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Association Marks in any manner that, in the Association's sole discretion and judgment; diminishes their value or",
+    "bbox": [
+      237,
+      420,
+      1000,
+      430
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "otherwise dilutes the Association Marks; discredits the Association or tarnishes its reputation and goodwill; is false,",
+    "bbox": [
+      236,
+      435,
+      1000,
+      447
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "misleading or likely to cause confusion, mistake or deception; violates the rights of others; violates any federal, state or",
+    "bbox": [
+      235,
+      451,
+      1000,
+      463
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "local law, regulation or other public policy; or mischaracterizes the relationship between the Parties, including but not",
+    "bbox": [
+      236,
+      468,
+      1000,
+      478
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "limited to the fact that Company is a separate and distinct legal entity from, and is not an agent of, the Association. The",
+    "bbox": [
+      235,
+      483,
+      1000,
+      495
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "use of Company Marks by Association shall be in furtherance of the sponsorship elements set forth in Attachment A..",
+    "bbox": [
+      235,
+      499,
+      1000,
+      511
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      208,
+      517,
+      224,
+      525
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Quality: All products, materials, services or other items of Company with which the Association Marks are used shall be",
+    "bbox": [
+      234,
+      514,
+      1000,
+      527
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "maintained throughout the period of this Agreement at or above their quality at the beginning of the term. Company shall.",
+    "bbox": [
+      234,
+      530,
+      1000,
+      543
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "provide to the Association on a quarterly basis two (2) samples of any items or materials that contain the Association",
+    "bbox": [
+      235,
+      546,
+      1000,
+      559
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Marks.",
+    "bbox": [
+      235,
+      562,
+      288,
+      574
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "8.",
+    "bbox": [
+      207,
+      579,
+      221,
+      589
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Review: All uses of the Association Marks, including the specific placement of the Association Marks on Company's",
+    "bbox": [
+      234,
+      577,
+      1000,
+      591
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "product and all promotional materials and packaging, are subject to the Association's prior written approval, which",
+    "bbox": [
+      235,
+      595,
+      1000,
+      607
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "approval shall be in its sole discretion. Any reference to the Association in electronic or other publication or broadcast is",
+    "bbox": [
+      235,
+      610,
+      1000,
+      623
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "subject to the Association's respective prior written approval, which approval shall not be unreasonably withheld.",
+    "bbox": [
+      235,
+      626,
+      1000,
+      639
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Approval or disapproval shall be provided by the respective Party within five (5) business days of request. Failure to",
+    "bbox": [
+      235,
+      642,
+      1000,
+      655
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "have materials and/or products featuring the Association Marks reviewed in advance of making then available in the",
+    "bbox": [
+      235,
+      659,
+      1000,
+      671
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "marketplace may be considered breach of the Agreement and cause for immediate cancellation..",
+    "bbox": [
+      236,
+      675,
+      945,
+      686
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      691,
+      672,
+      701
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: FREEZE TAG, INC., 8-K, 4/11/2018",
+    "bbox": [
+      134,
+      1000,
+      475,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

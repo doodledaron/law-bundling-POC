@@ -1,0 +1,893 @@
+[
+  {
+    "text": "Terminating Party\"' has the meaning set forth in Section 6.3.",
+    "bbox": [
+      158,
+      83,
+      596,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Term'\" has the meaning set forth in Section 6.1",
+    "bbox": [
+      158,
+      106,
+      502,
+      118
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "'Termination Date\" has the meaning set forth in Section 6.1.",
+    "bbox": [
+      158,
+      130,
+      591,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Transition Services' has the meaning set forth in Section 2.1(a).",
+    "bbox": [
+      158,
+      153,
+      627,
+      165
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"TSA Records\" has the meaning set forth in Section 7.1(a)",
+    "bbox": [
+      157,
+      176,
+      583,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE II",
+    "bbox": [
+      629,
+      223,
+      715,
+      234
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "SERVICES AND INTERNAL CONTROLS",
+    "bbox": [
+      523,
+      239,
+      822,
+      249
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.1 Services.",
+    "bbox": [
+      156,
+      268,
+      305,
+      282
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a) During the applicable Term of any Service, and in accordance with the terms and conditions of this Agreement, RGHI shall provide, or",
+    "bbox": [
+      201,
+      292,
+      1000,
+      305
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall cause its Affiliates or, subject to Section 2.2, third parties to provide, to the Company or one or more of its Affiliates (in connection with the",
+    "bbox": [
+      157,
+      308,
+      1000,
+      320
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conduct of the Business) the services described on Exhibit A hereto (the \"Transition Services'). Notwithstanding the content of Exhibit A, RGHI",
+    "bbox": [
+      158,
+      324,
+      1000,
+      335
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "agrees to consider in good faith any reasonable request by the Company for access to any additional service that is necessary for the operation of",
+    "bbox": [
+      156,
+      339,
+      1000,
+      352
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Business, at fees to be agreed upon after good faith negotiation between the parties. RGHI will not be in in breach of this Agreement if RGHI",
+    "bbox": [
+      157,
+      355,
+      1000,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "declines to provide a requested additional service for any good faith reason, including the failure of the Parties to agree to the scope, term, and fee",
+    "bbox": [
+      157,
+      370,
+      1000,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "for the additional service. Any such additional services so provided by RGHI shall constitute Services hereunder and be subject in all respects to",
+    "bbox": [
+      156,
+      385,
+      1000,
+      398
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the provisions of this Agreement as if fully set forth on Exhibit A as of the date hereof.",
+    "bbox": [
+      157,
+      402,
+      787,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(b) During the applicable Term of any Service, and in accordance with the terms and conditions of this Agreement, Company shall provide, or.",
+    "bbox": [
+      202,
+      425,
+      1000,
+      437
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall cause its Affiliates or, subject to Section 2.2, third parties to provide, to RGHI or one or more of its Affiliates, the services described on Exhibit",
+    "bbox": [
+      157,
+      441,
+      1000,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "B hereto (the \"Reverse Transition Services\").",
+    "bbox": [
+      157,
+      456,
+      483,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c) In addition to the Services described on Exhibit A hereto, RGHI shall, and shall cause its Affiliates to undertake the segregation and.",
+    "bbox": [
+      202,
+      479,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "extraction required to separate the IT systems, data, records and processes of the Company, or thereafter created in the conduct of the Business",
+    "bbox": [
+      157,
+      495,
+      1000,
+      507
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "from RGHI's IT environment or infrastructure, and migrate them to RCP's, or any of its Affiliates', IT environment or infrastructure (collectively, the",
+    "bbox": [
+      157,
+      510,
+      1000,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Migration Services\"). For the avoidance of doubt, Migration Services apply to services only and do not include the acquisition or supply of any",
+    "bbox": [
+      157,
+      525,
+      1000,
+      538
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "hardware, software, license (except where RGHI, at the request of RCP, acquires such hardware, software, or license at RCP's cost), or ongoing.",
+    "bbox": [
+      156,
+      541,
+      1000,
+      555
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "operational support service for the operating environment(s) (except as otherwise contemplated by Exhibit A). The costs of such Migration",
+    "bbox": [
+      156,
+      557,
+      1000,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Services",
+    "bbox": [
+      156,
+      573,
+      220,
+      584
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: REYNOLDS CONSUMER PRODUCTS INC., S-1/A, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      667,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Terminating Party\"' has the meaning set forth in Section 6.3.",
+    "bbox": [
+      158,
+      83,
+      596,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Term'\" has the meaning set forth in Section 6.1",
+    "bbox": [
+      158,
+      106,
+      502,
+      118
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "'Termination Date\" has the meaning set forth in Section 6.1.",
+    "bbox": [
+      158,
+      130,
+      591,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Transition Services' has the meaning set forth in Section 2.1(a).",
+    "bbox": [
+      158,
+      153,
+      627,
+      165
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"TSA Records\" has the meaning set forth in Section 7.1(a)",
+    "bbox": [
+      157,
+      176,
+      583,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE II",
+    "bbox": [
+      629,
+      223,
+      715,
+      234
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "SERVICES AND INTERNAL CONTROLS",
+    "bbox": [
+      523,
+      239,
+      822,
+      249
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.1 Services.",
+    "bbox": [
+      156,
+      268,
+      305,
+      282
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a) During the applicable Term of any Service, and in accordance with the terms and conditions of this Agreement, RGHI shall provide, or",
+    "bbox": [
+      201,
+      292,
+      1000,
+      305
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall cause its Affiliates or, subject to Section 2.2, third parties to provide, to the Company or one or more of its Affiliates (in connection with the",
+    "bbox": [
+      157,
+      308,
+      1000,
+      320
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conduct of the Business) the services described on Exhibit A hereto (the \"Transition Services'). Notwithstanding the content of Exhibit A, RGHI",
+    "bbox": [
+      158,
+      324,
+      1000,
+      335
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "agrees to consider in good faith any reasonable request by the Company for access to any additional service that is necessary for the operation of",
+    "bbox": [
+      156,
+      339,
+      1000,
+      352
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Business, at fees to be agreed upon after good faith negotiation between the parties. RGHI will not be in in breach of this Agreement if RGHI",
+    "bbox": [
+      157,
+      355,
+      1000,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "declines to provide a requested additional service for any good faith reason, including the failure of the Parties to agree to the scope, term, and fee",
+    "bbox": [
+      157,
+      370,
+      1000,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "for the additional service. Any such additional services so provided by RGHI shall constitute Services hereunder and be subject in all respects to",
+    "bbox": [
+      156,
+      385,
+      1000,
+      398
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the provisions of this Agreement as if fully set forth on Exhibit A as of the date hereof.",
+    "bbox": [
+      157,
+      402,
+      787,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(b) During the applicable Term of any Service, and in accordance with the terms and conditions of this Agreement, Company shall provide, or.",
+    "bbox": [
+      202,
+      425,
+      1000,
+      437
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall cause its Affiliates or, subject to Section 2.2, third parties to provide, to RGHI or one or more of its Affiliates, the services described on Exhibit",
+    "bbox": [
+      157,
+      441,
+      1000,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "B hereto (the \"Reverse Transition Services\").",
+    "bbox": [
+      157,
+      456,
+      483,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c) In addition to the Services described on Exhibit A hereto, RGHI shall, and shall cause its Affiliates to undertake the segregation and.",
+    "bbox": [
+      202,
+      479,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "extraction required to separate the IT systems, data, records and processes of the Company, or thereafter created in the conduct of the Business",
+    "bbox": [
+      157,
+      495,
+      1000,
+      507
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "from RGHI's IT environment or infrastructure, and migrate them to RCP's, or any of its Affiliates', IT environment or infrastructure (collectively, the",
+    "bbox": [
+      157,
+      510,
+      1000,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Migration Services\"). For the avoidance of doubt, Migration Services apply to services only and do not include the acquisition or supply of any",
+    "bbox": [
+      157,
+      525,
+      1000,
+      538
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "hardware, software, license (except where RGHI, at the request of RCP, acquires such hardware, software, or license at RCP's cost), or ongoing.",
+    "bbox": [
+      156,
+      541,
+      1000,
+      555
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "operational support service for the operating environment(s) (except as otherwise contemplated by Exhibit A). The costs of such Migration",
+    "bbox": [
+      156,
+      557,
+      1000,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Services",
+    "bbox": [
+      156,
+      573,
+      220,
+      584
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: REYNOLDS CONSUMER PRODUCTS INC., S-1/A, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      667,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Terminating Party\"' has the meaning set forth in Section 6.3.",
+    "bbox": [
+      158,
+      83,
+      596,
+      95
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Term'\" has the meaning set forth in Section 6.1",
+    "bbox": [
+      158,
+      106,
+      502,
+      118
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "'Termination Date\" has the meaning set forth in Section 6.1.",
+    "bbox": [
+      158,
+      130,
+      591,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Transition Services' has the meaning set forth in Section 2.1(a).",
+    "bbox": [
+      158,
+      153,
+      627,
+      165
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"TSA Records\" has the meaning set forth in Section 7.1(a)",
+    "bbox": [
+      157,
+      176,
+      583,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE II",
+    "bbox": [
+      629,
+      223,
+      715,
+      234
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "SERVICES AND INTERNAL CONTROLS",
+    "bbox": [
+      523,
+      239,
+      822,
+      249
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Section 2.1 Services.",
+    "bbox": [
+      156,
+      268,
+      305,
+      282
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a) During the applicable Term of any Service, and in accordance with the terms and conditions of this Agreement, RGHI shall provide, or",
+    "bbox": [
+      201,
+      292,
+      1000,
+      305
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall cause its Affiliates or, subject to Section 2.2, third parties to provide, to the Company or one or more of its Affiliates (in connection with the",
+    "bbox": [
+      157,
+      308,
+      1000,
+      320
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conduct of the Business) the services described on Exhibit A hereto (the \"Transition Services'). Notwithstanding the content of Exhibit A, RGHI",
+    "bbox": [
+      158,
+      324,
+      1000,
+      335
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "agrees to consider in good faith any reasonable request by the Company for access to any additional service that is necessary for the operation of",
+    "bbox": [
+      156,
+      339,
+      1000,
+      352
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the Business, at fees to be agreed upon after good faith negotiation between the parties. RGHI will not be in in breach of this Agreement if RGHI",
+    "bbox": [
+      157,
+      355,
+      1000,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "declines to provide a requested additional service for any good faith reason, including the failure of the Parties to agree to the scope, term, and fee",
+    "bbox": [
+      157,
+      370,
+      1000,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "for the additional service. Any such additional services so provided by RGHI shall constitute Services hereunder and be subject in all respects to",
+    "bbox": [
+      156,
+      385,
+      1000,
+      398
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "the provisions of this Agreement as if fully set forth on Exhibit A as of the date hereof.",
+    "bbox": [
+      157,
+      402,
+      787,
+      413
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(b) During the applicable Term of any Service, and in accordance with the terms and conditions of this Agreement, Company shall provide, or.",
+    "bbox": [
+      202,
+      425,
+      1000,
+      437
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "shall cause its Affiliates or, subject to Section 2.2, third parties to provide, to RGHI or one or more of its Affiliates, the services described on Exhibit",
+    "bbox": [
+      157,
+      441,
+      1000,
+      453
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "B hereto (the \"Reverse Transition Services\").",
+    "bbox": [
+      157,
+      456,
+      483,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c) In addition to the Services described on Exhibit A hereto, RGHI shall, and shall cause its Affiliates to undertake the segregation and.",
+    "bbox": [
+      202,
+      479,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "extraction required to separate the IT systems, data, records and processes of the Company, or thereafter created in the conduct of the Business",
+    "bbox": [
+      157,
+      495,
+      1000,
+      507
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "from RGHI's IT environment or infrastructure, and migrate them to RCP's, or any of its Affiliates', IT environment or infrastructure (collectively, the",
+    "bbox": [
+      157,
+      510,
+      1000,
+      522
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Migration Services\"). For the avoidance of doubt, Migration Services apply to services only and do not include the acquisition or supply of any",
+    "bbox": [
+      157,
+      525,
+      1000,
+      538
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "hardware, software, license (except where RGHI, at the request of RCP, acquires such hardware, software, or license at RCP's cost), or ongoing.",
+    "bbox": [
+      156,
+      541,
+      1000,
+      555
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "operational support service for the operating environment(s) (except as otherwise contemplated by Exhibit A). The costs of such Migration",
+    "bbox": [
+      156,
+      557,
+      1000,
+      570
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Services",
+    "bbox": [
+      156,
+      573,
+      220,
+      584
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: REYNOLDS CONSUMER PRODUCTS INC., S-1/A, 1/21/2020",
+    "bbox": [
+      133,
+      1000,
+      667,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

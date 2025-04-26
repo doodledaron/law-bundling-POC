@@ -1,0 +1,2235 @@
+[
+  {
+    "text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential.",
+    "bbox": [
+      238,
+      79,
+      1000,
+      94
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "information of either party and includes, without limitation: (a) any information, software, material, data or",
+    "bbox": [
+      168,
+      99,
+      1000,
+      113
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "business, financial, operational, customer, vendor, and other information disclosed by one party to the other,.",
+    "bbox": [
+      168,
+      118,
+      1000,
+      133
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "permitted in Section 7. Confidential Information will not include information that the receiving party can prove:.",
+    "bbox": [
+      169,
+      157,
+      1000,
+      171
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y)",
+    "bbox": [
+      169,
+      176,
+      1000,
+      191
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or.",
+    "bbox": [
+      168,
+      195,
+      1000,
+      209
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "became generally available to the public other than as a result of disclosure by such party.",
+    "bbox": [
+      168,
+      212,
+      1000,
+      229
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.10 \"Content\" means, collectively: (a) the Reference Content; (b) Translated Content; (c) any updates.",
+    "bbox": [
+      236,
+      247,
+      1000,
+      263
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "to any of the foregoing provided by World Book; and (d) World Book Derivatives. The term \"Content\" shall not.",
+    "bbox": [
+      168,
+      268,
+      1000,
+      283
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "include any HSWI Modifications..",
+    "bbox": [
+      169,
+      288,
+      481,
+      300
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.11 \"Delivery Period\" means the following:.",
+    "bbox": [
+      237,
+      321,
+      665,
+      337
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "(i) July 1, 2008 - December 30th, 2009",
+    "bbox": [
+      373,
+      357,
+      756,
+      373
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.12 \"Display\" means to use, publicly display, publicly perform, provide a link to, provide the ability to.",
+    "bbox": [
+      236,
+      392,
+      1000,
+      409
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "download and/or print and otherwise make available on or through web sites.",
+    "bbox": [
+      170,
+      414,
+      911,
+      426
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.13 \"Effective Date\" is defined in the preamble of this Agreement.",
+    "bbox": [
+      238,
+      448,
+      886,
+      461
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.14 \"Encyclopedia\" means a tab or section of a website: (a) branded with the word \"encyclopedia\";.",
+    "bbox": [
+      238,
+      484,
+      1000,
+      499
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "or (b) that consists solely of multiple unrelated Affinities as provided by World Book hereunder.",
+    "bbox": [
+      171,
+      505,
+      1000,
+      518
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.15 \"Excess Royalties\" is defined in Section 4.1(ill) hereof.",
+    "bbox": [
+      238,
+      539,
+      828,
+      553
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.16 \"Exclusive\" shall mean World Book shall have no further right to grant to third parties the same or",
+    "bbox": [
+      238,
+      574,
+      1000,
+      589
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses",
+    "bbox": [
+      169,
+      595,
+      1000,
+      609
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.17 \"Force Majeure Event\"' is defined in Section 11.1 hereof.",
+    "bbox": [
+      237,
+      629,
+      845,
+      644
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.18 \"Hswl Modifications\" means modifications to the Content made by or on behalf of HSwl or its.",
+    "bbox": [
+      237,
+      665,
+      1000,
+      680
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Affiliates in accordance with this Agreement, except to the extent the HSwI Modifications are World Book",
+    "bbox": [
+      168,
+      685,
+      1000,
+      700
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Derivatives.",
+    "bbox": [
+      168,
+      705,
+      283,
+      719
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.19 \"Hswi Websites\" means, collectively, the Chinese language website found at",
+    "bbox": [
+      238,
+      740,
+      1000,
+      754
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "bowenwang.com.cn, and all other websites (be they Chinese language or non-Chinese language) owned or",
+    "bbox": [
+      170,
+      761,
+      1000,
+      774
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "controlled by HSWl or its Affiliates whether presently existing or later developed, and all successor websites",
+    "bbox": [
+      170,
+      780,
+      1000,
+      793
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "to any of the foregoing websites.",
+    "bbox": [
+      168,
+      798,
+      477,
+      813
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: REMARK HOLDINGS, INC., 10-Q, 11/14/2008",
+    "bbox": [
+      134,
+      1000,
+      557,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential.",
+    "bbox": [
+      238,
+      79,
+      1000,
+      94
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "information of either party and includes, without limitation: (a) any information, software, material, data or",
+    "bbox": [
+      168,
+      99,
+      1000,
+      113
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "business, financial, operational, customer, vendor, and other information disclosed by one party to the other,.",
+    "bbox": [
+      168,
+      118,
+      1000,
+      133
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "permitted in Section 7. Confidential Information will not include information that the receiving party can prove:.",
+    "bbox": [
+      169,
+      157,
+      1000,
+      171
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y)",
+    "bbox": [
+      169,
+      176,
+      1000,
+      191
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or.",
+    "bbox": [
+      168,
+      195,
+      1000,
+      209
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "became generally available to the public other than as a result of disclosure by such party.",
+    "bbox": [
+      168,
+      212,
+      1000,
+      229
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.10 \"Content\" means, collectively: (a) the Reference Content; (b) Translated Content; (c) any updates.",
+    "bbox": [
+      236,
+      247,
+      1000,
+      263
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "to any of the foregoing provided by World Book; and (d) World Book Derivatives. The term \"Content\" shall not.",
+    "bbox": [
+      168,
+      268,
+      1000,
+      283
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "include any HSWI Modifications..",
+    "bbox": [
+      169,
+      288,
+      481,
+      300
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.11 \"Delivery Period\" means the following:.",
+    "bbox": [
+      237,
+      321,
+      665,
+      337
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(i) July 1, 2008 - December 30th, 2009",
+    "bbox": [
+      373,
+      357,
+      756,
+      373
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.12 \"Display\" means to use, publicly display, publicly perform, provide a link to, provide the ability to.",
+    "bbox": [
+      236,
+      392,
+      1000,
+      409
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "download and/or print and otherwise make available on or through web sites.",
+    "bbox": [
+      170,
+      414,
+      911,
+      426
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.13 \"Effective Date\" is defined in the preamble of this Agreement.",
+    "bbox": [
+      238,
+      448,
+      886,
+      461
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.14 \"Encyclopedia\" means a tab or section of a website: (a) branded with the word \"encyclopedia\";.",
+    "bbox": [
+      238,
+      484,
+      1000,
+      499
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or (b) that consists solely of multiple unrelated Affinities as provided by World Book hereunder.",
+    "bbox": [
+      171,
+      505,
+      1000,
+      518
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.15 \"Excess Royalties\" is defined in Section 4.1(ill) hereof.",
+    "bbox": [
+      238,
+      539,
+      828,
+      553
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.16 \"Exclusive\" shall mean World Book shall have no further right to grant to third parties the same or",
+    "bbox": [
+      238,
+      574,
+      1000,
+      589
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses",
+    "bbox": [
+      169,
+      595,
+      1000,
+      609
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.17 \"Force Majeure Event\"' is defined in Section 11.1 hereof.",
+    "bbox": [
+      237,
+      629,
+      845,
+      644
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.18 \"Hswl Modifications\" means modifications to the Content made by or on behalf of HSwl or its.",
+    "bbox": [
+      237,
+      665,
+      1000,
+      680
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Affiliates in accordance with this Agreement, except to the extent the HSwI Modifications are World Book",
+    "bbox": [
+      168,
+      685,
+      1000,
+      700
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Derivatives.",
+    "bbox": [
+      168,
+      705,
+      283,
+      719
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.19 \"Hswi Websites\" means, collectively, the Chinese language website found at",
+    "bbox": [
+      238,
+      740,
+      1000,
+      754
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "bowenwang.com.cn, and all other websites (be they Chinese language or non-Chinese language) owned or",
+    "bbox": [
+      170,
+      761,
+      1000,
+      774
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "controlled by HSWl or its Affiliates whether presently existing or later developed, and all successor websites",
+    "bbox": [
+      170,
+      780,
+      1000,
+      793
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "to any of the foregoing websites.",
+    "bbox": [
+      168,
+      798,
+      477,
+      813
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: REMARK HOLDINGS, INC., 10-Q, 11/14/2008",
+    "bbox": [
+      134,
+      1000,
+      557,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential.",
+    "bbox": [
+      238,
+      79,
+      1000,
+      94
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "information of either party and includes, without limitation: (a) any information, software, material, data or",
+    "bbox": [
+      168,
+      99,
+      1000,
+      113
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "business, financial, operational, customer, vendor, and other information disclosed by one party to the other,.",
+    "bbox": [
+      168,
+      118,
+      1000,
+      133
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "permitted in Section 7. Confidential Information will not include information that the receiving party can prove:.",
+    "bbox": [
+      169,
+      157,
+      1000,
+      171
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y)",
+    "bbox": [
+      169,
+      176,
+      1000,
+      191
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or.",
+    "bbox": [
+      168,
+      195,
+      1000,
+      209
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "became generally available to the public other than as a result of disclosure by such party.",
+    "bbox": [
+      168,
+      212,
+      1000,
+      229
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.10 \"Content\" means, collectively: (a) the Reference Content; (b) Translated Content; (c) any updates.",
+    "bbox": [
+      236,
+      247,
+      1000,
+      263
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to any of the foregoing provided by World Book; and (d) World Book Derivatives. The term \"Content\" shall not.",
+    "bbox": [
+      168,
+      268,
+      1000,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "include any HSWI Modifications..",
+    "bbox": [
+      169,
+      288,
+      481,
+      300
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.11 \"Delivery Period\" means the following:.",
+    "bbox": [
+      237,
+      321,
+      665,
+      337
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "(i) July 1, 2008 - December 30th, 2009",
+    "bbox": [
+      373,
+      357,
+      756,
+      373
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.12 \"Display\" means to use, publicly display, publicly perform, provide a link to, provide the ability to.",
+    "bbox": [
+      236,
+      392,
+      1000,
+      409
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "download and/or print and otherwise make available on or through web sites.",
+    "bbox": [
+      170,
+      414,
+      911,
+      426
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.13 \"Effective Date\" is defined in the preamble of this Agreement.",
+    "bbox": [
+      238,
+      448,
+      886,
+      461
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.14 \"Encyclopedia\" means a tab or section of a website: (a) branded with the word \"encyclopedia\";.",
+    "bbox": [
+      238,
+      484,
+      1000,
+      499
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or (b) that consists solely of multiple unrelated Affinities as provided by World Book hereunder.",
+    "bbox": [
+      171,
+      505,
+      1000,
+      518
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.15 \"Excess Royalties\" is defined in Section 4.1(ill) hereof.",
+    "bbox": [
+      238,
+      539,
+      828,
+      553
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.16 \"Exclusive\" shall mean World Book shall have no further right to grant to third parties the same or",
+    "bbox": [
+      238,
+      574,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses",
+    "bbox": [
+      169,
+      595,
+      1000,
+      609
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.17 \"Force Majeure Event\"' is defined in Section 11.1 hereof.",
+    "bbox": [
+      237,
+      629,
+      845,
+      644
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.18 \"Hswl Modifications\" means modifications to the Content made by or on behalf of HSwl or its.",
+    "bbox": [
+      237,
+      665,
+      1000,
+      680
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Affiliates in accordance with this Agreement, except to the extent the HSwI Modifications are World Book",
+    "bbox": [
+      168,
+      685,
+      1000,
+      700
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Derivatives.",
+    "bbox": [
+      168,
+      705,
+      283,
+      719
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.19 \"Hswi Websites\" means, collectively, the Chinese language website found at",
+    "bbox": [
+      238,
+      740,
+      1000,
+      754
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "bowenwang.com.cn, and all other websites (be they Chinese language or non-Chinese language) owned or",
+    "bbox": [
+      170,
+      761,
+      1000,
+      774
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "controlled by HSWl or its Affiliates whether presently existing or later developed, and all successor websites",
+    "bbox": [
+      170,
+      780,
+      1000,
+      793
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "to any of the foregoing websites.",
+    "bbox": [
+      168,
+      798,
+      477,
+      813
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: REMARK HOLDINGS, INC., 10-Q, 11/14/2008",
+    "bbox": [
+      134,
+      1000,
+      557,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential.",
+    "bbox": [
+      238,
+      79,
+      1000,
+      94
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "information of either party and includes, without limitation: (a) any information, software, material, data or",
+    "bbox": [
+      168,
+      99,
+      1000,
+      113
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "business, financial, operational, customer, vendor, and other information disclosed by one party to the other,.",
+    "bbox": [
+      168,
+      118,
+      1000,
+      133
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "permitted in Section 7. Confidential Information will not include information that the receiving party can prove:.",
+    "bbox": [
+      169,
+      157,
+      1000,
+      171
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y)",
+    "bbox": [
+      169,
+      176,
+      1000,
+      191
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or.",
+    "bbox": [
+      168,
+      195,
+      1000,
+      209
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "became generally available to the public other than as a result of disclosure by such party.",
+    "bbox": [
+      168,
+      212,
+      1000,
+      229
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.10 \"Content\" means, collectively: (a) the Reference Content; (b) Translated Content; (c) any updates.",
+    "bbox": [
+      236,
+      247,
+      1000,
+      263
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "to any of the foregoing provided by World Book; and (d) World Book Derivatives. The term \"Content\" shall not.",
+    "bbox": [
+      168,
+      268,
+      1000,
+      283
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "include any HSWI Modifications..",
+    "bbox": [
+      169,
+      288,
+      481,
+      300
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.11 \"Delivery Period\" means the following:.",
+    "bbox": [
+      237,
+      321,
+      665,
+      337
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(i) July 1, 2008 - December 30th, 2009",
+    "bbox": [
+      373,
+      357,
+      756,
+      373
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.12 \"Display\" means to use, publicly display, publicly perform, provide a link to, provide the ability to.",
+    "bbox": [
+      236,
+      392,
+      1000,
+      409
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "download and/or print and otherwise make available on or through web sites.",
+    "bbox": [
+      170,
+      414,
+      911,
+      426
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.13 \"Effective Date\" is defined in the preamble of this Agreement.",
+    "bbox": [
+      238,
+      448,
+      886,
+      461
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.14 \"Encyclopedia\" means a tab or section of a website: (a) branded with the word \"encyclopedia\";.",
+    "bbox": [
+      238,
+      484,
+      1000,
+      499
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "or (b) that consists solely of multiple unrelated Affinities as provided by World Book hereunder.",
+    "bbox": [
+      171,
+      505,
+      1000,
+      518
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.15 \"Excess Royalties\" is defined in Section 4.1(ill) hereof.",
+    "bbox": [
+      238,
+      539,
+      828,
+      553
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.16 \"Exclusive\" shall mean World Book shall have no further right to grant to third parties the same or",
+    "bbox": [
+      238,
+      574,
+      1000,
+      589
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses",
+    "bbox": [
+      169,
+      595,
+      1000,
+      609
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.17 \"Force Majeure Event\"' is defined in Section 11.1 hereof.",
+    "bbox": [
+      237,
+      629,
+      845,
+      644
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.18 \"Hswl Modifications\" means modifications to the Content made by or on behalf of HSwl or its.",
+    "bbox": [
+      237,
+      665,
+      1000,
+      680
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Affiliates in accordance with this Agreement, except to the extent the HSwI Modifications are World Book",
+    "bbox": [
+      168,
+      685,
+      1000,
+      700
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Derivatives.",
+    "bbox": [
+      168,
+      705,
+      283,
+      719
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.19 \"Hswi Websites\" means, collectively, the Chinese language website found at",
+    "bbox": [
+      238,
+      740,
+      1000,
+      754
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "bowenwang.com.cn, and all other websites (be they Chinese language or non-Chinese language) owned or",
+    "bbox": [
+      170,
+      761,
+      1000,
+      774
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "controlled by HSWl or its Affiliates whether presently existing or later developed, and all successor websites",
+    "bbox": [
+      170,
+      780,
+      1000,
+      793
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "to any of the foregoing websites.",
+    "bbox": [
+      168,
+      798,
+      477,
+      813
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: REMARK HOLDINGS, INC., 10-Q, 11/14/2008",
+    "bbox": [
+      134,
+      1000,
+      557,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential.",
+    "bbox": [
+      238,
+      79,
+      1000,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "information of either party and includes, without limitation: (a) any information, software, material, data or",
+    "bbox": [
+      168,
+      99,
+      1000,
+      113
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "business, financial, operational, customer, vendor, and other information disclosed by one party to the other,.",
+    "bbox": [
+      168,
+      118,
+      1000,
+      133
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "permitted in Section 7. Confidential Information will not include information that the receiving party can prove:.",
+    "bbox": [
+      169,
+      157,
+      1000,
+      171
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y)",
+    "bbox": [
+      169,
+      176,
+      1000,
+      191
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or.",
+    "bbox": [
+      168,
+      195,
+      1000,
+      209
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "became generally available to the public other than as a result of disclosure by such party.",
+    "bbox": [
+      168,
+      212,
+      1000,
+      229
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.10 \"Content\" means, collectively: (a) the Reference Content; (b) Translated Content; (c) any updates.",
+    "bbox": [
+      236,
+      247,
+      1000,
+      263
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to any of the foregoing provided by World Book; and (d) World Book Derivatives. The term \"Content\" shall not.",
+    "bbox": [
+      168,
+      268,
+      1000,
+      283
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "include any HSWI Modifications..",
+    "bbox": [
+      169,
+      288,
+      481,
+      300
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.11 \"Delivery Period\" means the following:.",
+    "bbox": [
+      237,
+      321,
+      665,
+      337
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(i) July 1, 2008 - December 30th, 2009",
+    "bbox": [
+      373,
+      357,
+      756,
+      373
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.12 \"Display\" means to use, publicly display, publicly perform, provide a link to, provide the ability to.",
+    "bbox": [
+      236,
+      392,
+      1000,
+      409
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "download and/or print and otherwise make available on or through web sites.",
+    "bbox": [
+      170,
+      414,
+      911,
+      426
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.13 \"Effective Date\" is defined in the preamble of this Agreement.",
+    "bbox": [
+      238,
+      448,
+      886,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.14 \"Encyclopedia\" means a tab or section of a website: (a) branded with the word \"encyclopedia\";.",
+    "bbox": [
+      238,
+      484,
+      1000,
+      499
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "or (b) that consists solely of multiple unrelated Affinities as provided by World Book hereunder.",
+    "bbox": [
+      171,
+      505,
+      1000,
+      518
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.15 \"Excess Royalties\" is defined in Section 4.1(ill) hereof.",
+    "bbox": [
+      238,
+      539,
+      828,
+      553
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.16 \"Exclusive\" shall mean World Book shall have no further right to grant to third parties the same or",
+    "bbox": [
+      238,
+      574,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses",
+    "bbox": [
+      169,
+      595,
+      1000,
+      609
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.17 \"Force Majeure Event\"' is defined in Section 11.1 hereof.",
+    "bbox": [
+      237,
+      629,
+      845,
+      644
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.18 \"Hswl Modifications\" means modifications to the Content made by or on behalf of HSwl or its.",
+    "bbox": [
+      237,
+      665,
+      1000,
+      680
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Affiliates in accordance with this Agreement, except to the extent the HSwI Modifications are World Book",
+    "bbox": [
+      168,
+      685,
+      1000,
+      700
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Derivatives.",
+    "bbox": [
+      168,
+      705,
+      283,
+      719
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19 \"Hswi Websites\" means, collectively, the Chinese language website found at",
+    "bbox": [
+      238,
+      740,
+      1000,
+      754
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "bowenwang.com.cn, and all other websites (be they Chinese language or non-Chinese language) owned or",
+    "bbox": [
+      170,
+      761,
+      1000,
+      774
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "controlled by HSWl or its Affiliates whether presently existing or later developed, and all successor websites",
+    "bbox": [
+      170,
+      780,
+      1000,
+      793
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to any of the foregoing websites.",
+    "bbox": [
+      168,
+      798,
+      477,
+      813
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: REMARK HOLDINGS, INC., 10-Q, 11/14/2008",
+    "bbox": [
+      134,
+      1000,
+      557,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential.",
+    "bbox": [
+      238,
+      79,
+      1000,
+      94
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "information of either party and includes, without limitation: (a) any information, software, material, data or",
+    "bbox": [
+      168,
+      99,
+      1000,
+      113
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "business, financial, operational, customer, vendor, and other information disclosed by one party to the other,.",
+    "bbox": [
+      168,
+      118,
+      1000,
+      133
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "permitted in Section 7. Confidential Information will not include information that the receiving party can prove:.",
+    "bbox": [
+      169,
+      157,
+      1000,
+      171
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y)",
+    "bbox": [
+      169,
+      176,
+      1000,
+      191
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or.",
+    "bbox": [
+      168,
+      195,
+      1000,
+      209
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "became generally available to the public other than as a result of disclosure by such party.",
+    "bbox": [
+      168,
+      212,
+      1000,
+      229
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.10 \"Content\" means, collectively: (a) the Reference Content; (b) Translated Content; (c) any updates.",
+    "bbox": [
+      236,
+      247,
+      1000,
+      263
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "to any of the foregoing provided by World Book; and (d) World Book Derivatives. The term \"Content\" shall not.",
+    "bbox": [
+      168,
+      268,
+      1000,
+      283
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "include any HSWI Modifications..",
+    "bbox": [
+      169,
+      288,
+      481,
+      300
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.11 \"Delivery Period\" means the following:.",
+    "bbox": [
+      237,
+      321,
+      665,
+      337
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "(i) July 1, 2008 - December 30th, 2009",
+    "bbox": [
+      373,
+      357,
+      756,
+      373
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.12 \"Display\" means to use, publicly display, publicly perform, provide a link to, provide the ability to.",
+    "bbox": [
+      236,
+      392,
+      1000,
+      409
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "download and/or print and otherwise make available on or through web sites.",
+    "bbox": [
+      170,
+      414,
+      911,
+      426
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.13 \"Effective Date\" is defined in the preamble of this Agreement.",
+    "bbox": [
+      238,
+      448,
+      886,
+      461
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.14 \"Encyclopedia\" means a tab or section of a website: (a) branded with the word \"encyclopedia\";.",
+    "bbox": [
+      238,
+      484,
+      1000,
+      499
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "or (b) that consists solely of multiple unrelated Affinities as provided by World Book hereunder.",
+    "bbox": [
+      171,
+      505,
+      1000,
+      518
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.15 \"Excess Royalties\" is defined in Section 4.1(ill) hereof.",
+    "bbox": [
+      238,
+      539,
+      828,
+      553
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.16 \"Exclusive\" shall mean World Book shall have no further right to grant to third parties the same or",
+    "bbox": [
+      238,
+      574,
+      1000,
+      589
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses",
+    "bbox": [
+      169,
+      595,
+      1000,
+      609
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.17 \"Force Majeure Event\"' is defined in Section 11.1 hereof.",
+    "bbox": [
+      237,
+      629,
+      845,
+      644
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.18 \"Hswl Modifications\" means modifications to the Content made by or on behalf of HSwl or its.",
+    "bbox": [
+      237,
+      665,
+      1000,
+      680
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Affiliates in accordance with this Agreement, except to the extent the HSwI Modifications are World Book",
+    "bbox": [
+      168,
+      685,
+      1000,
+      700
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Derivatives.",
+    "bbox": [
+      168,
+      705,
+      283,
+      719
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.19 \"Hswi Websites\" means, collectively, the Chinese language website found at",
+    "bbox": [
+      238,
+      740,
+      1000,
+      754
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "bowenwang.com.cn, and all other websites (be they Chinese language or non-Chinese language) owned or",
+    "bbox": [
+      170,
+      761,
+      1000,
+      774
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "controlled by HSWl or its Affiliates whether presently existing or later developed, and all successor websites",
+    "bbox": [
+      170,
+      780,
+      1000,
+      793
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "to any of the foregoing websites.",
+    "bbox": [
+      168,
+      798,
+      477,
+      813
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "Source: REMARK HOLDINGS, INC., 10-Q, 11/14/2008",
+    "bbox": [
+      134,
+      1000,
+      557,
+      1000
+    ],
+    "label": 34,
+    "category": "Uncapped Liability"
+  },
+  {
+    "text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential.",
+    "bbox": [
+      238,
+      79,
+      1000,
+      94
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "information of either party and includes, without limitation: (a) any information, software, material, data or",
+    "bbox": [
+      168,
+      99,
+      1000,
+      113
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "business, financial, operational, customer, vendor, and other information disclosed by one party to the other,.",
+    "bbox": [
+      168,
+      118,
+      1000,
+      133
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "permitted in Section 7. Confidential Information will not include information that the receiving party can prove:.",
+    "bbox": [
+      169,
+      157,
+      1000,
+      171
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y)",
+    "bbox": [
+      169,
+      176,
+      1000,
+      191
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or.",
+    "bbox": [
+      168,
+      195,
+      1000,
+      209
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "became generally available to the public other than as a result of disclosure by such party.",
+    "bbox": [
+      168,
+      212,
+      1000,
+      229
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.10 \"Content\" means, collectively: (a) the Reference Content; (b) Translated Content; (c) any updates.",
+    "bbox": [
+      236,
+      247,
+      1000,
+      263
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "to any of the foregoing provided by World Book; and (d) World Book Derivatives. The term \"Content\" shall not.",
+    "bbox": [
+      168,
+      268,
+      1000,
+      283
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "include any HSWI Modifications..",
+    "bbox": [
+      169,
+      288,
+      481,
+      300
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.11 \"Delivery Period\" means the following:.",
+    "bbox": [
+      237,
+      321,
+      665,
+      337
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(i) July 1, 2008 - December 30th, 2009",
+    "bbox": [
+      373,
+      357,
+      756,
+      373
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.12 \"Display\" means to use, publicly display, publicly perform, provide a link to, provide the ability to.",
+    "bbox": [
+      236,
+      392,
+      1000,
+      409
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "download and/or print and otherwise make available on or through web sites.",
+    "bbox": [
+      170,
+      414,
+      911,
+      426
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.13 \"Effective Date\" is defined in the preamble of this Agreement.",
+    "bbox": [
+      238,
+      448,
+      886,
+      461
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.14 \"Encyclopedia\" means a tab or section of a website: (a) branded with the word \"encyclopedia\";.",
+    "bbox": [
+      238,
+      484,
+      1000,
+      499
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "or (b) that consists solely of multiple unrelated Affinities as provided by World Book hereunder.",
+    "bbox": [
+      171,
+      505,
+      1000,
+      518
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.15 \"Excess Royalties\" is defined in Section 4.1(ill) hereof.",
+    "bbox": [
+      238,
+      539,
+      828,
+      553
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.16 \"Exclusive\" shall mean World Book shall have no further right to grant to third parties the same or",
+    "bbox": [
+      238,
+      574,
+      1000,
+      589
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses",
+    "bbox": [
+      169,
+      595,
+      1000,
+      609
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.17 \"Force Majeure Event\"' is defined in Section 11.1 hereof.",
+    "bbox": [
+      237,
+      629,
+      845,
+      644
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.18 \"Hswl Modifications\" means modifications to the Content made by or on behalf of HSwl or its.",
+    "bbox": [
+      237,
+      665,
+      1000,
+      680
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Affiliates in accordance with this Agreement, except to the extent the HSwI Modifications are World Book",
+    "bbox": [
+      168,
+      685,
+      1000,
+      700
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Derivatives.",
+    "bbox": [
+      168,
+      705,
+      283,
+      719
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1.19 \"Hswi Websites\" means, collectively, the Chinese language website found at",
+    "bbox": [
+      238,
+      740,
+      1000,
+      754
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "bowenwang.com.cn, and all other websites (be they Chinese language or non-Chinese language) owned or",
+    "bbox": [
+      170,
+      761,
+      1000,
+      774
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "controlled by HSWl or its Affiliates whether presently existing or later developed, and all successor websites",
+    "bbox": [
+      170,
+      780,
+      1000,
+      793
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "to any of the foregoing websites.",
+    "bbox": [
+      168,
+      798,
+      477,
+      813
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: REMARK HOLDINGS, INC., 10-Q, 11/14/2008",
+    "bbox": [
+      134,
+      1000,
+      557,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

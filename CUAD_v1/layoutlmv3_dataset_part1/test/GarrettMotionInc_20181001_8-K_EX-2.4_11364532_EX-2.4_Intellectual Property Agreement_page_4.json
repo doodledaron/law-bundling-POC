@@ -1,0 +1,4457 @@
+[
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 28,
+    "category": "Affiliate License-Licensor"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Table of Contents.",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT, dated as of September 27, 2018 (this \"Agreement\"), by and between HONEYWELL",
+    "bbox": [
+      200,
+      134,
+      1000,
+      146
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "INTERNATIONAL INC., a Delaware corporation (\"Honeywell\"), and GARRETT MOTION INC., a Delaware corporation (\"SpinCo')",
+    "bbox": [
+      110,
+      149,
+      1000,
+      163
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "RECITALS",
+    "bbox": [
+      630,
+      196,
+      712,
+      208
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, in connection with the contemplated Spin-Off of SpinCo and concurrently with the execution of this Agreement, Honeywell and.",
+    "bbox": [
+      200,
+      227,
+      1000,
+      240
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "SpinCo are entering into a Separation and Distribution Agreement (the \"Separation Agreement');.",
+    "bbox": [
+      113,
+      244,
+      820,
+      256
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP has.",
+    "bbox": [
+      200,
+      275,
+      1000,
+      286
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "been allocated to the Honeywell Group and the SpinCo IP has been allocated to the SpinCo Group;",
+    "bbox": [
+      110,
+      289,
+      830,
+      303
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, the Parties wish to record the transfers of any registrations or applications of Honeywell IP and SpinCo IP, as applicable, to the.",
+    "bbox": [
+      200,
+      321,
+      1000,
+      333
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the",
+    "bbox": [
+      113,
+      336,
+      1000,
+      348
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Separation Agreement or any other Ancillary Agreement;",
+    "bbox": [
+      112,
+      353,
+      531,
+      365
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, pursuant to the Separation Agreement and the other Ancillary Agreements, as of the Distribution Date, the Honeywell IP.",
+    "bbox": [
+      200,
+      382,
+      1000,
+      395
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "allocated to the Honeywell Group includes the Honeywell Shared IP and the SpinCo IP allocated to the SpinCo Group includes the SpinCo Shared IP;",
+    "bbox": [
+      111,
+      399,
+      1000,
+      411
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell grant a license to SpinCo in the Honeywell Shared IP, subject to the terms and.",
+    "bbox": [
+      201,
+      430,
+      1000,
+      442
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "conditions set forth in this Agreement;.",
+    "bbox": [
+      111,
+      445,
+      395,
+      457
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that SpinCo grant a license to Honeywell in the SpinCo Shared IP, subject to the terms and",
+    "bbox": [
+      201,
+      476,
+      1000,
+      488
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "conditions set forth in this Agreement; and",
+    "bbox": [
+      111,
+      492,
+      427,
+      503
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "WHEREAS, it is the intent of the Parties that Honeywell license certain other intellectual property rights to SpinCo and that SpinCo license",
+    "bbox": [
+      200,
+      523,
+      1000,
+      534
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "certain other intellectual property rights to Honeywell.",
+    "bbox": [
+      110,
+      538,
+      507,
+      551
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "NOw, THEREFORE, in consideration of the mutual agreements, provisions and covenants contained in this Agreement, the Parties,",
+    "bbox": [
+      200,
+      569,
+      1000,
+      582
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "intending to be legally bound, hereby agree as follows:",
+    "bbox": [
+      110,
+      584,
+      512,
+      597
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "ARTICLEI",
+    "bbox": [
+      630,
+      631,
+      714,
+      642
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      617,
+      647,
+      727,
+      658
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Section 1.01. Definitions. As used in this Agreement, the following terms have the meanings set forth below. Capitalized terms used, but not",
+    "bbox": [
+      200,
+      677,
+      1000,
+      691
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "defined in this Agreement shall have the meanings ascribed to such terms in the Separation Agreement or any other Ancillary Agreement, as applicable.",
+    "bbox": [
+      111,
+      693,
+      1000,
+      706
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "\"Bankruptcy Code\" has the meaning set forth in Section 11.10.",
+    "bbox": [
+      201,
+      725,
+      654,
+      737
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  }
+]

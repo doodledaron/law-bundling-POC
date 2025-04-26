@@ -1,0 +1,46 @@
+[
+  {
+    "text": "MASTER JOINT DEVELOPMENT AGREEMENT",
+    "bbox": [
+      476,
+      129,
+      855,
+      140
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "This Master Joint Development Agreement (\"Agreement\") is between iBio Inc., a Public corporation, with a location at iBio Inc., 600 Madison Ave,",
+    "bbox": [
+      110,
+      143,
+      1000,
+      158
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Suite O1601 NY, NY 10022-1735 and Beijing CC-Pharming Ltd. of Beijing, China (\"CC-Pharming\"), a Chinese Corporation with a location at Shunyi",
+    "bbox": [
+      112,
+      161,
+      1000,
+      173
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Suite O1601 NY, NY 10022-1735 and Beijing CC-Pharming Ltd. of Beijing, China (\"CC-Pharming\"), a Chinese Corporation with a location at Shunyi",
+    "bbox": [
+      112,
+      161,
+      1000,
+      173
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

@@ -1,0 +1,343 @@
+[
+  {
+    "text": "prior thereto cease to hold at least fifty percent (50%) of the combined voting power of the surviving entity or acquiring entity",
+    "bbox": [
+      258,
+      72,
+      1000,
+      86
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(or its parent) immediately after such merger, reorganization, or consolidation; or (c) the acquisition of more than fifty percent",
+    "bbox": [
+      260,
+      90,
+      1000,
+      101
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "(50%) of the voting equity securities of such Party as a result of a single transaction or a series of related transactions.",
+    "bbox": [
+      259,
+      105,
+      1000,
+      117
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.19\"CIA\" shall have the meaning set forth in Section 5.4(j).",
+    "bbox": [
+      190,
+      120,
+      643,
+      133
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.20\"Claims\" shall have the meaning set forth in Section 6.1(a)",
+    "bbox": [
+      191,
+      137,
+      669,
+      149
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.21\"Compliance Manager\" shall have the meaning set forth in Section 2.6.",
+    "bbox": [
+      190,
+      152,
+      760,
+      165
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.22\"Confidential Information' shall have the meaning set forth in Section 7.1.",
+    "bbox": [
+      191,
+      169,
+      786,
+      181
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.23\"Co-Promote Field\"' shall mean those physicians and practices customarily considered primary care or gastroenterology providers.",
+    "bbox": [
+      191,
+      185,
+      1000,
+      197
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "and practices and, subject to Sections 3.1(c)(ii) and 4.2(d), the OB/Gyn Field, in the Territory. For clarity, if Exact, either through",
+    "bbox": [
+      259,
+      201,
+      1000,
+      213
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "its own Sales Representative or by agreement with a Third Party, launches the Product in the OB/Gyn Field, the Co-Promote",
+    "bbox": [
+      260,
+      218,
+      1000,
+      228
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Field shall not include the OB/Gyn Field.",
+    "bbox": [
+      258,
+      232,
+      561,
+      244
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.24\"Cost of Sales\" shall mean the direct and indirect costs attributable to sales of the Product Laboratory Services, as calculated in",
+    "bbox": [
+      191,
+      248,
+      1000,
+      260
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "accordance with Exhibit 1.24, and as consistently determined in accordance with GAAP.",
+    "bbox": [
+      258,
+      265,
+      914,
+      276
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.25\"Debarred/Excluded\"' shall have the meaning set forth in Section 5.1(g).",
+    "bbox": [
+      191,
+      280,
+      762,
+      293
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.26\"Detail'' shall mean a customary face-to-face or non-face-to-face contact of a Sales Representative of a Party with an Eligible",
+    "bbox": [
+      192,
+      297,
+      1000,
+      308
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Prescriber during which such Sales Representative makes a presentation of certain of the Product's attributes, such as",
+    "bbox": [
+      258,
+      313,
+      1000,
+      325
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "describing the FDA-approved indicated uses, safety, effectiveness, or other relevant characteristics of the Product, in a fair and.",
+    "bbox": [
+      258,
+      328,
+      1000,
+      341
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "balanced manner and in accordance with the requirements of this Agreement and Applicable Law and in a manner that is",
+    "bbox": [
+      258,
+      345,
+      1000,
+      357
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "customary for the purpose of Promoting a prescription medical device subject to pre-market approval, but excluding: (a) any",
+    "bbox": [
+      258,
+      360,
+      1000,
+      373
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "activities performed by any Representative other than a Sales Representative who is not conducting a face-to-face or non-face-",
+    "bbox": [
+      259,
+      377,
+      1000,
+      389
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "to-face sales call, (b) presentations made at conventions or (c) mere delivery of savings cards, coupons or similar items without",
+    "bbox": [
+      259,
+      393,
+      1000,
+      405
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "discussions with an Eligible Prescriber about the Product; provided that, such measurement shall be on the same basis as the",
+    "bbox": [
+      258,
+      408,
+      1000,
+      421
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "recording Party's measurement for its Sales Representatives' detailing of its other medical devices subject to pre-market",
+    "bbox": [
+      258,
+      425,
+      1000,
+      437
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "approval or prescription pharmaceutical products (as applicable), consistently applied throughout the Term. For clarity, non-",
+    "bbox": [
+      258,
+      440,
+      1000,
+      453
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "face-to-face contact shall mean e-detailing, video detailing or other presentation of Promotional Material by a Sales",
+    "bbox": [
+      258,
+      457,
+      1000,
+      469
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Representative to an Eligible Prescriber via audio, video, internet, using webex or other similar live conference applications, and",
+    "bbox": [
+      258,
+      473,
+      1000,
+      485
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "in all instances that allows for real time, detailed and substantive communication between the Sales Representative and the",
+    "bbox": [
+      259,
+      490,
+      1000,
+      500
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Eligible Prescriber regarding the Product and would be considered a Detail by Pfizer for its own products under its own",
+    "bbox": [
+      258,
+      504,
+      1000,
+      517
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "guidelines, but shall exclude any such communications, such as telephone calls, during which such detailed and visual",
+    "bbox": [
+      258,
+      520,
+      1000,
+      533
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      537,
+      672,
+      547
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: EXACT SCIENCES CORP, 8-K, 8/22/2018",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  }
+]

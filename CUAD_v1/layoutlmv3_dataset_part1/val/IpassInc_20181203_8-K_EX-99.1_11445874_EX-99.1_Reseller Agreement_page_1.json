@@ -1,0 +1,4831 @@
+[
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 7,
+    "category": "Notice Period To Terminate Renewal"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      80,
+      780,
+      92
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      112,
+      98,
+      130,
+      107
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "APPOINTMENT OF CHANNEL PARTNER",
+    "bbox": [
+      149,
+      97,
+      410,
+      108
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1.1 General. iPass will make the Service available to Channel Partner in exchange for the fees referenced in the Exhibits attached hereto and.",
+    "bbox": [
+      172,
+      113,
+      1000,
+      123
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "incorporated herein by reference. Channel Partner may order Services using an iPass approved order form available via the iPass Portal. Each order",
+    "bbox": [
+      111,
+      128,
+      1000,
+      142
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "form must reference this Agreement and each order form shall merge and incorporate the terms herein. Each order form is a separate and distinct",
+    "bbox": [
+      112,
+      145,
+      1000,
+      157
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "contractual obligation..",
+    "bbox": [
+      112,
+      161,
+      281,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1.2 Grant of Authority. iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed",
+    "bbox": [
+      171,
+      176,
+      1000,
+      188
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or",
+    "bbox": [
+      111,
+      192,
+      1000,
+      205
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software",
+    "bbox": [
+      112,
+      209,
+      1000,
+      220
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "on up to three (3) designated servers and one backup server for Channel Partner and for each End User. Channel Partner accepts iPass as the",
+    "bbox": [
+      112,
+      225,
+      1000,
+      237
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "exclusive provider to Channel Partner for all services of the nature of the Services. In no event may Channel Partner resell or otherwise provide the",
+    "bbox": [
+      112,
+      241,
+      1000,
+      253
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Service to any third party for purposes of further \"down channel\"' resale of the Services, absent iPass' notice and consent. The license granted",
+    "bbox": [
+      111,
+      257,
+      1000,
+      269
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "under this Section 1.2 does not include a license or other right to use the iPass domain name and does not include the right to use the trademark or",
+    "bbox": [
+      112,
+      273,
+      1000,
+      284
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "trade name of any iPass supplier or partner.",
+    "bbox": [
+      110,
+      288,
+      436,
+      301
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1.3 Software Delivery iPass will provide the Licensed Software to Channel Partner electronically via the iPass Portal, an iPass FTP website",
+    "bbox": [
+      172,
+      305,
+      1000,
+      317
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "or on-line app store..",
+    "bbox": [
+      111,
+      320,
+      263,
+      334
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1.4 Account and Password Information. iPass will assign to Channel Partner a unique password and identification code used to access the.",
+    "bbox": [
+      170,
+      336,
+      1000,
+      349
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Channel Partner section of the iPass Portal. Channel Partner may not transfer or share this account information with any third party. Channel Partner",
+    "bbox": [
+      112,
+      352,
+      1000,
+      365
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "is solely responsible for assigning user names and passwords (\"Credentials') to End Users so that End Users may access the iPass Portal and for",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "imposing reasonable limitations on the disclosure of such Credentials.",
+    "bbox": [
+      110,
+      384,
+      637,
+      397
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      112,
+      402,
+      129,
+      410
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "CHANNEL PARTNER RESPONSIBILITIES",
+    "bbox": [
+      149,
+      400,
+      412,
+      412
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "2.1 General. Channel Partner will use its reasonable endeavours cooperate with iPass and assist with the implementation of this Agreement.",
+    "bbox": [
+      170,
+      416,
+      1000,
+      429
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "and performance of the Services. Prior to deployment of the Licensed Software in a production environment, Channel Partner agrees to implement.",
+    "bbox": [
+      111,
+      432,
+      1000,
+      445
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "processes that will allow the Licensed Software to successfully report as specified in the Documentation. If Channel Partner fails to implement such",
+    "bbox": [
+      111,
+      449,
+      1000,
+      461
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "processes within a reasonable time following iPass' request, iPass may elect to terminate the Agreement or Channel Partner's use of the Licensed.",
+    "bbox": [
+      110,
+      464,
+      1000,
+      477
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Software upon written notice to Channel Partner. In such an event, Channel Partner shall be responsible for payment of all undisputed amounts due",
+    "bbox": [
+      112,
+      481,
+      1000,
+      493
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "and owing to iPass under the Agreement. In addition, Channel Partner agrees to ensure that prior to deployment of the Licensed Software in a.",
+    "bbox": [
+      111,
+      497,
+      1000,
+      509
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Business Entity production environment, each Business Entity implements processes that will allow the Licensed Software to successfully report",
+    "bbox": [
+      112,
+      513,
+      1000,
+      525
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "as specified in the Documentation. If Channel Partner's Business Entity fails to implement such processes within a reasonable time following iPass?",
+    "bbox": [
+      111,
+      529,
+      1000,
+      541
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "or Channel Partner's request, iPass may elect to terminate the order for such Business Entity upon written notice to Channel Partner. In such an",
+    "bbox": [
+      112,
+      545,
+      1000,
+      557
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "event, Channel Partner shall be responsible for payment of all undisputed amounts due and owing to iPass under the Agreement.",
+    "bbox": [
+      111,
+      561,
+      1000,
+      573
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "2.2 Acceptable Use Policy. Channel Partner agrees that it will not (and will not permit Business Entities) to use the Service in a manner.",
+    "bbox": [
+      170,
+      576,
+      1000,
+      589
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "contrary to the iPass acceptable use policy located at http://www3.ipass.com/wp-content/uploads/2010/01/Acceptable-Use-Policy.pdf/, and.",
+    "bbox": [
+      110,
+      592,
+      1000,
+      605
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "incorporated herein by reference..",
+    "bbox": [
+      112,
+      610,
+      360,
+      620
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Page 2 of 22",
+    "bbox": [
+      110,
+      640,
+      206,
+      653
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[***] = Certain confidential information contained in this document, marked by",
+    "bbox": [
+      556,
+      640,
+      1000,
+      652
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "iPass Channel Partner Reseller Agreement",
+    "bbox": [
+      112,
+      657,
+      427,
+      667
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "brackets, is filed with the Securities and Exchange Commission pursuant to Rule 24b-",
+    "bbox": [
+      554,
+      656,
+      1000,
+      669
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "04.18.2018 iPass Confidential",
+    "bbox": [
+      112,
+      673,
+      328,
+      683
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "2 of the Securities Exchange Act of 1934, as amended.",
+    "bbox": [
+      555,
+      672,
+      968,
+      684
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Source: IPASS INC, 8-K, 12/3/2018",
+    "bbox": [
+      134,
+      1000,
+      412,
+      1000
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  }
+]

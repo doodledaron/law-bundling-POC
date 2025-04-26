@@ -1,0 +1,57 @@
+[
+  {
+    "text": "ENDORSEMENT AGREEMENT",
+    "bbox": [
+      504,
+      152,
+      828,
+      163
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "ANDY NORTH",
+    "bbox": [
+      593,
+      216,
+      741,
+      227
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "ANDY NORTH",
+    "bbox": [
+      593,
+      216,
+      741,
+      227
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "GOLFERS INCORPORATED",
+    "bbox": [
+      522,
+      279,
+      812,
+      291
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Effective February 21, 2011",
+    "bbox": [
+      536,
+      327,
+      795,
+      342
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  }
+]

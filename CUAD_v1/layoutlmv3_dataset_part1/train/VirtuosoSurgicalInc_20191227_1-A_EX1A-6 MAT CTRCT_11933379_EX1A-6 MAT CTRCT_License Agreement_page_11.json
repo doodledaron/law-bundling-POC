@@ -1,0 +1,1058 @@
+[
+  {
+    "text": "11",
+    "bbox": [
+      659,
+      72,
+      675,
+      84
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "May 3, 2016",
+    "bbox": [
+      1000,
+      104,
+      1000,
+      118
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      623,
+      121,
+      709,
+      132
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "LICENSE FEES and ROYALTY",
+    "bbox": [
+      549,
+      137,
+      782,
+      146
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1. LICENSE FEE",
+    "bbox": [
+      112,
+      153,
+      236,
+      164
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      178,
+      168,
+      201,
+      181
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "The license fee due under Paragraph 4.1 is two-thousand dollars ($2000)",
+    "bbox": [
+      247,
+      168,
+      789,
+      181
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      178,
+      184,
+      203,
+      197
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the",
+    "bbox": [
+      247,
+      185,
+      1000,
+      197
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "agreement between COMPANY and JHU. The stock purchase agreement shall contain provisions protecting JHU against dilution",
+    "bbox": [
+      248,
+      217,
+      1000,
+      229
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "of its equity interest in the event the post-money valuation of any equity investment is less than two million dollars ($2,o0o,oo0),",
+    "bbox": [
+      247,
+      232,
+      1000,
+      245
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "and it will also contain a provision for the piggy-back registration of common shares with any other class of stock in an initial",
+    "bbox": [
+      248,
+      249,
+      1000,
+      261
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "public offering. If COMPANY proposes to sell any equity securities or securities that are convertible into equity securities of",
+    "bbox": [
+      248,
+      265,
+      1000,
+      277
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "COMPANY (collectively, \"Equity Securities\") in any new round of financing, then COMPANY shall offer JHU and/or its Assignee",
+    "bbox": [
+      247,
+      281,
+      1000,
+      293
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(as defined below) an opportunity to purchase either:",
+    "bbox": [
+      247,
+      297,
+      648,
+      309
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      247,
+      313,
+      264,
+      326
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "up to that portion of the Equity Securities that equals JHU's then current, fully-diluted percentage ownership interest in",
+    "bbox": [
+      314,
+      312,
+      1000,
+      326
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "COMPANY, or",
+    "bbox": [
+      315,
+      329,
+      426,
+      339
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      247,
+      344,
+      268,
+      358
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "sale. Such offer to purchase shall be on the same terms and conditions as are offered with respect to such Equity",
+    "bbox": [
+      314,
+      360,
+      1000,
+      373
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "to which JHU's preemptive rights have been assigned either by JHU or by another entity, or (b) any entity that is",
+    "bbox": [
+      314,
+      392,
+      1000,
+      405
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "controlled by JHU.",
+    "bbox": [
+      314,
+      408,
+      456,
+      421
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2. EARNED ROYALTY",
+    "bbox": [
+      112,
+      425,
+      287,
+      435
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      177,
+      440,
+      201,
+      453
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Annual Earned Royalty. COMPANY shall pay an annual EARNED ROYALTY as follows:.",
+    "bbox": [
+      247,
+      440,
+      910,
+      453
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2.1.1 Four percent (4%) of the sum of NET REVENUES.",
+    "bbox": [
+      247,
+      457,
+      657,
+      469
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      177,
+      471,
+      203,
+      485
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Royalty Stacking. If COMPANY is required to pay running royalties on any patent rights not licensed hereunder (\"Other",
+    "bbox": [
+      247,
+      473,
+      1000,
+      485
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Royalties') in order to make, use or sell a particular LICENSED PRODUCT or LICENSED SERVICE, COMPANY shall be entitled to",
+    "bbox": [
+      247,
+      487,
+      1000,
+      501
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "credit half (50%) of such Other Royalties against the Earned Royalty due, but the Earned Royalties shall not be reduced below",
+    "bbox": [
+      248,
+      505,
+      1000,
+      517
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "fifty percent (50%) of those that would otherwise be due JHU for that LICENSED PRODUCT or LICENSED SERVICE.",
+    "bbox": [
+      248,
+      521,
+      1000,
+      533
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019",
+    "bbox": [
+      133,
+      1000,
+      559,
+      1000
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      659,
+      72,
+      675,
+      84
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "May 3, 2016",
+    "bbox": [
+      1000,
+      104,
+      1000,
+      118
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      623,
+      121,
+      709,
+      132
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "LICENSE FEES and ROYALTY",
+    "bbox": [
+      549,
+      137,
+      782,
+      146
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1. LICENSE FEE",
+    "bbox": [
+      112,
+      153,
+      236,
+      164
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      178,
+      168,
+      201,
+      181
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The license fee due under Paragraph 4.1 is two-thousand dollars ($2000)",
+    "bbox": [
+      247,
+      168,
+      789,
+      181
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      178,
+      184,
+      203,
+      197
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the",
+    "bbox": [
+      247,
+      185,
+      1000,
+      197
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "agreement between COMPANY and JHU. The stock purchase agreement shall contain provisions protecting JHU against dilution",
+    "bbox": [
+      248,
+      217,
+      1000,
+      229
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "of its equity interest in the event the post-money valuation of any equity investment is less than two million dollars ($2,o0o,oo0),",
+    "bbox": [
+      247,
+      232,
+      1000,
+      245
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "and it will also contain a provision for the piggy-back registration of common shares with any other class of stock in an initial",
+    "bbox": [
+      248,
+      249,
+      1000,
+      261
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "public offering. If COMPANY proposes to sell any equity securities or securities that are convertible into equity securities of",
+    "bbox": [
+      248,
+      265,
+      1000,
+      277
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "COMPANY (collectively, \"Equity Securities\") in any new round of financing, then COMPANY shall offer JHU and/or its Assignee",
+    "bbox": [
+      247,
+      281,
+      1000,
+      293
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(as defined below) an opportunity to purchase either:",
+    "bbox": [
+      247,
+      297,
+      648,
+      309
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      247,
+      313,
+      264,
+      326
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "up to that portion of the Equity Securities that equals JHU's then current, fully-diluted percentage ownership interest in",
+    "bbox": [
+      314,
+      312,
+      1000,
+      326
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "COMPANY, or",
+    "bbox": [
+      315,
+      329,
+      426,
+      339
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      247,
+      344,
+      268,
+      358
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "sale. Such offer to purchase shall be on the same terms and conditions as are offered with respect to such Equity",
+    "bbox": [
+      314,
+      360,
+      1000,
+      373
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "to which JHU's preemptive rights have been assigned either by JHU or by another entity, or (b) any entity that is",
+    "bbox": [
+      314,
+      392,
+      1000,
+      405
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "controlled by JHU.",
+    "bbox": [
+      314,
+      408,
+      456,
+      421
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2. EARNED ROYALTY",
+    "bbox": [
+      112,
+      425,
+      287,
+      435
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      177,
+      440,
+      201,
+      453
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Annual Earned Royalty. COMPANY shall pay an annual EARNED ROYALTY as follows:.",
+    "bbox": [
+      247,
+      440,
+      910,
+      453
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.1.1 Four percent (4%) of the sum of NET REVENUES.",
+    "bbox": [
+      247,
+      457,
+      657,
+      469
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      177,
+      471,
+      203,
+      485
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Royalty Stacking. If COMPANY is required to pay running royalties on any patent rights not licensed hereunder (\"Other",
+    "bbox": [
+      247,
+      473,
+      1000,
+      485
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Royalties') in order to make, use or sell a particular LICENSED PRODUCT or LICENSED SERVICE, COMPANY shall be entitled to",
+    "bbox": [
+      247,
+      487,
+      1000,
+      501
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "credit half (50%) of such Other Royalties against the Earned Royalty due, but the Earned Royalties shall not be reduced below",
+    "bbox": [
+      248,
+      505,
+      1000,
+      517
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "fifty percent (50%) of those that would otherwise be due JHU for that LICENSED PRODUCT or LICENSED SERVICE.",
+    "bbox": [
+      248,
+      521,
+      1000,
+      533
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019",
+    "bbox": [
+      133,
+      1000,
+      559,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      659,
+      72,
+      675,
+      84
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "May 3, 2016",
+    "bbox": [
+      1000,
+      104,
+      1000,
+      118
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "EXHIBIT A",
+    "bbox": [
+      623,
+      121,
+      709,
+      132
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "LICENSE FEES and ROYALTY",
+    "bbox": [
+      549,
+      137,
+      782,
+      146
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1. LICENSE FEE",
+    "bbox": [
+      112,
+      153,
+      236,
+      164
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      178,
+      168,
+      201,
+      181
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "The license fee due under Paragraph 4.1 is two-thousand dollars ($2000)",
+    "bbox": [
+      247,
+      168,
+      789,
+      181
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      178,
+      184,
+      203,
+      197
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the",
+    "bbox": [
+      247,
+      185,
+      1000,
+      197
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "agreement between COMPANY and JHU. The stock purchase agreement shall contain provisions protecting JHU against dilution",
+    "bbox": [
+      248,
+      217,
+      1000,
+      229
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "of its equity interest in the event the post-money valuation of any equity investment is less than two million dollars ($2,o0o,oo0),",
+    "bbox": [
+      247,
+      232,
+      1000,
+      245
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "and it will also contain a provision for the piggy-back registration of common shares with any other class of stock in an initial",
+    "bbox": [
+      248,
+      249,
+      1000,
+      261
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "public offering. If COMPANY proposes to sell any equity securities or securities that are convertible into equity securities of",
+    "bbox": [
+      248,
+      265,
+      1000,
+      277
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "COMPANY (collectively, \"Equity Securities\") in any new round of financing, then COMPANY shall offer JHU and/or its Assignee",
+    "bbox": [
+      247,
+      281,
+      1000,
+      293
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(as defined below) an opportunity to purchase either:",
+    "bbox": [
+      247,
+      297,
+      648,
+      309
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(i)",
+    "bbox": [
+      247,
+      313,
+      264,
+      326
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "up to that portion of the Equity Securities that equals JHU's then current, fully-diluted percentage ownership interest in",
+    "bbox": [
+      314,
+      312,
+      1000,
+      326
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "COMPANY, or",
+    "bbox": [
+      315,
+      329,
+      426,
+      339
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      247,
+      344,
+      268,
+      358
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "sale. Such offer to purchase shall be on the same terms and conditions as are offered with respect to such Equity",
+    "bbox": [
+      314,
+      360,
+      1000,
+      373
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "to which JHU's preemptive rights have been assigned either by JHU or by another entity, or (b) any entity that is",
+    "bbox": [
+      314,
+      392,
+      1000,
+      405
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "controlled by JHU.",
+    "bbox": [
+      314,
+      408,
+      456,
+      421
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2. EARNED ROYALTY",
+    "bbox": [
+      112,
+      425,
+      287,
+      435
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      177,
+      440,
+      201,
+      453
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Annual Earned Royalty. COMPANY shall pay an annual EARNED ROYALTY as follows:.",
+    "bbox": [
+      247,
+      440,
+      910,
+      453
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.1.1 Four percent (4%) of the sum of NET REVENUES.",
+    "bbox": [
+      247,
+      457,
+      657,
+      469
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      177,
+      471,
+      203,
+      485
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Royalty Stacking. If COMPANY is required to pay running royalties on any patent rights not licensed hereunder (\"Other",
+    "bbox": [
+      247,
+      473,
+      1000,
+      485
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Royalties') in order to make, use or sell a particular LICENSED PRODUCT or LICENSED SERVICE, COMPANY shall be entitled to",
+    "bbox": [
+      247,
+      487,
+      1000,
+      501
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "credit half (50%) of such Other Royalties against the Earned Royalty due, but the Earned Royalties shall not be reduced below",
+    "bbox": [
+      248,
+      505,
+      1000,
+      517
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "fifty percent (50%) of those that would otherwise be due JHU for that LICENSED PRODUCT or LICENSED SERVICE.",
+    "bbox": [
+      248,
+      521,
+      1000,
+      533
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019",
+    "bbox": [
+      133,
+      1000,
+      559,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  }
+]

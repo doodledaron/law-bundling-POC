@@ -1,0 +1,200 @@
+[
+  {
+    "text": "5.2 In addition to the License Fee payable in accordance with Section 5.1, Licensee shall pay a royalty (\"Royalty') to Licensor according to the",
+    "bbox": [
+      133,
+      93,
+      1000,
+      106
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "following schedule (\"Royalty Schedule'):",
+    "bbox": [
+      100,
+      110,
+      412,
+      122
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Subscribers",
+    "bbox": [
+      472,
+      141,
+      569,
+      153
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Royalty Payable as Percentage of Gross Revenue",
+    "bbox": [
+      714,
+      142,
+      1000,
+      154
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "0 - 5000",
+    "bbox": [
+      510,
+      157,
+      570,
+      169
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "6.25%",
+    "bbox": [
+      876,
+      158,
+      922,
+      169
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "5001 - 7500",
+    "bbox": [
+      486,
+      174,
+      569,
+      185
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "6.75%",
+    "bbox": [
+      875,
+      173,
+      923,
+      186
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "7501 - 10,000",
+    "bbox": [
+      474,
+      190,
+      569,
+      201
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "7.00%",
+    "bbox": [
+      875,
+      190,
+      923,
+      201
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "10,001 - 15,000",
+    "bbox": [
+      462,
+      206,
+      569,
+      217
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "8.00%",
+    "bbox": [
+      875,
+      206,
+      922,
+      217
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "15,001 - 20,000",
+    "bbox": [
+      462,
+      222,
+      569,
+      233
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "8.50%",
+    "bbox": [
+      874,
+      220,
+      924,
+      234
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "20,001 - 25,000",
+    "bbox": [
+      462,
+      238,
+      568,
+      249
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "9.25%",
+    "bbox": [
+      876,
+      237,
+      922,
+      249
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "25,001+",
+    "bbox": [
+      510,
+      252,
+      569,
+      266
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "9.75%",
+    "bbox": [
+      874,
+      252,
+      924,
+      266
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  }
+]

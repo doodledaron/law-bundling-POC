@@ -1,0 +1,57 @@
+[
+  {
+    "text": "amount received by stockholders of COMPANY, upon the occurrence of a Liquidity Event. Such fee shall be paid after only the",
+    "bbox": [
+      247,
+      329,
+      1000,
+      341
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "first to occur of either a Liquidation Event or an Initial Public Offering. The respective fees, when and if payable, shall be paid.",
+    "bbox": [
+      247,
+      344,
+      1000,
+      357
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "upon closing; except that if there are additional contingent amounts (\"Trailing Consideration') payable upon the occurrence of.",
+    "bbox": [
+      247,
+      360,
+      1000,
+      373
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "subsequent events, then the Trailing Consideration shall be due and payable to JHU within thirty (30) days after receipt thereof.",
+    "bbox": [
+      247,
+      376,
+      1000,
+      390
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "by COMPANY",
+    "bbox": [
+      248,
+      392,
+      358,
+      403
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  }
+]

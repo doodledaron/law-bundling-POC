@@ -1,0 +1,1245 @@
+[
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      113,
+      773,
+      123
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1. Content.",
+    "bbox": [
+      110,
+      135,
+      195,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(a) Description. WebMD hereby agrees to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.",
+    "bbox": [
+      111,
+      160,
+      1000,
+      173
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b) License. Subject to Emdeon's compliance with the provisions of this Agreement, Emdeon is hereby authorized and licensed to use the Content",
+    "bbox": [
+      113,
+      185,
+      1000,
+      196
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "by making such Content available to third parties verbatim or as source material via the Software. Such license is a non-exclusive, non-transferrable.",
+    "bbox": [
+      111,
+      200,
+      1000,
+      213
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and worldwide license and shall include the right to use, reproduce, copy and publish the Content solely in connection with the Software. Emdeon",
+    "bbox": [
+      110,
+      216,
+      1000,
+      229
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "may determine the placement and formatting of the Content in the Software, but may not change the substance of the Content to any extent",
+    "bbox": [
+      111,
+      233,
+      1000,
+      245
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whatsoever without WebMD's written approval of the change.",
+    "bbox": [
+      110,
+      248,
+      581,
+      261
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c) Updates. If WebMD should reprint, issue a new edition, change or modify the edition, or otherwise enhance or edit the Content Emdeon has",
+    "bbox": [
+      112,
+      273,
+      1000,
+      285
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "licensed (collectively, \"Updates'), Emdeon has the option, at no additional cost, to receive the most recent Update. WebMD shall promptly notify.",
+    "bbox": [
+      111,
+      289,
+      1000,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Emdeon when a new Update is available..",
+    "bbox": [
+      112,
+      305,
+      415,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(d) Format. WebMD agrees to provide Emdeon the Content, including any Updates, in a mutually agreeable format (the \"Format'). WebMD shall",
+    "bbox": [
+      112,
+      328,
+      1000,
+      341
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "bear the cost of any reformatting necessary to provide the Content in the Format. Emdeon shall bear all the cost associated with the integration of",
+    "bbox": [
+      112,
+      345,
+      1000,
+      357
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Content into the Software..",
+    "bbox": [
+      111,
+      361,
+      337,
+      371
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(e) WebMD retains absolute editorial control over the Content. Nothing in this Agreement shall restrict WebMD's right to place other marks (such.",
+    "bbox": [
+      112,
+      385,
+      1000,
+      397
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as third party marks) within the Content..",
+    "bbox": [
+      112,
+      402,
+      413,
+      412
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(f) From time to time, WebMD will provide Content that supersedes and replaces Content previously provided (for example, a corrected news",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "article). Promptly after receipt of replacement Content, Emdeon will either (a) remove the superseded Content and replace it with the replacement",
+    "bbox": [
+      112,
+      441,
+      1000,
+      453
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Content or (b) note at the top of the superseded Content that it has been replaced and give a hypertext link to the replacement Content..",
+    "bbox": [
+      111,
+      456,
+      1000,
+      469
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(g) WebMD does not provide medical or diagnostic advice or services. Emdeon agrees that the Content is to be used for informational and.",
+    "bbox": [
+      110,
+      480,
+      1000,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "educational purposes only. Emdeon agrees that it shall not rely, or promote reliance, on the Content as a substitute for the professional judgment of.",
+    "bbox": [
+      112,
+      497,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a health care professional in diagnosing and treating patients..",
+    "bbox": [
+      110,
+      512,
+      575,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2. Intellectual Property. As between WebMD and Emdeon, WebMD or its suppliers retain all worldwide right, title, and interest in and to the",
+    "bbox": [
+      111,
+      536,
+      1000,
+      548
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Content. All rights in the Content not expressly granted by WebMD to Emdeon are reserved to WebMD. Except as expressly provided, no rights or.",
+    "bbox": [
+      111,
+      553,
+      1000,
+      565
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "licenses are intended or conveyed herein, whether by implication, estoppel, or otherwise..",
+    "bbox": [
+      111,
+      569,
+      778,
+      580
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3. Term and Termination..",
+    "bbox": [
+      110,
+      592,
+      305,
+      604
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(a) Term. This Agreement shall be effective as of the Effective Date and shall expire on the Expiration Date set forth above (the \"Initial Term''),",
+    "bbox": [
+      112,
+      616,
+      1000,
+      628
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "unless earlier terminated in accordance with Section 3(b). Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1)",
+    "bbox": [
+      111,
+      632,
+      1000,
+      644
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "year term upon the expiration of the Initial Term..",
+    "bbox": [
+      110,
+      648,
+      470,
+      662
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b) Termination. In addition to expiration of this Agreement as set forth in Section 3(a) hereof in the event either party fails to perform any of its",
+    "bbox": [
+      112,
+      673,
+      1000,
+      685
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "material obligations hereunder, the other party may terminate this Agreement at its election after thirty (30) days written notice to the party of such",
+    "bbox": [
+      110,
+      688,
+      1000,
+      701
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "breach, if such breach is not cured by the party within such thirty (30) day period..",
+    "bbox": [
+      111,
+      705,
+      725,
+      717
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c) Survival. All representations, warranties and indemnities shall survive the execution, delivery, suspension, expiration and/or termination of this",
+    "bbox": [
+      113,
+      728,
+      1000,
+      740
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement or any provision hereof. Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to",
+    "bbox": [
+      113,
+      745,
+      1000,
+      756
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "remove the Content from the Software.",
+    "bbox": [
+      111,
+      761,
+      402,
+      772
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4. Fees and Payment..",
+    "bbox": [
+      111,
+      784,
+      270,
+      796
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005",
+    "bbox": [
+      133,
+      1000,
+      525,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      113,
+      773,
+      123
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1. Content.",
+    "bbox": [
+      110,
+      135,
+      195,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(a) Description. WebMD hereby agrees to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.",
+    "bbox": [
+      111,
+      160,
+      1000,
+      173
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b) License. Subject to Emdeon's compliance with the provisions of this Agreement, Emdeon is hereby authorized and licensed to use the Content",
+    "bbox": [
+      113,
+      185,
+      1000,
+      196
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "by making such Content available to third parties verbatim or as source material via the Software. Such license is a non-exclusive, non-transferrable.",
+    "bbox": [
+      111,
+      200,
+      1000,
+      213
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and worldwide license and shall include the right to use, reproduce, copy and publish the Content solely in connection with the Software. Emdeon",
+    "bbox": [
+      110,
+      216,
+      1000,
+      229
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "may determine the placement and formatting of the Content in the Software, but may not change the substance of the Content to any extent",
+    "bbox": [
+      111,
+      233,
+      1000,
+      245
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whatsoever without WebMD's written approval of the change.",
+    "bbox": [
+      110,
+      248,
+      581,
+      261
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c) Updates. If WebMD should reprint, issue a new edition, change or modify the edition, or otherwise enhance or edit the Content Emdeon has",
+    "bbox": [
+      112,
+      273,
+      1000,
+      285
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "licensed (collectively, \"Updates'), Emdeon has the option, at no additional cost, to receive the most recent Update. WebMD shall promptly notify.",
+    "bbox": [
+      111,
+      289,
+      1000,
+      301
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Emdeon when a new Update is available..",
+    "bbox": [
+      112,
+      305,
+      415,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(d) Format. WebMD agrees to provide Emdeon the Content, including any Updates, in a mutually agreeable format (the \"Format'). WebMD shall",
+    "bbox": [
+      112,
+      328,
+      1000,
+      341
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "bear the cost of any reformatting necessary to provide the Content in the Format. Emdeon shall bear all the cost associated with the integration of",
+    "bbox": [
+      112,
+      345,
+      1000,
+      357
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Content into the Software..",
+    "bbox": [
+      111,
+      361,
+      337,
+      371
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(e) WebMD retains absolute editorial control over the Content. Nothing in this Agreement shall restrict WebMD's right to place other marks (such.",
+    "bbox": [
+      112,
+      385,
+      1000,
+      397
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "as third party marks) within the Content..",
+    "bbox": [
+      112,
+      402,
+      413,
+      412
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(f) From time to time, WebMD will provide Content that supersedes and replaces Content previously provided (for example, a corrected news",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "article). Promptly after receipt of replacement Content, Emdeon will either (a) remove the superseded Content and replace it with the replacement",
+    "bbox": [
+      112,
+      441,
+      1000,
+      453
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Content or (b) note at the top of the superseded Content that it has been replaced and give a hypertext link to the replacement Content..",
+    "bbox": [
+      111,
+      456,
+      1000,
+      469
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(g) WebMD does not provide medical or diagnostic advice or services. Emdeon agrees that the Content is to be used for informational and.",
+    "bbox": [
+      110,
+      480,
+      1000,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "educational purposes only. Emdeon agrees that it shall not rely, or promote reliance, on the Content as a substitute for the professional judgment of.",
+    "bbox": [
+      112,
+      497,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "a health care professional in diagnosing and treating patients..",
+    "bbox": [
+      110,
+      512,
+      575,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2. Intellectual Property. As between WebMD and Emdeon, WebMD or its suppliers retain all worldwide right, title, and interest in and to the",
+    "bbox": [
+      111,
+      536,
+      1000,
+      548
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Content. All rights in the Content not expressly granted by WebMD to Emdeon are reserved to WebMD. Except as expressly provided, no rights or.",
+    "bbox": [
+      111,
+      553,
+      1000,
+      565
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "licenses are intended or conveyed herein, whether by implication, estoppel, or otherwise..",
+    "bbox": [
+      111,
+      569,
+      778,
+      580
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3. Term and Termination..",
+    "bbox": [
+      110,
+      592,
+      305,
+      604
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(a) Term. This Agreement shall be effective as of the Effective Date and shall expire on the Expiration Date set forth above (the \"Initial Term''),",
+    "bbox": [
+      112,
+      616,
+      1000,
+      628
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "unless earlier terminated in accordance with Section 3(b). Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1)",
+    "bbox": [
+      111,
+      632,
+      1000,
+      644
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "year term upon the expiration of the Initial Term..",
+    "bbox": [
+      110,
+      648,
+      470,
+      662
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(b) Termination. In addition to expiration of this Agreement as set forth in Section 3(a) hereof in the event either party fails to perform any of its",
+    "bbox": [
+      112,
+      673,
+      1000,
+      685
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "material obligations hereunder, the other party may terminate this Agreement at its election after thirty (30) days written notice to the party of such",
+    "bbox": [
+      110,
+      688,
+      1000,
+      701
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "breach, if such breach is not cured by the party within such thirty (30) day period..",
+    "bbox": [
+      111,
+      705,
+      725,
+      717
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c) Survival. All representations, warranties and indemnities shall survive the execution, delivery, suspension, expiration and/or termination of this",
+    "bbox": [
+      113,
+      728,
+      1000,
+      740
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement or any provision hereof. Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to",
+    "bbox": [
+      113,
+      745,
+      1000,
+      756
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "remove the Content from the Software.",
+    "bbox": [
+      111,
+      761,
+      402,
+      772
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4. Fees and Payment..",
+    "bbox": [
+      111,
+      784,
+      270,
+      796
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005",
+    "bbox": [
+      133,
+      1000,
+      525,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement or any provision hereof. Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to",
+    "bbox": [
+      113,
+      745,
+      1000,
+      756
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "remove the Content from the Software.",
+    "bbox": [
+      111,
+      761,
+      402,
+      772
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "TERMS AND CONDITIONS",
+    "bbox": [
+      559,
+      113,
+      773,
+      123
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "1. Content.",
+    "bbox": [
+      110,
+      135,
+      195,
+      149
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(a) Description. WebMD hereby agrees to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.",
+    "bbox": [
+      111,
+      160,
+      1000,
+      173
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(b) License. Subject to Emdeon's compliance with the provisions of this Agreement, Emdeon is hereby authorized and licensed to use the Content",
+    "bbox": [
+      113,
+      185,
+      1000,
+      196
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "by making such Content available to third parties verbatim or as source material via the Software. Such license is a non-exclusive, non-transferrable.",
+    "bbox": [
+      111,
+      200,
+      1000,
+      213
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "and worldwide license and shall include the right to use, reproduce, copy and publish the Content solely in connection with the Software. Emdeon",
+    "bbox": [
+      110,
+      216,
+      1000,
+      229
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "may determine the placement and formatting of the Content in the Software, but may not change the substance of the Content to any extent",
+    "bbox": [
+      111,
+      233,
+      1000,
+      245
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "whatsoever without WebMD's written approval of the change.",
+    "bbox": [
+      110,
+      248,
+      581,
+      261
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(c) Updates. If WebMD should reprint, issue a new edition, change or modify the edition, or otherwise enhance or edit the Content Emdeon has",
+    "bbox": [
+      112,
+      273,
+      1000,
+      285
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "licensed (collectively, \"Updates'), Emdeon has the option, at no additional cost, to receive the most recent Update. WebMD shall promptly notify.",
+    "bbox": [
+      111,
+      289,
+      1000,
+      301
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Emdeon when a new Update is available..",
+    "bbox": [
+      112,
+      305,
+      415,
+      316
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(d) Format. WebMD agrees to provide Emdeon the Content, including any Updates, in a mutually agreeable format (the \"Format'). WebMD shall",
+    "bbox": [
+      112,
+      328,
+      1000,
+      341
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "bear the cost of any reformatting necessary to provide the Content in the Format. Emdeon shall bear all the cost associated with the integration of",
+    "bbox": [
+      112,
+      345,
+      1000,
+      357
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "the Content into the Software..",
+    "bbox": [
+      111,
+      361,
+      337,
+      371
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(e) WebMD retains absolute editorial control over the Content. Nothing in this Agreement shall restrict WebMD's right to place other marks (such.",
+    "bbox": [
+      112,
+      385,
+      1000,
+      397
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "as third party marks) within the Content..",
+    "bbox": [
+      112,
+      402,
+      413,
+      412
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(f) From time to time, WebMD will provide Content that supersedes and replaces Content previously provided (for example, a corrected news",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "article). Promptly after receipt of replacement Content, Emdeon will either (a) remove the superseded Content and replace it with the replacement",
+    "bbox": [
+      112,
+      441,
+      1000,
+      453
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Content or (b) note at the top of the superseded Content that it has been replaced and give a hypertext link to the replacement Content..",
+    "bbox": [
+      111,
+      456,
+      1000,
+      469
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(g) WebMD does not provide medical or diagnostic advice or services. Emdeon agrees that the Content is to be used for informational and.",
+    "bbox": [
+      110,
+      480,
+      1000,
+      493
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "educational purposes only. Emdeon agrees that it shall not rely, or promote reliance, on the Content as a substitute for the professional judgment of.",
+    "bbox": [
+      112,
+      497,
+      1000,
+      509
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "a health care professional in diagnosing and treating patients..",
+    "bbox": [
+      110,
+      512,
+      575,
+      526
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "2. Intellectual Property. As between WebMD and Emdeon, WebMD or its suppliers retain all worldwide right, title, and interest in and to the",
+    "bbox": [
+      111,
+      536,
+      1000,
+      548
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Content. All rights in the Content not expressly granted by WebMD to Emdeon are reserved to WebMD. Except as expressly provided, no rights or.",
+    "bbox": [
+      111,
+      553,
+      1000,
+      565
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "licenses are intended or conveyed herein, whether by implication, estoppel, or otherwise..",
+    "bbox": [
+      111,
+      569,
+      778,
+      580
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "3. Term and Termination..",
+    "bbox": [
+      110,
+      592,
+      305,
+      604
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(a) Term. This Agreement shall be effective as of the Effective Date and shall expire on the Expiration Date set forth above (the \"Initial Term''),",
+    "bbox": [
+      112,
+      616,
+      1000,
+      628
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "unless earlier terminated in accordance with Section 3(b). Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1)",
+    "bbox": [
+      111,
+      632,
+      1000,
+      644
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "year term upon the expiration of the Initial Term..",
+    "bbox": [
+      110,
+      648,
+      470,
+      662
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(b) Termination. In addition to expiration of this Agreement as set forth in Section 3(a) hereof in the event either party fails to perform any of its",
+    "bbox": [
+      112,
+      673,
+      1000,
+      685
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "material obligations hereunder, the other party may terminate this Agreement at its election after thirty (30) days written notice to the party of such",
+    "bbox": [
+      110,
+      688,
+      1000,
+      701
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "breach, if such breach is not cured by the party within such thirty (30) day period..",
+    "bbox": [
+      111,
+      705,
+      725,
+      717
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "(c) Survival. All representations, warranties and indemnities shall survive the execution, delivery, suspension, expiration and/or termination of this",
+    "bbox": [
+      113,
+      728,
+      1000,
+      740
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Agreement or any provision hereof. Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to",
+    "bbox": [
+      113,
+      745,
+      1000,
+      756
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "remove the Content from the Software.",
+    "bbox": [
+      111,
+      761,
+      402,
+      772
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "4. Fees and Payment..",
+    "bbox": [
+      111,
+      784,
+      270,
+      796
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005",
+    "bbox": [
+      133,
+      1000,
+      525,
+      1000
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

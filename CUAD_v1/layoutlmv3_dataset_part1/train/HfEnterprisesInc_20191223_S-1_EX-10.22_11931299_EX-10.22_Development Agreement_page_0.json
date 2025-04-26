@@ -1,0 +1,563 @@
+[
+  {
+    "text": "This Outsource Technology Development Agreement (this \"Agreement') is entered into and effective as of this 1st day of March, 2018",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "York (Dss\"), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong (Developer').",
+    "bbox": [
+      112,
+      192,
+      1000,
+      206
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "York (Dss\"), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong (Developer').",
+    "bbox": [
+      112,
+      192,
+      1000,
+      206
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "York (Dss\"), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong (Developer').",
+    "bbox": [
+      112,
+      192,
+      1000,
+      206
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(the \"Effective Date\") by and between Document Security Systems, Inc., a corporation organized and existing under the laws of the State of New",
+    "bbox": [
+      113,
+      177,
+      1000,
+      190
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "This Outsource Technology Development Agreement (this \"Agreement') is entered into and effective as of this 1st day of March, 2018",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "This Outsource Technology Development Agreement (this \"Agreement') is entered into and effective as of this 1st day of March, 2018",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of",
+    "bbox": [
+      247,
+      704,
+      1000,
+      716
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "twelve (12) months (the \"Initial Term'). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30-.",
+    "bbox": [
+      111,
+      720,
+      1000,
+      733
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Exhibit 10.22",
+    "bbox": [
+      1000,
+      97,
+      1000,
+      107
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "OUTSOURCE TECHNOLOGY DEVELOPMENT A GREEMENT",
+    "bbox": [
+      425,
+      129,
+      907,
+      140
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Outsource Technology Development Agreement (this \"Agreement') is entered into and effective as of this 1st day of March, 2018",
+    "bbox": [
+      179,
+      160,
+      1000,
+      173
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(the \"Effective Date\") by and between Document Security Systems, Inc., a corporation organized and existing under the laws of the State of New",
+    "bbox": [
+      113,
+      177,
+      1000,
+      190
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "York (Dss\"), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong (Developer').",
+    "bbox": [
+      112,
+      192,
+      1000,
+      206
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      619,
+      224,
+      712,
+      237
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, DSS is engaged in the business of, among other things, developing and licensing anti-counterfeiting technology, processes",
+    "bbox": [
+      179,
+      256,
+      1000,
+      269
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and products providing protection against a wide range of threats, including product diversion and counterfeiting, brand infringement, forgery, and.",
+    "bbox": [
+      112,
+      273,
+      1000,
+      285
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "unauthorized copying, scanning and photo imaging;",
+    "bbox": [
+      110,
+      287,
+      507,
+      303
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, Developer is engaged in the business of, among other things, software development; and.",
+    "bbox": [
+      179,
+      320,
+      946,
+      333
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS, DSS desires to retain Developer for the purpose of assisting DSS in developing an Android software application to be.",
+    "bbox": [
+      180,
+      353,
+      1000,
+      365
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "included as part of DSS's AuthentiGuard? Technology suite, and DSS is willing to grant Developer a non-exclusive, limited and non-transferable",
+    "bbox": [
+      112,
+      369,
+      1000,
+      381
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "license for purposes of such development activities.",
+    "bbox": [
+      112,
+      384,
+      502,
+      397
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOw, THEREFORE, for good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the parties hereto",
+    "bbox": [
+      178,
+      416,
+      1000,
+      429
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "agree as follows:.",
+    "bbox": [
+      111,
+      432,
+      239,
+      445
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Capitalized terms contained herein shall have the meanings ascribed to them herein, or in Schedule 1 which is annexed hereto and made a",
+    "bbox": [
+      179,
+      465,
+      1000,
+      477
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "part of this Agreement.",
+    "bbox": [
+      113,
+      482,
+      285,
+      493
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      179,
+      512,
+      214,
+      524
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Development License and Fees.",
+    "bbox": [
+      206,
+      511,
+      452,
+      525
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.1.",
+    "bbox": [
+      247,
+      545,
+      293,
+      556
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Developer accepts from DSS, for the Term, a non-exclusive, limited, and non-transferable license to install and use the Technology for the sole",
+    "bbox": [
+      112,
+      561,
+      1000,
+      573
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "purpose of developing the Improvements (as defined hereunder) thereto for the benefit of DSS (the \"Technology Development Services License\")",
+    "bbox": [
+      111,
+      576,
+      1000,
+      589
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.2.",
+    "bbox": [
+      247,
+      608,
+      295,
+      620
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " Development Fees. As payment for Developer's satisfactory performance of the services set forth in Schedule 1 hereto.",
+    "bbox": [
+      288,
+      608,
+      1000,
+      621
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(the \"Technology Development Services'), DSS shall pay Developer the sum of US $23,o00 per month, for the duration of the Term hereof, with",
+    "bbox": [
+      111,
+      624,
+      1000,
+      637
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "payments to commence on March 1, 2018.",
+    "bbox": [
+      110,
+      640,
+      424,
+      654
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      179,
+      672,
+      196,
+      683
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Term and Termination",
+    "bbox": [
+      216,
+      673,
+      383,
+      684
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of",
+    "bbox": [
+      247,
+      704,
+      1000,
+      716
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "twelve (12) months (the \"Initial Term'). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30-.",
+    "bbox": [
+      111,
+      720,
+      1000,
+      733
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any",
+    "bbox": [
+      111,
+      736,
+      1000,
+      749
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "extension or renewal terms, shall hereinafter be collectively referred to as the \"Term'..",
+    "bbox": [
+      113,
+      752,
+      745,
+      763
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.2.",
+    "bbox": [
+      246,
+      783,
+      293,
+      796
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Early Termination..",
+    "bbox": [
+      293,
+      785,
+      431,
+      796
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.2.1. Either party may terminate this Agreement prior to expiration of the Term: (i) upon thirty (30) days prior written notice, or.",
+    "bbox": [
+      245,
+      815,
+      1000,
+      830
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(ii) immediately upon written notice to the other party if: (a) the other party declares or a petition is filed in any court for insolvency or bankruptcy.",
+    "bbox": [
+      110,
+      831,
+      1000,
+      846
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and such petition is not dismissed in thirty (30) days; (b) the other party reorganizes under the relevant bankruptcy act or any similar statute in",
+    "bbox": [
+      111,
+      849,
+      1000,
+      861
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "such party's jurisdiction of incorporation; (c) the other party consents to the appointment of a trustee in bankruptcy or a receiver or similar entity;",
+    "bbox": [
+      113,
+      866,
+      1000,
+      876
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "or (d) the Developer breaches DSS's Technology or Intellectual Property rights contained herein..",
+    "bbox": [
+      112,
+      881,
+      836,
+      893
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Developer hereunder shall immediately cease, and (ii) Developer shall immediately cease use of all proprietary technology files heretofore delivered.",
+    "bbox": [
+      112,
+      929,
+      1000,
+      941
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "by DSS and shall deliver to DSS all such proprietary files along with any and all Improvements completed to date by Developer.",
+    "bbox": [
+      111,
+      944,
+      1000,
+      957
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: HF ENTERPRISES INC., S-1, 12/23/2019",
+    "bbox": [
+      133,
+      1000,
+      518,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  }
+]

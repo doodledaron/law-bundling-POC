@@ -1,0 +1,739 @@
+[
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ARTICLE 1",
+    "bbox": [
+      610,
+      141,
+      722,
+      152
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DEFINITIONS",
+    "bbox": [
+      596,
+      157,
+      741,
+      168
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1 \"Act\"' shall mean the Federal Food, Drug and Cosmetic Act, 21 U.S.C. s 301 et seq., as it may be amended from",
+    "bbox": [
+      181,
+      189,
+      1000,
+      203
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "time to time, and the regulations promulgated thereunder..",
+    "bbox": [
+      112,
+      208,
+      591,
+      223
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2 \"Adverse Event\"' shall mean any untoward medical occurrence in a patient or clinical investigation subject who is",
+    "bbox": [
+      179,
+      242,
+      1000,
+      259
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "administered the Product, but which does not necessarily have a causal relationship with the treatment for which the Product is",
+    "bbox": [
+      112,
+      264,
+      1000,
+      277
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "used. An \"Adverse Event' can include any unfavorable and unintended sign (including an abnormal laboratory finding), symptom or",
+    "bbox": [
+      111,
+      282,
+      1000,
+      297
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "disease temporally associated with the use of the Product, whether or not related to the Product. A pre-existing condition that",
+    "bbox": [
+      114,
+      303,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "worsened in severity after administration of the Product would be considered an \"Adverse Event'.",
+    "bbox": [
+      112,
+      321,
+      941,
+      334
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3 \"Affiliate\" shall mean, with respect to any Person, any other Person that directly or indirectly controls, is controlled by",
+    "bbox": [
+      179,
+      355,
+      1000,
+      370
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "or is under common control with such Person. A Person shall be deemed to control another Person if such Person possesses the",
+    "bbox": [
+      111,
+      375,
+      1000,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "power to direct or cause the direction of the management, business and policies of such Person, whether through the ownership of",
+    "bbox": [
+      110,
+      395,
+      1000,
+      409
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "fifty percent (50%) or more (or such lesser percentage which is the maximum allowed to be owned by a foreign corporation in a",
+    "bbox": [
+      112,
+      414,
+      1000,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "particular jurisdiction) of the voting securities of such Person, by contract or otherwise..",
+    "bbox": [
+      111,
+      432,
+      843,
+      447
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.4 \"Agreement' shall have the meaning set forth in the preamble to this Agreement..",
+    "bbox": [
+      180,
+      467,
+      898,
+      482
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.5 \"Alliance Managers\"' shall have the meaning set forth in Section 4.1.4..",
+    "bbox": [
+      181,
+      504,
+      820,
+      517
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.6 \"Alternate Product' shall mean a pharmaceutical product that is commercialized by Valeant or its Affiliates in the",
+    "bbox": [
+      180,
+      540,
+      1000,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Territory and that is part of the Salix business segment of Valeant's parent company, Bausch Health Companies, Inc. (or, in the",
+    "bbox": [
+      112,
+      559,
+      1000,
+      574
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event that such business segments are restructured, that is part of the Salix business unit), and which product is complementary to",
+    "bbox": [
+      111,
+      579,
+      1000,
+      593
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Product with regard to Target Professionals in the Specialty",
+    "bbox": [
+      111,
+      597,
+      647,
+      612
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.7 \"Applicable Laws\" shall mean all applicable statutes, ordinances, regulations, codes, rules, or orders of any kind",
+    "bbox": [
+      179,
+      632,
+      1000,
+      647
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "whatsoever of any Governmental Authority in the Territory pertaining to any of the activities and obligations contemplated by this",
+    "bbox": [
+      114,
+      654,
+      1000,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Kickback Statute (42 U.S.C. s 1320a-7b et seq.), the Health Insurance Portability and Accountability Act of 1996, the Federal",
+    "bbox": [
+      111,
+      690,
+      1000,
+      705
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "False Claims Act (31 U.S.C. $S 3729-3733) (and applicable state false claims acts), the Physician Payments Sunshine Act, the",
+    "bbox": [
+      111,
+      709,
+      1000,
+      724
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Code, the Department of Health and Human Services Office of Inspector General Compliance Program Guidance for",
+    "bbox": [
+      112,
+      729,
+      1000,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Pharmaceutical Manufacturers, released April 2003, the Antifraud and Abuse Amendment to the Social Security Act, the",
+    "bbox": [
+      111,
+      747,
+      1000,
+      761
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "American Medical Association guidelines on gifts to physicians, generally accepted standards of good clinical practices adopted by",
+    "bbox": [
+      111,
+      767,
+      1000,
+      781
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "current FDA regulations, as well as any state laws and regulations (i) impacting the promotion of pharmaceutical products, (ii)",
+    "bbox": [
+      113,
+      787,
+      1000,
+      799
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "governing the provision of meals and other gifts to medical professionals, including pharmacists, or (ii) governing consumer",
+    "bbox": [
+      111,
+      803,
+      1000,
+      820
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      660,
+      856,
+      671,
+      867
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CHIHI NHHN SRH LRNIHXH SIHL IO NOISIIA HLIIHNRR R [***] CHLVNNISHE HIV SNOISSIMR LSHNOHN ARITRILNHERINRE V OL PNHNNNP",
+    "bbox": [
+      150,
+      931,
+      1000,
+      941
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION.",
+    "bbox": [
+      415,
+      944,
+      918,
+      953
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      593,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

@@ -1,0 +1,10419 @@
+[
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      562,
+      150,
+      744,
+      161
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      176,
+      131,
+      191
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "GRANT OF FRANCHISE",
+    "bbox": [
+      181,
+      178,
+      420,
+      188
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      177,
+      1000,
+      191
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      143,
+      203,
+      172,
+      218
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Rights Granted to You",
+    "bbox": [
+      225,
+      206,
+      389,
+      217
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      204,
+      1000,
+      218
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      143,
+      217,
+      173,
+      232
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      217,
+      1000,
+      233
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      143,
+      231,
+      173,
+      246
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Our Reserved Rights",
+    "bbox": [
+      222,
+      233,
+      380,
+      246
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      246
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      260,
+      131,
+      275
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "OPERATION OF THE FRANCHISED BUSINESS",
+    "bbox": [
+      181,
+      262,
+      648,
+      273
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      275
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      141,
+      286,
+      173,
+      302
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Name of Franchised Business",
+    "bbox": [
+      224,
+      290,
+      446,
+      300
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      288,
+      1000,
+      302
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      143,
+      301,
+      173,
+      316
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Full Time, Attention and Best Efforts",
+    "bbox": [
+      223,
+      304,
+      498,
+      314
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      303,
+      1000,
+      316
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      143,
+      315,
+      173,
+      330
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Modifications to System and Manuals",
+    "bbox": [
+      222,
+      317,
+      511,
+      329
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      316,
+      1000,
+      330
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      344,
+      131,
+      358
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "INITIAL AND EXTENDED TERMS",
+    "bbox": [
+      181,
+      346,
+      519,
+      357
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      345,
+      1000,
+      359
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      143,
+      371,
+      173,
+      386
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Initial Term.",
+    "bbox": [
+      224,
+      374,
+      307,
+      385
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      387
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      143,
+      385,
+      173,
+      399
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      399
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Options to Renew",
+    "bbox": [
+      224,
+      388,
+      359,
+      399
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      143,
+      399,
+      173,
+      414
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Renewal of Existing Agreement",
+    "bbox": [
+      223,
+      402,
+      458,
+      414
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      400,
+      1000,
+      413
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      143,
+      413,
+      173,
+      428
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Continued Compliance",
+    "bbox": [
+      223,
+      416,
+      395,
+      427
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      143,
+      427,
+      173,
+      442
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Termination at End of Term",
+    "bbox": [
+      223,
+      430,
+      425,
+      440
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      428,
+      1000,
+      441
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      457,
+      130,
+      470
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "PAYMENT OF FEES",
+    "bbox": [
+      181,
+      458,
+      374,
+      468
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      142,
+      482,
+      172,
+      499
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Initial Franchise Fee",
+    "bbox": [
+      224,
+      486,
+      375,
+      496
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      483,
+      1000,
+      497
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      143,
+      497,
+      173,
+      512
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Continuing Fees Payable to Us.",
+    "bbox": [
+      223,
+      499,
+      457,
+      511
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      498,
+      1000,
+      511
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.3",
+    "bbox": [
+      143,
+      511,
+      173,
+      526
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Manner of Payment",
+    "bbox": [
+      222,
+      514,
+      373,
+      525
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.4",
+    "bbox": [
+      142,
+      524,
+      173,
+      540
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Interest on Overdue Amounts",
+    "bbox": [
+      224,
+      528,
+      450,
+      538
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.5",
+    "bbox": [
+      143,
+      539,
+      173,
+      554
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Late Fee; Insufficient Funds Fee",
+    "bbox": [
+      222,
+      542,
+      466,
+      553
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      540,
+      1000,
+      553
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.6",
+    "bbox": [
+      142,
+      552,
+      173,
+      568
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Unit Franchise Agreements and Revenue Reports",
+    "bbox": [
+      222,
+      555,
+      597,
+      568
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      567
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.7",
+    "bbox": [
+      142,
+      566,
+      173,
+      583
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Security Interest.",
+    "bbox": [
+      222,
+      569,
+      350,
+      582
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      566,
+      1000,
+      582
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.8",
+    "bbox": [
+      143,
+      581,
+      173,
+      596
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Reimbursement of Monies",
+    "bbox": [
+      224,
+      584,
+      421,
+      594
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      595
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "4.9",
+    "bbox": [
+      142,
+      594,
+      173,
+      611
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Application of Fees",
+    "bbox": [
+      225,
+      598,
+      372,
+      609
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      624,
+      130,
+      638
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "YOUR OBLIGATIONS",
+    "bbox": [
+      181,
+      626,
+      398,
+      636
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      625,
+      1000,
+      637
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      143,
+      651,
+      172,
+      666
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Sale of Unit Franchises; Minimum Development Quota",
+    "bbox": [
+      224,
+      653,
+      633,
+      665
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      651,
+      1000,
+      666
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      143,
+      665,
+      173,
+      680
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Initial Training and Services for Unit Franchisees",
+    "bbox": [
+      223,
+      667,
+      590,
+      680
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      665,
+      1000,
+      679
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      143,
+      679,
+      173,
+      694
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Use of Proprietary Marks",
+    "bbox": [
+      223,
+      682,
+      413,
+      694
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      679,
+      1000,
+      693
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      143,
+      693,
+      173,
+      708
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Place of Business",
+    "bbox": [
+      223,
+      695,
+      357,
+      707
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      707
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.5",
+    "bbox": [
+      143,
+      707,
+      173,
+      722
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      222,
+      709,
+      300,
+      722
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      721
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.6",
+    "bbox": [
+      143,
+      721,
+      173,
+      735
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Computer Hardware and Software",
+    "bbox": [
+      222,
+      723,
+      477,
+      735
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      723,
+      1000,
+      735
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.7",
+    "bbox": [
+      143,
+      735,
+      173,
+      750
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      735,
+      1000,
+      749
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Payment of Taxes",
+    "bbox": [
+      224,
+      738,
+      355,
+      749
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.8",
+    "bbox": [
+      143,
+      749,
+      173,
+      764
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Enforcement of Unit Franchise Agreements",
+    "bbox": [
+      223,
+      752,
+      547,
+      763
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      764
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.9",
+    "bbox": [
+      142,
+      762,
+      174,
+      778
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Master Franchisee Training Program",
+    "bbox": [
+      222,
+      766,
+      497,
+      777
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.10",
+    "bbox": [
+      143,
+      777,
+      183,
+      791
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Additional Training; Master Franchisee Meetings",
+    "bbox": [
+      223,
+      779,
+      597,
+      792
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.11",
+    "bbox": [
+      142,
+      790,
+      180,
+      806
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Supplies and Equipment",
+    "bbox": [
+      223,
+      793,
+      408,
+      806
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.12",
+    "bbox": [
+      144,
+      805,
+      182,
+      819
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Compliance with Governmental Regulations and Applicable Law",
+    "bbox": [
+      222,
+      807,
+      704,
+      820
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      806,
+      1000,
+      819
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.13",
+    "bbox": [
+      143,
+      820,
+      182,
+      833
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Office Location",
+    "bbox": [
+      223,
+      821,
+      339,
+      833
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      820,
+      1000,
+      833
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.14",
+    "bbox": [
+      143,
+      833,
+      183,
+      847
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Solicitation Advertising",
+    "bbox": [
+      222,
+      834,
+      403,
+      848
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      847
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.15",
+    "bbox": [
+      144,
+      847,
+      182,
+      861
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Policies and Procedures",
+    "bbox": [
+      223,
+      850,
+      402,
+      860
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      847,
+      1000,
+      861
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.16",
+    "bbox": [
+      143,
+      861,
+      183,
+      875
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Changes to the System",
+    "bbox": [
+      224,
+      863,
+      397,
+      876
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      861,
+      1000,
+      875
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.17",
+    "bbox": [
+      143,
+      876,
+      182,
+      889
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Developments are Our Property",
+    "bbox": [
+      222,
+      877,
+      461,
+      891
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      874,
+      1000,
+      890
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.18",
+    "bbox": [
+      143,
+      888,
+      183,
+      904
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Financial Statements and Updated Unit Franchise Disclosure Document",
+    "bbox": [
+      222,
+      891,
+      763,
+      903
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      888,
+      1000,
+      904
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "5.19",
+    "bbox": [
+      143,
+      903,
+      182,
+      917
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      903,
+      1000,
+      917
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      650,
+      954,
+      656,
+      962
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+    "bbox": [
+      134,
+      1000,
+      457,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      562,
+      150,
+      744,
+      161
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      176,
+      131,
+      191
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "GRANT OF FRANCHISE",
+    "bbox": [
+      181,
+      178,
+      420,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      177,
+      1000,
+      191
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      143,
+      203,
+      172,
+      218
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Rights Granted to You",
+    "bbox": [
+      225,
+      206,
+      389,
+      217
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      204,
+      1000,
+      218
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      143,
+      217,
+      173,
+      232
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      217,
+      1000,
+      233
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      143,
+      231,
+      173,
+      246
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Our Reserved Rights",
+    "bbox": [
+      222,
+      233,
+      380,
+      246
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      246
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      260,
+      131,
+      275
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "OPERATION OF THE FRANCHISED BUSINESS",
+    "bbox": [
+      181,
+      262,
+      648,
+      273
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      275
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      141,
+      286,
+      173,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Name of Franchised Business",
+    "bbox": [
+      224,
+      290,
+      446,
+      300
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      288,
+      1000,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      143,
+      301,
+      173,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Full Time, Attention and Best Efforts",
+    "bbox": [
+      223,
+      304,
+      498,
+      314
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      303,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      143,
+      315,
+      173,
+      330
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Modifications to System and Manuals",
+    "bbox": [
+      222,
+      317,
+      511,
+      329
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      316,
+      1000,
+      330
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      344,
+      131,
+      358
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "INITIAL AND EXTENDED TERMS",
+    "bbox": [
+      181,
+      346,
+      519,
+      357
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      345,
+      1000,
+      359
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      143,
+      371,
+      173,
+      386
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Term.",
+    "bbox": [
+      224,
+      374,
+      307,
+      385
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      387
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      143,
+      385,
+      173,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Options to Renew",
+    "bbox": [
+      224,
+      388,
+      359,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      143,
+      399,
+      173,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Renewal of Existing Agreement",
+    "bbox": [
+      223,
+      402,
+      458,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      400,
+      1000,
+      413
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      143,
+      413,
+      173,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Continued Compliance",
+    "bbox": [
+      223,
+      416,
+      395,
+      427
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      143,
+      427,
+      173,
+      442
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Termination at End of Term",
+    "bbox": [
+      223,
+      430,
+      425,
+      440
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      428,
+      1000,
+      441
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      457,
+      130,
+      470
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "PAYMENT OF FEES",
+    "bbox": [
+      181,
+      458,
+      374,
+      468
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      142,
+      482,
+      172,
+      499
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Franchise Fee",
+    "bbox": [
+      224,
+      486,
+      375,
+      496
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      483,
+      1000,
+      497
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      143,
+      497,
+      173,
+      512
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Continuing Fees Payable to Us.",
+    "bbox": [
+      223,
+      499,
+      457,
+      511
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      498,
+      1000,
+      511
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.3",
+    "bbox": [
+      143,
+      511,
+      173,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Manner of Payment",
+    "bbox": [
+      222,
+      514,
+      373,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.4",
+    "bbox": [
+      142,
+      524,
+      173,
+      540
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Interest on Overdue Amounts",
+    "bbox": [
+      224,
+      528,
+      450,
+      538
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.5",
+    "bbox": [
+      143,
+      539,
+      173,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Late Fee; Insufficient Funds Fee",
+    "bbox": [
+      222,
+      542,
+      466,
+      553
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      540,
+      1000,
+      553
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.6",
+    "bbox": [
+      142,
+      552,
+      173,
+      568
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Unit Franchise Agreements and Revenue Reports",
+    "bbox": [
+      222,
+      555,
+      597,
+      568
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      567
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.7",
+    "bbox": [
+      142,
+      566,
+      173,
+      583
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Security Interest.",
+    "bbox": [
+      222,
+      569,
+      350,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      566,
+      1000,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.8",
+    "bbox": [
+      143,
+      581,
+      173,
+      596
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Reimbursement of Monies",
+    "bbox": [
+      224,
+      584,
+      421,
+      594
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      595
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.9",
+    "bbox": [
+      142,
+      594,
+      173,
+      611
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Application of Fees",
+    "bbox": [
+      225,
+      598,
+      372,
+      609
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      624,
+      130,
+      638
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "YOUR OBLIGATIONS",
+    "bbox": [
+      181,
+      626,
+      398,
+      636
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      625,
+      1000,
+      637
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      143,
+      651,
+      172,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Sale of Unit Franchises; Minimum Development Quota",
+    "bbox": [
+      224,
+      653,
+      633,
+      665
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      651,
+      1000,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      143,
+      665,
+      173,
+      680
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Training and Services for Unit Franchisees",
+    "bbox": [
+      223,
+      667,
+      590,
+      680
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      665,
+      1000,
+      679
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      143,
+      679,
+      173,
+      694
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Use of Proprietary Marks",
+    "bbox": [
+      223,
+      682,
+      413,
+      694
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      679,
+      1000,
+      693
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      143,
+      693,
+      173,
+      708
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Place of Business",
+    "bbox": [
+      223,
+      695,
+      357,
+      707
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      707
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.5",
+    "bbox": [
+      143,
+      707,
+      173,
+      722
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      222,
+      709,
+      300,
+      722
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      721
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.6",
+    "bbox": [
+      143,
+      721,
+      173,
+      735
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Computer Hardware and Software",
+    "bbox": [
+      222,
+      723,
+      477,
+      735
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      723,
+      1000,
+      735
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.7",
+    "bbox": [
+      143,
+      735,
+      173,
+      750
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      735,
+      1000,
+      749
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Payment of Taxes",
+    "bbox": [
+      224,
+      738,
+      355,
+      749
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.8",
+    "bbox": [
+      143,
+      749,
+      173,
+      764
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Enforcement of Unit Franchise Agreements",
+    "bbox": [
+      223,
+      752,
+      547,
+      763
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      764
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.9",
+    "bbox": [
+      142,
+      762,
+      174,
+      778
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Master Franchisee Training Program",
+    "bbox": [
+      222,
+      766,
+      497,
+      777
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.10",
+    "bbox": [
+      143,
+      777,
+      183,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Additional Training; Master Franchisee Meetings",
+    "bbox": [
+      223,
+      779,
+      597,
+      792
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.11",
+    "bbox": [
+      142,
+      790,
+      180,
+      806
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Supplies and Equipment",
+    "bbox": [
+      223,
+      793,
+      408,
+      806
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.12",
+    "bbox": [
+      144,
+      805,
+      182,
+      819
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Compliance with Governmental Regulations and Applicable Law",
+    "bbox": [
+      222,
+      807,
+      704,
+      820
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      806,
+      1000,
+      819
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.13",
+    "bbox": [
+      143,
+      820,
+      182,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Office Location",
+    "bbox": [
+      223,
+      821,
+      339,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      820,
+      1000,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.14",
+    "bbox": [
+      143,
+      833,
+      183,
+      847
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Solicitation Advertising",
+    "bbox": [
+      222,
+      834,
+      403,
+      848
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      847
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.15",
+    "bbox": [
+      144,
+      847,
+      182,
+      861
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Policies and Procedures",
+    "bbox": [
+      223,
+      850,
+      402,
+      860
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      847,
+      1000,
+      861
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.16",
+    "bbox": [
+      143,
+      861,
+      183,
+      875
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Changes to the System",
+    "bbox": [
+      224,
+      863,
+      397,
+      876
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      861,
+      1000,
+      875
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.17",
+    "bbox": [
+      143,
+      876,
+      182,
+      889
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Developments are Our Property",
+    "bbox": [
+      222,
+      877,
+      461,
+      891
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      874,
+      1000,
+      890
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.18",
+    "bbox": [
+      143,
+      888,
+      183,
+      904
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Financial Statements and Updated Unit Franchise Disclosure Document",
+    "bbox": [
+      222,
+      891,
+      763,
+      903
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      888,
+      1000,
+      904
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.19",
+    "bbox": [
+      143,
+      903,
+      182,
+      917
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      903,
+      1000,
+      917
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      650,
+      954,
+      656,
+      962
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+    "bbox": [
+      134,
+      1000,
+      457,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      562,
+      150,
+      744,
+      161
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      176,
+      131,
+      191
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "GRANT OF FRANCHISE",
+    "bbox": [
+      181,
+      178,
+      420,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      177,
+      1000,
+      191
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      143,
+      203,
+      172,
+      218
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Rights Granted to You",
+    "bbox": [
+      225,
+      206,
+      389,
+      217
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      204,
+      1000,
+      218
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      143,
+      217,
+      173,
+      232
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      217,
+      1000,
+      233
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      143,
+      231,
+      173,
+      246
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Our Reserved Rights",
+    "bbox": [
+      222,
+      233,
+      380,
+      246
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      246
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      260,
+      131,
+      275
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "OPERATION OF THE FRANCHISED BUSINESS",
+    "bbox": [
+      181,
+      262,
+      648,
+      273
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      275
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      141,
+      286,
+      173,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Name of Franchised Business",
+    "bbox": [
+      224,
+      290,
+      446,
+      300
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      288,
+      1000,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      143,
+      301,
+      173,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Full Time, Attention and Best Efforts",
+    "bbox": [
+      223,
+      304,
+      498,
+      314
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      303,
+      1000,
+      316
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      143,
+      315,
+      173,
+      330
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Modifications to System and Manuals",
+    "bbox": [
+      222,
+      317,
+      511,
+      329
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      316,
+      1000,
+      330
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      344,
+      131,
+      358
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "INITIAL AND EXTENDED TERMS",
+    "bbox": [
+      181,
+      346,
+      519,
+      357
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      345,
+      1000,
+      359
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      143,
+      371,
+      173,
+      386
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Term.",
+    "bbox": [
+      224,
+      374,
+      307,
+      385
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      387
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      143,
+      385,
+      173,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Options to Renew",
+    "bbox": [
+      224,
+      388,
+      359,
+      399
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      143,
+      399,
+      173,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Renewal of Existing Agreement",
+    "bbox": [
+      223,
+      402,
+      458,
+      414
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      400,
+      1000,
+      413
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      143,
+      413,
+      173,
+      428
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Continued Compliance",
+    "bbox": [
+      223,
+      416,
+      395,
+      427
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      143,
+      427,
+      173,
+      442
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Termination at End of Term",
+    "bbox": [
+      223,
+      430,
+      425,
+      440
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      428,
+      1000,
+      441
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      457,
+      130,
+      470
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "PAYMENT OF FEES",
+    "bbox": [
+      181,
+      458,
+      374,
+      468
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      142,
+      482,
+      172,
+      499
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Franchise Fee",
+    "bbox": [
+      224,
+      486,
+      375,
+      496
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      483,
+      1000,
+      497
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      143,
+      497,
+      173,
+      512
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Continuing Fees Payable to Us.",
+    "bbox": [
+      223,
+      499,
+      457,
+      511
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      498,
+      1000,
+      511
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.3",
+    "bbox": [
+      143,
+      511,
+      173,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Manner of Payment",
+    "bbox": [
+      222,
+      514,
+      373,
+      525
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.4",
+    "bbox": [
+      142,
+      524,
+      173,
+      540
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Interest on Overdue Amounts",
+    "bbox": [
+      224,
+      528,
+      450,
+      538
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.5",
+    "bbox": [
+      143,
+      539,
+      173,
+      554
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Late Fee; Insufficient Funds Fee",
+    "bbox": [
+      222,
+      542,
+      466,
+      553
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      540,
+      1000,
+      553
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.6",
+    "bbox": [
+      142,
+      552,
+      173,
+      568
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Unit Franchise Agreements and Revenue Reports",
+    "bbox": [
+      222,
+      555,
+      597,
+      568
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      567
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.7",
+    "bbox": [
+      142,
+      566,
+      173,
+      583
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Security Interest.",
+    "bbox": [
+      222,
+      569,
+      350,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      566,
+      1000,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.8",
+    "bbox": [
+      143,
+      581,
+      173,
+      596
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Reimbursement of Monies",
+    "bbox": [
+      224,
+      584,
+      421,
+      594
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      595
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "4.9",
+    "bbox": [
+      142,
+      594,
+      173,
+      611
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Application of Fees",
+    "bbox": [
+      225,
+      598,
+      372,
+      609
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      624,
+      130,
+      638
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "YOUR OBLIGATIONS",
+    "bbox": [
+      181,
+      626,
+      398,
+      636
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      625,
+      1000,
+      637
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      143,
+      651,
+      172,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Sale of Unit Franchises; Minimum Development Quota",
+    "bbox": [
+      224,
+      653,
+      633,
+      665
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      651,
+      1000,
+      666
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      143,
+      665,
+      173,
+      680
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Initial Training and Services for Unit Franchisees",
+    "bbox": [
+      223,
+      667,
+      590,
+      680
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      665,
+      1000,
+      679
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      143,
+      679,
+      173,
+      694
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Use of Proprietary Marks",
+    "bbox": [
+      223,
+      682,
+      413,
+      694
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      679,
+      1000,
+      693
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      143,
+      693,
+      173,
+      708
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Place of Business",
+    "bbox": [
+      223,
+      695,
+      357,
+      707
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      707
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.5",
+    "bbox": [
+      143,
+      707,
+      173,
+      722
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      222,
+      709,
+      300,
+      722
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      721
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.6",
+    "bbox": [
+      143,
+      721,
+      173,
+      735
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Computer Hardware and Software",
+    "bbox": [
+      222,
+      723,
+      477,
+      735
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      723,
+      1000,
+      735
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.7",
+    "bbox": [
+      143,
+      735,
+      173,
+      750
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      735,
+      1000,
+      749
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Payment of Taxes",
+    "bbox": [
+      224,
+      738,
+      355,
+      749
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.8",
+    "bbox": [
+      143,
+      749,
+      173,
+      764
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Enforcement of Unit Franchise Agreements",
+    "bbox": [
+      223,
+      752,
+      547,
+      763
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      764
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.9",
+    "bbox": [
+      142,
+      762,
+      174,
+      778
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Master Franchisee Training Program",
+    "bbox": [
+      222,
+      766,
+      497,
+      777
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.10",
+    "bbox": [
+      143,
+      777,
+      183,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Additional Training; Master Franchisee Meetings",
+    "bbox": [
+      223,
+      779,
+      597,
+      792
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.11",
+    "bbox": [
+      142,
+      790,
+      180,
+      806
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Supplies and Equipment",
+    "bbox": [
+      223,
+      793,
+      408,
+      806
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.12",
+    "bbox": [
+      144,
+      805,
+      182,
+      819
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Compliance with Governmental Regulations and Applicable Law",
+    "bbox": [
+      222,
+      807,
+      704,
+      820
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      806,
+      1000,
+      819
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.13",
+    "bbox": [
+      143,
+      820,
+      182,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Office Location",
+    "bbox": [
+      223,
+      821,
+      339,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      820,
+      1000,
+      833
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.14",
+    "bbox": [
+      143,
+      833,
+      183,
+      847
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Solicitation Advertising",
+    "bbox": [
+      222,
+      834,
+      403,
+      848
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      847
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.15",
+    "bbox": [
+      144,
+      847,
+      182,
+      861
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Policies and Procedures",
+    "bbox": [
+      223,
+      850,
+      402,
+      860
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      847,
+      1000,
+      861
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.16",
+    "bbox": [
+      143,
+      861,
+      183,
+      875
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Changes to the System",
+    "bbox": [
+      224,
+      863,
+      397,
+      876
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      861,
+      1000,
+      875
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.17",
+    "bbox": [
+      143,
+      876,
+      182,
+      889
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Developments are Our Property",
+    "bbox": [
+      222,
+      877,
+      461,
+      891
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      874,
+      1000,
+      890
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.18",
+    "bbox": [
+      143,
+      888,
+      183,
+      904
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Financial Statements and Updated Unit Franchise Disclosure Document",
+    "bbox": [
+      222,
+      891,
+      763,
+      903
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      888,
+      1000,
+      904
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "5.19",
+    "bbox": [
+      143,
+      903,
+      182,
+      917
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      903,
+      1000,
+      917
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      650,
+      954,
+      656,
+      962
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+    "bbox": [
+      134,
+      1000,
+      457,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      562,
+      150,
+      744,
+      161
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      176,
+      131,
+      191
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "GRANT OF FRANCHISE",
+    "bbox": [
+      181,
+      178,
+      420,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      177,
+      1000,
+      191
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      143,
+      203,
+      172,
+      218
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Rights Granted to You",
+    "bbox": [
+      225,
+      206,
+      389,
+      217
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      204,
+      1000,
+      218
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      143,
+      217,
+      173,
+      232
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      217,
+      1000,
+      233
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      143,
+      231,
+      173,
+      246
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Our Reserved Rights",
+    "bbox": [
+      222,
+      233,
+      380,
+      246
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      246
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      260,
+      131,
+      275
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "OPERATION OF THE FRANCHISED BUSINESS",
+    "bbox": [
+      181,
+      262,
+      648,
+      273
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      275
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      141,
+      286,
+      173,
+      302
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Name of Franchised Business",
+    "bbox": [
+      224,
+      290,
+      446,
+      300
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      288,
+      1000,
+      302
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      143,
+      301,
+      173,
+      316
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Full Time, Attention and Best Efforts",
+    "bbox": [
+      223,
+      304,
+      498,
+      314
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      303,
+      1000,
+      316
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      143,
+      315,
+      173,
+      330
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Modifications to System and Manuals",
+    "bbox": [
+      222,
+      317,
+      511,
+      329
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      316,
+      1000,
+      330
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      344,
+      131,
+      358
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "INITIAL AND EXTENDED TERMS",
+    "bbox": [
+      181,
+      346,
+      519,
+      357
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      345,
+      1000,
+      359
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      143,
+      371,
+      173,
+      386
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Initial Term.",
+    "bbox": [
+      224,
+      374,
+      307,
+      385
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      387
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      143,
+      385,
+      173,
+      399
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      399
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Options to Renew",
+    "bbox": [
+      224,
+      388,
+      359,
+      399
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      143,
+      399,
+      173,
+      414
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Renewal of Existing Agreement",
+    "bbox": [
+      223,
+      402,
+      458,
+      414
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      400,
+      1000,
+      413
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      143,
+      413,
+      173,
+      428
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Continued Compliance",
+    "bbox": [
+      223,
+      416,
+      395,
+      427
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      143,
+      427,
+      173,
+      442
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Termination at End of Term",
+    "bbox": [
+      223,
+      430,
+      425,
+      440
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      428,
+      1000,
+      441
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      457,
+      130,
+      470
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "PAYMENT OF FEES",
+    "bbox": [
+      181,
+      458,
+      374,
+      468
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      142,
+      482,
+      172,
+      499
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Initial Franchise Fee",
+    "bbox": [
+      224,
+      486,
+      375,
+      496
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      483,
+      1000,
+      497
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      143,
+      497,
+      173,
+      512
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Continuing Fees Payable to Us.",
+    "bbox": [
+      223,
+      499,
+      457,
+      511
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      498,
+      1000,
+      511
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.3",
+    "bbox": [
+      143,
+      511,
+      173,
+      526
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Manner of Payment",
+    "bbox": [
+      222,
+      514,
+      373,
+      525
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.4",
+    "bbox": [
+      142,
+      524,
+      173,
+      540
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Interest on Overdue Amounts",
+    "bbox": [
+      224,
+      528,
+      450,
+      538
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.5",
+    "bbox": [
+      143,
+      539,
+      173,
+      554
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Late Fee; Insufficient Funds Fee",
+    "bbox": [
+      222,
+      542,
+      466,
+      553
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      540,
+      1000,
+      553
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.6",
+    "bbox": [
+      142,
+      552,
+      173,
+      568
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Unit Franchise Agreements and Revenue Reports",
+    "bbox": [
+      222,
+      555,
+      597,
+      568
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      567
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.7",
+    "bbox": [
+      142,
+      566,
+      173,
+      583
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Security Interest.",
+    "bbox": [
+      222,
+      569,
+      350,
+      582
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      566,
+      1000,
+      582
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.8",
+    "bbox": [
+      143,
+      581,
+      173,
+      596
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Reimbursement of Monies",
+    "bbox": [
+      224,
+      584,
+      421,
+      594
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      595
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4.9",
+    "bbox": [
+      142,
+      594,
+      173,
+      611
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Application of Fees",
+    "bbox": [
+      225,
+      598,
+      372,
+      609
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      624,
+      130,
+      638
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "YOUR OBLIGATIONS",
+    "bbox": [
+      181,
+      626,
+      398,
+      636
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      625,
+      1000,
+      637
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      143,
+      651,
+      172,
+      666
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Sale of Unit Franchises; Minimum Development Quota",
+    "bbox": [
+      224,
+      653,
+      633,
+      665
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      651,
+      1000,
+      666
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      143,
+      665,
+      173,
+      680
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Initial Training and Services for Unit Franchisees",
+    "bbox": [
+      223,
+      667,
+      590,
+      680
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      665,
+      1000,
+      679
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      143,
+      679,
+      173,
+      694
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Use of Proprietary Marks",
+    "bbox": [
+      223,
+      682,
+      413,
+      694
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      679,
+      1000,
+      693
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      143,
+      693,
+      173,
+      708
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Place of Business",
+    "bbox": [
+      223,
+      695,
+      357,
+      707
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      707
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.5",
+    "bbox": [
+      143,
+      707,
+      173,
+      722
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      222,
+      709,
+      300,
+      722
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      721
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.6",
+    "bbox": [
+      143,
+      721,
+      173,
+      735
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Computer Hardware and Software",
+    "bbox": [
+      222,
+      723,
+      477,
+      735
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      723,
+      1000,
+      735
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.7",
+    "bbox": [
+      143,
+      735,
+      173,
+      750
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      735,
+      1000,
+      749
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Payment of Taxes",
+    "bbox": [
+      224,
+      738,
+      355,
+      749
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.8",
+    "bbox": [
+      143,
+      749,
+      173,
+      764
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Enforcement of Unit Franchise Agreements",
+    "bbox": [
+      223,
+      752,
+      547,
+      763
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      764
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.9",
+    "bbox": [
+      142,
+      762,
+      174,
+      778
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Master Franchisee Training Program",
+    "bbox": [
+      222,
+      766,
+      497,
+      777
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.10",
+    "bbox": [
+      143,
+      777,
+      183,
+      791
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Additional Training; Master Franchisee Meetings",
+    "bbox": [
+      223,
+      779,
+      597,
+      792
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.11",
+    "bbox": [
+      142,
+      790,
+      180,
+      806
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Supplies and Equipment",
+    "bbox": [
+      223,
+      793,
+      408,
+      806
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.12",
+    "bbox": [
+      144,
+      805,
+      182,
+      819
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Compliance with Governmental Regulations and Applicable Law",
+    "bbox": [
+      222,
+      807,
+      704,
+      820
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      806,
+      1000,
+      819
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.13",
+    "bbox": [
+      143,
+      820,
+      182,
+      833
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Office Location",
+    "bbox": [
+      223,
+      821,
+      339,
+      833
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      820,
+      1000,
+      833
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.14",
+    "bbox": [
+      143,
+      833,
+      183,
+      847
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Solicitation Advertising",
+    "bbox": [
+      222,
+      834,
+      403,
+      848
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      847
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.15",
+    "bbox": [
+      144,
+      847,
+      182,
+      861
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Policies and Procedures",
+    "bbox": [
+      223,
+      850,
+      402,
+      860
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      847,
+      1000,
+      861
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.16",
+    "bbox": [
+      143,
+      861,
+      183,
+      875
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Changes to the System",
+    "bbox": [
+      224,
+      863,
+      397,
+      876
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      861,
+      1000,
+      875
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.17",
+    "bbox": [
+      143,
+      876,
+      182,
+      889
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Developments are Our Property",
+    "bbox": [
+      222,
+      877,
+      461,
+      891
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      874,
+      1000,
+      890
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.18",
+    "bbox": [
+      143,
+      888,
+      183,
+      904
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Financial Statements and Updated Unit Franchise Disclosure Document",
+    "bbox": [
+      222,
+      891,
+      763,
+      903
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      888,
+      1000,
+      904
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "5.19",
+    "bbox": [
+      143,
+      903,
+      182,
+      917
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      903,
+      1000,
+      917
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      650,
+      954,
+      656,
+      962
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+    "bbox": [
+      134,
+      1000,
+      457,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      562,
+      150,
+      744,
+      161
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      176,
+      131,
+      191
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "GRANT OF FRANCHISE",
+    "bbox": [
+      181,
+      178,
+      420,
+      188
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      177,
+      1000,
+      191
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      143,
+      203,
+      172,
+      218
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Rights Granted to You",
+    "bbox": [
+      225,
+      206,
+      389,
+      217
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      204,
+      1000,
+      218
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      143,
+      217,
+      173,
+      232
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      217,
+      1000,
+      233
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      143,
+      231,
+      173,
+      246
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Our Reserved Rights",
+    "bbox": [
+      222,
+      233,
+      380,
+      246
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      246
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      260,
+      131,
+      275
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "OPERATION OF THE FRANCHISED BUSINESS",
+    "bbox": [
+      181,
+      262,
+      648,
+      273
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      275
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      141,
+      286,
+      173,
+      302
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Name of Franchised Business",
+    "bbox": [
+      224,
+      290,
+      446,
+      300
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      288,
+      1000,
+      302
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      143,
+      301,
+      173,
+      316
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Full Time, Attention and Best Efforts",
+    "bbox": [
+      223,
+      304,
+      498,
+      314
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      303,
+      1000,
+      316
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      143,
+      315,
+      173,
+      330
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Modifications to System and Manuals",
+    "bbox": [
+      222,
+      317,
+      511,
+      329
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      316,
+      1000,
+      330
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      344,
+      131,
+      358
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "INITIAL AND EXTENDED TERMS",
+    "bbox": [
+      181,
+      346,
+      519,
+      357
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      345,
+      1000,
+      359
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      143,
+      371,
+      173,
+      386
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Initial Term.",
+    "bbox": [
+      224,
+      374,
+      307,
+      385
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      387
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      143,
+      385,
+      173,
+      399
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      399
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Options to Renew",
+    "bbox": [
+      224,
+      388,
+      359,
+      399
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      143,
+      399,
+      173,
+      414
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Renewal of Existing Agreement",
+    "bbox": [
+      223,
+      402,
+      458,
+      414
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      400,
+      1000,
+      413
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      143,
+      413,
+      173,
+      428
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Continued Compliance",
+    "bbox": [
+      223,
+      416,
+      395,
+      427
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      143,
+      427,
+      173,
+      442
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Termination at End of Term",
+    "bbox": [
+      223,
+      430,
+      425,
+      440
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      428,
+      1000,
+      441
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      457,
+      130,
+      470
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "PAYMENT OF FEES",
+    "bbox": [
+      181,
+      458,
+      374,
+      468
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      142,
+      482,
+      172,
+      499
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Initial Franchise Fee",
+    "bbox": [
+      224,
+      486,
+      375,
+      496
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      483,
+      1000,
+      497
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      143,
+      497,
+      173,
+      512
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Continuing Fees Payable to Us.",
+    "bbox": [
+      223,
+      499,
+      457,
+      511
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      498,
+      1000,
+      511
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.3",
+    "bbox": [
+      143,
+      511,
+      173,
+      526
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Manner of Payment",
+    "bbox": [
+      222,
+      514,
+      373,
+      525
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.4",
+    "bbox": [
+      142,
+      524,
+      173,
+      540
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Interest on Overdue Amounts",
+    "bbox": [
+      224,
+      528,
+      450,
+      538
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.5",
+    "bbox": [
+      143,
+      539,
+      173,
+      554
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Late Fee; Insufficient Funds Fee",
+    "bbox": [
+      222,
+      542,
+      466,
+      553
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      540,
+      1000,
+      553
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.6",
+    "bbox": [
+      142,
+      552,
+      173,
+      568
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Unit Franchise Agreements and Revenue Reports",
+    "bbox": [
+      222,
+      555,
+      597,
+      568
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      567
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.7",
+    "bbox": [
+      142,
+      566,
+      173,
+      583
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Security Interest.",
+    "bbox": [
+      222,
+      569,
+      350,
+      582
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      566,
+      1000,
+      582
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.8",
+    "bbox": [
+      143,
+      581,
+      173,
+      596
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Reimbursement of Monies",
+    "bbox": [
+      224,
+      584,
+      421,
+      594
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      595
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "4.9",
+    "bbox": [
+      142,
+      594,
+      173,
+      611
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Application of Fees",
+    "bbox": [
+      225,
+      598,
+      372,
+      609
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      624,
+      130,
+      638
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "YOUR OBLIGATIONS",
+    "bbox": [
+      181,
+      626,
+      398,
+      636
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      625,
+      1000,
+      637
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      143,
+      651,
+      172,
+      666
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Sale of Unit Franchises; Minimum Development Quota",
+    "bbox": [
+      224,
+      653,
+      633,
+      665
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      651,
+      1000,
+      666
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      143,
+      665,
+      173,
+      680
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Initial Training and Services for Unit Franchisees",
+    "bbox": [
+      223,
+      667,
+      590,
+      680
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      665,
+      1000,
+      679
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      143,
+      679,
+      173,
+      694
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Use of Proprietary Marks",
+    "bbox": [
+      223,
+      682,
+      413,
+      694
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      679,
+      1000,
+      693
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      143,
+      693,
+      173,
+      708
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Place of Business",
+    "bbox": [
+      223,
+      695,
+      357,
+      707
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      707
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.5",
+    "bbox": [
+      143,
+      707,
+      173,
+      722
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      222,
+      709,
+      300,
+      722
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      721
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.6",
+    "bbox": [
+      143,
+      721,
+      173,
+      735
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Computer Hardware and Software",
+    "bbox": [
+      222,
+      723,
+      477,
+      735
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      723,
+      1000,
+      735
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.7",
+    "bbox": [
+      143,
+      735,
+      173,
+      750
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      735,
+      1000,
+      749
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Payment of Taxes",
+    "bbox": [
+      224,
+      738,
+      355,
+      749
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.8",
+    "bbox": [
+      143,
+      749,
+      173,
+      764
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Enforcement of Unit Franchise Agreements",
+    "bbox": [
+      223,
+      752,
+      547,
+      763
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      764
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.9",
+    "bbox": [
+      142,
+      762,
+      174,
+      778
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Master Franchisee Training Program",
+    "bbox": [
+      222,
+      766,
+      497,
+      777
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.10",
+    "bbox": [
+      143,
+      777,
+      183,
+      791
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Additional Training; Master Franchisee Meetings",
+    "bbox": [
+      223,
+      779,
+      597,
+      792
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.11",
+    "bbox": [
+      142,
+      790,
+      180,
+      806
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Supplies and Equipment",
+    "bbox": [
+      223,
+      793,
+      408,
+      806
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.12",
+    "bbox": [
+      144,
+      805,
+      182,
+      819
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Compliance with Governmental Regulations and Applicable Law",
+    "bbox": [
+      222,
+      807,
+      704,
+      820
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      806,
+      1000,
+      819
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.13",
+    "bbox": [
+      143,
+      820,
+      182,
+      833
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Office Location",
+    "bbox": [
+      223,
+      821,
+      339,
+      833
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      820,
+      1000,
+      833
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.14",
+    "bbox": [
+      143,
+      833,
+      183,
+      847
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Solicitation Advertising",
+    "bbox": [
+      222,
+      834,
+      403,
+      848
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      847
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.15",
+    "bbox": [
+      144,
+      847,
+      182,
+      861
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Policies and Procedures",
+    "bbox": [
+      223,
+      850,
+      402,
+      860
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      847,
+      1000,
+      861
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.16",
+    "bbox": [
+      143,
+      861,
+      183,
+      875
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Changes to the System",
+    "bbox": [
+      224,
+      863,
+      397,
+      876
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      861,
+      1000,
+      875
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.17",
+    "bbox": [
+      143,
+      876,
+      182,
+      889
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Developments are Our Property",
+    "bbox": [
+      222,
+      877,
+      461,
+      891
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      874,
+      1000,
+      890
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.18",
+    "bbox": [
+      143,
+      888,
+      183,
+      904
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Financial Statements and Updated Unit Franchise Disclosure Document",
+    "bbox": [
+      222,
+      891,
+      763,
+      903
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      888,
+      1000,
+      904
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "5.19",
+    "bbox": [
+      143,
+      903,
+      182,
+      917
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      903,
+      1000,
+      917
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      650,
+      954,
+      656,
+      962
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+    "bbox": [
+      134,
+      1000,
+      457,
+      1000
+    ],
+    "label": 22,
+    "category": "Volume Restriction"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      562,
+      150,
+      744,
+      161
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      176,
+      131,
+      191
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "GRANT OF FRANCHISE",
+    "bbox": [
+      181,
+      178,
+      420,
+      188
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      177,
+      1000,
+      191
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      143,
+      203,
+      172,
+      218
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Rights Granted to You",
+    "bbox": [
+      225,
+      206,
+      389,
+      217
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      204,
+      1000,
+      218
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      143,
+      217,
+      173,
+      232
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      217,
+      1000,
+      233
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      143,
+      231,
+      173,
+      246
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Our Reserved Rights",
+    "bbox": [
+      222,
+      233,
+      380,
+      246
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      246
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      260,
+      131,
+      275
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "OPERATION OF THE FRANCHISED BUSINESS",
+    "bbox": [
+      181,
+      262,
+      648,
+      273
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      275
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      141,
+      286,
+      173,
+      302
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Name of Franchised Business",
+    "bbox": [
+      224,
+      290,
+      446,
+      300
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      288,
+      1000,
+      302
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      143,
+      301,
+      173,
+      316
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Full Time, Attention and Best Efforts",
+    "bbox": [
+      223,
+      304,
+      498,
+      314
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      303,
+      1000,
+      316
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      143,
+      315,
+      173,
+      330
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Modifications to System and Manuals",
+    "bbox": [
+      222,
+      317,
+      511,
+      329
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      316,
+      1000,
+      330
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      344,
+      131,
+      358
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "INITIAL AND EXTENDED TERMS",
+    "bbox": [
+      181,
+      346,
+      519,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      345,
+      1000,
+      359
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      143,
+      371,
+      173,
+      386
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Initial Term.",
+    "bbox": [
+      224,
+      374,
+      307,
+      385
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      387
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      143,
+      385,
+      173,
+      399
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      399
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Options to Renew",
+    "bbox": [
+      224,
+      388,
+      359,
+      399
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      143,
+      399,
+      173,
+      414
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Renewal of Existing Agreement",
+    "bbox": [
+      223,
+      402,
+      458,
+      414
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      400,
+      1000,
+      413
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      143,
+      413,
+      173,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Continued Compliance",
+    "bbox": [
+      223,
+      416,
+      395,
+      427
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      143,
+      427,
+      173,
+      442
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Termination at End of Term",
+    "bbox": [
+      223,
+      430,
+      425,
+      440
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      428,
+      1000,
+      441
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      457,
+      130,
+      470
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "PAYMENT OF FEES",
+    "bbox": [
+      181,
+      458,
+      374,
+      468
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      142,
+      482,
+      172,
+      499
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Initial Franchise Fee",
+    "bbox": [
+      224,
+      486,
+      375,
+      496
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      483,
+      1000,
+      497
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      143,
+      497,
+      173,
+      512
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Continuing Fees Payable to Us.",
+    "bbox": [
+      223,
+      499,
+      457,
+      511
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      498,
+      1000,
+      511
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.3",
+    "bbox": [
+      143,
+      511,
+      173,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Manner of Payment",
+    "bbox": [
+      222,
+      514,
+      373,
+      525
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.4",
+    "bbox": [
+      142,
+      524,
+      173,
+      540
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Interest on Overdue Amounts",
+    "bbox": [
+      224,
+      528,
+      450,
+      538
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.5",
+    "bbox": [
+      143,
+      539,
+      173,
+      554
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Late Fee; Insufficient Funds Fee",
+    "bbox": [
+      222,
+      542,
+      466,
+      553
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      540,
+      1000,
+      553
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.6",
+    "bbox": [
+      142,
+      552,
+      173,
+      568
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Unit Franchise Agreements and Revenue Reports",
+    "bbox": [
+      222,
+      555,
+      597,
+      568
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      567
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.7",
+    "bbox": [
+      142,
+      566,
+      173,
+      583
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Security Interest.",
+    "bbox": [
+      222,
+      569,
+      350,
+      582
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      566,
+      1000,
+      582
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.8",
+    "bbox": [
+      143,
+      581,
+      173,
+      596
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Reimbursement of Monies",
+    "bbox": [
+      224,
+      584,
+      421,
+      594
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      595
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.9",
+    "bbox": [
+      142,
+      594,
+      173,
+      611
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Application of Fees",
+    "bbox": [
+      225,
+      598,
+      372,
+      609
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      624,
+      130,
+      638
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "YOUR OBLIGATIONS",
+    "bbox": [
+      181,
+      626,
+      398,
+      636
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      625,
+      1000,
+      637
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      143,
+      651,
+      172,
+      666
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sale of Unit Franchises; Minimum Development Quota",
+    "bbox": [
+      224,
+      653,
+      633,
+      665
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      651,
+      1000,
+      666
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      143,
+      665,
+      173,
+      680
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Initial Training and Services for Unit Franchisees",
+    "bbox": [
+      223,
+      667,
+      590,
+      680
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      665,
+      1000,
+      679
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      143,
+      679,
+      173,
+      694
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Use of Proprietary Marks",
+    "bbox": [
+      223,
+      682,
+      413,
+      694
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      679,
+      1000,
+      693
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      143,
+      693,
+      173,
+      708
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Place of Business",
+    "bbox": [
+      223,
+      695,
+      357,
+      707
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      707
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.5",
+    "bbox": [
+      143,
+      707,
+      173,
+      722
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      222,
+      709,
+      300,
+      722
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      721
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.6",
+    "bbox": [
+      143,
+      721,
+      173,
+      735
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Computer Hardware and Software",
+    "bbox": [
+      222,
+      723,
+      477,
+      735
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      723,
+      1000,
+      735
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.7",
+    "bbox": [
+      143,
+      735,
+      173,
+      750
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      735,
+      1000,
+      749
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Payment of Taxes",
+    "bbox": [
+      224,
+      738,
+      355,
+      749
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.8",
+    "bbox": [
+      143,
+      749,
+      173,
+      764
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Enforcement of Unit Franchise Agreements",
+    "bbox": [
+      223,
+      752,
+      547,
+      763
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      764
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.9",
+    "bbox": [
+      142,
+      762,
+      174,
+      778
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Master Franchisee Training Program",
+    "bbox": [
+      222,
+      766,
+      497,
+      777
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.10",
+    "bbox": [
+      143,
+      777,
+      183,
+      791
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Additional Training; Master Franchisee Meetings",
+    "bbox": [
+      223,
+      779,
+      597,
+      792
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.11",
+    "bbox": [
+      142,
+      790,
+      180,
+      806
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Supplies and Equipment",
+    "bbox": [
+      223,
+      793,
+      408,
+      806
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.12",
+    "bbox": [
+      144,
+      805,
+      182,
+      819
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Compliance with Governmental Regulations and Applicable Law",
+    "bbox": [
+      222,
+      807,
+      704,
+      820
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      806,
+      1000,
+      819
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.13",
+    "bbox": [
+      143,
+      820,
+      182,
+      833
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Office Location",
+    "bbox": [
+      223,
+      821,
+      339,
+      833
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      820,
+      1000,
+      833
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.14",
+    "bbox": [
+      143,
+      833,
+      183,
+      847
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Solicitation Advertising",
+    "bbox": [
+      222,
+      834,
+      403,
+      848
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      847
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.15",
+    "bbox": [
+      144,
+      847,
+      182,
+      861
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Policies and Procedures",
+    "bbox": [
+      223,
+      850,
+      402,
+      860
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      847,
+      1000,
+      861
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.16",
+    "bbox": [
+      143,
+      861,
+      183,
+      875
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Changes to the System",
+    "bbox": [
+      224,
+      863,
+      397,
+      876
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      861,
+      1000,
+      875
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.17",
+    "bbox": [
+      143,
+      876,
+      182,
+      889
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Developments are Our Property",
+    "bbox": [
+      222,
+      877,
+      461,
+      891
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      874,
+      1000,
+      890
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.18",
+    "bbox": [
+      143,
+      888,
+      183,
+      904
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Financial Statements and Updated Unit Franchise Disclosure Document",
+    "bbox": [
+      222,
+      891,
+      763,
+      903
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      888,
+      1000,
+      904
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.19",
+    "bbox": [
+      143,
+      903,
+      182,
+      917
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      903,
+      1000,
+      917
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      650,
+      954,
+      656,
+      962
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+    "bbox": [
+      134,
+      1000,
+      457,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      562,
+      150,
+      744,
+      161
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      176,
+      131,
+      191
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "GRANT OF FRANCHISE",
+    "bbox": [
+      181,
+      178,
+      420,
+      188
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      177,
+      1000,
+      191
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1",
+    "bbox": [
+      143,
+      203,
+      172,
+      218
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Rights Granted to You",
+    "bbox": [
+      225,
+      206,
+      389,
+      217
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      1000,
+      204,
+      1000,
+      218
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.2",
+    "bbox": [
+      143,
+      217,
+      173,
+      232
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Non-Exclusive Grant",
+    "bbox": [
+      222,
+      219,
+      378,
+      231
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      217,
+      1000,
+      233
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.3",
+    "bbox": [
+      143,
+      231,
+      173,
+      246
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Our Reserved Rights",
+    "bbox": [
+      222,
+      233,
+      380,
+      246
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      231,
+      1000,
+      246
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      260,
+      131,
+      275
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "OPERATION OF THE FRANCHISED BUSINESS",
+    "bbox": [
+      181,
+      262,
+      648,
+      273
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      261,
+      1000,
+      275
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.1",
+    "bbox": [
+      141,
+      286,
+      173,
+      302
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Name of Franchised Business",
+    "bbox": [
+      224,
+      290,
+      446,
+      300
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      288,
+      1000,
+      302
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.2",
+    "bbox": [
+      143,
+      301,
+      173,
+      316
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Full Time, Attention and Best Efforts",
+    "bbox": [
+      223,
+      304,
+      498,
+      314
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      1000,
+      303,
+      1000,
+      316
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "2.3",
+    "bbox": [
+      143,
+      315,
+      173,
+      330
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Modifications to System and Manuals",
+    "bbox": [
+      222,
+      317,
+      511,
+      329
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      316,
+      1000,
+      330
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      108,
+      344,
+      131,
+      358
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "INITIAL AND EXTENDED TERMS",
+    "bbox": [
+      181,
+      346,
+      519,
+      357
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      345,
+      1000,
+      359
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.1",
+    "bbox": [
+      143,
+      371,
+      173,
+      386
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Initial Term.",
+    "bbox": [
+      224,
+      374,
+      307,
+      385
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      372,
+      1000,
+      387
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.2",
+    "bbox": [
+      143,
+      385,
+      173,
+      399
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      399
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Options to Renew",
+    "bbox": [
+      224,
+      388,
+      359,
+      399
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.3",
+    "bbox": [
+      143,
+      399,
+      173,
+      414
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Renewal of Existing Agreement",
+    "bbox": [
+      223,
+      402,
+      458,
+      414
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      400,
+      1000,
+      413
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.4",
+    "bbox": [
+      143,
+      413,
+      173,
+      428
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Continued Compliance",
+    "bbox": [
+      223,
+      416,
+      395,
+      427
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      427
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3.5",
+    "bbox": [
+      143,
+      427,
+      173,
+      442
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Termination at End of Term",
+    "bbox": [
+      223,
+      430,
+      425,
+      440
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      428,
+      1000,
+      441
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      457,
+      130,
+      470
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "PAYMENT OF FEES",
+    "bbox": [
+      181,
+      458,
+      374,
+      468
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.1",
+    "bbox": [
+      142,
+      482,
+      172,
+      499
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Initial Franchise Fee",
+    "bbox": [
+      224,
+      486,
+      375,
+      496
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      483,
+      1000,
+      497
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.2",
+    "bbox": [
+      143,
+      497,
+      173,
+      512
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Continuing Fees Payable to Us.",
+    "bbox": [
+      223,
+      499,
+      457,
+      511
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      498,
+      1000,
+      511
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.3",
+    "bbox": [
+      143,
+      511,
+      173,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Manner of Payment",
+    "bbox": [
+      222,
+      514,
+      373,
+      525
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      511,
+      1000,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.4",
+    "bbox": [
+      142,
+      524,
+      173,
+      540
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Interest on Overdue Amounts",
+    "bbox": [
+      224,
+      528,
+      450,
+      538
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5",
+    "bbox": [
+      1000,
+      526,
+      1000,
+      539
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.5",
+    "bbox": [
+      143,
+      539,
+      173,
+      554
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Late Fee; Insufficient Funds Fee",
+    "bbox": [
+      222,
+      542,
+      466,
+      553
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      540,
+      1000,
+      553
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.6",
+    "bbox": [
+      142,
+      552,
+      173,
+      568
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Unit Franchise Agreements and Revenue Reports",
+    "bbox": [
+      222,
+      555,
+      597,
+      568
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      567
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.7",
+    "bbox": [
+      142,
+      566,
+      173,
+      583
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Security Interest.",
+    "bbox": [
+      222,
+      569,
+      350,
+      582
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "6",
+    "bbox": [
+      1000,
+      566,
+      1000,
+      582
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.8",
+    "bbox": [
+      143,
+      581,
+      173,
+      596
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Reimbursement of Monies",
+    "bbox": [
+      224,
+      584,
+      421,
+      594
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      581,
+      1000,
+      595
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "4.9",
+    "bbox": [
+      142,
+      594,
+      173,
+      611
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Application of Fees",
+    "bbox": [
+      225,
+      598,
+      372,
+      609
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      596,
+      1000,
+      609
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      624,
+      130,
+      638
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "YOUR OBLIGATIONS",
+    "bbox": [
+      181,
+      626,
+      398,
+      636
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      625,
+      1000,
+      637
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.1",
+    "bbox": [
+      143,
+      651,
+      172,
+      666
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Sale of Unit Franchises; Minimum Development Quota",
+    "bbox": [
+      224,
+      653,
+      633,
+      665
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      651,
+      1000,
+      666
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.2",
+    "bbox": [
+      143,
+      665,
+      173,
+      680
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Initial Training and Services for Unit Franchisees",
+    "bbox": [
+      223,
+      667,
+      590,
+      680
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      665,
+      1000,
+      679
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.3",
+    "bbox": [
+      143,
+      679,
+      173,
+      694
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Use of Proprietary Marks",
+    "bbox": [
+      223,
+      682,
+      413,
+      694
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      679,
+      1000,
+      693
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.4",
+    "bbox": [
+      143,
+      693,
+      173,
+      708
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Place of Business",
+    "bbox": [
+      223,
+      695,
+      357,
+      707
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      707
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.5",
+    "bbox": [
+      143,
+      707,
+      173,
+      722
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Insurance",
+    "bbox": [
+      222,
+      709,
+      300,
+      722
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      707,
+      1000,
+      721
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.6",
+    "bbox": [
+      143,
+      721,
+      173,
+      735
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Computer Hardware and Software",
+    "bbox": [
+      222,
+      723,
+      477,
+      735
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      723,
+      1000,
+      735
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.7",
+    "bbox": [
+      143,
+      735,
+      173,
+      750
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      735,
+      1000,
+      749
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Payment of Taxes",
+    "bbox": [
+      224,
+      738,
+      355,
+      749
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.8",
+    "bbox": [
+      143,
+      749,
+      173,
+      764
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Enforcement of Unit Franchise Agreements",
+    "bbox": [
+      223,
+      752,
+      547,
+      763
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      749,
+      1000,
+      764
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.9",
+    "bbox": [
+      142,
+      762,
+      174,
+      778
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Master Franchisee Training Program",
+    "bbox": [
+      222,
+      766,
+      497,
+      777
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      764,
+      1000,
+      777
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.10",
+    "bbox": [
+      143,
+      777,
+      183,
+      791
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Additional Training; Master Franchisee Meetings",
+    "bbox": [
+      223,
+      779,
+      597,
+      792
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      777,
+      1000,
+      791
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.11",
+    "bbox": [
+      142,
+      790,
+      180,
+      806
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Supplies and Equipment",
+    "bbox": [
+      223,
+      793,
+      408,
+      806
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      791,
+      1000,
+      806
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.12",
+    "bbox": [
+      144,
+      805,
+      182,
+      819
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Compliance with Governmental Regulations and Applicable Law",
+    "bbox": [
+      222,
+      807,
+      704,
+      820
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      806,
+      1000,
+      819
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.13",
+    "bbox": [
+      143,
+      820,
+      182,
+      833
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Office Location",
+    "bbox": [
+      223,
+      821,
+      339,
+      833
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      820,
+      1000,
+      833
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.14",
+    "bbox": [
+      143,
+      833,
+      183,
+      847
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Solicitation Advertising",
+    "bbox": [
+      222,
+      834,
+      403,
+      848
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      847
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.15",
+    "bbox": [
+      144,
+      847,
+      182,
+      861
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Policies and Procedures",
+    "bbox": [
+      223,
+      850,
+      402,
+      860
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      847,
+      1000,
+      861
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.16",
+    "bbox": [
+      143,
+      861,
+      183,
+      875
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Changes to the System",
+    "bbox": [
+      224,
+      863,
+      397,
+      876
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      861,
+      1000,
+      875
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.17",
+    "bbox": [
+      143,
+      876,
+      182,
+      889
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Developments are Our Property",
+    "bbox": [
+      222,
+      877,
+      461,
+      891
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      874,
+      1000,
+      890
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.18",
+    "bbox": [
+      143,
+      888,
+      183,
+      904
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Financial Statements and Updated Unit Franchise Disclosure Document",
+    "bbox": [
+      222,
+      891,
+      763,
+      903
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      888,
+      1000,
+      904
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "5.19",
+    "bbox": [
+      143,
+      903,
+      182,
+      917
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Our Website.",
+    "bbox": [
+      222,
+      905,
+      318,
+      917
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "15",
+    "bbox": [
+      1000,
+      903,
+      1000,
+      917
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      650,
+      954,
+      656,
+      962
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: SOUPMAN, INC., 8-K, 8/14/2015",
+    "bbox": [
+      134,
+      1000,
+      457,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

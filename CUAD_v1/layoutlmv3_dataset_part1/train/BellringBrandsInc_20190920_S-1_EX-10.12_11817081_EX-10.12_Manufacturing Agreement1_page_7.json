@@ -1,0 +1,35 @@
+[
+  {
+    "text": "disease, each employee; $[***] disease, policy limit.",
+    "bbox": [
+      312,
+      115,
+      689,
+      127
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "iv.",
+    "bbox": [
+      253,
+      129,
+      275,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Auto Liability $[***] combined single limit.",
+    "bbox": [
+      312,
+      130,
+      625,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

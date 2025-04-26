@@ -1,0 +1,376 @@
+[
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED",
+    "bbox": [
+      870,
+      81,
+      1000,
+      92
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "WITH RESPECT TO CERTAIN PORTIONS HEREOF",
+    "bbox": [
+      811,
+      97,
+      1000,
+      107
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "DENOTED WITH \"***",
+    "bbox": [
+      1000,
+      111,
+      1000,
+      124
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Hosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008",
+    "bbox": [
+      422,
+      146,
+      911,
+      159
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.23",
+    "bbox": [
+      110,
+      197,
+      143,
+      211
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"'Operational Manual\" shall mean the working document in which Parties agree upon (dynamic) activities and procedures as described in",
+    "bbox": [
+      181,
+      198,
+      1000,
+      211
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "the Agreement in more detail for the duration of the Agreement. The Operational Manual is a dynamic document. The latest valid and.",
+    "bbox": [
+      179,
+      214,
+      1000,
+      227
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "binding version shall be the one agreed in writing between the Parties in accordance with article 19.3..",
+    "bbox": [
+      180,
+      231,
+      936,
+      243
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      110,
+      265,
+      144,
+      278
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": ".***\" means the company formerly known as ***. formed under the laws of the Netherlands, *** in The Hague, The Netherlands..",
+    "bbox": [
+      177,
+      263,
+      1000,
+      281
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.25",
+    "bbox": [
+      110,
+      301,
+      143,
+      315
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Protocol of Delivery\" (also referred to as \"PoD') shall mean the document, as attached in Appendix 10, provided by T-Mobile to",
+    "bbox": [
+      179,
+      302,
+      1000,
+      315
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ELEPHANT TALK following the Soft Launch for the purpose of accepting the Hosting Services by ELEPHANT TALK.",
+    "bbox": [
+      178,
+      317,
+      1000,
+      332
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.26",
+    "bbox": [
+      110,
+      354,
+      144,
+      367
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Quarter\"' and \"Quarterly\"' shall mean a quarter of a year, being three consecutive months starting every January, April, July and/or",
+    "bbox": [
+      181,
+      355,
+      1000,
+      367
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "October of every calendar year.",
+    "bbox": [
+      179,
+      370,
+      415,
+      383
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.27",
+    "bbox": [
+      110,
+      405,
+      144,
+      419
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Ready for Service Date\"' shall mean the date, following the Soft Launch, upon which the Hosting Services agreed between the Parties - in",
+    "bbox": [
+      180,
+      407,
+      1000,
+      419
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "accordance with article 3 - meet the agreed specification as evidenced by the signing of the Protocol for Delivery.",
+    "bbox": [
+      179,
+      422,
+      1000,
+      436
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.28",
+    "bbox": [
+      110,
+      457,
+      143,
+      471
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Ready for Test Date\" shall mean the date on which the end-to-end test, to be performed internally by T-Mobile solely, has been",
+    "bbox": [
+      179,
+      458,
+      1000,
+      470
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "completed by T-Mobile and pursuant to which ELEPHANT TALK can commence the Soft Launch..",
+    "bbox": [
+      179,
+      474,
+      918,
+      487
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.29",
+    "bbox": [
+      110,
+      509,
+      143,
+      523
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Regulatory Provisions\" shall mean all applicable laws, directives, consents, specifications, regulations and/or stipulations set forth by",
+    "bbox": [
+      180,
+      511,
+      1000,
+      523
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "the relevant regulatory authority.",
+    "bbox": [
+      179,
+      526,
+      424,
+      540
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.30",
+    "bbox": [
+      110,
+      561,
+      144,
+      575
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"SIM card' shall mean a subscriber identity module (chip) card for the identification of -the mobile end-users of - an ELEPHANT TALK",
+    "bbox": [
+      179,
+      560,
+      1000,
+      575
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Customer on the T-Mobile Network and enables access to the ELEPHANT TALK Wholesale Services.",
+    "bbox": [
+      180,
+      578,
+      945,
+      589
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.31",
+    "bbox": [
+      111,
+      613,
+      142,
+      626
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"SLA\" means the Service Level Agreement attached hereto in Appendix 6.",
+    "bbox": [
+      180,
+      613,
+      737,
+      626
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.32",
+    "bbox": [
+      110,
+      649,
+      143,
+      663
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Soft Launch\" shall mean the test to be performed under article 4 and as described in Appendix 3 and the period in which ELEPHANT.",
+    "bbox": [
+      180,
+      650,
+      1000,
+      662
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "TALK can gain experience with the functionalities of the Hosting Services prior to the Commercial Launch Date.",
+    "bbox": [
+      179,
+      667,
+      1000,
+      679
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: PARETEUM CORP, 8-K, 10/1/2008",
+    "bbox": [
+      133,
+      1000,
+      467,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  }
+]

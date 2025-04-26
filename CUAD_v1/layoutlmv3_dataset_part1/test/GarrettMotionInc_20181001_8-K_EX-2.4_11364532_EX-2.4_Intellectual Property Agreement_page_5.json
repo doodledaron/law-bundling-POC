@@ -1,0 +1,310 @@
+[
+  {
+    "text": "Table of Contents",
+    "bbox": [
+      110,
+      97,
+      240,
+      108
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "'Copyright Assignment Agreement\" has the meaning set forth in Section 2.01..",
+    "bbox": [
+      203,
+      134,
+      771,
+      145
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "'Copyrights\" means copyrights, works of authorship (including all translations, adaptations, derivations and combinations thereof), mask",
+    "bbox": [
+      203,
+      166,
+      1000,
+      176
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "works, designs and database rights, including, in each case, any registrations and applications therefor.",
+    "bbox": [
+      113,
+      181,
+      865,
+      192
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Divested Entity\" has the meaning set forth in Section 8.02.",
+    "bbox": [
+      201,
+      210,
+      633,
+      223
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Domain Name Assignment Agreement\"' has the meaning set forth in Section 2.01.",
+    "bbox": [
+      202,
+      242,
+      800,
+      255
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Domain Names\"' means Internet domain names, including top level domain names and global top level domain names, URLs, social media",
+    "bbox": [
+      201,
+      273,
+      1000,
+      285
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "identifiers, handles and tags.",
+    "bbox": [
+      112,
+      289,
+      320,
+      301
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Honeywell Content' means the confidential and proprietary materials of Honeywell IP protected by Trade Secret and/or Copyright Law set",
+    "bbox": [
+      200,
+      319,
+      1000,
+      332
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "forth on Schedule G",
+    "bbox": [
+      111,
+      335,
+      259,
+      347
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Honeywell IP\" means all Intellectual Property Rights owned by the Honeywell Group or the SpinCo Group as of immediately prior to the",
+    "bbox": [
+      201,
+      366,
+      1000,
+      379
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Distribution, other than the SpinCo IP.",
+    "bbox": [
+      112,
+      383,
+      387,
+      393
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "'Honeywell Shared IP\" has the meaning set forth in Section 3.01(a).",
+    "bbox": [
+      203,
+      414,
+      690,
+      424
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "'Honeywell Trade Secrets\"' means the Trade Secrets included in the Honeywell IP..",
+    "bbox": [
+      203,
+      445,
+      794,
+      455
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Honeywell Trademarks\"' means the Trademarks included in the Honeywell IP.",
+    "bbox": [
+      201,
+      475,
+      762,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Intellectual Property Assignment Agreements\"' has the meaning set forth in Section 2.01..",
+    "bbox": [
+      201,
+      506,
+      854,
+      518
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Intellectual Property Rights\"' or \"IPR\" means any and all intellectual property rights existing anywhere in the world associated with any and",
+    "bbox": [
+      202,
+      538,
+      1000,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "all (a) Patents, (b) Trademarks, (c) Copyrights, (d) Domain Names, (e) Software, (f) Trade Secrets and other confidential information, (g) all tangible.",
+    "bbox": [
+      112,
+      553,
+      1000,
+      565
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "embodiments of the foregoing in whatever form or medium and (h) any other legal protections and rights related to any of the foregoing. Intellectual.",
+    "bbox": [
+      113,
+      569,
+      1000,
+      581
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Property Rights specifically excludes contractual rights (including license grants from third parties)..",
+    "bbox": [
+      111,
+      584,
+      834,
+      596
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Invention Disclosure Assignment Agreement' has the meaning set forth in Section 2.01..",
+    "bbox": [
+      202,
+      615,
+      852,
+      627
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "'Party\"' means either party hereto, and \"Parties\" means both parties hereto",
+    "bbox": [
+      203,
+      647,
+      745,
+      657
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Patent Assignment Agreement' has the meaning set forth in Section 2.01.",
+    "bbox": [
+      201,
+      677,
+      745,
+      689
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Patents\" means patents (including all reissues, divisionals, continuations, continuations-in-part, reexaminations, supplemental",
+    "bbox": [
+      202,
+      708,
+      1000,
+      720
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "examinations, inter partes review, post-grant oppositions, covered business methods reviews, substitutions and extensions thereof), patent registrations.",
+    "bbox": [
+      110,
+      723,
+      1000,
+      736
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and applications, including provisional applications, statutory invention registrations, invention disclosures and inventions.",
+    "bbox": [
+      111,
+      740,
+      1000,
+      751
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "2",
+    "bbox": [
+      667,
+      756,
+      677,
+      765
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: GARRETT MOTION INC., 8-K, 10/1/2018",
+    "bbox": [
+      133,
+      1000,
+      520,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  }
+]

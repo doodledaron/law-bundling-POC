@@ -1,0 +1,35 @@
+[
+  {
+    "text": "Outsourcing Agreement",
+    "bbox": [
+      571,
+      193,
+      762,
+      206
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Paratek Pharmaceuticals, Inc.",
+    "bbox": [
+      551,
+      258,
+      781,
+      269
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CARBOGEN AMCIS AG",
+    "bbox": [
+      571,
+      322,
+      761,
+      332
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

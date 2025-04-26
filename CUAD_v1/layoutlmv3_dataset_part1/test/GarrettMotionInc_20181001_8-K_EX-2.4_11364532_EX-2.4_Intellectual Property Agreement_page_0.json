@@ -1,0 +1,57 @@
+[
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT",
+    "bbox": [
+      512,
+      179,
+      832,
+      190
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "GARRETT MOTION INC",
+    "bbox": [
+      579,
+      305,
+      763,
+      314
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "HONEYWELL INTERNATIONAL INC",
+    "bbox": [
+      532,
+      242,
+      809,
+      251
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "HONEYWELL INTERNATIONAL INC",
+    "bbox": [
+      532,
+      242,
+      809,
+      251
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dated as of September 27, 2018",
+    "bbox": [
+      560,
+      335,
+      785,
+      346
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

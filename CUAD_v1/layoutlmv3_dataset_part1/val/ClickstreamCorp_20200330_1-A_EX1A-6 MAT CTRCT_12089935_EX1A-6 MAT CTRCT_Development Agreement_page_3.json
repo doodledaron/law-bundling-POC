@@ -1,0 +1,420 @@
+[
+  {
+    "text": "8. APPLICATION REPRESENTATIONS AND WARRANTIES.",
+    "bbox": [
+      111,
+      73,
+      588,
+      83
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(a) Performance. The Developer hereby warrants and represents that following delivery of the Application System to the Client (which shall be",
+    "bbox": [
+      112,
+      89,
+      1000,
+      101
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "deeded to occur only on the date the Web Application is uploaded to the AWS for distribution) pursuant to Exhibit A (the \"Support Period\"), the",
+    "bbox": [
+      112,
+      105,
+      1000,
+      117
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Application will be free from programming errors and defects in workmanship and materials, and will conform to the specifications of Exhibit A. If",
+    "bbox": [
+      112,
+      120,
+      1000,
+      133
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "programming errors or other defects are discovered during the Support Period, the Developer shall promptly remedy those errors or defects at its",
+    "bbox": [
+      110,
+      135,
+      1000,
+      151
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "own expense. The developer will fix any bugs that may come up from the original contract after the 90 days warranty has passed.",
+    "bbox": [
+      111,
+      153,
+      1000,
+      165
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(b) No Disablement. The Developer hereby warrants and represents that the Application System, when delivered or accessed by the Client, will be",
+    "bbox": [
+      112,
+      169,
+      1000,
+      181
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "free from material defects, and from viruses, logic locks, and other disabling devices or codes, and in particular will not contain any virus, Trojan",
+    "bbox": [
+      111,
+      185,
+      1000,
+      197
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "horse, worm, drop-dead devices, trap doors, time bombs, or other software routines or other hardware component that could permit unauthorized",
+    "bbox": [
+      111,
+      201,
+      1000,
+      213
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "access, disable, erase, or otherwise harm the Application System or any software, hardware, or data, cause the Application System or any software",
+    "bbox": [
+      110,
+      216,
+      1000,
+      229
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "or hardware to perform any functions other than those specified in this Agreement, halt, disrupt, or degrade the operation of the Application",
+    "bbox": [
+      112,
+      234,
+      1000,
+      244
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "System or any software or hardware, or perform any other such actions..",
+    "bbox": [
+      112,
+      249,
+      648,
+      261
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "9. TIMING AND DELAYS.",
+    "bbox": [
+      111,
+      265,
+      312,
+      275
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "The Developer recognizes and agrees that failure to deliver the Application in accordance with the delivery schedule detailed in Exhibit A to this",
+    "bbox": [
+      110,
+      280,
+      1000,
+      293
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Agreement will result in expense and damage to the Client. The Developer shall inform the Client immediately of any anticipated delays in the",
+    "bbox": [
+      113,
+      297,
+      1000,
+      309
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "delivery schedule and of any remedial actions being taken to ensure completion of the Application System according to such schedule. If a delivery",
+    "bbox": [
+      111,
+      312,
+      1000,
+      326
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "date is missed, the Client may, in its sole discretion, declare such delay a material breach of the Agreement under subsection 4(a) and pursue all of",
+    "bbox": [
+      112,
+      329,
+      1000,
+      341
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "its legal and equitable remedies. The Client may not declare a breach, and the Developer cannot be held in breach of this Agreement, of this section",
+    "bbox": [
+      112,
+      345,
+      1000,
+      357
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "if such delay is caused by an action or failure of action of the Client. In such case, the Developer will provide the Client with written notice of the",
+    "bbox": [
+      111,
+      361,
+      1000,
+      373
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "resolution has been provided to the Developer.",
+    "bbox": [
+      111,
+      394,
+      464,
+      404
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "10. NATURE OF RELATIONSHIP.",
+    "bbox": [
+      112,
+      409,
+      372,
+      419
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(a) Independent Contractor Status. The Developer agrees to perform the Services hereunder solely as an independent contractor. The Parties agree",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "that nothing in this Agreement shall be construed as creating a joint venture, partnership, franchise, agency, employer/employee, or similar",
+    "bbox": [
+      112,
+      441,
+      1000,
+      453
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "relationship between the Parties, or as authorizing either Party to act as the agent of the other. The Developer is and will remain an independent",
+    "bbox": [
+      111,
+      457,
+      1000,
+      469
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "contractor in its relationship to the Client. The Client shall not be responsible for withholding taxes with respect to the Developer's compensation",
+    "bbox": [
+      111,
+      473,
+      1000,
+      485
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "hereunder. The Developer shall have no claim against the Client hereunder or otherwise for vacation pay, sick leave, retirement benefits, social",
+    "bbox": [
+      111,
+      489,
+      1000,
+      501
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "security, worker's compensation, health or disability benefits, unemployment insurance benefits, or employee benefits of any kind. Nothing in this",
+    "bbox": [
+      111,
+      505,
+      1000,
+      517
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Agreement shall create any obligation between either Party or a third party..",
+    "bbox": [
+      112,
+      520,
+      674,
+      533
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "(b) Indemnification of Client by Developer. The Client has entered into this Agreement in reliance on information provided by the Developer,",
+    "bbox": [
+      111,
+      536,
+      1000,
+      550
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "including the Developer's express representation that it is an independent contractor and in compliance with all applicable laws related to work as",
+    "bbox": [
+      111,
+      553,
+      1000,
+      565
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "an independent contractor. If any regulatory body or court of competent jurisdiction finds that the Developer is not an independent contractor",
+    "bbox": [
+      113,
+      570,
+      1000,
+      580
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "and/or is not in compliance with applicable laws related to work as an independent contractor, based on the Developer's own actions, the",
+    "bbox": [
+      112,
+      585,
+      1000,
+      597
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Developer shall assume full responsibility and liability for all taxes, assessments, and penalties imposed against the Developer and/or the Client",
+    "bbox": [
+      112,
+      601,
+      1000,
+      613
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "resulting from such contrary interpretation, including but not limited to taxes, assessments, and penalties that would have been deducted from the",
+    "bbox": [
+      111,
+      616,
+      1000,
+      628
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Developer's earnings had the Developer been on the Client's payroll and employed as an employee of the Client..",
+    "bbox": [
+      111,
+      632,
+      956,
+      644
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      1000,
+      657,
+      1000,
+      666
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Page",
+    "bbox": [
+      1000,
+      654,
+      1000,
+      671
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  },
+  {
+    "text": "Source: CLICKSTREAM CORP, 1-A, 3/30/2020",
+    "bbox": [
+      133,
+      1000,
+      494,
+      1000
+    ],
+    "label": 37,
+    "category": "Warranty Duration"
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "text": "License and Development Agreement",
+    "bbox": [
+      505,
+      98,
+      826,
+      112
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Exhibit 10.14",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "License and Development Agreement",
+    "bbox": [
+      505,
+      98,
+      826,
+      112
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"Agreement\"",
+    "bbox": [
+      614,
+      115,
+      719,
+      130
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "between",
+    "bbox": [
+      634,
+      133,
+      699,
+      144
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "NLS-1 Pharma AG",
+    "bbox": [
+      111,
+      149,
+      257,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Alter Postplatz 2",
+    "bbox": [
+      111,
+      164,
+      236,
+      178
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "6370 Stans",
+    "bbox": [
+      111,
+      181,
+      193,
+      192
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Switzerland",
+    "bbox": [
+      111,
+      197,
+      198,
+      208
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "'Licensor\" / \"NLS'",
+    "bbox": [
+      1000,
+      197,
+      1000,
+      207
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      650,
+      212,
+      682,
+      224
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Eurofarma Laboratorios S.A.",
+    "bbox": [
+      114,
+      230,
+      332,
+      239
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Avenida Vereador Jose Diniz 3465",
+    "bbox": [
+      113,
+      245,
+      363,
+      256
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "04603-003 Sao Paulo",
+    "bbox": [
+      111,
+      261,
+      264,
+      272
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Brazil",
+    "bbox": [
+      111,
+      277,
+      154,
+      288
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"Licensee\" / \"Eurofarma'",
+    "bbox": [
+      1000,
+      276,
+      1000,
+      288
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "(Licensor and Licensee each a \"Party\"",
+    "bbox": [
+      933,
+      292,
+      1000,
+      305
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "collectively the \"Parties')",
+    "bbox": [
+      1000,
+      309,
+      1000,
+      321
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "regarding",
+    "bbox": [
+      629,
+      324,
+      704,
+      338
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Nolazol? (Mazindol CR) in ADHD - Latin America",
+    "bbox": [
+      475,
+      341,
+      856,
+      351
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      133,
+      1000,
+      547,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"Licensee\" / \"Eurofarma'",
+    "bbox": [
+      1000,
+      276,
+      1000,
+      288
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "NLS-1 Pharma AG",
+    "bbox": [
+      111,
+      149,
+      257,
+      159
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Eurofarma Laboratorios S.A.",
+    "bbox": [
+      114,
+      230,
+      332,
+      239
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "'Licensor\" / \"NLS'",
+    "bbox": [
+      1000,
+      197,
+      1000,
+      207
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Exhibit 10.14",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "License and Development Agreement",
+    "bbox": [
+      505,
+      98,
+      826,
+      112
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Agreement\"",
+    "bbox": [
+      614,
+      115,
+      719,
+      130
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "between",
+    "bbox": [
+      634,
+      133,
+      699,
+      144
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NLS-1 Pharma AG",
+    "bbox": [
+      111,
+      149,
+      257,
+      159
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Alter Postplatz 2",
+    "bbox": [
+      111,
+      164,
+      236,
+      178
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "6370 Stans",
+    "bbox": [
+      111,
+      181,
+      193,
+      192
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Switzerland",
+    "bbox": [
+      111,
+      197,
+      198,
+      208
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "'Licensor\" / \"NLS'",
+    "bbox": [
+      1000,
+      197,
+      1000,
+      207
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      650,
+      212,
+      682,
+      224
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Eurofarma Laboratorios S.A.",
+    "bbox": [
+      114,
+      230,
+      332,
+      239
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Avenida Vereador Jose Diniz 3465",
+    "bbox": [
+      113,
+      245,
+      363,
+      256
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "04603-003 Sao Paulo",
+    "bbox": [
+      111,
+      261,
+      264,
+      272
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Brazil",
+    "bbox": [
+      111,
+      277,
+      154,
+      288
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Licensee\" / \"Eurofarma'",
+    "bbox": [
+      1000,
+      276,
+      1000,
+      288
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(Licensor and Licensee each a \"Party\"",
+    "bbox": [
+      933,
+      292,
+      1000,
+      305
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "collectively the \"Parties')",
+    "bbox": [
+      1000,
+      309,
+      1000,
+      321
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "regarding",
+    "bbox": [
+      629,
+      324,
+      704,
+      338
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Nolazol? (Mazindol CR) in ADHD - Latin America",
+    "bbox": [
+      475,
+      341,
+      856,
+      351
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: NLS PHARMACEUTICS LTD., F-1, 2/28/2020",
+    "bbox": [
+      133,
+      1000,
+      547,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  }
+]

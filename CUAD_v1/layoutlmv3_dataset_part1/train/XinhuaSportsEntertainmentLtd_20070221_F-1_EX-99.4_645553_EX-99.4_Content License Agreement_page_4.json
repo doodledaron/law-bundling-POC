@@ -1,0 +1,24 @@
+[
+  {
+    "text": "XFN may terminate this Agreement by giving thirty (30) days written notice.",
+    "bbox": [
+      168,
+      329,
+      1000,
+      341
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "to the CEIs.",
+    "bbox": [
+      168,
+      345,
+      304,
+      356
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  }
+]

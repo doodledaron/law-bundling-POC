@@ -1,0 +1,46 @@
+[
+  {
+    "text": "NON-EXCLUSIVE LICENSE AGREEMENT",
+    "bbox": [
+      504,
+      96,
+      827,
+      107
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "THE JOHNS HOPKINS UNIVERSITY",
+    "bbox": [
+      527,
+      130,
+      804,
+      139
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "JHU Agreement: A29889",
+    "bbox": [
+      574,
+      186,
+      759,
+      198
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "VIRTUOSO SURGICAL, INC",
+    "bbox": [
+      558,
+      161,
+      774,
+      172
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

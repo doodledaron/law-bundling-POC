@@ -1,0 +1,35 @@
+[
+  {
+    "text": "INITIAL ORDER COMMITMENT - MA commits to purchase a minimum of 100",
+    "bbox": [
+      244,
+      784,
+      991,
+      797
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Units in aggregate within the Territory within the first six months of term of this.",
+    "bbox": [
+      247,
+      802,
+      992,
+      816
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      248,
+      821,
+      346,
+      833
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  }
+]

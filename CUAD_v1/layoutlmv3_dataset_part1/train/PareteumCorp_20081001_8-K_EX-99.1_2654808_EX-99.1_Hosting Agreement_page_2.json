@@ -1,0 +1,2268 @@
+[
+  {
+    "text": "each individually referred to as \"Party\" and together as \"Parties\".",
+    "bbox": [
+      113,
+      495,
+      602,
+      507
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED",
+    "bbox": [
+      870,
+      81,
+      1000,
+      92
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WITH RESPECT TO CERTAIN PORTIONS HEREOF",
+    "bbox": [
+      811,
+      97,
+      1000,
+      107
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "DENOTED WITH \"***",
+    "bbox": [
+      1000,
+      111,
+      1000,
+      124
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Hosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008",
+    "bbox": [
+      422,
+      147,
+      910,
+      159
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "MOBILE VIRTUALNETWORK ENABLER HOSTING AGREEMENT",
+    "bbox": [
+      404,
+      199,
+      929,
+      209
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "by and between ELEPHANT TALK and T-Mobile",
+    "bbox": [
+      485,
+      214,
+      849,
+      227
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "(T-Mobile hosting ELEPHANT TALK)",
+    "bbox": [
+      524,
+      251,
+      808,
+      262
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "This Agreement is made between",
+    "bbox": [
+      112,
+      306,
+      361,
+      318
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "\"Elephant Talk Communication Holding AG', a company incorporated under the laws of Switzerland, having its registered office at Baarerstrasse",
+    "bbox": [
+      112,
+      322,
+      1000,
+      335
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "135, CH-6301 Zug, Switzerland, legally and duly represented by its Chief Executive Officer Steven van der Velden and its Chief Operations Officer",
+    "bbox": [
+      114,
+      339,
+      1000,
+      351
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "and Chief Technology Officer Martin Zuurbier, hereinafter referred to as: \"ELEPHANT TALK\"",
+    "bbox": [
+      111,
+      354,
+      816,
+      367
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      109,
+      390,
+      143,
+      403
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "T-Mobile Netherlands B.V., a company incorporated under the laws of the Netherlands, having its registered office at the Waldorpstraat 60, 2521",
+    "bbox": [
+      112,
+      426,
+      1000,
+      439
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "CC Den Haag, the Netherlands, legally and duly represented by its Managing Director Niek Jan van Damme and its Marketing Director, Bart",
+    "bbox": [
+      111,
+      442,
+      1000,
+      455
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "each individually referred to as \"Party\" and together as \"Parties\".",
+    "bbox": [
+      113,
+      495,
+      602,
+      507
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      531,
+      204,
+      542
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      565,
+      126,
+      579
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ELEPHANT TALK wishes to become a full Mobile Virtual Network Enabler (hereinafter: \"MVNE) providing mobile telecommunications",
+    "bbox": [
+      179,
+      566,
+      1000,
+      577
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "services to legal entities partnering with ELEPHANT TALK to offer mobile services in an (Enhanced) Service Provider model using the T-",
+    "bbox": [
+      179,
+      582,
+      1000,
+      595
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Mobile network and the by T-Mobile provided wholesale mobile network services;",
+    "bbox": [
+      179,
+      601,
+      799,
+      613
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      637,
+      125,
+      650
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "T-Mobile is a licensed Dutch mobile telecommunications and services provider operating inter alia its own GSM and UMTS/HSDPA",
+    "bbox": [
+      179,
+      637,
+      1000,
+      650
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "mobile network in The Netherlands with related basic services and offering wholesale and retail mobile network services and associated",
+    "bbox": [
+      179,
+      655,
+      1000,
+      667
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "services on the Dutch market:",
+    "bbox": [
+      180,
+      671,
+      404,
+      682
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      109,
+      706,
+      125,
+      718
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "*** and ELEPHANT TALK have conducted preliminary discussions and negotiations leading to an initial understanding on the basic",
+    "bbox": [
+      177,
+      706,
+      1000,
+      724
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "business principles of an envisaged co-operation between *** and ELEPHANT TALK, which has been laid down in Heads of Agreement",
+    "bbox": [
+      179,
+      725,
+      1000,
+      740
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "between *** and ELEPHANT TALK ***:",
+    "bbox": [
+      179,
+      740,
+      495,
+      753
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      777,
+      125,
+      791
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "***",
+    "bbox": [
+      180,
+      781,
+      212,
+      788
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      817,
+      125,
+      831
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "In answer to the proposal of *** and the additions to this proposal by T-Mobile, ELEPHANT TALK has confirmed by letter dated",
+    "bbox": [
+      178,
+      817,
+      1000,
+      831
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      110,
+      874,
+      125,
+      886
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "ELEPHANT TALK therefore wishes to obtain from T-Mobile wholesale mobile network services and associated services and T-Mobile is",
+    "bbox": [
+      181,
+      876,
+      1000,
+      884
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "willing to offer ELEPHANT TALK such services;",
+    "bbox": [
+      179,
+      893,
+      547,
+      906
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      109,
+      929,
+      126,
+      942
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Following the signing of the aforementioned Heads of Agreement between *** and ELEPHANT TALK, Parties have continued their",
+    "bbox": [
+      179,
+      929,
+      1000,
+      943
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "discussions and negotiations with regard to their envisaged co-operation and have reached agreement on the terms and conditions in that",
+    "bbox": [
+      179,
+      946,
+      1000,
+      959
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "respect, which are laid down in this Agreement;.",
+    "bbox": [
+      179,
+      966,
+      537,
+      978
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties have agreed as follows:",
+    "bbox": [
+      113,
+      1000,
+      534,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Source: PARETEUM CORP, 8-K, 10/1/2008",
+    "bbox": [
+      133,
+      1000,
+      467,
+      1000
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED",
+    "bbox": [
+      870,
+      81,
+      1000,
+      92
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WITH RESPECT TO CERTAIN PORTIONS HEREOF",
+    "bbox": [
+      811,
+      97,
+      1000,
+      107
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "DENOTED WITH \"***",
+    "bbox": [
+      1000,
+      111,
+      1000,
+      124
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Hosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008",
+    "bbox": [
+      422,
+      147,
+      910,
+      159
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "MOBILE VIRTUALNETWORK ENABLER HOSTING AGREEMENT",
+    "bbox": [
+      404,
+      199,
+      929,
+      209
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "by and between ELEPHANT TALK and T-Mobile",
+    "bbox": [
+      485,
+      214,
+      849,
+      227
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "(T-Mobile hosting ELEPHANT TALK)",
+    "bbox": [
+      524,
+      251,
+      808,
+      262
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "This Agreement is made between",
+    "bbox": [
+      112,
+      306,
+      361,
+      318
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "\"Elephant Talk Communication Holding AG', a company incorporated under the laws of Switzerland, having its registered office at Baarerstrasse",
+    "bbox": [
+      112,
+      322,
+      1000,
+      335
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "135, CH-6301 Zug, Switzerland, legally and duly represented by its Chief Executive Officer Steven van der Velden and its Chief Operations Officer",
+    "bbox": [
+      114,
+      339,
+      1000,
+      351
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "and Chief Technology Officer Martin Zuurbier, hereinafter referred to as: \"ELEPHANT TALK\"",
+    "bbox": [
+      111,
+      354,
+      816,
+      367
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      109,
+      390,
+      143,
+      403
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "T-Mobile Netherlands B.V., a company incorporated under the laws of the Netherlands, having its registered office at the Waldorpstraat 60, 2521",
+    "bbox": [
+      112,
+      426,
+      1000,
+      439
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "CC Den Haag, the Netherlands, legally and duly represented by its Managing Director Niek Jan van Damme and its Marketing Director, Bart",
+    "bbox": [
+      111,
+      442,
+      1000,
+      455
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "each individually referred to as \"Party\" and together as \"Parties\".",
+    "bbox": [
+      113,
+      495,
+      602,
+      507
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      531,
+      204,
+      542
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      565,
+      126,
+      579
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ELEPHANT TALK wishes to become a full Mobile Virtual Network Enabler (hereinafter: \"MVNE) providing mobile telecommunications",
+    "bbox": [
+      179,
+      566,
+      1000,
+      577
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "services to legal entities partnering with ELEPHANT TALK to offer mobile services in an (Enhanced) Service Provider model using the T-",
+    "bbox": [
+      179,
+      582,
+      1000,
+      595
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Mobile network and the by T-Mobile provided wholesale mobile network services;",
+    "bbox": [
+      179,
+      601,
+      799,
+      613
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      637,
+      125,
+      650
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "T-Mobile is a licensed Dutch mobile telecommunications and services provider operating inter alia its own GSM and UMTS/HSDPA",
+    "bbox": [
+      179,
+      637,
+      1000,
+      650
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "mobile network in The Netherlands with related basic services and offering wholesale and retail mobile network services and associated",
+    "bbox": [
+      179,
+      655,
+      1000,
+      667
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "services on the Dutch market:",
+    "bbox": [
+      180,
+      671,
+      404,
+      682
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      109,
+      706,
+      125,
+      718
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "*** and ELEPHANT TALK have conducted preliminary discussions and negotiations leading to an initial understanding on the basic",
+    "bbox": [
+      177,
+      706,
+      1000,
+      724
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "business principles of an envisaged co-operation between *** and ELEPHANT TALK, which has been laid down in Heads of Agreement",
+    "bbox": [
+      179,
+      725,
+      1000,
+      740
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "between *** and ELEPHANT TALK ***:",
+    "bbox": [
+      179,
+      740,
+      495,
+      753
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      777,
+      125,
+      791
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "***",
+    "bbox": [
+      180,
+      781,
+      212,
+      788
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      817,
+      125,
+      831
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "In answer to the proposal of *** and the additions to this proposal by T-Mobile, ELEPHANT TALK has confirmed by letter dated",
+    "bbox": [
+      178,
+      817,
+      1000,
+      831
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      110,
+      874,
+      125,
+      886
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ELEPHANT TALK therefore wishes to obtain from T-Mobile wholesale mobile network services and associated services and T-Mobile is",
+    "bbox": [
+      181,
+      876,
+      1000,
+      884
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "willing to offer ELEPHANT TALK such services;",
+    "bbox": [
+      179,
+      893,
+      547,
+      906
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      109,
+      929,
+      126,
+      942
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Following the signing of the aforementioned Heads of Agreement between *** and ELEPHANT TALK, Parties have continued their",
+    "bbox": [
+      179,
+      929,
+      1000,
+      943
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "discussions and negotiations with regard to their envisaged co-operation and have reached agreement on the terms and conditions in that",
+    "bbox": [
+      179,
+      946,
+      1000,
+      959
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "respect, which are laid down in this Agreement;.",
+    "bbox": [
+      179,
+      966,
+      537,
+      978
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties have agreed as follows:",
+    "bbox": [
+      113,
+      1000,
+      534,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: PARETEUM CORP, 8-K, 10/1/2008",
+    "bbox": [
+      133,
+      1000,
+      467,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED",
+    "bbox": [
+      870,
+      81,
+      1000,
+      92
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "WITH RESPECT TO CERTAIN PORTIONS HEREOF",
+    "bbox": [
+      811,
+      97,
+      1000,
+      107
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "DENOTED WITH \"***",
+    "bbox": [
+      1000,
+      111,
+      1000,
+      124
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Hosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008",
+    "bbox": [
+      422,
+      147,
+      910,
+      159
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "MOBILE VIRTUALNETWORK ENABLER HOSTING AGREEMENT",
+    "bbox": [
+      404,
+      199,
+      929,
+      209
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "by and between ELEPHANT TALK and T-Mobile",
+    "bbox": [
+      485,
+      214,
+      849,
+      227
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "(T-Mobile hosting ELEPHANT TALK)",
+    "bbox": [
+      524,
+      251,
+      808,
+      262
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "This Agreement is made between",
+    "bbox": [
+      112,
+      306,
+      361,
+      318
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Elephant Talk Communication Holding AG', a company incorporated under the laws of Switzerland, having its registered office at Baarerstrasse",
+    "bbox": [
+      112,
+      322,
+      1000,
+      335
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "135, CH-6301 Zug, Switzerland, legally and duly represented by its Chief Executive Officer Steven van der Velden and its Chief Operations Officer",
+    "bbox": [
+      114,
+      339,
+      1000,
+      351
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "and Chief Technology Officer Martin Zuurbier, hereinafter referred to as: \"ELEPHANT TALK\"",
+    "bbox": [
+      111,
+      354,
+      816,
+      367
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      109,
+      390,
+      143,
+      403
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "T-Mobile Netherlands B.V., a company incorporated under the laws of the Netherlands, having its registered office at the Waldorpstraat 60, 2521",
+    "bbox": [
+      112,
+      426,
+      1000,
+      439
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CC Den Haag, the Netherlands, legally and duly represented by its Managing Director Niek Jan van Damme and its Marketing Director, Bart",
+    "bbox": [
+      111,
+      442,
+      1000,
+      455
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "each individually referred to as \"Party\" and together as \"Parties\".",
+    "bbox": [
+      113,
+      495,
+      602,
+      507
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      531,
+      204,
+      542
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      565,
+      126,
+      579
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ELEPHANT TALK wishes to become a full Mobile Virtual Network Enabler (hereinafter: \"MVNE) providing mobile telecommunications",
+    "bbox": [
+      179,
+      566,
+      1000,
+      577
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "services to legal entities partnering with ELEPHANT TALK to offer mobile services in an (Enhanced) Service Provider model using the T-",
+    "bbox": [
+      179,
+      582,
+      1000,
+      595
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Mobile network and the by T-Mobile provided wholesale mobile network services;",
+    "bbox": [
+      179,
+      601,
+      799,
+      613
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      637,
+      125,
+      650
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "T-Mobile is a licensed Dutch mobile telecommunications and services provider operating inter alia its own GSM and UMTS/HSDPA",
+    "bbox": [
+      179,
+      637,
+      1000,
+      650
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "mobile network in The Netherlands with related basic services and offering wholesale and retail mobile network services and associated",
+    "bbox": [
+      179,
+      655,
+      1000,
+      667
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "services on the Dutch market:",
+    "bbox": [
+      180,
+      671,
+      404,
+      682
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      109,
+      706,
+      125,
+      718
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "*** and ELEPHANT TALK have conducted preliminary discussions and negotiations leading to an initial understanding on the basic",
+    "bbox": [
+      177,
+      706,
+      1000,
+      724
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "business principles of an envisaged co-operation between *** and ELEPHANT TALK, which has been laid down in Heads of Agreement",
+    "bbox": [
+      179,
+      725,
+      1000,
+      740
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "between *** and ELEPHANT TALK ***:",
+    "bbox": [
+      179,
+      740,
+      495,
+      753
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      777,
+      125,
+      791
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "***",
+    "bbox": [
+      180,
+      781,
+      212,
+      788
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      817,
+      125,
+      831
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "In answer to the proposal of *** and the additions to this proposal by T-Mobile, ELEPHANT TALK has confirmed by letter dated",
+    "bbox": [
+      178,
+      817,
+      1000,
+      831
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      110,
+      874,
+      125,
+      886
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "ELEPHANT TALK therefore wishes to obtain from T-Mobile wholesale mobile network services and associated services and T-Mobile is",
+    "bbox": [
+      181,
+      876,
+      1000,
+      884
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "willing to offer ELEPHANT TALK such services;",
+    "bbox": [
+      179,
+      893,
+      547,
+      906
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      109,
+      929,
+      126,
+      942
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Following the signing of the aforementioned Heads of Agreement between *** and ELEPHANT TALK, Parties have continued their",
+    "bbox": [
+      179,
+      929,
+      1000,
+      943
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "discussions and negotiations with regard to their envisaged co-operation and have reached agreement on the terms and conditions in that",
+    "bbox": [
+      179,
+      946,
+      1000,
+      959
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "respect, which are laid down in this Agreement;.",
+    "bbox": [
+      179,
+      966,
+      537,
+      978
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties have agreed as follows:",
+    "bbox": [
+      113,
+      1000,
+      534,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: PARETEUM CORP, 8-K, 10/1/2008",
+    "bbox": [
+      133,
+      1000,
+      467,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED",
+    "bbox": [
+      870,
+      81,
+      1000,
+      92
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WITH RESPECT TO CERTAIN PORTIONS HEREOF",
+    "bbox": [
+      811,
+      97,
+      1000,
+      107
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "DENOTED WITH \"***",
+    "bbox": [
+      1000,
+      111,
+      1000,
+      124
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Hosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008",
+    "bbox": [
+      422,
+      147,
+      910,
+      159
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "MOBILE VIRTUALNETWORK ENABLER HOSTING AGREEMENT",
+    "bbox": [
+      404,
+      199,
+      929,
+      209
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "by and between ELEPHANT TALK and T-Mobile",
+    "bbox": [
+      485,
+      214,
+      849,
+      227
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "(T-Mobile hosting ELEPHANT TALK)",
+    "bbox": [
+      524,
+      251,
+      808,
+      262
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "This Agreement is made between",
+    "bbox": [
+      112,
+      306,
+      361,
+      318
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Elephant Talk Communication Holding AG', a company incorporated under the laws of Switzerland, having its registered office at Baarerstrasse",
+    "bbox": [
+      112,
+      322,
+      1000,
+      335
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "135, CH-6301 Zug, Switzerland, legally and duly represented by its Chief Executive Officer Steven van der Velden and its Chief Operations Officer",
+    "bbox": [
+      114,
+      339,
+      1000,
+      351
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and Chief Technology Officer Martin Zuurbier, hereinafter referred to as: \"ELEPHANT TALK\"",
+    "bbox": [
+      111,
+      354,
+      816,
+      367
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      109,
+      390,
+      143,
+      403
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "T-Mobile Netherlands B.V., a company incorporated under the laws of the Netherlands, having its registered office at the Waldorpstraat 60, 2521",
+    "bbox": [
+      112,
+      426,
+      1000,
+      439
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CC Den Haag, the Netherlands, legally and duly represented by its Managing Director Niek Jan van Damme and its Marketing Director, Bart",
+    "bbox": [
+      111,
+      442,
+      1000,
+      455
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "each individually referred to as \"Party\" and together as \"Parties\".",
+    "bbox": [
+      113,
+      495,
+      602,
+      507
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      531,
+      204,
+      542
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      565,
+      126,
+      579
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ELEPHANT TALK wishes to become a full Mobile Virtual Network Enabler (hereinafter: \"MVNE) providing mobile telecommunications",
+    "bbox": [
+      179,
+      566,
+      1000,
+      577
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "services to legal entities partnering with ELEPHANT TALK to offer mobile services in an (Enhanced) Service Provider model using the T-",
+    "bbox": [
+      179,
+      582,
+      1000,
+      595
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Mobile network and the by T-Mobile provided wholesale mobile network services;",
+    "bbox": [
+      179,
+      601,
+      799,
+      613
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      637,
+      125,
+      650
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "T-Mobile is a licensed Dutch mobile telecommunications and services provider operating inter alia its own GSM and UMTS/HSDPA",
+    "bbox": [
+      179,
+      637,
+      1000,
+      650
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "mobile network in The Netherlands with related basic services and offering wholesale and retail mobile network services and associated",
+    "bbox": [
+      179,
+      655,
+      1000,
+      667
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "services on the Dutch market:",
+    "bbox": [
+      180,
+      671,
+      404,
+      682
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      109,
+      706,
+      125,
+      718
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "*** and ELEPHANT TALK have conducted preliminary discussions and negotiations leading to an initial understanding on the basic",
+    "bbox": [
+      177,
+      706,
+      1000,
+      724
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "business principles of an envisaged co-operation between *** and ELEPHANT TALK, which has been laid down in Heads of Agreement",
+    "bbox": [
+      179,
+      725,
+      1000,
+      740
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "between *** and ELEPHANT TALK ***:",
+    "bbox": [
+      179,
+      740,
+      495,
+      753
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      777,
+      125,
+      791
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "***",
+    "bbox": [
+      180,
+      781,
+      212,
+      788
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      817,
+      125,
+      831
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "In answer to the proposal of *** and the additions to this proposal by T-Mobile, ELEPHANT TALK has confirmed by letter dated",
+    "bbox": [
+      178,
+      817,
+      1000,
+      831
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      110,
+      874,
+      125,
+      886
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "ELEPHANT TALK therefore wishes to obtain from T-Mobile wholesale mobile network services and associated services and T-Mobile is",
+    "bbox": [
+      181,
+      876,
+      1000,
+      884
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "willing to offer ELEPHANT TALK such services;",
+    "bbox": [
+      179,
+      893,
+      547,
+      906
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      109,
+      929,
+      126,
+      942
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Following the signing of the aforementioned Heads of Agreement between *** and ELEPHANT TALK, Parties have continued their",
+    "bbox": [
+      179,
+      929,
+      1000,
+      943
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "discussions and negotiations with regard to their envisaged co-operation and have reached agreement on the terms and conditions in that",
+    "bbox": [
+      179,
+      946,
+      1000,
+      959
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "respect, which are laid down in this Agreement;.",
+    "bbox": [
+      179,
+      966,
+      537,
+      978
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties have agreed as follows:",
+    "bbox": [
+      113,
+      1000,
+      534,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: PARETEUM CORP, 8-K, 10/1/2008",
+    "bbox": [
+      133,
+      1000,
+      467,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CONFIDENTIAL TREATMENT REOUESTED",
+    "bbox": [
+      870,
+      81,
+      1000,
+      92
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WITH RESPECT TO CERTAIN PORTIONS HEREOF",
+    "bbox": [
+      811,
+      97,
+      1000,
+      107
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "DENOTED WITH \"***",
+    "bbox": [
+      1000,
+      111,
+      1000,
+      124
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Hosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008",
+    "bbox": [
+      422,
+      147,
+      910,
+      159
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "MOBILE VIRTUALNETWORK ENABLER HOSTING AGREEMENT",
+    "bbox": [
+      404,
+      199,
+      929,
+      209
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "by and between ELEPHANT TALK and T-Mobile",
+    "bbox": [
+      485,
+      214,
+      849,
+      227
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "(T-Mobile hosting ELEPHANT TALK)",
+    "bbox": [
+      524,
+      251,
+      808,
+      262
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "This Agreement is made between",
+    "bbox": [
+      112,
+      306,
+      361,
+      318
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "\"Elephant Talk Communication Holding AG', a company incorporated under the laws of Switzerland, having its registered office at Baarerstrasse",
+    "bbox": [
+      112,
+      322,
+      1000,
+      335
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "135, CH-6301 Zug, Switzerland, legally and duly represented by its Chief Executive Officer Steven van der Velden and its Chief Operations Officer",
+    "bbox": [
+      114,
+      339,
+      1000,
+      351
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and Chief Technology Officer Martin Zuurbier, hereinafter referred to as: \"ELEPHANT TALK\"",
+    "bbox": [
+      111,
+      354,
+      816,
+      367
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "and",
+    "bbox": [
+      109,
+      390,
+      143,
+      403
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "T-Mobile Netherlands B.V., a company incorporated under the laws of the Netherlands, having its registered office at the Waldorpstraat 60, 2521",
+    "bbox": [
+      112,
+      426,
+      1000,
+      439
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "CC Den Haag, the Netherlands, legally and duly represented by its Managing Director Niek Jan van Damme and its Marketing Director, Bart",
+    "bbox": [
+      111,
+      442,
+      1000,
+      455
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "each individually referred to as \"Party\" and together as \"Parties\".",
+    "bbox": [
+      113,
+      495,
+      602,
+      507
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      531,
+      204,
+      542
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      565,
+      126,
+      579
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ELEPHANT TALK wishes to become a full Mobile Virtual Network Enabler (hereinafter: \"MVNE) providing mobile telecommunications",
+    "bbox": [
+      179,
+      566,
+      1000,
+      577
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services to legal entities partnering with ELEPHANT TALK to offer mobile services in an (Enhanced) Service Provider model using the T-",
+    "bbox": [
+      179,
+      582,
+      1000,
+      595
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Mobile network and the by T-Mobile provided wholesale mobile network services;",
+    "bbox": [
+      179,
+      601,
+      799,
+      613
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      109,
+      637,
+      125,
+      650
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "T-Mobile is a licensed Dutch mobile telecommunications and services provider operating inter alia its own GSM and UMTS/HSDPA",
+    "bbox": [
+      179,
+      637,
+      1000,
+      650
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "mobile network in The Netherlands with related basic services and offering wholesale and retail mobile network services and associated",
+    "bbox": [
+      179,
+      655,
+      1000,
+      667
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "services on the Dutch market:",
+    "bbox": [
+      180,
+      671,
+      404,
+      682
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "3.",
+    "bbox": [
+      109,
+      706,
+      125,
+      718
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "*** and ELEPHANT TALK have conducted preliminary discussions and negotiations leading to an initial understanding on the basic",
+    "bbox": [
+      177,
+      706,
+      1000,
+      724
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "business principles of an envisaged co-operation between *** and ELEPHANT TALK, which has been laid down in Heads of Agreement",
+    "bbox": [
+      179,
+      725,
+      1000,
+      740
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "between *** and ELEPHANT TALK ***:",
+    "bbox": [
+      179,
+      740,
+      495,
+      753
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "4.",
+    "bbox": [
+      110,
+      777,
+      125,
+      791
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "***",
+    "bbox": [
+      180,
+      781,
+      212,
+      788
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "5.",
+    "bbox": [
+      109,
+      817,
+      125,
+      831
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "In answer to the proposal of *** and the additions to this proposal by T-Mobile, ELEPHANT TALK has confirmed by letter dated",
+    "bbox": [
+      178,
+      817,
+      1000,
+      831
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "6.",
+    "bbox": [
+      110,
+      874,
+      125,
+      886
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "ELEPHANT TALK therefore wishes to obtain from T-Mobile wholesale mobile network services and associated services and T-Mobile is",
+    "bbox": [
+      181,
+      876,
+      1000,
+      884
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "willing to offer ELEPHANT TALK such services;",
+    "bbox": [
+      179,
+      893,
+      547,
+      906
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "7.",
+    "bbox": [
+      109,
+      929,
+      126,
+      942
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Following the signing of the aforementioned Heads of Agreement between *** and ELEPHANT TALK, Parties have continued their",
+    "bbox": [
+      179,
+      929,
+      1000,
+      943
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "discussions and negotiations with regard to their envisaged co-operation and have reached agreement on the terms and conditions in that",
+    "bbox": [
+      179,
+      946,
+      1000,
+      959
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "respect, which are laid down in this Agreement;.",
+    "bbox": [
+      179,
+      966,
+      537,
+      978
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "NOW, THEREFORE, the Parties have agreed as follows:",
+    "bbox": [
+      113,
+      1000,
+      534,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: PARETEUM CORP, 8-K, 10/1/2008",
+    "bbox": [
+      133,
+      1000,
+      467,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  }
+]

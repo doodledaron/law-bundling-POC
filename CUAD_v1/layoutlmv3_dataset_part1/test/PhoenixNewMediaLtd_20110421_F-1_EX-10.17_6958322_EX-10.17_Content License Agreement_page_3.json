@@ -1,0 +1,530 @@
+[
+  {
+    "text": "(vii)\"Program Content Collection' shall mean the collection of Program Content from Phoenix Satellite TV's Chinese Channel, other",
+    "bbox": [
+      183,
+      107,
+      1000,
+      119
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "professional news media, or other information sources.",
+    "bbox": [
+      232,
+      122,
+      645,
+      134
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(viii)\"PRC Law\" shall mean all laws, ordinances, rules, orders, notices, regulations and other regulatory documents having legal binding",
+    "bbox": [
+      182,
+      151,
+      1000,
+      165
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "force, as promulgated from time to time prior to and after the date on which this Agreement becomes effective..",
+    "bbox": [
+      233,
+      167,
+      1000,
+      179
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(iv)\"Taxes\" shall mean taxes and fees of all kinds, including all taxes collected in China (including by the central PRC government and.",
+    "bbox": [
+      195,
+      197,
+      1000,
+      209
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "various local governments) and in any other jurisdiction, including but not limited to all kinds of ownership tax, interest tax, value.",
+    "bbox": [
+      233,
+      212,
+      1000,
+      224
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "added tax, stamp tax, and land and property use tax collected or levied on capital, profit, revenue, sales, or any other taxable item;",
+    "bbox": [
+      233,
+      227,
+      1000,
+      239
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "all duties, fees, deductions, withholding tax, withholding income tax, or penalties or other payment in connection with taxes; and",
+    "bbox": [
+      233,
+      241,
+      1000,
+      254
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "the term \"Taxes\" shall be interpreted accordingly.",
+    "bbox": [
+      232,
+      256,
+      604,
+      269
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(v)\"Third Party\", with respect to this Agreement, shall mean any company, enterprise, other economic organization or individual, other.",
+    "bbox": [
+      189,
+      287,
+      1000,
+      300
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "than the Parties hereto.",
+    "bbox": [
+      233,
+      303,
+      406,
+      313
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "ARTICLE TWO BASIC PRINCIPLES OF THE LICENSE",
+    "bbox": [
+      459,
+      332,
+      873,
+      342
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2.1 Party B may use the Program Content licensed by Party A only in Party B Business. Without Party A's consent in writing, Party B may not in",
+    "bbox": [
+      115,
+      362,
+      1000,
+      374
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "any way use the Program Content provided by Party A for any purposes other than in connection with Party B Business, nor may Party",
+    "bbox": [
+      192,
+      377,
+      1000,
+      390
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "B permit any third party to use in any way the Program Content licensed by Party A to Party B prior to the publishing of the Program.",
+    "bbox": [
+      194,
+      392,
+      1000,
+      404
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Content on the Phoenix Satellite TV Websites or Other Websites..",
+    "bbox": [
+      192,
+      406,
+      684,
+      419
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2.2 The Parties shall provide the services hereunder fairly and reasonably as if they were unaffiliated entities in an arm's-length transaction.",
+    "bbox": [
+      114,
+      436,
+      1000,
+      449
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2.3 Without Party A's consent, Party B may not enter into with any third party any agreement or cooperation which is identical with or similar to.",
+    "bbox": [
+      114,
+      467,
+      1000,
+      479
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      192,
+      481,
+      314,
+      495
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "2.4If other services are required by Party B in Party B Business, Party B shall first provide Party A with the content and requirements of such.",
+    "bbox": [
+      114,
+      511,
+      1000,
+      524
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "services in writing. If Party A indicates expressly in writing that it refuses or is unable to provide such services, Party B may turn to third.",
+    "bbox": [
+      192,
+      526,
+      1000,
+      539
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "parties for such other services; if, however, Party A agrees to provide such services, then the Parties shall.",
+    "bbox": [
+      193,
+      541,
+      990,
+      554
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      662,
+      572,
+      671,
+      581
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "Source: PHOENIX NEW MEDIA LTD, F-1, 4/21/2011",
+    "bbox": [
+      134,
+      1000,
+      541,
+      1000
+    ],
+    "label": 16,
+    "category": "Rofr/Rofo/Rofn"
+  },
+  {
+    "text": "(vii)\"Program Content Collection' shall mean the collection of Program Content from Phoenix Satellite TV's Chinese Channel, other",
+    "bbox": [
+      183,
+      107,
+      1000,
+      119
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "professional news media, or other information sources.",
+    "bbox": [
+      232,
+      122,
+      645,
+      134
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(viii)\"PRC Law\" shall mean all laws, ordinances, rules, orders, notices, regulations and other regulatory documents having legal binding",
+    "bbox": [
+      182,
+      151,
+      1000,
+      165
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "force, as promulgated from time to time prior to and after the date on which this Agreement becomes effective..",
+    "bbox": [
+      233,
+      167,
+      1000,
+      179
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(iv)\"Taxes\" shall mean taxes and fees of all kinds, including all taxes collected in China (including by the central PRC government and.",
+    "bbox": [
+      195,
+      197,
+      1000,
+      209
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "various local governments) and in any other jurisdiction, including but not limited to all kinds of ownership tax, interest tax, value.",
+    "bbox": [
+      233,
+      212,
+      1000,
+      224
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "added tax, stamp tax, and land and property use tax collected or levied on capital, profit, revenue, sales, or any other taxable item;",
+    "bbox": [
+      233,
+      227,
+      1000,
+      239
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "all duties, fees, deductions, withholding tax, withholding income tax, or penalties or other payment in connection with taxes; and",
+    "bbox": [
+      233,
+      241,
+      1000,
+      254
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "the term \"Taxes\" shall be interpreted accordingly.",
+    "bbox": [
+      232,
+      256,
+      604,
+      269
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(v)\"Third Party\", with respect to this Agreement, shall mean any company, enterprise, other economic organization or individual, other.",
+    "bbox": [
+      189,
+      287,
+      1000,
+      300
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "than the Parties hereto.",
+    "bbox": [
+      233,
+      303,
+      406,
+      313
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "ARTICLE TWO BASIC PRINCIPLES OF THE LICENSE",
+    "bbox": [
+      459,
+      332,
+      873,
+      342
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "2.1 Party B may use the Program Content licensed by Party A only in Party B Business. Without Party A's consent in writing, Party B may not in",
+    "bbox": [
+      115,
+      362,
+      1000,
+      374
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "any way use the Program Content provided by Party A for any purposes other than in connection with Party B Business, nor may Party",
+    "bbox": [
+      192,
+      377,
+      1000,
+      390
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "B permit any third party to use in any way the Program Content licensed by Party A to Party B prior to the publishing of the Program.",
+    "bbox": [
+      194,
+      392,
+      1000,
+      404
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Content on the Phoenix Satellite TV Websites or Other Websites..",
+    "bbox": [
+      192,
+      406,
+      684,
+      419
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "2.2 The Parties shall provide the services hereunder fairly and reasonably as if they were unaffiliated entities in an arm's-length transaction.",
+    "bbox": [
+      114,
+      436,
+      1000,
+      449
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "2.3 Without Party A's consent, Party B may not enter into with any third party any agreement or cooperation which is identical with or similar to.",
+    "bbox": [
+      114,
+      467,
+      1000,
+      479
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "this Agreement.",
+    "bbox": [
+      192,
+      481,
+      314,
+      495
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "2.4If other services are required by Party B in Party B Business, Party B shall first provide Party A with the content and requirements of such.",
+    "bbox": [
+      114,
+      511,
+      1000,
+      524
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "services in writing. If Party A indicates expressly in writing that it refuses or is unable to provide such services, Party B may turn to third.",
+    "bbox": [
+      192,
+      526,
+      1000,
+      539
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "parties for such other services; if, however, Party A agrees to provide such services, then the Parties shall.",
+    "bbox": [
+      193,
+      541,
+      990,
+      554
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      662,
+      572,
+      671,
+      581
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: PHOENIX NEW MEDIA LTD, F-1, 4/21/2011",
+    "bbox": [
+      134,
+      1000,
+      541,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  }
+]

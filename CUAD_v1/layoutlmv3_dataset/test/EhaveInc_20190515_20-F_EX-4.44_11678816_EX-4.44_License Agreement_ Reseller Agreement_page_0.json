@@ -1,0 +1,2004 @@
+[
+  {
+    "text": "\"Agreement\" means this license and reseller agreement and all Schedules, Appendixes and Exhibits attached hereto.",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "EHAVE, INC., a company incorporated under the laws of the Province of Ontario, Canada",
+    "bbox": [
+      519,
+      129,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "COMPANION HEALTHCARE TECHNOLOGIES CORP, a company incorporated under the",
+    "bbox": [
+      518,
+      176,
+      1000,
+      188
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "EHAVE, INC., a company incorporated under the laws of the Province of Ontario, Canada",
+    "bbox": [
+      519,
+      129,
+      1000,
+      141
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "laws of the Province of Ontario (\"CHT\")",
+    "bbox": [
+      518,
+      193,
+      820,
+      205
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIISLICENSE AND RESELLER AGREEMIENT dated as of the October 30. 2018 is made",
+    "bbox": [
+      114,
+      98,
+      782,
+      107
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "THIISLICENSE AND RESELLER AGREEMIENT dated as of the October 30. 2018 is made",
+    "bbox": [
+      114,
+      98,
+      782,
+      107
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "Exhibit 4.44",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "THIISLICENSE AND RESELLER AGREEMIENT dated as of the October 30. 2018 is made",
+    "bbox": [
+      114,
+      98,
+      782,
+      107
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      112,
+      202,
+      124
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "EHAVE, INC., a company incorporated under the laws of the Province of Ontario, Canada",
+    "bbox": [
+      519,
+      129,
+      1000,
+      141
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(\"Ehave\");",
+    "bbox": [
+      517,
+      143,
+      598,
+      159
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "- and -",
+    "bbox": [
+      518,
+      161,
+      568,
+      172
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "COMPANION HEALTHCARE TECHNOLOGIES CORP, a company incorporated under the",
+    "bbox": [
+      518,
+      176,
+      1000,
+      188
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "laws of the Province of Ontario (\"CHT\")",
+    "bbox": [
+      518,
+      193,
+      820,
+      205
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      111,
+      209,
+      203,
+      219
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      111,
+      224,
+      129,
+      236
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Ehave has developed a software platform that provides an end-to-end patient management solution to healthcare professionals and",
+    "bbox": [
+      179,
+      224,
+      1000,
+      237
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "provides that platform to users as a service..",
+    "bbox": [
+      179,
+      240,
+      508,
+      254
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      109,
+      255,
+      131,
+      269
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "CHT has developed a business model to bring a similar service that Ehave provides using the Ehave Platform for the domain of the animal",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "market including companion animals (i.e. pets)..",
+    "bbox": [
+      179,
+      273,
+      529,
+      284
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      109,
+      288,
+      131,
+      300
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "The Parties desire to enter into this Agreement to enable CHT to pursue its business model whereby CHT will license and provide services",
+    "bbox": [
+      178,
+      288,
+      1000,
+      301
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "in relation to companion and other animals using the Ehave Companion Solution under the terms and conditions contained herein.",
+    "bbox": [
+      178,
+      304,
+      1000,
+      317
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual agreements hereinafter set out herein and of other consideration (the receipt",
+    "bbox": [
+      110,
+      320,
+      1000,
+      333
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "and sufficiency of which are acknowledged by each Party), the Parties covenant and agree as follows:",
+    "bbox": [
+      112,
+      337,
+      876,
+      349
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      352,
+      128,
+      365
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "INTERPRETATION",
+    "bbox": [
+      180,
+      353,
+      331,
+      363
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      368,
+      200,
+      382
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      246,
+      368,
+      331,
+      380
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "In this Agreement and the schedules annexed hereto, the following terms shall have the respective meanings indicated below:",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Acceptance Criteria\" has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      178,
+      400,
+      697,
+      412
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Acceptance Period' has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      179,
+      417,
+      683,
+      429
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Acceptance Procedures\" has the meaning ascribed to it in Section 3(d)",
+    "bbox": [
+      179,
+      433,
+      721,
+      445
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Agreement\" means this license and reseller agreement and all Schedules, Appendixes and Exhibits attached hereto.",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "\"Applicable Laws\" means any and all (i) laws, statutes, rules, regulations, by laws, codes, treaties, constitutions and ordinances, including",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Privacy Legislation (Laws'), (ii) order, directive, judgment, decree, award or writ of any court (including a court of equity), arbitrator or",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "arbitration panel, or any Governmental Authority or other body exercising adjudicative, regulatory, judicial or quasi-judicial powers,",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "including any stock exchange (\"Orders'), and (iii) policies, guidelines, standards, requirements, notices and protocols of any",
+    "bbox": [
+      179,
+      512,
+      1000,
+      526
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Governmental Authority (\"Policies'); which are applicable to or govern CHT, Ehave or the transactions contemplated by this Agreement",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Exhibit 4.44",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "THIISLICENSE AND RESELLER AGREEMIENT dated as of the October 30. 2018 is made",
+    "bbox": [
+      114,
+      98,
+      782,
+      107
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      112,
+      202,
+      124
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "EHAVE, INC., a company incorporated under the laws of the Province of Ontario, Canada",
+    "bbox": [
+      519,
+      129,
+      1000,
+      141
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(\"Ehave\");",
+    "bbox": [
+      517,
+      143,
+      598,
+      159
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "- and -",
+    "bbox": [
+      518,
+      161,
+      568,
+      172
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "COMPANION HEALTHCARE TECHNOLOGIES CORP, a company incorporated under the",
+    "bbox": [
+      518,
+      176,
+      1000,
+      188
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "laws of the Province of Ontario (\"CHT\")",
+    "bbox": [
+      518,
+      193,
+      820,
+      205
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      111,
+      209,
+      203,
+      219
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      111,
+      224,
+      129,
+      236
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Ehave has developed a software platform that provides an end-to-end patient management solution to healthcare professionals and",
+    "bbox": [
+      179,
+      224,
+      1000,
+      237
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "provides that platform to users as a service..",
+    "bbox": [
+      179,
+      240,
+      508,
+      254
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      109,
+      255,
+      131,
+      269
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "CHT has developed a business model to bring a similar service that Ehave provides using the Ehave Platform for the domain of the animal",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "market including companion animals (i.e. pets)..",
+    "bbox": [
+      179,
+      273,
+      529,
+      284
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      109,
+      288,
+      131,
+      300
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "The Parties desire to enter into this Agreement to enable CHT to pursue its business model whereby CHT will license and provide services",
+    "bbox": [
+      178,
+      288,
+      1000,
+      301
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "in relation to companion and other animals using the Ehave Companion Solution under the terms and conditions contained herein.",
+    "bbox": [
+      178,
+      304,
+      1000,
+      317
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual agreements hereinafter set out herein and of other consideration (the receipt",
+    "bbox": [
+      110,
+      320,
+      1000,
+      333
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and sufficiency of which are acknowledged by each Party), the Parties covenant and agree as follows:",
+    "bbox": [
+      112,
+      337,
+      876,
+      349
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      352,
+      128,
+      365
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "INTERPRETATION",
+    "bbox": [
+      180,
+      353,
+      331,
+      363
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      368,
+      200,
+      382
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      246,
+      368,
+      331,
+      380
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "In this Agreement and the schedules annexed hereto, the following terms shall have the respective meanings indicated below:",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Acceptance Criteria\" has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      178,
+      400,
+      697,
+      412
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Acceptance Period' has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      179,
+      417,
+      683,
+      429
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Acceptance Procedures\" has the meaning ascribed to it in Section 3(d)",
+    "bbox": [
+      179,
+      433,
+      721,
+      445
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Agreement\" means this license and reseller agreement and all Schedules, Appendixes and Exhibits attached hereto.",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "\"Applicable Laws\" means any and all (i) laws, statutes, rules, regulations, by laws, codes, treaties, constitutions and ordinances, including",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Privacy Legislation (Laws'), (ii) order, directive, judgment, decree, award or writ of any court (including a court of equity), arbitrator or",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "arbitration panel, or any Governmental Authority or other body exercising adjudicative, regulatory, judicial or quasi-judicial powers,",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "including any stock exchange (\"Orders'), and (iii) policies, guidelines, standards, requirements, notices and protocols of any",
+    "bbox": [
+      179,
+      512,
+      1000,
+      526
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Governmental Authority (\"Policies'); which are applicable to or govern CHT, Ehave or the transactions contemplated by this Agreement",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Exhibit 4.44",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIISLICENSE AND RESELLER AGREEMIENT dated as of the October 30. 2018 is made",
+    "bbox": [
+      114,
+      98,
+      782,
+      107
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      112,
+      202,
+      124
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "EHAVE, INC., a company incorporated under the laws of the Province of Ontario, Canada",
+    "bbox": [
+      519,
+      129,
+      1000,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"Ehave\");",
+    "bbox": [
+      517,
+      143,
+      598,
+      159
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "- and -",
+    "bbox": [
+      518,
+      161,
+      568,
+      172
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "COMPANION HEALTHCARE TECHNOLOGIES CORP, a company incorporated under the",
+    "bbox": [
+      518,
+      176,
+      1000,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "laws of the Province of Ontario (\"CHT\")",
+    "bbox": [
+      518,
+      193,
+      820,
+      205
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      111,
+      209,
+      203,
+      219
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      111,
+      224,
+      129,
+      236
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave has developed a software platform that provides an end-to-end patient management solution to healthcare professionals and",
+    "bbox": [
+      179,
+      224,
+      1000,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "provides that platform to users as a service..",
+    "bbox": [
+      179,
+      240,
+      508,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      109,
+      255,
+      131,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CHT has developed a business model to bring a similar service that Ehave provides using the Ehave Platform for the domain of the animal",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "market including companion animals (i.e. pets)..",
+    "bbox": [
+      179,
+      273,
+      529,
+      284
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      109,
+      288,
+      131,
+      300
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The Parties desire to enter into this Agreement to enable CHT to pursue its business model whereby CHT will license and provide services",
+    "bbox": [
+      178,
+      288,
+      1000,
+      301
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in relation to companion and other animals using the Ehave Companion Solution under the terms and conditions contained herein.",
+    "bbox": [
+      178,
+      304,
+      1000,
+      317
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual agreements hereinafter set out herein and of other consideration (the receipt",
+    "bbox": [
+      110,
+      320,
+      1000,
+      333
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and sufficiency of which are acknowledged by each Party), the Parties covenant and agree as follows:",
+    "bbox": [
+      112,
+      337,
+      876,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      352,
+      128,
+      365
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "INTERPRETATION",
+    "bbox": [
+      180,
+      353,
+      331,
+      363
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      368,
+      200,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      246,
+      368,
+      331,
+      380
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "In this Agreement and the schedules annexed hereto, the following terms shall have the respective meanings indicated below:",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Acceptance Criteria\" has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      178,
+      400,
+      697,
+      412
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Acceptance Period' has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      179,
+      417,
+      683,
+      429
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Acceptance Procedures\" has the meaning ascribed to it in Section 3(d)",
+    "bbox": [
+      179,
+      433,
+      721,
+      445
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Agreement\" means this license and reseller agreement and all Schedules, Appendixes and Exhibits attached hereto.",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Applicable Laws\" means any and all (i) laws, statutes, rules, regulations, by laws, codes, treaties, constitutions and ordinances, including",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Privacy Legislation (Laws'), (ii) order, directive, judgment, decree, award or writ of any court (including a court of equity), arbitrator or",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "arbitration panel, or any Governmental Authority or other body exercising adjudicative, regulatory, judicial or quasi-judicial powers,",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "including any stock exchange (\"Orders'), and (iii) policies, guidelines, standards, requirements, notices and protocols of any",
+    "bbox": [
+      179,
+      512,
+      1000,
+      526
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Governmental Authority (\"Policies'); which are applicable to or govern CHT, Ehave or the transactions contemplated by this Agreement",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Exhibit 4.44",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIISLICENSE AND RESELLER AGREEMIENT dated as of the October 30. 2018 is made",
+    "bbox": [
+      114,
+      98,
+      782,
+      107
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      112,
+      202,
+      124
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "EHAVE, INC., a company incorporated under the laws of the Province of Ontario, Canada",
+    "bbox": [
+      519,
+      129,
+      1000,
+      141
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(\"Ehave\");",
+    "bbox": [
+      517,
+      143,
+      598,
+      159
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "- and -",
+    "bbox": [
+      518,
+      161,
+      568,
+      172
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "COMPANION HEALTHCARE TECHNOLOGIES CORP, a company incorporated under the",
+    "bbox": [
+      518,
+      176,
+      1000,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "laws of the Province of Ontario (\"CHT\")",
+    "bbox": [
+      518,
+      193,
+      820,
+      205
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      111,
+      209,
+      203,
+      219
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      111,
+      224,
+      129,
+      236
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Ehave has developed a software platform that provides an end-to-end patient management solution to healthcare professionals and",
+    "bbox": [
+      179,
+      224,
+      1000,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "provides that platform to users as a service..",
+    "bbox": [
+      179,
+      240,
+      508,
+      254
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      109,
+      255,
+      131,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CHT has developed a business model to bring a similar service that Ehave provides using the Ehave Platform for the domain of the animal",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "market including companion animals (i.e. pets)..",
+    "bbox": [
+      179,
+      273,
+      529,
+      284
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      109,
+      288,
+      131,
+      300
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "The Parties desire to enter into this Agreement to enable CHT to pursue its business model whereby CHT will license and provide services",
+    "bbox": [
+      178,
+      288,
+      1000,
+      301
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "in relation to companion and other animals using the Ehave Companion Solution under the terms and conditions contained herein.",
+    "bbox": [
+      178,
+      304,
+      1000,
+      317
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual agreements hereinafter set out herein and of other consideration (the receipt",
+    "bbox": [
+      110,
+      320,
+      1000,
+      333
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and sufficiency of which are acknowledged by each Party), the Parties covenant and agree as follows:",
+    "bbox": [
+      112,
+      337,
+      876,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      352,
+      128,
+      365
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "INTERPRETATION",
+    "bbox": [
+      180,
+      353,
+      331,
+      363
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      368,
+      200,
+      382
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      246,
+      368,
+      331,
+      380
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "In this Agreement and the schedules annexed hereto, the following terms shall have the respective meanings indicated below:",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Acceptance Criteria\" has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      178,
+      400,
+      697,
+      412
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Acceptance Period' has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      179,
+      417,
+      683,
+      429
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Acceptance Procedures\" has the meaning ascribed to it in Section 3(d)",
+    "bbox": [
+      179,
+      433,
+      721,
+      445
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Agreement\" means this license and reseller agreement and all Schedules, Appendixes and Exhibits attached hereto.",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Applicable Laws\" means any and all (i) laws, statutes, rules, regulations, by laws, codes, treaties, constitutions and ordinances, including",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Privacy Legislation (Laws'), (ii) order, directive, judgment, decree, award or writ of any court (including a court of equity), arbitrator or",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "arbitration panel, or any Governmental Authority or other body exercising adjudicative, regulatory, judicial or quasi-judicial powers,",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "including any stock exchange (\"Orders'), and (iii) policies, guidelines, standards, requirements, notices and protocols of any",
+    "bbox": [
+      179,
+      512,
+      1000,
+      526
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Governmental Authority (\"Policies'); which are applicable to or govern CHT, Ehave or the transactions contemplated by this Agreement",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Exhibit 4.44",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      92
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "THIISLICENSE AND RESELLER AGREEMIENT dated as of the October 30. 2018 is made",
+    "bbox": [
+      114,
+      98,
+      782,
+      107
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      111,
+      112,
+      202,
+      124
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "EHAVE, INC., a company incorporated under the laws of the Province of Ontario, Canada",
+    "bbox": [
+      519,
+      129,
+      1000,
+      141
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(\"Ehave\");",
+    "bbox": [
+      517,
+      143,
+      598,
+      159
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "- and -",
+    "bbox": [
+      518,
+      161,
+      568,
+      172
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "COMPANION HEALTHCARE TECHNOLOGIES CORP, a company incorporated under the",
+    "bbox": [
+      518,
+      176,
+      1000,
+      188
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "laws of the Province of Ontario (\"CHT\")",
+    "bbox": [
+      518,
+      193,
+      820,
+      205
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "RECITALS:",
+    "bbox": [
+      111,
+      209,
+      203,
+      219
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "A.",
+    "bbox": [
+      111,
+      224,
+      129,
+      236
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Ehave has developed a software platform that provides an end-to-end patient management solution to healthcare professionals and",
+    "bbox": [
+      179,
+      224,
+      1000,
+      237
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "provides that platform to users as a service..",
+    "bbox": [
+      179,
+      240,
+      508,
+      254
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "B.",
+    "bbox": [
+      109,
+      255,
+      131,
+      269
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "CHT has developed a business model to bring a similar service that Ehave provides using the Ehave Platform for the domain of the animal",
+    "bbox": [
+      179,
+      257,
+      1000,
+      269
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "market including companion animals (i.e. pets)..",
+    "bbox": [
+      179,
+      273,
+      529,
+      284
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "C.",
+    "bbox": [
+      109,
+      288,
+      131,
+      300
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "The Parties desire to enter into this Agreement to enable CHT to pursue its business model whereby CHT will license and provide services",
+    "bbox": [
+      178,
+      288,
+      1000,
+      301
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "in relation to companion and other animals using the Ehave Companion Solution under the terms and conditions contained herein.",
+    "bbox": [
+      178,
+      304,
+      1000,
+      317
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual agreements hereinafter set out herein and of other consideration (the receipt",
+    "bbox": [
+      110,
+      320,
+      1000,
+      333
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "and sufficiency of which are acknowledged by each Party), the Parties covenant and agree as follows:",
+    "bbox": [
+      112,
+      337,
+      876,
+      349
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      110,
+      352,
+      128,
+      365
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "INTERPRETATION",
+    "bbox": [
+      180,
+      353,
+      331,
+      363
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      178,
+      368,
+      200,
+      382
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Definitions",
+    "bbox": [
+      246,
+      368,
+      331,
+      380
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "In this Agreement and the schedules annexed hereto, the following terms shall have the respective meanings indicated below:",
+    "bbox": [
+      179,
+      385,
+      1000,
+      397
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "\"Acceptance Criteria\" has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      178,
+      400,
+      697,
+      412
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "\"Acceptance Period' has the meaning ascribed to it in Section 3(d).",
+    "bbox": [
+      179,
+      417,
+      683,
+      429
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "\"Acceptance Procedures\" has the meaning ascribed to it in Section 3(d)",
+    "bbox": [
+      179,
+      433,
+      721,
+      445
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "\"Agreement\" means this license and reseller agreement and all Schedules, Appendixes and Exhibits attached hereto.",
+    "bbox": [
+      179,
+      449,
+      1000,
+      461
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "\"Applicable Laws\" means any and all (i) laws, statutes, rules, regulations, by laws, codes, treaties, constitutions and ordinances, including",
+    "bbox": [
+      180,
+      465,
+      1000,
+      477
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Privacy Legislation (Laws'), (ii) order, directive, judgment, decree, award or writ of any court (including a court of equity), arbitrator or",
+    "bbox": [
+      180,
+      482,
+      1000,
+      492
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "arbitration panel, or any Governmental Authority or other body exercising adjudicative, regulatory, judicial or quasi-judicial powers,",
+    "bbox": [
+      179,
+      496,
+      1000,
+      509
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "including any stock exchange (\"Orders'), and (iii) policies, guidelines, standards, requirements, notices and protocols of any",
+    "bbox": [
+      179,
+      512,
+      1000,
+      526
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Governmental Authority (\"Policies'); which are applicable to or govern CHT, Ehave or the transactions contemplated by this Agreement",
+    "bbox": [
+      179,
+      528,
+      1000,
+      541
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  },
+  {
+    "text": "Source: EHAVE, INC., 20-F, 5/15/2019",
+    "bbox": [
+      133,
+      1000,
+      437,
+      1000
+    ],
+    "label": 40,
+    "category": "Third Party Beneficiary"
+  }
+]

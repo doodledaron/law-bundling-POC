@@ -1,0 +1,519 @@
+[
+  {
+    "text": "Confidential",
+    "bbox": [
+      1000,
+      81,
+      1000,
+      93
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Execution Version",
+    "bbox": [
+      1000,
+      98,
+      1000,
+      109
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.5",
+    "bbox": [
+      193,
+      114,
+      226,
+      129
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Biologics License Application or BLA means a request for permission to introduce, or deliver for introduction,",
+    "bbox": [
+      293,
+      116,
+      1000,
+      129
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "a biologic product into interstate commerce (21 CFR 601.2) to the FDA, including any supplements, addendums, or amendments",
+    "bbox": [
+      113,
+      134,
+      1000,
+      147
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "thereto. For the avoidance of doubt, the term Biologics License Application or BLA shall include any Abbreviated Biologics License",
+    "bbox": [
+      113,
+      152,
+      1000,
+      165
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Application.",
+    "bbox": [
+      112,
+      170,
+      211,
+      184
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.6",
+    "bbox": [
+      193,
+      202,
+      226,
+      217
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Biologics License Application Approval means issuance of a Department of Health and Human Services",
+    "bbox": [
+      291,
+      203,
+      1000,
+      217
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "U.S. License under 351(k) of the Public Health Services Act controlling the manufacture and sale of biologic products or any",
+    "bbox": [
+      111,
+      220,
+      1000,
+      236
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "successor statutory provisions thereof..",
+    "bbox": [
+      110,
+      239,
+      429,
+      253
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.7",
+    "bbox": [
+      193,
+      273,
+      226,
+      287
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "BPCIA means the Biologics Price Competition and Innovation Act of 2009, as amended..",
+    "bbox": [
+      291,
+      273,
+      1000,
+      287
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.8",
+    "bbox": [
+      192,
+      305,
+      226,
+      320
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "CMO means contract manufacturing organization.",
+    "bbox": [
+      291,
+      305,
+      705,
+      320
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.9",
+    "bbox": [
+      192,
+      339,
+      225,
+      354
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Commercially Reasonable Efforts means, with respect to the efforts to be used by a Party under this",
+    "bbox": [
+      292,
+      340,
+      1000,
+      353
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Agreement with respect to the Licensed Products, those efforts and resources normally used by a major pharmaceutical or a",
+    "bbox": [
+      114,
+      359,
+      1000,
+      372
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "sufficiently financed biotechnology company for a product owned by it, or to which it has rights, which is of similar market potential at",
+    "bbox": [
+      111,
+      376,
+      1000,
+      390
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "comparable stages of development, taking into account the competitiveness of the marketplace, the proprietary position of the product.",
+    "bbox": [
+      113,
+      395,
+      1000,
+      408
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "the performance of other products that are of similar market potential and the likely timing of other product's entry into the market,",
+    "bbox": [
+      113,
+      414,
+      1000,
+      426
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "the regulatory structure involved, the profitability of the applicable product, relevant Third Party intellectual property necessary to",
+    "bbox": [
+      113,
+      431,
+      1000,
+      444
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "manufacture or Commercialize the Licensed Product and other relevant factors commonly considered in similar circumstances,",
+    "bbox": [
+      110,
+      447,
+      1000,
+      463
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "including technical, legal, scientific or medical factors.",
+    "bbox": [
+      113,
+      467,
+      553,
+      480
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.10",
+    "bbox": [
+      193,
+      499,
+      237,
+      513
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Commercialization means the conduct of all activities undertaken before and after Regulatory Approval.",
+    "bbox": [
+      302,
+      499,
+      1000,
+      514
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "relating to the promotion, marketing, sale and distribution (including importing, exporting, transporting, customs clearance, warehousing,",
+    "bbox": [
+      110,
+      518,
+      1000,
+      533
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "invoicing, handling and delivering products to customers) of pharmaceutical products, including: (a) sales force efforts, detailing,",
+    "bbox": [
+      111,
+      536,
+      1000,
+      551
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "advertising, medical education, planning, marketing, sales force training and sales and distribution; and (b) scientific and medical",
+    "bbox": [
+      113,
+      555,
+      1000,
+      568
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "affairs. For clarity, Commercialization does not include any Development activities, whether conducted before or after Regulatory.",
+    "bbox": [
+      110,
+      571,
+      1000,
+      587
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Approval. \"Commercialize\"' and \"Commercializing\"' have correlative meanings..",
+    "bbox": [
+      112,
+      591,
+      788,
+      606
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.11",
+    "bbox": [
+      193,
+      623,
+      234,
+      637
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Competitive Product means (i) any product which contains Ranibizumab and is either a Reference Product or",
+    "bbox": [
+      303,
+      625,
+      1000,
+      637
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "a biosimilar to a Reference Product, but excluding in any case the Licensed Products, (ii) [***] (but for clarity [***]) or (iii) [***] (but",
+    "bbox": [
+      111,
+      642,
+      1000,
+      656
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "for clarity [***])",
+    "bbox": [
+      112,
+      660,
+      252,
+      674
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.12",
+    "bbox": [
+      192,
+      692,
+      236,
+      707
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Competitor means any person or entity (other than the Parties and their Affiliates) which has initiated and is",
+    "bbox": [
+      302,
+      694,
+      1000,
+      708
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "then-active in [***] the marketing, selling or distribution of a Competitive Product, [***] in the Territory, as well as any Affiliate of",
+    "bbox": [
+      112,
+      712,
+      1000,
+      726
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "any such person or entity..",
+    "bbox": [
+      114,
+      731,
+      321,
+      744
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "1.13",
+    "bbox": [
+      192,
+      762,
+      236,
+      777
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Competitor Change of Control means any of the following events after the Effective Date:.",
+    "bbox": [
+      303,
+      764,
+      1000,
+      778
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "(a)",
+    "bbox": [
+      193,
+      796,
+      220,
+      811
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "any Competitor (i) becomes the beneficial owner, directly or indirectly, of shares of capital stock or other.",
+    "bbox": [
+      350,
+      796,
+      1000,
+      809
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "interests (including partnership interests) of the Licensee then outstanding and normally entitled (without regard to the occurrence of",
+    "bbox": [
+      112,
+      814,
+      1000,
+      827
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "representing more than fifty percent (50%) of the total voting power of all outstanding classes of Voting Stock of the Licensee or (ii)",
+    "bbox": [
+      110,
+      851,
+      1000,
+      866
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "of the Licensee's board of directors, supervisory board or similar governing body (Board of Directors); or.",
+    "bbox": [
+      112,
+      888,
+      991,
+      901
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: COHERUS BIOSCIENCES, INC., 10-K, 2/27/2020",
+    "bbox": [
+      133,
+      1000,
+      579,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      591,
+      92,
+      740,
+      99
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      591,
+      92,
+      740,
+      99
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+    "bbox": [
+      535,
+      125,
+      796,
+      134
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "PreCheck Health Services, Inc. (herein referred to as \"Distributor\")",
+    "bbox": [
+      504,
+      147,
+      825,
+      154
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+    "bbox": [
+      535,
+      125,
+      796,
+      134
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Agreement made this 19th day of March, 2020",
+    "bbox": [
+      179,
+      103,
+      401,
+      114
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "EXHIBIT 99.2",
+    "bbox": [
+      1000,
+      71,
+      1000,
+      80
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 1 of 3",
+    "bbox": [
+      179,
+      82,
+      233,
+      91
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      591,
+      92,
+      740,
+      99
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Agreement made this 19th day of March, 2020",
+    "bbox": [
+      179,
+      103,
+      401,
+      114
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Between:",
+    "bbox": [
+      178,
+      115,
+      225,
+      124
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+    "bbox": [
+      535,
+      125,
+      796,
+      134
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "And",
+    "bbox": [
+      654,
+      137,
+      679,
+      144
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "PreCheck Health Services, Inc. (herein referred to as \"Distributor\")",
+    "bbox": [
+      504,
+      147,
+      825,
+      154
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "In consideration of the mutual terms, conditions and covenants hereinafter set forth, Principal and Distributor acknowledge and agree to the following descriptions and conditions:.",
+    "bbox": [
+      178,
+      156,
+      1000,
+      165
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DESCRIPTION OF PRINCIPAL",
+    "bbox": [
+      221,
+      167,
+      378,
+      174
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "sales and distributors.",
+    "bbox": [
+      220,
+      188,
+      327,
+      195
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "DESCRIPTION OF DISTRIBUTOR",
+    "bbox": [
+      220,
+      198,
+      395,
+      205
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The Distributor is a company operating or planning to operate in the United States of America, Latin America, Europe and Russia. The Distributor represents that the Distributor or a subsidiary",
+    "bbox": [
+      219,
+      207,
+      1000,
+      218
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "of the Distributor is or will be fully licensed and registered in the Territory and will provide professional distribution services for the products of the Principal.",
+    "bbox": [
+      219,
+      218,
+      979,
+      227
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CONDITIONS:",
+    "bbox": [
+      219,
+      227,
+      298,
+      237
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      178,
+      239,
+      190,
+      248
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx BoxTm instrument (the",
+    "bbox": [
+      219,
+      240,
+      1000,
+      247
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "\"Products'). The Products are described on Exhibit A to this Agreement.",
+    "bbox": [
+      218,
+      249,
+      570,
+      259
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      179,
+      262,
+      189,
+      271
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The Principal grants Distributor non- exclusive rights to sell these products within the countries of Romania (the \"Territory'), which may be amended by mutual written agreement..",
+    "bbox": [
+      218,
+      262,
+      1000,
+      272
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020",
+    "bbox": [
+      133,
+      1000,
+      616,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "EXHIBIT 99.2",
+    "bbox": [
+      1000,
+      71,
+      1000,
+      80
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Page 1 of 3",
+    "bbox": [
+      179,
+      82,
+      233,
+      91
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DISTRIBUTOR AGREEMENT",
+    "bbox": [
+      591,
+      92,
+      740,
+      99
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Agreement made this 19th day of March, 2020",
+    "bbox": [
+      179,
+      103,
+      401,
+      114
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Between:",
+    "bbox": [
+      178,
+      115,
+      225,
+      124
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Co-Diagnostics, Inc. (herein referred to as \"Principal')",
+    "bbox": [
+      535,
+      125,
+      796,
+      134
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "And",
+    "bbox": [
+      654,
+      137,
+      679,
+      144
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "PreCheck Health Services, Inc. (herein referred to as \"Distributor\")",
+    "bbox": [
+      504,
+      147,
+      825,
+      154
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "In consideration of the mutual terms, conditions and covenants hereinafter set forth, Principal and Distributor acknowledge and agree to the following descriptions and conditions:.",
+    "bbox": [
+      178,
+      156,
+      1000,
+      165
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DESCRIPTION OF PRINCIPAL",
+    "bbox": [
+      221,
+      167,
+      378,
+      174
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "sales and distributors.",
+    "bbox": [
+      220,
+      188,
+      327,
+      195
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "DESCRIPTION OF DISTRIBUTOR",
+    "bbox": [
+      220,
+      198,
+      395,
+      205
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "The Distributor is a company operating or planning to operate in the United States of America, Latin America, Europe and Russia. The Distributor represents that the Distributor or a subsidiary",
+    "bbox": [
+      219,
+      207,
+      1000,
+      218
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "of the Distributor is or will be fully licensed and registered in the Territory and will provide professional distribution services for the products of the Principal.",
+    "bbox": [
+      219,
+      218,
+      979,
+      227
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "CONDITIONS:",
+    "bbox": [
+      219,
+      227,
+      298,
+      237
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "1.",
+    "bbox": [
+      178,
+      239,
+      190,
+      248
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx BoxTm instrument (the",
+    "bbox": [
+      219,
+      240,
+      1000,
+      247
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "\"Products'). The Products are described on Exhibit A to this Agreement.",
+    "bbox": [
+      218,
+      249,
+      570,
+      259
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "2.",
+    "bbox": [
+      179,
+      262,
+      189,
+      271
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "The Principal grants Distributor non- exclusive rights to sell these products within the countries of Romania (the \"Territory'), which may be amended by mutual written agreement..",
+    "bbox": [
+      218,
+      262,
+      1000,
+      272
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  },
+  {
+    "text": "Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020",
+    "bbox": [
+      133,
+      1000,
+      616,
+      1000
+    ],
+    "label": 32,
+    "category": "Post-Termination Services"
+  }
+]

@@ -1,0 +1,1652 @@
+[
+  {
+    "text": "1.20 \"Claim\" has the meaning set forth in Section 13.1..",
+    "bbox": [
+      111,
+      83,
+      512,
+      94
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.21 \"Clinical Trial' means any human clinical study or trial of a Licensed Product in the Field in the Territory..",
+    "bbox": [
+      110,
+      113,
+      917,
+      127
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.22 \"Combination Product\"' means a product that is Commercialized by Vyera and/or its Affiliates under this Agreement and that comprises, consists of,",
+    "bbox": [
+      110,
+      145,
+      1000,
+      157
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "or incorporates two or more APIs (whether administered together or separately), which includes leronlimab as one of the APIs together with one or more",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "additional APIs that: (a) are not leronlimab; and (b) are not proprietary to CytoDyn, regardless of the formulation or mode of administration of such",
+    "bbox": [
+      111,
+      176,
+      1000,
+      188
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Combination Product. For the sake of clarity, a Combination Product is a Licensed Product.",
+    "bbox": [
+      112,
+      193,
+      770,
+      203
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.23 \"Commercial Failure' means that Vyera fails to achieve aggregate [***].",
+    "bbox": [
+      110,
+      221,
+      681,
+      236
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.24 \"Commercialization' means any and all pre-launch, launch and post-launch activities related to the marketing, promoting, distributing (to Third",
+    "bbox": [
+      112,
+      254,
+      1000,
+      266
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Parties), offering for sale and selling a Licensed Product in the Field in the Territory. For clarity, Commercialization does not include Development and/or",
+    "bbox": [
+      111,
+      270,
+      1000,
+      282
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Manufacturing of a Licensed Product. When used as a verb, \"Commercialize\" means to engage in Commercialization..",
+    "bbox": [
+      111,
+      285,
+      972,
+      297
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.25 \"Commercialization Plan\"' has the meaning set forth in Section 5.2.",
+    "bbox": [
+      111,
+      316,
+      638,
+      328
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.26 \"Commercially Reasonable Efforts\"' means: (a) with respect to the efforts to be expended, or considerations to be undertaken, by a Party or its",
+    "bbox": [
+      112,
+      348,
+      1000,
+      358
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Affiliate with respect to any objective, activity or decision to be undertaken hereunder, reasonable, good faith efforts to accomplish such objective,",
+    "bbox": [
+      112,
+      363,
+      1000,
+      375
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "activity or decision as such Party would normally use to accomplish a similar objective, activity or decision under similar circumstances; and (b) with",
+    "bbox": [
+      112,
+      379,
+      1000,
+      390
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "respect to Development and Commercialization of any Licensed Product for any indication by a Party, efforts and resources consistent with those efforts",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and resources commonly used by a similarly situated biotechnology company with respect to a product owned by it or to which it has similar rights,",
+    "bbox": [
+      111,
+      409,
+      1000,
+      421
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "which product is at a similar stage in its development or product life and is of similar market potential taking into account (i) the patent and other",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "proprietary position of the Licensed Product and (ii) the anticipated profitability of the Licensed Product..",
+    "bbox": [
+      111,
+      440,
+      875,
+      453
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.27 \"Competitive Product' means any product for the treatment or prevention of [***], leronlimab that is not a Licensed Product..",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.28 \"Confidential Information\"' means, subject to Article 10, all non-public or proprietary information not otherwise included in Know-How disclosed by.",
+    "bbox": [
+      111,
+      502,
+      1000,
+      514
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "either Party to the other Party in connection with the activities contemplated by this Agreement, which may include ideas, inventions, discoveries,",
+    "bbox": [
+      111,
+      518,
+      1000,
+      530
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "concepts, compounds, compositions, formulations, formulas, practices, procedures, processes, methods, knowledge, know-how, trade secrets,.",
+    "bbox": [
+      111,
+      534,
+      1000,
+      545
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "technology, inventories, machines, techniques, development, designs, drawings, computer programs, knowledge, skill, experience, documents, apparatus,",
+    "bbox": [
+      110,
+      548,
+      1000,
+      562
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "results, clinical and regulatory strategies, Regulatory Documentation, and submissions pertaining to, or made in association with, filings with any",
+    "bbox": [
+      110,
+      564,
+      1000,
+      577
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Governmental Authority, data, including pharmacological, toxicological and clinical data, analytical and quality control data, manufacturing data and",
+    "bbox": [
+      112,
+      581,
+      1000,
+      591
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "descriptions, patent and legal data, market data, financial data or descriptions, devices, assays, chemical formulations, specifications, material, product",
+    "bbox": [
+      112,
+      597,
+      1000,
+      607
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "samples and other samples, physical, chemical and biological materials and compounds and information related to such materials and compounds, and",
+    "bbox": [
+      111,
+      611,
+      1000,
+      623
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "any modifications, improvements, designs, and recipes without regard as to whether any of the foregoing is marked \"confidential' or \"proprietary,\" or",
+    "bbox": [
+      111,
+      627,
+      1000,
+      640
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "disclosed in oral, written, graphic, or electronic form. Confidential Information shall include the terms and conditions of this Agreement..",
+    "bbox": [
+      110,
+      642,
+      1000,
+      655
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.20 \"Claim\" has the meaning set forth in Section 13.1..",
+    "bbox": [
+      111,
+      83,
+      512,
+      94
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.21 \"Clinical Trial' means any human clinical study or trial of a Licensed Product in the Field in the Territory..",
+    "bbox": [
+      110,
+      113,
+      917,
+      127
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.22 \"Combination Product\"' means a product that is Commercialized by Vyera and/or its Affiliates under this Agreement and that comprises, consists of,",
+    "bbox": [
+      110,
+      145,
+      1000,
+      157
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "or incorporates two or more APIs (whether administered together or separately), which includes leronlimab as one of the APIs together with one or more",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "additional APIs that: (a) are not leronlimab; and (b) are not proprietary to CytoDyn, regardless of the formulation or mode of administration of such",
+    "bbox": [
+      111,
+      176,
+      1000,
+      188
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Combination Product. For the sake of clarity, a Combination Product is a Licensed Product.",
+    "bbox": [
+      112,
+      193,
+      770,
+      203
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.23 \"Commercial Failure' means that Vyera fails to achieve aggregate [***].",
+    "bbox": [
+      110,
+      221,
+      681,
+      236
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.24 \"Commercialization' means any and all pre-launch, launch and post-launch activities related to the marketing, promoting, distributing (to Third",
+    "bbox": [
+      112,
+      254,
+      1000,
+      266
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Parties), offering for sale and selling a Licensed Product in the Field in the Territory. For clarity, Commercialization does not include Development and/or",
+    "bbox": [
+      111,
+      270,
+      1000,
+      282
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Manufacturing of a Licensed Product. When used as a verb, \"Commercialize\" means to engage in Commercialization..",
+    "bbox": [
+      111,
+      285,
+      972,
+      297
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.25 \"Commercialization Plan\"' has the meaning set forth in Section 5.2.",
+    "bbox": [
+      111,
+      316,
+      638,
+      328
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.26 \"Commercially Reasonable Efforts\"' means: (a) with respect to the efforts to be expended, or considerations to be undertaken, by a Party or its",
+    "bbox": [
+      112,
+      348,
+      1000,
+      358
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Affiliate with respect to any objective, activity or decision to be undertaken hereunder, reasonable, good faith efforts to accomplish such objective,",
+    "bbox": [
+      112,
+      363,
+      1000,
+      375
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "activity or decision as such Party would normally use to accomplish a similar objective, activity or decision under similar circumstances; and (b) with",
+    "bbox": [
+      112,
+      379,
+      1000,
+      390
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "respect to Development and Commercialization of any Licensed Product for any indication by a Party, efforts and resources consistent with those efforts",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "and resources commonly used by a similarly situated biotechnology company with respect to a product owned by it or to which it has similar rights,",
+    "bbox": [
+      111,
+      409,
+      1000,
+      421
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "which product is at a similar stage in its development or product life and is of similar market potential taking into account (i) the patent and other",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "proprietary position of the Licensed Product and (ii) the anticipated profitability of the Licensed Product..",
+    "bbox": [
+      111,
+      440,
+      875,
+      453
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.27 \"Competitive Product' means any product for the treatment or prevention of [***], leronlimab that is not a Licensed Product..",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.28 \"Confidential Information\"' means, subject to Article 10, all non-public or proprietary information not otherwise included in Know-How disclosed by.",
+    "bbox": [
+      111,
+      502,
+      1000,
+      514
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "either Party to the other Party in connection with the activities contemplated by this Agreement, which may include ideas, inventions, discoveries,",
+    "bbox": [
+      111,
+      518,
+      1000,
+      530
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "concepts, compounds, compositions, formulations, formulas, practices, procedures, processes, methods, knowledge, know-how, trade secrets,.",
+    "bbox": [
+      111,
+      534,
+      1000,
+      545
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "technology, inventories, machines, techniques, development, designs, drawings, computer programs, knowledge, skill, experience, documents, apparatus,",
+    "bbox": [
+      110,
+      548,
+      1000,
+      562
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "results, clinical and regulatory strategies, Regulatory Documentation, and submissions pertaining to, or made in association with, filings with any",
+    "bbox": [
+      110,
+      564,
+      1000,
+      577
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Governmental Authority, data, including pharmacological, toxicological and clinical data, analytical and quality control data, manufacturing data and",
+    "bbox": [
+      112,
+      581,
+      1000,
+      591
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "descriptions, patent and legal data, market data, financial data or descriptions, devices, assays, chemical formulations, specifications, material, product",
+    "bbox": [
+      112,
+      597,
+      1000,
+      607
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "samples and other samples, physical, chemical and biological materials and compounds and information related to such materials and compounds, and",
+    "bbox": [
+      111,
+      611,
+      1000,
+      623
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "any modifications, improvements, designs, and recipes without regard as to whether any of the foregoing is marked \"confidential' or \"proprietary,\" or",
+    "bbox": [
+      111,
+      627,
+      1000,
+      640
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "disclosed in oral, written, graphic, or electronic form. Confidential Information shall include the terms and conditions of this Agreement..",
+    "bbox": [
+      110,
+      642,
+      1000,
+      655
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1.20 \"Claim\" has the meaning set forth in Section 13.1..",
+    "bbox": [
+      111,
+      83,
+      512,
+      94
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.21 \"Clinical Trial' means any human clinical study or trial of a Licensed Product in the Field in the Territory..",
+    "bbox": [
+      110,
+      113,
+      917,
+      127
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.22 \"Combination Product\"' means a product that is Commercialized by Vyera and/or its Affiliates under this Agreement and that comprises, consists of,",
+    "bbox": [
+      110,
+      145,
+      1000,
+      157
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "or incorporates two or more APIs (whether administered together or separately), which includes leronlimab as one of the APIs together with one or more",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "additional APIs that: (a) are not leronlimab; and (b) are not proprietary to CytoDyn, regardless of the formulation or mode of administration of such",
+    "bbox": [
+      111,
+      176,
+      1000,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Combination Product. For the sake of clarity, a Combination Product is a Licensed Product.",
+    "bbox": [
+      112,
+      193,
+      770,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.23 \"Commercial Failure' means that Vyera fails to achieve aggregate [***].",
+    "bbox": [
+      110,
+      221,
+      681,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.24 \"Commercialization' means any and all pre-launch, launch and post-launch activities related to the marketing, promoting, distributing (to Third",
+    "bbox": [
+      112,
+      254,
+      1000,
+      266
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Parties), offering for sale and selling a Licensed Product in the Field in the Territory. For clarity, Commercialization does not include Development and/or",
+    "bbox": [
+      111,
+      270,
+      1000,
+      282
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Manufacturing of a Licensed Product. When used as a verb, \"Commercialize\" means to engage in Commercialization..",
+    "bbox": [
+      111,
+      285,
+      972,
+      297
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.25 \"Commercialization Plan\"' has the meaning set forth in Section 5.2.",
+    "bbox": [
+      111,
+      316,
+      638,
+      328
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.26 \"Commercially Reasonable Efforts\"' means: (a) with respect to the efforts to be expended, or considerations to be undertaken, by a Party or its",
+    "bbox": [
+      112,
+      348,
+      1000,
+      358
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Affiliate with respect to any objective, activity or decision to be undertaken hereunder, reasonable, good faith efforts to accomplish such objective,",
+    "bbox": [
+      112,
+      363,
+      1000,
+      375
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "activity or decision as such Party would normally use to accomplish a similar objective, activity or decision under similar circumstances; and (b) with",
+    "bbox": [
+      112,
+      379,
+      1000,
+      390
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "respect to Development and Commercialization of any Licensed Product for any indication by a Party, efforts and resources consistent with those efforts",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "and resources commonly used by a similarly situated biotechnology company with respect to a product owned by it or to which it has similar rights,",
+    "bbox": [
+      111,
+      409,
+      1000,
+      421
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "which product is at a similar stage in its development or product life and is of similar market potential taking into account (i) the patent and other",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "proprietary position of the Licensed Product and (ii) the anticipated profitability of the Licensed Product..",
+    "bbox": [
+      111,
+      440,
+      875,
+      453
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.27 \"Competitive Product' means any product for the treatment or prevention of [***], leronlimab that is not a Licensed Product..",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.28 \"Confidential Information\"' means, subject to Article 10, all non-public or proprietary information not otherwise included in Know-How disclosed by.",
+    "bbox": [
+      111,
+      502,
+      1000,
+      514
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "either Party to the other Party in connection with the activities contemplated by this Agreement, which may include ideas, inventions, discoveries,",
+    "bbox": [
+      111,
+      518,
+      1000,
+      530
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "concepts, compounds, compositions, formulations, formulas, practices, procedures, processes, methods, knowledge, know-how, trade secrets,.",
+    "bbox": [
+      111,
+      534,
+      1000,
+      545
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "technology, inventories, machines, techniques, development, designs, drawings, computer programs, knowledge, skill, experience, documents, apparatus,",
+    "bbox": [
+      110,
+      548,
+      1000,
+      562
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "results, clinical and regulatory strategies, Regulatory Documentation, and submissions pertaining to, or made in association with, filings with any",
+    "bbox": [
+      110,
+      564,
+      1000,
+      577
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Governmental Authority, data, including pharmacological, toxicological and clinical data, analytical and quality control data, manufacturing data and",
+    "bbox": [
+      112,
+      581,
+      1000,
+      591
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "descriptions, patent and legal data, market data, financial data or descriptions, devices, assays, chemical formulations, specifications, material, product",
+    "bbox": [
+      112,
+      597,
+      1000,
+      607
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "samples and other samples, physical, chemical and biological materials and compounds and information related to such materials and compounds, and",
+    "bbox": [
+      111,
+      611,
+      1000,
+      623
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "any modifications, improvements, designs, and recipes without regard as to whether any of the foregoing is marked \"confidential' or \"proprietary,\" or",
+    "bbox": [
+      111,
+      627,
+      1000,
+      640
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "disclosed in oral, written, graphic, or electronic form. Confidential Information shall include the terms and conditions of this Agreement..",
+    "bbox": [
+      110,
+      642,
+      1000,
+      655
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1.20 \"Claim\" has the meaning set forth in Section 13.1..",
+    "bbox": [
+      111,
+      83,
+      512,
+      94
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.21 \"Clinical Trial' means any human clinical study or trial of a Licensed Product in the Field in the Territory..",
+    "bbox": [
+      110,
+      113,
+      917,
+      127
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.22 \"Combination Product\"' means a product that is Commercialized by Vyera and/or its Affiliates under this Agreement and that comprises, consists of,",
+    "bbox": [
+      110,
+      145,
+      1000,
+      157
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "or incorporates two or more APIs (whether administered together or separately), which includes leronlimab as one of the APIs together with one or more",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "additional APIs that: (a) are not leronlimab; and (b) are not proprietary to CytoDyn, regardless of the formulation or mode of administration of such",
+    "bbox": [
+      111,
+      176,
+      1000,
+      188
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Combination Product. For the sake of clarity, a Combination Product is a Licensed Product.",
+    "bbox": [
+      112,
+      193,
+      770,
+      203
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.23 \"Commercial Failure' means that Vyera fails to achieve aggregate [***].",
+    "bbox": [
+      110,
+      221,
+      681,
+      236
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.24 \"Commercialization' means any and all pre-launch, launch and post-launch activities related to the marketing, promoting, distributing (to Third",
+    "bbox": [
+      112,
+      254,
+      1000,
+      266
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Parties), offering for sale and selling a Licensed Product in the Field in the Territory. For clarity, Commercialization does not include Development and/or",
+    "bbox": [
+      111,
+      270,
+      1000,
+      282
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Manufacturing of a Licensed Product. When used as a verb, \"Commercialize\" means to engage in Commercialization..",
+    "bbox": [
+      111,
+      285,
+      972,
+      297
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.25 \"Commercialization Plan\"' has the meaning set forth in Section 5.2.",
+    "bbox": [
+      111,
+      316,
+      638,
+      328
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.26 \"Commercially Reasonable Efforts\"' means: (a) with respect to the efforts to be expended, or considerations to be undertaken, by a Party or its",
+    "bbox": [
+      112,
+      348,
+      1000,
+      358
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Affiliate with respect to any objective, activity or decision to be undertaken hereunder, reasonable, good faith efforts to accomplish such objective,",
+    "bbox": [
+      112,
+      363,
+      1000,
+      375
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "activity or decision as such Party would normally use to accomplish a similar objective, activity or decision under similar circumstances; and (b) with",
+    "bbox": [
+      112,
+      379,
+      1000,
+      390
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "respect to Development and Commercialization of any Licensed Product for any indication by a Party, efforts and resources consistent with those efforts",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "and resources commonly used by a similarly situated biotechnology company with respect to a product owned by it or to which it has similar rights,",
+    "bbox": [
+      111,
+      409,
+      1000,
+      421
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "which product is at a similar stage in its development or product life and is of similar market potential taking into account (i) the patent and other",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "proprietary position of the Licensed Product and (ii) the anticipated profitability of the Licensed Product..",
+    "bbox": [
+      111,
+      440,
+      875,
+      453
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.27 \"Competitive Product' means any product for the treatment or prevention of [***], leronlimab that is not a Licensed Product..",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.28 \"Confidential Information\"' means, subject to Article 10, all non-public or proprietary information not otherwise included in Know-How disclosed by.",
+    "bbox": [
+      111,
+      502,
+      1000,
+      514
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "either Party to the other Party in connection with the activities contemplated by this Agreement, which may include ideas, inventions, discoveries,",
+    "bbox": [
+      111,
+      518,
+      1000,
+      530
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "concepts, compounds, compositions, formulations, formulas, practices, procedures, processes, methods, knowledge, know-how, trade secrets,.",
+    "bbox": [
+      111,
+      534,
+      1000,
+      545
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "technology, inventories, machines, techniques, development, designs, drawings, computer programs, knowledge, skill, experience, documents, apparatus,",
+    "bbox": [
+      110,
+      548,
+      1000,
+      562
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "results, clinical and regulatory strategies, Regulatory Documentation, and submissions pertaining to, or made in association with, filings with any",
+    "bbox": [
+      110,
+      564,
+      1000,
+      577
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Governmental Authority, data, including pharmacological, toxicological and clinical data, analytical and quality control data, manufacturing data and",
+    "bbox": [
+      112,
+      581,
+      1000,
+      591
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "descriptions, patent and legal data, market data, financial data or descriptions, devices, assays, chemical formulations, specifications, material, product",
+    "bbox": [
+      112,
+      597,
+      1000,
+      607
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "samples and other samples, physical, chemical and biological materials and compounds and information related to such materials and compounds, and",
+    "bbox": [
+      111,
+      611,
+      1000,
+      623
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "any modifications, improvements, designs, and recipes without regard as to whether any of the foregoing is marked \"confidential' or \"proprietary,\" or",
+    "bbox": [
+      111,
+      627,
+      1000,
+      640
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "disclosed in oral, written, graphic, or electronic form. Confidential Information shall include the terms and conditions of this Agreement..",
+    "bbox": [
+      110,
+      642,
+      1000,
+      655
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 30,
+    "category": "Irrevocable Or Perpetual License"
+  },
+  {
+    "text": "1.20 \"Claim\" has the meaning set forth in Section 13.1..",
+    "bbox": [
+      111,
+      83,
+      512,
+      94
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.21 \"Clinical Trial' means any human clinical study or trial of a Licensed Product in the Field in the Territory..",
+    "bbox": [
+      110,
+      113,
+      917,
+      127
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.22 \"Combination Product\"' means a product that is Commercialized by Vyera and/or its Affiliates under this Agreement and that comprises, consists of,",
+    "bbox": [
+      110,
+      145,
+      1000,
+      157
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "or incorporates two or more APIs (whether administered together or separately), which includes leronlimab as one of the APIs together with one or more",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "additional APIs that: (a) are not leronlimab; and (b) are not proprietary to CytoDyn, regardless of the formulation or mode of administration of such",
+    "bbox": [
+      111,
+      176,
+      1000,
+      188
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Combination Product. For the sake of clarity, a Combination Product is a Licensed Product.",
+    "bbox": [
+      112,
+      193,
+      770,
+      203
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.23 \"Commercial Failure' means that Vyera fails to achieve aggregate [***].",
+    "bbox": [
+      110,
+      221,
+      681,
+      236
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.24 \"Commercialization' means any and all pre-launch, launch and post-launch activities related to the marketing, promoting, distributing (to Third",
+    "bbox": [
+      112,
+      254,
+      1000,
+      266
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Parties), offering for sale and selling a Licensed Product in the Field in the Territory. For clarity, Commercialization does not include Development and/or",
+    "bbox": [
+      111,
+      270,
+      1000,
+      282
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Manufacturing of a Licensed Product. When used as a verb, \"Commercialize\" means to engage in Commercialization..",
+    "bbox": [
+      111,
+      285,
+      972,
+      297
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.25 \"Commercialization Plan\"' has the meaning set forth in Section 5.2.",
+    "bbox": [
+      111,
+      316,
+      638,
+      328
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.26 \"Commercially Reasonable Efforts\"' means: (a) with respect to the efforts to be expended, or considerations to be undertaken, by a Party or its",
+    "bbox": [
+      112,
+      348,
+      1000,
+      358
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Affiliate with respect to any objective, activity or decision to be undertaken hereunder, reasonable, good faith efforts to accomplish such objective,",
+    "bbox": [
+      112,
+      363,
+      1000,
+      375
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "activity or decision as such Party would normally use to accomplish a similar objective, activity or decision under similar circumstances; and (b) with",
+    "bbox": [
+      112,
+      379,
+      1000,
+      390
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "respect to Development and Commercialization of any Licensed Product for any indication by a Party, efforts and resources consistent with those efforts",
+    "bbox": [
+      110,
+      393,
+      1000,
+      406
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "and resources commonly used by a similarly situated biotechnology company with respect to a product owned by it or to which it has similar rights,",
+    "bbox": [
+      111,
+      409,
+      1000,
+      421
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "which product is at a similar stage in its development or product life and is of similar market potential taking into account (i) the patent and other",
+    "bbox": [
+      112,
+      425,
+      1000,
+      437
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "proprietary position of the Licensed Product and (ii) the anticipated profitability of the Licensed Product..",
+    "bbox": [
+      111,
+      440,
+      875,
+      453
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.27 \"Competitive Product' means any product for the treatment or prevention of [***], leronlimab that is not a Licensed Product..",
+    "bbox": [
+      111,
+      471,
+      1000,
+      483
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "1.28 \"Confidential Information\"' means, subject to Article 10, all non-public or proprietary information not otherwise included in Know-How disclosed by.",
+    "bbox": [
+      111,
+      502,
+      1000,
+      514
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "either Party to the other Party in connection with the activities contemplated by this Agreement, which may include ideas, inventions, discoveries,",
+    "bbox": [
+      111,
+      518,
+      1000,
+      530
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "concepts, compounds, compositions, formulations, formulas, practices, procedures, processes, methods, knowledge, know-how, trade secrets,.",
+    "bbox": [
+      111,
+      534,
+      1000,
+      545
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "technology, inventories, machines, techniques, development, designs, drawings, computer programs, knowledge, skill, experience, documents, apparatus,",
+    "bbox": [
+      110,
+      548,
+      1000,
+      562
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "results, clinical and regulatory strategies, Regulatory Documentation, and submissions pertaining to, or made in association with, filings with any",
+    "bbox": [
+      110,
+      564,
+      1000,
+      577
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Governmental Authority, data, including pharmacological, toxicological and clinical data, analytical and quality control data, manufacturing data and",
+    "bbox": [
+      112,
+      581,
+      1000,
+      591
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "descriptions, patent and legal data, market data, financial data or descriptions, devices, assays, chemical formulations, specifications, material, product",
+    "bbox": [
+      112,
+      597,
+      1000,
+      607
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "samples and other samples, physical, chemical and biological materials and compounds and information related to such materials and compounds, and",
+    "bbox": [
+      111,
+      611,
+      1000,
+      623
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "any modifications, improvements, designs, and recipes without regard as to whether any of the foregoing is marked \"confidential' or \"proprietary,\" or",
+    "bbox": [
+      111,
+      627,
+      1000,
+      640
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "disclosed in oral, written, graphic, or electronic form. Confidential Information shall include the terms and conditions of this Agreement..",
+    "bbox": [
+      110,
+      642,
+      1000,
+      655
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  },
+  {
+    "text": "Source: CYTODYN INC., 10-Q, 1/9/2020",
+    "bbox": [
+      133,
+      1000,
+      451,
+      1000
+    ],
+    "label": 39,
+    "category": "Covenant Not To Sue"
+  }
+]

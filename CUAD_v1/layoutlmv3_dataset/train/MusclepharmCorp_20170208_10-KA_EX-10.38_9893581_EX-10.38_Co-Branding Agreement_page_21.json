@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Fitness Publications, Inc.",
+    "bbox": [
+      184,
+      703,
+      370,
+      713
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Marine MP, LLC",
+    "bbox": [
+      184,
+      623,
+      306,
+      633
+    ],
+    "label": 2,
+    "category": "Parties"
+  }
+]

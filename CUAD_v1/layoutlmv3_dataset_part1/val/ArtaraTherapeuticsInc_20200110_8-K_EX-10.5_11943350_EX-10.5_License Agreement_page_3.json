@@ -1,0 +1,387 @@
+[
+  {
+    "text": "1.23",
+    "bbox": [
+      111,
+      80,
+      142,
+      92
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"TARA-002\" means the ArTara pharmaceutical product intended to be similar to or biosimilar to OK-432..",
+    "bbox": [
+      180,
+      80,
+      962,
+      93
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.24",
+    "bbox": [
+      110,
+      95,
+      144,
+      109
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Territory\" means worldwide.",
+    "bbox": [
+      179,
+      96,
+      405,
+      108
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ARTICLE TWO",
+    "bbox": [
+      606,
+      113,
+      728,
+      123
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "PROJECT",
+    "bbox": [
+      625,
+      129,
+      708,
+      140
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.1 Performance of Project. The University and/or Principal Investigator together with ArTara and the CRO will conduct the Project in accordance",
+    "bbox": [
+      111,
+      144,
+      1000,
+      157
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with the Project Plan and will use all reasonable endeavors consistent with their expertise to successfully complete the Project. It is the goal of the",
+    "bbox": [
+      112,
+      161,
+      1000,
+      173
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Project to use the Program Data as clinical support for Product Regulatory Filings and to gain approval to commercialize the Product for the",
+    "bbox": [
+      112,
+      177,
+      1000,
+      189
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Indication in the Territory.",
+    "bbox": [
+      112,
+      193,
+      306,
+      205
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.2 Project Plan. The Project Plan as approved by each of the Parties may be modified or amended only upon mutual agreement of each of the",
+    "bbox": [
+      110,
+      207,
+      1000,
+      222
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Parties. The Project will consist of three phases:",
+    "bbox": [
+      110,
+      225,
+      472,
+      236
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(a) Phase I: University and/or Principal Investigator will provide access to the Program Data to ArTara and the CRO at the",
+    "bbox": [
+      237,
+      240,
+      1000,
+      253
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "University's facilities. ArTara and the CRO will be allowed to make complete copies of the original Program Data for the",
+    "bbox": [
+      273,
+      257,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "purposes of off-site data entry and storage, all as and only to the extent needed to support ArTara's efforts to accomplish the",
+    "bbox": [
+      271,
+      272,
+      1000,
+      286
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "records for the Program Data at the University during normal business hours and at mutually agreeable times. University and",
+    "bbox": [
+      271,
+      305,
+      1000,
+      317
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Principal Investigator will also provide to ArTara contact information for other participating investigators and research sites",
+    "bbox": [
+      273,
+      321,
+      1000,
+      333
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "that have contributed data to the Program. University will retain all Program Data for the sooner to occur of a New Drug.",
+    "bbox": [
+      271,
+      335,
+      1000,
+      351
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "understands that separate engagement agreements may be required by collaborating third party entities and associated",
+    "bbox": [
+      272,
+      385,
+      1000,
+      397
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "principal investigators and University will assist ArTara in obtaining such agreements. It is understood that the goal of Phase",
+    "bbox": [
+      271,
+      400,
+      1000,
+      414
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "I is a feasibility analysis of the Program Data to support Regulatory Filings in the United States.",
+    "bbox": [
+      271,
+      416,
+      988,
+      429
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(b)",
+    "bbox": [
+      241,
+      434,
+      273,
+      444
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": " Phase II: University recognizes that because of ArTara's unfamiliarity with the Program Data database, assistance from the",
+    "bbox": [
+      268,
+      433,
+      1000,
+      445
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Principal Investigator and other research and medical employees of the University may from time to time be.",
+    "bbox": [
+      272,
+      448,
+      1000,
+      461
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "needed for ArTara to query and analyze the Program Data database as needed to achieve successful presentation to",
+    "bbox": [
+      272,
+      465,
+      1000,
+      476
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "applicable Regulatory Authorities and submission of Regulatory Filings. ArTara will endeavor to minimize University",
+    "bbox": [
+      274,
+      481,
+      1000,
+      493
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "resources required during Phase II. The goal of Phase II will be to compile the Project Documentation..",
+    "bbox": [
+      271,
+      497,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "(c)",
+    "bbox": [
+      240,
+      514,
+      263,
+      524
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Phase III: CRO will convert Program Data to eCTD format for submission to Regulatory Authorities. University recognizes",
+    "bbox": [
+      270,
+      513,
+      1000,
+      525
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "that ArTara may receive specific data requests from Regulatory Authorities in connection with ArTara's presentations of",
+    "bbox": [
+      272,
+      528,
+      1000,
+      541
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Program Data to support Regulatory Filings. University will assist ArTara in responding to such requests for data or access to",
+    "bbox": [
+      273,
+      545,
+      1000,
+      557
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "source data from Regulatory Authorities. ArTara agrees to notify University of such requests as soon as is practicable. The",
+    "bbox": [
+      271,
+      560,
+      1000,
+      573
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "goal of Phase III will be filing of a BLA based on Project Documentation and response to Regulatory Authorities.",
+    "bbox": [
+      274,
+      577,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      663,
+      609,
+      673,
+      618
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020",
+    "bbox": [
+      133,
+      1000,
+      570,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

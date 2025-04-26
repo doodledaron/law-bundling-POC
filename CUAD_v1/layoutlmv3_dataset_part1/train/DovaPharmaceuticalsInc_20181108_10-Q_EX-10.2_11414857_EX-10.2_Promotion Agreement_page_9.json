@@ -1,0 +1,662 @@
+[
+  {
+    "text": "1.18 Designated Product' shall mean a specific pharmaceutical product marketed by Valeant which is agreed to in",
+    "bbox": [
+      179,
+      140,
+      1000,
+      155
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "writing by the Parties on or prior to the Effective Date..",
+    "bbox": [
+      114,
+      161,
+      570,
+      174
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.19 \"Detail(s)'' shall mean a Product presentation during a face-to-face sales call between a Target Professional and a",
+    "bbox": [
+      180,
+      196,
+      1000,
+      210
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Sales Representative, during which a presentation of the Product's attributes, benefits, prescribing information and safety",
+    "bbox": [
+      112,
+      216,
+      1000,
+      230
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "exhibit booths, a sample drop, educational programs or speaker meetings, or similar gatherings, shall constitute a Detail.",
+    "bbox": [
+      113,
+      254,
+      1000,
+      268
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.20 *Detail Report' shall have the meaning set forth in Section 4.2.2.",
+    "bbox": [
+      181,
+      288,
+      784,
+      303
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.21 'Dispute\"' shall have the meaning set forth in Section 13.6.1..",
+    "bbox": [
+      180,
+      324,
+      738,
+      339
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.22 \"Dollar\" or \"$' shall mean United States dollar..",
+    "bbox": [
+      181,
+      360,
+      627,
+      373
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.23 \"Dova Trademarks and Copyrights\"' shall mean the logos, trade dress, slogans, domain names and housemarks of",
+    "bbox": [
+      181,
+      397,
+      1000,
+      411
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Dova or any of its Affiliates as may appear on any Product Materials or Product Labeling, in each case, as may be updated from",
+    "bbox": [
+      111,
+      417,
+      1000,
+      432
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "time to time by Dova..",
+    "bbox": [
+      112,
+      436,
+      294,
+      449
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.24 'Dova's Third Party Data Source\" shall mean [***] or such other data source as selected by Dova and with",
+    "bbox": [
+      179,
+      469,
+      1000,
+      485
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "which Dova enters into an agreement, at its cost.",
+    "bbox": [
+      113,
+      491,
+      521,
+      505
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.25 \"Effective Date' shall have the meaning set forth in the preamble to this Agreement.",
+    "bbox": [
+      180,
+      525,
+      941,
+      540
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.26 \"FDA\" shall mean the United States Food and Drug Administration or any successor agency performing comparable",
+    "bbox": [
+      180,
+      561,
+      1000,
+      576
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "functions.",
+    "bbox": [
+      110,
+      580,
+      191,
+      596
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.27 'Field\" shall mean the treatment of thrombocytopenia in adult patients with chronic liver disease who are scheduled",
+    "bbox": [
+      179,
+      615,
+      1000,
+      631
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "to undergo a procedure and any and all additional indications for which the Product is approved in the Territory.",
+    "bbox": [
+      112,
+      636,
+      1000,
+      652
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.28 \"Field Force Personnel' shall mean collectively, the Sales Representatives, the members of the institutional account",
+    "bbox": [
+      180,
+      671,
+      1000,
+      685
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "management team described in Section 4.1.5, if any, that are engaged in Detailing the Product and any other employees of Valeant",
+    "bbox": [
+      110,
+      691,
+      1000,
+      707
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "engaged in the Valeant Activities..",
+    "bbox": [
+      113,
+      710,
+      388,
+      724
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.29 \"GAAP\" shall mean United States generally accepted accounting principles.",
+    "bbox": [
+      179,
+      744,
+      864,
+      761
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.30 \"Governmental Authority\" shall mean any court, agency, authority, department, regulatory body or other",
+    "bbox": [
+      179,
+      780,
+      1000,
+      797
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "instrumentality of any government or country or of any national, federal, state, provincial, regional, county, city or other political",
+    "bbox": [
+      112,
+      801,
+      1000,
+      816
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "subdivision of any such government or any supranational organization of which any such country is a member, which has competent.",
+    "bbox": [
+      114,
+      822,
+      1000,
+      834
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and binding authority to decide, mandate, regulate, enforce, or otherwise control the activities of the Parties contemplated by this",
+    "bbox": [
+      114,
+      840,
+      1000,
+      853
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      860,
+      209,
+      872
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      662,
+      911,
+      671,
+      919
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION",
+    "bbox": [
+      415,
+      999,
+      917,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      592,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "1.18 Designated Product' shall mean a specific pharmaceutical product marketed by Valeant which is agreed to in",
+    "bbox": [
+      179,
+      140,
+      1000,
+      155
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "writing by the Parties on or prior to the Effective Date..",
+    "bbox": [
+      114,
+      161,
+      570,
+      174
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.19 \"Detail(s)'' shall mean a Product presentation during a face-to-face sales call between a Target Professional and a",
+    "bbox": [
+      180,
+      196,
+      1000,
+      210
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Sales Representative, during which a presentation of the Product's attributes, benefits, prescribing information and safety",
+    "bbox": [
+      112,
+      216,
+      1000,
+      230
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "exhibit booths, a sample drop, educational programs or speaker meetings, or similar gatherings, shall constitute a Detail.",
+    "bbox": [
+      113,
+      254,
+      1000,
+      268
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.20 *Detail Report' shall have the meaning set forth in Section 4.2.2.",
+    "bbox": [
+      181,
+      288,
+      784,
+      303
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.21 'Dispute\"' shall have the meaning set forth in Section 13.6.1..",
+    "bbox": [
+      180,
+      324,
+      738,
+      339
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.22 \"Dollar\" or \"$' shall mean United States dollar..",
+    "bbox": [
+      181,
+      360,
+      627,
+      373
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.23 \"Dova Trademarks and Copyrights\"' shall mean the logos, trade dress, slogans, domain names and housemarks of",
+    "bbox": [
+      181,
+      397,
+      1000,
+      411
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Dova or any of its Affiliates as may appear on any Product Materials or Product Labeling, in each case, as may be updated from",
+    "bbox": [
+      111,
+      417,
+      1000,
+      432
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "time to time by Dova..",
+    "bbox": [
+      112,
+      436,
+      294,
+      449
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.24 'Dova's Third Party Data Source\" shall mean [***] or such other data source as selected by Dova and with",
+    "bbox": [
+      179,
+      469,
+      1000,
+      485
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "which Dova enters into an agreement, at its cost.",
+    "bbox": [
+      113,
+      491,
+      521,
+      505
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.25 \"Effective Date' shall have the meaning set forth in the preamble to this Agreement.",
+    "bbox": [
+      180,
+      525,
+      941,
+      540
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.26 \"FDA\" shall mean the United States Food and Drug Administration or any successor agency performing comparable",
+    "bbox": [
+      180,
+      561,
+      1000,
+      576
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "functions.",
+    "bbox": [
+      110,
+      580,
+      191,
+      596
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.27 'Field\" shall mean the treatment of thrombocytopenia in adult patients with chronic liver disease who are scheduled",
+    "bbox": [
+      179,
+      615,
+      1000,
+      631
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "to undergo a procedure and any and all additional indications for which the Product is approved in the Territory.",
+    "bbox": [
+      112,
+      636,
+      1000,
+      652
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.28 \"Field Force Personnel' shall mean collectively, the Sales Representatives, the members of the institutional account",
+    "bbox": [
+      180,
+      671,
+      1000,
+      685
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "management team described in Section 4.1.5, if any, that are engaged in Detailing the Product and any other employees of Valeant",
+    "bbox": [
+      110,
+      691,
+      1000,
+      707
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "engaged in the Valeant Activities..",
+    "bbox": [
+      113,
+      710,
+      388,
+      724
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.29 \"GAAP\" shall mean United States generally accepted accounting principles.",
+    "bbox": [
+      179,
+      744,
+      864,
+      761
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.30 \"Governmental Authority\" shall mean any court, agency, authority, department, regulatory body or other",
+    "bbox": [
+      179,
+      780,
+      1000,
+      797
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "instrumentality of any government or country or of any national, federal, state, provincial, regional, county, city or other political",
+    "bbox": [
+      112,
+      801,
+      1000,
+      816
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "subdivision of any such government or any supranational organization of which any such country is a member, which has competent.",
+    "bbox": [
+      114,
+      822,
+      1000,
+      834
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "and binding authority to decide, mandate, regulate, enforce, or otherwise control the activities of the Parties contemplated by this",
+    "bbox": [
+      114,
+      840,
+      1000,
+      853
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Agreement.",
+    "bbox": [
+      113,
+      860,
+      209,
+      872
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "4",
+    "bbox": [
+      662,
+      911,
+      671,
+      919
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION",
+    "bbox": [
+      415,
+      999,
+      917,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: DOVA PHARMACEUTICALS INC., 10-Q, 11/8/2018",
+    "bbox": [
+      133,
+      1000,
+      592,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

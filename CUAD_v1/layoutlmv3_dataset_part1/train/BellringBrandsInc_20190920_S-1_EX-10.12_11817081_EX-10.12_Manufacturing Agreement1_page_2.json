@@ -1,0 +1,1157 @@
+[
+  {
+    "text": "the [***] immediately following the Forecast Delivery Date. If Heritage notifies Premier that it can fulfill Premier's Forecast for this [***] period, or if it",
+    "bbox": [
+      112,
+      83,
+      1000,
+      95
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "fails to notify Premier that it cannot fulfill that portion of the Forecast, Heritage shall be obligated to fulfill, or cause Jasper to fulfill as applicable, if",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "ordered through POs, the full amount of Product set forth for purchase during [***] (\"Firm Forecast\")..",
+    "bbox": [
+      111,
+      115,
+      855,
+      127
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(h) Within the [***] of each calendar month during the Term, Heritage shall provide to Premier a [***] rolling production forecast which",
+    "bbox": [
+      212,
+      145,
+      1000,
+      158
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "shall set forth Heritage's good faith estimated maximum monthly unit volume (\"Maximum Volume') for each Facility during such [***] period.",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Modifications to the Maximum Volume shall be negotiated in good faith and agreed upon by both Parties in writing or email by the [***] of the calendar",
+    "bbox": [
+      111,
+      176,
+      1000,
+      189
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "month.",
+    "bbox": [
+      109,
+      191,
+      162,
+      204
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(i) Premier shall provide Heritage with Purchase Orders (or \"POs') [***] in advance of the date referred to as the \"Due Date\"' in such POs.",
+    "bbox": [
+      212,
+      223,
+      1000,
+      235
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "The POs, at a minimum, will give the Products and quantities ordered, the Due Date requested, and designate which Facility will manufacture the",
+    "bbox": [
+      112,
+      239,
+      1000,
+      251
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Products. \"Due Date\"' shall mean the production start date requested by Premier..",
+    "bbox": [
+      111,
+      254,
+      697,
+      266
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "() Within [***] of receipt of a PO, Heritage shall (i) provide to Premier email confirmation of acceptance of the PO, a schedule of production.",
+    "bbox": [
+      211,
+      283,
+      1000,
+      298
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "and an estimated production completion date (the \"Estimated Completion Date\"), or (ii) notify Premier if any term of the PO cannot be met. Heritage's",
+    "bbox": [
+      112,
+      302,
+      1000,
+      312
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "failure to notify Premier, within the time specified herein, of an inability to meet a term of the PO shall constitute acceptance of such PO in its entirety. If",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Heritage notifies Premier that it or Jasper cannot meet the Due Date, the Parties shall discuss an acceptable alternate date on which production will",
+    "bbox": [
+      110,
+      331,
+      1000,
+      344
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "commence (the \"Production Date'). Once a Due Date is accepted or a Production Date is mutually agreed upon, Heritage shall, or shall cause Jasper to,.",
+    "bbox": [
+      110,
+      347,
+      1000,
+      359
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "use all commercially reasonable efforts to start production on or before the Due Date (or Production Date, as applicable), but in no case more than [***]",
+    "bbox": [
+      110,
+      362,
+      1000,
+      375
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "earlier or later than the Due Date (or Production Date, as applicable) unless mutually agreed otherwise by Premier..",
+    "bbox": [
+      112,
+      379,
+      938,
+      390
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(k) If PREMIER requests that Products be produced at the Heritage Facility, Heritage may either produce such Products at the Heritage",
+    "bbox": [
+      211,
+      409,
+      1000,
+      422
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Facility or cause Jasper to produce such Products at the Jasper Facility, in which case Heritage shall be responsible for all shipping costs of transporting",
+    "bbox": [
+      110,
+      424,
+      1000,
+      438
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the Products to the Heritage Facility. If Premier requests that Products be produced at the Jasper Facility, Heritage may either cause Jasper to produce.",
+    "bbox": [
+      111,
+      441,
+      1000,
+      452
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "such Products at the Jasper Facility or produce such Products at the Heritage Facility, in which case Heritage shall be responsible for all shipping costs of.",
+    "bbox": [
+      111,
+      456,
+      1000,
+      468
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "transporting the Products to the Jasper Facility.",
+    "bbox": [
+      111,
+      472,
+      456,
+      484
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(1) If a PO is accepted by Heritage as described in Section 2(j) above but such PO is not filled in accordance with its terms, or if Heritage or",
+    "bbox": [
+      212,
+      502,
+      1000,
+      514
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Jasper, as applicable, fails to complete production of the Products [***], Premier shall have the right to use an alternate co-packer for the Products",
+    "bbox": [
+      108,
+      517,
+      1000,
+      531
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "specified in the PO and Heritage shall, or shall cause Jasper to, provide Premier with Premier owned packaging needed to support such production by an",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "alternate co-packer.",
+    "bbox": [
+      112,
+      550,
+      252,
+      561
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(m) Purchase Orders will be Premier's best estimate of its current requirements, but may be amended up or down or canceled in their entirety",
+    "bbox": [
+      212,
+      580,
+      1000,
+      592
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "by Premier to reflect changing demand for Products. The final Unit quantities on Premier's Purchase Orders will count towards the MAOV. However, if (i).",
+    "bbox": [
+      111,
+      596,
+      1000,
+      608
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "any increase or decrease in Unit volume under a particular PO is greater than [***] of the initial PO quantity and (ii) Premier requests such change or.",
+    "bbox": [
+      111,
+      610,
+      1000,
+      623
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "charge Premier [***]. In no event shall Premier pay [***] if (i) it cancels or modifies any PO prior to the commencement of the [***] Period (i.e.; prior to",
+    "bbox": [
+      112,
+      642,
+      1000,
+      655
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the commencement of the [***] period preceding the Due Date (or Production Date, as applicable), (ii) Heritage or Jasper fails to timely start production in",
+    "bbox": [
+      110,
+      657,
+      1000,
+      671
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the [***] period before or after the Due Date (or Production Date, as applicable), or (iii) the basis for Premier's cancellation is a breach by Heritage of its.",
+    "bbox": [
+      111,
+      673,
+      1000,
+      685
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "obligations, representations or warranties hereunder.",
+    "bbox": [
+      111,
+      689,
+      496,
+      701
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      667,
+      705,
+      677,
+      716
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      133,
+      1000,
+      527,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "the [***] immediately following the Forecast Delivery Date. If Heritage notifies Premier that it can fulfill Premier's Forecast for this [***] period, or if it",
+    "bbox": [
+      112,
+      83,
+      1000,
+      95
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "fails to notify Premier that it cannot fulfill that portion of the Forecast, Heritage shall be obligated to fulfill, or cause Jasper to fulfill as applicable, if",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "ordered through POs, the full amount of Product set forth for purchase during [***] (\"Firm Forecast\")..",
+    "bbox": [
+      111,
+      115,
+      855,
+      127
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(h) Within the [***] of each calendar month during the Term, Heritage shall provide to Premier a [***] rolling production forecast which",
+    "bbox": [
+      212,
+      145,
+      1000,
+      158
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "shall set forth Heritage's good faith estimated maximum monthly unit volume (\"Maximum Volume') for each Facility during such [***] period.",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Modifications to the Maximum Volume shall be negotiated in good faith and agreed upon by both Parties in writing or email by the [***] of the calendar",
+    "bbox": [
+      111,
+      176,
+      1000,
+      189
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "month.",
+    "bbox": [
+      109,
+      191,
+      162,
+      204
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(i) Premier shall provide Heritage with Purchase Orders (or \"POs') [***] in advance of the date referred to as the \"Due Date\"' in such POs.",
+    "bbox": [
+      212,
+      223,
+      1000,
+      235
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "The POs, at a minimum, will give the Products and quantities ordered, the Due Date requested, and designate which Facility will manufacture the",
+    "bbox": [
+      112,
+      239,
+      1000,
+      251
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Products. \"Due Date\"' shall mean the production start date requested by Premier..",
+    "bbox": [
+      111,
+      254,
+      697,
+      266
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "() Within [***] of receipt of a PO, Heritage shall (i) provide to Premier email confirmation of acceptance of the PO, a schedule of production.",
+    "bbox": [
+      211,
+      283,
+      1000,
+      298
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "and an estimated production completion date (the \"Estimated Completion Date\"), or (ii) notify Premier if any term of the PO cannot be met. Heritage's",
+    "bbox": [
+      112,
+      302,
+      1000,
+      312
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "failure to notify Premier, within the time specified herein, of an inability to meet a term of the PO shall constitute acceptance of such PO in its entirety. If",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Heritage notifies Premier that it or Jasper cannot meet the Due Date, the Parties shall discuss an acceptable alternate date on which production will",
+    "bbox": [
+      110,
+      331,
+      1000,
+      344
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "commence (the \"Production Date'). Once a Due Date is accepted or a Production Date is mutually agreed upon, Heritage shall, or shall cause Jasper to,.",
+    "bbox": [
+      110,
+      347,
+      1000,
+      359
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "use all commercially reasonable efforts to start production on or before the Due Date (or Production Date, as applicable), but in no case more than [***]",
+    "bbox": [
+      110,
+      362,
+      1000,
+      375
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "earlier or later than the Due Date (or Production Date, as applicable) unless mutually agreed otherwise by Premier..",
+    "bbox": [
+      112,
+      379,
+      938,
+      390
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(k) If PREMIER requests that Products be produced at the Heritage Facility, Heritage may either produce such Products at the Heritage",
+    "bbox": [
+      211,
+      409,
+      1000,
+      422
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Facility or cause Jasper to produce such Products at the Jasper Facility, in which case Heritage shall be responsible for all shipping costs of transporting",
+    "bbox": [
+      110,
+      424,
+      1000,
+      438
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the Products to the Heritage Facility. If Premier requests that Products be produced at the Jasper Facility, Heritage may either cause Jasper to produce.",
+    "bbox": [
+      111,
+      441,
+      1000,
+      452
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "such Products at the Jasper Facility or produce such Products at the Heritage Facility, in which case Heritage shall be responsible for all shipping costs of.",
+    "bbox": [
+      111,
+      456,
+      1000,
+      468
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "transporting the Products to the Jasper Facility.",
+    "bbox": [
+      111,
+      472,
+      456,
+      484
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(1) If a PO is accepted by Heritage as described in Section 2(j) above but such PO is not filled in accordance with its terms, or if Heritage or",
+    "bbox": [
+      212,
+      502,
+      1000,
+      514
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Jasper, as applicable, fails to complete production of the Products [***], Premier shall have the right to use an alternate co-packer for the Products",
+    "bbox": [
+      108,
+      517,
+      1000,
+      531
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "specified in the PO and Heritage shall, or shall cause Jasper to, provide Premier with Premier owned packaging needed to support such production by an",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "alternate co-packer.",
+    "bbox": [
+      112,
+      550,
+      252,
+      561
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(m) Purchase Orders will be Premier's best estimate of its current requirements, but may be amended up or down or canceled in their entirety",
+    "bbox": [
+      212,
+      580,
+      1000,
+      592
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "by Premier to reflect changing demand for Products. The final Unit quantities on Premier's Purchase Orders will count towards the MAOV. However, if (i).",
+    "bbox": [
+      111,
+      596,
+      1000,
+      608
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "any increase or decrease in Unit volume under a particular PO is greater than [***] of the initial PO quantity and (ii) Premier requests such change or.",
+    "bbox": [
+      111,
+      610,
+      1000,
+      623
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "charge Premier [***]. In no event shall Premier pay [***] if (i) it cancels or modifies any PO prior to the commencement of the [***] Period (i.e.; prior to",
+    "bbox": [
+      112,
+      642,
+      1000,
+      655
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the commencement of the [***] period preceding the Due Date (or Production Date, as applicable), (ii) Heritage or Jasper fails to timely start production in",
+    "bbox": [
+      110,
+      657,
+      1000,
+      671
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the [***] period before or after the Due Date (or Production Date, as applicable), or (iii) the basis for Premier's cancellation is a breach by Heritage of its.",
+    "bbox": [
+      111,
+      673,
+      1000,
+      685
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "obligations, representations or warranties hereunder.",
+    "bbox": [
+      111,
+      689,
+      496,
+      701
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      667,
+      705,
+      677,
+      716
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      133,
+      1000,
+      527,
+      1000
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "the [***] immediately following the Forecast Delivery Date. If Heritage notifies Premier that it can fulfill Premier's Forecast for this [***] period, or if it",
+    "bbox": [
+      112,
+      83,
+      1000,
+      95
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "fails to notify Premier that it cannot fulfill that portion of the Forecast, Heritage shall be obligated to fulfill, or cause Jasper to fulfill as applicable, if",
+    "bbox": [
+      111,
+      99,
+      1000,
+      111
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ordered through POs, the full amount of Product set forth for purchase during [***] (\"Firm Forecast\")..",
+    "bbox": [
+      111,
+      115,
+      855,
+      127
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(h) Within the [***] of each calendar month during the Term, Heritage shall provide to Premier a [***] rolling production forecast which",
+    "bbox": [
+      212,
+      145,
+      1000,
+      158
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "shall set forth Heritage's good faith estimated maximum monthly unit volume (\"Maximum Volume') for each Facility during such [***] period.",
+    "bbox": [
+      111,
+      161,
+      1000,
+      173
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Modifications to the Maximum Volume shall be negotiated in good faith and agreed upon by both Parties in writing or email by the [***] of the calendar",
+    "bbox": [
+      111,
+      176,
+      1000,
+      189
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "month.",
+    "bbox": [
+      109,
+      191,
+      162,
+      204
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(i) Premier shall provide Heritage with Purchase Orders (or \"POs') [***] in advance of the date referred to as the \"Due Date\"' in such POs.",
+    "bbox": [
+      212,
+      223,
+      1000,
+      235
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "The POs, at a minimum, will give the Products and quantities ordered, the Due Date requested, and designate which Facility will manufacture the",
+    "bbox": [
+      112,
+      239,
+      1000,
+      251
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Products. \"Due Date\"' shall mean the production start date requested by Premier..",
+    "bbox": [
+      111,
+      254,
+      697,
+      266
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "() Within [***] of receipt of a PO, Heritage shall (i) provide to Premier email confirmation of acceptance of the PO, a schedule of production.",
+    "bbox": [
+      211,
+      283,
+      1000,
+      298
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "and an estimated production completion date (the \"Estimated Completion Date\"), or (ii) notify Premier if any term of the PO cannot be met. Heritage's",
+    "bbox": [
+      112,
+      302,
+      1000,
+      312
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "failure to notify Premier, within the time specified herein, of an inability to meet a term of the PO shall constitute acceptance of such PO in its entirety. If",
+    "bbox": [
+      111,
+      316,
+      1000,
+      328
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Heritage notifies Premier that it or Jasper cannot meet the Due Date, the Parties shall discuss an acceptable alternate date on which production will",
+    "bbox": [
+      110,
+      331,
+      1000,
+      344
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "commence (the \"Production Date'). Once a Due Date is accepted or a Production Date is mutually agreed upon, Heritage shall, or shall cause Jasper to,.",
+    "bbox": [
+      110,
+      347,
+      1000,
+      359
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "use all commercially reasonable efforts to start production on or before the Due Date (or Production Date, as applicable), but in no case more than [***]",
+    "bbox": [
+      110,
+      362,
+      1000,
+      375
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "earlier or later than the Due Date (or Production Date, as applicable) unless mutually agreed otherwise by Premier..",
+    "bbox": [
+      112,
+      379,
+      938,
+      390
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(k) If PREMIER requests that Products be produced at the Heritage Facility, Heritage may either produce such Products at the Heritage",
+    "bbox": [
+      211,
+      409,
+      1000,
+      422
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Facility or cause Jasper to produce such Products at the Jasper Facility, in which case Heritage shall be responsible for all shipping costs of transporting",
+    "bbox": [
+      110,
+      424,
+      1000,
+      438
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the Products to the Heritage Facility. If Premier requests that Products be produced at the Jasper Facility, Heritage may either cause Jasper to produce.",
+    "bbox": [
+      111,
+      441,
+      1000,
+      452
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "such Products at the Jasper Facility or produce such Products at the Heritage Facility, in which case Heritage shall be responsible for all shipping costs of.",
+    "bbox": [
+      111,
+      456,
+      1000,
+      468
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "transporting the Products to the Jasper Facility.",
+    "bbox": [
+      111,
+      472,
+      456,
+      484
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(1) If a PO is accepted by Heritage as described in Section 2(j) above but such PO is not filled in accordance with its terms, or if Heritage or",
+    "bbox": [
+      212,
+      502,
+      1000,
+      514
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Jasper, as applicable, fails to complete production of the Products [***], Premier shall have the right to use an alternate co-packer for the Products",
+    "bbox": [
+      108,
+      517,
+      1000,
+      531
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "specified in the PO and Heritage shall, or shall cause Jasper to, provide Premier with Premier owned packaging needed to support such production by an",
+    "bbox": [
+      110,
+      533,
+      1000,
+      546
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "alternate co-packer.",
+    "bbox": [
+      112,
+      550,
+      252,
+      561
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "(m) Purchase Orders will be Premier's best estimate of its current requirements, but may be amended up or down or canceled in their entirety",
+    "bbox": [
+      212,
+      580,
+      1000,
+      592
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "by Premier to reflect changing demand for Products. The final Unit quantities on Premier's Purchase Orders will count towards the MAOV. However, if (i).",
+    "bbox": [
+      111,
+      596,
+      1000,
+      608
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "any increase or decrease in Unit volume under a particular PO is greater than [***] of the initial PO quantity and (ii) Premier requests such change or.",
+    "bbox": [
+      111,
+      610,
+      1000,
+      623
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "charge Premier [***]. In no event shall Premier pay [***] if (i) it cancels or modifies any PO prior to the commencement of the [***] Period (i.e.; prior to",
+    "bbox": [
+      112,
+      642,
+      1000,
+      655
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the commencement of the [***] period preceding the Due Date (or Production Date, as applicable), (ii) Heritage or Jasper fails to timely start production in",
+    "bbox": [
+      110,
+      657,
+      1000,
+      671
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "the [***] period before or after the Due Date (or Production Date, as applicable), or (iii) the basis for Premier's cancellation is a breach by Heritage of its.",
+    "bbox": [
+      111,
+      673,
+      1000,
+      685
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "obligations, representations or warranties hereunder.",
+    "bbox": [
+      111,
+      689,
+      496,
+      701
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      667,
+      705,
+      677,
+      716
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+    "bbox": [
+      133,
+      1000,
+      527,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

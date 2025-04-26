@@ -1,0 +1,1938 @@
+[
+  {
+    "text": "Mobility Network General Agreement.",
+    "bbox": [
+      504,
+      115,
+      828,
+      127
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      555,
+      134,
+      777,
+      146
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.38 Software",
+    "bbox": [
+      187,
+      155,
+      305,
+      168
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      154,
+      1000,
+      170
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.39 Specifications",
+    "bbox": [
+      187,
+      176,
+      344,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      173,
+      1000,
+      189
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.40 Subcontractor",
+    "bbox": [
+      186,
+      194,
+      350,
+      208
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      194,
+      1000,
+      209
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.41 Suspend a Site, Suspend or Suspension.",
+    "bbox": [
+      185,
+      215,
+      564,
+      229
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      214,
+      1000,
+      229
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.42 System",
+    "bbox": [
+      185,
+      235,
+      290,
+      249
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      233,
+      1000,
+      249
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.43 Third Party Loss",
+    "bbox": [
+      187,
+      256,
+      369,
+      268
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      254,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.44 Vendor Indemnified Parties",
+    "bbox": [
+      186,
+      275,
+      456,
+      287
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      274,
+      1000,
+      289
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.45 Vendor Person",
+    "bbox": [
+      186,
+      295,
+      354,
+      308
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      294,
+      1000,
+      309
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.46 Work",
+    "bbox": [
+      185,
+      314,
+      276,
+      328
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      314,
+      1000,
+      329
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.47 Writing or Written",
+    "bbox": [
+      185,
+      335,
+      379,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      334,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.1 General Terms",
+    "bbox": [
+      179,
+      355,
+      336,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      354,
+      1000,
+      369
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.2 Affiliate",
+    "bbox": [
+      185,
+      373,
+      292,
+      388
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      374,
+      1000,
+      389
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      394,
+      1000,
+      409
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.4  Anticipated and Actual Delays in Delivery and Performance",
+    "bbox": [
+      187,
+      416,
+      733,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      429
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.5Anticorruption Laws",
+    "bbox": [
+      187,
+      436,
+      402,
+      448
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      434,
+      1000,
+      448
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.6 Assignment and Delegation; Change of Control.",
+    "bbox": [
+      187,
+      456,
+      627,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      453,
+      1000,
+      469
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.7 Compliance with Laws",
+    "bbox": [
+      185,
+      475,
+      421,
+      488
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      474,
+      1000,
+      488
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.8 Conflict of Interest",
+    "bbox": [
+      186,
+      495,
+      387,
+      507
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      493,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.9 Construction and Interpretation",
+    "bbox": [
+      185,
+      514,
+      493,
+      529
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      514,
+      1000,
+      529
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.10Cumulative Remedies",
+    "bbox": [
+      186,
+      534,
+      411,
+      547
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      533,
+      1000,
+      549
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.11 Delivery, Performance and Acceptance.",
+    "bbox": [
+      186,
+      554,
+      561,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.12 Entire Agreement",
+    "bbox": [
+      185,
+      574,
+      377,
+      590
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      573,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.13Force Majeure",
+    "bbox": [
+      186,
+      595,
+      356,
+      609
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      594,
+      1000,
+      608
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.14Government Contract Provisions and Flow Downs",
+    "bbox": [
+      186,
+      614,
+      658,
+      628
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      613,
+      1000,
+      628
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.15 Governing Law",
+    "bbox": [
+      185,
+      634,
+      358,
+      650
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      634,
+      1000,
+      649
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.16Indemnity",
+    "bbox": [
+      185,
+      654,
+      310,
+      669
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      654,
+      1000,
+      669
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.17 Information",
+    "bbox": [
+      186,
+      674,
+      325,
+      688
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      673,
+      1000,
+      689
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.18 Infringement",
+    "bbox": [
+      185,
+      694,
+      333,
+      709
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "21",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      709
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.19 Insurance",
+    "bbox": [
+      185,
+      715,
+      310,
+      728
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      713,
+      1000,
+      728
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.20 Invoicing and Payment",
+    "bbox": [
+      185,
+      734,
+      420,
+      749
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      733,
+      1000,
+      749
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.21Licenses and Patents",
+    "bbox": [
+      186,
+      755,
+      405,
+      768
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      753,
+      1000,
+      769
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.22 Limitation of Damages",
+    "bbox": [
+      186,
+      774,
+      418,
+      789
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      773,
+      1000,
+      788
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.23 Offset Right",
+    "bbox": [
+      186,
+      795,
+      330,
+      809
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      793,
+      1000,
+      808
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.24Material and Services Furnished by Vendor and AT&T",
+    "bbox": [
+      187,
+      815,
+      694,
+      827
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      813,
+      1000,
+      828
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.25 Non-Exclusive Market.",
+    "bbox": [
+      186,
+      834,
+      422,
+      847
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      849
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.26Notice of Certain Events",
+    "bbox": [
+      187,
+      855,
+      438,
+      867
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      853,
+      1000,
+      868
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.27Notices",
+    "bbox": [
+      186,
+      874,
+      294,
+      888
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      873,
+      1000,
+      888
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.28 Offshore Work Prohibited",
+    "bbox": [
+      187,
+      895,
+      449,
+      907
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      893,
+      1000,
+      908
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.29Order of Precedence",
+    "bbox": [
+      186,
+      915,
+      407,
+      927
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      913,
+      1000,
+      929
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.30Ownership of Paid-For Development, Use and Reservation of Rights",
+    "bbox": [
+      187,
+      935,
+      813,
+      948
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      933,
+      1000,
+      949
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.31 Publicity",
+    "bbox": [
+      185,
+      953,
+      299,
+      969
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      953,
+      1000,
+      969
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary and Confidential",
+    "bbox": [
+      562,
+      988,
+      782,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "This Agreement and information contained therein is not for use or disclosure outside of AT&T, its Affiliates, and third",
+    "bbox": [
+      225,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "party representatives, and Vendor except under written agreement by the contracting parties.",
+    "bbox": [
+      322,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      1000,
+      672,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: ATN INTERNATIONAL, INC., 10-Q, 11/8/2019",
+    "bbox": [
+      133,
+      1000,
+      561,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Mobility Network General Agreement.",
+    "bbox": [
+      504,
+      115,
+      828,
+      127
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "TABLE OF CONTENTS",
+    "bbox": [
+      555,
+      134,
+      777,
+      146
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.38 Software",
+    "bbox": [
+      187,
+      155,
+      305,
+      168
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      154,
+      1000,
+      170
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.39 Specifications",
+    "bbox": [
+      187,
+      176,
+      344,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      173,
+      1000,
+      189
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.40 Subcontractor",
+    "bbox": [
+      186,
+      194,
+      350,
+      208
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      194,
+      1000,
+      209
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.41 Suspend a Site, Suspend or Suspension.",
+    "bbox": [
+      185,
+      215,
+      564,
+      229
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      214,
+      1000,
+      229
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.42 System",
+    "bbox": [
+      185,
+      235,
+      290,
+      249
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      233,
+      1000,
+      249
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.43 Third Party Loss",
+    "bbox": [
+      187,
+      256,
+      369,
+      268
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      254,
+      1000,
+      269
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.44 Vendor Indemnified Parties",
+    "bbox": [
+      186,
+      275,
+      456,
+      287
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "7",
+    "bbox": [
+      1000,
+      274,
+      1000,
+      289
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.45 Vendor Person",
+    "bbox": [
+      186,
+      295,
+      354,
+      308
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      294,
+      1000,
+      309
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.46 Work",
+    "bbox": [
+      185,
+      314,
+      276,
+      328
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      314,
+      1000,
+      329
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "2.47 Writing or Written",
+    "bbox": [
+      185,
+      335,
+      379,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      334,
+      1000,
+      349
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.1 General Terms",
+    "bbox": [
+      179,
+      355,
+      336,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      354,
+      1000,
+      369
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.2 Affiliate",
+    "bbox": [
+      185,
+      373,
+      292,
+      388
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      374,
+      1000,
+      389
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      394,
+      1000,
+      409
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.4  Anticipated and Actual Delays in Delivery and Performance",
+    "bbox": [
+      187,
+      416,
+      733,
+      428
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "8",
+    "bbox": [
+      1000,
+      414,
+      1000,
+      429
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.5Anticorruption Laws",
+    "bbox": [
+      187,
+      436,
+      402,
+      448
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      1000,
+      434,
+      1000,
+      448
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.6 Assignment and Delegation; Change of Control.",
+    "bbox": [
+      187,
+      456,
+      627,
+      468
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      1000,
+      453,
+      1000,
+      469
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.7 Compliance with Laws",
+    "bbox": [
+      185,
+      475,
+      421,
+      488
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      474,
+      1000,
+      488
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.8 Conflict of Interest",
+    "bbox": [
+      186,
+      495,
+      387,
+      507
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      493,
+      1000,
+      509
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.9 Construction and Interpretation",
+    "bbox": [
+      185,
+      514,
+      493,
+      529
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      1000,
+      514,
+      1000,
+      529
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.10Cumulative Remedies",
+    "bbox": [
+      186,
+      534,
+      411,
+      547
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      533,
+      1000,
+      549
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.11 Delivery, Performance and Acceptance.",
+    "bbox": [
+      186,
+      554,
+      561,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      1000,
+      554,
+      1000,
+      569
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.12 Entire Agreement",
+    "bbox": [
+      185,
+      574,
+      377,
+      590
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      1000,
+      573,
+      1000,
+      589
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.13Force Majeure",
+    "bbox": [
+      186,
+      595,
+      356,
+      609
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      594,
+      1000,
+      608
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.14Government Contract Provisions and Flow Downs",
+    "bbox": [
+      186,
+      614,
+      658,
+      628
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      1000,
+      613,
+      1000,
+      628
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.15 Governing Law",
+    "bbox": [
+      185,
+      634,
+      358,
+      650
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      634,
+      1000,
+      649
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.16Indemnity",
+    "bbox": [
+      185,
+      654,
+      310,
+      669
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "16",
+    "bbox": [
+      1000,
+      654,
+      1000,
+      669
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.17 Information",
+    "bbox": [
+      186,
+      674,
+      325,
+      688
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "18",
+    "bbox": [
+      1000,
+      673,
+      1000,
+      689
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.18 Infringement",
+    "bbox": [
+      185,
+      694,
+      333,
+      709
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "21",
+    "bbox": [
+      1000,
+      693,
+      1000,
+      709
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.19 Insurance",
+    "bbox": [
+      185,
+      715,
+      310,
+      728
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "25",
+    "bbox": [
+      1000,
+      713,
+      1000,
+      728
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.20 Invoicing and Payment",
+    "bbox": [
+      185,
+      734,
+      420,
+      749
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      733,
+      1000,
+      749
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.21Licenses and Patents",
+    "bbox": [
+      186,
+      755,
+      405,
+      768
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      753,
+      1000,
+      769
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.22 Limitation of Damages",
+    "bbox": [
+      186,
+      774,
+      418,
+      789
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      773,
+      1000,
+      788
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.23 Offset Right",
+    "bbox": [
+      186,
+      795,
+      330,
+      809
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      793,
+      1000,
+      808
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.24Material and Services Furnished by Vendor and AT&T",
+    "bbox": [
+      187,
+      815,
+      694,
+      827
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      813,
+      1000,
+      828
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.25 Non-Exclusive Market.",
+    "bbox": [
+      186,
+      834,
+      422,
+      847
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      833,
+      1000,
+      849
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.26Notice of Certain Events",
+    "bbox": [
+      187,
+      855,
+      438,
+      867
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      853,
+      1000,
+      868
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.27Notices",
+    "bbox": [
+      186,
+      874,
+      294,
+      888
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      873,
+      1000,
+      888
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.28 Offshore Work Prohibited",
+    "bbox": [
+      187,
+      895,
+      449,
+      907
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      893,
+      1000,
+      908
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.29Order of Precedence",
+    "bbox": [
+      186,
+      915,
+      407,
+      927
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      913,
+      1000,
+      929
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.30Ownership of Paid-For Development, Use and Reservation of Rights",
+    "bbox": [
+      187,
+      935,
+      813,
+      948
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      933,
+      1000,
+      949
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3.31 Publicity",
+    "bbox": [
+      185,
+      953,
+      299,
+      969
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      953,
+      1000,
+      969
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Proprietary and Confidential",
+    "bbox": [
+      562,
+      988,
+      782,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "This Agreement and information contained therein is not for use or disclosure outside of AT&T, its Affiliates, and third",
+    "bbox": [
+      225,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "party representatives, and Vendor except under written agreement by the contracting parties.",
+    "bbox": [
+      322,
+      1000,
+      1000,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "3",
+    "bbox": [
+      660,
+      1000,
+      672,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: ATN INTERNATIONAL, INC., 10-Q, 11/8/2019",
+    "bbox": [
+      133,
+      1000,
+      561,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

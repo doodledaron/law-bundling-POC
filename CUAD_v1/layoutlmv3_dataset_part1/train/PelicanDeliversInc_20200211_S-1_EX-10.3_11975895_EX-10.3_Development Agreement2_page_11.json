@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Unless as provided herein, neither Party may assign, delegate, assign, nor subcontract their obligations and duties hereunder without the prior.",
+    "bbox": [
+      111,
+      533,
+      1000,
+      545
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "written consent of the non-assigning Party. Notwithstanding the foregoing, Developer may assign it rights and benefits under this Agreement, and.",
+    "bbox": [
+      111,
+      549,
+      1000,
+      561
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "text": "9.1 No Consequential or Indirect Damages. NEITHER PARTY SHALL BE LIABLE UNDER OR IN CONNECTION WITH THIS AGREEMENT FOR",
+    "bbox": [
+      133,
+      509,
+      1000,
+      521
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "INDIRECT, INCIDENTAL, CONSEQUENTIAL, LIQUIDATED, SPECIAL OR EXEMPLARY DAMAGES OR PENALTIES, INCLUDING WITHOUT",
+    "bbox": [
+      101,
+      526,
+      1000,
+      536
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "LIMITATION. LOSSES OF BUSINESS. REVENUE OR ANTICIPATED PROFITS. REGARDLESS OF WHETHER SUCH DAMAGE WAS",
+    "bbox": [
+      101,
+      543,
+      1000,
+      552
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  },
+  {
+    "text": "FORESEEABLE AND WHETHER LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES",
+    "bbox": [
+      101,
+      559,
+      956,
+      568
+    ],
+    "label": 35,
+    "category": "Cap On Liability"
+  }
+]

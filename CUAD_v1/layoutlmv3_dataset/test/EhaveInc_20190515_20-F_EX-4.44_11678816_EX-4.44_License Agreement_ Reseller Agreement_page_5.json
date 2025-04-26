@@ -1,0 +1,35 @@
+[
+  {
+    "text": "19(c) or by a final non-appealable judgment of a court of competent jurisdiction; or",
+    "bbox": [
+      316,
+      481,
+      937,
+      493
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "(ii)",
+    "bbox": [
+      246,
+      496,
+      269,
+      510
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  },
+  {
+    "text": "at any time after November 1, 2010 CHT fails to achieve annual revenues of $500,000.",
+    "bbox": [
+      314,
+      495,
+      950,
+      509
+    ],
+    "label": 21,
+    "category": "Minimum Commitment"
+  }
+]

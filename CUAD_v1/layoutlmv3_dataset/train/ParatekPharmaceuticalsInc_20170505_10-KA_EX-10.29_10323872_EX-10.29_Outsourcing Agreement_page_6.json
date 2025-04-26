@@ -1,0 +1,1212 @@
+[
+  {
+    "text": "THIS AGREEMENT (this \"Agreement'), dated December 30, 2016 (the \"Effective Date\"), is",
+    "bbox": [
+      111,
+      129,
+      793,
+      142
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "THIS AGREEMENT (this \"Agreement'), dated December 30, 2016 (the \"Effective Date\"), is",
+    "bbox": [
+      111,
+      129,
+      793,
+      142
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THIS AGREEMENT (this \"Agreement'), dated December 30, 2016 (the \"Effective Date\"), is",
+    "bbox": [
+      111,
+      129,
+      793,
+      142
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      112,
+      162,
+      199,
+      172
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Paratek Pharmaceuticals, Inc., a company having a place of business at 75 Park Plaza, 4th Floor, Boston, MA 02116, USA (\"Customer')",
+    "bbox": [
+      112,
+      194,
+      1000,
+      206
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "AND:",
+    "bbox": [
+      111,
+      225,
+      156,
+      237
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "CARBOGEN AMCIS AG, a company having a place of business at Hauptstrasse 171, CH 4416 Bubendorf, Switzerland (\"Supplier\"' and, collectively",
+    "bbox": [
+      111,
+      257,
+      1000,
+      270
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "with Customer, the \"Parties', and each, a \"Party).",
+    "bbox": [
+      110,
+      273,
+      478,
+      286
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      306,
+      202,
+      317
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "A. Customer is the owner of certain technology and patent rights regarding the Product (as defined herein) having the description set out in Exhibit.",
+    "bbox": [
+      112,
+      337,
+      1000,
+      350
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "A (Description of Product) and Exhibit B (Chemical Synthesis);",
+    "bbox": [
+      111,
+      353,
+      583,
+      367
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "B. Customer has filed / intends to file for approval with the United States Food and Drug Administration and/or its foreign equivalents, an",
+    "bbox": [
+      111,
+      386,
+      1000,
+      398
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Investigational New Drug Application (\"IND\") and a New Drug Application (\"NDA\"), and/or the foreign equivalents thereof, for certain",
+    "bbox": [
+      112,
+      402,
+      1000,
+      414
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "formulations containing the Product;.",
+    "bbox": [
+      111,
+      417,
+      389,
+      430
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "C. Supplier is engaged in the business of performing contracted process development, Manufacturing and supply services of active pharmaceutical.",
+    "bbox": [
+      112,
+      450,
+      1000,
+      462
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "ingredients (\"APIs\") and intermediates; and.",
+    "bbox": [
+      110,
+      465,
+      444,
+      478
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "D. Customer desires that Supplier Manufacture the Product in bulk quantities, and Supplier desires to perform such services, each on the terms and.",
+    "bbox": [
+      110,
+      497,
+      1000,
+      510
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "conditions set out in this Agreement..",
+    "bbox": [
+      111,
+      514,
+      391,
+      526
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual covenants and agreements contained herein and other good and valuable",
+    "bbox": [
+      110,
+      545,
+      1000,
+      558
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties hereto agree as follows:",
+    "bbox": [
+      113,
+      562,
+      958,
+      573
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Article 1 Interpretation.",
+    "bbox": [
+      112,
+      601,
+      290,
+      613
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "1.1 Definitions",
+    "bbox": [
+      112,
+      625,
+      226,
+      636
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "In this Agreement, in addition to words and phrases defined where they are used, the following words and phrases shall have the following",
+    "bbox": [
+      110,
+      648,
+      1000,
+      663
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "meanings:",
+    "bbox": [
+      111,
+      666,
+      189,
+      679
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "a) \"Affiliate\"' of a Party shall mean any entity, directly or indirectly, controlling, controlled by, or under common control with a Party. For purposes.",
+    "bbox": [
+      112,
+      698,
+      1000,
+      710
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      111,
+      743,
+      239,
+      754
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Page 7 of 49",
+    "bbox": [
+      1000,
+      742,
+      1000,
+      757
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 5,
+    "category": "Expiration Date"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "THIS AGREEMENT (this \"Agreement'), dated December 30, 2016 (the \"Effective Date\"), is",
+    "bbox": [
+      111,
+      129,
+      793,
+      142
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      112,
+      162,
+      199,
+      172
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Paratek Pharmaceuticals, Inc., a company having a place of business at 75 Park Plaza, 4th Floor, Boston, MA 02116, USA (\"Customer')",
+    "bbox": [
+      112,
+      194,
+      1000,
+      206
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "AND:",
+    "bbox": [
+      111,
+      225,
+      156,
+      237
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "CARBOGEN AMCIS AG, a company having a place of business at Hauptstrasse 171, CH 4416 Bubendorf, Switzerland (\"Supplier\"' and, collectively",
+    "bbox": [
+      111,
+      257,
+      1000,
+      270
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "with Customer, the \"Parties', and each, a \"Party).",
+    "bbox": [
+      110,
+      273,
+      478,
+      286
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      306,
+      202,
+      317
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "A. Customer is the owner of certain technology and patent rights regarding the Product (as defined herein) having the description set out in Exhibit.",
+    "bbox": [
+      112,
+      337,
+      1000,
+      350
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "A (Description of Product) and Exhibit B (Chemical Synthesis);",
+    "bbox": [
+      111,
+      353,
+      583,
+      367
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "B. Customer has filed / intends to file for approval with the United States Food and Drug Administration and/or its foreign equivalents, an",
+    "bbox": [
+      111,
+      386,
+      1000,
+      398
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Investigational New Drug Application (\"IND\") and a New Drug Application (\"NDA\"), and/or the foreign equivalents thereof, for certain",
+    "bbox": [
+      112,
+      402,
+      1000,
+      414
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "formulations containing the Product;.",
+    "bbox": [
+      111,
+      417,
+      389,
+      430
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "C. Supplier is engaged in the business of performing contracted process development, Manufacturing and supply services of active pharmaceutical.",
+    "bbox": [
+      112,
+      450,
+      1000,
+      462
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "ingredients (\"APIs\") and intermediates; and.",
+    "bbox": [
+      110,
+      465,
+      444,
+      478
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "D. Customer desires that Supplier Manufacture the Product in bulk quantities, and Supplier desires to perform such services, each on the terms and.",
+    "bbox": [
+      110,
+      497,
+      1000,
+      510
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "conditions set out in this Agreement..",
+    "bbox": [
+      111,
+      514,
+      391,
+      526
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual covenants and agreements contained herein and other good and valuable",
+    "bbox": [
+      110,
+      545,
+      1000,
+      558
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties hereto agree as follows:",
+    "bbox": [
+      113,
+      562,
+      958,
+      573
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Article 1 Interpretation.",
+    "bbox": [
+      112,
+      601,
+      290,
+      613
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "1.1 Definitions",
+    "bbox": [
+      112,
+      625,
+      226,
+      636
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "In this Agreement, in addition to words and phrases defined where they are used, the following words and phrases shall have the following",
+    "bbox": [
+      110,
+      648,
+      1000,
+      663
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "meanings:",
+    "bbox": [
+      111,
+      666,
+      189,
+      679
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "a) \"Affiliate\"' of a Party shall mean any entity, directly or indirectly, controlling, controlled by, or under common control with a Party. For purposes.",
+    "bbox": [
+      112,
+      698,
+      1000,
+      710
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      111,
+      743,
+      239,
+      754
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Page 7 of 49",
+    "bbox": [
+      1000,
+      742,
+      1000,
+      757
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 26,
+    "category": "Non-Transferable License"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIS AGREEMENT (this \"Agreement'), dated December 30, 2016 (the \"Effective Date\"), is",
+    "bbox": [
+      111,
+      129,
+      793,
+      142
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      112,
+      162,
+      199,
+      172
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Paratek Pharmaceuticals, Inc., a company having a place of business at 75 Park Plaza, 4th Floor, Boston, MA 02116, USA (\"Customer')",
+    "bbox": [
+      112,
+      194,
+      1000,
+      206
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "AND:",
+    "bbox": [
+      111,
+      225,
+      156,
+      237
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CARBOGEN AMCIS AG, a company having a place of business at Hauptstrasse 171, CH 4416 Bubendorf, Switzerland (\"Supplier\"' and, collectively",
+    "bbox": [
+      111,
+      257,
+      1000,
+      270
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "with Customer, the \"Parties', and each, a \"Party).",
+    "bbox": [
+      110,
+      273,
+      478,
+      286
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      306,
+      202,
+      317
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "A. Customer is the owner of certain technology and patent rights regarding the Product (as defined herein) having the description set out in Exhibit.",
+    "bbox": [
+      112,
+      337,
+      1000,
+      350
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "A (Description of Product) and Exhibit B (Chemical Synthesis);",
+    "bbox": [
+      111,
+      353,
+      583,
+      367
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "B. Customer has filed / intends to file for approval with the United States Food and Drug Administration and/or its foreign equivalents, an",
+    "bbox": [
+      111,
+      386,
+      1000,
+      398
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Investigational New Drug Application (\"IND\") and a New Drug Application (\"NDA\"), and/or the foreign equivalents thereof, for certain",
+    "bbox": [
+      112,
+      402,
+      1000,
+      414
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "formulations containing the Product;.",
+    "bbox": [
+      111,
+      417,
+      389,
+      430
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "C. Supplier is engaged in the business of performing contracted process development, Manufacturing and supply services of active pharmaceutical.",
+    "bbox": [
+      112,
+      450,
+      1000,
+      462
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "ingredients (\"APIs\") and intermediates; and.",
+    "bbox": [
+      110,
+      465,
+      444,
+      478
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "D. Customer desires that Supplier Manufacture the Product in bulk quantities, and Supplier desires to perform such services, each on the terms and.",
+    "bbox": [
+      110,
+      497,
+      1000,
+      510
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "conditions set out in this Agreement..",
+    "bbox": [
+      111,
+      514,
+      391,
+      526
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual covenants and agreements contained herein and other good and valuable",
+    "bbox": [
+      110,
+      545,
+      1000,
+      558
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties hereto agree as follows:",
+    "bbox": [
+      113,
+      562,
+      958,
+      573
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Article 1 Interpretation.",
+    "bbox": [
+      112,
+      601,
+      290,
+      613
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1.1 Definitions",
+    "bbox": [
+      112,
+      625,
+      226,
+      636
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "In this Agreement, in addition to words and phrases defined where they are used, the following words and phrases shall have the following",
+    "bbox": [
+      110,
+      648,
+      1000,
+      663
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "meanings:",
+    "bbox": [
+      111,
+      666,
+      189,
+      679
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "a) \"Affiliate\"' of a Party shall mean any entity, directly or indirectly, controlling, controlled by, or under common control with a Party. For purposes.",
+    "bbox": [
+      112,
+      698,
+      1000,
+      710
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      111,
+      743,
+      239,
+      754
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Page 7 of 49",
+    "bbox": [
+      1000,
+      742,
+      1000,
+      757
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      127,
+      84,
+      1000,
+      94
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "THIS AGREEMENT (this \"Agreement'), dated December 30, 2016 (the \"Effective Date\"), is",
+    "bbox": [
+      111,
+      129,
+      793,
+      142
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "BETWEEN:",
+    "bbox": [
+      112,
+      162,
+      199,
+      172
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Paratek Pharmaceuticals, Inc., a company having a place of business at 75 Park Plaza, 4th Floor, Boston, MA 02116, USA (\"Customer')",
+    "bbox": [
+      112,
+      194,
+      1000,
+      206
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "AND:",
+    "bbox": [
+      111,
+      225,
+      156,
+      237
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "CARBOGEN AMCIS AG, a company having a place of business at Hauptstrasse 171, CH 4416 Bubendorf, Switzerland (\"Supplier\"' and, collectively",
+    "bbox": [
+      111,
+      257,
+      1000,
+      270
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "with Customer, the \"Parties', and each, a \"Party).",
+    "bbox": [
+      110,
+      273,
+      478,
+      286
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "WHEREAS:",
+    "bbox": [
+      112,
+      306,
+      202,
+      317
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "A. Customer is the owner of certain technology and patent rights regarding the Product (as defined herein) having the description set out in Exhibit.",
+    "bbox": [
+      112,
+      337,
+      1000,
+      350
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "A (Description of Product) and Exhibit B (Chemical Synthesis);",
+    "bbox": [
+      111,
+      353,
+      583,
+      367
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "B. Customer has filed / intends to file for approval with the United States Food and Drug Administration and/or its foreign equivalents, an",
+    "bbox": [
+      111,
+      386,
+      1000,
+      398
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Investigational New Drug Application (\"IND\") and a New Drug Application (\"NDA\"), and/or the foreign equivalents thereof, for certain",
+    "bbox": [
+      112,
+      402,
+      1000,
+      414
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "formulations containing the Product;.",
+    "bbox": [
+      111,
+      417,
+      389,
+      430
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "C. Supplier is engaged in the business of performing contracted process development, Manufacturing and supply services of active pharmaceutical.",
+    "bbox": [
+      112,
+      450,
+      1000,
+      462
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "ingredients (\"APIs\") and intermediates; and.",
+    "bbox": [
+      110,
+      465,
+      444,
+      478
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "D. Customer desires that Supplier Manufacture the Product in bulk quantities, and Supplier desires to perform such services, each on the terms and.",
+    "bbox": [
+      110,
+      497,
+      1000,
+      510
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "conditions set out in this Agreement..",
+    "bbox": [
+      111,
+      514,
+      391,
+      526
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "NOw THEREFORE, in consideration of the premises and the mutual covenants and agreements contained herein and other good and valuable",
+    "bbox": [
+      110,
+      545,
+      1000,
+      558
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties hereto agree as follows:",
+    "bbox": [
+      113,
+      562,
+      958,
+      573
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Article 1 Interpretation.",
+    "bbox": [
+      112,
+      601,
+      290,
+      613
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "1.1 Definitions",
+    "bbox": [
+      112,
+      625,
+      226,
+      636
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "In this Agreement, in addition to words and phrases defined where they are used, the following words and phrases shall have the following",
+    "bbox": [
+      110,
+      648,
+      1000,
+      663
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "meanings:",
+    "bbox": [
+      111,
+      666,
+      189,
+      679
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "a) \"Affiliate\"' of a Party shall mean any entity, directly or indirectly, controlling, controlled by, or under common control with a Party. For purposes.",
+    "bbox": [
+      112,
+      698,
+      1000,
+      710
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      111,
+      743,
+      239,
+      754
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Page 7 of 49",
+    "bbox": [
+      1000,
+      742,
+      1000,
+      757
+    ],
+    "label": 38,
+    "category": "Insurance"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 38,
+    "category": "Insurance"
+  }
+]

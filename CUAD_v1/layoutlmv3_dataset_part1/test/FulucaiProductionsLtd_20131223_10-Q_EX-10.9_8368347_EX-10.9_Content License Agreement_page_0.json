@@ -1,0 +1,9011 @@
+[
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 4,
+    "category": "Effective Date"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 6,
+    "category": "Renewal Term"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 11,
+    "category": "Exclusivity"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 19,
+    "category": "Revenue/Profit Sharing"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 25,
+    "category": "License Grant"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 27,
+    "category": "Affiliate License-Licensee"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 29,
+    "category": "Unlimited/All-You-Can-Eat-License"
+  },
+  {
+    "text": "CONTENT DISTRIBUTION AND LICENSE AGREEMENT",
+    "bbox": [
+      442,
+      76,
+      889,
+      86
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Deal Terms",
+    "bbox": [
+      622,
+      108,
+      707,
+      119
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Licensed Program/ Film or Video",
+    "bbox": [
+      102,
+      142,
+      342,
+      153
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Inevitable",
+    "bbox": [
+      543,
+      142,
+      618,
+      153
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "\"Licensed Rights\"' to ConvergTV and ConvergTV.",
+    "bbox": [
+      101,
+      160,
+      474,
+      172
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "] All, including but not limited to:",
+    "bbox": [
+      543,
+      159,
+      806,
+      172
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Channels and/or Distribution Outlets.",
+    "bbox": [
+      100,
+      176,
+      379,
+      187
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[Simultaneous Internet Streaming",
+    "bbox": [
+      543,
+      175,
+      807,
+      188
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] OTT Television",
+    "bbox": [
+      543,
+      191,
+      687,
+      203
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Internet Protocol Television",
+    "bbox": [
+      543,
+      207,
+      778,
+      219
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Radio, short wave, microwave, fiber optic",
+    "bbox": [
+      543,
+      223,
+      877,
+      236
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Alternative, secondary and specialty distribution",
+    "bbox": [
+      543,
+      239,
+      935,
+      251
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Stored as VOD, Content Distribution Networks/Company Servers",
+    "bbox": [
+      543,
+      255,
+      1000,
+      268
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Full Television Broadcast Rights:",
+    "bbox": [
+      544,
+      271,
+      816,
+      283
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Free: Terrestrial, Cable, Satellite",
+    "bbox": [
+      544,
+      287,
+      802,
+      299
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Pay: Terrestrial, Cable, Satellite",
+    "bbox": [
+      543,
+      304,
+      799,
+      316
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Direct Satellite IP Distribution Systems",
+    "bbox": [
+      543,
+      319,
+      858,
+      331
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Licensed Territory.",
+    "bbox": [
+      100,
+      336,
+      238,
+      351
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Worldwide",
+    "bbox": [
+      544,
+      337,
+      650,
+      348
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": " Other:",
+    "bbox": [
+      541,
+      352,
+      616,
+      366
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "License Term",
+    "bbox": [
+      98,
+      370,
+      201,
+      384
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Perpetual, unlimited runs.",
+    "bbox": [
+      543,
+      372,
+      730,
+      384
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[] Other: 2 years",
+    "bbox": [
+      543,
+      387,
+      672,
+      400
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Commencing: November 15, 2012",
+    "bbox": [
+      543,
+      404,
+      790,
+      416
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Run Dates",
+    "bbox": [
+      100,
+      422,
+      180,
+      433
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Within ConvergTV determined parameters.",
+    "bbox": [
+      543,
+      421,
+      863,
+      434
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "License Consideration",
+    "bbox": [
+      101,
+      440,
+      268,
+      450
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Revenue Share as specified in this CONTENT DISTRIBUTION AND LICENSE",
+    "bbox": [
+      543,
+      440,
+      1000,
+      451
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "AGREEMENT.",
+    "bbox": [
+      544,
+      456,
+      654,
+      466
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Authorized Language",
+    "bbox": [
+      100,
+      472,
+      264,
+      487
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Primary:",
+    "bbox": [
+      541,
+      472,
+      605,
+      487
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "[x] All",
+    "bbox": [
+      543,
+      490,
+      591,
+      501
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": " Other (specify):",
+    "bbox": [
+      542,
+      504,
+      688,
+      519
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "May be subtitled or translated by ConvergTV into foreign language(s)..",
+    "bbox": [
+      543,
+      522,
+      1000,
+      533
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Additional Termss",
+    "bbox": [
+      101,
+      540,
+      232,
+      550
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Closed Captioned Version, - NTSC, PAL, SEACAM or standards to be developed, provided",
+    "bbox": [
+      543,
+      540,
+      1000,
+      552
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "by ConvergTV.",
+    "bbox": [
+      543,
+      555,
+      657,
+      568
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Producer Information",
+    "bbox": [
+      100,
+      573,
+      260,
+      585
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Producer: Fulucai Productions Ltd..",
+    "bbox": [
+      543,
+      574,
+      804,
+      584
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Name of Contact: James Durward",
+    "bbox": [
+      543,
+      589,
+      791,
+      600
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Address: 3632-13 St. SW, Calgary, Alberta, Canada, T2T 3R1.",
+    "bbox": [
+      543,
+      606,
+      996,
+      618
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Telephone: 403-689-3901",
+    "bbox": [
+      543,
+      622,
+      725,
+      632
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Email: jimdurward@shaw.ca",
+    "bbox": [
+      543,
+      638,
+      751,
+      648
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "1",
+    "bbox": [
+      661,
+      686,
+      670,
+      696
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  },
+  {
+    "text": "Source: FULUCAI PRODUCTIONS LTD., 10-Q, 12/23/2013",
+    "bbox": [
+      134,
+      1000,
+      590,
+      1000
+    ],
+    "label": 33,
+    "category": "Audit Rights"
+  }
+]

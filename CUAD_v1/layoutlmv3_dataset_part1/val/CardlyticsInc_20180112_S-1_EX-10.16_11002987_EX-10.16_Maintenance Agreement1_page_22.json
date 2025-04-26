@@ -1,0 +1,970 @@
+[
+  {
+    "text": "Customer Information and Consumer Information, during or after the Term of this Agreement, other than on a \"need to know\"' basis and",
+    "bbox": [
+      168,
+      84,
+      1000,
+      95
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "at any level, agents and consultants, provided that all such persons are subject to a written confidentiality agreement that shall be no less",
+    "bbox": [
+      166,
+      116,
+      1000,
+      128
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "restrictive than the provisions of this Section; (d) pursuant to the exceptions set forth in 15 U.S.C 6802(e) and accompanying regulations,",
+    "bbox": [
+      165,
+      131,
+      1000,
+      144
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "which disclosures are made in the ordinary course of business and (e) as required by law or as otherwise expressly permitted by this",
+    "bbox": [
+      167,
+      148,
+      1000,
+      159
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement. Recipient shall not use or disclose Confidential Information of the other Party for any purpose other than to carry out this",
+    "bbox": [
+      167,
+      164,
+      1000,
+      176
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Agreement. Recipient shall treat Confidential Information of the other Party with no less care than it employs for its own Confidential",
+    "bbox": [
+      166,
+      179,
+      1000,
+      192
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Information of a similar nature that it does not wish to disclose, publish or disseminate, but not less than a reasonable level of care. Upon.",
+    "bbox": [
+      165,
+      196,
+      1000,
+      207
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "expiration or termination of this Agreement for any reason or at the written request of Bank of America during the Term of this Agreement.",
+    "bbox": [
+      166,
+      212,
+      1000,
+      224
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Supplier shall promptly return to Bank of America or destroy according to the Information Destruction Requirements described within",
+    "bbox": [
+      167,
+      228,
+      1000,
+      240
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "SCHEDULE E, \"Information Security . at Bank of America's election, all Bank of America Confidential Information in the possession of",
+    "bbox": [
+      167,
+      244,
+      1000,
+      256
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Supplier or Supplier's Subcontractors, subject to and in accordance with the terms and provisions of this Agreement.",
+    "bbox": [
+      167,
+      260,
+      1000,
+      272
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27.3",
+    "bbox": [
+      109,
+      284,
+      143,
+      298
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "To the extent legally permitted, Recipient shall notify Discloser of any actual or threatened requirement of law to disclose Confidential",
+    "bbox": [
+      166,
+      285,
+      1000,
+      297
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Information promptly upon receiving actual knowledge thereof and shall cooperate with Discloser's reasonable, lawful efforts to resist, limit",
+    "bbox": [
+      165,
+      300,
+      1000,
+      315
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or delay disclosure. Nothing in this Section shall require any notice or other action by Bank of America in connection with requests or",
+    "bbox": [
+      167,
+      318,
+      1000,
+      330
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "demands for Confidential Information by bank examiners..",
+    "bbox": [
+      167,
+      334,
+      594,
+      345
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27.4",
+    "bbox": [
+      109,
+      358,
+      144,
+      372
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Supplier shall not remove or download from Bank of America's premises or systems, the original or any reproduction of any notes,",
+    "bbox": [
+      167,
+      360,
+      1000,
+      372
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "memoranda, files, records, or other documents, whether in tangible or electronic form, containing Bank of America's Confidential Information",
+    "bbox": [
+      165,
+      376,
+      1000,
+      388
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or any document prepared by or on behalf of Supplier that contains or is based on Bank of America's Confidential Information, without the",
+    "bbox": [
+      166,
+      391,
+      1000,
+      404
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "prior written consent of an authorized Representative of Bank of America. Any document or media provided by an authorized Bank of",
+    "bbox": [
+      165,
+      407,
+      1000,
+      420
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "America Representative or notes taken to document discussions with Bank of America Representatives pertaining to the Products provided",
+    "bbox": [
+      166,
+      423,
+      1000,
+      436
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "hereunder will be deemed to fall outside this consent requirement unless otherwise stated by the Bank of America Representative.",
+    "bbox": [
+      165,
+      440,
+      1000,
+      452
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27.5",
+    "bbox": [
+      109,
+      464,
+      143,
+      478
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "With the exception of Associate Information, Customer Information and Consumer Information, the obligations of confidentiality in this",
+    "bbox": [
+      168,
+      465,
+      1000,
+      478
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Section shall not apply to any information that (i) Recipient rightfully has in its possession when disclosed to it, free of obligation to",
+    "bbox": [
+      166,
+      481,
+      1000,
+      494
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Discloser to maintain its confidentiality; (ii) Recipient independently develops without access to Discloser's Confidential Information; (iii) is",
+    "bbox": [
+      165,
+      497,
+      1000,
+      510
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or becomes known to the public other than by breach of this Section or (iv) is rightfully received by Recipient from a third party without the",
+    "bbox": [
+      167,
+      514,
+      1000,
+      525
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "obligation of confidentiality. Any combination of Confidential Information disclosed with information not so classified shall not be deemed",
+    "bbox": [
+      167,
+      529,
+      1000,
+      541
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "to be within one of the foregoing exclusions merely because individual portions of such combination are free of any confidentiality",
+    "bbox": [
+      166,
+      546,
+      1000,
+      558
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "obligation or are separately known in the public domain..",
+    "bbox": [
+      167,
+      562,
+      588,
+      574
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27.6",
+    "bbox": [
+      109,
+      586,
+      144,
+      599
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Bank of America may disclose Confidential Information of Supplier to independent contractors for the purpose of further handling.",
+    "bbox": [
+      165,
+      587,
+      1000,
+      600
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "processing, modifying and adapting the Products for use by or for Bank of America, provided that such independent contractors have",
+    "bbox": [
+      165,
+      603,
+      1000,
+      616
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "agreed to observe in substance the obligations of Bank of America set forth in this Section.",
+    "bbox": [
+      165,
+      619,
+      852,
+      632
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "27.7",
+    "bbox": [
+      109,
+      644,
+      143,
+      658
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "All Confidential Information disclosed by Bank of America and any results of processing such Confidential Information or derived in any",
+    "bbox": [
+      167,
+      645,
+      1000,
+      658
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "way therefrom shall at all times remain the property of Bank of America. Supplier shall have the responsibility for and bear all risk of loss or",
+    "bbox": [
+      167,
+      662,
+      1000,
+      674
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "damage to Confidential Information and damages resulting from improper or inaccurate processing of such data arising from the negligence",
+    "bbox": [
+      166,
+      677,
+      1000,
+      690
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "or willful misconduct of Supplier, its Representatives or Subcontractors.",
+    "bbox": [
+      167,
+      694,
+      705,
+      705
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Proprietary to Bank of America.",
+    "bbox": [
+      113,
+      731,
+      350,
+      744
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Page 21",
+    "bbox": [
+      656,
+      730,
+      721,
+      744
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      731,
+      1000,
+      743
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      133,
+      1000,
+      477,
+      1000
+    ],
+    "label": 15,
+    "category": "Termination For Convenience"
+  },
+  {
+    "text": "Customer Information and Consumer Information, during or after the Term of this Agreement, other than on a \"need to know\"' basis and",
+    "bbox": [
+      168,
+      84,
+      1000,
+      95
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "at any level, agents and consultants, provided that all such persons are subject to a written confidentiality agreement that shall be no less",
+    "bbox": [
+      166,
+      116,
+      1000,
+      128
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "restrictive than the provisions of this Section; (d) pursuant to the exceptions set forth in 15 U.S.C 6802(e) and accompanying regulations,",
+    "bbox": [
+      165,
+      131,
+      1000,
+      144
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "which disclosures are made in the ordinary course of business and (e) as required by law or as otherwise expressly permitted by this",
+    "bbox": [
+      167,
+      148,
+      1000,
+      159
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Agreement. Recipient shall not use or disclose Confidential Information of the other Party for any purpose other than to carry out this",
+    "bbox": [
+      167,
+      164,
+      1000,
+      176
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Agreement. Recipient shall treat Confidential Information of the other Party with no less care than it employs for its own Confidential",
+    "bbox": [
+      166,
+      179,
+      1000,
+      192
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Information of a similar nature that it does not wish to disclose, publish or disseminate, but not less than a reasonable level of care. Upon.",
+    "bbox": [
+      165,
+      196,
+      1000,
+      207
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "expiration or termination of this Agreement for any reason or at the written request of Bank of America during the Term of this Agreement.",
+    "bbox": [
+      166,
+      212,
+      1000,
+      224
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Supplier shall promptly return to Bank of America or destroy according to the Information Destruction Requirements described within",
+    "bbox": [
+      167,
+      228,
+      1000,
+      240
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "SCHEDULE E, \"Information Security . at Bank of America's election, all Bank of America Confidential Information in the possession of",
+    "bbox": [
+      167,
+      244,
+      1000,
+      256
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Supplier or Supplier's Subcontractors, subject to and in accordance with the terms and provisions of this Agreement.",
+    "bbox": [
+      167,
+      260,
+      1000,
+      272
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "27.3",
+    "bbox": [
+      109,
+      284,
+      143,
+      298
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "To the extent legally permitted, Recipient shall notify Discloser of any actual or threatened requirement of law to disclose Confidential",
+    "bbox": [
+      166,
+      285,
+      1000,
+      297
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Information promptly upon receiving actual knowledge thereof and shall cooperate with Discloser's reasonable, lawful efforts to resist, limit",
+    "bbox": [
+      165,
+      300,
+      1000,
+      315
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "or delay disclosure. Nothing in this Section shall require any notice or other action by Bank of America in connection with requests or",
+    "bbox": [
+      167,
+      318,
+      1000,
+      330
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "demands for Confidential Information by bank examiners..",
+    "bbox": [
+      167,
+      334,
+      594,
+      345
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "27.4",
+    "bbox": [
+      109,
+      358,
+      144,
+      372
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Supplier shall not remove or download from Bank of America's premises or systems, the original or any reproduction of any notes,",
+    "bbox": [
+      167,
+      360,
+      1000,
+      372
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "memoranda, files, records, or other documents, whether in tangible or electronic form, containing Bank of America's Confidential Information",
+    "bbox": [
+      165,
+      376,
+      1000,
+      388
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "or any document prepared by or on behalf of Supplier that contains or is based on Bank of America's Confidential Information, without the",
+    "bbox": [
+      166,
+      391,
+      1000,
+      404
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "prior written consent of an authorized Representative of Bank of America. Any document or media provided by an authorized Bank of",
+    "bbox": [
+      165,
+      407,
+      1000,
+      420
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "America Representative or notes taken to document discussions with Bank of America Representatives pertaining to the Products provided",
+    "bbox": [
+      166,
+      423,
+      1000,
+      436
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "hereunder will be deemed to fall outside this consent requirement unless otherwise stated by the Bank of America Representative.",
+    "bbox": [
+      165,
+      440,
+      1000,
+      452
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "27.5",
+    "bbox": [
+      109,
+      464,
+      143,
+      478
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "With the exception of Associate Information, Customer Information and Consumer Information, the obligations of confidentiality in this",
+    "bbox": [
+      168,
+      465,
+      1000,
+      478
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Section shall not apply to any information that (i) Recipient rightfully has in its possession when disclosed to it, free of obligation to",
+    "bbox": [
+      166,
+      481,
+      1000,
+      494
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Discloser to maintain its confidentiality; (ii) Recipient independently develops without access to Discloser's Confidential Information; (iii) is",
+    "bbox": [
+      165,
+      497,
+      1000,
+      510
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "or becomes known to the public other than by breach of this Section or (iv) is rightfully received by Recipient from a third party without the",
+    "bbox": [
+      167,
+      514,
+      1000,
+      525
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "obligation of confidentiality. Any combination of Confidential Information disclosed with information not so classified shall not be deemed",
+    "bbox": [
+      167,
+      529,
+      1000,
+      541
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "to be within one of the foregoing exclusions merely because individual portions of such combination are free of any confidentiality",
+    "bbox": [
+      166,
+      546,
+      1000,
+      558
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "obligation or are separately known in the public domain..",
+    "bbox": [
+      167,
+      562,
+      588,
+      574
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "27.6",
+    "bbox": [
+      109,
+      586,
+      144,
+      599
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Bank of America may disclose Confidential Information of Supplier to independent contractors for the purpose of further handling.",
+    "bbox": [
+      165,
+      587,
+      1000,
+      600
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "processing, modifying and adapting the Products for use by or for Bank of America, provided that such independent contractors have",
+    "bbox": [
+      165,
+      603,
+      1000,
+      616
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "agreed to observe in substance the obligations of Bank of America set forth in this Section.",
+    "bbox": [
+      165,
+      619,
+      852,
+      632
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "27.7",
+    "bbox": [
+      109,
+      644,
+      143,
+      658
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "All Confidential Information disclosed by Bank of America and any results of processing such Confidential Information or derived in any",
+    "bbox": [
+      167,
+      645,
+      1000,
+      658
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "way therefrom shall at all times remain the property of Bank of America. Supplier shall have the responsibility for and bear all risk of loss or",
+    "bbox": [
+      167,
+      662,
+      1000,
+      674
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "damage to Confidential Information and damages resulting from improper or inaccurate processing of such data arising from the negligence",
+    "bbox": [
+      166,
+      677,
+      1000,
+      690
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "or willful misconduct of Supplier, its Representatives or Subcontractors.",
+    "bbox": [
+      167,
+      694,
+      705,
+      705
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Proprietary to Bank of America.",
+    "bbox": [
+      113,
+      731,
+      350,
+      744
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Page 21",
+    "bbox": [
+      656,
+      730,
+      721,
+      744
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "vTIP2010",
+    "bbox": [
+      1000,
+      731,
+      1000,
+      743
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  },
+  {
+    "text": "Source: CARDLYTICS, INC., S-1, 1/12/2018",
+    "bbox": [
+      133,
+      1000,
+      477,
+      1000
+    ],
+    "label": 17,
+    "category": "Change Of Control"
+  }
+]

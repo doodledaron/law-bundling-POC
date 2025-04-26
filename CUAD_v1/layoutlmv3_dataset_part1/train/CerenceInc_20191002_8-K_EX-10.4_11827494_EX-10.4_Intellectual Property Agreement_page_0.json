@@ -1,0 +1,57 @@
+[
+  {
+    "text": "INTELLECTUAL PROPERTY AGREEMENT",
+    "bbox": [
+      512,
+      111,
+      831,
+      122
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Cerence Inc.",
+    "bbox": [
+      627,
+      236,
+      716,
+      247
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Nuance Communications, Inc.",
+    "bbox": [
+      562,
+      173,
+      779,
+      184
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Nuance Communications, Inc.",
+    "bbox": [
+      562,
+      173,
+      779,
+      184
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dated as of September 30, 2019",
+    "bbox": [
+      559,
+      266,
+      785,
+      279
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

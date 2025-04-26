@@ -1,0 +1,1652 @@
+[
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      128,
+      85,
+      1000,
+      94
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "NOISSINWON HNNVHMXA INV SHILINNMHS HHL HLI ATLVNVdHS CII NAGN SVH CNV I* * * HLIM CINVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      137,
+      168,
+      149
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      128,
+      153,
+      152,
+      166
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Invoicing and Payment",
+    "bbox": [
+      195,
+      153,
+      370,
+      166
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      153,
+      1000,
+      166
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "10.1 Issuance of Invoices.",
+    "bbox": [
+      149,
+      176,
+      350,
+      190
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      176,
+      1000,
+      190
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "10.2 Invoice Contents",
+    "bbox": [
+      148,
+      200,
+      324,
+      214
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      201,
+      1000,
+      214
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "10.3 Delay of Shipment",
+    "bbox": [
+      149,
+      225,
+      338,
+      238
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      225,
+      1000,
+      238
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "10.4 Payment of Invoices.",
+    "bbox": [
+      150,
+      249,
+      349,
+      261
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      249,
+      1000,
+      262
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      273,
+      168,
+      285
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      128,
+      288,
+      150,
+      302
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Intellectual Property",
+    "bbox": [
+      196,
+      290,
+      355,
+      302
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      287,
+      1000,
+      302
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.1 Title",
+    "bbox": [
+      149,
+      313,
+      235,
+      326
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      312,
+      1000,
+      326
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.2",
+    "bbox": [
+      150,
+      338,
+      185,
+      348
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "No Grant of Rights",
+    "bbox": [
+      178,
+      337,
+      341,
+      350
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      336,
+      1000,
+      351
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.3",
+    "bbox": [
+      150,
+      361,
+      185,
+      373
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Grant of License by Customer",
+    "bbox": [
+      194,
+      361,
+      427,
+      373
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      360,
+      1000,
+      374
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.4",
+    "bbox": [
+      150,
+      387,
+      186,
+      396
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Ownership of Inventions",
+    "bbox": [
+      194,
+      386,
+      383,
+      398
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      398
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.5",
+    "bbox": [
+      150,
+      410,
+      186,
+      420
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": " Patents to Inventionss",
+    "bbox": [
+      192,
+      411,
+      356,
+      420
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      409,
+      1000,
+      422
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.6",
+    "bbox": [
+      150,
+      434,
+      186,
+      444
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": " No Use of Trademarks",
+    "bbox": [
+      191,
+      434,
+      366,
+      444
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      433,
+      1000,
+      446
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "11.7",
+    "bbox": [
+      150,
+      457,
+      197,
+      469
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "[* * *]",
+    "bbox": [
+      190,
+      457,
+      247,
+      470
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      481,
+      169,
+      493
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      127,
+      497,
+      152,
+      509
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Confidentiality & Publicity",
+    "bbox": [
+      197,
+      498,
+      402,
+      509
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      496,
+      1000,
+      509
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12.1Obligation of Confidentiality",
+    "bbox": [
+      150,
+      521,
+      414,
+      534
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      521,
+      1000,
+      534
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12.2Disclosure with Consent",
+    "bbox": [
+      149,
+      545,
+      387,
+      557
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      544,
+      1000,
+      558
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12.3 Publicity",
+    "bbox": [
+      147,
+      567,
+      266,
+      583
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      568,
+      1000,
+      582
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12.4  Disclosure Required by Law",
+    "bbox": [
+      148,
+      593,
+      412,
+      606
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      593,
+      1000,
+      606
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12.5 Employee Confidentiality and Invention Assignment",
+    "bbox": [
+      148,
+      616,
+      591,
+      630
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      616,
+      1000,
+      629
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "12.6 Duration of Obligation",
+    "bbox": [
+      148,
+      640,
+      371,
+      654
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      640,
+      1000,
+      654
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      665,
+      168,
+      677
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      127,
+      681,
+      152,
+      694
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Representations, Warranties and Covenants",
+    "bbox": [
+      197,
+      682,
+      535,
+      694
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      681,
+      1000,
+      693
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "13.1Supplier's Representations, Warranties and Covenants",
+    "bbox": [
+      150,
+      706,
+      618,
+      718
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      704,
+      1000,
+      718
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "13.2Customer's Representations, Warranties and Covenants",
+    "bbox": [
+      148,
+      728,
+      628,
+      742
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      728,
+      1000,
+      742
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "13.3 No Other Warranty",
+    "bbox": [
+      148,
+      752,
+      347,
+      767
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      752,
+      1000,
+      766
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "13.4No Consequential Damages and Limitation of Liability",
+    "bbox": [
+      149,
+      776,
+      610,
+      790
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      776,
+      1000,
+      789
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      800,
+      169,
+      813
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      128,
+      817,
+      152,
+      829
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Indemnification",
+    "bbox": [
+      195,
+      817,
+      316,
+      829
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      817,
+      1000,
+      829
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "14.1 Indemnification of Supplier",
+    "bbox": [
+      149,
+      840,
+      405,
+      854
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      840,
+      1000,
+      854
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      872,
+      241,
+      882
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Page 4 of 49",
+    "bbox": [
+      1000,
+      870,
+      1000,
+      884
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS EXHIBIT HAS BEEN REDACTED AND IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REOUEST. REDACTED MATERIAL IS",
+    "bbox": [
+      128,
+      85,
+      1000,
+      94
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "NOISSINWON HNNVHMXA INV SHILINNMHS HHL HLI ATLVNVdHS CII NAGN SVH CNV I* * * HLIM CINVN",
+    "bbox": [
+      192,
+      100,
+      1000,
+      111
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      137,
+      168,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10",
+    "bbox": [
+      128,
+      153,
+      152,
+      166
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Invoicing and Payment",
+    "bbox": [
+      195,
+      153,
+      370,
+      166
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      153,
+      1000,
+      166
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.1 Issuance of Invoices.",
+    "bbox": [
+      149,
+      176,
+      350,
+      190
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      176,
+      1000,
+      190
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.2 Invoice Contents",
+    "bbox": [
+      148,
+      200,
+      324,
+      214
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "26",
+    "bbox": [
+      1000,
+      201,
+      1000,
+      214
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.3 Delay of Shipment",
+    "bbox": [
+      149,
+      225,
+      338,
+      238
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      225,
+      1000,
+      238
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "10.4 Payment of Invoices.",
+    "bbox": [
+      150,
+      249,
+      349,
+      261
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      249,
+      1000,
+      262
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      273,
+      168,
+      285
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11",
+    "bbox": [
+      128,
+      288,
+      150,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Intellectual Property",
+    "bbox": [
+      196,
+      290,
+      355,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      287,
+      1000,
+      302
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.1 Title",
+    "bbox": [
+      149,
+      313,
+      235,
+      326
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      312,
+      1000,
+      326
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.2",
+    "bbox": [
+      150,
+      338,
+      185,
+      348
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "No Grant of Rights",
+    "bbox": [
+      178,
+      337,
+      341,
+      350
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "27",
+    "bbox": [
+      1000,
+      336,
+      1000,
+      351
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.3",
+    "bbox": [
+      150,
+      361,
+      185,
+      373
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Grant of License by Customer",
+    "bbox": [
+      194,
+      361,
+      427,
+      373
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      360,
+      1000,
+      374
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.4",
+    "bbox": [
+      150,
+      387,
+      186,
+      396
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Ownership of Inventions",
+    "bbox": [
+      194,
+      386,
+      383,
+      398
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      385,
+      1000,
+      398
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.5",
+    "bbox": [
+      150,
+      410,
+      186,
+      420
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": " Patents to Inventionss",
+    "bbox": [
+      192,
+      411,
+      356,
+      420
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      409,
+      1000,
+      422
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.6",
+    "bbox": [
+      150,
+      434,
+      186,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": " No Use of Trademarks",
+    "bbox": [
+      191,
+      434,
+      366,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      433,
+      1000,
+      446
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "11.7",
+    "bbox": [
+      150,
+      457,
+      197,
+      469
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "[* * *]",
+    "bbox": [
+      190,
+      457,
+      247,
+      470
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "28",
+    "bbox": [
+      1000,
+      457,
+      1000,
+      470
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      481,
+      169,
+      493
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12",
+    "bbox": [
+      127,
+      497,
+      152,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Confidentiality & Publicity",
+    "bbox": [
+      197,
+      498,
+      402,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      496,
+      1000,
+      509
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.1Obligation of Confidentiality",
+    "bbox": [
+      150,
+      521,
+      414,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      521,
+      1000,
+      534
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.2Disclosure with Consent",
+    "bbox": [
+      149,
+      545,
+      387,
+      557
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      544,
+      1000,
+      558
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.3 Publicity",
+    "bbox": [
+      147,
+      567,
+      266,
+      583
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "29",
+    "bbox": [
+      1000,
+      568,
+      1000,
+      582
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.4  Disclosure Required by Law",
+    "bbox": [
+      148,
+      593,
+      412,
+      606
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      593,
+      1000,
+      606
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.5 Employee Confidentiality and Invention Assignment",
+    "bbox": [
+      148,
+      616,
+      591,
+      630
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      616,
+      1000,
+      629
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "12.6 Duration of Obligation",
+    "bbox": [
+      148,
+      640,
+      371,
+      654
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "30",
+    "bbox": [
+      1000,
+      640,
+      1000,
+      654
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      665,
+      168,
+      677
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13",
+    "bbox": [
+      127,
+      681,
+      152,
+      694
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Representations, Warranties and Covenants",
+    "bbox": [
+      197,
+      682,
+      535,
+      694
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      681,
+      1000,
+      693
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13.1Supplier's Representations, Warranties and Covenants",
+    "bbox": [
+      150,
+      706,
+      618,
+      718
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "31",
+    "bbox": [
+      1000,
+      704,
+      1000,
+      718
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13.2Customer's Representations, Warranties and Covenants",
+    "bbox": [
+      148,
+      728,
+      628,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      728,
+      1000,
+      742
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13.3 No Other Warranty",
+    "bbox": [
+      148,
+      752,
+      347,
+      767
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "32",
+    "bbox": [
+      1000,
+      752,
+      1000,
+      766
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "13.4No Consequential Damages and Limitation of Liability",
+    "bbox": [
+      149,
+      776,
+      610,
+      790
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      776,
+      1000,
+      789
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Article",
+    "bbox": [
+      111,
+      800,
+      169,
+      813
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14",
+    "bbox": [
+      128,
+      817,
+      152,
+      829
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Indemnification",
+    "bbox": [
+      195,
+      817,
+      316,
+      829
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      817,
+      1000,
+      829
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "14.1 Indemnification of Supplier",
+    "bbox": [
+      149,
+      840,
+      405,
+      854
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "33",
+    "bbox": [
+      1000,
+      840,
+      1000,
+      854
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "CONFIDENTIAL",
+    "bbox": [
+      112,
+      872,
+      241,
+      882
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Page 4 of 49",
+    "bbox": [
+      1000,
+      870,
+      1000,
+      884
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: PARATEK PHARMACEUTICALS, INC., 10-K/A, 5/5/2017",
+    "bbox": [
+      133,
+      1000,
+      631,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

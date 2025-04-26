@@ -1,0 +1,79 @@
+[
+  {
+    "text": "Reference is hereby made to that certain fully executed Wireless Content License Agreement Number 12965 dated as of December.",
+    "bbox": [
+      177,
+      183,
+      1000,
+      196
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "AMENDMENT NO. 2",
+    "bbox": [
+      582,
+      110,
+      741,
+      120
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "16, 2004, as amended November 11, 2005, (\"Agreement'), between Fox Mobile Entertainment, Inc. (\"Fox\"), as Administrator for.",
+    "bbox": [
+      178,
+      200,
+      1000,
+      212
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "16, 2004, as amended November 11, 2005, (\"Agreement'), between Fox Mobile Entertainment, Inc. (\"Fox\"), as Administrator for.",
+    "bbox": [
+      178,
+      200,
+      1000,
+      212
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Twentieth Century Fox Film Corporation (\"Trademark Licensor') and Glu Mobile, Inc. f/k/a Sorrent, Inc. (\"Licensee).",
+    "bbox": [
+      179,
+      217,
+      1000,
+      227
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Twentieth Century Fox Film Corporation (\"Trademark Licensor') and Glu Mobile, Inc. f/k/a Sorrent, Inc. (\"Licensee).",
+    "bbox": [
+      179,
+      217,
+      1000,
+      227
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Dated as of March 27, 2006",
+    "bbox": [
+      561,
+      151,
+      760,
+      161
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  }
+]

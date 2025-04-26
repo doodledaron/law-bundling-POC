@@ -1,0 +1,464 @@
+[
+  {
+    "text": "(b) Permitting Delays. Vendor shall timely, diligently and continuously pursue and use reasonable best efforts to",
+    "bbox": [
+      188,
+      113,
+      1000,
+      128
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "obtain as soon as possible any Permits required to be obtained in connection with or in order to perform the",
+    "bbox": [
+      220,
+      134,
+      1000,
+      149
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Work and otherwise fulfill its obligations under this Agreement, the Build Addendum and/or the Maintenance",
+    "bbox": [
+      222,
+      155,
+      1000,
+      167
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Addendum, including without limitation requesting assistance from AT&T as appropriate. Upon Vendor's",
+    "bbox": [
+      220,
+      173,
+      1000,
+      188
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "reasonable request for AT&T's assistance in obtaining any such Permit, the Parties agree to cooperate in good",
+    "bbox": [
+      220,
+      194,
+      1000,
+      208
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "faith to obtain such Permit. To the extent that Vendor (x) has timely notified AT&T of related Delay",
+    "bbox": [
+      220,
+      213,
+      1000,
+      228
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Information contemplated in Subsection (a) above, (y) has complied with this Section 3.3(b) and (z) is",
+    "bbox": [
+      220,
+      233,
+      1000,
+      248
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "nevertheless unable to obtain or delayed in obtaining a required Permit which is reasonably likely to result in",
+    "bbox": [
+      220,
+      254,
+      1000,
+      268
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Vendor missing a Delivery Date or Completion Date (a _Permitting Delay'), then the Parties shall cooperate in",
+    "bbox": [
+      221,
+      273,
+      1000,
+      288
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "good faith to extend such Delivery Date or Completion Date and such Permitting Delay shall constitute an.",
+    "bbox": [
+      220,
+      292,
+      1000,
+      309
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Excusable Delay; provided, however that if the Parties cannot agree on a new Delivery Date or Completion",
+    "bbox": [
+      221,
+      315,
+      1000,
+      328
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Date or in the event of a Permitting Delay preventing or delaying Vendor's performance which AT&T.",
+    "bbox": [
+      219,
+      333,
+      1000,
+      349
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "determines is reasonably likely to cause a material delay of the ultimate Delivery Date or Completion Date",
+    "bbox": [
+      221,
+      354,
+      1000,
+      367
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "applicable to a Cell Site, AT&T may elect to, after consultation with Vendor and good faith discussion to",
+    "bbox": [
+      221,
+      373,
+      1000,
+      388
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "negotiate another resolution:",
+    "bbox": [
+      221,
+      394,
+      457,
+      407
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(i) terminate its obligations solely with respect to each Cell Site affected by or related to such Permitting Delay",
+    "bbox": [
+      221,
+      430,
+      1000,
+      444
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "under this Agreement and exercise any of the Termination Remedies set forth in the Build Addendum,",
+    "bbox": [
+      253,
+      449,
+      1000,
+      464
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "without liability to Vendor; provided that AT&T shall pay to Vendor, an amount equal to the demonstrated",
+    "bbox": [
+      256,
+      471,
+      1000,
+      483
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "costs incurred by Vendor for any Work completed (in accordance with applicable Specifications and",
+    "bbox": [
+      255,
+      490,
+      1000,
+      504
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "requirements) to the extent such Work is transferred to AT&T as of the effective time of termination of the",
+    "bbox": [
+      254,
+      509,
+      1000,
+      523
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "applicable terminated Cell Site, which amount shall not exceed $[***]; or",
+    "bbox": [
+      255,
+      529,
+      878,
+      545
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(ii) suspend this Agreement or any part hereof for the duration of such Permitting Delay (as such period is",
+    "bbox": [
+      223,
+      566,
+      1000,
+      580
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "reasonably determined by AT&T) solely with respect to any Cell Site affected by or related to such",
+    "bbox": [
+      252,
+      585,
+      1000,
+      600
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Permitting Delay, obtain Work elsewhere (including AT&T's performance of the Work itself), at AT&T's",
+    "bbox": [
+      255,
+      607,
+      1000,
+      619
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "cost and expense (which shall reduce the Structured Payments applicable to such Cell Site by such",
+    "bbox": [
+      255,
+      625,
+      1000,
+      640
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "amount, but in no event shall such reduction cause the Structured Payments to be less than an amount",
+    "bbox": [
+      255,
+      646,
+      1000,
+      659
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "equal to the demonstrated costs incurred by Vendor up to the date of suspension), and provide notice to",
+    "bbox": [
+      255,
+      665,
+      1000,
+      680
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Vendor when AT&T desires for Vendor to resume its performance under this Agreement for the remaining",
+    "bbox": [
+      255,
+      684,
+      1000,
+      701
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Work at such Cell Site",
+    "bbox": [
+      257,
+      706,
+      447,
+      718
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "(c) Actual Delays. Except in the case of an Excusable Delay and subject to any applicable cure period, in the",
+    "bbox": [
+      189,
+      742,
+      1000,
+      756
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "event of any actual delay reasonably attributable to Vendor that causes Vendor to miss a Delivery Date or",
+    "bbox": [
+      220,
+      762,
+      1000,
+      775
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Completion Date, Vendor will provide written notice to AT&T and if the condition remains uncured after the",
+    "bbox": [
+      221,
+      782,
+      1000,
+      795
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "expiration of any applicable cure period set forth in this Agreement, the Build Addendum and/or the",
+    "bbox": [
+      220,
+      801,
+      1000,
+      816
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Maintenance Addendum, AT&T may exercise any remedies available to AT&T under this Agreement, the",
+    "bbox": [
+      220,
+      822,
+      1000,
+      836
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Build Addendum and/or the Maintenance Addendum, as applicable.",
+    "bbox": [
+      220,
+      842,
+      795,
+      856
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "3.4 Anticorruption Laws. Vendor hereby represents and warrants that the employees, agents, consultants,",
+    "bbox": [
+      220,
+      877,
+      1000,
+      892
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "partners, officers, directors, members or representatives of Vendor and its.",
+    "bbox": [
+      254,
+      897,
+      880,
+      912
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Proprietary and Confidential",
+    "bbox": [
+      560,
+      932,
+      781,
+      944
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "This Agreement and information contained therein is not for use or disclosure outside of AT&T, its Affiliates, and",
+    "bbox": [
+      244,
+      946,
+      1000,
+      958
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "third party representatives, and Vendor except under written agreement by the contracting parties",
+    "bbox": [
+      304,
+      963,
+      1000,
+      975
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "9",
+    "bbox": [
+      661,
+      979,
+      670,
+      988
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  },
+  {
+    "text": "Source: ATN INTERNATIONAL, INC., 10-Q, 11/8/2019",
+    "bbox": [
+      133,
+      1000,
+      559,
+      1000
+    ],
+    "label": 18,
+    "category": "Anti-Assignment"
+  }
+]

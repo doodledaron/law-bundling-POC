@@ -1,0 +1,79 @@
+[
+  {
+    "text": "THIS MUTUAL TERMINATION AGREEMENT (\"Termination Agreement') is made and entered into this day of , 2009, by and between",
+    "bbox": [
+      179,
+      153,
+      1000,
+      164
+    ],
+    "label": 1,
+    "category": "Document Name"
+  },
+  {
+    "text": "Beijing SINA Internet Information Service Co. (\"Beijing SINA\") and Shanghai SINA Leju Information Technology Co. Ltd. (\"SINA Leju).",
+    "bbox": [
+      113,
+      169,
+      1000,
+      181
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Beijing SINA Internet Information Service Co. (\"Beijing SINA\") and Shanghai SINA Leju Information Technology Co. Ltd. (\"SINA Leju).",
+    "bbox": [
+      113,
+      169,
+      1000,
+      181
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Beijing SINA Internet Information Service Co. (\"Beijing SINA\") and Shanghai SINA Leju Information Technology Co. Ltd. (\"SINA Leju).",
+    "bbox": [
+      113,
+      169,
+      1000,
+      181
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "Beijing SINA Internet Information Service Co. (\"Beijing SINA\") and Shanghai SINA Leju Information Technology Co. Ltd. (\"SINA Leju).",
+    "bbox": [
+      113,
+      169,
+      1000,
+      181
+    ],
+    "label": 2,
+    "category": "Parties"
+  },
+  {
+    "text": "THIS MUTUAL TERMINATION AGREEMENT (\"Termination Agreement') is made and entered into this day of , 2009, by and between",
+    "bbox": [
+      179,
+      153,
+      1000,
+      164
+    ],
+    "label": 3,
+    "category": "Agreement Date"
+  },
+  {
+    "text": "3. This Termination Agreement shall be governed by the laws of the PRC, without regard to conflicts of law principles.",
+    "bbox": [
+      179,
+      472,
+      1000,
+      485
+    ],
+    "label": 8,
+    "category": "Governing Law"
+  }
+]
