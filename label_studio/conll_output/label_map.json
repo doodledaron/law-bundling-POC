@@ -1,0 +1,24 @@
+{
+  "label_to_id": {
+    "O": 0,
+    "B-Document Name": 1,
+    "B-Governing Law": 2,
+    "B-Parties": 3,
+    "B-Renewal Term": 4,
+    "I-Document Name": 5,
+    "I-Governing Law": 6,
+    "I-Parties": 7,
+    "I-Renewal Term": 8
+  },
+  "id_to_label": {
+    "0": "O",
+    "1": "B-Document Name",
+    "2": "B-Governing Law",
+    "3": "B-Parties",
+    "4": "B-Renewal Term",
+    "5": "I-Document Name",
+    "6": "I-Governing Law",
+    "7": "I-Parties",
+    "8": "I-Renewal Term"
+  }
+}
