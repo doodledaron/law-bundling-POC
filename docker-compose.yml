@@ -1,3 +1,8 @@
+# NOTE: Flower has problem
+# temporary fix, dont run flower first
+# - docker-compose down
+# - docker-compose up -d --build web redis worker
+
 version: '3'
 
 services:
