@@ -20,10 +20,10 @@ celery_app = Celery(
     backend=os.environ.get('REDIS_URL', 'redis://localhost:6379/0'),
     include=[
         'tasks.document_tasks',
-        'tasks.ocr_tasks', 
-        'tasks.extraction_tasks',
         'tasks.chunking_tasks',
-        'tasks.maintenance'
+        'tasks.maintenance',
+        'tasks.ppstructure_tasks'
+
     ]
 )
 
@@ -53,13 +53,17 @@ celery_app.conf.update(
         'fanout_patterns': True,
     },
     
-    # Worker concurrency
-    # Concurrency settings (can be overridden via command line)
-    # The actual number of concurrent workers will be:
-    #     - By default: Equal to the number of CPU cores
-    #     - If explicitly set: The number you specified in configuration or command line
-    #     - Limited by: Available system resources and Celery configuration
-    worker_concurrency=os.cpu_count(),
+    # Worker concurrency - REDUCED for memory-intensive OCR tasks
+    # Set low concurrency for document workers to prevent memory exhaustion
+    worker_concurrency=2,  # Max 2 concurrent workers per container (was os.cpu_count())
+    
+    # Worker memory management - CRITICAL for preventing SIGKILL
+    worker_max_tasks_per_child=5,  # Restart worker after 5 tasks to prevent memory leaks
+    worker_max_memory_per_child=2048000,  # Restart worker if memory exceeds 2GB (in KB)
+    
+    # Task pool settings for memory management
+    worker_pool='threads',  # Use threads instead of processes for better memory sharing
+    worker_pool_restarts=True,  # Allow pool restarts
     
     # Logging
     worker_redirect_stdouts=False # When False , worker's stdout/stderr are not redirected to the logging system (see print statements directly),In production, you might want to set this to True to capture all output in logs 

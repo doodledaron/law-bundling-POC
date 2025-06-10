@@ -49,6 +49,7 @@ app.add_middleware(
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/results", StaticFiles(directory="results"), name="results")
 
 # Error messages
 ERROR_MESSAGES = {
@@ -63,6 +64,38 @@ ERROR_MESSAGES = {
 os.makedirs("uploads", exist_ok=True)
 os.makedirs("results", exist_ok=True)
 os.makedirs("chunks", exist_ok=True)
+
+def _fix_image_paths(page_results):
+    """
+    Fix image paths to be proper web URLs starting with /
+    """
+    fixed_results = []
+    for page in page_results:
+        fixed_page = page.copy()
+        
+        # Fix image_path
+        if 'image_path' in fixed_page and fixed_page['image_path']:
+            path = fixed_page['image_path']
+            if not path.startswith('/'):
+                fixed_page['image_path'] = '/' + path
+        
+        # Fix layout_vis_path
+        if 'layout_vis_path' in fixed_page and fixed_page['layout_vis_path']:
+            path = fixed_page['layout_vis_path']
+            if not path.startswith('/'):
+                fixed_page['layout_vis_path'] = '/' + path
+        
+        fixed_results.append(fixed_page)
+    
+    return fixed_results
+
+def _fix_file_path(file_path):
+    """
+    Fix file path to be a proper web URL
+    """
+    if file_path and not file_path.startswith('/'):
+        return '/' + file_path
+    return file_path
 
 # Define root endpoint
 @app.get("/", response_class=HTMLResponse)
@@ -117,6 +150,9 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         # Generate job ID
         job_id = str(uuid.uuid4())
         
+        # Record job creation time
+        job_created_time = get_timestamp()
+        
         # Save file to disk
         file_ext = os.path.splitext(file.filename)[1].lower()
         if not file_ext:
@@ -136,26 +172,47 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         update_job_status(redis_client, job_id, {
             'status': 'PENDING',
             'filename': file.filename,
-            'created_at': get_timestamp(),
+            'created_at': job_created_time,
             'message': 'Document uploaded, waiting for processing'
         })
         
         # Submit job to Celery -> the stage where it will process the document
-        # - process_large_document : For PDFs or files > 5MB
-        #     - Chunks the document
-        #     - Processes chunks in parallel
-        #     - Merges results at the end
-        # - process_small_document : For smaller files
-        #     - Processes the entire document directly
-        #     - Extracts text, entities, and generates a summary
+        # - process_large_document : For PDFs with >100 pages
+        #     - Chunks the PDF into 20-page chunks
+        #     - Processes each chunk with PPStructure in parallel
+        #     - Combines all chunk text and generates final summary with text_based_processor.py
+        # - process_small_document : For PDFs ≤100 pages and all images
+        #     - Processes the entire document directly with PPStructure
+        #     - Generates summary using text_based_processor.py
 
-        task = process_document.delay(job_id, upload_path, file.filename)
-        
-        # Update job status with task ID
-        update_job_status(redis_client, job_id, {
-            'task_id': task.id,
-            'updated_at': get_timestamp()
-        })
+        try:
+            task = process_document.apply_async(
+                args=[job_id, upload_path, file.filename],
+                queue='documents'  # Explicitly specify the queue
+            )
+            
+            # Update job status with task ID
+            update_job_status(redis_client, job_id, {
+                'task_id': task.id,
+                'updated_at': get_timestamp()
+            })
+            
+            print(f"Successfully submitted job {job_id} with task ID {task.id}")
+            
+        except Exception as e:
+            print(f"Error submitting task for job {job_id}: {str(e)}")
+            # Update job status on task submission failure
+            update_job_status(redis_client, job_id, {
+                'status': 'FAILED',
+                'error': f'Task submission failed: {str(e)}',
+                'message': 'Failed to submit processing task',
+                'updated_at': get_timestamp()
+            })
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": f"Failed to submit task: {str(e)}"},
+                status_code=500
+            )
         
         # Render submission confirmation
         return templates.TemplateResponse(
@@ -195,28 +252,90 @@ async def get_job_status(request: Request, job_id: str):
         
         job_status = json.loads(job_data)
         
+        # For chunked processing, check if all chunks are actually complete
+        if job_status.get('status') == 'COMPLETED' and 'num_chunks' in job_status:
+            # Verify that chunked processing is truly complete by checking results files
+            results_dir = os.path.join("results", job_id)
+            clean_results_path = os.path.join(results_dir, "results.json")
+            
+            # Only show results if the final results.json exists and is complete
+            if not os.path.exists(clean_results_path):
+                # Results not ready yet, show as still processing
+                job_status['status'] = 'PROCESSING'
+                job_status['message'] = 'Finalizing combined results and generating summary'
+                job_status['progress'] = 90
+        
         # For completed jobs, show results
-        if job_status.get('status') == 'COMPLETED' and 'results_path' in job_status:
+        if job_status.get('status') == 'COMPLETED':
             try:
-                # Check if results file exists
-                if not os.path.exists(job_status['results_path']):
-                    raise FileNotFoundError(f"Results file not found: {job_status['results_path']}")
+                # Try to load results from the new clean format first
+                results_dir = os.path.join("results", job_id)
+                clean_results_path = os.path.join(results_dir, "results.json")
+                metrics_path = os.path.join(results_dir, "metrics.json")
+                ppstructure_path = os.path.join(results_dir, "ppstructure_results.json")
                 
-                # Read results from file
-                with open(job_status['results_path'], 'r') as f:
-                    results = json.load(f)
+                results = None
+                metrics = {}
+                ppstructure_results = {}
                 
-                # Render results template
+                # Try to load clean results first
+                if os.path.exists(clean_results_path):
+                    with open(clean_results_path, 'r', encoding='utf-8') as f:
+                        results = json.load(f)
+                # Fallback to old results_path format
+                elif 'results_path' in job_status and os.path.exists(job_status['results_path']):
+                    with open(job_status['results_path'], 'r', encoding='utf-8') as f:
+                        results = json.load(f)
+                else:
+                    raise FileNotFoundError("No results file found")
+                
+                # Load metrics if available
+                if os.path.exists(metrics_path):
+                    with open(metrics_path, 'r', encoding='utf-8') as f:
+                        metrics = json.load(f)
+                
+                # Load PPStructure results if available  
+                if os.path.exists(ppstructure_path):
+                    with open(ppstructure_path, 'r', encoding='utf-8') as f:
+                        ppstructure_results = json.load(f)
+                
+                if not results:
+                    raise ValueError("Results file is empty or invalid")
+                
+                # For the new format, extract the needed data
+                template_data = {
+                    "request": request,
+                    "job_id": job_id,
+                    "results": results,
+                    "metrics": metrics,
+                    "ppstructure_results": ppstructure_results,
+                    "filename": results.get("filename", "Unknown"),
+                    "full_text": results.get("combined_text", ""),
+                    "combined_text_path": _fix_file_path(results.get("combined_text_path", "")),
+                    "average_confidence_formatted": results.get("average_confidence_formatted", "N/A"),
+                    "summary": results.get("summary", ""),
+                    "processing_time_seconds": float(results.get("processing_time_seconds", 0)),
+                    "total_pages": int(results.get("total_pages", 0)),
+                    "estimated_cost": float(results.get("estimated_cost", 0.0)),
+                    "token_usage": results.get("token_usage", {}),
+                    "processing_method": results.get("processing_method", "unknown"),
+                    "date": results.get("date", "undated"),
+                    # Extracted info fields
+                    "extracted_info": results.get("extracted_info", {}),
+                    # Page results from PPStructure file (with fixed paths)
+                    "page_results": _fix_image_paths(ppstructure_results.get("page_results", [])),
+                    # Performance data from metrics
+                    "performance": metrics.get("performance", {}),
+                    "confidence_metrics": metrics.get("confidence_metrics", {}),
+                    "processing_details": ppstructure_results.get("processing_info", {})
+                }
+                
+                # Render results template with new data
                 return templates.TemplateResponse(
                     "result.html",
-                    {
-                        "request": request,
-                        "full_text": results.get("extracted_text", ""),
-                        "average_confidence_formatted": results.get("average_confidence_formatted", "N/A"),
-                        "summary": results.get("summary", ""),
-                        **results.get("entities", {})
-                    }
+                    template_data
                 )
+                
             except Exception as e:
                 job_status['error'] = f"Error retrieving results: {str(e)}"
                 print(f"Error retrieving results for job {job_id}: {str(e)}")
@@ -240,11 +359,11 @@ async def get_job_status(request: Request, job_id: str):
             status_code=500
         )
 
-# API endpoint for status updates
+# API endpoint for status updates with enhanced loading support
 @app.get("/api/job/{job_id}")
 async def api_job_status(job_id: str):
     """
-    Get job status as JSON for AJAX updates
+    Get job status as JSON for AJAX updates with enhanced progress tracking
     """
     try:
         # Get job status from Redis
@@ -254,6 +373,40 @@ async def api_job_status(job_id: str):
             raise HTTPException(status_code=404, detail="Job not found")
         
         job_status = json.loads(job_data)
+        
+        # Add estimated completion time for better UX
+        if job_status.get('status') == 'PROCESSING':
+            # Add some helpful processing stage messages
+            progress = job_status.get('progress', 0)
+            
+            # Check if this is chunked processing
+            if 'num_chunks' in job_status:
+                # Chunked processing stages
+                num_chunks = job_status.get('num_chunks', 1)
+                if progress < 20:
+                    job_status['stage'] = f'Creating {num_chunks} document chunks'
+                elif progress < 75:
+                    # Calculate which chunk is being processed
+                    chunk_progress = (progress - 30) / 45  # Chunk processing is 30-75%
+                    current_chunk = max(1, int(chunk_progress * num_chunks) + 1)
+                    job_status['stage'] = f'Processing chunk {current_chunk}/{num_chunks} (parallel batches)'
+                elif progress < 90:
+                    job_status['stage'] = f'All {num_chunks} chunks processed. Combining text and generating summary...'
+                elif progress < 95:
+                    job_status['stage'] = 'Summary generated. Saving final results...'
+                else:
+                    job_status['stage'] = 'Finalizing and preparing results display...'
+            else:
+                # Single document processing stages
+                if progress < 30:
+                    job_status['stage'] = 'Analyzing document structure'
+                elif progress < 60:
+                    job_status['stage'] = 'Performing OCR and layout detection'
+                elif progress < 85:
+                    job_status['stage'] = 'Extracting text and images'
+                else:
+                    job_status['stage'] = 'Generating summary and finalizing results'
+        
         return job_status
     
     except HTTPException:

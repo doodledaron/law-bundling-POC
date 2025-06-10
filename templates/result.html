@@ -1,236 +1,609 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Document Analysis Results</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
     <style>
-        :root {
-            --primary-color: #1a73e8;
-            --secondary-color: #4285f4;
-            --background-color: #f8f9fa;
-            --text-color: #202124;
-            --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            --border-color: #e0e0e0;
+      :root {
+        --primary-color: #1a73e8;
+        --secondary-color: #4285f4;
+        --background-color: #f8f9fa;
+        --text-color: #202124;
+        --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --border-color: #e0e0e0;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.6;
+        padding: 2rem 0;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+
+      .card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: var(--card-shadow);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        transition: transform 0.2s;
+      }
+
+      .card:hover {
+        transform: translateY(-2px);
+      }
+
+      h1 {
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      h2 {
+        color: var(--primary-color);
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--secondary-color);
+      }
+
+      .field-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+
+      .field-item {
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background-color: #fff;
+      }
+
+      .field-label {
+        font-weight: 600;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+      .field-value {
+        color: var(--text-color);
+        word-break: break-word;
+      }
+
+      .confidence-score {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #e8f0fe;
+        border-radius: 8px;
+      }
+
+      .score-value {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--primary-color);
+      }
+
+      .score-explanation {
+        font-size: 0.9rem;
+        color: #5f6368;
+      }
+
+      .full-text {
+        white-space: pre-wrap;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        font-family: monospace;
+        font-size: 0.9rem;
+        max-height: 300px;
+        overflow-y: auto;
+      }
+
+      .summary-box {
+        background-color: #e8f0fe;
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin-top: 1rem;
+      }
+
+      .back-button {
+        display: inline-block;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 1rem;
+        transition: background-color 0.2s;
+      }
+
+      .back-button:hover {
+        background-color: var(--secondary-color);
+      }
+
+      .performance-metrics {
+        background-color: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin-top: 1rem;
+      }
+
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .metric-item {
+        text-align: center;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .metric-label {
+        font-size: 0.9rem;
+        color: #5f6368;
+        margin-bottom: 0.5rem;
+      }
+
+      .metric-value {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: var(--primary-color);
+      }
+
+      .processing-type {
+        display: inline-block;
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+      }
+
+      /* Page results styling */
+      .page-nav {
+        position: sticky;
+        top: 1rem;
+        z-index: 1000;
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+      }
+
+      .page-image {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .nav-tabs {
+        margin-bottom: 1rem;
+        border-bottom: 2px solid var(--border-color);
+      }
+
+      .nav-tabs .nav-link {
+        border: none;
+        color: #495057;
+        font-weight: 500;
+        padding: 0.75rem 1rem;
+      }
+
+      .nav-tabs .nav-link.active {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+        background-color: transparent;
+      }
+
+      .combined-text-container {
+        max-height: 500px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+        font-family: monospace;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+      }
+
+      .date-badge {
+        background-color: #e9ecef;
+        color: #495057;
+        padding: 0.35rem 0.65rem;
+        border-radius: 0.25rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 0.5rem;
+      }
+
+      .ai-generated {
+        font-size: 0.8rem;
+        color: #6c757d;
+        margin-top: 0.5rem;
+      }
+
+      .cost-info {
+        background-color: #fff3cd;
+        border: 1px solid #ffeaa7;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-top: 1rem;
+      }
+
+      .cost-breakdown {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem 0;
+      }
+
+      @media (max-width: 767.98px) {
+        .page-nav {
+          position: relative;
+          top: 0;
+          max-height: none;
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            padding: 2rem;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: var(--card-shadow);
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-2px);
-        }
-
-        h1 {
-            color: var(--primary-color);
-            margin-bottom: 1.5rem;
-            font-size: 2rem;
-            text-align: center;
-        }
-
-        h2 {
-            color: var(--primary-color);
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid var(--secondary-color);
-        }
-
-        .field-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1rem;
-        }
-
-        .field-item {
-            padding: 1rem;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            background-color: #fff;
-        }
-
-        .field-label {
-            font-weight: 600;
-            color: var(--primary-color);
-            margin-bottom: 0.5rem;
-            display: block;
-        }
-
-        .field-value {
-            color: var(--text-color);
-            word-break: break-word;
-        }
-
-        .confidence-score {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            padding: 1rem;
-            background-color: #e8f0fe;
-            border-radius: 8px;
-        }
-
-        .score-value {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--primary-color);
-        }
-
-        .score-explanation {
-            font-size: 0.9rem;
-            color: #5f6368;
-        }
-
-        .full-text {
-            white-space: pre-wrap;
-            padding: 1rem;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            font-family: monospace;
-            font-size: 0.9rem;
-            max-height: 300px;
-            overflow-y: auto;
-        }
-
-        .summary-box {
-            background-color: #e8f0fe;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-top: 1rem;
-        }
-
-        .back-button {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            padding: 0.8rem 1.5rem;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-top: 1rem;
-            transition: background-color 0.2s;
-        }
-
-        .back-button:hover {
-            background-color: var(--secondary-color);
-        }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 1rem;
-            }
-
-            .field-grid {
-                grid-template-columns: 1fr;
-            }
-
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            .card {
-                padding: 1rem;
-            }
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Document Analysis Results</h1>
+      <div class="row">
+        <div class="col-12">
+          <a href="/" class="btn btn-primary back-button">
+            <i class="bi bi-arrow-left"></i> Back to Upload
+          </a>
 
-        <div class="card">
-            <h2>Key Information</h2>
-            <div class="field-grid">
-                <div class="field-item">
-                    <span class="field-label">Company (Discloser)</span>
-                    <span class="field-value">{{ company }}</span>
-                </div>
-                <div class="field-item">
-                    <span class="field-label">Company Address</span>
-                    <span class="field-value">{{ company_address }}</span>
-                </div>
-                <div class="field-item">
-                    <span class="field-label">Recipient</span>
-                    <span class="field-value">{{ recipient }}</span>
-                </div>
-                <div class="field-item">
-                    <span class="field-label">Recipient Address</span>
-                    <span class="field-value">{{ recipient_address }}</span>
-                </div>
-                <div class="field-item">
-                    <span class="field-label">Agreement Duration</span>
-                    <span class="field-value">{{ duration }}</span>
-                </div>
-                <div class="field-item">
-                    <span class="field-label">Governing Law</span>
-                    <span class="field-value">{{ governing_law }}</span>
-                </div>
-                <div class="field-item">
-                    <span class="field-label">Confidential Information</span>
-                    <span class="field-value">{{ confidential_info }}</span>
-                </div>
-                <div class="field-item">
-                    <span class="field-label">Dates</span>
-                    <span class="field-value">
-                        {% if dates %}
-                            {{ dates|join(", ") }}
-                        {% else %}
-                            Not found
-                        {% endif %}
-                    </span>
-                </div>
+          <div class="card">
+            <h1><i class="bi bi-file-text"></i> Document Analysis Results</h1>
+            <h4 class="text-secondary">
+              Document: {{ filename[:100] if filename else 'Unknown' }}{% if
+              filename and filename|length > 100 %}...{% endif %} {% if date and
+              date != 'undated' %}
+              <span class="date-badge">{{ date }}</span>
+              {% endif %}
+            </h4>
+
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  <strong>Processing Method:</strong>
+                  <span class="processing-type">
+                    <i class="bi bi-cpu"></i>
+                    {% if processing_method == 'chunked_sequential' %} Chunked
+                    Sequential Processing {% elif processing_method ==
+                    'chunked_parallel' %} Chunked Parallel Processing
+                    (Controlled) {% else %} PPStructure with Layout Analysis {%
+                    endif %}
+                  </span>
+                </p>
+              </div>
+              <div class="col-md-6 text-md-end">
+                {% if total_pages %}
+                <p><strong>Total Pages:</strong> {{ total_pages }}</p>
+                {% endif %} {% if processing_time_seconds %}
+                <p>
+                  <strong>Processing Time:</strong>
+                  {{ processing_time_seconds|round(1) }}s
+                </p>
+                {% endif %}
+              </div>
             </div>
-        </div>
 
-        <div class="card">
-            <h2>Document Summary</h2>
+            {% if summary %}
             <div class="summary-box">
-                {{ summary }}
+              <h5><i class="bi bi-journal-text"></i> Document Summary</h5>
+              <p>{{ summary }}</p>
+              <div class="ai-generated">
+                <i class="bi bi-robot"></i> AI-generated summary using Gemini
+              </div>
             </div>
-        </div>
+            {% endif %}
 
-        <div class="card">
-            <h2>OCR Confidence</h2>
-            <div class="confidence-score">
-                <div class="score-value">{{ average_confidence_formatted }}</div>
-                <div class="score-explanation">
-                    The confidence score represents the OCR model's accuracy in extracting text from the document. 
-                    This score is calculated by averaging the confidence scores for each line of text.
+            <!-- Extracted Information Section -->
+            {% if extracted_info %}
+            <div class="card mt-3">
+              <h2><i class="bi bi-search"></i> Extracted Information</h2>
+
+              <div class="field-grid">
+                {% if extracted_info.key_dates and extracted_info.key_dates !=
+                'Not available' %}
+                <div class="field-item">
+                  <span class="field-label">Key Dates</span>
+                  <div class="field-value">
+                    {{ extracted_info.key_dates|replace('\n', '<br />')|safe }}
+                  </div>
                 </div>
-            </div>
-        </div>
+                {% endif %} {% if extracted_info.main_parties and
+                extracted_info.main_parties != 'Not available' %}
+                <div class="field-item">
+                  <span class="field-label">Main Parties</span>
+                  <div class="field-value">
+                    {{ extracted_info.main_parties|replace('\n', '<br />')|safe
+                    }}
+                  </div>
+                </div>
+                {% endif %} {% if extracted_info.case_reference_numbers and
+                extracted_info.case_reference_numbers != 'Not available' %}
+                <div class="field-item">
+                  <span class="field-label">Case/Reference Numbers</span>
+                  <div class="field-value">
+                    {{ extracted_info.case_reference_numbers|replace('\n', '<br />')|safe
+                    }}
+                  </div>
+                </div>
+                {% endif %}
+              </div>
 
-        <div class="card">
-            <h2>Full Extracted Text</h2>
-            <div class="full-text">
-                {{ full_text }}
+              {% if extracted_info.full_analysis %}
+              <div class="mt-3">
+                <h6>Full Analysis</h6>
+                <div class="full-text" style="max-height: 200px">
+                  {{ extracted_info.full_analysis }}
+                </div>
+              </div>
+              {% endif %}
             </div>
-        </div>
+            {% endif %}
 
-        <a href="/" class="back-button">Upload Another Document</a>
+            <!-- OCR Confidence Score -->
+            {% if average_confidence_formatted %}
+            <div class="confidence-score">
+              <div class="score-value">{{ average_confidence_formatted }}</div>
+              <div class="score-explanation">Average OCR Confidence Score</div>
+            </div>
+            {% endif %}
+
+            <!-- Cost Information -->
+            {% if estimated_cost and estimated_cost > 0 %}
+            <div class="cost-info">
+              <h6><i class="bi bi-credit-card"></i> Processing Cost</h6>
+              <div class="cost-breakdown">
+                <span>Estimated Cost:</span>
+                <strong>${{ estimated_cost|round(4) }}</strong>
+              </div>
+              {% if token_usage and token_usage.total_tokens %}
+              <div class="cost-breakdown">
+                <span>Total Tokens:</span>
+                <span>{{ token_usage.total_tokens|int }}</span>
+              </div>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <!-- Performance Metrics Section -->
+      {% if performance or metrics %}
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <h2><i class="bi bi-speedometer2"></i> Performance Metrics</h2>
+
+            <div class="metrics-grid">
+              <div class="metric-item">
+                <div class="metric-label">Total Pages</div>
+                <div class="metric-value">{{ total_pages or 'N/A' }}</div>
+              </div>
+
+              {% if processing_method == 'chunked_sequential' or
+              processing_method == 'chunked_parallel' %}
+              <div class="metric-item">
+                <div class="metric-label">Total Chunks</div>
+                <div class="metric-value">
+                  {{ results.total_chunks or 'N/A' }}
+                </div>
+              </div>
+
+              <div class="metric-item">
+                <div class="metric-label">Pages per Chunk</div>
+                <div class="metric-value">≤20</div>
+              </div>
+              {% endif %}
+
+              <div class="metric-item">
+                <div class="metric-label">Processing Method</div>
+                <div class="metric-value">
+                  {% if processing_method == 'chunked_sequential' %} Sequential
+                  {% elif processing_method == 'chunked_parallel' %} Parallel
+                  (Controlled) {% else %} Direct {% endif %}
+                </div>
+              </div>
+
+              <div class="metric-item">
+                <div class="metric-label">Processing Time</div>
+                <div class="metric-value">
+                  {{ processing_time_seconds|round(1) }}s
+                </div>
+              </div>
+
+              {% if confidence_metrics and
+              confidence_metrics.total_text_elements %}
+              <div class="metric-item">
+                <div class="metric-label">Text Elements</div>
+                <div class="metric-value">
+                  {{ confidence_metrics.total_text_elements|int }}
+                </div>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Combined Text Section -->
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <h2><i class="bi bi-file-text"></i> Extracted Text</h2>
+
+            {% if combined_text_path %}
+            <p>
+              <strong>Text File:</strong>
+              <a href="{{ combined_text_path }}" target="_blank"
+                >{{ combined_text_path }}</a
+              >
+            </p>
+            {% endif %}
+
+            <div class="combined-text-container">
+              {{ full_text or "No text extracted" }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page Results Section (if available) -->
+      {% if page_results %}
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <h2><i class="bi bi-grid-3x3"></i> Page-by-Page Results</h2>
+
+            <ul class="nav nav-tabs" id="pageTab" role="tablist">
+              {% for page in page_results %}
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link {% if loop.first %}active{% endif %}"
+                  id="page-{{ page.page_number }}-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#page-{{ page.page_number }}"
+                  type="button"
+                  role="tab"
+                >
+                  Page {{ page.page_number }}
+                </button>
+              </li>
+              {% endfor %}
+            </ul>
+
+            <div class="tab-content" id="pageTabContent">
+              {% for page in page_results %}
+              <div
+                class="tab-pane fade {% if loop.first %}show active{% endif %}"
+                id="page-{{ page.page_number }}"
+                role="tabpanel"
+              >
+                <div class="row mt-3">
+                  <div class="col-md-6">
+                    {% if page.image_path %}
+                    <h6>Original Page</h6>
+                    <img
+                      src="{{ page.image_path }}"
+                      alt="Page {{ page.page_number }}"
+                      class="page-image"
+                      onerror="console.log('Failed to load image:', this.src); this.style.display='none'; this.nextElementSibling.style.display='block';"
+                    />
+                    <div
+                      style="
+                        display: none;
+                        padding: 20px;
+                        border: 2px dashed #ccc;
+                        text-align: center;
+                        color: #666;
+                      "
+                    >
+                      Image not found: {{ page.image_path }}
+                    </div>
+                    {% endif %}
+                  </div>
+
+                  <div class="col-md-6">
+                    {% if page.layout_vis_path %}
+                    <h6>Layout Analysis</h6>
+                    <img
+                      src="{{ page.layout_vis_path }}"
+                      alt="Page {{ page.page_number }} Layout"
+                      class="page-image"
+                      onerror="console.log('Failed to load layout image:', this.src); this.style.display='none'; this.nextElementSibling.style.display='block';"
+                    />
+                    <div
+                      style="
+                        display: none;
+                        padding: 20px;
+                        border: 2px dashed #ccc;
+                        text-align: center;
+                        color: #666;
+                      "
+                    >
+                      Layout image not found: {{ page.layout_vis_path }}
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+                {% if page.ocr_text %}
+                <div class="mt-3">
+                  <h6>Extracted Text (Page {{ page.page_number }})</h6>
+                  <div class="full-text">
+                    {% for text in page.ocr_text %} {{ text }} {% endfor %}
+                  </div>
+                </div>
+                {% endif %} {% if page.regions %}
+                <div class="mt-3">
+                  <h6>Detected Regions ({{ page.regions|length }})</h6>
+                  <div class="row">
+                    {% for region in page.regions %}
+                    <div class="col-md-6 mb-2">
+                      <div class="field-item">
+                        <span class="field-label">{{ region.type|title }}</span>
+                        <div class="field-value">
+                          {% if region.bbox %} Coordinates: {{ region.bbox }} {%
+                          endif %} {% if region.score %}
+                          <br />Confidence: {{ (region.score * 100)|round(1) }}%
+                          {% endif %}
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
     </div>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

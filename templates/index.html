@@ -1,161 +1,388 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Law Document Bundling</title>
     <style>
-        :root {
-            --primary-blue: #1a4f8b;
-            --secondary-blue: #2c7ac9;
-            --light-blue: #f5f9ff;
-            --text-color: #2c3e50;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      :root {
+        --primary-blue: #1a4f8b;
+        --secondary-blue: #2c7ac9;
+        --light-blue: #f5f9ff;
+        --text-color: #2c3e50;
+      }
 
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background-color: var(--light-blue);
-            color: var(--text-color);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            padding: 40px 20px;
-            line-height: 1.6;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            width: 100%;
-            max-width: 800px;
-        }
+      body {
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background-color: var(--light-blue);
+        color: var(--text-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 40px 20px;
+        line-height: 1.6;
+      }
 
-        h1 {
-            color: var(--primary-blue);
-            font-size: 2.5rem;
-            margin-bottom: 16px;
-            font-weight: 600;
-        }
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+        width: 100%;
+        max-width: 800px;
+      }
 
-        .description {
-            color: var(--text-color);
-            font-size: 1.1rem;
-            max-width: 600px;
-            margin: 0 auto;
-            opacity: 0.9;
-        }
+      h1 {
+        color: var(--primary-blue);
+        font-size: 2.5rem;
+        margin-bottom: 16px;
+        font-weight: 600;
+      }
 
-        .upload-container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            width: 100%;
-            max-width: 600px;
-            margin-top: 20px;
-        }
+      .description {
+        color: var(--text-color);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+        opacity: 0.9;
+      }
 
-        .file-input-container {
-            margin-bottom: 24px;
-        }
+      .upload-container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+      }
 
-        input[type="file"] {
-            width: 100%;
-            padding: 10px;
-            border: 2px dashed var(--secondary-blue);
-            border-radius: 6px;
-            background-color: var(--light-blue);
-            cursor: pointer;
-        }
+      .file-input-container {
+        margin-bottom: 24px;
+        position: relative;
+      }
 
-        input[type="file"]:hover {
-            border-color: var(--primary-blue);
-        }
+      input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border: 2px dashed var(--secondary-blue);
+        border-radius: 6px;
+        background-color: var(--light-blue);
+        cursor: pointer;
+        transition: border-color 0.2s ease;
+      }
 
-        .submit-btn {
-            background-color: var(--primary-blue);
-            color: white;
-            padding: 14px 28px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: 500;
-            width: 100%;
-            transition: background-color 0.2s ease;
-        }
+      input[type="file"]:hover {
+        border-color: var(--primary-blue);
+      }
 
-        .submit-btn:hover {
-            background-color: var(--secondary-blue);
-        }
+      .file-info {
+        margin-top: 10px;
+        font-size: 0.9rem;
+        color: #666;
+        display: none;
+      }
 
-        /* Loading indicator styles */
-        #loading-indicator {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.2rem;
-        }
+      .submit-btn {
+        background-color: var(--primary-blue);
+        color: white;
+        padding: 14px 28px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+        width: 100%;
+        transition: all 0.2s ease;
+        position: relative;
+        overflow: hidden;
+      }
 
-        .spinner {
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid var(--primary-blue);
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 2s linear infinite;
-            margin-bottom: 10px;
-        }
+      .submit-btn:hover:not(:disabled) {
+        background-color: var(--secondary-blue);
+      }
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+      .submit-btn:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+
+      /* Enhanced loading indicator styles */
+      #loading-indicator {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(26, 79, 139, 0.9);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.2rem;
+        backdrop-filter: blur(5px);
+      }
+
+      .loading-content {
+        text-align: center;
+        max-width: 400px;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      }
+
+      .spinner {
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
         }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .loading-message {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+
+      .loading-submessage {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        line-height: 1.4;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 6px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 3px;
+        margin-top: 15px;
+        overflow: hidden;
+      }
+
+      .progress-fill {
+        height: 100%;
+        background-color: white;
+        width: 0%;
+        transition: width 0.3s ease;
+        border-radius: 3px;
+      }
+
+      .error-message {
+        background-color: #fee;
+        color: #c33;
+        padding: 12px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        border-left: 4px solid #c33;
+      }
+
+      .success-message {
+        background-color: #efe;
+        color: #393;
+        padding: 12px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        border-left: 4px solid #393;
+      }
+
+      /* Pulse animation for submit button during upload */
+      .submit-btn.uploading {
+        animation: pulse 1.5s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.7;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="loading-indicator">
+      <div class="loading-content">
         <div class="spinner"></div>
-        <p id="loading-message">Processing document...</p>
+        <div class="loading-message" id="loading-message">
+          Processing document...
+        </div>
+        <div class="loading-submessage" id="loading-submessage">
+          Please wait while we analyze your document
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
     </div>
+
     <div class="header">
-        <h1>Law Document Bundling</h1>
-        <p class="description">
-            Upload your legal documents for efficient bundling and organization. Our system helps streamline the process of combining multiple law documents into a single, well-structured bundle.
-        </p>
+      <h1>Law Document Bundling</h1>
+      <p class="description">
+        Upload your legal documents for efficient bundling and organization. Our
+        system helps streamline the process of combining multiple law documents
+        into a single, well-structured bundle.
+      </p>
     </div>
-    
+
     <div class="upload-container">
-        <form action="/upload" method="post" enctype="multipart/form-data" onsubmit="showLoading('Processing document...');">
-            <div class="file-input-container">
-                <input type="file" name="file" id="file">
-            </div>
-            <button type="submit" class="submit-btn">Process Document</button>
-        </form>
+      {% if error %}
+      <div class="error-message"><strong>Error:</strong> {{ error }}</div>
+      {% endif %}
+
+      <form
+        action="/upload"
+        method="post"
+        enctype="multipart/form-data"
+        id="upload-form"
+      >
+        <div class="file-input-container">
+          <input
+            type="file"
+            name="file"
+            id="file"
+            accept=".pdf,.jpg,.jpeg,.png"
+            required
+          />
+          <div class="file-info" id="file-info"></div>
+        </div>
+        <button type="submit" class="submit-btn" id="submit-btn">
+          <span id="submit-text">Process Document</span>
+        </button>
+      </form>
     </div>
 
     <script>
-        function showLoading(message) {
-            document.getElementById('loading-message').innerText = message;
-            document.getElementById('loading-indicator').style.display = 'flex';
-        }
+      let uploadProgress = 0;
+      let progressInterval;
 
-        function hideLoading() {
-            document.getElementById('loading-indicator').style.display = 'none';
+      // File input change handler
+      document.getElementById("file").addEventListener("change", function (e) {
+        const file = e.target.files[0];
+        const fileInfo = document.getElementById("file-info");
+        const submitBtn = document.getElementById("submit-btn");
+
+        if (file) {
+          const fileSize = (file.size / (1024 * 1024)).toFixed(2);
+          fileInfo.innerHTML = `
+                    <strong>Selected:</strong> ${file.name}<br>
+                    <strong>Size:</strong> ${fileSize} MB<br>
+                    <strong>Type:</strong> ${file.type}
+                `;
+          fileInfo.style.display = "block";
+          submitBtn.disabled = false;
+        } else {
+          fileInfo.style.display = "none";
+          submitBtn.disabled = true;
         }
+      });
+
+      // Form submit handler
+      document
+        .getElementById("upload-form")
+        .addEventListener("submit", function (e) {
+          const file = document.getElementById("file").files[0];
+
+          if (!file) {
+            e.preventDefault();
+            alert("Please select a file first.");
+            return;
+          }
+
+          // Show loading indicator
+          showLoading(
+            "Uploading document...",
+            "Your file is being uploaded and queued for processing"
+          );
+
+          // Start simulated progress
+          startSimulatedProgress();
+
+          // Disable form
+          document.getElementById("submit-btn").disabled = true;
+          document.getElementById("submit-btn").classList.add("uploading");
+          document.getElementById("submit-text").textContent = "Uploading...";
+        });
+
+      function showLoading(message, submessage) {
+        document.getElementById("loading-message").textContent = message;
+        document.getElementById("loading-submessage").textContent =
+          submessage || "Please wait...";
+        document.getElementById("loading-indicator").style.display = "flex";
+
+        // Reset progress
+        uploadProgress = 0;
+        updateProgress();
+      }
+
+      function hideLoading() {
+        document.getElementById("loading-indicator").style.display = "none";
+        if (progressInterval) {
+          clearInterval(progressInterval);
+        }
+      }
+
+      function updateProgress() {
+        document.getElementById("progress-fill").style.width =
+          uploadProgress + "%";
+      }
+
+      function startSimulatedProgress() {
+        uploadProgress = 0;
+        updateProgress();
+
+        progressInterval = setInterval(() => {
+          // Simulate upload progress (faster at start, slower at end)
+          if (uploadProgress < 70) {
+            uploadProgress += Math.random() * 15;
+          } else if (uploadProgress < 90) {
+            uploadProgress += Math.random() * 5;
+          } else if (uploadProgress < 95) {
+            uploadProgress += Math.random() * 2;
+          }
+
+          uploadProgress = Math.min(uploadProgress, 95); // Cap at 95% until actual completion
+          updateProgress();
+
+          // Update messages based on progress
+          if (uploadProgress > 30 && uploadProgress < 70) {
+            document.getElementById("loading-message").textContent =
+              "Upload complete, initializing processing...";
+            document.getElementById("loading-submessage").textContent =
+              "Your document is being prepared for analysis";
+          } else if (uploadProgress >= 70) {
+            document.getElementById("loading-message").textContent =
+              "Processing started...";
+            document.getElementById("loading-submessage").textContent =
+              "You will be redirected to the status page shortly";
+          }
+        }, 200);
+      }
+
+      // Auto-hide loading on page unload (when redirecting to status page)
+      window.addEventListener("beforeunload", function () {
+        hideLoading();
+      });
     </script>
-</body>
+  </body>
 </html>

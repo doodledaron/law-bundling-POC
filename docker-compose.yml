@@ -1,23 +1,22 @@
-version: '3.8'
-
 services:
   # Web API service running FastAPI
   api:
-    build: .  # Build the container from the current directory
+    build: . # Build the container from the current directory
     container_name: law-api
-    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload  # Start FastAPI with auto-reload
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload # Start FastAPI with auto-reload
     volumes:
-      - .:/app  # Mount the local directory into the container
+      - .:/app # Mount the local directory into the container
     ports:
-      - "8000:8000"  # Map port 8000 on the host to port 8000 in the container
+      - "8000:8000" # Map port 8000 on the host to port 8000 in the container
     environment:
-      - PYTHONUNBUFFERED=1  # Ensure logs are shown in real-time
-      - REDIS_URL=redis://redis:6379/0  # Redis connection URL
+      - PYTHONUNBUFFERED=1 # Ensure logs are shown in real-time
+      - REDIS_URL=redis://redis:6379/0 # Redis connection URL
     depends_on:
-      - redis  # Ensure Redis is started before this service
-    restart: unless-stopped  # Restart the service unless it is manually stopped
+      - redis # Ensure Redis is started before this service
+    restart: unless-stopped # Restart the service unless it is manually stopped
+    gpus: all
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]  # Check API health
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"] # Check API health
       interval: 30s
       timeout: 10s
       retries: 3
@@ -25,25 +24,25 @@ services:
 
   # Redis service acting as the message broker and result backend for Celery
   redis:
-    image: redis:6.2-alpine  # Use lightweight Redis image
+    image: redis:7-alpine # Use more current Redis image
     container_name: law-redis
     ports:
-      - "6379:6379"  # Expose Redis port
-    command: redis-server --save 60 1 --loglevel warning  # Configure Redis persistence and logging
+      - "6379:6379" # Expose Redis port
+    command: redis-server --save 60 1 --loglevel warning # Configure Redis persistence and logging
     volumes:
-      - redis-data:/data  # Persist Redis data across restarts
+      - redis-data:/data # Persist Redis data across restarts
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "redis-cli", "ping"]  # Ensure Redis is running
+      test: ["CMD", "redis-cli", "ping"] # Ensure Redis is running
       interval: 30s
       timeout: 10s
       retries: 3
 
   # Celery worker for processing document-related tasks
   worker-documents:
-    build: .
+    build: . # Use the same Dockerfile as other services
     container_name: law-worker-documents
-    command: celery -A celery_config worker -Q documents -l info  # Run Celery worker on 'documents' queue
+    command: celery -A celery_config worker -Q documents -l info --concurrency=2 # Run Celery worker with limited concurrency
     volumes:
       - .:/app
     environment:
@@ -52,12 +51,27 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
+    gpus: all
+    # Memory limits to prevent SIGKILL
+    mem_limit: 6g # Limit container to 6GB RAM
+    memswap_limit: 6g # Limit swap to same as memory
+    shm_size: 2g # Increase shared memory for parallel processing
+    deploy:
+      resources:
+        limits:
+          memory: 6g
+        reservations:
+          memory: 2g
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
 
-  # Celery worker for OCR processing
-  worker-ocr:
+  # Celery worker for maintenance tasks
+  worker-maintenance:
     build: .
-    container_name: law-worker-ocr
-    command: celery -A celery_config worker -Q ocr -l info  # Run Celery worker on 'ocr' queue
+    container_name: law-worker-maintenance
+    command: celery -A celery_config worker -Q maintenance -l info # Run Celery worker on 'maintenance' queue
     volumes:
       - .:/app
     environment:
@@ -66,26 +80,20 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
-
-  # Celery worker for extraction tasks
-  worker-extraction:
-    build: .
-    container_name: law-worker-extraction
-    command: celery -A celery_config worker -Q extraction -l info  # Run Celery worker on 'extraction' queue
-    volumes:
-      - .:/app
-    environment:
-      - PYTHONUNBUFFERED=1
-      - REDIS_URL=redis://redis:6379/0
-    depends_on:
-      - redis
-    restart: unless-stopped
+    gpus: all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
 
   # Celery Beat service for scheduling tasks
   beat:
     build: .
     container_name: law-beat
-    command: celery -A celery_config beat -l info  # Start Celery Beat to schedule periodic tasks
+    command: celery -A celery_config beat -l info # Start Celery Beat to schedule periodic tasks
     volumes:
       - .:/app
     environment:
@@ -94,21 +102,43 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
+    gpus: all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
 
   # Flower - Celery monitoring dashboard (optional)
   flower:
     build: .
     container_name: law-flower
-    command: celery -A celery_config flower --port=5555  # Run Flower on port 5555
+    working_dir: /app
+    command: celery -A celery_config flower --port=5555 # Run Flower on port 5555
     ports:
-      - "5555:5555"  # Expose Flower dashboard
+      - "5555:5555" # Expose Flower dashboard
+    volumes:
+      - .:/app
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
+      - PYTHONPATH=/app
+    env_file:
+      - .env
     depends_on:
       - redis
-      - worker-documents  # Ensure at least one worker is running before starting Flower
+      - worker-documents # Ensure at least one worker is running before starting Flower
     restart: unless-stopped
+    gpus: all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
 
 # Define a volume to persist Redis data
 volumes:

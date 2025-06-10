@@ -7,6 +7,7 @@ from celery.utils.log import get_task_logger
 import os
 import json
 import tempfile
+import shutil
 import redis
 import fitz  # PyMuPDF
 import cv2
@@ -16,7 +17,8 @@ from PIL import Image
 # Import utilities
 from tasks.utils import (
     update_job_status,
-    get_timestamp
+    get_timestamp,
+    format_duration
 )
 
 logger = get_task_logger(__name__)
@@ -95,7 +97,7 @@ def create_document_chunks(job_id, file_path, file_name, overlap_pages=2):
 
 def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
     """
-    Split a PDF into chunks with overlap.
+    Split a PDF into 20-page chunks with overlap.
     
     Args:
         job_id: Unique job identifier
@@ -112,28 +114,27 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
         total_pages = pdf_document.page_count
         logger.info(f"PDF has {total_pages} pages")
         
-        # Determine optimal chunk size based on document size
-        if total_pages <= 50:
-            pages_per_chunk = total_pages  # Process as single chunk
-        elif total_pages <= 200:
-            pages_per_chunk = 20
-        elif total_pages <= 500:
-            pages_per_chunk = 25
-        else:
-            pages_per_chunk = 50
+        # Fixed 20-page chunks for robust processing
+        pages_per_chunk = 20
         
-        # Calculate number of chunks
+        # Calculate number of chunks needed
         num_chunks = (total_pages + pages_per_chunk - 1) // pages_per_chunk
         chunks = []
         chunks_info = []
         
-        # Create chunks with overlap
+        logger.info(f"Creating {num_chunks} chunks of maximum {pages_per_chunk} pages each")
+        
+        # Create chunks with strict page limits
         for i in range(num_chunks):
-            # Start page includes overlap from previous chunk
-            start_page = max(0, i * pages_per_chunk - overlap_pages)
+            # Calculate page ranges - ensure exactly 20 pages per chunk (except last)
+            start_page = i * pages_per_chunk
+            end_page = min(start_page + pages_per_chunk - 1, total_pages - 1)
             
-            # End page includes overlap into next chunk
-            end_page = min((i + 1) * pages_per_chunk + overlap_pages - 1, total_pages - 1)
+            # Ensure we don't exceed the page limit
+            actual_pages = end_page - start_page + 1
+            if actual_pages > pages_per_chunk:
+                end_page = start_page + pages_per_chunk - 1
+                actual_pages = pages_per_chunk
             
             # Create a unique ID for this chunk
             chunk_id = f"chunk_{i:04d}"
@@ -158,10 +159,8 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
                 "job_id": job_id,
                 "start_page": start_page,
                 "end_page": end_page,
-                "is_overlap_start": start_page > 0 and start_page != i * pages_per_chunk,
-                "is_overlap_end": end_page < total_pages - 1 and end_page != (i + 1) * pages_per_chunk - 1,
-                "original_start": i * pages_per_chunk,
-                "original_end": min((i + 1) * pages_per_chunk - 1, total_pages - 1),
+                "total_pages": actual_pages,
+                "has_overlap": False,  # Remove overlap for now to prevent memory issues
                 "path": chunk_path
             }
             
@@ -173,9 +172,11 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
             chunks.append(chunk_metadata)
             chunks_info.append({
                 "chunk_id": chunk_id,
-                "pages": f"{start_page}-{end_page}",
-                "total_pages": end_page - start_page + 1
+                "pages": f"{start_page + 1}-{end_page + 1}",  # 1-indexed for display
+                "total_pages": actual_pages
             })
+            
+            logger.info(f"Chunk {chunk_id}: pages {start_page + 1}-{end_page + 1} ({actual_pages} pages)")
         
         # Close the original PDF
         pdf_document.close()
@@ -185,6 +186,8 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
             "job_id": job_id,
             "total_pages": total_pages,
             "num_chunks": num_chunks,
+            "pages_per_chunk": pages_per_chunk,
+            "overlap_pages": 0,  # Disabled overlap for memory stability
             "chunks": [c["chunk_id"] for c in chunks]
         }
         
@@ -193,7 +196,7 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
         with open(manifest_path, 'w') as f:
             json.dump(manifest, f)
         
-        logger.info(f"Created {num_chunks} chunks for job {job_id}")
+        logger.info(f"Created {num_chunks} chunks for job {job_id} with maximum {pages_per_chunk} pages each")
         
         return {
             "job_id": job_id,
@@ -232,7 +235,6 @@ def _process_image_as_chunk(job_id, file_path, file_name, job_chunk_dir):
         chunk_path = os.path.join(job_chunk_dir, f"{chunk_id}{file_ext}")
         
         # Copy original file to chunk location
-        import shutil
         shutil.copy2(file_path, chunk_path)
         
         # Create metadata for this chunk
@@ -395,9 +397,6 @@ def merge_chunk_results(job_id):
         dict: Merged results
     """
     try:
-        # Import here to avoid circular imports
-        from tasks.extraction_tasks import merge_extraction_results
-        
         # Get job chunk directory
         job_chunk_dir = os.path.join('chunks', job_id)
         
@@ -425,11 +424,173 @@ def merge_chunk_results(job_id):
                     results = json.load(f)
                 chunk_results.append(results)
         
-        # Merge results using extraction task
-        merged_results = merge_extraction_results(job_id, chunk_results)
+        # Simple merge logic for PPStructure results
+        merged_results = _merge_ppstructure_results(job_id, chunk_results)
         
         return merged_results
         
     except Exception as e:
         logger.error(f"Error merging chunk results for job {job_id}: {str(e)}")
         return {"status": "error", "message": f"Error merging results: {str(e)}"}
+
+
+def _merge_ppstructure_results(job_id, chunk_results):
+    """
+    Merge PPStructure results from multiple chunks.
+    
+    Args:
+        job_id: The job identifier
+        chunk_results: List of results from individual chunks
+        
+    Returns:
+        dict: Merged results
+    """
+    try:
+        if not chunk_results:
+            return {"status": "error", "message": "No chunk results to merge"}
+        
+        # Initialize merged data
+        merged_text = []
+        merged_entities = {}
+        total_confidence_scores = []
+        total_cost = 0.0
+        total_pages = 0
+        total_chunks_processed = 0
+        
+        # Performance tracking
+        processing_times = []
+        total_tokens = 0
+        
+        # Merge results from each chunk
+        for i, result in enumerate(chunk_results):
+            chunk_num = i + 1
+            
+            # Extract and mark text with chunk information
+            if 'extracted_text' in result and result['extracted_text']:
+                chunk_header = f"\n--- CHUNK {chunk_num} ---\n"
+                merged_text.append(chunk_header + result['extracted_text'])
+            
+            # Collect confidence scores
+            if 'average_confidence_formatted' in result:
+                # Extract numeric value from formatted string like "85.5%"
+                confidence_str = result['average_confidence_formatted'].replace('%', '')
+                try:
+                    confidence_val = float(confidence_str)
+                    total_confidence_scores.append(confidence_val)
+                except:
+                    pass
+            
+            # Merge entities from each chunk
+            if 'entities' in result and isinstance(result['entities'], dict):
+                for key, value in result['entities'].items():
+                    if key not in merged_entities:
+                        merged_entities[key] = []
+                    
+                    # Handle different value types
+                    if isinstance(value, list):
+                        merged_entities[key].extend(value)
+                    elif isinstance(value, dict):
+                        # For dict values, convert to readable format
+                        formatted_value = f"Chunk {chunk_num}: {str(value)}"
+                        merged_entities[key].append(formatted_value)
+                    else:
+                        merged_entities[key].append(f"Chunk {chunk_num}: {str(value)}")
+            
+            # Aggregate performance data
+            if 'performance' in result:
+                perf = result['performance']
+                if 'total_pages' in perf:
+                    total_pages += perf['total_pages']
+                if 'total_chunks_processed' in perf:
+                    total_chunks_processed += perf['total_chunks_processed']
+                if 'processing_time' in perf and 'seconds' in perf['processing_time']:
+                    processing_times.append(perf['processing_time']['seconds'])
+            
+            # Aggregate cost information
+            if 'cost_info' in result:
+                cost_info = result['cost_info']
+                if 'estimated_cost' in cost_info:
+                    total_cost += cost_info.get('estimated_cost', 0.0)
+                if 'token_usage' in cost_info and 'total_tokens' in cost_info['token_usage']:
+                    total_tokens += cost_info['token_usage'].get('total_tokens', 0)
+        
+        # Calculate overall metrics
+        average_confidence = sum(total_confidence_scores) / len(total_confidence_scores) if total_confidence_scores else 0
+        total_processing_time = sum(processing_times) if processing_times else 0
+        
+        # Combine all text for final document
+        full_text = '\n\n'.join(merged_text)
+        
+        # Generate a comprehensive summary for the entire document using all combined text
+        summary = f"Multi-chunk document processed successfully. Contains {len(chunk_results)} chunks with {total_pages} total pages and {len(full_text)} characters of extracted text."
+        
+        # Generate final summary using ALL combined text from ALL chunks
+        final_summary = summary  # Default fallback
+        if full_text.strip():
+            try:
+                # Import text processor to generate final summary (dynamic import)
+                from text_based_processor import TextBasedProcessor
+                
+                # Initialize text processor
+                text_processor = TextBasedProcessor()
+                
+                # Generate comprehensive summary using all combined text
+                logger.info(f"Generating final summary for job {job_id} using {len(full_text)} characters of combined text")
+                
+                summary_result = text_processor.summarize_document_text(full_text, f"Complete_Document_{job_id}")
+                
+                if summary_result and 'summary' in summary_result:
+                    final_summary = summary_result['summary']
+                    
+                    # Also extract entities from the combined text
+                    if 'analysis' in summary_result and summary_result['analysis']:
+                        merged_entities.update(summary_result['analysis'])
+                    
+                    # Update cost information
+                    if 'estimated_cost' in summary_result:
+                        total_cost += summary_result.get('estimated_cost', 0.0)
+                    if 'usage_info' in summary_result and 'total_tokens' in summary_result['usage_info']:
+                        total_tokens += summary_result['usage_info'].get('total_tokens', 0)
+                        
+                logger.info(f"Successfully generated final summary for job {job_id}")
+                
+            except Exception as e:
+                logger.error(f"Error generating final summary for job {job_id}: {str(e)}")
+                final_summary = f"Document processed with {len(chunk_results)} chunks. Summary generation failed: {str(e)}"
+        
+        # Create performance summary
+        performance_data = {
+            "total_chunks": len(chunk_results),
+            "total_pages": total_pages,
+            "total_chunks_processed": total_chunks_processed,
+            "total_processing_time": {
+                "seconds": total_processing_time,
+                "formatted": format_duration(total_processing_time)
+            },
+            "average_processing_time_per_chunk": {
+                "seconds": total_processing_time / len(chunk_results) if chunk_results else 0,
+                "formatted": format_duration(total_processing_time / len(chunk_results)) if chunk_results else "0s"
+            },
+            "parallel_processing": True
+        }
+        
+        return {
+            "status": "completed",
+            "extracted_text": full_text,
+            "entities": merged_entities,
+            "summary": final_summary,
+            "average_confidence": average_confidence,
+            "average_confidence_formatted": f"{average_confidence:.1f}%",
+            "performance": performance_data,
+            "cost_info": {
+                "total_estimated_cost": total_cost,
+                "total_tokens_used": total_tokens,
+                "cost_per_chunk": total_cost / len(chunk_results) if chunk_results else 0
+            },
+            "processing_method": "chunked_parallel",
+            "job_id": job_id
+        }
+        
+    except Exception as e:
+        logger.error(f"Error merging PPStructure results: {str(e)}")
+        return {"status": "error", "message": f"Error merging PPStructure results: {str(e)}"}

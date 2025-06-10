@@ -1,0 +1,28 @@
+# Use the PaddlePaddle GPU image as base
+FROM paddlepaddle/paddle:3.0.0-gpu-cuda11.8-cudnn8.9-trt8.6
+
+WORKDIR /app
+
+# Install PyYAML first to avoid conflicts
+RUN pip install --ignore-installed PyYAML
+
+# Install paddleocr without dependencies
+RUN pip install --no-deps paddleocr
+
+# Install core dependencies
+RUN pip install celery redis pdf2image pillow opencv-python numpy
+
+# Copy requirements file
+COPY requirements.txt .
+
+# Install remaining requirements
+RUN pip install -r requirements.txt --ignore-installed
+
+# Set Python path
+ENV PYTHONPATH=/app
+
+# Set working directory
+WORKDIR /app
+
+# Default command (will be overridden by docker-compose)
+CMD ["celery", "-A", "celery_config", "worker", "-Q", "documents", "-l", "info"] 
