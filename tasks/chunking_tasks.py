@@ -153,12 +153,12 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
             chunk_pdf.save(chunk_path)
             chunk_pdf.close()
             
-            # Create metadata for this chunk
+            # Create metadata for this chunk with continuous page numbering
             chunk_metadata = {
                 "chunk_id": chunk_id,
                 "job_id": job_id,
-                "start_page": start_page,
-                "end_page": end_page,
+                "start_page": start_page + 1,  # Convert to 1-indexed for user display
+                "end_page": end_page + 1,      # Convert to 1-indexed for user display
                 "total_pages": actual_pages,
                 "has_overlap": False,  # Remove overlap for now to prevent memory issues
                 "path": chunk_path
@@ -172,7 +172,7 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
             chunks.append(chunk_metadata)
             chunks_info.append({
                 "chunk_id": chunk_id,
-                "pages": f"{start_page + 1}-{end_page + 1}",  # 1-indexed for display
+                "pages": f"{start_page + 1}-{end_page + 1}",  # Continuous page numbering (1-20, 21-40, etc.)
                 "total_pages": actual_pages
             })
             

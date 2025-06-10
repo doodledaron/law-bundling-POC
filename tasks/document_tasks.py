@@ -174,23 +174,29 @@ def process_large_document(job_id, file_path, file_name):
                 chunk_result = process_chunk(job_id, chunk['chunk_id'], chunk['path'])
                 
                 if isinstance(chunk_result, dict):
-                    # Adjust page numbers to be continuous across chunks
+                    # Use the continuous page numbers from chunk metadata
                     chunk_number = chunk_result.get('chunk_number', i)
+                    
+                    # Get actual page numbers from chunk metadata if available
                     if 'start_page' not in chunk_result or 'end_page' not in chunk_result:
+                        # Calculate continuous page numbers: chunk 0 = pages 1-20, chunk 1 = pages 21-40, etc.
                         chunk_result['start_page'] = (chunk_number * 20) + 1
-                        chunk_result['end_page'] = (chunk_number + 1) * 20
+                        chunk_result['end_page'] = min((chunk_number + 1) * 20, chunk_info.get('total_pages', 999))
                     
                     chunk_results.append(chunk_result)
                     
-                    # Update progress
+                    # Update progress with individual chunk completion
                     progress = 30 + (45 * (i + 1) // len(chunks))
                     update_job_status(redis_client, job_id, {
-                        'message': f'Completed chunk {i + 1}/{len(chunks)} (pages {chunk_result.get("start_page", "?")}-{chunk_result.get("end_page", "?")})',
+                        'message': f'✅ Chunk {i + 1}/{len(chunks)} completed - Pages {chunk_result.get("start_page", "?")}-{chunk_result.get("end_page", "?")} processed successfully',
                         'progress': progress,
-                        'updated_at': get_timestamp()
+                        'updated_at': get_timestamp(),
+                        'current_chunk': i + 1,
+                        'total_chunks': len(chunks),
+                        'chunk_progress': f"{i + 1}/{len(chunks)}"
                     })
                     
-                    logger.info(f"Successfully completed chunk {i + 1}/{len(chunks)} - pages {chunk_result.get('start_page', '?')}-{chunk_result.get('end_page', '?')}")
+                    logger.info(f"✅ Successfully completed chunk {i + 1}/{len(chunks)} - pages {chunk_result.get('start_page', '?')}-{chunk_result.get('end_page', '?')}")
                 else:
                     # Handle unexpected result format
                     chunk_number = i
@@ -409,6 +415,28 @@ def process_chunk(job_id, chunk_id, chunk_path):
     try:
         logger.info(f"Processing PDF chunk {chunk_id} for job {job_id}")
         
+        # Load chunk metadata to get actual starting page number
+        chunk_metadata = None
+        job_chunk_dir = os.path.join('chunks', job_id)
+        chunk_meta_path = os.path.join(job_chunk_dir, f"{chunk_id}.json")
+        
+        if os.path.exists(chunk_meta_path):
+            try:
+                with open(chunk_meta_path, 'r', encoding='utf-8') as f:
+                    chunk_metadata = json.load(f)
+                logger.info(f"Loaded chunk metadata: {chunk_metadata}")
+            except Exception as e:
+                logger.warning(f"Error loading chunk metadata: {str(e)}")
+        
+        # Get actual starting page number from metadata
+        actual_start_page = 1  # Default fallback
+        actual_end_page = 20   # Default fallback
+        
+        if chunk_metadata:
+            actual_start_page = chunk_metadata.get('start_page', 1)
+            actual_end_page = chunk_metadata.get('end_page', 20)
+            logger.info(f"Chunk {chunk_id} covers actual pages {actual_start_page}-{actual_end_page}")
+        
         # Update chunk status to processing
         update_chunk_status(job_id, chunk_id, 'processing')
         
@@ -416,12 +444,13 @@ def process_chunk(job_id, chunk_id, chunk_path):
         # Use the main job_id so all chunks go into the same folder
         chunk_filename = f"{chunk_id}_{os.path.basename(chunk_path)}"
         
-        # Pass main job_id to keep all chunks in the same folder
+        # Pass main job_id and actual starting page number to keep all chunks in the same folder
         result = _get_ppstructure_function()(
             job_id,  # Use main job_id instead of f"{job_id}_{chunk_id}"
             chunk_path, 
             chunk_filename,
-            generate_summary=False  # Important: Don't generate summary for individual chunks
+            generate_summary=False,  # Important: Don't generate summary for individual chunks
+            actual_start_page=actual_start_page  # Pass the actual starting page number
         )
         
         # Extract the actual combined text from the PPStructure result
@@ -435,11 +464,11 @@ def process_chunk(job_id, chunk_id, chunk_path):
             # Try to load from results directory if not in direct result
             if not combined_text:
                 results_dir = os.path.join("results", job_id)
-                # Look for chunk-specific combined text file
+                # Try to load chunk results from the results directory
                 chunk_text_files = [
                     os.path.join(results_dir, "combined_text.txt"),
                     os.path.join(results_dir, chunk_id, "combined_text.txt"),
-                    os.path.join(results_dir, "chunk_results", chunk_id, "combined_text.txt")
+                    os.path.join(results_dir, "images", chunk_id, "combined_text.txt")  # Updated path without chunk_results
                 ]
                 
                 for text_file in chunk_text_files:
@@ -461,8 +490,8 @@ def process_chunk(job_id, chunk_id, chunk_path):
             'status': 'completed',
             'combined_text': combined_text,
             'extracted_text': combined_text,  # Alias for compatibility
-            'start_page': (chunk_number * 20) + 1,
-            'end_page': (chunk_number + 1) * 20,
+            'start_page': actual_start_page,
+            'end_page': actual_end_page,
             'performance': result.get('performance', {}),
             'cost_info': result.get('cost_info', {'estimated_cost': 0.0}),
             'average_confidence_formatted': result.get('average_confidence_formatted', '0.0%'),
@@ -491,8 +520,8 @@ def process_chunk(job_id, chunk_id, chunk_path):
             'error': str(e),
             'combined_text': '',
             'extracted_text': '',
-            'start_page': (chunk_number * 20) + 1,
-            'end_page': (chunk_number + 1) * 20,
+            'start_page': actual_start_page,
+            'end_page': actual_end_page,
             'performance': {},
             'cost_info': {'estimated_cost': 0.0}
         }

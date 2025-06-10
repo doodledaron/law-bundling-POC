@@ -48,7 +48,7 @@ from pdf2image import convert_from_bytes
 from PIL import Image, ImageDraw, ImageFont
 
 # Import utilities
-from tasks.utils import get_unix_timestamp, calculate_duration, format_duration
+from tasks.utils import get_unix_timestamp, calculate_duration, format_duration, update_job_status, get_timestamp
 from text_based_processor import TextBasedProcessor
 
 logger = get_task_logger(__name__)
@@ -517,7 +517,7 @@ def get_pipeline():
     return pipeline
 
 @shared_task(name='tasks.process_document_with_ppstructure')
-def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True):
+def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1):
     """
     Process a document using PPStructure with intelligent chunking and parallel processing.
     
@@ -526,6 +526,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         file_path: Path to the document file
         file_name: Original file name
         generate_summary: Whether to generate summary (False for chunks, True for whole documents)
+        actual_start_page: The actual starting page number (for continuous numbering across chunks)
         
     Returns:
         dict: Processing results including layout analysis, OCR, and extracted information
@@ -550,14 +551,17 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         result_dir = os.path.join("results", job_id)
         
         if is_chunk and chunk_id:
-            # For chunks, create subdirectories within the main job folder
-            images_dir = os.path.join(result_dir, "images", chunk_id)
-            vis_dir = os.path.join(result_dir, "visualizations", chunk_id)
-            tables_dir = os.path.join(result_dir, "tables", chunk_id)
-            figures_dir = os.path.join(result_dir, "figures", chunk_id)
-            chunk_results_dir = os.path.join(result_dir, "chunk_results", chunk_id)
+            # For chunks, save directly to main job folder structure - NO chunk subdirectories
+            images_dir = os.path.join(result_dir, "images")
+            vis_dir = os.path.join(result_dir, "visualizations")
+            tables_dir = os.path.join(result_dir, "tables")
+            figures_dir = os.path.join(result_dir, "figures")
             
-            os.makedirs(chunk_results_dir, exist_ok=True)
+            # Create directories
+            os.makedirs(images_dir, exist_ok=True)
+            os.makedirs(vis_dir, exist_ok=True)
+            os.makedirs(tables_dir, exist_ok=True)
+            os.makedirs(figures_dir, exist_ok=True)
         else:
             # For single documents, use the standard structure
             images_dir = os.path.join(result_dir, "images")
@@ -578,16 +582,16 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             # Convert PDF to images - exactly like working code
             images = convert_from_bytes(open(file_path, "rb").read())
             
-            # Save all page images - exactly like working code
+            # Save all page images with correct page numbering
             image_paths = []
             for i, image in enumerate(images):
-                page_num = i + 1
-                image_path = os.path.join(images_dir, f"page_{page_num}.jpg")
+                actual_page_num = actual_start_page + i  # Use actual page number for file naming
+                image_path = os.path.join(images_dir, f"page_{actual_page_num}.jpg")
                 image.save(image_path)
                 image_paths.append(image_path)
         else:
-            # Single image file - simplified approach
-            image_path = os.path.join(images_dir, f"page_1.jpg")
+            # Single image file - use actual page number
+            image_path = os.path.join(images_dir, f"page_{actual_start_page}.jpg")
             shutil.copy2(file_path, image_path)
             image_paths = [image_path]
         
@@ -759,8 +763,34 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
         # Process results for each page
         processed_outputs = []
-        for page_num, (image_path, output) in enumerate(zip(image_paths, all_outputs), 1):
+        for page_index, (image_path, output) in enumerate(zip(image_paths, all_outputs)):
             page_start_time = get_unix_timestamp()
+            
+            # Calculate actual page number and page index within chunk
+            actual_page_num = actual_start_page + page_index  # This is the real page number (21, 22, 23...)
+            page_within_chunk = page_index + 1  # This is the page index within chunk (1, 2, 3...)
+            
+            # Update progress for each page within chunk processing
+            if is_chunk and chunk_id:
+                # Calculate progress within this chunk using page index, not actual page number
+                page_progress_within_chunk = (page_within_chunk / len(image_paths)) * 100
+                
+                # Update job status with page-level progress for chunks
+                from tasks.utils import update_job_status
+                import redis
+                redis_client = redis.Redis.from_url(os.environ.get('REDIS_URL', 'redis://localhost:6379/0'))
+                
+                update_job_status(redis_client, job_id, {
+                    'message': f'📄 Processing {chunk_id} - Page {actual_page_num} ({page_within_chunk}/{len(image_paths)} - {page_progress_within_chunk:.0f}% of chunk)',
+                    'updated_at': get_timestamp(),
+                    'chunk_id': chunk_id,
+                    'current_page': actual_page_num,  # Use actual page number for display
+                    'current_page_in_chunk': page_within_chunk,  # Add page within chunk
+                    'total_pages_in_chunk': len(image_paths),
+                    'chunk_page_progress': f"{page_within_chunk}/{len(image_paths)}"
+                })
+                
+                logger.info(f"📄 Processing {chunk_id} - Page {actual_page_num} ({page_within_chunk}/{len(image_paths)} - {page_progress_within_chunk:.0f}% of chunk)")
             
             try:
                 if output is not None:
@@ -795,7 +825,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         'overall_ocr_res' in output_dict and
                         not output_dict['overall_ocr_res'].get('rec_texts')
                     ):
-                        logger.warning(f"PPStructure returned empty results for page {page_num}")
+                        logger.warning(f"PPStructure returned empty results for page {actual_page_num}")
                         output_dict = {
                             'layout_det_res': {'boxes': []},
                             'overall_ocr_res': {'rec_boxes': [], 'rec_texts': [], 'rec_scores': []},
@@ -804,7 +834,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         }
                 else:
                     # Create empty structure for None results
-                    logger.warning(f"No output for page {page_num}, creating empty structure")
+                    logger.warning(f"No output for page {actual_page_num}, creating empty structure")
                     output_dict = {
                         'layout_det_res': {'boxes': []},
                         'overall_ocr_res': {'rec_boxes': [], 'rec_texts': [], 'rec_scores': []},
@@ -813,7 +843,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     }
                 
             except Exception as e:
-                logger.error(f"Error post-processing page {page_num}: {str(e)}")
+                logger.error(f"Error post-processing page {actual_page_num}: {str(e)}")
                 # Create empty result structure for failed page
                 output_dict = {
                     'layout_det_res': {'boxes': []},
@@ -826,7 +856,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             page_end_time = get_unix_timestamp()
             output_dict['page_processing_time'] = calculate_duration(page_start_time, page_end_time)
             output_dict['processing_method'] = 'batch_direct'
-            output_dict['page_number'] = page_num
+            output_dict['page_number'] = actual_page_num  # Use actual page number
             
             processed_outputs.append(output_dict)
             
@@ -834,17 +864,17 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             regions = extract_layout_regions(output_dict)
             
             # Create visualization with bounding boxes
-            vis_path = os.path.join(vis_dir, f"page_{page_num}_layout.jpg")
+            vis_path = os.path.join(vis_dir, f"page_{actual_page_num}_layout.jpg")
             layout_vis_result = draw_bounding_boxes(image_path, regions, vis_path)
             if layout_vis_result is None:
-                logger.warning(f"Failed to create layout visualization for page {page_num}")
+                logger.warning(f"Failed to create layout visualization for page {actual_page_num}")
             
             # Extract OCR text
             ocr_text = []
             if 'overall_ocr_res' in output_dict and 'rec_texts' in output_dict['overall_ocr_res']:
                 ocr_text = output_dict['overall_ocr_res']['rec_texts']
-                # Add to combined text with page marker
-                all_ocr_text.append(f"--- PAGE {page_num} ---")
+                # Add to combined text with page marker using actual page number
+                all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
                 all_ocr_text.extend(ocr_text)
             
             # Process tables and figures with Gemini AI
@@ -854,27 +884,27 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                 
                 if region_type == 'table' and bbox:
                     # Extract table image
-                    table_img_path = os.path.join(tables_dir, f"page_{page_num}_table_{j+1}.png")
+                    table_img_path = os.path.join(tables_dir, f"page_{actual_page_num}_table_{j+1}.png")
                     table_img_bytes = extract_image_from_region(image_path, bbox, table_img_path)
                     
                     # Process table with Gemini
-                    context = f"Table from page {page_num}"
+                    context = f"Table from page {actual_page_num}"
                     table_text = text_processor.process_table_image(table_img_bytes, context)
                     
                     # Add to table extractions
-                    table_extractions.append(f"\n--- TABLE FROM PAGE {page_num} ---\n{table_text}\n")
+                    table_extractions.append(f"\n--- TABLE FROM PAGE {actual_page_num} ---\n{table_text}\n")
                     
                 elif region_type == 'figure' and bbox:
                     # Extract figure image
-                    figure_img_path = os.path.join(figures_dir, f"page_{page_num}_figure_{j+1}.png")
+                    figure_img_path = os.path.join(figures_dir, f"page_{actual_page_num}_figure_{j+1}.png")
                     figure_img_bytes = extract_image_from_region(image_path, bbox, figure_img_path)
                     
                     # Process figure with Gemini
-                    context = f"Figure from page {page_num}"
+                    context = f"Figure from page {actual_page_num}"
                     figure_text = text_processor.process_figure_image(figure_img_bytes, context)
                     
                     # Add to figure extractions
-                    figure_extractions.append(f"\n--- FIGURE FROM PAGE {page_num} ---\n{figure_text}\n")
+                    figure_extractions.append(f"\n--- FIGURE FROM PAGE {actual_page_num} ---\n{figure_text}\n")
         
         # Combine all text for document summarization
         combined_text = "\n".join(all_ocr_text)
@@ -933,7 +963,10 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
         # Prepare individual page results in the format you prefer
         page_results = []
-        for page_num, (image_path, output_dict) in enumerate(zip(image_paths, processed_outputs), 1):
+        for page_index, (image_path, output_dict) in enumerate(zip(image_paths, processed_outputs)):
+            # Calculate actual page number for this page
+            actual_page_num = actual_start_page + page_index
+            
             # Get relative paths for web access
             relative_result_dir = f"results/{job_id}"
             
@@ -946,12 +979,12 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             regions = extract_layout_regions(output_dict)
             
             page_result = {
-                "page_number": page_num,
-                "image_path": f"{relative_result_dir}/images/page_{page_num}.jpg",
-                "layout_vis_path": f"{relative_result_dir}/visualizations/page_{page_num}_layout.jpg",
+                "page_number": actual_page_num,
+                "image_path": f"{relative_result_dir}/images/page_{actual_page_num}.jpg",
+                "layout_vis_path": f"{relative_result_dir}/visualizations/page_{actual_page_num}_layout.jpg",
                 "regions": regions,
                 "ocr_text": page_ocr_text,
-                "json_path": f"{relative_result_dir}/page_results/page_{page_num}_res.json" if hasattr(output_dict, 'save_to_json') else None
+                "json_path": f"{relative_result_dir}/page_results/page_{actual_page_num}_res.json" if hasattr(output_dict, 'save_to_json') else None
             }
             
             page_results.append(page_result)
