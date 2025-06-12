@@ -48,7 +48,6 @@ app.add_middleware(
 
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
-app.mount("/static", StaticFiles(directory="static"), name="static")
 app.mount("/results", StaticFiles(directory="results"), name="results")
 
 # Error messages

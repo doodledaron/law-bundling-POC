@@ -28,7 +28,7 @@ services:
     container_name: law-redis
     ports:
       - "6379:6379" # Expose Redis port
-    command: redis-server --save 60 1 --loglevel warning # Configure Redis persistence and logging
+    command: redis-server --save 60 1 --loglevel warning --maxmemory 4gb --maxmemory-policy allkeys-lru # Enhanced Redis config
     volumes:
       - redis-data:/data # Persist Redis data across restarts
     restart: unless-stopped
@@ -38,30 +38,37 @@ services:
       timeout: 10s
       retries: 3
 
-  # Celery worker for processing document-related tasks
+  # Single Celery worker for document processing with CUDA-safe sequential processing
   worker-documents:
     build: . # Use the same Dockerfile as other services
     container_name: law-worker-documents
-    command: celery -A celery_config worker -Q documents -l info --concurrency=2 # Run Celery worker with limited concurrency
+    command: >
+      sh -c "
+        echo 'Waiting for Redis to be ready...' &&
+        sleep 10 &&
+        echo 'Starting Celery worker...' &&
+        celery -A celery_config worker -Q documents -l info --concurrency=2 --hostname=worker-documents@%h
+      "
     volumes:
       - .:/app
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
+      - WORKER_TYPE=documents
     depends_on:
       - redis
     restart: unless-stopped
     gpus: all
-    # Memory limits to prevent SIGKILL
-    mem_limit: 6g # Limit container to 6GB RAM
-    memswap_limit: 6g # Limit swap to same as memory
-    shm_size: 2g # Increase shared memory for parallel processing
+    # Memory limits for CUDA-safe sequential processing
+    mem_limit: 16g # Keep high memory for PPStructure models
+    memswap_limit: 16g # Match memory limit
+    shm_size: 6g # Large shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 6g
+          memory: 16g
         reservations:
-          memory: 2g
+          memory: 8g
           devices:
             - driver: nvidia
               count: 1
@@ -71,19 +78,26 @@ services:
   worker-maintenance:
     build: .
     container_name: law-worker-maintenance
-    command: celery -A celery_config worker -Q maintenance -l info # Run Celery worker on 'maintenance' queue
+    command: celery -A celery_config worker -Q maintenance -l info --concurrency=1 --hostname=worker-maintenance@%h # Dedicated maintenance worker
     volumes:
       - .:/app
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
+      - WORKER_TYPE=maintenance
     depends_on:
       - redis
     restart: unless-stopped
     gpus: all
+    mem_limit: 2g # Lower memory for maintenance tasks
+    memswap_limit: 2g
+    shm_size: 512m
     deploy:
       resources:
+        limits:
+          memory: 2g
         reservations:
+          memory: 1g
           devices:
             - driver: nvidia
               count: 1
@@ -103,20 +117,25 @@ services:
       - redis
     restart: unless-stopped
     gpus: all
+    mem_limit: 1g # Minimal memory for beat scheduler
+    memswap_limit: 1g
     deploy:
       resources:
+        limits:
+          memory: 1g
         reservations:
+          memory: 512m
           devices:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
 
-  # Flower - Celery monitoring dashboard (optional)
+  # Flower - Celery monitoring dashboard
   flower:
     build: .
     container_name: law-flower
     working_dir: /app
-    command: celery -A celery_config flower --port=5555 # Run Flower on port 5555
+    command: celery -A celery_config flower --port=5555 # Simplified Flower configuration
     ports:
       - "5555:5555" # Expose Flower dashboard
     volumes:
@@ -129,12 +148,17 @@ services:
       - .env
     depends_on:
       - redis
-      - worker-documents # Ensure at least one worker is running before starting Flower
+      - worker-documents # Ensure worker is running
     restart: unless-stopped
     gpus: all
+    mem_limit: 1g # Minimal memory for monitoring
+    memswap_limit: 1g
     deploy:
       resources:
+        limits:
+          memory: 1g
         reservations:
+          memory: 512m
           devices:
             - driver: nvidia
               count: 1
@@ -143,3 +167,8 @@ services:
 # Define a volume to persist Redis data
 volumes:
   redis-data:
+
+# Network configuration
+networks:
+  default:
+    driver: bridge

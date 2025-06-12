@@ -1,6 +1,7 @@
 """
 Task package for the law document processing system.
 Contains modular tasks for document processing with PPStructure pipeline.
+Enhanced with parallel processing capabilities.
 """
 import os
 
@@ -11,8 +12,7 @@ os.makedirs('chunks', exist_ok=True)
 
 # Import all tasks directly - simplified approach for better reliability
 from tasks.document_tasks import (
-    process_document, 
-    process_chunk
+    process_document
 )
 
 from tasks.chunking_tasks import (
@@ -42,11 +42,16 @@ from tasks.utils import (
 # Make tasks available for import
 __all__ = [
     'process_document',
-    'process_chunk', 
     'create_document_chunks',
     'update_chunk_status',
     'cleanup_expired_results',
     'system_stats',
     'process_document_with_ppstructure',
-    'warmup_ppstructure'
+    'warmup_ppstructure',
+    'get_timestamp',
+    'get_unix_timestamp', 
+    'calculate_duration',
+    'format_duration',
+    'update_job_status',
+    'update_job_timing'
 ]

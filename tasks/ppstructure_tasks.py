@@ -11,16 +11,9 @@ import numpy as np
 import tempfile
 import shutil
 from pathlib import Path
-from typing import List, Dict
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from threading import Lock
 import time
 import datetime
-import random
-import inspect
 import warnings
-
-
 
 # Fix numpy compatibility issue with deprecated np.bool
 try:
@@ -53,12 +46,87 @@ from text_based_processor import TextBasedProcessor
 
 logger = get_task_logger(__name__)
 
-# Initialize PPStructureV3 pipeline with error handling
+# Initialize PPStructureV3 pipeline globally to avoid reloading models
 pipeline = None
-processing_lock = Lock()
+pipeline_initialization_attempted = False
 
 # Initialize TextBasedProcessor for Gemini integration
 text_processor = TextBasedProcessor()
+
+def ensure_pipeline_initialized():
+    """
+    Ensure PPStructure pipeline is initialized once per DOCUMENT worker process.
+    This avoids reloading models for every document/chunk, but ONLY loads in document workers.
+    Other workers (API, maintenance) will never load these heavy models.
+    """
+    global pipeline, pipeline_initialization_attempted
+    
+    if pipeline is not None:
+        return pipeline
+    
+    if pipeline_initialization_attempted:
+        # If we already tried and failed, don't keep trying
+        if pipeline is None:
+            raise RuntimeError("PPStructure pipeline initialization failed previously")
+        return pipeline
+    
+    try:
+        pipeline_initialization_attempted = True
+        
+        # Smart worker detection - only load models when actually needed
+        # Check if we're being called from a PPStructure task or document processing context
+        import inspect
+        
+        # Look at the call stack to see if we're in a document processing task
+        is_document_worker = False
+        frame = inspect.currentframe()
+        try:
+            while frame:
+                frame_info = inspect.getframeinfo(frame)
+                filename = frame_info.filename
+                function_name = frame.f_code.co_name
+                
+                # Check if we're being called from document processing functions
+                if ('ppstructure' in filename.lower() or 
+                    'document_tasks' in filename.lower() or
+                    function_name in ['process_document_with_ppstructure', 'warmup_ppstructure', 'process_document']):
+                    is_document_worker = True
+                    break
+                    
+                frame = frame.f_back
+        finally:
+            del frame
+        
+        # Also check environment variables for worker queue assignment
+        worker_queues = os.environ.get('CELERY_WORKER_QUEUES', '').lower()
+        if 'documents' in worker_queues:
+            is_document_worker = True
+        
+        # Log worker type detection
+        worker_name = os.environ.get('CELERY_WORKER_NAME', 'unknown')
+        logger.info(f"🔍 Worker detection: name='{worker_name}', queues='{worker_queues}', is_document_worker={is_document_worker}")
+        
+        if is_document_worker:
+            logger.info("🔥 Document worker context detected - Initializing PPStructure pipeline...")
+        else:
+            # This is likely an API worker or other non-document worker
+            logger.info("🚫 Non-document worker context - PPStructure models NOT loaded (saves memory)")
+            # We still mark as attempted to avoid repeated checks
+            return None
+        
+        # Import PaddlePaddle libraries
+        from paddleocr import PPStructureV3
+        
+        # Initialize PPStructureV3 - this loads all models once
+        pipeline = PPStructureV3(paddlex_config="PP-StructureV3.yaml")
+        
+        logger.info("✅ PPStructure pipeline initialized successfully and cached globally in document worker")
+        return pipeline
+        
+    except Exception as e:
+        logger.error(f"❌ Failed to initialize PPStructure pipeline: {str(e)}")
+        pipeline = None  # Reset to None on failure
+        raise RuntimeError(f"PPStructure initialization failed: {str(e)}")
 
 # Define colors for different region types
 REGION_COLORS = {
@@ -74,12 +142,12 @@ REGION_COLORS = {
 }
 
 def initialize_pipeline():
-    """Initialize PPStructure pipeline with simple approach like working version"""
+    """Initialize PPStructure pipeline with simple approach"""
     global pipeline
     try:
         logger.info("Initializing PPStructureV3 pipeline...")
         
-        # Initialize PPStructureV3 exactly like the working code - simple approach
+        # Initialize PPStructureV3 - simple approach
         pipeline = PPStructureV3(paddlex_config="PP-StructureV3.yaml")
         
         logger.info("PPStructureV3 pipeline initialized successfully")
@@ -88,256 +156,50 @@ def initialize_pipeline():
         logger.error(f"Failed to initialize PPStructureV3 pipeline: {str(e)}")
         return False
 
-# DO NOT initialize pipeline at module load - use lazy loading only!
-# Pipeline will be initialized only when actually needed by get_pipeline()
-
 @shared_task(name='tasks.warmup_ppstructure')
 def warmup_ppstructure():
     """
-    Warmup task to pre-initialize PPStructure models.
-    Call this when document workers start to preload models.
-    """
-    try:
-        logger.info("Warming up PPStructure pipeline...")
-        get_pipeline()  # This will initialize the pipeline
-        logger.info("PPStructure pipeline warmup completed successfully")
-        return {"status": "success", "message": "PPStructure models loaded and ready"}
-    except Exception as e:
-        logger.error(f"PPStructure warmup failed: {str(e)}")
-        return {"status": "failed", "error": str(e)}
-
-def create_document_chunks(image_path, max_chunk_size=(2000, 2000), overlap=200):
-    """
-    Create chunks from a large document image for parallel processing.
+    Warmup task to initialize PPStructure models and prepare the pipeline.
+    This should be called when workers start to preload models.
     
-    Args:
-        image_path: Path to the image file
-        max_chunk_size: Maximum size of each chunk (width, height)
-        overlap: Overlap between chunks in pixels
-        
     Returns:
-        List of chunk information with paths and coordinates
+        dict: Warmup status and timing information
     """
     try:
-        # Load image
-        image = cv2.imread(image_path)
-        if image is None:
-            raise ValueError(f"Could not load image: {image_path}")
-            
-        height, width = image.shape[:2]
-        max_width, max_height = max_chunk_size
+        logger.info("🔥 Starting PPStructure warmup...")
+        warmup_start = get_unix_timestamp()
         
-        # If image is smaller than chunk size, no need to chunk
-        if width <= max_width and height <= max_height:
-            return [{
-                'chunk_id': 'full',
-                'path': image_path,
-                'coordinates': {'x': 0, 'y': 0, 'width': width, 'height': height},
-                'original_size': {'width': width, 'height': height}
-            }]
+        # Initialize the pipeline (this will cache it globally)
+        pipeline_instance = ensure_pipeline_initialized()
         
-        chunks = []
-        chunk_id = 0
+        # Test with a small dummy image
+        test_image = np.ones((100, 100, 3), dtype=np.uint8) * 255  # White image
         
-        # Create chunks directory
-        base_dir = os.path.dirname(image_path)
-        basename = os.path.splitext(os.path.basename(image_path))[0]
-        chunks_dir = os.path.join(base_dir, f"{basename}_chunks")
-        os.makedirs(chunks_dir, exist_ok=True)
+        logger.info("🧪 Testing pipeline with dummy image...")
+        test_result = pipeline_instance.predict(input=[test_image])
         
-        # Generate chunks with overlap
-        y = 0
-        while y < height:
-            x = 0
-            while x < width:
-                # Calculate chunk boundaries
-                x2 = min(x + max_width, width)
-                y2 = min(y + max_height, height)
-                
-                # Extract chunk
-                chunk = image[y:y2, x:x2]
-                
-                # Save chunk
-                chunk_filename = f"chunk_{chunk_id:03d}.jpg"
-                chunk_path = os.path.join(chunks_dir, chunk_filename)
-                cv2.imwrite(chunk_path, chunk)
-                
-                # Store chunk info
-                chunks.append({
-                    'chunk_id': f"chunk_{chunk_id:03d}",
-                    'path': chunk_path,
-                    'coordinates': {'x': x, 'y': y, 'width': x2-x, 'height': y2-y},
-                    'original_size': {'width': width, 'height': height}
-                })
-                
-                chunk_id += 1
-                
-                # Move to next column
-                if x2 >= width:
-                    break
-                x += max_width - overlap
-                if x >= width:
-                    break
-            
-            # Move to next row
-            if y2 >= height:
-                break
-            y += max_height - overlap
-            if y >= height:
-                break
+        warmup_end = get_unix_timestamp()
+        warmup_duration = calculate_duration(warmup_start, warmup_end)
         
-        return chunks
+        logger.info(f"✅ PPStructure warmup completed in {warmup_duration['formatted']} - Models cached for reuse")
         
-    except Exception as e:
-        logger.error(f"Error creating chunks: {str(e)}")
-        return []
-
-def process_chunk_parallel(chunk_info):
-    """Process a single chunk in parallel."""
-    try:
-        chunk_start_time = get_unix_timestamp()
-        
-        # Ensure chunk path is an absolute string path for Docker compatibility
-        chunk_path = os.path.abspath(str(chunk_info['path']))
-        logger.info(f"Processing chunk with absolute path: {chunk_path}")
-        
-        # Docker workaround: Load image as numpy array instead of using string path
-        chunk_image = cv2.imread(chunk_path)
-        if chunk_image is None:
-            raise ValueError(f"Could not load chunk image: {chunk_path}")
-            
-        logger.info(f"Loaded chunk as numpy array: shape {chunk_image.shape}, dtype {chunk_image.dtype}")
-        
-        # Process the chunk using PPStructure with numpy array input
-        result = get_pipeline().predict(input=[chunk_image])[0]
-        
-        # Process result to make it JSON serializable
-        processed_result = process_output_for_json(result)
-        
-        # Add chunk metadata
-        chunk_end_time = get_unix_timestamp()
-        processed_result['chunk_info'] = chunk_info
-        processed_result['processing_time'] = calculate_duration(chunk_start_time, chunk_end_time)
-        processed_result['processing_method'] = 'chunked'
-        
-        return processed_result
-        
-    except Exception as e:
-        logger.error(f"Error processing chunk {chunk_info['chunk_id']}: {str(e)}")
         return {
-            'chunk_info': chunk_info,
-            'error': str(e),
-            'processing_time': {'seconds': 0, 'formatted': '0s'},
-            'processing_method': 'failed'
+            "status": "success",
+            "warmup_time": warmup_duration,
+            "pipeline_ready": True,
+            "pipeline_cached": True,
+            "test_result_received": test_result is not None,
+            "timestamp": get_timestamp()
         }
-
-def merge_chunk_results(chunk_results, original_size):
-    """
-    Merge results from multiple chunks back into a single result.
-    
-    Args:
-        chunk_results: List of results from individual chunks
-        original_size: Original document size {'width': w, 'height': h}
-        
-    Returns:
-        Merged result in the same format as single document processing
-    """
-    try:
-        merged_result = {
-            'layout_det_res': {'boxes': []},
-            'overall_ocr_res': {'rec_boxes': [], 'rec_texts': [], 'rec_scores': []},
-            'parsing_res_list': [],
-            'processing_info': {
-                'chunk_count': len(chunk_results),
-                'merged_at': datetime.datetime.now().isoformat(),
-                'chunk_timings': []
-            }
-        }
-        
-        total_processing_time = 0
-        
-        for chunk_result in chunk_results:
-            if 'error' in chunk_result:
-                continue
-                
-            chunk_info = chunk_result.get('chunk_info', {})
-            chunk_coords = chunk_info.get('coordinates', {'x': 0, 'y': 0})
-            offset_x = chunk_coords['x']
-            offset_y = chunk_coords['y']
-            
-            # Add processing time
-            chunk_time = chunk_result.get('processing_time', {}).get('seconds', 0)
-            total_processing_time += chunk_time
-            merged_result['processing_info']['chunk_timings'].append({
-                'chunk_id': chunk_info.get('chunk_id', 'unknown'),
-                'processing_time': chunk_result.get('processing_time', {}),
-                'coordinates': chunk_coords
-            })
-            
-            # Merge layout detection results
-            if 'layout_det_res' in chunk_result and 'boxes' in chunk_result['layout_det_res']:
-                for box in chunk_result['layout_det_res']['boxes']:
-                    # Adjust coordinates to original image space
-                    adjusted_box = box.copy()
-                    if 'coordinate' in adjusted_box:
-                        coord = adjusted_box['coordinate']
-                        adjusted_box['coordinate'] = [
-                            coord[0] + offset_x,
-                            coord[1] + offset_y,
-                            coord[2] + offset_x,
-                            coord[3] + offset_y
-                        ]
-                    merged_result['layout_det_res']['boxes'].append(adjusted_box)
-            
-            # Merge OCR results
-            if 'overall_ocr_res' in chunk_result:
-                ocr_res = chunk_result['overall_ocr_res']
-                
-                if 'rec_boxes' in ocr_res:
-                    for box in ocr_res['rec_boxes']:
-                        adjusted_box = [
-                            box[0] + offset_x,
-                            box[1] + offset_y,
-                            box[2] + offset_x,
-                            box[3] + offset_y
-                        ]
-                        merged_result['overall_ocr_res']['rec_boxes'].append(adjusted_box)
-                
-                if 'rec_texts' in ocr_res:
-                    merged_result['overall_ocr_res']['rec_texts'].extend(ocr_res['rec_texts'])
-                
-                if 'rec_scores' in ocr_res:
-                    merged_result['overall_ocr_res']['rec_scores'].extend(ocr_res['rec_scores'])
-            
-            # Merge parsing results
-            if 'parsing_res_list' in chunk_result:
-                for item in chunk_result['parsing_res_list']:
-                    adjusted_item = item.copy()
-                    if 'block_bbox' in adjusted_item:
-                        bbox = adjusted_item['block_bbox']
-                        adjusted_item['block_bbox'] = [
-                            bbox[0] + offset_x,
-                            bbox[1] + offset_y,
-                            bbox[2] + offset_x,
-                            bbox[3] + offset_y
-                        ]
-                    merged_result['parsing_res_list'].append(adjusted_item)
-        
-        # Add overall timing info
-        merged_result['processing_info']['total_chunk_processing_time'] = {
-            'seconds': round(total_processing_time, 2),
-            'formatted': format_duration(total_processing_time)
-        }
-        
-        return merged_result
         
     except Exception as e:
-        logger.error(f"Error merging chunk results: {str(e)}")
+        logger.error(f"❌ PPStructure warmup failed: {str(e)}")
         return {
-            'layout_det_res': {'boxes': []},
-            'overall_ocr_res': {'rec_boxes': [], 'rec_texts': [], 'rec_scores': []},
-            'parsing_res_list': [],
-            'error': f"Error merging results: {str(e)}"
+            "status": "failed",
+            "error": str(e),
+            "pipeline_ready": False,
+            "pipeline_cached": False,
+            "timestamp": get_timestamp()
         }
 
 def process_output_for_json(output):
@@ -427,7 +289,7 @@ def draw_bounding_boxes(image_path, regions, output_path):
             cv2.imwrite(output_path, img)
             return output_path
             
-        # Convert to RGB for PIL (exactly like working code)
+        # Convert to RGB for PIL
         img_pil = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
         draw = ImageDraw.Draw(img_pil)
         
@@ -467,14 +329,14 @@ def draw_bounding_boxes(image_path, regions, output_path):
                     # Convert color from BGR (OpenCV) to RGB (PIL)
                     color_rgb = (color[2], color[1], color[0])
                     
-                    # Draw rectangle (exactly like working code)
+                    # Draw rectangle
                     draw.rectangle(
                         [(x1, y1), (x2, y2)], 
                         outline=color_rgb, 
                         width=2
                     )
                     
-                    # Add label (exactly like working code)
+                    # Add label
                     label_text = f"{i+1}: {region_type}"
                     label_y = max(0, y1 - 25)  # Ensure label is visible
                     draw.text(
@@ -487,7 +349,7 @@ def draw_bounding_boxes(image_path, regions, output_path):
                     logger.warning(f"Error drawing box {i}: {str(e)}")
                     continue
         
-        # Convert back to OpenCV format (exactly like working code)
+        # Convert back to OpenCV format
         img_result = cv2.cvtColor(np.array(img_pil), cv2.COLOR_RGB2BGR)
         
         # Create output directory if needed
@@ -507,19 +369,32 @@ def draw_bounding_boxes(image_path, regions, output_path):
         return None
 
 def get_pipeline():
-    """Get the pipeline, initializing if needed"""
+    """
+    Get the globally cached PPStructure pipeline instance.
+    Models are loaded once per DOCUMENT worker process and reused for all documents/chunks.
+    Returns None if called from non-document workers (API, maintenance) to save memory.
+    """
     global pipeline
-    if pipeline is None:
-        with processing_lock:
-            if pipeline is None:  # Double-check pattern
-                if not initialize_pipeline():
-                    raise RuntimeError("PPStructure pipeline could not be initialized")
-    return pipeline
+    
+    if pipeline is not None:
+        logger.debug("📋 Using cached PPStructure pipeline (models already loaded)")
+        return pipeline
+    
+    # Initialize if not already done (only in document workers)
+    pipeline_instance = ensure_pipeline_initialized()
+    
+    if pipeline_instance is None:
+        logger.warning("⚠️ PPStructure pipeline not available - not in document worker context")
+        raise RuntimeError("PPStructure pipeline only available in document workers")
+    
+    return pipeline_instance
 
 @shared_task(name='tasks.process_document_with_ppstructure')
-def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1):
+def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1, 
+                                     enable_visualizations=False, enable_table_extraction=True, 
+                                     enable_figure_extraction=True, fast_mode=False):
     """
-    Process a document using PPStructure with intelligent chunking and parallel processing.
+    Process a document using PPStructure with optimized settings.
     
     Args:
         job_id: Unique job identifier
@@ -527,13 +402,33 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         file_name: Original file name
         generate_summary: Whether to generate summary (False for chunks, True for whole documents)
         actual_start_page: The actual starting page number (for continuous numbering across chunks)
+        enable_visualizations: Whether to create visualization images (disabled by default for speed)
+        enable_table_extraction: Whether to extract tables with Gemini AI
+        enable_figure_extraction: Whether to extract figures with Gemini AI
+        fast_mode: If True, disables all optional features for maximum speed
         
     Returns:
         dict: Processing results including layout analysis, OCR, and extracted information
     """
     try:
-        # Initialize pipeline with lazy loading
-        logger.info(f"Starting PPStructure processing for job {job_id}")
+        # Apply performance optimizations
+        if fast_mode:
+            enable_visualizations = False
+            enable_table_extraction = False
+            enable_figure_extraction = False
+            logger.info(f"🚀 Fast mode enabled - all optimizations applied for job {job_id}")
+        
+        # Log optimization settings
+        opts = []
+        if not enable_visualizations:
+            opts.append("no visualizations")
+        if not enable_table_extraction:
+            opts.append("no tables")
+        if not enable_figure_extraction:
+            opts.append("no figures")
+        
+        if opts:
+            logger.info(f"⚡ Performance optimizations: {', '.join(opts)} (estimated 30% faster)")
         
         # Start overall timing
         overall_start_time = get_unix_timestamp()
@@ -551,17 +446,11 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         result_dir = os.path.join("results", job_id)
         
         if is_chunk and chunk_id:
-            # For chunks, save directly to main job folder structure - NO chunk subdirectories
+            # For chunks, save directly to main job folder structure
             images_dir = os.path.join(result_dir, "images")
             vis_dir = os.path.join(result_dir, "visualizations")
             tables_dir = os.path.join(result_dir, "tables")
             figures_dir = os.path.join(result_dir, "figures")
-            
-            # Create directories
-            os.makedirs(images_dir, exist_ok=True)
-            os.makedirs(vis_dir, exist_ok=True)
-            os.makedirs(tables_dir, exist_ok=True)
-            os.makedirs(figures_dir, exist_ok=True)
         else:
             # For single documents, use the standard structure
             images_dir = os.path.join(result_dir, "images")
@@ -579,7 +468,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         file_ext = os.path.splitext(file_name)[1].lower()
         
         if file_ext == '.pdf':
-            # Convert PDF to images - exactly like working code
+            # Convert PDF to images
             images = convert_from_bytes(open(file_path, "rb").read())
             
             # Save all page images with correct page numbering
@@ -608,19 +497,25 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
         image_paths = valid_image_paths
         
-        # Process each page directly (no internal image chunking)
+        # Process each page
         all_ocr_text = []
         table_extractions = []
         figure_extractions = []
         
         try:
-            # Process all images at once with PPStructureV3 using string file paths (NO numpy arrays)
+            # Process images with PPStructureV3
             logger.info(f"Processing {len(image_paths)} images with PPStructure")
             
-            # Get pipeline instance
+            # Get pipeline instance (uses globally cached models)
             pipeline_instance = get_pipeline()
             
-            # Validate all image paths as strings (no numpy array loading)
+            # Log whether we're using cached models or loading for first time
+            if pipeline is not None:
+                logger.info(f"🔄 Using cached PPStructure models (no reload needed)")
+            else:
+                logger.info(f"🔥 Loading PPStructure models for first time in this worker")
+            
+            # Validate all image paths as strings
             validated_paths = []
             for img_path in image_paths:
                 if not isinstance(img_path, str):
@@ -640,23 +535,76 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             if not validated_paths:
                 raise ValueError("No valid image paths found for processing")
             
-            # Ensure paths are explicitly strings and convert to absolute paths for Docker compatibility
-            absolute_validated_paths = []
-            for path in validated_paths:
-                abs_path = os.path.abspath(str(path))  # Ensure string and absolute path
-                absolute_validated_paths.append(abs_path)
+            # Convert to absolute paths for better compatibility
+            absolute_validated_paths = [os.path.abspath(str(path)) for path in validated_paths]
             
-            # Try using file paths first (better for PPStructure filename handling)
-            # Fall back to numpy arrays only if file path processing fails
-            try:
-                logger.info(f"Attempting PPStructure processing with file paths...")
+            # Update progress before PPStructure processing
+            if is_chunk and chunk_id:
+                from tasks.utils import update_job_status
+                import redis
+                redis_client = redis.Redis.from_url(os.environ.get('REDIS_URL', 'redis://localhost:6379/0'))
                 
-                # Process images individually to prevent memory issues and SIGKILL
+                update_job_status(redis_client, job_id, {
+                    'message': f'🚀 Processing {chunk_id} - Running PPStructure on all {len(absolute_validated_paths)} pages in single batch',
+                    'updated_at': get_timestamp(),
+                    'chunk_id': chunk_id,
+                    'total_pages_in_chunk': len(absolute_validated_paths),
+                    'processing_stage': 'ppstructure_batch_processing'
+                })
+            
+            # Process all images at once - more efficient than batching on single GPU
+            logger.info(f"🚀 Processing all {len(absolute_validated_paths)} images at once with PPStructure")
+            
+            try:
+                # Process entire chunk/document in one call
+                all_outputs = pipeline_instance.predict(input=absolute_validated_paths)
+                
+                if all_outputs:
+                    logger.info(f"✅ Successfully processed all {len(all_outputs)} images in single call")
+                    
+                    # Update progress after successful batch processing
+                    if is_chunk and chunk_id:
+                        update_job_status(redis_client, job_id, {
+                            'message': f'✅ {chunk_id} - PPStructure completed, now extracting text and processing results',
+                            'updated_at': get_timestamp(),
+                            'chunk_id': chunk_id,
+                            'total_pages_in_chunk': len(absolute_validated_paths),
+                            'processing_stage': 'post_processing_results'
+                        })
+                else:
+                    logger.warning("⚠️ Empty output from PPStructure batch processing")
+                    all_outputs = [None] * len(absolute_validated_paths)
+                    
+            except Exception as batch_error:
+                logger.warning(f"⚠️ Batch processing failed ({str(batch_error)}), falling back to individual processing...")
+                
+                # Update progress for fallback processing
+                if is_chunk and chunk_id:
+                    update_job_status(redis_client, job_id, {
+                        'message': f'⚠️ {chunk_id} - Batch failed, processing pages individually...',
+                        'updated_at': get_timestamp(),
+                        'chunk_id': chunk_id,
+                        'total_pages_in_chunk': len(absolute_validated_paths),
+                        'processing_stage': 'individual_fallback_processing'
+                    })
+                
+                # Fallback: Process images individually only if batch fails
                 all_outputs = []
                 
                 for i, img_path in enumerate(absolute_validated_paths):
                     try:
-                        # Process single image with file path
+                        # Update progress for individual page processing
+                        if is_chunk and chunk_id:
+                            page_num = i + 1
+                            update_job_status(redis_client, job_id, {
+                                'message': f'📄 {chunk_id} - Individual processing: page {page_num}/{len(absolute_validated_paths)}',
+                                'updated_at': get_timestamp(),
+                                'chunk_id': chunk_id,
+                                'current_page_in_chunk': page_num,
+                                'total_pages_in_chunk': len(absolute_validated_paths),
+                                'processing_stage': f'individual_page_{page_num}'
+                            })
+                        
                         single_output = pipeline_instance.predict(input=[img_path])
                         
                         if single_output and len(single_output) > 0:
@@ -670,95 +618,25 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         import gc
                         gc.collect()
                         
-                        # For chunks, add small delay to prevent rapid memory allocation
-                        if is_chunk:
-                            import time
-                            time.sleep(0.1)  # 100ms delay between images in chunks
-                            
-                    except Exception as img_error:
-                        logger.error(f"Error processing image {i+1} with file path: {str(img_error)}")
-                        all_outputs.append(None)
-                        # Clean up even on error
-                        import gc
-                        gc.collect()
-                        continue
-                        
-                logger.info(f"File path processing completed successfully")
-                
-            except Exception as path_error:
-                logger.warning(f"File path processing failed: {str(path_error)}, falling back to numpy arrays...")
-                
-                # Fallback: Docker environment workaround using numpy arrays
-                # PaddleOCR in Docker has issues with string path processing
-                numpy_images = []
-                for img_path in absolute_validated_paths:
-                    try:
-                        img_array = cv2.imread(img_path)
-                        if img_array is not None:
-                            numpy_images.append(img_array)
-                        else:
-                            logger.error(f"Failed to load image as numpy array: {img_path}")
-                            raise ValueError(f"Could not load image: {img_path}")
-                    except Exception as img_error:
-                        logger.error(f"Error loading image {img_path}: {str(img_error)}")
-                        raise
-                
-                if not numpy_images:
-                    raise ValueError("No valid images could be loaded as numpy arrays")
-                    
-                # Process images individually to prevent memory issues and SIGKILL
-                all_outputs = []
-                
-                for i, numpy_image in enumerate(numpy_images):
-                    try:
-                        # Process single image with memory optimization
-                        single_output = pipeline_instance.predict(input=[numpy_image])
-                        
-                        if single_output and len(single_output) > 0:
-                            all_outputs.append(single_output[0])
-                        else:
-                            logger.warning(f"Empty output for image {i+1}")
-                            all_outputs.append(None)
-                        
-                        # Clear memory after each image - aggressive cleanup
-                        del single_output
-                        del numpy_image  # Clear this specific image from memory
-                        import gc
-                        gc.collect()
-                        
-                        # For chunks, add small delay to prevent rapid memory allocation
-                        if is_chunk:
-                            import time
-                            time.sleep(0.1)  # 100ms delay between images in chunks
-                            
                     except Exception as img_error:
                         logger.error(f"Error processing image {i+1}: {str(img_error)}")
                         all_outputs.append(None)
-                        # Clean up even on error
                         import gc
                         gc.collect()
                         continue
-                
-                # Clear numpy_images list to free memory
-                del numpy_images
-                import gc
-                gc.collect()
             
             # Update image_paths to match validated paths
             image_paths = validated_paths
             
             if not all_outputs:
                 logger.warning("PPStructure returned empty results for all pages")
-                all_outputs = [None] * len(image_paths)  # Create empty placeholders
+                all_outputs = [None] * len(image_paths)
             else:
                 successful_count = sum(1 for output in all_outputs if output is not None)
                 logger.info(f"PPStructure processing completed: {successful_count}/{len(all_outputs)} images processed successfully")
             
         except Exception as e:
             logger.error(f"Error in PPStructure processing: {str(e)}")
-            import traceback
-            logger.error(f"Traceback: {traceback.format_exc()}")
-            # Create empty results for all pages if processing fails
             all_outputs = [None] * len(image_paths)
         
         # Process results for each page
@@ -767,36 +645,14 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             page_start_time = get_unix_timestamp()
             
             # Calculate actual page number and page index within chunk
-            actual_page_num = actual_start_page + page_index  # This is the real page number (21, 22, 23...)
-            page_within_chunk = page_index + 1  # This is the page index within chunk (1, 2, 3...)
+            actual_page_num = actual_start_page + page_index
+            page_within_chunk = page_index + 1
             
-            # Update progress for each page within chunk processing
-            if is_chunk and chunk_id:
-                # Calculate progress within this chunk using page index, not actual page number
-                page_progress_within_chunk = (page_within_chunk / len(image_paths)) * 100
-                
-                # Update job status with page-level progress for chunks
-                from tasks.utils import update_job_status
-                import redis
-                redis_client = redis.Redis.from_url(os.environ.get('REDIS_URL', 'redis://localhost:6379/0'))
-                
-                update_job_status(redis_client, job_id, {
-                    'message': f'📄 Processing {chunk_id} - Page {actual_page_num} ({page_within_chunk}/{len(image_paths)} - {page_progress_within_chunk:.0f}% of chunk)',
-                    'updated_at': get_timestamp(),
-                    'chunk_id': chunk_id,
-                    'current_page': actual_page_num,  # Use actual page number for display
-                    'current_page_in_chunk': page_within_chunk,  # Add page within chunk
-                    'total_pages_in_chunk': len(image_paths),
-                    'chunk_page_progress': f"{page_within_chunk}/{len(image_paths)}"
-                })
-                
-                logger.info(f"📄 Processing {chunk_id} - Page {actual_page_num} ({page_within_chunk}/{len(image_paths)} - {page_progress_within_chunk:.0f}% of chunk)")
+            # Note: Progress updates now happen at batch level, not per page since we process all pages at once
             
             try:
                 if output is not None:
-                    # Process the output directly like working code
-                    
-                    # Convert output to dict format for processing
+                    # Process the output
                     if hasattr(output, 'save_to_json'):
                         # Use built-in method if available
                         result_dir_for_page = os.path.join(result_dir, "page_results")
@@ -844,7 +700,6 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                 
             except Exception as e:
                 logger.error(f"Error post-processing page {actual_page_num}: {str(e)}")
-                # Create empty result structure for failed page
                 output_dict = {
                     'layout_det_res': {'boxes': []},
                     'overall_ocr_res': {'rec_boxes': [], 'rec_texts': [], 'rec_scores': []},
@@ -855,19 +710,24 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             # Add timing information
             page_end_time = get_unix_timestamp()
             output_dict['page_processing_time'] = calculate_duration(page_start_time, page_end_time)
-            output_dict['processing_method'] = 'batch_direct'
-            output_dict['page_number'] = actual_page_num  # Use actual page number
+            output_dict['processing_method'] = 'optimized_batch'
+            output_dict['page_number'] = actual_page_num
             
             processed_outputs.append(output_dict)
             
             # Extract layout regions
             regions = extract_layout_regions(output_dict)
             
-            # Create visualization with bounding boxes
-            vis_path = os.path.join(vis_dir, f"page_{actual_page_num}_layout.jpg")
-            layout_vis_result = draw_bounding_boxes(image_path, regions, vis_path)
-            if layout_vis_result is None:
-                logger.warning(f"Failed to create layout visualization for page {actual_page_num}")
+            # Create visualization with bounding boxes (conditional)
+            if enable_visualizations:
+                vis_path = os.path.join(vis_dir, f"page_{actual_page_num}_layout.jpg")
+                layout_vis_result = draw_bounding_boxes(image_path, regions, vis_path)
+                if layout_vis_result is None:
+                    logger.warning(f"Failed to create layout visualization for page {actual_page_num}")
+                else:
+                    logger.info(f"Successfully created bounding box visualization: {vis_path}")
+            else:
+                logger.debug(f"⚡ Skipped visualization for page {actual_page_num} (performance optimization)")
             
             # Extract OCR text
             ocr_text = []
@@ -877,12 +737,12 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                 all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
                 all_ocr_text.extend(ocr_text)
             
-            # Process tables and figures with Gemini AI
+            # Process tables and figures with Gemini AI (conditional)
             for j, region in enumerate(regions):
                 region_type = region.get('type', '').lower()
                 bbox = region.get('bbox')
                 
-                if region_type == 'table' and bbox:
+                if region_type == 'table' and bbox and enable_table_extraction:
                     # Extract table image
                     table_img_path = os.path.join(tables_dir, f"page_{actual_page_num}_table_{j+1}.png")
                     table_img_bytes = extract_image_from_region(image_path, bbox, table_img_path)
@@ -894,7 +754,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     # Add to table extractions
                     table_extractions.append(f"\n--- TABLE FROM PAGE {actual_page_num} ---\n{table_text}\n")
                     
-                elif region_type == 'figure' and bbox:
+                elif region_type == 'figure' and bbox and enable_figure_extraction:
                     # Extract figure image
                     figure_img_path = os.path.join(figures_dir, f"page_{actual_page_num}_figure_{j+1}.png")
                     figure_img_bytes = extract_image_from_region(image_path, bbox, figure_img_path)
@@ -905,6 +765,11 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     
                     # Add to figure extractions
                     figure_extractions.append(f"\n--- FIGURE FROM PAGE {actual_page_num} ---\n{figure_text}\n")
+                
+                elif region_type == 'table' and not enable_table_extraction:
+                    logger.debug(f"⚡ Skipped table extraction on page {actual_page_num} (performance optimization)")
+                elif region_type == 'figure' and not enable_figure_extraction:
+                    logger.debug(f"⚡ Skipped figure extraction on page {actual_page_num} (performance optimization)")
         
         # Combine all text for document summarization
         combined_text = "\n".join(all_ocr_text)
@@ -932,8 +797,8 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         elif not generate_summary:
             # For chunks, don't generate summary but provide placeholder
             summary_result = {
-                "summary": None,  # No summary for individual chunks
-                "analysis": {},   # No entity extraction for chunks
+                "summary": None,
+                "analysis": {},
                 "usage_info": {"total_tokens": 0},
                 "estimated_cost": 0.0
             }
@@ -961,10 +826,9 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         with open(combined_text_path, 'w', encoding='utf-8') as f:
             f.write(combined_text)
         
-        # Prepare individual page results in the format you prefer
+        # Prepare individual page results
         page_results = []
         for page_index, (image_path, output_dict) in enumerate(zip(image_paths, processed_outputs)):
-            # Calculate actual page number for this page
             actual_page_num = actual_start_page + page_index
             
             # Get relative paths for web access
@@ -1002,7 +866,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                 "full_analysis": "No summary generated for individual chunks"
             }
         
-        # Prepare clean results.json like your reference code with extracted_info prominently displayed
+        # Prepare clean results.json
         clean_results = {
             "filename": file_name,
             "job_id": job_id,
@@ -1017,7 +881,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             "token_usage": summary_result.get("usage_info", {}),
             "processing_time_seconds": processing_duration.get("seconds", 0),
             "average_confidence_formatted": average_confidence_formatted,
-            "processing_method": "individual_numpy_arrays"
+            "processing_method": "optimized_sequential"
         }
         
         # Save detailed PPStructure results to separate file
@@ -1030,8 +894,13 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             "detailed_page_outputs": processed_outputs,
             "processing_info": {
                 "pages": len(image_paths),
-                "processing_method": "individual_numpy_arrays",
-                "docker_environment": True,
+                "processing_method": "optimized_sequential",
+                "optimizations_enabled": {
+                    "visualizations_disabled": not enable_visualizations,
+                    "table_extraction": enable_table_extraction,
+                    "figure_extraction": enable_figure_extraction,
+                    "fast_mode": fast_mode
+                },
                 "images_dir": images_dir,
                 "vis_dir": vis_dir,
                 "tables_dir": tables_dir,
@@ -1048,18 +917,15 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             "total_processing_time": processing_duration,
             "performance": {
                 "total_pages": len(image_paths),
-                "total_chunks_processed": 0,
-                "pages_with_chunking": 0,
                 "processing_time": processing_duration,
-                "chunking_enabled": False,
-                "individual_processing": True,
-                "memory_optimization": True
+                "optimized_processing": True,
+                "visualizations_disabled": not enable_visualizations
             },
             "confidence_metrics": {
                 "average_confidence": average_confidence,
                 "average_confidence_formatted": average_confidence_formatted,
                 "total_text_elements": len(all_scores),
-                "confidence_scores": all_scores[:100] if len(all_scores) > 100 else all_scores  # Limit to first 100 for file size
+                "confidence_scores": all_scores[:100] if len(all_scores) > 100 else all_scores
             },
             "cost_info": {
                 "estimated_cost": summary_result.get("estimated_cost", 0.0),

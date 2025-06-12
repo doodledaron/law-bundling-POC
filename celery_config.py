@@ -1,6 +1,6 @@
 """
 Celery configuration for the law document processing system.
-Sets up Celery app, task routing, and general configuration.
+Sets up Celery app, task routing, and general configuration with single worker internal parallelism.
 """
 from celery import Celery
 import os
@@ -23,90 +23,89 @@ celery_app = Celery(
         'tasks.chunking_tasks',
         'tasks.maintenance',
         'tasks.ppstructure_tasks'
-
     ]
 )
 
-# Configure Celery settings
+# Simplified Celery settings for CUDA-safe processing
 celery_app.conf.update(
     # Serialization
     task_serializer='json',
     accept_content=['json'],
     result_serializer='json',
     
-    # Task execution settings
-    worker_prefetch_multiplier=1,  # Process one task at a time
+    # Task execution settings - optimized for CUDA-safe processing
+    worker_prefetch_multiplier=1,  # Process one task at a time for memory efficiency
     task_acks_late=True,  # Acknowledge tasks after execution
     
     # Result settings
     task_ignore_result=False,
     result_expires=60 * 60 * 24 * 7,  # 7 days
     
-    # Task timeouts - OCR can take time for large docs
-    task_time_limit=3600,  # Hard time limit - When reached, the task is forcefully terminated.
-    task_soft_time_limit=3000,  # Soft time limit - When reached, a SoftTimeLimitExceeded exception is raised, allowing graceful handling.
+    # Task timeouts - reasonable for sequential processing
+    task_time_limit=7200,  # Hard time limit: 2 hours for large documents
+    task_soft_time_limit=6000,  # Soft time limit: 100 minutes with graceful handling
     
-    # Broker settings
+    # Simplified broker settings
     broker_transport_options={
-        'visibility_timeout': 3600,
-        'fanout_prefix': True,
-        'fanout_patterns': True,
+        'visibility_timeout': 7200,  # Match task time limit
     },
     
-    # Worker concurrency - REDUCED for memory-intensive OCR tasks
-    # Set low concurrency for document workers to prevent memory exhaustion
-    worker_concurrency=2,  # Max 2 concurrent workers per container (was os.cpu_count())
+    # Worker settings for CUDA-safe processing
+    worker_concurrency=2,  # Increased back to 2 since no ThreadPoolExecutor conflicts
     
-    # Worker memory management - CRITICAL for preventing SIGKILL
-    worker_max_tasks_per_child=5,  # Restart worker after 5 tasks to prevent memory leaks
-    worker_max_memory_per_child=2048000,  # Restart worker if memory exceeds 2GB (in KB)
+    # Worker memory management - for sequential chunk processing
+    worker_max_tasks_per_child=3,  # Restart worker after 3 tasks to prevent memory leaks
+    worker_max_memory_per_child=6144000,  # 6GB memory limit for single worker
     
     # Task pool settings for memory management
-    worker_pool='threads',  # Use threads instead of processes for better memory sharing
+    worker_pool='threads',  # Use threads for better memory sharing
     worker_pool_restarts=True,  # Allow pool restarts
     
-    # Logging
-    worker_redirect_stdouts=False # When False , worker's stdout/stderr are not redirected to the logging system (see print statements directly),In production, you might want to set this to True to capture all output in logs 
+    # Logging settings
+    worker_redirect_stdouts=False,  # Keep logs visible
+    
+    # Task result settings
+    result_persistent=True,  # Persist results
+    result_compression='gzip',  # Compress results to save memory
+    
+    # Disable advanced features that might cause issues
+    task_always_eager=False,  # Never run tasks eagerly
 )
 
-# Task routing - assign tasks to different queues
+# Simplified task routing - no priorities to avoid broker issues
 celery_app.conf.task_routes = {
     # Document processing tasks
     'tasks.process_document': {'queue': 'documents'},
-    'tasks.process_large_document': {'queue': 'documents'},
-    'tasks.process_small_document': {'queue': 'documents'},
-    'tasks.process_document_chunk': {'queue': 'documents'},
-    'tasks.finalize_document_processing': {'queue': 'documents'},
     
-    # OCR tasks
-    'tasks.ocr_tasks.*': {'queue': 'ocr'},
+    # PPStructure tasks
+    'tasks.process_document_with_ppstructure': {'queue': 'documents'},
+    'tasks.warmup_ppstructure': {'queue': 'documents'},
     
     # Chunking tasks
+    'tasks.create_document_chunks': {'queue': 'documents'},
+    'tasks.update_chunk_status': {'queue': 'documents'},
     'tasks.chunking.*': {'queue': 'documents'},
     
-    # Extraction tasks
-    'tasks.extraction.*': {'queue': 'extraction'},
-    
     # Maintenance tasks
-    'tasks.maintenance.*': {'queue': 'maintenance'}
+    'tasks.maintenance.*': {'queue': 'maintenance'},
+    'tasks.cleanup_expired_results': {'queue': 'maintenance'},
+    'tasks.system_stats': {'queue': 'maintenance'}
 }
 
 # Retry settings
 celery_app.conf.task_default_retry_delay = 60  # 1 minute delay
-celery_app.conf.task_max_retries = 3  # Retry up to 3 times
+celery_app.conf.task_max_retries = 2  # Reduced retries for faster failure detection
 
-# Optional scheduled tasks with Celery Beat
+# Beat schedule for maintenance tasks
 celery_app.conf.beat_schedule = {
-    # Daily cleanup of expired results
     'cleanup-expired-results': {
         'task': 'tasks.maintenance.cleanup_expired_results',
         'schedule': 60 * 60 * 24,  # Daily
     },
-    # Hourly system stats collection
     'collect-system-stats': {
         'task': 'tasks.maintenance.system_stats',
         'schedule': 60 * 60,  # Hourly
     }
 }
 
-logger.info("Celery configured successfully")
+logger.info("Simplified Celery configuration loaded for single worker internal parallelism")

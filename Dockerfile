@@ -1,7 +1,7 @@
 # Use PaddlePaddle GPU image as base
-# FROM paddlepaddle/paddle:3.0.0-gpu-cuda11.8-cudnn8.9-trt8.6
+FROM paddlepaddle/paddle:3.0.0-gpu-cuda11.8-cudnn8.9-trt8.6
 # FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
-FROM rapidsai/base:25.06a-cuda11.8-py3.11-amd64
+# FROM rapidsai/base:25.06a-cuda11.8-py3.11-amd64
 
 # Ensure we're running as root
 USER root
@@ -43,7 +43,7 @@ COPY requirements.txt .
 
 # Install all requirements from requirements.txt, forcing reinstall of conflicting packages
 RUN pip install --no-cache-dir --ignore-installed PyYAML -r requirements.txt
-RUN pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
+# RUN pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
 
 # Ensure compatible versions and fix potential conflicts
 RUN pip install --no-cache-dir --force-reinstall \
@@ -52,7 +52,7 @@ RUN pip install --no-cache-dir --force-reinstall \
     pillow==10.0.0
 
 # Create necessary directories
-RUN mkdir -p uploads results chunks static
+RUN mkdir -p uploads results chunks
 
 # Set Python path
 ENV PYTHONPATH=/app
