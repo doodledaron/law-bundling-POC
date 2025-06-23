@@ -378,13 +378,18 @@ def process_small_document(job_id, file_path, file_name):
             'updated_at': get_timestamp()
         })
         
+        # Toggle processing mode here: "auto", "batch", "individual", "force_individual"
+        # Use force_individual to prevent segfaults from batch/parallel processing
+        processing_mode = "individual"  # Safe mode to prevent segfaults
+        
         # Process directly with PPStructure (with summary generation and optimizations)
         result = _get_ppstructure_function()(
             job_id, 
             file_path, 
             file_name, 
             generate_summary=True,
-            enable_visualizations=False  # Disabled for speed
+            enable_visualizations=False,  # Disabled for speed
+            processing_mode=processing_mode
         )
         
         logger.info(f"Small document processing completed for job {job_id}")
@@ -571,6 +576,9 @@ def _process_chunk_with_multiprocessing(job_id, chunk_data):
         os.environ['CUDA_VISIBLE_DEVICES'] = '0'  # Ensure single GPU
         os.environ['PADDLE_TRAINERS_NUM'] = '1'
         os.environ['PADDLE_TRAINER_ID'] = '0'
+        # Additional environment variables for stability
+        os.environ['CUDA_LAUNCH_BLOCKING'] = '1'  # Force synchronous CUDA operations
+        os.environ['PADDLE_DISABLE_ASYNC_EXECUTOR'] = '1'  # Disable async execution
         
         # Each process initializes its own CUDA context with timeout
         import multiprocessing

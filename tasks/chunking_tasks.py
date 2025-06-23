@@ -9,10 +9,18 @@ import json
 import tempfile
 import shutil
 import redis
-import fitz  # PyMuPDF
-import cv2
-import numpy as np
-from PIL import Image
+# Conditional imports for lite containers
+try:
+    import fitz  # PyMuPDF
+    import cv2
+    import numpy as np
+    from PIL import Image
+    HEAVY_DEPS_AVAILABLE = True
+except ImportError as e:
+    # In lite containers without heavy dependencies
+    # Use print since logger is not yet defined
+    print(f"INFO: Heavy dependencies not available in this container: {e}")
+    HEAVY_DEPS_AVAILABLE = False
 
 # Import utilities
 from tasks.utils import (
@@ -45,6 +53,10 @@ def create_document_chunks(job_id, file_path, file_name, overlap_pages=2):
     Returns:
         dict: Information about the chunks created
     """
+    # Check if heavy dependencies are available
+    if not HEAVY_DEPS_AVAILABLE:
+        raise RuntimeError("Document chunking requires heavy dependencies (PyMuPDF, OpenCV) - only available in document workers")
+    
     try:
         # Update job status
         update_job_status(redis_client, job_id, {
@@ -108,6 +120,9 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
     Returns:
         dict: Information about the chunks
     """
+    if not HEAVY_DEPS_AVAILABLE:
+        raise RuntimeError("PDF chunking requires PyMuPDF - only available in document workers")
+    
     try:
         # Open the PDF with PyMuPDF
         pdf_document = fitz.open(file_path)
@@ -224,6 +239,9 @@ def _process_image_as_chunk(job_id, file_path, file_name, job_chunk_dir):
     Returns:
         dict: Information about the single chunk
     """
+    if not HEAVY_DEPS_AVAILABLE:
+        raise RuntimeError("Image processing requires PIL/OpenCV - only available in document workers")
+        
     try:
         # Create a unique ID for this chunk
         chunk_id = "chunk_0000"

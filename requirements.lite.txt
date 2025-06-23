@@ -1,0 +1,41 @@
+# Lightweight requirements for API, maintenance, beat, and flower workers
+# Excludes heavy ML dependencies like PaddlePaddle, OpenCV, etc.
+
+# Core framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Celery and Redis
+celery==5.3.4
+redis==5.0.1
+flower==2.0.1
+
+# Basic utilities
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP and JSON
+requests==2.31.0
+httpx==0.25.2
+
+# File handling (basic)
+python-magic==0.4.27
+pathlib
+
+# Date/time
+python-dateutil==2.8.2
+
+# Logging and monitoring
+psutil==5.9.6
+
+# AI/ML (minimal)
+google-genai==0.3.0
+pillow==10.1.0
+
+# Template engine
+jinja2==3.1.2
+
+# Development
+pytest==7.4.3 

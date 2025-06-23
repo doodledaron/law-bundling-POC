@@ -7,6 +7,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from typing import List
 import os
 import tempfile
 import uuid
@@ -104,6 +105,193 @@ async def read_root(request: Request):
     """
     return templates.TemplateResponse("index.html", {"request": request})
 
+# Bulk processing page
+@app.get("/bulk", response_class=HTMLResponse)
+async def bulk_processing_page(request: Request):
+    """
+    Render the bulk processing monitoring page
+    """
+    return templates.TemplateResponse("bulk_processing.html", {"request": request})
+
+# Results list page
+@app.get("/results-list", response_class=HTMLResponse)
+async def results_page(request: Request):
+    """
+    Render the results list page
+    """
+    return templates.TemplateResponse("results_list.html", {"request": request})
+
+# API endpoint to get all processed documents
+@app.get("/api/results")
+async def api_get_results():
+    """
+    Get all processed documents from results folder
+    """
+    try:
+        results_dir = "results"
+        documents = []
+        
+        if not os.path.exists(results_dir):
+            return {"documents": []}
+        
+        # Scan results directory for job folders
+        for job_folder in os.listdir(results_dir):
+            job_path = os.path.join(results_dir, job_folder)
+            
+            # Skip if not a directory
+            if not os.path.isdir(job_path):
+                continue
+                
+            # Look for results.json in the job folder
+            results_file = os.path.join(job_path, "results.json")
+            if os.path.exists(results_file):
+                try:
+                    with open(results_file, 'r', encoding='utf-8') as f:
+                        doc_data = json.load(f)
+                    
+                    # Add job_id if not present
+                    if 'job_id' not in doc_data:
+                        doc_data['job_id'] = job_folder
+                    
+                    documents.append(doc_data)
+                    
+                except Exception as e:
+                    print(f"Error reading results file {results_file}: {str(e)}")
+                    continue
+        
+        # Sort by processing date (newest first)
+        documents.sort(key=lambda x: x.get('processing_completed_at', ''), reverse=True)
+        
+        return {"documents": documents}
+        
+    except Exception as e:
+        print(f"Error getting results: {str(e)}")
+        return {"documents": [], "error": str(e)}
+
+# Bulk upload endpoint
+@app.post("/bulk-upload")
+async def bulk_upload(request: Request, files: List[UploadFile] = File(...)):
+    """
+    Handle bulk document upload
+    """
+    try:
+        if not files or len(files) == 0:
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": "No files were uploaded"},
+                status_code=400
+            )
+        
+        job_ids = []
+        submitted_files = []
+        errors = []
+        
+        for file in files:
+            try:
+                # Read file contents
+                contents = await file.read()
+                
+                if not contents:
+                    errors.append(f"{file.filename}: File is empty")
+                    continue
+                
+                # Validate file type
+                if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
+                    errors.append(f"{file.filename}: Invalid file type")
+                    continue
+                
+                # Generate job ID
+                job_id = str(uuid.uuid4())
+                job_ids.append(job_id)
+                
+                # Record job creation time
+                job_created_time = get_timestamp()
+                
+                # Save file to disk
+                file_ext = os.path.splitext(file.filename)[1].lower()
+                if not file_ext:
+                    # If no extension, infer from content type
+                    if file.content_type == "application/pdf":
+                        file_ext = ".pdf"
+                    elif file.content_type == "image/jpeg":
+                        file_ext = ".jpg"
+                    elif file.content_type == "image/png":
+                        file_ext = ".png"
+                
+                upload_path = os.path.join("uploads", f"{job_id}{file_ext}")
+                with open(upload_path, "wb") as f:
+                    f.write(contents)
+                
+                # Initialize job status in Redis
+                update_job_status(redis_client, job_id, {
+                    'status': 'PENDING',
+                    'filename': file.filename,
+                    'created_at': job_created_time,
+                    'message': 'Document uploaded, waiting for processing',
+                    'progress': 0,
+                    'bulk_upload': True,
+                    'bulk_position': len(submitted_files) + 1,
+                    'bulk_total': len(files)
+                })
+                
+                # Submit job to Celery
+                task = process_document.apply_async(
+                    args=[job_id, upload_path, file.filename],
+                    queue='documents'
+                )
+                
+                # Update job status with task ID
+                update_job_status(redis_client, job_id, {
+                    'task_id': task.id,
+                    'updated_at': get_timestamp()
+                })
+                
+                submitted_files.append({
+                    'filename': file.filename,
+                    'job_id': job_id,
+                    'task_id': task.id
+                })
+                
+                print(f"Successfully submitted bulk job {job_id} for file {file.filename}")
+                
+            except Exception as e:
+                error_msg = f"{file.filename}: {str(e)}"
+                errors.append(error_msg)
+                print(f"Error processing file {file.filename}: {str(e)}")
+                continue
+        
+        # If no files were successfully submitted
+        if not job_ids:
+            error_message = "No files could be processed. " + "; ".join(errors)
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "error": error_message},
+                status_code=400
+            )
+        
+        # Redirect to bulk processing page with job IDs
+        job_ids_param = ",".join(job_ids)
+        return templates.TemplateResponse(
+            "bulk_processing.html",
+            {
+                "request": request,
+                "job_ids": job_ids,
+                "job_ids_json": json.dumps(job_ids),
+                "submitted_files": submitted_files,
+                "submitted_files_json": json.dumps(submitted_files),
+                "errors": errors if errors else None
+            }
+        )
+        
+    except Exception as e:
+        error_message = f"Bulk upload failed: {str(e)}"
+        print(error_message)
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "error": error_message},
+            status_code=500
+        )
+
 # Define upload endpoint
 @app.post("/upload", response_class=HTMLResponse)
 async def upload_file(request: Request, file: UploadFile = File(...)):
@@ -172,7 +360,8 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             'status': 'PENDING',
             'filename': file.filename,
             'created_at': job_created_time,
-            'message': 'Document uploaded, waiting for processing'
+            'message': 'Document uploaded, waiting for processing',
+            'progress': 0
         })
         
         # Submit job to Celery -> the stage where it will process the document

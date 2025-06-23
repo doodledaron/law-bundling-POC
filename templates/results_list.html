@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Processing Results - Law Document Bundling</title>
+    <style>
+      :root {
+        --primary-blue: #1a4f8b;
+        --secondary-blue: #2c7ac9;
+        --light-blue: #f5f9ff;
+        --text-color: #2c3e50;
+        --success-green: #28a745;
+        --warning-orange: #fd7e14;
+        --light-gray: #f8f9fa;
+        --border-color: #e0e0e0;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background-color: var(--light-blue);
+        color: var(--text-color);
+        line-height: 1.6;
+        padding: 40px 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        padding: 40px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        color: var(--primary-blue);
+        font-size: 2.5rem;
+        margin-bottom: 16px;
+        font-weight: 600;
+      }
+
+      .description {
+        color: var(--text-color);
+        font-size: 1.1rem;
+        opacity: 0.9;
+        margin-bottom: 20px;
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        background-color: var(--light-blue);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+      }
+
+      .stat-item {
+        text-align: center;
+      }
+
+      .stat-number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-blue);
+      }
+
+      .stat-label {
+        color: var(--text-color);
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
+
+      .filters-section {
+        background-color: var(--light-gray);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+      }
+
+      .filters-row {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .filter-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .filter-group label {
+        font-weight: 500;
+        color: var(--text-color);
+      }
+
+      .filter-input,
+      .filter-select {
+        padding: 8px 12px;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        font-size: 0.9rem;
+      }
+
+      .filter-input:focus,
+      .filter-select:focus {
+        outline: none;
+        border-color: var(--secondary-blue);
+      }
+
+      .btn {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.2s ease;
+      }
+
+      .btn-primary {
+        background-color: var(--primary-blue);
+        color: white;
+      }
+
+      .btn-primary:hover {
+        background-color: var(--secondary-blue);
+      }
+
+      .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+      }
+
+      .btn-secondary:hover {
+        background-color: #5a6268;
+      }
+
+      .btn-success {
+        background-color: var(--success-green);
+        color: white;
+      }
+
+      .btn-success:hover {
+        background-color: #218838;
+      }
+
+      .documents-grid {
+        display: grid;
+        gap: 20px;
+      }
+
+      .document-card {
+        background-color: white;
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 24px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      .document-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .doc-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 16px;
+      }
+
+      .doc-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--primary-blue);
+        margin-bottom: 8px;
+      }
+
+      .doc-meta {
+        display: flex;
+        gap: 20px;
+        color: #6c757d;
+        font-size: 0.9rem;
+        margin-bottom: 16px;
+      }
+
+      .doc-meta-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .doc-date {
+        background-color: var(--light-blue);
+        color: var(--primary-blue);
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+
+      .doc-summary {
+        color: var(--text-color);
+        line-height: 1.6;
+        margin-bottom: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .doc-summary.expanded {
+        display: block;
+        -webkit-line-clamp: unset;
+      }
+
+      .doc-actions {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .toggle-summary {
+        background: none;
+        border: none;
+        color: var(--secondary-blue);
+        cursor: pointer;
+        font-size: 0.9rem;
+        text-decoration: underline;
+      }
+
+      .loading-spinner {
+        text-align: center;
+        padding: 40px;
+      }
+
+      .spinner {
+        border: 4px solid rgba(26, 79, 139, 0.3);
+        border-top: 4px solid var(--primary-blue);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .empty-state {
+        text-align: center;
+        padding: 60px 20px;
+        color: #6c757d;
+      }
+
+      .empty-icon {
+        font-size: 4rem;
+        margin-bottom: 20px;
+      }
+
+      .navigation {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border-color);
+      }
+
+      .error-message {
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 16px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #f5c6cb;
+      }
+
+      @media (max-width: 768px) {
+        .filters-row {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .filter-group {
+          justify-content: space-between;
+        }
+
+        .doc-actions {
+          flex-direction: column;
+          align-items: stretch;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>📊 Document Processing Results</h1>
+        <p class="description">
+          Browse and manage all your processed legal documents
+        </p>
+      </div>
+
+      <!-- Statistics -->
+      <div class="stats-grid" id="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" id="total-docs">0</div>
+          <div class="stat-label">Total Documents</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="recent-docs">0</div>
+          <div class="stat-label">This Week</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="total-pages">0</div>
+          <div class="stat-label">Total Pages</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="avg-time">0s</div>
+          <div class="stat-label">Avg Processing Time</div>
+        </div>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters-section">
+        <div class="filters-row">
+          <div class="filter-group">
+            <label for="search-input">🔍 Search:</label>
+            <input
+              type="text"
+              id="search-input"
+              class="filter-input"
+              placeholder="Document title or content..."
+            />
+          </div>
+          <div class="filter-group">
+            <label for="date-filter">📅 Date:</label>
+            <select id="date-filter" class="filter-select">
+              <option value="all">All Time</option>
+              <option value="today">Today</option>
+              <option value="week">This Week</option>
+              <option value="month">This Month</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="sort-filter">📋 Sort:</label>
+            <select id="sort-filter" class="filter-select">
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="title">Title A-Z</option>
+              <option value="pages">Most Pages</option>
+            </select>
+          </div>
+          <button class="btn btn-secondary" onclick="clearFilters()">
+            Clear Filters
+          </button>
+          <button class="btn btn-primary" onclick="refreshResults()">
+            🔄 Refresh
+          </button>
+        </div>
+      </div>
+
+      <!-- Documents Grid -->
+      <div id="documents-container">
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p>Loading your processed documents...</p>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="navigation">
+        <a href="/" class="btn btn-secondary">← Back to Upload</a>
+        <a href="/bulk" class="btn btn-primary">📤 Bulk Upload</a>
+      </div>
+    </div>
+
+    <script>
+      let allDocuments = [];
+      let filteredDocuments = [];
+
+      // Initialize page
+      document.addEventListener("DOMContentLoaded", function () {
+        loadDocuments();
+        setupEventListeners();
+      });
+
+      function setupEventListeners() {
+        document
+          .getElementById("search-input")
+          .addEventListener("input", applyFilters);
+        document
+          .getElementById("date-filter")
+          .addEventListener("change", applyFilters);
+        document
+          .getElementById("sort-filter")
+          .addEventListener("change", applyFilters);
+      }
+
+      async function loadDocuments() {
+        try {
+          const response = await fetch("/api/results");
+          if (!response.ok) {
+            throw new Error("Failed to load results");
+          }
+
+          const data = await response.json();
+          allDocuments = data.documents || [];
+          filteredDocuments = [...allDocuments];
+
+          updateStatistics();
+          applyFilters();
+        } catch (error) {
+          console.error("Error loading documents:", error);
+          showError("Failed to load documents. Please try again.");
+        }
+      }
+
+      function updateStatistics() {
+        const now = new Date();
+        const oneWeekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+        const recentDocs = allDocuments.filter(
+          (doc) => new Date(doc.processing_completed_at) > oneWeekAgo
+        );
+
+        const totalPages = allDocuments.reduce(
+          (sum, doc) => sum + (doc.total_pages || 0),
+          0
+        );
+
+        const totalTime = allDocuments.reduce(
+          (sum, doc) => sum + (doc.processing_time_seconds || 0),
+          0
+        );
+
+        const avgTime =
+          allDocuments.length > 0
+            ? Math.round(totalTime / allDocuments.length)
+            : 0;
+
+        document.getElementById("total-docs").textContent = allDocuments.length;
+        document.getElementById("recent-docs").textContent = recentDocs.length;
+        document.getElementById("total-pages").textContent =
+          totalPages.toLocaleString();
+        document.getElementById("avg-time").textContent = `${avgTime}s`;
+      }
+
+      function applyFilters() {
+        const searchTerm = document
+          .getElementById("search-input")
+          .value.toLowerCase();
+        const dateFilter = document.getElementById("date-filter").value;
+        const sortFilter = document.getElementById("sort-filter").value;
+
+        // Filter documents
+        filteredDocuments = allDocuments.filter((doc) => {
+          // Search filter
+          const matchesSearch =
+            !searchTerm ||
+            doc.filename.toLowerCase().includes(searchTerm) ||
+            (doc.summary && doc.summary.toLowerCase().includes(searchTerm));
+
+          // Date filter
+          const docDate = new Date(doc.processing_completed_at);
+          const now = new Date();
+          let matchesDate = true;
+
+          if (dateFilter === "today") {
+            matchesDate = docDate.toDateString() === now.toDateString();
+          } else if (dateFilter === "week") {
+            const oneWeekAgo = new Date(
+              now.getTime() - 7 * 24 * 60 * 60 * 1000
+            );
+            matchesDate = docDate > oneWeekAgo;
+          } else if (dateFilter === "month") {
+            const oneMonthAgo = new Date(
+              now.getTime() - 30 * 24 * 60 * 60 * 1000
+            );
+            matchesDate = docDate > oneMonthAgo;
+          }
+
+          return matchesSearch && matchesDate;
+        });
+
+        // Sort documents
+        filteredDocuments.sort((a, b) => {
+          switch (sortFilter) {
+            case "oldest":
+              return (
+                new Date(a.processing_completed_at) -
+                new Date(b.processing_completed_at)
+              );
+            case "title":
+              return a.filename.localeCompare(b.filename);
+            case "pages":
+              return (b.total_pages || 0) - (a.total_pages || 0);
+            case "newest":
+            default:
+              return (
+                new Date(b.processing_completed_at) -
+                new Date(a.processing_completed_at)
+              );
+          }
+        });
+
+        renderDocuments();
+      }
+
+      function renderDocuments() {
+        const container = document.getElementById("documents-container");
+
+        if (filteredDocuments.length === 0) {
+          container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">📄</div>
+                        <h3>No documents found</h3>
+                        <p>Try adjusting your filters or upload some documents to get started.</p>
+                    </div>
+                `;
+          return;
+        }
+
+        container.innerHTML = `
+                <div class="documents-grid">
+                    ${filteredDocuments
+                      .map((doc) => createDocumentCard(doc))
+                      .join("")}
+                </div>
+            `;
+      }
+
+      function createDocumentCard(doc) {
+        const date = new Date(doc.processing_completed_at);
+        const formattedDate = date.toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+        });
+
+        const summary = doc.summary || "No summary available";
+        const shortSummary =
+          summary.length > 200 ? summary.substring(0, 200) + "..." : summary;
+
+        return `
+                <div class="document-card">
+                    <div class="doc-header">
+                        <div>
+                            <div class="doc-title">📄 ${doc.filename}</div>
+                            <div class="doc-meta">
+                                <div class="doc-meta-item">
+                                    <span>📅</span>
+                                    <span>${formattedDate}</span>
+                                </div>
+                                <div class="doc-meta-item">
+                                    <span>📃</span>
+                                    <span>${doc.total_pages || 0} pages</span>
+                                </div>
+                                <div class="doc-meta-item">
+                                    <span>⏱️</span>
+                                    <span>${Math.round(
+                                      doc.processing_time_seconds || 0
+                                    )}s</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doc-date">${doc.date || "Undated"}</div>
+                    </div>
+                    
+                    <div class="doc-summary" id="summary-${doc.job_id}">
+                        ${shortSummary}
+                    </div>
+                    
+                    <div class="doc-actions">
+                        <a href="/job/${
+                          doc.job_id
+                        }" class="btn btn-primary" target="_blank">
+                            📊 View Full Results
+                        </a>
+                        ${
+                          doc.combined_text_path
+                            ? `<a href="/${doc.combined_text_path}" class="btn btn-secondary" target="_blank">
+                                📄 View Text
+                            </a>`
+                            : ""
+                        }
+                        ${
+                          summary.length > 200
+                            ? `<button class="toggle-summary" onclick="toggleSummary('${doc.job_id}')">
+                                Show More
+                            </button>`
+                            : ""
+                        }
+                    </div>
+                </div>
+            `;
+      }
+
+      function toggleSummary(jobId) {
+        const summaryElement = document.getElementById(`summary-${jobId}`);
+        const button =
+          summaryElement.parentElement.querySelector(".toggle-summary");
+        const doc = allDocuments.find((d) => d.job_id === jobId);
+
+        if (summaryElement.classList.contains("expanded")) {
+          const shortSummary =
+            doc.summary.length > 200
+              ? doc.summary.substring(0, 200) + "..."
+              : doc.summary;
+          summaryElement.innerHTML = shortSummary;
+          summaryElement.classList.remove("expanded");
+          button.textContent = "Show More";
+        } else {
+          summaryElement.innerHTML = doc.summary;
+          summaryElement.classList.add("expanded");
+          button.textContent = "Show Less";
+        }
+      }
+
+      function clearFilters() {
+        document.getElementById("search-input").value = "";
+        document.getElementById("date-filter").value = "all";
+        document.getElementById("sort-filter").value = "newest";
+        applyFilters();
+      }
+
+      function refreshResults() {
+        document.getElementById("documents-container").innerHTML = `
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Refreshing results...</p>
+                </div>
+            `;
+        loadDocuments();
+      }
+
+      function showError(message) {
+        document.getElementById("documents-container").innerHTML = `
+                <div class="error-message">
+                    <strong>Error:</strong> ${message}
+                </div>
+            `;
+      }
+    </script>
+  </body>
+</html>

@@ -9,20 +9,6 @@ USER root
 # Set working directory
 WORKDIR /app
 
-# Install Python 3.11 and pip (commented out since base image already has Python 3.11)
-# RUN apt-get update && \
-#     apt-get install -y \
-#         software-properties-common && \
-#     add-apt-repository ppa:deadsnakes/ppa && \
-#     apt-get update && \
-#     apt-get install -y \
-#         python3.11 \
-#         python3.11-distutils \
-#         python3.11-venv \
-#         python3-pip && \
-#     ln -sf /usr/bin/python3.11 /usr/bin/python3 && \
-#     python3 -m pip install --upgrade pip
-
 # Install system dependencies and ccache (optional, suppresses warning)
 RUN apt-get update && \
     apt-get install -y \
@@ -38,12 +24,26 @@ RUN apt-get update && \
         ccache \
         && rm -rf /var/lib/apt/lists/*
 
+# Set CUDA environment variables
+ENV CUDA_HOME=/usr/local/cuda
+ENV PATH=${CUDA_HOME}/bin:${PATH}
+ENV LD_LIBRARY_PATH=${CUDA_HOME}/lib64:${LD_LIBRARY_PATH}
+
+# Create symlink for libcuda.so.1
+RUN ln -s /usr/local/cuda/lib64/libcuda.so /usr/lib/libcuda.so.1
+
 # Copy requirements file
 COPY requirements.txt .
 
 # Install all requirements from requirements.txt, forcing reinstall of conflicting packages
 RUN pip install --no-cache-dir --ignore-installed PyYAML -r requirements.txt
 # RUN pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
+
+# Install PyTorch with CUDA 11.8 support for memory management
+RUN pip install --no-cache-dir torch==2.1.0+cu118 torchvision==0.16.0+cu118 torchaudio==2.1.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Install PaddleX (but skip hpi-gpu during build - will install at runtime)
+RUN pip install --no-cache-dir paddlex
 
 # Ensure compatible versions and fix potential conflicts
 RUN pip install --no-cache-dir --force-reinstall \
@@ -62,8 +62,12 @@ ENV OPENCV_IO_ENABLE_OPENEXR=1
 ENV OPENCV_IO_MAX_IMAGE_PIXELS=1073741824
 ENV NUMBA_CACHE_DIR=/tmp/numba_cache
 
+# Copy startup script
+COPY startup.sh /app/startup.sh
+RUN chmod +x /app/startup.sh
+
 # Expose port 8000
 EXPOSE 8000
 
-# Command to run the application (will be overridden in docker-compose)
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Command to run the application with startup script
+CMD ["/app/startup.sh"]

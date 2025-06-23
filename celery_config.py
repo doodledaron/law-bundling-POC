@@ -51,7 +51,7 @@ celery_app.conf.update(
     },
     
     # Worker settings for CUDA-safe processing
-    worker_concurrency=2,  # Increased back to 2 since no ThreadPoolExecutor conflicts
+    worker_concurrency=1,  # Single process for GPU stability and no duplicate logs
     
     # Worker memory management - for sequential chunk processing
     worker_max_tasks_per_child=3,  # Restart worker after 3 tasks to prevent memory leaks

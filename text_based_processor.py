@@ -326,6 +326,64 @@ Return ONLY the extracted table content, formatted as text.
         except Exception as e:
             return f"TABLE EXTRACTION ERROR: Unable to process table image. Error: {str(e)}"
     
+    def process_chart_image(self, image_data: bytes, context: str = "") -> str:
+        """
+        Process an image containing a chart and extract its data and insights.
+        
+        Args:
+            image_data: Bytes of the image containing the chart
+            context: Optional context about the chart (e.g., caption, surrounding text)
+            
+        Returns:
+            String representation of the chart content and analysis
+        """
+        try:
+            # Prepare the image for Gemini
+            mime_type = "image/png"  # Assume PNG, but could be determined from image header
+            image_part = types.Part.from_bytes(data=image_data, mime_type=mime_type)
+            
+            # Create prompt for chart analysis
+            prompt = f"""
+Analyze this chart/graph image and extract comprehensive information about it.
+Follow these guidelines:
+1. Identify the chart type (bar chart, line graph, pie chart, scatter plot, etc.)
+2. Extract and list all visible data points, values, and measurements
+3. Describe the axes labels, units, and scales (if applicable)
+4. Identify trends, patterns, or key insights shown in the data
+5. Include any visible title, legend, or annotations
+6. If it's a financial chart, note any significant peaks, valleys, or trends
+7. For comparison charts, highlight the key comparisons being made
+8. Include any visible dates, time periods, or categories
+
+Important considerations:
+- If this appears to be a fragment of a larger chart, note this and describe what's visible
+- For complex charts, focus on the most significant data points and trends
+- If data values are unclear, indicate with [approximate] or [unclear]
+- Include any visible chart numbers, titles, or source citations
+
+Additional context about this chart: {context}
+
+Return a detailed analysis that includes both the raw data and key insights from the chart.
+"""
+            
+            # Generate content using Gemini
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=[prompt, image_part],
+                config=types.GenerateContentConfig(**self.generation_config)
+            )
+            
+            # Extract and return the chart analysis
+            chart_analysis = self._safe_extract_text(response)
+            
+            # Format the output with a clear header
+            formatted_output = f"CHART ANALYSIS:\n{chart_analysis}"
+            
+            return formatted_output
+            
+        except Exception as e:
+            return f"CHART EXTRACTION ERROR: Unable to process chart image. Error: {str(e)}"
+
     def process_figure_image(self, image_data: bytes, context: str = "") -> str:
         """
         Process an image containing a figure and extract a description of its content.
