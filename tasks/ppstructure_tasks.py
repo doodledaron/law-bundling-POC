@@ -140,42 +140,16 @@ def ensure_pipeline_initialized():
         # pipeline = PPStructureV3(paddlex_config="PP-StructureV3.yaml")
 
 
-        # Import PaddleX using the correct method
+        # Import PaddleX and initialize pipeline
         from paddlex import create_pipeline
         
-        # Initialize PP-StructureV3 with high-performance inference
-        # Initialize with consistent GPU device usage to prevent segmentation faults
-        try:
-            logger.info("🚀 Attempting to initialize PPStructure with GPU device consistency...")
-            pipeline = create_pipeline(
-                pipeline="PP-StructureV3.yaml",
-                use_hpip=True
-            )
-            logger.info("✅ High-performance GPU pipeline initialized successfully!")
-            
-        except Exception as hpi_error:
-            logger.warning(f"⚠️ High-performance inference failed: {hpi_error}")
-            logger.info("🔄 Falling back to standard GPU pipeline...")
-            
-            try:
-                # Final fallback to standard pipeline with explicit GPU
-                pipeline = create_pipeline(
-                    pipeline="PP-StructureV3.yaml",
-                )
-                logger.info("✅ Standard GPU pipeline initialized successfully!")
-                
-            except Exception as std_error:
-                logger.error(f"❌ All GPU attempts failed, trying CPU fallback: {std_error}")
-                try:
-                    # Last resort: CPU pipeline
-                    pipeline = create_pipeline(
-                        pipeline="PP-StructureV3",
-                        device="cpu"
-                    )
-                    logger.info("✅ CPU pipeline initialized as last resort!")
-                except Exception as cpu_error:
-                    logger.error(f"❌ All pipeline initialization attempts failed: {cpu_error}")
-                    raise RuntimeError(f"Complete pipeline initialization failure: {cpu_error}")
+        logger.info("🚀 Initializing PPStructure with stable configuration...")
+        pipeline = create_pipeline(
+            pipeline="PP-StructureV3.yaml",
+            device="gpu:0",
+            use_hpip=True
+        )
+        logger.info("✅ PPStructure pipeline initialized successfully!")
 
         
         logger.info("✅ PPStructure pipeline initialized successfully and cached globally in document worker")
@@ -467,8 +441,7 @@ def get_pipeline():
 @shared_task(name='tasks.process_document_with_ppstructure')
 def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1, 
                                      enable_visualizations=False, enable_table_extraction=True, 
-                                     enable_figure_extraction=True, enable_chart_extraction=True, fast_mode=False,
-                                     processing_mode="auto"):
+                                     enable_figure_extraction=True, enable_chart_extraction=True, fast_mode=False):
     """
     Process a document using PPStructure with optimized settings.
     
@@ -483,10 +456,6 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         enable_figure_extraction: Whether to extract figures with Gemini AI
         enable_chart_extraction: Whether to extract charts with Gemini AI
         fast_mode: If True, disables all optional features for maximum speed
-        processing_mode: Processing mode - "auto", "batch", "individual"
-                        - "auto": Use batch for <=10 pages, sub-batch for >10 pages
-                        - "batch": Process all pages in optimal batches
-                        - "individual": Process one page at a time for debugging
         
     Returns:
         dict: Processing results including layout analysis, OCR, and extracted information
@@ -637,475 +606,96 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     'processing_stage': 'ppstructure_batch_processing'
                 })
             
-            # Determine processing mode and log it
-            logger.info(f"🔧 Processing mode: {processing_mode} for {len(absolute_validated_paths)} pages")
-            
-            # Process based on mode
-            if processing_mode == "individual":
-                logger.info(f"🔍 INDIVIDUAL PROCESSING MODE - Processing {len(absolute_validated_paths)} pages one by one for debugging")
-                all_outputs = []
+            # Process pages individually 
+            logger.info(f"🔧 Processing {len(absolute_validated_paths)} pages individually")
+            all_outputs = []
                 
-                for i, img_path in enumerate(absolute_validated_paths):
-                    page_num = i + 1
-                    logger.info(f"🔬 Processing page {page_num} individually ({page_num}/{len(absolute_validated_paths)}): {os.path.basename(img_path)}")
-                    
-                    # Pipeline reset every 10 pages to prevent memory corruption
-                    if page_num > 1 and (page_num - 1) % 10 == 0:
-                        logger.info(f"🔄 Resetting pipeline after page {page_num - 1} to prevent memory corruption")
-                        try:
-                            # Clear the current pipeline
-                            del pipeline_instance
-                            import gc
-                            gc.collect()
-                            
-                            # Force CUDA cleanup if available
-                            try:
-                                import torch
-                                if torch.cuda.is_available():
-                                    torch.cuda.empty_cache()
-                                    torch.cuda.synchronize()
-                            except ImportError:
-                                pass
-                            
-                            # Reinitialize the pipeline
-                            pipeline_instance = ensure_pipeline_initialized()
-                            logger.info(f"✅ Pipeline reset completed before page {page_num}")
-                            
-                        except Exception as reset_error:
-                            logger.error(f"⚠️ Pipeline reset failed: {reset_error}")
-                            logger.info(f"🔄 Continuing with existing pipeline...")
-                    
+            for i, img_path in enumerate(absolute_validated_paths):
+                page_num = i + 1
+                logger.info(f"🔬 Processing page {page_num} individually ({page_num}/{len(absolute_validated_paths)}): {os.path.basename(img_path)}")
+                
+                # Pipeline reset every 2 pages for stability
+                if page_num > 1 and (page_num - 1) % 2 == 0:
+                    logger.info(f"🔄 Resetting pipeline after page {page_num - 1}")
                     try:
-                        # Update progress for individual page processing
-                        if is_chunk and chunk_id:
-                            update_job_status(redis_client, job_id, {
-                                'message': f'🔬 {chunk_id} - Individual processing: page {page_num} ({i+1}/{len(absolute_validated_paths)})',
-                                'updated_at': get_timestamp(),
-                                'chunk_id': chunk_id,
-                                'current_page': page_num,
-                                'total_pages_in_chunk': len(absolute_validated_paths),
-                                'processing_stage': f'individual_page_{page_num}'
-                            })
-                        
-                        # Analyze ALL pages to understand what makes page 19 different
-                        logger.info(f"🔍 ANALYZING PAGE {page_num}:")
-                        try:
-                            import cv2
-                            import numpy as np
-                            from PIL import Image
-                            
-                            # Load and analyze the image
-                            img_cv = cv2.imread(img_path)
-                            img_pil = Image.open(img_path)
-                            
-                            if img_cv is not None and img_pil is not None:
-                                height, width = img_cv.shape[:2]
-                                file_size = os.path.getsize(img_path)
-                                
-                                # Calculate image statistics
-                                gray = cv2.cvtColor(img_cv, cv2.COLOR_BGR2GRAY)
-                                mean_intensity = np.mean(gray)
-                                std_intensity = np.std(gray)
-                                white_pixels = np.sum(gray > 240)
-                                total_pixels = gray.size
-                                white_ratio = white_pixels / total_pixels
-                                
-                                # Additional analysis for potential problematic elements
-                                # Check for circular/curved elements that might cause issues
-                                edges = cv2.Canny(gray, 50, 150)
-                                contours, _ = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-                                
-                                # Count circular/complex contours
-                                circular_contours = 0
-                                large_contours = 0
-                                for contour in contours:
-                                    area = cv2.contourArea(contour)
-                                    if area > 100:  # Only consider meaningful contours
-                                        large_contours += 1
-                                        # Check if contour is approximately circular
-                                        perimeter = cv2.arcLength(contour, True)
-                                        if perimeter > 0:
-                                            circularity = 4 * np.pi * area / (perimeter * perimeter)
-                                            if circularity > 0.7:  # Pretty circular
-                                                circular_contours += 1
-                                
-                                logger.info(f"🔍 Page {page_num} Analysis:")
-                                logger.info(f"   📐 Dimensions: {width}x{height}")
-                                logger.info(f"   📁 File size: {file_size} bytes")
-                                logger.info(f"   🎨 PIL mode: {img_pil.mode}")
-                                logger.info(f"   🔢 Mean intensity: {mean_intensity:.2f}")
-                                logger.info(f"   📊 Std intensity: {std_intensity:.2f}")
-                                logger.info(f"   ⚪ White ratio: {white_ratio:.3f} ({white_ratio*100:.1f}%)")
-                                logger.info(f"   🔵 Circular contours: {circular_contours}")
-                                logger.info(f"   📦 Large contours: {large_contours}")
-                                
-                                # Memory cleanup before processing pages 15+ to prevent accumulation
-                                if page_num >= 15:
-                                    logger.info(f"🧹 Performing aggressive memory cleanup before page {page_num}")
-                                    import gc
-                                    import torch
-                                    gc.collect()
-                                    if torch.cuda.is_available():
-                                        torch.cuda.empty_cache()
-                                        torch.cuda.synchronize()
-                                    
-                                    # Force garbage collection multiple times for stubborn memory
-                                    for _ in range(3):
-                                        gc.collect()
-                                    
-                                    logger.info(f"🧹 Memory cleanup completed for page {page_num}")
-                                
-                                # General warnings for all pages
-                                if white_ratio > 0.95:
-                                    logger.warning(f"⚠️ Page {page_num} has very high white space ratio: {white_ratio:.3f}")
-                                if std_intensity < 10:
-                                    logger.warning(f"⚠️ Page {page_num} has very low contrast: {std_intensity:.2f}")
-                                if circular_contours > 5:
-                                    logger.warning(f"⚠️ Page {page_num} has many circular elements: {circular_contours}")
-                                if file_size > 1000000:  # > 1MB
-                                    logger.warning(f"⚠️ Page {page_num} is very large: {file_size} bytes")
-                            else:
-                                logger.error(f"❌ Failed to load page {page_num} image for analysis")
-                                
-                        except Exception as analysis_error:
-                            logger.error(f"❌ Failed to analyze page {page_num}: {analysis_error}")
-                        
-                        page_start_time = get_unix_timestamp()
-                        
-                        # Add detailed logging for which models are being used and when they fail
-                        logger.info(f"🔧 Page {page_num} - Starting PPStructure pipeline with models:")
-                        
-                        # Try to extract model information from pipeline
-                        try:
-                            if hasattr(pipeline_instance, 'layout_model'):
-                                logger.info(f"   📐 Layout Detection Model: {getattr(pipeline_instance.layout_model, 'model_name', 'Unknown')}")
-                            if hasattr(pipeline_instance, 'table_model'):
-                                logger.info(f"   📊 Table Detection Model: {getattr(pipeline_instance.table_model, 'model_name', 'Unknown')}")
-                            if hasattr(pipeline_instance, 'ocr_model'):
-                                logger.info(f"   🔤 OCR Model: {getattr(pipeline_instance.ocr_model, 'model_name', 'Unknown')}")
-                        except Exception as model_info_error:
-                            logger.warning(f"   ⚠️ Could not extract model info: {model_info_error}")
-                        
-                        logger.info(f"🚀 Page {page_num} - Calling pipeline.predict()...")
-                        
-                        try:
-                            single_output_raw = pipeline_instance.predict(input=[img_path])
-                            logger.info(f"✅ Page {page_num} - pipeline.predict() completed successfully")
-                        except Exception as predict_error:
-                            logger.error(f"💥 Page {page_num} - pipeline.predict() FAILED: {predict_error}")
-                            logger.error(f"💥 Error type: {type(predict_error).__name__}")
-                            logger.error(f"💥 This suggests the issue is in: {type(predict_error).__module__ if hasattr(predict_error, '__module__') else 'unknown module'}")
-                            raise predict_error
-                        
-                        page_end_time = get_unix_timestamp()
-                        
-                        # Convert generator to list if needed
-                        if hasattr(single_output_raw, '__iter__') and not isinstance(single_output_raw, (list, tuple)):
-                            single_output = list(single_output_raw)
-                        else:
-                            single_output = single_output_raw
-                        
-                        if single_output and len(single_output) > 0:
-                            all_outputs.append(single_output[0])
-                            processing_time = calculate_duration(page_start_time, page_end_time)
-                            logger.info(f"✅ Page {page_num} completed successfully in {processing_time['formatted']}")
-                        else:
-                            logger.warning(f"⚠️ Page {page_num} returned empty results")
-                            all_outputs.append(None)
-                        
-                        # Clear memory after each page
-                        del single_output_raw, single_output
+                        # Clear the current pipeline
+                        del pipeline_instance
                         import gc
                         gc.collect()
                         
-                        # Additional memory monitoring and cleanup for pages 10+
-                        if page_num >= 10:
-                            # Monitor memory usage and trigger aggressive cleanup if needed
-                            try:
-                                import psutil
-                                process = psutil.Process()
-                                memory_info = process.memory_info()
-                                memory_mb = memory_info.rss / 1024 / 1024
-                                
-                                logger.info(f"📊 Memory usage after page {page_num}: {memory_mb:.1f} MB")
-                                
-                                # If memory usage is high, trigger aggressive cleanup
-                                if memory_mb > 2000:  # > 2GB
-                                    logger.warning(f"⚠️ High memory usage detected ({memory_mb:.1f} MB) - triggering aggressive cleanup")
-                                    
-                                    # Force multiple garbage collection cycles
-                                    for _ in range(5):
-                                        gc.collect()
-                                    
-                                    # Clear CUDA cache if available
-                                    try:
-                                        import torch
-                                        if torch.cuda.is_available():
-                                            torch.cuda.empty_cache()
-                                            torch.cuda.synchronize()
-                                    except ImportError:
-                                        pass
-                                    
-                                    # Check memory again
-                                    memory_info_after = process.memory_info()
-                                    memory_mb_after = memory_info_after.rss / 1024 / 1024
-                                    logger.info(f"📊 Memory usage after cleanup: {memory_mb_after:.1f} MB (freed {memory_mb - memory_mb_after:.1f} MB)")
-                                    
-                                    # If still high memory, consider switching to safer mode
-                                    if memory_mb_after > 3000:  # > 3GB
-                                        logger.error(f"💥 CRITICAL: Memory usage still very high ({memory_mb_after:.1f} MB) after page {page_num}")
-                                        logger.error(f"💥 This may lead to segfaults on subsequent pages")
-                                        
-                                        # For remaining pages, we might want to use process isolation
-                                        remaining_pages = len(absolute_validated_paths) - page_num
-                                        if remaining_pages > 0:
-                                            logger.warning(f"🛡️ Switching to process isolation for remaining {remaining_pages} pages to prevent crashes")
-                                            
-                                            # Process remaining pages in isolation
-                                            for remaining_idx in range(page_num, len(absolute_validated_paths)):
-                                                remaining_img_path = absolute_validated_paths[remaining_idx]
-                                                remaining_page_num = remaining_idx + 1
-                                                
-                                                logger.info(f"🛡️ Processing page {remaining_page_num} in isolation due to high memory usage")
-                                                isolated_result = _process_page_in_isolation(remaining_img_path, remaining_page_num, job_id)
-                                                all_outputs.append(isolated_result)
-                                            
-                                            # Break out of the main loop since we've processed all remaining pages
-                                            break
-                                            
-                            except ImportError:
-                                # psutil not available, skip memory monitoring
-                                pass
-                            except Exception as memory_error:
-                                logger.warning(f"⚠️ Memory monitoring failed: {memory_error}")
+                        # Force CUDA cleanup if available
+                        try:
+                            import torch
+                            if torch.cuda.is_available():
+                                torch.cuda.empty_cache()
+                                torch.cuda.synchronize()
+                        except ImportError:
+                            pass
                         
-                    except Exception as page_error:
-                        logger.error(f"❌ CRITICAL: Page {page_num} failed with error: {str(page_error)}")
-                        logger.error(f"❌ Page {page_num} path: {img_path}")
-                        logger.error(f"❌ Page {page_num} exists: {os.path.exists(img_path)}")
-                        logger.error(f"❌ Page {page_num} size: {os.path.getsize(img_path) if os.path.exists(img_path) else 'N/A'}")
+                        # Reinitialize the pipeline
+                        pipeline_instance = ensure_pipeline_initialized()
+                        logger.info(f"✅ Pipeline reset completed before page {page_num}")
+                        
+                    except Exception as reset_error:
+                        logger.error(f"⚠️ Pipeline reset failed: {reset_error}")
+                        logger.info(f"🔄 Continuing with existing pipeline...")
+                
+                try:
+                    # Update progress for individual page processing
+                    if is_chunk and chunk_id:
+                        update_job_status(redis_client, job_id, {
+                            'message': f'🔬 {chunk_id} - Processing page {page_num} ({i+1}/{len(absolute_validated_paths)})',
+                            'updated_at': get_timestamp(),
+                            'chunk_id': chunk_id,
+                            'current_page': page_num,
+                            'total_pages_in_chunk': len(absolute_validated_paths),
+                            'processing_stage': f'page_{page_num}'
+                        })
+                    
+                    # Pre-processing CUDA synchronization for stability
+                    try:
+                        import torch
+                        if torch.cuda.is_available():
+                            torch.cuda.synchronize()
+                            torch.cuda.empty_cache()
+                    except ImportError:
+                        pass
+                    
+                    page_start_time = get_unix_timestamp()
+                    logger.info(f"🚀 Processing page {page_num}...")
+                    
+                    single_output_raw = pipeline_instance.predict(input=[img_path])
+                    logger.info(f"✅ Page {page_num} completed successfully")
+                    
+                    page_end_time = get_unix_timestamp()
+                    
+                    # Convert generator to list if needed
+                    if hasattr(single_output_raw, '__iter__') and not isinstance(single_output_raw, (list, tuple)):
+                        single_output = list(single_output_raw)
+                    else:
+                        single_output = single_output_raw
+                    
+                    if single_output and len(single_output) > 0:
+                        all_outputs.append(single_output[0])
+                        processing_time = calculate_duration(page_start_time, page_end_time)
+                        logger.info(f"✅ Page {page_num} completed in {processing_time['formatted']}")
+                    else:
+                        logger.warning(f"⚠️ Page {page_num} returned empty results")
                         all_outputs.append(None)
-                        import gc
-                        gc.collect()
-                        
-                        # For debugging, we might want to stop here
-                        if processing_mode == "force_individual":
-                            logger.error(f"💥 STOPPING at problematic page {page_num} for debugging")
-                            break
-                        
-                        continue
-                
-                logger.info(f"🔍 Individual processing completed: {len([o for o in all_outputs if o is not None])}/{len(all_outputs)} pages successful")
-                
-            else:
-                # Adaptive batch processing with size limits to prevent memory issues
-                # Use smaller batches for documents with 15+ pages to prevent segfaults
-                if len(absolute_validated_paths) >= 15:
-                    batch_size = 5  # Smaller batches for large documents
-                    logger.info(f"Large document detected ({len(absolute_validated_paths)} pages) - using smaller batch size of {batch_size}")
-                else:
-                    batch_size = min(10, len(absolute_validated_paths))  # Process max 10 pages at once
-                
-                if len(absolute_validated_paths) <= batch_size:
-                    # Small batch - process all at once
-                    logger.info(f"🚀 Processing all {len(absolute_validated_paths)} images at once with PPStructure")
                     
-                    try:
-                        # Process entire batch in one call
-                        all_outputs_raw = pipeline_instance.predict(input=absolute_validated_paths)
-                        
-                        # Convert generator to list if needed
-                        if hasattr(all_outputs_raw, '__iter__') and not isinstance(all_outputs_raw, (list, tuple)):
-                            all_outputs = list(all_outputs_raw)
-                        else:
-                            all_outputs = all_outputs_raw
-                        
-                        if all_outputs:
-                            logger.info(f"✅ Successfully processed all {len(all_outputs)} images in single call")
-                            
-                            # Update progress after successful batch processing
-                            if is_chunk and chunk_id:
-                                update_job_status(redis_client, job_id, {
-                                    'message': f'✅ {chunk_id} - PPStructure completed, now extracting text and processing results',
-                                    'updated_at': get_timestamp(),
-                                    'chunk_id': chunk_id,
-                                    'total_pages_in_chunk': len(absolute_validated_paths),
-                                    'processing_stage': 'post_processing_results'
-                                })
-                        else:
-                            logger.warning("⚠️ Empty output from PPStructure batch processing")
-                            all_outputs = [None] * len(absolute_validated_paths)
-                            
-                    except Exception as batch_error:
-                        raise batch_error  # Let it fall through to the fallback
-                else:
-                    # Large batch - process in smaller sub-batches
-                    logger.info(f"🚀 Processing {len(absolute_validated_paths)} images in sub-batches of {batch_size} with PPStructure")
-                    all_outputs = []
+                    # Clear memory after each page
+                    del single_output_raw, single_output
+                    import gc
+                    gc.collect()
                     
-                    try:
-                        for i in range(0, len(absolute_validated_paths), batch_size):
-                            end_idx = min(i + batch_size, len(absolute_validated_paths))
-                            sub_batch = absolute_validated_paths[i:end_idx]
-                            
-                            # Update progress for sub-batch
-                            if is_chunk and chunk_id:
-                                batch_num = (i // batch_size) + 1
-                                total_batches = (len(absolute_validated_paths) + batch_size - 1) // batch_size
-                                update_job_status(redis_client, job_id, {
-                                    'message': f'🚀 {chunk_id} - Processing sub-batch {batch_num}/{total_batches} ({len(sub_batch)} pages)',
-                                    'updated_at': get_timestamp(),
-                                    'chunk_id': chunk_id,
-                                    'current_batch': batch_num,
-                                    'total_batches': total_batches,
-                                    'processing_stage': f'sub_batch_{batch_num}'
-                                })
-                            
-                            logger.info(f"Processing sub-batch {i//batch_size + 1}: pages {i+1}-{end_idx}")
-                            
-                            # Process sub-batch
-                            sub_outputs_raw = pipeline_instance.predict(input=sub_batch)
-                            
-                            # Convert generator to list if needed
-                            if hasattr(sub_outputs_raw, '__iter__') and not isinstance(sub_outputs_raw, (list, tuple)):
-                                sub_outputs = list(sub_outputs_raw)
-                            else:
-                                sub_outputs = sub_outputs_raw
-                            
-                            if sub_outputs:
-                                all_outputs.extend(sub_outputs)
-                                logger.info(f"✅ Sub-batch {i//batch_size + 1} completed: {len(sub_outputs)} images processed")
-                            else:
-                                # Add None placeholders for failed sub-batch
-                                all_outputs.extend([None] * len(sub_batch))
-                                logger.warning(f"⚠️ Sub-batch {i//batch_size + 1} returned empty results")
-                            
-                            # Clear memory after each sub-batch
-                            del sub_outputs_raw, sub_outputs
-                            import gc
-                            gc.collect()
-                            
-                            # For large documents, add extra memory cleanup and stabilization
-                            if len(absolute_validated_paths) >= 15:
-                                import time
-                                # Small delay to allow GPU memory to stabilize between sub-batches
-                                time.sleep(0.5)
-                                logger.debug(f"Memory stabilization completed for sub-batch {i//batch_size + 1}")
-                        
-                        # Final progress update
-                        if is_chunk and chunk_id:
-                            update_job_status(redis_client, job_id, {
-                                'message': f'✅ {chunk_id} - All sub-batches completed, now extracting text and processing results',
-                                'updated_at': get_timestamp(),
-                                'chunk_id': chunk_id,
-                                'total_pages_in_chunk': len(absolute_validated_paths),
-                                'processing_stage': 'post_processing_results'
-                            })
-                        
-                        logger.info(f"✅ Successfully processed all {len(all_outputs)} images using sub-batch method")
-                        
-                    except Exception as batch_error:
-                        logger.warning(f"⚠️ Batch processing failed ({str(batch_error)}), falling back to individual processing...")
-                        
-                        # Update progress for fallback processing
-                        if is_chunk and chunk_id:
-                            update_job_status(redis_client, job_id, {
-                                'message': f'⚠️ {chunk_id} - Batch failed, processing pages individually...',
-                                'updated_at': get_timestamp(),
-                                'chunk_id': chunk_id,
-                                'total_pages_in_chunk': len(absolute_validated_paths),
-                                'processing_stage': 'individual_fallback_processing'
-                            })
-                        
-                        # Fallback: Process images individually with enhanced safety measures
-                        all_outputs = []
-                        consecutive_failures = 0
-                        
-                        for i, img_path in enumerate(absolute_validated_paths):
-                            page_num = i + 1
-                            
-                            try:
-                                # Update progress for individual page processing
-                                if is_chunk and chunk_id:
-                                    update_job_status(redis_client, job_id, {
-                                        'message': f'📄 {chunk_id} - Individual processing: page {page_num}/{len(absolute_validated_paths)}',
-                                        'updated_at': get_timestamp(),
-                                        'chunk_id': chunk_id,
-                                        'current_page_in_chunk': page_num,
-                                        'total_pages_in_chunk': len(absolute_validated_paths),
-                                        'processing_stage': f'individual_page_{page_num}'
-                                    })
-                                
-                                # Use process isolation for problematic pages or after multiple failures
-                                use_isolation = (
-                                    consecutive_failures >= 2 or  # After 2 consecutive failures
-                                    page_num >= 15  # For pages 15+ which are more prone to issues
-                                )
-                                
-                                if use_isolation:
-                                    logger.info(f"🛡️ Using process isolation for page {page_num} (consecutive_failures: {consecutive_failures})")
-                                    result = _process_page_in_isolation(img_path, page_num, job_id)
-                                    all_outputs.append(result)
-                                    
-                                    if result is not None:
-                                        consecutive_failures = 0  # Reset failure counter on success
-                                    else:
-                                        consecutive_failures += 1
-                                        
-                                else:
-                                    # Normal processing
-                                    single_output_raw = pipeline_instance.predict(input=[img_path])
-                                    
-                                    # Convert generator to list if needed
-                                    if hasattr(single_output_raw, '__iter__') and not isinstance(single_output_raw, (list, tuple)):
-                                        single_output = list(single_output_raw)
-                                    else:
-                                        single_output = single_output_raw
-                                    
-                                    if single_output and len(single_output) > 0:
-                                        all_outputs.append(single_output[0])
-                                        consecutive_failures = 0  # Reset failure counter on success
-                                    else:
-                                        logger.warning(f"Empty output for page {page_num}")
-                                        all_outputs.append(None)
-                                        consecutive_failures += 1
-                                    
-                                    # Clear memory after each image
-                                    del single_output_raw, single_output
-                                    import gc
-                                    gc.collect()
-                                
-                            except Exception as img_error:
-                                logger.error(f"Error processing page {page_num}: {str(img_error)}")
-                                consecutive_failures += 1
-                                
-                                # If we've had multiple failures, try process isolation as last resort
-                                if consecutive_failures >= 3 and not use_isolation:
-                                    logger.warning(f"🛡️ Multiple failures detected, trying process isolation for page {page_num}")
-                                    try:
-                                        result = _process_page_in_isolation(img_path, page_num, job_id)
-                                        all_outputs.append(result)
-                                        if result is not None:
-                                            consecutive_failures = 0
-                                    except Exception as isolation_error:
-                                        logger.error(f"💥 Process isolation also failed for page {page_num}: {isolation_error}")
-                                        all_outputs.append(None)
-                                else:
-                                    all_outputs.append(None)
-                                
-                                import gc
-                                gc.collect()
-                                continue
+                except Exception as page_error:
+                    logger.error(f"❌ Page {page_num} failed: {str(page_error)}")
+                    all_outputs.append(None)
+                    import gc
+                    gc.collect()
+                    continue
             
-            # Update image_paths to match validated paths
-            image_paths = validated_paths
-            
-            if not all_outputs:
-                logger.warning("PPStructure returned empty results for all pages")
-                all_outputs = [None] * len(image_paths)
-            else:
-                successful_count = sum(1 for output in all_outputs if output is not None)
-                logger.info(f"PPStructure processing completed: {successful_count}/{len(all_outputs)} images processed successfully")
+            logger.info(f"Processing completed: {len([o for o in all_outputs if o is not None])}/{len(all_outputs)} pages successful")
             
         except Exception as e:
             logger.error(f"Error in PPStructure processing: {str(e)}")
@@ -1468,122 +1058,3 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
     except Exception as e:
         logger.error(f"Error in PPStructure processing: {str(e)}")
         raise 
-
-def _process_page_in_isolation(img_path, page_num, job_id):
-    """
-    Process a single page in a separate process to prevent segfaults from crashing the main worker.
-    This is specifically designed to handle problematic pages like page 19.
-    
-    Args:
-        img_path: Path to the image file
-        page_num: Page number being processed
-        job_id: Job identifier for logging
-        
-    Returns:
-        dict: Processing result or None if failed
-    """
-    import multiprocessing
-    import signal
-    import sys
-    
-    def _isolated_page_processor(img_path, result_queue, error_queue):
-        """
-        The actual processing function that runs in isolation.
-        """
-        try:
-            # Set up signal handlers to catch segfaults
-            def signal_handler(signum, frame):
-                error_queue.put(f"Signal {signum} received in isolated process")
-                sys.exit(1)
-            
-            signal.signal(signal.SIGSEGV, signal_handler)
-            signal.signal(signal.SIGFPE, signal_handler)
-            signal.signal(signal.SIGABRT, signal_handler)
-            
-            # Initialize a fresh pipeline in this process
-            logger.info(f"🔧 Initializing fresh pipeline in isolated process for page {page_num}")
-            
-            # Import here to avoid issues with multiprocessing
-            from paddlex import create_pipeline
-            
-            # Create a minimal pipeline configuration
-            isolated_pipeline = create_pipeline(
-                pipeline="PP-StructureV3",
-                # device="gpu:0",  # Let it auto-detect
-                use_hpip=False  # Disable high-performance inference to reduce complexity
-            )
-            
-            logger.info(f"🚀 Processing page {page_num} in isolated process...")
-            
-            # Process the single page
-            result = isolated_pipeline.predict(input=[img_path])
-            
-            # Convert result to serializable format
-            if hasattr(result, '__iter__') and not isinstance(result, (list, tuple)):
-                result = list(result)
-            
-            if result and len(result) > 0:
-                # Put the result in the queue
-                result_queue.put(result[0])
-                logger.info(f"✅ Page {page_num} processed successfully in isolated process")
-            else:
-                result_queue.put(None)
-                logger.warning(f"⚠️ Page {page_num} returned empty result in isolated process")
-                
-        except Exception as e:
-            error_msg = f"Isolated processing failed for page {page_num}: {str(e)}"
-            logger.error(error_msg)
-            error_queue.put(error_msg)
-            result_queue.put(None)
-    
-    # Create queues for communication
-    result_queue = multiprocessing.Queue()
-    error_queue = multiprocessing.Queue()
-    
-    # Create and start the isolated process
-    process = multiprocessing.Process(
-        target=_isolated_page_processor,
-        args=(img_path, result_queue, error_queue)
-    )
-    
-    logger.info(f"🚀 Starting isolated process for page {page_num}")
-    process.start()
-    
-    # Wait for the process to complete with timeout
-    timeout_seconds = 120  # 2 minutes timeout
-    process.join(timeout=timeout_seconds)
-    
-    if process.is_alive():
-        logger.error(f"💥 Isolated process for page {page_num} timed out after {timeout_seconds}s")
-        process.terminate()
-        process.join(timeout=10)
-        if process.is_alive():
-            process.kill()
-            process.join()
-        return None
-    
-    # Check if process completed successfully
-    if process.exitcode == 0:
-        # Get the result
-        try:
-            if not result_queue.empty():
-                result = result_queue.get_nowait()
-                logger.info(f"✅ Successfully retrieved result from isolated process for page {page_num}")
-                return result
-            else:
-                logger.warning(f"⚠️ No result available from isolated process for page {page_num}")
-                return None
-        except Exception as e:
-            logger.error(f"💥 Failed to retrieve result from isolated process for page {page_num}: {e}")
-            return None
-    else:
-        # Process failed
-        error_msg = "Unknown error"
-        try:
-            if not error_queue.empty():
-                error_msg = error_queue.get_nowait()
-        except:
-            pass
-        
-        logger.error(f"💥 Isolated process for page {page_num} failed with exit code {process.exitcode}: {error_msg}")
-        return None 

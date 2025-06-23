@@ -378,10 +378,6 @@ def process_small_document(job_id, file_path, file_name):
             'updated_at': get_timestamp()
         })
         
-        # Toggle processing mode here: "auto", "batch", "individual", "force_individual"
-        # Use force_individual to prevent segfaults from batch/parallel processing
-        processing_mode = "individual"  # Safe mode to prevent segfaults
-        
         # Process directly with PPStructure (with summary generation and optimizations)
         result = _get_ppstructure_function()(
             job_id, 
@@ -389,7 +385,6 @@ def process_small_document(job_id, file_path, file_name):
             file_name, 
             generate_summary=True,
             enable_visualizations=False,  # Disabled for speed
-            processing_mode=processing_mode
         )
         
         logger.info(f"Small document processing completed for job {job_id}")
