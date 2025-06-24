@@ -61,6 +61,90 @@ redis_client = redis.Redis.from_url(
 # Initialize text processor
 text_processor = TextBasedProcessor()
 
+def cleanup_temporary_files(job_id, file_path, file_name):
+    """
+    Clean up temporary files after processing is complete.
+    Keeps only essential results: results.json, metrics.json, ppstructure_results.json, and combined_text.txt
+    
+    Args:
+        job_id: Job identifier
+        file_path: Original file path
+        file_name: Original file name
+    """
+    try:
+        import shutil
+        
+        logger.info(f"Starting cleanup of temporary files for job {job_id}")
+        
+        # 1. Remove original uploaded file
+        if os.path.exists(file_path):
+            try:
+                os.remove(file_path)
+                logger.info(f"Removed uploaded file: {file_path}")
+            except Exception as e:
+                logger.warning(f"Could not remove uploaded file {file_path}: {str(e)}")
+        
+        # 2. Remove chunk files and directory
+        chunk_dir = os.path.join('chunks', job_id)
+        if os.path.exists(chunk_dir):
+            try:
+                shutil.rmtree(chunk_dir)
+                logger.info(f"Removed chunk directory: {chunk_dir}")
+            except Exception as e:
+                logger.warning(f"Could not remove chunk directory {chunk_dir}: {str(e)}")
+        
+        # 3. Clean up results directory - keep only essential files
+        results_dir = os.path.join('results', job_id)
+        if os.path.exists(results_dir):
+            # Files to keep
+            keep_files = {
+                'results.json',
+                'metrics.json', 
+                'ppstructure_results.json',
+                'combined_text.txt'
+            }
+            
+            # Remove temporary subdirectories
+            temp_dirs = ['images', 'visualizations', 'tables', 'figures', 'page_results']
+            for temp_dir in temp_dirs:
+                temp_path = os.path.join(results_dir, temp_dir)
+                if os.path.exists(temp_path):
+                    try:
+                        shutil.rmtree(temp_path)
+                        logger.info(f"Removed temporary directory: {temp_path}")
+                    except Exception as e:
+                        logger.warning(f"Could not remove directory {temp_path}: {str(e)}")
+            
+            # Remove any other files except the ones we want to keep
+            try:
+                for item in os.listdir(results_dir):
+                    item_path = os.path.join(results_dir, item)
+                    if os.path.isfile(item_path) and item not in keep_files:
+                        os.remove(item_path)
+                        logger.info(f"Removed temporary file: {item_path}")
+                    elif os.path.isdir(item_path):
+                        # Remove any remaining subdirectories (like chunk_xxxx dirs)
+                        shutil.rmtree(item_path)
+                        logger.info(f"Removed temporary subdirectory: {item_path}")
+            except Exception as e:
+                logger.warning(f"Error cleaning results directory: {str(e)}")
+        
+        # 4. Clean up any empty parent directories
+        try:
+            # Remove chunks directory if empty
+            chunks_parent = 'chunks'
+            if os.path.exists(chunks_parent) and not os.listdir(chunks_parent):
+                os.rmdir(chunks_parent)
+                logger.info(f"Removed empty chunks directory")
+        except Exception as e:
+            logger.warning(f"Could not remove empty directories: {str(e)}")
+        
+        logger.info(f"Cleanup completed for job {job_id}")
+        
+    except Exception as e:
+        logger.error(f"Error during cleanup for job {job_id}: {str(e)}")
+        # Don't raise - cleanup failures shouldn't fail the job
+
 def _get_ppstructure_function():
     """
     Dynamically import the PPStructure function only when needed.
@@ -141,6 +225,12 @@ def process_document(job_id, file_path, file_name):
         
         # End timing on failure
         update_job_timing(redis_client, job_id, 'overall', end_time=get_unix_timestamp())
+        
+        # Clean up temporary files even on failure
+        try:
+            cleanup_temporary_files(job_id, file_path, file_name)
+        except Exception as cleanup_error:
+            logger.warning(f"Cleanup failed after main error: {str(cleanup_error)}")
         
         # Re-raise to allow Celery to handle the error
         raise
@@ -342,6 +432,9 @@ def process_large_document(job_id, file_path, file_name):
         # Clean up chunk info from Redis
         redis_client.delete(f"chunk_info:{job_id}")
         
+        # Clean up temporary files (keep only essential results)
+        cleanup_temporary_files(job_id, file_path, file_name)
+        
         logger.info(f"Large document processing completed for job {job_id}")
         
         return final_results
@@ -354,6 +447,13 @@ def process_large_document(job_id, file_path, file_name):
             'message': f'Processing failed: {str(e)}',
             'updated_at': get_timestamp()
         })
+        
+        # Clean up temporary files even on failure
+        try:
+            cleanup_temporary_files(job_id, file_path, file_name)
+        except Exception as cleanup_error:
+            logger.warning(f"Cleanup failed after error: {str(cleanup_error)}")
+        
         raise
 
 
@@ -388,12 +488,22 @@ def process_small_document(job_id, file_path, file_name):
             enable_visualizations=False,  # Disabled for speed
         )
         
+        # Clean up temporary files (keep only essential results)
+        cleanup_temporary_files(job_id, file_path, file_name)
+        
         logger.info(f"Small document processing completed for job {job_id}")
         
         return result
         
     except Exception as e:
         logger.error(f"Error processing small document: {str(e)}")
+        
+        # Clean up temporary files even on failure
+        try:
+            cleanup_temporary_files(job_id, file_path, file_name)
+        except Exception as cleanup_error:
+            logger.warning(f"Cleanup failed after error: {str(cleanup_error)}")
+        
         raise
 
 
