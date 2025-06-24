@@ -15,6 +15,8 @@ import warnings
 import logging
 import traceback
 import redis
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 
 # Fix numpy compatibility issue with deprecated np.bool
@@ -124,15 +126,11 @@ def ensure_pipeline_initialized():
         if 'documents' in worker_queues:
             is_document_worker = True
         
-        # Log worker type detection
-        worker_name = os.environ.get('CELERY_WORKER_NAME', 'unknown')
-        logger.info(f"🔍 Worker detection: name='{worker_name}', queues='{worker_queues}', is_document_worker={is_document_worker}")
-        
         if is_document_worker:
-            logger.info("🔥 Document worker context detected - Initializing PPStructure pipeline...")
+            logger.info("Initializing PPStructure pipeline...")
         else:
             # This is likely an API worker or other non-document worker
-            logger.info("🚫 Non-document worker context - PPStructure models NOT loaded (saves memory)")
+            logger.info("Non-document worker - PPStructure models not loaded")
             # We still mark as attempted to avoid repeated checks
             return None
         
@@ -143,16 +141,12 @@ def ensure_pipeline_initialized():
         # Import PaddleX and initialize pipeline
         from paddlex import create_pipeline
         
-        logger.info("🚀 Initializing PPStructure with stable configuration...")
         pipeline = create_pipeline(
             pipeline="PP-StructureV3.yaml",
             device="gpu:0",
             use_hpip=True
         )
-        logger.info("✅ PPStructure pipeline initialized successfully!")
-
-        
-        logger.info("✅ PPStructure pipeline initialized successfully and cached globally in document worker")
+        logger.info("PPStructure pipeline initialized successfully")
         return pipeline
         
     except Exception as e:
@@ -213,7 +207,7 @@ def warmup_ppstructure():
         warmup_end = get_unix_timestamp()
         warmup_duration = calculate_duration(warmup_start, warmup_end)
         
-        logger.info(f"✅ PPStructure warmup completed in {warmup_duration['formatted']} - Models cached for reuse")
+        logger.info(f"PPStructure warmup completed in {warmup_duration['formatted']}")
         
         return {
             "status": "success",
@@ -441,7 +435,8 @@ def get_pipeline():
 @shared_task(name='tasks.process_document_with_ppstructure')
 def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1, 
                                      enable_visualizations=False, enable_table_extraction=True, 
-                                     enable_figure_extraction=True, enable_chart_extraction=True, fast_mode=False):
+                                     enable_figure_extraction=True, enable_chart_extraction=True, fast_mode=False,
+                                     parallel_extraction=True, max_extraction_workers=8):
     """
     Process a document using PPStructure with optimized settings.
     
@@ -456,6 +451,8 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         enable_figure_extraction: Whether to extract figures with Gemini AI
         enable_chart_extraction: Whether to extract charts with Gemini AI
         fast_mode: If True, disables all optional features for maximum speed
+        parallel_extraction: Whether to process tables/figures/charts in parallel (default: True)
+        max_extraction_workers: Maximum number of parallel workers for extraction (default: 8)
         
     Returns:
         dict: Processing results including layout analysis, OCR, and extracted information
@@ -467,6 +464,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             enable_table_extraction = False
             enable_figure_extraction = False
             enable_chart_extraction = False
+            parallel_extraction = False  # Disable parallel processing in fast mode
             logger.info(f"🚀 Fast mode enabled - all optimizations applied for job {job_id}")
         
         # Log optimization settings
@@ -479,9 +477,11 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             opts.append("no figures")
         if not enable_chart_extraction:
             opts.append("no charts")
+        if parallel_extraction:
+            opts.append(f"parallel extraction ({max_extraction_workers} workers)")
         
         if opts:
-            logger.info(f"⚡ Performance optimizations: {', '.join(opts)} (estimated 30% faster)")
+            logger.info(f"⚡ Performance optimizations: {', '.join(opts)} (estimated 30-60% faster with parallel processing)")
         
         # Start overall timing
         overall_start_time = get_unix_timestamp()
@@ -557,20 +557,14 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         figure_extractions = []
         chart_extractions = []
         
+        # Global list to collect all extraction tasks for parallel processing
+        all_extraction_tasks = []
+        
 
         
         try:
-            # Process images with PPStructureV3
-            logger.info(f"Processing {len(image_paths)} images with PPStructure")
-            
             # Get pipeline instance (uses globally cached models)
             pipeline_instance = get_pipeline()
-            
-            # Log whether we're using cached models or loading for first time
-            if pipeline is not None:
-                logger.info(f"🔄 Using cached PPStructure models (no reload needed)")
-            else:
-                logger.info(f"🔥 Loading PPStructure models for first time in this worker")
         
             
             # Validate all image paths as strings
@@ -596,27 +590,14 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             # Convert to absolute paths for better compatibility
             absolute_validated_paths = [os.path.abspath(str(path)) for path in validated_paths]
             
-            # Update progress before PPStructure processing
-            if is_chunk and chunk_id:
-                update_job_status(redis_client, job_id, {
-                    'message': f'🚀 Processing {chunk_id} - Running PPStructure on all {len(absolute_validated_paths)} pages in single batch',
-                    'updated_at': get_timestamp(),
-                    'chunk_id': chunk_id,
-                    'total_pages_in_chunk': len(absolute_validated_paths),
-                    'processing_stage': 'ppstructure_batch_processing'
-                })
-            
             # Process pages individually 
-            logger.info(f"🔧 Processing {len(absolute_validated_paths)} pages individually")
             all_outputs = []
                 
             for i, img_path in enumerate(absolute_validated_paths):
                 page_num = i + 1
-                logger.info(f"🔬 Processing page {page_num} individually ({page_num}/{len(absolute_validated_paths)}): {os.path.basename(img_path)}")
                 
                 # Pipeline reset every 2 pages for stability
                 if page_num > 1 and (page_num - 1) % 2 == 0:
-                    logger.info(f"🔄 Resetting pipeline after page {page_num - 1}")
                     try:
                         # Clear the current pipeline
                         del pipeline_instance
@@ -634,24 +615,11 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         
                         # Reinitialize the pipeline
                         pipeline_instance = ensure_pipeline_initialized()
-                        logger.info(f"✅ Pipeline reset completed before page {page_num}")
                         
                     except Exception as reset_error:
                         logger.error(f"⚠️ Pipeline reset failed: {reset_error}")
-                        logger.info(f"🔄 Continuing with existing pipeline...")
                 
                 try:
-                    # Update progress for individual page processing
-                    if is_chunk and chunk_id:
-                        update_job_status(redis_client, job_id, {
-                            'message': f'🔬 {chunk_id} - Processing page {page_num} ({i+1}/{len(absolute_validated_paths)})',
-                            'updated_at': get_timestamp(),
-                            'chunk_id': chunk_id,
-                            'current_page': page_num,
-                            'total_pages_in_chunk': len(absolute_validated_paths),
-                            'processing_stage': f'page_{page_num}'
-                        })
-                    
                     # Pre-processing CUDA synchronization for stability
                     try:
                         import torch
@@ -662,10 +630,8 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         pass
                     
                     page_start_time = get_unix_timestamp()
-                    logger.info(f"🚀 Processing page {page_num}...")
                     
                     single_output_raw = pipeline_instance.predict(input=[img_path])
-                    logger.info(f"✅ Page {page_num} completed successfully")
                     
                     page_end_time = get_unix_timestamp()
                     
@@ -789,8 +755,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     logger.warning(f"Failed to create layout visualization for page {actual_page_num}")
                 else:
                     logger.info(f"Successfully created bounding box visualization: {vis_path}")
-            else:
-                logger.debug(f"⚡ Skipped visualization for page {actual_page_num} (performance optimization)")
+            # Visualization skipped if disabled
             
             # Extract OCR text
             ocr_text = []
@@ -800,56 +765,127 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                 all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
                 all_ocr_text.extend(ocr_text)
             
-            # Process tables, figures, and charts with Gemini AI (conditional) - ACCUMULATE across all pages
+            # Collect all extraction tasks for parallel processing
+            extraction_tasks = []
             for j, region in enumerate(regions):
                 region_type = region.get('type', '').lower()
                 bbox = region.get('bbox')
                 
                 if region_type == 'table' and bbox and enable_table_extraction:
-                    # Extract table image and save to file
                     table_img_path = os.path.join(tables_dir, f"page_{actual_page_num}_table_{j+1}.png")
-                    table_img_bytes = extract_image_from_region(image_path, bbox, table_img_path)
-                    
-                    if table_img_bytes:
-                        # Process table with Gemini
-                        context = f"Table from page {actual_page_num}"
-                        table_text = text_processor.process_table_image(table_img_bytes, context)
-                        
-                        # Add to table extractions (ACCUMULATE, don't overwrite)
-                        table_extractions.append(f"\n--- TABLE FROM PAGE {actual_page_num} ---\n{table_text}\n")
+                    extraction_tasks.append({
+                        'type': 'table',
+                        'page': actual_page_num,
+                        'region_id': j+1,
+                        'image_path': image_path,
+                        'bbox': bbox,
+                        'output_path': table_img_path,
+                        'context': f"Table from page {actual_page_num}"
+                    })
                     
                 elif region_type == 'figure' and bbox and enable_figure_extraction:
-                    # Extract figure image and save to file
                     figure_img_path = os.path.join(figures_dir, f"page_{actual_page_num}_figure_{j+1}.png")
-                    figure_img_bytes = extract_image_from_region(image_path, bbox, figure_img_path)
-                    
-                    if figure_img_bytes:
-                        # Process figure with Gemini
-                        context = f"Figure from page {actual_page_num}"
-                        figure_text = text_processor.process_figure_image(figure_img_bytes, context)
-                        
-                        # Add to figure extractions (ACCUMULATE, don't overwrite)
-                        figure_extractions.append(f"\n--- FIGURE FROM PAGE {actual_page_num} ---\n{figure_text}\n")
+                    extraction_tasks.append({
+                        'type': 'figure',
+                        'page': actual_page_num,
+                        'region_id': j+1,
+                        'image_path': image_path,
+                        'bbox': bbox,
+                        'output_path': figure_img_path,
+                        'context': f"Figure from page {actual_page_num}"
+                    })
                 
                 elif region_type in ['chart', 'graph'] and bbox and enable_chart_extraction:
-                    # Extract chart image and save to file  
                     chart_img_path = os.path.join(figures_dir, f"page_{actual_page_num}_chart_{j+1}.png")
-                    chart_img_bytes = extract_image_from_region(image_path, bbox, chart_img_path)
-                    
-                    if chart_img_bytes:
-                        # Process chart with Gemini
-                        context = f"Chart from page {actual_page_num}"
-                        chart_text = text_processor.process_chart_image(chart_img_bytes, context)
-                        
-                        # Add to chart extractions (ACCUMULATE, don't overwrite)
-                        chart_extractions.append(f"\n--- CHART FROM PAGE {actual_page_num} ---\n{chart_text}\n")
+                    extraction_tasks.append({
+                        'type': 'chart',
+                        'page': actual_page_num,
+                        'region_id': j+1,
+                        'image_path': image_path,
+                        'bbox': bbox,
+                        'output_path': chart_img_path,
+                        'context': f"Chart from page {actual_page_num}"
+                    })
                 
-                elif region_type == 'table' and not enable_table_extraction:
-                    logger.debug(f"⚡ Skipped table extraction on page {actual_page_num} (performance optimization)")
-                elif region_type == 'figure' and not enable_figure_extraction:
-                    logger.debug(f"⚡ Skipped figure extraction on page {actual_page_num} (performance optimization)")
-                elif region_type in ['chart', 'graph'] and not enable_chart_extraction:
-                    logger.debug(f"⚡ Skipped chart extraction on page {actual_page_num} (performance optimization)")
+                # Skip debug messages for disabled extractions
+            
+            # Add tasks to the global list for batch parallel processing
+            all_extraction_tasks.extend(extraction_tasks)
+        
+        # Process all extraction tasks in parallel (CPU-bound operations)
+        if all_extraction_tasks:
+            logger.info(f"Processing {len(all_extraction_tasks)} extractions (tables/figures/charts)")
+            parallel_start_time = get_unix_timestamp()
+            
+            # Use ThreadPoolExecutor for parallel CPU processing
+            max_workers = min(max_extraction_workers, len(all_extraction_tasks))  # Limit concurrent API calls
+            extraction_lock = Lock()
+            
+            # Check if parallel processing is enabled
+            if not parallel_extraction:
+                max_workers = 1
+            
+            def process_extraction_task(task):
+                """Process a single extraction task"""
+                try:
+                    # Extract image region
+                    img_bytes = extract_image_from_region(
+                        task['image_path'], 
+                        task['bbox'], 
+                        task['output_path']
+                    )
+                    
+                    if img_bytes:
+                        # Process with Gemini based on type
+                        if task['type'] == 'table':
+                            extracted_text = text_processor.process_table_image(img_bytes, task['context'])
+                        elif task['type'] == 'figure':
+                            extracted_text = text_processor.process_figure_image(img_bytes, task['context'])
+                        elif task['type'] == 'chart':
+                            extracted_text = text_processor.process_chart_image(img_bytes, task['context'])
+                        else:
+                            return None
+                        
+                        # Return formatted result
+                        return {
+                            'type': task['type'],
+                            'page': task['page'],
+                            'text': f"\n--- {task['type'].upper()} FROM PAGE {task['page']} ---\n{extracted_text}\n"
+                        }
+                    
+                except Exception as e:
+                    logger.error(f"Error processing {task['type']} from page {task['page']}: {str(e)}")
+                    return None
+            
+            # Execute tasks in parallel
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                # Submit all tasks
+                future_to_task = {
+                    executor.submit(process_extraction_task, task): task 
+                    for task in all_extraction_tasks
+                }
+                
+                # Collect results as they complete
+                completed_extractions = 0
+                for future in as_completed(future_to_task):
+                    result = future.result()
+                    if result:
+                        # Thread-safe accumulation
+                        with extraction_lock:
+                            if result['type'] == 'table':
+                                table_extractions.append(result['text'])
+                            elif result['type'] == 'figure':
+                                figure_extractions.append(result['text'])
+                            elif result['type'] == 'chart':
+                                chart_extractions.append(result['text'])
+                        
+                        completed_extractions += 1
+                        if completed_extractions % 10 == 0:  # Log progress every 10 completions
+                            logger.info(f"Completed {completed_extractions}/{len(all_extraction_tasks)} extractions")
+            
+            parallel_end_time = get_unix_timestamp()
+            parallel_duration = calculate_duration(parallel_start_time, parallel_end_time)
+            logger.info(f"Extraction completed in {parallel_duration['formatted']} - {completed_extractions} successful")
         
         # Combine all text for document summarization
         combined_text = "\n".join(all_ocr_text)
@@ -1030,9 +1066,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         with open(ppstructure_path, 'w', encoding='utf-8') as f:
             json.dump(ppstructure_results, f, ensure_ascii=False, indent=2)
         
-        logger.info(f"PPStructure processing completed for job {job_id}")
-        logger.info(f"Results saved to: {results_path}")
-        logger.info(f"Metrics saved to: {metrics_path}")
+        logger.info(f"Document processing completed for job {job_id}")
         
         # Prepare final results
         final_results = clean_results.copy()
