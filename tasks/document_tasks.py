@@ -103,11 +103,12 @@ def process_document(job_id, file_path, file_name):
         logger.info(f"Starting document analysis for job {job_id}, file: {file_name}")
         
         # Determine processing strategy based on PDF pages only
+        # NOTE: Chunking is effectively disabled (threshold set to 200 pages)
         if _should_chunk_document(file_path, file_name):
-            logger.info(f"Large PDF detected for job {job_id} - using chunked processing")
+            logger.info(f"Large PDF detected for job {job_id} - using chunked processing (>200 pages)")
             result = process_large_document(job_id, file_path, file_name)
         else:
-            logger.info(f"Small document detected for job {job_id} - using direct processing")
+            logger.info(f"Document detected for job {job_id} - using direct processing (≤200 pages, chunking disabled)")
             result = process_small_document(job_id, file_path, file_name)
         
         # Update job status with completion
@@ -829,7 +830,8 @@ def _process_single_chunk_internal(job_id, chunk_id, chunk_path, chunk_index):
 def _should_chunk_document(file_path, file_name):
     """
     Determine if a document should be chunked. 
-    PDFs with more than 20 pages should be chunked into 20-page chunks.
+    PDFs with more than 200 pages should be chunked into 200-page chunks.
+    (Chunking effectively disabled for most documents)
     
     Args:
         file_path: Path to the document file
@@ -853,12 +855,12 @@ def _should_chunk_document(file_path, file_name):
             page_count = pdf_doc.page_count
             pdf_doc.close()
             
-            # Chunk PDFs with more than 20 pages into 20-page chunks
-            if page_count > 20:
-                logger.info(f"PDF has {page_count} pages (>20) - will chunk into 20-page chunks")
+            # Chunk PDFs with more than 200 pages into 200-page chunks (effectively disabled for most docs)
+            if page_count > 200:
+                logger.info(f"PDF has {page_count} pages (>200) - will chunk into 200-page chunks")
                 return True
             else:
-                logger.info(f"PDF has {page_count} pages (≤20) - will process directly")
+                logger.info(f"PDF has {page_count} pages (≤200) - will process directly (chunking disabled)")
                 return False
                 
         except Exception as e:
@@ -906,8 +908,8 @@ def _merge_and_summarize_chunks(job_id, chunk_results, file_name):
         for i, result in enumerate(valid_chunk_results):
             successful_chunks += 1
             chunk_num = result.get('chunk_number', i)
-            start_page = result.get('start_page', (chunk_num * 20) + 1)
-            end_page = result.get('end_page', (chunk_num + 1) * 20)
+            start_page = result.get('start_page', (chunk_num * 200) + 1)
+            end_page = result.get('end_page', (chunk_num + 1) * 200)
             
             # Extract combined text from chunk (this should be the full extracted text)
             chunk_text = ""

@@ -129,8 +129,8 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
         total_pages = pdf_document.page_count
         logger.info(f"PDF has {total_pages} pages")
         
-        # Fixed 20-page chunks for robust processing
-        pages_per_chunk = 20
+        # Fixed 200-page chunks (effectively disables chunking for most documents)
+        pages_per_chunk = 200
         
         # Calculate number of chunks needed
         num_chunks = (total_pages + pages_per_chunk - 1) // pages_per_chunk
@@ -141,7 +141,7 @@ def _chunk_pdf(job_id, file_path, job_chunk_dir, overlap_pages=2):
         
         # Create chunks with strict page limits
         for i in range(num_chunks):
-            # Calculate page ranges - ensure exactly 20 pages per chunk (except last)
+            # Calculate page ranges - ensure exactly 200 pages per chunk (except last)
             start_page = i * pages_per_chunk
             end_page = min(start_page + pages_per_chunk - 1, total_pages - 1)
             

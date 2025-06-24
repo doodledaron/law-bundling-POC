@@ -219,8 +219,16 @@ async def bulk_upload(request: Request, files: List[UploadFile] = File(...)):
                         file_ext = ".png"
                 
                 upload_path = os.path.join("uploads", f"{job_id}{file_ext}")
-                with open(upload_path, "wb") as f:
-                    f.write(contents)
+                
+                # Set umask for proper default permissions
+                old_umask = os.umask(0o022)
+                try:
+                    with open(upload_path, "wb") as f:
+                        f.write(contents)
+                    # Ensure file is readable by all containers
+                    os.chmod(upload_path, 0o644)
+                finally:
+                    os.umask(old_umask)
                 
                 # Initialize job status in Redis
                 update_job_status(redis_client, job_id, {
@@ -352,8 +360,16 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
                 file_ext = ".png"
         
         upload_path = os.path.join("uploads", f"{job_id}{file_ext}")
-        with open(upload_path, "wb") as f:
-            f.write(contents)
+        
+        # Set umask for proper default permissions
+        old_umask = os.umask(0o022)
+        try:
+            with open(upload_path, "wb") as f:
+                f.write(contents)
+            # Ensure file is readable by all containers
+            os.chmod(upload_path, 0o644)
+        finally:
+            os.umask(old_umask)
         
         # Initialize job status in Redis
         update_job_status(redis_client, job_id, {
@@ -365,11 +381,11 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         })
         
         # Submit job to Celery -> the stage where it will process the document
-        # - process_large_document : For PDFs with >100 pages
-        #     - Chunks the PDF into 20-page chunks
+        # - process_large_document : For PDFs with >200 pages (chunking effectively disabled)
+        #     - Chunks the PDF into 200-page chunks (rarely triggered)
         #     - Processes each chunk with PPStructure in parallel
         #     - Combines all chunk text and generates final summary with text_based_processor.py
-        # - process_small_document : For PDFs ≤100 pages and all images
+        # - process_small_document : For PDFs ≤200 pages and all images (default path)
         #     - Processes the entire document directly with PPStructure
         #     - Generates summary using text_based_processor.py
 

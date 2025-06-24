@@ -8,6 +8,8 @@ services:
     command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload # Start FastAPI with auto-reload
     volumes:
       - .:/app # Mount the local directory into the container
+      - uploads_data:/app/uploads
+      - results_data:/app/results
     ports:
       - "8000:8000" # Map port 8000 on the host to port 8000 in the container
     environment:
@@ -48,6 +50,8 @@ services:
       sh -c "
         echo 'Waiting for Redis to be ready...' &&
         sleep 10 &&
+        echo 'Setting up shared directories...' &&
+        chmod -R 777 /app/uploads /app/results /app/chunks &&
         echo 'Installing high-performance inference plugin...' &&
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
@@ -56,6 +60,8 @@ services:
       "
     volumes:
       - .:/app
+      - uploads_data:/app/uploads
+      - results_data:/app/results
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
@@ -174,9 +180,13 @@ services:
         reservations:
           memory: 256m
 
-# Define a volume to persist Redis data
+# Define volumes to persist data and handle permissions
 volumes:
   redis-data:
+  uploads_data:
+    driver: local
+  results_data:
+    driver: local
 
 # Network configuration
 networks:

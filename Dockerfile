@@ -3,8 +3,8 @@ FROM paddlepaddle/paddle:3.0.0-gpu-cuda11.8-cudnn8.9-trt8.6
 # FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 # FROM rapidsai/base:25.06a-cuda11.8-py3.11-amd64
 
-# Ensure we're running as root
-USER root
+# Keep worker as root for PaddlePaddle compatibility
+# PaddlePaddle needs to write to system directories
 
 # Set working directory
 WORKDIR /app
@@ -51,8 +51,13 @@ RUN pip install --no-cache-dir --force-reinstall \
     numpy==1.24.3 \
     pillow==10.0.0
 
-# Create necessary directories
-RUN mkdir -p uploads results chunks
+# Create necessary directories with proper permissions
+RUN mkdir -p uploads results chunks \
+    && chmod -R 777 /app/uploads /app/results /app/chunks
+
+# Copy startup script and set permissions
+COPY startup.sh /app/startup.sh
+RUN chmod +x /app/startup.sh
 
 # Set Python path
 ENV PYTHONPATH=/app
@@ -62,9 +67,7 @@ ENV OPENCV_IO_ENABLE_OPENEXR=1
 ENV OPENCV_IO_MAX_IMAGE_PIXELS=1073741824
 ENV NUMBA_CACHE_DIR=/tmp/numba_cache
 
-# Copy startup script
-COPY startup.sh /app/startup.sh
-RUN chmod +x /app/startup.sh
+# Stay as root for PaddlePaddle compatibility
 
 # Expose port 8000
 EXPOSE 8000

@@ -17,8 +17,10 @@ RUN pip install --no-cache-dir -r requirements.lite.txt
 # Copy application code
 COPY . .
 
-# Create non-root user for security
-RUN useradd --create-home --shell /bin/bash app \
+# Create app user with specific UID/GID for consistent permissions
+RUN groupadd --gid 1000 app \
+    && useradd --create-home --shell /bin/bash --uid 1000 --gid 1000 app \
+    && mkdir -p uploads results chunks \
     && chown -R app:app /app
 USER app
 
