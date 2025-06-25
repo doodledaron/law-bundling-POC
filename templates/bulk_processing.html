@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bulk Document Processing - Law Document Bundling</title>
+    <style>
+      :root {
+        --primary-blue: #1a4f8b;
+        --secondary-blue: #2c7ac9;
+        --light-blue: #f5f9ff;
+        --text-color: #2c3e50;
+        --success-green: #28a745;
+        --danger-red: #dc3545;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background-color: var(--light-blue);
+        color: var(--text-color);
+        min-height: 100vh;
+        padding: 40px 20px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        padding: 40px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        color: var(--primary-blue);
+        font-size: 2.5rem;
+        margin-bottom: 16px;
+        font-weight: 600;
+      }
+
+      .description {
+        color: var(--text-color);
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+
+      .document-item {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 15px;
+        border-left: 4px solid #e0e0e0;
+        transition: all 0.3s ease;
+      }
+
+      .document-item.queued {
+        border-left-color: #6c757d;
+      }
+
+      .document-item.processing {
+        border-left-color: var(--secondary-blue);
+        background-color: #e3f2fd;
+      }
+
+      .document-item.completed {
+        border-left-color: var(--success-green);
+        background-color: #d4edda;
+      }
+
+      .document-item.failed {
+        border-left-color: var(--danger-red);
+        background-color: #f8d7da;
+      }
+
+      .doc-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      .doc-name {
+        font-weight: 600;
+        color: var(--text-color);
+        font-size: 1.1rem;
+      }
+
+      .doc-status {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .doc-status.queued {
+        background-color: #e9ecef;
+        color: #6c757d;
+      }
+
+      .doc-status.processing {
+        background-color: #cce5ff;
+        color: var(--primary-blue);
+      }
+
+      .doc-status.completed {
+        background-color: #d4edda;
+        color: #155724;
+      }
+
+      .doc-status.failed {
+        background-color: #f8d7da;
+        color: #721c24;
+      }
+
+      .progress-container {
+        margin-bottom: 10px;
+        position: relative;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 10px;
+        background-color: #e9ecef;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .progress-text {
+        font-size: 0.8rem;
+        text-align: right;
+        margin-top: 2px;
+        color: #6c757d;
+      }
+
+      .progress-fill {
+        height: 100%;
+        background-color: var(--secondary-blue);
+        width: 0%;
+        transition: width 0.3s ease;
+        border-radius: 5px;
+      }
+
+      .progress-fill.completed {
+        background-color: var(--success-green);
+      }
+
+      .progress-fill.failed {
+        background-color: var(--danger-red);
+      }
+
+      .doc-message {
+        font-size: 0.9rem;
+        color: #6c757d;
+        margin-bottom: 10px;
+      }
+
+      .doc-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+      }
+
+      .btn {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.2s ease;
+      }
+
+      .btn-primary {
+        background-color: var(--primary-blue);
+        color: white;
+      }
+
+      .btn-primary:hover {
+        background-color: var(--secondary-blue);
+      }
+
+      .btn-success {
+        background-color: var(--success-green);
+        color: white;
+      }
+
+      .btn-success:hover {
+        background-color: #218838;
+      }
+
+      .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+      }
+
+      .btn-secondary:hover {
+        background-color: #5a6268;
+      }
+
+      .summary-stats {
+        background-color: var(--light-blue);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+      }
+
+      .stat-item {
+        text-align: center;
+      }
+
+      .stat-number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-blue);
+      }
+
+      .stat-label {
+        color: var(--text-color);
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
+
+      .navigation {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #e0e0e0;
+      }
+
+      .spinner {
+        border: 3px solid rgba(44, 122, 201, 0.3);
+        border-top: 3px solid var(--secondary-blue);
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .processing-indicator {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--secondary-blue);
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🚀 Bulk Document Processing</h1>
+        <p class="description">
+          Processing multiple documents sequentially with individual progress
+          tracking
+        </p>
+      </div>
+
+      <div class="summary-stats" id="summary-stats">
+        <div class="stat-item">
+          <div class="stat-number" id="total-docs">0</div>
+          <div class="stat-label">Total Documents</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="completed-docs">0</div>
+          <div class="stat-label">Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="failed-docs">0</div>
+          <div class="stat-label">Failed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="processing-time">0:00</div>
+          <div class="stat-label">Total Time</div>
+        </div>
+      </div>
+
+      <div id="documents-container">
+        <!-- Document items will be inserted here -->
+      </div>
+
+      <div class="navigation">
+        <a href="/" class="btn btn-secondary">← Back to Upload</a>
+        <a href="/results-list" class="btn btn-primary">View All Results</a>
+        <button
+          class="btn btn-secondary"
+          onclick="debugJobs()"
+          style="margin-left: 10px"
+        >
+          🔍 Debug Jobs
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // Get bulk job IDs and file data from template data, URL parameters, or sessionStorage
+      {% if job_ids_json %}
+      window.bulkJobIds = {{ job_ids_json|safe }};
+      {% endif %}
+
+      {% if submitted_files_json %}
+      window.submittedFiles = {{ submitted_files_json|safe }};
+      {% endif %}
+
+      const bulkJobIds =
+        window.bulkJobIds ||
+        (new URLSearchParams(window.location.search).get("jobs")
+          ? new URLSearchParams(window.location.search).get("jobs").split(",")
+          : JSON.parse(sessionStorage.getItem("bulkJobIds") || "[]"));
+
+      // Check if we have any job IDs to monitor
+      if (bulkJobIds.length === 0) {
+        console.error("No bulk job IDs found");
+        document.querySelector(".container").innerHTML = `
+          <div class="error-container" style="text-align: center; padding: 2rem;">
+            <div class="error" style="background: #fee; border: 1px solid #fcc; padding: 2rem; border-radius: 8px; max-width: 600px; margin: 0 auto;">
+              <h2 style="color: #c33;">❌ No Bulk Processing Jobs Found</h2>
+              <p>It appears there are no bulk processing jobs to monitor.</p>
+              <p>This might happen if you navigated here directly or if the session expired.</p>
+              <div class="error-actions" style="margin-top: 1.5rem;">
+                <a href="/" class="btn" style="background: #007bff; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">🔙 Return to Upload Page</a>
+                <a href="/results-list" class="btn" style="background: #6c757d; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">📋 View Past Results</a>
+              </div>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      let startTime = Date.now();
+      let allJobs = [];
+      let refreshInterval;
+
+      // Initialize the page
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log("=== BULK PROCESSING PAGE LOADED ===");
+        console.log("Page loaded, bulkJobIds:", bulkJobIds);
+        console.log("Submitted files:", window.submittedFiles);
+        console.log("Current URL:", window.location.href);
+
+        if (bulkJobIds.length === 0) {
+          console.error("No job IDs found!");
+          showError(
+            "No bulk processing jobs found. Please start a new bulk upload."
+          );
+          return;
+        }
+
+        console.log(`Initializing ${bulkJobIds.length} jobs...`);
+        initializeBulkJobs(bulkJobIds);
+        startMonitoring();
+
+        // Start immediately with a status check
+        console.log("Starting immediate status check...");
+        checkAllJobStatuses();
+      });
+
+      function initializeBulkJobs(jobIds) {
+        allJobs = jobIds.map((jobId, index) => ({
+          jobId: jobId,
+          filename: window.submittedFiles && window.submittedFiles[index] ?
+                   window.submittedFiles[index].filename :
+                   `Document_${jobId.slice(-8)}.pdf`,
+          status: "queued",
+          progress: 0,
+          message: "Waiting to start...",
+          startTime: null,
+          endTime: null,
+        }));
+
+        console.log("Initialized jobs:", allJobs);
+        updateSummaryStats();
+        renderDocuments();
+      }
+
+      function startMonitoring() {
+        checkAllJobStatuses();
+        refreshInterval = setInterval(checkAllJobStatuses, 2000);
+      }
+
+      async function checkAllJobStatuses() {
+        const promises = allJobs.map((job) => checkJobStatus(job.jobId));
+        const results = await Promise.allSettled(promises);
+
+        let hasChanges = false;
+
+        results.forEach((result, index) => {
+          if (result.status === "fulfilled" && result.value) {
+            const oldStatus = allJobs[index].status;
+            const oldProgress = allJobs[index].progress;
+            allJobs[index] = { ...allJobs[index], ...result.value };
+
+            if (oldStatus !== allJobs[index].status || oldProgress !== allJobs[index].progress) {
+              hasChanges = true;
+              console.log(`Job ${allJobs[index].jobId} status: ${allJobs[index].status} (${allJobs[index].progress}%) - ${allJobs[index].message}`);
+            }
+          } else if (result.status === "rejected") {
+            console.error(`Failed to check status for job ${allJobs[index].jobId}:`, result.reason);
+          }
+        });
+
+        if (hasChanges) {
+          updateSummaryStats();
+          renderDocuments();
+        }
+
+        const activeJobs = allJobs.filter(
+          (job) => job.status !== "completed" && job.status !== "failed"
+        );
+
+        console.log(`Active jobs: ${activeJobs.length}, Total jobs: ${allJobs.length}`);
+
+        if (activeJobs.length === 0) {
+          clearInterval(refreshInterval);
+          showCompletionMessage();
+        }
+      }
+
+      async function checkJobStatus(jobId) {
+        try {
+          const response = await fetch(`/api/job/${jobId}`);
+          if (!response.ok) {
+            if (response.status === 404) {
+              return { status: "queued", message: "Job queued, waiting to start..." };
+            }
+            console.warn(`HTTP ${response.status} for job ${jobId}`);
+            return { status: "failed", message: `HTTP ${response.status}: Failed to fetch status` };
+          }
+
+          const data = await response.json();
+          console.log(`Raw status for job ${jobId}:`, data);
+
+          // Map status properly - handle both uppercase and lowercase
+          let status = (data.status || "queued").toLowerCase();
+          if (status === "pending") status = "queued";
+
+          // Use stage or message for better progress info
+          let message = data.stage || data.message || "Processing...";
+
+          // Calculate progress based on status
+          let progress = data.progress || 0;
+          if (status === "completed") {
+            progress = 100;
+            message = "Processing completed successfully!";
+          } else if (status === "failed") {
+            progress = 0;
+            message = data.error || data.message || "Processing failed";
+          } else if (status === "processing" && progress === 0) {
+            progress = 25; // Default progress for processing
+          }
+
+          const result = {
+            status: status,
+            progress: progress,
+            message: message,
+            filename: data.filename || `Document_${jobId.slice(-8)}.pdf`,
+          };
+
+          console.log(`Processed status for job ${jobId}:`, result);
+          return result;
+
+        } catch (error) {
+          console.error(`Error checking status for job ${jobId}:`, error);
+          return { status: "failed", message: `Error: ${error.message}` };
+        }
+      }
+
+      function updateSummaryStats() {
+        const total = allJobs.length;
+        const completed = allJobs.filter(
+          (job) => job.status === "completed"
+        ).length;
+        const failed = allJobs.filter((job) => job.status === "failed").length;
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+
+        document.getElementById("total-docs").textContent = total;
+        document.getElementById("completed-docs").textContent = completed;
+        document.getElementById("failed-docs").textContent = failed;
+        document.getElementById("processing-time").textContent =
+          formatTime(elapsed);
+      }
+
+      function renderDocuments() {
+        const container = document.getElementById("documents-container");
+        container.innerHTML = allJobs
+          .map(
+            (job, index) => `
+                <div class="document-item ${job.status}">
+                    <div class="doc-header">
+                        <div class="doc-name">
+                            📄 ${job.filename}
+                        </div>
+                        <div class="doc-status ${job.status}">
+                            ${getStatusIndicator(job.status)}
+                        </div>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill ${
+                              job.status
+                            }" style="width: ${job.progress}%"></div>
+                        </div>
+                        <div class="progress-text">${job.progress}%</div>
+                    </div>
+                    <div class="doc-message">${job.message}</div>
+                    <div class="doc-actions">
+                        ${
+                          job.status === "completed"
+                            ? `<a href="/job/${job.jobId}" class="btn btn-success" target="_blank">
+                                📊 View Full Results
+                            </a>`
+                            : ""
+                        }
+                        ${
+                          job.status === "failed"
+                            ? `<button class="btn btn-secondary" onclick="retryJob('${job.jobId}')">
+                                🔄 Retry
+                            </button>`
+                            : ""
+                        }
+                    </div>
+                </div>
+            `
+          )
+          .join("");
+      }
+
+      function getStatusIndicator(status) {
+        switch(status) {
+          case "processing":
+            return '<span class="processing-indicator"><span class="spinner"></span> PROCESSING</span>';
+          case "completed":
+            return '<span style="color: #28a745;">✅ COMPLETED</span>';
+          case "failed":
+            return '<span style="color: #dc3545;">❌ FAILED</span>';
+          case "queued":
+            return '<span style="color: #6c757d;">⏳ QUEUED</span>';
+          default:
+            return status.toUpperCase();
+        }
+      }
+
+      function showCompletionMessage() {
+        const completed = allJobs.filter(
+          (job) => job.status === "completed"
+        ).length;
+        const total = allJobs.length;
+
+        // Show completion summary
+        document.querySelector('.summary-stats').innerHTML += `
+          <div class="completion-banner" style="background: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 1rem; margin: 1rem 0; border-radius: 8px; text-align: center;">
+            <h3>🎉 Bulk Processing Complete!</h3>
+            <p>${completed} of ${total} documents processed successfully</p>
+            <p>Redirecting to results page in 3 seconds...</p>
+            <div style="margin-top: 1rem;">
+              <a href="/results-list" class="btn" style="background: #28a745; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">📋 View All Results Now</a>
+            </div>
+          </div>
+        `;
+
+        if (completed > 0) {
+          setTimeout(() => {
+            window.location.href = "/results-list";
+          }, 3000);
+        }
+      }
+
+      function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins}:${secs.toString().padStart(2, "0")}`;
+      }
+
+      function showError(message) {
+        document.getElementById("documents-container").innerHTML = `
+                <div class="document-item failed">
+                    <div class="doc-message">${message}</div>
+                </div>
+            `;
+      }
+
+      function retryJob(jobId) {
+        alert(`Retry functionality for job ${jobId} would be implemented here`);
+      }
+
+      // Debug function to test API endpoints
+      async function debugJobs() {
+        console.log("=== BULK PROCESSING DEBUG ===");
+        console.log("Job IDs:", bulkJobIds);
+        console.log("Current jobs state:", allJobs);
+
+        if (bulkJobIds.length > 0) {
+          const testJobId = bulkJobIds[0];
+          console.log(`Testing API for job: ${testJobId}`);
+
+          try {
+            const response = await fetch(`/api/job/${testJobId}`);
+            console.log(`Response status: ${response.status}`);
+
+            if (response.ok) {
+              const data = await response.json();
+              console.log("Raw API response:", data);
+            } else {
+              console.log("Response not OK:", response.statusText);
+            }
+          } catch (error) {
+            console.error("Fetch error:", error);
+          }
+        }
+
+        // Force a status check
+        console.log("Forcing status check...");
+        await checkAllJobStatuses();
+        console.log("Updated jobs state:", allJobs);
+        console.log("=== DEBUG COMPLETE ===");
+      }
+    </script>
+  </body>
+</html>

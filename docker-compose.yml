@@ -1,0 +1,194 @@
+services:
+  # Web API service running FastAPI
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.lite # Use lightweight image
+    container_name: law-api
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload # Start FastAPI with auto-reload
+    volumes:
+      - .:/app # Mount the local directory into the container
+      - uploads_data:/app/uploads
+      - results_data:/app/results
+    ports:
+      - "8000:8000" # Map port 8000 on the host to port 8000 in the container
+    environment:
+      - PYTHONUNBUFFERED=1 # Ensure logs are shown in real-time
+      - REDIS_URL=redis://redis:6379/0 # Redis connection URL
+    depends_on:
+      - redis # Ensure Redis is started before this service
+    restart: unless-stopped # Restart the service unless it is manually stopped
+    # No GPU needed for API service
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"] # Check API health
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Redis service acting as the message broker and result backend for Celery
+  redis:
+    image: redis:7-alpine # Use more current Redis image
+    container_name: law-redis
+    ports:
+      - "6379:6379" # Expose Redis port
+    command: redis-server --save 60 1 --loglevel warning --maxmemory 4gb --maxmemory-policy allkeys-lru # Enhanced Redis config
+    volumes:
+      - redis-data:/data # Persist Redis data across restarts
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"] # Ensure Redis is running
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Single Celery worker for document processing with CUDA-safe sequential processing
+  worker-documents:
+    build: . # Use the same Dockerfile as other services (HEAVY PaddlePaddle image)
+    container_name: law-worker-documents
+    command: >
+      sh -c "
+        echo 'Waiting for Redis to be ready...' &&
+        sleep 10 &&
+        echo 'Setting up shared directories...' &&
+        chmod -R 777 /app/uploads /app/results /app/chunks &&
+        echo 'Installing high-performance inference plugin...' &&
+        pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
+        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
+        echo 'Starting Celery worker...' &&
+        celery -A celery_config worker -Q documents -l info --concurrency=1 --hostname=worker-documents@%h
+      "
+    volumes:
+      - .:/app
+      - uploads_data:/app/uploads
+      - results_data:/app/results
+    environment:
+      - PYTHONUNBUFFERED=1
+      - REDIS_URL=redis://redis:6379/0
+      - WORKER_TYPE=documents
+      - CELERY_WORKER_QUEUES=documents
+      # TensorRT/hpip stability settings
+      - TRT_MAX_WORKSPACE_SIZE=268435456 # 256MB limit
+      - CUDA_LAUNCH_BLOCKING=1 # Force synchronous operations
+      - TRT_PRECISION_MODE=fp16 # Use FP16 for stability
+      - CUDA_DEVICE_ORDER=PCI_BUS_ID # Consistent device ordering
+      - FLAGS_allocator_strategy=auto_growth # Safe memory allocation
+      - FLAGS_use_fast_allocator=true # Better memory management
+    depends_on:
+      - redis
+    restart: unless-stopped
+    gpus: all
+    # Memory limits for CUDA-safe sequential processing
+    mem_limit: 16g # Keep high memory for PPStructure models
+    memswap_limit: 16g # Match memory limit
+    shm_size: 6g # Large shared memory for CUDA operations
+    deploy:
+      resources:
+        limits:
+          memory: 16g
+        reservations:
+          memory: 8g
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  # Celery worker for maintenance tasks
+  worker-maintenance:
+    build:
+      context: .
+      dockerfile: Dockerfile.lite # Use lightweight image
+    container_name: law-worker-maintenance
+    command: celery -A celery_config worker -Q maintenance -l info --concurrency=1 --hostname=worker-maintenance@%h # Dedicated maintenance worker
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - REDIS_URL=redis://redis:6379/0
+      - WORKER_TYPE=maintenance
+      - CELERY_WORKER_QUEUES=maintenance
+    depends_on:
+      - redis
+    restart: unless-stopped
+    # No GPU needed for maintenance tasks
+    mem_limit: 512m # Much lower memory for maintenance tasks
+    memswap_limit: 512m
+    shm_size: 128m
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+        reservations:
+          memory: 256m
+
+  # Celery Beat service for scheduling tasks
+  beat:
+    build:
+      context: .
+      dockerfile: Dockerfile.lite # Use lightweight image
+    container_name: law-beat
+    command: celery -A celery_config beat -l info # Start Celery Beat to schedule periodic tasks
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    restart: unless-stopped
+    # No GPU needed for beat scheduler
+    mem_limit: 256m # Minimal memory for beat scheduler
+    memswap_limit: 256m
+    shm_size: 64m
+    deploy:
+      resources:
+        limits:
+          memory: 256m
+        reservations:
+          memory: 128m
+
+  # Flower - Celery monitoring dashboard
+  flower:
+    build:
+      context: .
+      dockerfile: Dockerfile.lite # Use lightweight image
+    container_name: law-flower
+    working_dir: /app
+    command: celery -A celery_config flower --port=5555 # Simplified Flower configuration
+    ports:
+      - "5555:5555" # Expose Flower dashboard
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - REDIS_URL=redis://redis:6379/0
+      - PYTHONPATH=/app
+    env_file:
+      - .env
+    depends_on:
+      - redis
+      - worker-documents # Ensure worker is running
+    restart: unless-stopped
+    # No GPU needed for monitoring
+    mem_limit: 512m # Memory for monitoring dashboard
+    memswap_limit: 512m
+    shm_size: 128m
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+        reservations:
+          memory: 256m
+
+# Define volumes to persist data and handle permissions
+volumes:
+  redis-data:
+  uploads_data:
+    driver: local
+  results_data:
+    driver: local
+
+# Network configuration
+networks:
+  default:
+    driver: bridge

@@ -9,3 +9,7 @@ venv/
 *.log
 .git
 .gitignore
+results/
+chunks/
+uploads/
+static/

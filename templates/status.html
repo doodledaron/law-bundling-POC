@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Processing Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        color: #202124;
+        line-height: 1.6;
+        padding: 2rem;
+        text-align: center;
+      }
+      .card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        margin: 0 auto;
+        max-width: 600px;
+      }
+      h1 {
+        color: #1a73e8;
+        margin-bottom: 1.5rem;
+      }
+      .status-badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+      }
+      .status-PENDING {
+        background-color: #fef3c7;
+        color: #92400e;
+        animation: pulse-pending 2s infinite;
+      }
+      .status-PROCESSING {
+        background-color: #e0f2fe;
+        color: #075985;
+        animation: pulse-processing 1.5s infinite;
+      }
+      .status-COMPLETED {
+        background-color: #d1fae5;
+        color: #065f46;
+      }
+      .status-FAILED {
+        background-color: #fee2e2;
+        color: #b91c1c;
+      }
+
+      @keyframes pulse-pending {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.7;
+        }
+      }
+
+      @keyframes pulse-processing {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.8;
+        }
+      }
+
+      .progress-container {
+        margin: 1.5rem 0;
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        height: 25px;
+        overflow: hidden;
+        position: relative;
+      }
+      .progress-bar {
+        height: 100%;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #1a73e8, #4285f4);
+        transition: width 0.5s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .progress-bar::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: linear-gradient(
+          -45deg,
+          rgba(255, 255, 255, 0.2) 25%,
+          transparent 25%,
+          transparent 50%,
+          rgba(255, 255, 255, 0.2) 50%,
+          rgba(255, 255, 255, 0.2) 75%,
+          transparent 75%,
+          transparent
+        );
+        background-size: 50px 50px;
+        animation: move 2s linear infinite;
+      }
+
+      @keyframes move {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 50px 50px;
+        }
+      }
+
+      .progress-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bold;
+        font-size: 0.85rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .processing-stage {
+        font-size: 0.95rem;
+        color: #1a73e8;
+        margin: 1rem 0;
+        font-weight: 500;
+      }
+
+      .processing-details {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 8px;
+        margin: 1rem 0;
+        text-align: left;
+      }
+
+      .detail-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .detail-item:last-child {
+        border-bottom: none;
+      }
+
+      .detail-label {
+        font-weight: 500;
+        color: #555;
+      }
+
+      .detail-value {
+        color: #333;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: #1a73e8;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 6px;
+        margin: 0.5rem;
+        transition: background-color 0.2s;
+        font-weight: 500;
+      }
+
+      .btn:hover {
+        background-color: #1557b0;
+        text-decoration: none;
+        color: white;
+      }
+
+      .btn-secondary {
+        background-color: #6c757d;
+      }
+
+      .btn-secondary:hover {
+        background-color: #545b62;
+      }
+
+      .error-details {
+        background-color: #fff5f5;
+        border: 1px solid #fed7d7;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 1rem 0;
+        text-align: left;
+      }
+
+      .refresh-indicator {
+        font-size: 0.85rem;
+        color: #666;
+        margin-top: 1rem;
+      }
+
+      .spinner {
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #1a73e8;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+        margin-right: 8px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .estimated-time {
+        font-size: 0.9rem;
+        color: #666;
+        margin-top: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>
+        {% if status.status in ['PENDING', 'PROCESSING'] %}
+        <i class="spinner"></i>
+        {% endif %} Document Processing Status
+      </h1>
+
+      <div class="status-badge status-{{ status.status }}">
+        {{ status.status }}
+      </div>
+
+      <div class="processing-details">
+        <div class="detail-item">
+          <span class="detail-label">Job ID:</span>
+          <span class="detail-value">{{ job_id }}</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Filename:</span>
+          <span class="detail-value">{{ status.filename }}</span>
+        </div>
+        {% if status.created_at %}
+        <div class="detail-item">
+          <span class="detail-label">Started:</span>
+          <span class="detail-value">{{ status.created_at }}</span>
+        </div>
+        {% endif %} {% if status.updated_at %}
+        <div class="detail-item">
+          <span class="detail-label">Last Updated:</span>
+          <span class="detail-value">{{ status.updated_at }}</span>
+        </div>
+        {% endif %}
+      </div>
+
+      {% if status.status == 'PROCESSING' %} {% if status.stage %}
+      <div class="processing-stage">{{ status.stage }}</div>
+      {% endif %} {% if status.progress is defined %}
+      <div class="progress-container">
+        <div
+          class="progress-bar"
+          data-progress="{{ status.progress|default(0) }}"
+        >
+          <div class="progress-text">{{ status.progress|default(0) }}%</div>
+        </div>
+      </div>
+      {% endif %}
+
+      <p>{{ status.message|default('Processing your document...') }}</p>
+
+      {% if status.progress is defined and status.progress > 0 %}
+      <div class="estimated-time">
+        {% set progress = status.progress|default(0) %} {% if progress < 30 %}
+        Estimated time remaining: 3-5 minutes {% elif progress < 60 %} Estimated
+        time remaining: 2-3 minutes {% elif progress < 85 %} Estimated time
+        remaining: 1-2 minutes {% else %} Almost complete... {% endif %}
+      </div>
+      {% endif %} {% elif status.status == 'PENDING' %}
+      <p>
+        {{ status.message|default('Your document is in the processing queue...')
+        }}
+      </p>
+      <div class="estimated-time">Waiting for processing to begin...</div>
+      {% endif %} {% if status.error %}
+      <div class="error-details">
+        <strong>Error Details:</strong>
+        <p>{{ status.error }}</p>
+      </div>
+      {% endif %}
+
+      <div style="margin-top: 2rem">
+        {% if status.status == 'COMPLETED' %}
+        <a href="/job/{{ job_id }}" class="btn">View Results</a>
+        {% else %}
+        <a href="/job/{{ job_id }}" class="btn">Refresh Status</a>
+        {% endif %}
+
+        <a href="/" class="btn btn-secondary">Upload Another Document</a>
+      </div>
+
+      {% if status.status in ['PROCESSING', 'PENDING'] %}
+      <div class="refresh-indicator">
+        <span class="spinner"></span>
+        Auto-refreshing every 3 seconds...
+      </div>
+      {% endif %}
+    </div>
+
+    {% if status.status == 'PROCESSING' or status.status == 'PENDING' %}
+    <script>
+      // Set initial progress bar width
+      document.addEventListener("DOMContentLoaded", function () {
+        const progressBar = document.querySelector(".progress-bar");
+        if (progressBar) {
+          const progress = progressBar.getAttribute("data-progress") || 0;
+          progressBar.style.width = progress + "%";
+        }
+      });
+
+      let refreshCount = 0;
+      const maxRefreshes = 60; // Max 3 minutes of auto-refresh
+
+      function refreshStatus() {
+        if (refreshCount >= maxRefreshes) {
+          document.querySelector(".refresh-indicator").innerHTML =
+            '<span style="color: #666;">Auto-refresh stopped. <a href="/job/{{ job_id }}">Click to refresh manually</a></span>';
+          return;
+        }
+
+        fetch("/api/job/{{ job_id }}")
+          .then((response) => response.json())
+          .then((data) => {
+            // Update progress if available
+            const progressBar = document.querySelector(".progress-bar");
+            const progressText = document.querySelector(".progress-text");
+            if (data.progress !== undefined && progressBar) {
+              progressBar.style.width = data.progress + "%";
+              if (progressText) progressText.textContent = data.progress + "%";
+            }
+
+            // Update status badge
+            const statusBadge = document.querySelector(".status-badge");
+            if (statusBadge) {
+              statusBadge.className = "status-badge status-" + data.status;
+              statusBadge.textContent = data.status;
+            }
+
+            // Update processing stage
+            const stageDiv = document.querySelector(".processing-stage");
+            if (data.stage && stageDiv) {
+              stageDiv.textContent = data.stage;
+            }
+
+            // Update message
+            const messageP = document.querySelector("p");
+            if (data.message && messageP) {
+              messageP.textContent = data.message;
+            }
+
+            // If completed, redirect to results
+            if (data.status === "COMPLETED") {
+              setTimeout(() => {
+                window.location.reload();
+              }, 1000);
+            }
+
+            // If failed, stop auto-refresh
+            if (data.status === "FAILED") {
+              document.querySelector(".refresh-indicator").innerHTML =
+                '<span style="color: #c33;">Processing failed. Check error details above.</span>';
+              return;
+            }
+
+            refreshCount++;
+          })
+          .catch((error) => {
+            console.log("Refresh error:", error);
+            refreshCount++;
+          });
+      }
+
+      // Start auto-refresh
+      const refreshInterval = setInterval(refreshStatus, 3000);
+
+      // Stop auto-refresh when page is hidden/unfocused
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden) {
+          clearInterval(refreshInterval);
+        }
+      });
+    </script>
+    {% endif %}
+  </body>
+</html>

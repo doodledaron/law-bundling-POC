@@ -692,7 +692,7 @@
 
       <!-- View Past Results Button -->
       <div class="results-section">
-        <a href="/results-list" class="results-btn"> 📊 View Past Results </a>
+        <a href="/results" class="results-btn"> 📊 View Past Results </a>
         <p class="results-description">
           Browse and manage your previously processed documents
         </p>
@@ -854,20 +854,24 @@
         });
       });
 
-      // Handle bulk upload form submission
-      document.addEventListener("DOMContentLoaded", function () {
-        const bulkForm = document.querySelector("#bulk-upload form");
-        if (bulkForm) {
-          bulkForm.addEventListener("submit", function (e) {
-            const fileInput = this.querySelector('input[type="file"]');
-            if (!fileInput.files || fileInput.files.length === 0) {
-              e.preventDefault();
-              alert("Please select at least one file first.");
-              return;
-            }
-            // Form will submit normally and redirect to bulk processing page
-          });
-        }
+      // Bulk upload forms will redirect naturally to the bulk processing page
+      const bulkForms = document.querySelectorAll("#bulk-upload form");
+      bulkForms.forEach((form) => {
+        form.addEventListener("submit", function (e) {
+          const fileInput = this.querySelector('input[type="file"]');
+          if (!fileInput.files || fileInput.files.length === 0) {
+            e.preventDefault();
+            alert("Please select at least one file first.");
+            return;
+          }
+
+          // Store job IDs in sessionStorage for the bulk processing page
+          const jobIds = [];
+          for (let i = 0; i < fileInput.files.length; i++) {
+            jobIds.push(`temp_${Date.now()}_${i}`);
+          }
+          sessionStorage.setItem("bulkJobIds", JSON.stringify(jobIds));
+        });
       });
 
       function showLoading(message, submessage) {
