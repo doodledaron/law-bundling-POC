@@ -45,16 +45,9 @@ Thumbs.db
 # PaddleOCR related (if any)
 __output__
 log.txt
+
 label_studio/
 CUAD_v1/
-
-# Label Studio related
-label_studio/
-layoutlm/
-
-# Label Studio related
-label_studio/
-layoutlm/
 
 # Label Studio related
 label_studio/
@@ -63,3 +56,8 @@ layoutlm/
 chunks/
 results
 uploads
+
+
+# logs
+logs/
+

@@ -1,3 +1,4 @@
+
 """
 FastAPI application for law document processing system.
 Handles HTTP endpoints and delegates processing to Celery tasks.
@@ -31,6 +32,7 @@ celery_app = Celery(
     backend=os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
 )
 
+
 # Initialize FastAPI app
 app = FastAPI(
     title="Law Document Processing API",
@@ -49,6 +51,7 @@ app.add_middleware(
 
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
+
 app.mount("/results", StaticFiles(directory="results"), name="results")
 
 # Error messages
@@ -120,6 +123,7 @@ async def results_page(request: Request):
     Render the results list page
     """
     return templates.TemplateResponse("results_list.html", {"request": request})
+
 
 # API endpoint to get all processed documents
 @app.get("/api/results")
@@ -300,34 +304,31 @@ async def bulk_upload(request: Request, files: List[UploadFile] = File(...)):
             status_code=500
         )
 
+
+
 # Define upload endpoint
 @app.post("/upload", response_class=HTMLResponse)
 async def upload_file(request: Request, file: UploadFile = File(...)):
     """
     Process uploaded file by adding it to the processing queue
     """
+    logger.info(f"File upload initiated: {file.filename} ({file.content_type})")
     try:
         # Read file contents
         try:
             contents = await file.read()
+            logger.info(f"File read successfully: {len(contents)} bytes")
         except Exception as e:
             error_message = f"Error reading file: {str(e)}"
-            print(error_message)  # Log the error
+            logger.error(error_message, exc_info=True)
             return templates.TemplateResponse(
                 "index.html",
                 {"request": request, "error": error_message},
                 status_code=500
             )
 
-        # Check file size (limit to 10MB)
-        # if len(contents) > 10 * 1024 * 1024:
-        #     return templates.TemplateResponse(
-        #         "index.html",
-        #         {"request": request, "error": "File size exceeds 10MB limit."},
-        #         status_code=400
-        #     )
-
         if not contents:
+            logger.warning("Empty file uploaded")
             return templates.TemplateResponse(
                 "index.html",
                 {"request": request, "error": ERROR_MESSAGES["empty_file"]},
@@ -336,6 +337,7 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
 
         # Validate file type
         if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
+            logger.warning(f"Invalid file type: {file.content_type}")
             return templates.TemplateResponse(
                 "index.html",
                 {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
@@ -389,6 +391,7 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
         #     - Processes the entire document directly with PPStructure
         #     - Generates summary using text_based_processor.py
 
+
         try:
             task = process_document.apply_async(
                 args=[job_id, upload_path, file.filename],
@@ -412,11 +415,13 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
                 'message': 'Failed to submit processing task',
                 'updated_at': get_timestamp()
             })
+
             return templates.TemplateResponse(
                 "index.html",
                 {"request": request, "error": f"Failed to submit task: {str(e)}"},
                 status_code=500
             )
+
         
         # Render submission confirmation
         return templates.TemplateResponse(
@@ -430,7 +435,10 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
     
     except Exception as e:
         error_message = f"An unexpected error occurred: {str(e)}"
-        print(error_message)  # Log the error
+        logger.error(error_message, exc_info=True)
+        # Force flush logs
+        for handler in logger.handlers + logging.root.handlers:
+            handler.flush()
         return templates.TemplateResponse(
             "index.html",
             {"request": request, "error": error_message},
@@ -649,3 +657,4 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
+
