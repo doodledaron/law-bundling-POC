@@ -1,5 +1,6 @@
 # Use PaddlePaddle GPU image as base
-FROM paddlepaddle/paddle:3.0.0-gpu-cuda11.8-cudnn8.9-trt8.6
+FROM paddlepaddle/paddle:3.0.0-gpu-cuda12.6-cudnn9.5-trt10.5
+# FROM paddlepaddle/paddle:3.0.0-gpu-cuda11.8-cudnn8.9-trt8.6
 # FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 # FROM rapidsai/base:25.06a-cuda11.8-py3.11-amd64
 

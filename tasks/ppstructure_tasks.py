@@ -144,7 +144,7 @@ def ensure_pipeline_initialized():
         pipeline = create_pipeline(
             pipeline="PP-StructureV3.yaml",
             device="gpu:0",
-            use_hpip=True
+            # use_hpip=True
         )
         logger.info("PPStructure pipeline initialized successfully")
         return pipeline

@@ -312,15 +312,12 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
     """
     Process uploaded file by adding it to the processing queue
     """
-    logger.info(f"File upload initiated: {file.filename} ({file.content_type})")
     try:
         # Read file contents
         try:
             contents = await file.read()
-            logger.info(f"File read successfully: {len(contents)} bytes")
         except Exception as e:
             error_message = f"Error reading file: {str(e)}"
-            logger.error(error_message, exc_info=True)
             return templates.TemplateResponse(
                 "index.html",
                 {"request": request, "error": error_message},
@@ -328,7 +325,6 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             )
 
         if not contents:
-            logger.warning("Empty file uploaded")
             return templates.TemplateResponse(
                 "index.html",
                 {"request": request, "error": ERROR_MESSAGES["empty_file"]},
@@ -337,7 +333,6 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
 
         # Validate file type
         if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
-            logger.warning(f"Invalid file type: {file.content_type}")
             return templates.TemplateResponse(
                 "index.html",
                 {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
@@ -435,10 +430,6 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
     
     except Exception as e:
         error_message = f"An unexpected error occurred: {str(e)}"
-        logger.error(error_message, exc_info=True)
-        # Force flush logs
-        for handler in logger.handlers + logging.root.handlers:
-            handler.flush()
         return templates.TemplateResponse(
             "index.html",
             {"request": request, "error": error_message},
