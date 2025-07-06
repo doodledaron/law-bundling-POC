@@ -13,12 +13,16 @@ import os
 import tempfile
 import uuid
 import json
+import logging
 import redis
 from celery import Celery
 
 # Import tasks
 from tasks.document_tasks import process_document
 from tasks.utils import get_timestamp, update_job_status
+
+# Initialize logging
+logger = logging.getLogger(__name__)
 
 # Initialize Redis client
 redis_client = redis.Redis.from_url(
@@ -31,6 +35,11 @@ celery_app = Celery(
     broker=os.environ.get('REDIS_URL', 'redis://localhost:6379/0'),
     backend=os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
 )
+
+# Container load balancing configuration
+CONTAINER_QUEUES = ['documents_container1', 'documents_container2']
+CONTAINER_LOAD_BALANCE_KEY = 'container_loads'
+CONTAINER_ACTIVE_JOBS_KEY = 'container_active_jobs'
 
 
 # Initialize FastAPI app
@@ -67,6 +76,81 @@ ERROR_MESSAGES = {
 os.makedirs("uploads", exist_ok=True)
 os.makedirs("results", exist_ok=True)
 os.makedirs("chunks", exist_ok=True)
+
+def get_optimal_container_queue():
+    """
+    Intelligent container selection based on current load.
+    Returns the queue name of the least loaded container.
+    """
+    try:
+        # Get current active jobs count for each container
+        container_loads = {}
+        
+        for queue in CONTAINER_QUEUES:
+            # Get active jobs count from Redis
+            active_jobs_key = f"{CONTAINER_ACTIVE_JOBS_KEY}:{queue}"
+            active_jobs = redis_client.get(active_jobs_key)
+            container_loads[queue] = int(active_jobs) if active_jobs else 0
+        
+        # Find container with minimum load
+        optimal_queue = min(container_loads, key=container_loads.get)
+        
+        # Update load counter for selected container
+        active_jobs_key = f"{CONTAINER_ACTIVE_JOBS_KEY}:{optimal_queue}"
+        redis_client.incr(active_jobs_key)
+        redis_client.expire(active_jobs_key, 7200)  # 2 hour expiry
+        
+        logger.info(f"📊 Container load balancing: {container_loads} -> Selected: {optimal_queue}")
+        return optimal_queue
+        
+    except Exception as e:
+        logger.error(f"Error in container load balancing: {str(e)}")
+        # Fallback to round-robin if Redis fails
+        import random
+        return random.choice(CONTAINER_QUEUES)
+
+def update_container_load(queue, increment=1):
+    """
+    Update container load counter.
+    
+    Args:
+        queue: Container queue name
+        increment: +1 for job start, -1 for job completion
+    """
+    try:
+        active_jobs_key = f"{CONTAINER_ACTIVE_JOBS_KEY}:{queue}"
+        if increment > 0:
+            redis_client.incr(active_jobs_key, increment)
+            redis_client.expire(active_jobs_key, 7200)
+        else:
+            current_load = redis_client.get(active_jobs_key)
+            if current_load:
+                new_load = max(0, int(current_load) + increment)
+                if new_load > 0:
+                    redis_client.set(active_jobs_key, new_load, ex=7200)
+                else:
+                    redis_client.delete(active_jobs_key)
+    except Exception as e:
+        logger.error(f"Error updating container load: {str(e)}")
+
+def get_container_status_info():
+    """
+    Get current status of all containers for monitoring.
+    """
+    try:
+        status = {}
+        for queue in CONTAINER_QUEUES:
+            active_jobs_key = f"{CONTAINER_ACTIVE_JOBS_KEY}:{queue}"
+            active_jobs = redis_client.get(active_jobs_key)
+            status[queue] = {
+                'active_jobs': int(active_jobs) if active_jobs else 0,
+                'queue_name': queue,
+                'container_id': queue.split('_')[-1]
+            }
+        return status
+    except Exception as e:
+        logger.error(f"Error getting container status: {str(e)}")
+        return {}
 
 def _fix_image_paths(page_results):
     """
@@ -246,15 +330,18 @@ async def bulk_upload(request: Request, files: List[UploadFile] = File(...)):
                     'bulk_total': len(files)
                 })
                 
-                # Submit job to Celery
+                # Submit job to Celery with intelligent container selection
+                selected_queue = get_optimal_container_queue()
                 task = process_document.apply_async(
                     args=[job_id, upload_path, file.filename],
-                    queue='documents'
+                    queue=selected_queue
                 )
                 
-                # Update job status with task ID
+                # Update job status with task ID and container info
                 update_job_status(redis_client, job_id, {
                     'task_id': task.id,
+                    'assigned_container': selected_queue,
+                    'container_id': selected_queue.split('_')[-1],
                     'updated_at': get_timestamp()
                 })
                 
@@ -388,14 +475,18 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
 
 
         try:
+            # Submit job to Celery with intelligent container selection
+            selected_queue = get_optimal_container_queue()
             task = process_document.apply_async(
                 args=[job_id, upload_path, file.filename],
-                queue='documents'  # Explicitly specify the queue
+                queue=selected_queue
             )
             
-            # Update job status with task ID
+            # Update job status with task ID and container info
             update_job_status(redis_client, job_id, {
                 'task_id': task.id,
+                'assigned_container': selected_queue,
+                'container_id': selected_queue.split('_')[-1],
                 'updated_at': get_timestamp()
             })
             
@@ -617,6 +708,32 @@ async def api_job_status(job_id: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error retrieving job status: {str(e)}")
 
+# Container status monitoring endpoint
+@app.get("/api/containers/status")
+async def get_container_status():
+    """
+    Get current status of all processing containers
+    """
+    try:
+        container_status = get_container_status_info()
+        
+        # Add additional info
+        total_active_jobs = sum(container['active_jobs'] for container in container_status.values())
+        
+        return {
+            "containers": container_status,
+            "total_active_jobs": total_active_jobs,
+            "load_balancing": "enabled",
+            "container_count": len(CONTAINER_QUEUES),
+            "queues": CONTAINER_QUEUES
+        }
+    except Exception as e:
+        return {
+            "error": str(e),
+            "containers": {},
+            "total_active_jobs": 0
+        }
+
 # Health check endpoint
 @app.get("/health")
 async def health_check():
@@ -638,10 +755,14 @@ async def health_check():
     except Exception as e:
         celery_status = f"error: {str(e)}"
     
+    # Get container status
+    container_status = get_container_status_info()
+    
     return {
         "status": "healthy" if redis_status == "ok" else "degraded",
         "redis": redis_status,
         "celery": celery_status,
+        "containers": container_status,
         "version": "1.0.0"
     }
 

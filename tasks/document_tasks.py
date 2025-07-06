@@ -36,6 +36,45 @@ from tasks.utils import (
     update_job_status
 )
 
+# Container load balancing utilities
+CONTAINER_ACTIVE_JOBS_KEY = 'container_active_jobs'
+
+def update_container_load(queue, increment=1):
+    """
+    Update container load counter.
+    
+    Args:
+        queue: Container queue name
+        increment: +1 for job start, -1 for job completion
+    """
+    try:
+        active_jobs_key = f"{CONTAINER_ACTIVE_JOBS_KEY}:{queue}"
+        if increment > 0:
+            redis_client.incr(active_jobs_key, increment)
+            redis_client.expire(active_jobs_key, 7200)
+        else:
+            current_load = redis_client.get(active_jobs_key)
+            if current_load:
+                new_load = max(0, int(current_load) + increment)
+                if new_load > 0:
+                    redis_client.set(active_jobs_key, new_load, ex=7200)
+                else:
+                    redis_client.delete(active_jobs_key)
+    except Exception as e:
+        logger.error(f"Error updating container load: {str(e)}")
+
+def get_current_container_queue():
+    """
+    Get the current container queue from the task context.
+    """
+    try:
+        from celery import current_task
+        if current_task and hasattr(current_task, 'request'):
+            return getattr(current_task.request, 'delivery_info', {}).get('routing_key', 'documents')
+        return 'documents'
+    except:
+        return 'documents'
+
 # Import processing and chunking tasks
 # NOTE: ppstructure_tasks is imported dynamically to prevent loading models in non-document workers
 from tasks.chunking_tasks import (
@@ -161,6 +200,7 @@ def _get_ppstructure_function():
 def process_document(job_id, file_path, file_name):
     """
     Main document processing router - decides between chunked and direct processing.
+    Now supports intelligent container load balancing.
     
     Args:
         job_id: Unique job identifier
@@ -171,20 +211,23 @@ def process_document(job_id, file_path, file_name):
         dict: Processing results
     """
     start_time = get_unix_timestamp()
+    current_queue = get_current_container_queue()
     
     try:
         # Start timing for overall process
         update_job_timing(redis_client, job_id, 'overall', start_time=start_time)
         
-        # Update job status
+        # Update job status with container info
         update_job_status(redis_client, job_id, {
             'status': 'PROCESSING',
             'filename': file_name,
-            'message': 'Analyzing document structure and determining processing strategy',
+            'message': f'Analyzing document structure and determining processing strategy (Container: {current_queue})',
+            'processing_container': current_queue,
+            'container_id': current_queue.split('_')[-1] if '_' in current_queue else 'default',
             'updated_at': get_timestamp()
         })
         
-        logger.info(f"Starting document analysis for job {job_id}, file: {file_name}")
+        logger.info(f"🚀 Starting document analysis for job {job_id}, file: {file_name} on container: {current_queue}")
         
         # Determine processing strategy based on PDF pages only
         # NOTE: Chunking is effectively disabled (threshold set to 200 pages)
@@ -201,6 +244,8 @@ def process_document(job_id, file_path, file_name):
             'message': 'Document processing completed successfully',
             'results_path': result.get('results_path', f'results/{job_id}_final_results.json'),
             'performance': result.get('performance', {}),
+            'processing_container': current_queue,
+            'container_id': current_queue.split('_')[-1] if '_' in current_queue else 'default',
             'updated_at': get_timestamp()
         })
         
@@ -208,23 +253,31 @@ def process_document(job_id, file_path, file_name):
         end_time = get_unix_timestamp()
         update_job_timing(redis_client, job_id, 'overall', end_time=end_time)
         
-        logger.info(f"Document processing completed for job {job_id}")
+        # Update container load (job completed)
+        update_container_load(current_queue, -1)
+        
+        logger.info(f"✅ Document processing completed for job {job_id} on container: {current_queue}")
         
         return result
         
     except Exception as e:
-        logger.error(f"Error processing document: {str(e)}")
+        logger.error(f"❌ Error processing document: {str(e)}")
         
         # Update job status on failure
         update_job_status(redis_client, job_id, {
             'status': 'FAILED',
             'error': str(e),
             'message': f'Error processing document: {str(e)}',
+            'processing_container': current_queue,
+            'container_id': current_queue.split('_')[-1] if '_' in current_queue else 'default',
             'updated_at': get_timestamp()
         })
         
         # End timing on failure
         update_job_timing(redis_client, job_id, 'overall', end_time=get_unix_timestamp())
+        
+        # Update container load (job completed with error)
+        update_container_load(current_queue, -1)
         
         # Clean up temporary files even on failure
         try:

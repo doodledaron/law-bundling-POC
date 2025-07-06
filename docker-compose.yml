@@ -42,10 +42,10 @@ services:
       timeout: 10s
       retries: 3
 
-  # Single Celery worker for document processing with CUDA-safe sequential processing
-  worker-documents:
+  # Container 1: Document processing worker with intelligent load balancing
+  worker-documents-container1:
     build: . # Use the same Dockerfile as other services (HEAVY PaddlePaddle image)
-    container_name: law-worker-documents
+    container_name: law-worker-documents-container1
     command: >
       sh -c "
         echo 'Waiting for Redis to be ready...' &&
@@ -55,8 +55,8 @@ services:
         echo 'Installing high-performance inference plugin...' &&
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
-        echo 'Starting Celery worker...' &&
-        celery -A celery_config worker -Q documents -l info --concurrency=1 --hostname=worker-documents@%h
+        echo 'Starting Document Processing Container 1...' &&
+        celery -A celery_config worker -Q documents_container1 -l info --concurrency=1 --hostname=worker-documents-container1@%h
       "
     volumes:
       - .:/app
@@ -66,7 +66,8 @@ services:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
       - WORKER_TYPE=documents
-      - CELERY_WORKER_QUEUES=documents
+      - CELERY_WORKER_QUEUES=documents_container1
+      - CONTAINER_ID=container1
       # TensorRT/hpip stability settings
       - TRT_MAX_WORKSPACE_SIZE=268435456 # 256MB limit
       - CUDA_LAUNCH_BLOCKING=1 # Force synchronous operations
@@ -78,16 +79,68 @@ services:
       - redis
     restart: unless-stopped
     gpus: all
-    # Memory limits for CUDA-safe sequential processing
-    mem_limit: 16g # Keep high memory for PPStructure models
-    memswap_limit: 16g # Match memory limit
-    shm_size: 6g # Large shared memory for CUDA operations
+    # Optimized memory allocation for 2-container setup (64GB total / 2 = 32GB per container max)
+    mem_limit: 24g # High memory for PPStructure models (24GB per container)
+    memswap_limit: 24g # Match memory limit
+    shm_size: 8g # Large shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 16g
+          memory: 24g
         reservations:
-          memory: 8g
+          memory: 12g
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  # Container 2: Document processing worker with intelligent load balancing
+  worker-documents-container2:
+    build: . # Use the same Dockerfile as other services (HEAVY PaddlePaddle image)
+    container_name: law-worker-documents-container2
+    command: >
+      sh -c "
+        echo 'Waiting for Redis to be ready...' &&
+        sleep 12 &&
+        echo 'Setting up shared directories...' &&
+        chmod -R 777 /app/uploads /app/results /app/chunks &&
+        echo 'Installing high-performance inference plugin...' &&
+        pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
+        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
+        echo 'Starting Document Processing Container 2...' &&
+        celery -A celery_config worker -Q documents_container2 -l info --concurrency=1 --hostname=worker-documents-container2@%h
+      "
+    volumes:
+      - .:/app
+      - uploads_data:/app/uploads
+      - results_data:/app/results
+    environment:
+      - PYTHONUNBUFFERED=1
+      - REDIS_URL=redis://redis:6379/0
+      - WORKER_TYPE=documents
+      - CELERY_WORKER_QUEUES=documents_container2
+      - CONTAINER_ID=container2
+      # TensorRT/hpip stability settings
+      - TRT_MAX_WORKSPACE_SIZE=268435456 # 256MB limit
+      - CUDA_LAUNCH_BLOCKING=1 # Force synchronous operations
+      - TRT_PRECISION_MODE=fp16 # Use FP16 for stability
+      - CUDA_DEVICE_ORDER=PCI_BUS_ID # Consistent device ordering
+      - FLAGS_allocator_strategy=auto_growth # Safe memory allocation
+      - FLAGS_use_fast_allocator=true # Better memory management
+    depends_on:
+      - redis
+    restart: unless-stopped
+    gpus: all
+    # Optimized memory allocation for 2-container setup (64GB total / 2 = 32GB per container max)
+    mem_limit: 24g # High memory for PPStructure models (24GB per container)
+    memswap_limit: 24g # Match memory limit
+    shm_size: 8g # Large shared memory for CUDA operations
+    deploy:
+      resources:
+        limits:
+          memory: 24g
+        reservations:
+          memory: 12g
           devices:
             - driver: nvidia
               count: 1
@@ -167,7 +220,8 @@ services:
       - .env
     depends_on:
       - redis
-      - worker-documents # Ensure worker is running
+      - worker-documents-container1 # Ensure container 1 is running
+      - worker-documents-container2 # Ensure container 2 is running
     restart: unless-stopped
     # No GPU needed for monitoring
     mem_limit: 512m # Memory for monitoring dashboard

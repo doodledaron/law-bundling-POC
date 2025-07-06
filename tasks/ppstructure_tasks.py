@@ -123,7 +123,8 @@ def ensure_pipeline_initialized():
         
         # Also check environment variables for worker queue assignment
         worker_queues = os.environ.get('CELERY_WORKER_QUEUES', '').lower()
-        if 'documents' in worker_queues:
+        if ('documents' in worker_queues or 'ppstructure' in worker_queues or 
+            'documents_container1' in worker_queues or 'documents_container2' in worker_queues):
             is_document_worker = True
         
         if is_document_worker:
@@ -1067,7 +1068,9 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         with open(ppstructure_path, 'w', encoding='utf-8') as f:
             json.dump(ppstructure_results, f, ensure_ascii=False, indent=2)
         
-        logger.info(f"Document processing completed for job {job_id}")
+        # Get container information for logging
+        container_id = os.environ.get('CONTAINER_ID', 'unknown')
+        logger.info(f"✅ Document processing completed for job {job_id} on container: {container_id}")
         
         # Prepare final results
         final_results = clean_results.copy()

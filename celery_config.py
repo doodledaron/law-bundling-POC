@@ -72,19 +72,21 @@ celery_app.conf.update(
     task_always_eager=False,  # Never run tasks eagerly
 )
 
-# Task routing for separated workers
+# Task routing for separated workers with multi-container support
 celery_app.conf.task_routes = {
-    # Document coordination tasks (lightweight worker with Google Genai)
-    'tasks.process_document': {'queue': 'documents'},
+    # Document coordination tasks - now supports multiple containers
+    # Queue selection is handled dynamically in main.py
+    # Both container queues will handle the same tasks
+    'tasks.process_document': {'queue': 'documents_container1'},  # Default routing
     
     # PPStructure tasks (heavy worker with PaddlePaddle)
     'tasks.process_document_with_ppstructure': {'queue': 'ppstructure'},
     'tasks.warmup_ppstructure': {'queue': 'ppstructure'},
     
     # Chunking tasks (handled by API worker)
-    'tasks.create_document_chunks': {'queue': 'documents'},
-    'tasks.update_chunk_status': {'queue': 'documents'},
-    'tasks.chunking.*': {'queue': 'documents'},
+    'tasks.create_document_chunks': {'queue': 'documents_container1'},
+    'tasks.update_chunk_status': {'queue': 'documents_container1'},
+    'tasks.chunking.*': {'queue': 'documents_container1'},
     
     # Maintenance tasks
     'tasks.maintenance.*': {'queue': 'maintenance'},
@@ -108,4 +110,6 @@ celery_app.conf.beat_schedule = {
     }
 }
 
-logger.info("Simplified Celery configuration loaded for single worker internal parallelism")
+logger.info("Multi-container Celery configuration loaded with intelligent load balancing")
+logger.info("Supported container queues: documents_container1, documents_container2")
+logger.info("Task routing: Dynamic load balancing handled by main.py")
