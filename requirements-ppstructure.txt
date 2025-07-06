@@ -1,0 +1,52 @@
+# Heavy requirements for PPStructure OCR worker
+# Includes PaddlePaddle, OpenCV, and OCR dependencies
+# Does NOT include Google Genai (handled by document worker)
+
+# Core Python packages (Python 3.9 compatible)
+click==8.1.3
+colorama==0.4.6
+decorator==5.1.1
+setuptools==68.0.0
+six==1.17.0
+packaging==24.0
+typing_extensions>=4.8.0
+
+# PPStructure v2 - use PaddleOCR 2.6.1 (latest stable with PPStructure v2)  
+paddleocr==2.6.1
+# NumPy compatibility - PaddleOCR 2.6.1 requires NumPy < 2.0
+numpy==1.19.5
+# Pin compatible versions for NumPy compatibility
+imageio==2.9.0
+imgaug==0.4.0
+scikit-image==0.18.3
+
+# Image processing and OpenCV
+opencv-python-headless<=4.6.0.66
+pillow==9.5.0
+
+# OCR and document processing
+pdf2image==1.16.3
+PyPDF2==3.0.1
+PyMuPDF==1.19.0
+
+# Utilities and parsing
+lxml==4.9.3
+beautifulsoup4==4.12.2
+requests==2.31.0
+urllib3==1.26.18
+tqdm==4.65.0
+python-dateutil==2.8.2
+
+# Task queue for Celery workers
+celery==5.3.4
+redis==5.0.1
+kombu==5.3.7
+
+# Basic utilities
+python-dotenv==1.0.0
+psutil==5.9.6
+python-magic==0.4.27
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1 

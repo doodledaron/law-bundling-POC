@@ -1,5 +1,6 @@
 # Use PaddlePaddle GPU image as base
-FROM paddlepaddle/paddle:3.0.0-gpu-cuda12.6-cudnn9.5-trt10.5
+FROM paddlepaddle/paddle:3.0.0
+# FROM paddlepaddle/paddle:3.0.0-gpu-cuda12.6-cudnn9.5-trt10.5
 # FROM paddlepaddle/paddle:3.0.0-gpu-cuda11.8-cudnn8.9-trt8.6
 # FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 # FROM rapidsai/base:25.06a-cuda11.8-py3.11-amd64
@@ -39,9 +40,6 @@ COPY requirements.txt .
 # Install all requirements from requirements.txt, forcing reinstall of conflicting packages
 RUN pip install --no-cache-dir --ignore-installed PyYAML -r requirements.txt
 # RUN pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
-
-# Install PyTorch with CUDA 11.8 support for memory management
-RUN pip install --no-cache-dir torch==2.1.0+cu118 torchvision==0.16.0+cu118 torchaudio==2.1.0+cu118 --index-url https://download.pytorch.org/whl/cu118
 
 # Install PaddleX (but skip hpi-gpu during build - will install at runtime)
 RUN pip install --no-cache-dir paddlex

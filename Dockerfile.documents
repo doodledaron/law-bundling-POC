@@ -1,0 +1,34 @@
+# Lightweight document coordination worker - includes Google Genai
+# Runs document_tasks.py - coordinates with PPStructure worker via Celery
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install minimal system dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        curl \
+        build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy and install Python requirements  
+COPY requirements-documents.txt .
+RUN pip install --no-cache-dir -r requirements-documents.txt
+
+# Copy application code
+COPY . .
+
+# Create non-root user and set permissions
+RUN groupadd --gid 1000 app \
+    && useradd --create-home --shell /bin/bash --uid 1000 --gid 1000 app \
+    && mkdir -p uploads results chunks \
+    && chown -R app:app /app
+
+USER app
+
+# Set environment variables for document worker
+ENV WORKER_TYPE=documents
+ENV CELERY_WORKER_QUEUES=documents
+
+# Command to run document coordination worker
+CMD ["celery", "-A", "celery_app", "worker", "--loglevel=info", "--queues=documents", "--hostname=worker-documents@%h"] 

@@ -4,10 +4,19 @@ from typing import Dict, List, Optional, Union
 from datetime import datetime
 import re
 import io
-from google import genai
-from google.genai import types
 from PIL import Image
 from config import Config
+
+# Import Google AI conditionally since it requires Python 3.9+
+try:
+    from google import genai
+    from google.genai import types
+    GOOGLE_AI_AVAILABLE = True
+except ImportError:
+    # Running on Python 3.7 - Google AI not available
+    GOOGLE_AI_AVAILABLE = False
+    genai = None
+    types = None
 
 class TextBasedProcessor:
     # Costing constants for Gemini 2.0 Flash (user-provided rates, per token)
@@ -15,12 +24,19 @@ class TextBasedProcessor:
     OUTPUT_COST_PER_M_TOKENS = 0.40   # USD ($0.40 per 1M output tokens)
 
     def __init__(self):
-        self.client = genai.Client(
-            api_key=Config.GEMINI_API_KEY,
-            vertexai=False
-        )
-        self.model = Config.MODEL_NAME
-        self.generation_config = Config.GENERATION_CONFIG
+        if GOOGLE_AI_AVAILABLE:
+            self.client = genai.Client(
+                api_key=Config.GEMINI_API_KEY,
+                vertexai=False
+            )
+            self.model = Config.MODEL_NAME
+            self.generation_config = Config.GENERATION_CONFIG
+        else:
+            # Google AI not available on Python 3.7
+            self.client = None
+            self.model = None
+            self.generation_config = None
+            print("WARNING: Google AI (Gemini) not available on Python 3.7. Text processing will be disabled.")
     
     def _safe_extract_text(self, response) -> str:
         """Safely extract text from Gemini response."""
@@ -458,6 +474,20 @@ Return a clear, informative description that captures all important aspects of t
         Returns:
             Dictionary with document summary information
         """
+        # Check if Google AI is available
+        if not GOOGLE_AI_AVAILABLE or self.client is None:
+            return {
+                "file_type": "text",
+                "file_name": filename,
+                "summary": "Google AI not available on Python 3.7",
+                "date": "undated",
+                "extracted_info": {"full_analysis": "Google AI requires Python 3.9+ but container uses Python 3.7"},
+                "token_usage": {"input_tokens": 0, "output_tokens": 0},
+                "estimated_cost": 0.0,
+                "status": "disabled",
+                "processed_at": datetime.now().isoformat()
+            }
+        
         try:
             if not document_text.strip():
                 return {

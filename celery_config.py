@@ -72,16 +72,16 @@ celery_app.conf.update(
     task_always_eager=False,  # Never run tasks eagerly
 )
 
-# Simplified task routing - no priorities to avoid broker issues
+# Task routing for separated workers
 celery_app.conf.task_routes = {
-    # Document processing tasks
+    # Document coordination tasks (lightweight worker with Google Genai)
     'tasks.process_document': {'queue': 'documents'},
     
-    # PPStructure tasks
-    'tasks.process_document_with_ppstructure': {'queue': 'documents'},
-    'tasks.warmup_ppstructure': {'queue': 'documents'},
+    # PPStructure tasks (heavy worker with PaddlePaddle)
+    'tasks.process_document_with_ppstructure': {'queue': 'ppstructure'},
+    'tasks.warmup_ppstructure': {'queue': 'ppstructure'},
     
-    # Chunking tasks
+    # Chunking tasks (handled by API worker)
     'tasks.create_document_chunks': {'queue': 'documents'},
     'tasks.update_chunk_status': {'queue': 'documents'},
     'tasks.chunking.*': {'queue': 'documents'},

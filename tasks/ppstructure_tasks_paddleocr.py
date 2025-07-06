@@ -19,44 +19,35 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
 
 
-# Fix numpy compatibility issue with deprecated np.bool
-try:
-    # For numpy >= 1.20, np.bool is deprecated and removed
-    # This creates a compatibility alias to avoid errors
-    if not hasattr(np, 'bool'):
-        np.bool = bool
-        np.int = int
-        np.float = float
-        np.complex = complex
-        np.object = object
-        np.unicode = str
-        np.str = str
-    
-    # Additional compatibility for older code that might use these
-    warnings.filterwarnings("ignore", category=FutureWarning, module="numpy")
-    warnings.filterwarnings("ignore", message=".*np.bool.*deprecated.*")
-    
-except Exception:
-    pass  # If there are any issues with the compatibility fix, just continue
-
 # Import PaddleOCR components conditionally to prevent errors in lite containers
 try:
-    from paddleocr import PPStructureV3
+    print("Importing PaddleOCR components---------------------------------")
+    import sys
+    print(f"Python version: {sys.version}")
+    from paddleocr import PPStructure, PaddleOCR
+    print("Imported PaddleOCR components")
     from pdf2image import convert_from_bytes
     from PIL import Image, ImageDraw, ImageFont
     import cv2
     import numpy as np
     PADDLEPADDLE_AVAILABLE = True
+    
+    # Remove problematic numpy compatibility fixes that can interfere with PaddlePaddle
+    # The original numpy deprecation warnings are less problematic than segfaults
+    warnings.filterwarnings("ignore", category=FutureWarning, module="numpy")
+    warnings.filterwarnings("ignore", message=".*np.bool.*deprecated.*")
+        
 except ImportError as e:
     # In lite containers without PaddlePaddle, these imports will fail
     # This is expected and handled gracefully
     PADDLEPADDLE_AVAILABLE = False
     # Use print since logger is not yet defined
     print(f"INFO: PaddlePaddle not available in this container: {e}")
+    # Create dummy numpy for compatibility
+    np = None
 
 # Import utilities
 from tasks.utils import get_unix_timestamp, calculate_duration, format_duration, update_job_status, get_timestamp
-from text_based_processor import TextBasedProcessor
 
 # Initialize Redis client
 redis_client = redis.Redis.from_url(
@@ -69,14 +60,46 @@ logger = get_task_logger(__name__)
 pipeline = None
 pipeline_initialization_attempted = False
 
-# Initialize TextBasedProcessor for Gemini integration
-text_processor = TextBasedProcessor()
+
+def check_system_resources():
+    """Check system resources and limits that might cause segmentation faults"""
+    try:
+        import resource
+        import psutil
+        
+        # Check memory
+        memory = psutil.virtual_memory()
+        logger.info(f"💾 System Memory: {memory.total/(1024**3):.1f}GB total, {memory.available/(1024**3):.1f}GB available")
+        
+        # Check CPU
+        cpu_count = psutil.cpu_count()
+        logger.info(f"🖥️  CPU: {cpu_count} cores")
+        
+        # Check stack size limit
+        stack_size = resource.getrlimit(resource.RLIMIT_STACK)
+        logger.info(f"📚 Stack limit: {stack_size[0]/1024/1024:.1f}MB current, {stack_size[1]/1024/1024:.1f}MB max")
+        
+        # Check virtual memory limit  
+        vmem_limit = resource.getrlimit(resource.RLIMIT_AS)
+        if vmem_limit[0] != resource.RLIM_INFINITY:
+            logger.info(f"🔒 Virtual memory limit: {vmem_limit[0]/1024/1024:.1f}MB")
+        else:
+            logger.info("🔓 Virtual memory: unlimited")
+            
+        # Warn if resources are low
+        if memory.available < 2 * 1024**3:  # Less than 2GB
+            logger.warning("⚠️  Low available memory - this may cause segmentation faults")
+        
+        if stack_size[0] < 8 * 1024 * 1024:  # Less than 8MB stack
+            logger.warning("⚠️  Small stack size - this may cause segmentation faults in deep neural networks")
+            
+    except Exception as e:
+        logger.warning(f"Could not check system resources: {e}")
 
 def ensure_pipeline_initialized():
     """
-    Ensure PPStructure pipeline is initialized once per DOCUMENT worker process.
-    This avoids reloading models for every document/chunk, but ONLY loads in document workers.
-    Other workers (API, maintenance) will never load these heavy models.
+    Ensure PPStructure pipeline is initialized once per worker process.
+    This avoids reloading models for every document but handles initialization safely.
     """
     global pipeline, pipeline_initialization_attempted
     
@@ -97,57 +120,40 @@ def ensure_pipeline_initialized():
             logger.info("🚫 PaddlePaddle not available - this is a lite container")
             return None
         
-        # Smart worker detection - only load models when actually needed
-        # Check if we're being called from a PPStructure task or document processing context
-        import inspect
+        logger.info("Initializing PPStructure pipeline...")
         
-        # Look at the call stack to see if we're in a document processing task
-        is_document_worker = False
-        frame = inspect.currentframe()
+        # Check system resources that might cause segfaults
+        check_system_resources()
+        
+        # Clear any existing memory before initialization
+        import gc
+        gc.collect()
+        
+        # Try to increase stack size if possible
         try:
-            while frame:
-                frame_info = inspect.getframeinfo(frame)
-                filename = frame_info.filename
-                function_name = frame.f_code.co_name
-                
-                # Check if we're being called from document processing functions
-                if ('ppstructure' in filename.lower() or 
-                    'document_tasks' in filename.lower() or
-                    function_name in ['process_document_with_ppstructure', 'warmup_ppstructure', 'process_document']):
-                    is_document_worker = True
-                    break
-                    
-                frame = frame.f_back
-        finally:
-            del frame
+            import resource
+            current_stack = resource.getrlimit(resource.RLIMIT_STACK)
+            if current_stack[0] < 16 * 1024 * 1024:  # If less than 16MB
+                new_stack = min(16 * 1024 * 1024, current_stack[1])
+                resource.setrlimit(resource.RLIMIT_STACK, (new_stack, current_stack[1]))
+                logger.info(f"📚 Increased stack size to {new_stack/1024/1024:.1f}MB")
+        except Exception as e:
+            logger.warning(f"Could not increase stack size: {e}")
         
-        # Also check environment variables for worker queue assignment
-        worker_queues = os.environ.get('CELERY_WORKER_QUEUES', '').lower()
-        if 'documents' in worker_queues:
-            is_document_worker = True
-        
-        if is_document_worker:
-            logger.info("Initializing PPStructure pipeline...")
-        else:
-            # This is likely an API worker or other non-document worker
-            logger.info("Non-document worker - PPStructure models not loaded")
-            # We still mark as attempted to avoid repeated checks
-            return None
-        
-        # # DONOT TOUCH THIS - Initialize PPStructureV3 - this loads all models once
-        # pipeline = PPStructureV3(paddlex_config="PP-StructureV3.yaml")
 
-
-        # Import PaddleX and initialize pipeline
-        from paddlex import create_pipeline
+        pipeline_initialized = False
+        try:
+            pipeline = PPStructure(
+                # paddlex_config=config_file, 
+                # device="cpu"
+            )
+            # pipeline = PaddleOCR(use_angle_cls=True, lang="en")
+            pipeline_initialized = True
+        except Exception as e:
+            logger.error(f"❌ Failed: {str(e)}")
         
-        pipeline = create_pipeline(
-            pipeline="PP-StructureV3-lite.yaml",
-            # device="gpu:0",
-            # device="cpu",
-            # use_hpip=True
-        )
-        logger.info("PPStructure pipeline initialized successfully")
+        if not pipeline_initialized:
+            raise RuntimeError("All PPStructure configurations failed - this may be a system compatibility issue")
         return pipeline
         
     except Exception as e:
@@ -168,20 +174,6 @@ REGION_COLORS = {
     "unknown": (192, 192, 192) # Gray
 }
 
-# def initialize_pipeline():
-#     """Initialize PPStructure pipeline with simple approach"""
-#     global pipeline
-#     try:
-#         logger.info("Initializing PPStructureV3 pipeline...")
-        
-#         # Initialize PPStructureV3 - simple approach
-#         pipeline = PPStructureV3(paddlex_config="PP-StructureV3.yaml")
-        
-#         logger.info("PPStructureV3 pipeline initialized successfully")
-#         return True
-#     except Exception as e:
-#         logger.error(f"Failed to initialize PPStructureV3 pipeline: {str(e)}")
-#         return False
 
 @shared_task(name='tasks.warmup_ppstructure')
 def warmup_ppstructure():
@@ -203,7 +195,8 @@ def warmup_ppstructure():
         test_image = np.ones((100, 100, 3), dtype=np.uint8) * 255  # White image
         
         logger.info("🧪 Testing pipeline with dummy image...")
-        test_result = pipeline_instance.predict(input=[test_image])
+        # test_result = pipeline_instance.predict(input=[test_image])
+        test_result = pipeline_instance(test_image)
         
         warmup_end = get_unix_timestamp()
         warmup_duration = calculate_duration(warmup_start, warmup_end)
@@ -248,11 +241,15 @@ def process_output_for_json(output):
         return output
 
 def extract_layout_regions(ocr_results):
-    """Extract layout regions from OCR results"""
+    """Extract layout regions from OCR results with enhanced detection"""
     regions = []
     
-    # Extract from layout detection results
+    # Debug: Log the complete structure
+    logger.info(f"🔍 Extracting regions from keys: {list(ocr_results.keys())}")
+    
+    # Method 1: Extract from layout detection results
     if 'layout_det_res' in ocr_results and 'boxes' in ocr_results['layout_det_res']:
+        logger.info(f"Found layout_det_res with {len(ocr_results['layout_det_res']['boxes'])} boxes")
         for box in ocr_results['layout_det_res']['boxes']:
             region = {
                 'type': box.get('label', 'unknown'),
@@ -261,8 +258,9 @@ def extract_layout_regions(ocr_results):
             }
             regions.append(region)
     
-    # If no regions found, try parsing_res_list
+    # Method 2: Try parsing_res_list
     if not regions and 'parsing_res_list' in ocr_results:
+        logger.info(f"Found parsing_res_list with {len(ocr_results['parsing_res_list'])} items")
         for item in ocr_results['parsing_res_list']:
             region = {
                 'type': item.get('block_label', 'unknown'),
@@ -270,6 +268,86 @@ def extract_layout_regions(ocr_results):
                 'content': item.get('block_content', '')
             }
             regions.append(region)
+    
+    # Method 3: Create regions from OCR text blocks (fallback)
+    if not regions and 'res' in ocr_results:
+        logger.info(f"Creating text regions from 'res' field with {len(ocr_results['res'])} items")
+        for i, text_item in enumerate(ocr_results['res']):
+            if isinstance(text_item, dict):
+                bbox = None
+                text_content = ""
+                confidence = 0.0
+                
+                # Try different bbox field names
+                if 'text_region' in text_item:
+                    bbox = text_item['text_region']
+                elif 'bbox' in text_item:
+                    bbox = text_item['bbox']
+                elif 'coordinates' in text_item:
+                    bbox = text_item['coordinates']
+                
+                # Try different text field names
+                if 'text' in text_item:
+                    text_content = text_item['text']
+                elif 'rec_res' in text_item and isinstance(text_item['rec_res'], dict):
+                    text_content = text_item['rec_res'].get('text', '')
+                    confidence = text_item['rec_res'].get('confidence', 0.0)
+                
+                # Handle different bbox formats
+                if bbox and len(bbox) >= 4:
+                    # Handle polygon format: [[x1, y1], [x2, y1], [x2, y2], [x1, y2]]
+                    if isinstance(bbox[0], list) and len(bbox[0]) == 2:
+                        x_coords = [p[0] for p in bbox]
+                        y_coords = [p[1] for p in bbox]
+                        x1, x2 = min(x_coords), max(x_coords)
+                        y1, y2 = min(y_coords), max(y_coords)
+                    # Handle direct coordinates format: [x1, y1, x2, y2]
+                    else:
+                        x1, y1, x2, y2 = bbox[0], bbox[1], bbox[2], bbox[3]
+                    
+                    region = {
+                        'type': 'text',
+                        'bbox': [int(x1), int(y1), int(x2), int(y2)],
+                        'score': confidence,
+                        'text': text_content
+                    }
+                    regions.append(region)
+                    logger.info(f"  🎯 Created region {i+1}: bbox=[{x1:.0f},{y1:.0f},{x2:.0f},{y2:.0f}] text='{text_content[:30]}...'")
+                else:
+                    logger.warning(f"  ⚠️ Item {i+1}: No valid bbox found (bbox={bbox})")
+    
+    # Method 4: Try to extract from any bbox information in the results
+    if not regions:
+        logger.info(f"Attempting to extract regions from any bbox data")
+        
+        # Check for overall_ocr_res with dt_polys
+        if 'overall_ocr_res' in ocr_results and 'dt_polys' in ocr_results['overall_ocr_res']:
+            dt_polys = ocr_results['overall_ocr_res']['dt_polys']
+            rec_texts = ocr_results['overall_ocr_res'].get('rec_texts', [])
+            
+            logger.info(f"Found {len(dt_polys)} text regions in overall_ocr_res")
+            
+            for i, poly in enumerate(dt_polys):
+                if len(poly) >= 4:
+                    x_coords = [p[0] for p in poly]
+                    y_coords = [p[1] for p in poly]
+                    x1, x2 = min(x_coords), max(x_coords)
+                    y1, y2 = min(y_coords), max(y_coords)
+                    
+                    text_content = rec_texts[i] if i < len(rec_texts) else ""
+                    
+                    region = {
+                        'type': 'text',
+                        'bbox': [int(x1), int(y1), int(x2), int(y2)],
+                        'score': 0.95,  # Default confidence for OCR text
+                        'text': text_content
+                    }
+                    regions.append(region)
+    
+    logger.info(f"🎯 Extracted {len(regions)} regions for visualization")
+    if regions:
+        for i, region in enumerate(regions):
+            logger.info(f"  Region {i+1}: {region['type']} at {region['bbox']}")
     
     return regions
 
@@ -415,8 +493,8 @@ def draw_bounding_boxes(image_path, regions, output_path):
 def get_pipeline():
     """
     Get the globally cached PPStructure pipeline instance.
-    Models are loaded once per DOCUMENT worker process and reused for all documents/chunks.
-    Returns None if called from non-document workers (API, maintenance) to save memory.
+    Models are loaded once per worker process and reused for all documents/chunks.
+    Returns None if pipeline cannot be initialized.
     """
     global pipeline
     
@@ -424,14 +502,19 @@ def get_pipeline():
         logger.debug("📋 Using cached PPStructure pipeline (models already loaded)")
         return pipeline
     
-    # Initialize if not already done (only in document workers)
-    pipeline_instance = ensure_pipeline_initialized()
-    
-    if pipeline_instance is None:
-        logger.warning("⚠️ PPStructure pipeline not available - not in document worker context")
-        raise RuntimeError("PPStructure pipeline only available in document workers")
-    
-    return pipeline_instance
+    try:
+        # Initialize if not already done
+        pipeline_instance = ensure_pipeline_initialized()
+        
+        if pipeline_instance is None:
+            logger.warning("⚠️ PPStructure pipeline not available")
+            raise RuntimeError("PPStructure pipeline initialization returned None")
+        
+        return pipeline_instance
+        
+    except Exception as e:
+        logger.error(f"Failed to get PPStructure pipeline: {str(e)}")
+        raise RuntimeError(f"PPStructure pipeline unavailable: {str(e)}")
 
 @shared_task(name='tasks.process_document_with_ppstructure')
 def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1, 
@@ -565,74 +648,40 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
         try:
             # Get pipeline instance (uses globally cached models)
+            logger.info("Getting PPStructure pipeline...")
             pipeline_instance = get_pipeline()
-        
+            logger.info("PPStructure pipeline retrieved successfully")
             
-            # Validate all image paths as strings
-            validated_paths = []
-            for img_path in image_paths:
-                if not isinstance(img_path, str):
-                    logger.error(f"Image path must be string, got {type(img_path)}: {img_path}")
-                    continue
-                    
-                if not os.path.exists(img_path):
-                    logger.error(f"Image file does not exist: {img_path}")
-                    continue
-                    
-                if os.path.getsize(img_path) == 0:
-                    logger.error(f"Image file is empty: {img_path}")
-                    continue
-                    
-                validated_paths.append(img_path)
+            # Simple path validation
+            absolute_validated_paths = [os.path.abspath(str(path)) for path in image_paths]
+            logger.info(f"Processing {len(absolute_validated_paths)} image paths")
             
-            if not validated_paths:
-                raise ValueError("No valid image paths found for processing")
-            
-            # Convert to absolute paths for better compatibility
-            absolute_validated_paths = [os.path.abspath(str(path)) for path in validated_paths]
-            
-            # Process pages individually 
+            # Process pages individually with better error handling and memory management
             all_outputs = []
                 
             for i, img_path in enumerate(absolute_validated_paths):
                 page_num = i + 1
                 
-                # Pipeline reset every 2 pages for stability
-                if page_num > 1 and (page_num - 1) % 2 == 0:
-                    try:
-                        # Clear the current pipeline
-                        del pipeline_instance
-                        import gc
-                        gc.collect()
-                        
-                        # Force CUDA cleanup if available
-                        try:
-                            import torch
-                            if torch.cuda.is_available():
-                                torch.cuda.empty_cache()
-                                torch.cuda.synchronize()
-                        except ImportError:
-                            pass
-                        
-                        # Reinitialize the pipeline
-                        pipeline_instance = ensure_pipeline_initialized()
-                        
-                    except Exception as reset_error:
-                        logger.error(f"⚠️ Pipeline reset failed: {reset_error}")
-                
                 try:
-                    # Pre-processing CUDA synchronization for stability
-                    try:
-                        import torch
-                        if torch.cuda.is_available():
-                            torch.cuda.synchronize()
-                            torch.cuda.empty_cache()
-                    except ImportError:
-                        pass
-                    
                     page_start_time = get_unix_timestamp()
                     
-                    single_output_raw = pipeline_instance.predict(input=[img_path])
+                    # Validate image file before processing
+                    if not os.path.exists(img_path) or os.path.getsize(img_path) == 0:
+                        logger.error(f"Invalid image file for page {page_num}: {img_path}")
+                        all_outputs.append(None)
+                        continue
+                    
+                    # Simple validation
+                    if not os.path.exists(img_path) or os.path.getsize(img_path) == 0:
+                        logger.error(f"Invalid image file for page {page_num}: {img_path}")
+                        all_outputs.append(None)
+                        continue
+                    
+                    # Process with the pipeline - use simpler approach
+                    logger.info(f"Processing page {page_num}: {os.path.basename(img_path)}")
+                    
+                    # Call PPStructure pipeline
+                    single_output_raw = pipeline_instance(img_path)
                     
                     page_end_time = get_unix_timestamp()
                     
@@ -643,6 +692,10 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         single_output = single_output_raw
                     
                     if single_output and len(single_output) > 0:
+                        # Debug: Log the structure of the output to understand the format
+                        output_sample = single_output[0]
+                        logger.info(f"🔍 Page {page_num} output keys: {list(output_sample.keys()) if hasattr(output_sample, 'keys') else 'Not a dict'}")
+                        
                         all_outputs.append(single_output[0])
                         processing_time = calculate_duration(page_start_time, page_end_time)
                         logger.info(f"✅ Page {page_num} completed in {processing_time['formatted']}")
@@ -650,14 +703,35 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         logger.warning(f"⚠️ Page {page_num} returned empty results")
                         all_outputs.append(None)
                     
-                    # Clear memory after each page
-                    del single_output_raw, single_output
+                    # Clean up variables and temporary files
+                    del single_output_raw
+                    if 'single_output' in locals():
+                        del single_output
+                    
+                    # Clean up any temporary resized images
+                    if '_resized.jpg' in img_path and os.path.exists(img_path):
+                        try:
+                            os.remove(img_path)
+                            logger.debug(f"Cleaned up temporary resized image: {img_path}")
+                        except Exception as cleanup_error:
+                            logger.warning(f"Failed to cleanup temporary image: {cleanup_error}")
+                    
+                    # Force garbage collection after each page
                     import gc
                     gc.collect()
                     
                 except Exception as page_error:
-                    logger.error(f"❌ Page {page_num} failed: {str(page_error)}")
+                    logger.error(f"❌ Page {page_num} processing failed: {str(page_error)}")
                     all_outputs.append(None)
+                    
+                    # Clean up any temporary files for this page
+                    if '_resized.jpg' in img_path and os.path.exists(img_path):
+                        try:
+                            os.remove(img_path)
+                        except Exception:
+                            pass
+                    
+                    # Force memory cleanup on error
                     import gc
                     gc.collect()
                     continue
@@ -758,13 +832,73 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     logger.info(f"Successfully created bounding box visualization: {vis_path}")
             # Visualization skipped if disabled
             
-            # Extract OCR text
+            # Extract OCR text - handle multiple possible formats
             ocr_text = []
+            
+            # Debug: Log the output structure to understand the format
+            logger.info(f"🔍 Page {actual_page_num} output_dict keys: {list(output_dict.keys())}")
+            
+            # ENHANCED DEBUG: Log the complete structure of the 'res' field for bounding box extraction
+            if 'res' in output_dict and isinstance(output_dict['res'], list) and output_dict['res']:
+                logger.info(f"🔍 DETAILED 'res' structure for page {actual_page_num}:")
+                for i, item in enumerate(output_dict['res'][:2]):  # Log first 2 items
+                    logger.info(f"  Item {i}: keys={list(item.keys()) if isinstance(item, dict) else 'not dict'}")
+                    if isinstance(item, dict):
+                        if 'text_region' in item:
+                            logger.info(f"    text_region: {item['text_region']}")
+                        if 'text' in item:
+                            logger.info(f"    text: {item['text']}")
+                        if 'rec_res' in item:
+                            logger.info(f"    rec_res: {item['rec_res']}")
+            
+            # Try different possible OCR text extraction methods
             if 'overall_ocr_res' in output_dict and 'rec_texts' in output_dict['overall_ocr_res']:
                 ocr_text = output_dict['overall_ocr_res']['rec_texts']
+                logger.info(f"📝 Found {len(ocr_text)} texts via overall_ocr_res")
+            elif 'res' in output_dict and isinstance(output_dict['res'], list):
+                # Try extracting from 'res' field (common PPStructure format)
+                for item in output_dict['res']:
+                    if 'text' in item:
+                        ocr_text.append(item['text'])
+                    elif 'rec_res' in item and 'text' in item['rec_res']:
+                        ocr_text.append(item['rec_res']['text'])
+                logger.info(f"📝 Found {len(ocr_text)} texts via res field")
+            elif hasattr(output_dict, 'save_res') and output_dict.save_res:
+                # Try extracting from save_res (another PPStructure format)
+                for item in output_dict.save_res:
+                    if hasattr(item, 'text'):
+                        ocr_text.append(item.text)
+                logger.info(f"📝 Found {len(ocr_text)} texts via save_res")
+            else:
+                # Fallback: try to find any text fields
+                logger.warning(f"⚠️ Unknown PPStructure output format for page {actual_page_num}")
+                
+                # Try to extract any text we can find
+                def extract_text_recursive(obj, texts=[]):
+                    if isinstance(obj, dict):
+                        for key, value in obj.items():
+                            if 'text' in key.lower() and isinstance(value, (list, str)):
+                                if isinstance(value, list):
+                                    texts.extend([str(v) for v in value if v])
+                                elif value:
+                                    texts.append(str(value))
+                            elif isinstance(value, (dict, list)):
+                                extract_text_recursive(value, texts)
+                    elif isinstance(obj, list):
+                        for item in obj:
+                            extract_text_recursive(item, texts)
+                    return texts
+                
+                ocr_text = extract_text_recursive(output_dict)
+                logger.info(f"📝 Found {len(ocr_text)} texts via recursive search")
+            
+            if ocr_text:
                 # Add to combined text with page marker using actual page number
                 all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
                 all_ocr_text.extend(ocr_text)
+                logger.info(f"📝 Added {len(ocr_text)} text elements from page {actual_page_num}")
+            else:
+                logger.warning(f"⚠️ No OCR text found for page {actual_page_num}")
             
             # Collect all extraction tasks for parallel processing
             extraction_tasks = []
@@ -815,19 +949,24 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
         # Process all extraction tasks in parallel (CPU-bound operations)
         if all_extraction_tasks:
-            logger.info(f"Processing {len(all_extraction_tasks)} extractions (tables/figures/charts)")
+            logger.info(f"Extracting {len(all_extraction_tasks)} regions as images (tables/figures/charts)")
             parallel_start_time = get_unix_timestamp()
             
-            # Use ThreadPoolExecutor for parallel CPU processing
-            max_workers = min(max_extraction_workers, len(all_extraction_tasks))  # Limit concurrent API calls
+            # Use ThreadPoolExecutor for parallel image extraction
+            max_workers = min(max_extraction_workers, len(all_extraction_tasks))
             extraction_lock = Lock()
             
             # Check if parallel processing is enabled
             if not parallel_extraction:
                 max_workers = 1
             
-            def process_extraction_task(task):
-                """Process a single extraction task"""
+            # Lists to store extracted image metadata
+            extracted_tables = []
+            extracted_figures = []
+            extracted_charts = []
+            
+            def extract_image_task(task):
+                """Extract and save image region, return metadata"""
                 try:
                     # Extract image region
                     img_bytes = extract_image_from_region(
@@ -836,33 +975,30 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         task['output_path']
                     )
                     
-                    if img_bytes:
-                        # Process with Gemini based on type
-                        if task['type'] == 'table':
-                            extracted_text = text_processor.process_table_image(img_bytes, task['context'])
-                        elif task['type'] == 'figure':
-                            extracted_text = text_processor.process_figure_image(img_bytes, task['context'])
-                        elif task['type'] == 'chart':
-                            extracted_text = text_processor.process_chart_image(img_bytes, task['context'])
-                        else:
-                            return None
-                        
-                        # Return formatted result
+                    if img_bytes and os.path.exists(task['output_path']):
+                        # Return metadata about the saved image
                         return {
                             'type': task['type'],
                             'page': task['page'],
-                            'text': f"\n--- {task['type'].upper()} FROM PAGE {task['page']} ---\n{extracted_text}\n"
+                            'region_id': task['region_id'],
+                            'image_path': task['output_path'],
+                            'context': task['context'],
+                            'bbox': task['bbox'],
+                            'extracted': True
                         }
-                    
+                    else:
+                        logger.warning(f"Failed to extract {task['type']} from page {task['page']}")
+                        return None
+                        
                 except Exception as e:
-                    logger.error(f"Error processing {task['type']} from page {task['page']}: {str(e)}")
+                    logger.error(f"Error extracting {task['type']} from page {task['page']}: {str(e)}")
                     return None
             
             # Execute tasks in parallel
             with ThreadPoolExecutor(max_workers=max_workers) as executor:
                 # Submit all tasks
                 future_to_task = {
-                    executor.submit(process_extraction_task, task): task 
+                    executor.submit(extract_image_task, task): task 
                     for task in all_extraction_tasks
                 }
                 
@@ -871,57 +1007,54 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                 for future in as_completed(future_to_task):
                     result = future.result()
                     if result:
-                        # Thread-safe accumulation
+                        # Thread-safe accumulation of extracted image metadata
                         with extraction_lock:
                             if result['type'] == 'table':
-                                table_extractions.append(result['text'])
+                                extracted_tables.append(result)
                             elif result['type'] == 'figure':
-                                figure_extractions.append(result['text'])
+                                extracted_figures.append(result)
                             elif result['type'] == 'chart':
-                                chart_extractions.append(result['text'])
+                                extracted_charts.append(result)
                         
                         completed_extractions += 1
                         if completed_extractions % 10 == 0:  # Log progress every 10 completions
-                            logger.info(f"Completed {completed_extractions}/{len(all_extraction_tasks)} extractions")
+                            logger.info(f"Extracted {completed_extractions}/{len(all_extraction_tasks)} images")
             
             parallel_end_time = get_unix_timestamp()
             parallel_duration = calculate_duration(parallel_start_time, parallel_end_time)
-            logger.info(f"Extraction completed in {parallel_duration['formatted']} - {completed_extractions} successful")
+            logger.info(f"Image extraction completed in {parallel_duration['formatted']} - {completed_extractions} images saved")
+            
+            # Store extracted image metadata for processing by document_tasks.py
+            extraction_metadata = {
+                'tables': extracted_tables,
+                'figures': extracted_figures, 
+                'charts': extracted_charts,
+                'total_extracted': completed_extractions,
+                'extraction_time': parallel_duration
+            }
+        else:
+            extraction_metadata = {
+                'tables': [],
+                'figures': [], 
+                'charts': [],
+                'total_extracted': 0
+            }
         
-        # Combine all text for document summarization
+        # Combine all OCR text for document summarization
         combined_text = "\n".join(all_ocr_text)
         
-        # Add table, figure, and chart extractions
-        if table_extractions:
-            combined_text += "\n\n" + "\n".join(table_extractions)
+        # Note: Table, figure, and chart extractions will be processed by document_tasks.py
+        # since it has access to Google Genai in Python 3.10
+        # Summary generation is also handled entirely by document_tasks.py
         
-        if figure_extractions:
-            combined_text += "\n\n" + "\n".join(figure_extractions)
-            
-        if chart_extractions:
-            combined_text += "\n\n" + "\n".join(chart_extractions)
-        
-        # Generate document summary using Gemini (only if requested)
-        summary_result = {}
-        if generate_summary and combined_text.strip():
-            try:
-                summary_result = text_processor.summarize_document_text(combined_text, file_name)
-            except Exception as e:
-                logger.error(f"Error generating summary: {str(e)}")
-                summary_result = {
-                    "summary": "Summary generation failed",
-                    "analysis": {"error": str(e)},
-                    "usage_info": {"total_tokens": 0},
-                    "estimated_cost": 0.0
-                }
-        elif not generate_summary:
-            # For chunks, don't generate summary but provide placeholder
-            summary_result = {
-                "summary": None,
-                "analysis": {},
-                "usage_info": {"total_tokens": 0},
-                "estimated_cost": 0.0
-            }
+        # PPStructure worker only handles OCR and layout detection
+        # No summary generation in this worker - all AI processing moved to document_tasks.py
+        summary_result = {
+            "summary": None,
+            "analysis": {"note": "Summary generation handled by document_tasks.py with Google AI"},
+            "usage_info": {"total_tokens": 0},
+            "estimated_cost": 0.0
+        }
         
         # Calculate performance metrics
         overall_end_time = get_unix_timestamp()
@@ -954,10 +1087,34 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             # Get relative paths for web access
             relative_result_dir = f"results/{job_id}"
             
-            # Extract OCR text for this page
+            # Extract OCR text for this page using the same logic as above
             page_ocr_text = []
             if 'overall_ocr_res' in output_dict and 'rec_texts' in output_dict['overall_ocr_res']:
                 page_ocr_text = output_dict['overall_ocr_res']['rec_texts']
+            elif 'res' in output_dict and isinstance(output_dict['res'], list):
+                for item in output_dict['res']:
+                    if 'text' in item:
+                        page_ocr_text.append(item['text'])
+                    elif 'rec_res' in item and 'text' in item['rec_res']:
+                        page_ocr_text.append(item['rec_res']['text'])
+            else:
+                # Use the same recursive extraction as above
+                def extract_text_recursive(obj, texts=[]):
+                    if isinstance(obj, dict):
+                        for key, value in obj.items():
+                            if 'text' in key.lower() and isinstance(value, (list, str)):
+                                if isinstance(value, list):
+                                    texts.extend([str(v) for v in value if v])
+                                elif value:
+                                    texts.append(str(value))
+                            elif isinstance(value, (dict, list)):
+                                extract_text_recursive(value, texts)
+                    elif isinstance(obj, list):
+                        for item in obj:
+                            extract_text_recursive(item, texts)
+                    return texts
+                
+                page_ocr_text = extract_text_recursive(output_dict)
             
             # Extract layout regions for this page
             regions = extract_layout_regions(output_dict)
@@ -1087,7 +1244,9 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             "processing_time": processing_duration,
             "total_pages": len(image_paths),
             "summary": summary_result.get("summary", None),
-            "extracted_info": extracted_info
+            "extracted_info": extracted_info,
+            # Include extraction metadata for processing by document_tasks.py with Genai
+            "extraction_metadata": extraction_metadata
         }
         
     except Exception as e:
