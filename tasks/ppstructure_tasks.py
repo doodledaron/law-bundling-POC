@@ -83,11 +83,12 @@ def ensure_pipeline_initialized():
     if pipeline is not None:
         return pipeline
     
-    if pipeline_initialization_attempted:
-        # If we already tried and failed, don't keep trying
-        if pipeline is None:
-            raise RuntimeError("PPStructure pipeline initialization failed previously")
-        return pipeline
+    # Remove the permanent failure logic - allow retries for bulk processing
+    # if pipeline_initialization_attempted:
+    #     # If we already tried and failed, don't keep trying
+    #     if pipeline is None:
+    #         raise RuntimeError("PPStructure pipeline initialization failed previously")
+    #     return pipeline
     
     try:
         pipeline_initialization_attempted = True
@@ -112,8 +113,7 @@ def ensure_pipeline_initialized():
                 
                 # Check if we're being called from document processing functions
                 if ('ppstructure' in filename.lower() or 
-                    'document_tasks' in filename.lower() or
-                    function_name in ['process_document_with_ppstructure', 'warmup_ppstructure', 'process_document']):
+                    function_name in ['process_document_with_ppstructure', 'warmup_ppstructure']):
                     is_document_worker = True
                     break
                     
@@ -123,8 +123,8 @@ def ensure_pipeline_initialized():
         
         # Also check environment variables for worker queue assignment
         worker_queues = os.environ.get('CELERY_WORKER_QUEUES', '').lower()
-        if ('documents' in worker_queues or 'ppstructure' in worker_queues or 
-            'documents_container1' in worker_queues or 'documents_container2' in worker_queues):
+        if ('chunk_queue' in worker_queues or 'documents' in worker_queues or 
+            'ppstructure' in worker_queues):
             is_document_worker = True
         
         if is_document_worker:
@@ -153,7 +153,23 @@ def ensure_pipeline_initialized():
         
     except Exception as e:
         logger.error(f"❌ Failed to initialize PPStructure pipeline: {str(e)}")
-        pipeline = None  # Reset to None on failure
+        # Don't permanently mark as failed - allow retries for bulk processing
+        pipeline_initialization_attempted = False  # Reset flag to allow retry
+        
+        # Force cleanup on failed initialization
+        try:
+            import gc
+            gc.collect()
+            try:
+                import torch
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                    torch.cuda.synchronize()
+            except ImportError:
+                pass
+        except Exception:
+            pass
+        
         raise RuntimeError(f"PPStructure initialization failed: {str(e)}")
 
 # Define colors for different region types
@@ -434,6 +450,31 @@ def get_pipeline():
     
     return pipeline_instance
 
+def update_active_processes_worker(increment=1):
+    """
+    Update the count of active document processes from worker containers.
+    
+    Args:
+        increment: +1 when starting a process, -1 when completing
+    """
+    try:
+        import redis
+        redis_client = redis.Redis.from_url(
+            os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+        )
+        
+        # Get current count
+        current_count = int(redis_client.get('active_document_processes') or 0)
+        new_count = max(0, current_count + increment)
+        
+        # Update Redis
+        redis_client.set('active_document_processes', new_count, ex=300)  # 5 minute expiry
+        
+        logger.info(f"📊 Worker updated active document processes: {new_count} (changed by {increment})")
+        
+    except Exception as e:
+        logger.warning(f"Could not update Redis process count from worker: {str(e)}")
+
 @shared_task(name='tasks.process_document_with_ppstructure')
 def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1, 
                                      enable_visualizations=False, enable_table_extraction=True, 
@@ -460,6 +501,11 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         dict: Processing results including layout analysis, OCR, and extracted information
     """
     try:
+        logger.info(f"🚀 Starting document processing in high-throughput worker container for job {job_id}")
+        
+        # Update active process count (increment on start)
+        update_active_processes_worker(1)
+        
         # Apply performance optimizations
         if fast_mode:
             enable_visualizations = False
@@ -483,7 +529,12 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             opts.append(f"parallel extraction ({max_extraction_workers} workers)")
         
         if opts:
-            logger.info(f"⚡ Performance optimizations: {', '.join(opts)} (estimated 30-60% faster with parallel processing)")
+            logger.info(f"⚡ Performance optimizations: {', '.join(opts)} (high-throughput 6-container setup)")
+        
+        # Log container information for high-throughput setup
+        container_id = os.environ.get('CONTAINER_ID', 'unknown')
+        worker_queues = os.environ.get('CELERY_WORKER_QUEUES', 'unknown')
+        logger.info(f"🏭 Container: {container_id} | Queue: {worker_queues} | Architecture: 6-container high-throughput")
         
         # Start overall timing
         overall_start_time = get_unix_timestamp()
@@ -491,11 +542,23 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         # Detect if this is a chunk based on filename
         is_chunk = "chunk_" in file_name
         chunk_id = None
+        chunk_page_range = None
         if is_chunk:
             # Extract chunk_id from filename
             chunk_parts = file_name.split("_")
             if len(chunk_parts) >= 2:
                 chunk_id = f"{chunk_parts[0]}_{chunk_parts[1]}"  # e.g., "chunk_0001"
+                
+                # Determine page range for chunk logging
+                if "0000" in chunk_id:
+                    chunk_page_range = "0-4"
+                elif "0001" in chunk_id:
+                    chunk_page_range = "5-9"
+                else:
+                    chunk_page_range = "unknown"
+                
+                # Log chunk processing start
+                logger.info(f"🔄 Starting chunk processing for {chunk_id}, page range: {chunk_page_range}")
         
         # Create result directories
         result_dir = os.path.join("results", job_id)
@@ -523,9 +586,27 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         # Process based on file type
         file_ext = os.path.splitext(file_name)[1].lower()
         
+        # 📄 PPSTRUCTURE ANALYSIS LOGGING
+        logger.info(f"📄 [PPSTRUCTURE] Document analysis:")
+        logger.info(f"   📝 File: {file_name}")
+        logger.info(f"   📄 Type: {file_ext}")
+        logger.info(f"   🆔 Job ID: {job_id}")
+        logger.info(f"   📦 Is chunk: {is_chunk}")
+        if is_chunk and chunk_id:
+            logger.info(f"   🆔 Chunk ID: {chunk_id}")
+        logger.info(f"   📄 Starting page: {actual_start_page}")
+        
         if file_ext == '.pdf':
             # Convert PDF to images
-            images = convert_from_bytes(open(file_path, "rb").read())
+            logger.info(f"📄 [PPSTRUCTURE] Converting PDF to images...")
+            images = convert_from_bytes(
+                        open(file_path, "rb").read(),
+                        dpi=100,
+                        fmt='jpeg'
+                    )
+            
+            total_pages = len(images)
+            logger.info(f"📊 [PPSTRUCTURE] PDF converted to {total_pages} page images")
             
             # Save all page images with correct page numbering
             image_paths = []
@@ -534,24 +615,34 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                 image_path = os.path.join(images_dir, f"page_{actual_page_num}.jpg")
                 image.save(image_path)
                 image_paths.append(image_path)
+                logger.info(f"   📄 Page {actual_page_num}: Saved as {os.path.basename(image_path)}")
         else:
             # Single image file - use actual page number
+            logger.info(f"🖼️  [PPSTRUCTURE] Processing single image file")
             image_path = os.path.join(images_dir, f"page_{actual_start_page}.jpg")
             shutil.copy2(file_path, image_path)
             image_paths = [image_path]
+            logger.info(f"   📄 Single page: Saved as {os.path.basename(image_path)}")
         
         # Validate image paths exist
         valid_image_paths = []
         for img_path in image_paths:
             if os.path.exists(img_path) and os.path.getsize(img_path) > 0:
                 valid_image_paths.append(img_path)
+                logger.info(f"   ✅ Valid image: {os.path.basename(img_path)} ({os.path.getsize(img_path):,} bytes)")
             else:
-                logger.error(f"Invalid image file: {img_path}")
+                logger.error(f"   ❌ Invalid image: {img_path}")
         
         if not valid_image_paths:
             raise ValueError("No valid images found for processing")
         
         image_paths = valid_image_paths
+        
+        # 🚀 PAGE PROCESSING PREPARATION LOGGING
+        logger.info(f"🚀 [PPSTRUCTURE] Preparing page processing:")
+        logger.info(f"   📊 Total valid pages: {len(image_paths)}")
+        logger.info(f"   ⚡ Processing method: Sequential page-by-page")
+        logger.info(f"   🧠 Pipeline: PPStructure with cached models")
         
         # Process each page
         all_ocr_text = []
@@ -565,9 +656,38 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
 
         
         try:
-            # Get pipeline instance (uses globally cached models)
-            pipeline_instance = get_pipeline()
-        
+            # 🔄 DOCUMENT-LEVEL PIPELINE INITIALIZATION
+            # Reinitialize the entire pipeline once per document (chunk) before processing first page
+            logger.info(f"🔄 [DOCUMENT] Initializing fresh pipeline for document processing")
+            logger.info(f"   📦 Processing: {file_name}")
+            logger.info(f"   🆔 Job ID: {job_id}")
+            
+            # Clear any existing pipeline to ensure fresh start
+            global pipeline, pipeline_initialization_attempted
+            if pipeline is not None:
+                try:
+                    del pipeline
+                    pipeline = None
+                    logger.info(f"   🧹 Cleared existing pipeline instance")
+                except:
+                    pass
+            
+            # Force garbage collection and CUDA cleanup for fresh start
+            import gc
+            gc.collect()
+            
+            try:
+                import torch
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                    torch.cuda.synchronize()
+                    logger.info(f"   💾 CUDA memory cleared for fresh document processing")
+            except ImportError:
+                pass
+            
+            # Initialize fresh pipeline for this document
+            pipeline_instance = ensure_pipeline_initialized()
+            logger.info(f"   ✅ Fresh pipeline initialized for document processing")
             
             # Validate all image paths as strings
             validated_paths = []
@@ -592,50 +712,51 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             # Convert to absolute paths for better compatibility
             absolute_validated_paths = [os.path.abspath(str(path)) for path in validated_paths]
             
-            # Process pages individually 
+            # Process pages individually with the same pipeline instance (no mid-processing resets)
             all_outputs = []
+            
+            logger.info(f"🏭 [PPSTRUCTURE] Starting sequential page processing for {len(absolute_validated_paths)} pages")
+            logger.info(f"   🧠 Pipeline: Single instance maintained throughout entire document")
                 
             for i, img_path in enumerate(absolute_validated_paths):
                 page_num = i + 1
+                actual_page_num = actual_start_page + i
                 
-                # Pipeline reset every 2 pages for stability
-                if page_num > 1 and (page_num - 1) % 2 == 0:
-                    try:
-                        # Clear the current pipeline
-                        del pipeline_instance
-                        import gc
-                        gc.collect()
-                        
-                        # Force CUDA cleanup if available
-                        try:
-                            import torch
-                            if torch.cuda.is_available():
-                                torch.cuda.empty_cache()
-                                torch.cuda.synchronize()
-                        except ImportError:
-                            pass
-                        
-                        # Reinitialize the pipeline
-                        pipeline_instance = ensure_pipeline_initialized()
-                        
-                    except Exception as reset_error:
-                        logger.error(f"⚠️ Pipeline reset failed: {reset_error}")
+                # 📄 INDIVIDUAL PAGE LOGGING - START
+                logger.info(f"📄 [PAGE-{page_num:02d}] Starting processing:")
+                logger.info(f"   🆔 Page number: {actual_page_num}")
+                logger.info(f"   📁 Image: {os.path.basename(img_path)}")
+                logger.info(f"   📊 Progress: {page_num}/{len(absolute_validated_paths)} pages")
+                
+                # NO MORE 2-PAGE RESETS - Use same pipeline instance throughout document
+                # The pipeline was initialized once at document start and stays alive
                 
                 try:
-                    # Pre-processing CUDA synchronization for stability
+                    # Start timing for the entire page
+                    page_total_start = get_unix_timestamp()
+                    
+                    # Light pre-processing CUDA synchronization (no cache clearing during processing)
+                    cuda_start = get_unix_timestamp()
                     try:
                         import torch
                         if torch.cuda.is_available():
                             torch.cuda.synchronize()
-                            torch.cuda.empty_cache()
+                            # NO empty_cache() during processing to maintain performance
                     except ImportError:
                         pass
+                    cuda_time = calculate_duration(cuda_start, get_unix_timestamp())
                     
-                    page_start_time = get_unix_timestamp()
+                    # Start timing for PPStructure prediction
+                    prediction_start = get_unix_timestamp()
                     
+                    logger.info(f"   🧠 [PAGE-{page_num:02d}] Running PPStructure inference...")
                     single_output_raw = pipeline_instance.predict(input=[img_path])
                     
-                    page_end_time = get_unix_timestamp()
+                    prediction_end = get_unix_timestamp()
+                    prediction_time = calculate_duration(prediction_start, prediction_end)
+                    
+                    # Time the output conversion
+                    conversion_start = get_unix_timestamp()
                     
                     # Convert generator to list if needed
                     if hasattr(single_output_raw, '__iter__') and not isinstance(single_output_raw, (list, tuple)):
@@ -643,37 +764,67 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     else:
                         single_output = single_output_raw
                     
+                    conversion_time = calculate_duration(conversion_start, get_unix_timestamp())
+                    
+                    # Calculate total page time
+                    page_total_end = get_unix_timestamp()
+                    total_time = calculate_duration(page_total_start, page_total_end)
+                    
+                    # ✅ INDIVIDUAL PAGE LOGGING - SUCCESS
                     if single_output and len(single_output) > 0:
                         all_outputs.append(single_output[0])
-                        processing_time = calculate_duration(page_start_time, page_end_time)
-                        logger.info(f"✅ Page {page_num} completed in {processing_time['formatted']}")
+                        logger.info(f"✅ [PAGE-{page_num:02d}] Processing completed successfully:")
+                        logger.info(f"   ⏱️  Total time: {total_time['formatted']}")
+                        logger.info(f"   🧠 Prediction: {prediction_time['formatted']}")
+                        logger.info(f"   🔄 Conversion: {conversion_time['formatted']}")
+                        logger.info(f"   💾 CUDA ops: {cuda_time['formatted']}")
+                        logger.info(f"   🆔 Page: {actual_page_num}")
                     else:
-                        logger.warning(f"⚠️ Page {page_num} returned empty results")
+                        logger.warning(f"⚠️  [PAGE-{page_num:02d}] Empty results returned:")
+                        logger.warning(f"   ⏱️  Time: {total_time['formatted']}")
+                        logger.warning(f"   🆔 Page: {actual_page_num}")
                         all_outputs.append(None)
                     
-                    # Clear memory after each page
+                    # Light memory cleanup after each page (keep pipeline alive)
                     del single_output_raw, single_output
-                    import gc
-                    gc.collect()
+                    # NO gc.collect() during processing to avoid disrupting pipeline
                     
                 except Exception as page_error:
-                    logger.error(f"❌ Page {page_num} failed: {str(page_error)}")
+                    page_total_end = get_unix_timestamp()
+                    total_time = calculate_duration(page_total_start, page_total_end)
+                    
+                    # ❌ INDIVIDUAL PAGE LOGGING - ERROR
+                    logger.error(f"❌ [PAGE-{page_num:02d}] Processing failed:")
+                    logger.error(f"   ⚠️  Error: {str(page_error)}")
+                    logger.error(f"   ⏱️  Time before failure: {total_time['formatted']}")
+                    logger.error(f"   🆔 Page: {actual_page_num}")
+                    logger.error(f"   📁 Image: {os.path.basename(img_path)}")
+                    
                     all_outputs.append(None)
-                    import gc
-                    gc.collect()
+                    # NO gc.collect() during processing to avoid disrupting pipeline
                     continue
             
-            logger.info(f"Processing completed: {len([o for o in all_outputs if o is not None])}/{len(all_outputs)} pages successful")
+            # 🎯 PAGE PROCESSING SUMMARY
+            successful_pages = len([o for o in all_outputs if o is not None])
+            failed_pages = len(all_outputs) - successful_pages
+            
+            logger.info(f"🎯 [PPSTRUCTURE] Page processing completed:")
+            logger.info(f"   ✅ Successful: {successful_pages}/{len(all_outputs)} pages")
+            logger.info(f"   ❌ Failed: {failed_pages}/{len(all_outputs)} pages")
+            logger.info(f"   📈 Success rate: {(successful_pages/len(all_outputs))*100:.1f}%")
+            logger.info(f"   ⚡ Processing method: Single pipeline per document (chunk-based)")
+            logger.info(f"   🧠 Pipeline lifecycle: Document-level initialization and cleanup")
             
         except Exception as e:
-            logger.error(f"Error in PPStructure processing: {str(e)}")
+            logger.error(f"❌ [PPSTRUCTURE] Critical error in page processing pipeline: {str(e)}")
             all_outputs = [None] * len(image_paths)
         
         # Process results for each page
         processed_outputs = []
         
         for page_index, (image_path, output) in enumerate(zip(image_paths, all_outputs)):
-            page_start_time = get_unix_timestamp()
+            # Start timing for post-processing
+            post_processing_start = get_unix_timestamp()
             
             # Calculate actual page number and page index within chunk
             actual_page_num = actual_start_page + page_index
@@ -682,6 +833,9 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             # Note: Progress updates now happen at batch level, not per page since we process all pages at once
             
             try:
+                # Time the output processing
+                output_processing_start = get_unix_timestamp()
+                
                 if output is not None:
                     # Process the output
                     if hasattr(output, 'save_to_json'):
@@ -738,9 +892,12 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     'error': f'Post-processing failed: {str(e)}'
                 }
             
+            # Calculate output processing time
+            output_processing_end = get_unix_timestamp()
+            output_processing_time = calculate_duration(output_processing_start, output_processing_end)
+            
             # Add timing information
-            page_end_time = get_unix_timestamp()
-            output_dict['page_processing_time'] = calculate_duration(page_start_time, page_end_time)
+            output_dict['output_processing_time'] = output_processing_time
             output_dict['processing_method'] = 'optimized_batch'
             output_dict['page_number'] = actual_page_num
             
@@ -813,10 +970,17 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             
             # Add tasks to the global list for batch parallel processing
             all_extraction_tasks.extend(extraction_tasks)
+            
+            # Calculate total post-processing time
+            post_processing_end = get_unix_timestamp()
+            post_processing_time = calculate_duration(post_processing_start, post_processing_end)
+            
+            # Log detailed timing for this page
+            logger.info(f"📊 Page {actual_page_num} post-processing: {post_processing_time['formatted']} (output: {output_processing_time['formatted']})")
         
         # Process all extraction tasks in parallel (CPU-bound operations)
         if all_extraction_tasks:
-            logger.info(f"Processing {len(all_extraction_tasks)} extractions (tables/figures/charts)")
+            logger.info(f"🔄 Processing {len(all_extraction_tasks)} extractions (tables/figures/charts)")
             parallel_start_time = get_unix_timestamp()
             
             # Use ThreadPoolExecutor for parallel CPU processing
@@ -1070,17 +1234,70 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
         # Get container information for logging
         container_id = os.environ.get('CONTAINER_ID', 'unknown')
-        logger.info(f"✅ Document processing completed for job {job_id} on container: {container_id}")
+        worker_queues = os.environ.get('CELERY_WORKER_QUEUES', 'unknown')
         
-        # Prepare final results
+        # Log chunk completion if this is a chunk
+        if is_chunk and chunk_id and chunk_page_range:
+            logger.info(f"✅ Chunk {chunk_id} completed with {len(image_paths)} pages processed (page range: {chunk_page_range})")
+        
+        logger.info(f"✅ Chunk processing completed for job {job_id} on high-throughput container: {container_id}")
+        logger.info(f"📊 Container performance: Queue={worker_queues} | Setup=6-container/4-concurrency | Total capacity=24 workers")
+        logger.info(f"🧠 Pipeline management: Document-level lifecycle (initialized once, disposed after completion)")
+        logger.info(f"⚡ Processing optimization: No mid-document resets, maximum memory efficiency")
+        
+        # Update active process count (decrement on completion)
+        update_active_processes_worker(-1)
+        
+        # 🧹 DOCUMENT-LEVEL CLEANUP (Only after entire document is processed)
+        # This is where we dispose of the pipeline and do final memory cleanup
+        logger.info(f"🧹 [DOCUMENT] Starting final cleanup after document completion")
+        try:
+            # Dispose of the pipeline instance used for this document
+            if 'pipeline_instance' in locals():
+                del pipeline_instance
+                logger.info(f"   🗑️  Pipeline instance disposed")
+            
+            # Clear the global pipeline reference for this worker and reset initialization flag
+            if pipeline is not None:
+                del pipeline
+                pipeline = None
+                logger.info(f"   🗑️  Global pipeline reference cleared")
+            
+            # Reset initialization flag so next document can initialize fresh
+            pipeline_initialization_attempted = False
+            logger.info(f"   🔄 Pipeline initialization flag reset for next document")
+            
+            # Final garbage collection after document completion
+            import gc
+            gc.collect()
+            logger.info(f"   ♻️  Garbage collection completed")
+            
+            # Final CUDA memory cleanup after document completion
+            try:
+                import torch
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                    torch.cuda.synchronize()
+                    logger.info(f"   💾 Final CUDA memory cleanup completed")
+            except ImportError:
+                pass
+            
+            logger.info(f"✅ [DOCUMENT] Final cleanup completed - worker ready for next document")
+            
+        except Exception as cleanup_error:
+            logger.warning(f"⚠️ [DOCUMENT] Cleanup warning: {str(cleanup_error)}")
+        
+        # Prepare final results for chunk (not document completion)
         final_results = clean_results.copy()
         final_results["performance"] = performance_metrics["performance"]
         
         return {
             "job_id": job_id,
-            "status": "COMPLETED",
+            "status": "CHUNK_COMPLETED",  # Indicate this is a chunk completion, not document completion
+            "chunk_id": chunk_id if is_chunk and chunk_id else f"chunk_{actual_start_page}",
+            "filename": file_name,  # Include the chunk filename for merge identification
             "results_path": results_path,
-            "message": f"Document processed successfully with {len(image_paths)} pages",
+            "message": f"Chunk processing completed: {len(image_paths)} pages",
             "performance": final_results["performance"],
             # Include the actual extracted data for use by the merge function
             "combined_text": combined_text,
@@ -1095,4 +1312,368 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
     except Exception as e:
         logger.error(f"Error in PPStructure processing: {str(e)}")
+        
+        # Update active process count (decrement on failure)
+        update_active_processes_worker(-1)
+        
+        # 🧹 DOCUMENT-LEVEL CLEANUP ON ERROR (Ensure cleanup even on failure)
+        logger.info(f"🧹 [DOCUMENT] Starting cleanup after processing error")
+        try:
+            # Dispose of the pipeline instance used for this document
+            if 'pipeline_instance' in locals():
+                del pipeline_instance
+                logger.info(f"   🗑️  Pipeline instance disposed (after error)")
+            
+            # Clear the global pipeline reference for this worker and reset initialization flag
+            if pipeline is not None:
+                del pipeline
+                pipeline = None
+                logger.info(f"   🗑️  Global pipeline reference cleared (after error)")
+            
+            # Reset initialization flag so next document can initialize fresh
+            pipeline_initialization_attempted = False
+            logger.info(f"   🔄 Pipeline initialization flag reset for next document")
+            
+            # Final garbage collection after error
+            import gc
+            gc.collect()
+            logger.info(f"   ♻️  Garbage collection completed (after error)")
+            
+            # Final CUDA memory cleanup after error
+            try:
+                import torch
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                    torch.cuda.synchronize()
+                    logger.info(f"   💾 CUDA memory cleanup completed (after error)")
+            except ImportError:
+                pass
+            
+            logger.info(f"✅ [DOCUMENT] Error cleanup completed - worker ready for next document")
+            
+        except Exception as cleanup_error:
+            logger.warning(f"⚠️ [DOCUMENT] Error cleanup warning: {str(cleanup_error)}")
+        
+        # For chunk failures, update progress but don't mark entire job as FAILED
+        # The merge task will determine final status based on chunk results
+        try:
+            import redis
+            from tasks.utils import update_job_status, get_timestamp
+            
+            redis_client = redis.Redis.from_url(
+                os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+            )
+            
+            update_job_status(redis_client, job_id, {
+                'status': 'PROCESSING',  # Keep as PROCESSING - merge task will handle final failure
+                'chunk_error': str(e),
+                'chunk_failed': file_name,  # Track which chunk failed
+                'message': f'Chunk {file_name} failed: {str(e)}',
+                'updated_at': get_timestamp(),
+                'container_id': os.environ.get('CONTAINER_ID', 'unknown')
+            })
+            
+            logger.info(f"📊 Updated chunk failure in Redis (job still PROCESSING)")
+            
+        except Exception as update_error:
+            logger.error(f"Error updating chunk failure status: {str(update_error)}")
+        
+        # Return chunk failure result instead of raising exception
+        return {
+            "job_id": job_id,
+            "status": "CHUNK_FAILED",
+            "chunk_id": file_name,
+            "filename": file_name,
+            "error": str(e),
+            "message": f"Chunk processing failed: {str(e)}",
+            "combined_text": "",
+            "extracted_text": "",
+            "total_pages": 0,
+            "processing_time": {"seconds": 0},
+            "summary": None,
+            "extracted_info": {}
+        }
+
+@shared_task(name='tasks.merge_and_summarize_chunks')
+def merge_and_summarize_chunks(chunk_results, job_id):
+    """
+    Merge chunk processing results and generate final summary.
+    
+    This task is called by Celery chord after all chunk processing tasks complete.
+    It combines the text from all chunks and generates a final document summary.
+    
+    Args:
+        chunk_results: List of results from individual chunk processing tasks (passed automatically by chord)
+        job_id: Unique job identifier (passed as argument)
+        
+    Returns:
+        dict: Final processing results with merged content and summary
+    """
+    try:
+        logger.info(f"🔄 Starting merge and summarize for job {job_id}")
+        
+        # Initialize Redis client for status updates
+        redis_client = redis.Redis.from_url(
+            os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+        )
+        
+        # Log the number of chunk results received
+        logger.info(f"📦 Received {len(chunk_results)} chunk results for job {job_id}")
+        
+        # Validate chunk results
+        if not chunk_results:
+            raise ValueError("No chunk results provided for merging")
+        
+        # Separate successful and failed chunks
+        successful_chunks = []
+        failed_chunks = []
+        
+        for i, chunk_result in enumerate(chunk_results):
+            if chunk_result and isinstance(chunk_result, dict):
+                if chunk_result.get('status') == 'CHUNK_FAILED':
+                    failed_chunks.append(chunk_result)
+                    logger.warning(f"   ❌ Chunk {i}: FAILED - {chunk_result.get('error', 'Unknown error')}")
+                else:
+                    successful_chunks.append((i, chunk_result))
+                    logger.info(f"   ✅ Chunk {i}: SUCCESS - {chunk_result.get('filename', 'unknown')}")
+            else:
+                failed_chunks.append({"error": "Invalid chunk result", "chunk_index": i})
+                logger.warning(f"   ⚠️ Chunk {i}: invalid result format")
+        
+        # Check if we have any successful chunks
+        if not successful_chunks:
+            raise ValueError("All chunks failed - no successful processing to merge")
+        
+        if failed_chunks:
+            logger.warning(f"⚠️ {len(failed_chunks)} chunks failed, proceeding with {len(successful_chunks)} successful chunks")
+        
+        # Extract original document filename from the first successful chunk
+        original_filename = "unknown_document"
+        for _, chunk_result in successful_chunks:
+            chunk_filename = chunk_result.get('filename', '')
+            if chunk_filename.startswith('chunk_'):
+                # Extract original filename: "chunk_0000_original.pdf" -> "original.pdf"
+                parts = chunk_filename.split('_', 2)  # Split on first 2 underscores
+                if len(parts) >= 3:
+                    original_filename = parts[2]  # Everything after "chunk_XXXX_"
+                    break
+            else:
+                original_filename = chunk_filename
+                break
+        
+        logger.info(f"📄 Original document: {original_filename}")
+        
+        # CRITICAL: Sort chunks by chunk ID to ensure correct page order
+        chunk_data = []
+        for original_index, chunk_result in successful_chunks:
+            filename = chunk_result.get('filename', '')
+            # Extract chunk ID from filename (e.g., "chunk_0000" from "chunk_0000_file.pdf")
+            chunk_id = "9999"  # Default high value if parsing fails
+            if filename.startswith('chunk_'):
+                try:
+                    chunk_parts = filename.split('_')
+                    if len(chunk_parts) >= 2:
+                        chunk_id = chunk_parts[1]  # e.g., "0000" from "chunk_0000"
+                except Exception as e:
+                    logger.warning(f"Failed to parse chunk ID from {filename}: {e}")
+            
+            chunk_data.append({
+                'chunk_id': chunk_id,
+                'original_index': original_index,
+                'result': chunk_result,
+                'filename': filename
+            })
+            logger.info(f"   📦 Chunk {original_index}: ID={chunk_id}, filename={filename}")
+        
+        # Sort chunks by chunk ID to ensure correct page order
+        chunk_data.sort(key=lambda x: x['chunk_id'])
+        chunk_order_info = [f"{c['chunk_id']}({c['original_index']})" for c in chunk_data]
+        logger.info(f"📋 Sorted chunks by ID: {chunk_order_info}")
+        
+        # Extract and combine text from all chunks in correct order
+        all_combined_text = []
+        total_pages = 0
+        all_extracted_info = []
+        total_processing_time = 0
+        total_cost = 0.0
+        
+        for chunk_info in chunk_data:
+            chunk_result = chunk_info['result']
+            chunk_id = chunk_info['chunk_id']
+            original_index = chunk_info['original_index']
+            
+            # Extract combined text from chunk
+            chunk_text = chunk_result.get('combined_text', '') or chunk_result.get('extracted_text', '')
+            if chunk_text:
+                all_combined_text.append(chunk_text)
+                logger.info(f"   ✅ Chunk {chunk_id} (orig index {original_index}): {len(chunk_text)} characters extracted")
+            else:
+                logger.warning(f"   ⚠️ Chunk {chunk_id} (orig index {original_index}): no text content found")
+            
+            # Accumulate metadata
+            total_pages += chunk_result.get('total_pages', 0)
+            if chunk_result.get('processing_time', {}).get('seconds'):
+                total_processing_time += chunk_result.get('processing_time', {}).get('seconds', 0)
+            if chunk_result.get('cost_info', {}).get('estimated_cost'):
+                total_cost += chunk_result.get('cost_info', {}).get('estimated_cost', 0.0)
+            
+            # Collect extracted info (though chunks don't generate summaries)
+            chunk_info_data = chunk_result.get('extracted_info', {})
+            if chunk_info_data:
+                all_extracted_info.append(chunk_info_data)
+        
+        # Combine all text into one document body IN CORRECT PAGE ORDER
+        combined_text = '\n\n'.join(all_combined_text)
+        logger.info(f"📄 Combined text length: {len(combined_text)} characters from {len(all_combined_text)} chunks")
+        logger.info(f"📋 Chunks merged in correct page order: {[c['chunk_id'] for c in chunk_data]}")
+        
+        if not combined_text.strip():
+            raise ValueError("No text content could be extracted from any chunks")
+        
+        # Generate final summary using text_processor
+        logger.info(f"🧠 Generating final summary for job {job_id}")
+        
+        # Generate summary using TextBasedProcessor
+        summary_result = text_processor.summarize_document_text(combined_text, original_filename)
+        
+        # Log completion
+        final_summary = summary_result.get('summary', 'Summary not available')
+        logger.info(f"🧠 Final summary generated for job {job_id}, total length: {len(final_summary)}")
+        
+        # Prepare final results directories
+        result_dir = os.path.join("results", job_id)
+        os.makedirs(result_dir, exist_ok=True)
+        
+        # Save combined text to file
+        combined_text_path = os.path.join(result_dir, "combined_text.txt")
+        with open(combined_text_path, 'w', encoding='utf-8') as f:
+            f.write(combined_text)
+        
+        # Calculate average confidence (if available from chunks)
+        average_confidence = 0.0
+        confidence_count = 0
+        for chunk_info in chunk_data:
+            chunk_result = chunk_info['result']
+            chunk_conf = chunk_result.get('average_confidence_formatted', '')
+            if chunk_conf and chunk_conf != 'N/A':
+                try:
+                    # Extract percentage value
+                    conf_value = float(chunk_conf.strip('%')) / 100.0
+                    average_confidence += conf_value
+                    confidence_count += 1
+                except ValueError:
+                    pass
+        
+        if confidence_count > 0:
+            average_confidence = average_confidence / confidence_count
+            average_confidence_formatted = f"{average_confidence:.1%}"
+        else:
+            average_confidence_formatted = "N/A"
+        
+        # Prepare clean results with ORIGINAL document filename
+        clean_results = {
+            "filename": original_filename,  # Use original filename, not chunk filename
+            "job_id": job_id,
+            "processing_completed_at": datetime.datetime.now().isoformat(),
+            "total_pages": total_pages,
+            "summary": final_summary,
+            "date": summary_result.get("date", "undated"),
+            "extracted_info": summary_result.get("extracted_info", {}),
+            "combined_text_path": f"results/{job_id}/combined_text.txt",
+            "combined_text": combined_text,
+            "estimated_cost": summary_result.get("estimated_cost", total_cost),
+            "token_usage": summary_result.get("token_usage", {}),
+            "processing_time_seconds": total_processing_time,
+            "average_confidence_formatted": average_confidence_formatted,
+            "processing_method": "high_throughput_chunked",
+            "num_chunks_processed": len(chunk_results),
+            "num_chunks_successful": len(successful_chunks),
+            "num_chunks_failed": len(failed_chunks),
+            "chunk_order": [c['chunk_id'] for c in chunk_data]  # Record the order used
+        }
+        
+        # Save results to files
+        results_path = os.path.join(result_dir, "results.json")
+        with open(results_path, 'w', encoding='utf-8') as f:
+            json.dump(clean_results, f, ensure_ascii=False, indent=2)
+        
+        # Save metrics
+        metrics_path = os.path.join(result_dir, "metrics.json")
+        performance_metrics = {
+            "job_id": job_id,
+            "filename": original_filename,  # Use original filename
+            "processing_end_time": get_unix_timestamp(),
+            "total_processing_time": {"seconds": total_processing_time},
+            "performance": {
+                "total_pages": total_pages,
+                "processing_time": {"seconds": total_processing_time},
+                "high_throughput_processing": True,
+                "num_chunks": len(chunk_results),
+                "num_chunks_successful": len(successful_chunks),
+                "num_chunks_failed": len(failed_chunks),
+                "chunk_order": [c['chunk_id'] for c in chunk_data]
+            },
+            "confidence_metrics": {
+                "average_confidence": average_confidence,
+                "average_confidence_formatted": average_confidence_formatted
+            },
+            "cost_info": {
+                "estimated_cost": summary_result.get("estimated_cost", total_cost),
+                "token_usage": summary_result.get("token_usage", {})
+            }
+        }
+        
+        with open(metrics_path, 'w', encoding='utf-8') as f:
+            json.dump(performance_metrics, f, ensure_ascii=False, indent=2)
+        
+        # CRITICAL: Only NOW mark the job as COMPLETED (all chunks processed and merged)
+        update_job_status(redis_client, job_id, {
+            'status': 'COMPLETED',
+            'message': f'Document "{original_filename}" processed successfully with {total_pages} pages using high-throughput chunking',
+            'progress': 100,
+            'results_path': results_path,
+            'combined_text_path': combined_text_path,
+            'total_pages': total_pages,
+            'processing_completed_at': datetime.datetime.now().isoformat(),
+            'average_confidence_formatted': average_confidence_formatted,
+            'estimated_cost': summary_result.get("estimated_cost", total_cost),
+            'processing_time_seconds': total_processing_time,
+            'processing_method': 'high_throughput_chunked',
+            'num_chunks_processed': len(chunk_results),
+            'num_chunks_successful': len(successful_chunks),
+            'num_chunks_failed': len(failed_chunks),
+            'filename': original_filename,  # Store original filename
+            'updated_at': get_timestamp()
+        })
+        
+        logger.info(f"✅ Merge and summarize completed for job {job_id}")
+        logger.info(f"📄 Final document: {original_filename} ({total_pages} pages)")
+        
+        return {
+            "job_id": job_id,
+            "status": "COMPLETED",
+            "filename": original_filename,  # Return original filename
+            "results_path": results_path,
+            "message": f'Document "{original_filename}" processed successfully with {total_pages} pages using high-throughput chunking',
+            "total_pages": total_pages,
+            "num_chunks_processed": len(chunk_results),
+            "num_chunks_successful": len(successful_chunks),
+            "num_chunks_failed": len(failed_chunks),
+            "processing_method": "high_throughput_chunked",
+            "summary": final_summary,
+            "estimated_cost": summary_result.get("estimated_cost", total_cost)
+        }
+        
+    except Exception as e:
+        logger.error(f"Error in merge and summarize: {str(e)}")
+        
+        # CRITICAL: Only mark as FAILED here in the merge task
+        update_job_status(redis_client, job_id, {
+            'status': 'FAILED',
+            'error': str(e),
+            'message': f'Document merge and summarize failed: {str(e)}',
+            'progress': 0,
+            'updated_at': get_timestamp()
+        })
+        
         raise 

@@ -3,6 +3,10 @@
   <head>
     <title>Document Processing Status</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
     <style>
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -321,19 +325,151 @@
       {% endif %}
     </div>
 
-    {% if status.status == 'PROCESSING' or status.status == 'PENDING' %}
     <script>
-      // Set initial progress bar width
+      // Set initial progress bar width and check for completed status
       document.addEventListener("DOMContentLoaded", function () {
         const progressBar = document.querySelector(".progress-bar");
         if (progressBar) {
           const progress = progressBar.getAttribute("data-progress") || 0;
           progressBar.style.width = progress + "%";
         }
+        
+        // Check if status is already completed when page loads
+        const statusBadge = document.querySelector(".status-badge");
+        if (statusBadge && statusBadge.textContent.trim() === "COMPLETED") {
+          console.log("✅ Page loaded with COMPLETED status - validating before redirect");
+          validateAndRedirect("{{ job_id }}", true);
+        }
       });
 
+      // Only run auto-refresh for PROCESSING and PENDING status
+      const currentStatus = "{{ status.status }}";
+      
       let refreshCount = 0;
-      const maxRefreshes = 60; // Max 3 minutes of auto-refresh
+      const maxRefreshes = 120; // Max 6 minutes of auto-refresh
+      let refreshInterval; // Declare the interval variable
+      let validationInProgress = false;
+
+      // Enhanced validation function to ensure results are truly ready
+      async function validateAndRedirect(jobId, isInitialLoad = false, statusData = null) {
+        if (validationInProgress) {
+          console.log("⚠️ Validation already in progress, skipping duplicate call");
+          return;
+        }
+        
+        validationInProgress = true;
+        console.log("🔍 Starting enhanced validation for job:", jobId);
+        
+        try {
+          // If we don't have status data, fetch it
+          if (!statusData) {
+            const response = await fetch(`/api/job/${jobId}`);
+            if (!response.ok) {
+              throw new Error(`Failed to fetch status: ${response.status}`);
+            }
+            statusData = await response.json();
+          }
+          
+          console.log(`🔍 Validation check - Status: ${statusData.status}, Message: ${statusData.message}`);
+          
+          // Check if the message indicates results are still being finalized
+          const message = statusData.message || '';
+          const stillProcessing = message.includes('finalizing') || 
+                                message.includes('generating summary') || 
+                                message.includes('saving results') ||
+                                message.includes('inference complete');
+          
+          if (stillProcessing) {
+            console.log(`⚠️ Results still being finalized: ${message}`);
+            showWaitingMessage("Results are being finalized, please wait...");
+            
+            // Wait 3 seconds and try again
+            setTimeout(() => {
+              validationInProgress = false;
+              validateAndRedirect(jobId, false);
+            }, 3000);
+            return;
+          }
+          
+          // Try to access the results page to verify it's ready
+          console.log("🔍 Testing results page accessibility...");
+          const pageResponse = await fetch(`/job/${jobId}`, { method: 'HEAD' });
+          
+          if (!pageResponse.ok) {
+            console.log(`⚠️ Results page not accessible (HTTP ${pageResponse.status})`);
+            showWaitingMessage("Results are being prepared, please wait...");
+            
+            // Wait 3 seconds and try again (max 5 attempts)
+            const attemptCount = window.validationAttempts || 0;
+            if (attemptCount < 5) {
+              window.validationAttempts = attemptCount + 1;
+              setTimeout(() => {
+                validationInProgress = false;
+                validateAndRedirect(jobId, false);
+              }, 3000);
+              return;
+            } else {
+              console.log("⏰ Max validation attempts reached, redirecting anyway");
+            }
+          }
+          
+          // All validation passed - show countdown and redirect
+          console.log("✅ Validation passed - results are ready!");
+          showRedirectCountdown(jobId);
+          
+        } catch (error) {
+          console.error("❌ Validation error:", error);
+          // On error, wait a bit and try again
+          showWaitingMessage("Checking results availability...");
+          setTimeout(() => {
+            validationInProgress = false;
+            validateAndRedirect(jobId, false);
+          }, 3000);
+        }
+      }
+      
+      function showWaitingMessage(message) {
+        const messageP = document.querySelector("p");
+        if (messageP) {
+          messageP.innerHTML = `<i class="bi bi-hourglass-split" style="color: orange; margin-right: 8px;"></i>${message}`;
+        }
+        
+        const refreshIndicator = document.querySelector(".refresh-indicator");
+        if (refreshIndicator) {
+          refreshIndicator.innerHTML = '<span style="color: orange;"><i class="spinner"></i>Finalizing results...</span>';
+        }
+      }
+      
+      function showRedirectCountdown(jobId) {
+        const messageP = document.querySelector("p");
+        if (messageP) {
+          messageP.innerHTML = '<i class="bi bi-check-circle-fill" style="color: green; margin-right: 8px;"></i>Results ready! Redirecting in <span id="countdown">5</span> seconds...';
+        }
+        
+        const refreshIndicator = document.querySelector(".refresh-indicator");
+        if (refreshIndicator) {
+          refreshIndicator.innerHTML = '<span style="color: green;"><i class="spinner"></i>Results validated! Auto-redirecting...</span>';
+        }
+        
+        // Start countdown
+        let countdown = 5;
+        const countdownElement = document.getElementById("countdown");
+        const countdownInterval = setInterval(() => {
+          countdown--;
+          if (countdownElement) {
+            countdownElement.textContent = countdown;
+          }
+          if (countdown <= 0) {
+            clearInterval(countdownInterval);
+          }
+        }, 1000);
+        
+        // Redirect after countdown
+        setTimeout(() => {
+          console.log("🔄 Redirecting to results page after validation:", `/job/${jobId}`);
+          window.location.href = `/job/${jobId}`;
+        }, 5000);
+      }
 
       function refreshStatus() {
         if (refreshCount >= maxRefreshes) {
@@ -342,9 +478,11 @@
           return;
         }
 
+        console.log("🔄 Fetching job status from API...");
         fetch("/api/job/{{ job_id }}")
           .then((response) => response.json())
           .then((data) => {
+            console.log("📊 Received job status:", data.status, "- Progress:", data.progress);
             // Update progress if available
             const progressBar = document.querySelector(".progress-bar");
             const progressText = document.querySelector(".progress-text");
@@ -372,11 +510,20 @@
               messageP.textContent = data.message;
             }
 
-            // If completed, redirect to results
+            // If completed, validate before redirecting
             if (data.status === "COMPLETED") {
-              setTimeout(() => {
-                window.location.reload();
-              }, 1000);
+              console.log("✅ Status is COMPLETED - validating results before redirect");
+              
+              // Update status immediately
+              if (statusBadge) {
+                statusBadge.className = "status-badge status-COMPLETED";
+                statusBadge.textContent = "COMPLETED";
+              }
+              
+              // Stop the refresh interval and validate
+              clearInterval(refreshInterval);
+              validateAndRedirect("{{ job_id }}", false, data);
+              return;
             }
 
             // If failed, stop auto-refresh
@@ -394,16 +541,17 @@
           });
       }
 
-      // Start auto-refresh
-      const refreshInterval = setInterval(refreshStatus, 3000);
+            // Start auto-refresh only for PROCESSING and PENDING status
+      if (currentStatus === 'PROCESSING' || currentStatus === 'PENDING') {
+        refreshInterval = setInterval(refreshStatus, 3000);
 
-      // Stop auto-refresh when page is hidden/unfocused
-      document.addEventListener("visibilitychange", function () {
-        if (document.hidden) {
-          clearInterval(refreshInterval);
-        }
-      });
-    </script>
-    {% endif %}
+        // Stop auto-refresh when page is hidden/unfocused
+        document.addEventListener("visibilitychange", function () {
+          if (document.hidden) {
+            clearInterval(refreshInterval);
+          }
+        });
+      }
+      </script>
   </body>
 </html>

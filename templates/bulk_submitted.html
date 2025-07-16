@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bulk Documents Submitted</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary-blue: #1a4f8b;
+            --secondary-blue: #2c7ac9;
+            --light-blue: #f5f9ff;
+            --text-color: #2c3e50;
+            --success-green: #28a745;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-blue);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 2.5rem;
+            margin: 0 auto;
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
+
+        .success-icon {
+            font-size: 4rem;
+            color: var(--success-green);
+            margin-bottom: 1rem;
+        }
+
+        .summary {
+            background-color: var(--light-blue);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--primary-blue);
+        }
+
+        .summary-stat {
+            display: inline-block;
+            margin: 0 1rem;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        .files-list {
+            max-height: 200px;
+            overflow-y: auto;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            text-align: left;
+        }
+
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+
+        .file-item:last-child {
+            border-bottom: none;
+        }
+
+        .file-name {
+            font-weight: 500;
+            color: var(--text-color);
+        }
+
+        .job-id {
+            font-family: monospace;
+            color: #6c757d;
+            font-size: 0.8rem;
+        }
+
+        .processing-info {
+            background-color: #e8f4ff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--secondary-blue);
+        }
+
+        .processing-info h3 {
+            color: var(--primary-blue);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .processing-info p {
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .loading {
+            border: 4px solid rgba(26, 79, 139, 0.3);
+            border-top: 4px solid var(--primary-blue);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .countdown {
+            font-size: 1.1rem;
+            color: var(--primary-blue);
+            font-weight: 500;
+            margin: 1rem 0;
+        }
+
+        .countdown-number {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--secondary-blue);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 0.5rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--secondary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(44, 122, 201, 0.3);
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+        .progress-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            color: var(--secondary-blue);
+            font-weight: 500;
+            margin: 1rem 0;
+        }
+
+        .status-dots {
+            display: flex;
+            gap: 0.3rem;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--secondary-blue);
+            animation: pulse 1.5s infinite;
+        }
+
+        .status-dot:nth-child(2) { animation-delay: 0.5s; }
+        .status-dot:nth-child(3) { animation-delay: 1s; }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="success-icon">🚀</div>
+        <h1>Bulk Documents Submitted</h1>
+        <p>Your documents have been successfully uploaded and queued for parallel processing.</p>
+        
+        <div class="summary">
+            <div class="summary-stat">
+                <span class="stat-number">{{ submitted_files|length }}</span>
+                <span class="stat-label">Documents</span>
+            </div>
+            <div class="summary-stat">
+                <span class="stat-number">{{ job_ids|length }}</span>
+                <span class="stat-label">Jobs Created</span>
+            </div>
+            <div class="summary-stat">
+                <span class="stat-number">2</span>
+                <span class="stat-label">Containers</span>
+            </div>
+        </div>
+
+        {% if submitted_files %}
+        <div class="files-list">
+            <h4 style="margin-bottom: 0.5rem; color: var(--primary-blue);">📋 Submitted Files:</h4>
+            {% for file in submitted_files %}
+            <div class="file-item">
+                <span class="file-name">📄 {{ file.filename }}</span>
+                <span class="job-id">{{ file.job_id[:8] }}...</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="processing-info">
+            <h3>⚡ Parallel Processing Active</h3>
+            <p>🔄 <strong>Round-robin distribution:</strong> Each document assigned to optimal container</p>
+            <p>🏭 <strong>Container utilization:</strong> Both worker containers will process simultaneously</p>
+            <p>📊 <strong>Real-time tracking:</strong> Individual progress monitoring for each document</p>
+        </div>
+
+        <div class="progress-indicator">
+            <span>Initializing parallel processing</span>
+            <div class="status-dots">
+                <div class="status-dot"></div>
+                <div class="status-dot"></div>
+                <div class="status-dot"></div>
+            </div>
+        </div>
+
+        <div class="loading"></div>
+        <div class="countdown">
+            Redirecting to processing dashboard in <span class="countdown-number" id="counter">5</span> seconds...
+        </div>
+        
+        <div style="margin-top: 1.5rem;">
+            <a href="/bulk?jobs={{ job_ids|join(',') }}" class="btn">📊 View Processing Dashboard</a>
+            <a href="/" class="btn btn-secondary">← Upload More Documents</a>
+        </div>
+    </div>
+
+    <script>
+        // Store job IDs in session storage for the bulk processing page
+        const jobIds = {{ job_ids_json|safe }};
+        const submittedFiles = {{ submitted_files_json|safe }};
+        
+        sessionStorage.setItem('bulkJobIds', JSON.stringify(jobIds));
+        sessionStorage.setItem('submittedFiles', JSON.stringify(submittedFiles));
+        
+        console.log('Bulk submission - Job IDs stored:', jobIds);
+        console.log('Bulk submission - Files stored:', submittedFiles);
+
+        // Countdown timer
+        let count = 5;
+        const counter = document.getElementById('counter');
+        
+        const countdown = setInterval(() => {
+            count--;
+            counter.textContent = count;
+            if (count <= 0) {
+                clearInterval(countdown);
+                // Redirect to bulk processing page with job IDs
+                window.location.href = `/bulk?jobs=${jobIds.join(',')}`;
+            }
+        }, 1000);
+
+        // Log system info for debugging
+        console.log('=== BULK SUBMISSION CONFIRMATION ===');
+        console.log('Total documents:', jobIds.length);
+        console.log('Job IDs:', jobIds);
+        console.log('Submitted files:', submittedFiles);
+        console.log('Redirecting to:', `/bulk?jobs=${jobIds.join(',')}`);
+    </script>
+</body>
+</html> 

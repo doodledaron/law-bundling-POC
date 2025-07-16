@@ -8,6 +8,8 @@ WORKDIR /app
 # Install system dependencies for basic functionality
 RUN apt-get update && apt-get install -y \
     curl \
+    poppler-utils \
+    libpoppler-cpp-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements and install only essential Python packages

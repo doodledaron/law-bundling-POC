@@ -9,6 +9,8 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         curl \
         build-essential \
+        poppler-utils \
+        libpoppler-cpp-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy and install Python requirements  

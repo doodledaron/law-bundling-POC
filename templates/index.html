@@ -567,6 +567,69 @@
           opacity: 1;
         }
       }
+
+      /* Bulk upload controls */
+      .bulk-controls {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+      }
+
+      .add-more-btn, .clear-all-btn {
+        padding: 10px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        flex: 1;
+      }
+
+      .add-more-btn {
+        background-color: var(--secondary-blue);
+        color: white;
+      }
+
+      .add-more-btn:hover {
+        background-color: var(--primary-blue);
+        transform: translateY(-1px);
+      }
+
+      .clear-all-btn {
+        background-color: #6c757d;
+        color: white;
+      }
+
+      .clear-all-btn:hover {
+        background-color: #dc3545;
+        transform: translateY(-1px);
+      }
+
+      /* Drag and drop styling */
+      .file-label.drag-over {
+        border-color: var(--primary-blue);
+        background-color: #e8f4ff;
+        transform: scale(1.02);
+        box-shadow: 0 4px 12px rgba(44, 122, 201, 0.3);
+      }
+
+      .file-label.drag-active {
+        border-style: solid;
+        border-width: 3px;
+        background-color: #d4edff;
+      }
+
+      .files-added-indicator {
+        background-color: #d4edda;
+        color: #155724;
+        padding: 8px 12px;
+        border-radius: 6px;
+        margin-top: 10px;
+        font-size: 0.9rem;
+        text-align: center;
+        border: 1px solid #c3e6cb;
+      }
     </style>
   </head>
   <body>
@@ -664,7 +727,7 @@
           enctype="multipart/form-data"
           class="upload-form"
         >
-          <div class="file-input-wrapper">
+          <div class="file-input-wrapper" id="bulk-drop-zone">
             <input
               type="file"
               name="files"
@@ -673,18 +736,26 @@
               accept=".pdf,.jpg,.jpeg,.png"
               required
             />
-            <label for="files" class="file-label">
+            <label for="files" class="file-label" id="bulk-file-label">
               <div class="file-icon">📚</div>
               <div class="file-text">
-                <span class="file-main">Choose multiple documents</span>
+                <span class="file-main">Choose or drag & drop multiple documents</span>
                 <span class="file-sub"
-                  >Select multiple PDF, JPEG, or PNG files</span
+                  >Select multiple PDF, JPEG, or PNG files - you can keep adding more!</span
                 >
               </div>
             </label>
           </div>
           <div id="file-list" class="file-list hidden"></div>
-          <button type="submit" class="upload-btn">
+          <div class="bulk-controls" style="margin-top: 15px; display: none;" id="bulk-controls">
+            <button type="button" class="add-more-btn" id="add-more-btn">
+              ➕ Add More Files
+            </button>
+            <button type="button" class="clear-all-btn" id="clear-all-btn">
+              🗑️ Clear All
+            </button>
+          </div>
+          <button type="submit" class="upload-btn" id="bulk-submit-btn">
             🚀 Process All Documents
           </button>
         </form>
@@ -701,11 +772,14 @@
 
     <script>
       let currentMode = "single";
+      let bulkFiles = []; // Array to store all files for bulk upload
+      let bulkFileCounter = 0; // Counter for unique file IDs
 
       // Initialize page
       document.addEventListener("DOMContentLoaded", function () {
         setupModeToggle();
         setupFileInputs();
+        setupBulkUploadFeatures();
       });
 
       function setupModeToggle() {
@@ -729,13 +803,224 @@
           });
         }
 
-        // Multiple files input
+        // Multiple files input - now handles incremental adding
         const multipleFilesInput = document.getElementById("files");
         if (multipleFilesInput) {
           multipleFilesInput.addEventListener("change", function () {
-            updateMultipleFilesLabel(this);
+            addFilesToBulkList(Array.from(this.files));
+            // Clear the input so the same files can be added again
+            this.value = '';
           });
         }
+      }
+
+      function setupBulkUploadFeatures() {
+        const dropZone = document.getElementById("bulk-drop-zone");
+        const fileLabel = document.getElementById("bulk-file-label");
+        const addMoreBtn = document.getElementById("add-more-btn");
+        const clearAllBtn = document.getElementById("clear-all-btn");
+
+        if (!dropZone || !fileLabel) return;
+
+        // Drag and drop event handlers
+        dropZone.addEventListener("dragenter", handleDragEnter);
+        dropZone.addEventListener("dragover", handleDragOver);
+        dropZone.addEventListener("dragleave", handleDragLeave);
+        dropZone.addEventListener("drop", handleDrop);
+
+        // Button event handlers
+        if (addMoreBtn) {
+          addMoreBtn.addEventListener("click", function() {
+            document.getElementById("files").click();
+          });
+        }
+
+        if (clearAllBtn) {
+          clearAllBtn.addEventListener("click", clearAllFiles);
+        }
+
+        // Prevent default drag behaviors on the document
+        document.addEventListener("dragenter", preventDefault);
+        document.addEventListener("dragover", preventDefault);
+        document.addEventListener("dragleave", preventDefault);
+        document.addEventListener("drop", preventDefault);
+      }
+
+      function handleDragEnter(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const fileLabel = document.getElementById("bulk-file-label");
+        fileLabel.classList.add("drag-over");
+      }
+
+      function handleDragOver(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const fileLabel = document.getElementById("bulk-file-label");
+        fileLabel.classList.add("drag-active");
+      }
+
+      function handleDragLeave(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // Only remove styles if we're leaving the drop zone entirely
+        if (!e.currentTarget.contains(e.relatedTarget)) {
+          const fileLabel = document.getElementById("bulk-file-label");
+          fileLabel.classList.remove("drag-over", "drag-active");
+        }
+      }
+
+      function handleDrop(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const fileLabel = document.getElementById("bulk-file-label");
+        fileLabel.classList.remove("drag-over", "drag-active");
+
+        const files = Array.from(e.dataTransfer.files);
+        const validFiles = files.filter(file => {
+          const validTypes = ['.pdf', '.jpg', '.jpeg', '.png'];
+          const fileExtension = '.' + file.name.split('.').pop().toLowerCase();
+          return validTypes.includes(fileExtension);
+        });
+
+        if (validFiles.length > 0) {
+          addFilesToBulkList(validFiles);
+          showFilesAddedMessage(validFiles.length);
+        } else if (files.length > 0) {
+          alert("Please drop only PDF, JPEG, or PNG files.");
+        }
+      }
+
+      function preventDefault(e) {
+        e.preventDefault();
+      }
+
+      function addFilesToBulkList(newFiles) {
+        // Add files to our bulk list with unique IDs
+        newFiles.forEach(file => {
+          bulkFiles.push({
+            id: bulkFileCounter++,
+            file: file,
+            name: file.name,
+            size: file.size,
+            type: file.type
+          });
+        });
+
+        updateBulkFileDisplay();
+        updateFormWithAllFiles();
+        updateBulkUploadUI();
+      }
+
+      function updateBulkFileDisplay() {
+        const fileList = document.getElementById("file-list");
+        const bulkControls = document.getElementById("bulk-controls");
+
+        if (bulkFiles.length > 0) {
+          fileList.classList.remove("hidden");
+          bulkControls.style.display = "flex";
+          
+          const totalSize = bulkFiles.reduce((sum, fileObj) => sum + fileObj.size, 0);
+          const totalSizeMB = (totalSize / (1024 * 1024)).toFixed(2);
+
+          fileList.innerHTML = `
+            <h4 style="margin-bottom: 10px; color: var(--primary-blue);">
+              Selected Files (${bulkFiles.length}): ${totalSizeMB} MB total
+            </h4>
+            ${bulkFiles.map((fileObj, index) => `
+              <div class="file-item" style="display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #e0e0e0;">
+                <div>
+                  <div style="font-weight: 500;">${fileObj.name}</div>
+                  <div style="font-size: 0.8rem; color: #6c757d;">
+                    ${(fileObj.size / (1024 * 1024)).toFixed(2)} MB
+                    ${isDuplicateFile(fileObj, index) ? '<span style="color: #f39c12;">• Duplicate</span>' : ''}
+                  </div>
+                </div>
+                <button type="button" onclick="removeBulkFile(${fileObj.id})" 
+                        style="background: #dc3545; color: white; border: none; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 0.8rem;">
+                  Remove
+                </button>
+              </div>
+            `).join("")}
+          `;
+        } else {
+          fileList.classList.add("hidden");
+          bulkControls.style.display = "none";
+        }
+      }
+
+      function isDuplicateFile(fileObj, currentIndex) {
+        return bulkFiles.some((otherFile, otherIndex) => 
+          otherIndex !== currentIndex && 
+          otherFile.name === fileObj.name && 
+          otherFile.size === fileObj.size
+        );
+      }
+
+      function removeBulkFile(fileId) {
+        bulkFiles = bulkFiles.filter(fileObj => fileObj.id !== fileId);
+        updateBulkFileDisplay();
+        updateFormWithAllFiles();
+        updateBulkUploadUI();
+      }
+
+      function clearAllFiles() {
+        bulkFiles = [];
+        updateBulkFileDisplay();
+        updateFormWithAllFiles();
+        updateBulkUploadUI();
+        
+        // Reset the label text
+        const mainText = document.querySelector("#bulk-file-label .file-main");
+        const subText = document.querySelector("#bulk-file-label .file-sub");
+        mainText.textContent = "Choose or drag & drop multiple documents";
+        subText.textContent = "Select multiple PDF, JPEG, or PNG files - you can keep adding more!";
+      }
+
+      function updateFormWithAllFiles() {
+        const input = document.getElementById("files");
+        const dt = new DataTransfer();
+        
+        bulkFiles.forEach(fileObj => {
+          dt.items.add(fileObj.file);
+        });
+        
+        input.files = dt.files;
+      }
+
+      function updateBulkUploadUI() {
+        const mainText = document.querySelector("#bulk-file-label .file-main");
+        const subText = document.querySelector("#bulk-file-label .file-sub");
+        const submitBtn = document.getElementById("bulk-submit-btn");
+
+        if (bulkFiles.length > 0) {
+          mainText.textContent = `${bulkFiles.length} files ready • Drop more files to add them`;
+          subText.textContent = "You can continue adding files or process the current selection";
+          submitBtn.textContent = `🚀 Process ${bulkFiles.length} Documents`;
+        } else {
+          mainText.textContent = "Choose or drag & drop multiple documents";
+          subText.textContent = "Select multiple PDF, JPEG, or PNG files - you can keep adding more!";
+          submitBtn.textContent = "🚀 Process All Documents";
+        }
+      }
+
+      function showFilesAddedMessage(count) {
+        // Create a temporary message
+        const dropZone = document.getElementById("bulk-drop-zone");
+        const message = document.createElement("div");
+        message.className = "files-added-indicator";
+        message.textContent = `✅ ${count} file${count > 1 ? 's' : ''} added successfully!`;
+        
+        dropZone.appendChild(message);
+        
+        // Remove the message after 3 seconds
+        setTimeout(() => {
+          if (message.parentNode) {
+            message.parentNode.removeChild(message);
+          }
+        }, 3000);
       }
 
       function switchUploadMode(mode) {
@@ -769,26 +1054,10 @@
         }
       }
 
+      // Legacy function for compatibility - now redirects to new bulk system
       function updateMultipleFilesLabel(input) {
-        const fileList = document.getElementById("file-list");
-        const label = input.parentNode.querySelector(".file-label");
-        const fileText = label.querySelector(".file-text");
-        const mainText = fileText.querySelector(".file-main");
-        const subText = fileText.querySelector(".file-sub");
-
-        const files = Array.from(input.files);
-
-        if (files.length > 0) {
-          mainText.textContent = `${files.length} files selected`;
-          subText.textContent = `Total size: ${calculateTotalSize(files)} MB`;
-
-          // Show file list
-          fileList.classList.remove("hidden");
-          renderFileList(files);
-        } else {
-          mainText.textContent = "Choose multiple documents";
-          subText.textContent = "Select multiple PDF, JPEG, or PNG files";
-          fileList.classList.add("hidden");
+        if (input.files && input.files.length > 0) {
+          addFilesToBulkList(Array.from(input.files));
         }
       }
 
@@ -798,42 +1067,15 @@
       }
 
       function renderFileList(files) {
-        const fileList = document.getElementById("file-list");
-
-        fileList.innerHTML = `
-          <h4 style="margin-bottom: 10px; color: var(--primary-blue);">Selected Files:</h4>
-          ${files
-            .map(
-              (file, index) => `
-            <div class="file-item" style="display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #e0e0e0;">
-              <div>
-                <div style="font-weight: 500;">${file.name}</div>
-                <div style="font-size: 0.8rem; color: #6c757d;">${(
-                  file.size /
-                  (1024 * 1024)
-                ).toFixed(2)} MB</div>
-              </div>
-              <button type="button" onclick="removeFile(${index})" style="background: #dc3545; color: white; border: none; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 0.8rem;">
-                Remove
-              </button>
-            </div>
-          `
-            )
-            .join("")}
-        `;
+        // This function is now handled by updateBulkFileDisplay
+        updateBulkFileDisplay();
       }
 
       function removeFile(index) {
-        const input = document.getElementById("files");
-        const files = Array.from(input.files);
-        files.splice(index, 1);
-
-        // Update the file input
-        const dt = new DataTransfer();
-        files.forEach((file) => dt.items.add(file));
-        input.files = dt.files;
-
-        updateMultipleFilesLabel(input);
+        // Legacy function - now handled by removeBulkFile
+        if (bulkFiles[index]) {
+          removeBulkFile(bulkFiles[index].id);
+        }
       }
 
       // Handle single upload with loading indicator
@@ -854,18 +1096,24 @@
         });
       });
 
-      // Handle bulk upload form submission
+      // Handle bulk upload form submission with loading indicator
       document.addEventListener("DOMContentLoaded", function () {
         const bulkForm = document.querySelector("#bulk-upload form");
         if (bulkForm) {
           bulkForm.addEventListener("submit", function (e) {
-            const fileInput = this.querySelector('input[type="file"]');
-            if (!fileInput.files || fileInput.files.length === 0) {
+            if (bulkFiles.length === 0) {
               e.preventDefault();
               alert("Please select at least one file first.");
               return;
             }
-            // Form will submit normally and redirect to bulk processing page
+            
+            // Show loading indicator for bulk upload
+            showLoading(
+              `Uploading ${bulkFiles.length} documents...`,
+              `Your ${bulkFiles.length} files are being uploaded and queued for parallel processing`
+            );
+            
+            // Form will submit normally and redirect to bulk submission confirmation
           });
         }
       });

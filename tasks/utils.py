@@ -20,12 +20,12 @@ def get_timestamp():
 
 def get_unix_timestamp():
     """
-    Get current Unix timestamp for performance tracking.
+    Get current high-precision timestamp for performance tracking.
     
     Returns:
-        float: Current Unix timestamp
+        float: Current high-precision timestamp
     """
-    return time.time()
+    return time.perf_counter()
 
 def calculate_duration(start_time, end_time):
     """
@@ -47,7 +47,7 @@ def calculate_duration(start_time, end_time):
 
 def format_duration(seconds):
     """
-    Format duration in human-readable format.
+    Format duration in human-readable format with better precision.
     
     Args:
         seconds: Duration in seconds
@@ -55,10 +55,14 @@ def format_duration(seconds):
     Returns:
         str: Formatted duration
     """
-    if seconds < 1:
-        return f"{int(seconds * 1000)}ms"
+    if seconds < 0.001:  # Less than 1ms
+        microseconds = int(seconds * 1000000)
+        return f"{microseconds}μs"
+    elif seconds < 1:  # Less than 1 second
+        milliseconds = round(seconds * 1000, 1)
+        return f"{milliseconds}ms"
     elif seconds < 60:
-        return f"{seconds:.1f}s"
+        return f"{seconds:.2f}s"
     elif seconds < 3600:
         minutes = int(seconds // 60)
         remaining_seconds = seconds % 60

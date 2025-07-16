@@ -415,6 +415,13 @@
           if (result.status === "fulfilled" && result.value) {
             const oldStatus = allJobs[index].status;
             const oldProgress = allJobs[index].progress;
+            
+            // Track when jobs transition to completed or failed
+            if (oldStatus !== result.value.status && (result.value.status === "completed" || result.value.status === "failed")) {
+              result.value.finishedAt = Date.now();
+              console.log(`🏁 Job ${allJobs[index].jobId} finished with status: ${result.value.status}`);
+            }
+            
             allJobs[index] = { ...allJobs[index], ...result.value };
 
             if (oldStatus !== allJobs[index].status || oldProgress !== allJobs[index].progress) {
@@ -434,12 +441,64 @@
         const activeJobs = allJobs.filter(
           (job) => job.status !== "completed" && job.status !== "failed"
         );
+        const completedJobs = allJobs.filter(job => job.status === "completed");
+        const failedJobs = allJobs.filter(job => job.status === "failed");
 
-        console.log(`Active jobs: ${activeJobs.length}, Total jobs: ${allJobs.length}`);
+        console.log(`📊 Job Status Summary: ${activeJobs.length} active, ${completedJobs.length} completed, ${failedJobs.length} failed (Total: ${allJobs.length})`);
 
+        // Enhanced completion validation: Only show completion when ALL jobs are truly complete with results
         if (activeJobs.length === 0) {
-          clearInterval(refreshInterval);
-          showCompletionMessage();
+          console.log(`🔍 All jobs finished processing - starting validation phase...`);
+          
+          // Additional safety: Wait at least 5 seconds after last job finished before validating
+          const now = Date.now();
+          const minWaitTime = 5000; // 5 seconds
+          let allJobsFinishedTime = Math.max(...allJobs.map(job => job.finishedAt || now));
+          
+          if (!allJobsFinishedTime || isNaN(allJobsFinishedTime)) {
+            allJobsFinishedTime = now; // Fallback if no finish time recorded
+          }
+          
+          const waitTimeRemaining = Math.max(0, minWaitTime - (now - allJobsFinishedTime));
+          
+          if (waitTimeRemaining > 0) {
+            console.log(`⏳ Waiting ${Math.ceil(waitTimeRemaining/1000)}s more for results to finalize...`);
+            return; // Continue monitoring
+          }
+          
+          if (completedJobs.length === 0) {
+            console.log("⚠️ No completed jobs found - all failed or still processing");
+            return; // Continue monitoring
+          }
+          
+          console.log(`🔍 Validating ${completedJobs.length} completed jobs have true results...`);
+          
+          // Double-check that all completed jobs have valid results
+          validateAllJobsComplete(completedJobs).then(allValid => {
+            if (allValid) {
+              console.log("✅ All jobs validated as truly complete with accessible results");
+              clearInterval(refreshInterval);
+              showCompletionMessage();
+            } else {
+              console.log("⚠️ Some jobs appear complete but results not ready - continuing monitoring for 30 more seconds");
+              
+              // Set a maximum wait time to prevent infinite monitoring
+              if (!window.maxWaitStarted) {
+                window.maxWaitStarted = Date.now();
+                window.maxWaitDuration = 30000; // 30 seconds max additional wait
+              }
+              
+              if (Date.now() - window.maxWaitStarted > window.maxWaitDuration) {
+                console.log("⏰ Maximum wait time exceeded - showing completion anyway");
+                clearInterval(refreshInterval);
+                showCompletionMessage();
+              }
+              // Continue monitoring - some jobs may still be finalizing
+            }
+          }).catch(error => {
+            console.error("❌ Validation error:", error);
+            // Continue monitoring in case of validation errors
+          });
         }
       }
 
@@ -490,6 +549,67 @@
           console.error(`Error checking status for job ${jobId}:`, error);
           return { status: "failed", message: `Error: ${error.message}` };
         }
+      }
+
+      // Validate that all completed jobs actually have results available
+      async function validateAllJobsComplete(completedJobs) {
+        if (completedJobs.length === 0) return false;
+        
+        console.log(`🔍 Validating ${completedJobs.length} completed jobs have actual results...`);
+        
+        const validationPromises = completedJobs.map(async (job) => {
+          try {
+            // Check job status via API to ensure it's truly complete with results
+            const statusResponse = await fetch(`/api/job/${job.jobId}`);
+            if (!statusResponse.ok) {
+              console.log(`⚠️ Job ${job.jobId} - Status API not accessible (HTTP ${statusResponse.status})`);
+              return false;
+            }
+            
+            const statusData = await statusResponse.json();
+            console.log(`🔍 Job ${job.jobId} validation - Status: ${statusData.status}, Message: ${statusData.message}`);
+            
+            // Only consider it valid if:
+            // 1. Status is COMPLETED (not PROCESSING)
+            // 2. No indication that results are still being finalized
+            if (statusData.status !== 'COMPLETED') {
+              console.log(`⚠️ Job ${job.jobId} - Status not COMPLETED: ${statusData.status}`);
+              return false;
+            }
+            
+            // Check if the message indicates results are still being finalized
+            const message = statusData.message || '';
+            const stillProcessing = message.includes('finalizing') || 
+                                  message.includes('generating summary') || 
+                                  message.includes('saving results') ||
+                                  message.includes('inference complete');
+            
+            if (stillProcessing) {
+              console.log(`⚠️ Job ${job.jobId} - Still finalizing: ${message}`);
+              return false;
+            }
+            
+            // Try to access the individual job results page to verify results exist
+            const pageResponse = await fetch(`/job/${job.jobId}`, { method: 'HEAD' });
+            if (pageResponse.ok) {
+              console.log(`✅ Job ${job.jobId} - Results verified and accessible`);
+              return true;
+            } else {
+              console.log(`⚠️ Job ${job.jobId} - Results page not accessible (HTTP ${pageResponse.status})`);
+              return false;
+            }
+          } catch (error) {
+            console.log(`❌ Job ${job.jobId} - Validation error: ${error.message}`);
+            return false;
+          }
+        });
+        
+        const validationResults = await Promise.all(validationPromises);
+        const allValid = validationResults.every(result => result === true);
+        
+        console.log(`📊 Validation results: ${validationResults.filter(r => r).length}/${validationResults.length} jobs have truly accessible results`);
+        
+        return allValid;
       }
 
       function updateSummaryStats() {
@@ -571,24 +691,45 @@
         const completed = allJobs.filter(
           (job) => job.status === "completed"
         ).length;
+        const failed = allJobs.filter(
+          (job) => job.status === "failed"
+        ).length;
         const total = allJobs.length;
+
+        console.log(`🎉 All processing complete! ${completed} completed, ${failed} failed, ${total} total`);
 
         // Show completion summary
         document.querySelector('.summary-stats').innerHTML += `
           <div class="completion-banner" style="background: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 1rem; margin: 1rem 0; border-radius: 8px; text-align: center;">
             <h3>🎉 Bulk Processing Complete!</h3>
-            <p>${completed} of ${total} documents processed successfully</p>
-            <p>Redirecting to results page in 3 seconds...</p>
+            <p><strong>${completed} of ${total} documents processed successfully</strong></p>
+            ${failed > 0 ? `<p style="color: #721c24;">⚠️ ${failed} documents failed processing</p>` : ''}
+            <p>✅ All results validated and ready for viewing</p>
+            <p>Redirecting to results page in <span id="redirect-countdown">5</span> seconds...</p>
             <div style="margin-top: 1rem;">
               <a href="/results-list" class="btn" style="background: #28a745; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">📋 View All Results Now</a>
             </div>
           </div>
         `;
 
+        // Add countdown timer
+        let countdown = 5;
+        const countdownElement = document.getElementById("redirect-countdown");
+        const countdownInterval = setInterval(() => {
+          countdown--;
+          if (countdownElement) {
+            countdownElement.textContent = countdown;
+          }
+          if (countdown <= 0) {
+            clearInterval(countdownInterval);
+          }
+        }, 1000);
+
         if (completed > 0) {
           setTimeout(() => {
+            console.log("🔄 Auto-redirecting to results page");
             window.location.href = "/results-list";
-          }, 3000);
+          }, 5000);
         }
       }
 
