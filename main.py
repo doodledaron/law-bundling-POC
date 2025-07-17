@@ -638,6 +638,90 @@ async def bulk_upload(request: Request, files: List[UploadFile] = File(...)):
         )
 
 
+# Single document upload endpoint for API integration
+@app.post("/api/upload", response_class=JSONResponse)
+async def api_upload_single(file: UploadFile = File(...)):
+    """
+    Single document upload with JSON response for API integration.
+    
+    This endpoint provides the same functionality as bulk-upload but for a single document.
+    Perfect for system-to-system integration where you need to process one document at a time.
+    
+    Returns:
+        JSON response with job_id for polling the processing status
+    """
+    try:
+        # Validate file
+        contents = await file.read()
+        if not contents:
+            raise HTTPException(status_code=400, detail="File is empty")
+        
+        if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
+            raise HTTPException(status_code=400, detail="Invalid file type. Only PDF, JPEG, and PNG are supported.")
+        
+        # Generate job ID
+        job_id = str(uuid.uuid4())
+        job_created_time = get_timestamp()
+        
+        # Save file
+        file_ext = os.path.splitext(file.filename)[1].lower()
+        if not file_ext:
+            if file.content_type == "application/pdf":
+                file_ext = ".pdf"
+            elif file.content_type == "image/jpeg":
+                file_ext = ".jpg"
+            elif file.content_type == "image/png":
+                file_ext = ".png"
+        
+        upload_path = os.path.join("uploads", f"{job_id}{file_ext}")
+        
+        # Set umask for proper default permissions
+        old_umask = os.umask(0o022)
+        try:
+            with open(upload_path, "wb") as f:
+                f.write(contents)
+            # Ensure file is readable by all containers
+            os.chmod(upload_path, 0o644)
+        finally:
+            os.umask(old_umask)
+        
+        # Initialize job status in Redis
+        update_job_status(redis_client, job_id, {
+            'status': 'PENDING',
+            'filename': file.filename,
+            'created_at': job_created_time,
+            'message': 'Document uploaded, waiting for processing',
+            'progress': 0
+        })
+        
+        # Submit for processing using the same function as bulk upload
+        task_result = submit_document_for_processing(job_id, upload_path, file.filename)
+        
+        # Update job status with processing info
+        update_job_status(redis_client, job_id, {
+            'task_id': task_result.id,
+            'processing_mode': 'celery_workers',
+            'updated_at': get_timestamp()
+        })
+        
+        print(f"Successfully submitted API job {job_id} for file {file.filename}")
+        
+        return {
+            "job_id": job_id,
+            "filename": file.filename,
+            "status": "submitted",
+            "message": "Document submitted for processing",
+            "polling_endpoint": f"/api/job/{job_id}",
+            "estimated_completion_minutes": 2,
+            "polling_interval_seconds": 15
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"Error in API upload: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Upload failed: {str(e)}")
+
 
 # Single document upload endpoint with container load balancing
 @app.post("/upload", response_class=HTMLResponse)
@@ -928,6 +1012,8 @@ async def api_job_status(job_id: str):
             
             # Check if results files exist AND are complete with valid content
             results_ready = False
+            results_data = None
+            
             if os.path.exists(clean_results_path):
                 try:
                     # Verify the results file has valid content and required fields
@@ -942,6 +1028,32 @@ async def api_job_status(job_id: str):
                     if has_required_fields and has_substantial_content:
                         results_ready = True
                         logger.info(f"✅ Job {job_id} - Results validated and ready for display")
+                        
+                        # PRODUCTION ENHANCEMENT: Include actual results content in API response
+                        # This makes the API much more production-friendly for system integration
+                        job_status.update({
+                            'results': {
+                                # PRIMARY RESULTS - What other systems actually need
+                                'date': results_data.get('date', 'undated'),
+                                'summary': results_data.get('summary', ''),
+                                'extracted_info': results_data.get('extracted_info', {}),
+                                
+                                # BASIC METADATA - Essential processing details only
+                                'total_pages': results_data.get('total_pages', 0),
+                                'processing_completed_at': results_data.get('processing_completed_at', '')
+                            }
+                        })
+                        
+                        # Also try to load additional metrics if available
+                        metrics_path = os.path.join(results_dir, "metrics.json")
+                        if os.path.exists(metrics_path):
+                            try:
+                                with open(metrics_path, 'r', encoding='utf-8') as f:
+                                    metrics = json.load(f)
+                                job_status['results']['metrics'] = metrics
+                            except Exception as e:
+                                logger.warning(f"⚠️ Job {job_id} - Could not load metrics: {str(e)}")
+                        
                     else:
                         logger.info(f"⚠️ Job {job_id} - Results file exists but incomplete: fields={has_required_fields}, content={has_substantial_content}")
                         
