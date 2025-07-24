@@ -304,11 +304,17 @@
                   <strong>Processing Method:</strong>
                   <span class="processing-type">
                     <i class="bi bi-cpu"></i>
-                    {% if processing_method == 'chunked_sequential' %} Chunked
-                    Sequential Processing {% elif processing_method ==
-                    'chunked_parallel' %} Chunked Parallel Processing
-                    (Controlled) {% else %} PPStructure with Layout Analysis {%
-                    endif %}
+                    {% if processing_method == 'mixed_processing_chunked' %} 
+                      Mixed Processing (PPStructure + Gemini AI)
+                    {% elif processing_method == 'gemini_only_complete' %} 
+                      Gemini AI Only
+                    {% elif processing_method == 'chunked_sequential' %} 
+                      Chunked Sequential Processing 
+                    {% elif processing_method == 'chunked_parallel' %} 
+                      Chunked Parallel Processing (Controlled) 
+                    {% else %} 
+                      PPStructure with Layout Analysis 
+                    {% endif %}
                   </span>
                 </p>
               </div>
@@ -421,7 +427,21 @@
                 <div class="metric-value">{{ total_pages or 'N/A' }}</div>
               </div>
 
-              {% if processing_method == 'chunked_sequential' or
+              {% if processing_method == 'mixed_processing_chunked' %}
+              <div class="metric-item">
+                <div class="metric-label">PPStructure Chunks</div>
+                <div class="metric-value">
+                  {{ num_ppstructure_chunks or 'N/A' }}
+                </div>
+              </div>
+
+              <div class="metric-item">
+                <div class="metric-label">Gemini Chunks</div>
+                <div class="metric-value">
+                  {{ num_gemini_chunks or 'N/A' }}
+                </div>
+              </div>
+              {% elif processing_method == 'chunked_sequential' or
               processing_method == 'chunked_parallel' %}
               <div class="metric-item">
                 <div class="metric-label">Total Chunks</div>
@@ -439,9 +459,17 @@
               <div class="metric-item">
                 <div class="metric-label">Processing Method</div>
                 <div class="metric-value">
-                  {% if processing_method == 'chunked_sequential' %} Sequential
-                  {% elif processing_method == 'chunked_parallel' %} Parallel
-                  (Controlled) {% else %} Direct {% endif %}
+                  {% if processing_method == 'mixed_processing_chunked' %} 
+                    Mixed (35%/65%)
+                  {% elif processing_method == 'gemini_only_complete' %} 
+                    Gemini Only
+                  {% elif processing_method == 'chunked_sequential' %} 
+                    Sequential
+                  {% elif processing_method == 'chunked_parallel' %} 
+                    Parallel (Controlled) 
+                  {% else %} 
+                    Direct 
+                  {% endif %}
                 </div>
               </div>
 

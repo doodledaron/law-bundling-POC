@@ -8,6 +8,7 @@ import os
 import json
 import tempfile
 import shutil
+import math
 from pathlib import Path
 import time
 import datetime
@@ -1298,6 +1299,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             "filename": file_name,  # Include the chunk filename for merge identification
             "results_path": results_path,
             "message": f"Chunk processing completed: {len(image_paths)} pages",
+            "processing_method": "ppstructure",  # Add missing processing method field
             "performance": final_results["performance"],
             # Include the actual extracted data for use by the merge function
             "combined_text": combined_text,
@@ -1386,6 +1388,272 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             "filename": file_name,
             "error": str(e),
             "message": f"Chunk processing failed: {str(e)}",
+            "processing_method": "ppstructure",  # Add missing processing method field
+            "combined_text": "",
+            "extracted_text": "",
+            "total_pages": 0,
+            "processing_time": {"seconds": 0},
+            "summary": None,
+            "extracted_info": {}
+        }
+
+@shared_task(name='tasks.process_document_with_gemini_only')
+def process_document_with_gemini_only(job_id, file_path, file_name, generate_summary=True, actual_start_page=1):
+    """
+    Process a document using only Gemini AI without PPStructure layout analysis.
+    
+    This method is optimized for smaller documents or when PPStructure processing is not needed.
+    It converts documents to images and uses Gemini for text extraction and analysis.
+    
+    Args:
+        job_id: Unique job identifier
+        file_path: Path to the document file
+        file_name: Original file name
+        generate_summary: Whether to generate summary (False for chunks, True for whole documents)
+        actual_start_page: The actual starting page number (for continuous numbering across chunks)
+        
+    Returns:
+        dict: Processing results compatible with PPStructure task format
+    """
+    try:
+        logger.info(f"🤖 Starting Gemini-only processing for job {job_id}")
+        
+        # Update active process count (increment on start)
+        update_active_processes_worker(1)
+        
+        # Start overall timing
+        overall_start_time = get_unix_timestamp()
+        
+        # Detect if this is a chunk based on filename
+        is_chunk = "chunk_" in file_name
+        chunk_id = None
+        if is_chunk:
+            # Extract chunk_id from filename
+            chunk_parts = file_name.split("_")
+            if len(chunk_parts) >= 2:
+                chunk_id = f"{chunk_parts[0]}_{chunk_parts[1]}"  # e.g., "chunk_0001"
+                logger.info(f"🔄 Processing Gemini-only chunk: {chunk_id}")
+        
+        # Create result directories
+        result_dir = os.path.join("results", job_id)
+        images_dir = os.path.join(result_dir, "images")
+        
+        # Create result directories
+        os.makedirs(result_dir, exist_ok=True)
+        os.makedirs(images_dir, exist_ok=True)
+        
+        # Process based on file type
+        file_ext = os.path.splitext(file_name)[1].lower()
+        
+        logger.info(f"🤖 [GEMINI-ONLY] Document analysis:")
+        logger.info(f"   📝 File: {file_name}")
+        logger.info(f"   📄 Type: {file_ext}")
+        logger.info(f"   🆔 Job ID: {job_id}")
+        logger.info(f"   📦 Is chunk: {is_chunk}")
+        logger.info(f"   📄 Starting page: {actual_start_page}")
+        
+        if file_ext == '.pdf':
+            # Convert PDF to images for text extraction
+            logger.info(f"📄 [GEMINI-ONLY] Converting PDF to images...")
+            images = convert_from_bytes(
+                open(file_path, "rb").read(),
+                dpi=100,
+                fmt='jpeg'
+            )
+            
+            total_pages = len(images)
+            logger.info(f"📊 [GEMINI-ONLY] PDF converted to {total_pages} page images")
+            
+            # Save all page images with correct page numbering
+            image_paths = []
+            for i, image in enumerate(images):
+                actual_page_num = actual_start_page + i
+                image_path = os.path.join(images_dir, f"page_{actual_page_num}.jpg")
+                image.save(image_path)
+                image_paths.append(image_path)
+                logger.info(f"   📄 Page {actual_page_num}: Saved as {os.path.basename(image_path)}")
+        else:
+            # Single image file
+            logger.info(f"🖼️  [GEMINI-ONLY] Processing single image file")
+            image_path = os.path.join(images_dir, f"page_{actual_start_page}.jpg")
+            shutil.copy2(file_path, image_path)
+            image_paths = [image_path]
+            total_pages = 1
+            logger.info(f"   📄 Single page: Saved as {os.path.basename(image_path)}")
+        
+        # Process each page with Gemini for text extraction
+        all_ocr_text = []
+        
+        logger.info(f"🤖 [GEMINI-ONLY] Processing {len(image_paths)} pages with Gemini AI")
+        
+        for i, img_path in enumerate(image_paths):
+            actual_page_num = actual_start_page + i
+            logger.info(f"📄 [PAGE-{i+1:02d}] Processing page {actual_page_num} with Gemini...")
+            
+            try:
+                # Read image and convert to bytes for Gemini
+                with open(img_path, 'rb') as f:
+                    img_bytes = f.read()
+                
+                # Use TextBasedProcessor to extract text from image
+                page_text = text_processor.extract_text_from_image(img_bytes, f"Page {actual_page_num}")
+                
+                if page_text and page_text.strip():
+                    all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
+                    all_ocr_text.append(page_text.strip())
+                    logger.info(f"   ✅ Page {actual_page_num}: {len(page_text)} characters extracted")
+                else:
+                    logger.warning(f"   ⚠️ Page {actual_page_num}: No text extracted")
+                    all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
+                    all_ocr_text.append("[No text extracted from this page]")
+                
+            except Exception as e:
+                logger.error(f"   ❌ Page {actual_page_num}: Error - {str(e)}")
+                all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
+                all_ocr_text.append(f"[Error extracting text: {str(e)}]")
+        
+        # Combine all text
+        combined_text = "\n".join(all_ocr_text)
+        logger.info(f"📄 Combined text length: {len(combined_text)} characters from {len(image_paths)} pages")
+        
+        # Generate document summary using Gemini (only if requested)
+        summary_result = {}
+        if generate_summary and combined_text.strip():
+            try:
+                logger.info(f"🧠 Generating summary with Gemini for job {job_id}")
+                summary_result = text_processor.summarize_document_text(combined_text, file_name)
+            except Exception as e:
+                logger.error(f"Error generating summary: {str(e)}")
+                summary_result = {
+                    "summary": "Summary generation failed",
+                    "analysis": {"error": str(e)},
+                    "usage_info": {"total_tokens": 0},
+                    "estimated_cost": 0.0
+                }
+        elif not generate_summary:
+            # For chunks, don't generate summary but provide placeholder
+            summary_result = {
+                "summary": None,
+                "analysis": {},
+                "usage_info": {"total_tokens": 0},
+                "estimated_cost": 0.0
+            }
+        
+        # Calculate performance metrics
+        overall_end_time = get_unix_timestamp()
+        processing_duration = calculate_duration(overall_start_time, overall_end_time)
+        
+        # Save results (compatible with PPStructure format)
+        results_path = os.path.join(result_dir, "results.json")
+        
+        # Create average confidence (Gemini doesn't provide confidence scores)
+        average_confidence_formatted = "N/A (Gemini AI)"
+        
+        # Save combined text to a separate file
+        combined_text_path = os.path.join(result_dir, "combined_text.txt")
+        with open(combined_text_path, 'w', encoding='utf-8') as f:
+            f.write(combined_text)
+        
+        # Extract structured information from summary result
+        extracted_info = {}
+        if generate_summary and summary_result.get("extracted_info"):
+            extracted_info = summary_result["extracted_info"]
+        else:
+            # Default structure for chunks
+            extracted_info = {
+                "key_dates": "Not available",
+                "main_parties": "Not available", 
+                "case_reference_numbers": "Not available",
+                "full_analysis": "No summary generated for individual chunks"
+            }
+        
+        # Prepare clean results (compatible with PPStructure format)
+        clean_results = {
+            "filename": file_name,
+            "job_id": job_id,
+            "processing_completed_at": datetime.datetime.now().isoformat(),
+            "total_pages": len(image_paths),
+            "summary": summary_result.get("summary", "Summary not available"),
+            "date": summary_result.get("date", "undated"),
+            "extracted_info": extracted_info,
+            "combined_text_path": f"results/{job_id}/combined_text.txt",
+            "combined_text": combined_text,
+            "estimated_cost": summary_result.get("estimated_cost", 0.0),
+            "token_usage": summary_result.get("token_usage", {}),
+            "processing_time_seconds": processing_duration.get("seconds", 0),
+            "average_confidence_formatted": average_confidence_formatted,
+            "processing_method": "gemini_only_complete"
+        }
+        
+        # Save clean results to results.json
+        with open(results_path, 'w', encoding='utf-8') as f:
+            json.dump(clean_results, f, ensure_ascii=False, indent=2)
+        
+        # Update active process count (decrement on completion)
+        update_active_processes_worker(-1)
+        
+        logger.info(f"✅ Gemini-only processing completed for job {job_id}")
+        logger.info(f"📊 Processed {len(image_paths)} pages in {processing_duration['formatted']}")
+        
+        # For complete documents (not chunks), update job status to COMPLETED
+        if not is_chunk:
+            # Initialize Redis client
+            redis_client = redis.Redis.from_url(
+                os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+            )
+            
+            update_job_status(redis_client, job_id, {
+                'status': 'COMPLETED',
+                'message': f'Document "{file_name}" processed successfully with {len(image_paths)} pages using Gemini-only processing',
+                'progress': 100,
+                'results_path': results_path,
+                'combined_text_path': combined_text_path,
+                'total_pages': len(image_paths),
+                'processing_completed_at': datetime.datetime.now().isoformat(),
+                'average_confidence_formatted': average_confidence_formatted,
+                'estimated_cost': summary_result.get("estimated_cost", 0.0),
+                'processing_time_seconds': processing_duration.get("seconds", 0),
+                'processing_method': 'gemini_only_complete',
+                'filename': file_name,
+                'updated_at': get_timestamp()
+            })
+            logger.info(f"📊 Job {job_id} marked as COMPLETED in Redis")
+        
+        # Return results compatible with PPStructure task format
+        return {
+            "job_id": job_id,
+            "status": "CHUNK_COMPLETED" if is_chunk else "COMPLETED",
+            "chunk_id": chunk_id if is_chunk and chunk_id else f"chunk_{actual_start_page}",
+            "filename": file_name,
+            "results_path": results_path,
+            "message": f"Gemini-only processing completed: {len(image_paths)} pages",
+            "processing_method": "gemini_only",
+            # Include the actual extracted data for use by the merge function
+            "combined_text": combined_text,
+            "extracted_text": combined_text,  # Alias for compatibility
+            "average_confidence_formatted": average_confidence_formatted,
+            "cost_info": {"estimated_cost": summary_result.get("estimated_cost", 0.0)},
+            "processing_time": processing_duration,
+            "total_pages": len(image_paths),
+            "summary": summary_result.get("summary", None),
+            "extracted_info": extracted_info
+        }
+        
+    except Exception as e:
+        logger.error(f"Error in Gemini-only processing: {str(e)}")
+        
+        # Update active process count (decrement on failure)
+        update_active_processes_worker(-1)
+        
+        # Return chunk failure result instead of raising exception
+        return {
+            "job_id": job_id,
+            "status": "CHUNK_FAILED",
+            "chunk_id": file_name,
+            "filename": file_name,
+            "error": str(e),
+            "message": f"Gemini-only processing failed: {str(e)}",
+            "processing_method": "gemini_only",
             "combined_text": "",
             "extracted_text": "",
             "total_pages": 0,
@@ -1424,9 +1692,11 @@ def merge_and_summarize_chunks(chunk_results, job_id):
         if not chunk_results:
             raise ValueError("No chunk results provided for merging")
         
-        # Separate successful and failed chunks
+        # Separate successful and failed chunks, and track processing methods
         successful_chunks = []
         failed_chunks = []
+        ppstructure_chunks = []
+        gemini_chunks = []
         
         for i, chunk_result in enumerate(chunk_results):
             if chunk_result and isinstance(chunk_result, dict):
@@ -1435,7 +1705,18 @@ def merge_and_summarize_chunks(chunk_results, job_id):
                     logger.warning(f"   ❌ Chunk {i}: FAILED - {chunk_result.get('error', 'Unknown error')}")
                 else:
                     successful_chunks.append((i, chunk_result))
-                    logger.info(f"   ✅ Chunk {i}: SUCCESS - {chunk_result.get('filename', 'unknown')}")
+                    processing_method = chunk_result.get('processing_method', 'unknown')
+                    
+                    # Track processing methods (more robust matching)
+                    if processing_method == 'ppstructure' or 'ppstructure' in processing_method.lower():
+                        ppstructure_chunks.append(chunk_result)
+                    elif processing_method in ['gemini_only', 'gemini', 'gemini_only_bulk']:
+                        gemini_chunks.append(chunk_result)
+                    else:
+                        # Log unknown processing methods for debugging
+                        logger.warning(f"   ⚠️  Unknown processing method: '{processing_method}' for chunk {i}")
+                    
+                    logger.info(f"   ✅ Chunk {i}: SUCCESS - {chunk_result.get('filename', 'unknown')} ({processing_method})")
             else:
                 failed_chunks.append({"error": "Invalid chunk result", "chunk_index": i})
                 logger.warning(f"   ⚠️ Chunk {i}: invalid result format")
@@ -1446,6 +1727,13 @@ def merge_and_summarize_chunks(chunk_results, job_id):
         
         if failed_chunks:
             logger.warning(f"⚠️ {len(failed_chunks)} chunks failed, proceeding with {len(successful_chunks)} successful chunks")
+        
+        # Log mixed processing statistics
+        logger.info(f"📊 Mixed processing summary:")
+        logger.info(f"   🔧 PPStructure chunks: {len(ppstructure_chunks)}")
+        logger.info(f"   🤖 Gemini-only chunks: {len(gemini_chunks)}")
+        logger.info(f"   ✅ Total successful: {len(successful_chunks)}")
+        logger.info(f"   ❌ Total failed: {len(failed_chunks)}")
         
         # Extract original document filename from the first successful chunk
         original_filename = "unknown_document"
@@ -1585,10 +1873,13 @@ def merge_and_summarize_chunks(chunk_results, job_id):
             "token_usage": summary_result.get("token_usage", {}),
             "processing_time_seconds": total_processing_time,
             "average_confidence_formatted": average_confidence_formatted,
-            "processing_method": "high_throughput_chunked",
+            "processing_method": "mixed_processing_chunked",
             "num_chunks_processed": len(chunk_results),
             "num_chunks_successful": len(successful_chunks),
             "num_chunks_failed": len(failed_chunks),
+            "num_ppstructure_chunks": len(ppstructure_chunks),
+            "num_gemini_chunks": len(gemini_chunks),
+            "mixed_processing_ratio": f"{len(ppstructure_chunks)}:{len(gemini_chunks)} (PPStructure:Gemini)",
             "chunk_order": [c['chunk_id'] for c in chunk_data]  # Record the order used
         }
         
@@ -1607,10 +1898,13 @@ def merge_and_summarize_chunks(chunk_results, job_id):
             "performance": {
                 "total_pages": total_pages,
                 "processing_time": {"seconds": total_processing_time},
-                "high_throughput_processing": True,
+                "mixed_processing": True,
                 "num_chunks": len(chunk_results),
                 "num_chunks_successful": len(successful_chunks),
                 "num_chunks_failed": len(failed_chunks),
+                "num_ppstructure_chunks": len(ppstructure_chunks),
+                "num_gemini_chunks": len(gemini_chunks),
+                "mixed_processing_ratio": f"{len(ppstructure_chunks)}:{len(gemini_chunks)} (PPStructure:Gemini)",
                 "chunk_order": [c['chunk_id'] for c in chunk_data]
             },
             "confidence_metrics": {
@@ -1629,7 +1923,7 @@ def merge_and_summarize_chunks(chunk_results, job_id):
         # CRITICAL: Only NOW mark the job as COMPLETED (all chunks processed and merged)
         update_job_status(redis_client, job_id, {
             'status': 'COMPLETED',
-            'message': f'Document "{original_filename}" processed successfully with {total_pages} pages using high-throughput chunking',
+            'message': f'Document "{original_filename}" processed successfully with {total_pages} pages using mixed processing ({len(ppstructure_chunks)} PPStructure + {len(gemini_chunks)} Gemini)',
             'progress': 100,
             'results_path': results_path,
             'combined_text_path': combined_text_path,
@@ -1638,28 +1932,35 @@ def merge_and_summarize_chunks(chunk_results, job_id):
             'average_confidence_formatted': average_confidence_formatted,
             'estimated_cost': summary_result.get("estimated_cost", total_cost),
             'processing_time_seconds': total_processing_time,
-            'processing_method': 'high_throughput_chunked',
+            'processing_method': 'mixed_processing_chunked',
             'num_chunks_processed': len(chunk_results),
             'num_chunks_successful': len(successful_chunks),
             'num_chunks_failed': len(failed_chunks),
+            'num_ppstructure_chunks': len(ppstructure_chunks),
+            'num_gemini_chunks': len(gemini_chunks),
+            'mixed_processing_ratio': f"{len(ppstructure_chunks)}:{len(gemini_chunks)} (PPStructure:Gemini)",
             'filename': original_filename,  # Store original filename
             'updated_at': get_timestamp()
         })
         
         logger.info(f"✅ Merge and summarize completed for job {job_id}")
         logger.info(f"📄 Final document: {original_filename} ({total_pages} pages)")
+        logger.info(f"📊 Mixed results: {len(ppstructure_chunks)} PPStructure + {len(gemini_chunks)} Gemini chunks")
         
         return {
             "job_id": job_id,
             "status": "COMPLETED",
             "filename": original_filename,  # Return original filename
             "results_path": results_path,
-            "message": f'Document "{original_filename}" processed successfully with {total_pages} pages using high-throughput chunking',
+            "message": f'Document "{original_filename}" processed successfully with {total_pages} pages using mixed processing ({len(ppstructure_chunks)} PPStructure + {len(gemini_chunks)} Gemini)',
             "total_pages": total_pages,
             "num_chunks_processed": len(chunk_results),
             "num_chunks_successful": len(successful_chunks),
             "num_chunks_failed": len(failed_chunks),
-            "processing_method": "high_throughput_chunked",
+            "num_ppstructure_chunks": len(ppstructure_chunks),
+            "num_gemini_chunks": len(gemini_chunks),
+            "mixed_processing_ratio": f"{len(ppstructure_chunks)}:{len(gemini_chunks)} (PPStructure:Gemini)",
+            "processing_method": "mixed_processing_chunked",
             "summary": final_summary,
             "estimated_cost": summary_result.get("estimated_cost", total_cost)
         }

@@ -400,6 +400,58 @@ Return a detailed analysis that includes both the raw data and key insights from
         except Exception as e:
             return f"CHART EXTRACTION ERROR: Unable to process chart image. Error: {str(e)}"
 
+    def extract_text_from_image(self, image_data: bytes, context: str = "") -> str:
+        """
+        Extract text from an image using Gemini AI OCR capabilities.
+        
+        Args:
+            image_data: Bytes of the image to extract text from
+            context: Optional context about the image (e.g., page number)
+            
+        Returns:
+            String containing extracted text
+        """
+        try:
+            # Check if Google AI is available
+            if not GOOGLE_AI_AVAILABLE or self.client is None:
+                return "Google AI not available for text extraction"
+            
+            # Prepare the image for Gemini
+            mime_type = "image/png"  # Assume PNG, but could be determined from image header
+            image_part = types.Part.from_bytes(data=image_data, mime_type=mime_type)
+            
+            # Create prompt for text extraction
+            prompt = f"""
+Extract all text content from this image with high accuracy.
+Follow these guidelines:
+1. Extract ALL visible text, including headers, body text, footnotes, and any annotations
+2. Maintain the reading order as much as possible (top to bottom, left to right)
+3. Preserve line breaks and paragraph structure where evident
+4. Include any numbers, dates, references, and special characters
+5. If text appears to be in tables, preserve the tabular structure with appropriate spacing
+6. For any unclear or partially visible text, make your best interpretation
+7. Do not add any commentary or descriptions - only return the extracted text
+
+Context: {context}
+
+Return ONLY the extracted text content from the image.
+"""
+            
+            # Generate content using Gemini
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=[prompt, image_part],
+                config=types.GenerateContentConfig(**self.generation_config)
+            )
+            
+            # Extract and return the text
+            extracted_text = self._safe_extract_text(response)
+            
+            return extracted_text
+            
+        except Exception as e:
+            return f"TEXT EXTRACTION ERROR: Unable to extract text from image. Error: {str(e)}"
+
     def process_figure_image(self, image_data: bytes, context: str = "") -> str:
         """
         Process an image containing a figure and extract a description of its content.
