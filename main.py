@@ -177,7 +177,8 @@ def submit_document_for_processing(job_id, file_path, file_name):
     """
     try:
         # Import tasks
-        from tasks.ppstructure_tasks import process_document_with_ppstructure, merge_and_summarize_chunks
+        from tasks.ppstructure_tasks import process_document_with_ppstructure, process_document_with_gemini_only, merge_and_summarize_chunks
+        import math
         
         # Get current system load for logging
         load_info = get_system_load_info()
@@ -190,139 +191,247 @@ def submit_document_for_processing(job_id, file_path, file_name):
         chunk_files = []
         
         if file_ext == '.pdf':
-            logger.info(f"📄 Converting PDF to images for 5-page chunking: {file_name}")
+            logger.info(f"📄 Converting PDF to detect page count: {file_name}")
             # Convert PDF to images using convert_from_bytes
             with open(file_path, "rb") as f:
                 pdf_bytes = f.read()
             images = convert_from_bytes(pdf_bytes, dpi=100)
             
             total_pages = len(images)
-            logger.info(f"📄 PDF converted to {total_pages} pages, creating 5-page chunks")
+            logger.info(f"📄 PDF has {total_pages} pages")
             
-            # Calculate chunk ranges using fixed 5-page size
-            chunk_ranges = []
-            for start_page in range(0, total_pages, PAGES_PER_CHUNK):
-                end_page = min(start_page + PAGES_PER_CHUNK - 1, total_pages - 1)
-                chunk_ranges.append((start_page, end_page))
-            
-            num_chunks = len(chunk_ranges)
-            logger.info(f"📦 Fixed 5-page chunking for {total_pages} pages: {num_chunks} chunks")
-            logger.info(f"📦 Chunk ranges: {chunk_ranges}")
-            
-            # Create chunks directory
-            chunks_dir = os.path.join("chunks", job_id)
-            os.makedirs(chunks_dir, exist_ok=True)
-            
-            # Create chunk files for each page range
-            for chunk_idx, (start_page, end_page) in enumerate(chunk_ranges):
-                chunk_id = f"chunk_{chunk_idx:04d}"
-                chunk_file_name = f"{chunk_id}_{file_name}"
-                chunk_file_path = os.path.join(chunks_dir, chunk_file_name)
+            # DECISION POINT: Choose processing method based on page count
+            if total_pages < 7:
+                logger.info(f"🤖 Document has {total_pages} pages (<7) - Using Gemini-only processing with merge")
+                # Use single Gemini-only task followed by merge for consistency
+                gemini_task = process_document_with_gemini_only.s(
+                    job_id,
+                    file_path,
+                    file_name,
+                    generate_summary=False,  # Let merge function handle summary
+                    actual_start_page=1
+                )
                 
-                # Extract pages for this chunk
-                chunk_images = []
-                for page_idx in range(start_page, end_page + 1):
-                    if page_idx < len(images):
-                        chunk_images.append(images[page_idx])
+                # Create merge task that will handle final summary and completion
+                merge_task = merge_and_summarize_chunks.s(job_id)
                 
-                if chunk_images:
-                    # Save chunk as PDF or image
-                    if len(chunk_images) == 1:
-                        # Single page - save as image
-                        chunk_images[0].save(chunk_file_path.replace('.pdf', '.jpg'))
-                        chunk_file_path = chunk_file_path.replace('.pdf', '.jpg')
-                        chunk_file_name = chunk_file_name.replace('.pdf', '.jpg')  # Fix: Update filename too
+                # Update job status for Gemini-only processing with merge
+                update_job_status(redis_client, job_id, {
+                    'status': 'PROCESSING',
+                    'message': f'Document "{file_name}" ({total_pages} pages) processing with Gemini-only method',
+                    'progress': 10,
+                    'processing_mode': 'gemini_only_complete',
+                    'total_pages': total_pages,
+                    'original_filename': file_name,
+                    'updated_at': get_timestamp()
+                })
+                
+                # Execute as chord: Gemini task then merge (consistent with mixed processing)
+                chord_result = chord([gemini_task], merge_task).apply_async(
+                    queue='chunk_queue',
+                    routing_key='chunk_queue'
+                )
+                
+                logger.info(f"📋 Submitted small document {job_id} ({file_name}) for Gemini-only processing with merge")
+                return chord_result
+            
+            else:
+                logger.info(f"📄 Document has {total_pages} pages (≥7) - Using mixed processing (30% PPStructure, 70% Gemini)")
+                logger.info(f"📄 Creating page-based chunks with max {PAGES_PER_CHUNK} pages per chunk")
+            
+                # Calculate page-based distribution (30% PPStructure, 70% Gemini-only)
+                ppstructure_pages = max(1, math.ceil(total_pages * 0.30))  # At least 1 page for PPStructure
+                gemini_pages = total_pages - ppstructure_pages
+                
+                logger.info(f"📦 Page-based distribution for {total_pages} pages:")
+                logger.info(f"📦 PPStructure: {ppstructure_pages} pages (30%), Gemini-only: {gemini_pages} pages (70%)")
+                
+                # Create chunk ranges based on page allocation
+                chunk_ranges = []
+                current_page = 0
+                
+                # First create PPStructure chunks (up to PAGES_PER_CHUNK pages each)
+                pages_remaining_ppstructure = ppstructure_pages
+                while pages_remaining_ppstructure > 0:
+                    chunk_size = min(PAGES_PER_CHUNK, pages_remaining_ppstructure)
+                    end_page = current_page + chunk_size - 1
+                    chunk_ranges.append((current_page, end_page, "ppstructure"))
+                    current_page += chunk_size
+                    pages_remaining_ppstructure -= chunk_size
+                
+                # NEW: Create ONE large Gemini-only chunk for 70% of pages (single container processing)
+                if gemini_pages > 0:
+                    end_page = current_page + gemini_pages - 1
+                    chunk_ranges.append((current_page, end_page, "gemini_only_bulk"))
+                    logger.info(f"📦 Creating single bulk Gemini chunk: pages {current_page + 1}-{end_page + 1} ({gemini_pages} pages)")
+                    current_page += gemini_pages
+                
+                num_chunks = len(chunk_ranges)
+                ppstructure_chunks = sum(1 for _, _, method in chunk_ranges if method == "ppstructure")
+                gemini_chunks = sum(1 for _, _, method in chunk_ranges if method in ["gemini_only", "gemini_only_bulk"])
+                
+                logger.info(f"📦 Created {num_chunks} total chunks: {ppstructure_chunks} PPStructure chunks, {gemini_chunks} Gemini-only chunks")
+                logger.info(f"📦 NEW STRATEGY: PPStructure uses {PAGES_PER_CHUNK}-page chunks, Gemini uses 1 bulk chunk for entire 70%")
+                logger.info(f"📦 Chunk ranges: {[(start, end, method) for start, end, method in chunk_ranges]}")
+            
+                # Create chunks directory
+                chunks_dir = os.path.join("chunks", job_id)
+                os.makedirs(chunks_dir, exist_ok=True)
+                
+                # Create chunk files for each page range with processing method assignment
+                for chunk_idx, (start_page, end_page, processing_method) in enumerate(chunk_ranges):
+                    chunk_id = f"chunk_{chunk_idx:04d}"
+                    chunk_file_name = f"{chunk_id}_{file_name}"
+                    chunk_file_path = os.path.join(chunks_dir, chunk_file_name)
+                    
+                    # Processing method is already determined in chunk_ranges
+                    
+                    # Extract pages for this chunk
+                    chunk_images = []
+                    for page_idx in range(start_page, end_page + 1):
+                        if page_idx < len(images):
+                            chunk_images.append(images[page_idx])
+                    
+                    if chunk_images:
+                        # Save chunk as PDF or image
+                        if len(chunk_images) == 1:
+                            # Single page - save as image
+                            chunk_images[0].save(chunk_file_path.replace('.pdf', '.jpg'))
+                            chunk_file_path = chunk_file_path.replace('.pdf', '.jpg')
+                            chunk_file_name = chunk_file_name.replace('.pdf', '.jpg')
+                        else:
+                            # Multiple pages - save as PDF
+                            chunk_images[0].save(chunk_file_path, save_all=True, append_images=chunk_images[1:])
+                        
+                        # Ensure proper file permissions
+                        os.chmod(chunk_file_path, 0o644)
+                        
+                        chunk_files.append({
+                            'chunk_id': chunk_id,
+                            'chunk_file_path': chunk_file_path,
+                            'chunk_file_name': chunk_file_name,
+                            'start_page': start_page + 1,  # 1-based page numbering
+                            'end_page': end_page + 1,
+                            'actual_pages': len(chunk_images),
+                            'processing_method': processing_method
+                        })
+                        
+                        pages_desc = f"pages {start_page + 1}-{end_page + 1}" if len(chunk_images) > 1 else f"page {start_page + 1}"
+                        logger.info(f"📦 Created {chunk_id}: {pages_desc} ({len(chunk_images)} pages) - {processing_method}")
                     else:
-                        # Multiple pages - save as PDF
-                        chunk_images[0].save(chunk_file_path, save_all=True, append_images=chunk_images[1:])
-                    
-                    # Ensure proper file permissions
-                    os.chmod(chunk_file_path, 0o644)
-                    
-                    chunk_files.append({
-                        'chunk_id': chunk_id,
-                        'chunk_file_path': chunk_file_path,
-                        'chunk_file_name': chunk_file_name,
-                        'start_page': start_page + 1,  # 1-based page numbering
-                        'end_page': end_page + 1,
-                        'actual_pages': len(chunk_images)
-                    })
-                    
-                    pages_desc = f"pages {start_page + 1}-{end_page + 1}" if len(chunk_images) > 1 else f"page {start_page + 1}"
-                    logger.info(f"📦 Created {chunk_id}: {pages_desc} ({len(chunk_images)} pages)")
-                else:
-                    logger.info(f"📦 Skipped {chunk_id}: no pages in range {start_page}-{end_page}")
+                        logger.info(f"📦 Skipped {chunk_id}: no pages in range {start_page}-{end_page}")
         
         else:
-            # Single image file - create one chunk
-            logger.info(f"🖼️  Single image file, creating 1 chunk: {file_name}")
+            # Single image file - use Gemini-only processing (always < 7 pages)
+            logger.info(f"🖼️  Single image file - Using Gemini-only processing with merge: {file_name}")
             
-            chunks_dir = os.path.join("chunks", job_id)
-            os.makedirs(chunks_dir, exist_ok=True)
+            # Use sinHeemini-only task for single image
+            gemini_task = process_document_with_gemini_only.s(
+                job_id,
+                file_path,
+                file_name,
+                generate_summary=False,  # Let merge function handle summary
+                actual_start_page=1
+            )
             
-            # For single image, create one chunk
-            chunk_idx = 0
-            chunk_id = f"chunk_{chunk_idx:04d}"
-            chunk_file_name = f"{chunk_id}_{file_name}"
-            chunk_file_path = os.path.join(chunks_dir, chunk_file_name)
+            # Create merge task that will handle final summary and completion
+            merge_task = merge_and_summarize_chunks.s(job_id)
             
-            # Copy the original file
-            shutil.copy2(file_path, chunk_file_path)
-            os.chmod(chunk_file_path, 0o644)
-            
-            chunk_files.append({
-                'chunk_id': chunk_id,
-                'chunk_file_path': chunk_file_path,
-                'chunk_file_name': chunk_file_name,
-                'start_page': 1,  # Single page always starts at 1
-                'end_page': 1,
-                'actual_pages': 1
+            # Update job status for Gemini-only processing with merge
+            update_job_status(redis_client, job_id, {
+                'status': 'PROCESSING',
+                'message': f'Single image "{file_name}" processing with Gemini-only method',
+                'progress': 10,
+                'processing_mode': 'gemini_only_complete',
+                'total_pages': 1,
+                'original_filename': file_name,
+                'updated_at': get_timestamp()
             })
             
-            logger.info(f"📦 Created {chunk_id}: single image file")
+            # Execute as chord: Gemini task then merge (consistent with all other processing)
+            chord_result = chord([gemini_task], merge_task).apply_async(
+                queue='chunk_queue',
+                routing_key='chunk_queue'
+            )
+            
+            logger.info(f"📋 Submitted single image {job_id} ({file_name}) for Gemini-only processing with merge")
+            return chord_result
         
         if not chunk_files:
             raise ValueError("No chunks could be created from the document")
         
-        # Create Celery chord tasks for parallel chunk processing
+        # Create Celery chord tasks for mixed parallel chunk processing
         shared_queue = 'chunk_queue'  # Use shared queue for all chunk tasks
         
-        # Create chunk processing tasks - all chunks processed in parallel
+        # Create chunk processing tasks - mixed PPStructure and Gemini-only
         chunk_tasks = []
+        ppstructure_count = 0
+        gemini_count = 0
+        
         for chunk_info in chunk_files:
-            chunk_task = process_document_with_ppstructure.s(
-                job_id,
-                chunk_info['chunk_file_path'],
-                chunk_info['chunk_file_name'],
-                generate_summary=False,  # No summary for individual chunks
-                actual_start_page=chunk_info['start_page'],
-                enable_visualizations=False,  # Disabled for performance
-                enable_table_extraction=True,
-                enable_figure_extraction=True,
-                enable_chart_extraction=True,
-                fast_mode=False,  # Keep advanced features enabled
-                parallel_extraction=True,  # Enable parallel extraction within chunks
-                max_extraction_workers=4  # Limit workers per chunk for resource control
-            )
+            processing_method = chunk_info['processing_method']
+            
+            if processing_method == 'ppstructure':
+                # PPStructure processing task
+                chunk_task = process_document_with_ppstructure.s(
+                    job_id,
+                    chunk_info['chunk_file_path'],
+                    chunk_info['chunk_file_name'],
+                    generate_summary=False,  # No summary for individual chunks
+                    actual_start_page=chunk_info['start_page'],
+                    enable_visualizations=False,  # Disabled for performance
+                    enable_table_extraction=True,
+                    enable_figure_extraction=True,
+                    enable_chart_extraction=True,
+                    fast_mode=False,  # Keep advanced features enabled
+                    parallel_extraction=True,  # Enable parallel extraction within chunks
+                    max_extraction_workers=4  # Limit workers per chunk for resource control
+                )
+                ppstructure_count += 1
+            elif processing_method in ['gemini_only', 'gemini_only_bulk']:
+                # Gemini-only processing task (both regular and bulk)
+                chunk_task = process_document_with_gemini_only.s(
+                    job_id,
+                    chunk_info['chunk_file_path'],
+                    chunk_info['chunk_file_name'],
+                    generate_summary=False,  # No summary for individual chunks
+                    actual_start_page=chunk_info['start_page']
+                )
+                gemini_count += 1
+            else:
+                # Fallback for unknown processing methods
+                logger.warning(f"Unknown processing method: {processing_method}, defaulting to Gemini-only")
+                chunk_task = process_document_with_gemini_only.s(
+                    job_id,
+                    chunk_info['chunk_file_path'],
+                    chunk_info['chunk_file_name'],
+                    generate_summary=False,
+                    actual_start_page=chunk_info['start_page']
+                )
+                gemini_count += 1
+            
             chunk_tasks.append(chunk_task)
         
         # Create merge task that will combine results
         merge_task = merge_and_summarize_chunks.s(job_id)
         
-        # Submit chord: run chunk tasks in parallel, then merge results
+        # Submit chord: run mixed chunk tasks in parallel, then merge results
         num_chunks = len(chunk_files)
-        logger.info(f"📤 Submitting {num_chunks} chunks for high-throughput processing (job {job_id})")
+        logger.info(f"📤 Submitting {num_chunks} chunks for mixed processing (job {job_id})")
+        logger.info(f"📤 Distribution: {ppstructure_count} PPStructure, {gemini_count} Gemini-only")
         logger.info(f"📤 Queue: {shared_queue} | Containers: 6 | Concurrency: 3 per container")
         logger.info(f"📤 Expected parallelism: up to {min(num_chunks, 18)} concurrent chunk processes")
         
-        # Update job status to show chunking started
+        # Update job status to show mixed chunking started
         update_job_status(redis_client, job_id, {
             'status': 'PROCESSING',
-            'message': f'Document "{file_name}" split into {num_chunks} chunks (5 pages each) for high-throughput processing',
+            'message': f'Document "{file_name}" split into {num_chunks} chunks for mixed processing (30% PPStructure in {ppstructure_count} small chunks, 70% Gemini in 1 bulk chunk)',
             'progress': 5,  # Small initial progress to show work started
             'num_chunks': num_chunks,
+            'ppstructure_chunks': ppstructure_count,
+            'gemini_chunks': gemini_count,
             'chunks_created': [chunk['chunk_id'] for chunk in chunk_files],
-            'processing_mode': 'high_throughput_chunked',
+            'processing_mode': 'mixed_processing_chunked',
             'chunk_size': PAGES_PER_CHUNK,
             'expected_parallelism': min(num_chunks, 18),  # 6 containers * 3 concurrency = 18 max
             'original_filename': file_name,  # Store original filename for merge task
@@ -335,7 +444,8 @@ def submit_document_for_processing(job_id, file_path, file_name):
             routing_key=shared_queue
         )
         
-        logger.info(f"📋 Submitted document {job_id} ({file_name}) as {num_chunks}-chunk chord")
+        logger.info(f"📋 Submitted document {job_id} ({file_name}) as {num_chunks}-chunk mixed processing chord")
+        logger.info(f"📋 Mixed strategy: {ppstructure_count} PPStructure + {gemini_count} Gemini-only chunks")
         logger.info(f"📋 Chunking strategy: {PAGES_PER_CHUNK} pages per chunk")
         logger.info(f"📋 Load: {load_info['load_level']}, Active: {load_info['active_processes']}/{load_info['max_processes']}")
         
@@ -950,6 +1060,9 @@ async def get_job_status(request: Request, job_id: str):
                     "token_usage": results.get("token_usage", {}),
                     "processing_method": results.get("processing_method", "unknown"),
                     "date": results.get("date", "undated"),
+                    # Mixed processing metrics
+                    "num_ppstructure_chunks": results.get("num_ppstructure_chunks", 0),
+                    "num_gemini_chunks": results.get("num_gemini_chunks", 0),
                     # Extracted info fields
                     "extracted_info": results.get("extracted_info", {}),
                     # Page results from PPStructure file (with fixed paths)
