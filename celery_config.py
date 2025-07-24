@@ -52,7 +52,7 @@ celery_app.conf.update(
     worker_concurrency=1,  # Single process for GPU stability and no duplicate logs
     
     # Worker memory management - for heavy model processing (Option A: optimized for 3 concurrency)
-    worker_max_tasks_per_child=6,  # Restart worker after 6 tasks to prevent memory leaks (optimized for fewer restarts)
+    worker_max_tasks_per_child=1,
     worker_max_memory_per_child=6144000,  # 6GB memory limit per worker (3 concurrent tasks per container)
     
     # Task pool settings for memory management

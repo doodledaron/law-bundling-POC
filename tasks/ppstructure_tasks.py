@@ -663,28 +663,12 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             logger.info(f"   📦 Processing: {file_name}")
             logger.info(f"   🆔 Job ID: {job_id}")
             
-            # Clear any existing pipeline to ensure fresh start
+            # Get pipeline instance - no manual clearing needed with worker_max_tasks_per_child=1
             global pipeline, pipeline_initialization_attempted
-            if pipeline is not None:
-                try:
-                    del pipeline
-                    pipeline = None
-                    logger.info(f"   🧹 Cleared existing pipeline instance")
-                except:
-                    pass
             
-            # Force garbage collection and CUDA cleanup for fresh start
+            # Minimal memory management - full cleanup handled by worker restart
             import gc
             gc.collect()
-            
-            try:
-                import torch
-                if torch.cuda.is_available():
-                    torch.cuda.empty_cache()
-                    torch.cuda.synchronize()
-                    logger.info(f"   💾 CUDA memory cleared for fresh document processing")
-            except ImportError:
-                pass
             
             # Initialize fresh pipeline for this document
             pipeline_instance = ensure_pipeline_initialized()
@@ -1249,44 +1233,9 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         # Update active process count (decrement on completion)
         update_active_processes_worker(-1)
         
-        # 🧹 DOCUMENT-LEVEL CLEANUP (Only after entire document is processed)
-        # This is where we dispose of the pipeline and do final memory cleanup
-        logger.info(f"🧹 [DOCUMENT] Starting final cleanup after document completion")
-        try:
-            # Dispose of the pipeline instance used for this document
-            if 'pipeline_instance' in locals():
-                del pipeline_instance
-                logger.info(f"   🗑️  Pipeline instance disposed")
-            
-            # Clear the global pipeline reference for this worker and reset initialization flag
-            if pipeline is not None:
-                del pipeline
-                pipeline = None
-                logger.info(f"   🗑️  Global pipeline reference cleared")
-            
-            # Reset initialization flag so next document can initialize fresh
-            pipeline_initialization_attempted = False
-            logger.info(f"   🔄 Pipeline initialization flag reset for next document")
-            
-            # Final garbage collection after document completion
-            import gc
-            gc.collect()
-            logger.info(f"   ♻️  Garbage collection completed")
-            
-            # Final CUDA memory cleanup after document completion
-            try:
-                import torch
-                if torch.cuda.is_available():
-                    torch.cuda.empty_cache()
-                    torch.cuda.synchronize()
-                    logger.info(f"   💾 Final CUDA memory cleanup completed")
-            except ImportError:
-                pass
-            
-            logger.info(f"✅ [DOCUMENT] Final cleanup completed - worker ready for next document")
-            
-        except Exception as cleanup_error:
-            logger.warning(f"⚠️ [DOCUMENT] Cleanup warning: {str(cleanup_error)}")
+        # Pipeline cleanup handled automatically by worker_max_tasks_per_child=1
+        # No manual cleanup needed - worker will restart after this task
+        logger.info(f"✅ [DOCUMENT] Task completed - worker cleanup handled by worker_max_tasks_per_child=1")
         
         # Prepare final results for chunk (not document completion)
         final_results = clean_results.copy()
@@ -1318,43 +1267,9 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         # Update active process count (decrement on failure)
         update_active_processes_worker(-1)
         
-        # 🧹 DOCUMENT-LEVEL CLEANUP ON ERROR (Ensure cleanup even on failure)
-        logger.info(f"🧹 [DOCUMENT] Starting cleanup after processing error")
-        try:
-            # Dispose of the pipeline instance used for this document
-            if 'pipeline_instance' in locals():
-                del pipeline_instance
-                logger.info(f"   🗑️  Pipeline instance disposed (after error)")
-            
-            # Clear the global pipeline reference for this worker and reset initialization flag
-            if pipeline is not None:
-                del pipeline
-                pipeline = None
-                logger.info(f"   🗑️  Global pipeline reference cleared (after error)")
-            
-            # Reset initialization flag so next document can initialize fresh
-            pipeline_initialization_attempted = False
-            logger.info(f"   🔄 Pipeline initialization flag reset for next document")
-            
-            # Final garbage collection after error
-            import gc
-            gc.collect()
-            logger.info(f"   ♻️  Garbage collection completed (after error)")
-            
-            # Final CUDA memory cleanup after error
-            try:
-                import torch
-                if torch.cuda.is_available():
-                    torch.cuda.empty_cache()
-                    torch.cuda.synchronize()
-                    logger.info(f"   💾 CUDA memory cleanup completed (after error)")
-            except ImportError:
-                pass
-            
-            logger.info(f"✅ [DOCUMENT] Error cleanup completed - worker ready for next document")
-            
-        except Exception as cleanup_error:
-            logger.warning(f"⚠️ [DOCUMENT] Error cleanup warning: {str(cleanup_error)}")
+        # Pipeline cleanup handled automatically by worker_max_tasks_per_child=1
+        # No manual cleanup needed - worker will restart after this task
+        logger.info(f"✅ [DOCUMENT] Task failed - worker cleanup handled by worker_max_tasks_per_child=1")
         
         # For chunk failures, update progress but don't mark entire job as FAILED
         # The merge task will determine final status based on chunk results
