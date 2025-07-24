@@ -22,6 +22,8 @@ import json
 import time
 import os
 import sys
+import psutil
+import traceback
 from datetime import datetime
 
 # API Configuration
@@ -42,64 +44,97 @@ except ImportError:
     print("⚠️ reportlab not installed; falling back to minimal generator")
 
 
+def log_memory_usage(context=""):
+    """Log current memory usage"""
+    try:
+        process = psutil.Process()
+        memory_info = process.memory_info()
+        memory_mb = memory_info.rss / (1024 * 1024)
+        print(f"🧠 Memory usage {context}: {memory_mb:.1f} MB")
+        
+        # Check if memory usage is getting high (over 2GB)
+        if memory_mb > 2048:
+            print(f"⚠️  HIGH MEMORY USAGE: {memory_mb:.1f} MB")
+        
+        return memory_mb
+    except Exception as e:
+        print(f"⚠️  Could not check memory usage: {e}")
+        return 0
+
 def create_minimal_pdf(num_pages, content_per_page="Sample legal document content"):
     """Create a sample legal PDF of `num_pages`, using ReportLab if available."""
-    if USE_REPORTLAB:
-        buf = io.BytesIO()
-        c = canvas.Canvas(buf, pagesize=letter)
-        for i in range(num_pages):
-            text = (
-                f"Page {i+1}\n"
-                f"{content_per_page}\n"
-                f"This is page {i+1} of {num_pages}."
-            )
-            for line_no, line in enumerate(text.split("\n")):
-                c.drawString(72, 720 - line_no * 14, line)
-            c.showPage()
-        c.save()
-        pdf_bytes = buf.getvalue()
-        buf.close()
-        print(f"   📄 PDF created via ReportLab: {len(pdf_bytes):,} bytes")
-        return pdf_bytes
+    log_memory_usage(f"before creating {num_pages}-page PDF")
+    
+    try:
+        if USE_REPORTLAB:
+            buf = io.BytesIO()
+            c = canvas.Canvas(buf, pagesize=letter)
+            for i in range(num_pages):
+                # Log memory every 100 pages for large documents
+                if num_pages > 100 and i % 100 == 0:
+                    log_memory_usage(f"after page {i} of {num_pages}")
+                
+                text = (
+                    f"Page {i+1}\n"
+                    f"{content_per_page}\n"
+                    f"This is page {i+1} of {num_pages}."
+                )
+                for line_no, line in enumerate(text.split("\n")):
+                    c.drawString(72, 720 - line_no * 14, line)
+                c.showPage()
+            c.save()
+            pdf_bytes = buf.getvalue()
+            buf.close()
+            log_memory_usage(f"after creating {num_pages}-page PDF")
+            print(f"   📄 PDF created via ReportLab: {len(pdf_bytes):,} bytes")
+            return pdf_bytes
 
-    # fallback to your original minimal generator
-    print("   ⚠️ Using fallback minimal PDF generator")
-    pdf_objects = []
-    pdf_content = "%PDF-1.4\n"
-    # Catalog
-    pdf_objects.append("1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n")
-    # Pages
-    refs = " ".join(f"{3+i} 0 R" for i in range(num_pages))
-    pdf_objects.append(f"2 0 obj\n<< /Type /Pages /Kids [{refs}] /Count {num_pages} >>\nendobj\n")
-    # Page objs
-    for i in range(num_pages):
-        pdf_objects.append(
-            f"{3+i} 0 obj\n"
-            f"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] "
-            f"/Contents {3+num_pages+i} 0 R >>\nendobj\n"
+        # fallback to your original minimal generator
+        print("   ⚠️ Using fallback minimal PDF generator")
+        pdf_objects = []
+        pdf_content = "%PDF-1.4\n"
+        # Catalog
+        pdf_objects.append("1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n")
+        # Pages
+        refs = " ".join(f"{3+i} 0 R" for i in range(num_pages))
+        pdf_objects.append(f"2 0 obj\n<< /Type /Pages /Kids [{refs}] /Count {num_pages} >>\nendobj\n")
+        # Page objs
+        for i in range(num_pages):
+            pdf_objects.append(
+                f"{3+i} 0 obj\n"
+                f"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] "
+                f"/Contents {3+num_pages+i} 0 R >>\nendobj\n"
+            )
+        # Content streams
+        for i in range(num_pages):
+            stream = f"Page {i+1}\\n{content_per_page}\\nThis is page {i+1} of {num_pages}."
+            content_stream = f"BT /F1 12 Tf 72 720 Td ({stream}) Tj ET"
+            pdf_objects.append(
+                f"{3+num_pages+i} 0 obj\n<< /Length {len(content_stream)} >>\nstream\n"
+                f"{content_stream}\nendstream\nendobj\n"
+            )
+        pdf_content += "".join(pdf_objects)
+        xref_offset = len(pdf_content)
+        pdf_content += "xref\n"
+        pdf_content += f"0 {len(pdf_objects)+1}\n0000000000 65535 f \n"
+        offset = len("%PDF-1.4\n")
+        for obj in pdf_objects:
+            pdf_content += f"{offset:010d} 00000 n \n"
+            offset += len(obj)
+        pdf_content += (
+            "trailer\n"
+            f"<< /Size {len(pdf_objects)+1} /Root 1 0 R >>\n"
+            f"startxref\n{xref_offset}\n%%EOF\n"
         )
-    # Content streams
-    for i in range(num_pages):
-        stream = f"Page {i+1}\\n{content_per_page}\\nThis is page {i+1} of {num_pages}."
-        content_stream = f"BT /F1 12 Tf 72 720 Td ({stream}) Tj ET"
-        pdf_objects.append(
-            f"{3+num_pages+i} 0 obj\n<< /Length {len(content_stream)} >>\nstream\n"
-            f"{content_stream}\nendstream\nendobj\n"
-        )
-    pdf_content += "".join(pdf_objects)
-    xref_offset = len(pdf_content)
-    pdf_content += "xref\n"
-    pdf_content += f"0 {len(pdf_objects)+1}\n0000000000 65535 f \n"
-    offset = len("%PDF-1.4\n")
-    for obj in pdf_objects:
-        pdf_content += f"{offset:010d} 00000 n \n"
-        offset += len(obj)
-    pdf_content += (
-        "trailer\n"
-        f"<< /Size {len(pdf_objects)+1} /Root 1 0 R >>\n"
-        f"startxref\n{xref_offset}\n%%EOF\n"
-    )
-    return pdf_content.encode("utf-8")
+        log_memory_usage(f"after creating {num_pages}-page PDF (fallback)")
+        return pdf_content.encode("utf-8")
+    except MemoryError as e:
+        print(f"❌ MEMORY ERROR creating {num_pages}-page PDF: {e}")
+        raise
+    except Exception as e:
+        print(f"❌ ERROR creating {num_pages}-page PDF: {e}")
+        print(f"   Traceback: {traceback.format_exc()}")
+        raise
 
 
 def create_multipart_data(filename, file_data, content_type):
@@ -191,61 +226,83 @@ def check_api_health():
 def upload_pdf_test(pages, test_name):
     """Upload a generated PDF and measure response time"""
     print(f"\n📤 Testing {test_name} ({pages} pages)...")
+    log_memory_usage("before PDF generation")
     
-    # Generate PDF
-    pdf_data = create_minimal_pdf(pages, f"Test content for {test_name}")
-    filename = f"test_{pages}pages.pdf"
-    
-    print(f"   📄 Generated PDF: {len(pdf_data)} bytes")
-    
-    # Create multipart data
-    body, headers = create_multipart_data(filename, pdf_data, 'application/pdf')
-    
-    # Upload with timing
-    upload_start = time.time()
-    response = make_http_request(UPLOAD_ENDPOINT, method='POST', data=body, headers=headers, timeout=30)
-    upload_end = time.time()
-    
-    upload_time = upload_end - upload_start
-    
-    if response['success'] and response['status_code'] == 200:
-        try:
-            result = json.loads(response['data'])
-            job_id = result.get('job_id')
-            print(f"✅ Upload successful - Job ID: {job_id}")
-            print(f"⏱️  Upload time: {upload_time:.2f}s")
-            
-            return {
-                'test_name': test_name,
-                'pages': pages,
-                'filename': filename,
-                'job_id': job_id,
-                'upload_time': upload_time,
-                'upload_success': True,
-                'pdf_size_bytes': len(pdf_data),
-                'start_time': datetime.now()
-            }
-        except json.JSONDecodeError:
-            print(f"❌ Upload response invalid JSON")
+    try:
+        # Generate PDF
+        pdf_data = create_minimal_pdf(pages, f"Test content for {test_name}")
+        filename = f"test_{pages}pages.pdf"
+        
+        print(f"   📄 Generated PDF: {len(pdf_data)} bytes")
+        log_memory_usage("after PDF generation")
+        
+        # Create multipart data
+        body, headers = create_multipart_data(filename, pdf_data, 'application/pdf')
+        log_memory_usage("after multipart data creation")
+        
+        # Upload with timing
+        upload_start = time.time()
+        response = make_http_request(UPLOAD_ENDPOINT, method='POST', data=body, headers=headers, timeout=60)
+        upload_end = time.time()
+        
+        upload_time = upload_end - upload_start
+        log_memory_usage("after upload")
+        
+        if response['success'] and response['status_code'] == 200:
+            try:
+                result = json.loads(response['data'])
+                job_id = result.get('job_id')
+                print(f"✅ Upload successful - Job ID: {job_id}")
+                print(f"⏱️  Upload time: {upload_time:.2f}s")
+                
+                return {
+                    'test_name': test_name,
+                    'pages': pages,
+                    'filename': filename,
+                    'job_id': job_id,
+                    'upload_time': upload_time,
+                    'upload_success': True,
+                    'pdf_size_bytes': len(pdf_data),
+                    'start_time': datetime.now()
+                }
+            except json.JSONDecodeError:
+                print(f"❌ Upload response invalid JSON")
+                return {
+                    'test_name': test_name,
+                    'pages': pages,
+                    'filename': filename,
+                    'upload_success': False,
+                    'upload_time': upload_time,
+                    'error': 'Invalid JSON response'
+                }
+        else:
+            print(f"❌ Upload failed: {response.get('error', 'Unknown error')}")
+            if response.get('data'):
+                print(f"   Response: {response['data'][:200]}")
             return {
                 'test_name': test_name,
                 'pages': pages,
                 'filename': filename,
                 'upload_success': False,
                 'upload_time': upload_time,
-                'error': 'Invalid JSON response'
+                'error': response.get('error', 'Upload failed')
             }
-    else:
-        print(f"❌ Upload failed: {response.get('error', 'Unknown error')}")
-        if response.get('data'):
-            print(f"   Response: {response['data'][:200]}")
+    except MemoryError as e:
+        print(f"❌ MEMORY ERROR during upload test for {pages} pages: {e}")
         return {
             'test_name': test_name,
             'pages': pages,
-            'filename': filename,
             'upload_success': False,
-            'upload_time': upload_time,
-            'error': response.get('error', 'Upload failed')
+            'error': f'Memory error: {e}'
+        }
+    except Exception as e:
+        print(f"❌ UNEXPECTED ERROR during upload test for {pages} pages: {e}")
+        print(f"   Traceback: {traceback.format_exc()}")
+        return {
+            'test_name': test_name,
+            'pages': pages,
+            'upload_success': False,
+            'error': f'Unexpected error: {e}'
         }
 
 def monitor_job_with_timing(job_info, max_wait_minutes=10):
@@ -403,24 +460,29 @@ def generate_simple_report(test_results):
 
 def main():
     """Main test execution - PDF length processing analysis"""
-    print("🚀 PDF Length Processing Analysis - Built-in Libraries Only")
-    print("=" * 65)
+    print("🚀 PDF Length Processing Analysis - Stress Test Up to 1000 Pages")
+    print("=" * 70)
     print(f"🐍 Python {sys.version[:5]} | 📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("📚 Using only built-in libraries: urllib, json, time, os")
-    print("📄 Testing PDF processing with different page counts")
+    print("📚 Using libraries: urllib, json, time, os, psutil (for memory monitoring)")
+    print("📄 Testing PDF processing with different page counts - STRESS TEST MODE")
+    
+    # Log initial memory usage
+    log_memory_usage("at startup")
     
     # Check API health
     if not check_api_health():
         print("❌ API is not available. Exiting.")
         return
     
-    # Define test cases - specific page counts to test processing methods
+    # Define test cases - stress testing up to 1000 pages
     test_cases = [
-        # (5, "5-Page Document"),       # Should use Gemini only
-        # (10, "10-Page Document"),     # Should use Gemini only (boundary)
-        # (30, "30-Page Document"),     # Should use Hybrid processing
-        # (100, "100-Page Document"),   # Should use Hybrid processing
-        (300, "300-Page Document")    # Should use Hybrid processing
+        (5, "5-Page Document"),       # Should use Gemini only
+        (10, "10-Page Document"),     # Should use Gemini only (boundary)
+        (50, "50-Page Document"),     # Should use Hybrid processing
+        (100, "100-Page Document"),   # Should use Hybrid processing
+        (200, "200-Page Document"),   # Should use Hybrid processing
+        (500, "500-Page Document"),   # Stress test - large document
+        (1000, "1000-Page Document")  # Stress test - maximum pages
     ]
     
     print(f"\n📋 TEST PLAN ({len(test_cases)} documents):")
@@ -430,8 +492,8 @@ def main():
         method = "Gemini only" if pages <= 10 else "Hybrid processing"
         print(f"   📄 {pages} pages - {method}")
     
-    estimated_minutes = len(test_cases) * 3 + sum(max(1, pages // 30) for pages, _ in test_cases)
-    print(f"\n⏱️  Estimated time: ~{estimated_minutes} minutes")
+    estimated_minutes = len(test_cases) * 5 + sum(max(2, pages // 20) for pages, _ in test_cases)
+    print(f"\n⏱️  Estimated time: ~{estimated_minutes} minutes (stress test with memory monitoring)")
     print("-" * 50)
     
     # Process documents sequentially (upload and wait for completion)
@@ -442,17 +504,35 @@ def main():
         print(f"\n--- Processing Document {i+1}/{len(test_cases)} ---")
         print(f"📄 {test_name} ({pages} pages)")
         
-        # Upload document
-        result = upload_pdf_test(pages, test_name)
-        
-        if result.get('upload_success'):
-            # Immediately monitor this job to completion
-            max_wait = max(5, pages // 10 + 2)  # Dynamic timeout
-            print(f"⏱️  Estimated processing time: ~{max_wait} minutes")
-            completed_result = monitor_job_with_timing(result, max_wait_minutes=max_wait)
-            final_results.append(completed_result)
-        else:
-            final_results.append(result)
+        try:
+            # Upload document
+            result = upload_pdf_test(pages, test_name)
+            
+            if result.get('upload_success'):
+                # Immediately monitor this job to completion
+                max_wait = max(10, pages // 20 + 5)  # Increased timeout for large docs
+                print(f"⏱️  Estimated processing time: ~{max_wait} minutes")
+                completed_result = monitor_job_with_timing(result, max_wait_minutes=max_wait)
+                final_results.append(completed_result)
+            else:
+                final_results.append(result)
+        except MemoryError as e:
+            print(f"❌ MEMORY ERROR processing {pages}-page document: {e}")
+            final_results.append({
+                'test_name': test_name,
+                'pages': pages,
+                'upload_success': False,
+                'error': f'Memory error: {e}'
+            })
+        except Exception as e:
+            print(f"❌ UNEXPECTED ERROR processing {pages}-page document: {e}")
+            print(f"   Traceback: {traceback.format_exc()}")
+            final_results.append({
+                'test_name': test_name,
+                'pages': pages,
+                'upload_success': False,
+                'error': f'Unexpected error: {e}'
+            })
         
         # Short delay between documents
         if i < len(test_cases) - 1:
