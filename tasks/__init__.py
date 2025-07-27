@@ -19,7 +19,9 @@ from tasks.utils import (
     calculate_duration,
     format_duration,
     update_job_status,
-    update_job_timing
+    update_job_timing,
+    update_chunk_progress,
+    update_merge_progress
 )
 
 # Base exports - always available
@@ -29,7 +31,9 @@ __all__ = [
     'calculate_duration',
     'format_duration',
     'update_job_status',
-    'update_job_timing'
+    'update_job_timing',
+    'update_chunk_progress',
+    'update_merge_progress'
 ]
 
 # Import PPStructure tasks (main processor used by main.py)

@@ -222,6 +222,8 @@ def submit_document_for_processing(job_id, file_path, file_name):
                     'progress': 10,
                     'processing_mode': 'gemini_only_complete',
                     'total_pages': total_pages,
+                    'num_chunks': 1,  # Single document treated as 1 chunk
+                    'chunks_total': 1,
                     'original_filename': file_name,
                     'updated_at': get_timestamp()
                 })
@@ -344,6 +346,8 @@ def submit_document_for_processing(job_id, file_path, file_name):
                 'progress': 10,
                 'processing_mode': 'gemini_only_complete',
                 'total_pages': 1,
+                'num_chunks': 1,  # Single image treated as 1 chunk
+                'chunks_total': 1,
                 'original_filename': file_name,
                 'updated_at': get_timestamp()
             })
@@ -428,6 +432,7 @@ def submit_document_for_processing(job_id, file_path, file_name):
             'message': f'Document "{file_name}" split into {num_chunks} chunks for mixed processing (30% PPStructure in {ppstructure_count} small chunks, 70% Gemini in 1 bulk chunk)',
             'progress': 5,  # Small initial progress to show work started
             'num_chunks': num_chunks,
+            'chunks_total': num_chunks,  # Also store as chunks_total for consistency
             'ppstructure_chunks': ppstructure_count,
             'gemini_chunks': gemini_count,
             'chunks_created': [chunk['chunk_id'] for chunk in chunk_files],

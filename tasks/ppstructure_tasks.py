@@ -58,7 +58,7 @@ except ImportError as e:
     print(f"INFO: PaddlePaddle not available in this container: {e}")
 
 # Import utilities
-from tasks.utils import get_unix_timestamp, calculate_duration, format_duration, update_job_status, get_timestamp
+from tasks.utils import get_unix_timestamp, calculate_duration, format_duration, update_job_status, get_timestamp, update_chunk_progress, update_merge_progress
 from text_based_processor import TextBasedProcessor
 
 # Initialize Redis client
@@ -1294,6 +1294,23 @@ def process_document_with_ppstructure(self, job_id, file_path, file_name, genera
         logger.info(f"🧠 Pipeline management: Document-level lifecycle (initialized once, disposed after completion)")
         logger.info(f"⚡ Processing optimization: No mid-document resets, maximum memory efficiency")
         
+        # Update chunk progress - get total chunks from Redis using fresh connection
+        try:
+            # Import redis to create a fresh connection for this task
+            import redis
+            task_redis_client = redis.Redis.from_url(
+                os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+            )
+            
+            job_data = task_redis_client.get(f"job:{job_id}")
+            if job_data:
+                job_status = json.loads(job_data)
+                total_chunks = job_status.get('num_chunks', 1)
+                current_progress = update_chunk_progress(task_redis_client, job_id, total_chunks)
+                logger.info(f"📊 Updated chunk progress for job {job_id}: {current_progress}%")
+        except Exception as e:
+            logger.warning(f"Could not update chunk progress for job {job_id}: {str(e)}")
+        
         # Update active process count (decrement on completion)
         update_active_processes_worker(-1)
         
@@ -1568,6 +1585,23 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
         with open(results_path, 'w', encoding='utf-8') as f:
             json.dump(clean_results, f, ensure_ascii=False, indent=2)
         
+        # Update chunk progress - get total chunks from Redis using fresh connection
+        try:
+            # Import redis to create a fresh connection for this task
+            import redis
+            task_redis_client = redis.Redis.from_url(
+                os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+            )
+            
+            job_data = task_redis_client.get(f"job:{job_id}")
+            if job_data:
+                job_status = json.loads(job_data)
+                total_chunks = job_status.get('num_chunks', 1)
+                current_progress = update_chunk_progress(task_redis_client, job_id, total_chunks)
+                logger.info(f"📊 Updated chunk progress for job {job_id}: {current_progress}%")
+        except Exception as e:
+            logger.warning(f"Could not update chunk progress for job {job_id}: {str(e)}")
+        
         # Update active process count (decrement on completion)
         update_active_processes_worker(-1)
         
@@ -1664,6 +1698,9 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
         redis_client = redis.Redis.from_url(
             os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
         )
+        
+        # Update progress to 85% - merge task started
+        update_merge_progress(redis_client, job_id, "Combining chunk results", 85)
         
         # Log the number of chunk results received
         logger.info(f"📦 Received {len(chunk_results)} chunk results for job {job_id}")
@@ -1798,6 +1835,9 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
         if not combined_text.strip():
             raise ValueError("No text content could be extracted from any chunks")
         
+        # Update progress to 90% - text combination complete
+        update_merge_progress(redis_client, job_id, "Generating document summary", 90)
+        
         # Generate final summary using text_processor
         logger.info(f"🧠 Generating final summary for job {job_id}")
         
@@ -1807,6 +1847,9 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
         # Log completion
         final_summary = summary_result.get('summary', 'Summary not available')
         logger.info(f"🧠 Final summary generated for job {job_id}, total length: {len(final_summary)}")
+        
+        # Update progress to 95% - summary generation complete
+        update_merge_progress(redis_client, job_id, "Saving final results", 95)
         
         # Prepare final results directories
         result_dir = os.path.join("results", job_id)
@@ -1899,6 +1942,9 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
         
         with open(metrics_path, 'w', encoding='utf-8') as f:
             json.dump(performance_metrics, f, ensure_ascii=False, indent=2)
+        
+        # Update progress to 100% - all processing complete
+        update_merge_progress(redis_client, job_id, "Processing complete", 100)
         
         # CRITICAL: Only NOW mark the job as COMPLETED (all chunks processed and merged)
         update_job_status(redis_client, job_id, {
