@@ -32,7 +32,7 @@ services:
     container_name: law-redis
     ports:
       - "6379:6379" # Expose Redis port
-    command: redis-server --save "" --appendonly no --loglevel warning --maxmemory 8gb --maxmemory-policy allkeys-lru --tcp-keepalive 60 --timeout 0 # Stability-focused Redis config
+    command: redis-server --save "" --appendonly no --loglevel warning --maxmemory 16gb --maxmemory-policy allkeys-lru --maxmemory-samples 10 --lazyfree-lazy-eviction yes --tcp-keepalive 60 --timeout 0 # Stability-focused Redis config
     volumes:
       - redis-data:/data # Persist Redis data across restarts
     restart: unless-stopped
@@ -56,7 +56,7 @@ services:
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 1...' &&
-        celery -A celery_config worker -Q chunk_queue -l info --concurrency=3 --hostname=worker-documents-container1@%h
+        celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container1@%h
       "
     volumes:
       - .:/app
@@ -84,13 +84,13 @@ services:
     restart: unless-stopped
     gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
-    mem_limit: 8g # Memory limit as specified for high-throughput processing
-    memswap_limit: 8g # Match memory limit
+    mem_limit: 9g # Memory limit as specified for high-throughput processing
+    memswap_limit: 9g # Match memory limit
     shm_size: 2g # Shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 8g
+          memory: 9g
         reservations:
           memory: 2g
           devices:
@@ -112,7 +112,7 @@ services:
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 2...' &&
-        celery -A celery_config worker -Q chunk_queue -l info --concurrency=3 --hostname=worker-documents-container2@%h
+        celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container2@%h
       "
     volumes:
       - .:/app
@@ -140,13 +140,13 @@ services:
     restart: unless-stopped
     gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
-    mem_limit: 8g # Memory limit as specified for high-throughput processing
-    memswap_limit: 8g # Match memory limit
+    mem_limit: 9g # Memory limit as specified for high-throughput processing
+    memswap_limit: 9g # Match memory limit
     shm_size: 2g # Shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 8g
+          memory: 9g
         reservations:
           memory: 2g
           devices:
@@ -168,7 +168,7 @@ services:
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 3...' &&
-        celery -A celery_config worker -Q chunk_queue -l info --concurrency=3 --hostname=worker-documents-container3@%h
+        celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container3@%h
       "
     volumes:
       - .:/app
@@ -196,13 +196,13 @@ services:
     restart: unless-stopped
     gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
-    mem_limit: 8g # Memory limit as specified for high-throughput processing
-    memswap_limit: 8g # Match memory limit
+    mem_limit: 9g # Memory limit as specified for high-throughput processing
+    memswap_limit: 9g # Match memory limit
     shm_size: 2g # Shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 8g
+          memory: 9g
         reservations:
           memory: 2g
           devices:
@@ -224,7 +224,7 @@ services:
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 4...' &&
-        celery -A celery_config worker -Q chunk_queue -l info --concurrency=3 --hostname=worker-documents-container4@%h
+        celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container4@%h
       "
     volumes:
       - .:/app
@@ -252,13 +252,13 @@ services:
     restart: unless-stopped
     gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
-    mem_limit: 8gb # Memory limit as specified for high-throughput processing
-    memswap_limit: 8g # Match memory limit
+    mem_limit: 9g # Memory limit as specified for high-throughput processing
+    memswap_limit: 9g # Match memory limit
     shm_size: 2g # Shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 8g
+          memory: 9g
         reservations:
           memory: 2g
           devices:
@@ -280,7 +280,7 @@ services:
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 5...' &&
-        celery -A celery_config worker -Q chunk_queue -l info --concurrency=3 --hostname=worker-documents-container5@%h
+        celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container5@%h
       "
     volumes:
       - .:/app
@@ -308,13 +308,13 @@ services:
     restart: unless-stopped
     gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
-    mem_limit: 8g # Memory limit as specified for high-throughput processing
-    memswap_limit: 8g # Match memory limit
+    mem_limit: 9g # Memory limit as specified for high-throughput processing
+    memswap_limit: 9g # Match memory limit
     shm_size: 2g # Shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 8g
+          memory: 9g
         reservations:
           memory: 2g
           devices:
@@ -336,7 +336,7 @@ services:
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
         paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 6...' &&
-        celery -A celery_config worker -Q chunk_queue -l info --concurrency=3 --hostname=worker-documents-container6@%h
+        celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container6@%h
       "
     volumes:
       - .:/app
@@ -364,13 +364,13 @@ services:
     restart: unless-stopped
     gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
-    mem_limit: 8g # Memory limit as specified for high-throughput processing
-    memswap_limit: 8g # Match memory limit
+    mem_limit: 9g # Memory limit as specified for high-throughput processing
+    memswap_limit: 9g # Match memory limit
     shm_size: 2g # Shared memory for CUDA operations
     deploy:
       resources:
         limits:
-          memory: 8g
+          memory: 9g
         reservations:
           memory: 2g
           devices:

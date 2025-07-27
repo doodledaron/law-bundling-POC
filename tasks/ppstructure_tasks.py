@@ -18,6 +18,8 @@ import traceback
 import redis
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+import signal
+import sys
 
 
 # Fix numpy compatibility issue with deprecated np.bool
@@ -66,34 +68,42 @@ redis_client = redis.Redis.from_url(
 
 logger = get_task_logger(__name__)
 
-# Initialize PPStructureV3 pipeline globally to avoid reloading models
-pipeline = None
-pipeline_initialization_attempted = False
+def graceful_shutdown_handler(signum, frame):
+    """Handle SIGTERM gracefully to prevent double-free errors"""
+    logger.info(f"🔄 Received signal {signum}, cleaning up gracefully...")
+    
+    # Force garbage collection
+    import gc
+    gc.collect()
+    
+    # Clear CUDA if available
+    try:
+        import torch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            torch.cuda.synchronize()
+            logger.info("✅ CUDA memory cleared")
+    except ImportError:
+        pass
+    
+    logger.info("✅ Graceful shutdown completed")
+    sys.exit(0)
+
+# Register signal handler for production safety
+signal.signal(signal.SIGTERM, graceful_shutdown_handler)
+
+# No global pipeline - each task creates its own instance for complete isolation
 
 # Initialize TextBasedProcessor for Gemini integration
 text_processor = TextBasedProcessor()
 
-def ensure_pipeline_initialized():
+def create_fresh_pipeline():
     """
-    Ensure PPStructure pipeline is initialized once per DOCUMENT worker process.
-    This avoids reloading models for every document/chunk, but ONLY loads in document workers.
-    Other workers (API, maintenance) will never load these heavy models.
+    Create a fresh PPStructure pipeline instance for each task.
+    No global caching - each task gets its own isolated pipeline instance.
+    This prevents double-free errors from shared C++ object references.
     """
-    global pipeline, pipeline_initialization_attempted
-    
-    if pipeline is not None:
-        return pipeline
-    
-    # Remove the permanent failure logic - allow retries for bulk processing
-    # if pipeline_initialization_attempted:
-    #     # If we already tried and failed, don't keep trying
-    #     if pipeline is None:
-    #         raise RuntimeError("PPStructure pipeline initialization failed previously")
-    #     return pipeline
-    
     try:
-        pipeline_initialization_attempted = True
-        
         # Check if PaddlePaddle is available first
         if not PADDLEPADDLE_AVAILABLE:
             logger.info("🚫 PaddlePaddle not available - this is a lite container")
@@ -129,35 +139,28 @@ def ensure_pipeline_initialized():
             is_document_worker = True
         
         if is_document_worker:
-            logger.info("Initializing PPStructure pipeline...")
+            logger.info("Creating fresh PPStructure pipeline instance...")
         else:
             # This is likely an API worker or other non-document worker
             logger.info("Non-document worker - PPStructure models not loaded")
-            # We still mark as attempted to avoid repeated checks
             return None
         
-        # # DONOT TOUCH THIS - Initialize PPStructureV3 - this loads all models once
-        # pipeline = PPStructureV3(paddlex_config="PP-StructureV3.yaml")
-
-
-        # Import PaddleX and initialize pipeline
+        # Import PaddleX and create fresh pipeline instance
         from paddlex import create_pipeline
         
-        pipeline = create_pipeline(
+        fresh_pipeline = create_pipeline(
             pipeline="PP-StructureV3-lite.yaml",
             # device="gpu:0",
             # device="cpu",
             # use_hpip=True
         )
-        logger.info("PPStructure pipeline initialized successfully")
-        return pipeline
+        logger.info("Fresh PPStructure pipeline instance created successfully")
+        return fresh_pipeline
         
     except Exception as e:
-        logger.error(f"❌ Failed to initialize PPStructure pipeline: {str(e)}")
-        # Don't permanently mark as failed - allow retries for bulk processing
-        pipeline_initialization_attempted = False  # Reset flag to allow retry
+        logger.error(f"❌ Failed to create PPStructure pipeline: {str(e)}")
         
-        # Force cleanup on failed initialization
+        # Cleanup on failed initialization
         try:
             import gc
             gc.collect()
@@ -214,8 +217,8 @@ def warmup_ppstructure():
         logger.info("🔥 Starting PPStructure warmup...")
         warmup_start = get_unix_timestamp()
         
-        # Initialize the pipeline (this will cache it globally)
-        pipeline_instance = ensure_pipeline_initialized()
+        # Create a fresh pipeline instance for this warmup
+        pipeline_instance = create_fresh_pipeline()
         
         # Test with a small dummy image
         test_image = np.ones((100, 100, 3), dtype=np.uint8) * 255  # White image
@@ -430,26 +433,54 @@ def draw_bounding_boxes(image_path, regions, output_path):
 
 
 
-def get_pipeline():
+def get_fresh_pipeline():
     """
-    Get the globally cached PPStructure pipeline instance.
-    Models are loaded once per DOCUMENT worker process and reused for all documents/chunks.
+    Get a fresh PPStructure pipeline instance for this task.
+    Each task gets its own isolated pipeline instance to prevent double-free errors.
     Returns None if called from non-document workers (API, maintenance) to save memory.
     """
-    global pipeline
-    
-    if pipeline is not None:
-        logger.debug("📋 Using cached PPStructure pipeline (models already loaded)")
-        return pipeline
-    
-    # Initialize if not already done (only in document workers)
-    pipeline_instance = ensure_pipeline_initialized()
+    pipeline_instance = create_fresh_pipeline()
     
     if pipeline_instance is None:
         logger.warning("⚠️ PPStructure pipeline not available - not in document worker context")
         raise RuntimeError("PPStructure pipeline only available in document workers")
     
     return pipeline_instance
+
+def validate_pipeline_health():
+    """Validate pipeline is in healthy state for production use"""
+    try:
+        # Check GPU memory if available
+        try:
+            import torch
+            if torch.cuda.is_available():
+                gpu_memory = torch.cuda.memory_allocated()
+                gpu_gb = gpu_memory / (1024**3)
+                
+                if gpu_gb > 6.0:  # 6GB limit
+                    logger.warning(f"⚠️ High GPU memory: {gpu_gb:.1f}GB - clearing cache")
+                    torch.cuda.empty_cache()
+                    torch.cuda.synchronize()
+                
+                logger.info(f"💾 GPU memory: {gpu_gb:.1f}GB")
+        except ImportError:
+            # No torch available - this is fine for CPU-only workers
+            pass
+        
+        # Check system memory
+        import psutil
+        memory_percent = psutil.virtual_memory().percent
+        if memory_percent > 85:
+            logger.warning(f"⚠️ High system memory: {memory_percent:.1f}%")
+            import gc
+            gc.collect()
+        
+        logger.info(f"💾 System memory: {memory_percent:.1f}%")
+        return True
+        
+    except Exception as e:
+        logger.error(f"❌ Pipeline health check failed: {e}")
+        return False
 
 def update_active_processes_worker(increment=1):
     """
@@ -476,8 +507,9 @@ def update_active_processes_worker(increment=1):
     except Exception as e:
         logger.warning(f"Could not update Redis process count from worker: {str(e)}")
 
-@shared_task(name='tasks.process_document_with_ppstructure')
-def process_document_with_ppstructure(job_id, file_path, file_name, generate_summary=True, actual_start_page=1, 
+@shared_task(bind=True, name='tasks.process_document_with_ppstructure', 
+              autoretry_for=(Exception,), retry_kwargs={'max_retries': 3, 'countdown': 60})
+def process_document_with_ppstructure(self, job_id, file_path, file_name, generate_summary=True, actual_start_page=1, 
                                      enable_visualizations=False, enable_table_extraction=True, 
                                      enable_figure_extraction=True, enable_chart_extraction=True, fast_mode=False,
                                      parallel_extraction=True, max_extraction_workers=8):
@@ -503,6 +535,10 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
     """
     try:
         logger.info(f"🚀 Starting document processing in high-throughput worker container for job {job_id}")
+        
+        # Production health check - validate system is ready
+        if not validate_pipeline_health():
+            raise RuntimeError("Pipeline health check failed - aborting task for safety")
         
         # Update active process count (increment on start)
         update_active_processes_worker(1)
@@ -656,6 +692,8 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         
 
         
+        # Initialize pipeline with production safety
+        pipeline_instance = None
         try:
             # 🔄 DOCUMENT-LEVEL PIPELINE INITIALIZATION
             # Reinitialize the entire pipeline once per document (chunk) before processing first page
@@ -663,15 +701,15 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
             logger.info(f"   📦 Processing: {file_name}")
             logger.info(f"   🆔 Job ID: {job_id}")
             
-            # Get pipeline instance - no manual clearing needed with worker_max_tasks_per_child=1
-            global pipeline, pipeline_initialization_attempted
+            # Create fresh pipeline instance for this task - no global state
+            # Each task gets completely isolated pipeline instance
             
             # Minimal memory management - full cleanup handled by worker restart
             import gc
             gc.collect()
             
-            # Initialize fresh pipeline for this document
-            pipeline_instance = ensure_pipeline_initialized()
+            # Create fresh pipeline instance for this document
+            pipeline_instance = create_fresh_pipeline()
             logger.info(f"   ✅ Fresh pipeline initialized for document processing")
             
             # Validate all image paths as strings
@@ -770,8 +808,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                         logger.warning(f"   🆔 Page: {actual_page_num}")
                         all_outputs.append(None)
                     
-                    # Light memory cleanup after each page (keep pipeline alive)
-                    del single_output_raw, single_output
+                    # Memory cleanup handled by worker_max_tasks_per_child=1 - no manual cleanup needed
                     # NO gc.collect() during processing to avoid disrupting pipeline
                     
                 except Exception as page_error:
@@ -803,6 +840,32 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         except Exception as e:
             logger.error(f"❌ [PPSTRUCTURE] Critical error in page processing pipeline: {str(e)}")
             all_outputs = [None] * len(image_paths)
+            
+        finally:
+            # CRITICAL: Always cleanup pipeline to prevent double-free
+            if pipeline_instance is not None:
+                try:
+                    logger.info("🧹 Starting pipeline cleanup...")
+                    
+                    # Force cleanup C++ objects
+                    del pipeline_instance
+                    import gc
+                    gc.collect()
+                    
+                    # Clear CUDA memory if available
+                    try:
+                        import torch
+                        if torch.cuda.is_available():
+                            torch.cuda.empty_cache()
+                            torch.cuda.synchronize()
+                    except ImportError:
+                        pass
+                        
+                    logger.info("✅ Pipeline cleanup completed successfully")
+                except Exception as cleanup_error:
+                    logger.warning(f"⚠️ Pipeline cleanup error (non-fatal): {cleanup_error}")
+                
+                pipeline_instance = None
         
         # Process results for each page
         processed_outputs = []
@@ -1008,31 +1071,32 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
                     logger.error(f"Error processing {task['type']} from page {task['page']}: {str(e)}")
                     return None
             
-            # Execute tasks in parallel
-            with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                # Submit all tasks
-                future_to_task = {
-                    executor.submit(process_extraction_task, task): task 
-                    for task in all_extraction_tasks
-                }
-                
-                # Collect results as they complete
-                completed_extractions = 0
-                for future in as_completed(future_to_task):
-                    result = future.result()
-                    if result:
-                        # Thread-safe accumulation
-                        with extraction_lock:
+            # Process tasks sequentially for production stability (prevents C++ race conditions)
+            completed_extractions = 0
+            try:
+                for i, task in enumerate(all_extraction_tasks):
+                    try:
+                        result = process_extraction_task(task)
+                        if result:
                             if result['type'] == 'table':
                                 table_extractions.append(result['text'])
                             elif result['type'] == 'figure':
                                 figure_extractions.append(result['text'])
                             elif result['type'] == 'chart':
                                 chart_extractions.append(result['text'])
+                            
+                            completed_extractions += 1
+                            
+                        # Log progress every 10 completions
+                        if (i + 1) % 10 == 0:
+                            logger.info(f"Completed {i + 1}/{len(all_extraction_tasks)} extractions")
+                            
+                    except Exception as e:
+                        logger.error(f"Error processing extraction task {i}: {e}")
+                        continue
                         
-                        completed_extractions += 1
-                        if completed_extractions % 10 == 0:  # Log progress every 10 completions
-                            logger.info(f"Completed {completed_extractions}/{len(all_extraction_tasks)} extractions")
+            except Exception as e:
+                logger.error(f"Extraction processing failed: {e}")
             
             parallel_end_time = get_unix_timestamp()
             parallel_duration = calculate_duration(parallel_start_time, parallel_end_time)
@@ -1234,7 +1298,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         update_active_processes_worker(-1)
         
         # Pipeline cleanup handled automatically by worker_max_tasks_per_child=1
-        # No manual cleanup needed - worker will restart after this task
+        # No manual cleanup needed - worker will restart after 1 task (complete isolation)
         logger.info(f"✅ [DOCUMENT] Task completed - worker cleanup handled by worker_max_tasks_per_child=1")
         
         # Prepare final results for chunk (not document completion)
@@ -1268,7 +1332,7 @@ def process_document_with_ppstructure(job_id, file_path, file_name, generate_sum
         update_active_processes_worker(-1)
         
         # Pipeline cleanup handled automatically by worker_max_tasks_per_child=1
-        # No manual cleanup needed - worker will restart after this task
+        # No manual cleanup needed - worker will restart after this task (complete isolation)
         logger.info(f"✅ [DOCUMENT] Task failed - worker cleanup handled by worker_max_tasks_per_child=1")
         
         # For chunk failures, update progress but don't mark entire job as FAILED
@@ -1577,8 +1641,9 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
             "extracted_info": {}
         }
 
-@shared_task(name='tasks.merge_and_summarize_chunks')
-def merge_and_summarize_chunks(chunk_results, job_id):
+@shared_task(bind=True, name='tasks.merge_and_summarize_chunks', 
+              autoretry_for=(Exception,), retry_kwargs={'max_retries': 2, 'countdown': 30})
+def merge_and_summarize_chunks(self, chunk_results, job_id):
     """
     Merge chunk processing results and generate final summary.
     

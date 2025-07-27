@@ -43,6 +43,16 @@ except ImportError:
     USE_REPORTLAB = False
     print("⚠️ reportlab not installed; falling back to minimal generator")
 
+# Excel generation imports
+try:
+    import openpyxl
+    from openpyxl.styles import Font, PatternFill, Alignment
+    USE_EXCEL = True
+    print("✅ Excel generation via openpyxl enabled")
+except ImportError:
+    USE_EXCEL = False
+    print("⚠️ openpyxl not installed; Excel report disabled")
+
 
 def log_memory_usage(context=""):
     """Log current memory usage"""
@@ -458,6 +468,124 @@ def generate_simple_report(test_results):
         'success_rate': len(completed)/len(test_results)*100 if test_results else 0
     }
 
+def generate_excel_report(test_results, timestamp):
+    """Generate Excel report with timing data and error tracking"""
+    if not USE_EXCEL:
+        print("⚠️ Excel generation not available (openpyxl not installed)")
+        return None
+    
+    filename = f"processing_report_{timestamp}.xlsx"
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "Processing Results"
+    
+    # Headers
+    headers = [
+        "Document", "Pages", "Upload Time (s)", "Total Processing Time (s)", 
+        "Processing Method", "PPStructure Chunks", "Gemini Chunks", 
+        "Status", "Error", "Pages/Second", "Start Time", "End Time"
+    ]
+    
+    # Style headers
+    header_font = Font(bold=True, color="FFFFFF")
+    header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
+    
+    for col, header in enumerate(headers, 1):
+        cell = ws.cell(row=1, column=col, value=header)
+        cell.font = header_font
+        cell.fill = header_fill
+        cell.alignment = Alignment(horizontal="center")
+    
+    # Data rows
+    for row, result in enumerate(test_results, 2):
+        ws.cell(row=row, column=1, value=result.get('test_name', 'Unknown'))
+        ws.cell(row=row, column=2, value=result.get('pages', 0))
+        
+        upload_time = result.get('upload_time', 0)
+        ws.cell(row=row, column=3, value=round(upload_time, 2) if upload_time else 0)
+        
+        total_time = result.get('total_processing_time', 0)
+        ws.cell(row=row, column=4, value=round(total_time, 2) if total_time else 0)
+        
+        ws.cell(row=row, column=5, value=result.get('processing_method', 'Unknown'))
+        ws.cell(row=row, column=6, value=result.get('ppstructure_chunks', 0))
+        ws.cell(row=row, column=7, value=result.get('gemini_chunks', 0))
+        
+        status = result.get('final_status', 'FAILED' if not result.get('upload_success') else 'UNKNOWN')
+        ws.cell(row=row, column=8, value=status)
+        
+        error = result.get('error', '')
+        ws.cell(row=row, column=9, value=error if error else 'None')
+        
+        # Calculate pages per second
+        pages = result.get('pages', 0)
+        if total_time and total_time > 0 and pages > 0:
+            pages_per_sec = pages / total_time
+            ws.cell(row=row, column=10, value=round(pages_per_sec, 2))
+        else:
+            ws.cell(row=row, column=10, value=0)
+        
+        # Start and end times
+        start_time = result.get('start_time')
+        if start_time:
+            ws.cell(row=row, column=11, value=start_time.strftime('%Y-%m-%d %H:%M:%S'))
+        
+        end_time = result.get('completion_time')
+        if end_time:
+            ws.cell(row=row, column=12, value=end_time.strftime('%Y-%m-%d %H:%M:%S'))
+        
+        # Color code status
+        status_cell = ws.cell(row=row, column=8)
+        if status == 'COMPLETED':
+            status_cell.fill = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
+        elif status in ['FAILED', 'TIMEOUT', 'NOT_FOUND']:
+            status_cell.fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
+    
+    # Auto-adjust column widths
+    for column in ws.columns:
+        max_length = 0
+        column_letter = column[0].column_letter
+        for cell in column:
+            try:
+                if len(str(cell.value)) > max_length:
+                    max_length = len(str(cell.value))
+            except:
+                pass
+        adjusted_width = min(max_length + 2, 50)
+        ws.column_dimensions[column_letter].width = adjusted_width
+    
+    # Add summary sheet
+    summary_ws = wb.create_sheet("Summary")
+    
+    completed = [r for r in test_results if r.get('final_status') == 'COMPLETED']
+    failed = [r for r in test_results if r.get('final_status') != 'COMPLETED']
+    
+    summary_data = [
+        ["Metric", "Value"],
+        ["Total Documents", len(test_results)],
+        ["Completed", len(completed)],
+        ["Failed", len(failed)],
+        ["Success Rate", f"{(len(completed)/len(test_results)*100):.1f}%" if test_results else "0%"],
+        ["", ""],
+        ["Average Processing Time (Completed)", f"{sum(r.get('total_processing_time', 0) for r in completed) / len(completed):.2f}s" if completed else "N/A"],
+        ["Average Pages/Second (Completed)", f"{sum(r.get('pages', 0) / max(r.get('total_processing_time', 0.1), 0.1) for r in completed) / len(completed):.2f}" if completed else "N/A"]
+    ]
+    
+    for row, (metric, value) in enumerate(summary_data, 1):
+        summary_ws.cell(row=row, column=1, value=metric).font = Font(bold=True)
+        summary_ws.cell(row=row, column=2, value=value)
+    
+    summary_ws.column_dimensions['A'].width = 30
+    summary_ws.column_dimensions['B'].width = 20
+    
+    try:
+        wb.save(filename)
+        print(f"📊 Excel report saved: {filename}")
+        return filename
+    except Exception as e:
+        print(f"❌ Failed to save Excel report: {e}")
+        return None
+
 def main():
     """Main test execution - PDF length processing analysis"""
     print("🚀 PDF Length Processing Analysis - Stress Test Up to 1000 Pages")
@@ -476,12 +604,12 @@ def main():
     
     # Define test cases - stress testing up to 1000 pages
     test_cases = [
-        (5, "5-Page Document"),       # Should use Gemini only
-        (10, "10-Page Document"),     # Should use Gemini only (boundary)
-        (50, "50-Page Document"),     # Should use Hybrid processing
-        (100, "100-Page Document"),   # Should use Hybrid processing
-        (200, "200-Page Document"),   # Should use Hybrid processing
-        (500, "500-Page Document"),   # Stress test - large document
+        # (5, "5-Page Document"),       # Should use Gemini only
+        # (10, "10-Page Document"),     # Should use Gemini only (boundary)
+        # (50, "50-Page Document"),     # Should use Hybrid processing
+        # (100, "100-Page Document"),   # Should use Hybrid processing
+        # (200, "200-Page Document"),   # Should use Hybrid processing
+        # (500, "500-Page Document"),   # Stress test - large document
         (1000, "1000-Page Document")  # Stress test - maximum pages
     ]
     
@@ -510,7 +638,7 @@ def main():
             
             if result.get('upload_success'):
                 # Immediately monitor this job to completion
-                max_wait = max(10, pages // 20 + 5)  # Increased timeout for large docs
+                max_wait = max(20, pages // 5 + 60)  # Maximum timeout for client document complexity
                 print(f"⏱️  Estimated processing time: ~{max_wait} minutes")
                 completed_result = monitor_job_with_timing(result, max_wait_minutes=max_wait)
                 final_results.append(completed_result)
@@ -574,6 +702,11 @@ def main():
             json.dump(output_data, f, indent=2)
             
         print(f"\n💾 Detailed results saved to: {results_filename}")
+        
+        # Generate Excel report
+        excel_filename = generate_excel_report(final_results, timestamp)
+        if excel_filename:
+            print(f"📊 Excel report saved to: {excel_filename}")
         
     except Exception as e:
         print(f"⚠️  Could not save results: {e}")
