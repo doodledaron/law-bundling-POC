@@ -6,7 +6,29 @@ http://204.12.246.205:8000/
 ```
 
 ## Authentication
-Currently no authentication required.
+**Authentication is required for all API endpoints using API Key.**
+
+### API Key Header
+All requests must include a valid API key in the request header:
+```
+X-API-Key: your-api-key-here
+```
+
+### Getting an API Key
+The API key will be provided separately for security. Include it in all requests to `/api/*` endpoints.
+
+### Authentication Errors
+- **401 Unauthorized**: Missing or invalid API key
+- **Error Response Format**:
+```json
+{
+  "detail": {
+    "error": "Missing API key",
+    "message": "Please provide a valid API key in the 'X-API-Key' header",
+    "required_header": "X-API-Key"
+  }
+}
+```
 
 ---
 
@@ -18,10 +40,14 @@ Currently no authentication required.
 ```http
 POST /api/upload
 Content-Type: multipart/form-data
+X-API-Key: your-api-key-here
 ```
 
 **Request Parameters:**
 - `file` (required): Document file (PDF, JPEG, PNG)
+
+**Headers:**
+- `X-API-Key` (required): Valid API key for authentication
 
 **Response:**
 ```json
@@ -39,7 +65,11 @@ Content-Type: multipart/form-data
 
 ```http
 GET /api/job/{job_id}
+X-API-Key: your-api-key-here
 ```
+
+**Headers:**
+- `X-API-Key` (required): Valid API key for authentication
 
 **Response (Processing):**
 ```json
@@ -100,15 +130,37 @@ GET /health
 
 ## Integration Flow
 
-1. **Upload Document**: `POST /api/upload` with file
-2. **Get Job ID**: Extract `job_id` from upload response
-3. **Poll Status**: `GET /api/job/{job_id}` periodically until status is `COMPLETED` or `FAILED`
-4. **Process Results**: Use the `results` object from completed response
+1. **Obtain API Key**: Get a valid API key from your system administrator
+2. **Upload Document**: `POST /api/upload` with file and API key in header
+3. **Get Job ID**: Extract `job_id` from upload response
+4. **Poll Status**: `GET /api/job/{job_id}` with API key until status is `COMPLETED` or `FAILED`
+5. **Process Results**: Use the `results` object from completed response
 
-## Error Handling
+## Example Integration
 
+### cURL Example
+```bash
+# Upload document
+curl -X POST \
+  -H "X-API-Key: your-api-key-here" \
+  -F "file=@document.pdf" \
+  http://204.12.246.205:8000/api/upload
+
+# Check status
+curl -H "X-API-Key: your-api-key-here" \
+  http://204.12.246.205:8000/api/job/ab13b87f-2b04-49b0-8eb0-5f461605934f
+```
+
+
+### HTTP Status Codes
+- **200**: Success
 - **400**: Invalid file format or empty file
+- **401**: Missing or invalid API key
 - **404**: Job ID not found
 - **500**: Processing system error
 
-Poll every 15-30 seconds until completion. 
+
+## Polling Recommendations
+- **Poll interval**: 15-30 seconds
+- **Timeout**: 10-15 minutes for large documents
+- **Status progression**: PENDING → PROCESSING → COMPLETED/FAILED

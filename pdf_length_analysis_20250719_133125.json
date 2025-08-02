@@ -1,0 +1,1145 @@
+{
+  "test_metadata": {
+    "timestamp": "20250719_133125",
+    "total_tests": 16,
+    "api_base_url": "http://204.12.246.205:8000",
+    "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]"
+  },
+  "summary_stats": {
+    "total_tests": 16,
+    "completed": 15,
+    "success_rate": 93.75,
+    "correct_chunking_rate": 100.0,
+    "avg_processing_time": 12.820082092285157
+  },
+  "test_results": [
+    {
+      "test_name": "Single Page",
+      "pages": 1,
+      "filename": "test_1pages.pdf",
+      "job_id": "aaa3aed4-6dd9-4718-9fcc-b2bce6f419c7",
+      "upload_time": 0.20790529251098633,
+      "upload_success": true,
+      "pdf_size_bytes": 595,
+      "start_time": "2025-07-19T13:22:12.111545",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.002581357955932617,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.0025794506072998047
+      },
+      "results": {
+        "date": "None",
+        "summary": "None",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: None\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title."
+        },
+        "total_pages": 1,
+        "processing_completed_at": "2025-07-19T13:22:14.316814",
+        "metrics": {
+          "job_id": "aaa3aed4-6dd9-4718-9fcc-b2bce6f419c7",
+          "filename": "test_1pages.pdf",
+          "processing_start_time": 885715.142632366,
+          "processing_end_time": 885716.294148058,
+          "total_processing_time": {
+            "seconds": 1.1515156920067966
+          },
+          "performance": {
+            "total_pages": 1,
+            "processing_time": {
+              "seconds": 1.1515156920067966
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 1,
+            "num_chunks_successful": 1,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "N/A"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000318,
+            "token_usage": {
+              "input_tokens": 2954,
+              "output_tokens": 57,
+              "total_tokens": 3011
+            }
+          }
+        }
+      },
+      "processing_method": "gemini_only",
+      "ppstructure_chunks": 0,
+      "gemini_chunks": 1,
+      "confirmed_pages": 1,
+      "api_response_time_avg": 0.002446889877319336,
+      "completion_time": "2025-07-19T13:23:08.903439"
+    },
+    {
+      "test_name": "Small Document",
+      "pages": 3,
+      "filename": "test_3pages.pdf",
+      "job_id": "f622d56f-da3b-4197-b35f-16e59747ba0f",
+      "upload_time": 0.19118571281433105,
+      "upload_success": true,
+      "pdf_size_bytes": 1328,
+      "start_time": "2025-07-19T13:22:14.305174",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0024025440216064453,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.002401590347290039
+      },
+      "results": {
+        "date": "None",
+        "summary": "Document with no extractable information",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: Document with no extractable information.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 3,
+        "processing_completed_at": "2025-07-19T13:22:16.630803",
+        "metrics": {
+          "job_id": "f622d56f-da3b-4197-b35f-16e59747ba0f",
+          "filename": "test_3pages.pdf",
+          "processing_start_time": 885717.380099933,
+          "processing_end_time": 885718.66990506,
+          "total_processing_time": {
+            "seconds": 1.2898051269585267
+          },
+          "performance": {
+            "total_pages": 3,
+            "processing_time": {
+              "seconds": 1.2898051269585267
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 1,
+            "num_chunks_successful": 1,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "N/A"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000324,
+            "token_usage": {
+              "input_tokens": 2980,
+              "output_tokens": 64,
+              "total_tokens": 3044
+            }
+          }
+        }
+      },
+      "processing_method": "gemini_only",
+      "ppstructure_chunks": 0,
+      "gemini_chunks": 1,
+      "confirmed_pages": 3,
+      "api_response_time_avg": 0.0023267269134521484,
+      "completion_time": "2025-07-19T13:23:08.905922"
+    },
+    {
+      "test_name": "Medium-Small Document",
+      "pages": 5,
+      "filename": "test_5pages.pdf",
+      "job_id": "3c376abb-e4e5-4d01-9e60-f276b677461d",
+      "upload_time": 0.15663719177246094,
+      "upload_success": true,
+      "pdf_size_bytes": 2102,
+      "start_time": "2025-07-19T13:22:16.464383",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0020051002502441406,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.0020036697387695312
+      },
+      "results": {
+        "date": "undated",
+        "summary": "No text found; unable to determine document type or extract information",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: No text found; unable to determine document type or extract information.\n2. KEY DATES: None\n3. ULTIMATE KEY DATE: undated\n4. MAIN PARTIES: None\n5. CASE/REFERENCE NUMBERS: None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 5,
+        "processing_completed_at": "2025-07-19T13:22:22.563461",
+        "metrics": {
+          "job_id": "3c376abb-e4e5-4d01-9e60-f276b677461d",
+          "filename": "test_5pages.pdf",
+          "processing_start_time": 885719.539129853,
+          "processing_end_time": 885724.569609631,
+          "total_processing_time": {
+            "seconds": 5.0304797779535875
+          },
+          "performance": {
+            "total_pages": 5,
+            "processing_time": {
+              "seconds": 5.0304797779535875
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 1,
+            "num_chunks_successful": 1,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "N/A"
+          },
+          "cost_info": {
+            "estimated_cost": 0.00033,
+            "token_usage": {
+              "input_tokens": 3023,
+              "output_tokens": 70,
+              "total_tokens": 3093
+            }
+          }
+        }
+      },
+      "processing_method": "gemini_only",
+      "ppstructure_chunks": 0,
+      "gemini_chunks": 1,
+      "confirmed_pages": 5,
+      "api_response_time_avg": 0.0019221305847167969,
+      "completion_time": "2025-07-19T13:23:08.907979"
+    },
+    {
+      "test_name": "Boundary Document",
+      "pages": 6,
+      "filename": "test_6pages.pdf",
+      "job_id": "22fe38fc-4a6b-46e8-ab16-0e60e0ccd22b",
+      "upload_time": 0.15889692306518555,
+      "upload_success": true,
+      "pdf_size_bytes": 2454,
+      "start_time": "2025-07-19T13:22:18.625837",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0018453598022460938,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.001844167709350586
+      },
+      "results": {
+        "date": "undated",
+        "summary": "Document with no extractable text; no further details available",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: Document with no extractable text; no further details available.\n2. KEY DATES: None\n3. ULTIMATE KEY DATE: undated\n4. MAIN PARTIES: None\n5. CASE/REFERENCE NUMBERS: None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 6,
+        "processing_completed_at": "2025-07-19T13:22:21.150006",
+        "metrics": {
+          "job_id": "22fe38fc-4a6b-46e8-ab16-0e60e0ccd22b",
+          "filename": "test_6pages.pdf",
+          "processing_start_time": 885721.700301257,
+          "processing_end_time": 885723.077721034,
+          "total_processing_time": {
+            "seconds": 1.3774197769816965
+          },
+          "performance": {
+            "total_pages": 6,
+            "processing_time": {
+              "seconds": 1.3774197769816965
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 1,
+            "num_chunks_successful": 1,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "N/A"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000332,
+            "token_usage": {
+              "input_tokens": 3045,
+              "output_tokens": 69,
+              "total_tokens": 3114
+            }
+          }
+        }
+      },
+      "processing_method": "gemini_only",
+      "ppstructure_chunks": 0,
+      "gemini_chunks": 1,
+      "confirmed_pages": 6,
+      "api_response_time_avg": 0.0017652511596679688,
+      "completion_time": "2025-07-19T13:23:08.909893"
+    },
+    {
+      "test_name": "First Hybrid Document",
+      "pages": 7,
+      "filename": "test_7pages.pdf",
+      "job_id": "b1477ca1-e40a-4072-bfef-e4237844233a",
+      "upload_time": 0.15993094444274902,
+      "upload_success": true,
+      "pdf_size_bytes": 2855,
+      "start_time": "2025-07-19T13:22:20.788346",
+      "final_status": "TIMEOUT",
+      "total_processing_time": 304.3723957538605,
+      "first_processing_time": 0.002256155014038086,
+      "error": "No completion after 5 minutes"
+    },
+    {
+      "test_name": "Small Hybrid Document",
+      "pages": 9,
+      "filename": "test_9pages.pdf",
+      "job_id": "24a0b3c4-ec5f-4cd5-8164-ff25477de2f6",
+      "upload_time": 0.16193008422851562,
+      "upload_success": true,
+      "pdf_size_bytes": 3609,
+      "start_time": "2025-07-19T13:22:22.952849",
+      "final_status": "COMPLETED",
+      "total_processing_time": 64.08190321922302,
+      "first_processing_time": 0.003621339797973633,
+      "stage_times": {
+        "Creating 2 document chunks": 0.003662586212158203,
+        "Unknown": 64.08190131187439
+      },
+      "results": {
+        "date": "None",
+        "summary": "Undated Document with no identifiable information",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: Undated Document with no identifiable information.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 9,
+        "processing_completed_at": "2025-07-19T13:29:11.638343",
+        "metrics": {
+          "job_id": "24a0b3c4-ec5f-4cd5-8164-ff25477de2f6",
+          "filename": "test_9pages.pdf",
+          "processing_start_time": 885726.025752141,
+          "processing_end_time": 886133.663943662,
+          "total_processing_time": {
+            "seconds": 407.6381915209349
+          },
+          "performance": {
+            "total_pages": 9,
+            "processing_time": {
+              "seconds": 407.6381915209349
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 2,
+            "num_chunks_successful": 2,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000331,
+            "token_usage": {
+              "input_tokens": 3047,
+              "output_tokens": 65,
+              "total_tokens": 3112
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 1,
+      "gemini_chunks": 1,
+      "confirmed_pages": 9,
+      "api_response_time_avg": 0.004148721694946289,
+      "completion_time": "2025-07-19T13:29:17.364407"
+    },
+    {
+      "test_name": "Medium Hybrid Document",
+      "pages": 12,
+      "filename": "test_12pages.pdf",
+      "job_id": "934ae076-328a-4541-9acc-0bd2c687dcde",
+      "upload_time": 0.15558552742004395,
+      "upload_success": true,
+      "pdf_size_bytes": 4774,
+      "start_time": "2025-07-19T13:22:25.111047",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0037527084350585938,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.0037512779235839844
+      },
+      "results": {
+        "date": "undated",
+        "summary": "No text found to create a summary",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: No text found to create a summary.\n2. KEY DATES: None\n3. ULTIMATE KEY DATE: undated\n4. MAIN PARTIES: None\n5. CASE/REFERENCE NUMBERS: None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 12,
+        "processing_completed_at": "2025-07-19T13:29:08.145719",
+        "metrics": {
+          "job_id": "934ae076-328a-4541-9acc-0bd2c687dcde",
+          "filename": "test_12pages.pdf",
+          "processing_start_time": 885728.181084397,
+          "processing_end_time": 886130.114777845,
+          "total_processing_time": {
+            "seconds": 401.9336934479652
+          },
+          "performance": {
+            "total_pages": 12,
+            "processing_time": {
+              "seconds": 401.9336934479652
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 3,
+            "num_chunks_successful": 3,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000338,
+            "token_usage": {
+              "input_tokens": 3123,
+              "output_tokens": 65,
+              "total_tokens": 3188
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 2,
+      "gemini_chunks": 1,
+      "confirmed_pages": 12,
+      "api_response_time_avg": 0.003618478775024414,
+      "completion_time": "2025-07-19T13:29:17.368260"
+    },
+    {
+      "test_name": "Multi-chunk Document",
+      "pages": 15,
+      "filename": "test_15pages.pdf",
+      "job_id": "43b82eb0-db37-4fff-89fa-b2ff5a82f82f",
+      "upload_time": 0.15788698196411133,
+      "upload_success": true,
+      "pdf_size_bytes": 5884,
+      "start_time": "2025-07-19T13:22:27.271430",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0019061565399169922,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.0019054412841796875
+      },
+      "results": {
+        "date": "None",
+        "summary": "No text found to create a summary",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: No text found to create a summary.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title."
+        },
+        "total_pages": 15,
+        "processing_completed_at": "2025-07-19T13:29:16.565861",
+        "metrics": {
+          "job_id": "43b82eb0-db37-4fff-89fa-b2ff5a82f82f",
+          "filename": "test_15pages.pdf",
+          "processing_start_time": 885730.34349718,
+          "processing_end_time": 886134.575242692,
+          "total_processing_time": {
+            "seconds": 404.2317455119919
+          },
+          "performance": {
+            "total_pages": 15,
+            "processing_time": {
+              "seconds": 404.2317455119919
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 3,
+            "num_chunks_successful": 3,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000336,
+            "token_usage": {
+              "input_tokens": 3101,
+              "output_tokens": 64,
+              "total_tokens": 3165
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 2,
+      "gemini_chunks": 1,
+      "confirmed_pages": 15,
+      "api_response_time_avg": 0.0018322467803955078,
+      "completion_time": "2025-07-19T13:29:17.370245"
+    },
+    {
+      "test_name": "Large Document",
+      "pages": 24,
+      "filename": "test_24pages.pdf",
+      "job_id": "a8c43ff4-d05c-4490-a45c-b5c01c9ce01a",
+      "upload_time": 0.16477346420288086,
+      "upload_success": true,
+      "pdf_size_bytes": 11096,
+      "start_time": "2025-07-19T13:22:29.437412",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0014955997467041016,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.0014946460723876953
+      },
+      "results": {
+        "date": "undated",
+        "summary": "No text found; unable to determine document type or extract any fields",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: No text found; unable to determine document type or extract any fields.\n2. KEY DATES: None\n3. ULTIMATE KEY DATE: undated\n4. MAIN PARTIES: None\n5. CASE/REFERENCE NUMBERS: None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 24,
+        "processing_completed_at": "2025-07-19T13:29:10.026628",
+        "metrics": {
+          "job_id": "a8c43ff4-d05c-4490-a45c-b5c01c9ce01a",
+          "filename": "test_24pages.pdf",
+          "processing_start_time": 885732.505535269,
+          "processing_end_time": 886131.972871082,
+          "total_processing_time": {
+            "seconds": 399.4673358129803
+          },
+          "performance": {
+            "total_pages": 24,
+            "processing_time": {
+              "seconds": 399.4673358129803
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 4,
+            "num_chunks_successful": 4,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000351,
+            "token_usage": {
+              "input_tokens": 3227,
+              "output_tokens": 71,
+              "total_tokens": 3298
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 3,
+      "gemini_chunks": 1,
+      "confirmed_pages": 24,
+      "api_response_time_avg": 0.0014307498931884766,
+      "completion_time": "2025-07-19T13:29:17.371789"
+    },
+    {
+      "test_name": "Extra Large Document",
+      "pages": 30,
+      "filename": "test_30pages.pdf",
+      "job_id": "52ee0f7f-cf62-4c3d-8696-511854dd4d9f",
+      "upload_time": 0.17778801918029785,
+      "upload_success": true,
+      "pdf_size_bytes": 13820,
+      "start_time": "2025-07-19T13:22:31.617971",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0016531944274902344,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.0016520023345947266
+      },
+      "results": {
+        "date": "undated",
+        "summary": "No text found to create a summary",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: No text found to create a summary.\n2. KEY DATES: None\n3. ULTIMATE KEY DATE: undated\n4. MAIN PARTIES: None\n5. CASE/REFERENCE NUMBERS: None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 30,
+        "processing_completed_at": "2025-07-19T13:29:16.864519",
+        "metrics": {
+          "job_id": "52ee0f7f-cf62-4c3d-8696-511854dd4d9f",
+          "filename": "test_30pages.pdf",
+          "processing_start_time": 885734.686031611,
+          "processing_end_time": 886138.843506656,
+          "total_processing_time": {
+            "seconds": 404.15747504495084
+          },
+          "performance": {
+            "total_pages": 30,
+            "processing_time": {
+              "seconds": 404.15747504495084
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 5,
+            "num_chunks_successful": 5,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002",
+              "0003"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000365,
+            "token_usage": {
+              "input_tokens": 3385,
+              "output_tokens": 65,
+              "total_tokens": 3450
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 4,
+      "gemini_chunks": 1,
+      "confirmed_pages": 30,
+      "api_response_time_avg": 0.0015518665313720703,
+      "completion_time": "2025-07-19T13:29:17.373497"
+    },
+    {
+      "test_name": "Very Large Document",
+      "pages": 45,
+      "filename": "test_45pages.pdf",
+      "job_id": "069d371c-3f6c-4cd1-b949-31b47b9a6129",
+      "upload_time": 0.17610764503479004,
+      "upload_success": true,
+      "pdf_size_bytes": 20630,
+      "start_time": "2025-07-19T13:22:36.797073",
+      "final_status": "COMPLETED",
+      "total_processing_time": 8.014772176742554,
+      "first_processing_time": 0.0013833045959472656,
+      "stage_times": {
+        "Creating 6 document chunks": 0.0014073848724365234,
+        "Unknown": 8.014769792556763
+      },
+      "results": {
+        "date": "undated",
+        "summary": "No text detected; unable to determine document type or extract required fields",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: None",
+          "full_analysis": "1. SUMMARY: No text detected; unable to determine document type or extract required fields.\n2. KEY DATES: None\n3. ULTIMATE KEY DATE: undated\n4. MAIN PARTIES: None\n5. CASE/REFERENCE NUMBERS: None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: None."
+        },
+        "total_pages": 45,
+        "processing_completed_at": "2025-07-19T13:29:18.005852",
+        "metrics": {
+          "job_id": "069d371c-3f6c-4cd1-b949-31b47b9a6129",
+          "filename": "test_45pages.pdf",
+          "processing_start_time": 885739.863596931,
+          "processing_end_time": 886139.941255643,
+          "total_processing_time": {
+            "seconds": 400.077658712049
+          },
+          "performance": {
+            "total_pages": 45,
+            "processing_time": {
+              "seconds": 400.077658712049
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 6,
+            "num_chunks_successful": 6,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002",
+              "0003",
+              "0004"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000386,
+            "token_usage": {
+              "input_tokens": 3579,
+              "output_tokens": 69,
+              "total_tokens": 3648
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 5,
+      "gemini_chunks": 1,
+      "confirmed_pages": 45,
+      "api_response_time_avg": 0.006785869598388672,
+      "completion_time": "2025-07-19T13:29:25.388372"
+    },
+    {
+      "test_name": "Massive Document",
+      "pages": 60,
+      "filename": "test_60pages.pdf",
+      "job_id": "a750f6ff-f86d-4500-a393-d3736efff2d5",
+      "upload_time": 0.17807745933532715,
+      "upload_success": true,
+      "pdf_size_bytes": 28578,
+      "start_time": "2025-07-19T13:22:41.979047",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0036149024963378906,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.003613710403442383
+      },
+      "results": {
+        "date": "undated",
+        "summary": "No text found in the document to create a summary",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: No text found in the document to create a summary.\n2. KEY DATES: None\n3. ULTIMATE KEY DATE: undated\n4. MAIN PARTIES: None\n5. CASE/REFERENCE NUMBERS: None\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 60,
+        "processing_completed_at": "2025-07-19T13:29:18.712904",
+        "metrics": {
+          "job_id": "a750f6ff-f86d-4500-a393-d3736efff2d5",
+          "filename": "test_60pages.pdf",
+          "processing_start_time": 885745.045088999,
+          "processing_end_time": 886139.987440614,
+          "total_processing_time": {
+            "seconds": 394.9423516150564
+          },
+          "performance": {
+            "total_pages": 60,
+            "processing_time": {
+              "seconds": 394.9423516150564
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 8,
+            "num_chunks_successful": 8,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.00041,
+            "token_usage": {
+              "input_tokens": 3828,
+              "output_tokens": 68,
+              "total_tokens": 3896
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 7,
+      "gemini_chunks": 1,
+      "confirmed_pages": 60,
+      "api_response_time_avg": 0.0035037994384765625,
+      "completion_time": "2025-07-19T13:29:25.392073"
+    },
+    {
+      "test_name": "Huge Document",
+      "pages": 90,
+      "filename": "test_90pages.pdf",
+      "job_id": "94df97d5-22f1-4024-8748-08278fc3e9fb",
+      "upload_time": 0.20407319068908691,
+      "upload_success": true,
+      "pdf_size_bytes": 42888,
+      "start_time": "2025-07-19T13:22:47.189561",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.002192258834838867,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.002191305160522461
+      },
+      "results": {
+        "date": "None",
+        "summary": "No text detected; unable to determine document type or required fields",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: Document; Date: None; Title: None",
+          "full_analysis": "1. SUMMARY: No text detected; unable to determine document type or required fields.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: Document; Date: None; Title: None."
+        },
+        "total_pages": 90,
+        "processing_completed_at": "2025-07-19T13:29:18.393853",
+        "metrics": {
+          "job_id": "94df97d5-22f1-4024-8748-08278fc3e9fb",
+          "filename": "test_90pages.pdf",
+          "processing_start_time": 885750.250274723,
+          "processing_end_time": 886140.170700256,
+          "total_processing_time": {
+            "seconds": 389.9204255329678
+          },
+          "performance": {
+            "total_pages": 90,
+            "processing_time": {
+              "seconds": 389.9204255329678
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 12,
+            "num_chunks_successful": 12,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006",
+              "0007",
+              "0008",
+              "0009",
+              "0010"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.00045,
+            "token_usage": {
+              "input_tokens": 4224,
+              "output_tokens": 69,
+              "total_tokens": 4293
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 11,
+      "gemini_chunks": 1,
+      "confirmed_pages": 90,
+      "api_response_time_avg": 0.0021126270294189453,
+      "completion_time": "2025-07-19T13:29:25.394339"
+    },
+    {
+      "test_name": "Giant Document",
+      "pages": 120,
+      "filename": "test_120pages.pdf",
+      "job_id": "682032c5-a444-408a-9e88-3877d6b5866f",
+      "upload_time": 0.2177748680114746,
+      "upload_success": true,
+      "pdf_size_bytes": 57481,
+      "start_time": "2025-07-19T13:22:52.411717",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.0021462440490722656,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.002145051956176758
+      },
+      "results": {
+        "date": "None",
+        "summary": "No text found in the document",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title.\nSince no text is available, both are \"None.\"\nDate: None\nTitle: None",
+          "full_analysis": "1. SUMMARY: No text found in the document.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title.\nSince no text is available, both are \"None.\"\nDate: None\nTitle: None"
+        },
+        "total_pages": 120,
+        "processing_completed_at": "2025-07-19T13:29:19.760167",
+        "metrics": {
+          "job_id": "682032c5-a444-408a-9e88-3877d6b5866f",
+          "filename": "test_120pages.pdf",
+          "processing_start_time": 885755.468278387,
+          "processing_end_time": 886141.663331208,
+          "total_processing_time": {
+            "seconds": 386.19505282107275
+          },
+          "performance": {
+            "total_pages": 120,
+            "processing_time": {
+              "seconds": 386.19505282107275
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 15,
+            "num_chunks_successful": 15,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006",
+              "0007",
+              "0008",
+              "0009",
+              "0010",
+              "0011",
+              "0012",
+              "0013"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000495,
+            "token_usage": {
+              "input_tokens": 4615,
+              "output_tokens": 83,
+              "total_tokens": 4698
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 14,
+      "gemini_chunks": 1,
+      "confirmed_pages": 120,
+      "api_response_time_avg": 0.002065896987915039,
+      "completion_time": "2025-07-19T13:29:25.396540"
+    },
+    {
+      "test_name": "Enormous Document",
+      "pages": 150,
+      "filename": "test_150pages.pdf",
+      "job_id": "41b038cc-72b6-4e60-b605-6d02ab464f2c",
+      "upload_time": 0.2197132110595703,
+      "upload_success": true,
+      "pdf_size_bytes": 71911,
+      "start_time": "2025-07-19T13:23:00.636784",
+      "final_status": "COMPLETED",
+      "total_processing_time": 0.001539468765258789,
+      "first_processing_time": null,
+      "stage_times": {
+        "Unknown": 0.0015387535095214844
+      },
+      "results": {
+        "date": "None",
+        "summary": "No text was found in the document to create a summary",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: No text was found in the document to create a summary.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date; Title."
+        },
+        "total_pages": 150,
+        "processing_completed_at": "2025-07-19T13:29:19.918804",
+        "metrics": {
+          "job_id": "41b038cc-72b6-4e60-b605-6d02ab464f2c",
+          "filename": "test_150pages.pdf",
+          "processing_start_time": 885763.695287698,
+          "processing_end_time": 886141.723703022,
+          "total_processing_time": {
+            "seconds": 378.02841532405
+          },
+          "performance": {
+            "total_pages": 150,
+            "processing_time": {
+              "seconds": 378.02841532405
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 19,
+            "num_chunks_successful": 19,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006",
+              "0007",
+              "0008",
+              "0009",
+              "0010",
+              "0011",
+              "0012",
+              "0013",
+              "0014",
+              "0015",
+              "0016",
+              "0017"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000519,
+            "token_usage": {
+              "input_tokens": 4915,
+              "output_tokens": 68,
+              "total_tokens": 4983
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 18,
+      "gemini_chunks": 1,
+      "confirmed_pages": 150,
+      "api_response_time_avg": 0.0014653205871582031,
+      "completion_time": "2025-07-19T13:29:25.398133"
+    },
+    {
+      "test_name": "Maximum Document",
+      "pages": 200,
+      "filename": "test_200pages.pdf",
+      "job_id": "9740eade-78da-414a-9b3b-c91dc7713e61",
+      "upload_time": 0.2532768249511719,
+      "upload_success": true,
+      "pdf_size_bytes": 95961,
+      "start_time": "2025-07-19T13:23:08.900660",
+      "final_status": "COMPLETED",
+      "total_processing_time": 120.17742109298706,
+      "first_processing_time": 0.001142263412475586,
+      "stage_times": {
+        "Creating 25 document chunks": 0.0011594295501708984,
+        "Unknown": 120.17741918563843
+      },
+      "results": {
+        "date": "None",
+        "summary": "Unable to determine document type due to lack of text in the provided image",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date: None; Title: None",
+          "full_analysis": "1. SUMMARY: Unable to determine document type due to lack of text in the provided image.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n- Required Fields: Date: None; Title: None."
+        },
+        "total_pages": 200,
+        "processing_completed_at": "2025-07-19T13:31:19.939293",
+        "metrics": {
+          "job_id": "9740eade-78da-414a-9b3b-c91dc7713e61",
+          "filename": "test_200pages.pdf",
+          "processing_start_time": 885771.942537636,
+          "processing_end_time": 886261.843939528,
+          "total_processing_time": {
+            "seconds": 489.9014018919552
+          },
+          "performance": {
+            "total_pages": 200,
+            "processing_time": {
+              "seconds": 489.9014018919552
+            },
+            "high_throughput_processing": true,
+            "num_chunks": 25,
+            "num_chunks_successful": 25,
+            "num_chunks_failed": 0,
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006",
+              "0007",
+              "0008",
+              "0009",
+              "0010",
+              "0011",
+              "0012",
+              "0013",
+              "0014",
+              "0015",
+              "0016",
+              "0017",
+              "0018",
+              "0019",
+              "0020",
+              "0021",
+              "0022",
+              "0023"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "0.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000599,
+            "token_usage": {
+              "input_tokens": 5690,
+              "output_tokens": 75,
+              "total_tokens": 5765
+            }
+          }
+        }
+      },
+      "processing_method": "hybrid_ppstructure_gemini",
+      "ppstructure_chunks": 24,
+      "gemini_chunks": 1,
+      "confirmed_pages": 200,
+      "api_response_time_avg": 0.004703998565673828,
+      "completion_time": "2025-07-19T13:31:25.575633"
+    }
+  ]
+}

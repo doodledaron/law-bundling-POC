@@ -1,0 +1,518 @@
+{
+  "test_metadata": {
+    "timestamp": "20250728_012214",
+    "total_tests": 7,
+    "api_base_url": "http://204.12.246.205:8000",
+    "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]"
+  },
+  "summary_stats": {
+    "total_tests": 7,
+    "completed": 6,
+    "success_rate": 85.71428571428571
+  },
+  "test_results": [
+    {
+      "test_name": "5-Page Document",
+      "pages": 5,
+      "filename": "test_5pages.pdf",
+      "job_id": "7c7ca473-e0c3-44e7-98df-d42d49d4534d",
+      "upload_time": 0.19808030128479004,
+      "upload_success": true,
+      "pdf_size_bytes": 3457,
+      "start_time": "2025-07-28T00:31:45.301870",
+      "final_status": "COMPLETED",
+      "total_processing_time": 8.014837503433228,
+      "first_processing_time": 0.0017855167388916016,
+      "stage_times": {},
+      "results": {
+        "date": "None",
+        "summary": "Document titled \"Test content for 5-Page Document\"; no other required fields found",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: Document titled \"Test content for 5-Page Document\"; no other required fields found.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS: DOCUMENT\n     - Required Fields: Date; Title."
+        },
+        "total_pages": 5,
+        "processing_completed_at": "2025-07-28T00:31:52.450410",
+        "metrics": {
+          "job_id": "7c7ca473-e0c3-44e7-98df-d42d49d4534d",
+          "filename": "test_5pages.pdf",
+          "processing_end_time": 1617095.530700727,
+          "total_processing_time": {
+            "seconds": 6.24
+          },
+          "performance": {
+            "total_pages": 5,
+            "processing_time": {
+              "seconds": 6.24
+            },
+            "mixed_processing": true,
+            "num_chunks": 1,
+            "num_chunks_successful": 1,
+            "num_chunks_failed": 0,
+            "num_ppstructure_chunks": 0,
+            "num_gemini_chunks": 1,
+            "mixed_processing_ratio": "0:1 (PPStructure:Gemini)",
+            "chunk_order": [
+              "9999"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.0,
+            "average_confidence_formatted": "N/A"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000339,
+            "token_usage": {
+              "input_tokens": 3086,
+              "output_tokens": 75,
+              "total_tokens": 3161
+            }
+          }
+        }
+      },
+      "processing_method": "mixed_processing_chunked",
+      "ppstructure_chunks": 0,
+      "gemini_chunks": 0,
+      "confirmed_pages": 5,
+      "api_response_time_avg": 0.004716634750366211,
+      "completion_time": "2025-07-28T00:31:53.316812"
+    },
+    {
+      "test_name": "10-Page Document",
+      "pages": 10,
+      "filename": "test_10pages.pdf",
+      "job_id": "8d1ec014-3f44-424c-b716-7c6561e49cf8",
+      "upload_time": 0.3319225311279297,
+      "upload_success": true,
+      "pdf_size_bytes": 5967,
+      "start_time": "2025-07-28T00:31:56.662996",
+      "final_status": "COMPLETED",
+      "total_processing_time": 72.10504746437073,
+      "first_processing_time": 0.0019116401672363281,
+      "stage_times": {},
+      "results": {
+        "date": "None",
+        "summary": "Document titled \"Test content for 10-Page Document\" with no specified date or parties",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n*   DOCUMENT\n    *   Required Fields: Date; Title.\n    *   Date: None\n    *   Title: Test content for 10-Page Document",
+          "full_analysis": "1. SUMMARY: Document titled \"Test content for 10-Page Document\" with no specified date or parties.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n*   DOCUMENT\n    *   Required Fields: Date; Title.\n    *   Date: None\n    *   Title: Test content for 10-Page Document"
+        },
+        "total_pages": 10,
+        "processing_completed_at": "2025-07-28T00:33:01.428638",
+        "metrics": {
+          "job_id": "8d1ec014-3f44-424c-b716-7c6561e49cf8",
+          "filename": "test_10pages.pdf",
+          "processing_end_time": 1617164.509255132,
+          "total_processing_time": {
+            "seconds": 74.86
+          },
+          "performance": {
+            "total_pages": 10,
+            "processing_time": {
+              "seconds": 74.86
+            },
+            "mixed_processing": true,
+            "num_chunks": 2,
+            "num_chunks_successful": 2,
+            "num_chunks_failed": 0,
+            "num_ppstructure_chunks": 1,
+            "num_gemini_chunks": 1,
+            "mixed_processing_ratio": "1:1 (PPStructure:Gemini)",
+            "chunk_order": [
+              "0000",
+              "0001"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.958,
+            "average_confidence_formatted": "95.8%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000366,
+            "token_usage": {
+              "input_tokens": 3243,
+              "output_tokens": 103,
+              "total_tokens": 3346
+            }
+          }
+        }
+      },
+      "processing_method": "mixed_processing_chunked",
+      "ppstructure_chunks": 1,
+      "gemini_chunks": 1,
+      "confirmed_pages": 10,
+      "api_response_time_avg": 0.004892826080322266,
+      "completion_time": "2025-07-28T00:33:08.768172"
+    },
+    {
+      "test_name": "50-Page Document",
+      "pages": 50,
+      "filename": "test_50pages.pdf",
+      "job_id": "62295f9a-e360-4448-84f2-0ce993e088f9",
+      "upload_time": 0.7602179050445557,
+      "upload_success": true,
+      "pdf_size_bytes": 26015,
+      "start_time": "2025-07-28T00:33:12.560512",
+      "final_status": "COMPLETED",
+      "total_processing_time": 96.13285160064697,
+      "first_processing_time": 0.0023488998413085938,
+      "stage_times": {},
+      "results": {
+        "date": "None",
+        "summary": "Document titled \"Test content for 50-Page Document\"; Date: None",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\nDOCUMENT\n- Required Fields: Date; Title",
+          "full_analysis": "1. SUMMARY: Document titled \"Test content for 50-Page Document\"; Date: None.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\nDOCUMENT\n- Required Fields: Date; Title."
+        },
+        "total_pages": 50,
+        "processing_completed_at": "2025-07-28T00:34:42.834824",
+        "metrics": {
+          "job_id": "62295f9a-e360-4448-84f2-0ce993e088f9",
+          "filename": "test_50pages.pdf",
+          "processing_end_time": 1617265.915193327,
+          "total_processing_time": {
+            "seconds": 323.87
+          },
+          "performance": {
+            "total_pages": 50,
+            "processing_time": {
+              "seconds": 323.87
+            },
+            "mixed_processing": true,
+            "num_chunks": 4,
+            "num_chunks_successful": 4,
+            "num_chunks_failed": 0,
+            "num_ppstructure_chunks": 3,
+            "num_gemini_chunks": 1,
+            "mixed_processing_ratio": "3:1 (PPStructure:Gemini)",
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0002",
+              "0003"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.9566666666666667,
+            "average_confidence_formatted": "95.7%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000484,
+            "token_usage": {
+              "input_tokens": 4544,
+              "output_tokens": 74,
+              "total_tokens": 4618
+            }
+          }
+        }
+      },
+      "processing_method": "mixed_processing_chunked",
+      "ppstructure_chunks": 3,
+      "gemini_chunks": 1,
+      "confirmed_pages": 50,
+      "api_response_time_avg": 0.004665851593017578,
+      "completion_time": "2025-07-28T00:34:48.693486"
+    },
+    {
+      "test_name": "100-Page Document",
+      "pages": 100,
+      "filename": "test_100pages.pdf",
+      "job_id": "a6dbd6d7-e134-43e5-b60b-4ca4b3bbffea",
+      "upload_time": 1.3033251762390137,
+      "upload_success": true,
+      "pdf_size_bytes": 51490,
+      "start_time": "2025-07-28T00:34:53.053185",
+      "final_status": "COMPLETED",
+      "total_processing_time": 120.16961622238159,
+      "first_processing_time": 0.0019381046295166016,
+      "stage_times": {},
+      "results": {
+        "date": "None",
+        "summary": "Document titled \"Testcontentfor100-Page Document\", spanning 100 pages, with each page labeled sequentially",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n*   DOCUMENT\n    *   Required Fields: Date; Title.\n    *   Date: None\n    *   Title: Testcontentfor100-Page Document",
+          "full_analysis": "1. SUMMARY: Document titled \"Testcontentfor100-Page Document\", spanning 100 pages, with each page labeled sequentially.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n*   DOCUMENT\n    *   Required Fields: Date; Title.\n    *   Date: None\n    *   Title: Testcontentfor100-Page Document"
+        },
+        "total_pages": 100,
+        "processing_completed_at": "2025-07-28T00:36:45.579540",
+        "metrics": {
+          "job_id": "a6dbd6d7-e134-43e5-b60b-4ca4b3bbffea",
+          "filename": "test_100pages.pdf",
+          "processing_end_time": 1617388.660051137,
+          "total_processing_time": {
+            "seconds": 697.18
+          },
+          "performance": {
+            "total_pages": 100,
+            "processing_time": {
+              "seconds": 697.18
+            },
+            "mixed_processing": true,
+            "num_chunks": 7,
+            "num_chunks_successful": 7,
+            "num_chunks_failed": 0,
+            "num_ppstructure_chunks": 6,
+            "num_gemini_chunks": 1,
+            "mixed_processing_ratio": "6:1 (PPStructure:Gemini)",
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.9503333333333334,
+            "average_confidence_formatted": "95.0%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.000685,
+            "token_usage": {
+              "input_tokens": 6411,
+              "output_tokens": 109,
+              "total_tokens": 6520
+            }
+          }
+        }
+      },
+      "processing_method": "mixed_processing_chunked",
+      "ppstructure_chunks": 6,
+      "gemini_chunks": 1,
+      "confirmed_pages": 100,
+      "api_response_time_avg": 0.0048558712005615234,
+      "completion_time": "2025-07-28T00:36:53.222901"
+    },
+    {
+      "test_name": "200-Page Document",
+      "pages": 200,
+      "filename": "test_200pages.pdf",
+      "job_id": "76d10753-3230-4a1c-8fbd-334541276868",
+      "upload_time": 2.4290173053741455,
+      "upload_success": true,
+      "pdf_size_bytes": 102320,
+      "start_time": "2025-07-28T00:36:58.748745",
+      "final_status": "COMPLETED",
+      "total_processing_time": 360.5428855419159,
+      "first_processing_time": 0.0015277862548828125,
+      "stage_times": {},
+      "results": {
+        "date": "None",
+        "summary": "Document titled \"Testcontentfor200-Page Document,\" spanning 200 pages, containing repetitive content",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n\u2022 DOCUMENT\n  - Required Fields: Date: None; Title: Testcontentfor200-Page Document",
+          "full_analysis": "1. SUMMARY: Document titled \"Testcontentfor200-Page Document,\" spanning 200 pages, containing repetitive content.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n\u2022 DOCUMENT\n  - Required Fields: Date: None; Title: Testcontentfor200-Page Document."
+        },
+        "total_pages": 200,
+        "processing_completed_at": "2025-07-28T00:42:52.107491",
+        "metrics": {
+          "job_id": "76d10753-3230-4a1c-8fbd-334541276868",
+          "filename": "test_200pages.pdf",
+          "processing_end_time": 1617755.188032698,
+          "total_processing_time": {
+            "seconds": 1774.0200000000002
+          },
+          "performance": {
+            "total_pages": 200,
+            "processing_time": {
+              "seconds": 1774.0200000000002
+            },
+            "mixed_processing": true,
+            "num_chunks": 13,
+            "num_chunks_successful": 13,
+            "num_chunks_failed": 0,
+            "num_ppstructure_chunks": 12,
+            "num_gemini_chunks": 1,
+            "mixed_processing_ratio": "12:1 (PPStructure:Gemini)",
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006",
+              "0007",
+              "0008",
+              "0009",
+              "0010",
+              "0011",
+              "0012"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.9506666666666668,
+            "average_confidence_formatted": "95.1%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.001065,
+            "token_usage": {
+              "input_tokens": 10271,
+              "output_tokens": 95,
+              "total_tokens": 10366
+            }
+          }
+        }
+      },
+      "processing_method": "mixed_processing_chunked",
+      "ppstructure_chunks": 12,
+      "gemini_chunks": 1,
+      "confirmed_pages": 200,
+      "api_response_time_avg": 0.005125761032104492,
+      "completion_time": "2025-07-28T00:42:59.291717"
+    },
+    {
+      "test_name": "500-Page Document",
+      "pages": 500,
+      "filename": "test_500pages.pdf",
+      "job_id": "b3b2cb1e-efb5-4d25-ae1b-a0320020aff1",
+      "upload_time": 5.73996376991272,
+      "upload_success": true,
+      "pdf_size_bytes": 255010,
+      "start_time": "2025-07-28T00:43:08.212928",
+      "final_status": "NOT_FOUND",
+      "error": "Job not found",
+      "total_processing_time": 560.8318438529968
+    },
+    {
+      "test_name": "1000-Page Document",
+      "pages": 1000,
+      "filename": "test_1000pages.pdf",
+      "job_id": "2b13b73e-7917-424b-a6ef-409bb14edf2e",
+      "upload_time": 11.132282972335815,
+      "upload_success": true,
+      "pdf_size_bytes": 512624,
+      "start_time": "2025-07-28T00:52:43.464710",
+      "final_status": "COMPLETED",
+      "total_processing_time": 1770.7233185768127,
+      "first_processing_time": 0.0015714168548583984,
+      "stage_times": {},
+      "results": {
+        "date": "None",
+        "summary": "Document titled \"Testcontentfor1000-Page Document\" with pages numbered 1 to 1000; a test document",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n\u2022 DOCUMENT\n     - Required Fields: Date; Title.\n     - Date: None\n     - Title: Testcontentfor1000-Page Document",
+          "full_analysis": "1. SUMMARY: Document titled \"Testcontentfor1000-Page Document\" with pages numbered 1 to 1000; a test document.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n\u2022 DOCUMENT\n     - Required Fields: Date; Title.\n     - Date: None\n     - Title: Testcontentfor1000-Page Document"
+        },
+        "total_pages": 1000,
+        "processing_completed_at": "2025-07-28T01:22:13.540142",
+        "metrics": {
+          "job_id": "2b13b73e-7917-424b-a6ef-409bb14edf2e",
+          "filename": "test_1000pages.pdf",
+          "processing_end_time": 1620116.622549303,
+          "total_processing_time": {
+            "seconds": 8605.669999999998
+          },
+          "performance": {
+            "total_pages": 1000,
+            "processing_time": {
+              "seconds": 8605.669999999998
+            },
+            "mixed_processing": true,
+            "num_chunks": 61,
+            "num_chunks_successful": 61,
+            "num_chunks_failed": 0,
+            "num_ppstructure_chunks": 60,
+            "num_gemini_chunks": 1,
+            "mixed_processing_ratio": "60:1 (PPStructure:Gemini)",
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006",
+              "0007",
+              "0008",
+              "0009",
+              "0010",
+              "0011",
+              "0012",
+              "0013",
+              "0014",
+              "0015",
+              "0016",
+              "0017",
+              "0018",
+              "0019",
+              "0020",
+              "0021",
+              "0022",
+              "0023",
+              "0024",
+              "0025",
+              "0026",
+              "0027",
+              "0028",
+              "0029",
+              "0030",
+              "0031",
+              "0032",
+              "0033",
+              "0034",
+              "0035",
+              "0036",
+              "0037",
+              "0038",
+              "0039",
+              "0040",
+              "0041",
+              "0042",
+              "0043",
+              "0044",
+              "0045",
+              "0046",
+              "0047",
+              "0048",
+              "0049",
+              "0050",
+              "0051",
+              "0052",
+              "0053",
+              "0054",
+              "0055",
+              "0056",
+              "0057",
+              "0058",
+              "0059",
+              "0060"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.954816666666667,
+            "average_confidence_formatted": "95.5%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.004326,
+            "token_usage": {
+              "input_tokens": 42820,
+              "output_tokens": 110,
+              "total_tokens": 42930
+            }
+          }
+        }
+      },
+      "processing_method": "mixed_processing_chunked",
+      "ppstructure_chunks": 60,
+      "gemini_chunks": 1,
+      "confirmed_pages": 1000,
+      "api_response_time_avg": 0.006798267364501953,
+      "completion_time": "2025-07-28T01:22:14.188349"
+    }
+  ]
+}

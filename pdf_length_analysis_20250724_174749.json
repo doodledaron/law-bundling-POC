@@ -1,0 +1,28 @@
+{
+  "test_metadata": {
+    "timestamp": "20250724_174749",
+    "total_tests": 1,
+    "api_base_url": "http://204.12.246.205:8000",
+    "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]"
+  },
+  "summary_stats": {
+    "total_tests": 1,
+    "completed": 0,
+    "success_rate": 0.0
+  },
+  "test_results": [
+    {
+      "test_name": "500-Page Document",
+      "pages": 500,
+      "filename": "test_500pages.pdf",
+      "job_id": "c47fa53f-e927-4718-9c90-7c0a17aa5551",
+      "upload_time": 5.714449167251587,
+      "upload_success": true,
+      "pdf_size_bytes": 255010,
+      "start_time": "2025-07-24T17:39:32.495925",
+      "final_status": "NOT_FOUND",
+      "error": "Job not found",
+      "total_processing_time": 496.7754867076874
+    }
+  ]
+}

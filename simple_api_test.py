@@ -32,6 +32,31 @@ UPLOAD_ENDPOINT = f"{BASE_URL}/api/upload"
 JOB_STATUS_ENDPOINT = f"{BASE_URL}/api/job"
 HEALTH_ENDPOINT = f"{BASE_URL}/health"
 
+# Load API key from .env file
+def load_env_file():
+    """Load environment variables from .env file"""
+    try:
+        with open('.env', 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ[key] = value
+    except FileNotFoundError:
+        print("⚠️ .env file not found")
+    except Exception as e:
+        print(f"⚠️ Error loading .env file: {e}")
+
+# Load environment variables
+load_env_file()
+
+# Load API key from environment
+API_KEY = os.getenv('API_KEYS', '').split(',')[0] if os.getenv('API_KEYS') else None
+if API_KEY:
+    print(f"✅ API key loaded: {API_KEY[:10]}...")
+else:
+    print("⚠️ No API key found in environment - authentication may fail")
+
 # at the top of your file, add these imports:
 import io
 try:
@@ -179,6 +204,10 @@ def make_http_request(url, method='GET', data=None, headers=None, timeout=30):
     try:
         if headers is None:
             headers = {}
+        
+        # Add API key authentication for production endpoints
+        if '/api/' in url and API_KEY:
+            headers['X-API-Key'] = API_KEY
         
         req = urllib.request.Request(url, data=data, headers=headers, method=method)
         

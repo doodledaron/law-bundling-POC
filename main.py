@@ -3,12 +3,12 @@
 FastAPI application for law document processing system.
 Handles HTTP endpoints and delegates processing to Celery tasks.
 """
-from fastapi import FastAPI, Request, File, UploadFile, Form, HTTPException
+from fastapi import FastAPI, Request, File, UploadFile, Form, HTTPException, Depends, Header
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-from typing import List
+from typing import List, Optional
 import os
 import tempfile
 import uuid
@@ -23,8 +23,54 @@ from pdf2image import convert_from_bytes
 # Import tasks
 from tasks.utils import get_timestamp, update_job_status
 
+# Import configuration
+from config import Config
+
 # Initialize logging
 logger = logging.getLogger(__name__)
+
+# Authentication functions
+def verify_api_key(x_api_key: Optional[str] = Header(None, alias=Config.API_KEY_HEADER)):
+    """
+    Verify API key for protected endpoints.
+    
+    Args:
+        x_api_key: API key from request header
+        
+    Returns:
+        bool: True if valid API key
+        
+    Raises:
+        HTTPException: 401 if invalid or missing API key
+    """
+    if not Config.API_KEYS:
+        # If no API keys configured, allow access (backward compatibility)
+        logger.warning("No API keys configured - authentication disabled")
+        return True
+    
+    if not x_api_key:
+        raise HTTPException(
+            status_code=401,
+            detail={
+                "error": "Missing API key",
+                "message": f"Please provide a valid API key in the '{Config.API_KEY_HEADER}' header",
+                "required_header": Config.API_KEY_HEADER
+            }
+        )
+    
+    if x_api_key not in Config.API_KEYS:
+        logger.warning(f"Invalid API key attempted: {x_api_key[:8]}...")
+        raise HTTPException(
+            status_code=401,
+            detail={
+                "error": "Invalid API key",
+                "message": "The provided API key is not valid",
+                "required_header": Config.API_KEY_HEADER
+            }
+        )
+    
+    logger.info(f"Valid API key used: {x_api_key[:8]}...")
+    return True
 
 # Initialize Redis client
 redis_client = redis.Redis.from_url(
@@ -532,19 +578,70 @@ def _fix_file_path(file_path):
         return '/' + file_path
     return file_path
 
-# Define root endpoint
+# Root endpoint - API information page
 @app.get("/", response_class=HTMLResponse)
-async def read_root(request: Request):
+async def root_info():
     """
-    Render the main upload page
+    Display API information page without exposing development endpoints
+    """
+    html_content = """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Law Document Processing API</title>
+        <style>
+            body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
+            .header { text-align: center; margin-bottom: 40px; }
+            .api-info { background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0; }
+            .status { color: #28a745; font-weight: bold; }
+            .endpoint { background: #e9ecef; padding: 10px; margin: 10px 0; border-radius: 4px; font-family: monospace; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🏛️ Law Document Processing API</h1>
+            <p class="status">Service Status: Active</p>
+        </div>
+        
+        <div class="api-info">
+            <h2>📋 API Information</h2>
+            <p>This is a professional document processing service for legal documents.</p>
+            
+            <h3>Available Endpoints:</h3>
+            <div class="endpoint">POST /api/upload - Document upload (requires API key)</div>
+            <div class="endpoint">GET /api/job/{job_id} - Check processing status (requires API key)</div>
+            <div class="endpoint">GET /health - Service health check (public)</div>
+            
+            <h3>Authentication:</h3>
+            <p>All API endpoints require authentication via <code>X-API-Key</code> header.</p>
+            
+            <h3>Documentation:</h3>
+            <p>For API integration documentation, please contact the system administrator.</p>
+            
+            <h3>Supported Formats:</h3>
+            <p>PDF, JPEG, PNG files (no size limit)</p>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px; color: #666;">
+            <p>Law Document Processing Service v2.0.0</p>
+        </div>
+    </body>
+    </html>
+    """
+    return HTMLResponse(content=html_content)
+
+# Development endpoints (moved to /dev prefix for security)
+@app.get("/dev/", response_class=HTMLResponse)
+async def dev_root(request: Request):
+    """
+    Render the main upload page (development interface)
     """
     return templates.TemplateResponse("index.html", {"request": request})
 
-# Bulk processing page
-@app.get("/bulk", response_class=HTMLResponse)
-async def bulk_processing_page(request: Request, jobs: str = None):
+@app.get("/dev/bulk", response_class=HTMLResponse)
+async def dev_bulk_processing_page(request: Request, jobs: str = None):
     """
-    Render the bulk processing monitoring page with job IDs from URL parameters
+    Render the bulk processing monitoring page with job IDs from URL parameters (development interface)
     """
     template_data = {"request": request}
     
@@ -559,20 +656,19 @@ async def bulk_processing_page(request: Request, jobs: str = None):
     
     return templates.TemplateResponse("bulk_processing.html", template_data)
 
-# Results list page
-@app.get("/results-list", response_class=HTMLResponse)
-async def results_page(request: Request):
+@app.get("/dev/results-list", response_class=HTMLResponse)
+async def dev_results_page(request: Request):
     """
-    Render the results list page
+    Render the results list page (development interface)
     """
     return templates.TemplateResponse("results_list.html", {"request": request})
 
 
-# API endpoint to get all processed documents
-@app.get("/api/results")
-async def api_get_results():
+# Development API endpoints (moved to /dev prefix)
+@app.get("/dev/api/results")
+async def dev_api_get_results():
     """
-    Get all processed documents from results folder
+    Get all processed documents from results folder (development interface)
     """
     try:
         results_dir = "results"
@@ -615,9 +711,9 @@ async def api_get_results():
         print(f"Error getting results: {str(e)}")
         return {"documents": [], "error": str(e)}
 
-# Bulk upload endpoint with parallel processing support
-@app.post("/bulk-upload")
-async def bulk_upload(request: Request, files: List[UploadFile] = File(...)):
+# Development bulk upload endpoint
+@app.post("/dev/bulk-upload")
+async def dev_bulk_upload(request: Request, files: List[UploadFile] = File(...)):
     """
     Handle bulk document upload with intelligent parallel distribution.
     
@@ -755,7 +851,7 @@ async def bulk_upload(request: Request, files: List[UploadFile] = File(...)):
 
 # Single document upload endpoint for API integration
 @app.post("/api/upload", response_class=JSONResponse)
-async def api_upload_single(file: UploadFile = File(...)):
+async def api_upload_single(file: UploadFile = File(...), authenticated: bool = Depends(verify_api_key)):
     """
     Single document upload with JSON response for API integration.
     
@@ -838,9 +934,9 @@ async def api_upload_single(file: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail=f"Upload failed: {str(e)}")
 
 
-# Single document upload endpoint with container load balancing
-@app.post("/upload", response_class=HTMLResponse)
-async def upload_file(request: Request, file: UploadFile = File(...)):
+# Development single document upload endpoint
+@app.post("/dev/upload", response_class=HTMLResponse)
+async def dev_upload_file(request: Request, file: UploadFile = File(...)):
     """
     Process uploaded file with intelligent container selection for optimal performance.
     
@@ -978,9 +1074,9 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
             status_code=500
         )
 
-# Job status endpoint
-@app.get("/job/{job_id}", response_class=HTMLResponse)
-async def get_job_status(request: Request, job_id: str):
+# Development job status endpoint
+@app.get("/dev/job/{job_id}", response_class=HTMLResponse)
+async def dev_get_job_status(request: Request, job_id: str):
     """
     Get job status and results
     """
@@ -1109,7 +1205,7 @@ async def get_job_status(request: Request, job_id: str):
 
 # API endpoint for status updates with enhanced loading support
 @app.get("/api/job/{job_id}")
-async def api_job_status(job_id: str):
+async def api_job_status(job_id: str, authenticated: bool = Depends(verify_api_key)):
     """
     Get job status as JSON for AJAX updates with enhanced progress tracking
     """
@@ -1225,9 +1321,9 @@ async def api_job_status(job_id: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error retrieving job status: {str(e)}")
 
-# Parallel processing status monitoring endpoint
-@app.get("/api/parallel/status")
-async def get_parallel_status():
+# Development parallel processing status monitoring endpoint
+@app.get("/dev/api/parallel/status")
+async def dev_get_parallel_status():
     """
     Get current status of parallel processing system for monitoring.
     
@@ -1254,14 +1350,14 @@ async def get_parallel_status():
             "timestamp": get_timestamp()
         }
 
-# Legacy container status endpoint (for backwards compatibility)
-@app.get("/api/containers/status")
-async def get_container_status():
+# Development legacy container status endpoint
+@app.get("/dev/api/containers/status")
+async def dev_get_container_status():
     """
-    Legacy endpoint - redirects to parallel processing status.
+    Legacy endpoint - redirects to parallel processing status (development interface).
     Maintained for backwards compatibility.
     """
-    return await get_parallel_status()
+    return await dev_get_parallel_status()
 
 # Health check endpoint
 @app.get("/health")

@@ -309,12 +309,12 @@
 
       <div style="margin-top: 2rem">
         {% if status.status == 'COMPLETED' %}
-        <a href="/job/{{ job_id }}" class="btn">View Results</a>
+        <a href="/dev/job/{{ job_id }}" class="btn">View Results</a>
         {% else %}
-        <a href="/job/{{ job_id }}" class="btn">Refresh Status</a>
+        <a href="/dev/job/{{ job_id }}" class="btn">Refresh Status</a>
         {% endif %}
 
-        <a href="/" class="btn btn-secondary">Upload Another Document</a>
+        <a href="/dev/" class="btn btn-secondary">Upload Another Document</a>
       </div>
 
       {% if status.status in ['PROCESSING', 'PENDING'] %}
@@ -363,7 +363,7 @@
         try {
           // If we don't have status data, fetch it
           if (!statusData) {
-            const response = await fetch(`/api/job/${jobId}`);
+            const response = await fetch(`/dev/api/job/${jobId}`);
             if (!response.ok) {
               throw new Error(`Failed to fetch status: ${response.status}`);
             }
@@ -393,7 +393,7 @@
           
           // Try to access the results page to verify it's ready
           console.log("🔍 Testing results page accessibility...");
-          const pageResponse = await fetch(`/job/${jobId}`, { method: 'HEAD' });
+          const pageResponse = await fetch(`/dev/job/${jobId}`, { method: 'HEAD' });
           
           if (!pageResponse.ok) {
             console.log(`⚠️ Results page not accessible (HTTP ${pageResponse.status})`);
@@ -467,19 +467,19 @@
         // Redirect after countdown
         setTimeout(() => {
           console.log("🔄 Redirecting to results page after validation:", `/job/${jobId}`);
-          window.location.href = `/job/${jobId}`;
+          window.location.href = `/dev/job/${jobId}`;
         }, 5000);
       }
 
       function refreshStatus() {
         if (refreshCount >= maxRefreshes) {
           document.querySelector(".refresh-indicator").innerHTML =
-            '<span style="color: #666;">Auto-refresh stopped. <a href="/job/{{ job_id }}">Click to refresh manually</a></span>';
+            '<span style="color: #666;">Auto-refresh stopped. <a href="/dev/job/{{ job_id }}">Click to refresh manually</a></span>';
           return;
         }
 
         console.log("🔄 Fetching job status from API...");
-        fetch("/api/job/{{ job_id }}")
+        fetch("/dev/api/job/{{ job_id }}")
           .then((response) => response.json())
           .then((data) => {
             console.log("📊 Received job status:", data.status, "- Progress:", data.progress);

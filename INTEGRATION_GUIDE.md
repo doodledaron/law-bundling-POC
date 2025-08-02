@@ -29,7 +29,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 REDIS_URL=redis://localhost:6379/0
 
 # OPTIONAL (with defaults)
-MAX_FILE_SIZE=10485760  # 10MB
+MAX_FILE_SIZE=  # No file size limit (disabled)
 PAGES_PER_CHUNK=5
 MAX_DOCUMENT_WORKERS=12
 ```
@@ -322,7 +322,7 @@ docker-compose ps
 1. **Out of Memory**: Reduce `MAX_DOCUMENT_WORKERS`
 2. **Redis Connection**: Check `REDIS_URL` configuration
 3. **GPU Access**: Ensure Docker GPU support
-4. **File Upload Limits**: Adjust `MAX_FILE_SIZE`
+4. **File Format Issues**: Check supported formats (PDF/JPEG/PNG)
 
 ### Log Monitoring
 ```bash

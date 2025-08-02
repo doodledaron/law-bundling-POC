@@ -268,8 +268,8 @@
         </div>
         
         <div style="margin-top: 1.5rem;">
-            <a href="/bulk?jobs={{ job_ids|join(',') }}" class="btn">📊 View Processing Dashboard</a>
-            <a href="/" class="btn btn-secondary">← Upload More Documents</a>
+            <a href="/dev/bulk?jobs={{ job_ids|join(',') }}" class="btn">📊 View Processing Dashboard</a>
+            <a href="/dev/" class="btn btn-secondary">← Upload More Documents</a>
         </div>
     </div>
 
@@ -294,7 +294,7 @@
             if (count <= 0) {
                 clearInterval(countdown);
                 // Redirect to bulk processing page with job IDs
-                window.location.href = `/bulk?jobs=${jobIds.join(',')}`;
+                window.location.href = `/dev/bulk?jobs=${jobIds.join(',')}`;
             }
         }, 1000);
 
@@ -303,7 +303,7 @@
         console.log('Total documents:', jobIds.length);
         console.log('Job IDs:', jobIds);
         console.log('Submitted files:', submittedFiles);
-        console.log('Redirecting to:', `/bulk?jobs=${jobIds.join(',')}`);
+        console.log('Redirecting to:', `/dev/bulk?jobs=${jobIds.join(',')}`);
     </script>
 </body>
 </html> 

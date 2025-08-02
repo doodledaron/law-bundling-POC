@@ -15,10 +15,17 @@ class Config:
     }
     
     # File upload settings
-    MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
+    MAX_FILE_SIZE = None  # No file size limit
     ALLOWED_EXTENSIONS = {
         'txt', 'pdf', 'doc', 'docx', 'png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff'
     }
     
     # Upload directory
-    UPLOAD_DIR = "uploads" 
+    UPLOAD_DIR = "uploads"
+    
+    # API Authentication settings
+    API_KEYS_STRING = os.getenv("API_KEYS", "")
+    API_KEYS = [key.strip() for key in API_KEYS_STRING.split(",") if key.strip()] if API_KEYS_STRING else []
+    
+    # Authentication header name
+    API_KEY_HEADER = "X-API-Key" 

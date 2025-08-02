@@ -395,8 +395,8 @@
 
       <!-- Navigation -->
       <div class="navigation">
-        <a href="/" class="btn btn-secondary">← Back to Upload</a>
-        <a href="/bulk" class="btn btn-primary">📤 Bulk Upload</a>
+        <a href="/dev/" class="btn btn-secondary">← Back to Upload</a>
+        <a href="/dev/bulk" class="btn btn-primary">📤 Bulk Upload</a>
       </div>
     </div>
 
@@ -424,7 +424,7 @@
 
       async function loadDocuments() {
         try {
-          const response = await fetch("/api/results");
+          const response = await fetch("/dev/api/results");
           if (!response.ok) {
             throw new Error("Failed to load results");
           }
@@ -597,7 +597,7 @@
                     </div>
                     
                     <div class="doc-actions">
-                        <a href="/job/${
+                        <a href="/dev/job/${
                           doc.job_id
                         }" class="btn btn-primary" target="_blank">
                             📊 View Full Results

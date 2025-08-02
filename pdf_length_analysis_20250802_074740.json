@@ -1,0 +1,71 @@
+{
+  "test_metadata": {
+    "timestamp": "20250802_074740",
+    "total_tests": 7,
+    "api_base_url": "http://204.12.246.205:8000",
+    "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]"
+  },
+  "summary_stats": {
+    "total_tests": 7,
+    "completed": 0,
+    "success_rate": 0.0
+  },
+  "test_results": [
+    {
+      "test_name": "5-Page Document",
+      "pages": 5,
+      "filename": "test_5pages.pdf",
+      "upload_success": false,
+      "upload_time": 0.010824441909790039,
+      "error": "HTTP 401: Unauthorized"
+    },
+    {
+      "test_name": "10-Page Document",
+      "pages": 10,
+      "filename": "test_10pages.pdf",
+      "upload_success": false,
+      "upload_time": 0.003823995590209961,
+      "error": "HTTP 401: Unauthorized"
+    },
+    {
+      "test_name": "50-Page Document",
+      "pages": 50,
+      "filename": "test_50pages.pdf",
+      "upload_success": false,
+      "upload_time": 0.0050792694091796875,
+      "error": "HTTP 401: Unauthorized"
+    },
+    {
+      "test_name": "100-Page Document",
+      "pages": 100,
+      "filename": "test_100pages.pdf",
+      "upload_success": false,
+      "upload_time": 0.005937099456787109,
+      "error": "HTTP 401: Unauthorized"
+    },
+    {
+      "test_name": "200-Page Document",
+      "pages": 200,
+      "filename": "test_200pages.pdf",
+      "upload_success": false,
+      "upload_time": 0.012276411056518555,
+      "error": "HTTP 401: Unauthorized"
+    },
+    {
+      "test_name": "500-Page Document",
+      "pages": 500,
+      "filename": "test_500pages.pdf",
+      "upload_success": false,
+      "upload_time": 0.015885114669799805,
+      "error": "HTTP 401: Unauthorized"
+    },
+    {
+      "test_name": "1000-Page Document",
+      "pages": 1000,
+      "filename": "test_1000pages.pdf",
+      "upload_success": false,
+      "upload_time": 0.02701854705810547,
+      "error": "HTTP 401: Unauthorized"
+    }
+  ]
+}

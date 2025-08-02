@@ -307,8 +307,8 @@
       </div>
 
       <div class="navigation">
-        <a href="/" class="btn btn-secondary">← Back to Upload</a>
-        <a href="/results-list" class="btn btn-primary">View All Results</a>
+        <a href="/dev/" class="btn btn-secondary">← Back to Upload</a>
+        <a href="/dev/results-list" class="btn btn-primary">View All Results</a>
         <button
           class="btn btn-secondary"
           onclick="debugJobs()"
@@ -345,8 +345,8 @@
               <p>It appears there are no bulk processing jobs to monitor.</p>
               <p>This might happen if you navigated here directly or if the session expired.</p>
               <div class="error-actions" style="margin-top: 1.5rem;">
-                <a href="/" class="btn" style="background: #007bff; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">🔙 Return to Upload Page</a>
-                <a href="/results-list" class="btn" style="background: #6c757d; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">📋 View Past Results</a>
+                <a href="/dev/" class="btn" style="background: #007bff; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">🔙 Return to Upload Page</a>
+                <a href="/dev/results-list" class="btn" style="background: #6c757d; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">📋 View Past Results</a>
               </div>
             </div>
           </div>
@@ -504,7 +504,7 @@
 
       async function checkJobStatus(jobId) {
         try {
-          const response = await fetch(`/api/job/${jobId}`);
+          const response = await fetch(`/dev/api/job/${jobId}`);
           if (!response.ok) {
             if (response.status === 404) {
               return { status: "queued", message: "Job queued, waiting to start..." };
@@ -560,7 +560,7 @@
         const validationPromises = completedJobs.map(async (job) => {
           try {
             // Check job status via API to ensure it's truly complete with results
-            const statusResponse = await fetch(`/api/job/${job.jobId}`);
+            const statusResponse = await fetch(`/dev/api/job/${job.jobId}`);
             if (!statusResponse.ok) {
               console.log(`⚠️ Job ${job.jobId} - Status API not accessible (HTTP ${statusResponse.status})`);
               return false;
@@ -590,7 +590,7 @@
             }
             
             // Try to access the individual job results page to verify results exist
-            const pageResponse = await fetch(`/job/${job.jobId}`, { method: 'HEAD' });
+            const pageResponse = await fetch(`/dev/job/${job.jobId}`, { method: 'HEAD' });
             if (pageResponse.ok) {
               console.log(`✅ Job ${job.jobId} - Results verified and accessible`);
               return true;
@@ -653,7 +653,7 @@
                     <div class="doc-actions">
                         ${
                           job.status === "completed"
-                            ? `<a href="/job/${job.jobId}" class="btn btn-success" target="_blank">
+                            ? `<a href="/dev/job/${job.jobId}" class="btn btn-success" target="_blank">
                                 📊 View Full Results
                             </a>`
                             : ""
@@ -707,7 +707,7 @@
             <p>✅ All results validated and ready for viewing</p>
             <p>Redirecting to results page in <span id="redirect-countdown">5</span> seconds...</p>
             <div style="margin-top: 1rem;">
-              <a href="/results-list" class="btn" style="background: #28a745; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">📋 View All Results Now</a>
+              <a href="/dev/results-list" class="btn" style="background: #28a745; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 0.5rem;">📋 View All Results Now</a>
             </div>
           </div>
         `;
@@ -728,7 +728,7 @@
         if (completed > 0) {
           setTimeout(() => {
             console.log("🔄 Auto-redirecting to results page");
-            window.location.href = "/results-list";
+            window.location.href = "/dev/results-list";
           }, 5000);
         }
       }
@@ -762,7 +762,7 @@
           console.log(`Testing API for job: ${testJobId}`);
 
           try {
-            const response = await fetch(`/api/job/${testJobId}`);
+            const response = await fetch(`/dev/api/job/${testJobId}`);
             console.log(`Response status: ${response.status}`);
 
             if (response.ok) {

@@ -1,0 +1,177 @@
+{
+  "test_metadata": {
+    "timestamp": "20250724_161305",
+    "split_ratios_tested": [
+      "70_30",
+      "80_20",
+      "90_10"
+    ],
+    "document_sizes": [
+      5,
+      15,
+      50,
+      100
+    ],
+    "total_tests": 12,
+    "api_base_url": "http://204.12.246.205:8000",
+    "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]"
+  },
+  "test_results_by_ratio": {
+    "70_30": [
+      {
+        "test_name": "5-Page Document (70_30)",
+        "pages": 5,
+        "filename": "test_5pages.pdf",
+        "job_id": "a671f93c-ea11-4cf9-815a-635e78f88d26",
+        "upload_time": 0.311260461807251,
+        "upload_success": true,
+        "pdf_size_bytes": 3512,
+        "start_time": "2025-07-24T15:53:40.315163",
+        "final_status": "COMPLETED",
+        "total_processing_time": 8.012523889541626,
+        "first_processing_time": 0.002618074417114258,
+        "stage_times": {},
+        "results": {
+          "date": "undated",
+          "summary": null,
+          "extracted_info": {
+            "key_dates": "Not available",
+            "main_parties": "Not available",
+            "case_reference_numbers": "Not available",
+            "full_analysis": "No summary generated for individual chunks"
+          },
+          "total_pages": 5,
+          "processing_completed_at": "2025-07-24T15:53:48.175963"
+        },
+        "processing_method": "gemini_only_complete",
+        "ppstructure_chunks": 0,
+        "gemini_chunks": 0,
+        "confirmed_pages": 5,
+        "api_response_time_avg": 0.003541707992553711,
+        "completion_time": "2025-07-24T15:53:48.327803",
+        "split_ratio": "70_30"
+      },
+      {
+        "test_name": "15-Page Document (70_30)",
+        "pages": 15,
+        "filename": "test_15pages.pdf",
+        "job_id": "28b56b5b-f702-4d73-8c5f-d938f950f5af",
+        "upload_time": 0.4204564094543457,
+        "upload_success": true,
+        "pdf_size_bytes": 8638,
+        "start_time": "2025-07-24T15:53:53.763704",
+        "final_status": "TIMEOUT",
+        "total_processing_time": 304.42317819595337,
+        "first_processing_time": 0.001878499984741211,
+        "error": "No completion after 5 minutes",
+        "split_ratio": "70_30"
+      },
+      {
+        "test_name": "50-Page Document (70_30)",
+        "pages": 50,
+        "filename": "test_50pages.pdf",
+        "job_id": "9ab5b9a5-753a-414c-89d4-ac3fc72acd3f",
+        "upload_time": 0.7857170104980469,
+        "upload_success": true,
+        "pdf_size_bytes": 26529,
+        "start_time": "2025-07-24T15:59:04.004294",
+        "final_status": "TIMEOUT",
+        "total_processing_time": 304.41843271255493,
+        "first_processing_time": 0.0018520355224609375,
+        "error": "No completion after 5 minutes",
+        "split_ratio": "70_30"
+      },
+      {
+        "test_name": "100-Page Document (70_30)",
+        "pages": 100,
+        "filename": "test_100pages.pdf",
+        "job_id": "d6a5c7f9-8b61-460a-ba82-9ec13049e906",
+        "upload_time": 1.3643896579742432,
+        "upload_success": true,
+        "pdf_size_bytes": 52479,
+        "start_time": "2025-07-24T16:04:14.846024",
+        "final_status": "TIMEOUT",
+        "total_processing_time": 480.5683970451355,
+        "first_processing_time": 0.001966238021850586,
+        "error": "No completion after 8 minutes",
+        "split_ratio": "70_30"
+      }
+    ],
+    "80_20": [
+      {
+        "test_name": "5-Page Document (80_20)",
+        "pages": 5,
+        "filename": "test_5pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.00060272216796875,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "80_20"
+      },
+      {
+        "test_name": "15-Page Document (80_20)",
+        "pages": 15,
+        "filename": "test_15pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.00038433074951171875,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "80_20"
+      },
+      {
+        "test_name": "50-Page Document (80_20)",
+        "pages": 50,
+        "filename": "test_50pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.0003845691680908203,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "80_20"
+      },
+      {
+        "test_name": "100-Page Document (80_20)",
+        "pages": 100,
+        "filename": "test_100pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.0004031658172607422,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "80_20"
+      }
+    ],
+    "90_10": [
+      {
+        "test_name": "5-Page Document (90_10)",
+        "pages": 5,
+        "filename": "test_5pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.0006160736083984375,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "90_10"
+      },
+      {
+        "test_name": "15-Page Document (90_10)",
+        "pages": 15,
+        "filename": "test_15pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.0003848075866699219,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "90_10"
+      },
+      {
+        "test_name": "50-Page Document (90_10)",
+        "pages": 50,
+        "filename": "test_50pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.00039005279541015625,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "90_10"
+      },
+      {
+        "test_name": "100-Page Document (90_10)",
+        "pages": 100,
+        "filename": "test_100pages.pdf",
+        "upload_success": false,
+        "upload_time": 0.0003914833068847656,
+        "error": "Connection error: [Errno 111] Connection refused",
+        "split_ratio": "90_10"
+      }
+    ]
+  }
+}

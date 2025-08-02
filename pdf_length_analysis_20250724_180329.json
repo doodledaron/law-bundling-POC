@@ -1,0 +1,113 @@
+{
+  "test_metadata": {
+    "timestamp": "20250724_180329",
+    "total_tests": 1,
+    "api_base_url": "http://204.12.246.205:8000",
+    "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]"
+  },
+  "summary_stats": {
+    "total_tests": 1,
+    "completed": 1,
+    "success_rate": 100.0
+  },
+  "test_results": [
+    {
+      "test_name": "500-Page Document",
+      "pages": 500,
+      "filename": "test_500pages.pdf",
+      "job_id": "db3a83b7-ff79-41e0-ae03-396c9bff52bc",
+      "upload_time": 5.6969733238220215,
+      "upload_success": true,
+      "pdf_size_bytes": 255010,
+      "start_time": "2025-07-24T17:51:52.751511",
+      "final_status": "COMPLETED",
+      "total_processing_time": 697.0819277763367,
+      "first_processing_time": 0.0017669200897216797,
+      "stage_times": {},
+      "results": {
+        "date": "None",
+        "summary": "Document titled \"Testcontentfor500-Page Document\", containing 500 pages of test content",
+        "extracted_info": {
+          "key_dates": "None",
+          "main_parties": "None",
+          "case_reference_numbers": "None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n*   DOCUMENT\n    *   Required Fields: Date: None; Title: Testcontentfor500-Page Document",
+          "full_analysis": "1. SUMMARY: Document titled \"Testcontentfor500-Page Document\", containing 500 pages of test content.\n\n2. KEY DATES: None\n\n3. ULTIMATE KEY DATE: undated\n\n4. MAIN PARTIES: None\n\n5. CASE/REFERENCE NUMBERS: None\n\n6. DOCUMENT TYPE & REQUIRED FIELDS:\n*   DOCUMENT\n    *   Required Fields: Date: None; Title: Testcontentfor500-Page Document"
+        },
+        "total_pages": 500,
+        "processing_completed_at": "2025-07-24T18:03:29.589589",
+        "metrics": {
+          "job_id": "db3a83b7-ff79-41e0-ae03-396c9bff52bc",
+          "filename": "test_500pages.pdf",
+          "processing_end_time": 1334592.67038464,
+          "total_processing_time": {
+            "seconds": 5157.37
+          },
+          "performance": {
+            "total_pages": 500,
+            "processing_time": {
+              "seconds": 5157.37
+            },
+            "mixed_processing": true,
+            "num_chunks": 31,
+            "num_chunks_successful": 31,
+            "num_chunks_failed": 0,
+            "num_ppstructure_chunks": 30,
+            "num_gemini_chunks": 1,
+            "mixed_processing_ratio": "30:1 (PPStructure:Gemini)",
+            "chunk_order": [
+              "0000",
+              "0001",
+              "0002",
+              "0003",
+              "0004",
+              "0005",
+              "0006",
+              "0007",
+              "0008",
+              "0009",
+              "0010",
+              "0011",
+              "0012",
+              "0013",
+              "0014",
+              "0015",
+              "0016",
+              "0017",
+              "0018",
+              "0019",
+              "0020",
+              "0021",
+              "0022",
+              "0023",
+              "0024",
+              "0025",
+              "0026",
+              "0027",
+              "0028",
+              "0029",
+              "0030"
+            ]
+          },
+          "confidence_metrics": {
+            "average_confidence": 0.9536666666666668,
+            "average_confidence_formatted": "95.4%"
+          },
+          "cost_info": {
+            "estimated_cost": 0.002213,
+            "token_usage": {
+              "input_tokens": 21751,
+              "output_tokens": 94,
+              "total_tokens": 21845
+            }
+          }
+        }
+      },
+      "processing_method": "mixed_processing_chunked",
+      "ppstructure_chunks": 30,
+      "gemini_chunks": 1,
+      "confirmed_pages": 500,
+      "api_response_time_avg": 0.005292654037475586,
+      "completion_time": "2025-07-24T18:03:29.833630"
+    }
+  ]
+}
