@@ -13,18 +13,18 @@ This is a production-grade legal document processing service that provides OCR, 
 - **Celery Workers** (`celery_config.py`): Distributed task processing with Redis as broker
 - **PPStructure Tasks** (`tasks/ppstructure_tasks.py`): Heavy OCR and layout analysis processing
 - **Text Processor** (`text_based_processor.py`): Gemini API integration for text analysis
-- **Docker Deployment**: 6-container setup for high-throughput parallel processing
+- **Docker Deployment**: 5-container setup for high-throughput parallel processing
 
 ### Processing Strategy
 - **Small documents (≤6 pages)**: Gemini-only processing for speed
 - **Large documents (≥7 pages)**: Mixed processing - 30% PPStructure + 70% Gemini
 - **Chunking**: Fixed 5-page chunks for optimal load balancing
-- **Parallel Processing**: Up to 18 concurrent chunk processors across 6 containers
+- **Parallel Processing**: Up to 15 concurrent chunk processors across 5 containers
 
 ### Key Services
 - `api`: FastAPI web server (port 8000)
 - `redis`: Message broker and result backend (port 6379)
-- `worker-documents-container1-6`: Processing workers with GPU support
+- `worker-documents-container1-5`: Processing workers with GPU support
 - `flower`: Celery monitoring dashboard (port 5555)
 
 ## Development Commands
@@ -46,9 +46,9 @@ pip install -r requirements.txt
 
 #### Production Deployment (Recommended)
 ```bash
-# Deploy full 6-container high-throughput setup
-chmod +x deploy-6-containers.sh
-./deploy-6-containers.sh
+# Deploy full 5-container high-throughput setup
+chmod +x deploy-5-containers.sh
+./deploy-5-containers.sh
 
 # Check deployment status
 docker-compose ps
@@ -142,11 +142,12 @@ celery -A celery_config inspect active
 
 ### Memory Configuration
 - Each worker container: 9GB RAM limit
-- Total system requirement: 32GB+ RAM recommended
+- Redis: 24GB memory allocation
+- Total system requirement: 32GB+ RAM recommended (69GB allocation)
 - Shared volumes: `uploads_data`, `results_data`, `redis-data`
 
 ### GPU Configuration
-- All worker containers require NVIDIA GPU access
+- All 5 worker containers require NVIDIA GPU access
 - CUDA environment variables configured for stability
 - TensorRT optimizations enabled for performance
 
@@ -156,7 +157,7 @@ celery -A celery_config inspect active
 2. **Job Creation**: Unique job ID generated, stored in Redis
 3. **Document Analysis**: Page count determines processing strategy
 4. **Chunking**: Large documents split into 5-page chunks
-5. **Parallel Processing**: Chunks distributed across 6 worker containers
+5. **Parallel Processing**: Chunks distributed across 5 worker containers
 6. **Results Merging**: Text combined and summary generated
 7. **Storage**: Results saved to `/results/{job_id}/` directory
 
@@ -187,7 +188,7 @@ celery -A celery_config inspect active
 - `templates/`: HTML templates for web interface
 
 ### Configuration Files
-- `docker-compose.yml`: Full 6-container deployment
+- `docker-compose.yml`: Full 5-container deployment
 - `celery_config.py`: Celery worker and queue configuration
 - `requirements.txt`: Python dependencies
 - `Dockerfile`: Container image definition
@@ -210,7 +211,8 @@ celery -A celery_config inspect active
 - Monitor container resource usage with `docker stats`
 - Use warmup script after deployment: `python3 warmup_test.py`
 - Adjust chunk size via `PAGES_PER_CHUNK` environment variable
-- Scale containers by modifying docker-compose.yml
+- Redis memory optimized to 24GB for large document queues
+- Optimized 5-container setup reduces memory footprint while maintaining performance
 
 ## Security Notes
 

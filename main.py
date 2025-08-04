@@ -284,15 +284,15 @@ def submit_document_for_processing(job_id, file_path, file_name):
                 return chord_result
             
             else:
-                logger.info(f"📄 Document has {total_pages} pages (≥7) - Using mixed processing (30% PPStructure, 70% Gemini)")
+                logger.info(f"📄 Document has {total_pages} pages (≥7) - Using mixed processing (20% PPStructure, 80% Gemini)")
                 logger.info(f"📄 Creating page-based chunks with max {PAGES_PER_CHUNK} pages per chunk")
             
-                # Calculate page-based distribution (30% PPStructure, 70% Gemini-only)
-                ppstructure_pages = max(1, math.ceil(total_pages * 0.30))  # At least 1 page for PPStructure
+                # Calculate page-based distribution (20% PPStructure, 80% Gemini-only)
+                ppstructure_pages = max(1, math.ceil(total_pages * 0.20))  # At least 1 page for PPStructure
                 gemini_pages = total_pages - ppstructure_pages
                 
                 logger.info(f"📦 Page-based distribution for {total_pages} pages:")
-                logger.info(f"📦 PPStructure: {ppstructure_pages} pages (30%), Gemini-only: {gemini_pages} pages (70%)")
+                logger.info(f"📦 PPStructure: {ppstructure_pages} pages (20%), Gemini-only: {gemini_pages} pages (80%)")
                 
                 # Create chunk ranges based on page allocation
                 chunk_ranges = []

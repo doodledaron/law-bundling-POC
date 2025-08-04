@@ -15,6 +15,7 @@ import urllib.error
 import json
 import time
 import sys
+import os
 from datetime import datetime
 
 # API Configuration
@@ -23,11 +24,40 @@ UPLOAD_ENDPOINT = f"{BASE_URL}/api/upload"
 JOB_STATUS_ENDPOINT = f"{BASE_URL}/api/job"
 HEALTH_ENDPOINT = f"{BASE_URL}/health"
 
+# Load API key from .env file
+def load_env_file():
+    """Load environment variables from .env file"""
+    try:
+        with open('.env', 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ[key] = value
+    except FileNotFoundError:
+        print("⚠️ .env file not found")
+    except Exception as e:
+        print(f"⚠️ Error loading .env file: {e}")
+
+# Load environment variables
+load_env_file()
+
+# Load API key from environment
+API_KEY = os.getenv('API_KEYS', '').split(',')[0] if os.getenv('API_KEYS') else None
+if API_KEY:
+    print(f"✅ API key loaded: {API_KEY[:10]}...")
+else:
+    print("⚠️ No API key found in environment - authentication may fail")
+
 def make_http_request(url, method='GET', data=None, headers=None, timeout=30):
     """Make HTTP request using urllib"""
     try:
         if headers is None:
             headers = {}
+        
+        # Add API key authentication for production endpoints
+        if '/api/' in url and API_KEY:
+            headers['X-API-Key'] = API_KEY
         
         req = urllib.request.Request(url, data=data, headers=headers, method=method)
         
@@ -248,11 +278,11 @@ def check_job_status(job_id, test_num=1, max_wait_seconds=60):
 
 def main():
     """Main warmup test execution"""
-    print("🚀 Container Warmup Test - All 6 Workers")
+    print("🚀 Container Warmup Test - All 5 Workers")
     print("=" * 50)
     print(f"🐍 Python {sys.version[:5]} | 📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("🎯 Purpose: Warm up all 6 law-worker-documents containers")
-    print("📦 Containers: law-worker-documents-container-1 through 6")
+    print("🎯 Purpose: Warm up all 5 law-worker-documents containers")
+    print("📦 Containers: law-worker-documents-container-1 through 5")
     print()
     
     # Check API health
@@ -262,19 +292,19 @@ def main():
         return False
     
     print()
-    print("🔥 Starting warmup sequence for all 6 worker containers...")
-    print("📋 Uploading 6 documents to ensure each worker gets activated")
+    print("🔥 Starting warmup sequence for all 5 worker containers...")
+    print("📋 Uploading 5 documents to ensure each worker gets activated")
     print()
     
     # Upload multiple jobs to warm all 6 worker containers
     jobs = []
     total_successes = 0
     
-    for i in range(1, 7):  # 1 through 6
+    for i in range(1, 6):  # 1 through 5
         print(f"--- Worker Container #{i} Warmup ---")
         
         # Vary document sizes to trigger different processing paths
-        pages = 2 if i <= 3 else 12  # Small docs for first 3, larger for last 3
+        pages = 2 if i <= 2 else 12  # Small docs for first 2, larger for last 3
         job_id = warmup_upload_test(test_num=i, pages=pages)
         
         if job_id:
@@ -282,13 +312,13 @@ def main():
             total_successes += 1
         
         # Small delay between uploads to spread across workers
-        if i < 6:
+        if i < 5:
             print("⏳ Waiting 2 seconds before next upload...")
             time.sleep(2)
         
         print()
     
-    print(f"📊 Upload Summary: {total_successes}/6 jobs submitted successfully")
+    print(f"📊 Upload Summary: {total_successes}/5 jobs submitted successfully")
     print()
     
     if jobs:
@@ -314,16 +344,16 @@ def main():
         print("=" * 50)
         print("📊 WARMUP RESULTS")
         print("=" * 50)
-        print(f"✅ Jobs completed: {completed_jobs}/6")
-        print(f"❌ Jobs failed/timeout: {failed_jobs}/6")
-        print(f"📤 Upload success rate: {total_successes}/6")
+        print(f"✅ Jobs completed: {completed_jobs}/5")
+        print(f"❌ Jobs failed/timeout: {failed_jobs}/5")
+        print(f"📤 Upload success rate: {total_successes}/5")
         
-        if completed_jobs >= 4:  # At least 4 out of 6 containers warmed
+        if completed_jobs >= 4:  # At least 4 out of 5 containers warmed
             print()
             print("🎉 Warmup SUCCESS!")
             print("✅ Majority of worker containers are warmed up and ready")
             print("🚀 System ready for production workloads")
-        elif total_successes >= 4:
+        elif total_successes >= 3:
             print()
             print("⚠️  Warmup PARTIAL SUCCESS")
             print("✅ Upload containers warmed, some processing containers may need more time")
@@ -339,7 +369,7 @@ def main():
     
     print()
     print("🏁 Multi-container warmup test finished!")
-    return total_successes >= 4
+    return total_successes >= 3
 
 if __name__ == "__main__":
     main()

@@ -32,7 +32,7 @@ services:
     container_name: law-redis
     ports:
       - "6379:6379" # Expose Redis port
-    command: redis-server --save "" --appendonly no --loglevel warning --maxmemory 16gb --maxmemory-policy allkeys-lru --maxmemory-samples 10 --lazyfree-lazy-eviction yes --tcp-keepalive 60 --timeout 0 # Stability-focused Redis config
+    command: redis-server --save "" --appendonly no --loglevel warning --maxmemory 24gb --maxmemory-policy allkeys-lru --maxmemory-samples 10 --lazyfree-lazy-eviction yes --tcp-keepalive 60 --timeout 0 # Stability-focused Redis config
     volumes:
       - redis-data:/data # Persist Redis data across restarts
     restart: unless-stopped
@@ -54,7 +54,6 @@ services:
         chmod -R 777 /app/uploads /app/results /app/chunks &&
         echo 'Installing high-performance inference plugin...' &&
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
-        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 1...' &&
         celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container1@%h
       "
@@ -110,7 +109,6 @@ services:
         chmod -R 777 /app/uploads /app/results /app/chunks &&
         echo 'Installing high-performance inference plugin...' &&
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
-        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 2...' &&
         celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container2@%h
       "
@@ -166,7 +164,6 @@ services:
         chmod -R 777 /app/uploads /app/results /app/chunks &&
         echo 'Installing high-performance inference plugin...' &&
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
-        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 3...' &&
         celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container3@%h
       "
@@ -222,7 +219,6 @@ services:
         chmod -R 777 /app/uploads /app/results /app/chunks &&
         echo 'Installing high-performance inference plugin...' &&
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
-        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 4...' &&
         celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container4@%h
       "
@@ -278,7 +274,6 @@ services:
         chmod -R 777 /app/uploads /app/results /app/chunks &&
         echo 'Installing high-performance inference plugin...' &&
         pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
-        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
         echo 'Starting Document Processing Container 5...' &&
         celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container5@%h
       "
@@ -322,61 +317,6 @@ services:
               count: 1
               capabilities: [gpu]
 
-  # Container 6: Document processing worker for high-throughput parallelism
-  worker-documents-container6:
-    build: . # Use the same Dockerfile as other services (HEAVY PaddlePaddle image)
-    container_name: law-worker-documents-container6
-    command: >
-      sh -c "
-        echo 'Waiting for Redis to be ready...' &&
-        sleep 20 &&
-        echo 'Setting up shared directories...' &&
-        chmod -R 777 /app/uploads /app/results /app/chunks &&
-        echo 'Installing high-performance inference plugin...' &&
-        pip install --no-cache-dir fastdeploy-gpu-python --quiet || echo 'FastDeploy GPU install failed' &&
-        paddlex --install hpi-gpu --no_deps --use_local_repos -y || echo 'Warning: Failed to install high-performance inference plugin' &&
-        echo 'Starting Document Processing Container 6...' &&
-        celery -A celery_config worker -Q chunk_queue,merge_queue -l info --concurrency=2 --hostname=worker-documents-container6@%h
-      "
-    volumes:
-      - .:/app
-      - uploads_data:/app/uploads
-      - results_data:/app/results
-    environment:
-      - PYTHONUNBUFFERED=1
-      - REDIS_URL=redis://redis:6379/0
-      - WORKER_TYPE=documents
-      - CELERY_WORKER_QUEUES=chunk_queue
-      - CONTAINER_ID=container6
-      # TensorRT/hpip stability settings
-      - TRT_MAX_WORKSPACE_SIZE=268435456 # 256MB limit
-      - CUDA_LAUNCH_BLOCKING=1 # Force synchronous operations
-      - TRT_PRECISION_MODE=fp16 # Use FP16 for stability
-      - CUDA_DEVICE_ORDER=PCI_BUS_ID # Consistent device ordering
-      - FLAGS_allocator_strategy=auto_growth # Safe memory allocation
-      - FLAGS_use_fast_allocator=true # Better memory management
-      # Memory protection settings
-      - MALLOC_CHECK_=1 # Enable memory corruption detection
-      - MALLOC_PERTURB_=255 # Initialize freed memory to detect use-after-free
-      - PYTHONMALLOC=malloc # Use system malloc for better debugging
-    depends_on:
-      - redis
-    restart: unless-stopped
-    gpus: all
-    # Optimized memory allocation for 6-container setup (5GB per container)
-    mem_limit: 9g # Memory limit as specified for high-throughput processing
-    memswap_limit: 9g # Match memory limit
-    shm_size: 2g # Shared memory for CUDA operations
-    deploy:
-      resources:
-        limits:
-          memory: 9g
-        reservations:
-          memory: 2g
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
 
   # Celery worker for maintenance tasks
   worker-maintenance:

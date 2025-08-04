@@ -46,7 +46,13 @@ celery_app.conf.update(
     # Simplified broker settings
     broker_transport_options={
         'visibility_timeout': 14400,  # Match task time limit
+        'health_check_interval': 30,
+        'max_retries': 5,
+        'interval_start': 0,
+        'interval_step': 0.5,
+        'interval_max': 3,
     },
+    redis_backend_health_check_interval=30,
     
     # Worker settings for CUDA-safe processing
     worker_concurrency=2,  # 2 processes per worker for memory stability

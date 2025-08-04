@@ -1,20 +1,20 @@
 #!/bin/bash
 
-# Deploy High-Throughput 6-Container Document Processing Setup
+# Deploy High-Throughput 5-Container Document Processing Setup
 # This script deploys the optimized PPStructure processing system
-# Architecture: 6 containers * 4 concurrency = 24 parallel workers
+# Architecture: 5 containers * 3 concurrency = 15 parallel workers
 
-echo "🚀 Deploying High-Throughput 6-Container Document Processing Setup"
+echo "🚀 Deploying High-Throughput 5-Container Document Processing Setup"
 echo "=================================================================="
 
 # Check system requirements
 echo "📋 Checking system requirements..."
 
-# Check available memory (should be at least 32GB for 6*5GB + overhead)
+# Check available memory (should be at least 32GB for 5*9GB + overhead)
 TOTAL_MEM=$(free -g | awk '/^Mem:/{print $2}')
 if [ "$TOTAL_MEM" -lt 32 ]; then
     echo "⚠️  WARNING: System has ${TOTAL_MEM}GB RAM. Recommended: 32GB+ for optimal performance"
-    echo "   Each container uses 5GB, total requirement: 30GB + 2GB overhead"
+    echo "   Each container uses 9GB, total requirement: 45GB + 24GB Redis + overhead"
 else
     echo "✅ Memory check passed: ${TOTAL_MEM}GB available"
 fi
@@ -37,9 +37,10 @@ fi
 
 echo ""
 echo "🏗️  Architecture Overview:"
-echo "   • 6 Document Processing Containers"
-echo "   • 4 Concurrency per Container = 24 Total Workers"
-echo "   • 5GB Memory per Container = 30GB Total"
+echo "   • 5 Document Processing Containers"
+echo "   • 3 Concurrency per Container = 15 Total Workers"
+echo "   • 9GB Memory per Container = 45GB Total"
+echo "   • 24GB Redis Memory = 69GB Total Allocation"
 echo "   • Fixed 5-Page Chunking Strategy"
 echo "   • Shared chunk_queue for Load Balancing"
 echo ""
@@ -57,7 +58,7 @@ echo "🔨 Building container images..."
 docker-compose build
 
 # Start the high-throughput setup
-echo "🚀 Starting 6-container high-throughput setup..."
+echo "🚀 Starting 5-container high-throughput setup..."
 docker-compose up -d
 
 # Wait for containers to start
@@ -67,7 +68,7 @@ sleep 30
 # Check container status
 echo "📊 Container Status:"
 echo "==================="
-for i in {1..6}; do
+for i in {1..5}; do
     CONTAINER_NAME="law-worker-documents-container${i}"
     if docker ps | grep -q "$CONTAINER_NAME"; then
         STATUS="✅ Running"
@@ -101,12 +102,12 @@ fi
 echo ""
 echo "🎯 Deployment Summary:"
 echo "====================="
-echo "   Architecture: 6-container high-throughput setup"
-echo "   Total Workers: 24 (6 containers × 4 concurrency)"
-echo "   Memory Usage: 30GB (6 containers × 5GB each)"
+echo "   Architecture: 5-container high-throughput setup"
+echo "   Total Workers: 15 (5 containers × 3 concurrency)"
+echo "   Memory Usage: 45GB workers + 24GB Redis = 69GB total"
 echo "   Queue Strategy: Shared chunk_queue"
 echo "   Chunking: Fixed 5-page chunks"
-echo "   Expected Performance: 3x-5x improvement vs 2-container setup"
+echo "   Expected Performance: Optimized memory allocation"
 echo ""
 echo "📝 Next Steps:"
 echo "   1. Test with a sample document: curl -X POST -F 'file=@sample.pdf' http://localhost:8000/upload/"
@@ -121,5 +122,5 @@ echo "   Check memory usage: docker stats"
 echo "   View Redis queue: docker exec law-redis redis-cli monitor"
 echo "   Restart if needed: docker-compose restart"
 echo ""
-echo "✅ High-throughput 6-container deployment complete!"
-echo "📈 System ready for maximum document processing throughput." 
+echo "✅ High-throughput 5-container deployment complete!"
+echo "📈 System ready for optimized document processing throughput." 
