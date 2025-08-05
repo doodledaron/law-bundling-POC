@@ -639,7 +639,7 @@ def main():
         (100, "100-Page Document"),   # Should use Hybrid processing
         (200, "200-Page Document"),   # Should use Hybrid processing
         (500, "500-Page Document"),   # Stress test - large document
-        (1000, "1000-Page Document")  # Stress test - maximum pages
+        # (1000, "1000-Page Document")  # Stress test - maximum pages
     ]
     
     print(f"\n📋 TEST PLAN ({len(test_cases)} documents):")

@@ -1477,14 +1477,15 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
             total_pages = 1
             logger.info(f"   📄 Single page: Saved as {os.path.basename(image_path)}")
         
-        # Process each page with Gemini for text extraction
+        # Process each page with Gemini for text extraction in parallel batches of 5
         all_ocr_text = []
         
-        logger.info(f"🤖 [GEMINI-ONLY] Processing {len(image_paths)} pages with Gemini AI")
+        logger.info(f"🤖 [GEMINI-ONLY] Processing {len(image_paths)} pages with Gemini AI in parallel batches of 5")
         
-        for i, img_path in enumerate(image_paths):
+        def process_single_page(page_info):
+            """Helper function to process a single page with Gemini"""
+            i, img_path = page_info
             actual_page_num = actual_start_page + i
-            logger.info(f"📄 [PAGE-{i+1:02d}] Processing page {actual_page_num} with Gemini...")
             
             try:
                 # Read image and convert to bytes for Gemini
@@ -1495,18 +1496,49 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
                 page_text = text_processor.extract_text_from_image(img_bytes, f"Page {actual_page_num}")
                 
                 if page_text and page_text.strip():
-                    all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
-                    all_ocr_text.append(page_text.strip())
+                    result_text = [f"--- PAGE {actual_page_num} ---", page_text.strip()]
                     logger.info(f"   ✅ Page {actual_page_num}: {len(page_text)} characters extracted")
+                    return (i, actual_page_num, result_text, None)
                 else:
                     logger.warning(f"   ⚠️ Page {actual_page_num}: No text extracted")
-                    all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
-                    all_ocr_text.append("[No text extracted from this page]")
+                    result_text = [f"--- PAGE {actual_page_num} ---", "[No text extracted from this page]"]
+                    return (i, actual_page_num, result_text, None)
                 
             except Exception as e:
                 logger.error(f"   ❌ Page {actual_page_num}: Error - {str(e)}")
-                all_ocr_text.append(f"--- PAGE {actual_page_num} ---")
-                all_ocr_text.append(f"[Error extracting text: {str(e)}]")
+                result_text = [f"--- PAGE {actual_page_num} ---", f"[Error extracting text: {str(e)}]"]
+                return (i, actual_page_num, result_text, str(e))
+        
+        # Process pages in batches of 5
+        batch_size = 5
+        page_results = [None] * len(image_paths)  # Pre-allocate to maintain order
+        
+        for batch_start in range(0, len(image_paths), batch_size):
+            batch_end = min(batch_start + batch_size, len(image_paths))
+            batch_pages = [(i, image_paths[i]) for i in range(batch_start, batch_end)]
+            
+            logger.info(f"🔄 Processing batch {batch_start//batch_size + 1}: pages {batch_start + 1}-{batch_end}")
+            
+            # Process batch in parallel
+            with ThreadPoolExecutor(max_workers=5) as executor:
+                future_to_page = {executor.submit(process_single_page, page_info): page_info for page_info in batch_pages}
+                
+                for future in as_completed(future_to_page):
+                    try:
+                        i, actual_page_num, result_text, error = future.result()
+                        page_results[i] = result_text
+                        logger.info(f"📄 [PAGE-{i+1:02d}] Completed processing page {actual_page_num}")
+                    except Exception as e:
+                        page_info = future_to_page[future]
+                        i, img_path = page_info
+                        actual_page_num = actual_start_page + i
+                        logger.error(f"   ❌ Page {actual_page_num}: Batch processing error - {str(e)}")
+                        page_results[i] = [f"--- PAGE {actual_page_num} ---", f"[Batch processing error: {str(e)}]"]
+        
+        # Combine results in correct page order
+        for result_text in page_results:
+            if result_text:
+                all_ocr_text.extend(result_text)
         
         # Combine all text
         combined_text = "\n".join(all_ocr_text)
