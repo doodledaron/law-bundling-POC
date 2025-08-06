@@ -431,6 +431,15 @@ Follow these guidelines:
 5. If text appears to be in tables, preserve the tabular structure with appropriate spacing
 6. For any unclear or partially visible text, make your best interpretation
 7. Do not add any commentary or descriptions - only return the extracted text
+8. CHAT UI NOISE (if the document appears to be a social chat screenshot):
+      - Read ONLY message-bubble content.
+      - IGNORE banners and UI text such as:
+        “Messages and calls are end-to-end encrypted…”, “Tap to learn more.”,
+        status bars (signal/battery/clock), “last seen/typing…”, “1 unread message”,
+        day dividers “Today/Yesterday” (as standalone labels), on-screen keyboard rows
+        like “q w e r … / 123 / 空格 / 换行”, stray “+”, device/network text like “5G 35”.
+      - Treat “Today/Yesterday” alone as separators (not absolute dates).
+
 
 Context: {context}
 
@@ -569,7 +578,7 @@ Pre-processing (apply before any other step):
       - Verify that dates are reasonable (e.g., “32-Feb-2020” is invalid).
       - When in doubt, include the information rather than omit it.
 
-1. SUMMARY (max 25 words): In a single concise sentence, state the document type and include all required fields for that type (e.g., Date, Title, Person (From), Organisation (To)), then mention the subject and primary case number if applicable. Keep it smooth and avoid introductory phrases.  
+1. SUMMARY (max 50 words): In a single concise sentence, state the document type and include all required fields for that type (e.g., Date, Title, Person (From), Organisation (To)), then mention the subject and primary case number if applicable. Keep it smooth and avoid introductory phrases. Do not fallback to some random summary that doesn't describe it.
 If multiple document-type indicators appear, try to combine them into an appropriate way of summarizing the document.
 • **No introductory phrases (“This is…”, “The document is…”)—begin directly with the structured sentence.**  
 **Examples of desired output style (model should mimic these patterns):**  
@@ -577,6 +586,8 @@ If multiple document-type indicators appear, try to combine them into an appropr
    • “Invoice INV-2022-045 dated 02 June 2022 from Global Supplies Pte. Ltd. to Oceanic Trading Sdn. Bhd.; Amount Due: USD 12,500; Due Date: 30 June 2022.”  
    • “Affidavit sworn 22 April 2023 by Mark Chan (Advocate & Solicitor) in Support of Application for Injunction; Suit No. S-2023/045.”  
    • “Email dated 05 November 2022 from David Lee (PixelMedia) to Marketing Team; CC: HR Department; Subject: Q4 Campaign Launch Timeline.”  
+Do not fallback to some random summary that doesn't describe it like: Document dated 22 December 2022 with title "Untitled"; Person (From): John Doe; Organisation (From): ABC Corp.; Person (To): Jane Smith; Organisation (To): XYZ Ltd. Must be a proper summary that describes the document.
+For Social Media/Messaging, begin with the platform (e.g., “WhatsApp conversation dated …”) and do not include a Subject.
 
 2. KEY DATES: List all significant dates. If none, state "None".
 
@@ -739,8 +750,19 @@ Do not infer fields that are not explicitly present.
    • SEARCH/COMPANY SEARCH  
      - Required Fields: Date; Title; Person (From); Organisation (From).  
 
-   • SOCIAL MEDIA/MESSAGING  
-     - Required Fields: Date; Title; Person (From); Organisation (From).  
+  • SOCIAL MEDIA/MESSAGING
+     - Required Fields: Date; Title; Person (From); Organisation (From).
+     - Classification rule: If the text includes WhatsApp/iMessage cues (e.g., “WhatsApp”,
+       double-ticks ✓✓, “last seen”, day dividers), classify as Social Media/Messaging.
+     - SUMMARY: Start with the platform if identifiable and describe the conversation context.
+       Do NOT create or invent a “Subject”. Keep it under 50 words.
+     - ULTIMATE KEY DATE: Use the latest visible message time. If only a relative string is visible
+       (e.g., “Yesterday 10:59 pm”), output it verbatim and mark it as relative (append “(relative)”).
+     - MAIN PARTIES: List visible participants. If one side is the device owner and unnamed, use “User”.
+       If the sender's name is missing, use “Unknown contact” and include any claims (e.g., “claims from Hong Kong”).
+     - DOCUMENT TYPE & REQUIRED FIELDS: Use the Title “Conversation between <X> and <User> (Platform)”.
+       Add **Conversation Highlights**: 3-6 bullets (≤20 words each) translating the actual messages into English.
+       Include message content only; ignore UI/system text. If a photo is mentioned or clearly shown, note “Attachments: 1 photo”.
 
    • SPECIFICATION  
      - Required Fields: Date; Title; Person (From); Organisation (From); Person (To); Organisation (To).  
@@ -769,6 +791,8 @@ VERY IMPORTANT: Date must be in the format of 22 December 2022 (Date space month
 “5. CASE/REFERENCE NUMBERS:”,  
 “6. DOCUMENT TYPE & REQUIRED FIELDS:”.  
 Do not add any other text before, between, or after these sections.
+Exception (Social Media/Messaging): If no absolute calendar date is visible, keep the latest relative
+timestamp verbatim (e.g., “Yesterday 10:59 pm (relative)”). Do not fabricate a calendar date.
 
 Document content:  
 {document_text}

@@ -1239,10 +1239,36 @@ async def api_job_status(job_id: str, authenticated: bool = Depends(verify_api_k
                     has_required_fields = all(field in results_data for field in required_fields)
                     has_substantial_content = len(results_data.get('combined_text', '')) > 10
                     
-                    if has_required_fields and has_substantial_content:
+                    # ENHANCED VALIDATION: Check if summary and extracted_info are properly populated
+                    summary = results_data.get('summary', '')
+                    extracted_info = results_data.get('extracted_info', {})
+                    
+                    # Valid summary should not be null, empty, or generic failure messages
+                    has_valid_summary = (summary and 
+                                       summary != 'null' and 
+                                       summary.strip() != '' and
+                                       'Summary not available' not in summary and
+                                       'Not available' not in summary)
+                    
+                    # Valid extracted_info should have actual content, not placeholder values
+                    has_valid_extracted_info = (extracted_info and
+                                             extracted_info.get('key_dates', '') != 'Not available' and
+                                             extracted_info.get('main_parties', '') != 'Not available' and
+                                             extracted_info.get('case_reference_numbers', '') != 'Not available' and
+                                             extracted_info.get('full_analysis', '') != 'No summary generated for individual chunks')
+                    
+                    if has_required_fields and has_substantial_content and has_valid_summary and has_valid_extracted_info:
                         results_ready = True
                         logger.info(f"✅ Job {job_id} - Results validated and ready for display")
+                    elif has_required_fields and has_substantial_content:
+                        # Results file exists but summary/extracted_info are invalid
+                        logger.warning(f"⚠️ Job {job_id} - Results file exists but contains invalid summary or extracted_info")
+                        logger.warning(f"⚠️ Job {job_id} - Summary valid: {has_valid_summary}, ExtractedInfo valid: {has_valid_extracted_info}")
                         
+                    else:
+                        logger.info(f"⚠️ Job {job_id} - Results file exists but incomplete: fields={has_required_fields}, content={has_substantial_content}")
+                        
+                    if results_ready:
                         # PRODUCTION ENHANCEMENT: Include actual results content in API response
                         # This makes the API much more production-friendly for system integration
                         job_status.update({
@@ -1267,9 +1293,6 @@ async def api_job_status(job_id: str, authenticated: bool = Depends(verify_api_k
                                 job_status['results']['metrics'] = metrics
                             except Exception as e:
                                 logger.warning(f"⚠️ Job {job_id} - Could not load metrics: {str(e)}")
-                        
-                    else:
-                        logger.info(f"⚠️ Job {job_id} - Results file exists but incomplete: fields={has_required_fields}, content={has_substantial_content}")
                         
                 except (json.JSONDecodeError, Exception) as e:
                     logger.warning(f"⚠️ Job {job_id} - Results file corrupted or incomplete: {str(e)}")
@@ -1314,7 +1337,35 @@ async def api_job_status(job_id: str, authenticated: bool = Depends(verify_api_k
                 else:
                     job_status['stage'] = 'Generating summary and finalizing results'
         
-        return job_status
+        # For production API, return only essential client data, not internal dev info
+        if job_status.get('status') == 'COMPLETED' and 'results' in job_status:
+            # Return clean production response with only essential data
+            clean_response = {
+                'status': job_status['status'],
+                'progress': job_status.get('progress', 100),
+                'message': job_status.get('message', 'Processing completed successfully'),
+                'filename': job_status.get('filename', job_status.get('original_filename', 'Unknown')),
+                'created_at': job_status.get('created_at', ''),
+                'processing_completed_at': job_status.get('processing_completed_at', ''),
+                'results': job_status['results']  # This already contains clean data
+            }
+            return clean_response
+        else:
+            # For processing/failed jobs, return minimal status info
+            clean_response = {
+                'status': job_status.get('status', 'UNKNOWN'),
+                'progress': job_status.get('progress', 0),
+                'message': job_status.get('message', ''),
+                'filename': job_status.get('filename', job_status.get('original_filename', 'Unknown')),
+                'created_at': job_status.get('created_at', ''),
+                'stage': job_status.get('stage', '')  # Keep stage for better UX during processing
+            }
+            
+            # Add error info if failed
+            if job_status.get('status') == 'FAILED' and job_status.get('error'):
+                clean_response['error'] = job_status.get('error')
+                
+            return clean_response
     
     except HTTPException:
         raise
