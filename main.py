@@ -248,7 +248,7 @@ def submit_document_for_processing(job_id, file_path, file_name):
             
             # DECISION POINT: Choose processing method based on page count
             if total_pages < 8:
-                logger.info(f"🤖 Document has {total_pages} pages (<7) - Using Gemini-only processing with merge")
+                logger.info(f"🤖 Document has {total_pages} pages (<7) - Using AI-only processing with merge")
                 # Use single Gemini-only task followed by merge for consistency
                 gemini_task = process_document_with_gemini_only.s(
                     job_id,
@@ -264,7 +264,7 @@ def submit_document_for_processing(job_id, file_path, file_name):
                 # Update job status for Gemini-only processing with merge
                 update_job_status(redis_client, job_id, {
                     'status': 'PROCESSING',
-                    'message': f'Document "{file_name}" ({total_pages} pages) processing with Gemini-only method',
+                    'message': f'Document "{file_name}" ({total_pages} pages) processing with AI text analysis',
                     'progress': 10,
                     'processing_mode': 'gemini_only_complete',
                     'total_pages': total_pages,
@@ -280,11 +280,11 @@ def submit_document_for_processing(job_id, file_path, file_name):
                     routing_key='chunk_queue'
                 )
                 
-                logger.info(f"📋 Submitted small document {job_id} ({file_name}) for Gemini-only processing with merge")
+                logger.info(f"📋 Submitted small document {job_id} ({file_name}) for AI-only processing with merge")
                 return chord_result
             
             else:
-                logger.info(f"📄 Document has {total_pages} pages (≥7) - Using mixed processing (10% PPStructure, 90% Gemini)")
+                logger.info(f"📄 Document has {total_pages} pages (≥7) - Using mixed processing (10% OCR, 90% AI)")
                 logger.info(f"📄 Creating page-based chunks with max {PAGES_PER_CHUNK} pages per chunk")
             
                 # Calculate page-based distribution (10% PPStructure, 90% Gemini-only)
@@ -292,7 +292,7 @@ def submit_document_for_processing(job_id, file_path, file_name):
                 gemini_pages = total_pages - ppstructure_pages
                 
                 logger.info(f"📦 Page-based distribution for {total_pages} pages:")
-                logger.info(f"📦 PPStructure: {ppstructure_pages} pages (10%), Gemini-only: {gemini_pages} pages (9 0%)")
+                logger.info(f"📦 OCR processing: {ppstructure_pages} pages (10%), AI processing: {gemini_pages} pages (90%)")
                 
                 # Create chunk ranges based on page allocation
                 chunk_ranges = []
@@ -388,7 +388,7 @@ def submit_document_for_processing(job_id, file_path, file_name):
             # Update job status for Gemini-only processing with merge
             update_job_status(redis_client, job_id, {
                 'status': 'PROCESSING',
-                'message': f'Single image "{file_name}" processing with Gemini-only method',
+                'message': f'Single image "{file_name}" processing with AI text analysis',
                 'progress': 10,
                 'processing_mode': 'gemini_only_complete',
                 'total_pages': 1,
@@ -475,7 +475,7 @@ def submit_document_for_processing(job_id, file_path, file_name):
         # Update job status to show mixed chunking started
         update_job_status(redis_client, job_id, {
             'status': 'PROCESSING',
-            'message': f'Document "{file_name}" split into {num_chunks} chunks for mixed processing (30% PPStructure in {ppstructure_count} small chunks, 70% Gemini in 1 bulk chunk)',
+            'message': f'Document "{file_name}" split into {num_chunks} chunks for hybrid processing ({ppstructure_count} OCR chunks, 1 AI analysis chunk)',
             'progress': 5,  # Small initial progress to show work started
             'num_chunks': num_chunks,
             'chunks_total': num_chunks,  # Also store as chunks_total for consistency

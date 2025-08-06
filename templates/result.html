@@ -305,15 +305,15 @@
                   <span class="processing-type">
                     <i class="bi bi-cpu"></i>
                     {% if processing_method == 'mixed_processing_chunked' %} 
-                      Mixed Processing (PPStructure + Gemini AI)
+                      Hybrid Processing (OCR + AI Analysis)
                     {% elif processing_method == 'gemini_only_complete' %} 
-                      Gemini AI Only
+                      AI Text Analysis
                     {% elif processing_method == 'chunked_sequential' %} 
                       Chunked Sequential Processing 
                     {% elif processing_method == 'chunked_parallel' %} 
                       Chunked Parallel Processing (Controlled) 
                     {% else %} 
-                      PPStructure with Layout Analysis 
+                      OCR with Layout Analysis 
                     {% endif %}
                   </span>
                 </p>
@@ -335,7 +335,7 @@
               <h5><i class="bi bi-journal-text"></i> Document Summary</h5>
               <p>{{ summary }}</p>
               <div class="ai-generated">
-                <i class="bi bi-robot"></i> AI-generated summary using Gemini
+                <i class="bi bi-robot"></i> AI-generated summary
               </div>
             </div>
             {% endif %}
@@ -429,14 +429,14 @@
 
               {% if processing_method == 'mixed_processing_chunked' %}
               <div class="metric-item">
-                <div class="metric-label">PPStructure Chunks</div>
+                <div class="metric-label">OCR Chunks</div>
                 <div class="metric-value">
                   {{ num_ppstructure_chunks or 'N/A' }}
                 </div>
               </div>
 
               <div class="metric-item">
-                <div class="metric-label">Gemini Chunks</div>
+                <div class="metric-label">AI Chunks</div>
                 <div class="metric-value">
                   {{ num_gemini_chunks or 'N/A' }}
                 </div>
@@ -460,9 +460,9 @@
                 <div class="metric-label">Processing Method</div>
                 <div class="metric-value">
                   {% if processing_method == 'mixed_processing_chunked' %} 
-                    Mixed (30%/60%)
+                    Hybrid (30%/70%)
                   {% elif processing_method == 'gemini_only_complete' %} 
-                    Gemini Only
+                    AI Only
                   {% elif processing_method == 'chunked_sequential' %} 
                     Sequential
                   {% elif processing_method == 'chunked_parallel' %} 

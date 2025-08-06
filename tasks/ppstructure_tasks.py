@@ -1328,7 +1328,7 @@ def process_document_with_ppstructure(self, job_id, file_path, file_name, genera
             "chunk_id": chunk_id if is_chunk and chunk_id else f"chunk_{actual_start_page}",
             "filename": file_name,  # Include the chunk filename for merge identification
             "results_path": results_path,
-            "message": f"Chunk processing completed: {len(image_paths)} pages",
+            "message": f"OCR processing completed: {len(image_paths)} pages",
             "processing_method": "ppstructure",  # Add missing processing method field
             "performance": final_results["performance"],
             # Include the actual extracted data for use by the merge function
@@ -1383,7 +1383,7 @@ def process_document_with_ppstructure(self, job_id, file_path, file_name, genera
             "chunk_id": file_name,
             "filename": file_name,
             "error": str(e),
-            "message": f"Chunk processing failed: {str(e)}",
+            "message": f"OCR processing failed: {str(e)}",
             "processing_method": "ppstructure",  # Add missing processing method field
             "combined_text": "",
             "extracted_text": "",
@@ -1649,7 +1649,7 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
             
             update_job_status(redis_client, job_id, {
                 'status': 'COMPLETED',
-                'message': f'Document "{file_name}" processed successfully with {len(image_paths)} pages using Gemini-only processing',
+                'message': f'Document "{file_name}" processed successfully with {len(image_paths)} pages using AI text analysis',
                 'progress': 100,
                 'results_path': results_path,
                 'combined_text_path': combined_text_path,
@@ -1671,7 +1671,7 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
             "chunk_id": chunk_id if is_chunk and chunk_id else f"chunk_{actual_start_page}",
             "filename": file_name,
             "results_path": results_path,
-            "message": f"Gemini-only processing completed: {len(image_paths)} pages",
+            "message": f"AI text analysis completed: {len(image_paths)} pages",
             "processing_method": "gemini_only",
             # Include the actual extracted data for use by the merge function
             "combined_text": combined_text,
@@ -1697,7 +1697,7 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
             "chunk_id": file_name,
             "filename": file_name,
             "error": str(e),
-            "message": f"Gemini-only processing failed: {str(e)}",
+            "message": f"AI text analysis failed: {str(e)}",
             "processing_method": "gemini_only",
             "combined_text": "",
             "extracted_text": "",
@@ -1981,7 +1981,7 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
         # CRITICAL: Only NOW mark the job as COMPLETED (all chunks processed and merged)
         update_job_status(redis_client, job_id, {
             'status': 'COMPLETED',
-            'message': f'Document "{original_filename}" processed successfully with {total_pages} pages using mixed processing ({len(ppstructure_chunks)} PPStructure + {len(gemini_chunks)} Gemini)',
+            'message': f'Document "{original_filename}" processed successfully with {total_pages} pages using hybrid processing ({len(ppstructure_chunks)} OCR + {len(gemini_chunks)} AI)',
             'progress': 100,
             'results_path': results_path,
             'combined_text_path': combined_text_path,
@@ -2010,7 +2010,7 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
             "status": "COMPLETED",
             "filename": original_filename,  # Return original filename
             "results_path": results_path,
-            "message": f'Document "{original_filename}" processed successfully with {total_pages} pages using mixed processing ({len(ppstructure_chunks)} PPStructure + {len(gemini_chunks)} Gemini)',
+            "message": f'Document "{original_filename}" processed successfully with {total_pages} pages using hybrid processing ({len(ppstructure_chunks)} OCR + {len(gemini_chunks)} AI)',
             "total_pages": total_pages,
             "num_chunks_processed": len(chunk_results),
             "num_chunks_successful": len(successful_chunks),
