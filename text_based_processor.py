@@ -580,7 +580,11 @@ If multiple document-type indicators appear, try to combine them into an appropr
 
 2. KEY DATES: List all significant dates. If none, state "None".
 
-3. ULTIMATE KEY DATE: Determine the single most representative date using these guidelines. If no rule applies or no date found, state "undated". If the dates are in other languages, make sure to translate them to English.  
+Example: 22 December 2022 (Date space month space year)
+
+3. ULTIMATE KEY DATE: Determine the single most representative date using these guidelines. If no rule applies or no date found, state "undated". If the dates are in other languages, make sure to translate them to English. Make sure only 1 date is returned (IMPORTANT). If there are multiple dates, return the most recent one.
+Example: 22 December 2022 (Date space month space year) (IMPORTANT)
+
     - General: Prioritize explicit dates (signing, effective, creation).  
     - Affidavits: Sign-off/"sworn on" date.  
     - Date Ranges: Latest date in range (e.g., "Statement from 1 Apr 2011 to 1 Jun 2011" → 1 Jun 2011).  
@@ -757,7 +761,7 @@ Do not infer fields that are not explicitly present.
      - Required Fields: Title; Date; Organisation (From).  
 
 
-IMPORTANT: Format your response exactly with the numbered format:  
+VERY IMPORTANT: Date must be in the format of 22 December 2022 (Date space month space year), ultimate key date must only return 1 date, Format your response exactly with the numbered format: 
 “1. SUMMARY:”,  
 “2. KEY DATES:”,  
 “3. ULTIMATE KEY DATE:”,  
