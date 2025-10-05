@@ -1273,9 +1273,13 @@ def process_document_with_ppstructure(self, job_id, file_path, file_name, genera
         with open(results_path, 'w', encoding='utf-8') as f:
             json.dump(clean_results, f, ensure_ascii=False, indent=2)
         
-        # Save detailed metrics to metrics.json
-        with open(metrics_path, 'w', encoding='utf-8') as f:
+        # Save detailed metrics to metrics.json with atomic write
+        temp_metrics_path = metrics_path + '.tmp'
+        with open(temp_metrics_path, 'w', encoding='utf-8') as f:
             json.dump(performance_metrics, f, ensure_ascii=False, indent=2)
+        
+        # Atomic rename for metrics
+        os.rename(temp_metrics_path, metrics_path)
         
         # Save PPStructure results to ppstructure_results.json
         with open(ppstructure_path, 'w', encoding='utf-8') as f:
@@ -1647,10 +1651,12 @@ def process_document_with_gemini_only(job_id, file_path, file_name, generate_sum
                 os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
             )
             
+            # CRITICAL: Do NOT mark as COMPLETED here - only the merge task should do that
+            # Individual chunk tasks should never mark jobs as COMPLETED to avoid race conditions
             update_job_status(redis_client, job_id, {
-                'status': 'COMPLETED',
-                'message': f'Document "{file_name}" processed successfully with {len(image_paths)} pages using AI text analysis',
-                'progress': 100,
+                'status': 'PROCESSING',  # Keep as PROCESSING until merge task completes
+                'message': f'Document "{file_name}" chunk processed successfully with {len(image_paths)} pages using AI text analysis, finalizing results...',
+                'progress': 90,  # High progress but not 100%
                 'results_path': results_path,
                 'combined_text_path': combined_text_path,
                 'total_pages': len(image_paths),
@@ -1938,13 +1944,20 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
             "chunk_order": [c['chunk_id'] for c in chunk_data]  # Record the order used
         }
         
-        # Save results to files
+        # Save results to files with atomic write to prevent race conditions
         results_path = os.path.join(result_dir, "results.json")
-        with open(results_path, 'w', encoding='utf-8') as f:
+        temp_results_path = results_path + '.tmp'
+        
+        # Write to temporary file first, then rename (atomic operation)
+        with open(temp_results_path, 'w', encoding='utf-8') as f:
             json.dump(clean_results, f, ensure_ascii=False, indent=2)
         
-        # Save metrics
+        # Atomic rename - this prevents API from reading partial files
+        os.rename(temp_results_path, results_path)
+        
+        # Save metrics with atomic write
         metrics_path = os.path.join(result_dir, "metrics.json")
+        temp_metrics_path = metrics_path + '.tmp'
         performance_metrics = {
             "job_id": job_id,
             "filename": original_filename,  # Use original filename
@@ -1972,8 +1985,12 @@ def merge_and_summarize_chunks(self, chunk_results, job_id):
             }
         }
         
-        with open(metrics_path, 'w', encoding='utf-8') as f:
+        # Atomic write for metrics
+        with open(temp_metrics_path, 'w', encoding='utf-8') as f:
             json.dump(performance_metrics, f, ensure_ascii=False, indent=2)
+        
+        # Atomic rename for metrics
+        os.rename(temp_metrics_path, metrics_path)
         
         # Update progress to 100% - all processing complete
         update_merge_progress(redis_client, job_id, "Processing complete", 100)

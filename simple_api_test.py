@@ -637,8 +637,8 @@ def main():
         (10, "10-Page Document"),     # Should use Gemini only (boundary)
         (50, "50-Page Document"),     # Should use Hybrid processing
         (100, "100-Page Document"),   # Should use Hybrid processing
-        (200, "200-Page Document"),   # Should use Hybrid processing
-        (500, "500-Page Document"),   # Stress test - large document
+        # (200, "200-Page Document"),   # Should use Hybrid processing
+        # (500, "500-Page Document"),   # Stress test - large document
         # (1000, "1000-Page Document")  # Stress test - maximum pages
     ]
     

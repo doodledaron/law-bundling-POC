@@ -564,6 +564,11 @@ Return a clear, informative description that captures all important aspects of t
                     "processed_at": datetime.now().isoformat()
                 }
             
+# **Examples of desired output style (model should mimic these patterns):**  
+#    • “Letter dated 15 March 2022 from Alice Wong (ABC Corp.) to John Tan (XYZ Ltd.) regarding Q1 budget approval; Ref: LT/2022/03-001.”  
+#    • “Invoice INV-2022-045 dated 02 June 2022 from Global Supplies Pte. Ltd. to Oceanic Trading Sdn. Bhd.; Amount Due: USD 12,500; Due Date: 30 June 2022.”  
+#    • “Affidavit sworn 22 April 2023 by Mark Chan (Advocate & Solicitor) in Support of Application for Injunction; Suit No. S-2023/045.”  
+#    • “Email dated 05 November 2022 from David Lee (PixelMedia) to Marketing Team; CC: HR Department; Subject: Q4 Campaign Launch Timeline.”  
             prompt = f"""
 
 Analyze this text document. It can be of various types and may not contain all listed elements, summary is a must.
@@ -578,16 +583,40 @@ Pre-processing (apply before any other step):
       - Verify that dates are reasonable (e.g., “32-Feb-2020” is invalid).
       - When in doubt, include the information rather than omit it.
 
-1. SUMMARY (max 50 words): In a single concise sentence, state the document type and include all required fields for that type (e.g., Date, Title, Person (From), Organisation (To)), then mention the subject and primary case number if applicable. Keep it smooth and avoid introductory phrases. Do not fallback to some random summary that doesn't describe it.
+    EMAIL DATE SOURCE OVERRIDE: For emails, treat the header “Date:”/sent timestamp (or topmost “From … on <date>” header line) as the Email Date. Ignore body-content dates for primary dating.
+
+1. SUMMARY (max 50 words): In a single concise sentence, state the document type and include all required fields for that type (e.g., Date, Title, Person (From), Organisation (To)), then mention the subject and primary case number if applicable. Keep it smooth and avoid introductory phrases. Do not fallback to some random summary that doesn't describe it. Be descriptive on the document type and its context.
 If multiple document-type indicators appear, try to combine them into an appropriate way of summarizing the document.
 • **No introductory phrases (“This is…”, “The document is…”)—begin directly with the structured sentence.**  
-**Examples of desired output style (model should mimic these patterns):**  
-   • “Letter dated 15 March 2022 from Alice Wong (ABC Corp.) to John Tan (XYZ Ltd.) regarding Q1 budget approval; Ref: LT/2022/03-001.”  
-   • “Invoice INV-2022-045 dated 02 June 2022 from Global Supplies Pte. Ltd. to Oceanic Trading Sdn. Bhd.; Amount Due: USD 12,500; Due Date: 30 June 2022.”  
-   • “Affidavit sworn 22 April 2023 by Mark Chan (Advocate & Solicitor) in Support of Application for Injunction; Suit No. S-2023/045.”  
-   • “Email dated 05 November 2022 from David Lee (PixelMedia) to Marketing Team; CC: HR Department; Subject: Q4 Campaign Launch Timeline.”  
-Do not fallback to some random summary that doesn't describe it like: Document dated 22 December 2022 with title "Untitled"; Person (From): John Doe; Organisation (From): ABC Corp.; Person (To): Jane Smith; Organisation (To): XYZ Ltd. Must be a proper summary that describes the document.
-For Social Media/Messaging, begin with the platform (e.g., “WhatsApp conversation dated …”) and do not include a Subject.
+- Do not fallback to some random summary that doesn't describe it like: Document dated 22 December 2022 with title "Untitled"; Person (From): John Doe; Organisation (From): ABC Corp.; Person (To): Jane Smith; Organisation (To): XYZ Ltd. Must be a proper summary that describes the document.
+- For Social Media/Messaging, begin with the platform (e.g., “WhatsApp conversation dated …”) and do not include a Subject.
+- Email dating rule: For emails, the date in the Summary must be the Email Date (header/sent time), not any date mentioned in the content.
+
+- Email ⇄ Ultimate Key Date lock: For emails, the Summary's date must equal the Ultimate Key Date.
+So write a single, smooth sentence in the format:  
+[Identifier] — [2-3 core issues] - [concise outcome/action].  
+- Identifiers may be citation, case name, document number, parties, title, or sender/recipient, whichever best represents the document.  
+- Always avoid lead-in phrases.  
+- Keep ≤35 words (do not cut off words in the middle of a word, may exceed if really need to to complete the sentence).  
+- For Court Judgments, use case citation style if available (e.g., “Plaintiff v Defendant [Year] Volume Reporter Page — issues; holding”).  
+- For other types, use title/parties/senders as the identifier and then note key issues + outcome/action.  
+
+⚠️ Avoidance rules for SUMMARY:  
+- Do not output rigid field lists or metadata style sentences.  
+- Do not use labels like “Person (From)” or “Organisation (To)”.  
+- Do not break the summary into blocks with “;” or “–”.  
+- Write one smooth, flowing sentence, ≤35 words (do not cut off words in the middle of a word, may exceed if really need to to complete the sentence).  
+- Read like a case note, news blurb, or headnote, not AI output.  
+
+✅ Smooth examples (preferred style):  
+- Che Som bte Yip v Maha Pte Ltd [1989] 2 SLR(R) 60 (1) addresses the issues of mental capacity, undue influence, and the validity of a mortgage deed executed by a mentally unsound individual.
+- On 9 August 2021 Kang Jian of Seaport Energy emailed Wang XY of KRCC to recap the Ningbo Keyuan and Vitol agreement for Light Cycle Oil covering specifications, quantity, delivery and pricing.  
+- Global Supplies issued an invoice to Oceanic Trading on 2 June 2022 for USD 12,500 relating to April shipments with payment due by 30 June 2022.  
+- Minutes of the Project Orion Steering Committee on 12 July 2024 record the approval of a budget reallocation with Chen, Singh and Musa in attendance.  
+- David Lee from PixelMedia wrote to the Marketing Team on 5 November 2022 copying HR to outline the Q4 campaign launch timeline and raise concerns about deadlines.  
+- BrightTech and Nova Logistics signed a service agreement on 10 August 2023 for a 24-month warehouse automation contract with annexes included.  
+
+
 
 2. KEY DATES: List all significant dates. If none, state "None".
 
@@ -597,6 +626,7 @@ Example: 22 December 2022 (Date space month space year)
 Example: 22 December 2022 (Date space month space year) (IMPORTANT)
 
     - General: Prioritize explicit dates (signing, effective, creation).  
+    - Emails: Always use the Email Date from the header/sent timestamp. If multiple, choose the message's own sent time over received/server times. If time only, use the date component if available; otherwise “undated”.
     - Affidavits: Sign-off/"sworn on" date.  
     - Date Ranges: Latest date in range (e.g., "Statement from 1 Apr 2011 to 1 Jun 2011" → 1 Jun 2011).  
     - Future Dates: "undated" (unless it's an event/due date).  
@@ -673,7 +703,7 @@ Do not infer fields that are not explicitly present.
      - Required Fields: Date; Title.  
 
    • EMAIL  
-     - Required Fields: Date; Title; Person (From); Organisation (From); Person (To); Organisation (To); Person (CC); Organisation (CC); Person (BCC); Organisation (BCC). (Also capture “Email Time” separately if available.)  
+     - Required Fields: Date (Email Date); Title; Person (From); Organisation (From); Person (To); Organisation (To); Person (CC); Organisation (CC); Person (BCC); Organisation (BCC). (Also capture “Email Time” separately if available.)  
 
    • FACSIMILE  
      - Required Fields: Date; Title; Person (From); Organisation (From); Person (To); Organisation (To); Person (CC); Organisation (CC).  
@@ -793,6 +823,7 @@ VERY IMPORTANT: Date must be in the format of 22 December 2022 (Date space month
 Do not add any other text before, between, or after these sections.
 Exception (Social Media/Messaging): If no absolute calendar date is visible, keep the latest relative
 timestamp verbatim (e.g., “Yesterday 10:59 pm (relative)”). Do not fabricate a calendar date.
+If email, ensure summary date and ultimate key date are the same using sent timestamp.
 
 Document content:  
 {document_text}
