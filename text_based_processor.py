@@ -439,6 +439,17 @@ Follow these guidelines:
         day dividers “Today/Yesterday” (as standalone labels), on-screen keyboard rows
         like “q w e r … / 123 / 空格 / 换行”, stray “+”, device/network text like “5G 35”.
       - Treat “Today/Yesterday” alone as separators (not absolute dates).
+9. EMAIL OR MESSAGE SCREENSHOTS:
+   - Always capture the full email header if visible, including:
+     “From:”, “To:”, “Cc:”, “Bcc:”, “Subject:”, and especially “Date:” or “Sent:”.
+   - The “Sent” or “Date” line (e.g., “Sent: 9 August 2021 14:23”) is CRITICAL — never omit or truncate it.
+   - If the email uses a conversational header line (e.g., “On 9 August 2021, John Doe wrote:”),
+     capture it in full as well.
+   - Include any reply or forward header blocks if present (“-----Original Message-----” etc.).
+   - Do NOT paraphrase, skip, or merge these lines — extract them exactly as seen.
+   - Also include visible timestamps on message bubbles or thread replies.
+
+
 
 
 Context: {context}
