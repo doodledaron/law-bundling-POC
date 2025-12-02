@@ -61,7 +61,7 @@ celery_app.conf.update(
     # For chunk_queue: Complete isolation prevents C++ double-free errors
     # For merge_queue: Longer lifecycle for text-only processing
     worker_max_tasks_per_child=1,  # Complete isolation per task (prevents double-free)
-    worker_max_memory_per_child=8589934592,  # 8GB memory limit per worker
+    worker_max_memory_per_child=6442450944,  # 6GB memory limit per worker (safer buffer for heavy OCR tasks)
     
     # Task pool settings for memory management
     worker_pool='prefork',  # Use prefork for complete process isolation (prevents C++ double-free)

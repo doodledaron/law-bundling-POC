@@ -32,7 +32,7 @@ services:
     container_name: law-redis
     ports:
       - "6379:6379" # Expose Redis port
-    command: redis-server --save "" --appendonly no --loglevel warning --maxmemory 24gb --maxmemory-policy allkeys-lru --maxmemory-samples 10 --lazyfree-lazy-eviction yes --tcp-keepalive 60 --timeout 0 # Stability-focused Redis config
+    command: redis-server --save "" --appendonly no --loglevel warning --maxmemory 24gb --maxmemory-policy allkeys-lru --maxmemory-samples 10 --lazyfree-lazy-eviction yes --tcp-keepalive 60 --timeout 0 --replicaof no one # Stability-focused Redis config - replicaof ensures master mode
     volumes:
       - redis-data:/data # Persist Redis data across restarts
     restart: unless-stopped
