@@ -8,12 +8,17 @@ import requests
 import time
 import os
 import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def test_single_upload():
     """Test the new /api/upload endpoint"""
     
     # API base URL (adjust as needed)
     base_url = "http://localhost:8000"
+    api_key = os.getenv("API_KEYS", "")
+    headers = {"X-API-Key": api_key}
     
     # Test with a sample file (create a proper dummy PDF if needed)
     test_file_path = "test_document.pdf"
@@ -101,7 +106,7 @@ startxref
         print("📄 Uploading document...")
         with open(test_file_path, 'rb') as f:
             files = {'file': (test_file_path, f, 'application/pdf')}
-            response = requests.post(f"{base_url}/api/upload", files=files)
+            response = requests.post(f"{base_url}/api/upload", files=files, headers=headers)
         
         if response.status_code != 200:
             print(f"❌ Upload failed with status {response.status_code}")
@@ -123,7 +128,7 @@ startxref
         attempt = 0
         
         while attempt < max_attempts:
-            response = requests.get(f"{base_url}/api/job/{job_id}")
+            response = requests.get(f"{base_url}/api/job/{job_id}", headers=headers)
             
             if response.status_code != 200:
                 print(f"❌ Status check failed: {response.status_code}")
