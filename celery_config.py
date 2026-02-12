@@ -20,7 +20,9 @@ celery_app = Celery(
     backend=os.environ.get('REDIS_URL', 'redis://localhost:6379/0'),
     include=[
         'tasks.maintenance',
-        'tasks.ppstructure_tasks'
+        'tasks.ppstructure_tasks',
+        'tasks.gemini_tasks',
+        'tasks.merge_tasks'
     ]
 )
 
@@ -83,6 +85,9 @@ celery_app.conf.task_routes = {
     # PPStructure tasks: Heavy C++ processing with aggressive worker recycling
     'tasks.process_document_with_ppstructure': {'queue': 'chunk_queue'},
     'tasks.warmup_ppstructure': {'queue': 'chunk_queue'},
+    
+    # Gemini-only tasks: API-based processing, same queue for chunk parallelism
+    'tasks.process_document_with_gemini_only': {'queue': 'chunk_queue'},
     
     # Merge tasks: Text-only processing with longer worker lifecycle
     'tasks.merge_and_summarize_chunks': {'queue': 'merge_queue'},

@@ -1,11 +1,15 @@
 import os
 import base64
+import time
+import logging
 from typing import Dict, List, Optional, Union
 from datetime import datetime
 import re
 import io
 from PIL import Image
 from config import Config
+
+logger = logging.getLogger(__name__)
 
 # Import Google AI conditionally since it requires Python 3.9+
 try:
@@ -37,6 +41,74 @@ class TextBasedProcessor:
             self.model = None
             self.generation_config = None
             print("WARNING: Google AI (Gemini) not available on Python 3.7. Text processing will be disabled.")
+
+    def _call_with_retry(self, contents, max_retries=4, base_delay=2.0, max_delay=60.0):
+        """
+        Call Gemini generate_content with exponential backoff retry.
+        
+        Retries on:
+          - 429 Too Many Requests (rate limiting)
+          - 500 Internal Server Error
+          - 503 Service Unavailable
+          - ConnectionError / TimeoutError
+        
+        Args:
+            contents: The contents list to pass to generate_content
+            max_retries: Maximum number of retry attempts (default 4 = 5 total tries)
+            base_delay: Initial delay in seconds between retries
+            max_delay: Maximum delay cap in seconds
+            
+        Returns:
+            The Gemini API response object
+            
+        Raises:
+            The last exception if all retries are exhausted
+        """
+        last_exception = None
+        for attempt in range(max_retries + 1):
+            try:
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=contents,
+                    config=types.GenerateContentConfig(**self.generation_config)
+                )
+                return response
+            except Exception as e:
+                last_exception = e
+                error_str = str(e).lower()
+                status_code = getattr(e, 'code', None) or getattr(e, 'status_code', None)
+                
+                # Determine if this error is retryable
+                is_retryable = False
+                if isinstance(e, (ConnectionError, TimeoutError, OSError)):
+                    is_retryable = True
+                elif status_code in (429, 500, 503):
+                    is_retryable = True
+                elif any(keyword in error_str for keyword in [
+                    '429', 'rate limit', 'resource exhausted', 'quota',
+                    '500', 'internal', '503', 'unavailable', 'overloaded',
+                    'deadline exceeded', 'timeout', 'connection'
+                ]):
+                    is_retryable = True
+                
+                if not is_retryable or attempt >= max_retries:
+                    logger.error(f"Gemini API call failed (attempt {attempt + 1}/{max_retries + 1}, non-retryable): {e}")
+                    raise
+                
+                # Calculate delay with exponential backoff + jitter
+                delay = min(base_delay * (2 ** attempt), max_delay)
+                # Add small jitter to avoid thundering herd
+                import random
+                delay = delay + random.uniform(0, delay * 0.1)
+                
+                logger.warning(
+                    f"Gemini API call failed (attempt {attempt + 1}/{max_retries + 1}), "
+                    f"retrying in {delay:.1f}s: {e}"
+                )
+                time.sleep(delay)
+        
+        # Should never reach here, but just in case
+        raise last_exception
     
     def _safe_extract_text(self, response) -> str:
         """Safely extract text from Gemini response."""
@@ -324,12 +396,8 @@ Additional context about this table: {context}
 Return ONLY the extracted table content, formatted as text.
 """
             
-            # Generate content using Gemini
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=[prompt, image_part],
-                config=types.GenerateContentConfig(**self.generation_config)
-            )
+            # Generate content using Gemini (with retry)
+            response = self._call_with_retry(contents=[prompt, image_part])
             
             # Extract and return the table text
             table_text = self._safe_extract_text(response)
@@ -382,12 +450,8 @@ Additional context about this chart: {context}
 Return a detailed analysis that includes both the raw data and key insights from the chart.
 """
             
-            # Generate content using Gemini
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=[prompt, image_part],
-                config=types.GenerateContentConfig(**self.generation_config)
-            )
+            # Generate content using Gemini (with retry)
+            response = self._call_with_retry(contents=[prompt, image_part])
             
             # Extract and return the chart analysis
             chart_analysis = self._safe_extract_text(response)
@@ -457,12 +521,8 @@ Context: {context}
 Return ONLY the extracted text content from the image.
 """
             
-            # Generate content using Gemini
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=[prompt, image_part],
-                config=types.GenerateContentConfig(**self.generation_config)
-            )
+            # Generate content using Gemini (with retry)
+            response = self._call_with_retry(contents=[prompt, image_part])
             
             # Extract and return the text
             extracted_text = self._safe_extract_text(response)
@@ -516,12 +576,8 @@ Additional context about this figure: {context}
 Return a clear, informative description that captures all important aspects of this figure.
 """
             
-            # Generate content using Gemini
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=[prompt, image_part],
-                config=types.GenerateContentConfig(**self.generation_config)
-            )
+            # Generate content using Gemini (with retry)
+            response = self._call_with_retry(contents=[prompt, image_part])
             
             # Extract and return the figure description
             figure_description = self._safe_extract_text(response)
@@ -840,11 +896,7 @@ Document content:
 {document_text}
 """
             
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=[prompt],
-                config=types.GenerateContentConfig(**self.generation_config)
-            )
+            response = self._call_with_retry(contents=[prompt])
             
             analysis_text = self._safe_extract_text(response)
             parsed_analysis = self._parse_analysis_string(analysis_text)

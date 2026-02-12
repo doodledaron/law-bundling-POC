@@ -54,10 +54,21 @@ label_studio/
 layoutlm/
 .env
 chunks/
-results
-uploads
+results/
+uploads/
 
+# Generated analysis/report files
+pdf_length_analysis_*.json
+processing_report_*.xlsx
+processing_comparison_results_*.xlsx
+split_ratio_comparison_*.json
 
-# logs
+# Celery beat schedule files
+celerybeat-schedule*
+
+# Logs
 logs/
 
+# Agent config
+.agent/
+.qodo/

@@ -10,6 +10,8 @@ import redis
 import time
 from datetime import datetime, timedelta
 
+import shutil
+
 logger = get_task_logger(__name__)
 
 # Initialize Redis client
@@ -20,63 +22,90 @@ redis_client = redis.Redis.from_url(
 @shared_task(name='tasks.maintenance.cleanup_expired_results')
 def cleanup_expired_results():
     """
-    Clean up expired result files and uploads.
-    Removes files older than the specified expiration period.
+    Clean up expired result files, uploads, and chunks.
+    Removes files/directories older than the specified expiration period.
     """
     try:
-        # Expiration period (7 days)
+        # Expiration period (7 days for results/uploads, 1 day for chunks)
         expiration_period = timedelta(days=7)
+        chunk_expiration = timedelta(days=1)
         now = datetime.now()
         
-        # Count of files deleted
+        # Counters
         results_deleted = 0
         uploads_deleted = 0
+        chunks_deleted = 0
         
-        # Clean up result files
+        # --- Clean up result directories ---
+        # Results are stored as directories: results/{job_id}/
         results_dir = 'results'
         if os.path.exists(results_dir):
-            for filename in os.listdir(results_dir):
-                file_path = os.path.join(results_dir, filename)
+            for entry in os.listdir(results_dir):
+                entry_path = os.path.join(results_dir, entry)
                 
-                # Check file age
-                file_modified = datetime.fromtimestamp(os.path.getmtime(file_path))
-                if now - file_modified > expiration_period:
-                    try:
-                        # Extract job ID from filename (format: {job_id}_results.json)
-                        job_id = filename.split('_')[0]
+                try:
+                    # Check age (use modification time)
+                    entry_modified = datetime.fromtimestamp(os.path.getmtime(entry_path))
+                    if now - entry_modified > expiration_period:
+                        # The directory name IS the job_id
+                        job_id = entry
                         
-                        # Check if job still exists in Redis
+                        # Only delete if Redis key has expired (job no longer active)
                         if not redis_client.exists(f"job:{job_id}"):
-                            os.remove(file_path)
+                            if os.path.isdir(entry_path):
+                                shutil.rmtree(entry_path, ignore_errors=True)
+                            else:
+                                os.remove(entry_path)
                             results_deleted += 1
-                    except Exception as e:
-                        logger.error(f"Error deleting result file {filename}: {str(e)}")
+                except Exception as e:
+                    logger.error(f"Error deleting result entry {entry}: {str(e)}")
         
-        # Clean up upload files
+        # --- Clean up upload files ---
         uploads_dir = 'uploads'
         if os.path.exists(uploads_dir):
             for filename in os.listdir(uploads_dir):
                 file_path = os.path.join(uploads_dir, filename)
                 
-                # Check file age
-                file_modified = datetime.fromtimestamp(os.path.getmtime(file_path))
-                if now - file_modified > expiration_period:
-                    try:
-                        # Extract job ID from filename (format: {job_id}.ext)
+                try:
+                    file_modified = datetime.fromtimestamp(os.path.getmtime(file_path))
+                    if now - file_modified > expiration_period:
                         job_id = os.path.splitext(filename)[0]
                         
-                        # Check if job still exists in Redis
                         if not redis_client.exists(f"job:{job_id}"):
-                            os.remove(file_path)
+                            if os.path.isdir(file_path):
+                                shutil.rmtree(file_path, ignore_errors=True)
+                            else:
+                                os.remove(file_path)
                             uploads_deleted += 1
-                    except Exception as e:
-                        logger.error(f"Error deleting upload file {filename}: {str(e)}")
+                except Exception as e:
+                    logger.error(f"Error deleting upload file {filename}: {str(e)}")
         
-        logger.info(f"Cleanup complete: {results_deleted} result files and {uploads_deleted} upload files deleted")
+        # --- Clean up chunk files (temporary, short expiry) ---
+        chunks_dir = 'chunks'
+        if os.path.exists(chunks_dir):
+            for entry in os.listdir(chunks_dir):
+                entry_path = os.path.join(chunks_dir, entry)
+                
+                try:
+                    entry_modified = datetime.fromtimestamp(os.path.getmtime(entry_path))
+                    if now - entry_modified > chunk_expiration:
+                        if os.path.isdir(entry_path):
+                            shutil.rmtree(entry_path, ignore_errors=True)
+                        else:
+                            os.remove(entry_path)
+                        chunks_deleted += 1
+                except Exception as e:
+                    logger.error(f"Error deleting chunk entry {entry}: {str(e)}")
+        
+        logger.info(
+            f"Cleanup complete: {results_deleted} results, "
+            f"{uploads_deleted} uploads, {chunks_deleted} chunks deleted"
+        )
         
         return {
             'results_deleted': results_deleted,
             'uploads_deleted': uploads_deleted,
+            'chunks_deleted': chunks_deleted,
             'timestamp': datetime.now().isoformat()
         }
     

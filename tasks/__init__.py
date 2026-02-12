@@ -41,16 +41,33 @@ try:
     print("🔧 Loading PPStructure tasks...")
     from tasks.ppstructure_tasks import (
         process_document_with_ppstructure,
-        warmup_ppstructure,
-        merge_and_summarize_chunks
+        warmup_ppstructure
     )
     # Add to exports when successfully loaded
-    __all__.extend(['process_document_with_ppstructure', 'warmup_ppstructure', 'merge_and_summarize_chunks'])
+    __all__.extend(['process_document_with_ppstructure', 'warmup_ppstructure'])
     print("✅ PPStructure tasks loaded successfully")
     
 except Exception as e:
     print(f"⚠️  Failed to load PPStructure tasks: {str(e)}")
     # PPStructure tasks not available, but utils still work
+
+# Import Gemini-only processing tasks
+try:
+    print("🔧 Loading Gemini tasks...")
+    from tasks.gemini_tasks import process_document_with_gemini_only
+    __all__.append('process_document_with_gemini_only')
+    print("✅ Gemini tasks loaded successfully")
+except Exception as e:
+    print(f"⚠️  Failed to load Gemini tasks: {str(e)}")
+
+# Import merge/summarize tasks
+try:
+    print("🔧 Loading merge tasks...")
+    from tasks.merge_tasks import merge_and_summarize_chunks
+    __all__.append('merge_and_summarize_chunks')
+    print("✅ Merge tasks loaded successfully")
+except Exception as e:
+    print(f"⚠️  Failed to load merge tasks: {str(e)}")
 
 # Load maintenance tasks if needed
 try:
