@@ -22,7 +22,8 @@ celery_app = Celery(
         'tasks.maintenance',
         'tasks.ppstructure_tasks',
         'tasks.gemini_tasks',
-        'tasks.merge_tasks'
+        'tasks.merge_tasks',
+        'tasks.relevance_tasks'
     ]
 )
 
@@ -91,6 +92,9 @@ celery_app.conf.task_routes = {
     
     # Merge tasks: Text-only processing with longer worker lifecycle
     'tasks.merge_and_summarize_chunks': {'queue': 'merge_queue'},
+    
+    # Relevance tasks: Text-only relevance extraction
+    'tasks.merge_and_generate_relevance': {'queue': 'merge_queue'},
     
     # Maintenance tasks
     'tasks.maintenance.*': {'queue': 'maintenance'},

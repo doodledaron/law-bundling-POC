@@ -16,6 +16,7 @@ import logging
 # Import routers
 from routes.api_routes import api_router
 from routes.dev_routes import dev_router
+from routes.relevance_routes import relevance_router
 
 # Import shared services (needed for health check)
 from services.processing import (
@@ -53,6 +54,7 @@ app.mount("/results", StaticFiles(directory="results"), name="results")
 # Include routers
 app.include_router(api_router)
 app.include_router(dev_router)
+app.include_router(relevance_router)
 
 
 # Root endpoint - API information page

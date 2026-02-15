@@ -81,7 +81,8 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
-    gpus: all
+    # GPU support - uncomment for Linux machines with NVIDIA GPUs
+    # gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
     mem_limit: 9g # Memory limit as specified for high-throughput processing
     memswap_limit: 9g # Match memory limit
@@ -92,10 +93,11 @@ services:
           memory: 9g
         reservations:
           memory: 2g
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+          # GPU device reservation - uncomment for Linux machines with NVIDIA GPUs
+          # devices:
+          #   - driver: nvidia
+          #     count: 1
+          #     capabilities: [gpu]
 
   # Container 2: Document processing worker with intelligent load balancing
   worker-documents-container2:
@@ -136,7 +138,8 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
-    gpus: all
+    # GPU support - uncomment for Linux machines with NVIDIA GPUs
+    # gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
     mem_limit: 9g # Memory limit as specified for high-throughput processing
     memswap_limit: 9g # Match memory limit
@@ -147,10 +150,11 @@ services:
           memory: 9g
         reservations:
           memory: 2g
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+          # GPU device reservation - uncomment for Linux machines with NVIDIA GPUs
+          # devices:
+          #   - driver: nvidia
+          #     count: 1
+          #     capabilities: [gpu]
 
   # Container 3: Document processing worker for high-throughput parallelism
   worker-documents-container3:
@@ -191,7 +195,8 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
-    gpus: all
+    # GPU support - uncomment for Linux machines with NVIDIA GPUs
+    # gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
     mem_limit: 9g # Memory limit as specified for high-throughput processing
     memswap_limit: 9g # Match memory limit
@@ -202,10 +207,11 @@ services:
           memory: 9g
         reservations:
           memory: 2g
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+          # GPU device reservation - uncomment for Linux machines with NVIDIA GPUs
+          # devices:
+          #   - driver: nvidia
+          #     count: 1
+          #     capabilities: [gpu]
 
   # Container 4: Document processing worker for high-throughput parallelism
   worker-documents-container4:
@@ -246,7 +252,8 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
-    gpus: all
+    # GPU support - uncomment for Linux machines with NVIDIA GPUs
+    # gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
     mem_limit: 9g # Memory limit as specified for high-throughput processing
     memswap_limit: 9g # Match memory limit
@@ -257,10 +264,11 @@ services:
           memory: 9g
         reservations:
           memory: 2g
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+          # GPU device reservation - uncomment for Linux machines with NVIDIA GPUs
+          # devices:
+          #   - driver: nvidia
+          #     count: 1
+          #     capabilities: [gpu]
 
   # Container 5: Document processing worker for high-throughput parallelism
   worker-documents-container5:
@@ -301,7 +309,8 @@ services:
     depends_on:
       - redis
     restart: unless-stopped
-    gpus: all
+    # GPU support - uncomment for Linux machines with NVIDIA GPUs
+    # gpus: all
     # Optimized memory allocation for 6-container setup (5GB per container)
     mem_limit: 9g # Memory limit as specified for high-throughput processing
     memswap_limit: 9g # Match memory limit
@@ -312,10 +321,11 @@ services:
           memory: 9g
         reservations:
           memory: 2g
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+          # GPU device reservation - uncomment for Linux machines with NVIDIA GPUs
+          # devices:
+          #   - driver: nvidia
+          #     count: 1
+          #     capabilities: [gpu]
 
 
   # Celery worker for maintenance tasks

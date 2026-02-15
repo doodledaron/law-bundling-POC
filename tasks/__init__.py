@@ -81,4 +81,13 @@ except Exception as e:
     print(f"ℹ️  Maintenance tasks not available: {str(e)}")
     # Maintenance tasks not available, but core functionality still works
 
+# Load relevance tasks
+try:
+    print("🔧 Loading relevance tasks...")
+    from tasks.relevance_tasks import merge_and_generate_relevance
+    __all__.append('merge_and_generate_relevance')
+    print("✅ Relevance tasks loaded successfully")
+except Exception as e:
+    print(f"⚠️  Failed to load relevance tasks: {str(e)}")
+
 print(f"✅ Tasks module loaded with {len(__all__)} available functions")
