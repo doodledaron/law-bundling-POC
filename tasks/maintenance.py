@@ -136,6 +136,12 @@ def system_stats():
         # Iterate through job keys
         for key in redis_client.scan_iter("job:*"):
             try:
+                # Skip auxiliary keys (chunks_completed, etc.) - only process main job status keys
+                key_str = key.decode('utf-8') if isinstance(key, bytes) else key
+                if ':' in key_str and key_str.count(':') > 1:
+                    # Skip keys like job:xxx:chunks_completed, job:xxx:total_chunks, etc.
+                    continue
+                
                 job_data = redis_client.get(key)
                 if job_data:
                     job = json.loads(job_data)

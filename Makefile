@@ -77,8 +77,21 @@ nuke: ## Remove all containers, volumes, and networks
 
 # === Testing ===
 
-test: ## Run test document upload
-	python test_single_upload.py
+test: ## Run container warmup test
+	cd tests && python3 01_summarization_container_warmup_test.py
+
+test-single: ## Run single document upload test
+	cd tests && python3 02_summarization_single_upload_test.py
+
+test-relevance: ## Run relevance extraction test (NEW)
+	cd tests && python3 04_relevance_extraction_test.py
+
+test-stress: ## Run comprehensive stress test (optional, time-intensive)
+	cd tests && python3 03_summarization_stress_test_multipage.py
+
+test-all: test test-single test-relevance ## Run all recommended tests (warmup + single + relevance)
+
+test-full: test-all test-stress ## Run complete test suite (including stress test)
 
 shell: ## Shell into worker container
 	docker exec -it law-worker-documents-container1 bash

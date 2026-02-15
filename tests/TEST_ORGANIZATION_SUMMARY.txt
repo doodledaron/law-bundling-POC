@@ -1,0 +1,206 @@
+================================================================================
+TEST FOLDER ORGANIZATION SUMMARY
+Law Document Processing System
+================================================================================
+
+DIRECTORY CREATED: /tests/
+
+FILES ORGANIZED:
+================================================================================
+
+1. 01_summarization_container_warmup_test.py
+   Original: warmup_test.py
+   Purpose: Warm up all 5 worker containers after docker-compose deployment
+   Feature: Summarization (original)
+   Auth: Uses .env API_KEYS via load_env_file()
+   Duration: 2-3 minutes
+   
+2. 02_summarization_single_upload_test.py
+   Original: test_single_upload.py
+   Purpose: Test single document summarization upload and results retrieval
+   Feature: Summarization (original)
+   Auth: Uses .env API_KEYS via dotenv
+   Duration: 5-15 minutes
+
+3. 03_summarization_stress_test_multipage.py
+   Original: simple_api_test.py
+   Purpose: Comprehensive stress testing with 5-1000 page documents
+   Feature: Summarization (original)
+   Auth: Uses .env API_KEYS via load_env_file()
+   Duration: 30-120 minutes
+   Notes: Generates Excel reports, tracks memory usage
+   
+4. 04_relevance_extraction_test.py
+   Original: NEW FILE (created)
+   Purpose: Test token-efficient legal relevance extraction feature
+   Feature: Relevance Extraction (NEW)
+   Auth: Uses .env API_KEYS via load_env_file()
+   Duration: 10-30 minutes
+   Tests:
+   - Token usage tracking and cost estimation
+   - Pinpoint references (Para [XX], page X)
+   - Evidence quotes (≤25 words each)
+   - Document type classification
+   - Smart text slicing (800-char windows, merged overlaps)
+   - Page allocation strategy (90% Gemini + 10% PPStructure for large docs)
+
+DOCUMENTATION FILES:
+================================================================================
+
+README.md
+   - Comprehensive test suite documentation
+   - Detailed explanation of each test file
+   - Configuration instructions
+   - Troubleshooting guide
+   - Performance benchmarks
+   - Cost tracking information
+
+QUICK_REFERENCE.md
+   - Quick start guide
+   - One-page reference for all tests
+   - Expected results for each test
+   - Common issues and solutions
+   - Production verification checklist
+   - Performance targets table
+
+NAMING CONVENTION:
+================================================================================
+
+Format: NN_feature_name_description_test.py
+
+NN: Sequential number (01, 02, 03, 04, ...)
+feature_name: Main feature being tested (summarization, relevance, etc.)
+description: Brief description of test focus
+_test.py: Standard test file suffix
+
+Examples:
+- 01_summarization_container_warmup_test.py
+- 04_relevance_extraction_test.py
+
+AUTH MECHANISM (ALL FILES):
+================================================================================
+
+Environment Variables (.env file):
+
+REQUIRED:
+  GEMINI_API_KEY=your_api_key_here
+  API_KEYS=test-key-1,test-key-2,test-key-3
+
+OPTIONAL:
+  API_BASE_URL=http://localhost:8000
+  REDIS_URL=redis://localhost:6379/0
+
+Loading method:
+  - Tests use load_env_file() to read .env
+  - First API key from API_KEYS comma-separated list is used
+  - Authentication header: X-API-Key
+
+TEST EXECUTION ORDER (RECOMMENDED):
+================================================================================
+
+1. First time setup:
+   $ python3 01_summarization_container_warmup_test.py
+   (Verifies containers are ready)
+
+2. Quick validation:
+   $ python3 02_summarization_single_upload_test.py
+   (Tests basic summarization functionality)
+
+3. Comprehensive testing:
+   $ python3 04_relevance_extraction_test.py
+   (Tests new relevance extraction feature)
+
+4. Optional stress testing:
+   $ python3 03_summarization_stress_test_multipage.py
+   (Performance analysis - takes 30-120 minutes)
+
+FEATURES TESTED:
+================================================================================
+
+SUMMARIZATION PIPELINE (Tests 01-03):
+  ✅ Multi-container activation (5 workers)
+  ✅ Document upload and validation
+  ✅ PPStructure (layout analysis) processing
+  ✅ Gemini (NLP) processing
+  ✅ Document chunking strategy
+  ✅ Parallel chunk processing
+  ✅ Job status monitoring
+  ✅ Result retrieval and parsing
+  ✅ Cost estimation
+  ✅ Memory management
+
+RELEVANCE EXTRACTION (Test 04) - NEW FEATURE:
+  ✅ Token-efficient relevance extraction
+  ✅ Pinpoint references with page numbers
+  ✅ Evidence quotes (≤25 words, with sources)
+  ✅ Document type classification (case, statute, notice)
+  ✅ Smart text slicing with keyword windows
+  ✅ Overlapping window merging
+  ✅ Token usage tracking
+  ✅ Cost calculation and estimation
+  ✅ Page allocation strategy (90% Gemini / 10% PPStructure)
+  ✅ Multiple relevances per document
+
+KEY IMPROVEMENTS OVER ORIGINAL FILES:
+================================================================================
+
+Naming:
+  - Clear naming convention shows feature and test type
+  - Sequential numbering for execution order
+  - Descriptive names explain test purpose
+
+Organization:
+  - All tests in dedicated /tests/ directory
+  - Clean separation from source code
+  - Companion documentation files
+
+New Test Coverage:
+  - Added comprehensive relevance extraction test (Test 04)
+  - Tests new token-efficient feature
+  - Validates cost estimation accuracy
+  - Verifies smart text slicing
+  - Checks page allocation strategy
+
+Documentation:
+  - Detailed README.md with setup and troubleshooting
+  - QUICK_REFERENCE.md for quick lookup
+  - Performance benchmarks and expectations
+  - Cost tracking and estimation guide
+
+Authentication:
+  - Consistent .env file usage across all tests
+  - Uses API_KEYS from environment configuration
+  - Production-ready authentication header (X-API-Key)
+  - Fallback error messages if auth fails
+
+BACKWARD COMPATIBILITY:
+================================================================================
+
+Original files remain in root directory:
+  - warmup_test.py (original)
+  - test_single_upload.py (original)
+  - simple_api_test.py (original)
+
+New test folder:
+  - Contains renamed copies with enhanced organization
+  - Original files can be safely archived or removed
+
+Recommendation:
+  - Use /tests/ folder for all future test execution
+  - Archive original root test files
+  - Update CI/CD to reference /tests/ directory
+
+EXPECTED SUCCESS RATES:
+================================================================================
+
+Test 01 (Container Warmup):     ≥80% (4/5 containers)
+Test 02 (Single Upload):         ≥95%
+Test 03 (Stress Test):           ≥80% (across all page sizes)
+Test 04 (Relevance):             ≥75% (new feature - more conservative)
+
+All tests should succeed with proper environment setup and
+sufficient system resources.
+
+================================================================================
+Created: 2026-02-15
+Last Updated: 2026-02-15
