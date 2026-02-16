@@ -198,6 +198,7 @@ celery -A celery_config inspect active
 ### Common Issues
 1. **Out of Memory**: Reduce `MAX_DOCUMENT_WORKERS` or container memory limits
 2. **Redis Connection**: Check `REDIS_URL` and ensure Redis container is running
+   - For local debugging scripts (`diagnose_system.py`, `restart_system.py`), uncomment Redis port in `docker-compose.yml`
 3. **GPU Access**: Verify NVIDIA Docker runtime and GPU drivers
 4. **Upload Failures**: Check format support (PDF/JPEG/PNG only)
 
@@ -205,7 +206,7 @@ celery -A celery_config inspect active
 - API errors: `docker-compose logs api`
 - Worker errors: `docker-compose logs worker-documents-container1`
 - Redis issues: `docker-compose logs redis`
-- System diagnostics: `python diagnose_system.py`
+- System diagnostics: `python diagnose_system.py` (requires Redis port exposed)
 
 ### Performance Optimization
 - Monitor container resource usage with `docker stats`
@@ -227,6 +228,7 @@ celery -A celery_config inspect active
 - Redis backend stores job status and results temporarily
 - All file uploads are validated for type (no size limits)
 - Container isolation provides security boundaries between workers
+- **Redis port not exposed externally** - only accessible within Docker network (production-safe)
 
 ### Usage Examples
 ```bash
