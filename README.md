@@ -46,6 +46,21 @@ make logs
   API_KEYS=your-api-key-for-auth
   ```
 
+## 🔒 Security Note
+
+**Redis port is NOT exposed externally** for security. All containers communicate via internal Docker network.
+
+**If you need to run local debugging scripts** (`diagnose_system.py`, `restart_system.py`):
+1. Uncomment Redis ports in `docker-compose.yml`:
+   ```yaml
+   redis:
+     ports:
+       - "6379:6379"
+   ```
+2. Run: `docker-compose restart redis`
+3. Run your script
+4. **Re-comment the ports** and restart Redis when done
+
 ## Make Commands
 
 Run `make help` to see all available commands:

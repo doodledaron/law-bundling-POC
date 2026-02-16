@@ -1,3 +1,8 @@
+# ⚠️  REDIS PORT SECURITY NOTE:
+# Redis port (6379) is NOT exposed for security (line 33-34 commented out).
+# To run diagnose_system.py or restart_system.py, temporarily uncomment the Redis port.
+# See REDIS_PORT_INSTRUCTIONS.md for details.
+
 services:
   # Web API service running FastAPI
   api:

@@ -3,6 +3,15 @@
 System Restart Script for Law Document Processing
 
 This script helps restart the system cleanly and fix common issues.
+
+⚠️  IMPORTANT: This script requires Redis port to be exposed!
+    If you get connection errors, uncomment these lines in docker-compose.yml:
+    
+    redis:
+      ports:
+        - "6379:6379"
+    
+    Then run: docker-compose restart redis
 """
 import subprocess
 import time
@@ -38,6 +47,12 @@ def clear_redis():
         return True
     except Exception as e:
         print(f"❌ Failed to clear Redis: {str(e)}")
+        print("\n⚠️  CONNECTION FAILED!")
+        print("📝 To fix this, uncomment Redis ports in docker-compose.yml:")
+        print("   redis:")
+        print("     ports:")
+        print("       - \"6379:6379\"")
+        print("\n   Then run: docker-compose restart redis\n")
         return False
 
 def main():
