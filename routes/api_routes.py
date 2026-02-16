@@ -140,32 +140,11 @@ async def api_job_status(job_id: str, authenticated: bool = Depends(verify_api_k
                     has_required_fields = all(field in results_data for field in required_fields)
                     has_substantial_content = len(results_data.get('combined_text', '')) > 10
                     
-                    # ENHANCED VALIDATION: Check if summary and extracted_info are properly populated
-                    summary = results_data.get('summary', '')
-                    extracted_info = results_data.get('extracted_info', {})
-                    
-                    # Valid summary should not be null, empty, or generic failure messages
-                    has_valid_summary = (summary and 
-                                       summary != 'null' and 
-                                       summary.strip() != '' and
-                                       'Summary not available' not in summary and
-                                       'Not available' not in summary)
-                    
-                    # Valid extracted_info should have actual content, not placeholder values
-                    has_valid_extracted_info = (extracted_info and
-                                             extracted_info.get('key_dates', '') != 'Not available' and
-                                             extracted_info.get('main_parties', '') != 'Not available' and
-                                             extracted_info.get('case_reference_numbers', '') != 'Not available' and
-                                             extracted_info.get('full_analysis', '') != 'No summary generated for individual chunks')
-                    
-                    if has_required_fields and has_substantial_content and has_valid_summary and has_valid_extracted_info:
+                    # Simple validation: just check that required fields exist and have content
+                    # Don't validate field values - "Not available" is legitimate for documents without dates/parties
+                    if has_required_fields and has_substantial_content:
                         results_ready = True
                         logger.info(f"✅ Job {job_id} - Results validated and ready for display")
-                    elif has_required_fields and has_substantial_content:
-                        # Results file exists but summary/extracted_info are invalid
-                        logger.warning(f"⚠️ Job {job_id} - Results file exists but contains invalid summary or extracted_info")
-                        logger.warning(f"⚠️ Job {job_id} - Summary valid: {has_valid_summary}, ExtractedInfo valid: {has_valid_extracted_info}")
-                        
                     else:
                         logger.info(f"⚠️ Job {job_id} - Results file exists but incomplete: fields={has_required_fields}, content={has_substantial_content}")
                         
