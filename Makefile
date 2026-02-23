@@ -1,3 +1,4 @@
+PYTHON ?= python
 .PHONY: help build up down restart logs logs-api logs-workers logs-redis status clean test rebuild
 .DEFAULT_GOAL := help
 
@@ -55,7 +56,7 @@ status: ## Show running containers
 	docker compose ps
 
 health: ## API health check
-	curl -s http://localhost:8000/health | python3 -m json.tool || echo "API not responding"
+	curl -s http://localhost:8000/health | $(PYTHON) -m json.tool || echo "API not responding"
 
 redis-info: ## Redis memory usage
 	docker exec law-redis redis-cli INFO memory | grep used_memory_human
@@ -78,16 +79,16 @@ nuke: ## Remove all containers, volumes, and networks
 # === Testing ===
 
 test: ## Run container warmup test
-	cd tests && python3 01_summarization_container_warmup_test.py
+	cd tests && $(PYTHON) 01_summarization_container_warmup_test.py
 
 test-single: ## Run single document upload test
-	cd tests && python3 02_summarization_single_upload_test.py
+	cd tests && $(PYTHON) 02_summarization_single_upload_test.py
 
 test-relevance: ## Run relevance extraction test (NEW)
-	cd tests && python3 04_relevance_extraction_test.py
+	cd tests && $(PYTHON) 04_relevance_extraction_test.py
 
 test-stress: ## Run comprehensive stress test (optional, time-intensive)
-	cd tests && python3 03_summarization_stress_test_multipage.py
+	cd tests && $(PYTHON) 03_summarization_stress_test_multipage.py
 
 test-all: test test-single test-relevance ## Run all recommended tests (warmup + single + relevance)
 

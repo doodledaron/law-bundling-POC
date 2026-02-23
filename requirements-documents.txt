@@ -16,13 +16,13 @@ redis==5.0.1
 kombu==5.3.7
 
 # AI/ML - Google Genai (requires Python 3.9+)
-google-genai==0.3.0
+google-genai==0.7.0
 pydantic>=2.0.0,<3.0.0
 
 # Basic file handling
 python-dotenv==1.0.0
 python-dateutil==2.8.2
-requests==2.31.0
+requests==2.32.4
 urllib3==1.26.18
 aiofiles==22.1.0
 
@@ -31,7 +31,7 @@ PyMuPDF==1.23.14
 pdf2image==1.16.3
 
 # Basic image handling (for Genai image processing)
-pillow==10.1.0
+pillow==12.1.1
 
 # Utilities
 psutil==5.9.6

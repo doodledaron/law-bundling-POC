@@ -22,7 +22,7 @@ scikit-image==0.18.3
 
 # Image processing and OpenCV
 opencv-python-headless<=4.6.0.66
-pillow==9.5.0
+pillow==12.1.1
 
 # OCR and document processing
 pdf2image==1.16.3
@@ -32,7 +32,7 @@ PyMuPDF==1.19.0
 # Utilities and parsing
 lxml==4.9.3
 beautifulsoup4==4.12.2
-requests==2.31.0
+requests==2.32.4
 urllib3==1.26.18
 tqdm==4.65.0
 python-dateutil==2.8.2

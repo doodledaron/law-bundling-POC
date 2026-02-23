@@ -11,14 +11,14 @@ redis==5.0.1
 flower==2.0.1
 
 # Basic utilities
-python-multipart==0.0.6
+python-multipart==0.0.22
 python-dotenv==1.0.0
 pydantic==2.5.0
 pydantic-settings==2.1.0
 pdf2image==1.16.3
 
 # HTTP and JSON
-requests==2.31.0
+requests==2.32.4
 httpx==0.25.2
 
 # File handling (basic)
@@ -32,11 +32,11 @@ python-dateutil==2.8.2
 psutil==5.9.6
 
 # AI/ML (minimal)
-google-genai==0.3.0
-pillow==10.1.0
+google-genai==0.7.0
+pillow==12.1.1
 
 # Template engine
-jinja2==3.1.2
+jinja2==3.1.6
 
 # Development
 pytest==7.4.3 

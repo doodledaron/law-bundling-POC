@@ -48,7 +48,7 @@ RUN pip install --no-cache-dir paddlex
 RUN pip install --no-cache-dir --force-reinstall \
     opencv-python-headless==4.6.0.66 \
     numpy==1.24.3 \
-    pillow==10.0.0
+    pillow==12.1.1
 
 # Create necessary directories with proper permissions
 RUN mkdir -p uploads results chunks \
