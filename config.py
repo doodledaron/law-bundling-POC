@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-    MODEL_NAME = "gemini-2.0-flash"
+    MODEL_NAME = "gemini-2.5-flash-lite"
     GENERATION_CONFIG = {
         "temperature": 0.5,
         "top_p": 0.95,
