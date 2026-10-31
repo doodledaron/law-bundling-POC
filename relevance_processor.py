@@ -23,9 +23,9 @@ class RelevanceProcessor:
     Processor for generating token-efficient legal relevance extractions.
     Reuses the same Gemini client pattern as TextBasedProcessor.
     """
-    # Costing constants for z-ai/glm-5.3-flash on OpenRouter (same as TextBasedProcessor)
-    INPUT_COST_PER_M_TOKENS = 0.016   # $0.016 per 1M input tokens
-    OUTPUT_COST_PER_M_TOKENS = 0.148  # $0.148 per 1M output tokens
+    # Costing constants for google/gemini-2.5-flash-lite on OpenRouter (same as TextBasedProcessor)
+    INPUT_COST_PER_M_TOKENS = 0.10    # $0.10 per 1M input tokens
+    OUTPUT_COST_PER_M_TOKENS = 0.40   # $0.40 per 1M output tokens
     
     # Token efficiency limits
     MAX_EXTRACTED_CHARS = 16000  # ~4000 tokens

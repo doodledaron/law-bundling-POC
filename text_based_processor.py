@@ -21,9 +21,9 @@ except ImportError:
     types = None
 
 class TextBasedProcessor:
-    # Costing constants for z-ai/glm-5.3-flash on OpenRouter (USD per 1M tokens)
-    INPUT_COST_PER_M_TOKENS = 0.016   # $0.016 per 1M input tokens
-    OUTPUT_COST_PER_M_TOKENS = 0.148  # $0.148 per 1M output tokens
+    # Costing constants for google/gemini-2.5-flash-lite on OpenRouter (USD per 1M tokens)
+    INPUT_COST_PER_M_TOKENS = 0.10    # $0.10 per 1M input tokens
+    OUTPUT_COST_PER_M_TOKENS = 0.40   # $0.40 per 1M output tokens
 
     def __init__(self):
         if GOOGLE_AI_AVAILABLE:

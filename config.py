@@ -7,7 +7,7 @@ load_dotenv()
 class Config:
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
-    MODEL_NAME = "z-ai/glm-5.3-flash"  # served through OpenRouter
+    MODEL_NAME = "google/gemini-2.5-flash-lite"  # served through OpenRouter
     GENERATION_CONFIG = {
         "temperature": 0.5,
         "top_p": 0.95,
