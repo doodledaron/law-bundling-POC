@@ -13,8 +13,10 @@ class Config:
         "top_p": 0.95,
         "top_k": 40,
         # Raised from 1024: GLM spends part of this budget on hidden reasoning,
-        # so dense pages were cut off before the transcription finished
-        "max_output_tokens": 8192
+        # so dense pages were cut off before the transcription finished.
+        # Raised again to 16384: a 13-page relevance call used all 8192 on
+        # reasoning and returned no items. Reasoning cannot be disabled on GLM.
+        "max_output_tokens": 16384
     }
     
     # File upload settings
