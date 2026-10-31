@@ -9,13 +9,11 @@ from config import Config
 
 logger = logging.getLogger(__name__)
 
-# Import Google AI conditionally since it requires Python 3.9+
+# LLM calls go through OpenRouter (see llm_client.py)
 try:
-    from google import genai
-    from google.genai import types
+    from llm_client import genai, types
     GOOGLE_AI_AVAILABLE = True
 except ImportError:
-    # Running on Python 3.7 - Google AI not available
     GOOGLE_AI_AVAILABLE = False
     genai = None
     types = None
@@ -37,7 +35,7 @@ class RelevanceProcessor:
     def __init__(self):
         if GOOGLE_AI_AVAILABLE:
             self.client = genai.Client(
-                api_key=Config.GEMINI_API_KEY,
+                api_key=Config.OPENROUTER_API_KEY,
                 vertexai=False
             )
             self.model = Config.MODEL_NAME

@@ -6,12 +6,15 @@ load_dotenv()
 
 class Config:
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-    MODEL_NAME = "gemini-2.5-flash-lite"
+    OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+    MODEL_NAME = "z-ai/glm-5.3-flash"  # served through OpenRouter
     GENERATION_CONFIG = {
         "temperature": 0.5,
         "top_p": 0.95,
         "top_k": 40,
-        "max_output_tokens": 1024
+        # Raised from 1024: GLM spends part of this budget on hidden reasoning,
+        # so dense pages were cut off before the transcription finished
+        "max_output_tokens": 8192
     }
     
     # File upload settings
