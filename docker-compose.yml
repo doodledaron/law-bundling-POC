@@ -66,6 +66,7 @@ services:
       - .:/app
       - uploads_data:/app/uploads
       - results_data:/app/results
+      - paddlex_models:/root/.paddlex/official_models # Pinned OCR models (no re-download on recreate)
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
@@ -123,6 +124,7 @@ services:
       - .:/app
       - uploads_data:/app/uploads
       - results_data:/app/results
+      - paddlex_models:/root/.paddlex/official_models # Pinned OCR models (no re-download on recreate)
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
@@ -180,6 +182,7 @@ services:
       - .:/app
       - uploads_data:/app/uploads
       - results_data:/app/results
+      - paddlex_models:/root/.paddlex/official_models # Pinned OCR models (no re-download on recreate)
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
@@ -237,6 +240,7 @@ services:
       - .:/app
       - uploads_data:/app/uploads
       - results_data:/app/results
+      - paddlex_models:/root/.paddlex/official_models # Pinned OCR models (no re-download on recreate)
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
@@ -294,6 +298,7 @@ services:
       - .:/app
       - uploads_data:/app/uploads
       - results_data:/app/results
+      - paddlex_models:/root/.paddlex/official_models # Pinned OCR models (no re-download on recreate)
     environment:
       - PYTHONUNBUFFERED=1
       - REDIS_URL=redis://redis:6379/0
@@ -340,6 +345,12 @@ services:
       dockerfile: Dockerfile.lite # Use lightweight image
     container_name: law-worker-maintenance
     command: celery -A celery_config worker -Q maintenance -l info --concurrency=1 --hostname=worker-maintenance@%h # Dedicated maintenance worker
+    healthcheck:
+      test: ["CMD-SHELL", "celery -A celery_config inspect ping -d worker-maintenance@$$HOSTNAME --timeout 10 | grep -q pong"]
+      interval: 60s
+      timeout: 30s
+      retries: 3
+      start_period: 60s
     volumes:
       - .:/app
     environment:
@@ -368,6 +379,8 @@ services:
       dockerfile: Dockerfile.lite # Use lightweight image
     container_name: law-beat
     command: celery -A celery_config beat -l info # Start Celery Beat to schedule periodic tasks
+    healthcheck:
+      disable: true # Beat serves no port; Dockerfile.lite's API healthcheck does not apply
     volumes:
       - .:/app
     environment:
@@ -395,6 +408,12 @@ services:
     container_name: law-flower
     working_dir: /app
     command: celery -A celery_config flower --port=5555 # Simplified Flower configuration
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5555/healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
     ports:
       - "5555:5555" # Expose Flower dashboard
     volumes:
@@ -427,6 +446,8 @@ volumes:
   uploads_data:
     driver: local
   results_data:
+    driver: local
+  paddlex_models: # PaddleX OCR model files, shared by all document workers
     driver: local
 
 # Network configuration

@@ -34,8 +34,12 @@ ENV LD_LIBRARY_PATH=${CUDA_HOME}/lib64:${LD_LIBRARY_PATH}
 # Create symlink for libcuda.so.1
 RUN ln -s /usr/local/cuda/lib64/libcuda.so /usr/lib/libcuda.so.1
 
-# Copy requirements file
-COPY requirements.txt .
+# Copy requirements file and the exact-version constraints for this image
+COPY requirements.txt constraints-worker.txt ./
+
+# Every pip install below is held to constraints-worker.txt, so a rebuild reproduces the
+# tested environment instead of pulling newer transitive packages (e.g. kombu>=5.7 needs redis-py>=6.1).
+ARG PIP_CONSTRAINT=/app/constraints-worker.txt
 
 # Install all requirements from requirements.txt, forcing reinstall of conflicting packages
 RUN pip install --no-cache-dir --ignore-installed PyYAML -r requirements.txt
