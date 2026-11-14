@@ -1,29 +1,36 @@
 # Lightweight requirements for API, maintenance, beat, and flower workers
 # Excludes heavy ML dependencies like PaddlePaddle, OpenCV, etc.
+# Requires Python >= 3.11 (Pillow 13, Starlette 1.x, python-multipart 0.0.31+)
 
 # Core framework
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
+fastapi==0.162.7
+starlette==1.10.0
+uvicorn[standard]==0.54.0
 
-# Celery and Redis
+# Celery and Redis (kept in step with the worker images)
 celery==5.3.4
 redis==5.0.1
 flower==2.0.1
+# Pinned to match the running workers; kombu>=5.7 requires redis-py>=6.1
+kombu==5.6.2
+billiard==4.2.4
+amqp==5.3.1
+vine==5.1.0
 
 # Basic utilities
-python-multipart==0.0.22
-python-dotenv==1.0.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
+python-multipart==0.0.33
+python-dotenv==1.2.4
+pydantic==2.14.3
+pydantic-settings==2.16.3
 pdf2image==1.16.3
 
 # HTTP and JSON
-requests==2.32.4
+requests==2.34.2
+urllib3==2.8.0
 httpx==0.25.2
 
 # File handling (basic)
 python-magic==0.4.27
-pathlib
 
 # Date/time
 python-dateutil==2.8.2
@@ -31,12 +38,11 @@ python-dateutil==2.8.2
 # Logging and monitoring
 psutil==5.9.6
 
-# AI/ML (minimal)
-google-genai==0.7.0
-pillow==12.1.1
+# Image handling
+pillow==13.0.0
 
 # Template engine
 jinja2==3.1.6
 
 # Development
-pytest==7.4.3 
+pytest==9.2.0

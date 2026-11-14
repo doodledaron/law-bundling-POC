@@ -25,6 +25,21 @@ logger = logging.getLogger(__name__)
 # Initialize Jinja2 templates
 templates = Jinja2Templates(directory="templates")
 
+# Starlette 0.29 added TemplateResponse(request, name, context) and 1.x removed the old
+# TemplateResponse(name, context) form. Support both so this code runs on old and new images.
+_jinja_response = templates.TemplateResponse
+try:
+    from starlette import __version__ as _starlette_version
+    _REQUEST_FIRST = tuple(int(p) for p in _starlette_version.split(".")[:2]) >= (0, 29)
+except Exception:
+    _REQUEST_FIRST = True
+
+
+def _template_response(request, name, context, **kwargs):
+    if _REQUEST_FIRST:
+        return _jinja_response(request, name, context, **kwargs)
+    return _jinja_response(name, context, **kwargs)
+
 dev_router = APIRouter(prefix="/dev", tags=["dev"])
 
 
@@ -43,7 +58,7 @@ async def dev_root(request: Request):
     """
     Render the main upload page (development interface)
     """
-    return templates.TemplateResponse("index.html", {"request": request})
+    return _template_response(request, "index.html", {"request": request})
 
 @dev_router.get("/bulk", response_class=HTMLResponse)
 async def dev_bulk_processing_page(request: Request, jobs: str = None):
@@ -61,14 +76,14 @@ async def dev_bulk_processing_page(request: Request, jobs: str = None):
         })
         print(f"Bulk processing page loaded with {len(job_ids)} job IDs: {job_ids}")
     
-    return templates.TemplateResponse("bulk_processing.html", template_data)
+    return _template_response(request, "bulk_processing.html", template_data)
 
 @dev_router.get("/results-list", response_class=HTMLResponse)
 async def dev_results_page(request: Request):
     """
     Render the results list page (development interface)
     """
-    return templates.TemplateResponse("results_list.html", {"request": request})
+    return _template_response(request, "results_list.html", {"request": request})
 
 
 @dev_router.get("/api/results")
@@ -129,7 +144,8 @@ async def dev_bulk_upload(request: Request, files: List[UploadFile] = File(...))
     """
     try:
         if not files or len(files) == 0:
-            return templates.TemplateResponse(
+            return _template_response(
+                request,
                 "index.html",
                 {"request": request, "error": "No files were uploaded"},
                 status_code=400
@@ -226,14 +242,16 @@ async def dev_bulk_upload(request: Request, files: List[UploadFile] = File(...))
         # If no files were successfully submitted
         if not job_ids:
             error_message = "No files could be processed. " + "; ".join(errors)
-            return templates.TemplateResponse(
+            return _template_response(
+                request,
                 "index.html",
                 {"request": request, "error": error_message},
                 status_code=400
             )
         
         # Redirect to bulk submission confirmation page (similar to single upload flow)
-        return templates.TemplateResponse(
+        return _template_response(
+            request,
             "bulk_submitted.html",
             {
                 "request": request,
@@ -248,7 +266,8 @@ async def dev_bulk_upload(request: Request, files: List[UploadFile] = File(...))
     except Exception as e:
         error_message = f"Bulk upload failed: {str(e)}"
         print(error_message)
-        return templates.TemplateResponse(
+        return _template_response(
+            request,
             "index.html",
             {"request": request, "error": error_message},
             status_code=500
@@ -270,14 +289,16 @@ async def dev_upload_file(request: Request, file: UploadFile = File(...)):
             contents = await file.read()
         except Exception as e:
             error_message = f"Error reading file: {str(e)}"
-            return templates.TemplateResponse(
+            return _template_response(
+                request,
                 "index.html",
                 {"request": request, "error": error_message},
                 status_code=500
             )
 
         if not contents:
-            return templates.TemplateResponse(
+            return _template_response(
+                request,
                 "index.html",
                 {"request": request, "error": ERROR_MESSAGES["empty_file"]},
                 status_code=400
@@ -285,7 +306,8 @@ async def dev_upload_file(request: Request, file: UploadFile = File(...)):
 
         # Validate file type
         if file.content_type not in ("image/jpeg", "image/png", "application/pdf"):
-            return templates.TemplateResponse(
+            return _template_response(
+                request,
                 "index.html",
                 {"request": request, "error": ERROR_MESSAGES["invalid_type"]},
                 status_code=400
@@ -359,7 +381,8 @@ async def dev_upload_file(request: Request, file: UploadFile = File(...)):
                 'updated_at': get_timestamp()
             })
 
-            return templates.TemplateResponse(
+            return _template_response(
+                request,
                 "index.html",
                 {"request": request, "error": f"Failed to submit to worker containers: {str(e)}"},
                 status_code=500
@@ -367,7 +390,8 @@ async def dev_upload_file(request: Request, file: UploadFile = File(...)):
 
         
         # Render submission confirmation
-        return templates.TemplateResponse(
+        return _template_response(
+            request,
             "submitted.html",
             {
                 "request": request,
@@ -378,7 +402,8 @@ async def dev_upload_file(request: Request, file: UploadFile = File(...)):
     
     except Exception as e:
         error_message = f"An unexpected error occurred: {str(e)}"
-        return templates.TemplateResponse(
+        return _template_response(
+            request,
             "index.html",
             {"request": request, "error": error_message},
             status_code=500
@@ -395,7 +420,8 @@ async def dev_get_job_status(request: Request, job_id: str):
         job_data = redis_client.get(f"job:{job_id}")
         
         if not job_data:
-            return templates.TemplateResponse(
+            return _template_response(
+                request,
                 "index.html",
                 {"request": request, "error": "Job not found"},
                 status_code=404
@@ -485,7 +511,8 @@ async def dev_get_job_status(request: Request, job_id: str):
                 }
                 
                 # Render results template with new data
-                return templates.TemplateResponse(
+                return _template_response(
+                    request,
                     "result.html",
                     template_data
                 )
@@ -495,7 +522,8 @@ async def dev_get_job_status(request: Request, job_id: str):
                 print(f"Error retrieving results for job {job_id}: {str(e)}")
         
         # For in-progress or failed jobs, show status
-        return templates.TemplateResponse(
+        return _template_response(
+            request,
             "status.html",
             {
                 "request": request,
@@ -507,7 +535,8 @@ async def dev_get_job_status(request: Request, job_id: str):
     except Exception as e:
         error_message = f"Error retrieving job status: {str(e)}"
         print(error_message)  # Log the error
-        return templates.TemplateResponse(
+        return _template_response(
+            request,
             "index.html",
             {"request": request, "error": error_message},
             status_code=500

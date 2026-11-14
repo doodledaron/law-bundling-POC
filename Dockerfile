@@ -42,13 +42,15 @@ RUN pip install --no-cache-dir --ignore-installed PyYAML -r requirements.txt
 # RUN pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
 
 # Install PaddleX (but skip hpi-gpu during build - will install at runtime)
-RUN pip install --no-cache-dir paddlex
+# Pinned to the version the running workers use, so a rebuild can't silently change OCR
+RUN pip install --no-cache-dir paddlex==3.0.0
 
 # Ensure compatible versions and fix potential conflicts
+# Pillow 12.3.0 is the newest release that supports Python 3.10 (the Paddle base image).
 RUN pip install --no-cache-dir --force-reinstall \
     opencv-python-headless==4.6.0.66 \
     numpy==1.24.3 \
-    pillow==12.1.1
+    pillow==12.3.0
 
 # Create necessary directories with proper permissions
 RUN mkdir -p uploads results chunks \
